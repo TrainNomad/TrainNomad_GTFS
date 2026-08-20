@@ -13,15 +13,21 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "sncf_temp.db")
 GZ_PATH = os.path.join(BASE_DIR, "sncf.db.gz")
 
-def detect_train_type(row):
-    name = f"{row.get('route_long_name', '')} {row.get('route_short_name', '')}".upper()
-    if "OUIGO" in name:
+def detect_train_type_from_stop(stop_id):
+    """
+    Détecte le type de transport à partir du préfixe / contenu du stop_id.
+    """
+    if not isinstance(stop_id, str):
+        return "TRAIN"
+        
+    sid = stop_id.upper()
+    if "OUIGO" in sid:
         return "OUIGO"
-    if "TER" in name:
+    if "TER" in sid:
         return "TER"
-    if "INTERCITÉS" in name or "INTERCITES" in name or "IC" in name:
+    if "INTERCITES" in sid or "INTERCITÉS" in sid or "IC" in sid:
         return "INTERCITÉS"
-    if "TGV" in name or "INOUI" in name:
+    if "TGV" in sid or "INOUI" in sid:
         return "TGV INOUI"
     return "TRAIN"
 
@@ -106,11 +112,23 @@ def build_sqlite_gtfs():
         stops['stop_lon'] = pd.to_numeric(stops['stop_lon'], errors='coerce')
         stops[['stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'clean_uic']].to_sql('stops', conn, if_exists='append', index=False)
 
+# 2. Routes (Association du train_type via les stop_id des stop_times)
         print("3. Indexation des lignes (routes)...")
-        routes = pd.read_csv(z.open('routes.txt'), usecols=['route_id', 'route_short_name', 'route_long_name'], dtype=str)
-        routes['train_type'] = routes.apply(detect_train_type, axis=1)
+        routes = pd.read_csv(z.open('routes.txt'), usecols=['route_id'], dtype=str)
+        
+        # Lecture rapide des stop_times pour déduire le type de train par route
+        stop_times = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'stop_id'], dtype=str)
+        trips = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id'], dtype=str)
+        
+        # Jointure pour associer route_id -> stop_id
+        merged = stop_times.merge(trips, on='trip_id', how='inner')
+        merged['train_type'] = merged['stop_id'].apply(detect_train_type_from_stop)
+        
+        # Attribuer le type de train prédominant par route_id
+        route_types = merged.groupby('route_id')['train_type'].agg(lambda x: x.mode()[0] if not x.empty else "TRAIN").reset_index()
+        
+        routes = routes.merge(route_types, on='route_id', how='left').fillna({'train_type': 'TRAIN'})
         routes[['route_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
-
         print("4. Indexation des trajets (trips)...")
         trips = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
         trips[['trip_id', 'route_id', 'service_id', 'trip_headsign']].to_sql('trips', conn, if_exists='append', index=False)
