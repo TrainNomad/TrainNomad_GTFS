@@ -2,9 +2,8 @@ name: Ingestion Hebdomadaire GTFS SNCF
 
 on:
   schedule:
-    # Exécution chaque dimanche à 3h00 UTC
     - cron: '0 3 * * 0'
-  workflow_dispatch: # Déclenchement manuel
+  workflow_dispatch:
 
 jobs:
   build-and-update:
@@ -18,21 +17,21 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.13'
-        cache: 'pip'
+        # Désactivé 'cache: pip' pour éviter la recherche automatique de requirements.txt à la racine
 
     - name: Installer les dépendances
       run: |
         python -m pip install --upgrade pip
         pip install pandas requests
 
-    - name: Exécuter l'ingestion du fichier GTFS SNCF
+    - name: Exécuter l'ingestion GTFS SNCF
       run: |
-        python ingest_sncf_gtfs.py
+        python SNCF/ingest_sncf_gtfs.py
 
-    - name: Commit et Push du fichier sncf.db.gz
+    - name: Commit et Push du fichier SNCF/sncf.db.gz
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add gtfs/sncf/sncf.db.gz
-        git commit -m "Auto-update: Mise à jour GTFS SNCF (gtfs/sncf/sncf.db.gz)" || exit 0
+        git add SNCF/sncf.db.gz
+        git commit -m "Auto-update: Mise à jour GTFS SNCF (SNCF/sncf.db.gz)" || exit 0
         git push
