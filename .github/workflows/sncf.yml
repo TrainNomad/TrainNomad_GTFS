@@ -17,7 +17,6 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.13'
-        # Désactivé 'cache: pip' pour éviter la recherche automatique de requirements.txt à la racine
 
     - name: Installer les dépendances
       run: |
@@ -28,10 +27,14 @@ jobs:
       run: |
         python SNCF/ingest_sncf_gtfs.py
 
+    - name: Vérifier la présence du fichier généré
+      run: |
+        ls -la SNCF/
+
     - name: Commit et Push du fichier SNCF/sncf.db.gz
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add SNCF/sncf.db.gz
+        git add -f SNCF/sncf.db.gz
         git commit -m "Auto-update: Mise à jour GTFS SNCF (SNCF/sncf.db.gz)" || exit 0
         git push
