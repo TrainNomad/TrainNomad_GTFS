@@ -1,0 +1,34 @@
+[
+  {
+    "id": "SNCF",
+    "name": "SNCF",
+    "enabled": true,
+    "gtfs_dir": "./SNCF",
+    "db_gz_path": "./SNCF/sncf.db.gz",
+    "script_path": "./SNCF/ingest_sncf_gtfs.py",
+    "gtfs_url": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip",
+    "transport_types": [
+      "Car TER",
+      "Car à réservation",
+      "ICE",
+      "INTERCITES",
+      "Lyria",
+      "OUIGO",
+      "TGV INOUI",
+      "Train TER",
+      "TramTrain"
+    ]
+  },
+  {
+    "id": "EUROSTAR",
+    "name": "Eurostar",
+    "enabled": false,
+    "gtfs_dir": "./gtfs/eurostar",
+    "db_gz_path": "./gtfs/eurostar/eurostar.db.gz",
+    "gtfs_url": "https://integration-storage.dm.eurostar.com/gtfs-prod/gtfs_static_commercial_v2.zip",
+    "transport_types": [
+      "Eurostar",
+      "Thalys"
+    ]
+  }
+]
