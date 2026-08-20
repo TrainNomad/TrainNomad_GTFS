@@ -10,12 +10,8 @@ import requests
 GTFS_URL = "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# Dossier de destination : ./gtfs/sncf/
-OUTPUT_DIR = os.path.join(BASE_DIR, "gtfs", "sncf")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-DB_PATH = os.path.join(OUTPUT_DIR, "sncf_temp.db")
-GZ_PATH = os.path.join(OUTPUT_DIR, "sncf.db.gz")
+DB_PATH = os.path.join(BASE_DIR, "sncf_temp.db")
+GZ_PATH = os.path.join(BASE_DIR, "sncf.db.gz")
 
 def detect_train_type(row):
     name = f"{row.get('route_long_name', '')} {row.get('route_short_name', '')}".upper()
@@ -103,7 +99,6 @@ def build_sqlite_gtfs():
     response.raise_for_status()
 
     with zipfile.ZipFile(io.BytesIO(response.content)) as z:
-        # 1. Stops
         print("2. Indexation des gares (stops)...")
         stops = pd.read_csv(z.open('stops.txt'), usecols=['stop_id', 'stop_name', 'stop_lat', 'stop_lon'], dtype=str)
         stops['clean_uic'] = stops['stop_id'].str.extract(r'(\d+)')
@@ -111,25 +106,21 @@ def build_sqlite_gtfs():
         stops['stop_lon'] = pd.to_numeric(stops['stop_lon'], errors='coerce')
         stops[['stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'clean_uic']].to_sql('stops', conn, if_exists='append', index=False)
 
-        # 2. Routes
         print("3. Indexation des lignes (routes)...")
         routes = pd.read_csv(z.open('routes.txt'), usecols=['route_id', 'route_short_name', 'route_long_name'], dtype=str)
         routes['train_type'] = routes.apply(detect_train_type, axis=1)
         routes[['route_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
-        # 3. Trips
         print("4. Indexation des trajets (trips)...")
         trips = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
         trips[['trip_id', 'route_id', 'service_id', 'trip_headsign']].to_sql('trips', conn, if_exists='append', index=False)
 
-        # 4. Calendar Dates
         print("5. Indexation des dates de circulation (calendar_dates)...")
         calendar = pd.read_csv(z.open('calendar_dates.txt'), usecols=['service_id', 'date', 'exception_type'], dtype=str)
         calendar['date'] = pd.to_datetime(calendar['date'], format='%Y%m%d').dt.strftime('%Y-%m-%d')
         calendar['exception_type'] = calendar['exception_type'].astype(int)
         calendar[['service_id', 'date', 'exception_type']].to_sql('calendar_dates', conn, if_exists='append', index=False)
 
-        # 5. Stop Times
         print("6. Indexation des horaires (stop_times)...")
         chunksize = 100000
         use_cols = ['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence']
@@ -155,17 +146,19 @@ def build_sqlite_gtfs():
     conn.execute("ANALYZE;")
     conn.close()
 
-    # Compression en gtfs/sncf/sncf.db.gz
     print(f"8. Compression en fichier {GZ_PATH}...")
     with open(DB_PATH, 'rb') as f_in:
         with gzip.open(GZ_PATH, 'wb', compresslevel=9) as f_out:
             shutil.copyfileobj(f_in, f_out)
 
+    if os.path.exists(DB_PATH):
+        os.remove(DB_PATH)
+
+    if not os.path.exists(GZ_PATH):
+        raise FileNotFoundError(f"❌ Le fichier {GZ_PATH} n'a pas pu être créé !")
+
     gz_size_mb = os.path.getsize(GZ_PATH) / (1024 * 1024)
     print(f"✅ Base SNCF générée avec succès : {GZ_PATH} ({gz_size_mb:.2f} Mo)")
-
-    # Suppression du fichier temporaire non compressé
-    os.remove(DB_PATH)
 
 if __name__ == '__main__':
     build_sqlite_gtfs()

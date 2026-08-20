@@ -25,11 +25,8 @@ jobs:
 
     - name: Exécuter l'ingestion GTFS SNCF
       run: |
-        python SNCF/ingest_sncf_gtfs.py
-
-    - name: Vérifier la présence du fichier généré
-      run: |
-        ls -la SNCF/
+        cd SNCF
+        python ingest_sncf_gtfs.py
 
     - name: Commit et Push du fichier SNCF/sncf.db.gz
       run: |
