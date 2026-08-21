@@ -1,6 +1,6 @@
 {
-  "total_raw_stops": 9104,
+  "total_raw_stops": 9105,
   "unique_canonical_stops": 3498,
-  "merges_uic": 5468,
+  "merges_uic": 5469,
   "merges_geoloc": 138
 }
