@@ -277,6 +277,15 @@ class GTFSHarmonizer:
                 departure_time TEXT,
                 stop_id TEXT,
                 stop_sequence INTEGER,
+                operator_id TEXT,
+                dep_min INTEGER
+            );
+
+            -- AJOUT DE LA TABLE CALENDAR_DATES
+            CREATE TABLE calendar_dates (
+                service_id TEXT,
+                date TEXT,
+                exception_type INTEGER,
                 operator_id TEXT
             );
         """)
