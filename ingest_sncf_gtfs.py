@@ -17,13 +17,14 @@ OPERATORS_FILE = os.path.join(BASE_DIR, "operators.json")
 OUTPUT_DB_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db")
 OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db.gz")
 
-# Plage de 60 jours glissants
+# Plage de 60 jours glissants à partir d'aujourd'hui
 TODAY = datetime.now()
 DATE_START = TODAY.strftime("%Y-%m-%d")
 DATE_END = (TODAY + timedelta(days=60)).strftime("%Y-%m-%d")
 
 
 def detect_train_type(row):
+    # Analyse combinée des noms courts et longs pour isoler le type
     name = f"{row.get('route_long_name', '')} {row.get('route_short_name', '')}".upper()
     if "OUIGO" in name:
         return "OUIGO"
@@ -124,7 +125,7 @@ def build_sqlite_gtfs():
             "gtfs_url": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip"
         }]
 
-    logging.info(f"📅 Filtrage des dates : du {DATE_START} au {DATE_END} (60 jours)")
+    logging.info(f"📅 Dates conservées : {DATE_START} à {DATE_END}")
 
     for op in operators:
         if not op.get("enabled", True):
@@ -132,45 +133,43 @@ def build_sqlite_gtfs():
 
         op_id = op["id"]
         url = op["gtfs_url"]
-        logging.info(f"📥 Téléchargement GTFS pour {op_id}...")
+        logging.info(f"📥 Téléchargement GTFS {op_id}...")
 
         res = requests.get(url, stream=True, timeout=180)
         res.raise_for_status()
 
         with zipfile.ZipFile(io.BytesIO(res.content)) as z:
-            # 1. Stops
-            logging.info(f"[{op_id}] 1/5 Indexation des stops...")
+            # 1. STOPS (Conservation intégrale de tous les arrêts)
+            logging.info(f"[{op_id}] 1/5 Indexation des gares (stops)...")
             stops = pd.read_csv(z.open('stops.txt'), usecols=['stop_id', 'stop_name', 'stop_lat', 'stop_lon'], dtype=str)
-            stops['clean_uic'] = stops['stop_id'].str.extract(r'(\d{7,8})')
+            stops['clean_uic'] = stops['stop_id'].str.extract(r'(\d+)')
             stops['stop_lat'] = pd.to_numeric(stops['stop_lat'], errors='coerce')
             stops['stop_lon'] = pd.to_numeric(stops['stop_lon'], errors='coerce')
+            stops.drop_duplicates(subset=['stop_id'], inplace=True)
             stops[['stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'clean_uic']].to_sql(
                 'stops', conn, if_exists='append', index=False
             )
 
-            # 2. Routes
-            logging.info(f"[{op_id}] 2/5 Indexation des routes...")
-            routes = pd.read_csv(z.open('routes.txt'), dtype=str)
+            # 2. ROUTES (Détection exacte du type de train)
+            logging.info(f"[{op_id}] 2/5 Indexation des lignes (routes)...")
+            routes = pd.read_csv(z.open('routes.txt'), usecols=['route_id', 'route_short_name', 'route_long_name'], dtype=str)
             routes['operator_id'] = op_id
             routes['train_type'] = routes.apply(detect_train_type, axis=1)
             routes[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
-            # 3. Calendar Dates (Limité aux 60 prochains jours)
-            logging.info(f"[{op_id}] 3/5 Indexation de calendar_dates (60 jours max)...")
+            # 3. CALENDAR_DATES (Restreint aux 60 prochains jours)
+            logging.info(f"[{op_id}] 3/5 Indexation de calendar_dates...")
             calendar = pd.read_csv(z.open('calendar_dates.txt'), usecols=['service_id', 'date', 'exception_type'], dtype=str)
             calendar['date'] = pd.to_datetime(calendar['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
-
-            # Filtre strict : [Aujourd'hui, Aujourd'hui + 60j]
             calendar = calendar[(calendar['date'] >= DATE_START) & (calendar['date'] <= DATE_END)]
             calendar['exception_type'] = calendar['exception_type'].astype(int)
             calendar['operator_id'] = op_id
             calendar[['service_id', 'date', 'exception_type', 'operator_id']].to_sql('calendar_dates', conn, if_exists='append', index=False)
 
-            # Conserver uniquement les service_id actifs sur cette période de 60j
             active_services = set(calendar['service_id'].unique())
 
-            # 4. Trips (Filtrés selon les services actifs)
-            logging.info(f"[{op_id}] 4/5 Indexation des trips...")
+            # 4. TRIPS (Liés aux services des 60 jours)
+            logging.info(f"[{op_id}] 4/5 Indexation des trajets (trips)...")
             trips = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
             trips = trips[trips['service_id'].isin(active_services)]
             trips['operator_id'] = op_id
@@ -178,8 +177,8 @@ def build_sqlite_gtfs():
 
             active_trips = set(trips['trip_id'].unique())
 
-            # 5. Stop Times (Filtrés selon les trips actifs)
-            logging.info(f"[{op_id}] 5/5 Indexation de stop_times...")
+            # 5. STOP_TIMES
+            logging.info(f"[{op_id}] 5/5 Indexation des horaires (stop_times)...")
             def to_min(t_str):
                 if not isinstance(t_str, str) or ':' not in t_str:
                     return 0
@@ -217,7 +216,7 @@ def build_sqlite_gtfs():
             shutil.copyfileobj(f_in, f_out)
 
     gz_size_mb = os.path.getsize(OUTPUT_GZ_PATH) / (1024 * 1024)
-    logging.info(f"✅ Fichier final : {OUTPUT_GZ_PATH} ({gz_size_mb:.2f} Mo)")
+    logging.info(f"✅ Fichier gzippé : {OUTPUT_GZ_PATH} ({gz_size_mb:.2f} Mo)")
 
 
 if __name__ == '__main__':
