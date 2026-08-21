@@ -2,15 +2,13 @@ import gzip
 import io
 import json
 import logging
-import math
 import os
-import re
 import shutil
 import sqlite3
 import zipfile
+from datetime import datetime, timedelta
 import pandas as pd
 import requests
-import unicodedata
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
@@ -19,157 +17,208 @@ OPERATORS_FILE = os.path.join(BASE_DIR, "operators.json")
 OUTPUT_DB_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db")
 OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db.gz")
 
-
-def time_to_minutes(time_str: str) -> int:
-    if not isinstance(time_str, str) or not time_str:
-        return 0
-    try:
-        parts = time_str.split(':')
-        return int(parts[0]) * 60 + int(parts[1])
-    except Exception:
-        return 0
+# Plage de 60 jours glissants
+TODAY = datetime.now()
+DATE_START = TODAY.strftime("%Y-%m-%d")
+DATE_END = (TODAY + timedelta(days=60)).strftime("%Y-%m-%d")
 
 
-def extract_uic_numeric(val: str) -> int:
-    if not isinstance(val, str):
-        return 0
-    m = re.search(r'(\d{7,8})', val)
-    return int(m.group(1)) if m else 0
+def detect_train_type(row):
+    name = f"{row.get('route_long_name', '')} {row.get('route_short_name', '')}".upper()
+    if "OUIGO" in name:
+        return "OUIGO"
+    if "TER" in name:
+        return "TER"
+    if "INTERCITÉS" in name or "INTERCITES" in name or "IC" in name:
+        return "INTERCITÉS"
+    if "TGV" in name or "INOUI" in name:
+        return "TGV INOUI"
+    if "EUROSTAR" in name:
+        return "EUROSTAR"
+    return "TRAIN"
 
 
-def build_denormalized_db():
-    if os.path.exists(OUTPUT_DB_PATH):
-        os.remove(OUTPUT_DB_PATH)
-
-    conn = sqlite3.connect(OUTPUT_DB_PATH)
+def init_db(conn):
     cursor = conn.cursor()
+    cursor.execute("PRAGMA journal_mode = OFF;")
+    cursor.execute("PRAGMA synchronous = OFF;")
 
-    # Création exacte du schéma de votre .db
     cursor.executescript("""
+        DROP TABLE IF EXISTS stops;
+        DROP TABLE IF EXISTS routes;
+        DROP TABLE IF EXISTS trips;
+        DROP TABLE IF EXISTS stop_times;
+        DROP TABLE IF EXISTS calendar_dates;
+
+        CREATE TABLE stops (
+            stop_id TEXT PRIMARY KEY,
+            stop_name TEXT,
+            stop_lat REAL,
+            stop_lon REAL,
+            clean_uic TEXT
+        );
+
+        CREATE TABLE routes (
+            route_id TEXT PRIMARY KEY,
+            operator_id TEXT,
+            train_type TEXT
+        );
+
         CREATE TABLE trips (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            date TEXT NOT NULL,
-            origin_id INTEGER NOT NULL,
-            origin_parent_id INTEGER NOT NULL,
-            origin_name TEXT NOT NULL,
-            origin_parent_name TEXT NOT NULL,
-            origin_lat REAL,
-            origin_lon REAL,
-            destination_id INTEGER NOT NULL,
-            destination_parent_id INTEGER NOT NULL,
-            destination_name TEXT NOT NULL,
-            destination_parent_name TEXT NOT NULL,
-            dest_lat REAL,
-            dest_lon REAL,
-            departure_time TEXT NOT NULL,
-            arrival_time TEXT NOT NULL,
-            dep_min INTEGER NOT NULL,
-            arr_min INTEGER NOT NULL,
-            train_no TEXT,
-            train_type TEXT NOT NULL
+            trip_id TEXT PRIMARY KEY,
+            route_id TEXT,
+            service_id TEXT,
+            trip_headsign TEXT,
+            operator_id TEXT
+        );
+
+        CREATE TABLE stop_times (
+            trip_id TEXT,
+            arrival_time TEXT,
+            departure_time TEXT,
+            stop_id TEXT,
+            stop_sequence INTEGER,
+            dep_min INTEGER,
+            operator_id TEXT
+        );
+
+        CREATE TABLE calendar_dates (
+            service_id TEXT,
+            date TEXT,
+            exception_type INTEGER,
+            operator_id TEXT
         );
     """)
+    conn.commit()
 
-    with open(OPERATORS_FILE, "r", encoding="utf-8") as f:
-        operators = json.load(f)
+
+def create_indexes(conn):
+    logging.info("⚡ Création des index SQL...")
+    cursor = conn.cursor()
+    cursor.executescript("""
+        CREATE INDEX IF NOT EXISTS idx_stops_uic ON stops(clean_uic);
+        CREATE INDEX IF NOT EXISTS idx_stop_times_search ON stop_times(stop_id, dep_min);
+        CREATE INDEX IF NOT EXISTS idx_stop_times_trip ON stop_times(trip_id, stop_sequence);
+        CREATE INDEX IF NOT EXISTS idx_calendar_search ON calendar_dates(service_id, date, exception_type);
+        CREATE INDEX IF NOT EXISTS idx_trips_route ON trips(route_id);
+    """)
+    conn.commit()
+
+
+def build_sqlite_gtfs():
+    if os.path.exists(OUTPUT_DB_PATH):
+        os.remove(OUTPUT_DB_PATH)
+    if os.path.exists(OUTPUT_GZ_PATH):
+        os.remove(OUTPUT_GZ_PATH)
+
+    conn = sqlite3.connect(OUTPUT_DB_PATH)
+    init_db(conn)
+
+    if os.path.exists(OPERATORS_FILE):
+        with open(OPERATORS_FILE, "r", encoding="utf-8") as f:
+            operators = json.load(f)
+    else:
+        operators = [{
+            "id": "SNCF",
+            "enabled": True,
+            "gtfs_url": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip"
+        }]
+
+    logging.info(f"📅 Filtrage des dates : du {DATE_START} au {DATE_END} (60 jours)")
 
     for op in operators:
-        op_id = op["id"]
-        if not op.get("enabled", True) or not op.get("gtfs_url"):
+        if not op.get("enabled", True):
             continue
 
-        logging.info(f"📥 Traitement GTFS pour {op_id}...")
-        res = requests.get(op["gtfs_url"], timeout=120)
-        
+        op_id = op["id"]
+        url = op["gtfs_url"]
+        logging.info(f"📥 Téléchargement GTFS pour {op_id}...")
+
+        res = requests.get(url, stream=True, timeout=180)
+        res.raise_for_status()
+
         with zipfile.ZipFile(io.BytesIO(res.content)) as z:
-            stops_df = pd.read_csv(z.open('stops.txt'), dtype=str)
-            stops_df['uic'] = stops_df['stop_id'].apply(extract_uic_numeric)
-            stops_dict = {}
-            for _, row in stops_df.iterrows():
-                stops_dict[row['stop_id']] = {
-                    "id": extract_uic_numeric(row['stop_id']),
-                    "name": str(row.get('stop_name', '')),
-                    "lat": float(row['stop_lat']) if pd.notnull(row.get('stop_lat')) else 0.0,
-                    "lon": float(row['stop_lon']) if pd.notnull(row.get('stop_lon')) else 0.0,
-                }
+            # 1. Stops
+            logging.info(f"[{op_id}] 1/5 Indexation des stops...")
+            stops = pd.read_csv(z.open('stops.txt'), usecols=['stop_id', 'stop_name', 'stop_lat', 'stop_lon'], dtype=str)
+            stops['clean_uic'] = stops['stop_id'].str.extract(r'(\d{7,8})')
+            stops['stop_lat'] = pd.to_numeric(stops['stop_lat'], errors='coerce')
+            stops['stop_lon'] = pd.to_numeric(stops['stop_lon'], errors='coerce')
+            stops[['stop_id', 'stop_name', 'stop_lat', 'stop_lon', 'clean_uic']].to_sql(
+                'stops', conn, if_exists='append', index=False
+            )
 
-            cd_df = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
-            cd_df = cd_df[cd_df['exception_type'] == '1']
-            service_dates = cd_df.groupby('service_id')['date'].apply(list).to_dict()
+            # 2. Routes
+            logging.info(f"[{op_id}] 2/5 Indexation des routes...")
+            routes = pd.read_csv(z.open('routes.txt'), dtype=str)
+            routes['operator_id'] = op_id
+            routes['train_type'] = routes.apply(detect_train_type, axis=1)
+            routes[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
-            trips_df = pd.read_csv(z.open('trips.txt'), dtype=str)
-            trips_dict = trips_df.set_index('trip_id').to_dict('index')
+            # 3. Calendar Dates (Limité aux 60 prochains jours)
+            logging.info(f"[{op_id}] 3/5 Indexation de calendar_dates (60 jours max)...")
+            calendar = pd.read_csv(z.open('calendar_dates.txt'), usecols=['service_id', 'date', 'exception_type'], dtype=str)
+            calendar['date'] = pd.to_datetime(calendar['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
 
-            st_df = pd.read_csv(z.open('stop_times.txt'), dtype=str)
-            st_df['stop_sequence'] = st_df['stop_sequence'].astype(int)
-            st_df['dep_min'] = st_df['departure_time'].apply(time_to_minutes)
-            st_df['arr_min'] = st_df['arrival_time'].apply(time_to_minutes)
+            # Filtre strict : [Aujourd'hui, Aujourd'hui + 60j]
+            calendar = calendar[(calendar['date'] >= DATE_START) & (calendar['date'] <= DATE_END)]
+            calendar['exception_type'] = calendar['exception_type'].astype(int)
+            calendar['operator_id'] = op_id
+            calendar[['service_id', 'date', 'exception_type', 'operator_id']].to_sql('calendar_dates', conn, if_exists='append', index=False)
 
-            grouped = st_df.groupby('trip_id')
-            records = []
+            # Conserver uniquement les service_id actifs sur cette période de 60j
+            active_services = set(calendar['service_id'].unique())
 
-            for trip_id, group in grouped:
-                if trip_id not in trips_dict:
+            # 4. Trips (Filtrés selon les services actifs)
+            logging.info(f"[{op_id}] 4/5 Indexation des trips...")
+            trips = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+            trips = trips[trips['service_id'].isin(active_services)]
+            trips['operator_id'] = op_id
+            trips[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql('trips', conn, if_exists='append', index=False)
+
+            active_trips = set(trips['trip_id'].unique())
+
+            # 5. Stop Times (Filtrés selon les trips actifs)
+            logging.info(f"[{op_id}] 5/5 Indexation de stop_times...")
+            def to_min(t_str):
+                if not isinstance(t_str, str) or ':' not in t_str:
+                    return 0
+                parts = t_str.split(':')
+                return int(parts[0]) * 60 + int(parts[1])
+
+            chunksize = 200000
+            use_cols = ['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence']
+
+            for chunk in pd.read_csv(z.open('stop_times.txt'), usecols=use_cols, dtype=str, chunksize=chunksize):
+                chunk = chunk[chunk['trip_id'].isin(active_trips)]
+                if chunk.empty:
                     continue
-                
-                t_info = trips_dict[trip_id]
-                service_id = t_info['service_id']
-                dates = service_dates.get(service_id, [])
-                if not dates:
-                    continue
+                chunk['dep_min'] = chunk['departure_time'].apply(to_min)
+                chunk['stop_sequence'] = chunk['stop_sequence'].astype(int)
+                chunk['operator_id'] = op_id
 
-                train_no = t_info.get('trip_headsign', '')
-                train_type = "TGV InOui" if "TGV" in str(trip_id) else ("Eurostar" if op_id.upper() == "EUROSTAR" else "TER")
+                chunk[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
+                    'stop_times', conn, if_exists='append', index=False
+                )
 
-                group = group.sort_values('stop_sequence').to_dict('records')
-                n = len(group)
+    create_indexes(conn)
 
-                for i in range(n):
-                    s1 = group[i]
-                    st1_info = stops_dict.get(s1['stop_id'])
-                    if not st1_info:
-                        continue
-
-                    for j in range(i + 1, n):
-                        s2 = group[j]
-                        st2_info = stops_dict.get(s2['stop_id'])
-                        if not st2_info:
-                            continue
-
-                        # Formater la date en YYYY-MM-DD
-                        for d in dates:
-                            formatted_date = f"{d[:4]}-{d[4:6]}-{d[6:]}" if len(d) == 8 else d
-                            records.append((
-                                formatted_date,
-                                st1_info['id'], st1_info['id'], st1_info['name'], st1_info['name'], st1_info['lat'], st1_info['lon'],
-                                st2_info['id'], st2_info['id'], st2_info['name'], st2_info['name'], st2_info['lat'], st2_info['lon'],
-                                s1['departure_time'], s2['arrival_time'], s1['dep_min'], s2['arr_min'],
-                                train_no, train_type
-                            ))
-
-            cursor.executemany("""
-                INSERT INTO trips (
-                    date, origin_id, origin_parent_id, origin_name, origin_parent_name, origin_lat, origin_lon,
-                    destination_id, destination_parent_id, destination_name, destination_parent_name, dest_lat, dest_lon,
-                    departure_time, arrival_time, dep_min, arr_min, train_no, train_type
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, records)
-
-    # Création des index exacts de la spec
-    cursor.executescript("""
-        CREATE INDEX idx_search_direct ON trips(date, origin_parent_id, destination_parent_id, dep_min);
-        CREATE INDEX idx_search_transfer ON trips(date, origin_parent_id, dep_min, arr_min);
-    """)
-
-    conn.commit()
+    logging.info("🧹 Nettoyage SQL (VACUUM)...")
+    conn.execute("VACUUM;")
+    conn.execute("ANALYZE;")
     conn.close()
 
+    raw_size_mb = os.path.getsize(OUTPUT_DB_PATH) / (1024 * 1024)
+    logging.info(f"📊 Taille SQLite brute : {raw_size_mb:.2f} Mo")
+
+    logging.info("📦 Compression gzippée...")
     with open(OUTPUT_DB_PATH, 'rb') as f_in:
         with gzip.open(OUTPUT_GZ_PATH, 'wb', compresslevel=9) as f_out:
             shutil.copyfileobj(f_in, f_out)
 
-    logging.info("✅ Génération de la base 'trips' terminée avec succès.")
+    gz_size_mb = os.path.getsize(OUTPUT_GZ_PATH) / (1024 * 1024)
+    logging.info(f"✅ Fichier final : {OUTPUT_GZ_PATH} ({gz_size_mb:.2f} Mo)")
 
 
 if __name__ == '__main__':
-    build_denormalized_db()
+    build_sqlite_gtfs()
