@@ -66,7 +66,7 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
 
 
 def extract_train_type_from_stop_id(stop_id: str) -> str:
-    """Extrait le type de train depuis un stop_id SNCF (ex: StopPoint:OCETGV INOUI-71043075)."""
+    """Extrait le type de train depuis un stop_id SNCF."""
     if not isinstance(stop_id, str):
         return ""
     
@@ -122,25 +122,58 @@ class GTFSHarmonizer:
         }
 
     def load_stations_reference(self):
-        """Charge le fichier stations.csv pour en faire la référence officielle des noms de gares."""
+        """Charge le fichier stations.csv pour récupérer la référence des gares, villes et pays."""
         if not os.path.exists(STATIONS_CSV):
-            logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé. Les noms GTFS bruts seront utilisés par défaut.")
+            logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé. Les données GTFS brutes seront utilisées.")
             return
 
         logging.info("📖 Chargement du fichier de référence stations.csv...")
         df = pd.read_csv(STATIONS_CSV, sep=';', dtype=str)
+
+        # Mapping parent_station_id -> name pour résoudre les noms de ville
+        id_to_name = df.set_index('id')['name'].to_dict() if 'id' in df.columns else {}
+        id_to_parent_id = df.set_index('id')['parent_station_id'].to_dict() if 'parent_station_id' in df.columns else {}
 
         for _, row in df.iterrows():
             name = row.get('name')
             if not isinstance(name, str) or not name.strip():
                 continue
 
+            # Extraction du parent/ville
+            s_id = row.get('id')
+            parent_id = id_to_parent_id.get(s_id) if s_id else None
+            
+            # Si un parent_id existe, on prend son nom, sinon on cherche parent_station_name / city, sinon le nom de la gare
+            parent_name = None
+            if parent_id and pd.notnull(parent_id) and str(parent_id) in id_to_name:
+                parent_name = id_to_name[str(parent_id)]
+            elif 'parent_station_name' in row and pd.notnull(row.get('parent_station_name')):
+                parent_name = row.get('parent_station_name')
+            elif 'city' in row and pd.notnull(row.get('city')):
+                parent_name = row.get('city')
+            
+            if not parent_name or not str(parent_name).strip():
+                parent_name = name  # Fallback sur le nom de la gare
+
+            # Extraction du pays (2 lettres ISO, ex: FR, BE, DE, GB, CH)
+            country = str(row.get('country', 'FR')).strip().upper() if pd.notnull(row.get('country')) else 'FR'
+            if len(country) > 2:
+                country = country[:2]
+
             uic7 = str(row.get('uic', '')).strip() if pd.notnull(row.get('uic')) else ''
             uic8 = str(row.get('uic8_sncf', '')).strip() if pd.notnull(row.get('uic8_sncf')) else ''
             lat = float(row['latitude']) if pd.notnull(row.get('latitude')) else None
             lon = float(row['longitude']) if pd.notnull(row.get('longitude')) else None
 
-            info = {'name': name, 'lat': lat, 'lon': lon, 'uic7': uic7, 'uic8': uic8}
+            info = {
+                'name': name,
+                'parent_name': parent_name,
+                'country': country,
+                'lat': lat,
+                'lon': lon,
+                'uic7': uic7,
+                'uic8': uic8
+            }
 
             if uic7:
                 self.stations_reference[uic7] = info
@@ -151,7 +184,7 @@ class GTFSHarmonizer:
                 if len(uic8) == 8 and uic8.startswith("8"):
                     self.stations_reference[uic8[1:]] = info
 
-        logging.info(f"✅ {len(self.stations_reference)} clés UIC de référence chargées.")
+        logging.info(f"✅ {len(self.stations_reference)} clés UIC de référence chargées avec ville et pays.")
 
     def fetch_stops(self):
         """Phase 1 : Extraction des gares GTFS (SNCF, Eurostar, etc.)."""
@@ -193,8 +226,8 @@ class GTFSHarmonizer:
         logging.info(f"✅ {len(self.raw_stops)} arrêts bruts extraits.")
 
     def process_and_deduplicate(self):
-        """Phase 2 : Déduplication et construction de la table canonique."""
-        logging.info("⚡ Déduplication des gares et harmonisation des noms...")
+        """Phase 2 : Déduplication et construction de la table canonique avec ville et pays."""
+        logging.info("⚡ Déduplication des gares et harmonisation des données...")
         uic_index = {}
 
         for stop in self.raw_stops:
@@ -225,12 +258,20 @@ class GTFSHarmonizer:
                 matched_id = f"CANONICAL_UIC_{uic}" if uic else f"CANONICAL_STOP_{len(self.canonical_stops) + 1:06d}"
 
                 official_name = stop['raw_name']
+                parent_name = stop['raw_name']
+                country = "FR"
+
                 if uic and uic in self.stations_reference:
-                    official_name = self.stations_reference[uic]['name']
+                    ref = self.stations_reference[uic]
+                    official_name = ref['name']
+                    parent_name = ref['parent_name']
+                    country = ref['country']
 
                 self.canonical_stops[matched_id] = {
                     "stop_id": matched_id,
                     "stop_name": official_name,
+                    "parent_name": parent_name,
+                    "country": country,
                     "stop_lat": lat,
                     "stop_lon": lon,
                     "uic": uic,
@@ -255,7 +296,7 @@ class GTFSHarmonizer:
         logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
     def build_sqlite(self):
-        """Phase 3 : Écriture dans SQLite."""
+        """Phase 3 : Écriture dans SQLite avec les colonnes parent_name et country."""
         logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
             os.remove(OUTPUT_DB_PATH)
@@ -270,6 +311,8 @@ class GTFSHarmonizer:
             CREATE TABLE stops (
                 stop_id TEXT PRIMARY KEY,
                 stop_name TEXT,
+                parent_name TEXT,
+                country TEXT,
                 stop_lat REAL,
                 stop_lon REAL,
                 uic TEXT,
@@ -310,11 +353,13 @@ class GTFSHarmonizer:
             );
         """)
 
-        # Insertion des gares canoniques
+        # Insertion des gares canoniques avec ville et pays
         stops_rows = [
             (
                 s["stop_id"],
                 s["stop_name"],
+                s["parent_name"],
+                s["country"],
                 s["stop_lat"],
                 s["stop_lon"],
                 s["uic"],
@@ -324,7 +369,7 @@ class GTFSHarmonizer:
             )
             for s in self.canonical_stops.values()
         ]
-        cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
+        cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
         logging.info(f"📅 Insertion de calendar_dates du {DATE_START} au {DATE_END} (60 jours)...")
 
@@ -336,13 +381,12 @@ class GTFSHarmonizer:
             res = requests.get(op["gtfs_url"], timeout=180)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
 
-                # 1. Processing CALENDAR_DATES (Restreint aux 60 prochains jours)
+                # 1. Processing CALENDAR_DATES
                 active_services = set()
                 if 'calendar_dates.txt' in z.namelist():
                     cal = pd.read_csv(z.open('calendar_dates.txt'), usecols=['service_id', 'date', 'exception_type'], dtype=str)
                     cal['date'] = pd.to_datetime(cal['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
                     
-                    # Filtre strict sur la fenêtre de 60 jours
                     cal = cal[(cal['date'] >= DATE_START) & (cal['date'] <= DATE_END)]
                     cal['exception_type'] = cal['exception_type'].astype(int)
                     
@@ -390,7 +434,7 @@ class GTFSHarmonizer:
                         )
 
                 else:
-                    # --- SNCF : Déduction du train_type depuis stop_id ---
+                    # --- SNCF ---
                     stop_type_map = {}
                     if 'stops.txt' in z.namelist():
                         stops_df = pd.read_csv(z.open('stops.txt'), usecols=['stop_id'], dtype=str)
@@ -398,8 +442,6 @@ class GTFSHarmonizer:
                         stop_type_map = stops_df[stops_df['train_type'] != ""].set_index('stop_id')['train_type'].to_dict()
 
                     trip_type_map = {}
-                    active_trips = set()
-                    
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         
@@ -442,10 +484,12 @@ class GTFSHarmonizer:
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
-        # Indexations SQL pour optimiser server.py
+        # Indexations SQL
         logging.info("⚡ Création des index SQL...")
         cursor.executescript("""
             CREATE INDEX idx_stops_uic ON stops(uic);
+            CREATE INDEX idx_stops_parent ON stops(parent_name);
+            CREATE INDEX idx_stops_country ON stops(country);
             CREATE INDEX idx_st_search ON stop_times(stop_id, dep_min);
             CREATE INDEX idx_st_trip ON stop_times(trip_id, stop_sequence);
             CREATE INDEX idx_calendar_search ON calendar_dates(service_id, date, exception_type);
