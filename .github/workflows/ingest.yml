@@ -27,10 +27,10 @@ jobs:
       run: |
         python ingest_sncf_gtfs.py
 
-    - name: Commit et Push de la base GTFS unifiée
+    - name: Commit et push du fichier harmonisé
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add -f gtfs_indexed.db.gz
-        git commit -m "Auto-update: Mise à jour GTFS unifié (gtfs_indexed.db.gz)" || exit 0
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add harmonized_gtfs.db.gz harmonization_report.json
+        git commit -m "Auto-update: Mise à jour GTFS harmonisé" || exit 0
         git push
