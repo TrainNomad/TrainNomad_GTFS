@@ -21,8 +21,8 @@ logging.basicConfig(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OPERATORS_FILE = os.path.join(BASE_DIR, "operators.json")
 STATIONS_CSV = os.path.join(BASE_DIR, "stations.csv")
-OUTPUT_DB_PATH = os.path.join(BASE_DIR, "harmonized_gtfs.db")
-OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "harmonized_gtfs.db.gz")
+OUTPUT_DB_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db")
+OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db.gz")
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
 
