@@ -59,15 +59,51 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return R * 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
 
 
+def determine_train_type_eurostar(row) -> str:
+    """Détermine le type de train Eurostar via la colonne agency_id."""
+    agency_id = str(row.get("agency_id", "")).strip().upper() if pd.notnull(row.get("agency_id")) else ""
+    
+    if "THALYS" in agency_id:
+        return "Eurostar (ex-Thalys)"
+    elif "EUROSTAR" in agency_id:
+        return "Eurostar"
+    
+    return "Eurostar"
+
+
+def determine_train_type_sncf(row) -> str:
+    """Détermine le type de train SNCF via le route_id, route_long_name ou route_short_name."""
+    route_id = str(row.get("route_id", "")).upper() if pd.notnull(row.get("route_id")) else ""
+    long_name = str(row.get("route_long_name", "")).upper() if pd.notnull(row.get("route_long_name")) else ""
+    short_name = str(row.get("route_short_name", "")).upper() if pd.notnull(row.get("route_short_name")) else ""
+    
+    full_text = f"{route_id} {short_name} {long_name}"
+
+    if "TGV INOUI" in full_text or "INOUI" in full_text or "TGV" in full_text:
+        return "TGV InOui"
+    elif "OUIGO" in full_text:
+        return "OUIGO"
+    elif "TER" in full_text:
+        return "TER"
+    elif "INTERCITES" in full_text or "INTERCITÉS" in full_text:
+        return "Intercités"
+    elif "ICE" in full_text:
+        return "ICE"
+    elif "TRANSILIEN" in full_text or "RER" in full_text:
+        return "Transilien"
+    
+    return "Train SNCF"
+
+
 class GTFSHarmonizer:
     def __init__(self):
         with open(OPERATORS_FILE, "r", encoding="utf-8") as f:
             self.operators = json.load(f)
         
-        self.stations_reference = {} # uic_clean -> station_info
+        self.stations_reference = {}  # uic_clean -> station_info
         self.raw_stops = []
-        self.stop_map = {}  # (operator_id, raw_stop_id) -> canonical_stop_id
-        self.canonical_stops = {} # canonical_id -> dict
+        self.stop_map = {}            # (operator_id, raw_stop_id) -> canonical_stop_id
+        self.canonical_stops = {}     # canonical_id -> dict
         
         self.stats = {
             "total_raw_stops": 0,
@@ -151,7 +187,7 @@ class GTFSHarmonizer:
     def process_and_deduplicate(self):
         """Phase 2 : Déduplication et construction de la table canonique."""
         logging.info("⚡ Déduplication des gares et harmonisation des noms...")
-        uic_index = {} # uic -> canonical_id
+        uic_index = {}  # uic -> canonical_id
 
         for stop in self.raw_stops:
             op_id = stop['operator_id']
@@ -180,7 +216,7 @@ class GTFSHarmonizer:
             if not matched_id:
                 matched_id = f"CANONICAL_UIC_{uic}" if uic else f"CANONICAL_STOP_{len(self.canonical_stops) + 1:06d}"
                 
-                # Détermination du nom officiel depuis stations.csv
+                # Nom officiel provenant en priorité de stations.csv
                 official_name = stop['raw_name']
                 if uic and uic in self.stations_reference:
                     official_name = self.stations_reference[uic]['name']
@@ -199,7 +235,7 @@ class GTFSHarmonizer:
                 if uic:
                     uic_index[uic] = matched_id
 
-            # Mise à jour des drapeaux compagnies
+            # Mise à jour des indicateurs de compagnies (1 ou 0)
             target = self.canonical_stops[matched_id]
             if op_id.upper() == "SNCF":
                 target["sncf"] = 1
@@ -257,7 +293,7 @@ class GTFSHarmonizer:
             );
         """)
 
-        # Insérer la table stops
+        # Insertion dans la table stops
         stops_rows = [
             (
                 s["stop_id"],
@@ -274,7 +310,7 @@ class GTFSHarmonizer:
 
         cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
-        # Re-remplissage des tables liées avec réécriture de stop_id par la clé canonique
+        # Re-remplissage des tables liées avec réécriture des IDs
         for op in self.operators:
             op_id = op["id"]
             if not op.get("enabled", True) or not op.get("gtfs_url"):
@@ -282,6 +318,7 @@ class GTFSHarmonizer:
 
             res = requests.get(op["gtfs_url"], timeout=120)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
+                # 1. Stop Times
                 if 'stop_times.txt' in z.namelist():
                     st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                     st['trip_id'] = op_id + "_" + st['trip_id']
@@ -289,13 +326,22 @@ class GTFSHarmonizer:
                     st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
                     st.to_sql('stop_times', conn, if_exists='append', index=False)
 
+                # 2. Routes (Détermination dynamique du type de train)
                 if 'routes.txt' in z.namelist():
-                    rt = pd.read_csv(z.open('routes.txt'), usecols=['route_id'], dtype=str)
+                    rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                    
+                    if op_id.upper() == "EUROSTAR":
+                        rt['train_type'] = rt.apply(determine_train_type_eurostar, axis=1)
+                    else:
+                        rt['train_type'] = rt.apply(determine_train_type_sncf, axis=1)
+                        
                     rt['route_id'] = op_id + "_" + rt['route_id']
                     rt['operator_id'] = op_id
-                    rt['train_type'] = "Train"
-                    rt.to_sql('routes', conn, if_exists='append', index=False)
+                    
+                    routes_to_db = rt[['route_id', 'operator_id', 'train_type']]
+                    routes_to_db.to_sql('routes', conn, if_exists='append', index=False)
 
+                # 3. Trips
                 if 'trips.txt' in z.namelist():
                     tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
                     tp['trip_id'] = op_id + "_" + tp['trip_id']
@@ -312,7 +358,7 @@ class GTFSHarmonizer:
 
         conn.commit()
         conn.close()
-        logging.info("✅ SQLite créée avec succès.")
+        logging.info("✅ Base SQLite créée avec succès.")
 
     def export(self):
         """Phase 4 : Compression finale et sauvegarde des statistiques."""
