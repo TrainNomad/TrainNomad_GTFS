@@ -22,7 +22,7 @@
   {
     "id": "EUROSTAR",
     "name": "Eurostar",
-    "enabled": false,
+    "enabled": true,
     "gtfs_dir": "./gtfs/eurostar",
     "db_gz_path": "./gtfs/eurostar/eurostar.db.gz",
     "gtfs_url": "https://integration-storage.dm.eurostar.com/gtfs-prod/gtfs_static_commercial_v2.zip",
