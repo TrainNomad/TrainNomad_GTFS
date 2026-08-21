@@ -59,40 +59,28 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return R * 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
 
 
-def determine_train_type_eurostar(row) -> str:
-    """Détermine le type de train Eurostar via la colonne agency_id."""
-    agency_id = str(row.get("agency_id", "")).strip().upper() if pd.notnull(row.get("agency_id")) else ""
+def extract_train_type_from_stop_id(stop_id: str) -> str:
+    """Extrait le type de train depuis un stop_id SNCF (ex: StopPoint:OCETGV INOUI-71043075)."""
+    if not isinstance(stop_id, str):
+        return ""
     
-    if "THALYS" in agency_id:
-        return "Eurostar (ex-Thalys)"
-    elif "EUROSTAR" in agency_id:
+    sid = stop_id.upper()
+    if "TGV INOUI" in sid or "INOUI" in sid or "TGV" in sid:
+        return "TGV InOui"
+    elif "OUIGO" in sid:
+        return "OUIGO"
+    elif "TER" in sid:
+        return "TER"
+    elif "INTERCITES" in sid or "INTERCITÉS" in sid:
+        return "Intercités"
+    elif "ICE" in sid:
+        return "ICE"
+    elif "TRANSILIEN" in sid or "RER" in sid:
+        return "Transilien"
+    elif "EUROSTAR" in sid or "THALYS" in sid:
         return "Eurostar"
     
-    return "Eurostar"
-
-
-def determine_train_type_sncf(row) -> str:
-    """Détermine le type de train SNCF via le route_id, route_long_name ou route_short_name."""
-    route_id = str(row.get("route_id", "")).upper() if pd.notnull(row.get("route_id")) else ""
-    long_name = str(row.get("route_long_name", "")).upper() if pd.notnull(row.get("route_long_name")) else ""
-    short_name = str(row.get("route_short_name", "")).upper() if pd.notnull(row.get("route_short_name")) else ""
-    
-    full_text = f"{route_id} {short_name} {long_name}"
-
-    if "TGV INOUI" in full_text or "INOUI" in full_text or "TGV" in full_text:
-        return "TGV InOui"
-    elif "OUIGO" in full_text:
-        return "OUIGO"
-    elif "TER" in full_text:
-        return "TER"
-    elif "INTERCITES" in full_text or "INTERCITÉS" in full_text:
-        return "Intercités"
-    elif "ICE" in full_text:
-        return "ICE"
-    elif "TRANSILIEN" in full_text or "RER" in full_text:
-        return "Transilien"
-    
-    return "Train SNCF"
+    return ""
 
 
 class GTFSHarmonizer:
@@ -310,7 +298,7 @@ class GTFSHarmonizer:
 
         cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
-        # Re-remplissage des tables liées avec réécriture des IDs
+        # Re-remplissage des tables liées
         for op in self.operators:
             op_id = op["id"]
             if not op.get("enabled", True) or not op.get("gtfs_url"):
@@ -318,37 +306,77 @@ class GTFSHarmonizer:
 
             res = requests.get(op["gtfs_url"], timeout=120)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
-                # 1. Stop Times
-                if 'stop_times.txt' in z.namelist():
-                    st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
-                    st['trip_id'] = op_id + "_" + st['trip_id']
-                    st['operator_id'] = op_id
-                    st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
-                    st.to_sql('stop_times', conn, if_exists='append', index=False)
 
-                # 2. Routes (Détermination dynamique du type de train)
-                if 'routes.txt' in z.namelist():
-                    rt = pd.read_csv(z.open('routes.txt'), dtype=str)
-                    
-                    if op_id.upper() == "EUROSTAR":
-                        rt['train_type'] = rt.apply(determine_train_type_eurostar, axis=1)
-                    else:
-                        rt['train_type'] = rt.apply(determine_train_type_sncf, axis=1)
+                if op_id.upper() == "EUROSTAR":
+                    # --- EUROSTAR : Utilisation de routes.txt (agency_id) ---
+                    if 'stop_times.txt' in z.namelist():
+                        st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
+                        st['trip_id'] = op_id + "_" + st['trip_id']
+                        st['operator_id'] = op_id
+                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                        st.to_sql('stop_times', conn, if_exists='append', index=False)
+
+                    if 'routes.txt' in z.namelist():
+                        rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                        rt['train_type'] = rt.apply(
+                            lambda r: "Eurostar (ex-Thalys)" if "THALYS" in str(r.get("agency_id", "")).upper() else "Eurostar", 
+                            axis=1
+                        )
+                        rt['route_id'] = op_id + "_" + rt['route_id']
+                        rt['operator_id'] = op_id
+                        rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
+
+                    if 'trips.txt' in z.namelist():
+                        tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['operator_id'] = op_id
+                        tp.to_sql('trips', conn, if_exists='append', index=False)
+
+                else:
+                    # --- SNCF : Déduction du train_type depuis stop_id (stops.txt) ---
+                    stop_type_map = {}
+                    if 'stops.txt' in z.namelist():
+                        stops_df = pd.read_csv(z.open('stops.txt'), usecols=['stop_id'], dtype=str)
+                        stops_df['train_type'] = stops_df['stop_id'].apply(extract_train_type_from_stop_id)
+                        stop_type_map = stops_df[stops_df['train_type'] != ""].set_index('stop_id')['train_type'].to_dict()
+
+                    trip_type_map = {}
+                    if 'stop_times.txt' in z.namelist():
+                        st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         
-                    rt['route_id'] = op_id + "_" + rt['route_id']
-                    rt['operator_id'] = op_id
-                    
-                    routes_to_db = rt[['route_id', 'operator_id', 'train_type']]
-                    routes_to_db.to_sql('routes', conn, if_exists='append', index=False)
+                        # Mapping trip_id -> train_type
+                        st['raw_type'] = st['stop_id'].map(stop_type_map)
+                        trip_type_map = st.dropna(subset=['raw_type']).groupby('trip_id')['raw_type'].first().to_dict()
 
-                # 3. Trips
-                if 'trips.txt' in z.namelist():
-                    tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
-                    tp['trip_id'] = op_id + "_" + tp['trip_id']
-                    tp['route_id'] = op_id + "_" + tp['route_id']
-                    tp['service_id'] = op_id + "_" + tp['service_id']
-                    tp['operator_id'] = op_id
-                    tp.to_sql('trips', conn, if_exists='append', index=False)
+                        # Réécriture des IDs pour l'insertion
+                        st['trip_id'] = op_id + "_" + st['trip_id']
+                        st['operator_id'] = op_id
+                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                        st.drop(columns=['raw_type']).to_sql('stop_times', conn, if_exists='append', index=False)
+
+                    route_type_map = {}
+                    if 'trips.txt' in z.namelist():
+                        tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                        
+                        # Mapping route_id -> train_type
+                        tp['raw_type'] = tp['trip_id'].map(trip_type_map)
+                        route_type_map = tp.dropna(subset=['raw_type']).groupby('route_id')['raw_type'].first().to_dict()
+
+                        # Réécriture des IDs pour l'insertion
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['operator_id'] = op_id
+                        tp.drop(columns=['raw_type']).to_sql('trips', conn, if_exists='append', index=False)
+
+                    if 'routes.txt' in z.namelist():
+                        rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                        rt['train_type'] = rt['route_id'].map(route_type_map).fillna("Train SNCF")
+                        rt['route_id'] = op_id + "_" + rt['route_id']
+                        rt['operator_id'] = op_id
+                        rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
         cursor.executescript("""
             CREATE INDEX idx_stops_uic ON stops(uic);
