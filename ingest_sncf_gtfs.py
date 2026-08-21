@@ -8,88 +8,116 @@ import re
 import shutil
 import sqlite3
 import zipfile
-from typing import Dict, List, Tuple
 import pandas as pd
 import requests
 import unicodedata
-# --- CONFIGURATION LOGGING ---
+
+# --- LOGGING ---
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler()]
+    format="%(asctime)s [%(levelname)s] %(message)s"
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OPERATORS_FILE = os.path.join(BASE_DIR, "operators.json")
+STATIONS_CSV = os.path.join(BASE_DIR, "stations.csv")
 OUTPUT_DB_PATH = os.path.join(BASE_DIR, "harmonized_gtfs.db")
 OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "harmonized_gtfs.db.gz")
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
-# --- OUTILS DE NORMALISATION ET CALCUL ---
 
 def normalize_string(s: str) -> str:
-    """Normalise une chaîne (minuscules, sans accent, caractères alphnumériques uniquement)."""
+    """Normalise une chaîne en minuscules sans accents ni mots vides."""
     if not isinstance(s, str):
         return ""
-    # Supprime les accents via la décomposition NFD
     s = unicodedata.normalize('NFD', s)
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn').lower()
     s = re.sub(r'[^a-z0-9]', ' ', s)
-    return ' '.join(s.split())
+    stop_words = {'gare', 'de', 'du', 'des', 'la', 'le', 'l', 'saint', 'st'}
+    words = [w for w in s.split() if w not in stop_words]
+    return ' '.join(words)
 
-def extract_uic(stop_id: str) -> str:
-    """Extrait le code UIC à 7 ou 8 chiffres s'il est présent dans le stop_id."""
-    if not isinstance(stop_id, str):
+
+def extract_uic(val: str) -> str:
+    """Extrait la suite de 7 ou 8 chiffres UIC à partir d'un string (stop_id ou stop_code)."""
+    if not isinstance(val, str):
         return ""
-    match = re.search(r'(\d{7,8})', stop_id)
-    return match.group(1) if match else ""
+    m = re.search(r'(\d{7,8})', val)
+    return m.group(1) if m else ""
+
 
 def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    """Calcule la distance en mètres entre deux points GPS (formule de Haversine)."""
+    """Calcule la distance en mètres entre deux coordonnées GPS."""
     if any(v is None or math.isnan(v) for v in [lat1, lon1, lat2, lon2]):
         return float('inf')
-    R = 6371000.0  # Rayon de la Terre en mètres
+    R = 6371000.0
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     delta_phi = math.radians(lat2 - lat1)
     delta_lambda = math.radians(lon2 - lon1)
-
     a = (math.sin(delta_phi / 2.0) ** 2 +
          math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2.0) ** 2)
-    c = 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
-    return R * c
+    return R * 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
 
-# --- LOGIQUE D'HARMONISATION ---
 
 class GTFSHarmonizer:
-    def __init__(self, config_file: str):
-        with open(config_file, "r", encoding="utf-8") as f:
+    def __init__(self):
+        with open(OPERATORS_FILE, "r", encoding="utf-8") as f:
             self.operators = json.load(f)
         
+        self.stations_reference = {} # uic_clean -> station_info
         self.raw_stops = []
-        self.stop_map = {}  # (op_id, raw_stop_id) -> canonical_stop_id
-        self.canonical_stops = {} # canonical_id -> dict data
-        self.report_stats = {
-            "total_stops_processed": 0,
+        self.stop_map = {}  # (operator_id, raw_stop_id) -> canonical_stop_id
+        self.canonical_stops = {} # canonical_id -> dict
+        
+        self.stats = {
+            "total_raw_stops": 0,
             "unique_canonical_stops": 0,
-            "merges_by_uic": 0,
-            "merges_by_geoloc": 0,
-            "operators": []
+            "merges_uic": 0,
+            "merges_geoloc": 0
         }
 
-    def fetch_and_extract_all_stops(self):
-        """Phase 1 : Extraction de tous les stops de tous les opérateurs activés."""
-        logging.info("📥 Extraction des gares à partir des sources GTFS...")
+    def load_stations_reference(self):
+        """Charge le fichier stations.csv pour en faire la référence officielle des noms de gares."""
+        if not os.path.exists(STATIONS_CSV):
+            logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé. Les noms GTFS bruts seront utilisés par défaut.")
+            return
+
+        logging.info("📖 Chargement du fichier de référence stations.csv...")
+        df = pd.read_csv(STATIONS_CSV, sep=';', dtype=str)
+        
+        for _, row in df.iterrows():
+            name = row.get('name')
+            if not isinstance(name, str) or not name.strip():
+                continue
+
+            uic7 = str(row.get('uic', '')).strip() if pd.notnull(row.get('uic')) else ''
+            uic8 = str(row.get('uic8_sncf', '')).strip() if pd.notnull(row.get('uic8_sncf')) else ''
+            lat = float(row['latitude']) if pd.notnull(row.get('latitude')) else None
+            lon = float(row['longitude']) if pd.notnull(row.get('longitude')) else None
+
+            info = {'name': name, 'lat': lat, 'lon': lon, 'uic7': uic7, 'uic8': uic8}
+
+            if uic7:
+                self.stations_reference[uic7] = info
+                if len(uic7) == 7:
+                    self.stations_reference["8" + uic7] = info
+            if uic8:
+                self.stations_reference[uic8] = info
+                if len(uic8) == 8 and uic8.startswith("8"):
+                    self.stations_reference[uic8[1:]] = info
+
+        logging.info(f"✅ {len(self.stations_reference)} clés UIC de référence chargées.")
+
+    def fetch_stops(self):
+        """Phase 1 : Extraction des gares GTFS (SNCF, Eurostar, etc.)."""
+        logging.info("📥 Extraction des gares depuis les GTFS...")
         for op in self.operators:
             op_id = op["id"]
-            if not op.get("enabled", True):
+            if not op.get("enabled", True) or not op.get("gtfs_url"):
                 continue
 
-            url = op.get("gtfs_url")
-            if not url:
-                continue
-
-            logging.info(f" -> Téléchargement GTFS pour [{op_id}]...")
-            res = requests.get(url, timeout=120)
+            logging.info(f" -> Téléchargement pour [{op_id}]...")
+            res = requests.get(op["gtfs_url"], timeout=120)
             res.raise_for_status()
 
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
@@ -97,103 +125,102 @@ class GTFSHarmonizer:
                     df = pd.read_csv(z.open('stops.txt'), dtype=str)
                     for _, row in df.iterrows():
                         raw_id = str(row['stop_id'])
-                        uic = extract_uic(raw_id)
+                        
+                        # Extraction du code UIC depuis stop_code (Eurostar) ou stop_id (SNCF)
+                        stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
+                        uic = extract_uic(stop_code) or extract_uic(raw_id)
+
                         lat = float(row['stop_lat']) if pd.notnull(row.get('stop_lat')) else None
                         lon = float(row['stop_lon']) if pd.notnull(row.get('stop_lon')) else None
-                        
+                        raw_name = str(row.get('stop_name', ''))
+
                         self.raw_stops.append({
                             'operator_id': op_id,
                             'raw_stop_id': raw_id,
-                            'stop_name': str(row['stop_name']),
+                            'stop_code': stop_code,
+                            'raw_name': raw_name,
                             'stop_lat': lat,
                             'stop_lon': lon,
                             'uic': uic,
-                            'norm_name': normalize_string(str(row['stop_name']))
+                            'norm_name': normalize_string(raw_name)
                         })
-            self.report_stats["operators"].append(op_id)
-        
-        self.report_stats["total_stops_processed"] = len(self.raw_stops)
-        logging.info(f"✅ {len(self.raw_stops)} arrêts bruts chargés au total.")
 
-    def deduplicate_stops(self):
-        """Phase 2 : Harmonisation, déduplication et attribution de clés canoniques."""
-        logging.info("⚡ Déduplication des gares et fusion inter-opérateurs...")
-        
-        uic_index: Dict[str, str] = {} # uic -> canonical_id
-        
+        self.stats["total_raw_stops"] = len(self.raw_stops)
+        logging.info(f"✅ {len(self.raw_stops)} arrêts bruts extraits.")
+
+    def process_and_deduplicate(self):
+        """Phase 2 : Déduplication et construction de la table canonique."""
+        logging.info("⚡ Déduplication des gares et harmonisation des noms...")
+        uic_index = {} # uic -> canonical_id
+
         for stop in self.raw_stops:
             op_id = stop['operator_id']
             raw_id = stop['raw_stop_id']
             uic = stop['uic']
             lat, lon = stop['stop_lat'], stop['stop_lon']
             norm_name = stop['norm_name']
-            
-            matched_canonical_id = None
-            merge_reason = None
-            confidence = 1.0
 
-            # 1. Matching par Code UIC exact
+            matched_id = None
+
+            # 1. Matching par UIC
             if uic and uic in uic_index:
-                matched_canonical_id = uic_index[uic]
-                merge_reason = "UIC_MATCH"
-                self.report_stats["merges_by_uic"] += 1
-            
-            # 2. Matching par géolocalisation (< 100m) + nom normalisé similaire
-            if not matched_canonical_id and lat is not None and lon is not None:
+                matched_id = uic_index[uic]
+                self.stats["merges_uic"] += 1
+
+            # 2. Matching par Géolocalisation (< 100m) + Nom similaire
+            if not matched_id and lat is not None and lon is not None:
                 for c_id, c_stop in self.canonical_stops.items():
                     dist = haversine_distance(lat, lon, c_stop['stop_lat'], c_stop['stop_lon'])
                     if dist <= 100.0 and (norm_name == c_stop['norm_name'] or norm_name in c_stop['norm_name'] or c_stop['norm_name'] in norm_name):
-                        matched_canonical_id = c_id
-                        merge_reason = "GEOLOC_NAME_MATCH"
-                        confidence = round(max(0.5, 1.0 - (dist / 200.0)), 2)
-                        self.report_stats["merges_by_geoloc"] += 1
+                        matched_id = c_id
+                        self.stats["merges_geoloc"] += 1
                         break
 
-            # 3. Création d'une nouvelle gare canonique si aucune correspondance
-            if not matched_canonical_id:
-                if uic:
-                    matched_canonical_id = f"CANONICAL_UIC_{uic}"
-                else:
-                    matched_canonical_id = f"CANONICAL_STOP_{len(self.canonical_stops) + 1:06d}"
+            # 3. Création si nouvelle gare
+            if not matched_id:
+                matched_id = f"CANONICAL_UIC_{uic}" if uic else f"CANONICAL_STOP_{len(self.canonical_stops) + 1:06d}"
+                
+                # Détermination du nom officiel depuis stations.csv
+                official_name = stop['raw_name']
+                if uic and uic in self.stations_reference:
+                    official_name = self.stations_reference[uic]['name']
 
-                self.canonical_stops[matched_canonical_id] = {
-                    "stop_id": matched_canonical_id,
-                    "stop_name": stop['stop_name'],
+                self.canonical_stops[matched_id] = {
+                    "stop_id": matched_id,
+                    "stop_name": official_name,
                     "stop_lat": lat,
                     "stop_lon": lon,
                     "uic": uic,
-                    "source_stop_ids": [],
-                    "companies": set(),
                     "norm_name": norm_name,
-                    "merge_confidence": confidence,
-                    "is_merged": False
+                    "sncf": 0,
+                    "eurostar": 0,
+                    "source_stop_ids": []
                 }
                 if uic:
-                    uic_index[uic] = matched_canonical_id
+                    uic_index[uic] = matched_id
 
-            # Mise à jour des informations de la gare canonique retenue
-            target = self.canonical_stops[matched_canonical_id]
+            # Mise à jour des drapeaux compagnies
+            target = self.canonical_stops[matched_id]
+            if op_id.upper() == "SNCF":
+                target["sncf"] = 1
+            elif op_id.upper() == "EUROSTAR":
+                target["eurostar"] = 1
+
             target["source_stop_ids"].append(f"{op_id}:{raw_id}")
-            target["companies"].add(op_id)
-            if len(target["source_stop_ids"]) > 1:
-                target["is_merged"] = True
+            self.stop_map[(op_id, raw_id)] = matched_id
 
-            # Mapping pour réécriture des IDs enfants
-            self.stop_map[(op_id, raw_id)] = matched_canonical_id
+        self.stats["unique_canonical_stops"] = len(self.canonical_stops)
+        logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
-        self.report_stats["unique_canonical_stops"] = len(self.canonical_stops)
-        logging.info(f"✅ Gares uniques générées : {len(self.canonical_stops)} (Réduction de {len(self.raw_stops) - len(self.canonical_stops)} doublons).")
-
-    def build_database(self):
-        """Phase 3 : Écriture de la base SQLite finale et réécriture des références."""
-        logging.info("💾 Écriture dans la base SQLite harmonisée...")
+    def build_sqlite(self):
+        """Phase 3 : Écriture dans SQLite."""
+        logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
             os.remove(OUTPUT_DB_PATH)
 
         conn = sqlite3.connect(OUTPUT_DB_PATH)
         cursor = conn.cursor()
 
-        # Schéma optimisé
         cursor.executescript("""
             CREATE TABLE stops (
                 stop_id TEXT PRIMARY KEY,
@@ -201,10 +228,9 @@ class GTFSHarmonizer:
                 stop_lat REAL,
                 stop_lon REAL,
                 uic TEXT,
-                companies TEXT,
-                source_stop_ids TEXT,
-                is_merged INTEGER,
-                merge_confidence REAL
+                sncf INTEGER DEFAULT 0,
+                eurostar INTEGER DEFAULT 0,
+                source_stop_ids TEXT
             );
 
             CREATE TABLE routes (
@@ -231,62 +257,53 @@ class GTFSHarmonizer:
             );
         """)
 
-        # Insertion des gares harmonisées
-        stops_rows = []
-        for c_id, s in self.canonical_stops.items():
-            stops_rows.append((
-                c_id,
+        # Insérer la table stops
+        stops_rows = [
+            (
+                s["stop_id"],
                 s["stop_name"],
                 s["stop_lat"],
                 s["stop_lon"],
                 s["uic"],
-                ",".join(sorted(list(s["companies"]))), # Liste des compagnies présentes
-                json.dumps(s["source_stop_ids"]),
-                1 if s["is_merged"] else 0,
-                s["merge_confidence"]
-            ))
+                s["sncf"],
+                s["eurostar"],
+                json.dumps(s["source_stop_ids"])
+            )
+            for s in self.canonical_stops.values()
+        ]
 
-        cursor.executemany("""
-            INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, stops_rows)
+        cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
-        # Rechargement et ré-indexation des stop_times, routes, trips
+        # Re-remplissage des tables liées avec réécriture de stop_id par la clé canonique
         for op in self.operators:
             op_id = op["id"]
-            url = op.get("gtfs_url")
-            if not op.get("enabled", True) or not url:
+            if not op.get("enabled", True) or not op.get("gtfs_url"):
                 continue
 
-            res = requests.get(url, timeout=120)
+            res = requests.get(op["gtfs_url"], timeout=120)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
-                # Stop times avec mapping des arrêt canoniques
                 if 'stop_times.txt' in z.namelist():
-                    st_df = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
-                    st_df['trip_id'] = op_id + "_" + st_df['trip_id']
-                    st_df['operator_id'] = op_id
-                    
-                    # Remplacement de l'ID d'arrêt par la clé canonique
-                    st_df['stop_id'] = st_df['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
-                    st_df.to_sql('stop_times', conn, if_exists='append', index=False)
+                    st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
+                    st['trip_id'] = op_id + "_" + st['trip_id']
+                    st['operator_id'] = op_id
+                    st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                    st.to_sql('stop_times', conn, if_exists='append', index=False)
 
-                # Routes
                 if 'routes.txt' in z.namelist():
-                    r_df = pd.read_csv(z.open('routes.txt'), usecols=['route_id'], dtype=str)
-                    r_df['route_id'] = op_id + "_" + r_df['route_id']
-                    r_df['operator_id'] = op_id
-                    r_df['train_type'] = "Train"
-                    r_df.to_sql('routes', conn, if_exists='append', index=False)
+                    rt = pd.read_csv(z.open('routes.txt'), usecols=['route_id'], dtype=str)
+                    rt['route_id'] = op_id + "_" + rt['route_id']
+                    rt['operator_id'] = op_id
+                    rt['train_type'] = "Train"
+                    rt.to_sql('routes', conn, if_exists='append', index=False)
 
-                # Trips
                 if 'trips.txt' in z.namelist():
-                    t_df = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
-                    t_df['trip_id'] = op_id + "_" + t_df['trip_id']
-                    t_df['route_id'] = op_id + "_" + t_df['route_id']
-                    t_df['service_id'] = op_id + "_" + t_df['service_id']
-                    t_df['operator_id'] = op_id
-                    t_df.to_sql('trips', conn, if_exists='append', index=False)
+                    tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                    tp['trip_id'] = op_id + "_" + tp['trip_id']
+                    tp['route_id'] = op_id + "_" + tp['route_id']
+                    tp['service_id'] = op_id + "_" + tp['service_id']
+                    tp['operator_id'] = op_id
+                    tp.to_sql('trips', conn, if_exists='append', index=False)
 
-        # Indexation finale
         cursor.executescript("""
             CREATE INDEX idx_stops_uic ON stops(uic);
             CREATE INDEX idx_st_stop ON stop_times(stop_id);
@@ -295,25 +312,24 @@ class GTFSHarmonizer:
 
         conn.commit()
         conn.close()
-        logging.info("✅ Base SQLite générée et indexée.")
+        logging.info("✅ SQLite créée avec succès.")
 
-    def export_and_compress(self):
-        """Phase 4 : Compression final en .gz et sauvegarde du rapport JSON."""
-        logging.info("📦 Compression du fichier final...")
+    def export(self):
+        """Phase 4 : Compression finale et sauvegarde des statistiques."""
         with open(OUTPUT_DB_PATH, 'rb') as f_in:
             with gzip.open(OUTPUT_GZ_PATH, 'wb', compresslevel=9) as f_out:
                 shutil.copyfileobj(f_in, f_out)
 
         with open(REPORT_PATH, 'w', encoding='utf-8') as f:
-            json.dump(self.report_stats, f, indent=2, ensure_ascii=False)
+            json.dump(self.stats, f, indent=2, ensure_ascii=False)
 
-        logging.info(f"✨ Procédure achevée. Base enregistrée dans {OUTPUT_GZ_PATH}")
+        logging.info(f"📦 Archive générée : {OUTPUT_GZ_PATH}")
 
-# --- EXECUTION ---
 
 if __name__ == '__main__':
-    harmonizer = GTFSHarmonizer(OPERATORS_FILE)
-    harmonizer.fetch_and_extract_all_stops()
-    harmonizer.deduplicate_stops()
-    harmonizer.build_database()
-    harmonizer.export_and_compress()
+    harmonizer = GTFSHarmonizer()
+    harmonizer.load_stations_reference()
+    harmonizer.fetch_stops()
+    harmonizer.process_and_deduplicate()
+    harmonizer.build_sqlite()
+    harmonizer.export()
