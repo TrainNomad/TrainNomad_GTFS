@@ -1,0 +1,10 @@
+{
+  "total_stops_processed": 9104,
+  "unique_canonical_stops": 3500,
+  "merges_by_uic": 5371,
+  "merges_by_geoloc": 233,
+  "operators": [
+    "SNCF",
+    "EUROSTAR"
+  ]
+}
