@@ -65,8 +65,8 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
 
 def extract_uic(val: str) -> str:
     """
-    Extrait la suite de 7 ou 8 chiffres UIC.
-    Si la valeur contient un ID à 5 chiffres (ex: gares Renfe), ajoute '71' au début.
+    Extrait l'UIC. Convertit un code court à 5 chiffres (ex: Renfe)
+    en UIC à 7 chiffres avec le préfixe 71.
     """
     if not isinstance(val, str):
         return ""
@@ -76,32 +76,10 @@ def extract_uic(val: str) -> str:
     if m:
         return m.group(1)
     
-    # 2. Si l'ID contient 5 chiffres de base, ajout du préfixe espagnol 71
+    # 2. Si l'ID contient 5 chiffres de base (ex: stop_id Renfe), conversion en UIC 71XXXXX
     m_short = re.search(r'\b(\d{5})\b', val)
     if m_short:
         return f"71{m_short.group(1)}"
-        
-    return ""
-
-def get_country_from_uic(uic: str) -> str:
-    """Détermine le pays selon le code UIC international."""
-    if not isinstance(uic, str) or not uic:
-        return ""
-    
-    if uic.startswith("71"):
-        return "ES"
-    elif uic.startswith("87"):
-        return "FR"
-    elif uic.startswith("88"):
-        return "BE"
-    elif uic.startswith("80"):
-        return "DE"
-    elif uic.startswith("84"):
-        return "NL"
-    elif uic.startswith("70"):
-        return "GB"
-    elif uic.startswith("85"):
-        return "CH"
         
     return ""
 
@@ -160,8 +138,7 @@ def parse_renfe_train_type(route_row: pd.Series) -> str:
     elif "REGIONAL" in full_str:
         return "Regional"
     elif "TRENCELTA" in full_str:
-            return "Tren Celta"
-    
+        return "Tren Celta"
     
     val = str(route_row.get('route_long_name', '')).strip()
     return val if val else "Train Renfe"
@@ -199,7 +176,7 @@ class GTFSHarmonizer:
         }
 
     def load_stations_reference(self):
-        """Charge le fichier stations.csv pour récupérer la référence des gares, villes et pays."""
+        """Charge le fichier stations.csv et extrait le PAYS depuis la colonne J (country)."""
         if not os.path.exists(STATIONS_CSV):
             logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé. Les données GTFS brutes seront utilisées.")
             return
@@ -229,6 +206,7 @@ class GTFSHarmonizer:
             if not parent_name or not str(parent_name).strip():
                 parent_name = name
 
+            # Extraction directe du pays depuis la colonne J (country)
             country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
             if len(country) > 2:
                 country = country[:2]
@@ -257,7 +235,7 @@ class GTFSHarmonizer:
                 if len(uic8) == 8 and uic8.startswith("8"):
                     self.stations_reference[uic8[1:]] = info
 
-        logging.info(f"✅ {len(self.stations_reference)} clés UIC de référence chargées avec ville et pays.")
+        logging.info(f"✅ {len(self.stations_reference)} clés UIC chargées avec pays depuis stations.csv.")
 
     def fetch_stops(self):
         """Phase 1 : Extraction des gares GTFS."""
@@ -278,7 +256,7 @@ class GTFSHarmonizer:
                         raw_id = str(row['stop_id'])
                         stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
                         
-                        # Extrait l'UIC (avec conversion des 5 chiffres vers 71XXXXX)
+                        # Extrait l'UIC (avec conversion des 5 chiffres en 71XXXXX)
                         uic = extract_uic(stop_code) or extract_uic(raw_id)
 
                         lat = float(row['stop_lat']) if pd.notnull(row.get('stop_lat')) else None
@@ -300,7 +278,7 @@ class GTFSHarmonizer:
         logging.info(f"✅ {len(self.raw_stops)} arrêts bruts extraits.")
 
     def process_and_deduplicate(self):
-        """Phase 2 : Déduplication et construction de la table canonique avec drapeaux."""
+        """Phase 2 : Déduplication et construction de la table canonique."""
         logging.info("⚡ Déduplication des gares et harmonisation des données...")
         uic_index = {}
 
@@ -332,16 +310,12 @@ class GTFSHarmonizer:
                 parent_name = stop['raw_name']
                 country = ""
 
-                # 1. Priorité aux données du stations.csv
+                # Récupération stricte du nom et du pays depuis stations.csv
                 if uic and uic in self.stations_reference:
                     ref = self.stations_reference[uic]
                     official_name = ref['name']
                     parent_name = ref['parent_name']
                     country = ref['country']
-
-                # 2. Fallback uniquement sur le préfixe UIC
-                if not country:
-                    country = get_country_from_uic(uic)
 
                 self.canonical_stops[matched_id] = {
                     "stop_id": matched_id,
