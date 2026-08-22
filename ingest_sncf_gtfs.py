@@ -43,6 +43,18 @@ def normalize_string(s: str) -> str:
     words = [w for w in s.split() if w not in stop_words]
     return ' '.join(words)
 
+def extract_eurostar_train_no(trip_id: str) -> str:
+    """
+    Extrait le numéro de train depuis un trip_id Eurostar.
+    Exemples:
+      'EUROSTAR_9002-0822' -> '9002'
+      '9340-1234'          -> '9340'
+    """
+    if not isinstance(trip_id, str):
+        return ""
+    # Cherche la première suite de 3 à 5 chiffres précédant un tiret ou la fin
+    match = re.search(r'(?:EUROSTAR_)?(\d{3,5})', trip_id, re.IGNORECASE)
+    return match.group(1) if match else trip_id
 
 def extract_uic(val: str) -> str:
     """Extrait la suite de 7 ou 8 chiffres UIC à partir d'un string (stop_id ou stop_code)."""
@@ -425,6 +437,10 @@ class GTFSHarmonizer:
                         tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
+                        
+                        # ✅ Extraction dynamique du numéro de train avant l'ajout du préfixe op_id
+                        tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
+
                         tp['trip_id'] = op_id + "_" + tp['trip_id']
                         tp['route_id'] = op_id + "_" + tp['route_id']
                         tp['service_id'] = op_id + "_" + tp['service_id']
