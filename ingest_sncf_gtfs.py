@@ -39,27 +39,19 @@ def normalize_string(s: str) -> str:
     s = unicodedata.normalize('NFD', s)
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn').lower()
     s = re.sub(r'[^a-z0-9]', ' ', s)
-    stop_words = {'gare', 'de', 'du', 'des', 'la', 'le', 'l', 'saint', 'st'}
+    stop_words = {'gare', 'de', 'du', 'des', 'la', 'le', 'l', 'saint', 'st', 'estacion'}
     words = [w for w in s.split() if w not in stop_words]
     return ' '.join(words)
 
 def extract_eurostar_train_no(trip_id: str) -> str:
-    """
-    Extrait le numéro de train depuis un trip_id Eurostar.
-    Exemples:
-      'EUROSTAR_9002-0822' -> '9002'
-      '9340-1234'          -> '9340'
-    """
+    """Extrait le numéro de train Eurostar depuis un trip_id."""
     if not isinstance(trip_id, str):
         return ""
     match = re.search(r'(?:EUROSTAR_)?(\d{3,5})', trip_id, re.IGNORECASE)
     return match.group(1) if match else trip_id
 
 def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
-    """
-    Extrait le numéro de train Renfe.
-    Donne la priorité à 'trip_short_name', sinon tente d'extraire les chiffres du trip_id.
-    """
+    """Extrait le numéro de train Renfe."""
     if isinstance(trip_short_name, str) and trip_short_name.strip():
         clean_name = trip_short_name.strip()
         return str(int(clean_name)) if clean_name.isdigit() else clean_name
@@ -72,12 +64,46 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
     return ""
 
 def extract_uic(val: str) -> str:
-    """Extrait la suite de 7 ou 8 chiffres UIC à partir d'un string (stop_id ou stop_code)."""
+    """
+    Extrait la suite de 7 ou 8 chiffres UIC.
+    Si la valeur contient un ID à 5 chiffres (ex: gares Renfe), ajoute '71' au début.
+    """
     if not isinstance(val, str):
         return ""
+    
+    # 1. UIC standard complet (7 à 8 chiffres)
     m = re.search(r'(\d{7,8})', val)
-    return m.group(1) if m else ""
+    if m:
+        return m.group(1)
+    
+    # 2. Si l'ID contient 5 chiffres de base, ajout du préfixe espagnol 71
+    m_short = re.search(r'\b(\d{5})\b', val)
+    if m_short:
+        return f"71{m_short.group(1)}"
+        
+    return ""
 
+def get_country_from_uic(uic: str) -> str:
+    """Détermine le pays selon le code UIC international."""
+    if not isinstance(uic, str) or not uic:
+        return ""
+    
+    if uic.startswith("71"):
+        return "ES"
+    elif uic.startswith("87"):
+        return "FR"
+    elif uic.startswith("88"):
+        return "BE"
+    elif uic.startswith("80"):
+        return "DE"
+    elif uic.startswith("84"):
+        return "NL"
+    elif uic.startswith("70"):
+        return "GB"
+    elif uic.startswith("85"):
+        return "CH"
+        
+    return ""
 
 def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """Calcule la distance en mètres entre deux coordonnées GPS."""
@@ -90,7 +116,6 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     a = (math.sin(delta_phi / 2.0) ** 2 +
          math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2.0) ** 2)
     return R * 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
-
 
 def extract_train_type_from_stop_id(stop_id: str) -> str:
     """Extrait le type de train depuis un stop_id SNCF."""
@@ -115,6 +140,28 @@ def extract_train_type_from_stop_id(stop_id: str) -> str:
     
     return ""
 
+def parse_renfe_train_type(route_row: pd.Series) -> str:
+    """Déduit le type de train pour la Renfe."""
+    full_str = f"{route_row.get('route_short_name', '')} {route_row.get('route_long_name', '')} {route_row.get('route_id', '')}".upper()
+    if "AVE" in full_str:
+        return "AVE"
+    elif "AVLO" in full_str:
+        return "Avlo"
+    elif "ALVIA" in full_str:
+        return "Alvia"
+    elif "EUROMED" in full_str:
+        return "Euromed"
+    elif "INTERCITY" in full_str:
+        return "Intercity"
+    elif "MD" in full_str or "MEDIA" in full_str:
+        return "Media Distancia"
+    elif "CERCANIAS" in full_str or "RODALIES" in full_str:
+        return "Cercanías"
+    elif "REGIONAL" in full_str:
+        return "Regional"
+    
+    val = str(route_row.get('route_long_name', '')).strip()
+    return val if val else "Train Renfe"
 
 def to_minutes(t_str: str) -> int:
     """Convertit une chaîne d'heure HH:MM:SS en minutes totales depuis minuit."""
@@ -136,10 +183,10 @@ class GTFSHarmonizer:
                 "gtfs_url": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip"
             }]
 
-        self.stations_reference = {}  # uic_clean -> station_info
+        self.stations_reference = {}
         self.raw_stops = []
-        self.stop_map = {}            # (operator_id, raw_stop_id) -> canonical_stop_id
-        self.canonical_stops = {}     # canonical_id -> dict
+        self.stop_map = {}
+        self.canonical_stops = {}
 
         self.stats = {
             "total_raw_stops": 0,
@@ -179,7 +226,7 @@ class GTFSHarmonizer:
             if not parent_name or not str(parent_name).strip():
                 parent_name = name
 
-            country = str(row.get('country', 'FR')).strip().upper() if pd.notnull(row.get('country')) else 'FR'
+            country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
             if len(country) > 2:
                 country = country[:2]
 
@@ -210,7 +257,7 @@ class GTFSHarmonizer:
         logging.info(f"✅ {len(self.stations_reference)} clés UIC de référence chargées avec ville et pays.")
 
     def fetch_stops(self):
-        """Phase 1 : Extraction des gares GTFS (SNCF, Eurostar, etc.)."""
+        """Phase 1 : Extraction des gares GTFS."""
         logging.info("📥 Extraction des gares depuis les GTFS...")
         for op in self.operators:
             op_id = op["id"]
@@ -226,8 +273,9 @@ class GTFSHarmonizer:
                     df = pd.read_csv(z.open('stops.txt'), dtype=str)
                     for _, row in df.iterrows():
                         raw_id = str(row['stop_id'])
-
                         stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
+                        
+                        # Extrait l'UIC (avec conversion des 5 chiffres vers 71XXXXX)
                         uic = extract_uic(stop_code) or extract_uic(raw_id)
 
                         lat = float(row['stop_lat']) if pd.notnull(row.get('stop_lat')) else None
@@ -249,7 +297,7 @@ class GTFSHarmonizer:
         logging.info(f"✅ {len(self.raw_stops)} arrêts bruts extraits.")
 
     def process_and_deduplicate(self):
-        """Phase 2 : Déduplication et construction de la table canonique avec ville et pays."""
+        """Phase 2 : Déduplication et construction de la table canonique avec drapeaux."""
         logging.info("⚡ Déduplication des gares et harmonisation des données...")
         uic_index = {}
 
@@ -279,13 +327,18 @@ class GTFSHarmonizer:
 
                 official_name = stop['raw_name']
                 parent_name = stop['raw_name']
-                country = "FR"
+                country = ""
 
+                # 1. Priorité aux données du stations.csv
                 if uic and uic in self.stations_reference:
                     ref = self.stations_reference[uic]
                     official_name = ref['name']
                     parent_name = ref['parent_name']
                     country = ref['country']
+
+                # 2. Fallback uniquement sur le préfixe UIC
+                if not country:
+                    country = get_country_from_uic(uic)
 
                 self.canonical_stops[matched_id] = {
                     "stop_id": matched_id,
@@ -298,6 +351,7 @@ class GTFSHarmonizer:
                     "norm_name": norm_name,
                     "sncf": 0,
                     "eurostar": 0,
+                    "renfe": 0,
                     "source_stop_ids": []
                 }
                 if uic:
@@ -308,6 +362,8 @@ class GTFSHarmonizer:
                 target["sncf"] = 1
             elif op_id.upper() == "EUROSTAR":
                 target["eurostar"] = 1
+            elif op_id.upper() == "RENFE":
+                target["renfe"] = 1
 
             target["source_stop_ids"].append(f"{op_id}:{raw_id}")
             self.stop_map[(op_id, raw_id)] = matched_id
@@ -316,7 +372,7 @@ class GTFSHarmonizer:
         logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
     def build_sqlite(self):
-        """Phase 3 : Écriture dans SQLite avec les colonnes parent_name et country."""
+        """Phase 3 : Écriture dans SQLite."""
         logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
             os.remove(OUTPUT_DB_PATH)
@@ -338,6 +394,7 @@ class GTFSHarmonizer:
                 uic TEXT,
                 sncf INTEGER DEFAULT 0,
                 eurostar INTEGER DEFAULT 0,
+                renfe INTEGER DEFAULT 0,
                 source_stop_ids TEXT
             );
 
@@ -384,11 +441,12 @@ class GTFSHarmonizer:
                 s["uic"],
                 s["sncf"],
                 s["eurostar"],
+                s["renfe"],
                 json.dumps(s["source_stop_ids"])
             )
             for s in self.canonical_stops.values()
         ]
-        cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
+        cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
         logging.info(f"📅 Insertion de calendar_dates du {DATE_START} au {DATE_END} (60 jours)...")
 
@@ -462,6 +520,7 @@ class GTFSHarmonizer:
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
                         )
+
                 elif op_id.upper() == "RENFE":
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
@@ -476,16 +535,17 @@ class GTFSHarmonizer:
 
                     if 'routes.txt' in z.namelist():
                         rt = pd.read_csv(z.open('routes.txt'), dtype=str)
-                        rt['train_type'] = rt.get('route_long_name', rt.get('route_short_name', 'Train Renfe'))
+                        rt['train_type'] = rt.apply(parse_renfe_train_type, axis=1)
                         rt['route_id'] = op_id + "_" + rt['route_id']
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
                     if 'trips.txt' in z.namelist():
                         cols_to_read = ['trip_id', 'route_id', 'service_id']
-                        if 'trip_short_name' in pd.read_csv(z.open('trips.txt'), nrows=1).columns:
+                        header_cols = pd.read_csv(z.open('trips.txt'), nrows=1).columns
+                        if 'trip_short_name' in header_cols:
                             cols_to_read.append('trip_short_name')
-                        if 'trip_headsign' in pd.read_csv(z.open('trips.txt'), nrows=1).columns:
+                        if 'trip_headsign' in header_cols:
                             cols_to_read.append('trip_headsign')
 
                         tp = pd.read_csv(z.open('trips.txt'), usecols=cols_to_read, dtype=str)
