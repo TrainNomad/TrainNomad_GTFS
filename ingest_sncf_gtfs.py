@@ -325,7 +325,7 @@ class GTFSHarmonizer:
         self.stats["unique_canonical_stops"] = len(self.canonical_stops)
         logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
-    def build_sqlite(self):
+def build_sqlite(self):
         """Phase 3 : Écriture dans SQLite avec les colonnes parent_name et country."""
         logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
@@ -414,16 +414,29 @@ class GTFSHarmonizer:
                 # 1. Processing CALENDAR_DATES
                 active_services = set()
                 if 'calendar_dates.txt' in z.namelist():
-                    cal = pd.read_csv(z.open('calendar_dates.txt'), usecols=['service_id', 'date', 'exception_type'], dtype=str)
+                    # Nettoyage des en-têtes (gestion des espaces insécables \xa0, espaces standards et BOM)
+                    raw_cols = pd.read_csv(z.open('calendar_dates.txt'), nrows=0).columns
+                    col_map = {c: c.strip().lstrip('\ufeff').replace('\xa0', '').strip() for c in raw_cols}
+
+                    cal = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
+                    cal = cal.rename(columns=col_map)
+
+                    # Conservation dynamique des colonnes utiles présentes
+                    cols_to_use = [c for c in ['service_id', 'date', 'exception_type'] if c in cal.columns]
+                    cal = cal[cols_to_use]
+
+                    if 'exception_type' not in cal.columns:
+                        cal['exception_type'] = '1'
+
                     cal['date'] = pd.to_datetime(cal['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
-                    
                     cal = cal[(cal['date'] >= DATE_START) & (cal['date'] <= DATE_END)]
-                    cal['exception_type'] = cal['exception_type'].astype(int)
                     
+                    cal['exception_type'] = cal['exception_type'].str.strip().astype(int)
                     active_services = set(cal['service_id'].unique())
+
                     cal['service_id'] = op_id + "_" + cal['service_id']
                     cal['operator_id'] = op_id
-                    
+
                     cal[['service_id', 'date', 'exception_type', 'operator_id']].to_sql(
                         'calendar_dates', conn, if_exists='append', index=False
                     )
@@ -456,9 +469,7 @@ class GTFSHarmonizer:
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
                         
-                        # ✅ Extraction dynamique du numéro de train avant l'ajout du préfixe op_id
                         tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
-
                         tp['trip_id'] = op_id + "_" + tp['trip_id']
                         tp['route_id'] = op_id + "_" + tp['route_id']
                         tp['service_id'] = op_id + "_" + tp['service_id']
@@ -481,7 +492,6 @@ class GTFSHarmonizer:
 
                     if 'routes.txt' in z.namelist():
                         rt = pd.read_csv(z.open('routes.txt'), dtype=str)
-                        # Type de train basé sur le nom long ou court de la route (ex: AVE, ALVIA)
                         rt['train_type'] = rt.get('route_long_name', rt.get('route_short_name', 'Train Renfe'))
                         rt['route_id'] = op_id + "_" + rt['route_id']
                         rt['operator_id'] = op_id
@@ -498,7 +508,6 @@ class GTFSHarmonizer:
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
                         
-                        # Mapping du numéro de train via trip_short_name
                         tp['trip_headsign'] = tp.apply(
                             lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), 
                             axis=1
@@ -582,7 +591,7 @@ class GTFSHarmonizer:
         conn.close()
         logging.info("✅ Base SQLite optimisée créée avec succès.")
 
-    def export(self):
+def export(self):
         """Phase 4 : Compression finale et sauvegarde des statistiques."""
         logging.info("📦 Compression gzippée...")
         with open(OUTPUT_DB_PATH, 'rb') as f_in:
