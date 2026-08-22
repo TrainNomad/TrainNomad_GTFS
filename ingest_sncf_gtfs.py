@@ -52,7 +52,6 @@ def extract_eurostar_train_no(trip_id: str) -> str:
     """
     if not isinstance(trip_id, str):
         return ""
-    # Cherche la première suite de 3 à 5 chiffres précédant un tiret ou la fin
     match = re.search(r'(?:EUROSTAR_)?(\d{3,5})', trip_id, re.IGNORECASE)
     return match.group(1) if match else trip_id
 
@@ -62,12 +61,10 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
     Donne la priorité à 'trip_short_name', sinon tente d'extraire les chiffres du trip_id.
     """
     if isinstance(trip_short_name, str) and trip_short_name.strip():
-        # Supprime les zéros inutiles au début (ex: '00190' -> '190') ou conserve la chaîne nettoyée
         clean_name = trip_short_name.strip()
         return str(int(clean_name)) if clean_name.isdigit() else clean_name
     
     if isinstance(trip_id, str):
-        # Fallback sur les chiffres du trip_id si short_name est vide
         m = re.search(r'(\d{4,5})', trip_id)
         if m:
             return str(int(m.group(1)))
@@ -160,7 +157,6 @@ class GTFSHarmonizer:
         logging.info("📖 Chargement du fichier de référence stations.csv...")
         df = pd.read_csv(STATIONS_CSV, sep=';', dtype=str)
 
-        # Mapping parent_station_id -> name pour résoudre les noms de ville
         id_to_name = df.set_index('id')['name'].to_dict() if 'id' in df.columns else {}
         id_to_parent_id = df.set_index('id')['parent_station_id'].to_dict() if 'parent_station_id' in df.columns else {}
 
@@ -169,11 +165,9 @@ class GTFSHarmonizer:
             if not isinstance(name, str) or not name.strip():
                 continue
 
-            # Extraction du parent/ville
             s_id = row.get('id')
             parent_id = id_to_parent_id.get(s_id) if s_id else None
             
-            # Si un parent_id existe, on prend son nom, sinon on cherche parent_station_name / city, sinon le nom de la gare
             parent_name = None
             if parent_id and pd.notnull(parent_id) and str(parent_id) in id_to_name:
                 parent_name = id_to_name[str(parent_id)]
@@ -183,9 +177,8 @@ class GTFSHarmonizer:
                 parent_name = row.get('city')
             
             if not parent_name or not str(parent_name).strip():
-                parent_name = name  # Fallback sur le nom de la gare
+                parent_name = name
 
-            # Extraction du pays (2 lettres ISO, ex: FR, BE, DE, GB, CH)
             country = str(row.get('country', 'FR')).strip().upper() if pd.notnull(row.get('country')) else 'FR'
             if len(country) > 2:
                 country = country[:2]
@@ -269,12 +262,10 @@ class GTFSHarmonizer:
 
             matched_id = None
 
-            # 1. Matching par UIC
             if uic and uic in uic_index:
                 matched_id = uic_index[uic]
                 self.stats["merges_uic"] += 1
 
-            # 2. Matching par Géolocalisation (< 100m) + Nom similaire
             if not matched_id and lat is not None and lon is not None:
                 for c_id, c_stop in self.canonical_stops.items():
                     dist = haversine_distance(lat, lon, c_stop['stop_lat'], c_stop['stop_lon'])
@@ -283,7 +274,6 @@ class GTFSHarmonizer:
                         self.stats["merges_geoloc"] += 1
                         break
 
-            # 3. Création si nouvelle gare
             if not matched_id:
                 matched_id = f"CANONICAL_UIC_{uic}" if uic else f"CANONICAL_STOP_{len(self.canonical_stops) + 1:06d}"
 
@@ -325,7 +315,7 @@ class GTFSHarmonizer:
         self.stats["unique_canonical_stops"] = len(self.canonical_stops)
         logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
-def build_sqlite(self):
+    def build_sqlite(self):
         """Phase 3 : Écriture dans SQLite avec les colonnes parent_name et country."""
         logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
@@ -383,7 +373,6 @@ def build_sqlite(self):
             );
         """)
 
-        # Insertion des gares canoniques avec ville et pays
         stops_rows = [
             (
                 s["stop_id"],
@@ -411,17 +400,14 @@ def build_sqlite(self):
             res = requests.get(op["gtfs_url"], timeout=180)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
 
-                # 1. Processing CALENDAR_DATES
                 active_services = set()
                 if 'calendar_dates.txt' in z.namelist():
-                    # Nettoyage des en-têtes (gestion des espaces insécables \xa0, espaces standards et BOM)
                     raw_cols = pd.read_csv(z.open('calendar_dates.txt'), nrows=0).columns
                     col_map = {c: c.strip().lstrip('\ufeff').replace('\xa0', '').strip() for c in raw_cols}
 
                     cal = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
                     cal = cal.rename(columns=col_map)
 
-                    # Conservation dynamique des colonnes utiles présentes
                     cols_to_use = [c for c in ['service_id', 'date', 'exception_type'] if c in cal.columns]
                     cal = cal[cols_to_use]
 
@@ -442,7 +428,6 @@ def build_sqlite(self):
                     )
 
                 if op_id.upper() == "EUROSTAR":
-                    # --- EUROSTAR ---
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         st['dep_min'] = st['departure_time'].apply(to_minutes)
@@ -478,7 +463,6 @@ def build_sqlite(self):
                             'trips', conn, if_exists='append', index=False
                         )
                 elif op_id.upper() == "RENFE":
-                    # --- RENFE (ESPAGNE) ---
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         st['dep_min'] = st['departure_time'].apply(to_minutes)
@@ -523,7 +507,6 @@ def build_sqlite(self):
                         )
 
                 else:
-                    # --- SNCF ---
                     stop_type_map = {}
                     if 'stops.txt' in z.namelist():
                         stops_df = pd.read_csv(z.open('stops.txt'), usecols=['stop_id'], dtype=str)
@@ -573,7 +556,6 @@ def build_sqlite(self):
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
-        # Indexations SQL
         logging.info("⚡ Création des index SQL...")
         cursor.executescript("""
             CREATE INDEX idx_stops_uic ON stops(uic);
@@ -591,7 +573,7 @@ def build_sqlite(self):
         conn.close()
         logging.info("✅ Base SQLite optimisée créée avec succès.")
 
-def export(self):
+    def export(self):
         """Phase 4 : Compression finale et sauvegarde des statistiques."""
         logging.info("📦 Compression gzippée...")
         with open(OUTPUT_DB_PATH, 'rb') as f_in:
