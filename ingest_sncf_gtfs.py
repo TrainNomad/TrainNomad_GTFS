@@ -56,6 +56,24 @@ def extract_eurostar_train_no(trip_id: str) -> str:
     match = re.search(r'(?:EUROSTAR_)?(\d{3,5})', trip_id, re.IGNORECASE)
     return match.group(1) if match else trip_id
 
+def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
+    """
+    Extrait le numéro de train Renfe.
+    Donne la priorité à 'trip_short_name', sinon tente d'extraire les chiffres du trip_id.
+    """
+    if isinstance(trip_short_name, str) and trip_short_name.strip():
+        # Supprime les zéros inutiles au début (ex: '00190' -> '190') ou conserve la chaîne nettoyée
+        clean_name = trip_short_name.strip()
+        return str(int(clean_name)) if clean_name.isdigit() else clean_name
+    
+    if isinstance(trip_id, str):
+        # Fallback sur les chiffres du trip_id si short_name est vide
+        m = re.search(r'(\d{4,5})', trip_id)
+        if m:
+            return str(int(m.group(1)))
+            
+    return ""
+
 def extract_uic(val: str) -> str:
     """Extrait la suite de 7 ou 8 chiffres UIC à partir d'un string (stop_id ou stop_code)."""
     if not isinstance(val, str):
@@ -445,6 +463,52 @@ class GTFSHarmonizer:
                         tp['route_id'] = op_id + "_" + tp['route_id']
                         tp['service_id'] = op_id + "_" + tp['service_id']
                         tp['operator_id'] = op_id
+                        tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
+                            'trips', conn, if_exists='append', index=False
+                        )
+                elif op_id.upper() == "RENFE":
+                    # --- RENFE (ESPAGNE) ---
+                    if 'stop_times.txt' in z.namelist():
+                        st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
+                        st['dep_min'] = st['departure_time'].apply(to_minutes)
+                        st['stop_sequence'] = st['stop_sequence'].astype(int)
+                        st['trip_id'] = op_id + "_" + st['trip_id']
+                        st['operator_id'] = op_id
+                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                        st[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
+                            'stop_times', conn, if_exists='append', index=False
+                        )
+
+                    if 'routes.txt' in z.namelist():
+                        rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                        # Type de train basé sur le nom long ou court de la route (ex: AVE, ALVIA)
+                        rt['train_type'] = rt.get('route_long_name', rt.get('route_short_name', 'Train Renfe'))
+                        rt['route_id'] = op_id + "_" + rt['route_id']
+                        rt['operator_id'] = op_id
+                        rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
+
+                    if 'trips.txt' in z.namelist():
+                        cols_to_read = ['trip_id', 'route_id', 'service_id']
+                        if 'trip_short_name' in pd.read_csv(z.open('trips.txt'), nrows=1).columns:
+                            cols_to_read.append('trip_short_name')
+                        if 'trip_headsign' in pd.read_csv(z.open('trips.txt'), nrows=1).columns:
+                            cols_to_read.append('trip_headsign')
+
+                        tp = pd.read_csv(z.open('trips.txt'), usecols=cols_to_read, dtype=str)
+                        if active_services:
+                            tp = tp[tp['service_id'].isin(active_services)]
+                        
+                        # Mapping du numéro de train via trip_short_name
+                        tp['trip_headsign'] = tp.apply(
+                            lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), 
+                            axis=1
+                        )
+
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['operator_id'] = op_id
+                        
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
                         )
