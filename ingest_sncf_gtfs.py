@@ -159,6 +159,9 @@ def parse_renfe_train_type(route_row: pd.Series) -> str:
         return "Cercanías"
     elif "REGIONAL" in full_str:
         return "Regional"
+    elif "TRENCELTA" in full_str:
+            return "Tren Celta"
+    
     
     val = str(route_row.get('route_long_name', '')).strip()
     return val if val else "Train Renfe"
