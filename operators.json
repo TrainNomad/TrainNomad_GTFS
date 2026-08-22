@@ -30,5 +30,22 @@
       "Eurostar",
       "Thalys"
     ]
-  }
+  },
+  {
+  "id": "RENFE",
+  "name": "Renfe Viajeros",
+  "enabled": true,
+  "gtfs_dir": "./gtfs/renfe",
+  "db_gz_path": "./gtfs/renfe/renfe.db.gz",
+  "gtfs_url": "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
+  "transport_types": [
+    "AVE",
+    "AVLO",
+    "ALVIA",
+    "EUROMED",
+    "INTERCITY",
+    "AVANT",
+    "MD"
+  ]
+}
 ]
