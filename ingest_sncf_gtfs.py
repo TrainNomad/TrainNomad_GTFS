@@ -26,7 +26,6 @@ OUTPUT_DB_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db")
 OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db.gz")
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
-# Plage glissante de 120 jours
 TODAY = datetime.now()
 DATE_START = TODAY.strftime("%Y-%m-%d")
 DATE_END = (TODAY + timedelta(days=120)).strftime("%Y-%m-%d")
@@ -115,7 +114,10 @@ def extract_train_type_from_stop_id(stop_id: str) -> str:
 
 def parse_renfe_train_type(route_row: pd.Series) -> str:
     full_str = f"{route_row.get('route_short_name', '')} {route_row.get('route_long_name', '')} {route_row.get('route_id', '')}".upper()
-    if "AVE" in full_str:
+    # Grande Vitesse & Longue Distance
+    if "AVE INT" in full_str:
+        return "AVE International"
+    elif "AVE" in full_str:
         return "AVE"
     elif "AVLO" in full_str:
         return "Avlo"
@@ -125,14 +127,26 @@ def parse_renfe_train_type(route_row: pd.Series) -> str:
         return "Euromed"
     elif "INTERCITY" in full_str:
         return "Intercity"
-    elif "MD" in full_str or "MEDIA" in full_str:
-        return "Media Distancia"
-    elif "CERCANIAS" in full_str or "RODALIES" in full_str:
-        return "Cercanías"
-    elif "REGIONAL" in full_str:
-        return "Regional"
     elif "TRENCELTA" in full_str:
         return "Tren Celta"
+
+    # Moyen Distance & Régional
+    elif "AVANT EXP" in full_str:
+        return "Avant Exprés"
+    elif "AVANT" in full_str:
+        return "Avant"
+    elif "MD" in full_str or "MEDIA" in full_str:
+        return "Media Distancia"
+    elif "REG.EXP." in full_str or "REGIONAL EXPRES" in full_str:
+        return "Regional Exprés"
+    elif "REGIONAL" in full_str:
+        return "Regional"
+    elif "PROXIMDAD" in full_str or "PROXIMIDAD" in full_str:
+        return "Proximidad"
+
+    # Banlieue / Cercanías
+    elif "CERCANIAS" in full_str or "RODALIES" in full_str:
+        return "Cercanías"
     
     val = str(route_row.get('route_long_name', '')).strip()
     return val if val else "Train Renfe"
@@ -176,47 +190,42 @@ class GTFSHarmonizer:
 
         logging.info("📖 Chargement des correspondances depuis stations.csv...")
         
-        # Lecture sans header pour cibler directement les positions de colonnes
-        df = pd.read_csv(STATIONS_CSV, sep=';', header=None, dtype=str)
+        # Chargement avec pandas
+        df = pd.read_csv(STATIONS_CSV, sep=';', low_memory=False, dtype=str)
 
         self.sncf_to_uic = {}
         self.renfe_to_uic = {}
         self.uic_to_country = {}
 
-        # Dictionnaire d'accès rapide aux lignes par numéro de ligne (1-indexed / Excel)
-        line_dict = {}
-        for idx, row in df.iterrows():
-            line_dict[idx + 1] = row
+        # Mappage rapide id (colonne A) -> nom de la station (colonne B)
+        station_id_map = df.set_index('id')['name'].to_dict()
 
-        for idx, row in df.iterrows():
-            # Colonne D -> index 3 (UIC)
-            real_uic = str(row.iloc[3]).strip() if pd.notnull(row.iloc[3]) else ''
-            if not real_uic or real_uic.upper() == 'UIC':
+        for _, row in df.iterrows():
+            real_uic = str(row['uic']).strip() if pd.notnull(row['uic']) else ''
+            if not real_uic or real_uic.upper() == 'UIC' or real_uic == 'nan':
                 continue
 
-            # Traitement des colonnes annexes
-            country = str(row.iloc[4]).strip().upper() if len(row) > 4 and pd.notnull(row.iloc[4]) else ''
+            country = str(row['country']).strip().upper() if pd.notnull(row['country']) else ''
             if len(country) > 2:
                 country = country[:2]
 
             self.uic_to_country[real_uic] = country
-            name = str(row.iloc[1]).strip() if len(row) > 1 and pd.notnull(row.iloc[1]) else real_uic
+            name = str(row['name']).strip() if pd.notnull(row['name']) else real_uic
 
-            # Colonne H -> index 7 (Numéro de ligne parente dans Excel)
+            # Traitement du parent_station_id (Colonne H) vers colonne A (id)
             parent_name = name
-            if len(row) > 7 and pd.notnull(row.iloc[7]):
-                parent_line_str = str(row.iloc[7]).strip()
-                if parent_line_str.isdigit():
-                    parent_line_num = int(parent_line_str)
-                    if parent_line_num in line_dict:
-                        parent_row = line_dict[parent_line_num]
-                        # Récupère le nom de la ville/gare issue de la ligne parente (Colonne B -> index 1)
-                        if len(parent_row) > 1 and pd.notnull(parent_row.iloc[1]):
-                            parent_name = str(parent_row.iloc[1]).strip()
+            parent_id = str(row['parent_station_id']).strip() if pd.notnull(row['parent_station_id']) else ''
+            
+            # Formate parent_id en enlevant la décimale si présente (ex: "4916.0" -> "4916")
+            if parent_id.endswith('.0'):
+                parent_id = parent_id[:-2]
+
+            if parent_id in station_id_map and station_id_map[parent_id]:
+                parent_name = str(station_id_map[parent_id]).strip()
 
             # Extraction latitude/longitude
-            lat = float(row.iloc[5]) if len(row) > 5 and pd.notnull(row.iloc[5]) and row.iloc[5].replace('.', '', 1).isdigit() else None
-            lon = float(row.iloc[6]) if len(row) > 6 and pd.notnull(row.iloc[6]) and row.iloc[6].replace('.', '', 1).isdigit() else None
+            lat = float(row['latitude']) if pd.notnull(row['latitude']) else None
+            lon = float(row['longitude']) if pd.notnull(row['longitude']) else None
 
             self.stations_reference[real_uic] = {
                 'name': name,
@@ -227,15 +236,15 @@ class GTFSHarmonizer:
                 'uic': real_uic
             }
 
-            # Identifiants optionnels (SNCF / RENFE si présent aux colonnes suivantes)
-            if len(row) > 8 and pd.notnull(row.iloc[8]):
-                uic8_sncf = str(row.iloc[8]).strip()
+            # Mappage des IDs SNCF et RENFE
+            if pd.notnull(row.get('uic8_sncf')):
+                uic8_sncf = str(row['uic8_sncf']).strip()
                 if uic8_sncf:
                     sncf_7 = extract_uic(uic8_sncf, operator_id="SNCF")
                     self.sncf_to_uic[sncf_7] = real_uic
 
-            if len(row) > 9 and pd.notnull(row.iloc[9]):
-                renfe_id = str(row.iloc[9]).strip()
+            if pd.notnull(row.get('renfe_id')):
+                renfe_id = str(row['renfe_id']).strip()
                 if renfe_id:
                     self.renfe_to_uic[renfe_id] = real_uic
                     if len(renfe_id) == 5:
