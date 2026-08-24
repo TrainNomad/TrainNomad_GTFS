@@ -175,47 +175,73 @@ class GTFSHarmonizer:
             return
 
         logging.info("📖 Chargement des correspondances depuis stations.csv...")
-        df = pd.read_csv(STATIONS_CSV, sep=';', dtype=str)
+        
+        # Lecture sans header pour cibler directement les positions de colonnes
+        df = pd.read_csv(STATIONS_CSV, sep=';', header=None, dtype=str)
 
         self.sncf_to_uic = {}
         self.renfe_to_uic = {}
         self.uic_to_country = {}
 
-        for _, row in df.iterrows():
-            real_uic = str(row.get('uic', '')).strip()
-            if not real_uic:
+        # Dictionnaire d'accès rapide aux lignes par numéro de ligne (1-indexed / Excel)
+        line_dict = {}
+        for idx, row in df.iterrows():
+            line_dict[idx + 1] = row
+
+        for idx, row in df.iterrows():
+            # Colonne D -> index 3 (UIC)
+            real_uic = str(row.iloc[3]).strip() if pd.notnull(row.iloc[3]) else ''
+            if not real_uic or real_uic.upper() == 'UIC':
                 continue
 
-            country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
+            # Traitement des colonnes annexes
+            country = str(row.iloc[4]).strip().upper() if len(row) > 4 and pd.notnull(row.iloc[4]) else ''
             if len(country) > 2:
                 country = country[:2]
 
             self.uic_to_country[real_uic] = country
+            name = str(row.iloc[1]).strip() if len(row) > 1 and pd.notnull(row.iloc[1]) else real_uic
 
-            name = str(row.get('name', '')).strip()
-            parent_name = str(row.get('parent_station_name', '')).strip() or str(row.get('city', '')).strip() or name
+            # Colonne H -> index 7 (Numéro de ligne parente dans Excel)
+            parent_name = name
+            if len(row) > 7 and pd.notnull(row.iloc[7]):
+                parent_line_str = str(row.iloc[7]).strip()
+                if parent_line_str.isdigit():
+                    parent_line_num = int(parent_line_str)
+                    if parent_line_num in line_dict:
+                        parent_row = line_dict[parent_line_num]
+                        # Récupère le nom de la ville/gare issue de la ligne parente (Colonne B -> index 1)
+                        if len(parent_row) > 1 and pd.notnull(parent_row.iloc[1]):
+                            parent_name = str(parent_row.iloc[1]).strip()
+
+            # Extraction latitude/longitude
+            lat = float(row.iloc[5]) if len(row) > 5 and pd.notnull(row.iloc[5]) and row.iloc[5].replace('.', '', 1).isdigit() else None
+            lon = float(row.iloc[6]) if len(row) > 6 and pd.notnull(row.iloc[6]) and row.iloc[6].replace('.', '', 1).isdigit() else None
 
             self.stations_reference[real_uic] = {
                 'name': name,
                 'parent_name': parent_name,
                 'country': country,
-                'lat': float(row['latitude']) if pd.notnull(row.get('latitude')) else None,
-                'lon': float(row['longitude']) if pd.notnull(row.get('longitude')) else None,
+                'lat': lat,
+                'lon': lon,
                 'uic': real_uic
             }
 
-            uic8_sncf = str(row.get('uic8_sncf', '')).strip()
-            if uic8_sncf:
-                sncf_7 = extract_uic(uic8_sncf, operator_id="SNCF")
-                self.sncf_to_uic[sncf_7] = real_uic
+            # Identifiants optionnels (SNCF / RENFE si présent aux colonnes suivantes)
+            if len(row) > 8 and pd.notnull(row.iloc[8]):
+                uic8_sncf = str(row.iloc[8]).strip()
+                if uic8_sncf:
+                    sncf_7 = extract_uic(uic8_sncf, operator_id="SNCF")
+                    self.sncf_to_uic[sncf_7] = real_uic
 
-            renfe_id = str(row.get('renfe_id', '')).strip()
-            if renfe_id:
-                self.renfe_to_uic[renfe_id] = real_uic
-                if len(renfe_id) == 5:
-                    self.renfe_to_uic[f"71{renfe_id}"] = real_uic
+            if len(row) > 9 and pd.notnull(row.iloc[9]):
+                renfe_id = str(row.iloc[9]).strip()
+                if renfe_id:
+                    self.renfe_to_uic[renfe_id] = real_uic
+                    if len(renfe_id) == 5:
+                        self.renfe_to_uic[f"71{renfe_id}"] = real_uic
 
-        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF, {len(self.renfe_to_uic)} clés RENFE.")
+        logging.info(f"✅ Chargé : {len(self.stations_reference)} stations répertoriées via UIC (colonne D).")
 
     def fetch_stops(self):
         logging.info("📥 Extraction des gares depuis les GTFS...")
@@ -420,7 +446,6 @@ class GTFSHarmonizer:
                 calendar_entries = []
                 active_services = set()
 
-                # --- 1. PARSING DE CALENDAR.TXT (Si disponible) ---
                 if 'calendar.txt' in z.namelist():
                     cal_df = pd.read_csv(z.open('calendar.txt'), dtype=str)
                     cal_df.columns = cal_df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
@@ -446,7 +471,6 @@ class GTFSHarmonizer:
                                     active_services.add(srv_id)
                                 curr += timedelta(days=1)
 
-                # --- 2. PARSING DE CALENDAR_DATES.TXT ET PURGE DES SUPPRESSIONS ---
                 if 'calendar_dates.txt' in z.namelist():
                     cd_df = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
                     cd_df.columns = cd_df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
@@ -464,15 +488,13 @@ class GTFSHarmonizer:
                         if pd.notnull(dt_str):
                             exceptions[(srv_id, dt_str)] = int(row['exception_type'])
 
-                    # Filtrage : On retire les dates annulées (type 2) issues de calendar.txt
                     filtered_calendar = []
                     for srv_id, dt_str, exc_type, op_name in calendar_entries:
                         if (srv_id, dt_str) in exceptions:
                             if exceptions[(srv_id, dt_str)] == 2:
-                                continue  # Annulation appliquée
+                                continue
                         filtered_calendar.append((srv_id, dt_str, 1, op_name))
 
-                    # Ajout des exceptions d'ajout manuel (type 1)
                     for (srv_id, dt_str), exc_type in exceptions.items():
                         if exc_type == 1:
                             filtered_calendar.append((srv_id, dt_str, 1, op_id))
@@ -486,7 +508,6 @@ class GTFSHarmonizer:
                         calendar_entries
                     )
 
-                # --- 3. INGESTION DES TRIPS, ROUTES ET STOP_TIMES ---
                 if op_id.upper() in ["RENFE", "EUROSTAR"]:
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
