@@ -167,6 +167,7 @@ class GTFSHarmonizer:
         self.raw_stops = []
         self.stop_map = {}
         self.canonical_stops = {}
+        self.uic_to_country = {}
 
         self.stats = {
             "total_raw_stops": 0,
@@ -176,7 +177,7 @@ class GTFSHarmonizer:
         }
 
     def load_stations_reference(self):
-        """Charge le CSV et crée les tables de correspondance directes vers la Colonne D (uic)."""
+        """Charge stations.csv en associant l'UIC (Col D) au Pays (Col J) et aux métadonnées."""
         if not os.path.exists(STATIONS_CSV):
             logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé.")
             return
@@ -186,15 +187,22 @@ class GTFSHarmonizer:
 
         self.sncf_to_uic = {}
         self.renfe_to_uic = {}
+        self.uic_to_country = {}
 
         for _, row in df.iterrows():
-            real_uic = str(row.get('uic', '')).strip() # Colonne D
+            real_uic = str(row.get('uic', '')).strip()  # Colonne D
             if not real_uic:
                 continue
 
+            # Extraction propre du pays : Colonne J (country) -> 2 lettres max (ex: 'ES', 'FR')
+            country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
+            if len(country) > 2:
+                country = country[:2]
+
+            self.uic_to_country[real_uic] = country
+
             name = str(row.get('name', '')).strip()
             parent_name = str(row.get('parent_station_name', '')).strip() or str(row.get('city', '')).strip() or name
-            country = str(row.get('country', '')).strip().upper()[:2] if pd.notnull(row.get('country')) else ''
 
             # Stockage des infos de la gare associées au vrai UIC (Col D)
             self.stations_reference[real_uic] = {
@@ -219,7 +227,7 @@ class GTFSHarmonizer:
                 if len(renfe_id) == 5:
                     self.renfe_to_uic[f"71{renfe_id}"] = real_uic
 
-        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF et {len(self.renfe_to_uic)} clés RENFE.")
+        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF, {len(self.renfe_to_uic)} clés RENFE et {len(self.uic_to_country)} pays UIC.")
         
     def fetch_stops(self):
         """Phase 1 : Extraction des gares GTFS."""
@@ -241,7 +249,16 @@ class GTFSHarmonizer:
                         stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
                         
                         # Extrait l'UIC (avec conversion des 5 chiffres en 71XXXXX)
-                        uic = extract_uic(stop_code) or extract_uic(raw_id)
+                        extracted = extract_uic(stop_code) or extract_uic(raw_id)
+
+                        # Résolution vers l'UIC canonique (Col D) via les dictionnaires de mapping
+                        uic = ""
+                        if op_id.upper() == "SNCF":
+                            uic = self.sncf_to_uic.get(extracted, extracted)
+                        elif op_id.upper() == "RENFE":
+                            uic = self.renfe_to_uic.get(extracted, extracted)
+                        else:
+                            uic = extracted
 
                         lat = float(row['stop_lat']) if pd.notnull(row.get('stop_lat')) else None
                         lon = float(row['stop_lon']) if pd.notnull(row.get('stop_lon')) else None
@@ -292,14 +309,14 @@ class GTFSHarmonizer:
 
                 official_name = stop['raw_name']
                 parent_name = stop['raw_name']
-                country = ""
+                
+                # Récupération directe du pays lié à l'UIC colonne D
+                country = self.uic_to_country.get(uic, "")
 
-                # Récupération stricte du nom et du pays depuis stations.csv
                 if uic and uic in self.stations_reference:
                     ref = self.stations_reference[uic]
                     official_name = ref['name']
                     parent_name = ref['parent_name']
-                    country = ref['country']
 
                 self.canonical_stops[matched_id] = {
                     "stop_id": matched_id,
