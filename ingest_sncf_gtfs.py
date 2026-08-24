@@ -63,15 +63,23 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
             
     return ""
 
-def extract_uic(val: str) -> str:
+def extract_uic(val: str, operator_id: str = "") -> str:
     """
-    Extrait l'UIC. Convertit un code court à 5 chiffres (ex: Renfe)
-    en UIC à 7 chiffres avec le préfixe 71.
+    Extrait l'UIC depuis une chaîne.
+    - Si l'opérateur est SNCF, prend STRICTEMENT les 7 premiers chiffres.
+    - Sinon, extrait 7-8 chiffres ou convertit un code à 5 chiffres (Renfe) en 71XXXXX.
     """
     if not isinstance(val, str):
         return ""
     
-    # 1. UIC standard complet (7 à 8 chiffres)
+    # Règle stricte pour la SNCF : uniquement les 7 premiers chiffres
+    if isinstance(operator_id, str) and operator_id.upper() == "SNCF":
+        digits = re.sub(r'\D', '', val)
+        if len(digits) >= 7:
+            return digits[:7]
+        return digits
+
+    # 1. UIC standard complet pour les autres opérateurs (7 à 8 chiffres)
     m = re.search(r'(\d{7,8})', val)
     if m:
         return m.group(1)
@@ -214,20 +222,20 @@ class GTFSHarmonizer:
                 'uic': real_uic
             }
 
-            # 1. Mapping SNCF : Colonne E (uic8_sncf) -> Colonne D (uic)
+            # 1. Mapping SNCF : Colonne E (uic8_sncf) ramenée à 7 chiffres -> Colonne D (uic)
             uic8_sncf = str(row.get('uic8_sncf', '')).strip()
             if uic8_sncf:
-                self.sncf_to_uic[uic8_sncf] = real_uic
+                sncf_7 = extract_uic(uic8_sncf, operator_id="SNCF")
+                self.sncf_to_uic[sncf_7] = real_uic
 
             # 2. Mapping RENFE : Colonne AP (renfe_id) -> Colonne D (uic)
             renfe_id = str(row.get('renfe_id', '')).strip()
             if renfe_id:
                 self.renfe_to_uic[renfe_id] = real_uic
-                # Gère le cas où l'ID est complété par 71 au besoin
                 if len(renfe_id) == 5:
                     self.renfe_to_uic[f"71{renfe_id}"] = real_uic
 
-        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF, {len(self.renfe_to_uic)} clés RENFE et {len(self.uic_to_country)} pays UIC.")
+        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF (7 chiffres), {len(self.renfe_to_uic)} clés RENFE et {len(self.uic_to_country)} pays UIC.")
         
     def fetch_stops(self):
         """Phase 1 : Extraction des gares GTFS."""
@@ -248,8 +256,8 @@ class GTFSHarmonizer:
                         raw_id = str(row['stop_id'])
                         stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
                         
-                        # Extrait l'UIC (avec conversion des 5 chiffres en 71XXXXX)
-                        extracted = extract_uic(stop_code) or extract_uic(raw_id)
+                        # Extrait l'UIC (prend seulement les 7 premiers chiffres si op_id == "SNCF")
+                        extracted = extract_uic(stop_code, op_id) or extract_uic(raw_id, op_id)
 
                         # Résolution vers l'UIC canonique (Col D) via les dictionnaires de mapping
                         uic = ""
