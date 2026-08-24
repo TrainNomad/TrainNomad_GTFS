@@ -176,67 +176,51 @@ class GTFSHarmonizer:
         }
 
     def load_stations_reference(self):
-        """Charge le fichier stations.csv et extrait le PAYS depuis la colonne J (country)."""
+        """Charge le CSV et crée les tables de correspondance directes vers la Colonne D (uic)."""
         if not os.path.exists(STATIONS_CSV):
-            logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé. Les données GTFS brutes seront utilisées.")
+            logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé.")
             return
 
-        logging.info("📖 Chargement du fichier de référence stations.csv...")
+        logging.info("📖 Chargement des correspondances depuis stations.csv...")
         df = pd.read_csv(STATIONS_CSV, sep=';', dtype=str)
 
-        id_to_name = df.set_index('id')['name'].to_dict() if 'id' in df.columns else {}
-        id_to_parent_id = df.set_index('id')['parent_station_id'].to_dict() if 'parent_station_id' in df.columns else {}
+        self.sncf_to_uic = {}
+        self.renfe_to_uic = {}
 
         for _, row in df.iterrows():
-            name = row.get('name')
-            if not isinstance(name, str) or not name.strip():
+            real_uic = str(row.get('uic', '')).strip() # Colonne D
+            if not real_uic:
                 continue
 
-            s_id = row.get('id')
-            parent_id = id_to_parent_id.get(s_id) if s_id else None
-            
-            parent_name = None
-            if parent_id and pd.notnull(parent_id) and str(parent_id) in id_to_name:
-                parent_name = id_to_name[str(parent_id)]
-            elif 'parent_station_name' in row and pd.notnull(row.get('parent_station_name')):
-                parent_name = row.get('parent_station_name')
-            elif 'city' in row and pd.notnull(row.get('city')):
-                parent_name = row.get('city')
-            
-            if not parent_name or not str(parent_name).strip():
-                parent_name = name
+            name = str(row.get('name', '')).strip()
+            parent_name = str(row.get('parent_station_name', '')).strip() or str(row.get('city', '')).strip() or name
+            country = str(row.get('country', '')).strip().upper()[:2] if pd.notnull(row.get('country')) else ''
 
-            # Extraction directe du pays depuis la colonne J (country)
-            country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
-            if len(country) > 2:
-                country = country[:2]
-
-            uic7 = str(row.get('uic', '')).strip() if pd.notnull(row.get('uic')) else ''
-            uic8 = str(row.get('uic8_sncf', '')).strip() if pd.notnull(row.get('uic8_sncf')) else ''
-            lat = float(row['latitude']) if pd.notnull(row.get('latitude')) else None
-            lon = float(row['longitude']) if pd.notnull(row.get('longitude')) else None
-
-            info = {
+            # Stockage des infos de la gare associées au vrai UIC (Col D)
+            self.stations_reference[real_uic] = {
                 'name': name,
                 'parent_name': parent_name,
                 'country': country,
-                'lat': lat,
-                'lon': lon,
-                'uic7': uic7,
-                'uic8': uic8
+                'lat': float(row['latitude']) if pd.notnull(row.get('latitude')) else None,
+                'lon': float(row['longitude']) if pd.notnull(row.get('longitude')) else None,
+                'uic': real_uic
             }
 
-            if uic7:
-                self.stations_reference[uic7] = info
-                if len(uic7) == 7:
-                    self.stations_reference["8" + uic7] = info
-            if uic8:
-                self.stations_reference[uic8] = info
-                if len(uic8) == 8 and uic8.startswith("8"):
-                    self.stations_reference[uic8[1:]] = info
+            # 1. Mapping SNCF : Colonne E (uic8_sncf) -> Colonne D (uic)
+            uic8_sncf = str(row.get('uic8_sncf', '')).strip()
+            if uic8_sncf:
+                self.sncf_to_uic[uic8_sncf] = real_uic
 
-        logging.info(f"✅ {len(self.stations_reference)} clés UIC chargées avec pays depuis stations.csv.")
+            # 2. Mapping RENFE : Colonne AP (renfe_id) -> Colonne D (uic)
+            renfe_id = str(row.get('renfe_id', '')).strip()
+            if renfe_id:
+                self.renfe_to_uic[renfe_id] = real_uic
+                # Gère le cas où l'ID est complété par 71 au besoin
+                if len(renfe_id) == 5:
+                    self.renfe_to_uic[f"71{renfe_id}"] = real_uic
 
+        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF et {len(self.renfe_to_uic)} clés RENFE.")
+        
     def fetch_stops(self):
         """Phase 1 : Extraction des gares GTFS."""
         logging.info("📥 Extraction des gares depuis les GTFS...")
