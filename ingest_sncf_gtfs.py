@@ -26,14 +26,13 @@ OUTPUT_DB_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db")
 OUTPUT_GZ_PATH = os.path.join(BASE_DIR, "gtfs_indexed.db.gz")
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
-# Plage glissante de 60 jours
+# Plage glissante de 120 jours
 TODAY = datetime.now()
 DATE_START = TODAY.strftime("%Y-%m-%d")
-DATE_END = (TODAY + timedelta(days=60)).strftime("%Y-%m-%d")
+DATE_END = (TODAY + timedelta(days=120)).strftime("%Y-%m-%d")
 
 
 def normalize_string(s: str) -> str:
-    """Normalise une chaîne en minuscules sans accents ni mots vides."""
     if not isinstance(s, str):
         return ""
     s = unicodedata.normalize('NFD', s)
@@ -44,14 +43,12 @@ def normalize_string(s: str) -> str:
     return ' '.join(words)
 
 def extract_eurostar_train_no(trip_id: str) -> str:
-    """Extrait le numéro de train Eurostar depuis un trip_id."""
     if not isinstance(trip_id, str):
         return ""
     match = re.search(r'(?:EUROSTAR_)?(\d{3,5})', trip_id, re.IGNORECASE)
     return match.group(1) if match else trip_id
 
 def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
-    """Extrait le numéro de train Renfe."""
     if isinstance(trip_short_name, str) and trip_short_name.strip():
         clean_name = trip_short_name.strip()
         return str(int(clean_name)) if clean_name.isdigit() else clean_name
@@ -64,11 +61,6 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
     return ""
 
 def extract_uic(val: str, operator_id: str = "") -> str:
-    """
-    Extrait l'UIC depuis une chaîne.
-    - Si l'opérateur est SNCF, prend STRICTEMENT les 7 premiers chiffres.
-    - Sinon, extrait 7-8 chiffres ou convertit un code à 5 chiffres (Renfe) en 71XXXXX.
-    """
     if not isinstance(val, str):
         return ""
     
@@ -89,7 +81,6 @@ def extract_uic(val: str, operator_id: str = "") -> str:
     return ""
 
 def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    """Calcule la distance en mètres entre deux coordonnées GPS."""
     if any(v is None or math.isnan(v) for v in [lat1, lon1, lat2, lon2]):
         return float('inf')
     R = 6371000.0
@@ -101,7 +92,6 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return R * 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
 
 def extract_train_type_from_stop_id(stop_id: str) -> str:
-    """Extrait le type de train depuis un stop_id SNCF."""
     if not isinstance(stop_id, str):
         return ""
     
@@ -124,7 +114,6 @@ def extract_train_type_from_stop_id(stop_id: str) -> str:
     return ""
 
 def parse_renfe_train_type(route_row: pd.Series) -> str:
-    """Déduit le type de train pour la Renfe."""
     full_str = f"{route_row.get('route_short_name', '')} {route_row.get('route_long_name', '')} {route_row.get('route_id', '')}".upper()
     if "AVE" in full_str:
         return "AVE"
@@ -149,7 +138,6 @@ def parse_renfe_train_type(route_row: pd.Series) -> str:
     return val if val else "Train Renfe"
 
 def to_minutes(t_str: str) -> int:
-    """Convertit une chaîne d'heure HH:MM:SS en minutes totales depuis minuit."""
     if not isinstance(t_str, str) or ':' not in t_str:
         return 0
     parts = t_str.split(':')
@@ -182,7 +170,6 @@ class GTFSHarmonizer:
         }
 
     def load_stations_reference(self):
-        """Charge stations.csv en associant l'UIC (Col D) au Pays (Col J) et aux métadonnées."""
         if not os.path.exists(STATIONS_CSV):
             logging.warning(f"⚠️ Fichier {STATIONS_CSV} non trouvé.")
             return
@@ -228,10 +215,9 @@ class GTFSHarmonizer:
                 if len(renfe_id) == 5:
                     self.renfe_to_uic[f"71{renfe_id}"] = real_uic
 
-        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF (7 chiffres), {len(self.renfe_to_uic)} clés RENFE et {len(self.uic_to_country)} pays UIC.")
-        
+        logging.info(f"✅ Chargé : {len(self.sncf_to_uic)} clés SNCF, {len(self.renfe_to_uic)} clés RENFE.")
+
     def fetch_stops(self):
-        """Phase 1 : Extraction des gares GTFS."""
         logging.info("📥 Extraction des gares depuis les GTFS...")
         for op in self.operators:
             op_id = op["id"]
@@ -275,11 +261,9 @@ class GTFSHarmonizer:
                         })
 
         self.stats["total_raw_stops"] = len(self.raw_stops)
-        logging.info(f"✅ {len(self.raw_stops)} arrêts bruts extraits.")
 
     def process_and_deduplicate(self):
-        """Phase 2 : Déduplication et construction de la table canonique."""
-        logging.info("⚡ Déduplication des gares et harmonisation des données...")
+        logging.info("⚡ Déduplication des gares...")
         uic_index = {}
 
         for stop in self.raw_stops:
@@ -344,10 +328,8 @@ class GTFSHarmonizer:
             self.stop_map[(op_id, raw_id)] = matched_id
 
         self.stats["unique_canonical_stops"] = len(self.canonical_stops)
-        logging.info(f"✅ Nombre de gares uniques : {len(self.canonical_stops)}")
 
     def build_sqlite(self):
-        """Phase 3 : Écriture dans SQLite."""
         logging.info("💾 Génération de la base SQLite...")
         if os.path.exists(OUTPUT_DB_PATH):
             os.remove(OUTPUT_DB_PATH)
@@ -423,7 +405,7 @@ class GTFSHarmonizer:
         ]
         cursor.executemany("INSERT INTO stops VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", stops_rows)
 
-        logging.info(f"📅 Insertion de calendar_dates du {DATE_START} au {DATE_END} (60 jours)...")
+        logging.info(f"📅 Traitement des calendriers du {DATE_START} au {DATE_END}...")
 
         for op in self.operators:
             op_id = op["id"]
@@ -433,36 +415,64 @@ class GTFSHarmonizer:
             res = requests.get(op["gtfs_url"], timeout=180)
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
 
+                calendar_entries = []
                 active_services = set()
+
+                # --- 1. PARSING DE CALENDAR.TXT (Si disponible) ---
+                if 'calendar.txt' in z.namelist():
+                    cal_df = pd.read_csv(z.open('calendar.txt'), dtype=str)
+                    days_map = {0: 'monday', 1: 'tuesday', 2: 'wednesday', 3: 'thursday', 4: 'friday', 5: 'saturday', 6: 'sunday'}
+                    
+                    dt_start = datetime.strptime(DATE_START, "%Y-%m-%d")
+                    dt_end = datetime.strptime(DATE_END, "%Y-%m-%d")
+
+                    for _, row in cal_df.iterrows():
+                        srv_id = op_id + "_" + str(row['service_id'])
+                        s_start = datetime.strptime(str(row['start_date']), "%Y%m%d")
+                        s_end = datetime.strptime(str(row['end_date']), "%Y%m%d")
+
+                        curr = max(dt_start, s_start)
+                        limit = min(dt_end, s_end)
+
+                        while curr <= limit:
+                            day_name = days_map[curr.weekday()]
+                            if str(row.get(day_name, '0')).strip() == '1':
+                                calendar_entries.append((srv_id, curr.strftime("%Y-%m-%d"), 1, op_id))
+                                active_services.add(srv_id)
+                            curr += timedelta(days=1)
+
+                # --- 2. PARSING DE CALENDAR_DATES.TXT ---
                 if 'calendar_dates.txt' in z.namelist():
                     raw_cols = pd.read_csv(z.open('calendar_dates.txt'), nrows=0).columns
                     col_map = {c: c.strip().lstrip('\ufeff').replace('\xa0', '').strip() for c in raw_cols}
 
-                    cal = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
-                    cal = cal.rename(columns=col_map)
-
-                    cols_to_use = [c for c in ['service_id', 'date', 'exception_type'] if c in cal.columns]
-                    cal = cal[cols_to_use]
-
-                    if 'exception_type' not in cal.columns:
-                        cal['exception_type'] = '1'
-
-                    cal['date'] = pd.to_datetime(cal['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
-                    cal = cal[(cal['date'] >= DATE_START) & (cal['date'] <= DATE_END)]
+                    cd_df = pd.read_csv(z.open('calendar_dates.txt'), dtype=str).rename(columns=col_map)
                     
-                    cal['exception_type'] = cal['exception_type'].str.strip().astype(int)
+                    if 'exception_type' not in cd_df.columns:
+                        cd_df['exception_type'] = '1'
 
-                    # On ajoute le préfixe avant d'extraire les services actifs
-                    cal['service_id'] = op_id + "_" + cal['service_id']
-                    cal['operator_id'] = op_id
-                    
-                    active_services = set(cal['service_id'].unique())
+                    cd_df['date'] = pd.to_datetime(cd_df['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
+                    cd_df = cd_df[(cd_df['date'] >= DATE_START) & (cd_df['date'] <= DATE_END)]
 
-                    cal[['service_id', 'date', 'exception_type', 'operator_id']].to_sql(
-                        'calendar_dates', conn, if_exists='append', index=False
+                    for _, row in cd_df.iterrows():
+                        srv_id = op_id + "_" + str(row['service_id'])
+                        exc = int(row['exception_type'])
+                        date_str = row['date']
+
+                        if exc == 1:
+                            calendar_entries.append((srv_id, date_str, 1, op_id))
+                            active_services.add(srv_id)
+                        elif exc == 2:
+                            calendar_entries.append((srv_id, date_str, 2, op_id))
+
+                if calendar_entries:
+                    cursor.executemany(
+                        "INSERT INTO calendar_dates VALUES (?, ?, ?, ?)",
+                        calendar_entries
                     )
 
-                if op_id.upper() == "EUROSTAR":
+                # --- 3. INGESTION DES TRIPS, ROUTES ET STOP_TIMES ---
+                if op_id.upper() in ["RENFE", "EUROSTAR"]:
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         st['dep_min'] = st['departure_time'].apply(to_minutes)
@@ -476,45 +486,11 @@ class GTFSHarmonizer:
 
                     if 'routes.txt' in z.namelist():
                         rt = pd.read_csv(z.open('routes.txt'), dtype=str)
-                        rt['train_type'] = rt.apply(
-                            lambda r: "Eurostar (ex-Thalys)" if "THALYS" in str(r.get("agency_id", "")).upper() else "Eurostar", 
-                            axis=1
-                        )
-                        rt['route_id'] = op_id + "_" + rt['route_id']
-                        rt['operator_id'] = op_id
-                        rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
-
-                    if 'trips.txt' in z.namelist():
-                        tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                        if op_id.upper() == "RENFE":
+                            rt['train_type'] = rt.apply(parse_renfe_train_type, axis=1)
+                        else:
+                            rt['train_type'] = rt.apply(lambda r: "Eurostar (ex-Thalys)" if "THALYS" in str(r.get("agency_id", "")).upper() else "Eurostar", axis=1)
                         
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
-                        tp['operator_id'] = op_id
-
-                        if active_services:
-                            tp = tp[tp['service_id'].isin(active_services)]
-                        
-                        tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
-                        tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
-                            'trips', conn, if_exists='append', index=False
-                        )
-
-                elif op_id.upper() == "RENFE":
-                    if 'stop_times.txt' in z.namelist():
-                        st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
-                        st['dep_min'] = st['departure_time'].apply(to_minutes)
-                        st['stop_sequence'] = st['stop_sequence'].astype(int)
-                        st['trip_id'] = op_id + "_" + st['trip_id']
-                        st['operator_id'] = op_id
-                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
-                        st[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
-                            'stop_times', conn, if_exists='append', index=False
-                        )
-
-                    if 'routes.txt' in z.namelist():
-                        rt = pd.read_csv(z.open('routes.txt'), dtype=str)
-                        rt['train_type'] = rt.apply(parse_renfe_train_type, axis=1)
                         rt['route_id'] = op_id + "_" + rt['route_id']
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
@@ -524,12 +500,8 @@ class GTFSHarmonizer:
                         header_cols = pd.read_csv(z.open('trips.txt'), nrows=1).columns
                         if 'trip_short_name' in header_cols:
                             cols_to_read.append('trip_short_name')
-                        if 'trip_headsign' in header_cols:
-                            cols_to_read.append('trip_headsign')
 
                         tp = pd.read_csv(z.open('trips.txt'), usecols=cols_to_read, dtype=str)
-
-                        # FIX : Ajout du préfixe RENFE_ sur service_id, trip_id et route_id avant le filtrage isin()
                         tp['service_id'] = op_id + "_" + tp['service_id']
                         tp['trip_id'] = op_id + "_" + tp['trip_id']
                         tp['route_id'] = op_id + "_" + tp['route_id']
@@ -537,12 +509,12 @@ class GTFSHarmonizer:
 
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
-                        
-                        tp['trip_headsign'] = tp.apply(
-                            lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), 
-                            axis=1
-                        )
-                        
+
+                        if op_id.upper() == "RENFE":
+                            tp['trip_headsign'] = tp.apply(lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), axis=1)
+                        else:
+                            tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
+
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
                         )
@@ -557,7 +529,6 @@ class GTFSHarmonizer:
                     trip_type_map = {}
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
-                        
                         st['raw_type'] = st['stop_id'].map(stop_type_map)
                         trip_type_map = st.dropna(subset=['raw_type']).groupby('trip_id')['raw_type'].first().to_dict()
 
@@ -566,7 +537,6 @@ class GTFSHarmonizer:
                         st['trip_id'] = op_id + "_" + st['trip_id']
                         st['operator_id'] = op_id
                         st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
-                        
                         st[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
                             'stop_times', conn, if_exists='append', index=False
                         )
@@ -574,7 +544,6 @@ class GTFSHarmonizer:
                     route_type_map = {}
                     if 'trips.txt' in z.namelist():
                         tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
-                        
                         tp['raw_type'] = tp['trip_id'].map(trip_type_map)
                         route_type_map = tp.dropna(subset=['raw_type']).groupby('route_id')['raw_type'].first().to_dict()
 
@@ -601,22 +570,18 @@ class GTFSHarmonizer:
         cursor.executescript("""
             CREATE INDEX idx_stops_uic ON stops(uic);
             CREATE INDEX idx_stops_parent ON stops(parent_name);
-            CREATE INDEX idx_stops_country ON stops(country);
             CREATE INDEX idx_st_search ON stop_times(stop_id, dep_min);
             CREATE INDEX idx_st_trip ON stop_times(trip_id, stop_sequence);
             CREATE INDEX idx_calendar_search ON calendar_dates(service_id, date, exception_type);
             CREATE INDEX idx_trips_route ON trips(route_id);
         """)
 
-        logging.info("🧹 VACUUM et nettoyage...")
         conn.execute("VACUUM;")
         conn.execute("ANALYZE;")
         conn.close()
         logging.info("✅ Base SQLite optimisée créée avec succès.")
 
     def export(self):
-        """Phase 4 : Compression finale et sauvegarde des statistiques."""
-        logging.info("📦 Compression gzippée...")
         with open(OUTPUT_DB_PATH, 'rb') as f_in:
             with gzip.open(OUTPUT_GZ_PATH, 'wb', compresslevel=9) as f_out:
                 shutil.copyfileobj(f_in, f_out)
@@ -627,8 +592,6 @@ class GTFSHarmonizer:
 
         with open(REPORT_PATH, 'w', encoding='utf-8') as f:
             json.dump(self.stats, f, indent=2, ensure_ascii=False)
-
-        logging.info(f"✅ Fichier prêt pour Git : {OUTPUT_GZ_PATH}")
 
 
 if __name__ == '__main__':
