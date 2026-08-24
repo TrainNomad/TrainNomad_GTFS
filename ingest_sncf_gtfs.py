@@ -231,9 +231,11 @@ class GTFSHarmonizer:
             with zipfile.ZipFile(io.BytesIO(res.content)) as z:
                 if 'stops.txt' in z.namelist():
                     df = pd.read_csv(z.open('stops.txt'), dtype=str)
+                    df.columns = df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
+                    
                     for _, row in df.iterrows():
-                        raw_id = str(row['stop_id'])
-                        stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
+                        raw_id = str(row['stop_id']).strip()
+                        stop_code = str(row.get('stop_code', '')).strip() if pd.notnull(row.get('stop_code')) else ''
                         
                         extracted = extract_uic(stop_code, op_id) or extract_uic(raw_id, op_id)
 
@@ -421,49 +423,62 @@ class GTFSHarmonizer:
                 # --- 1. PARSING DE CALENDAR.TXT (Si disponible) ---
                 if 'calendar.txt' in z.namelist():
                     cal_df = pd.read_csv(z.open('calendar.txt'), dtype=str)
-                    days_map = {0: 'monday', 1: 'tuesday', 2: 'wednesday', 3: 'thursday', 4: 'friday', 5: 'saturday', 6: 'sunday'}
-                    
-                    dt_start = datetime.strptime(DATE_START, "%Y-%m-%d")
-                    dt_end = datetime.strptime(DATE_END, "%Y-%m-%d")
+                    cal_df.columns = cal_df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
 
-                    for _, row in cal_df.iterrows():
-                        srv_id = op_id + "_" + str(row['service_id'])
-                        s_start = datetime.strptime(str(row['start_date']), "%Y%m%d")
-                        s_end = datetime.strptime(str(row['end_date']), "%Y%m%d")
+                    if 'start_date' in cal_df.columns and 'end_date' in cal_df.columns:
+                        days_map = {0: 'monday', 1: 'tuesday', 2: 'wednesday', 3: 'thursday', 4: 'friday', 5: 'saturday', 6: 'sunday'}
+                        
+                        dt_start = datetime.strptime(DATE_START, "%Y-%m-%d")
+                        dt_end = datetime.strptime(DATE_END, "%Y-%m-%d")
 
-                        curr = max(dt_start, s_start)
-                        limit = min(dt_end, s_end)
+                        for _, row in cal_df.iterrows():
+                            srv_id = op_id + "_" + str(row['service_id']).strip()
+                            s_start = datetime.strptime(str(row['start_date']).strip(), "%Y%m%d")
+                            s_end = datetime.strptime(str(row['end_date']).strip(), "%Y%m%d")
 
-                        while curr <= limit:
-                            day_name = days_map[curr.weekday()]
-                            if str(row.get(day_name, '0')).strip() == '1':
-                                calendar_entries.append((srv_id, curr.strftime("%Y-%m-%d"), 1, op_id))
-                                active_services.add(srv_id)
-                            curr += timedelta(days=1)
+                            curr = max(dt_start, s_start)
+                            limit = min(dt_end, s_end)
 
-                # --- 2. PARSING DE CALENDAR_DATES.TXT ---
+                            while curr <= limit:
+                                day_name = days_map[curr.weekday()]
+                                if str(row.get(day_name, '0')).strip() == '1':
+                                    calendar_entries.append((srv_id, curr.strftime("%Y-%m-%d"), 1, op_id))
+                                    active_services.add(srv_id)
+                                curr += timedelta(days=1)
+
+                # --- 2. PARSING DE CALENDAR_DATES.TXT ET PURGE DES SUPPRESSIONS ---
                 if 'calendar_dates.txt' in z.namelist():
-                    raw_cols = pd.read_csv(z.open('calendar_dates.txt'), nrows=0).columns
-                    col_map = {c: c.strip().lstrip('\ufeff').replace('\xa0', '').strip() for c in raw_cols}
-
-                    cd_df = pd.read_csv(z.open('calendar_dates.txt'), dtype=str).rename(columns=col_map)
+                    cd_df = pd.read_csv(z.open('calendar_dates.txt'), dtype=str)
+                    cd_df.columns = cd_df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                     
                     if 'exception_type' not in cd_df.columns:
                         cd_df['exception_type'] = '1'
 
-                    cd_df['date'] = pd.to_datetime(cd_df['date'], format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
+                    cd_df['date'] = pd.to_datetime(cd_df['date'].str.strip(), format='%Y%m%d', errors='coerce').dt.strftime('%Y-%m-%d')
                     cd_df = cd_df[(cd_df['date'] >= DATE_START) & (cd_df['date'] <= DATE_END)]
 
+                    exceptions = {}
                     for _, row in cd_df.iterrows():
-                        srv_id = op_id + "_" + str(row['service_id'])
-                        exc = int(row['exception_type'])
-                        date_str = row['date']
+                        srv_id = op_id + "_" + str(row['service_id']).strip()
+                        dt_str = row['date']
+                        if pd.notnull(dt_str):
+                            exceptions[(srv_id, dt_str)] = int(row['exception_type'])
 
-                        if exc == 1:
-                            calendar_entries.append((srv_id, date_str, 1, op_id))
+                    # Filtrage : On retire les dates annulées (type 2) issues de calendar.txt
+                    filtered_calendar = []
+                    for srv_id, dt_str, exc_type, op_name in calendar_entries:
+                        if (srv_id, dt_str) in exceptions:
+                            if exceptions[(srv_id, dt_str)] == 2:
+                                continue  # Annulation appliquée
+                        filtered_calendar.append((srv_id, dt_str, 1, op_name))
+
+                    # Ajout des exceptions d'ajout manuel (type 1)
+                    for (srv_id, dt_str), exc_type in exceptions.items():
+                        if exc_type == 1:
+                            filtered_calendar.append((srv_id, dt_str, 1, op_id))
                             active_services.add(srv_id)
-                        elif exc == 2:
-                            calendar_entries.append((srv_id, date_str, 2, op_id))
+
+                    calendar_entries = filtered_calendar
 
                 if calendar_entries:
                     cursor.executemany(
@@ -475,36 +490,41 @@ class GTFSHarmonizer:
                 if op_id.upper() in ["RENFE", "EUROSTAR"]:
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
+                        st.columns = st.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         st['dep_min'] = st['departure_time'].apply(to_minutes)
                         st['stop_sequence'] = st['stop_sequence'].astype(int)
-                        st['trip_id'] = op_id + "_" + st['trip_id']
+                        st['trip_id'] = op_id + "_" + st['trip_id'].str.strip()
                         st['operator_id'] = op_id
-                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x).strip()), str(x).strip()))
                         st[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
                             'stop_times', conn, if_exists='append', index=False
                         )
 
                     if 'routes.txt' in z.namelist():
                         rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                        rt.columns = rt.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         if op_id.upper() == "RENFE":
                             rt['train_type'] = rt.apply(parse_renfe_train_type, axis=1)
                         else:
                             rt['train_type'] = rt.apply(lambda r: "Eurostar (ex-Thalys)" if "THALYS" in str(r.get("agency_id", "")).upper() else "Eurostar", axis=1)
                         
-                        rt['route_id'] = op_id + "_" + rt['route_id']
+                        rt['route_id'] = op_id + "_" + rt['route_id'].str.strip()
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
                     if 'trips.txt' in z.namelist():
                         cols_to_read = ['trip_id', 'route_id', 'service_id']
-                        header_cols = pd.read_csv(z.open('trips.txt'), nrows=1).columns
+                        header_cols = [c.strip().replace('\ufeff', '').replace('\xa0', '').lower() for c in pd.read_csv(z.open('trips.txt'), nrows=1).columns]
                         if 'trip_short_name' in header_cols:
                             cols_to_read.append('trip_short_name')
 
-                        tp = pd.read_csv(z.open('trips.txt'), usecols=cols_to_read, dtype=str)
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp = pd.read_csv(z.open('trips.txt'), dtype=str)
+                        tp.columns = tp.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
+                        tp = tp[[c for c in cols_to_read if c in tp.columns]]
+
+                        tp['service_id'] = op_id + "_" + tp['service_id'].str.strip()
+                        tp['trip_id'] = op_id + "_" + tp['trip_id'].str.strip()
+                        tp['route_id'] = op_id + "_" + tp['route_id'].str.strip()
                         tp['operator_id'] = op_id
 
                         if active_services:
@@ -523,20 +543,22 @@ class GTFSHarmonizer:
                     stop_type_map = {}
                     if 'stops.txt' in z.namelist():
                         stops_df = pd.read_csv(z.open('stops.txt'), usecols=['stop_id'], dtype=str)
+                        stops_df.columns = stops_df.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         stops_df['train_type'] = stops_df['stop_id'].apply(extract_train_type_from_stop_id)
                         stop_type_map = stops_df[stops_df['train_type'] != ""].set_index('stop_id')['train_type'].to_dict()
 
                     trip_type_map = {}
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
+                        st.columns = st.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         st['raw_type'] = st['stop_id'].map(stop_type_map)
                         trip_type_map = st.dropna(subset=['raw_type']).groupby('trip_id')['raw_type'].first().to_dict()
 
                         st['dep_min'] = st['departure_time'].apply(to_minutes)
                         st['stop_sequence'] = st['stop_sequence'].astype(int)
-                        st['trip_id'] = op_id + "_" + st['trip_id']
+                        st['trip_id'] = op_id + "_" + st['trip_id'].str.strip()
                         st['operator_id'] = op_id
-                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x)), str(x)))
+                        st['stop_id'] = st['stop_id'].apply(lambda x: self.stop_map.get((op_id, str(x).strip()), str(x).strip()))
                         st[['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence', 'dep_min', 'operator_id']].to_sql(
                             'stop_times', conn, if_exists='append', index=False
                         )
@@ -544,12 +566,13 @@ class GTFSHarmonizer:
                     route_type_map = {}
                     if 'trips.txt' in z.namelist():
                         tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                        tp.columns = tp.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         tp['raw_type'] = tp['trip_id'].map(trip_type_map)
                         route_type_map = tp.dropna(subset=['raw_type']).groupby('route_id')['raw_type'].first().to_dict()
 
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['service_id'] = op_id + "_" + tp['service_id'].str.strip()
+                        tp['trip_id'] = op_id + "_" + tp['trip_id'].str.strip()
+                        tp['route_id'] = op_id + "_" + tp['route_id'].str.strip()
                         tp['operator_id'] = op_id
 
                         if active_services:
@@ -561,8 +584,9 @@ class GTFSHarmonizer:
 
                     if 'routes.txt' in z.namelist():
                         rt = pd.read_csv(z.open('routes.txt'), dtype=str)
+                        rt.columns = rt.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         rt['train_type'] = rt['route_id'].map(route_type_map).fillna("Train SNCF")
-                        rt['route_id'] = op_id + "_" + rt['route_id']
+                        rt['route_id'] = op_id + "_" + rt['route_id'].str.strip()
                         rt['operator_id'] = op_id
                         rt[['route_id', 'operator_id', 'train_type']].to_sql('routes', conn, if_exists='append', index=False)
 
