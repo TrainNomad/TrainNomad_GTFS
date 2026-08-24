@@ -72,19 +72,16 @@ def extract_uic(val: str, operator_id: str = "") -> str:
     if not isinstance(val, str):
         return ""
     
-    # Règle stricte pour la SNCF : uniquement les 7 premiers chiffres
     if isinstance(operator_id, str) and operator_id.upper() == "SNCF":
         digits = re.sub(r'\D', '', val)
         if len(digits) >= 7:
             return digits[:7]
         return digits
 
-    # 1. UIC standard complet pour les autres opérateurs (7 à 8 chiffres)
     m = re.search(r'(\d{7,8})', val)
     if m:
         return m.group(1)
     
-    # 2. Si l'ID contient 5 chiffres de base (ex: stop_id Renfe), conversion en UIC 71XXXXX
     m_short = re.search(r'\b(\d{5})\b', val)
     if m_short:
         return f"71{m_short.group(1)}"
@@ -198,11 +195,10 @@ class GTFSHarmonizer:
         self.uic_to_country = {}
 
         for _, row in df.iterrows():
-            real_uic = str(row.get('uic', '')).strip()  # Colonne D
+            real_uic = str(row.get('uic', '')).strip()
             if not real_uic:
                 continue
 
-            # Extraction propre du pays : Colonne J (country) -> 2 lettres max (ex: 'ES', 'FR')
             country = str(row.get('country', '')).strip().upper() if pd.notnull(row.get('country')) else ''
             if len(country) > 2:
                 country = country[:2]
@@ -212,7 +208,6 @@ class GTFSHarmonizer:
             name = str(row.get('name', '')).strip()
             parent_name = str(row.get('parent_station_name', '')).strip() or str(row.get('city', '')).strip() or name
 
-            # Stockage des infos de la gare associées au vrai UIC (Col D)
             self.stations_reference[real_uic] = {
                 'name': name,
                 'parent_name': parent_name,
@@ -222,13 +217,11 @@ class GTFSHarmonizer:
                 'uic': real_uic
             }
 
-            # 1. Mapping SNCF : Colonne E (uic8_sncf) ramenée à 7 chiffres -> Colonne D (uic)
             uic8_sncf = str(row.get('uic8_sncf', '')).strip()
             if uic8_sncf:
                 sncf_7 = extract_uic(uic8_sncf, operator_id="SNCF")
                 self.sncf_to_uic[sncf_7] = real_uic
 
-            # 2. Mapping RENFE : Colonne AP (renfe_id) -> Colonne D (uic)
             renfe_id = str(row.get('renfe_id', '')).strip()
             if renfe_id:
                 self.renfe_to_uic[renfe_id] = real_uic
@@ -256,10 +249,8 @@ class GTFSHarmonizer:
                         raw_id = str(row['stop_id'])
                         stop_code = str(row.get('stop_code', '')) if pd.notnull(row.get('stop_code')) else ''
                         
-                        # Extrait l'UIC (prend seulement les 7 premiers chiffres si op_id == "SNCF")
                         extracted = extract_uic(stop_code, op_id) or extract_uic(raw_id, op_id)
 
-                        # Résolution vers l'UIC canonique (Col D) via les dictionnaires de mapping
                         uic = ""
                         if op_id.upper() == "SNCF":
                             uic = self.sncf_to_uic.get(extracted, extracted)
@@ -317,8 +308,6 @@ class GTFSHarmonizer:
 
                 official_name = stop['raw_name']
                 parent_name = stop['raw_name']
-                
-                # Récupération directe du pays lié à l'UIC colonne D
                 country = self.uic_to_country.get(uic, "")
 
                 if uic and uic in self.stations_reference:
@@ -462,10 +451,12 @@ class GTFSHarmonizer:
                     cal = cal[(cal['date'] >= DATE_START) & (cal['date'] <= DATE_END)]
                     
                     cal['exception_type'] = cal['exception_type'].str.strip().astype(int)
-                    active_services = set(cal['service_id'].unique())
 
+                    # On ajoute le préfixe avant d'extraire les services actifs
                     cal['service_id'] = op_id + "_" + cal['service_id']
                     cal['operator_id'] = op_id
+                    
+                    active_services = set(cal['service_id'].unique())
 
                     cal[['service_id', 'date', 'exception_type', 'operator_id']].to_sql(
                         'calendar_dates', conn, if_exists='append', index=False
@@ -495,14 +486,16 @@ class GTFSHarmonizer:
 
                     if 'trips.txt' in z.namelist():
                         tp = pd.read_csv(z.open('trips.txt'), usecols=['trip_id', 'route_id', 'service_id', 'trip_headsign'], dtype=str)
+                        
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['operator_id'] = op_id
+
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
                         
                         tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['operator_id'] = op_id
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
                         )
@@ -535,6 +528,13 @@ class GTFSHarmonizer:
                             cols_to_read.append('trip_headsign')
 
                         tp = pd.read_csv(z.open('trips.txt'), usecols=cols_to_read, dtype=str)
+
+                        # FIX : Ajout du préfixe RENFE_ sur service_id, trip_id et route_id avant le filtrage isin()
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['operator_id'] = op_id
+
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
                         
@@ -542,11 +542,6 @@ class GTFSHarmonizer:
                             lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), 
                             axis=1
                         )
-
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['operator_id'] = op_id
                         
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
@@ -583,14 +578,14 @@ class GTFSHarmonizer:
                         tp['raw_type'] = tp['trip_id'].map(trip_type_map)
                         route_type_map = tp.dropna(subset=['raw_type']).groupby('route_id')['raw_type'].first().to_dict()
 
+                        tp['service_id'] = op_id + "_" + tp['service_id']
+                        tp['trip_id'] = op_id + "_" + tp['trip_id']
+                        tp['route_id'] = op_id + "_" + tp['route_id']
+                        tp['operator_id'] = op_id
+
                         if active_services:
                             tp = tp[tp['service_id'].isin(active_services)]
 
-                        tp['trip_id'] = op_id + "_" + tp['trip_id']
-                        tp['route_id'] = op_id + "_" + tp['route_id']
-                        tp['service_id'] = op_id + "_" + tp['service_id']
-                        tp['operator_id'] = op_id
-                        
                         tp[['trip_id', 'route_id', 'service_id', 'trip_headsign', 'operator_id']].to_sql(
                             'trips', conn, if_exists='append', index=False
                         )
