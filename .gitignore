@@ -1,1 +1,3 @@
 *.db
+feeds/
+network.bin
