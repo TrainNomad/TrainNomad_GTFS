@@ -1,6 +1,16 @@
 {
-  "total_raw_stops": 10083,
-  "unique_canonical_stops": 4487,
-  "merges_uic": 5492,
-  "merges_geoloc": 104
+  "stops_matched_ref": 5906,
+  "stops_unmatched": 438,
+  "stops_matched_geo": 30,
+  "trips_merged": 21091,
+  "trips_SNCF": 39040,
+  "trips_EUROSTAR": 11076,
+  "trips_RENFE": 6825,
+  "routes": 9311,
+  "trips": 35850,
+  "stops": 4330,
+  "cities": 4115,
+  "footpaths": 1474,
+  "stop_times": 308056,
+  "day_sets": 5872
 }
