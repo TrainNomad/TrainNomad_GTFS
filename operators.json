@@ -47,5 +47,14 @@
     "AVANT",
     "MD"
   ]
-}
+},
+  {
+    "id": "EUROPEAN_SLEEPER",
+    "name": "European Sleeper",
+    "enabled": true,
+    "gtfs_url": "https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip",
+    "transport_types": [
+      "European Sleeper"
+    ]
+  }
 ]

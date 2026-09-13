@@ -59,6 +59,11 @@ def extract_renfe_train_no(trip_short_name: str, trip_id: str) -> str:
             
     return ""
 
+def extract_european_sleeper_train_no(trip_id: str) -> str:
+    # "EUROPEAN_SLEEPER_ES-400-2026-09-13" -> "400"
+    m = re.search(r'ES-(\d+)', trip_id) if isinstance(trip_id, str) else None
+    return m.group(1) if m else ""
+
 def extract_uic(val: str, operator_id: str = "") -> str:
     if not isinstance(val, str):
         return ""
@@ -517,7 +522,7 @@ class GTFSHarmonizer:
                         calendar_entries
                     )
 
-                if op_id.upper() in ["RENFE", "EUROSTAR"]:
+                if op_id.upper() in ["RENFE", "EUROSTAR", "EUROPEAN_SLEEPER"]:
                     if 'stop_times.txt' in z.namelist():
                         st = pd.read_csv(z.open('stop_times.txt'), usecols=['trip_id', 'arrival_time', 'departure_time', 'stop_id', 'stop_sequence'], dtype=str)
                         st.columns = st.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
@@ -535,6 +540,8 @@ class GTFSHarmonizer:
                         rt.columns = rt.columns.str.strip().str.replace('\ufeff', '').str.replace('\xa0', '').str.lower()
                         if op_id.upper() == "RENFE":
                             rt['train_type'] = rt.apply(parse_renfe_train_type, axis=1)
+                        elif op_id.upper() == "EUROPEAN_SLEEPER":
+                            rt['train_type'] = "European Sleeper"
                         else:
                             rt['train_type'] = rt.apply(lambda r: "Eurostar (ex-Thalys)" if "THALYS" in str(r.get("agency_id", "")).upper() else "Eurostar", axis=1)
                         
@@ -562,6 +569,8 @@ class GTFSHarmonizer:
 
                         if op_id.upper() == "RENFE":
                             tp['trip_headsign'] = tp.apply(lambda r: extract_renfe_train_no(r.get('trip_short_name'), r.get('trip_id')), axis=1)
+                        elif op_id.upper() == "EUROPEAN_SLEEPER":
+                            tp['trip_headsign'] = tp['trip_id'].apply(extract_european_sleeper_train_no)
                         else:
                             tp['trip_headsign'] = tp['trip_id'].apply(extract_eurostar_train_no)
 
