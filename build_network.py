@@ -1,5 +1,5 @@
 """
-Compile les GTFS (SNCF, Eurostar, Renfe, ...) en un fichier binaire unique `network.bin`
+Compile les GTFS (SNCF, Eurostar, Renfe, European Sleeper, ...) en un fichier binaire unique `network.bin`
 chargé tel quel en RAM par le moteur de routage Go (dossier Europe/).
 
 Pipeline :
@@ -471,6 +471,11 @@ class NetworkBuilder:
                 checkin = int(route.get("checkin_duration", "0") or 0) // 60
             except ValueError:
                 checkin = 0
+        elif op_id == "EUROPEAN_SLEEPER":
+            # trip_id "ES-400-2026-09-13" (un trajet par date) -> train "400"
+            m = re.match(r"ES-(\d+)", meta["trip_id"]) or re.match(r"ES-(\d+)", meta["route_id"])
+            number = m.group(1) if m else meta["trip_id"]
+            ttype = "European Sleeper"
         else:
             number = meta.get("trip_short_name", "") or meta.get("trip_headsign", "")
             ttype = route.get("route_short_name", "") or route.get("route_long_name", "") or op_id
