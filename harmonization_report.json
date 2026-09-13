@@ -1,0 +1,16 @@
+{
+  "stops_matched_ref": 5903,
+  "stops_unmatched": 437,
+  "stops_matched_geo": 30,
+  "trips_merged": 20775,
+  "trips_SNCF": 38621,
+  "trips_EUROSTAR": 11084,
+  "trips_RENFE": 6731,
+  "routes": 9261,
+  "trips": 35661,
+  "stops": 4329,
+  "cities": 4114,
+  "footpaths": 1474,
+  "stop_times": 306822,
+  "day_sets": 5669
+}
