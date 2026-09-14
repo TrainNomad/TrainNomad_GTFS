@@ -1,0 +1,62 @@
+name: Mise à jour GTFS Royaume-Uni (National Rail)
+
+# Identifiants National Rail Data Portal à déclarer une seule fois dans
+# Settings > Secrets and variables > Actions > New repository secret :
+#   NR_EMAIL     adresse du compte
+#   NR_PASSWORD  mot de passe
+# Ils ne sont jamais écrits dans le dépôt et GitHub les masque dans les logs.
+
+on:
+  schedule:
+    - cron: '0 1 * * 0'   # dimanche 01:00 UTC, avant ingest.yml (03:00) qui assemble les réseaux
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uk-gtfs
+  cancel-in-progress: false
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+    - name: Récupérer le code du dépôt
+      uses: actions/checkout@v4
+
+    - name: Configurer Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Installer les dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Télécharger le flux CIF et le convertir en GTFS
+      env:
+        NR_EMAIL: ${{ secrets.NR_EMAIL }}
+        NR_PASSWORD: ${{ secrets.NR_PASSWORD }}
+      run: python UK/ingest_uk_gtfs.py
+
+    - name: Publier le GTFS en artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: uk-gtfs
+        path: |
+          UK/uk_gtfs.zip
+          UK/uk_gtfs_report.json
+        retention-days: 14
+
+    - name: Commit et push de UK/uk_gtfs.zip
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add UK/uk_gtfs.zip UK/uk_gtfs_report.json
+        git commit -m "Auto-update: Mise à jour GTFS Royaume-Uni (UK/uk_gtfs.zip)" || exit 0
+        git pull --rebase
+        git push
