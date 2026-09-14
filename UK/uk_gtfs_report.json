@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-09-14T12:58:07+00:00",
+  "window": [
+    "2026-09-12",
+    "2027-01-31"
+  ],
+  "cif_header": {
+    "file": "DFTTISR",
+    "extract": "190711",
+    "update": "F"
+  },
+  "zip_mb": 18.42,
+  "stats": {
+    "stations_matched_ref": 2709,
+    "cif_schedules": 497053,
+    "trips_merged": 168925,
+    "trips_too_few_stops": 115,
+    "trips": 232095,
+    "unknown_atoc_LF": 1,
+    "unknown_atoc_QC": 1,
+    "stops": 2737,
+    "routes": 6787,
+    "services": 10819,
+    "agencies": 32
+  },
+  "unmatched_tiplocs_top": [
+    [
+      "EPHT",
+      4447
+    ],
+    [
+      "TRNHMGN",
+      1999
+    ],
+    [
+      "UPMNLT",
+      1317
+    ],
+    [
+      "SGOS",
+      1143
+    ],
+    [
+      "PELAWTW",
+      1142
+    ],
+    [
+      "NWCSRC",
+      1103
+    ],
+    [
+      "CIVI",
+      1099
+    ],
+    [
+      "UNIV",
+      1079
+    ],
+    [
+      "MLLF",
+      1079
+    ],
+    [
+      "PALL",
+      1079
+    ],
+    [
+      "STHH",
+      1079
+    ],
+    [
+      "RIC----",
+      663
+    ],
+    [
+      "CLW----",
+      655
+    ],
+    [
+      "CFO----",
+      655
+    ],
+    [
+      "HOH----",
+      653
+    ],
+    [
+      "AMR----",
+      646
+    ],
+    [
+      "ZBS----",
+      635
+    ],
+    [
+      "GOP----",
+      543
+    ],
+    [
+      "LPY----",
+      428
+    ],
+    [
+      "SHV----",
+      348
+    ],
+    [
+      "FRM----",
+      288
+    ],
+    [
+      "MNUMTN",
+      242
+    ],
+    [
+      "LJL----",
+      236
+    ],
+    [
+      "XRD----",
+      224
+    ],
+    [
+      "STQ----",
+      214
+    ],
+    [
+      "TOWERHL",
+      211
+    ],
+    [
+      "POR----",
+      199
+    ],
+    [
+      "QBM----",
+      199
+    ],
+    [
+      "PMS----",
+      126
+    ],
+    [
+      "PMH----",
+      120
+    ]
+  ]
+}
