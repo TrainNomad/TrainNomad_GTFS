@@ -56,5 +56,12 @@
     "transport_types": [
       "European Sleeper"
     ]
+  },
+  {
+    "id": "NATIONAL_RAIL",
+    "name": "National Rail",
+    "enabled": true,
+    "gtfs_path": "./UK/uk_gtfs.zip",
+    "script_path": "./UK/ingest_uk_gtfs.py"
   }
 ]

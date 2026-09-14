@@ -135,7 +135,16 @@ def parse_minutes(series: pd.Series) -> np.ndarray:
 # Téléchargement
 # ---------------------------------------------------------------------------
 
-def fetch_feed(op: dict, refresh: bool) -> str:
+def fetch_feed(op: dict, refresh: bool) -> str | None:
+    if op.get("gtfs_path"):
+        # GTFS produit dans le dépôt par un autre workflow (ex. UK/ingest_uk_gtfs.py)
+        path = os.path.join(BASE_DIR, op["gtfs_path"])
+        if not os.path.exists(path):
+            logging.warning(f"  [{op['id']}] {path} introuvable, opérateur ignoré")
+            return None
+        logging.info(f"  [{op['id']}] GTFS local {op['gtfs_path']} ({os.path.getsize(path) / 1e6:.1f} Mo)")
+        return path
+
     os.makedirs(FEEDS_DIR, exist_ok=True)
     path = os.path.join(FEEDS_DIR, f"{op['id']}.zip")
     if not refresh and os.path.exists(path) and time.time() - os.path.getmtime(path) < FEED_MAX_AGE_H * 3600:
@@ -167,10 +176,10 @@ class StationRef:
     def __init__(self, path: str):
         logging.info("📖 Chargement de stations.csv")
         cols = ["id", "name", "uic", "uic8_sncf", "latitude", "longitude", "parent_station_id",
-                "country", "time_zone", "is_city", "renfe_id", "same_as"]
+                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "same_as"]
         df = pd.read_csv(path, sep=";", dtype=str, keep_default_na=False, usecols=cols, encoding="utf-8")
         self.rows = {}
-        self.by_uic, self.by_uic8, self.by_renfe = {}, {}, {}
+        self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc = {}, {}, {}, {}
         for r in df.itertuples(index=False):
             self.rows[r.id] = {
                 "id": r.id, "name": r.name, "lat": to_float(r.latitude), "lon": to_float(r.longitude),
@@ -184,6 +193,8 @@ class StationRef:
                 self.by_uic8[r.uic8_sncf] = r.id
             if r.renfe_id:
                 self.by_renfe[r.renfe_id] = r.id
+            if r.atoc_id and r.atoc_id not in self.by_atoc:
+                self.by_atoc[r.atoc_id] = r.id
         logging.info(f"   {len(self.rows)} lignes, {len(self.by_uic)} UIC")
 
     def canonical(self, rid: str) -> str:
@@ -222,6 +233,9 @@ class StationRef:
                 rid = self.by_uic.get(digits)
         elif op == "RENFE":
             rid = self.by_renfe.get(stop_id) or self.by_uic.get("71" + stop_id.zfill(5))
+        elif op == "NATIONAL_RAIL":
+            # arrêts = codes CRS britanniques, colonne atoc_id de stations.csv
+            rid = self.by_atoc.get(stop_id) or self.by_atoc.get(stop_code)
         else:
             for cand in (stop_code, stop_id):
                 m = re.search(r"\d{7,8}", cand or "")
@@ -363,6 +377,7 @@ class NetworkBuilder:
 
         agency = read_gtfs(z, "agency.txt")
         agency_tz = agency["agency_timezone"].iloc[0]
+        self.agency_names = dict(zip(agency["agency_id"], agency["agency_name"])) if "agency_id" in agency.columns else {}
         tz_idx = self.intern(self.timezones, agency_tz)
         logging.info(f"  [{op_id}] fuseau agence : {agency_tz}")
 
@@ -471,6 +486,16 @@ class NetworkBuilder:
                 checkin = int(route.get("checkin_duration", "0") or 0) // 60
             except ValueError:
                 checkin = 0
+        elif op_id == "NATIONAL_RAIL":
+            # un seul flux pour toutes les compagnies britanniques : le type est la compagnie
+            number = meta.get("trip_short_name", "")
+            route_type = route.get("route_type", "2")
+            if route_type == "3":
+                ttype = "Bus"
+            elif route_type == "4":
+                ttype = "Ferry"
+            else:
+                ttype = self.agency_names.get(route.get("agency_id", ""), "National Rail")
         elif op_id == "EUROPEAN_SLEEPER":
             # trip_id "ES-400-2026-09-13" (un trajet par date) -> train "400"
             m = re.match(r"ES-(\d+)", meta["trip_id"]) or re.match(r"ES-(\d+)", meta["route_id"])
@@ -774,13 +799,15 @@ def main():
     args = parser.parse_args()
 
     with open(OPERATORS_FILE, encoding="utf-8") as f:
-        operators = [o for o in json.load(f) if o.get("enabled", True) and o.get("gtfs_url")]
+        operators = [o for o in json.load(f) if o.get("enabled", True) and (o.get("gtfs_url") or o.get("gtfs_path"))]
 
     ref = StationRef(STATIONS_CSV)
     builder = NetworkBuilder(operators, ref)
     logging.info(f"📅 Fenêtre : {builder.day_dates[0]} → {builder.day_dates[-1]}")
     for op in operators:
-        builder.load_feed(op, fetch_feed(op, args.refresh))
+        path = fetch_feed(op, args.refresh)
+        if path:
+            builder.load_feed(op, path)
 
     writer = builder.build()
     writer.write(OUT_BIN)
