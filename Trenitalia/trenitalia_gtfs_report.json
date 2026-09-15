@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-15T08:40:25+00:00",
+  "source": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
+  "publication": "2026-09-09T20:48:39Z",
+  "valid_between": [
+    "2026-09-12",
+    "2026-12-12"
+  ],
+  "zip_mb": 1.8,
+  "stats": {
+    "stop_places": 1930,
+    "stops": 1930,
+    "stops_with_uic": 1930,
+    "routes": 13,
+    "journeys": 17435,
+    "trips": 17435,
+    "stop_times": 184373,
+    "services": 1644,
+    "calendar_dates": 50142
+  },
+  "trips_by_category": {
+    "Regionale": 9535,
+    "Autobus": 3350,
+    "Regionale Veloce": 1690,
+    "Frecciarossa": 836,
+    "sfm": 554,
+    "Intercity": 455,
+    "Metropolitano": 410,
+    "InterCityNotte": 322,
+    "Eurocity": 186,
+    "Frecciabianca": 44,
+    "Euronight": 25,
+    "Frecciargento": 23,
+    "Espresso": 5
+  }
+}
