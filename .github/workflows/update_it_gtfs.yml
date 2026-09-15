@@ -1,0 +1,53 @@
+name: Mise à jour GTFS Trenitalia
+
+on:
+  schedule:
+    - cron: '30 1 * * 0'   # dimanche 01:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trenitalia-gtfs
+  cancel-in-progress: false
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+    - name: Récupérer le code du dépôt
+      uses: actions/checkout@v4
+
+    - name: Configurer Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Installer les dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas
+
+    - name: Télécharger et convertir le NeTEx Trenitalia en GTFS
+      run: python Trenitalia/ingest_trenitalia.py
+
+    - name: Publier le GTFS en artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: trenitalia-gtfs
+        path: |
+          Trenitalia/trenitalia_gtfs.zip
+          Trenitalia/trenitalia_gtfs_report.json
+        retention-days: 14
+
+    - name: Commit et push de Trenitalia/trenitalia_gtfs.zip
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add Trenitalia/trenitalia_gtfs.zip Trenitalia/trenitalia_gtfs_report.json
+        git commit -m "Auto-update: Mise à jour GTFS Trenitalia (Trenitalia/trenitalia_gtfs.zip)" || exit 0
+        git pull --rebase
+        git push

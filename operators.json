@@ -63,5 +63,22 @@
     "enabled": true,
     "gtfs_path": "./UK/uk_gtfs.zip",
     "script_path": "./UK/ingest_uk_gtfs.py"
+  },
+  {
+    "id": "TRENITALIA",
+    "name": "Trenitalia",
+    "enabled": false,
+    "gtfs_dir": "./gtfs/trenitalia",
+    "db_gz_path": "./gtfs/trenitalia/trenitalia.db.gz",
+    "gtfs_url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
+    "script_path": "./Trenitalia/ingest_trenitalia.py",
+    "transport_types": [
+      "Frecciarossa",
+      "Frecciargento",
+      "Frecciabianca",
+      "Intercity",
+      "Regionale",
+      "Trenitalia"
+    ]
   }
 ]
