@@ -67,18 +67,25 @@
   {
     "id": "TRENITALIA",
     "name": "Trenitalia",
-    "enabled": false,
-    "gtfs_dir": "./gtfs/trenitalia",
-    "db_gz_path": "./gtfs/trenitalia/trenitalia.db.gz",
-    "gtfs_url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
+    "enabled": true,
+    "gtfs_path": "./Trenitalia/trenitalia_gtfs.zip",
     "script_path": "./Trenitalia/ingest_trenitalia.py",
+    "netex_url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
     "transport_types": [
       "Frecciarossa",
       "Frecciargento",
       "Frecciabianca",
+      "FrecciaLink",
       "Intercity",
+      "Intercity Notte",
+      "EuroCity",
+      "EuroNight",
+      "Espresso",
+      "Regionale Veloce",
       "Regionale",
-      "Trenitalia"
+      "Metropolitano",
+      "SFM",
+      "Bus"
     ]
   }
 ]
