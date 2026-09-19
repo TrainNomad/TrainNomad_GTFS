@@ -79,6 +79,7 @@ ATOC_OPERATORS = {
     "HX": ("Heathrow Express", "https://www.heathrowexpress.com"),
     "IL": ("Island Line", "https://www.southwesternrailway.com"),
     "LD": ("Lumo", "https://www.lumo.co.uk"),
+    "LF": ("Lumo", "https://www.lumo.co.uk"),
     "LE": ("Greater Anglia", "https://www.greateranglia.co.uk"),
     "LM": ("West Midlands Trains", "https://www.westmidlandsrailway.co.uk"),
     "LO": ("London Overground", "https://tfl.gov.uk"),
