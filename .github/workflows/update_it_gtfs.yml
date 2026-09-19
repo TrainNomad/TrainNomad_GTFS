@@ -1,4 +1,4 @@
-name: Mise à jour GTFS Trenitalia
+name: Mise à jour GTFS Italie (Trenitalia + Italo)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: trenitalia-gtfs
+  group: italy-gtfs
   cancel-in-progress: false
 
 jobs:
@@ -31,23 +31,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Télécharger et convertir le NeTEx Trenitalia en GTFS
+    - name: Télécharger et convertir les NeTEx italiens (Trenitalia + Italo) en GTFS
       run: python Trenitalia/ingest_trenitalia.py
 
-    - name: Publier le GTFS en artifact
+    - name: Publier les GTFS en artifact
       uses: actions/upload-artifact@v4
       with:
-        name: trenitalia-gtfs
+        name: italy-gtfs
         path: |
           Trenitalia/trenitalia_gtfs.zip
-          Trenitalia/trenitalia_gtfs_report.json
+          Trenitalia/italo_gtfs.zip
+          Trenitalia/italy_gtfs_report.json
         retention-days: 14
 
-    - name: Commit et push de Trenitalia/trenitalia_gtfs.zip
+    - name: Commit et push des GTFS italiens
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add Trenitalia/trenitalia_gtfs.zip Trenitalia/trenitalia_gtfs_report.json
-        git commit -m "Auto-update: Mise à jour GTFS Trenitalia (Trenitalia/trenitalia_gtfs.zip)" || exit 0
+        git add Trenitalia/trenitalia_gtfs.zip Trenitalia/italo_gtfs.zip Trenitalia/italy_gtfs_report.json
+        git commit -m "Auto-update: Mise à jour GTFS Italie (Trenitalia + Italo)" || exit 0
         git pull --rebase
         git push

@@ -210,8 +210,22 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
         curl_cmd = ["curl", "-sSfL", "-o", tmp, op["gtfs_url"]]
         if op.get("api_key"):
             curl_cmd.extend(["-H", f"Authorization: Bearer {op['api_key']}", "-H", f"X-API-KEY: {op['api_key']}"])
-        subprocess.run(curl_cmd, check=True)
-    zipfile.ZipFile(tmp).testzip()
+        try:
+            subprocess.run(curl_cmd, check=True)
+        except subprocess.CalledProcessError as e:
+            logging.warning(f"  [{op['id']}] Échec du téléchargement curl : {e}, opérateur ignoré")
+            return None
+    except requests.exceptions.HTTPError as e:
+        logging.warning(f"  [{op['id']}] Échec HTTP {e.response.status_code} : {e}, opérateur ignoré")
+        return None
+    except requests.exceptions.RequestException as e:
+        logging.warning(f"  [{op['id']}] Échec du téléchargement : {e}, opérateur ignoré")
+        return None
+    try:
+        zipfile.ZipFile(tmp).testzip()
+    except zipfile.BadZipFile:
+        logging.warning(f"  [{op['id']}] Fichier ZIP invalide, opérateur ignoré")
+        return None
     os.replace(tmp, path)
     return path
 
