@@ -192,8 +192,14 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
 
     logging.info(f"  [{op['id']}] Téléchargement {op['gtfs_url']}")
     tmp = path + ".part"
+    headers = {}
+    if op.get("api_key"):
+        headers = {
+            "Authorization": f"Bearer {op['api_key']}",
+            "X-API-KEY": op["api_key"],
+        }
     try:
-        with requests.get(op["gtfs_url"], stream=True, timeout=300) as r:
+        with requests.get(op["gtfs_url"], headers=headers, stream=True, timeout=300) as r:
             r.raise_for_status()
             with open(tmp, "wb") as f:
                 shutil.copyfileobj(r.raw, f)
@@ -201,7 +207,10 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
         # Certains serveurs (Eurostar) n'envoient pas leur certificat intermédiaire :
         # curl sait le récupérer, requests non.
         logging.warning(f"  [{op['id']}] Erreur SSL avec requests, nouvel essai avec curl")
-        subprocess.run(["curl", "-sSfL", "-o", tmp, op["gtfs_url"]], check=True)
+        curl_cmd = ["curl", "-sSfL", "-o", tmp, op["gtfs_url"]]
+        if op.get("api_key"):
+            curl_cmd.extend(["-H", f"Authorization: Bearer {op['api_key']}", "-H", f"X-API-KEY: {op['api_key']}"])
+        subprocess.run(curl_cmd, check=True)
     zipfile.ZipFile(tmp).testzip()
     os.replace(tmp, path)
     return path

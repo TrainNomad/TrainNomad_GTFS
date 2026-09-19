@@ -38,13 +38,28 @@ import requests
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUT_ZIP = os.path.join(BASE_DIR, "trenitalia_gtfs.zip")
-REPORT_PATH = os.path.join(BASE_DIR, "trenitalia_gtfs_report.json")
+OUT_ZIP_TRENITALIA = os.path.join(BASE_DIR, "trenitalia_gtfs.zip")
+OUT_ZIP_ITALO = os.path.join(BASE_DIR, "italo_gtfs.zip")
+REPORT_PATH = os.path.join(BASE_DIR, "italy_gtfs_report.json")
 
-NETEX_URL = "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource"
+# Sources NeTEx italiennes (CCISS - Point d'accès national)
+NETEX_SOURCES = {
+    "TRENITALIA": {
+        "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
+        "name": "Trenitalia",
+        "website": "https://www.trenitalia.com",
+        "out_zip": OUT_ZIP_TRENITALIA,
+    },
+    "ITALO": {
+        "url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1814124/resource",
+        "name": "Italo - Nuovo Trasporto Viaggiatori",
+        "website": "https://www.italotreno.it",
+        "out_zip": OUT_ZIP_ITALO,
+    },
+}
+
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 TIMEZONE = "Europe/Rome"
-AGENCY_ID = "TRENITALIA"
 
 NS = "{http://www.netex.org.uk/netex}"
 GTFS_BUS = 3
@@ -55,25 +70,23 @@ GTFS_RAIL = 2
 # Téléchargement
 # ---------------------------------------------------------------------------
 
-def download_netex(dest: str, attempts: int = 4):
-    logging.info(f"📥 Téléchargement du NeTEx Trenitalia : {NETEX_URL}")
+def download_netex(dest: str, url: str, name: str, attempts: int = 4):
+    logging.info(f"📥 Téléchargement du NeTEx {name} : {url}")
     for attempt in range(1, attempts + 1):
         tmp = dest + ".part"
         try:
             try:
-                with requests.get(NETEX_URL, headers={"User-Agent": USER_AGENT}, stream=True, timeout=300) as r:
+                with requests.get(url, headers={"User-Agent": USER_AGENT}, stream=True, timeout=300) as r:
                     r.raise_for_status()
                     with open(tmp, "wb") as f:
                         shutil.copyfileobj(r.raw, f)
             except requests.exceptions.SSLError:
-                # cciss.it n'envoie pas toujours son certificat intermédiaire : curl sait le récupérer, requests non.
                 logging.warning("  Erreur SSL avec requests, nouvel essai avec curl")
-                subprocess.run(["curl", "-sSfL", "-A", USER_AGENT, "-o", tmp, NETEX_URL], check=True, timeout=600)
+                subprocess.run(["curl", "-sSfL", "-A", USER_AGENT, "-o", tmp, url], check=True, timeout=600)
             os.replace(tmp, dest)
             logging.info(f"  {os.path.getsize(dest) / 1e6:.1f} Mo reçus")
             return
         except (requests.RequestException, subprocess.SubprocessError) as e:
-            # le serveur coupe régulièrement la connexion en cours de transfert
             if attempt == attempts:
                 raise
             logging.warning(f"  Échec ({e}), nouvel essai {attempt + 1}/{attempts} dans {10 * attempt} s")
@@ -340,7 +353,7 @@ class GtfsBuilder:
             "calendar_dates": sum(len(d) for d in self.services),
         })
 
-    def write(self, out_path: str):
+    def write(self, out_path: str, agency_id: str, agency_name: str, agency_url: str):
         def csv_bytes(header, rows):
             buf = io.StringIO()
             w = csv.writer(buf, lineterminator="\n")
@@ -353,14 +366,14 @@ class GtfsBuilder:
         with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as z:
             z.writestr("agency.txt", csv_bytes(
                 ["agency_id", "agency_name", "agency_url", "agency_timezone", "agency_lang"],
-                [[AGENCY_ID, "Trenitalia", "https://www.trenitalia.com", TIMEZONE, "it"]]))
+                [[agency_id, agency_name, agency_url, TIMEZONE, "it"]]))
             z.writestr("stops.txt", csv_bytes(
                 ["stop_id", "stop_code", "stop_name", "stop_lat", "stop_lon", "location_type"],
                 [[s["stop_id"], s["stop_code"], s["stop_name"], s["stop_lat"], s["stop_lon"], "0"]
                  for s in sorted(self.stops.values(), key=lambda s: s["stop_id"])]))
             z.writestr("routes.txt", csv_bytes(
                 ["route_id", "agency_id", "route_short_name", "route_long_name", "route_type"],
-                [[l["code"], AGENCY_ID, l["short"], l["name"], GTFS_BUS if l["mode"] == "bus" else GTFS_RAIL]
+                [[l["code"], agency_id, l["short"], l["name"], GTFS_BUS if l["mode"] == "bus" else GTFS_RAIL]
                  for ref_id, l in sorted(self.n.lines.items()) if ref_id in self.used_routes]))
             z.writestr("trips.txt", csv_bytes(
                 ["route_id", "service_id", "trip_id", "trip_short_name", "trip_headsign"], self.trips))
@@ -372,48 +385,74 @@ class GtfsBuilder:
                 [[sid, d, "1"] for days, sid in self.services.items() for d in sorted(days)]))
             z.writestr("feed_info.txt", csv_bytes(
                 ["feed_publisher_name", "feed_publisher_url", "feed_lang", "feed_start_date", "feed_end_date", "feed_version"],
-                [["TrainNomad (NeTEx Trenitalia via CCISS)", "https://www.cciss.it", "it",
+                [[f"TrainNomad (NeTEx {agency_name} via CCISS)", "https://www.cciss.it", "it",
                   all_dates[0] if all_dates else "", all_dates[-1] if all_dates else "", self.n.publication]]))
         os.replace(tmp, out_path)
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--input", help="fichier NeTEx déjà téléchargé (.xml, .xml.gz ou .zip)")
-    parser.add_argument("--output", default=OUT_ZIP)
-    args = parser.parse_args()
+def process_source(agency_id: str, source: dict, input_file: str = None):
+    """Télécharge et convertit un flux NeTEx en GTFS."""
+    logging.info(f"\n{'='*60}\n🚄 Traitement de {source['name']}\n{'='*60}")
 
     with tempfile.TemporaryDirectory() as tmp_dir:
-        src = args.input
+        src = input_file
         if not src:
-            src = os.path.join(tmp_dir, "trenitalia_netex.xml.gz")
-            download_netex(src)
+            src = os.path.join(tmp_dir, f"{agency_id.lower()}_netex.xml.gz")
+            download_netex(src, source["url"], source["name"])
+
         netex = NetexReader()
         with open_xml(src) as stream:
             netex.parse(stream)
 
     builder = GtfsBuilder(netex)
     builder.build()
+
     if not builder.trips:
-        # ne jamais écraser un GTFS valide par un fichier vide
-        logging.error("❌ Aucun train extrait du NeTEx, GTFS non écrit")
-        raise SystemExit(1)
-    builder.write(args.output)
+        logging.error(f"❌ Aucun train extrait du NeTEx {source['name']}, GTFS non écrit")
+        return None
+
+    out_path = source["out_zip"]
+    builder.write(out_path, agency_id, source["name"], source["website"])
 
     report = {
+        "agency": agency_id,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": NETEX_URL,
+        "source": source["url"],
         "publication": netex.publication,
         "valid_between": list(netex.valid_between),
-        "zip_mb": round(os.path.getsize(args.output) / 1e6, 2),
+        "zip_mb": round(os.path.getsize(out_path) / 1e6, 2),
         "stats": dict(builder.stats),
         "trips_by_category": dict(builder.by_category.most_common()),
     }
-    report_path = REPORT_PATH if os.path.abspath(args.output) == OUT_ZIP else os.path.splitext(args.output)[0] + "_report.json"
-    with open(report_path, "w", encoding="utf-8") as f:
-        json.dump(report, f, indent=2, ensure_ascii=False)
 
     logging.info(f"📊 {json.dumps(report['stats'], ensure_ascii=False)}")
+    logging.info(f"✅ GTFS écrit : {out_path} ({report['zip_mb']} Mo)")
+
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Convertit les flux NeTEx italiens (Trenitalia, Italo) en GTFS")
+    parser.add_argument("--input", help="fichier NeTEx déjà téléchargé (pour un seul opérateur)")
+    parser.add_argument("--operator", choices=["TRENITALIA", "ITALO", "all"], default="all",
+                        help="Opérateur à traiter (défaut: all)")
+    args = parser.parse_args()
+
+    reports = {}
+    operators_to_process = [args.operator] if args.operator != "all" else list(NETEX_SOURCES.keys())
+
+    for op_id in operators_to_process:
+        source = NETEX_SOURCES[op_id]
+        input_file = args.input if len(operators_to_process) == 1 else None
+        report = process_source(op_id, source, input_file)
+        if report:
+            reports[op_id] = report
+
+    # Rapport combiné
+    with open(REPORT_PATH, "w", encoding="utf-8") as f:
+        json.dump(reports, f, indent=2, ensure_ascii=False)
+
+    logging.info(f"\n✅ Traitement terminé : {len(reports)} opérateur(s)")
     logging.info(f"✅ GTFS écrit : {args.output} ({report['zip_mb']} Mo)")
 
 
