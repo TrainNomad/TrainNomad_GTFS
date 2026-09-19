@@ -33,8 +33,12 @@ jobs:
     - name: Convertir les NeTEx italiens (Trenitalia + Italo)
       run: python Trenitalia/ingest_trenitalia.py
 
-    # Conversion pour UK
+    # Conversion pour UK (optionnel, nécessite NR_EMAIL / NR_PASSWORD)
     - name: Convertir le GTFS UK (National Rail)
+      continue-on-error: true
+      env:
+        NR_EMAIL: ${{ secrets.NR_EMAIL }}
+        NR_PASSWORD: ${{ secrets.NR_PASSWORD }}
       run: python UK/ingest_uk_gtfs.py
 
     - name: Compiler le réseau pour le moteur de routage (network.bin)
