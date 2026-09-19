@@ -303,6 +303,26 @@ class StationRef:
         elif op == "TRENITALIA":
             # stop_code = UIC à 7 chiffres (830000070 -> 8300070), colonne trenitalia_id de stations.csv
             rid = self.by_trenitalia.get(stop_code) or self.by_uic.get(stop_code)
+        elif op == "ITALO":
+            # Même logique que Trenitalia : UIC italiens
+            rid = self.by_trenitalia.get(stop_code) or self.by_uic.get(stop_code)
+            if not rid and stop_id:
+                # Fallback : chercher UIC dans stop_id
+                m = re.search(r"\d{7}", stop_id)
+                if m:
+                    rid = self.by_uic.get(m.group(0))
+        elif op == "CP":
+            # CP Portugal : codes UIC portugais (94xxxxx)
+            for cand in (stop_code, stop_id):
+                if cand:
+                    m = re.search(r"94\d{5}", cand)
+                    if m:
+                        rid = self.by_uic.get(m.group(0))
+                        if rid:
+                            break
+        elif op == "OUIGO_ES":
+            # Ouigo Espagne : mêmes gares que Renfe
+            rid = self.by_renfe.get(stop_id) or self.by_uic.get("71" + stop_id.zfill(5))
         else:
             for cand in (stop_code, stop_id):
                 m = re.search(r"\d{7,8}", cand or "")
