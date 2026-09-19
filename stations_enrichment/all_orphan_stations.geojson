@@ -1,0 +1,6074 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3566,
+          49.6348
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Worms Hbf",
+        "operator_id": "80190686",
+        "uic": "8019068",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2128,
+          48.9807
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Berg (Pfalz)",
+        "operator_id": "80191064",
+        "uic": "8019106",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1403,
+          49.3496
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Neustadt (Weinstr) Hbf",
+        "operator_id": "80194043",
+        "uic": "8019404",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.157027,
+          49.341274
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Neustadt (Weinstraße) Süd",
+        "operator_id": "80920793",
+        "uic": "8092079",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.102222,
+          49.516389
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bettembourg Gare",
+        "operator_id": "82260018",
+        "uic": "8226001",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.065739,
+          46.221263
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Zimeysa",
+        "operator_id": "85010009",
+        "uic": "8501000",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.999991,
+          46.17866
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Plaine (Suisse)",
+        "operator_id": "85010017",
+        "uic": "8501001",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.017553,
+          46.187771
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Russin",
+        "operator_id": "85010025",
+        "uic": "8501002",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0769,
+          46.22235
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Meyrin",
+        "operator_id": "85010066",
+        "uic": "8501006",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.147342,
+          46.249945
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Les Tuileries",
+        "operator_id": "85010116",
+        "uic": "8501011",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.161319,
+          46.263758
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Creux-de-Genthod",
+        "operator_id": "85010124",
+        "uic": "8501012",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.162667,
+          46.28739
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Pont-Céard",
+        "operator_id": "85010132",
+        "uic": "8501013",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.169566,
+          46.299879
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Mies",
+        "operator_id": "85010140",
+        "uic": "8501014",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.181127,
+          46.307636
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Tannay",
+        "operator_id": "85010157",
+        "uic": "8501015",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.147342,
+          46.242378
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chambésy",
+        "operator_id": "85010207",
+        "uic": "8501020",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.153962,
+          46.256728
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Genthod-Bellevue",
+        "operator_id": "85010215",
+        "uic": "8501021",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.165748,
+          46.279717
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Versoix",
+        "operator_id": "85010223",
+        "uic": "8501022",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.044608,
+          46.130414
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Vernayaz MC",
+        "operator_id": "85015610",
+        "uic": "8501561",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.997726,
+          46.102318
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Le Trétien",
+        "operator_id": "85015644",
+        "uic": "8501564",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.78519,
+          47.0776
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Le Crêt-du-Locle",
+        "operator_id": "85043158",
+        "uic": "8504315",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.812825,
+          47.091404
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Chaux-de-Fonds Les Forges",
+        "operator_id": "85043216",
+        "uic": "8504321",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.125333,
+          46.188897
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lancy-Pont-Rouge",
+        "operator_id": "85161554",
+        "uic": "8516155",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.153505,
+          46.192191
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Genève-Champel",
+        "operator_id": "85162727",
+        "uic": "8516272",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.16658,
+          46.201444
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Genève-Eaux-Vives",
+        "operator_id": "85162735",
+        "uic": "8516273",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.144557,
+          46.222438
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Genève-Sécheron",
+        "operator_id": "85162834",
+        "uic": "8516283",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.129372,
+          46.174333
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lancy-Bachet",
+        "operator_id": "85171421",
+        "uic": "8517142",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0522,
+          46.1208
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Les Fumeaux",
+        "operator_id": "85303032",
+        "uic": "8530303",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.007843,
+          46.108832
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Médettaz",
+        "operator_id": "85303347",
+        "uic": "8530334",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.192267,
+          46.195513
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chêne-Bourg Place Favre",
+        "operator_id": "85927137",
+        "uic": "8592713",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1643,
+          46.20011
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Genève Eaux-Vives Gare",
+        "operator_id": "85928291",
+        "uic": "8592829",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.170264,
+          48.236929
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sainte-Marie-aux-Mines Cité Scolaire",
+        "operator_id": "87214858",
+        "uic": "8721485",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.645977,
+          47.39864
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Fondettes - Saint-Cyr-sur-Loire",
+        "operator_id": "87571505",
+        "uic": "8757150",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.187316,
+          46.989408
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Nevers Petit Canal",
+        "operator_id": "87599753",
+        "uic": "8759975",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.591127,
+          43.060332
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Seilhan le Bazert",
+        "operator_id": "87612358",
+        "uic": "8761235",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.357538,
+          49.441533
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sierck-les-Bains Place Morbach",
+        "operator_id": "87635847",
+        "uic": "8763584",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.450064,
+          48.261409
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sélestat  Schweisguth",
+        "operator_id": "87640375",
+        "uic": "8764037",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.455365,
+          48.26328
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sélestat Koeberlé",
+        "operator_id": "87640383",
+        "uic": "8764038",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.446681,
+          48.251648
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sélestat Schwilgué",
+        "operator_id": "87640391",
+        "uic": "8764039",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.342239,
+          48.278908
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Vancelle Hurst",
+        "operator_id": "87640466",
+        "uic": "8764046",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.289057,
+          48.271918
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Route La Vancelle",
+        "operator_id": "87640482",
+        "uic": "8764048",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.319861,
+          48.269132
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Bois l'Abesse ZI",
+        "operator_id": "87640490",
+        "uic": "8764049",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.294066,
+          44.554383
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Marvejols Place du Chayla",
+        "operator_id": "87640631",
+        "uic": "8764063",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.25515,
+          44.515309
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Le Monastier Ville",
+        "operator_id": "87640698",
+        "uic": "8764069",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.280824,
+          48.272411
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Écoles",
+        "operator_id": "87640797",
+        "uic": "8764079",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.270575,
+          48.278908
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rombach-le-Franc Scierie",
+        "operator_id": "87640813",
+        "uic": "8764081",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.277606,
+          48.277167
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Rue du Vieux Moulin",
+        "operator_id": "87640821",
+        "uic": "8764082",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.269449,
+          48.270081
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Rue Robert Guth",
+        "operator_id": "87640839",
+        "uic": "8764083",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.248574,
+          48.267648
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Musloch",
+        "operator_id": "87640847",
+        "uic": "8764084",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.218907,
+          48.261131
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ste-Croix Sq. G. de Gaulle",
+        "operator_id": "87640870",
+        "uic": "8764087",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.99321,
+          48.264826
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Remomeix Abri",
+        "operator_id": "87640987",
+        "uic": "8764098",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.980849,
+          48.268632
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sainte-Marguerite Village",
+        "operator_id": "87640995",
+        "uic": "8764099",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.967577,
+          48.273751
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ste Marguerite Cora",
+        "operator_id": "87641027",
+        "uic": "8764102",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.955555,
+          48.280005
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Dié Rue d'Alsace",
+        "operator_id": "87641332",
+        "uic": "8764133",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.439869,
+          48.896119
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Fresnes-au-Mont",
+        "operator_id": "87642082",
+        "uic": "8764208",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.536063,
+          48.885058
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Mihiel Détention",
+        "operator_id": "87642090",
+        "uic": "8764209",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.50868,
+          48.830237
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sampigny Centre",
+        "operator_id": "87642108",
+        "uic": "8764210",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.476432,
+          48.828994
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bouxwiller Lycée Schattenmann",
+        "operator_id": "87642306",
+        "uic": "8764230",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.371182,
+          48.923275
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Wingen-sur-Moder Mairie",
+        "operator_id": "87642355",
+        "uic": "8764235",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.340953,
+          48.93297
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rosteig Monument aux Morts",
+        "operator_id": "87642363",
+        "uic": "8764236",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.318055,
+          48.916898
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Col de Puberg",
+        "operator_id": "87642371",
+        "uic": "8764237",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.419907,
+          48.256268
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Cigoland",
+        "operator_id": "87643403",
+        "uic": "8764340",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.394972,
+          48.254552
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Kintzheim Mairie",
+        "operator_id": "87643411",
+        "uic": "8764341",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.384612,
+          48.241195
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Orschwiller Chapelle",
+        "operator_id": "87643429",
+        "uic": "8764342",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.373267,
+          48.230526
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Hippolyte Hôtel Munsch",
+        "operator_id": "87643437",
+        "uic": "8764343",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.366947,
+          48.232167
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Hippolyte Parc Walter",
+        "operator_id": "87643445",
+        "uic": "8764344",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.36257,
+          48.217302
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rorschwihr Mairie",
+        "operator_id": "87643452",
+        "uic": "8764345",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.357543,
+          48.205616
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bergheim Porte haute",
+        "operator_id": "87643460",
+        "uic": "8764346",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.29265,
+          47.910654
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Merxheim Pl. Général de Gaulle",
+        "operator_id": "87654541",
+        "uic": "8765454",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.750844,
+          48.610657
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bischheim Arrêt CTS R. Gare",
+        "operator_id": "87658930",
+        "uic": "8765893",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.209625,
+          46.857975
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bouverans Halte Routière",
+        "operator_id": "87659631",
+        "uic": "8765963",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.71656,
+          46.869346
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Buvilly Halte Routière",
+        "operator_id": "87659656",
+        "uic": "8765965",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.186204,
+          46.872118
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Dompierre Halte Routière",
+        "operator_id": "87659664",
+        "uic": "8765966",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.611315,
+          46.75511
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Voiteur Halte Routière",
+        "operator_id": "87659722",
+        "uic": "8765972",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.859784,
+          48.764098
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bischwiller Église Catholique",
+        "operator_id": "87659805",
+        "uic": "8765980",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.816475,
+          48.780133
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Marienthal Basilique Notre-Dame",
+        "operator_id": "87659839",
+        "uic": "8765983",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.798091,
+          48.804194
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Haguenau Statuette",
+        "operator_id": "87659847",
+        "uic": "8765984",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.476127,
+          47.635011
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bartenheim Pharmacie",
+        "operator_id": "87659870",
+        "uic": "8765987",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.174788,
+          47.809321
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Cernay Église",
+        "operator_id": "87659987",
+        "uic": "8765998",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.789394,
+          48.886536
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Walbourg Séminaire",
+        "operator_id": "87660043",
+        "uic": "8766004",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.912312,
+          48.952404
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Schoenenbourg Centre",
+        "operator_id": "87660126",
+        "uic": "8766012",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.950727,
+          48.990344
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Riedseltz Arrêt Chapelle",
+        "operator_id": "87660365",
+        "uic": "8766036",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.955299,
+          48.994381
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Riedseltz Salle Polyvalente",
+        "operator_id": "87660373",
+        "uic": "8766037",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.963882,
+          49.028254
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Wissembourg Altenstadt",
+        "operator_id": "87660381",
+        "uic": "8766038",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.465738,
+          48.359279
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Epfig Croisement Église - RN",
+        "operator_id": "87660977",
+        "uic": "8766097",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.306305,
+          48.094219
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ingersheim Place du Général de Gaulle",
+        "operator_id": "87665356",
+        "uic": "8766535",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.109984,
+          48.032459
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Luttenbach Fronzell",
+        "operator_id": "87665513",
+        "uic": "8766551",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.285856,
+          49.027971
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Souilly",
+        "operator_id": "87666115",
+        "uic": "8766611",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.747953,
+          46.533357
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Diou Ville Bus",
+        "operator_id": "87667980",
+        "uic": "8766798",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.488653,
+          46.528502
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Montbeugny Centre",
+        "operator_id": "87668111",
+        "uic": "8766811",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.074734,
+          44.320164
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Séverac d'Aveyron Embrachement le Massegros",
+        "operator_id": "87668376",
+        "uic": "8766837",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.055451,
+          44.254859
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Verrieres Engayresque",
+        "operator_id": "87668384",
+        "uic": "8766838",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.221641,
+          46.973906
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Éloi Église",
+        "operator_id": "87676833",
+        "uic": "8767683",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.200381,
+          46.908137
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Brion - Laisy Mairie",
+        "operator_id": "87677047",
+        "uic": "8767704",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.253013,
+          46.403337
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Changy Tourny Monument",
+        "operator_id": "87677096",
+        "uic": "8767709",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.336512,
+          46.206915
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chauffailles Gambetta",
+        "operator_id": "87677138",
+        "uic": "8767713",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.709584,
+          47.663798
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Accolay Le Pont",
+        "operator_id": "87677252",
+        "uic": "8767725",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.487526,
+          48.846149
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Uttwiller Croisement",
+        "operator_id": "87678466",
+        "uic": "8767846",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.370849,
+          48.190018
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Guémar Rond-point Sony",
+        "operator_id": "87678474",
+        "uic": "8767847",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.280695,
+          48.270855
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lièpvre Pharmacie",
+        "operator_id": "87678490",
+        "uic": "8767849",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.642201,
+          48.950801
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Niederbronn Hotel de Ville",
+        "operator_id": "87678524",
+        "uic": "8767852",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.731436,
+          48.822099
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Schweighouse Maréchal Leclerc",
+        "operator_id": "87678706",
+        "uic": "8767870",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.983345,
+          45.201023
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chamalieres Place Parking M.",
+        "operator_id": "87680694",
+        "uic": "8768069",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.806645,
+          46.805342
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rémilly Le Charnay Pont Bulvin",
+        "operator_id": "87685776",
+        "uic": "8768577",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.372939,
+          46.741493
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Les Tavins",
+        "operator_id": "87685784",
+        "uic": "8768578",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.259182,
+          47.171536
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chinon-LEP-Cugnot",
+        "operator_id": "87690164",
+        "uic": "8769016",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.234865,
+          47.163679
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chinon-Lycée-Rabelais",
+        "operator_id": "87690172",
+        "uic": "8769017",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.046053,
+          45.403678
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Egletons-ville",
+        "operator_id": "87693390",
+        "uic": "8769339",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152089,
+          46.202177
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Parsac Centre",
+        "operator_id": "87694257",
+        "uic": "8769425",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.597762,
+          42.791496
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bagnères-de-Luchon Lycée",
+        "operator_id": "87695015",
+        "uic": "8769501",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.63221,
+          46.248547
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bellignat - Lycée-Arbez-Carme",
+        "operator_id": "87695973",
+        "uic": "8769597",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.584531,
+          45.537332
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Les Abrets - Rue-Italie",
+        "operator_id": "87696385",
+        "uic": "8769638",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.323927,
+          46.072799
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Martin-du-Mont Le Farget",
+        "operator_id": "87696500",
+        "uic": "8769650",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3152,
+          45.51262
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Argentine-Gemelly-ou-Stade",
+        "operator_id": "87697151",
+        "uic": "8769715",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.724751,
+          45.172844
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Grenoble-Eugène-Chavant",
+        "operator_id": "87697466",
+        "uic": "8769746",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.724939,
+          45.188405
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Grenoble-Victor-Hugo",
+        "operator_id": "87697474",
+        "uic": "8769747",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.725304,
+          45.186336
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Grenoble-Champollion",
+        "operator_id": "87697482",
+        "uic": "8769748",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.743918,
+          45.532004
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La-Bridoire-Abris-Bus-le-Haut",
+        "operator_id": "87697508",
+        "uic": "8769750",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.21974,
+          46.207629
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Bourg-en-Bresse Charité",
+        "operator_id": "87697672",
+        "uic": "8769767",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.299657,
+          45.359174
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Chambre",
+        "operator_id": "87697698",
+        "uic": "8769769",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.126289,
+          46.24936
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Polliat-Mairie",
+        "operator_id": "87697706",
+        "uic": "8769770",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.340528,
+          45.31251
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Pontamafrey",
+        "operator_id": "87697714",
+        "uic": "8769771",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.291754,
+          45.342056
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Étienne-de-Cuines",
+        "operator_id": "87697722",
+        "uic": "8769772",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.370171,
+          49.473147
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Perl Gare Routière",
+        "operator_id": "87697839",
+        "uic": "8769783",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.653622,
+          45.840513
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Fleurieux RN7",
+        "operator_id": "87698282",
+        "uic": "8769828",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.472091,
+          46.036825
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Grandris-Centre",
+        "operator_id": "87698290",
+        "uic": "8769829",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.716954,
+          45.813816
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Tour-de-Salvagny Hippodrome",
+        "operator_id": "87698316",
+        "uic": "8769831",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.717727,
+          45.815018
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "La Tour-de-Salvagny Centre",
+        "operator_id": "87698324",
+        "uic": "8769832",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.91021,
+          45.55779
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chambery-Jacob-Bellecombette",
+        "operator_id": "87698423",
+        "uic": "8769842",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.844531,
+          45.605992
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Communay La Guicharde",
+        "operator_id": "87698449",
+        "uic": "8769844",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.83576,
+          45.604233
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Communay Les Bonnières",
+        "operator_id": "87698456",
+        "uic": "8769845",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513975,
+          45.817764
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Flumet-Office-de-Tourisme",
+        "operator_id": "87698514",
+        "uic": "8769851",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.180287,
+          45.902885
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Neulise",
+        "operator_id": "87698605",
+        "uic": "8769860",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.577007,
+          45.839413
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Praz-sur-Arly Office de Tourisme",
+        "operator_id": "87698613",
+        "uic": "8769861",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.023541,
+          45.647168
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saint-Pierre-de-Chandieu Charmy",
+        "operator_id": "87698712",
+        "uic": "8769871",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.807667,
+          45.598005
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ternay Chassagne Grandes Combes",
+        "operator_id": "87698761",
+        "uic": "8769876",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.809855,
+          45.611681
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ternay Chemin de la Gare",
+        "operator_id": "87698779",
+        "uic": "8769877",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8083,
+          45.602096
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ternay Croix du Morze",
+        "operator_id": "87698787",
+        "uic": "8769878",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.42127,
+          45.746294
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Ugine-Place-du-Val-d'Arly",
+        "operator_id": "87698795",
+        "uic": "8769879",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.681294,
+          47.320149
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Base Aérienne",
+        "operator_id": "87699223",
+        "uic": "8769922",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.135556,
+          48.467881
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Tantonville Rue Louis Pasteur",
+        "operator_id": "87700906",
+        "uic": "8770090",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.131793,
+          48.39461
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Diarville Place Raymond Midon",
+        "operator_id": "87700930",
+        "uic": "8770093",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.142194,
+          48.265629
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Hymont Mairie",
+        "operator_id": "87700963",
+        "uic": "8770096",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.999557,
+          48.205615
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Haréville sous Monfort Centre",
+        "operator_id": "87700971",
+        "uic": "8770097",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.782199,
+          48.070778
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lamarche Centre",
+        "operator_id": "87700997",
+        "uic": "8770099",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.31838,
+          48.170526
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Zellenberg Route du Vin",
+        "operator_id": "87702068",
+        "uic": "8770206",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.299868,
+          48.165896
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Riquewihr Poste",
+        "operator_id": "87702076",
+        "uic": "8770207",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150877,
+          49.053325
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Wittring Pont",
+        "operator_id": "87703454",
+        "uic": "8770345",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.071746,
+          48.879298
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Wolfskirchen Rue du Moulin",
+        "operator_id": "87703488",
+        "uic": "8770348",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.00887,
+          48.818607
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Berthelming Rue Principale",
+        "operator_id": "87703561",
+        "uic": "8770356",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.034662,
+          48.792843
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Oberstinzel Rue Principale",
+        "operator_id": "87703629",
+        "uic": "8770362",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.021862,
+          48.772285
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Dolving Rue de Sarrebourg",
+        "operator_id": "87703678",
+        "uic": "8770367",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2978,
+          49.407556
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Koenigsmacker Metrich École",
+        "operator_id": "87703694",
+        "uic": "8770369",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.050648,
+          48.730495
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarrebourg Hôpital",
+        "operator_id": "87703744",
+        "uic": "8770374",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.056887,
+          48.778587
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarraltroff Rue de la Forêt",
+        "operator_id": "87707588",
+        "uic": "8770758",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.084929,
+          48.428594
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Saxon-Sion Basilique",
+        "operator_id": "87714204",
+        "uic": "8771420",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.048286,
+          48.2252
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rémoncourt Route Principale",
+        "operator_id": "87714998",
+        "uic": "8771499",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.13382,
+          48.305636
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Mirecourt Hôpital",
+        "operator_id": "87715821",
+        "uic": "8771582",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805456,
+          48.211291
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Biffontaine Mairie",
+        "operator_id": "87716456",
+        "uic": "8771645",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.882863,
+          48.170746
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Corcieux le Conti",
+        "operator_id": "87716696",
+        "uic": "8771669",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.025622,
+          46.517289
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Morez Lycée",
+        "operator_id": "87716910",
+        "uic": "8771691",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.093343,
+          48.488983
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Vézelise Beauregard",
+        "operator_id": "87717108",
+        "uic": "8771710",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.954102,
+          48.982127
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Guilberville-le Saussey",
+        "operator_id": "87717389",
+        "uic": "8771738",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.633905,
+          48.117098
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rennes Beaulieu Chimie",
+        "operator_id": "87717629",
+        "uic": "8771762",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.339211,
+          45.430201
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Jumeaux",
+        "operator_id": "87721696",
+        "uic": "8772169",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.001639,
+          45.644353
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "St Pierre Chandieu C.Cassier",
+        "operator_id": "87725168",
+        "uic": "8772516",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.002382,
+          45.661841
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "ST PIERRE C. ZI porte Dauphiné",
+        "operator_id": "87725192",
+        "uic": "8772519",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.983263,
+          45.657938
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Toussieu la Côte",
+        "operator_id": "87725309",
+        "uic": "8772530",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.990003,
+          45.654894
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Toussieu Eglise",
+        "operator_id": "87725416",
+        "uic": "8772541",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.160614,
+          48.951581
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Domfessel Abri Rue Principale",
+        "operator_id": "87726083",
+        "uic": "8772608",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.175649,
+          48.952522
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lorentzen Rue principale",
+        "operator_id": "87726091",
+        "uic": "8772609",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.076665,
+          49.021414
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Herbitzheim Rue de Hambach",
+        "operator_id": "87728592",
+        "uic": "8772859",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.046092,
+          48.977149
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Keskastel Rue de la Libération",
+        "operator_id": "87730994",
+        "uic": "8773099",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.600507,
+          48.133949
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Chenimenil Filature",
+        "operator_id": "87732693",
+        "uic": "8773269",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.438125,
+          47.123286
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lucay-le-Mâle Champ de Foire",
+        "operator_id": "87733733",
+        "uic": "8773373",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.075506,
+          49.11873
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarreguemines Collège Fulrad",
+        "operator_id": "87737585",
+        "uic": "8773758",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.079192,
+          49.1163
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarreguemines Lycée Technique",
+        "operator_id": "87737593",
+        "uic": "8773759",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.050557,
+          49.101996
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarreguemines Barth",
+        "operator_id": "87737668",
+        "uic": "8773766",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.048974,
+          49.103116
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sarreguemines Collège Jean Jaurès",
+        "operator_id": "87737684",
+        "uic": "8773768",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.231295,
+          48.483402
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Schirmeck Cité Scolaire",
+        "operator_id": "87742197",
+        "uic": "8774219",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.977673,
+          49.210554
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Auboué Centre",
+        "operator_id": "87742247",
+        "uic": "8774224",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.600013,
+          48.749547
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Commercy Zone du Seugnon",
+        "operator_id": "87743690",
+        "uic": "8774369",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.897083,
+          48.528805
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Colombey-les-Belles Mairie",
+        "operator_id": "87744011",
+        "uic": "8774401",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.407618,
+          48.270312
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Châtenois Collège",
+        "operator_id": "87744235",
+        "uic": "8774423",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.082472,
+          48.269985
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Troyes Québec",
+        "operator_id": "87747121",
+        "uic": "8774712",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.123027,
+          48.4576
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Voué Mairie",
+        "operator_id": "87747188",
+        "uic": "8774718",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1418,
+          48.5376
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Arcis-sur-Aube Rue de Châlons",
+        "operator_id": "87747196",
+        "uic": "8774719",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.191327,
+          48.674695
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Mailly-le-Camp Garage",
+        "operator_id": "87747253",
+        "uic": "8774725",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.205993,
+          48.738064
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Sommesous Nationale",
+        "operator_id": "87747261",
+        "uic": "8774726",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.244065,
+          48.821098
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Vatry Rue Principale",
+        "operator_id": "87747295",
+        "uic": "8774729",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.358965,
+          48.97383
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Châlons-en-Champagne Greta",
+        "operator_id": "87747345",
+        "uic": "8774734",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.048719,
+          49.244794
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Reims Gouraud",
+        "operator_id": "87747360",
+        "uic": "8774736",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.03603,
+          49.255102
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Reims Saint-Symphorien",
+        "operator_id": "87747378",
+        "uic": "8774737",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.959664,
+          49.035214
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Wissembourg Lycée Stanislas",
+        "operator_id": "87747881",
+        "uic": "8774788",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.125975,
+          48.315946
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Poussay Rue de Mirecourt",
+        "operator_id": "87748731",
+        "uic": "8774873",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.362414,
+          48.218332
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Rorschwihr Cimetière",
+        "operator_id": "87748749",
+        "uic": "8774874",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.618587,
+          48.146158
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Docelles Monument",
+        "operator_id": "87752394",
+        "uic": "8775239",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.702722,
+          48.195389
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Laval-sur-Vologne Rue de la Vologne",
+        "operator_id": "87752410",
+        "uic": "8775241",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.371558,
+          44.012367
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Montauban la Fobio",
+        "operator_id": "87752980",
+        "uic": "8775298",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.284199,
+          43.976529
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lacourt-Saint-Pierre Talicous",
+        "operator_id": "87752998",
+        "uic": "8775299",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.251369,
+          43.959553
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Montech Lacoste",
+        "operator_id": "87753020",
+        "uic": "8775302",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.235694,
+          43.95917
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Montech Pont Canal",
+        "operator_id": "87753038",
+        "uic": "8775303",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.22736,
+          43.956897
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Montech Boulevard Lagal",
+        "operator_id": "87753046",
+        "uic": "8775304",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.978298,
+          43.876909
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Beaumont-de-Lomagne L.e.p",
+        "operator_id": "87753095",
+        "uic": "8775309",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.37965,
+          49.872526
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Mon Idée",
+        "operator_id": "87754549",
+        "uic": "8775454",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.217615,
+          48.66338
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Mailly-le-Camp Camp Militaire",
+        "operator_id": "87754929",
+        "uic": "8775492",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.593256,
+          44.362045
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Onet-le-Château Route de Sévérac",
+        "operator_id": "87755140",
+        "uic": "8775514",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.581479,
+          45.946037
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Oingt Route de Saint-Laurent",
+        "operator_id": "87761056",
+        "uic": "8776105",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.563591,
+          45.945156
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Val-d'Oingt - Saint-Laurent-d'Oingt Bourg",
+        "operator_id": "87761064",
+        "uic": "8776106",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.551666,
+          45.932289
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Val-d'Oingt - Saint-Laurent-d'Oingt Gare",
+        "operator_id": "87761072",
+        "uic": "8776107",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.090917,
+          44.16026
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Aguessac Bellevue",
+        "operator_id": "87762583",
+        "uic": "8776258",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.730776,
+          49.723842
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Voyenne Ecole",
+        "operator_id": "87765404",
+        "uic": "8776540",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.91658,
+          45.97043
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Les Iles Grassonet",
+        "operator_id": "87766857",
+        "uic": "8776685",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.80134,
+          45.57481
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Nances Maison du Lac",
+        "operator_id": "87767269",
+        "uic": "8776726",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.109162,
+          48.289812
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Lusse-tunnel Maurice Lemaire",
+        "operator_id": "87767806",
+        "uic": "8776780",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.894705,
+          48.184181
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Contrexéville Centre",
+        "operator_id": "87768960",
+        "uic": "8776896",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.88387,
+          48.178166
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Corcieux 36 Rue de la Gare",
+        "operator_id": "87772806",
+        "uic": "8777280",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.864899,
+          45.643633
+        ]
+      },
+      "properties": {
+        "operator": "SNCF",
+        "name": "Le Bourget-du-Lac Technolac",
+        "operator_id": "87774380",
+        "uic": "8777438",
+        "country": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.60907,
+          41.53673
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Barcelos",
+        "operator_id": "96122",
+        "uic": "7196122",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.639745,
+          42.024734
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Valença do Minho",
+        "operator_id": "22402",
+        "uic": "7122402",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1955484,
+          43.5031794
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "O Alto Do Castiñeiro",
+        "operator_id": "05108",
+        "uic": "7105108",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1777808,
+          43.5147757
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "O Ponto",
+        "operator_id": "05106",
+        "uic": "7105106",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.161282,
+          43.5171911
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Xuvia",
+        "operator_id": "05107",
+        "uic": "7105107",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1504359,
+          43.5280178
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Ferrerías",
+        "operator_id": "05109",
+        "uic": "7105109",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1401903,
+          43.5426113
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Sedes",
+        "operator_id": "05111",
+        "uic": "7105111",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1091931,
+          43.5367071
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Pedroso de Narón",
+        "operator_id": "05113",
+        "uic": "7105113",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0781099,
+          43.5460838
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Sadurniño",
+        "operator_id": "05115",
+        "uic": "7105115",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0490166,
+          43.5473064
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Lamas",
+        "operator_id": "05117",
+        "uic": "7105117",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0186188,
+          43.550457
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Apalla",
+        "operator_id": "05119",
+        "uic": "7105119",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0027572,
+          43.562132
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Moeche",
+        "operator_id": "05121",
+        "uic": "7105121",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9801882,
+          43.5652707
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Labacengos",
+        "operator_id": "05123",
+        "uic": "7105123",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9542644,
+          43.5770633
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Entrambarrías",
+        "operator_id": "05125",
+        "uic": "7105125",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9343099,
+          43.5873426
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Cerdido",
+        "operator_id": "05127",
+        "uic": "7105127",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9219389,
+          43.6078292
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "A Cuqueira",
+        "operator_id": "05129",
+        "uic": "7105129",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9161904,
+          43.6409288
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Santa María de Mera",
+        "operator_id": "05131",
+        "uic": "7105131",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9026205,
+          43.666038
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Ponte Mera",
+        "operator_id": "05133",
+        "uic": "7105133",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.873478,
+          43.6609443
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Clodio",
+        "operator_id": "05135",
+        "uic": "7105135",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.804897,
+          43.70888
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Espasante",
+        "operator_id": "05141",
+        "uic": "7105141",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.750044,
+          43.730393
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Loiba",
+        "operator_id": "05143",
+        "uic": "7105143",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.70288,
+          43.735649
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "O Barqueiro",
+        "operator_id": "05145",
+        "uic": "7105145",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.673215,
+          43.731026
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "O Vicedo",
+        "operator_id": "05147",
+        "uic": "7105147",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.635477,
+          43.706194
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Mosende",
+        "operator_id": "05149",
+        "uic": "7105149",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.635048,
+          43.692766
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Folgueiro",
+        "operator_id": "05151",
+        "uic": "7105151",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.614613,
+          43.670275
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Covas de Viveiro",
+        "operator_id": "05153",
+        "uic": "7105153",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.60033,
+          43.6569
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Viveiro",
+        "operator_id": "05155",
+        "uic": "7105155",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.594532,
+          43.661435
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Viveiro Apeadero",
+        "operator_id": "05156",
+        "uic": "7105156",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.553904,
+          43.687991
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Xuances",
+        "operator_id": "05157",
+        "uic": "7105157",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.468843,
+          43.696712
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Bidueiros",
+        "operator_id": "05165",
+        "uic": "7105165",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.44177,
+          43.692319
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Cibrao",
+        "operator_id": "05167",
+        "uic": "7105167",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.412863,
+          43.686219
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Madeiro",
+        "operator_id": "05169",
+        "uic": "7105169",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.333309,
+          43.626106
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Cangas de Foz",
+        "operator_id": "05173",
+        "uic": "7105173",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.299843,
+          43.600457
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Fazouro",
+        "operator_id": "05177",
+        "uic": "7105177",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.26936,
+          43.57475
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Marzán",
+        "operator_id": "05179",
+        "uic": "7105179",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.272235,
+          43.560886
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Foz",
+        "operator_id": "05181",
+        "uic": "7105181",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.174315,
+          43.54987
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Reinante",
+        "operator_id": "05185",
+        "uic": "7105185",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.146099,
+          43.551697
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Esteiro",
+        "operator_id": "05187",
+        "uic": "7105187",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.130895,
+          43.55157
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Os Castros",
+        "operator_id": "05189",
+        "uic": "7105189",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.108645,
+          43.549761
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Rinlo",
+        "operator_id": "05191",
+        "uic": "7105191",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8833728,
+          43.3638889
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Las Campas",
+        "operator_id": "05302",
+        "uic": "7105302",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8975568,
+          43.3587192
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Las Mazas",
+        "operator_id": "05303",
+        "uic": "7105303",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9178091,
+          43.3553535
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Claudio",
+        "operator_id": "05304",
+        "uic": "7105304",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9585951,
+          43.3687481
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Pedro de Nora",
+        "operator_id": "05306",
+        "uic": "7105306",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9650157,
+          43.3564364
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Soto Udrión",
+        "operator_id": "05308",
+        "uic": "7105308",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9827075,
+          43.3842274
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Santa María de Grado",
+        "operator_id": "05313",
+        "uic": "7105313",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0056834,
+          43.38933
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Vega de Anzo",
+        "operator_id": "05315",
+        "uic": "7105315",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0453921,
+          43.4029267
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Peñaflor de Grado",
+        "operator_id": "05316",
+        "uic": "7105316",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0599341,
+          43.4256226
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Sandiche",
+        "operator_id": "05319",
+        "uic": "7105319",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0657983,
+          43.4399142
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Aces",
+        "operator_id": "05320",
+        "uic": "7105320",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0988707,
+          43.4701379
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Beifar",
+        "operator_id": "05323",
+        "uic": "7105323",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1110718,
+          43.5429728
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Muros del Nalón",
+        "operator_id": "05243",
+        "uic": "7105243",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.228702,
+          43.544753
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Martín de Luiña",
+        "operator_id": "05251",
+        "uic": "7105251",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.305181,
+          43.552674
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Santa Marina",
+        "operator_id": "05261",
+        "uic": "7105261",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.351225,
+          43.547253
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Tablizo",
+        "operator_id": "05265",
+        "uic": "7105265",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.752994,
+          43.545692
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Medal",
+        "operator_id": "05285",
+        "uic": "7105285",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.909329,
+          43.535026
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Tapia",
+        "operator_id": "05293",
+        "uic": "7105293",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.057327,
+          43.479667
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Vegadeo Pueblo",
+        "operator_id": "05197",
+        "uic": "7105197",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0974746,
+          43.5124147
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Los Cabos",
+        "operator_id": "05241",
+        "uic": "7105241",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1433417,
+          43.5469091
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "El Pito Piñera",
+        "operator_id": "05244",
+        "uic": "7105244",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.155477,
+          43.557065
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Villademar",
+        "operator_id": "05247",
+        "uic": "7105247",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.248091,
+          43.544069
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "San Cosme",
+        "operator_id": "05253",
+        "uic": "7105253",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.263234,
+          43.56638
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Valdredo",
+        "operator_id": "05257",
+        "uic": "7105257",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.771675,
+          43.551254
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Loza",
+        "operator_id": "05287",
+        "uic": "7105287",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.952128,
+          43.527204
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Tol",
+        "operator_id": "05295",
+        "uic": "7105295",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9771022,
+          43.5202979
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Las Campas de Castropol",
+        "operator_id": "05297",
+        "uic": "7105297",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.038353,
+          43.490502
+        ]
+      },
+      "properties": {
+        "operator": "RENFE",
+        "name": "Vilavedelle",
+        "operator_id": "05199",
+        "uic": "7105199",
+        "country": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.077778,
+          47.768056
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "SALZBURG SUED",
+        "operator_id": "8101122",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6725,
+          46.783056
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "THAL",
+        "operator_id": "8103875",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.595,
+          46.769722
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "MITTEWALD A.D.DRAU",
+        "operator_id": "8103876",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5125,
+          46.753611
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "ABFALTERSBACH",
+        "operator_id": "8103877",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.465833,
+          46.745
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "TASSENBACH",
+        "operator_id": "8103878",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375556,
+          46.735
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "WEITLANBRUNN",
+        "operator_id": "8103880",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.09508,
+          45.93701
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "CALLIANO",
+        "operator_id": "8302047",
+        "uic": "8302047",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.23043,
+          45.49526
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "VENEZIA MESTRE OLIMPIA",
+        "operator_id": "8302674",
+        "uic": "8302674",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30942,
+          43.219368
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "Tolentino Campus",
+        "operator_id": "8307315",
+        "uic": "8307315",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.400802,
+          41.05889
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "Valle di Maddaloni (nuova stazione)",
+        "operator_id": "8309036",
+        "uic": "8309036",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.391583,
+          40.941111
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "Acerra (nuova stazione)",
+        "operator_id": "8309042",
+        "uic": "8309042",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.328165,
+          40.909803
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "Casalnuovo(new)",
+        "operator_id": "8309043",
+        "uic": "8309043",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.352972,
+          40.932639
+        ]
+      },
+      "properties": {
+        "operator": "TRENITALIA",
+        "name": "Afragola Z.Comm.",
+        "operator_id": "8309044",
+        "uic": "8309044",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.515195,
+          43.842287
+        ]
+      },
+      "properties": {
+        "operator": "ITALO",
+        "name": "Lucca Comics and Games BUS",
+        "operator_id": "LUX",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.204753,
+          46.463986
+        ]
+      },
+      "properties": {
+        "operator": "ITALO",
+        "name": "San Vito di Cadore BUS",
+        "operator_id": "SDX",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.306419,
+          45.65219
+        ]
+      },
+      "properties": {
+        "operator": "ITALO",
+        "name": "Treviso BUS",
+        "operator_id": "TRX",
+        "uic": "",
+        "country": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.574777658,
+          41.16871141
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Contumil",
+        "operator_id": "94_3004",
+        "uic": "943004",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.55674,
+          41.20173
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Aguas Santas - Palmilheira",
+        "operator_id": "94_3046",
+        "uic": "943046",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.554192457,
+          41.21703724
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Ermesinde",
+        "operator_id": "94_4002",
+        "uic": "944002",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.551720165,
+          41.22833283
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Travagem",
+        "operator_id": "94_4010",
+        "uic": "944010",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.556680902,
+          41.24376571
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Leandro",
+        "operator_id": "94_4036",
+        "uic": "944036",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.558143032,
+          41.25835633
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Sao Frutuoso",
+        "operator_id": "94_4051",
+        "uic": "944051",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.553094,
+          41.278255
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Sao Romao",
+        "operator_id": "94_4077",
+        "uic": "944077",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.54909,
+          41.301502
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Portela",
+        "operator_id": "94_4101",
+        "uic": "944101",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.547573,
+          41.337437
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Trofa",
+        "operator_id": "94_4630",
+        "uic": "944630",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.526193832,
+          41.3512482
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Lousado",
+        "operator_id": "94_5009",
+        "uic": "945009",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.521499279,
+          41.37950789
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Esmeriz",
+        "operator_id": "94_5033",
+        "uic": "945033",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.526119758,
+          41.38983612
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Barrimau",
+        "operator_id": "94_5058",
+        "uic": "945058",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.529522021,
+          41.40495653
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Famalicao",
+        "operator_id": "94_5074",
+        "uic": "945074",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.522012347,
+          41.42894219
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Mouquim",
+        "operator_id": "94_5108",
+        "uic": "945108",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.538176287,
+          41.43696435
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Louro",
+        "operator_id": "94_5116",
+        "uic": "945116",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.563958669,
+          41.48679299
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Carreira",
+        "operator_id": "94_6056",
+        "uic": "946056",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.581835077,
+          41.50825966
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Midoes",
+        "operator_id": "94_6080",
+        "uic": "946080",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.627669074,
+          41.56592973
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Silva",
+        "operator_id": "94_6155",
+        "uic": "946155",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.632905954,
+          41.58561592
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Carapecos",
+        "operator_id": "94_6197",
+        "uic": "946197",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.634752401,
+          41.60880665
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Tamel",
+        "operator_id": "94_6213",
+        "uic": "946213",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.666998185,
+          41.63909631
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Durraes",
+        "operator_id": "94_6262",
+        "uic": "946262",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.701119145,
+          41.64627095
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Barroselas",
+        "operator_id": "94_6304",
+        "uic": "946304",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.720968149,
+          41.64670655
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Senhora das Neves",
+        "operator_id": "94_6312",
+        "uic": "946312",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.739572945,
+          41.64845736
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Alvaraes",
+        "operator_id": "94_6338",
+        "uic": "946338",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.781894945,
+          41.68023019
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Darque",
+        "operator_id": "94_6387",
+        "uic": "946387",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.799283419,
+          41.684147
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Areia - Darque",
+        "operator_id": "94_6395",
+        "uic": "946395",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.536105639,
+          41.22065745
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Cabeda",
+        "operator_id": "94_8029",
+        "uic": "948029",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.502715022,
+          41.1973023
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Suzao",
+        "operator_id": "94_8060",
+        "uic": "948060",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.487369937,
+          41.18826042
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Valongo",
+        "operator_id": "94_8086",
+        "uic": "948086",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.468335709,
+          41.1702346
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Sao Martinho do Campo",
+        "operator_id": "94_8102",
+        "uic": "948102",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.437251201,
+          41.16371817
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Terronhas",
+        "operator_id": "94_8136",
+        "uic": "948136",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.399091735,
+          41.15378337
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Recarei - Sobreira",
+        "operator_id": "94_8177",
+        "uic": "948177",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.371261014,
+          41.16023261
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Parada",
+        "operator_id": "94_8201",
+        "uic": "948201",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.354048021,
+          41.17220134
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Cete",
+        "operator_id": "94_8227",
+        "uic": "948227",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.342020175,
+          41.18161769
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Irivo",
+        "operator_id": "94_8243",
+        "uic": "948243",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.33743985,
+          41.19368554
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Oleiros",
+        "operator_id": "94_8250",
+        "uic": "948250",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.324092555,
+          41.20387157
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Paredes",
+        "operator_id": "94_8276",
+        "uic": "948276",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.294931944,
+          41.21775952
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Penafiel",
+        "operator_id": "94_8318",
+        "uic": "948318",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.274898634,
+          41.23526802
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Bustelo",
+        "operator_id": "94_8334",
+        "uic": "948334",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.258721616,
+          41.2487667
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Meinedo",
+        "operator_id": "94_8359",
+        "uic": "948359",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.226812614,
+          41.25255622
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Caide",
+        "operator_id": "94_8383",
+        "uic": "948383",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.19927902,
+          41.2572249
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Oliveira",
+        "operator_id": "94_8409",
+        "uic": "948409",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.184320098,
+          41.24532896
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Vila Mea",
+        "operator_id": "94_8433",
+        "uic": "948433",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.174801042,
+          41.23058351
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Recesinhos",
+        "operator_id": "94_8441",
+        "uic": "948441",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.155659207,
+          41.21686743
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Livracao",
+        "operator_id": "94_8474",
+        "uic": "948474",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.136875035,
+          41.18096122
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Marco de Canaveses",
+        "operator_id": "94_9001",
+        "uic": "949001",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.119414618,
+          41.14066597
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Juncal",
+        "operator_id": "94_9050",
+        "uic": "949050",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.090986297,
+          41.10361527
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Pala",
+        "operator_id": "94_9100",
+        "uic": "949100",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.06934077,
+          41.09458735
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Mosteiro",
+        "operator_id": "94_9134",
+        "uic": "949134",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.007400147,
+          41.10637923
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Aregos",
+        "operator_id": "94_9191",
+        "uic": "949191",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.972797311,
+          41.11751888
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Mirao",
+        "operator_id": "94_9225",
+        "uic": "949225",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.950866322,
+          41.12429079
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Ermida",
+        "operator_id": "94_9258",
+        "uic": "949258",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.910713653,
+          41.12187999
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Porto Rei",
+        "operator_id": "94_9282",
+        "uic": "949282",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.887492296,
+          41.1405566
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Barqueiros",
+        "operator_id": "94_9324",
+        "uic": "949324",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.865830951,
+          41.16074221
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Rede",
+        "operator_id": "94_9357",
+        "uic": "949357",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.826699334,
+          41.15289869
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Caldas de Moledo",
+        "operator_id": "94_9399",
+        "uic": "949399",
+        "country": "PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.797563938,
+          41.16639468
+        ]
+      },
+      "properties": {
+        "operator": "CP",
+        "name": "Godim",
+        "operator_id": "94_9423",
+        "uic": "949423",
+        "country": "PT"
+      }
+    }
+  ]
+}

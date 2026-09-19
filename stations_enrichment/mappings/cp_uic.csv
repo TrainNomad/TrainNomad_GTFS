@@ -1,0 +1,73 @@
+cp_stop_id,cp_name,uic,csv_id,match_type
+94_10009,Regua,9410009,8725,uic_exact
+94_11007,Tua,9411007,8726,uic_exact
+94_12005,Pocinho,9412005,8724,uic_exact
+94_18002,Viana do Castelo,9418002,8685,name_geo_0.0km
+94_18242,Caminha,9418242,32486,name_exact
+94_24000,Guimaraes,9424000,32209,name_exact
+94_29157,Braga,9429157,8710,uic_exact
+94_30007,Lisboa Santa Apolonia,9430007,8696,uic_exact
+94_31039,Lisboa Oriente,9431039,8722,name_exact
+94_32185,Santarem,9432185,8680,uic_exact
+94_33001,Azambuja,9433001,8716,uic_exact
+94_34009,Entroncamento,9434009,8716,name_exact
+94_34249,Chao de Macas - Fatima,9434249,8693,uic_exact
+94_34645,Pombal,9434645,8679,uic_exact
+94_35006,Granja do Ulmeiro - Alfarelos,9435006,28600,uic_exact
+94_36004,Coimbra-B,9436004,26690,name_exact
+94_37002,Pampilhosa,9437002,8681,uic_exact
+94_37051,Mealhada,9437051,32610,name_exact
+94_38000,Aveiro,9438000,8709,uic_exact
+94_38158,Estarreja,9438158,8717,uic_exact
+94_38299,Ovar,9438299,8683,uic_exact
+94_39008,Espinho,9439008,8715,uic_exact
+94_39164,Vila Nova de Gaia - Devesas,9439164,8691,uic_exact
+94_40154,Tomar,9440154,28608,uic_exact
+94_42218,Agueda,9442218,32477,name_exact
+94_44016,Espinho - Vouga,9444016,8715,geo_455m
+94_44255,Sao Joao da Madeira,9444255,32248,name_exact
+94_44339,Oliveira de Azemeis,9444339,32227,name_exact
+94_46094,Luso - Bucaco,9446094,8678,uic_exact
+94_46243,Mortagua,9446243,32223,name_exact
+94_46367,Santa Comba Dao,9446367,8677,name_exact
+94_46672,Nelas,9446672,8682,uic_exact
+94_48009,Mangualde,9448009,8676,uic_exact
+94_48165,Gouveia,9448165,8692,name_exact
+94_48249,Fornos de Algodres,9448249,32206,name_exact
+94_48405,Celorico da Beira,9448405,8707,uic_exact
+94_48546,Vila Franca das Naves,9448546,8675,uic_exact
+94_49007,Guarda,9449007,8720,uic_exact
+94_49205,Cerdeira,9449205,8684,name_exact
+94_49460,Vilar Formoso,9449460,8729,name_exact
+94_52001,Abrantes,9452001,8686,uic_exact
+94_53009,Castelo Branco,9453009,8712,uic_exact
+94_53546,Fundao,9453546,8699,uic_exact
+94_54007,Covilha,9454007,8714,uic_exact
+94_54429,Sabugal,9454429,32515,name_exact
+94_57000,Portalegre,9457000,32511,name_exact
+94_57497,Elvas,9457497,28602,uic_exact
+94_61002,Agualva - Cacem,9461002,8713,uic_exact
+94_61101,Sintra,9461101,28607,uic_exact
+94_62471,Torres Vedras,9462471,8728,uic_exact
+94_62703,Bombarral,9462703,32483,name_exact
+94_63008,Caldas da Rainha,9463008,8690,uic_exact
+94_63560,Leiria,9463560,8708,uic_exact
+94_64113,Figueira da Foz,9464113,8689,uic_exact
+94_68122,Setubal,9468122,28605,uic_exact
+94_69245,Estoril,9469245,28603,name_exact
+94_69260,Cascais,9469260,28601,uic_exact
+94_73007,Faro,9473007,8718,uic_exact
+94_73106,Olhao,9473106,32506,name_exact
+94_73320,Tavira,9473320,32250,name_exact
+94_73338,Porta Nova,9473338,32250,geo_451m
+94_73569,Vila Real de Santo Antonio,9473569,8703,geo_12m
+94_75002,Beja,9475002,8704,name_exact
+94_77735,Messines - Alte,9477735,32517,geo_418m
+94_78006,Tunes,9478006,8727,uic_exact
+94_78063,Albufeira - Ferreiras,9478063,28599,uic_exact
+94_78238,Loule,9478238,32497,name_exact
+94_83006,Evora,9483006,32493,name_exact
+94_90183,Silves,9490183,28606,uic_exact
+94_90290,Portimao,9490290,8702,uic_exact
+94_90464,Lagos,9490464,8700,uic_exact
+94_92577,Grandola,9492577,32208,name_exact

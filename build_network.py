@@ -238,10 +238,13 @@ class StationRef:
     def __init__(self, path: str):
         logging.info("📖 Chargement de stations.csv")
         cols = ["id", "name", "uic", "uic8_sncf", "latitude", "longitude", "parent_station_id",
-                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "same_as"]
+                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "cp_id", "same_as"]
+        # Charger uniquement les colonnes existantes
+        all_cols = pd.read_csv(path, sep=";", nrows=0, encoding="utf-8").columns.tolist()
+        cols = [c for c in cols if c in all_cols]
         df = pd.read_csv(path, sep=";", dtype=str, keep_default_na=False, usecols=cols, encoding="utf-8")
         self.rows = {}
-        self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc, self.by_trenitalia = {}, {}, {}, {}, {}
+        self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc, self.by_trenitalia, self.by_cp = {}, {}, {}, {}, {}, {}
         for r in df.itertuples(index=False):
             self.rows[r.id] = {
                 "id": r.id, "name": r.name, "lat": to_float(r.latitude), "lon": to_float(r.longitude),
@@ -259,6 +262,8 @@ class StationRef:
                 self.by_atoc[r.atoc_id] = r.id
             if r.trenitalia_id and r.trenitalia_id not in self.by_trenitalia:
                 self.by_trenitalia[r.trenitalia_id] = r.id
+            if hasattr(r, "cp_id") and r.cp_id and r.cp_id not in self.by_cp:
+                self.by_cp[r.cp_id] = r.id
         logging.info(f"   {len(self.rows)} lignes, {len(self.by_uic)} UIC")
 
     def canonical(self, rid: str) -> str:
@@ -312,14 +317,18 @@ class StationRef:
                 if m:
                     rid = self.by_uic.get(m.group(0))
         elif op == "CP":
-            # CP Portugal : codes UIC portugais (94xxxxx)
-            for cand in (stop_code, stop_id):
-                if cand:
-                    m = re.search(r"94\d{5}", cand)
-                    if m:
-                        rid = self.by_uic.get(m.group(0))
-                        if rid:
-                            break
+            # CP Portugal : d'abord cp_id, puis UIC (94xxxxx)
+            rid = self.by_cp.get(stop_id)
+            if not rid:
+                for cand in (stop_code, stop_id):
+                    if cand:
+                        # Format CP : 94_31039 → 9431039
+                        clean = cand.replace("_", "").replace("-", "")
+                        m = re.search(r"94\d{5}", clean)
+                        if m:
+                            rid = self.by_uic.get(m.group(0))
+                            if rid:
+                                break
         elif op == "OUIGO_ES":
             # Ouigo Espagne : mêmes gares que Renfe
             rid = self.by_renfe.get(stop_id) or self.by_uic.get("71" + stop_id.zfill(5))
