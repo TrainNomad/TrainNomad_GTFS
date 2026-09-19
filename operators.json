@@ -92,21 +92,18 @@
     "id": "ITALO",
     "name": "Italo",
     "enabled": true,
-    "gtfs_path": "./Italo/italo_gtfs.zip",
-    "script_path": "./Italo/ingest_italo.py",
+    "gtfs_path": "./Trenitalia/italo_gtfs.zip",
+    "script_path": "./Trenitalia/ingest_trenitalia.py",
     "netex_url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1814124/resource",
     "transport_types": [
-      "Italo",
-      "Italo Alta Velocità"
+      "Italo"
     ]
   },
   {
     "id": "CP",
     "name": "CP - Comboios de Portugal",
     "enabled": true,
-    "gtfs_path": "./CP/cp_gtfs.zip",
     "gtfs_url": "https://publico.cp.pt/gtfs/gtfs.zip",
-    "script_path": "./CP/ingest_cp.py",
     "transport_types": [
       "Alfa Pendular",
       "Intercidades",
@@ -119,11 +116,10 @@
     "id": "OUIGO_ES",
     "name": "Ouigo España",
     "enabled": true,
-    "gtfs_path": "./OuigoES/ouigo_es_gtfs.zip",
-    "script_path": "./OuigoES/ingest_ouigo_es.py",
-    "nap_url": "https://nap.transportes.gob.es/Files/Detail/1515",
+    "gtfs_url": "https://nap.transportes.gob.es/api/v1/dataset/1515/download",
+    "api_key": "5c51e865-2f81-4215-a1f0-3b73985a31fa",
     "transport_types": [
-      "Ouigo"
+      "Ouigo España"
     ]
   }
 ]
