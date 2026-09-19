@@ -453,7 +453,6 @@ def main():
         json.dump(reports, f, indent=2, ensure_ascii=False)
 
     logging.info(f"\n✅ Traitement terminé : {len(reports)} opérateur(s)")
-    logging.info(f"✅ GTFS écrit : {args.output} ({report['zip_mb']} Mo)")
 
 
 if __name__ == "__main__":
