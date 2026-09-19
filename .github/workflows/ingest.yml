@@ -29,6 +29,14 @@ jobs:
       run: |
         python ingest_sncf_gtfs.py
 
+    # Conversion NeTEx → GTFS pour les opérateurs italiens
+    - name: Convertir les NeTEx italiens (Trenitalia + Italo)
+      run: python Trenitalia/ingest_trenitalia.py
+
+    # Conversion pour UK
+    - name: Convertir le GTFS UK (National Rail)
+      run: python UK/ingest_uk_gtfs.py
+
     - name: Compiler le réseau pour le moteur de routage (network.bin)
       run: |
         python build_network.py --refresh

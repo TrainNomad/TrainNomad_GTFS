@@ -115,9 +115,10 @@
   {
     "id": "OUIGO_ES",
     "name": "Ouigo España",
-    "enabled": true,
+    "enabled": false,
     "gtfs_url": "https://nap.transportes.gob.es/api/v1/dataset/1515/download",
     "api_key": "5c51e865-2f81-4215-a1f0-3b73985a31fa",
+    "comment": "Désactivé : authentification NAP espagnol à investiguer",
     "transport_types": [
       "Ouigo España"
     ]
