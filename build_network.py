@@ -96,7 +96,7 @@ TRENITALIA_TYPES = {
     "FB": "Frecciabianca",
     "FL": "FrecciaLink",
     "IC": "trenitalia Intercity",
-    "ICN": "trenitalia Intercity Notte",
+    "ICN": "trenitalia_Intercity_Notte",
     "EC": "trenitalia EuroCity",
     "EN": "EuroNight",
     "EXP": "Espresso",
@@ -105,6 +105,27 @@ TRENITALIA_TYPES = {
     "MET": "Metropolitano",
     "SFM": "SFM",
     "BUS": "Bus",
+}
+
+# route_short_name du GTFS Italo -> type affiché
+ITALO_TYPES = {
+    "9900": "Italo",
+    "ITALO": "Italo",
+}
+
+# route_short_name du GTFS CP (Portugal) -> type affiché
+CP_TYPES = {
+    "AP": "Alfa Pendular",
+    "IC": "cp Intercidades",
+    "IR": "InterRegional",
+    "R": "cp Regional",
+    "U": "Urbano",
+    "S": "Suburbano",
+}
+
+# route_short_name du GTFS Ouigo España -> type affiché
+OUIGO_ES_TYPES = {
+    "OUIGO": "Ouigo España",
 }
 
 
@@ -529,6 +550,17 @@ class NetworkBuilder:
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
             ttype = TRENITALIA_TYPES.get(rs.upper(), route.get("route_long_name", "") or "Trenitalia")
+        elif op_id == "ITALO":
+            number = meta.get("trip_short_name", "")
+            rs = route.get("route_short_name", "")
+            ttype = ITALO_TYPES.get(rs.upper(), route.get("route_long_name", "") or "Italo")
+        elif op_id == "CP":
+            number = meta.get("trip_short_name", "")
+            rs = route.get("route_short_name", "")
+            ttype = CP_TYPES.get(rs.upper(), route.get("route_long_name", "") or "CP")
+        elif op_id == "OUIGO_ES":
+            number = meta.get("trip_short_name", "")
+            ttype = "Ouigo España"
         else:
             number = meta.get("trip_short_name", "") or meta.get("trip_headsign", "")
             ttype = route.get("route_short_name", "") or route.get("route_long_name", "") or op_id

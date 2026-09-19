@@ -87,5 +87,43 @@
       "SFM",
       "Bus"
     ]
+  },
+  {
+    "id": "ITALO",
+    "name": "Italo",
+    "enabled": true,
+    "gtfs_path": "./Italo/italo_gtfs.zip",
+    "script_path": "./Italo/ingest_italo.py",
+    "netex_url": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1814124/resource",
+    "transport_types": [
+      "Italo",
+      "Italo Alta Velocità"
+    ]
+  },
+  {
+    "id": "CP",
+    "name": "CP - Comboios de Portugal",
+    "enabled": true,
+    "gtfs_path": "./CP/cp_gtfs.zip",
+    "gtfs_url": "https://publico.cp.pt/gtfs/gtfs.zip",
+    "script_path": "./CP/ingest_cp.py",
+    "transport_types": [
+      "Alfa Pendular",
+      "Intercidades",
+      "InterRegional",
+      "Regional",
+      "Urbano"
+    ]
+  },
+  {
+    "id": "OUIGO_ES",
+    "name": "Ouigo España",
+    "enabled": true,
+    "gtfs_path": "./OuigoES/ouigo_es_gtfs.zip",
+    "script_path": "./OuigoES/ingest_ouigo_es.py",
+    "nap_url": "https://nap.transportes.gob.es/Files/Detail/1515",
+    "transport_types": [
+      "Ouigo"
+    ]
   }
 ]
