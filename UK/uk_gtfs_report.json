@@ -1,72 +1,71 @@
 {
-  "generated_at": "2026-09-14T12:58:07+00:00",
+  "generated_at": "2026-09-20T05:34:15+00:00",
   "window": [
-    "2026-09-12",
-    "2027-01-31"
+    "2026-09-18",
+    "2027-02-06"
   ],
   "cif_header": {
-    "file": "DFTTISR",
+    "file": "DFTTISY",
     "extract": "190711",
     "update": "F"
   },
-  "zip_mb": 18.42,
+  "zip_mb": 18.56,
   "stats": {
     "stations_matched_ref": 2709,
-    "cif_schedules": 497053,
-    "trips_merged": 168925,
-    "trips_too_few_stops": 115,
-    "trips": 232095,
-    "unknown_atoc_LF": 1,
+    "cif_schedules": 501764,
+    "trips_merged": 173909,
+    "trips_too_few_stops": 121,
+    "trips": 233428,
     "unknown_atoc_QC": 1,
-    "stops": 2737,
-    "routes": 6787,
-    "services": 10819,
+    "stops": 2736,
+    "routes": 6728,
+    "services": 10938,
     "agencies": 32
   },
   "unmatched_tiplocs_top": [
     [
       "EPHT",
-      4447
+      4167
     ],
     [
       "TRNHMGN",
-      1999
+      2660
     ],
     [
       "UPMNLT",
-      1317
+      1731
     ],
     [
       "SGOS",
-      1143
+      997
     ],
     [
       "PELAWTW",
-      1142
+      996
     ],
     [
       "NWCSRC",
-      1103
+      965
     ],
     [
       "CIVI",
-      1099
+      961
     ],
     [
       "UNIV",
-      1079
+      943
     ],
     [
       "MLLF",
-      1079
+      943
     ],
     [
       "PALL",
-      1079
+      943
     ],
     [
       "STHH",
-      1079
+      943
     ],
     [
       "RIC----",
@@ -121,12 +120,12 @@
       224
     ],
     [
-      "STQ----",
-      214
+      "TOWERHL",
+      222
     ],
     [
-      "TOWERHL",
-      211
+      "STQ----",
+      214
     ],
     [
       "POR----",
