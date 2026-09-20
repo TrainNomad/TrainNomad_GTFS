@@ -1,7 +1,7 @@
 {
   "TRENITALIA": {
     "agency": "TRENITALIA",
-    "generated_at": "2026-09-19T10:43:11+00:00",
+    "generated_at": "2026-09-20T06:38:14+00:00",
     "source": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
     "publication": "2026-09-17T11:36:35Z",
     "valid_between": [
@@ -38,7 +38,7 @@
   },
   "ITALO": {
     "agency": "ITALO",
-    "generated_at": "2026-09-19T10:43:14+00:00",
+    "generated_at": "2026-09-20T06:38:17+00:00",
     "source": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1814124/resource",
     "publication": "2026-09-07T02:04:52+02:00",
     "valid_between": [
