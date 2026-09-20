@@ -1,0 +1,477 @@
+id,name,slug,uic,uic8_sncf,latitude,longitude,parent_station_id,country,time_zone,is_city,is_main_station,is_airport,cp_id
+1,Aveiro,city-aveiro,,,40.28605204,-8.425728672,,PT,Europe/Lisbon,True,False,False,
+2,Beja,city-beja,,,38.23271711,-8.000018212,,PT,Europe/Lisbon,True,False,False,
+3,Braga,city-braga,,,41.3512482,-8.526193832,,PT,Europe/Lisbon,True,False,False,
+4,Braganca,city-braganca,,,41.13027423,-7.123485307,,PT,Europe/Lisbon,True,False,False,
+5,Castelo Branco,city-castelo-branco,,,39.75638119,-7.62375233,,PT,Europe/Lisbon,True,False,False,
+6,Castille and Leon,city-castille-and-leon,,,40.5932566,-6.904449569,,ES,Europe/Lisbon,True,False,False,
+7,Coimbra,city-coimbra,,,40.01078049,-8.633531613,,PT,Europe/Lisbon,True,False,False,
+8,Evora,city-evora,,,38.66228912,-8.619061162,,PT,Europe/Lisbon,True,False,False,
+9,Extremadura,city-extremadura,,,39.71676094,-7.681784545,,ES,Europe/Lisbon,True,False,False,
+10,Faro,city-faro,,,37.02021,-7.9412003,,PT,Europe/Lisbon,True,False,False,
+11,Galicia,city-galicia,,,41.86965332,-8.8433629,,ES,Europe/Lisbon,True,False,False,
+12,Guarda,city-guarda,,,41.14452354,-7.331569875,,PT,Europe/Lisbon,True,False,False,
+13,Leiria,city-leiria,,,39.7936189,-8.589297528,,PT,Europe/Lisbon,True,False,False,
+14,Lisboa,city-lisboa,,,38.71584,-9.120748,,PT,Europe/Lisbon,True,False,False,
+15,Portalegre,city-portalegre,,,39.48197647,-8.001238005,,PT,Europe/Lisbon,True,False,False,
+16,Porto,city-porto,,,41.14556679,-8.610221145,,PT,Europe/Lisbon,True,False,False,
+17,Santarem,city-santarem,,,39.11358947,-8.777962337,,PT,Europe/Lisbon,True,False,False,
+18,Setubal,city-setubal,,,38.66616944,-9.179573483,,PT,Europe/Lisbon,True,False,False,
+19,Viana do Castelo,city-viana-do-castelo,,,41.64627095,-8.701119145,,PT,Europe/Lisbon,True,False,False,
+20,Vila Real,city-vila-real,,,41.12187999,-7.910713653,,PT,Europe/Lisbon,True,False,False,
+21,Viseu,city-viseu,,,41.10361527,-8.090986297,,PT,Europe/Lisbon,True,False,False,
+22,Porto Sao Bento,porto-sao-bento,941008,,41.14556679,-8.610221145,16.0,PT,Europe/Lisbon,False,False,False,94_1008
+23,Porto Campanha,porto-campanha,942006,,41.14871926,-8.584835348,16.0,PT,Europe/Lisbon,False,False,False,94_2006
+24,Contumil,contumil,943004,,41.16871141,-8.574777658,16.0,PT,Europe/Lisbon,False,False,False,94_3004
+25,Rio Tinto,rio-tinto,943038,,41.18459158,-8.557095957,16.0,PT,Europe/Lisbon,False,False,False,94_3038
+26,Aguas Santas - Palmilheira,aguas-santas-palmilheira,943046,,41.20173,-8.55674,16.0,PT,Europe/Lisbon,False,False,False,94_3046
+27,Ermesinde,ermesinde,944002,,41.21703724,-8.554192457,16.0,PT,Europe/Lisbon,False,False,False,94_4002
+28,Travagem,travagem,944010,,41.22833283,-8.551720165,16.0,PT,Europe/Lisbon,False,False,False,94_4010
+29,Leandro,leandro,944036,,41.24376571,-8.556680902,16.0,PT,Europe/Lisbon,False,False,False,94_4036
+30,Sao Frutuoso,sao-frutuoso,944051,,41.25835633,-8.558143032,16.0,PT,Europe/Lisbon,False,False,False,94_4051
+31,Sao Romao,sao-romao,944077,,41.278255,-8.553094,16.0,PT,Europe/Lisbon,False,False,False,94_4077
+32,Portela,portela,944101,,41.301502,-8.54909,16.0,PT,Europe/Lisbon,False,False,False,94_4101
+33,Trofa,trofa,944630,,41.337437,-8.547573,16.0,PT,Europe/Lisbon,False,False,False,94_4630
+34,Lousado,lousado,945009,,41.3512482,-8.526193832,3.0,PT,Europe/Lisbon,False,False,False,94_5009
+35,Esmeriz,esmeriz,945033,,41.37950789,-8.521499279,3.0,PT,Europe/Lisbon,False,False,False,94_5033
+36,Barrimau,barrimau,945058,,41.38983612,-8.526119758,3.0,PT,Europe/Lisbon,False,False,False,94_5058
+37,Famalicao,famalicao,945074,,41.40495653,-8.529522021,3.0,PT,Europe/Lisbon,False,False,False,94_5074
+38,Mouquim,mouquim,945108,,41.42894219,-8.522012347,3.0,PT,Europe/Lisbon,False,False,False,94_5108
+39,Louro,louro,945116,,41.43696435,-8.538176287,3.0,PT,Europe/Lisbon,False,False,False,94_5116
+40,Nine,nine,946007,,41.45546082,-8.54506881,3.0,PT,Europe/Lisbon,False,False,False,94_6007
+41,Carreira,carreira,946056,,41.48679299,-8.563958669,3.0,PT,Europe/Lisbon,False,False,False,94_6056
+42,Midoes,midoes,946080,,41.50825966,-8.581835077,3.0,PT,Europe/Lisbon,False,False,False,94_6080
+43,Barcelos,barcelos,946122,,41.53664495,-8.608985454,3.0,PT,Europe/Lisbon,False,False,False,94_6122
+44,Silva,silva,946155,,41.56592973,-8.627669074,3.0,PT,Europe/Lisbon,False,False,False,94_6155
+45,Carapecos,carapecos,946197,,41.58561592,-8.632905954,3.0,PT,Europe/Lisbon,False,False,False,94_6197
+46,Tamel,tamel,946213,,41.60880665,-8.634752401,3.0,PT,Europe/Lisbon,False,False,False,94_6213
+47,Durraes,durraes,946262,,41.63909631,-8.666998185,3.0,PT,Europe/Lisbon,False,False,False,94_6262
+48,Barroselas,barroselas,946304,,41.64627095,-8.701119145,19.0,PT,Europe/Lisbon,False,False,False,94_6304
+49,Senhora das Neves,senhora-das-neves,946312,,41.64670655,-8.720968149,19.0,PT,Europe/Lisbon,False,False,False,94_6312
+50,Alvaraes,alvaraes,946338,,41.64845736,-8.739572945,19.0,PT,Europe/Lisbon,False,False,False,94_6338
+51,Darque,darque,946387,,41.68023019,-8.781894945,19.0,PT,Europe/Lisbon,False,False,False,94_6387
+52,Areia - Darque,areia-darque,946395,,41.684147,-8.799283419,19.0,PT,Europe/Lisbon,False,False,False,94_6395
+53,Valenca,valenca,947005,,42.02467731,-8.639418501,19.0,PT,Europe/Lisbon,False,False,False,94_7005
+54,Cabeda,cabeda,948029,,41.22065745,-8.536105639,16.0,PT,Europe/Lisbon,False,False,False,94_8029
+55,Suzao,suzao,948060,,41.1973023,-8.502715022,16.0,PT,Europe/Lisbon,False,False,False,94_8060
+56,Valongo,valongo,948086,,41.18826042,-8.487369937,16.0,PT,Europe/Lisbon,False,False,False,94_8086
+57,Sao Martinho do Campo,sao-martinho-do-campo,948102,,41.1702346,-8.468335709,16.0,PT,Europe/Lisbon,False,False,False,94_8102
+58,Terronhas,terronhas,948136,,41.16371817,-8.437251201,16.0,PT,Europe/Lisbon,False,False,False,94_8136
+59,Trancoso,trancoso,948151,,41.16125912,-8.418932929,16.0,PT,Europe/Lisbon,False,False,False,94_8151
+60,Recarei - Sobreira,recarei-sobreira,948177,,41.15378337,-8.399091735,16.0,PT,Europe/Lisbon,False,False,False,94_8177
+61,Parada,parada,948201,,41.16023261,-8.371261014,16.0,PT,Europe/Lisbon,False,False,False,94_8201
+62,Cete,cete,948227,,41.17220134,-8.354048021,16.0,PT,Europe/Lisbon,False,False,False,94_8227
+63,Irivo,irivo,948243,,41.18161769,-8.342020175,16.0,PT,Europe/Lisbon,False,False,False,94_8243
+64,Oleiros,oleiros,948250,,41.19368554,-8.33743985,16.0,PT,Europe/Lisbon,False,False,False,94_8250
+65,Paredes,paredes,948276,,41.20387157,-8.324092555,16.0,PT,Europe/Lisbon,False,False,False,94_8276
+66,Penafiel,penafiel,948318,,41.21775952,-8.294931944,16.0,PT,Europe/Lisbon,False,False,False,94_8318
+67,Bustelo,bustelo,948334,,41.23526802,-8.274898634,16.0,PT,Europe/Lisbon,False,False,False,94_8334
+68,Meinedo,meinedo,948359,,41.2487667,-8.258721616,16.0,PT,Europe/Lisbon,False,False,False,94_8359
+69,Caide,caide,948383,,41.25255622,-8.226812614,16.0,PT,Europe/Lisbon,False,False,False,94_8383
+70,Oliveira,oliveira,948409,,41.2572249,-8.19927902,16.0,PT,Europe/Lisbon,False,False,False,94_8409
+71,Vila Mea,vila-mea,948433,,41.24532896,-8.184320098,16.0,PT,Europe/Lisbon,False,False,False,94_8433
+72,Recesinhos,recesinhos,948441,,41.23058351,-8.174801042,16.0,PT,Europe/Lisbon,False,False,False,94_8441
+73,Livracao,livracao,948474,,41.21686743,-8.155659207,16.0,PT,Europe/Lisbon,False,False,False,94_8474
+74,Marco de Canaveses,marco-de-canaveses,949001,,41.18096122,-8.136875035,16.0,PT,Europe/Lisbon,False,False,False,94_9001
+75,Juncal,juncal,949050,,41.14066597,-8.119414618,16.0,PT,Europe/Lisbon,False,False,False,94_9050
+76,Pala,pala,949100,,41.10361527,-8.090986297,21.0,PT,Europe/Lisbon,False,False,False,94_9100
+77,Mosteiro,mosteiro,949134,,41.09458735,-8.06934077,21.0,PT,Europe/Lisbon,False,False,False,94_9134
+78,Aregos,aregos,949191,,41.10637923,-8.007400147,21.0,PT,Europe/Lisbon,False,False,False,94_9191
+79,Mirao,mirao,949225,,41.11751888,-7.972797311,21.0,PT,Europe/Lisbon,False,False,False,94_9225
+80,Ermida,ermida,949258,,41.12429079,-7.950866322,21.0,PT,Europe/Lisbon,False,False,False,94_9258
+81,Porto Rei,porto-rei,949282,,41.12187999,-7.910713653,20.0,PT,Europe/Lisbon,False,False,False,94_9282
+82,Barqueiros,barqueiros,949324,,41.1405566,-7.887492296,20.0,PT,Europe/Lisbon,False,False,False,94_9324
+83,Rede,rede,949357,,41.16074221,-7.865830951,20.0,PT,Europe/Lisbon,False,False,False,94_9357
+84,Caldas de Moledo,caldas-de-moledo,949399,,41.15289869,-7.826699334,20.0,PT,Europe/Lisbon,False,False,False,94_9399
+85,Godim,godim,949423,,41.16639468,-7.797563938,20.0,PT,Europe/Lisbon,False,False,False,94_9423
+86,Regua,regua,9410009,,41.15864743,-7.783553617,20.0,PT,Europe/Lisbon,False,False,False,94_10009
+87,Covelinhas,covelinhas,9410090,,41.15213705,-7.688281265,21.0,PT,Europe/Lisbon,False,False,False,94_10090
+88,Ferrao,ferrao,9410165,,41.16189751,-7.61125813,21.0,PT,Europe/Lisbon,False,False,False,94_10165
+89,Pinhao,pinhao,9410249,,41.19038233,-7.545173972,20.0,PT,Europe/Lisbon,False,False,False,94_10249
+90,Tua,tua,9411007,,41.20737291,-7.420128511,21.0,PT,Europe/Lisbon,False,False,False,94_11007
+91,Alegria,alegria,9411064,,41.17648128,-7.37777979,21.0,PT,Europe/Lisbon,False,False,False,94_11064
+92,Ferradosa,ferradosa,9411114,,41.14452354,-7.331569875,12.0,PT,Europe/Lisbon,False,False,False,94_11114
+93,Vargelas,vargelas,9411148,,41.14310837,-7.316038433,12.0,PT,Europe/Lisbon,False,False,False,94_11148
+94,Vesuvio,vesuvio,9411197,,41.14134,-7.261709844,12.0,PT,Europe/Lisbon,False,False,False,94_11197
+95,Freixo de Numao - Mos do Douro,freixo-de-numao-mos-do-douro,9411247,,41.13464912,-7.211400891,12.0,PT,Europe/Lisbon,False,False,False,94_11247
+96,Pocinho,pocinho,9412005,,41.13027423,-7.123485307,4.0,PT,Europe/Lisbon,False,False,False,94_12005
+97,Pragal,pragal,9417087,,38.66616944,-9.179573483,18.0,PT,Europe/Lisbon,False,False,False,94_17087
+98,Viana do Castelo,viana-do-castelo,9418002,,41.69517491,-8.831416649,19.0,PT,Europe/Lisbon,False,False,False,94_18002
+99,Areosa,areosa,9418044,,41.72048249,-8.855279982,19.0,PT,Europe/Lisbon,False,False,False,94_18044
+100,Carreco,carreco,9418085,,41.75041589,-8.863332851,19.0,PT,Europe/Lisbon,False,False,False,94_18085
+101,Afife,afife,9418119,,41.77538057,-8.861471138,19.0,PT,Europe/Lisbon,False,False,False,94_18119
+102,Ancora-Praia,ancora-praia,9418150,,41.81324135,-8.862650235,19.0,PT,Europe/Lisbon,False,False,False,94_18150
+103,Moledo do Minho,moledo-do-minho,9418200,,41.84794957,-8.864296854,19.0,PT,Europe/Lisbon,False,False,False,94_18200
+104,Senhora da Agonia,senhora-da-agonia,9418234,,41.86965332,-8.8433629,11.0,ES,Europe/Lisbon,False,False,False,94_18234
+105,Caminha,caminha,9418242,,41.87398063,-8.834439587,11.0,ES,Europe/Lisbon,False,False,False,94_18242
+106,Seixas,seixas,9418275,,41.89631904,-8.819345093,11.0,ES,Europe/Lisbon,False,False,False,94_18275
+107,Esqueiro,esqueiro,9418291,,41.90938362,-8.792815739,11.0,ES,Europe/Lisbon,False,False,False,94_18291
+108,Gondarem,gondarem,9418325,,41.92004383,-8.763017442,19.0,PT,Europe/Lisbon,False,False,False,94_18325
+109,Vila Nova de Cerveira,vila-nova-de-cerveira,9418341,,41.93602887,-8.748278179,19.0,PT,Europe/Lisbon,False,False,False,94_18341
+110,Carvalha,carvalha,9418416,,41.9798852,-8.702489533,11.0,ES,Europe/Lisbon,False,False,False,94_18416
+111,Sao Pedro da Torre,sao-pedro-da-torre,9418440,,41.99363336,-8.666371141,19.0,PT,Europe/Lisbon,False,False,False,94_18440
+112,Sao Gemil,sao-gemil,9421006,,41.197196,-8.579095,16.0,PT,Europe/Lisbon,False,False,False,94_21006
+113,Hospital Sao Joao,hospital-sao-joao,9421030,,41.18514,-8.59788,16.0,PT,Europe/Lisbon,False,False,False,94_21030
+114,Sao Mamede de Infesta,sao-mamede-de-infesta,9421048,,41.1903122,-8.613357635,16.0,PT,Europe/Lisbon,False,False,False,94_21048
+115,Arroteia,arroteia,9421055,,41.19668,-8.63048,16.0,PT,Europe/Lisbon,False,False,False,94_21055
+116,Leca do Balio,leca-do-balio,9421071,,41.2084234,-8.629551262,16.0,PT,Europe/Lisbon,False,False,False,94_21071
+117,Guimaraes,guimaraes,9424000,,41.43510773,-8.293786265,3.0,PT,Europe/Lisbon,False,False,False,94_24000
+118,Santo Tirso,santo-tirso,9428068,,41.35081491,-8.47316742,16.0,PT,Europe/Lisbon,False,False,False,94_28068
+119,Canicos,canicos,9428100,,41.36367349,-8.437664977,16.0,PT,Europe/Lisbon,False,False,False,94_28100
+120,Vila das Aves,vila-das-aves,9428134,,41.35750394,-8.406175889,16.0,PT,Europe/Lisbon,False,False,False,94_28134
+121,Giesteira,giesteira,9428159,,41.36454086,-8.388888507,3.0,PT,Europe/Lisbon,False,False,False,94_28159
+122,Lordelo,lordelo,9428191,,41.36546843,-8.36373302,3.0,PT,Europe/Lisbon,False,False,False,94_28191
+123,Cuca,cuca,9428209,,41.37649526,-8.341932086,3.0,PT,Europe/Lisbon,False,False,False,94_28209
+124,Pereirinhas,pereirinhas,9428217,,41.37741025,-8.324124874,3.0,PT,Europe/Lisbon,False,False,False,94_28217
+125,Vizela,vizela,9428233,,41.37907503,-8.312386366,3.0,PT,Europe/Lisbon,False,False,False,94_28233
+126,Nespereira,nespereira,9428266,,41.40319718,-8.319580213,3.0,PT,Europe/Lisbon,False,False,False,94_28266
+127,Covas,covas,9428290,,41.42149185,-8.300891013,3.0,PT,Europe/Lisbon,False,False,False,94_28290
+128,Couto de Cambeses,couto-de-cambeses,9429033,,41.48180278,-8.528726966,3.0,PT,Europe/Lisbon,False,False,False,94_29033
+129,Arentim,arentim,9429066,,41.49041347,-8.508283473,3.0,PT,Europe/Lisbon,False,False,False,94_29066
+130,Ruilhe,ruilhe,9429074,,41.49762448,-8.496300178,3.0,PT,Europe/Lisbon,False,False,False,94_29074
+131,Tadim,tadim,9429090,,41.50892122,-8.483310417,3.0,PT,Europe/Lisbon,False,False,False,94_29090
+132,Aveleda,aveleda,9429108,,41.52012475,-8.468373548,3.0,PT,Europe/Lisbon,False,False,False,94_29108
+133,Mazagao,mazagao,9429116,,41.52691268,-8.458346712,3.0,PT,Europe/Lisbon,False,False,False,94_29116
+134,Ferreiros,ferreiros,9429132,,41.53080402,-8.441498842,3.0,PT,Europe/Lisbon,False,False,False,94_29132
+135,Braga,braga,9429157,,41.54859532,-8.434369271,3.0,PT,Europe/Lisbon,False,False,False,94_29157
+136,Lisboa Santa Apolonia,lisboa-santa-apolonia,9430007,,38.71584,-9.120748,14.0,PT,Europe/Lisbon,False,False,False,94_30007
+137,Braco de Prata,braco-de-prata,9431005,,38.746784,-9.10296,14.0,PT,Europe/Lisbon,False,False,False,94_31005
+138,Lisboa Oriente,lisboa-oriente,9431039,,38.76775932,-9.099094751,14.0,PT,Europe/Lisbon,False,False,False,94_31039
+139,Moscavide,moscavide,9431047,,38.77822574,-9.099672625,14.0,PT,Europe/Lisbon,False,False,False,94_31047
+140,Sacavem,sacavem,9431062,,38.79518,-9.09975,14.0,PT,Europe/Lisbon,False,False,False,94_31062
+141,Bobadela,bobadela,9431070,,38.80673,-9.094764,14.0,PT,Europe/Lisbon,False,False,False,94_31070
+142,Santa Iria,santa-iria,9431112,,38.84092177,-9.080333459,14.0,PT,Europe/Lisbon,False,False,False,94_31112
+143,Povoa,povoa,9431146,,38.85956214,-9.063787169,14.0,PT,Europe/Lisbon,False,False,False,94_31146
+144,Alverca,alverca,9431187,,38.8898,-9.0342,14.0,PT,Europe/Lisbon,False,False,False,94_31187
+145,Alhandra,alhandra,9431237,,38.92403279,-9.011379799,14.0,PT,Europe/Lisbon,False,False,False,94_31237
+146,Vila Franca de Xira,vila-franca-de-xira,9431278,,38.95513471,-8.986308476,14.0,PT,Europe/Lisbon,False,False,False,94_31278
+147,Castanheira do Ribatejo,castanheira-do-ribatejo,9431310,,38.98791244,-8.966061218,14.0,PT,Europe/Lisbon,False,False,False,94_31310
+148,Carregado,carregado,9431336,,39.00543251,-8.953671383,14.0,PT,Europe/Lisbon,False,False,False,94_31336
+149,Vila Nova da Rainha,vila-nova-da-rainha,9431377,,39.03619261,-8.928365792,14.0,PT,Europe/Lisbon,False,False,False,94_31377
+150,Espadanal da Azambuja,espadanal-da-azambuja,9431401,,39.05022193,-8.903710526,14.0,PT,Europe/Lisbon,False,False,False,94_31401
+151,Setil,setil,9432003,,39.11358947,-8.777962337,17.0,PT,Europe/Lisbon,False,False,False,94_32003
+152,Santana - Cartaxo,santana-cartaxo,9432045,,39.14452093,-8.758941352,17.0,PT,Europe/Lisbon,False,False,False,94_32045
+153,Vale de Santarem,vale-de-santarem,9432102,,39.18842274,-8.723846578,17.0,PT,Europe/Lisbon,False,False,False,94_32102
+154,Santarem,santarem,9432185,,39.24210129,-8.675236816,17.0,PT,Europe/Lisbon,False,False,False,94_32185
+155,Vale de Figueira,vale-de-figueira,9432284,,39.31380926,-8.629955201,17.0,PT,Europe/Lisbon,False,False,False,94_32284
+156,Mato de Miranda,mato-de-miranda,9432383,,39.36848074,-8.554351425,17.0,PT,Europe/Lisbon,False,False,False,94_32383
+157,Riachos - Torres Novas - Golega,riachos-torres-novas-golega,9432466,,39.43219541,-8.50456742,17.0,PT,Europe/Lisbon,False,False,False,94_32466
+158,Azambuja,azambuja,9433001,,39.06816056,-8.866926033,14.0,PT,Europe/Lisbon,False,False,False,94_33001
+159,Virtudes,virtudes,9433043,,39.0865114,-8.828054597,14.0,PT,Europe/Lisbon,False,False,False,94_33043
+160,Reguengo - Vale da Pedra,reguengo-vale-da-pedra,9433084,,39.09925348,-8.793845734,17.0,PT,Europe/Lisbon,False,False,False,94_33084
+161,Entroncamento,entroncamento,9434009,,39.46170992,-8.473884753,17.0,PT,Europe/Lisbon,False,False,False,94_34009
+162,Lamarosa,lamarosa,9434090,,39.52886,-8.46903,17.0,PT,Europe/Lisbon,False,False,False,94_34090
+163,Paialvo,paialvo,9434157,,39.57991163,-8.474051936,17.0,PT,Europe/Lisbon,False,False,False,94_34157
+164,Fungalvaz,fungalvaz,9434199,,39.61646233,-8.495010444,17.0,PT,Europe/Lisbon,False,False,False,94_34199
+165,Chao de Macas - Fatima,chao-de-macas-fatima,9434249,,39.65437147,-8.493858726,17.0,PT,Europe/Lisbon,False,False,False,94_34249
+166,Seica - Ourem,seica-ourem,9434264,,39.67836708,-8.507968157,17.0,PT,Europe/Lisbon,False,False,False,94_34264
+167,Caxarias,caxarias,9434330,,39.71457991,-8.545647448,17.0,PT,Europe/Lisbon,False,False,False,94_34330
+168,Albergaria dos Doze,albergaria-dos-doze,9434439,,39.7936189,-8.589297528,13.0,PT,Europe/Lisbon,False,False,False,94_34439
+169,Litem,litem,9434504,,39.83793069,-8.593103078,13.0,PT,Europe/Lisbon,False,False,False,94_34504
+170,Vermoil,vermoil,9434553,,39.85087908,-8.652280874,13.0,PT,Europe/Lisbon,False,False,False,94_34553
+171,Pombal,pombal,9434645,,39.91774,-8.63056,13.0,PT,Europe/Lisbon,False,False,False,94_34645
+172,Pelariga,pelariga,9434702,,39.96755598,-8.633187288,13.0,PT,Europe/Lisbon,False,False,False,94_34702
+173,Simoes,simoes,9434744,,40.01078049,-8.633531613,7.0,PT,Europe/Lisbon,False,False,False,94_34744
+174,Soure,soure,9434801,,40.05498747,-8.63947915,7.0,PT,Europe/Lisbon,False,False,False,94_34801
+175,Vila Nova de Ancos,vila-nova-de-ancos,9434868,,40.10720125,-8.637661253,7.0,PT,Europe/Lisbon,False,False,False,94_34868
+176,Granja do Ulmeiro - Alfarelos,granja-do-ulmeiro-alfarelos,9435006,,40.16473229,-8.634751831,7.0,PT,Europe/Lisbon,False,False,False,94_35006
+177,Formoselha - Santo Varao,formoselha-santo-varao,9435030,,40.17949655,-8.607094848,7.0,PT,Europe/Lisbon,False,False,False,94_35030
+178,Pereira,pereira,9435055,,40.18636587,-8.584938753,7.0,PT,Europe/Lisbon,False,False,False,94_35055
+179,Ameal,ameal,9435097,,40.19236904,-8.544126184,7.0,PT,Europe/Lisbon,False,False,False,94_35097
+180,Vila Pouca do Campo,vila-pouca-do-campo,9435105,,40.19298738,-8.525050116,7.0,PT,Europe/Lisbon,False,False,False,94_35105
+181,Taveiro,taveiro,9435139,,40.20590687,-8.500288524,7.0,PT,Europe/Lisbon,False,False,False,94_35139
+182,Casais,casais,9435147,,40.20474742,-8.484188034,7.0,PT,Europe/Lisbon,False,False,False,94_35147
+183,Espadaneira,espadaneira,9435162,,40.2089818,-8.470927938,7.0,PT,Europe/Lisbon,False,False,False,94_35162
+184,Bencanta,bencanta,9435170,,40.21447885,-8.456273636,7.0,PT,Europe/Lisbon,False,False,False,94_35170
+185,Coimbra-B,coimbra-b,9436004,,40.22471588,-8.440501336,7.0,PT,Europe/Lisbon,False,False,False,94_36004
+186,Ademia,ademia,9436046,,40.25092559,-8.450341883,7.0,PT,Europe/Lisbon,False,False,False,94_36046
+187,Vilela - Fornos,vilela-fornos,9436053,,40.26323265,-8.441353987,7.0,PT,Europe/Lisbon,False,False,False,94_36053
+188,Souselas,souselas,9436087,,40.28605204,-8.425728672,1.0,PT,Europe/Lisbon,False,False,False,94_36087
+189,Pampilhosa,pampilhosa,9437002,,40.33808487,-8.431341594,1.0,PT,Europe/Lisbon,False,False,False,94_37002
+190,Mealhada,mealhada,9437051,,40.37508326,-8.45383803,1.0,PT,Europe/Lisbon,False,False,False,94_37051
+191,Aguim,aguim,9437093,,40.41540703,-8.456804172,1.0,PT,Europe/Lisbon,False,False,False,94_37093
+192,Curia,curia,9437119,,40.42437991,-8.456119379,1.0,PT,Europe/Lisbon,False,False,False,94_37119
+193,Mogofores,mogofores,9437143,,40.45048597,-8.459403937,1.0,PT,Europe/Lisbon,False,False,False,94_37143
+194,Paraimo - Sangalhos,paraimo-sangalhos,9437184,,40.48114236,-8.480089438,1.0,PT,Europe/Lisbon,False,False,False,94_37184
+195,Oliveira do Bairro,oliveira-do-bairro,9437218,,40.51021468,-8.498772344,1.0,PT,Europe/Lisbon,False,False,False,94_37218
+196,Oia,oia,9437275,,40.54355725,-8.549925071,1.0,PT,Europe/Lisbon,False,False,False,94_37275
+197,Quintans,quintans,9437358,,40.59097392,-8.612654011,1.0,PT,Europe/Lisbon,False,False,False,94_37358
+198,Aveiro,aveiro,9438000,,40.64342677,-8.640761068,1.0,PT,Europe/Lisbon,False,False,False,94_38000
+199,Cacia,cacia,9438075,,40.68482058,-8.598206421,1.0,PT,Europe/Lisbon,False,False,False,94_38075
+200,Canelas,canelas,9438117,,40.71643784,-8.564019334,1.0,PT,Europe/Lisbon,False,False,False,94_38117
+201,Salreu,salreu,9438125,,40.72917144,-8.564954648,1.0,PT,Europe/Lisbon,False,False,False,94_38125
+202,Estarreja,estarreja,9438158,,40.75112659,-8.575450055,1.0,PT,Europe/Lisbon,False,False,False,94_38158
+203,Avanca,avanca,9438216,,40.80748136,-8.584801063,1.0,PT,Europe/Lisbon,False,False,False,94_38216
+204,Valega,valega,9438240,,40.83360599,-8.601118363,1.0,PT,Europe/Lisbon,False,False,False,94_38240
+205,Ovar,ovar,9438299,,40.86400236,-8.616663248,1.0,PT,Europe/Lisbon,False,False,False,94_38299
+206,Carvalheira - Maceda,carvalheira-maceda,9438356,,40.9245053,-8.626079835,1.0,PT,Europe/Lisbon,False,False,False,94_38356
+207,Cortegaca,cortegaca,9438372,,40.94063989,-8.6302448,1.0,PT,Europe/Lisbon,False,False,False,94_38372
+208,Esmoriz,esmoriz,9438406,,40.963413,-8.6355295,1.0,PT,Europe/Lisbon,False,False,False,94_38406
+209,Paramos,paramos,9438414,,40.97550474,-8.636850937,1.0,PT,Europe/Lisbon,False,False,False,94_38414
+210,Silvalde,silvalde,9438422,,40.99043203,-8.640755528,1.0,PT,Europe/Lisbon,False,False,False,94_38422
+211,Espinho,espinho,9439008,,41.00651,-8.644346,1.0,PT,Europe/Lisbon,False,False,False,94_39008
+212,Granja,granja,9439040,,41.03847308,-8.647104639,16.0,PT,Europe/Lisbon,False,False,False,94_39040
+213,Aguda,aguda,9439057,,41.05080733,-8.651249343,16.0,PT,Europe/Lisbon,False,False,False,94_39057
+214,Miramar,miramar,9439073,,41.0678228,-8.649449353,16.0,PT,Europe/Lisbon,False,False,False,94_39073
+215,Francelos,francelos,9439081,,41.08156229,-8.647478498,16.0,PT,Europe/Lisbon,False,False,False,94_39081
+216,Valadares,valadares,9439115,,41.09922907,-8.632000015,16.0,PT,Europe/Lisbon,False,False,False,94_39115
+217,Madalena,madalena,9439123,,41.11147678,-8.6377681,16.0,PT,Europe/Lisbon,False,False,False,94_39123
+218,Coimbroes,coimbroes,9439149,,41.12440582,-8.633950767,16.0,PT,Europe/Lisbon,False,False,False,94_39149
+219,Vila Nova de Gaia - Devesas,vila-nova-de-gaia-devesas,9439164,,41.1296812,-8.620449314,16.0,PT,Europe/Lisbon,False,False,False,94_39164
+220,General Torres,general-torres,9439172,,41.13323032,-8.608434466,16.0,PT,Europe/Lisbon,False,False,False,94_39172
+221,Soudos - Vila Nova,soudos-vila-nova,9440014,,39.54223924,-8.472011978,17.0,PT,Europe/Lisbon,False,False,False,94_40014
+222,Carrascal - Delongo,carrascal-delongo,9440030,,39.54865417,-8.462797627,17.0,PT,Europe/Lisbon,False,False,False,94_40030
+223,Curvaceiras,curvaceiras,9440063,,39.54786843,-8.42990784,17.0,PT,Europe/Lisbon,False,False,False,94_40063
+224,Santa Cita,santa-cita,9440105,,39.55287799,-8.393115369,17.0,PT,Europe/Lisbon,False,False,False,94_40105
+225,Carvalhos de Figueiredo,carvalhos-de-figueiredo,9440113,,39.57105424,-8.395274349,17.0,PT,Europe/Lisbon,False,False,False,94_40113
+226,Tomar,tomar,9440154,,39.59872401,-8.412910713,17.0,PT,Europe/Lisbon,False,False,False,94_40154
+227,Esgueira,esgueira,9442028,,40.64152601,-8.618271341,1.0,PT,Europe/Lisbon,False,False,False,94_42028
+228,Azurva,azurva,9442051,,40.63991296,-8.591835345,1.0,PT,Europe/Lisbon,False,False,False,94_42051
+229,Eixo,eixo,9442077,,40.63102602,-8.568150173,1.0,PT,Europe/Lisbon,False,False,False,94_42077
+230,Sao Joao Loure,sao-joao-loure,9442093,,40.62228972,-8.54816931,1.0,PT,Europe/Lisbon,False,False,False,94_42093
+231,Eirol,eirol,9442119,,40.60942045,-8.531726446,1.0,PT,Europe/Lisbon,False,False,False,94_42119
+232,Taipa - Requeixo,taipa-requeixo,9442127,,40.60115199,-8.523792989,1.0,PT,Europe/Lisbon,False,False,False,94_42127
+233,Travasso,travasso,9442135,,40.59424981,-8.514544664,1.0,PT,Europe/Lisbon,False,False,False,94_42135
+234,Cabanoes,cabanoes,9442150,,40.58726191,-8.498040693,1.0,PT,Europe/Lisbon,False,False,False,94_42150
+235,Casal do  Alvaro,casal-do-alvaro,9442168,,40.57943003,-8.487939766,1.0,PT,Europe/Lisbon,False,False,False,94_42168
+236,Oronhe,oronhe,9442176,,40.572144,-8.476763,1.0,PT,Europe/Lisbon,False,False,False,94_42176
+237,Agueda,agueda,9442218,,40.57749168,-8.448231459,1.0,PT,Europe/Lisbon,False,False,False,94_42218
+238,Mourisca do Vouga,mourisca-do-vouga,9442259,,40.60537408,-8.460026069,1.0,PT,Europe/Lisbon,False,False,False,94_42259
+239,Aguieira,aguieira,9442267,,40.61329091,-8.453697362,1.0,PT,Europe/Lisbon,False,False,False,94_42267
+240,Valongo - Vouga,valongo-vouga,9442291,,40.62415951,-8.449935694,1.0,PT,Europe/Lisbon,False,False,False,94_42291
+241,Carvalhal Portela,carvalhal-portela,9442309,,40.63637296,-8.452870662,1.0,PT,Europe/Lisbon,False,False,False,94_42309
+242,Macinhata,macinhata,9442325,,40.65335028,-8.45826266,1.0,PT,Europe/Lisbon,False,False,False,94_42325
+243,Sernada do Vouga,sernada-do-vouga,9443000,,40.67219203,-8.452643138,1.0,PT,Europe/Lisbon,False,False,False,94_43000
+244,Espinho - Vouga,espinho-vouga,9444016,,41.00214953,-8.643480702,1.0,PT,Europe/Lisbon,False,False,False,94_44016
+245,Silvalde - Vouga,silvalde-vouga,9444032,,40.98884267,-8.630313993,1.0,PT,Europe/Lisbon,False,False,False,94_44032
+246,Monte de Paramos,monte-de-paramos,9444040,,40.98233179,-8.625757805,1.0,PT,Europe/Lisbon,False,False,False,94_44040
+247,Lapa,lapa,9444057,,40.98371496,-8.605229964,1.0,PT,Europe/Lisbon,False,False,False,94_44057
+248,Sampaio - Oleiros,sampaio-oleiros,9444073,,40.98400656,-8.593334368,1.0,PT,Europe/Lisbon,False,False,False,94_44073
+249,Pacos de Brandao,pacos-de-brandao,9444107,,40.97211856,-8.584449362,1.0,PT,Europe/Lisbon,False,False,False,94_44107
+250,Rio Meao,rio-meao,9444115,,40.96097247,-8.571201237,1.0,PT,Europe/Lisbon,False,False,False,94_44115
+251,Sao Joao de Ver,sao-joao-de-ver,9444156,,40.95539607,-8.551033227,1.0,PT,Europe/Lisbon,False,False,False,94_44156
+252,Cavaco,cavaco,9444172,,40.93956519,-8.537434995,1.0,PT,Europe/Lisbon,False,False,False,94_44172
+253,Sanfins,sanfins,9444198,,40.92668218,-8.530955954,1.0,PT,Europe/Lisbon,False,False,False,94_44198
+254,Vila da Feira,vila-da-feira,9444206,,40.92431793,-8.535433705,1.0,PT,Europe/Lisbon,False,False,False,94_44206
+255,Escapaes,escapaes,9444222,,40.91965931,-8.516413771,1.0,PT,Europe/Lisbon,False,False,False,94_44222
+256,Arrifana,arrifana,9444248,,40.90938773,-8.501064168,1.0,PT,Europe/Lisbon,False,False,False,94_44248
+257,Sao Joao da Madeira,sao-joao-da-madeira,9444255,,40.89858518,-8.495253902,1.0,PT,Europe/Lisbon,False,False,False,94_44255
+258,Faria,faria,9444271,,40.87923185,-8.494963525,1.0,PT,Europe/Lisbon,False,False,False,94_44271
+259,Couto de Cucujaes,couto-de-cucujaes,9444297,,40.86825288,-8.49416032,1.0,PT,Europe/Lisbon,False,False,False,94_44297
+260,Santiago de Riba - Ul,santiago-de-riba-ul,9444313,,40.85130211,-8.489607497,1.0,PT,Europe/Lisbon,False,False,False,94_44313
+261,Oliveira de Azemeis,oliveira-de-azemeis,9444339,,40.84034225,-8.481808994,1.0,PT,Europe/Lisbon,False,False,False,94_44339
+262,Vacarica,vacarica,9446045,,40.35671067,-8.41219099,1.0,PT,Europe/Lisbon,False,False,False,94_46045
+263,Luso - Bucaco,luso-bucaco,9446094,,40.39026585,-8.384978383,1.0,PT,Europe/Lisbon,False,False,False,94_46094
+264,Soito,soito,9446185,,40.41493807,-8.30191842,21.0,PT,Europe/Lisbon,False,False,False,94_46185
+265,Monte de Lobos,monte-de-lobos,9446219,,40.40820563,-8.264540738,21.0,PT,Europe/Lisbon,False,False,False,94_46219
+266,Mortagua,mortagua,9446243,,40.39085296,-8.241173009,21.0,PT,Europe/Lisbon,False,False,False,94_46243
+267,Santa Comba Dao,santa-comba-dao,9446367,,40.39050749,-8.124415639,21.0,PT,Europe/Lisbon,False,False,False,94_46367
+268,Castelejo,castelejo,9446409,,40.40802626,-8.084349587,21.0,PT,Europe/Lisbon,False,False,False,94_46409
+269,Papizios,papizios,9446441,,40.41906,-8.04611,21.0,PT,Europe/Lisbon,False,False,False,94_46441
+270,Carregal do Sal,carregal-do-sal,9446482,,40.43329651,-8.007593112,21.0,PT,Europe/Lisbon,False,False,False,94_46482
+271,Oliveirinha - Cabanas,oliveirinha-cabanas,9446524,,40.45036735,-7.963319418,21.0,PT,Europe/Lisbon,False,False,False,94_46524
+272,Lapa do Lobo,lapa-do-lobo,9446581,,40.47557926,-7.919701746,21.0,PT,Europe/Lisbon,False,False,False,94_46581
+273,Canas - Felgueira,canas-felgueira,9446599,,40.49097639,-7.906625668,21.0,PT,Europe/Lisbon,False,False,False,94_46599
+274,Nelas,nelas,9446672,,40.53018508,-7.849959844,21.0,PT,Europe/Lisbon,False,False,False,94_46672
+275,Moimenta - Alcafache,moimenta-alcafache,9446763,,40.57454401,-7.809556935,21.0,PT,Europe/Lisbon,False,False,False,94_46763
+276,Mangualde,mangualde,9448009,,40.58665002,-7.760228411,21.0,PT,Europe/Lisbon,False,False,False,94_48009
+277,Gouveia,gouveia,9448165,,40.57336063,-7.602088547,12.0,PT,Europe/Lisbon,False,False,False,94_48165
+278,Fornos de Algodres,fornos-de-algodres,9448249,,40.61027632,-7.526950941,12.0,PT,Europe/Lisbon,False,False,False,94_48249
+279,Celorico da Beira,celorico-da-beira,9448405,,40.665199,-7.382557681,12.0,PT,Europe/Lisbon,False,False,False,94_48405
+280,Baracal,baracal,9448454,,40.67741553,-7.327882644,12.0,PT,Europe/Lisbon,False,False,False,94_48454
+281,Vila Franca das Naves,vila-franca-das-naves,9448546,,40.72477185,-7.258174108,12.0,PT,Europe/Lisbon,False,False,False,94_48546
+282,Guarda,guarda,9449007,,40.5515,-7.23934,12.0,PT,Europe/Lisbon,False,False,False,94_49007
+283,Gata,gata,9449049,,40.52179139,-7.214483827,12.0,PT,Europe/Lisbon,False,False,False,94_49049
+284,Vila Fernando,vila-fernando,9449114,,40.49778584,-7.147979941,12.0,PT,Europe/Lisbon,False,False,False,94_49114
+285,Rochoso,rochoso,9449163,,40.50705825,-7.09057451,12.0,PT,Europe/Lisbon,False,False,False,94_49163
+286,Cerdeira,cerdeira,9449205,,40.51148841,-7.047929482,12.0,PT,Europe/Lisbon,False,False,False,94_49205
+287,Miuzela,miuzela,9449239,,40.51933639,-7.01326804,12.0,PT,Europe/Lisbon,False,False,False,94_49239
+288,Freineda,freineda,9449387,,40.5932566,-6.904449569,6.0,ES,Europe/Lisbon,False,False,False,94_49387
+289,Aldeia,aldeia,9449411,,40.60044656,-6.885326291,6.0,ES,Europe/Lisbon,False,False,False,94_49411
+290,Vilar Formoso,vilar-formoso,9449460,,40.60610657,-6.828972113,6.0,ES,Europe/Lisbon,False,False,False,94_49460
+291,Barquinha,barquinha,9451045,,39.46158832,-8.435216876,17.0,PT,Europe/Lisbon,False,False,False,94_51045
+292,Tancos,tancos,9451086,,39.46124096,-8.395342037,17.0,PT,Europe/Lisbon,False,False,False,94_51086
+293,Almourol,almourol,9451102,,39.46226484,-8.374015632,17.0,PT,Europe/Lisbon,False,False,False,94_51102
+294,Praia do Ribatejo,praia-do-ribatejo,9451128,,39.46718193,-8.347634954,17.0,PT,Europe/Lisbon,False,False,False,94_51128
+295,Santa Margarida,santa-margarida,9451185,,39.44765983,-8.296518118,17.0,PT,Europe/Lisbon,False,False,False,94_51185
+296,Tramagal,tramagal,9451243,,39.46042245,-8.248029001,17.0,PT,Europe/Lisbon,False,False,False,94_51243
+297,Abrantes,abrantes,9452001,,39.44019135,-8.194325048,17.0,PT,Europe/Lisbon,False,False,False,94_52001
+298,Alferrarede,alferrarede,9452068,,39.47369892,-8.186865353,17.0,PT,Europe/Lisbon,False,False,False,94_52068
+299,Mouriscas - A,mouriscas-a,9452167,,39.4678272,-8.085016436,17.0,PT,Europe/Lisbon,False,False,False,94_52167
+300,Alvega - Ortiga,alvega-ortiga,9452209,,39.47233585,-8.044685803,17.0,PT,Europe/Lisbon,False,False,False,94_52209
+301,Barragem de Belver,barragem-de-belver,9452241,,39.48197647,-8.001238005,15.0,PT,Europe/Lisbon,False,False,False,94_52241
+302,Belver,belver,9452282,,39.49198141,-7.958705847,15.0,PT,Europe/Lisbon,False,False,False,94_52282
+303,Barca da Amieira - Envendos,barca-da-amieira-envendos,9452415,,39.5259749,-7.835013933,15.0,PT,Europe/Lisbon,False,False,False,94_52415
+304,Fratel,fratel,9452571,,39.61401405,-7.71573632,15.0,PT,Europe/Lisbon,False,False,False,94_52571
+305,Vila Velha de Rodao,vila-velha-de-rodao,9452647,,39.65518715,-7.672794613,15.0,PT,Europe/Lisbon,False,False,False,94_52647
+306,Tojeirinha,tojeirinha,9452738,,39.71676094,-7.681784545,9.0,ES,Europe/Lisbon,False,False,False,94_52738
+307,Sarnadas,sarnadas,9452803,,39.75638119,-7.62375233,5.0,PT,Europe/Lisbon,False,False,False,94_52803
+308,Retaxo,retaxo,9452845,,39.7696633,-7.59124592,5.0,PT,Europe/Lisbon,False,False,False,94_52845
+309,Benquerencas,benquerencas,9452878,,39.78821962,-7.562216282,5.0,PT,Europe/Lisbon,False,False,False,94_52878
+310,Castelo Branco,castelo-branco,9453009,,39.81812048,-7.490696354,5.0,PT,Europe/Lisbon,False,False,False,94_53009
+311,Alcains,alcains,9453140,,39.91996649,-7.436148778,12.0,PT,Europe/Lisbon,False,False,False,94_53140
+312,Lardosa,lardosa,9453215,,39.98865827,-7.44091602,12.0,PT,Europe/Lisbon,False,False,False,94_53215
+313,Soalheira,soalheira,9453264,,40.02688727,-7.455327712,12.0,PT,Europe/Lisbon,False,False,False,94_53264
+314,Castelo Novo,castelo-novo,9453314,,40.06440903,-7.460744275,5.0,PT,Europe/Lisbon,False,False,False,94_53314
+315,Alpedrinha,alpedrinha,9453355,,40.09515928,-7.461950864,5.0,PT,Europe/Lisbon,False,False,False,94_53355
+316,Vale de Prazeres,vale-de-prazeres,9453397,,40.11474119,-7.424148617,5.0,PT,Europe/Lisbon,False,False,False,94_53397
+317,Fatela - Penamacor,fatela-penamacor,9453462,,40.14924761,-7.410385433,5.0,PT,Europe/Lisbon,False,False,False,94_53462
+318,Alcaide,alcaide,9453504,,40.13389703,-7.448787673,5.0,PT,Europe/Lisbon,False,False,False,94_53504
+319,Donas,donas,9453520,,40.13262017,-7.473607268,5.0,PT,Europe/Lisbon,False,False,False,94_53520
+320,Fundao,fundao,9453546,,40.14139028,-7.496419006,5.0,PT,Europe/Lisbon,False,False,False,94_53546
+321,Alcaria,alcaria,9453629,,40.2004866,-7.517460655,5.0,PT,Europe/Lisbon,False,False,False,94_53629
+322,Tortosendo,tortosendo,9453678,,40.23906464,-7.512338617,5.0,PT,Europe/Lisbon,False,False,False,94_53678
+323,Covilha,covilha,9454007,,40.2774919,-7.49613386,5.0,PT,Europe/Lisbon,False,False,False,94_54007
+324,Caria,caria,9454148,,40.306031,-7.370709107,5.0,PT,Europe/Lisbon,False,False,False,94_54148
+325,Belmonte - Manteigas,belmonte-manteigas,9454197,,40.33330266,-7.3362705,5.0,PT,Europe/Lisbon,False,False,False,94_54197
+326,Macainhas,macainhas,9454262,,40.38875756,-7.287301395,5.0,PT,Europe/Lisbon,False,False,False,94_54262
+327,Benespera,benespera,9454338,,40.43489707,-7.268354684,12.0,PT,Europe/Lisbon,False,False,False,94_54338
+328,Sabugal,sabugal,9454429,,40.51155311,-7.238927273,12.0,PT,Europe/Lisbon,False,False,False,94_54429
+329,Bemposta,bemposta,9455129,,39.35245074,-8.135656739,17.0,PT,Europe/Lisbon,False,False,False,94_55129
+330,Ponte de Sor,ponte-de-sor,9455293,,39.26548591,-8.012993629,15.0,PT,Europe/Lisbon,False,False,False,94_55293
+331,Torre das Vargens,torre-das-vargens,9456002,,39.30964666,-7.90846206,15.0,PT,Europe/Lisbon,False,False,False,94_56002
+332,Chanca,chanca,9456101,,39.27575582,-7.807889111,15.0,PT,Europe/Lisbon,False,False,False,94_56101
+333,Crato,crato,9456267,,39.26947148,-7.635270457,15.0,PT,Europe/Lisbon,False,False,False,94_56267
+334,Portalegre,portalegre,9457000,,39.19889465,-7.461128597,15.0,PT,Europe/Lisbon,False,False,False,94_57000
+335,Assumar,assumar,9457117,,39.13891631,-7.38226689,15.0,PT,Europe/Lisbon,False,False,False,94_57117
+336,Arronches,arronches,9457174,,39.09681633,-7.333359385,15.0,PT,Europe/Lisbon,False,False,False,94_57174
+337,Santa Eulalia-A,santa-eulalia-a,9457315,,39.00604235,-7.253407852,15.0,PT,Europe/Lisbon,False,False,False,94_57315
+338,Elvas,elvas,9457497,,38.89551616,-7.142286672,15.0,PT,Europe/Lisbon,False,False,False,94_57497
+339,Lisboa Rossio,lisboa-rossio,9459006,,38.714233,-9.1414607,14.0,PT,Europe/Lisbon,False,False,False,94_59006
+340,Campolide,campolide,9460004,,38.7322222,-9.16805555555555,14.0,PT,Europe/Lisbon,False,False,False,94_60004
+341,Santa Cruz - Damaia,santa-cruz-damaia,9460038,,38.74692993,-9.213167824,14.0,PT,Europe/Lisbon,False,False,False,94_60038
+342,Benfica,benfica,9460046,,38.74431245,-9.199965686,14.0,PT,Europe/Lisbon,False,False,False,94_60046
+343,Amadora,amadora,9460087,,38.7598334,-9.236027949,14.0,PT,Europe/Lisbon,False,False,False,94_60087
+344,Reboleira,reboleira,9460095,,38.75085337,-9.222599576,14.0,PT,Europe/Lisbon,False,False,False,94_60095
+345,Queluz - Belas,queluz-belas,9460103,,38.75881533,-9.25702671,14.0,PT,Europe/Lisbon,False,False,False,94_60103
+346,Monte Abraao,monte-abraao,9460111,,38.75542564,-9.265351205,14.0,PT,Europe/Lisbon,False,False,False,94_60111
+347,Massama - Barcarena,massama-barcarena,9460137,,38.75150586,-9.283588336,14.0,PT,Europe/Lisbon,False,False,False,94_60137
+348,Agualva - Cacem,agualva-cacem,9461002,,38.76642799,-9.298424307,14.0,PT,Europe/Lisbon,False,False,False,94_61002
+349,Rio de Mouro,rio-de-mouro,9461044,,38.78449,-9.321619,14.0,PT,Europe/Lisbon,False,False,False,94_61044
+350,Merces,merces,9461051,,38.793293,-9.330818,14.0,PT,Europe/Lisbon,False,False,False,94_61051
+351,Algueirao - Mem Martins,algueirao-mem-martins,9461069,,38.79771236,-9.340984821,14.0,PT,Europe/Lisbon,False,False,False,94_61069
+352,Portela de Sintra,portela-de-sintra,9461093,,38.80223677,-9.376723955,14.0,PT,Europe/Lisbon,False,False,False,94_61093
+353,Sintra,sintra,9461101,,38.79929269,-9.385450271,14.0,PT,Europe/Lisbon,False,False,False,94_61101
+354,Mira Sintra - Melecas,mira-sintra-melecas,9462042,,38.789851,-9.312738341,14.0,PT,Europe/Lisbon,False,False,False,94_62042
+355,Sabugo,sabugo,9462091,,38.83054718,-9.300027491,14.0,PT,Europe/Lisbon,False,False,False,94_62091
+356,Pedra Furada,pedra-furada,9462133,,38.87010524,-9.295518805,14.0,PT,Europe/Lisbon,False,False,False,94_62133
+357,Mafra,mafra,9462166,,38.89745692,-9.291378732,14.0,PT,Europe/Lisbon,False,False,False,94_62166
+358,Malveira,malveira,9462224,,38.92877249,-9.257368035,14.0,PT,Europe/Lisbon,False,False,False,94_62224
+359,Jerumelo,jerumelo,9462257,,38.94964329,-9.234260062,14.0,PT,Europe/Lisbon,False,False,False,94_62257
+360,Sapataria,sapataria,9462299,,38.96879995,-9.1993513,14.0,PT,Europe/Lisbon,False,False,False,94_62299
+361,Pero Negro,pero-negro,9462315,,38.98883873,-9.197387112,14.0,PT,Europe/Lisbon,False,False,False,94_62315
+362,Zibreira,zibreira,9462331,,39.00602387,-9.183469374,14.0,PT,Europe/Lisbon,False,False,False,94_62331
+363,Feliteira,feliteira,9462364,,39.02241835,-9.179351752,14.0,PT,Europe/Lisbon,False,False,False,94_62364
+364,Dois Portos,dois-portos,9462380,,39.04257009,-9.184656316,14.0,PT,Europe/Lisbon,False,False,False,94_62380
+365,Runa,runa,9462422,,39.07297322,-9.20983775,14.0,PT,Europe/Lisbon,False,False,False,94_62422
+366,Torres Vedras,torres-vedras,9462471,,39.09272951,-9.25439432,14.0,PT,Europe/Lisbon,False,False,False,94_62471
+367,Ramalhal,ramalhal,9462547,,39.139534,-9.215997803,14.0,PT,Europe/Lisbon,False,False,False,94_62547
+368,Outeiro,outeiro,9462612,,39.19127342,-9.17717407,13.0,PT,Europe/Lisbon,False,False,False,94_62612
+369,Bombarral,bombarral,9462703,,39.26511081,-9.153353411,13.0,PT,Europe/Lisbon,False,False,False,94_62703
+370,Obidos,obidos,9462836,,39.36489503,-9.159071054,13.0,PT,Europe/Lisbon,False,False,False,94_62836
+371,Caldas da Rainha,caldas-da-rainha,9463008,,39.40647283,-9.140159558,13.0,PT,Europe/Lisbon,False,False,False,94_63008
+372,Salir do Porto,salir-do-porto,9463107,,39.49238552,-9.147220508,13.0,PT,Europe/Lisbon,False,False,False,94_63107
+373,Sao Martinho do Porto,sao-martinho-do-porto,9463131,,39.50816682,-9.133196417,13.0,PT,Europe/Lisbon,False,False,False,94_63131
+374,Famalicao da Nazare,famalicao-da-nazare,9463180,,39.5316061,-9.085716739,13.0,PT,Europe/Lisbon,False,False,False,94_63180
+375,Valado - Nazare - Alcobaca,valado-nazare-alcobaca,9463263,,39.58451071,-9.017672852,13.0,PT,Europe/Lisbon,False,False,False,94_63263
+376,Pataias,pataias,9463354,,39.65551486,-8.984892522,13.0,PT,Europe/Lisbon,False,False,False,94_63354
+377,Martinganca - Maceira,martinganca-maceira,9463404,,39.68724928,-8.945813689,13.0,PT,Europe/Lisbon,False,False,False,94_63404
+378,Marinha Grande,marinha-grande,9463461,,39.73680363,-8.92619275,13.0,PT,Europe/Lisbon,False,False,False,94_63461
+379,Leiria,leiria,9463560,,39.75662229,-8.827850678,13.0,PT,Europe/Lisbon,False,False,False,94_63560
+380,Monte Real,monte-real,9463685,,39.85599444,-8.847683942,13.0,PT,Europe/Lisbon,False,False,False,94_63685
+381,Monte Redondo,monte-redondo,9463735,,39.90033157,-8.834367878,13.0,PT,Europe/Lisbon,False,False,False,94_63735
+382,Guia,guia,9463800,,39.94816285,-8.801752655,13.0,PT,Europe/Lisbon,False,False,False,94_63800
+383,Lourical,lourical,9463875,,40.01625418,-8.815408661,7.0,PT,Europe/Lisbon,False,False,False,94_63875
+384,Bifurcacao de Lares,bifurcacao-de-lares,9464022,,40.12237677,-8.764726521,7.0,PT,Europe/Lisbon,False,False,False,94_64022
+385,Lares,lares,9464055,,40.12947088,-8.78744267,7.0,PT,Europe/Lisbon,False,False,False,94_64055
+386,Fontela,fontela,9464089,,40.14188393,-8.813779497,7.0,PT,Europe/Lisbon,False,False,False,94_64089
+387,Fontela-A,fontela-a,9464097,,40.14636899,-8.82484836,7.0,PT,Europe/Lisbon,False,False,False,94_64097
+388,Figueira da Foz,figueira-da-foz,9464113,,40.14854945,-8.848372997,7.0,PT,Europe/Lisbon,False,False,False,94_64113
+389,Montemor,montemor,9465029,,40.16015198,-8.654060633,7.0,PT,Europe/Lisbon,False,False,False,94_65029
+390,Marujal,marujal,9465052,,40.14035595,-8.676272148,7.0,PT,Europe/Lisbon,False,False,False,94_65052
+391,Verride,verride,9465086,,40.13958737,-8.703114071,7.0,PT,Europe/Lisbon,False,False,False,94_65086
+392,Reveles,reveles,9465128,,40.1307696,-8.74540784,7.0,PT,Europe/Lisbon,False,False,False,94_65128
+393,Marvila,marvila,9466019,,38.73924235,-9.108394719,14.0,PT,Europe/Lisbon,False,False,False,94_66019
+394,Roma - Areeiro,roma-areeiro,9466035,,38.74572442,-9.134830778,14.0,PT,Europe/Lisbon,False,False,False,94_66035
+395,Entrecampos,entrecampos,9466050,,38.74468,-9.148575,14.0,PT,Europe/Lisbon,False,False,False,94_66050
+396,Sete Rios,sete-rios,9466076,,38.74005101,-9.166950111,14.0,PT,Europe/Lisbon,False,False,False,94_66076
+397,Alcantara - Terra,alcantara-terra,9467025,,38.70743461,-9.17323799,18.0,PT,Europe/Lisbon,False,False,False,94_67025
+398,Pinhal Novo,pinhal-novo,9468007,,38.63018,-8.912074,18.0,PT,Europe/Lisbon,False,False,False,94_68007
+399,Venda do Alcaide,venda-do-alcaide,9468049,,38.60572832,-8.888240288,18.0,PT,Europe/Lisbon,False,False,False,94_68049
+400,Palmela,palmela,9468080,,38.5718791,-8.872821568,18.0,PT,Europe/Lisbon,False,False,False,94_68080
+401,Setubal,setubal,9468122,,38.53054468,-8.884972033,18.0,PT,Europe/Lisbon,False,False,False,94_68122
+402,Praca do Quebedo,praca-do-quebedo,9468130,,38.52493444,-8.88647322,18.0,PT,Europe/Lisbon,False,False,False,94_68130
+403,Cais do Sodre,cais-do-sodre,9469005,,38.70614229,-9.145373786,14.0,PT,Europe/Lisbon,False,False,False,94_69005
+404,Santos,santos,9469013,,38.70615507,-9.155312247,18.0,PT,Europe/Lisbon,False,False,False,94_69013
+405,Alcantara -  Mar,alcantara-mar,9469039,,38.70235141,-9.17402131,18.0,PT,Europe/Lisbon,False,False,False,94_69039
+406,Belem,belem,9469054,,38.69616782,-9.197622584,18.0,PT,Europe/Lisbon,False,False,False,94_69054
+407,Alges,alges,9469088,,38.69832982,-9.229453001,14.0,PT,Europe/Lisbon,False,False,False,94_69088
+408,Cruz Quebrada,cruz-quebrada,9469104,,38.69979769,-9.252196627,14.0,PT,Europe/Lisbon,False,False,False,94_69104
+409,Caxias,caxias,9469120,,38.69874435,-9.274388514,14.0,PT,Europe/Lisbon,False,False,False,94_69120
+410,Paco de Arcos,paco-de-arcos,9469146,,38.69710796,-9.290535587,14.0,PT,Europe/Lisbon,False,False,False,94_69146
+411,Santo Amaro,santo-amaro,9469161,,38.68690558,-9.312025239,14.0,PT,Europe/Lisbon,False,False,False,94_69161
+412,Oeiras,oeiras,9469179,,38.6885188,-9.319046859,14.0,PT,Europe/Lisbon,False,False,False,94_69179
+413,Carcavelos,carcavelos,9469187,,38.68782177,-9.337419198,14.0,PT,Europe/Lisbon,False,False,False,94_69187
+414,Parede,parede,9469203,,38.68973478,-9.356388966,14.0,PT,Europe/Lisbon,False,False,False,94_69203
+415,Sao Pedro do Estoril,sao-pedro-do-estoril,9469229,,38.69541017,-9.371882889,14.0,PT,Europe/Lisbon,False,False,False,94_69229
+416,Sao Joao do Estoril,sao-joao-do-estoril,9469237,,38.70129509,-9.386122441,14.0,PT,Europe/Lisbon,False,False,False,94_69237
+417,Estoril,estoril,9469245,,38.70323838,-9.398724194,14.0,PT,Europe/Lisbon,False,False,False,94_69245
+418,Monte Estoril,monte-estoril,9469252,,38.70357154,-9.406511881,14.0,PT,Europe/Lisbon,False,False,False,94_69252
+419,Cascais,cascais,9469260,,38.70079545,-9.41819051,14.0,PT,Europe/Lisbon,False,False,False,94_69260
+420,Poceirao,poceirao,9471001,,38.63441598,-8.743374988,18.0,PT,Europe/Lisbon,False,False,False,94_71001
+421,Fernando Po,fernando-po,9471050,,38.63640784,-8.691858796,17.0,PT,Europe/Lisbon,False,False,False,94_71050
+422,Pegoes,pegoes,9471126,,38.66228912,-8.619061162,8.0,PT,Europe/Lisbon,False,False,False,94_71126
+423,Sao Joao das Craveiras,sao-joao-das-craveiras,9471159,,38.6680242,-8.585700728,8.0,PT,Europe/Lisbon,False,False,False,94_71159
+424,Vendas Novas,vendas-novas,9472009,,38.67941774,-8.454401235,8.0,PT,Europe/Lisbon,False,False,False,94_72009
+425,Faro,faro,9473007,,37.02021,-7.9412003,10.0,PT,Europe/Lisbon,False,False,False,94_73007
+426,Bom Joao,bom-joao,9473031,,37.01399382,-7.921032734,10.0,PT,Europe/Lisbon,False,False,False,94_73031
+427,Olhao,olhao,9473106,,37.03033757,-7.839797506,10.0,PT,Europe/Lisbon,False,False,False,94_73106
+428,Fuseta-A,fuseta-a,9473197,,37.0535355,-7.749739338,10.0,PT,Europe/Lisbon,False,False,False,94_73197
+429,Fuseta,fuseta,9473205,,37.06037206,-7.751989452,10.0,PT,Europe/Lisbon,False,False,False,94_73205
+430,Livramento,livramento,9473239,,37.07372176,-7.731281683,10.0,PT,Europe/Lisbon,False,False,False,94_73239
+431,Luz,luz,9473262,,37.08885645,-7.699991761,10.0,PT,Europe/Lisbon,False,False,False,94_73262
+432,Tavira,tavira,9473320,,37.12097616,-7.655740933,10.0,PT,Europe/Lisbon,False,False,False,94_73320
+433,Porta Nova,porta-nova,9473338,,37.1331446,-7.648062253,10.0,PT,Europe/Lisbon,False,False,False,94_73338
+434,Conceicao,conceicao,9473379,,37.14435319,-7.605589347,10.0,PT,Europe/Lisbon,False,False,False,94_73379
+435,Cacela,cacela,9473452,,37.17638559,-7.538112559,10.0,PT,Europe/Lisbon,False,False,False,94_73452
+436,Castro Marim,castro-marim,9473502,,37.19677365,-7.483877672,10.0,PT,Europe/Lisbon,False,False,False,94_73502
+437,Monte Gordo,monte-gordo,9473544,,37.19006739,-7.448361211,10.0,PT,Europe/Lisbon,False,False,False,94_73544
+438,Vila Real de Santo Antonio,vila-real-de-santo-antonio,9473569,,37.19977913,-7.421434762,10.0,PT,Europe/Lisbon,False,False,False,94_73569
+439,Casa Branca,casa-branca,9474005,,38.49815701,-8.158242657,8.0,PT,Europe/Lisbon,False,False,False,94_74005
+440,Alcacovas,alcacovas,9474120,,38.40693213,-8.095506879,8.0,PT,Europe/Lisbon,False,False,False,94_74120
+441,Vila Nova da Baronia,vila-nova-da-baronia,9474278,,38.29380866,-8.035095637,8.0,PT,Europe/Lisbon,False,False,False,94_74278
+442,Alvito,alvito,9474351,,38.23271711,-8.000018212,2.0,PT,Europe/Lisbon,False,False,False,94_74351
+443,Cuba,cuba,9474476,,38.16312237,-7.894801531,2.0,PT,Europe/Lisbon,False,False,False,94_74476
+444,Beja,beja,9475002,,38.01836885,-7.858457032,2.0,PT,Europe/Lisbon,False,False,False,94_75002
+445,Funcheira,funcheira,9477008,,37.72718383,-8.33801876,2.0,PT,Europe/Lisbon,False,False,False,94_77008
+446,Amoreiras - Odemira,amoreiras-odemira,9477099,,37.68997342,-8.414384594,2.0,PT,Europe/Lisbon,False,False,False,94_77099
+447,Santa Clara - Saboia,santa-clara-saboia,9477388,,37.49583203,-8.481406871,2.0,PT,Europe/Lisbon,False,False,False,94_77388
+448,Messines - Alte,messines-alte,9477735,,37.25535852,-8.290538876,10.0,PT,Europe/Lisbon,False,False,False,94_77735
+449,Tunes,tunes,9478006,,37.16496931,-8.25640695,10.0,PT,Europe/Lisbon,False,False,False,94_78006
+450,Albufeira - Ferreiras,albufeira-ferreiras,9478063,,37.12874333,-8.233109604,10.0,PT,Europe/Lisbon,False,False,False,94_78063
+451,Boliqueime,boliqueime,9478147,,37.12274453,-8.15266638,10.0,PT,Europe/Lisbon,False,False,False,94_78147
+452,Loule,loule,9478238,,37.10436571,-8.058349141,10.0,PT,Europe/Lisbon,False,False,False,94_78238
+453,Almancil,almancil,9478253,,37.09522521,-8.023407196,10.0,PT,Europe/Lisbon,False,False,False,94_78253
+454,Parque das Cidades,parque-das-cidades,9478295,,37.08020001,-7.984857961,10.0,PT,Europe/Lisbon,False,False,False,94_78295
+455,Evora,evora,9483006,,38.56047441,-7.907218687,8.0,PT,Europe/Lisbon,False,False,False,94_83006
+456,Algoz,algoz,9490050,,37.16783113,-8.302920419,10.0,PT,Europe/Lisbon,False,False,False,94_90050
+457,Alcantarilha,alcantarilha,9490092,,37.16988788,-8.348648119,10.0,PT,Europe/Lisbon,False,False,False,94_90092
+458,Poco Barreto,poco-barreto,9490134,,37.16361195,-8.388783179,10.0,PT,Europe/Lisbon,False,False,False,94_90134
+459,Silves,silves,9490183,,37.17564638,-8.440488202,10.0,PT,Europe/Lisbon,False,False,False,94_90183
+460,Estombar - Lagoa,estombar-lagoa,9490241,,37.14342467,-8.485488419,10.0,PT,Europe/Lisbon,False,False,False,94_90241
+461,Ferragudo,ferragudo,9490274,,37.13877197,-8.519048102,10.0,PT,Europe/Lisbon,False,False,False,94_90274
+462,Portimao,portimao,9490290,,37.14465561,-8.537442432,10.0,PT,Europe/Lisbon,False,False,False,94_90290
+463,Mexilhoeira Grande,mexilhoeira-grande,9490381,,37.15415439,-8.609644443,10.0,PT,Europe/Lisbon,False,False,False,94_90381
+464,Meia Praia,meia-praia,9490431,,37.11860958,-8.647453865,10.0,PT,Europe/Lisbon,False,False,False,94_90431
+465,Lagos,lagos,9490464,,37.10852991,-8.671593269,10.0,PT,Europe/Lisbon,False,False,False,94_90464
+466,Praias do Sado-A,praias-do-sado-a,9491058,,38.51795617,-8.838120473,18.0,PT,Europe/Lisbon,False,False,False,94_91058
+467,Grandola,grandola,9492577,,38.18164376,-8.554592687,18.0,PT,Europe/Lisbon,False,False,False,94_92577
+468,Ermidas - Sado,ermidas-sado,9493005,,38.0027769,-8.413922912,18.0,PT,Europe/Lisbon,False,False,False,94_93005
+469,Barreiro,barreiro,9495000,,38.65248536,-9.079438371,18.0,PT,Europe/Lisbon,False,False,False,94_95000
+470,Barreiro-A,barreiro-a,9495026,,38.65976812,-9.071588362,18.0,PT,Europe/Lisbon,False,False,False,94_95026
+471,Lavradio,lavradio,9495042,,38.66182209,-9.058282417,18.0,PT,Europe/Lisbon,False,False,False,94_95042
+472,Baixa da Banheira,baixa-da-banheira,9495059,,38.65956434,-9.044295693,18.0,PT,Europe/Lisbon,False,False,False,94_95059
+473,Alhos Vedros,alhos-vedros,9495075,,38.65183875,-9.026695914,18.0,PT,Europe/Lisbon,False,False,False,94_95075
+474,Moita,moita,9495109,,38.64476453,-8.996018397,18.0,PT,Europe/Lisbon,False,False,False,94_95109
+475,Penteado,penteado,9495125,,38.63814272,-8.956170784,18.0,PT,Europe/Lisbon,False,False,False,94_95125
+476,Badajoz,badajoz,7137606,,38.890867,-6.981822,9.0,ES,Europe/Madrid,False,False,False,71_37606
