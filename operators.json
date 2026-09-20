@@ -103,7 +103,8 @@
     "id": "CP",
     "name": "CP - Comboios de Portugal",
     "enabled": true,
-    "gtfs_url": "https://publico.cp.pt/gtfs/gtfs.zip",
+    "gtfs_path": "./CP/cp_gtfs.zip",
+    "script_path": "./CP/ingest_cp.py",
     "transport_types": [
       "Alfa Pendular",
       "Intercidades",

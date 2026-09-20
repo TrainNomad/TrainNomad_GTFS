@@ -41,6 +41,10 @@ jobs:
         NR_PASSWORD: ${{ secrets.NR_PASSWORD }}
       run: python UK/ingest_uk_gtfs.py
 
+    # CP Portugal : télécharge et patche avec la liaison Elvas-Badajoz
+    - name: Télécharger et patcher le GTFS CP
+      run: python CP/ingest_cp.py
+
     - name: Compiler le réseau pour le moteur de routage (network.bin)
       run: |
         python build_network.py --refresh

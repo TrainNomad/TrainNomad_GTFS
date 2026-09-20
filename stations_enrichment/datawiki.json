@@ -1,0 +1,4372 @@
+{
+  "summary": {
+    "total_to_control": 277,
+    "perfect_matches": 228,
+    "missing_in_wikidata": 162,
+    "distance_threshold_meters": 500
+  },
+  "items_to_control": [
+    {
+      "local_id": "8674",
+      "local_name": "Pinhel",
+      "local_uic": "9448595",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8677",
+      "local_name": "Santa Comba Dão",
+      "local_uic": "9447001",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.39745,
+          "lon": -8.129727
+        }
+      }
+    },
+    {
+      "local_id": "8678",
+      "local_name": "Luso Buçaco",
+      "local_uic": "9446094",
+      "wikidata_id": "Q3014655",
+      "wikidata_name": "Apeadeiro de Luso - Buçaco",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 7.03,
+      "coordinates": {
+        "local": {
+          "lat": 40.390196,
+          "lon": -8.385011
+        },
+        "wikidata": {
+          "lat": 40.39023889,
+          "lon": -8.38495
+        }
+      }
+    },
+    {
+      "local_id": "8680",
+      "local_name": "Santarém",
+      "local_uic": "9432185",
+      "wikidata_id": "Q8841887",
+      "wikidata_name": "Estação Ferroviária de Santarém",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 6650.24,
+      "coordinates": {
+        "local": {
+          "lat": 39.298988,
+          "lon": -8.650815
+        },
+        "wikidata": {
+          "lat": 39.2422,
+          "lon": -8.67505
+        }
+      }
+    },
+    {
+      "local_id": "8683",
+      "local_name": "Ovar",
+      "local_uic": "9438299",
+      "wikidata_id": "Q8841397",
+      "wikidata_name": "Estação Ferroviária de Ovar",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 40.864,
+          "lon": -8.61668
+        }
+      }
+    },
+    {
+      "local_id": "8684",
+      "local_name": "Cerdeira",
+      "local_uic": "9494018",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8687",
+      "local_name": "Torre",
+      "local_uic": "9431822",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8688",
+      "local_name": "Marvão Beira",
+      "local_uic": "9458651",
+      "wikidata_id": "Q5391616",
+      "wikidata_name": "Estação Ferroviária de Marvão-Beirã",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 23.7,
+      "coordinates": {
+        "local": {
+          "lat": 39.449421,
+          "lon": -7.368359
+        },
+        "wikidata": {
+          "lat": 39.44947778,
+          "lon": -7.368625
+        }
+      }
+    },
+    {
+      "local_id": "8691",
+      "local_name": "Gaia",
+      "local_uic": "9439164",
+      "wikidata_id": "Q643642",
+      "wikidata_name": "Estação Ferroviária de Vila Nova de Gaia",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 41.1299,
+          "lon": -8.62036
+        }
+      }
+    },
+    {
+      "local_id": "8692",
+      "local_name": "Gouveia",
+      "local_uic": "9494006",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8694",
+      "local_name": "Marvão Beira",
+      "local_uic": "9494991",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8695",
+      "local_name": "Vila Nova de Gaia",
+      "local_uic": "9494029",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.129667,
+          "lon": -8.620188
+        }
+      }
+    },
+    {
+      "local_id": "8699",
+      "local_name": "Fundão",
+      "local_uic": "9453546",
+      "wikidata_id": "Q8779832",
+      "wikidata_name": "Estação Ferroviária de Fundão",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 547.2,
+      "coordinates": {
+        "local": {
+          "lat": 40.137963,
+          "lon": -7.501077
+        },
+        "wikidata": {
+          "lat": 40.14135556,
+          "lon": -7.49641389
+        }
+      }
+    },
+    {
+      "local_id": "8701",
+      "local_name": "Lisboa Terreiro do Paço",
+      "local_uic": "9498004",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8702",
+      "local_name": "Portimão",
+      "local_uic": "9490290",
+      "wikidata_id": "Q551537",
+      "wikidata_name": "Estação Ferroviária de Portimão",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 671.98,
+      "coordinates": {
+        "local": {
+          "lat": 37.13856,
+          "lon": -8.53775
+        },
+        "wikidata": {
+          "lat": 37.1446,
+          "lon": -8.5375
+        }
+      }
+    },
+    {
+      "local_id": "8703",
+      "local_name": "Vila Real de San António Guad",
+      "local_uic": "9478964",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.19979,
+          "lon": -7.421566
+        }
+      }
+    },
+    {
+      "local_id": "8704",
+      "local_name": "Beja",
+      "local_uic": "9475002",
+      "wikidata_id": "Q8779370",
+      "wikidata_name": "Estação Ferroviária de Beja",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 956.94,
+      "coordinates": {
+        "local": {
+          "lat": 38.009623,
+          "lon": -7.858997
+        },
+        "wikidata": {
+          "lat": 38.01820556,
+          "lon": -7.85819167
+        }
+      }
+    },
+    {
+      "local_id": "8706",
+      "local_name": "Valença",
+      "local_uic": "9414060",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8707",
+      "local_name": "Celorico da Beira",
+      "local_uic": "9448405",
+      "wikidata_id": "Q8779558",
+      "wikidata_name": "Estação Ferroviária de Celorico da Beira",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 3632.01,
+      "coordinates": {
+        "local": {
+          "lat": 40.633501,
+          "lon": -7.392722
+        },
+        "wikidata": {
+          "lat": 40.66524167,
+          "lon": -7.38256111
+        }
+      }
+    },
+    {
+      "local_id": "8711",
+      "local_name": "Coimbra",
+      "local_uic": "9441020",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.210556,
+          "lon": -8.434075
+        }
+      }
+    },
+    {
+      "local_id": "8713",
+      "local_name": "Cacem",
+      "local_uic": "9461002",
+      "wikidata_id": "Q248226",
+      "wikidata_name": "Estação Ferroviária de Agualva-Cacém",
+      "issues": [
+        "missing_coordinates",
+        "name_mismatch"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 38.766528,
+          "lon": -9.298478
+        }
+      }
+    },
+    {
+      "local_id": "8716",
+      "local_name": "Entroncamento",
+      "local_uic": "9433001",
+      "wikidata_id": "Q8779323",
+      "wikidata_name": "Estação Ferroviária da Azambuja",
+      "issues": [
+        "distance_exceeds_500m",
+        "name_mismatch"
+      ],
+      "distance_meters": 55308.16,
+      "coordinates": {
+        "local": {
+          "lat": 39.461665,
+          "lon": -8.473888
+        },
+        "wikidata": {
+          "lat": 39.0682,
+          "lon": -8.86691
+        }
+      }
+    },
+    {
+      "local_id": "8717",
+      "local_name": "Estarreja",
+      "local_uic": "9438158",
+      "wikidata_id": "Q8779744",
+      "wikidata_name": "Estação Ferroviária de Estarreja",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 40.7512,
+          "lon": -8.57547
+        }
+      }
+    },
+    {
+      "local_id": "8719",
+      "local_name": "Fátima",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 0.0,
+          "lon": 0.0
+        }
+      }
+    },
+    {
+      "local_id": "8721",
+      "local_name": "Lisboa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.71387,
+          "lon": -9.122271
+        }
+      }
+    },
+    {
+      "local_id": "8722",
+      "local_name": "Lisboa Oriente",
+      "local_uic": "9431039",
+      "wikidata_id": "Q801115",
+      "wikidata_name": "Gare do Oriente",
+      "issues": [
+        "distance_exceeds_500m",
+        "name_mismatch"
+      ],
+      "distance_meters": 6330.5,
+      "coordinates": {
+        "local": {
+          "lat": 38.71387,
+          "lon": -9.122271
+        },
+        "wikidata": {
+          "lat": 38.767839,
+          "lon": -9.099032
+        }
+      }
+    },
+    {
+      "local_id": "8724",
+      "local_name": "Pocinho",
+      "local_uic": "9412005",
+      "wikidata_id": "Q8841498",
+      "wikidata_name": "Estação Ferroviária do Pocinho",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 41.1308,
+          "lon": -7.12262
+        }
+      }
+    },
+    {
+      "local_id": "8726",
+      "local_name": "Tua",
+      "local_uic": "9411007",
+      "wikidata_id": "Q5242521",
+      "wikidata_name": "Estação Ferroviária do Tua",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 41.2072,
+          "lon": -7.4193
+        }
+      }
+    },
+    {
+      "local_id": "8727",
+      "local_name": "Tunes",
+      "local_uic": "9478006",
+      "wikidata_id": "Q8842098",
+      "wikidata_name": "Estação Ferroviária de Tunes",
+      "issues": [
+        "missing_coordinates"
+      ],
+      "distance_meters": null,
+      "coordinates": {
+        "local": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "wikidata": {
+          "lat": 37.165,
+          "lon": -8.25648
+        }
+      }
+    },
+    {
+      "local_id": "8728",
+      "local_name": "Torres Vedras",
+      "local_uic": "9462471",
+      "wikidata_id": "Q8842080",
+      "wikidata_name": "Estação Ferroviária de Torres Vedras",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 1015.78,
+      "coordinates": {
+        "local": {
+          "lat": 39.092739,
+          "lon": -9.265706
+        },
+        "wikidata": {
+          "lat": 39.09245278,
+          "lon": -9.25394167
+        }
+      }
+    },
+    {
+      "local_id": "8729",
+      "local_name": "Vilar Formoso",
+      "local_uic": "9445460",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.606144,
+          "lon": -6.82915
+        }
+      }
+    },
+    {
+      "local_id": "26690",
+      "local_name": "Coimbra-B",
+      "local_uic": "9436004",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.224733,
+          "lon": -8.440337
+        }
+      }
+    },
+    {
+      "local_id": "28603",
+      "local_name": "Estoril",
+      "local_uic": "9469211",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.703245,
+          "lon": -9.398428
+        }
+      }
+    },
+    {
+      "local_id": "28609",
+      "local_name": "Viana do Castelo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.695268,
+          "lon": -8.831371
+        }
+      }
+    },
+    {
+      "local_id": "29278",
+      "local_name": "Porto",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.1494,
+          "lon": -8.6108
+        }
+      }
+    },
+    {
+      "local_id": "32189",
+      "local_name": "Albergaria-a-Velha",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.689424,
+          "lon": -8.479666
+        }
+      }
+    },
+    {
+      "local_id": "32190",
+      "local_name": "Amarante",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.269636,
+          "lon": -8.082649
+        }
+      }
+    },
+    {
+      "local_id": "32194",
+      "local_name": "Bragança",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.806113,
+          "lon": -6.756738
+        }
+      }
+    },
+    {
+      "local_id": "32198",
+      "local_name": "Chaves",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.740292,
+          "lon": -7.465813
+        }
+      }
+    },
+    {
+      "local_id": "32203",
+      "local_name": "Esposende",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.530917,
+          "lon": -8.780565
+        }
+      }
+    },
+    {
+      "local_id": "32204",
+      "local_name": "Fafe",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.451258,
+          "lon": -8.170884
+        }
+      }
+    },
+    {
+      "local_id": "32205",
+      "local_name": "Felgueiras",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.36641,
+          "lon": -8.197197
+        }
+      }
+    },
+    {
+      "local_id": "32206",
+      "local_name": "Fornos de Algodres",
+      "local_uic": "9448249",
+      "wikidata_id": "Q2891180",
+      "wikidata_name": "Estação Ferroviária de Fornos de Algodres",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 1513.91,
+      "coordinates": {
+        "local": {
+          "lat": 40.620196,
+          "lon": -7.539551
+        },
+        "wikidata": {
+          "lat": 40.61038611,
+          "lon": -7.52711389
+        }
+      }
+    },
+    {
+      "local_id": "32208",
+      "local_name": "Grândola",
+      "local_uic": "9492577",
+      "wikidata_id": "Q8779870",
+      "wikidata_name": "Estação Ferroviária de Grândola",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 1196.19,
+      "coordinates": {
+        "local": {
+          "lat": 38.176256,
+          "lon": -8.566297
+        },
+        "wikidata": {
+          "lat": 38.18181111,
+          "lon": -8.55457778
+        }
+      }
+    },
+    {
+      "local_id": "32209",
+      "local_name": "Guimarães",
+      "local_uic": "9424000",
+      "wikidata_id": "Q8779877",
+      "wikidata_name": "Estação Ferroviária de Guimarães",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 849.83,
+      "coordinates": {
+        "local": {
+          "lat": 41.44253,
+          "lon": -8.291786
+        },
+        "wikidata": {
+          "lat": 41.43529167,
+          "lon": -8.29505833
+        }
+      }
+    },
+    {
+      "local_id": "32215",
+      "local_name": "Lixa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.321068,
+          "lon": -8.14167
+        }
+      }
+    },
+    {
+      "local_id": "32217",
+      "local_name": "Lourosa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.988188,
+          "lon": -8.545053
+        }
+      }
+    },
+    {
+      "local_id": "32218",
+      "local_name": "Macedo de Cavaleiros",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.515352,
+          "lon": -6.877993
+        }
+      }
+    },
+    {
+      "local_id": "32220",
+      "local_name": "Mirandela",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.485353,
+          "lon": -7.180911
+        }
+      }
+    },
+    {
+      "local_id": "32222",
+      "local_name": "Moita da Serra",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.278976,
+          "lon": -8.091606
+        }
+      }
+    },
+    {
+      "local_id": "32223",
+      "local_name": "Mortágua",
+      "local_uic": "9446243",
+      "wikidata_id": "Q8841102",
+      "wikidata_name": "Estação Ferroviária de Mortágua",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 993.4,
+      "coordinates": {
+        "local": {
+          "lat": 40.396854,
+          "lon": -8.232506
+        },
+        "wikidata": {
+          "lat": 40.39086111,
+          "lon": -8.24120556
+        }
+      }
+    },
+    {
+      "local_id": "32224",
+      "local_name": "Murça",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.410051,
+          "lon": -7.448953
+        }
+      }
+    },
+    {
+      "local_id": "32228",
+      "local_name": "Oliveira do Hospital",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.360861,
+          "lon": -7.862203
+        }
+      }
+    },
+    {
+      "local_id": "32229",
+      "local_name": "Pedras Salgadas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.541726,
+          "lon": -7.590814
+        }
+      }
+    },
+    {
+      "local_id": "32230",
+      "local_name": "Penafiel Estacao",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.20291,
+          "lon": -8.287636
+        }
+      }
+    },
+    {
+      "local_id": "32236",
+      "local_name": "Ribeira de Pena",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.519901,
+          "lon": -7.793851
+        }
+      }
+    },
+    {
+      "local_id": "32242",
+      "local_name": "Seia",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.414862,
+          "lon": -7.707845
+        }
+      }
+    },
+    {
+      "local_id": "32249",
+      "local_name": "Taipas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.486709,
+          "lon": -8.342394
+        }
+      }
+    },
+    {
+      "local_id": "32250",
+      "local_name": "Tavira",
+      "local_uic": "9473320",
+      "wikidata_id": "Q552206",
+      "wikidata_name": "Estação Ferroviária de Tavira",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 1807.41,
+      "coordinates": {
+        "local": {
+          "lat": 37.133591,
+          "lon": -7.643002
+        },
+        "wikidata": {
+          "lat": 37.1209,
+          "lon": -7.65574
+        }
+      }
+    },
+    {
+      "local_id": "32252",
+      "local_name": "Tondela",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.516839,
+          "lon": -8.080047
+        }
+      }
+    },
+    {
+      "local_id": "32254",
+      "local_name": "Vagos",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.55504,
+          "lon": -8.684011
+        }
+      }
+    },
+    {
+      "local_id": "32257",
+      "local_name": "Vila Pouca de Aguiar",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.500239,
+          "lon": -7.643232
+        }
+      }
+    },
+    {
+      "local_id": "32258",
+      "local_name": "Vila Real",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.301035,
+          "lon": -7.742235
+        }
+      }
+    },
+    {
+      "local_id": "32259",
+      "local_name": "Viseu",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.656586,
+          "lon": -7.912471
+        }
+      }
+    },
+    {
+      "local_id": "32268",
+      "local_name": "Ginjal (Belmonte)",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.36623,
+          "lon": -7.35269
+        }
+      }
+    },
+    {
+      "local_id": "32277",
+      "local_name": "Ourém",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.656497,
+          "lon": -8.577341
+        }
+      }
+    },
+    {
+      "local_id": "32282",
+      "local_name": "Ílhavo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.602309,
+          "lon": -8.672371
+        }
+      }
+    },
+    {
+      "local_id": "32478",
+      "local_name": "Alcobaça",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.55223,
+          "lon": -8.9775
+        }
+      }
+    },
+    {
+      "local_id": "32479",
+      "local_name": "Aldeia da Ponte",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.413606,
+          "lon": -6.869541
+        }
+      }
+    },
+    {
+      "local_id": "32480",
+      "local_name": "Alfaiates",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.391228,
+          "lon": -6.913496
+        }
+      }
+    },
+    {
+      "local_id": "32481",
+      "local_name": "Arco de Baúlhe",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.48527,
+          "lon": -7.96082
+        }
+      }
+    },
+    {
+      "local_id": "32482",
+      "local_name": "Arcos de Valdevez",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.84668,
+          "lon": -8.41905
+        }
+      }
+    },
+    {
+      "local_id": "32484",
+      "local_name": "Boticas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.68987,
+          "lon": -7.66594
+        }
+      }
+    },
+    {
+      "local_id": "32485",
+      "local_name": "Cacarelhos",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.55827,
+          "lon": -6.43337
+        }
+      }
+    },
+    {
+      "local_id": "32487",
+      "local_name": "Carcão",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.591923,
+          "lon": -6.587992
+        }
+      }
+    },
+    {
+      "local_id": "32488",
+      "local_name": "Carrazeda de Ansiães",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.242454,
+          "lon": -7.307815
+        }
+      }
+    },
+    {
+      "local_id": "32489",
+      "local_name": "Castro Verde",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.69828,
+          "lon": -8.08581
+        }
+      }
+    },
+    {
+      "local_id": "32490",
+      "local_name": "Cerdeirinhas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.342269,
+          "lon": -8.028318
+        }
+      }
+    },
+    {
+      "local_id": "32491",
+      "local_name": "Coelhoso",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.65351,
+          "lon": -6.66657
+        }
+      }
+    },
+    {
+      "local_id": "32492",
+      "local_name": "Estremoz",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.84432,
+          "lon": -7.58585
+        }
+      }
+    },
+    {
+      "local_id": "32493",
+      "local_name": "Evora",
+      "local_uic": "9483006",
+      "wikidata_id": "Q8845277",
+      "wikidata_name": "Estação Ferroviária de Évora",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 6.72,
+      "coordinates": {
+        "local": {
+          "lat": 38.56041,
+          "lon": -7.9071
+        },
+        "wikidata": {
+          "lat": 38.56046944,
+          "lon": -7.90711389
+        }
+      }
+    },
+    {
+      "local_id": "32494",
+      "local_name": "Freixo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.16705,
+          "lon": -8.14467
+        }
+      }
+    },
+    {
+      "local_id": "32495",
+      "local_name": "Freixo de Espada À Cinta",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.092918,
+          "lon": -6.809799
+        }
+      }
+    },
+    {
+      "local_id": "32496",
+      "local_name": "Izeda",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.5683,
+          "lon": -6.72017
+        }
+      }
+    },
+    {
+      "local_id": "32497",
+      "local_name": "Loulé",
+      "local_uic": "9478238",
+      "wikidata_id": "Q8840978",
+      "wikidata_name": "Estação Ferroviária de Loulé",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 5048.0,
+      "coordinates": {
+        "local": {
+          "lat": 37.13772,
+          "lon": -8.01968
+        },
+        "wikidata": {
+          "lat": 37.1044,
+          "lon": -8.05835
+        }
+      }
+    },
+    {
+      "local_id": "32498",
+      "local_name": "Miranda do Douro",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.499541,
+          "lon": -6.271231
+        }
+      }
+    },
+    {
+      "local_id": "32499",
+      "local_name": "Mogadouro",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.34034,
+          "lon": -6.71187
+        }
+      }
+    },
+    {
+      "local_id": "32500",
+      "local_name": "Moimenta da Beira",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.98383,
+          "lon": -7.61765
+        }
+      }
+    },
+    {
+      "local_id": "32501",
+      "local_name": "Monsanto",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.038875,
+          "lon": -7.115065
+        }
+      }
+    },
+    {
+      "local_id": "32502",
+      "local_name": "Montalegre",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.82357,
+          "lon": -7.78971
+        }
+      }
+    },
+    {
+      "local_id": "32503",
+      "local_name": "Montemor-o-Novo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.647283,
+          "lon": -8.212289
+        }
+      }
+    },
+    {
+      "local_id": "32504",
+      "local_name": "Moura",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.1401,
+          "lon": -7.44856
+        }
+      }
+    },
+    {
+      "local_id": "32505",
+      "local_name": "Nisa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.51667,
+          "lon": -7.65
+        }
+      }
+    },
+    {
+      "local_id": "32507",
+      "local_name": "Paradinha",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.00772,
+          "lon": -7.60602
+        }
+      }
+    },
+    {
+      "local_id": "32508",
+      "local_name": "Paredes de Coura",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.91012,
+          "lon": -8.56094
+        }
+      }
+    },
+    {
+      "local_id": "32509",
+      "local_name": "Ponte da Barca",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.80451,
+          "lon": -8.41554
+        }
+      }
+    },
+    {
+      "local_id": "32510",
+      "local_name": "Ponte do Lima",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.76719,
+          "lon": -8.58393
+        }
+      }
+    },
+    {
+      "local_id": "32511",
+      "local_name": "Portalegre",
+      "local_uic": "9457000",
+      "wikidata_id": "Q5637438",
+      "wikidata_name": "Estação Ferroviária de Portalegre",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 10849.45,
+      "coordinates": {
+        "local": {
+          "lat": 39.29379,
+          "lon": -7.43122
+        },
+        "wikidata": {
+          "lat": 39.198996,
+          "lon": -7.461067
+        }
+      }
+    },
+    {
+      "local_id": "32512",
+      "local_name": "Povoa de Varzim",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.380369,
+          "lon": -8.760929
+        }
+      }
+    },
+    {
+      "local_id": "32513",
+      "local_name": "Póvoa do Lanhoso",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.576378,
+          "lon": -8.270294
+        }
+      }
+    },
+    {
+      "local_id": "32514",
+      "local_name": "Quintanilha",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.75006,
+          "lon": -6.57069
+        }
+      }
+    },
+    {
+      "local_id": "32515",
+      "local_name": "Sabugal",
+      "local_uic": "9454429",
+      "wikidata_id": "Q3179292",
+      "wikidata_name": "Apeadeiro de Sabugal",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 21777.85,
+      "coordinates": {
+        "local": {
+          "lat": 40.35127,
+          "lon": -7.09104
+        },
+        "wikidata": {
+          "lat": 40.51156667,
+          "lon": -7.23887778
+        }
+      }
+    },
+    {
+      "local_id": "32516",
+      "local_name": "Santulhão",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.563973,
+          "lon": -6.622969
+        }
+      }
+    },
+    {
+      "local_id": "32517",
+      "local_name": "São Bartolomeu de Messines",
+      "local_uic": "9477735",
+      "wikidata_id": "Q8841049",
+      "wikidata_name": "Estação Ferroviária de Messines-Alte",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 471.38,
+      "coordinates": {
+        "local": {
+          "lat": 37.256884,
+          "lon": -8.286219
+        },
+        "wikidata": {
+          "lat": 37.25570833,
+          "lon": -8.29133611
+        }
+      }
+    },
+    {
+      "local_id": "32518",
+      "local_name": "Serpa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.94581,
+          "lon": -7.59754
+        }
+      }
+    },
+    {
+      "local_id": "32519",
+      "local_name": "Torre de Moncorvo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.174216,
+          "lon": -7.053441
+        }
+      }
+    },
+    {
+      "local_id": "32520",
+      "local_name": "Trancoso",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.78329,
+          "lon": -7.35016
+        }
+      }
+    },
+    {
+      "local_id": "32521",
+      "local_name": "Valpaços",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.608716,
+          "lon": -7.310906
+        }
+      }
+    },
+    {
+      "local_id": "32522",
+      "local_name": "Venda Nova",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.755335,
+          "lon": -9.22026
+        }
+      }
+    },
+    {
+      "local_id": "32523",
+      "local_name": "Vidago",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.64013,
+          "lon": -7.57175
+        }
+      }
+    },
+    {
+      "local_id": "32524",
+      "local_name": "Vidigueira",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.20995,
+          "lon": -7.8005
+        }
+      }
+    },
+    {
+      "local_id": "32525",
+      "local_name": "Vieira do Minho",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.63292,
+          "lon": -8.14252
+        }
+      }
+    },
+    {
+      "local_id": "32526",
+      "local_name": "Vila da Ponte",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.91868,
+          "lon": -7.50999
+        }
+      }
+    },
+    {
+      "local_id": "32527",
+      "local_name": "Vila Flor",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.308281,
+          "lon": -7.153468
+        }
+      }
+    },
+    {
+      "local_id": "32528",
+      "local_name": "Vila Nova da Cerveira",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.94118,
+          "lon": -8.7423
+        }
+      }
+    },
+    {
+      "local_id": "32529",
+      "local_name": "Vila Pouca",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.654452,
+          "lon": -8.378462
+        }
+      }
+    },
+    {
+      "local_id": "32530",
+      "local_name": "Vila Praia de Âncora",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.81098,
+          "lon": -8.85255
+        }
+      }
+    },
+    {
+      "local_id": "32531",
+      "local_name": "Vimioso",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.58473,
+          "lon": -6.52767
+        }
+      }
+    },
+    {
+      "local_id": "32605",
+      "local_name": "Anadia",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.43841,
+          "lon": -8.43352
+        }
+      }
+    },
+    {
+      "local_id": "32606",
+      "local_name": "Duas Igrejas (Miranda do Douro)",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.473525,
+          "lon": -6.35627
+        }
+      }
+    },
+    {
+      "local_id": "32607",
+      "local_name": "Ferreiras",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.127099,
+          "lon": -8.243918
+        }
+      }
+    },
+    {
+      "local_id": "32608",
+      "local_name": "Lagoa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.135663,
+          "lon": -8.451723
+        }
+      }
+    },
+    {
+      "local_id": "32609",
+      "local_name": "Lamego",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.09741,
+          "lon": -7.80991
+        }
+      }
+    },
+    {
+      "local_id": "32611",
+      "local_name": "Melgaço",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 42.11337,
+          "lon": -8.26016
+        }
+      }
+    },
+    {
+      "local_id": "32612",
+      "local_name": "Monção",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 42.077186,
+          "lon": -8.481944
+        }
+      }
+    },
+    {
+      "local_id": "32613",
+      "local_name": "Nave",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.396471,
+          "lon": -6.976019
+        }
+      }
+    },
+    {
+      "local_id": "32614",
+      "local_name": "Rio Tinto",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.181106,
+          "lon": -8.565452
+        }
+      }
+    },
+    {
+      "local_id": "32615",
+      "local_name": "Santana (Serpa)",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.965507,
+          "lon": -7.628828
+        }
+      }
+    },
+    {
+      "local_id": "32616",
+      "local_name": "Sendim",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.38567,
+          "lon": -8.18401
+        }
+      }
+    },
+    {
+      "local_id": "32617",
+      "local_name": "Torres Novas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.48114,
+          "lon": -8.53949
+        }
+      }
+    },
+    {
+      "local_id": "32618",
+      "local_name": "Vila Cova de Lixa",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.323803,
+          "lon": -8.146659
+        }
+      }
+    },
+    {
+      "local_id": "33339",
+      "local_name": "Funchal",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 32.647436,
+          "lon": -16.920004
+        }
+      }
+    },
+    {
+      "local_id": "33341",
+      "local_name": "Aeroporto de Lisboa Humberto Delgado",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.769328,
+          "lon": -9.12851
+        }
+      }
+    },
+    {
+      "local_id": "33345",
+      "local_name": "Porto Airport",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.233909,
+          "lon": -8.670216
+        }
+      }
+    },
+    {
+      "local_id": "33346",
+      "local_name": "Funchal Madeira Airport",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 32.693171,
+          "lon": -16.775314
+        }
+      }
+    },
+    {
+      "local_id": "35304",
+      "local_name": "Santa Maria da Feira",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.925623,
+          "lon": -8.560714
+        }
+      }
+    },
+    {
+      "local_id": "35739",
+      "local_name": "Faro Airport",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 37.017596,
+          "lon": -7.96972
+        }
+      }
+    },
+    {
+      "local_id": "37608",
+      "local_name": "Arcozelo",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.535139,
+          "lon": -8.606698
+        }
+      }
+    },
+    {
+      "local_id": "37610",
+      "local_name": "Malhadas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.54473,
+          "lon": -6.328016
+        }
+      }
+    },
+    {
+      "local_id": "38038",
+      "local_name": "Santana (Figueira da Foz)",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.199216,
+          "lon": -8.720588
+        }
+      }
+    },
+    {
+      "local_id": "38102",
+      "local_name": "Belmonte",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.35985,
+          "lon": -7.348179
+        }
+      }
+    },
+    {
+      "local_id": "38103",
+      "local_name": "Duas Igrejas (Paredes)",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.240404,
+          "lon": -8.376021
+        }
+      }
+    },
+    {
+      "local_id": "38172",
+      "local_name": "Almada",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 38.676524,
+          "lon": -9.165105
+        }
+      }
+    },
+    {
+      "local_id": "38541",
+      "local_name": "Porto Sao Bento",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.145564,
+          "lon": -8.610321
+        }
+      }
+    },
+    {
+      "local_id": "67655",
+      "local_name": "Vinhais",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.830313,
+          "lon": -7.011163
+        }
+      }
+    },
+    {
+      "local_id": "67656",
+      "local_name": "Rossas",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.664816,
+          "lon": -6.829615
+        }
+      }
+    },
+    {
+      "local_id": "67967",
+      "local_name": "Luzern Bahnhofquai",
+      "local_uic": "",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 47.051329,
+          "lon": 8.310221
+        }
+      }
+    },
+    {
+      "local_id": "76005",
+      "local_name": "Ferrao",
+      "local_uic": "9410165",
+      "wikidata_id": "Q13534596",
+      "wikidata_name": "Apeadeiro de Ferrão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 2.36,
+      "coordinates": {
+        "local": {
+          "lat": 41.161898,
+          "lon": -7.611258
+        },
+        "wikidata": {
+          "lat": 41.16190278,
+          "lon": -7.61123056
+        }
+      }
+    },
+    {
+      "local_id": "76006",
+      "local_name": "Pinhao",
+      "local_uic": "9410249",
+      "wikidata_id": "Q526091",
+      "wikidata_name": "Estação Ferroviária do Pinhão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.71,
+      "coordinates": {
+        "local": {
+          "lat": 41.190382,
+          "lon": -7.545174
+        },
+        "wikidata": {
+          "lat": 41.190411,
+          "lon": -7.545133
+        }
+      }
+    },
+    {
+      "local_id": "76010",
+      "local_name": "Vesuvio",
+      "local_uic": "9411197",
+      "wikidata_id": "Q14494674",
+      "wikidata_name": "Apeadeiro de Vesúvio",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 33.78,
+      "coordinates": {
+        "local": {
+          "lat": 41.14134,
+          "lon": -7.26171
+        },
+        "wikidata": {
+          "lat": 41.14115833,
+          "lon": -7.26203333
+        }
+      }
+    },
+    {
+      "local_id": "76011",
+      "local_name": "Freixo de Numao - Mos do Douro",
+      "local_uic": "9411247",
+      "wikidata_id": "Q76957453",
+      "wikidata_name": "Estação Ferroviária de Freixo de Numão - Mós do Douro",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 64.89,
+      "coordinates": {
+        "local": {
+          "lat": 41.134649,
+          "lon": -7.211401
+        },
+        "wikidata": {
+          "lat": 41.134896,
+          "lon": -7.210699
+        }
+      }
+    },
+    {
+      "local_id": "76014",
+      "local_name": "Carreco",
+      "local_uic": "9418085",
+      "wikidata_id": "Q16492791",
+      "wikidata_name": "Apeadeiro de Carreço",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 9.79,
+      "coordinates": {
+        "local": {
+          "lat": 41.750416,
+          "lon": -8.863333
+        },
+        "wikidata": {
+          "lat": 41.75035833,
+          "lon": -8.86342222
+        }
+      }
+    },
+    {
+      "local_id": "76016",
+      "local_name": "Ancora-Praia",
+      "local_uic": "9418150",
+      "wikidata_id": "Q16490171",
+      "wikidata_name": "Apeadeiro de Âncora-Praia",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 23.62,
+      "coordinates": {
+        "local": {
+          "lat": 41.813241,
+          "lon": -8.86265
+        },
+        "wikidata": {
+          "lat": 41.81305556,
+          "lon": -8.86251111
+        }
+      }
+    },
+    {
+      "local_id": "76021",
+      "local_name": "Gondarem",
+      "local_uic": "9418325",
+      "wikidata_id": "Q18482925",
+      "wikidata_name": "Apeadeiro de Gondarém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.84,
+      "coordinates": {
+        "local": {
+          "lat": 41.920044,
+          "lon": -8.763017
+        },
+        "wikidata": {
+          "lat": 41.92005,
+          "lon": -8.763075
+        }
+      }
+    },
+    {
+      "local_id": "76024",
+      "local_name": "Sao Pedro da Torre",
+      "local_uic": "9418440",
+      "wikidata_id": "Q8842002",
+      "wikidata_name": "Estação Ferroviária de São Pedro da Torre",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.02,
+      "coordinates": {
+        "local": {
+          "lat": 41.993633,
+          "lon": -8.666371
+        },
+        "wikidata": {
+          "lat": 41.9937,
+          "lon": -8.66629
+        }
+      }
+    },
+    {
+      "local_id": "76025",
+      "local_name": "Sao Gemil",
+      "local_uic": "9421006",
+      "wikidata_id": "Q576130",
+      "wikidata_name": "Estação Ferroviária de São Gemil",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 0.61,
+      "coordinates": {
+        "local": {
+          "lat": 41.197196,
+          "lon": -8.579095
+        },
+        "wikidata": {
+          "lat": 41.1972,
+          "lon": -8.5791
+        }
+      }
+    },
+    {
+      "local_id": "76026",
+      "local_name": "Hospital Sao Joao",
+      "local_uic": "9421030",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.18514,
+          "lon": -8.59788
+        }
+      }
+    },
+    {
+      "local_id": "76027",
+      "local_name": "Sao Mamede de Infesta",
+      "local_uic": "9421048",
+      "wikidata_id": "Q576134",
+      "wikidata_name": "Estação Ferroviária de São Mamede de Infesta",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.92,
+      "coordinates": {
+        "local": {
+          "lat": 41.190312,
+          "lon": -8.613358
+        },
+        "wikidata": {
+          "lat": 41.1904,
+          "lon": -8.6133
+        }
+      }
+    },
+    {
+      "local_id": "76028",
+      "local_name": "Arroteia",
+      "local_uic": "9421055",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.19668,
+          "lon": -8.63048
+        }
+      }
+    },
+    {
+      "local_id": "76029",
+      "local_name": "Leca do Balio",
+      "local_uic": "9421071",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.208423,
+          "lon": -8.629551
+        }
+      }
+    },
+    {
+      "local_id": "76031",
+      "local_name": "Canicos",
+      "local_uic": "9428100",
+      "wikidata_id": "Q8779490",
+      "wikidata_name": "Estação Ferroviária de Caniços",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 31.91,
+      "coordinates": {
+        "local": {
+          "lat": 41.363673,
+          "lon": -8.437665
+        },
+        "wikidata": {
+          "lat": 41.3635,
+          "lon": -8.43797
+        }
+      }
+    },
+    {
+      "local_id": "76033",
+      "local_name": "Giesteira",
+      "local_uic": "9428159",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.364541,
+          "lon": -8.388889
+        }
+      }
+    },
+    {
+      "local_id": "76036",
+      "local_name": "Pereirinhas",
+      "local_uic": "9428217",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.37741,
+          "lon": -8.324125
+        }
+      }
+    },
+    {
+      "local_id": "76039",
+      "local_name": "Covas",
+      "local_uic": "9428290",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 41.421492,
+          "lon": -8.300891
+        }
+      }
+    },
+    {
+      "local_id": "76045",
+      "local_name": "Mazagao",
+      "local_uic": "9429116",
+      "wikidata_id": "Q13534640",
+      "wikidata_name": "Apeadeiro de Mazagão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 55.76,
+      "coordinates": {
+        "local": {
+          "lat": 41.526913,
+          "lon": -8.458347
+        },
+        "wikidata": {
+          "lat": 41.52699444,
+          "lon": -8.45768611
+        }
+      }
+    },
+    {
+      "local_id": "76047",
+      "local_name": "Braco de Prata",
+      "local_uic": "9431005",
+      "wikidata_id": "Q253357",
+      "wikidata_name": "Estação Ferroviária de Braço de Prata",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 16.21,
+      "coordinates": {
+        "local": {
+          "lat": 38.746784,
+          "lon": -9.10296
+        },
+        "wikidata": {
+          "lat": 38.746653,
+          "lon": -9.103042
+        }
+      }
+    },
+    {
+      "local_id": "76049",
+      "local_name": "Sacavem",
+      "local_uic": "9431062",
+      "wikidata_id": "Q8841670",
+      "wikidata_name": "Estação Ferroviária de Sacavém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 82.23,
+      "coordinates": {
+        "local": {
+          "lat": 38.79518,
+          "lon": -9.09975
+        },
+        "wikidata": {
+          "lat": 38.795919,
+          "lon": -9.099714
+        }
+      }
+    },
+    {
+      "local_id": "76052",
+      "local_name": "Povoa",
+      "local_uic": "9431146",
+      "wikidata_id": "Q10275760",
+      "wikidata_name": "Estação Ferroviária da Póvoa",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 61.89,
+      "coordinates": {
+        "local": {
+          "lat": 38.859562,
+          "lon": -9.063787
+        },
+        "wikidata": {
+          "lat": 38.8592,
+          "lon": -9.06433
+        }
+      }
+    },
+    {
+      "local_id": "76061",
+      "local_name": "Santana - Cartaxo",
+      "local_uic": "9432045",
+      "wikidata_id": "Q10275792",
+      "wikidata_name": "Estação Ferroviária de Santana-Cartaxo",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 40.3,
+      "coordinates": {
+        "local": {
+          "lat": 39.144521,
+          "lon": -8.758941
+        },
+        "wikidata": {
+          "lat": 39.14416111,
+          "lon": -8.75888611
+        }
+      }
+    },
+    {
+      "local_id": "76062",
+      "local_name": "Vale de Santarem",
+      "local_uic": "9432102",
+      "wikidata_id": "Q8842151",
+      "wikidata_name": "Estação Ferroviária de Vale de Santarém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.43,
+      "coordinates": {
+        "local": {
+          "lat": 39.188423,
+          "lon": -8.723847
+        },
+        "wikidata": {
+          "lat": 39.18839444,
+          "lon": -8.72381111
+        }
+      }
+    },
+    {
+      "local_id": "76065",
+      "local_name": "Riachos - Torres Novas - Golega",
+      "local_uic": "9432466",
+      "wikidata_id": "Q8841603",
+      "wikidata_name": "Estação Ferroviária de Riachos-Torres Novas-Golegã",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 2.38,
+      "coordinates": {
+        "local": {
+          "lat": 39.432195,
+          "lon": -8.504567
+        },
+        "wikidata": {
+          "lat": 39.4322,
+          "lon": -8.50454
+        }
+      }
+    },
+    {
+      "local_id": "76067",
+      "local_name": "Reguengo - Vale da Pedra",
+      "local_uic": "9433084",
+      "wikidata_id": "Q8841596",
+      "wikidata_name": "Estação Ferroviária de Reguengo-Vale da Pedra-Pontével",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 3.69,
+      "coordinates": {
+        "local": {
+          "lat": 39.099253,
+          "lon": -8.793846
+        },
+        "wikidata": {
+          "lat": 39.09927222,
+          "lon": -8.79381111
+        }
+      }
+    },
+    {
+      "local_id": "76071",
+      "local_name": "Seica - Ourem",
+      "local_uic": "9434264",
+      "wikidata_id": "Q2843588",
+      "wikidata_name": "Apeadeiro de Seiça-Ourém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 12.25,
+      "coordinates": {
+        "local": {
+          "lat": 39.678367,
+          "lon": -8.507968
+        },
+        "wikidata": {
+          "lat": 39.67846389,
+          "lon": -8.50803611
+        }
+      }
+    },
+    {
+      "local_id": "76074",
+      "local_name": "Litem",
+      "local_uic": "9434504",
+      "wikidata_id": "Q8202385",
+      "wikidata_name": "Apeadeiro de Litém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 14.81,
+      "coordinates": {
+        "local": {
+          "lat": 39.837931,
+          "lon": -8.593103
+        },
+        "wikidata": {
+          "lat": 39.83802778,
+          "lon": -8.59322222
+        }
+      }
+    },
+    {
+      "local_id": "76077",
+      "local_name": "Simoes",
+      "local_uic": "9434744",
+      "wikidata_id": "Q18483409",
+      "wikidata_name": "Apeadeiro de Simões",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 13.1,
+      "coordinates": {
+        "local": {
+          "lat": 40.01078,
+          "lon": -8.633532
+        },
+        "wikidata": {
+          "lat": 40.010897,
+          "lon": -8.633514
+        }
+      }
+    },
+    {
+      "local_id": "76079",
+      "local_name": "Vila Nova de Ancos",
+      "local_uic": "9434868",
+      "wikidata_id": "Q18483520",
+      "wikidata_name": "Apeadeiro de Vila Nova de Anços",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 54.22,
+      "coordinates": {
+        "local": {
+          "lat": 40.107201,
+          "lon": -8.637661
+        },
+        "wikidata": {
+          "lat": 40.107642,
+          "lon": -8.637933
+        }
+      }
+    },
+    {
+      "local_id": "76080",
+      "local_name": "Formoselha - Santo Varao",
+      "local_uic": "9435030",
+      "wikidata_id": "Q18482889",
+      "wikidata_name": "Apeadeiro de Formoselha - Santo Varão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 3.13,
+      "coordinates": {
+        "local": {
+          "lat": 40.179497,
+          "lon": -8.607095
+        },
+        "wikidata": {
+          "lat": 40.179517,
+          "lon": -8.607069
+        }
+      }
+    },
+    {
+      "local_id": "76082",
+      "local_name": "Ameal",
+      "local_uic": "9435097",
+      "wikidata_id": "Q16492782",
+      "wikidata_name": "Apeadeiro de Amial",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 8.0,
+      "coordinates": {
+        "local": {
+          "lat": 40.192369,
+          "lon": -8.544126
+        },
+        "wikidata": {
+          "lat": 40.1923,
+          "lon": -8.54415278
+        }
+      }
+    },
+    {
+      "local_id": "76088",
+      "local_name": "Ademia",
+      "local_uic": "9436046",
+      "wikidata_id": "Q16492777",
+      "wikidata_name": "Apeadeiro de Adémia",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 0.89,
+      "coordinates": {
+        "local": {
+          "lat": 40.250926,
+          "lon": -8.450342
+        },
+        "wikidata": {
+          "lat": 40.25093056,
+          "lon": -8.45033333
+        }
+      }
+    },
+    {
+      "local_id": "76089",
+      "local_name": "Vilela - Fornos",
+      "local_uic": "9436053",
+      "wikidata_id": "Q16492846",
+      "wikidata_name": "Apeadeiro de Vilela-Fornos",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 7.69,
+      "coordinates": {
+        "local": {
+          "lat": 40.263233,
+          "lon": -8.441354
+        },
+        "wikidata": {
+          "lat": 40.26316389,
+          "lon": -8.44135
+        }
+      }
+    },
+    {
+      "local_id": "76094",
+      "local_name": "Paraimo - Sangalhos",
+      "local_uic": "9437184",
+      "wikidata_id": "Q16492813",
+      "wikidata_name": "Apeadeiro de Paraimo",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 24.04,
+      "coordinates": {
+        "local": {
+          "lat": 40.481142,
+          "lon": -8.480089
+        },
+        "wikidata": {
+          "lat": 40.48095,
+          "lon": -8.47995833
+        }
+      }
+    },
+    {
+      "local_id": "76096",
+      "local_name": "Oia",
+      "local_uic": "9437275",
+      "wikidata_id": "Q8841325",
+      "wikidata_name": "Estação Ferroviária de Oiã",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 16.82,
+      "coordinates": {
+        "local": {
+          "lat": 40.543557,
+          "lon": -8.549925
+        },
+        "wikidata": {
+          "lat": 40.5437,
+          "lon": -8.54999
+        }
+      }
+    },
+    {
+      "local_id": "76099",
+      "local_name": "Canelas",
+      "local_uic": "9438117",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.716438,
+          "lon": -8.564019
+        }
+      }
+    },
+    {
+      "local_id": "76100",
+      "local_name": "Salreu",
+      "local_uic": "9438125",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.729171,
+          "lon": -8.564955
+        }
+      }
+    },
+    {
+      "local_id": "76102",
+      "local_name": "Valega",
+      "local_uic": "9438240",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.833606,
+          "lon": -8.601118
+        }
+      }
+    },
+    {
+      "local_id": "76103",
+      "local_name": "Carvalheira - Maceda",
+      "local_uic": "9438356",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.924505,
+          "lon": -8.62608
+        }
+      }
+    },
+    {
+      "local_id": "76104",
+      "local_name": "Cortegaca",
+      "local_uic": "9438372",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.94064,
+          "lon": -8.630245
+        }
+      }
+    },
+    {
+      "local_id": "76106",
+      "local_name": "Paramos",
+      "local_uic": "9438414",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.975505,
+          "lon": -8.636851
+        }
+      }
+    },
+    {
+      "local_id": "76107",
+      "local_name": "Silvalde",
+      "local_uic": "9438422",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.990432,
+          "lon": -8.640756
+        }
+      }
+    },
+    {
+      "local_id": "76114",
+      "local_name": "Coimbroes",
+      "local_uic": "9439149",
+      "wikidata_id": "Q2919834",
+      "wikidata_name": "Apeadeiro de Coimbrões",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 23.47,
+      "coordinates": {
+        "local": {
+          "lat": 41.124406,
+          "lon": -8.633951
+        },
+        "wikidata": {
+          "lat": 41.1242,
+          "lon": -8.63389
+        }
+      }
+    },
+    {
+      "local_id": "76121",
+      "local_name": "Esgueira",
+      "local_uic": "9442028",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.641526,
+          "lon": -8.618271
+        }
+      }
+    },
+    {
+      "local_id": "76122",
+      "local_name": "Azurva",
+      "local_uic": "9442051",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.639913,
+          "lon": -8.591835
+        }
+      }
+    },
+    {
+      "local_id": "76124",
+      "local_name": "Sao Joao Loure",
+      "local_uic": "9442093",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.62229,
+          "lon": -8.548169
+        }
+      }
+    },
+    {
+      "local_id": "76126",
+      "local_name": "Taipa - Requeixo",
+      "local_uic": "9442127",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.601152,
+          "lon": -8.523793
+        }
+      }
+    },
+    {
+      "local_id": "76127",
+      "local_name": "Travasso",
+      "local_uic": "9442135",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.59425,
+          "lon": -8.514545
+        }
+      }
+    },
+    {
+      "local_id": "76128",
+      "local_name": "Cabanoes",
+      "local_uic": "9442150",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.587262,
+          "lon": -8.498041
+        }
+      }
+    },
+    {
+      "local_id": "76129",
+      "local_name": "Casal do  Alvaro",
+      "local_uic": "9442168",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.57943,
+          "lon": -8.48794
+        }
+      }
+    },
+    {
+      "local_id": "76130",
+      "local_name": "Oronhe",
+      "local_uic": "9442176",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.572144,
+          "lon": -8.476763
+        }
+      }
+    },
+    {
+      "local_id": "76131",
+      "local_name": "Mourisca do Vouga",
+      "local_uic": "9442259",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.605374,
+          "lon": -8.460026
+        }
+      }
+    },
+    {
+      "local_id": "76132",
+      "local_name": "Aguieira",
+      "local_uic": "9442267",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.613291,
+          "lon": -8.453697
+        }
+      }
+    },
+    {
+      "local_id": "76133",
+      "local_name": "Valongo - Vouga",
+      "local_uic": "9442291",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.62416,
+          "lon": -8.449936
+        }
+      }
+    },
+    {
+      "local_id": "76134",
+      "local_name": "Carvalhal Portela",
+      "local_uic": "9442309",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.636373,
+          "lon": -8.452871
+        }
+      }
+    },
+    {
+      "local_id": "76137",
+      "local_name": "Silvalde - Vouga",
+      "local_uic": "9444032",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.988843,
+          "lon": -8.630314
+        }
+      }
+    },
+    {
+      "local_id": "76138",
+      "local_name": "Monte de Paramos",
+      "local_uic": "9444040",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.982332,
+          "lon": -8.625758
+        }
+      }
+    },
+    {
+      "local_id": "76139",
+      "local_name": "Lapa",
+      "local_uic": "9444057",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.983715,
+          "lon": -8.60523
+        }
+      }
+    },
+    {
+      "local_id": "76140",
+      "local_name": "Sampaio - Oleiros",
+      "local_uic": "9444073",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.984007,
+          "lon": -8.593334
+        }
+      }
+    },
+    {
+      "local_id": "76141",
+      "local_name": "Pacos de Brandao",
+      "local_uic": "9444107",
+      "wikidata_id": "Q20053927",
+      "wikidata_name": "Estação Ferroviária de Paços de Brandão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.81,
+      "coordinates": {
+        "local": {
+          "lat": 40.972119,
+          "lon": -8.584449
+        },
+        "wikidata": {
+          "lat": 40.972033,
+          "lon": -8.584509
+        }
+      }
+    },
+    {
+      "local_id": "76142",
+      "local_name": "Rio Meao",
+      "local_uic": "9444115",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.960972,
+          "lon": -8.571201
+        }
+      }
+    },
+    {
+      "local_id": "76143",
+      "local_name": "Sao Joao de Ver",
+      "local_uic": "9444156",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.955396,
+          "lon": -8.551033
+        }
+      }
+    },
+    {
+      "local_id": "76144",
+      "local_name": "Cavaco",
+      "local_uic": "9444172",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.939565,
+          "lon": -8.537435
+        }
+      }
+    },
+    {
+      "local_id": "76145",
+      "local_name": "Sanfins",
+      "local_uic": "9444198",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.926682,
+          "lon": -8.530956
+        }
+      }
+    },
+    {
+      "local_id": "76147",
+      "local_name": "Escapaes",
+      "local_uic": "9444222",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.919659,
+          "lon": -8.516414
+        }
+      }
+    },
+    {
+      "local_id": "76148",
+      "local_name": "Arrifana",
+      "local_uic": "9444248",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.909388,
+          "lon": -8.501064
+        }
+      }
+    },
+    {
+      "local_id": "76149",
+      "local_name": "Faria",
+      "local_uic": "9444271",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.879232,
+          "lon": -8.494964
+        }
+      }
+    },
+    {
+      "local_id": "76150",
+      "local_name": "Couto de Cucujaes",
+      "local_uic": "9444297",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.868253,
+          "lon": -8.49416
+        }
+      }
+    },
+    {
+      "local_id": "76151",
+      "local_name": "Santiago de Riba - Ul",
+      "local_uic": "9444313",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.851302,
+          "lon": -8.489607
+        }
+      }
+    },
+    {
+      "local_id": "76152",
+      "local_name": "Vacarica",
+      "local_uic": "9446045",
+      "wikidata_id": "Q3014141",
+      "wikidata_name": "Apeadeiro de Quinta do Valongo - Vacariça",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 12.07,
+      "coordinates": {
+        "local": {
+          "lat": 40.356711,
+          "lon": -8.412191
+        },
+        "wikidata": {
+          "lat": 40.35676389,
+          "lon": -8.41206667
+        }
+      }
+    },
+    {
+      "local_id": "76154",
+      "local_name": "Monte de Lobos",
+      "local_uic": "9446219",
+      "wikidata_id": "Q3014686",
+      "wikidata_name": "Apeadeiro de Monte dos Lobos",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 16.04,
+      "coordinates": {
+        "local": {
+          "lat": 40.408206,
+          "lon": -8.264541
+        },
+        "wikidata": {
+          "lat": 40.40809722,
+          "lon": -8.26441667
+        }
+      }
+    },
+    {
+      "local_id": "76156",
+      "local_name": "Papizios",
+      "local_uic": "9446441",
+      "wikidata_id": "Q3014699",
+      "wikidata_name": "Apeadeiro de Papízios",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 344.46,
+      "coordinates": {
+        "local": {
+          "lat": 40.41906,
+          "lon": -8.04611
+        },
+        "wikidata": {
+          "lat": 40.42052222,
+          "lon": -8.04969722
+        }
+      }
+    },
+    {
+      "local_id": "76158",
+      "local_name": "Oliveirinha - Cabanas",
+      "local_uic": "9446524",
+      "wikidata_id": "Q8841333",
+      "wikidata_name": "Estação Ferroviária de Oliveirinha-Cabanas",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.37,
+      "coordinates": {
+        "local": {
+          "lat": 40.450367,
+          "lon": -7.963319
+        },
+        "wikidata": {
+          "lat": 40.45041389,
+          "lon": -7.963425
+        }
+      }
+    },
+    {
+      "local_id": "76159",
+      "local_name": "Lapa do Lobo",
+      "local_uic": "9446581",
+      "wikidata_id": "Q3014117",
+      "wikidata_name": "Apeadeiro de Lapa do Lobo",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 661.21,
+      "coordinates": {
+        "local": {
+          "lat": 40.475579,
+          "lon": -7.919702
+        },
+        "wikidata": {
+          "lat": 40.48060278,
+          "lon": -7.91551944
+        }
+      }
+    },
+    {
+      "local_id": "76160",
+      "local_name": "Canas - Felgueira",
+      "local_uic": "9446599",
+      "wikidata_id": "Q8779482",
+      "wikidata_name": "Estação Ferroviária de Canas-Felgueira",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 13.95,
+      "coordinates": {
+        "local": {
+          "lat": 40.490976,
+          "lon": -7.906626
+        },
+        "wikidata": {
+          "lat": 40.49106389,
+          "lon": -7.90650833
+        }
+      }
+    },
+    {
+      "local_id": "76161",
+      "local_name": "Moimenta - Alcafache",
+      "local_uic": "9446763",
+      "wikidata_id": "Q8202395",
+      "wikidata_name": "Apeadeiro de Moimenta-Alcafache",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 1.19,
+      "coordinates": {
+        "local": {
+          "lat": 40.574544,
+          "lon": -7.809557
+        },
+        "wikidata": {
+          "lat": 40.57453333,
+          "lon": -7.80955833
+        }
+      }
+    },
+    {
+      "local_id": "76162",
+      "local_name": "Baracal",
+      "local_uic": "9448454",
+      "wikidata_id": "Q581045",
+      "wikidata_name": "Apeadeiro de Baraçal",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 6.42,
+      "coordinates": {
+        "local": {
+          "lat": 40.677416,
+          "lon": -7.327883
+        },
+        "wikidata": {
+          "lat": 40.67737222,
+          "lon": -7.32783333
+        }
+      }
+    },
+    {
+      "local_id": "76166",
+      "local_name": "Miuzela",
+      "local_uic": "9449239",
+      "wikidata_id": "Q3014610",
+      "wikidata_name": "Apeadeiro de Miuzela",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 785.86,
+      "coordinates": {
+        "local": {
+          "lat": 40.519336,
+          "lon": -7.013268
+        },
+        "wikidata": {
+          "lat": 40.52215833,
+          "lon": -7.00474444
+        }
+      }
+    },
+    {
+      "local_id": "76176",
+      "local_name": "Mouriscas - A",
+      "local_uic": "9452167",
+      "wikidata_id": "Q8841111",
+      "wikidata_name": "Estação Ferroviária de Mouriscas-A",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 6.85,
+      "coordinates": {
+        "local": {
+          "lat": 39.467827,
+          "lon": -8.085016
+        },
+        "wikidata": {
+          "lat": 39.46787778,
+          "lon": -8.08506111
+        }
+      }
+    },
+    {
+      "local_id": "76177",
+      "local_name": "Alvega - Ortiga",
+      "local_uic": "9452209",
+      "wikidata_id": "Q3084425",
+      "wikidata_name": "Apeadeiro de Alvega-Ortiga",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 5.29,
+      "coordinates": {
+        "local": {
+          "lat": 39.472336,
+          "lon": -8.044686
+        },
+        "wikidata": {
+          "lat": 39.47238333,
+          "lon": -8.04469167
+        }
+      }
+    },
+    {
+      "local_id": "76180",
+      "local_name": "Barca da Amieira - Envendos",
+      "local_uic": "9452415",
+      "wikidata_id": "Q8779343",
+      "wikidata_name": "Estação Ferroviária de Barca da Amieira-Envendos",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 16.09,
+      "coordinates": {
+        "local": {
+          "lat": 39.525975,
+          "lon": -7.835014
+        },
+        "wikidata": {
+          "lat": 39.52604167,
+          "lon": -7.83518056
+        }
+      }
+    },
+    {
+      "local_id": "76182",
+      "local_name": "Vila Velha de Rodao",
+      "local_uic": "9452647",
+      "wikidata_id": "Q8841646",
+      "wikidata_name": "Estação Ferroviária de Ródão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.29,
+      "coordinates": {
+        "local": {
+          "lat": 39.655187,
+          "lon": -7.672795
+        },
+        "wikidata": {
+          "lat": 39.65509444,
+          "lon": -7.67279722
+        }
+      }
+    },
+    {
+      "local_id": "76186",
+      "local_name": "Benquerencas",
+      "local_uic": "9452878",
+      "wikidata_id": "Q3083537",
+      "wikidata_name": "Apeadeiro de Benquerenças",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 2.64,
+      "coordinates": {
+        "local": {
+          "lat": 39.78822,
+          "lon": -7.562216
+        },
+        "wikidata": {
+          "lat": 39.78823889,
+          "lon": -7.56219722
+        }
+      }
+    },
+    {
+      "local_id": "76193",
+      "local_name": "Fatela - Penamacor",
+      "local_uic": "9453462",
+      "wikidata_id": "Q3083827",
+      "wikidata_name": "Apeadeiro de Fatela-Penamacor",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 2.76,
+      "coordinates": {
+        "local": {
+          "lat": 40.149248,
+          "lon": -7.410385
+        },
+        "wikidata": {
+          "lat": 40.149225,
+          "lon": -7.41039722
+        }
+      }
+    },
+    {
+      "local_id": "76196",
+      "local_name": "Alcaria",
+      "local_uic": "9453629",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.200487,
+          "lon": -7.517461
+        }
+      }
+    },
+    {
+      "local_id": "76199",
+      "local_name": "Belmonte - Manteigas",
+      "local_uic": "9454197",
+      "wikidata_id": "Q8779373",
+      "wikidata_name": "Estação Ferroviária de Belmonte-Manteigas",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.32,
+      "coordinates": {
+        "local": {
+          "lat": 40.333303,
+          "lon": -7.336271
+        },
+        "wikidata": {
+          "lat": 40.33326667,
+          "lon": -7.33625278
+        }
+      }
+    },
+    {
+      "local_id": "76200",
+      "local_name": "Macainhas",
+      "local_uic": "9454262",
+      "wikidata_id": "Q3084379",
+      "wikidata_name": "Apeadeiro de Maçainhas",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 3.58,
+      "coordinates": {
+        "local": {
+          "lat": 40.388758,
+          "lon": -7.287301
+        },
+        "wikidata": {
+          "lat": 40.38878889,
+          "lon": -7.28728889
+        }
+      }
+    },
+    {
+      "local_id": "76205",
+      "local_name": "Chanca",
+      "local_uic": "9456101",
+      "wikidata_id": "Q16483775",
+      "wikidata_name": "Apeadeiro de Chança",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 52.82,
+      "coordinates": {
+        "local": {
+          "lat": 39.275756,
+          "lon": -7.807889
+        },
+        "wikidata": {
+          "lat": 39.2758,
+          "lon": -7.8085
+        }
+      }
+    },
+    {
+      "local_id": "76209",
+      "local_name": "Santa Eulalia-A",
+      "local_uic": "9457315",
+      "wikidata_id": "Q16483811",
+      "wikidata_name": "Apeadeiro de Santa Eulália-A",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 1.22,
+      "coordinates": {
+        "local": {
+          "lat": 39.006042,
+          "lon": -7.253408
+        },
+        "wikidata": {
+          "lat": 39.0060528,
+          "lon": -7.2534056
+        }
+      }
+    },
+    {
+      "local_id": "76210",
+      "local_name": "Lisboa Rossio",
+      "local_uic": "9459006",
+      "wikidata_id": "Q431458",
+      "wikidata_name": "Estação Ferroviária do Rossio",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 85.53,
+      "coordinates": {
+        "local": {
+          "lat": 38.714233,
+          "lon": -9.141461
+        },
+        "wikidata": {
+          "lat": 38.714722,
+          "lon": -9.142222
+        }
+      }
+    },
+    {
+      "local_id": "76212",
+      "local_name": "Santa Cruz - Damaia",
+      "local_uic": "9460038",
+      "wikidata_id": "Q4120786",
+      "wikidata_name": "Estação Ferroviária de Santa Cruz-Damaia",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 75.11,
+      "coordinates": {
+        "local": {
+          "lat": 38.74693,
+          "lon": -9.213168
+        },
+        "wikidata": {
+          "lat": 38.7465,
+          "lon": -9.2125
+        }
+      }
+    },
+    {
+      "local_id": "76213",
+      "local_name": "Benfica",
+      "local_uic": "9460046",
+      "wikidata_id": "Q18483324",
+      "wikidata_name": "Apeadeiro de Santa Cruz de Benfica",
+      "issues": [
+        "distance_exceeds_500m"
+      ],
+      "distance_meters": 660.33,
+      "coordinates": {
+        "local": {
+          "lat": 38.744312,
+          "lon": -9.199966
+        },
+        "wikidata": {
+          "lat": 38.74545,
+          "lon": -9.2074389
+        }
+      }
+    },
+    {
+      "local_id": "76216",
+      "local_name": "Queluz - Belas",
+      "local_uic": "9460103",
+      "wikidata_id": "Q4120788",
+      "wikidata_name": "Estação Ferroviária de Queluz-Belas",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 39.17,
+      "coordinates": {
+        "local": {
+          "lat": 38.758815,
+          "lon": -9.257027
+        },
+        "wikidata": {
+          "lat": 38.7587,
+          "lon": -9.2566
+        }
+      }
+    },
+    {
+      "local_id": "76217",
+      "local_name": "Monte Abraao",
+      "local_uic": "9460111",
+      "wikidata_id": "Q4120794",
+      "wikidata_name": "Estação Ferroviária de Monte Abraão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 22.01,
+      "coordinates": {
+        "local": {
+          "lat": 38.755426,
+          "lon": -9.265351
+        },
+        "wikidata": {
+          "lat": 38.7556,
+          "lon": -9.26523
+        }
+      }
+    },
+    {
+      "local_id": "76218",
+      "local_name": "Massama - Barcarena",
+      "local_uic": "9460137",
+      "wikidata_id": "Q4120808",
+      "wikidata_name": "Estação Ferroviária de Massamá-Barcarena",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 49.84,
+      "coordinates": {
+        "local": {
+          "lat": 38.751506,
+          "lon": -9.283588
+        },
+        "wikidata": {
+          "lat": 38.7516,
+          "lon": -9.28415
+        }
+      }
+    },
+    {
+      "local_id": "76220",
+      "local_name": "Merces",
+      "local_uic": "9461051",
+      "wikidata_id": "Q4120793",
+      "wikidata_name": "Estação Ferroviária das Mercês",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 38.1,
+      "coordinates": {
+        "local": {
+          "lat": 38.793293,
+          "lon": -9.330818
+        },
+        "wikidata": {
+          "lat": 38.793,
+          "lon": -9.33059
+        }
+      }
+    },
+    {
+      "local_id": "76221",
+      "local_name": "Algueirao - Mem Martins",
+      "local_uic": "9461069",
+      "wikidata_id": "Q4120807",
+      "wikidata_name": "Estação Ferroviária de Algueirão-Mem Martins",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 41.35,
+      "coordinates": {
+        "local": {
+          "lat": 38.797712,
+          "lon": -9.340985
+        },
+        "wikidata": {
+          "lat": 38.7976,
+          "lon": -9.34144
+        }
+      }
+    },
+    {
+      "local_id": "76223",
+      "local_name": "Mira Sintra - Melecas",
+      "local_uic": "9462042",
+      "wikidata_id": "Q8841053",
+      "wikidata_name": "Estação Ferroviária de Mira Sintra-Meleças",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 30.14,
+      "coordinates": {
+        "local": {
+          "lat": 38.789851,
+          "lon": -9.312738
+        },
+        "wikidata": {
+          "lat": 38.78958333,
+          "lon": -9.31268333
+        }
+      }
+    },
+    {
+      "local_id": "76237",
+      "local_name": "Obidos",
+      "local_uic": "9462836",
+      "wikidata_id": "Q17000336",
+      "wikidata_name": "Apeadeiro de Óbidos",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.42,
+      "coordinates": {
+        "local": {
+          "lat": 39.364895,
+          "lon": -9.159071
+        },
+        "wikidata": {
+          "lat": 39.36485556,
+          "lon": -9.15907778
+        }
+      }
+    },
+    {
+      "local_id": "76239",
+      "local_name": "Sao Martinho do Porto",
+      "local_uic": "9463131",
+      "wikidata_id": "Q10275797",
+      "wikidata_name": "Estação Ferroviária de São Martinho do Porto",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 7.64,
+      "coordinates": {
+        "local": {
+          "lat": 39.508167,
+          "lon": -9.133196
+        },
+        "wikidata": {
+          "lat": 39.50821111,
+          "lon": -9.13312778
+        }
+      }
+    },
+    {
+      "local_id": "76240",
+      "local_name": "Famalicao da Nazare",
+      "local_uic": "9463180",
+      "wikidata_id": "Q18482831",
+      "wikidata_name": "Apeadeiro de Famalicão da Nazaré",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 67.38,
+      "coordinates": {
+        "local": {
+          "lat": 39.531606,
+          "lon": -9.085717
+        },
+        "wikidata": {
+          "lat": 39.5316134,
+          "lon": -9.0865026
+        }
+      }
+    },
+    {
+      "local_id": "76241",
+      "local_name": "Valado - Nazare - Alcobaca",
+      "local_uic": "9463263",
+      "wikidata_id": "Q8842140",
+      "wikidata_name": "Estação Ferroviária de Valado",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 107.76,
+      "coordinates": {
+        "local": {
+          "lat": 39.584511,
+          "lon": -9.017673
+        },
+        "wikidata": {
+          "lat": 39.58512222,
+          "lon": -9.01669722
+        }
+      }
+    },
+    {
+      "local_id": "76243",
+      "local_name": "Martinganca - Maceira",
+      "local_uic": "9463404",
+      "wikidata_id": "Q8841035",
+      "wikidata_name": "Estação Ferroviária de Martingança",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 7.6,
+      "coordinates": {
+        "local": {
+          "lat": 39.687249,
+          "lon": -8.945814
+        },
+        "wikidata": {
+          "lat": 39.687225,
+          "lon": -8.94589722
+        }
+      }
+    },
+    {
+      "local_id": "76246",
+      "local_name": "Monte Redondo",
+      "local_uic": "9463735",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.900332,
+          "lon": -8.834368
+        }
+      }
+    },
+    {
+      "local_id": "76247",
+      "local_name": "Guia",
+      "local_uic": "9463800",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 39.948163,
+          "lon": -8.801753
+        }
+      }
+    },
+    {
+      "local_id": "76248",
+      "local_name": "Lourical",
+      "local_uic": "9463875",
+      "wikidata_id": "Q8840980",
+      "wikidata_name": "Estação Ferroviária de Louriçal",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 47.9,
+      "coordinates": {
+        "local": {
+          "lat": 40.016254,
+          "lon": -8.815409
+        },
+        "wikidata": {
+          "lat": 40.01582778,
+          "lon": -8.81532778
+        }
+      }
+    },
+    {
+      "local_id": "76249",
+      "local_name": "Bifurcacao de Lares",
+      "local_uic": "9464022",
+      "wikidata_id": "Q557982",
+      "wikidata_name": "Estação Ferroviária de Bifurcação de Lares",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 14.25,
+      "coordinates": {
+        "local": {
+          "lat": 40.122377,
+          "lon": -8.764727
+        },
+        "wikidata": {
+          "lat": 40.12233333,
+          "lon": -8.76456944
+        }
+      }
+    },
+    {
+      "local_id": "76250",
+      "local_name": "Lares",
+      "local_uic": "9464055",
+      "reason": "uic_not_found_in_wikidata",
+      "details": {
+        "local_coords": {
+          "lat": 40.129471,
+          "lon": -8.787443
+        }
+      }
+    },
+    {
+      "local_id": "76258",
+      "local_name": "Roma - Areeiro",
+      "local_uic": "9466035",
+      "wikidata_id": "Q801111",
+      "wikidata_name": "Estação Ferroviária de Roma-Areeiro",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 59.46,
+      "coordinates": {
+        "local": {
+          "lat": 38.745724,
+          "lon": -9.134831
+        },
+        "wikidata": {
+          "lat": 38.74565,
+          "lon": -9.13551
+        }
+      }
+    },
+    {
+      "local_id": "76261",
+      "local_name": "Alcantara - Terra",
+      "local_uic": "9467025",
+      "wikidata_id": "Q801106",
+      "wikidata_name": "Estação Ferroviária de Alcântara-Terra",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 3.95,
+      "coordinates": {
+        "local": {
+          "lat": 38.707435,
+          "lon": -9.173238
+        },
+        "wikidata": {
+          "lat": 38.70746513,
+          "lon": -9.17326212
+        }
+      }
+    },
+    {
+      "local_id": "76265",
+      "local_name": "Praca do Quebedo",
+      "local_uic": "9468130",
+      "wikidata_id": "Q18200540",
+      "wikidata_name": "Apeadeiro de Praça do Quebedo",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 3.43,
+      "coordinates": {
+        "local": {
+          "lat": 38.524934,
+          "lon": -8.886473
+        },
+        "wikidata": {
+          "lat": 38.5249583,
+          "lon": -8.8864972
+        }
+      }
+    },
+    {
+      "local_id": "76266",
+      "local_name": "Cais do Sodre",
+      "local_uic": "9469005",
+      "wikidata_id": "Q389608",
+      "wikidata_name": "Estação Ferroviária do Cais do Sodré",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 94.52,
+      "coordinates": {
+        "local": {
+          "lat": 38.706142,
+          "lon": -9.145374
+        },
+        "wikidata": {
+          "lat": 38.70596,
+          "lon": -9.14431
+        }
+      }
+    },
+    {
+      "local_id": "76268",
+      "local_name": "Alcantara -  Mar",
+      "local_uic": "9469039",
+      "wikidata_id": "Q801104",
+      "wikidata_name": "Estação Ferroviária de Alcântara-Mar",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 15.56,
+      "coordinates": {
+        "local": {
+          "lat": 38.702351,
+          "lon": -9.174021
+        },
+        "wikidata": {
+          "lat": 38.70244161,
+          "lon": -9.17388439
+        }
+      }
+    },
+    {
+      "local_id": "76269",
+      "local_name": "Belem",
+      "local_uic": "9469054",
+      "wikidata_id": "Q801107",
+      "wikidata_name": "Estação Ferroviária de Belém",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 35.92,
+      "coordinates": {
+        "local": {
+          "lat": 38.696168,
+          "lon": -9.197623
+        },
+        "wikidata": {
+          "lat": 38.696147,
+          "lon": -9.198036
+        }
+      }
+    },
+    {
+      "local_id": "76270",
+      "local_name": "Alges",
+      "local_uic": "9469088",
+      "wikidata_id": "Q594294",
+      "wikidata_name": "Estação Ferroviária de Algés",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 8.79,
+      "coordinates": {
+        "local": {
+          "lat": 38.69833,
+          "lon": -9.229453
+        },
+        "wikidata": {
+          "lat": 38.6984,
+          "lon": -9.2295
+        }
+      }
+    },
+    {
+      "local_id": "76273",
+      "local_name": "Paco de Arcos",
+      "local_uic": "9469146",
+      "wikidata_id": "Q8841431",
+      "wikidata_name": "Estação Ferroviária de Paço de Arcos",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 40.53,
+      "coordinates": {
+        "local": {
+          "lat": 38.697108,
+          "lon": -9.290536
+        },
+        "wikidata": {
+          "lat": 38.69706667,
+          "lon": -9.291
+        }
+      }
+    },
+    {
+      "local_id": "76278",
+      "local_name": "Sao Pedro do Estoril",
+      "local_uic": "9469229",
+      "wikidata_id": "Q8842004",
+      "wikidata_name": "Estação Ferroviária de São Pedro do Estoril",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 5.92,
+      "coordinates": {
+        "local": {
+          "lat": 38.69541,
+          "lon": -9.371883
+        },
+        "wikidata": {
+          "lat": 38.6954,
+          "lon": -9.37195
+        }
+      }
+    },
+    {
+      "local_id": "76279",
+      "local_name": "Sao Joao do Estoril",
+      "local_uic": "9469237",
+      "wikidata_id": "Q8841991",
+      "wikidata_name": "Estação Ferroviária de São João do Estoril",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 8.36,
+      "coordinates": {
+        "local": {
+          "lat": 38.701295,
+          "lon": -9.386122
+        },
+        "wikidata": {
+          "lat": 38.70136944,
+          "lon": -9.38610833
+        }
+      }
+    },
+    {
+      "local_id": "76281",
+      "local_name": "Poceirao",
+      "local_uic": "9471001",
+      "wikidata_id": "Q8841496",
+      "wikidata_name": "Estação Ferroviária de Poceirão",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 10.05,
+      "coordinates": {
+        "local": {
+          "lat": 38.634416,
+          "lon": -8.743375
+        },
+        "wikidata": {
+          "lat": 38.63434722,
+          "lon": -8.74345
+        }
+      }
+    },
+    {
+      "local_id": "76282",
+      "local_name": "Fernando Po",
+      "local_uic": "9471050",
+      "wikidata_id": "Q5788390",
+      "wikidata_name": "Apeadeiro de Fernando Pó",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 28.72,
+      "coordinates": {
+        "local": {
+          "lat": 38.636408,
+          "lon": -8.691859
+        },
+        "wikidata": {
+          "lat": 38.63650556,
+          "lon": -8.69155278
+        }
+      }
+    },
+    {
+      "local_id": "76283",
+      "local_name": "Pegoes",
+      "local_uic": "9471126",
+      "wikidata_id": "Q8841440",
+      "wikidata_name": "Estação Ferroviária de Pegões",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.42,
+      "coordinates": {
+        "local": {
+          "lat": 38.662289,
+          "lon": -8.619061
+        },
+        "wikidata": {
+          "lat": 38.66226944,
+          "lon": -8.61901667
+        }
+      }
+    },
+    {
+      "local_id": "76284",
+      "local_name": "Sao Joao das Craveiras",
+      "local_uic": "9471159",
+      "wikidata_id": "Q8202409",
+      "wikidata_name": "Apeadeiro de São João das Craveiras",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 8.32,
+      "coordinates": {
+        "local": {
+          "lat": 38.668024,
+          "lon": -8.585701
+        },
+        "wikidata": {
+          "lat": 38.66805,
+          "lon": -8.58561111
+        }
+      }
+    },
+    {
+      "local_id": "76286",
+      "local_name": "Bom Joao",
+      "local_uic": "9473031",
+      "wikidata_id": "Q8202355",
+      "wikidata_name": "Apeadeiro de Bom João",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 5.08,
+      "coordinates": {
+        "local": {
+          "lat": 37.013994,
+          "lon": -7.921033
+        },
+        "wikidata": {
+          "lat": 37.01401111,
+          "lon": -7.92108611
+        }
+      }
+    },
+    {
+      "local_id": "76291",
+      "local_name": "Conceicao",
+      "local_uic": "9473379",
+      "wikidata_id": "Q8202369",
+      "wikidata_name": "Apeadeiro de Conceição",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 5.24,
+      "coordinates": {
+        "local": {
+          "lat": 37.144353,
+          "lon": -7.605589
+        },
+        "wikidata": {
+          "lat": 37.14436944,
+          "lon": -7.60564444
+        }
+      }
+    },
+    {
+      "local_id": "76296",
+      "local_name": "Alcacovas",
+      "local_uic": "9474120",
+      "wikidata_id": "Q978448",
+      "wikidata_name": "Apeadeiro de Alcáçovas",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 12.52,
+      "coordinates": {
+        "local": {
+          "lat": 38.406932,
+          "lon": -8.095507
+        },
+        "wikidata": {
+          "lat": 38.40682222,
+          "lon": -8.09553889
+        }
+      }
+    },
+    {
+      "local_id": "76301",
+      "local_name": "Amoreiras - Odemira",
+      "local_uic": "9477099",
+      "wikidata_id": "Q966302",
+      "wikidata_name": "Estação Ferroviária de Amoreiras-Odemira",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 2.87,
+      "coordinates": {
+        "local": {
+          "lat": 37.689973,
+          "lon": -8.414385
+        },
+        "wikidata": {
+          "lat": 37.68994722,
+          "lon": -8.41438333
+        }
+      }
+    },
+    {
+      "local_id": "76302",
+      "local_name": "Santa Clara - Saboia",
+      "local_uic": "9477388",
+      "wikidata_id": "Q8841810",
+      "wikidata_name": "Estação Ferroviária de Santa Clara-Sabóia",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 4.84,
+      "coordinates": {
+        "local": {
+          "lat": 37.495832,
+          "lon": -8.481407
+        },
+        "wikidata": {
+          "lat": 37.49581667,
+          "lon": -8.48145833
+        }
+      }
+    },
+    {
+      "local_id": "76308",
+      "local_name": "Poco Barreto",
+      "local_uic": "9490134",
+      "wikidata_id": "Q552194",
+      "wikidata_name": "Apeadeiro de Poço Barreto",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 15.39,
+      "coordinates": {
+        "local": {
+          "lat": 37.163612,
+          "lon": -8.388783
+        },
+        "wikidata": {
+          "lat": 37.1636,
+          "lon": -8.38861
+        }
+      }
+    },
+    {
+      "local_id": "76309",
+      "local_name": "Estombar - Lagoa",
+      "local_uic": "9490241",
+      "wikidata_id": "Q8779758",
+      "wikidata_name": "Estação Ferroviária de Estômbar-Lagoa",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 9.53,
+      "coordinates": {
+        "local": {
+          "lat": 37.143425,
+          "lon": -8.485488
+        },
+        "wikidata": {
+          "lat": 37.1435,
+          "lon": -8.48554
+        }
+      }
+    },
+    {
+      "local_id": "76314",
+      "local_name": "Ermidas - Sado",
+      "local_uic": "9493005",
+      "wikidata_id": "Q8779732",
+      "wikidata_name": "Estação Ferroviária de Ermidas-Sado",
+      "issues": [
+        "name_mismatch"
+      ],
+      "distance_meters": 27.8,
+      "coordinates": {
+        "local": {
+          "lat": 38.002777,
+          "lon": -8.413923
+        },
+        "wikidata": {
+          "lat": 38.00256667,
+          "lon": -8.41409444
+        }
+      }
+    }
+  ]
+}
