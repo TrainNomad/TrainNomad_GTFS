@@ -75,22 +75,23 @@ def download_netex(dest: str, url: str, name: str, attempts: int = 4):
     for attempt in range(1, attempts + 1):
         tmp = dest + ".part"
         try:
-            try:
-                with requests.get(url, headers={"User-Agent": USER_AGENT}, stream=True, timeout=300) as r:
-                    r.raise_for_status()
-                    with open(tmp, "wb") as f:
-                        shutil.copyfileobj(r.raw, f)
-            except requests.exceptions.SSLError:
-                logging.warning("  Erreur SSL avec requests, nouvel essai avec curl")
-                subprocess.run(["curl", "-sSfL", "-A", USER_AGENT, "-o", tmp, url], check=True, timeout=600)
+            # Utiliser curl directement (plus robuste pour les gros fichiers)
+            logging.info(f"  Tentative {attempt}/{attempts} avec curl...")
+            result = subprocess.run(
+                ["curl", "-sSfL", "-A", USER_AGENT, "--retry", "3", "--retry-delay", "5", "-o", tmp, url],
+                check=True, timeout=600, capture_output=True
+            )
             os.replace(tmp, dest)
-            logging.info(f"  {os.path.getsize(dest) / 1e6:.1f} Mo reçus")
+            logging.info(f"  ✅ {os.path.getsize(dest) / 1e6:.1f} Mo reçus")
             return
-        except (requests.RequestException, subprocess.SubprocessError) as e:
+        except subprocess.SubprocessError as e:
+            if os.path.exists(tmp):
+                os.remove(tmp)
             if attempt == attempts:
-                raise
-            logging.warning(f"  Échec ({e}), nouvel essai {attempt + 1}/{attempts} dans {10 * attempt} s")
-            time.sleep(10 * attempt)
+                raise RuntimeError(f"Échec téléchargement {name} après {attempts} tentatives: {e}")
+            wait = 15 * attempt
+            logging.warning(f"  ❌ Échec ({e}), nouvel essai dans {wait}s...")
+            time.sleep(wait)
 
 
 def open_xml(path: str):

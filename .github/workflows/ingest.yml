@@ -23,24 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas numpy requests
 
-    # Ancienne base SQLite (API FastAPI) : conservée le temps de la transition vers l'API Go.
-    - name: Exécuter l'ingestion GTFS (SQLite, ancienne API)
-      continue-on-error: true
-      run: |
-        python ingest_sncf_gtfs.py
-
-    # Conversion NeTEx → GTFS pour les opérateurs italiens
-    - name: Convertir les NeTEx italiens (Trenitalia + Italo)
-      run: python Trenitalia/ingest_trenitalia.py
-
-    # Conversion pour UK (optionnel, nécessite NR_EMAIL / NR_PASSWORD)
-    - name: Convertir le GTFS UK (National Rail)
-      continue-on-error: true
-      env:
-        NR_EMAIL: ${{ secrets.NR_EMAIL }}
-        NR_PASSWORD: ${{ secrets.NR_PASSWORD }}
-      run: python UK/ingest_uk_gtfs.py
-
     # CP Portugal : télécharge et patche avec la liaison Elvas-Badajoz
     - name: Télécharger et patcher le GTFS CP
       run: python CP/ingest_cp.py
@@ -54,6 +36,6 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add network.bin.gz harmonization_report.json
-        git add gtfs_indexed.db.gz || true
+        git add CP/cp_gtfs.zip || true
         git commit -m "Auto-update: Mise à jour GTFS harmonisé" || exit 0
         git push
