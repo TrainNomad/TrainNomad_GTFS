@@ -317,14 +317,15 @@ class StationRef:
                 if m:
                     rid = self.by_uic.get(m.group(0))
         elif op == "CP":
-            # CP Portugal : d'abord cp_id, puis UIC (94xxxxx)
+            # CP Portugal : d'abord cp_id, puis UIC (94xxxxx pour Portugal, 71xxxxx pour Espagne via Elvas-Badajoz)
             rid = self.by_cp.get(stop_id)
             if not rid:
                 for cand in (stop_code, stop_id):
                     if cand:
-                        # Format CP : 94_31039 → 9431039
+                        # Format CP : 94_31039 → 9431039, 71_37606 → 7137606
                         clean = cand.replace("_", "").replace("-", "")
-                        m = re.search(r"94\d{5}", clean)
+                        # D'abord Portugal (94), puis Espagne (71) pour la liaison transfrontalière
+                        m = re.search(r"(94|71)\d{5}", clean)
                         if m:
                             rid = self.by_uic.get(m.group(0))
                             if rid:
