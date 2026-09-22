@@ -1,7 +1,7 @@
 {
   "TRENITALIA": {
     "agency": "TRENITALIA",
-    "generated_at": "2026-09-22T13:51:49+00:00",
+    "generated_at": "2026-09-22T14:23:17+00:00",
     "source": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1080596/resource",
     "publication": "2026-09-17T11:36:35Z",
     "valid_between": [
@@ -38,7 +38,7 @@
   },
   "ITALO": {
     "agency": "ITALO",
-    "generated_at": "2026-09-22T13:51:52+00:00",
+    "generated_at": "2026-09-22T14:23:21+00:00",
     "source": "https://www.cciss.it/nap/mmtis/public/api/v1/download/blob/Asset/1814124/resource",
     "publication": "2026-09-22T11:04:51+02:00",
     "valid_between": [
@@ -47,6 +47,7 @@
     ],
     "zip_mb": 0.13,
     "stats": {
+      "journeys_reordered": 695,
       "stop_places": 69,
       "stops": 69,
       "stops_with_uic": 58,
