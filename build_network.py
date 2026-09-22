@@ -190,10 +190,11 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
     logging.info(f"  [{op['id']}] Téléchargement {op['gtfs_url']}")
     tmp = path + ".part"
     headers = {}
-    if op.get("api_key"):
+    api_key = op.get("api_key") or os.environ.get(f"{op['id']}_API_KEY")
+    if api_key:
         headers = {
-            "Authorization": f"Bearer {op['api_key']}",
-            "X-API-KEY": op["api_key"],
+            "Authorization": f"Bearer {api_key}",
+            "X-API-KEY": api_key,
         }
     try:
         with requests.get(op["gtfs_url"], headers=headers, stream=True, timeout=300) as r:
