@@ -67,6 +67,31 @@ GTFS_RAIL = 2
 
 
 # ---------------------------------------------------------------------------
+# Chargement des mappings
+# ---------------------------------------------------------------------------
+
+def load_ntv_uic_mapping(stations_csv_path: str) -> dict:
+    """Charge le mapping ntv_id -> uic depuis stations.csv pour enrichir le stop_code Italo."""
+    mapping = {}
+    if not os.path.exists(stations_csv_path):
+        logging.warning(f"⚠️  stations.csv non trouvé à {stations_csv_path}, stop_code Italo vides")
+        return mapping
+    try:
+        with open(stations_csv_path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter=";")
+            for row in reader:
+                ntv_id = row.get("ntv_id", "").strip()
+                uic = row.get("uic", "").strip()
+                if ntv_id and uic:
+                    # Normaliser ntv_id en remplaçant les tirets par des underscores
+                    mapping[ntv_id.replace("-", "_")] = uic
+        logging.info(f"✅ {len(mapping)} correspondances NTV → UIC chargées depuis stations.csv")
+    except Exception as e:
+        logging.warning(f"⚠️  Erreur lecture stations.csv : {e}")
+    return mapping
+
+
+# ---------------------------------------------------------------------------
 # Téléchargement
 # ---------------------------------------------------------------------------
 
@@ -250,13 +275,41 @@ def uic7(code: str) -> str:
     return code[:2] + code[-5:] if len(code) == 9 and code.isdigit() else ""
 
 
+def extract_train_number(trip_id: str, agency_id: str) -> str:
+    """Extrait le numéro de train de la structure trip_id.
+
+    Pour Italo: 1002-9954--1-1-1 -> 9954
+    Pour Trenitalia: 10083_0_1-10201-1C27-0083 -> 10201
+    """
+    if not trip_id:
+        return ""
+
+    if agency_id == "ITALO":
+        # Structure: code1-train_number--other-parts ou code1-train_number-other-parts
+        parts = trip_id.split("-")
+        if len(parts) >= 2:
+            train_num = parts[1]
+            return train_num if train_num.isdigit() else ""
+    elif agency_id == "TRENITALIA":
+        # Structure: code1_x_y-train_number-other ou similaire
+        # Chercher le premier segment numérique après le premier tiret
+        parts = trip_id.split("-")
+        for part in parts:
+            if part.isdigit() and len(part) >= 4:  # Un numéro de train fait généralement au moins 4 chiffres
+                return part
+
+    return ""
+
+
 def clean_name(name: str) -> str:
     return name.replace("`", "'").strip()
 
 
 class GtfsBuilder:
-    def __init__(self, netex: NetexReader):
+    def __init__(self, netex: NetexReader, agency_id: str = "", uic_mapping: dict = None):
         self.n = netex
+        self.agency_id = agency_id
+        self.uic_mapping = uic_mapping or {}  # id_operateur -> uic pour enrichir stop_code
         self.stats = Counter()
         self.stops = {}          # stop_id GTFS -> ligne stops.txt
         self.ssp_stop = {}       # ScheduledStopPoint id -> stop_id GTFS
@@ -276,9 +329,16 @@ class GtfsBuilder:
             self.ssp_stop[ssp] = None
             return None
         stop_id = place["code"] or ssp.rpartition(":")[2]
+        # Pour Italo, normaliser les tirets en underscores pour correspondre à stations.csv (colonne ntv_id)
+        if self.agency_id == "ITALO":
+            stop_id = stop_id.replace("-", "_")
         if stop_id not in self.stops:
+            # Pour Italo, chercher l'UIC dans le mapping depuis stations.csv
+            stop_code = uic7(place["code"])
+            if self.agency_id == "ITALO" and stop_id in self.uic_mapping:
+                stop_code = self.uic_mapping[stop_id]
             self.stops[stop_id] = {
-                "stop_id": stop_id, "stop_code": uic7(place["code"]), "stop_name": clean_name(place["name"]),
+                "stop_id": stop_id, "stop_code": stop_code, "stop_name": clean_name(place["name"]),
                 "stop_lat": f"{place['lat']:.6f}" if place["lat"] is not None else "",
                 "stop_lon": f"{place['lon']:.6f}" if place["lon"] is not None else "",
             }
@@ -336,7 +396,10 @@ class GtfsBuilder:
             self.used_routes.add(line_ref)
             self.by_category[line["name"]] += 1
             headsign = self.stops[rows[-1][0]]["stop_name"]
-            self.trips.append([line["code"], service_id, trip_id, name, headsign])
+            # Extraire le numéro de train du trip_id pour trip_short_name
+            train_number = extract_train_number(trip_id, self.agency_id)
+            trip_short_name = train_number if train_number else name
+            self.trips.append([line["code"], service_id, trip_id, trip_short_name, headsign])
             for seq, (stop_id, arr_t, dep_t, boarding, alighting) in enumerate(rows, 1):
                 pickup = "0" if boarding and seq < len(rows) else "1"
                 drop_off = "0" if alighting and seq > 1 else "1"
@@ -405,7 +468,13 @@ def process_source(agency_id: str, source: dict, input_file: str = None):
         with open_xml(src) as stream:
             netex.parse(stream)
 
-    builder = GtfsBuilder(netex)
+    # Charger le mapping UIC pour Italo
+    uic_mapping = {}
+    if agency_id == "ITALO":
+        stations_csv_path = os.path.join(os.path.dirname(BASE_DIR), "stations.csv")
+        uic_mapping = load_ntv_uic_mapping(stations_csv_path)
+
+    builder = GtfsBuilder(netex, agency_id, uic_mapping)
     builder.build()
 
     if not builder.trips:
