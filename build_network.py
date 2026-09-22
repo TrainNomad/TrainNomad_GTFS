@@ -108,10 +108,7 @@ TRENITALIA_TYPES = {
 }
 
 # route_short_name du GTFS Italo -> type affiché
-ITALO_TYPES = {
-    "9900": "Italo",
-    "ITALO": "Italo",
-}
+ITALO_TYPES = {}
 
 # route_short_name du GTFS CP (Portugal) -> type affiché
 CP_TYPES = {
@@ -606,7 +603,9 @@ class NetworkBuilder:
         elif op_id == "ITALO":
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
-            ttype = ITALO_TYPES.get(rs.upper(), route.get("route_long_name", "") or "Italo")
+            long_name = route.get("route_long_name", "") or "Italo"
+            # Si le nom commence par un chiffre (code NeTEx comme "8993_#3"), utiliser "Italo"
+            ttype = "Italo" if long_name and long_name[0].isdigit() else long_name
         elif op_id == "CP":
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
