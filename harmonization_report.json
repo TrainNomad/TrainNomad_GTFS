@@ -2,7 +2,7 @@
   "stops_matched_ref": 10889,
   "stops_unmatched": 681,
   "stops_matched_geo": 53,
-  "trips_merged": 22973,
+  "trips_merged": 22978,
   "trips_SNCF": 37364,
   "trips_EUROSTAR": 11038,
   "trips_RENFE": 7131,
@@ -13,10 +13,10 @@
   "trips_ITALO": 2009,
   "trips_CP": 1783,
   "routes": 39001,
-  "trips": 276013,
+  "trips": 276008,
   "stops": 9404,
   "cities": 8898,
   "footpaths": 4122,
-  "stop_times": 2911641,
+  "stop_times": 2911604,
   "day_sets": 15753
 }
