@@ -402,6 +402,21 @@ class GtfsBuilder:
                 trip_id = sj_id
             seen_trip_ids.add(trip_id)
 
+            # Vérifier et corriger l'ordre des arrêts si nécessaire
+            # Le NeTEx peut lister les arrêts dans le désordre
+            original_order = [r[0] for r in rows]
+            rows_sorted = sorted(rows, key=lambda r: (r[1] or r[2]))  # Trier par arrival_time ou departure_time
+
+            # Si l'ordre a changé, c'est qu'il y a un problème dans le NeTEx
+            if [r[0] for r in rows_sorted] != original_order:
+                self.stats["journeys_reordered"] += 1
+                if self.agency_id == "ITALO":
+                    logging.warning(
+                        f"⚠️  Trip {trip_id}: arrêts réordonnés par horaire (probablement erreur NeTEx Italo). "
+                        f"Avant: {original_order[:5]}... Après: {[r[0] for r in rows_sorted][:5]}..."
+                    )
+                rows = rows_sorted
+
             self.used_routes.add(line_ref)
             self.by_category[line["name"]] += 1
             headsign = self.stops[rows[-1][0]]["stop_name"]
