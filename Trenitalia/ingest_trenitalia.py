@@ -278,18 +278,27 @@ def uic7(code: str) -> str:
 def extract_train_number(trip_id: str, agency_id: str) -> str:
     """Extrait le numéro de train de la structure trip_id.
 
-    Pour Italo: 1002-9954--1-1-1 -> 9954
+    Pour Italo:
+      - 1002-9954--1-1-1 -> 9954 (2e segment)
+      - 8158--1-1-1 -> 8158 (1er segment si 2e vide)
     Pour Trenitalia: 10083_0_1-10201-1C27-0083 -> 10201
     """
     if not trip_id:
         return ""
 
     if agency_id == "ITALO":
-        # Structure: code1-train_number--other-parts ou code1-train_number-other-parts
+        # Structure: code1-train_number--other-parts ou code1--other-parts
         parts = trip_id.split("-")
-        if len(parts) >= 2:
-            train_num = parts[1]
-            return train_num if train_num.isdigit() else ""
+
+        # Essayer le 2e segment d'abord (structure 1002-9954--1-1-1)
+        if len(parts) >= 2 and parts[1].isdigit():
+            return parts[1]
+
+        # Sinon utiliser le 1er segment (structure 8158--1-1-1)
+        if len(parts) >= 1 and parts[0].isdigit():
+            return parts[0]
+
+        return ""
     elif agency_id == "TRENITALIA":
         # Structure: code1_x_y-train_number-other ou similaire
         # Chercher le premier segment numérique après le premier tiret
