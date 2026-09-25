@@ -125,6 +125,99 @@ OUIGO_ES_TYPES = {
     "OUIGO": "Ouigo España",
 }
 
+# route_short_name du GTFS Suisse (SBB/CFF/FFS) -> type affiché
+SWISS_TYPES = {
+    # Grands acteurs
+    "S": "S-Bahn",
+    "S1": "S-Bahn",
+    "S2": "S-Bahn",
+    "S3": "S-Bahn",
+    "S4": "S-Bahn",
+    "S5": "S-Bahn",
+    "S6": "S-Bahn",
+    "S7": "S-Bahn",
+    "S8": "S-Bahn",
+    "S9": "S-Bahn",
+    "S10": "S-Bahn",
+    "S11": "S-Bahn",
+    "S12": "S-Bahn",
+    "S13": "S-Bahn",
+    "S14": "S-Bahn",
+    "S15": "S-Bahn",
+    "S16": "S-Bahn",
+    "S17": "S-Bahn",
+    "S19": "S-Bahn",
+    "S20": "S-Bahn",
+    "S21": "S-Bahn",
+    "S22": "S-Bahn",
+    "S23": "S-Bahn",
+    "S24": "S-Bahn",
+    "S25": "S-Bahn",
+    "S26": "S-Bahn",
+    "S27": "S-Bahn",
+    "S28": "S-Bahn",
+    "S29": "S-Bahn",
+    "S30": "S-Bahn",
+    "S31": "S-Bahn",
+    "S32": "S-Bahn",
+    "S33": "S-Bahn",
+    "S35": "S-Bahn",
+    "S36": "S-Bahn",
+    "S37": "S-Bahn",
+    "S40": "S-Bahn",
+    "S41": "S-Bahn",
+    "R": "Regional",
+    "RE": "RegioExpress",
+    "IR": "RegioExpress",
+    "IR13": "RegioExpress",
+    "IR15": "RegioExpress",
+    "IR16": "RegioExpress",
+    "IR17": "RegioExpress",
+    "IR26": "RegioExpress",
+    "IR27": "RegioExpress",
+    "IR35": "RegioExpress",
+    "IR36": "RegioExpress",
+    "IR37": "RegioExpress",
+    "IR38": "RegioExpress",
+    "IR46": "RegioExpress",
+    "IR55": "RegioExpress",
+    "IR56": "RegioExpress",
+    "IR57": "RegioExpress",
+    "IR65": "RegioExpress",
+    "IR66": "RegioExpress",
+    "IR70": "RegioExpress",
+    "IR75": "RegioExpress",
+    "IR90": "RegioExpress",
+    "IR95": "RegioExpress",
+    "TER": "Train Express Regional",
+    "IC": "InterCity",
+    "IC1": "InterCity",
+    "IC2": "InterCity",
+    "IC3": "InterCity",
+    "IC5": "InterCity",
+    "IC6": "InterCity",
+    "IC8": "InterCity",
+    "IC9": "InterCity",
+    "IC21": "InterCity",
+    "IC24": "InterCity",
+    "IC51": "InterCity",
+    "IC55": "InterCity",
+    "IC61": "InterCity",
+    "IC81": "InterCity",
+    "EC": "EuroCity",
+    "ICE": "ICE",
+    # Trains touristiques/montagne
+    "CC": "Chemins de fer",
+    "PE": "Chemin de fer",
+    "RB": "Chemin de fer",
+    "RJX": "RailJet",
+    "NJ": "Night Jet",
+    # Autres
+    "TGV": "TGV Thalys",
+    "SN": "Chemin de fer",
+    "EXT": "Train",
+}
+
 
 # ---------------------------------------------------------------------------
 # Utilitaires
@@ -344,6 +437,17 @@ class StationRef:
         elif op == "OUIGO_ES":
             # Ouigo Espagne : mêmes gares que Renfe
             rid = self.by_renfe.get(stop_id) or self.by_uic.get("71" + stop_id.zfill(5))
+        elif op == "SWISS":
+            # Suisse : stop_id = UIC codes (85xxxxx)
+            # Extraire UIC et chercher dans stations.csv
+            clean_id = stop_id.split(":")[0] if stop_id and ":" in stop_id else stop_id
+            if clean_id and clean_id.startswith("85"):
+                rid = self.by_uic.get(clean_id)
+            if not rid:
+                # Fallback : rechercher UIC dans stop_id
+                m = re.search(r"85\d{5}", stop_id or "")
+                if m:
+                    rid = self.by_uic.get(m.group(0))
         else:
             for cand in (stop_code, stop_id):
                 m = re.search(r"\d{7,8}", cand or "")
@@ -627,6 +731,10 @@ class NetworkBuilder:
         elif op_id == "OUIGO_ES":
             number = meta.get("trip_short_name", "")
             ttype = "Ouigo España"
+        elif op_id == "SWISS":
+            number = meta.get("trip_short_name", "")
+            rs = route.get("route_short_name", "")
+            ttype = SWISS_TYPES.get(rs, route.get("route_long_name", "") or "Train Suisse")
         else:
             number = meta.get("trip_short_name", "") or meta.get("trip_headsign", "")
             ttype = route.get("route_short_name", "") or route.get("route_long_name", "") or op_id
