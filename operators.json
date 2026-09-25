@@ -120,7 +120,8 @@
     "gtfs_dir": "./OUIGO_ES",
     "gtfs_path": "./OUIGO_ES/ouigo_es_gtfs.zip",
     "script_path": "./OUIGO_ES/ingest_ouigo_es.py",
-    "gtfs_url": "https://nap.transportes.gob.es/api/v1/dataset/1515/download",
+    "gtfs_url": "https://nap.transportes.gob.es/api/Fichero/download/1766",
+    "nap_api_key_header": true,
     "transport_types": [
       "Ouigo España"
     ]

@@ -192,10 +192,18 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
     headers = {}
     api_key = op.get("api_key") or os.environ.get(f"{op['id']}_API_KEY")
     if api_key:
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "X-API-KEY": api_key,
-        }
+        if op.get("nap_api_key_header"):
+            # Format NAP (Punto de Acceso Nacional) : use ApiKey header
+            headers = {
+                "ApiKey": api_key,
+                "accept": "application/octet-stream",
+            }
+        else:
+            # Format standard : use Bearer token
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "X-API-KEY": api_key,
+            }
     try:
         with requests.get(op["gtfs_url"], headers=headers, stream=True, timeout=300) as r:
             r.raise_for_status()
@@ -207,7 +215,12 @@ def fetch_feed(op: dict, refresh: bool) -> str | None:
         logging.warning(f"  [{op['id']}] Erreur SSL avec requests, nouvel essai avec curl")
         curl_cmd = ["curl", "-sSfL", "-o", tmp, op["gtfs_url"]]
         if op.get("api_key"):
-            curl_cmd.extend(["-H", f"Authorization: Bearer {op['api_key']}", "-H", f"X-API-KEY: {op['api_key']}"])
+            if op.get("nap_api_key_header"):
+                # Format NAP
+                curl_cmd.extend(["-H", f"ApiKey: {op['api_key']}", "-H", "accept: application/octet-stream"])
+            else:
+                # Format standard
+                curl_cmd.extend(["-H", f"Authorization: Bearer {op['api_key']}", "-H", f"X-API-KEY: {op['api_key']}"])
         try:
             subprocess.run(curl_cmd, check=True)
         except subprocess.CalledProcessError as e:
