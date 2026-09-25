@@ -256,6 +256,8 @@ def read_gtfs(z: zipfile.ZipFile, name: str):
 
 def parse_minutes(series: pd.Series) -> np.ndarray:
     """'8:30:00' / '25:10:00' -> minutes depuis le début du jour de service."""
+    # Remplacer les strings vides par "0:00:00" pour éviter les erreurs de parsing
+    series = series.fillna("0:00:00").replace("", "0:00:00")
     parts = series.str.split(":", n=2, expand=True)
     return (parts[0].astype(int) * 60 + parts[1].astype(int)).to_numpy(np.int32)
 
