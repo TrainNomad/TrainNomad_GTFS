@@ -125,5 +125,23 @@
     "transport_types": [
       "Ouigo España"
     ]
+  },
+  {
+    "id": "SWISS",
+    "name": "SBB/CFF/FFS (Switzerland)",
+    "enabled": true,
+    "gtfs_dir": "./SWISS",
+    "gtfs_path": "./SWISS/swiss_gtfs.zip",
+    "script_path": "./SWISS/ingest_swiss_gtfs.py",
+    "gtfs_url": "https://gtfs.geops.ch/dl/gtfs_train.zip",
+    "transport_types": [
+      "S-Bahn",
+      "Regional",
+      "RegioExpress",
+      "InterCity",
+      "EuroCity",
+      "TGV Thalys",
+      "Night Jet"
+    ]
   }
 ]
