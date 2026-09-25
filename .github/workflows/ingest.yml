@@ -27,9 +27,17 @@ jobs:
     - name: Télécharger et patcher le GTFS CP
       run: python CP/ingest_cp.py
 
+    # Ouigo España : télécharge via l'API Renfe (NAP) avec authentification
+    - name: Télécharger le GTFS Ouigo España
+      run: python OUIGO_ES/ingest_ouigo_es.py
+      env:
+        OUIGO_ES_API_KEY: ${{ secrets.OUIGO_ES_API_KEY }}
+
     - name: Compiler le réseau pour le moteur de routage (network.bin)
       run: |
         python build_network.py --refresh
+      env:
+        OUIGO_ES_API_KEY: ${{ secrets.OUIGO_ES_API_KEY }}
 
     - name: Commit et push des fichiers générés
       run: |
