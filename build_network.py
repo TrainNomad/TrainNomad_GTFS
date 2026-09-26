@@ -344,13 +344,13 @@ class StationRef:
     def __init__(self, path: str):
         logging.info("📖 Chargement de stations.csv")
         cols = ["id", "name", "uic", "uic8_sncf", "latitude", "longitude", "parent_station_id",
-                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "cp_id", "same_as"]
+                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "cp_id", "cff_id", "same_as"]
         # Charger uniquement les colonnes existantes
         all_cols = pd.read_csv(path, sep=";", nrows=0, encoding="utf-8").columns.tolist()
         cols = [c for c in cols if c in all_cols]
         df = pd.read_csv(path, sep=";", dtype=str, keep_default_na=False, usecols=cols, encoding="utf-8")
         self.rows = {}
-        self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc, self.by_trenitalia, self.by_cp = {}, {}, {}, {}, {}, {}
+        self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc, self.by_trenitalia, self.by_cp, self.by_cff = {}, {}, {}, {}, {}, {}, {}
         for r in df.itertuples(index=False):
             self.rows[r.id] = {
                 "id": r.id, "name": r.name, "lat": to_float(r.latitude), "lon": to_float(r.longitude),
@@ -370,7 +370,9 @@ class StationRef:
                 self.by_trenitalia[r.trenitalia_id] = r.id
             if hasattr(r, "cp_id") and r.cp_id and r.cp_id not in self.by_cp:
                 self.by_cp[r.cp_id] = r.id
-        logging.info(f"   {len(self.rows)} lignes, {len(self.by_uic)} UIC")
+            if hasattr(r, "cff_id") and r.cff_id and r.cff_id not in self.by_cff:
+                self.by_cff[r.cff_id] = r.id
+        logging.info(f"   {len(self.rows)} lignes, {len(self.by_uic)} UIC, {len(self.by_cff)} CFF")
 
     def canonical(self, rid: str) -> str:
         """Suit same_as puis remonte les parents non-ville : un même complexe = une gare."""
@@ -446,10 +448,13 @@ class StationRef:
             if clean_id and clean_id.startswith("85"):
                 rid = self.by_uic.get(clean_id)
             if not rid:
-                # Fallback : rechercher UIC dans stop_id
+                # Fallback 1 : rechercher UIC dans stop_id
                 m = re.search(r"85\d{5}", stop_id or "")
                 if m:
                     rid = self.by_uic.get(m.group(0))
+            if not rid:
+                # Fallback 2 : rechercher via cff_id (colonne stations.csv)
+                rid = self.by_cff.get(clean_id or stop_id)
         else:
             for cand in (stop_code, stop_id):
                 m = re.search(r"\d{7,8}", cand or "")
