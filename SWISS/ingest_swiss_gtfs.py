@@ -116,15 +116,16 @@ def download_swiss_gtfs() -> str:
 
 def filter_gtfs_by_operators(input_zip: str, output_zip: str):
     """
-    Filtre le GTFS pour ne garder que les operateurs specifiques.
+    Filtre le GTFS pour ne garder que les operateurs specifiques et les vrais arrets (UIC codes).
 
     Logique:
       1. Lire agency.txt et identifier les operateurs a conserver
       2. Lire trips.txt et identifier les trips pour ces operateurs
       3. Lire stop_times.txt et identifier les stops utilises
-      4. Re-generer les fichiers filtrés
+      4. Filtrer les stops non-UIC (tunnels, sections d'infrastructure)
+      5. Re-generer les fichiers filtrés
     """
-    print("\n[INFO] Filtrage GTFS par operateurs...")
+    print("\n[INFO] Filtrage GTFS par operateurs et arrets UIC...")
 
     with zipfile.ZipFile(input_zip, 'r') as z_in:
         # Etape 1: Charger toutes les donnees
@@ -170,23 +171,41 @@ def filter_gtfs_by_operators(input_zip: str, output_zip: str):
         stop_times = stop_times[stop_times["trip_id"].isin(trips["trip_id"])]
         print(f"      {stop_times_orig} → {len(stop_times)} horaires")
 
-        # Etape 6: Filtrer stops par les stop_times
-        print("  [6] Filtrage arrets...")
+        # Etape 6: Filtrer stops par les stop_times + rejeter les non-UIC
+        print("  [6] Filtrage arrets (UIC seulement)...")
         stops_with_trips = set(stop_times["stop_id"].unique())
+        # Garder uniquement les stops commencant par "85" (UIC codes suisse)
+        uic_stops = {sid for sid in stops_with_trips if str(sid).startswith("85")}
         stops_orig = len(stops)
-        stops = stops[stops["stop_id"].isin(stops_with_trips)]
-        print(f"      {stops_orig} → {len(stops)} arrets")
+        stops = stops[stops["stop_id"].isin(uic_stops)]
+        stops_filtered_count = len(stops)
+        print(f"      {stops_orig} arrets totaux → {stops_filtered_count} arrets UIC (85xxxxx)")
 
-        # Etape 7: Filtrer transfers
+        # Mettre a jour stop_times pour les stops UIC uniquement
+        stop_times = stop_times[stop_times["stop_id"].isin(uic_stops)]
+        print(f"      Horaires: {stop_times_orig} → {len(stop_times)}")
+
+        # Etape 7: Filtrer trips qui ont au moins un stop UIC
+        print("  [7] Filtrage trajets orphelins...")
+        trips_with_valid_stops = set()
+        for trip_id in trips["trip_id"]:
+            trip_stops = stop_times[stop_times["trip_id"] == trip_id]["stop_id"].values
+            if len(trip_stops) > 0:
+                trips_with_valid_stops.add(trip_id)
+        trips_before = len(trips)
+        trips = trips[trips["trip_id"].isin(trips_with_valid_stops)]
+        print(f"      {trips_before} → {len(trips)} trajets valides")
+
+        # Etape 8: Filtrer transfers
         if transfers is not None:
-            print("  [7] Filtrage transferts...")
+            print("  [8] Filtrage transferts...")
             transfers = transfers[
-                (transfers["from_stop_id"].isin(stops_with_trips)) &
-                (transfers["to_stop_id"].isin(stops_with_trips))
+                (transfers["from_stop_id"].isin(uic_stops)) &
+                (transfers["to_stop_id"].isin(uic_stops))
             ]
 
-        # Etape 8: Ecrire nouveau ZIP
-        print("  [8] Ecriture GTFS filtre...")
+        # Etape 9: Ecrire nouveau ZIP
+        print("  [9] Ecriture GTFS filtre...")
         with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as z_out:
             z_out.writestr("agency.txt", agency.to_csv(index=False))
             z_out.writestr("calendar.txt", calendar.to_csv(index=False))
