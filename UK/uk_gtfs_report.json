@@ -1,99 +1,103 @@
 {
-  "generated_at": "2026-09-20T05:34:15+00:00",
+  "generated_at": "2026-09-27T06:02:16+00:00",
   "window": [
-    "2026-09-18",
-    "2027-02-06"
+    "2026-09-25",
+    "2027-02-13"
   ],
   "cif_header": {
-    "file": "DFTTISY",
+    "file": "DFTTISF",
     "extract": "190711",
     "update": "F"
   },
-  "zip_mb": 18.56,
+  "zip_mb": 18.69,
   "stats": {
     "stations_matched_ref": 2709,
-    "cif_schedules": 501764,
-    "trips_merged": 173909,
-    "trips_too_few_stops": 121,
-    "trips": 233428,
+    "cif_schedules": 503159,
+    "trips_merged": 172789,
+    "trips_too_few_stops": 112,
+    "trips": 235566,
     "unknown_atoc_QC": 1,
-    "stops": 2736,
-    "routes": 6728,
-    "services": 10938,
+    "stops": 2737,
+    "routes": 6764,
+    "services": 10731,
     "agencies": 32
   },
   "unmatched_tiplocs_top": [
     [
       "EPHT",
-      4167
+      3583
     ],
     [
       "TRNHMGN",
-      2660
+      3025
     ],
     [
       "UPMNLT",
-      1731
+      2123
     ],
     [
       "SGOS",
-      997
+      1405
     ],
     [
       "PELAWTW",
-      996
+      1404
     ],
     [
       "NWCSRC",
-      965
+      1370
     ],
     [
       "CIVI",
-      961
+      1364
     ],
     [
       "UNIV",
-      943
+      1342
     ],
     [
       "MLLF",
-      943
+      1342
     ],
     [
       "PALL",
-      943
+      1342
     ],
     [
       "STHH",
-      943
+      1342
     ],
     [
       "RIC----",
-      663
+      614
     ],
     [
       "CLW----",
-      655
+      608
     ],
     [
       "CFO----",
-      655
+      608
     ],
     [
       "HOH----",
-      653
+      605
     ],
     [
       "AMR----",
-      646
+      600
     ],
     [
       "ZBS----",
-      635
+      585
     ],
     [
       "GOP----",
       543
+    ],
+    [
+      "STQ----",
+      472
     ],
     [
       "LPY----",
@@ -116,16 +120,12 @@
       236
     ],
     [
+      "TOWERHL",
+      226
+    ],
+    [
       "XRD----",
       224
-    ],
-    [
-      "TOWERHL",
-      222
-    ],
-    [
-      "STQ----",
-      214
     ],
     [
       "POR----",
@@ -140,8 +140,8 @@
       126
     ],
     [
-      "PMH----",
-      120
+      "WTW----",
+      121
     ]
   ]
 }
