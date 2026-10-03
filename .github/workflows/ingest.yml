@@ -5,6 +5,9 @@ on:
     - cron: '0 3 * * 0'
   workflow_dispatch:
 
+permissions:
+  contents: write # commit des fichiers générés + Release network-latest
+
 jobs:
   build-and-update:
     runs-on: ubuntu-latest
@@ -47,3 +50,31 @@ jobs:
         git add CP/cp_gtfs.zip || true
         git commit -m "Auto-update: Mise à jour GTFS harmonisé" || exit 0
         git push
+
+    # URL fixe lue par l'API Europe (NETWORK_URL) :
+    # https://github.com/TrainNomad/TrainNomad_GTFS/releases/download/network-latest/network.bin.gz
+    # L'API télécharge et recharge le réseau à chaud : aucun build Render.
+    - name: Publier le réseau dans la Release network-latest
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG=network-latest
+        NOTES="Réseau Europe compilé le $(date -u +%Y-%m-%dT%H:%M:%SZ) (run ${{ github.run_id }}). Lu par l'API Europe : ne pas supprimer."
+        if ! gh release view "$TAG" >/dev/null 2>&1; then
+          gh release create "$TAG" --title "Réseau Europe (dernière version)" --notes "$NOTES" --latest=false
+        fi
+        gh release upload "$TAG" network.bin.gz harmonization_report.json --clobber
+        gh release edit "$TAG" --notes "$NOTES"
+
+    # Une API endormie retélécharge de toute façon la dernière version à son réveil ; cet appel
+    # ne sert qu'à mettre à jour une instance éveillée.
+    - name: Demander à l'API Europe de recharger le réseau
+      env:
+        API_URL: ${{ secrets.EUROPE_API_URL }}
+        RELOAD_TOKEN: ${{ secrets.RELOAD_TOKEN }}
+      run: |
+        if [ -z "$API_URL" ] || [ -z "$RELOAD_TOKEN" ]; then
+          echo "::warning::Secrets EUROPE_API_URL / RELOAD_TOKEN absents : l'API ne chargera le nouveau réseau qu'à son prochain réveil."
+          exit 0
+        fi
+        curl -fsS --retry 5 --retry-delay 15 --retry-all-errors --max-time 120 -X POST -H "Authorization: Bearer $RELOAD_TOKEN" "${API_URL%/}/reload"

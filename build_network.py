@@ -59,52 +59,52 @@ NO_PICKUP = 1
 NO_DROPOFF = 2
 
 SNCF_TYPES = {
-    "Train TER": "TER",
-    "Car TER": "Car TER",
-    "TGV INOUI": "TGV INOUI",
-    "OUIGO": "OUIGO",
-    "INTERCITES": "sncf Intercités",
-    "INTERCITES de nuit": "sncf Intercités de nuit",
-    "ICE": "ICE",
-    "Lyria": "TGV Lyria",
-    "TramTrain": "Tram-train",
-    "Car à réservation": "Car",
-    "Navette": "Navette",
-    "Train": "Train",
+    "Train TER": "SNCF TER",
+    "Car TER": "SNCF Car TER",
+    "TGV INOUI": "SNCF TGV INOUI",
+    "OUIGO": "SNCF OUIGO",
+    "INTERCITES": "SNCF Intercités",
+    "INTERCITES de nuit": "SNCF Intercités de nuit",
+    "ICE": "SNCF ICE",
+    "Lyria": "SNCF TGV Lyria",
+    "TramTrain": "SNCF Tram-train",
+    "Car à réservation": "SNCF Car",
+    "Navette": "SNCF Navette",
+    "Train": "SNCF Train",
 }
 
 RENFE_TYPES = {
-    "AVE": "AVE",
-    "AVE INT": "AVE International",
-    "AVLO": "Avlo",
-    "ALVIA": "Alvia",
-    "INTERCITY": "renfe Intercity",
-    "EUROMED": "Euromed",
-    "MD": "Media Distancia",
-    "REGIONAL": "Regional",
-    "REG.EXP.": "Regional Exprés",
-    "PROXIMDAD": "Proximidad",
-    "AVANT": "Avant",
-    "AVANT EXP": "Avant Exprés",
-    "TRENCELTA": "Tren Celta",
+    "AVE": "Renfe AVE",
+    "AVE INT": "Renfe AVE International",
+    "AVLO": "Renfe Avlo",
+    "ALVIA": "Renfe Alvia",
+    "INTERCITY": "Renfe Intercity",
+    "EUROMED": "Renfe Euromed",
+    "MD": "Renfe Media Distancia",
+    "REGIONAL": "Renfe Regional",
+    "REG.EXP.": "Renfe Regional Exprés",
+    "PROXIMDAD": "Renfe Proximidad",
+    "AVANT": "Renfe Avant",
+    "AVANT EXP": "Renfe Avant Exprés",
+    "TRENCELTA": "Renfe Tren Celta",
 }
 
 # route_short_name du GTFS Trenitalia (PublicCode des Line NeTEx) -> type affiché
 TRENITALIA_TYPES = {
-    "FR": "Frecciarossa",
-    "FA": "Frecciargento",
-    "FB": "Frecciabianca",
-    "FL": "FrecciaLink",
-    "IC": "trenitalia Intercity",
-    "ICN": "trenitalia_Intercity_Notte",
-    "EC": "trenitalia EuroCity",
-    "EN": "EuroNight",
-    "EXP": "Espresso",
-    "RV": "Regionale Veloce",
-    "REG": "Regionale",
-    "MET": "Metropolitano",
-    "SFM": "SFM",
-    "BUS": "Bus",
+    "FR": "Trenitalia Frecciarossa",
+    "FA": "Trenitalia Frecciargento",
+    "FB": "Trenitalia Frecciabianca",
+    "FL": "Trenitalia FrecciaLink",
+    "IC": "Trenitalia Intercity",
+    "ICN": "Trenitalia Intercity Notte",
+    "EC": "Trenitalia EuroCity",
+    "EN": "Trenitalia EuroNight",
+    "EXP": "Trenitalia Espresso",
+    "RV": "Trenitalia Regionale Veloce",
+    "REG": "Trenitalia Regionale",
+    "MET": "Trenitalia Metropolitano",
+    "SFM": "Trenitalia SFM",
+    "BUS": "Trenitalia Bus",
 }
 
 # route_short_name du GTFS Italo -> type affiché
@@ -112,12 +112,12 @@ ITALO_TYPES = {}
 
 # route_short_name du GTFS CP (Portugal) -> type affiché
 CP_TYPES = {
-    "AP": "Alfa Pendular",
-    "IC": "cp Intercidades",
-    "IR": "InterRegional",
-    "R": "cp Regional",
-    "U": "Urbano",
-    "S": "Suburbano",
+    "AP": "CP Alfa Pendular",
+    "IC": "CP Intercidades",
+    "IR": "CP InterRegional",
+    "R": "CP Regional",
+    "U": "CP Urbano",
+    "S": "CP Suburbano",
 }
 
 # route_short_name du GTFS Ouigo España -> type affiché
@@ -127,95 +127,95 @@ OUIGO_ES_TYPES = {
 
 # route_short_name du GTFS Suisse (SBB/CFF/FFS) -> type affiché
 SWISS_TYPES = {
-    # Grands acteurs
-    "S": "S-Bahn",
-    "S1": "S-Bahn",
-    "S2": "S-Bahn",
-    "S3": "S-Bahn",
-    "S4": "S-Bahn",
-    "S5": "S-Bahn",
-    "S6": "S-Bahn",
-    "S7": "S-Bahn",
-    "S8": "S-Bahn",
-    "S9": "S-Bahn",
-    "S10": "S-Bahn",
-    "S11": "S-Bahn",
-    "S12": "S-Bahn",
-    "S13": "S-Bahn",
-    "S14": "S-Bahn",
-    "S15": "S-Bahn",
-    "S16": "S-Bahn",
-    "S17": "S-Bahn",
-    "S19": "S-Bahn",
-    "S20": "S-Bahn",
-    "S21": "S-Bahn",
-    "S22": "S-Bahn",
-    "S23": "S-Bahn",
-    "S24": "S-Bahn",
-    "S25": "S-Bahn",
-    "S26": "S-Bahn",
-    "S27": "S-Bahn",
-    "S28": "S-Bahn",
-    "S29": "S-Bahn",
-    "S30": "S-Bahn",
-    "S31": "S-Bahn",
-    "S32": "S-Bahn",
-    "S33": "S-Bahn",
-    "S35": "S-Bahn",
-    "S36": "S-Bahn",
-    "S37": "S-Bahn",
-    "S40": "S-Bahn",
-    "S41": "S-Bahn",
-    "R": "Regional",
-    "RE": "RegioExpress",
-    "IR": "RegioExpress",
-    "IR13": "RegioExpress",
-    "IR15": "RegioExpress",
-    "IR16": "RegioExpress",
-    "IR17": "RegioExpress",
-    "IR26": "RegioExpress",
-    "IR27": "RegioExpress",
-    "IR35": "RegioExpress",
-    "IR36": "RegioExpress",
-    "IR37": "RegioExpress",
-    "IR38": "RegioExpress",
-    "IR46": "RegioExpress",
-    "IR55": "RegioExpress",
-    "IR56": "RegioExpress",
-    "IR57": "RegioExpress",
-    "IR65": "RegioExpress",
-    "IR66": "RegioExpress",
-    "IR70": "RegioExpress",
-    "IR75": "RegioExpress",
-    "IR90": "RegioExpress",
-    "IR95": "RegioExpress",
-    "TER": "Train Express Regional",
-    "IC": "InterCity",
-    "IC1": "InterCity",
-    "IC2": "InterCity",
-    "IC3": "InterCity",
-    "IC5": "InterCity",
-    "IC6": "InterCity",
-    "IC8": "InterCity",
-    "IC9": "InterCity",
-    "IC21": "InterCity",
-    "IC24": "InterCity",
-    "IC51": "InterCity",
-    "IC55": "InterCity",
-    "IC61": "InterCity",
-    "IC81": "InterCity",
-    "EC": "EuroCity",
-    "ICE": "ICE",
+    # Grands acteurs - SBB S-Bahn
+    "S": "SBB S-Bahn",
+    "S1": "SBB S-Bahn",
+    "S2": "SBB S-Bahn",
+    "S3": "SBB S-Bahn",
+    "S4": "SBB S-Bahn",
+    "S5": "SBB S-Bahn",
+    "S6": "SBB S-Bahn",
+    "S7": "SBB S-Bahn",
+    "S8": "SBB S-Bahn",
+    "S9": "SBB S-Bahn",
+    "S10": "SBB S-Bahn",
+    "S11": "SBB S-Bahn",
+    "S12": "SBB S-Bahn",
+    "S13": "SBB S-Bahn",
+    "S14": "SBB S-Bahn",
+    "S15": "SBB S-Bahn",
+    "S16": "SBB S-Bahn",
+    "S17": "SBB S-Bahn",
+    "S19": "SBB S-Bahn",
+    "S20": "SBB S-Bahn",
+    "S21": "SBB S-Bahn",
+    "S22": "SBB S-Bahn",
+    "S23": "SBB S-Bahn",
+    "S24": "SBB S-Bahn",
+    "S25": "SBB S-Bahn",
+    "S26": "SBB S-Bahn",
+    "S27": "SBB S-Bahn",
+    "S28": "SBB S-Bahn",
+    "S29": "SBB S-Bahn",
+    "S30": "SBB S-Bahn",
+    "S31": "SBB S-Bahn",
+    "S32": "SBB S-Bahn",
+    "S33": "SBB S-Bahn",
+    "S35": "SBB S-Bahn",
+    "S36": "SBB S-Bahn",
+    "S37": "SBB S-Bahn",
+    "S40": "SBB S-Bahn",
+    "S41": "SBB S-Bahn",
+    "R": "Swiss Regional",
+    "RE": "Swiss RegioExpress",
+    "IR": "Swiss RegioExpress",
+    "IR13": "Swiss RegioExpress",
+    "IR15": "Swiss RegioExpress",
+    "IR16": "Swiss RegioExpress",
+    "IR17": "Swiss RegioExpress",
+    "IR26": "Swiss RegioExpress",
+    "IR27": "Swiss RegioExpress",
+    "IR35": "Swiss RegioExpress",
+    "IR36": "Swiss RegioExpress",
+    "IR37": "Swiss RegioExpress",
+    "IR38": "Swiss RegioExpress",
+    "IR46": "Swiss RegioExpress",
+    "IR55": "Swiss RegioExpress",
+    "IR56": "Swiss RegioExpress",
+    "IR57": "Swiss RegioExpress",
+    "IR65": "Swiss RegioExpress",
+    "IR66": "Swiss RegioExpress",
+    "IR70": "Swiss RegioExpress",
+    "IR75": "Swiss RegioExpress",
+    "IR90": "Swiss RegioExpress",
+    "IR95": "Swiss RegioExpress",
+    "TER": "Swiss TER",
+    "IC": "SBB InterCity",
+    "IC1": "SBB InterCity",
+    "IC2": "SBB InterCity",
+    "IC3": "SBB InterCity",
+    "IC5": "SBB InterCity",
+    "IC6": "SBB InterCity",
+    "IC8": "SBB InterCity",
+    "IC9": "SBB InterCity",
+    "IC21": "SBB InterCity",
+    "IC24": "SBB InterCity",
+    "IC51": "SBB InterCity",
+    "IC55": "SBB InterCity",
+    "IC61": "SBB InterCity",
+    "IC81": "SBB InterCity",
+    "EC": "SBB EuroCity",
+    "ICE": "SBB ICE",
     # Trains touristiques/montagne
-    "CC": "Chemins de fer",
-    "PE": "Chemin de fer",
-    "RB": "Chemin de fer",
-    "RJX": "RailJet",
-    "NJ": "Night Jet",
+    "CC": "Swiss Chemins de fer",
+    "PE": "Swiss Chemin de fer",
+    "RB": "Swiss Chemin de fer",
+    "RJX": "SBB RailJet",
+    "NJ": "SBB Night Jet",
     # Autres
-    "TGV": "TGV Thalys",
-    "SN": "Chemin de fer",
-    "EXT": "Train",
+    "TGV": "SBB TGV Thalys",
+    "SN": "Swiss Chemin de fer",
+    "EXT": "Swiss Train",
 }
 
 
@@ -692,12 +692,12 @@ class NetworkBuilder:
         if op_id == "SNCF":
             number = meta.get("trip_headsign", "")
             m = re.match(r"StopPoint:OCE(.*)-\d+$", first_stop_id)
-            ttype = SNCF_TYPES.get(m.group(1), m.group(1)) if m else "Train SNCF"
+            ttype = SNCF_TYPES.get(m.group(1), f"SNCF {m.group(1)}") if m else "SNCF Train"
         elif op_id == "RENFE":
             number = meta.get("trip_short_name", "")
             number = str(int(number)) if number.isdigit() else number
             rs = route.get("route_short_name", "")
-            ttype = RENFE_TYPES.get(rs.upper(), rs or "Renfe")
+            ttype = RENFE_TYPES.get(rs.upper(), f"Renfe {rs}" if rs else "Renfe Train")
         elif op_id == "EUROSTAR":
             number = meta.get("trip_short_name", "") or meta["trip_id"].split("-")[0]
             ttype = "Eurostar"
@@ -714,7 +714,7 @@ class NetworkBuilder:
             elif route_type == "4":
                 ttype = "Ferry"
             else:
-                ttype = self.agency_names.get(route.get("agency_id", ""), "National Rail")
+                ttype = self.agency_names.get(route.get("agency_id", ""), "UK National Rail")
         elif op_id == "EUROPEAN_SLEEPER":
             # trip_id "ES-400-2026-09-13" (un trajet par date) -> train "400"
             m = re.match(r"ES-(\d+)", meta["trip_id"]) or re.match(r"ES-(\d+)", meta["route_id"])
@@ -724,24 +724,26 @@ class NetworkBuilder:
             # trip_short_name = numéro commercial (ServiceJourney.Name), catégorie = PublicCode de la Line
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
-            ttype = TRENITALIA_TYPES.get(rs.upper(), route.get("route_long_name", "") or "Trenitalia")
+            ttype = TRENITALIA_TYPES.get(rs.upper(), f"Trenitalia {route.get('route_long_name', 'Train')}" if route.get('route_long_name') else "Trenitalia Train")
         elif op_id == "ITALO":
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
-            long_name = route.get("route_long_name", "") or "Italo"
+            long_name = route.get("route_long_name", "") or "Italo Train"
             # Si le nom commence par un chiffre (code NeTEx comme "8993_#3"), utiliser "Italo"
-            ttype = "Italo" if long_name and long_name[0].isdigit() else long_name
+            ttype = "Italo Train" if long_name and long_name[0].isdigit() else f"Italo {long_name}"
         elif op_id == "CP":
             number = meta.get("trip_short_name", "")
             rs = route.get("route_short_name", "")
-            ttype = CP_TYPES.get(rs.upper(), route.get("route_long_name", "") or "CP")
+            ttype = CP_TYPES.get(rs.upper(), f"CP {route.get('route_long_name', 'Train')}" if route.get('route_long_name') else "CP Train")
         elif op_id == "OUIGO_ES":
             number = meta.get("trip_short_name", "")
             ttype = "Ouigo España"
         elif op_id == "SWISS":
-            number = meta.get("trip_short_name", "")
+            # Include route type (IC, RE, S-Bahn) in the train number
             rs = route.get("route_short_name", "")
-            ttype = SWISS_TYPES.get(rs, route.get("route_long_name", "") or "Train Suisse")
+            trip_num = meta.get("trip_short_name", "")
+            number = f"{rs} {trip_num}".strip() if rs and trip_num else (trip_num or rs)
+            ttype = "SBB"  # Generic SBB logo for all Swiss trains
         else:
             number = meta.get("trip_short_name", "") or meta.get("trip_headsign", "")
             ttype = route.get("route_short_name", "") or route.get("route_long_name", "") or op_id

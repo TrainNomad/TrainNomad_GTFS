@@ -19,7 +19,7 @@ Header: accept: application/octet-stream
 
 ### Variables d'Environnement
 ```bash
-OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
 ```
 
 ### Documentation API NAP
@@ -89,14 +89,14 @@ Le fichier GTFS de Ouigo Espana contient:
 ### Test sans certificat SSL (dev local)
 ```bash
 cd gtfs/OUIGO_ES
-export OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+export OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
 export OUIGO_ES_SKIP_SSL_VERIFY=1
 python ingest_ouigo_es.py
 ```
 
 ### Test complet du pipeline
 ```bash
-export OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+export OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
 export OUIGO_ES_SKIP_SSL_VERIFY=1
 cd gtfs
 python OUIGO_ES/ingest_ouigo_es.py
@@ -116,7 +116,7 @@ python OUIGO_ES/verify_integration.py
 1. GitHub Repo → Settings → Secrets and variables → Actions
 2. Nouveau secret:
    - Name: `OUIGO_ES_API_KEY`
-   - Value: `5c51e865-2f81-4215-a1f0-3b73985a31fa`
+   - Value: `VOTRE-CLE-API-NAP`
 
 ### 2. Pousser le Code
 ```bash
@@ -136,7 +136,7 @@ git push
 
 ### Cle Fournie (Valide)
 ```
-5c51e865-2f81-4215-a1f0-3b73985a31fa
+VOTRE-CLE-API-NAP
 ```
 
 ### Comment la Cle Fonctionne
@@ -264,6 +264,6 @@ Si vous rencontrez des problemes:
 Tout est configure et teste. Il ne manque que d'ajouter le GitHub Secret et pousser le code.
 
 **Configuration Date**: 2026-09-25
-**API Key**: 5c51e865-2f81-4215-a1f0-3b73985a31fa
+**API Key**: VOTRE-CLE-API-NAP
 **File ID**: 1766
 **Status**: ✅ OPERATIONAL

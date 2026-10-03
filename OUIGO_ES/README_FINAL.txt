@@ -15,7 +15,7 @@ QUICK START
 
    Add:
    - Name:  OUIGO_ES_API_KEY
-   - Value: 5c51e865-2f81-4215-a1f0-3b73985a31fa
+   - Value: VOTRE-CLE-API-NAP
 
 2. PUSH CODE:
 
@@ -40,7 +40,7 @@ File ID:      1766 (Ouigo GTFS)
 Download:     GET /Fichero/download/1766
 Auth Header:  ApiKey: {key}
 
-API Key (Valid):  5c51e865-2f81-4215-a1f0-3b73985a31fa
+API Key (Valid):  VOTRE-CLE-API-NAP
 
 GTFS Contents:
   - trips.txt (2,599 bytes)
@@ -84,13 +84,13 @@ LOCAL TESTING
 
 Test Download (without SSL cert check):
 
-  export OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+  export OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
   export OUIGO_ES_SKIP_SSL_VERIFY=1
   python OUIGO_ES/ingest_ouigo_es.py
 
 Full Pipeline Test:
 
-  export OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+  export OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
   export OUIGO_ES_SKIP_SSL_VERIFY=1
   python OUIGO_ES/ingest_ouigo_es.py
   python build_network.py --refresh
@@ -157,11 +157,11 @@ NEXT STEPS
 
    Location: Settings → Secrets and variables → Actions
    Name:     OUIGO_ES_API_KEY
-   Value:    5c51e865-2f81-4215-a1f0-3b73985a31fa
+   Value:    VOTRE-CLE-API-NAP
 
 2. [RECOMMENDED] Test Locally
 
-   export OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa"
+   export OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP"
    export OUIGO_ES_SKIP_SSL_VERIFY=1
    cd gtfs/OUIGO_ES
    python ingest_ouigo_es.py
@@ -195,7 +195,7 @@ SUPPORT / TROUBLESHOOTING
 
 Q: I get "401 Unauthorized" error
 A: Check that OUIGO_ES_API_KEY is set correctly
-   Value should be: 5c51e865-2f81-4215-a1f0-3b73985a31fa
+   Value should be: VOTRE-CLE-API-NAP
 
 Q: SSL Certificate error (local)
 A: This is normal on Windows dev machines

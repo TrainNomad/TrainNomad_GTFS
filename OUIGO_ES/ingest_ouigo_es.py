@@ -18,7 +18,7 @@ Usage :
     python OUIGO_ES/ingest_ouigo_es.py
 
 Avec cle API manuelle :
-    OUIGO_ES_API_KEY="5c51e865-2f81-4215-a1f0-3b73985a31fa" python OUIGO_ES/ingest_ouigo_es.py
+    OUIGO_ES_API_KEY="VOTRE-CLE-API-NAP" python OUIGO_ES/ingest_ouigo_es.py
 """
 import os
 import shutil
