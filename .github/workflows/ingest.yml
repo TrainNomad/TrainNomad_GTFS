@@ -36,6 +36,10 @@ jobs:
       env:
         OUIGO_ES_API_KEY: ${{ secrets.OUIGO_ES_API_KEY }}
 
+    # SNCB Belgique : télécharge le GTFS et ne garde que les trains (sans bus ni doublons)
+    - name: Télécharger et filtrer le GTFS SNCB
+      run: python SNCB/ingest_sncb_gtfs.py
+
     - name: Compiler le réseau pour le moteur de routage (network.bin)
       run: |
         python build_network.py --refresh

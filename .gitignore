@@ -1,3 +1,4 @@
 *.db
 feeds/
 network.bin
+SNCB/sncb_gtfs.zip

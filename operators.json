@@ -143,5 +143,25 @@
       "TGV Thalys",
       "Night Jet"
     ]
+  },
+  {
+    "id": "SNCB",
+    "name": "SNCB/NMBS (Belgique)",
+    "enabled": true,
+    "gtfs_dir": "./SNCB",
+    "gtfs_path": "./SNCB/sncb_gtfs.zip",
+    "script_path": "./SNCB/ingest_sncb_gtfs.py",
+    "gtfs_url": "https://api-management-discovery-production.azure-api.net/api/gtfs/feed/nmbssncb/static",
+    "transport_types": [
+      "InterCity",
+      "Local",
+      "Heure de pointe",
+      "S-Train",
+      "Touristique",
+      "Extra",
+      "EuroCity",
+      "ICE",
+      "Nightjet"
+    ]
   }
 ]

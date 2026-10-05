@@ -1,5 +1,5 @@
 """
-Compile les GTFS (SNCF, Eurostar, Renfe, European Sleeper, ...) en un fichier binaire unique `network.bin`
+Compile les GTFS (SNCF, Eurostar, Renfe, European Sleeper, SNCB, ...) en un fichier binaire unique `network.bin`
 chargé tel quel en RAM par le moteur de routage Go (dossier Europe/).
 
 Pipeline :
@@ -28,6 +28,7 @@ import unicodedata
 import zipfile
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
@@ -57,6 +58,11 @@ CITY_TRANSFER_MAX = 90      # plafond (minutes) d'une traversée de ville
 
 NO_PICKUP = 1
 NO_DROPOFF = 2
+
+# Opérateurs dont les trajets déjà fournis par un flux chargé avant (même numéro, mêmes horaires
+# sur tous leurs arrêts, mêmes jours) sont écartés : trains transfrontaliers SNCB présents dans le
+# GTFS SNCF (TER Lille - Courtrai, Maubeuge - Charleroi...).
+DEDUP_AGAINST_EARLIER = {"SNCB"}
 
 SNCF_TYPES = {
     "Train TER": "SNCF TER",
@@ -218,6 +224,21 @@ SWISS_TYPES = {
     "EXT": "Swiss Train",
 }
 
+# route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
+# (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
+SNCB_TYPES = {
+    "IC": "SNCB InterCity",
+    "L": "SNCB Local",
+    "P": "SNCB Heure de pointe",
+    "S": "SNCB S-Train",
+    "T": "SNCB Touristique",
+    "EXT": "SNCB Extra",
+    "EC": "SNCB EuroCity",
+    "ICE": "SNCB ICE",
+    "NJ": "SNCB Nightjet",
+    "TRN": "SNCB Train",
+}
+
 
 # ---------------------------------------------------------------------------
 # Utilitaires
@@ -260,6 +281,14 @@ def parse_minutes(series: pd.Series) -> np.ndarray:
     series = series.fillna("0:00:00").replace("", "0:00:00")
     parts = series.str.split(":", n=2, expand=True)
     return (parts[0].astype(int) * 60 + parts[1].astype(int)).to_numpy(np.int32)
+
+
+def covers(stops, arr, dep, sub_stops, sub_arr, sub_dep) -> bool:
+    """Le trajet (stops, arr, dep) dessert tous les arrêts de sub_* aux mêmes horaires."""
+    pos = {s: i for i, s in enumerate(stops)}
+    return (all(s in pos for s in sub_stops)
+            and all(dep[pos[s]] == sub_dep[i] for i, s in enumerate(sub_stops[:-1]))
+            and arr[pos[sub_stops[-1]]] == sub_arr[-1])
 
 
 # ---------------------------------------------------------------------------
@@ -455,6 +484,12 @@ class StationRef:
             if not rid:
                 # Fallback 2 : rechercher via cff_id (colonne stations.csv)
                 rid = self.by_cff.get(clean_id or stop_id)
+        elif op == "SNCB":
+            # Belgique : UIC à 7 chiffres dans le stop_id (88xxxxx en Belgique, 80/84/87/82... à l'étranger)
+            #   gare "gs:nmbssncb:S8814001", quai "gs:nmbssncb:8814001_12"
+            m = re.search(r"nmbssncb:S?(\d{7})(?:_|$)", stop_id or "")
+            if m:
+                rid = self.by_uic.get(m.group(1))
         else:
             for cand in (stop_code, stop_id):
                 m = re.search(r"\d{7,8}", cand or "")
@@ -632,6 +667,13 @@ class NetworkBuilder:
         starts = np.concatenate([[0], bounds])
         ends = np.concatenate([bounds, [len(trip_ids)]])
 
+        earlier = defaultdict(list)
+        if op_id in DEDUP_AGAINST_EARLIER:
+            same_clock = {i for i, tz in enumerate(self.timezones) if self.same_offsets(tz, agency_tz)}
+            for t in self.trips.values():
+                if t["number"] and t["op"] != op_idx and t["tz"] in same_clock:
+                    earlier[t["number"]].append(t)
+
         kept = 0
         for a, b in zip(starts, ends):
             tid = trip_ids[a]
@@ -671,6 +713,15 @@ class NetworkBuilder:
 
             route = route_info.get(meta["route_id"], {})
             number, ttype, checkin = self.trip_labels(op_id, meta, route, stop_ids[a])
+            for o in earlier.get(number, ()):
+                if covers(o["stops"], o["arr"], o["dep"], seq_stops, seq_arr, seq_dep):
+                    days &= ~o["days"]  # déjà fourni par l'autre flux
+                elif covers(seq_stops, seq_arr, seq_dep, o["stops"], o["arr"], o["dep"]):
+                    o["days"] &= ~days  # l'autre flux n'en publie qu'une partie : on garde le trajet complet
+                    self.stats[f"trips_{op_id}_replaced"] += 1
+            if not days:
+                self.stats[f"trips_{op_id}_duplicates"] += 1
+                continue
             type_idx = self.intern(self.types, ttype)
             key = (op_idx, tuple(seq_stops), tuple(seq_flags), tuple(seq_arr), tuple(seq_dep), number, type_idx, checkin)
             t = self.trips.get(key)
@@ -684,8 +735,16 @@ class NetworkBuilder:
                 t["days"] |= days
                 self.stats["trips_merged"] += 1
             kept += 1
+        if earlier:
+            self.trips = {k: t for k, t in self.trips.items() if t["days"]}
         self.stats[f"trips_{op_id}"] = kept
         logging.info(f"  [{op_id}] {kept} trajets retenus")
+
+    def same_offsets(self, tz_a, tz_b):
+        """Deux fuseaux à la même heure locale sur toute la fenêtre (ex. Europe/Paris et Europe/Brussels)."""
+        a, b = ZoneInfo(tz_a), ZoneInfo(tz_b)
+        days = (datetime(d.year, d.month, d.day, 12) for d in self.day_dates)
+        return all(a.utcoffset(d) == b.utcoffset(d) for d in days)
 
     def trip_labels(self, op_id, meta, route, first_stop_id):
         checkin = 0
@@ -744,6 +803,12 @@ class NetworkBuilder:
             trip_num = meta.get("trip_short_name", "")
             number = f"{rs} {trip_num}".strip() if rs and trip_num else (trip_num or rs)
             ttype = "SBB"  # Generic SBB logo for all Swiss trains
+        elif op_id == "SNCB":
+            # trip_short_name = numéro commercial, route_short_name = catégorie (IC, L, P, S1..., EC...)
+            number = meta.get("trip_short_name", "")
+            rs = route.get("route_short_name", "").upper()
+            cat = "S" if re.fullmatch(r"S\d+", rs) else rs
+            ttype = SNCB_TYPES.get(cat, f"SNCB {rs}" if rs else "SNCB Train")
         else:
             number = meta.get("trip_short_name", "") or meta.get("trip_headsign", "")
             ttype = route.get("route_short_name", "") or route.get("route_long_name", "") or op_id
