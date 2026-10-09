@@ -157,7 +157,7 @@
   {
     "id": "DB",
     "name": "Deutsche Bahn (grandes lignes)",
-    "enabled": true,
+    "enabled": false,
     "gtfs_path": "./GERMANY/de_gtfs.zip",
     "script_path": "./GERMANY/ingest_de_gtfs.py",
     "gtfs_url": "https://download.gtfs.de/germany/fv_free/latest.zip",
@@ -168,7 +168,8 @@
       "EuroCity-Express",
       "EuroNight",
       "Railjet"
-    ]
+    ],
+    "note": "Désactivé pour l'instant : réactiver (true) puis lancer le workflow « GTFS · Allemagne (DB) »."
   },
   {
     "id": "DB_REGIO",
