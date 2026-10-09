@@ -187,11 +187,8 @@ def filter_gtfs_by_operators(input_zip: str, output_zip: str):
 
         # Etape 7: Filtrer trips qui ont au moins un stop UIC
         print("  [7] Filtrage trajets orphelins...")
-        trips_with_valid_stops = set()
-        for trip_id in trips["trip_id"]:
-            trip_stops = stop_times[stop_times["trip_id"] == trip_id]["stop_id"].values
-            if len(trip_stops) > 0:
-                trips_with_valid_stops.add(trip_id)
+        # un trajet est valide s'il garde au moins un horaire après le filtrage UIC
+        trips_with_valid_stops = set(stop_times["trip_id"].unique())
         trips_before = len(trips)
         trips = trips[trips["trip_id"].isin(trips_with_valid_stops)]
         print(f"      {trips_before} → {len(trips)} trajets valides")
