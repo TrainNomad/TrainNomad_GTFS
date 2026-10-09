@@ -1,7 +1,30 @@
+# Le dépôt ne contient que le code et les référentiels de gares (CSV texte).
+# Tout ce qu'un build produit va dans les Releases GitHub, jamais dans l'historique :
+#   gtfs-latest    : un GTFS vérifié par opérateur (workflows « GTFS · … »)
+#   network-latest : network.bin.gz + harmonization_report.json (workflow « Réseau Europe »)
+
+# GTFS, réseaux et bases générés
+*.zip
+*.part
 *.db
-feeds/
+*.db.gz
 network.bin
-SNCB/sncb_gtfs.zip
-GERMANY/de_gtfs.zip
-GERMANY/de_regio_gtfs.zip
-FLIXTRAIN/flixtrain_gtfs.zip
+network.bin.gz
+feeds/
+pipeline/sortie/
+pipeline/recu/
+
+# Rapports de build
+harmonization_report.json
+*_report.json
+*stations_report*.csv
+
+# Référentiel : caches des API (OpenStreetMap, Wikidata...) et sources téléchargées
+referentiel/cache/
+referentiel/sources_officielles/
+
+# Sauvegardes, Python, secrets
+*.bak
+__pycache__/
+*.pyc
+.env
