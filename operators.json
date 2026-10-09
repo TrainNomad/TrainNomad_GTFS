@@ -32,22 +32,22 @@
     ]
   },
   {
-  "id": "RENFE",
-  "name": "Renfe Viajeros",
-  "enabled": true,
-  "gtfs_dir": "./gtfs/renfe",
-  "db_gz_path": "./gtfs/renfe/renfe.db.gz",
-  "gtfs_url": "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
-  "transport_types": [
-    "AVE",
-    "AVLO",
-    "ALVIA",
-    "EUROMED",
-    "INTERCITY",
-    "AVANT",
-    "MD"
-  ]
-},
+    "id": "RENFE",
+    "name": "Renfe Viajeros",
+    "enabled": true,
+    "gtfs_dir": "./gtfs/renfe",
+    "db_gz_path": "./gtfs/renfe/renfe.db.gz",
+    "gtfs_url": "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip",
+    "transport_types": [
+      "AVE",
+      "AVLO",
+      "ALVIA",
+      "EUROMED",
+      "INTERCITY",
+      "AVANT",
+      "MD"
+    ]
+  },
   {
     "id": "EUROPEAN_SLEEPER",
     "name": "European Sleeper",
@@ -162,6 +162,50 @@
       "EuroCity",
       "ICE",
       "Nightjet"
+    ]
+  },
+  {
+    "id": "DB",
+    "name": "Deutsche Bahn (grandes lignes)",
+    "enabled": true,
+    "gtfs_dir": "./GERMANY",
+    "gtfs_path": "./GERMANY/de_gtfs.zip",
+    "script_path": "./GERMANY/ingest_de_gtfs.py",
+    "gtfs_url": "https://download.gtfs.de/germany/fv_free/latest.zip",
+    "transport_types": [
+      "ICE",
+      "Intercity",
+      "EuroCity",
+      "EuroCity-Express",
+      "EuroNight",
+      "Railjet"
+    ]
+  },
+  {
+    "id": "DB_REGIO",
+    "name": "Trains régionaux (Allemagne)",
+    "enabled": false,
+    "gtfs_dir": "./GERMANY",
+    "gtfs_path": "./GERMANY/de_regio_gtfs.zip",
+    "script_path": "./GERMANY/ingest_de_gtfs.py",
+    "gtfs_url": "https://download.gtfs.de/germany/rv_free/latest.zip",
+    "transport_types": [
+      "Regional-Express",
+      "Regionalbahn",
+      "S-Bahn"
+    ],
+    "note": "Désactivé tant que l'API tourne sur la VM Oracle de 1 Go (+115 Mo de mémoire). Passer à true après la migration."
+  },
+  {
+    "id": "FLIXTRAIN",
+    "name": "FlixTrain",
+    "enabled": true,
+    "gtfs_dir": "./FLIXTRAIN",
+    "gtfs_path": "./FLIXTRAIN/flixtrain_gtfs.zip",
+    "script_path": "./FLIXTRAIN/ingest_flixtrain_gtfs.py",
+    "gtfs_url": "https://gtfs.gis.flix.tech/gtfs_generic_eu.zip",
+    "transport_types": [
+      "FlixTrain"
     ]
   }
 ]

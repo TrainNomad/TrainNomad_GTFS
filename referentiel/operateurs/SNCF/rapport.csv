@@ -1,0 +1,179 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8019051;80190512;Mainz Hbf;Mainz Hbf;gtfs;;;Mayence;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019068;80190686;Worms Hbf;Worms Hbf;gtfs;;;Worms;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019082;80190827;Ludwigshafen (Rhein) Hbf;Ludwigshafen (Rhein) Hbf;gtfs;;;Ludwigshafen-sur-le-Rhin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019103;80191031;Woerth (Rhein);Woerth (Rhein);gtfs;;;Wörth am Rhein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019404;80194043;Neustadt (Weinstr) Hbf;Neustadt (Weinstr) Hbf;gtfs;;;Neustadt an der Weinstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019426;80194266;Landau (Pfalz) Hbf;Landau (Pfalz) Hbf;gtfs;;;Landau in der Pfalz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8025181;80251819;Trèves;Trèves;gtfs;;;Trèves;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8025196;80251967;Perl;Perl;nom;0.019;Perl Schengen;Perl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8064613;80646133;Maximiliansau Im Ruesten;Maximiliansau Im Ruesten;gtfs;;;Wörth am Rhein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8092079;80920793;Neustadt (Weinstraße) Süd;Neustadt (Weinstraße) Süd;gtfs;;;Neustadt an der Weinstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8200714;82007146;Dippach secteur Reckange;Dippach secteur Reckange;gtfs;;;Dippach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8200718;82007187;Bascharage secteur Sanem;Bascharage secteur Sanem;gtfs;;;Käerjeng;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8714110;87141101;Varangéville - Saint-Nicolas;Varangéville - Saint-Nicolas;gtfs;;;Varangéville;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8714113;87141135;Blainville - Damelevières;Blainville - Damelevières;gtfs;;;Damelevières;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8714400;87144006;Épinal;Épinal;gtfs;;;Épinal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8714445;87144451;Remiremont;Remiremont;gtfs;;;Remiremont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8717200;87172007;Charleville-Mézières;Charleville-Mézières;gtfs;;;Charleville-Mézières;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8717215;87172155;Mohon;Mohon;gtfs;;;Charleville-Mézières;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8717221;87172213;Nouvion-sur-Meuse;Nouvion-sur-Meuse;gtfs;;;Nouvion-sur-Meuse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8717235;87172353;Carignan;Carignan;gtfs;;;Carignan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8717582;87175828;Pagny-sur-Meuse;Pagny-sur-Meuse;gtfs;;;Pagny-sur-Meuse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8718793;87187930;Bâle Saint-Jean;Bâle Saint-Jean;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719111;87191114;Hagondange;Hagondange;gtfs;;;Hagondange;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719208;87192088;Woippy;Woippy;gtfs;;;Woippy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719246;87192468;Pagny-sur-Moselle;Pagny-sur-Moselle;gtfs;;;Pagny-sur-Moselle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719351;87193516;Farébersviller;Farébersviller;gtfs;;;Farébersviller;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719420;87194209;Montmédy;Montmédy;gtfs;;;Montmédy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8720855;87208553;Casino Lacroix Laval;Casino Lacroix Laval;gtfs;;;La Tour-de-Salvagny;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8721344;87213447;Hoffen;Hoffen;gtfs;;;Hoffen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8729661;87296616;Chauny;Chauny;gtfs;;;Chauny;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8738709;87387092;Bueil;Bueil;gtfs;;;Bueil;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8738714;87387142;La Bonneville-sur-Iton;La Bonneville-sur-Iton;gtfs;;;La Bonneville-sur-Iton;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8738715;87387159;Conches;Conches;gtfs;;;Conches-en-Ouche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8739411;87394114;Épernon;Épernon;gtfs;;;Épernon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8739441;87394411;Bailleau-le-pin;Bailleau-le-pin;gtfs;;;Bailleau-le-Pin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8739449;87394494;Courtalain - Saint-Pellerin;Courtalain - Saint-Pellerin;gtfs;;;Vald'Yerre;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8741120;87411207;Oissel;Oissel;gtfs;;;Oissel-sur-Seine;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8741338;87413385;Yvetot;Yvetot;gtfs;;;Yvetot;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8741562;87415620;Gaillon - Aubevoye;Gaillon - Aubevoye;gtfs;;;Le Val d'Hazey;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744434;87444349;Pont-l'Évêque;Pont-l'Évêque;gtfs;;;Pont-l'Évêque;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744487;87444877;Cherbourg;Cherbourg;gtfs;;;Cherbourg-en-Cotentin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744617;87446179;Saint-Cyprien Arènes;Saint-Cyprien Arènes;gtfs;;;Toulouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744700;87447003;Saint-Lô;Saint-Lô;gtfs;;;Saint-Lô;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744724;87447243;Carentan;Carentan;gtfs;;;Carentan-les-Marais;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8744728;87447284;Valognes;Valognes;gtfs;;;Valognes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8747121;87471219;Beslé;Beslé;gtfs;;;Guémené-Penfao;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8747133;87471334;Janzé;Janzé;gtfs;;;Janzé;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8747667;87476671;Questembert;Questembert;gtfs;;;Questembert;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8747826;87478263;Pontorson - Mont-Saint-Michel;Pontorson - Mont-Saint-Michel;gtfs;;;Pontorson;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8747875;87478750;Port-Brillet;Port-Brillet;gtfs;;;Port-Brillet;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748106;87481069;La Basse Indre - Saint-Herblain;La Basse Indre - Saint-Herblain;gtfs;;;Saint-Herblain;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748115;87481150;Mauves-sur-Loire;Mauves-sur-Loire;gtfs;;;Mauves-sur-Loire;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748118;87481184;Oudon;Oudon;gtfs;;;Oudon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748119;87481192;Ancenis;Ancenis;gtfs;;;Ancenis-Saint-Géréon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748139;87481390;Challans;Challans;gtfs;;;Challans;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748140;87481408;Vertou;Vertou;gtfs;;;Vertou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748142;87481424;Le Pallet;Le Pallet;gtfs;;;Le Pallet;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748146;87481465;Montaigu;Montaigu;gtfs;;;Montaigu-Vendée;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748164;87481648;Châteaubriant;Châteaubriant;gtfs;;;Châteaubriant;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748175;87481754;La Baule-Escoublac;La Baule-Escoublac;gtfs;;;La Baule-Escoublac;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748176;87481762;Le Pouliguen;Le Pouliguen;gtfs;;;Le Pouliguen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748177;87481770;Batz-sur-Mer;Batz-sur-Mer;gtfs;;;Batz-sur-Mer;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748424;87484246;Chemillé;Chemillé;gtfs;;;Chemillé-en-Anjou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748525;87485250;Mauzé;Mauzé;gtfs;;;Mauzé-sur-le-Mignon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748643;87486431;Olonne-sur-Mer;Olonne-sur-Mer;gtfs;;;Les Sables-d'Olonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8748644;87486449;Les Sables-d'Olonne;Les Sables-d'Olonne;gtfs;;;Les Sables-d'Olonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8749119;87491191;Bussac;Bussac;gtfs;;;Bussac-Forêt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753359;87533596;Mulhouse Tour Nessel;Mulhouse Tour Nessel;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753361;87533612;Daguerre;Daguerre;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753362;87533620;Mulhouse Gare Centrale;Mulhouse Gare Centrale;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753363;87533638;Mulhouse Mairie;Mulhouse Mairie;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753364;87533646;Mulhouse Porte Haute;Mulhouse Porte Haute;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753365;87533653;Porte Jeune;Porte Jeune;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753366;87533661;Mulhouse République;Mulhouse République;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753432;87534321;Mulhouse Dornach Tram Train;Mulhouse Dornach Tram Train;gtfs;;;Mulhouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8753434;87534347;Lutterbach Tram-train;Lutterbach Tram-train;gtfs;;;Lutterbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8756691;87566919;Lentilly Charpenay;Lentilly Charpenay;gtfs;;;Lentilly;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757121;87571216;Vendôme - Villiers-sur-Loir;Vendôme - Villiers-sur-Loir;gtfs;;;Villiers-sur-Loir;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757182;87571828;Langeais;Langeais;gtfs;;;Langeais;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757183;87571836;Cinq-Mars-la-Pile;Cinq-Mars-la-Pile;gtfs;;;Cinq-Mars-la-Pile;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757445;87574459;Saint-Martin-le-Beau;Saint-Martin-le-Beau;gtfs;;;Saint-Martin-le-Beau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757548;87575480;Montmorillon;Montmorillon;gtfs;;;Montmorillon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757584;87575845;Lussac-les-Châteaux;Lussac-les-Châteaux;gtfs;;;Lussac-les-Châteaux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757615;87576157;Loreux;Loreux;gtfs;;;Loreux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757628;87576280;Lunery;Lunery;gtfs;;;Lunery;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8757686;87576868;Selles-sur-Cher;Selles-sur-Cher;gtfs;;;Selles-sur-Cher;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8758460;87584607;Saint-Médard-de-Guizières;Saint-Médard-de-Guizières;gtfs;;;Saint-Médard-de-Guizières;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759033;87590331;Haluchère Batignolles Beaujoire;Haluchère Batignolles Beaujoire;gtfs;;;Nantes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759207;87592071;Saint-Léonard-de-Noblat;Saint-Léonard-de-Noblat;gtfs;;;Saint-Léonard-de-Noblat;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759216;87592162;Bugeat;Bugeat;gtfs;;;Bugeat;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759409;87594093;Ussel;Ussel;gtfs;;;Ussel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759411;87594119;Corrèze;Corrèze;gtfs;;;Saint-Priest-de-Gimel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759416;87594168;Égletons;Égletons;gtfs;;;Égletons;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759427;87594275;Meymac;Meymac;gtfs;;;Meymac;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759449;87594499;Tulle;Tulle;gtfs;;;Tulle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759512;87595124;Thiviers;Thiviers;gtfs;;;Thiviers;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759570;87595702;Les Versannes;Les Versannes;gtfs;;;La Douze;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759760;87597609;Guéret;Guéret;gtfs;;;Guéret;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8759774;87597740;Lavaufranche;Lavaufranche;gtfs;;;Lavaufranche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761138;87611384;Auterive;Auterive;gtfs;;;Auterive;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761159;87611590;Tarascon-sur-Ariège;Tarascon-sur-Ariège;gtfs;;;Tarascon-sur-Ariège;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761177;87611772;Gimont Cahuzac;Gimont Cahuzac;gtfs;;;Gimont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761310;87613109;Capdenac;Capdenac;gtfs;;;Capdenac-Gare;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761389;87613893;Villefranche-de-Rouergue;Villefranche-de-Rouergue;gtfs;;;Villefranche-de-Rouergue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761512;87615120;Couffoulens - Leuc;Couffoulens - Leuc;gtfs;;;Couffoulens;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8761516;87615161;Limoux;Limoux;gtfs;;;Limoux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8764121;87641217;Huriel;Huriel;gtfs;;;Huriel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8767101;87671016;Mont-de-Marsan;Mont-de-Marsan;gtfs;;;Mont-de-Marsan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8767115;87671156;Capvern;Capvern;gtfs;;;Capvern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8767710;87677104;Les Deux Jumeaux;Les Deux Jumeaux;gtfs;;;Hendaye;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771351;87713511;Vougeot - Gilly-lès-Cîteaux;Vougeot - Gilly-lès-Cîteaux;gtfs;;;Gilly-lès-Cîteaux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771356;87713560;Meursault;Meursault;gtfs;;;Meursault;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771532;87715326;Champagnole;Champagnole;gtfs;;;Champagnole;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771801;87718015;Besançon Mouillère;Besançon Mouillère;gtfs;;;Besançon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771821;87718213;Domblans - Voiteur;Domblans - Voiteur;gtfs;;;Domblans;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771850;87718502;Saône;Saône;gtfs;;;Saône;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8771852;87718528;L'Hôpital-du-Grosbois;L'Hôpital-du-Grosbois;gtfs;;;L'Hôpital-du-Grosbois;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772117;87721175;Lyon Gorge de Loup;Lyon Gorge de Loup;gtfs;;;Lyon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772141;87721415;Chazay - Marcilly;Chazay - Marcilly;gtfs;;;Marcilly-d'Azergues;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772143;87721431;L'Arbresle;L'Arbresle;gtfs;;;L'Arbresle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772144;87721449;Dardilly - Le Jubin;Dardilly - Le Jubin;gtfs;;;Dardilly;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772152;87721522;Le Méridien La Ferrière;Le Méridien La Ferrière;gtfs;;;Charbonnières-les-Bains;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772153;87721530;Charbonnières-les-Bains;Charbonnières-les-Bains;gtfs;;;Charbonnières-les-Bains;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772154;87721548;La Tour-de-Salvagny;La Tour-de-Salvagny;gtfs;;;La Tour-de-Salvagny;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772155;87721555;Lentilly;Lentilly;gtfs;;;Lentilly;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772156;87721563;Fleurieux-sur-l'Arbresle;Fleurieux-sur-l'Arbresle;gtfs;;;Fleurieux-sur-l'Arbresle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772173;87721738;Dommartin - Lissieu;Dommartin - Lissieu;gtfs;;;Dommartin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772223;87722231;Pierre-Bénite;Pierre-Bénite;gtfs;;;Oullins-Pierre-Bénite;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772272;87722728;Brignais;Brignais;gtfs;;;Brignais;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772350;87723502;Crépieux la Pape;Crépieux la Pape;gtfs;;;Rillieux-la-Pape;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772352;87723528;Miribel;Miribel;gtfs;;;Miribel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772353;87723536;Saint-Maurice-de-Beynost;Saint-Maurice-de-Beynost;gtfs;;;Saint-Maurice-de-Beynost;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772358;87723585;Meximieux - Pérouges;Meximieux - Pérouges;gtfs;;;Meximieux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772643;87726430;Saint-Romain-le-Puy;Saint-Romain-le-Puy;gtfs;;;Saint-Romain-le-Puy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772644;87726448;Montbrison;Montbrison;gtfs;;;Montbrison;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8772647;87726471;Boën;Boën;gtfs;;;Boën-sur-Lignon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8773411;87734111;Aubiat;Aubiat;gtfs;;;Aubiat;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774111;87741116;Chindrieux;Chindrieux;gtfs;;;Chindrieux;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774114;87741140;Viviers-du-Lac;Viviers-du-Lac;gtfs;;;Viviers-du-Lac;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774162;87741629;Frontenex;Frontenex;gtfs;;;Frontenex;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774169;87741694;Notre-Dame de Briançon;Notre-Dame de Briançon;gtfs;;;La Léchère;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774371;87743716;Ambérieu-en-Bugey;Ambérieu-en-Bugey;gtfs;;;Ambérieu-en-Bugey;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774374;87743740;Saint-Rambert-en-Bugey;Saint-Rambert-en-Bugey;gtfs;;;Saint-Rambert-en-Bugey;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774407;87744078;Saint-Gervais-les-Bains;Saint-Gervais-les-Bains;gtfs;;;Saint-Gervais-les-Bains;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774417;87744177;Ancenis Bis;Ancenis Bis;gtfs;;;Ancenis-Saint-Géréon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774538;87745380;Pougny - Chancy;Pougny - Chancy;gtfs;;;Pougny;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774610;87746107;Grésy-sur-Aix;Grésy-sur-Aix;gtfs;;;Grésy-sur-Aix;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774624;87746248;Groisy - Thorens - La Caille;Groisy - Thorens - La Caille;gtfs;;;Groisy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774670;87746701;Chedde;Chedde;gtfs;;;Passy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774671;87746719;Servoz;Servoz;gtfs;;;Les Houches;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774674;87746743;Les Houches;Les Houches;gtfs;;;Les Houches;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774676;87746768;Les Bossons;Les Bossons;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774677;87746776;Les Pélerins;Les Pélerins;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774678;87746784;Chamonix-Mont-Blanc;Chamonix-Mont-Blanc;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774683;87746834;Les Tines;Les Tines;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774685;87746859;Argentière;Argentière;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774686;87746867;Montroc le Planet;Montroc le Planet;gtfs;;;Chamonix-Mont-Blanc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774722;87747220;Le Grand-Lemps;Le Grand-Lemps;gtfs;;;Le Grand-Lemps;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774724;87747246;Rives;Rives;gtfs;;;Rives;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8775174;87751743;La Penne-sur-Huveaune;La Penne-sur-Huveaune;gtfs;;;La Penne-sur-Huveaune;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8775342;87753426;Rassuen;Rassuen;gtfs;;;Istres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8775344;87753442;Fos-sur-Mer;Fos-sur-Mer;gtfs;;;Port-de-Bouc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776149;87761494;Saint-Péray;Saint-Péray;gtfs;;;Saint-Péray;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776165;87761650;Romans - Bourg-de-Péage;Romans - Bourg-de-Péage;gtfs;;;Romans-sur-Isère;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776181;87761817;Saillans;Saillans;gtfs;;;Saillans;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776184;87761841;Die;Die;gtfs;;;Die;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776187;87761874;Luc-en-Diois;Luc-en-Diois;gtfs;;;Luc-en-Diois;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776342;87763425;Chorges;Chorges;gtfs;;;Chorges;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776346;87763466;Embrun;Embrun;gtfs;;;Embrun;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776350;87763508;Mont-Dauphin - Guillestre;Mont-Dauphin - Guillestre;gtfs;;;Eygliers;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776355;87763557;L'Argentière les Écrins;L'Argentière les Écrins;gtfs;;;L'Argentière-la-Bessée;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8776360;87763607;Briançon;Briançon;gtfs;;;Briançon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8777534;87775346;Boucoiran;Boucoiran;gtfs;;;Boucoiran-et-Nozières;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8778342;87783423;Saint-Georges-de-Luzençon;Saint-Georges-de-Luzençon;gtfs;;;Saint-Georges-de-Luzençon;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8778463;87784637;Prades - Molitg-les-Bains;Prades - Molitg-les-Bains;gtfs;;;Prades;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8778466;87784660;Ria;Ria;gtfs;;;Ria-Sirach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8778468;87784686;Villefranche - Vernet-les-Bains;Villefranche - Vernet-les-Bains;gtfs;;;Fuilla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8778483;87784835;Saillagouse;Saillagouse;gtfs;;;Saillagouse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

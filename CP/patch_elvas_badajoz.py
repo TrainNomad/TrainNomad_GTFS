@@ -1,342 +1,186 @@
 """
-Patch pour ajouter la liaison Elvas - Badajoz au GTFS CP.
+Patch du GTFS CP : prolonge jusqu'à Badajoz les Regionais de la Linha do Leste.
 
-Cette liaison transfrontalière Portugal-Espagne n'est pas dans le GTFS officiel CP.
-Les horaires sont extraits du PDF publié par CP.
+Le GTFS officiel CP contient bien les trains Entroncamento <-> Badajoz (481/485 vers Badajoz, 482/486 depuis
+Badajoz, route_id « 24-94_34009-71_37606 »), mais leurs horaires s'arrêtent à Elvas et la gare de Badajoz
+manque dans stops.txt. Résultat : le moteur proposait une correspondance à Elvas qui n'existe pas.
+Ce patch ajoute Badajoz à stops.txt et l'arrêt Badajoz au début / à la fin de ces trains (même trip,
+même calendrier que CP : pas de changement de train à Elvas).
 
 Source : https://www.cp.pt/info/documents/d/cp/comboios-regionais-linha-leste-badajoz
+(horaire en vigueur depuis le 14/12/2025, version du 20/07/2026) :
+    R 481  Entroncamento 09:06 -> Elvas 11:40 -> Badajoz 12:54 (heure espagnole)   quotidien
+    R 485  Entroncamento 13:36 -> Elvas 16:16 -> Badajoz 17:30 (heure espagnole)   quotidien
+    R 482  Badajoz 14:09 (heure espagnole) -> Elvas 13:25 -> Entroncamento 15:55   quotidien
+    R 486  Badajoz 19:41 (heure espagnole) -> Elvas 18:57 -> Entroncamento 21:26   quotidien
 
 Usage :
-    python CP/patch_elvas_badajoz.py                    # Patch le GTFS CP existant
-    python CP/patch_elvas_badajoz.py --input cp.zip    # Spécifier le fichier source
+    python CP/patch_elvas_badajoz.py                   # patche CP/cp_gtfs.zip -> CP/cp_gtfs_patched.zip
+    python CP/patch_elvas_badajoz.py --input cp.zip --output out.zip
 """
 import argparse
 import csv
 import io
 import os
-import re
-import shutil
-import tempfile
 import zipfile
-from datetime import datetime, timedelta
-
-# Essayer d'importer pdfplumber pour parser le PDF
-try:
-    import pdfplumber
-    HAS_PDFPLUMBER = True
-except ImportError:
-    HAS_PDFPLUMBER = False
-
-import requests
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-GTFS_DIR = os.path.dirname(BASE_DIR)
-CP_GTFS = os.path.join(BASE_DIR, "cp_gtfs.zip") if os.path.exists(os.path.join(BASE_DIR, "cp_gtfs.zip")) else os.path.join(GTFS_DIR, "feeds", "CP.zip")
+CP_GTFS = os.path.join(BASE_DIR, "cp_gtfs.zip")
 OUTPUT_GTFS = os.path.join(BASE_DIR, "cp_gtfs_patched.zip")
 
 PDF_URL = "https://www.cp.pt/info/documents/d/cp/comboios-regionais-linha-leste-badajoz"
 
-# Gare de Badajoz (Espagne) - données basées sur UIC espagnol
-# UIC Badajoz = 7137606, on utilise le format CP : 71_37606
+ELVAS_ID = "94_57497"
+BADAJOZ_ID = "71_37606"  # identifiant déjà utilisé par CP dans route_id ; UIC 7137606 = Badajoz dans stations.csv
 BADAJOZ_STOP = {
-    "stop_id": "71_37606",  # Format CP avec UIC espagnol
-    "stop_code": "7137606",  # Code UIC Badajoz (Espagne = 71)
+    "stop_id": BADAJOZ_ID,
+    "stop_code": "",
     "stop_name": "Badajoz",
     "stop_lat": "38.890867",
     "stop_lon": "-6.981822",
     "location_type": "0",
-    "parent_station": "",
+    "stop_timezone": "Europe/Madrid",
+    "wheelchair_boarding": "0",
 }
 
-# Gare d'Elvas (Portugal) - UIC 9457497, cp_id dans stations.csv
-ELVAS_STOP_ID = "94_57497"  # Format CP vérifié dans stations.csv
-
-# Horaires extraits manuellement du PDF (à mettre à jour si le PDF change)
-# Format: [(train_number, [(stop_id, arrival, departure), ...]), ...]
-# Les horaires sont en format HH:MM
-TIMETABLE_ELVAS_BADAJOZ = [
-    # Trains direction Badajoz (Elvas -> Badajoz)
-    ("4521", [("94_57497", None, "06:35"), ("71_37606", "06:50", None)]),
-    ("4523", [("94_57497", None, "08:55"), ("71_37606", "09:10", None)]),
-    ("4525", [("94_57497", None, "12:55"), ("71_37606", "13:10", None)]),
-    ("4527", [("94_57497", None, "17:25"), ("71_37606", "17:40", None)]),
-    ("4529", [("94_57497", None, "19:35"), ("71_37606", "19:50", None)]),
-
-    # Trains direction Elvas (Badajoz -> Elvas)
-    ("4520", [("71_37606", None, "07:00"), ("94_57497", "07:15", None)]),
-    ("4522", [("94_57497", None, "09:20"), ("71_37606", "09:35", None)]),
-    ("4524", [("71_37606", None, "13:20"), ("94_57497", "13:35", None)]),
-    ("4526", [("71_37606", None, "17:50"), ("94_57497", "18:05", None)]),
-    ("4528", [("71_37606", None, "20:00"), ("94_57497", "20:15", None)]),
-]
-
-# Service : tous les jours sauf exceptions
-# À adapter selon le calendrier réel
-SERVICE_ID = "ELVAS_BADAJOZ_DAILY"
+# Horaires à Badajoz du PDF, en heure espagnole (= heure portugaise + 1 h toute l'année).
+BADAJOZ_TIMES_ES = {
+    "481": "12:54",  # arrivée
+    "485": "17:30",  # arrivée
+    "482": "14:09",  # départ
+    "486": "19:41",  # départ
+}
+SPAIN_OFFSET_MIN = 60
+# Train absent du tableau (nouvel horaire CP) : temps de parcours Elvas <-> Badajoz relevés dans le PDF.
+RUN_TO_BADAJOZ_MIN = 14
+RUN_FROM_BADAJOZ_MIN = 16
 
 
-def download_pdf(url: str, dest: str) -> bool:
-    """Télécharge le PDF des horaires."""
-    print(f"📥 Téléchargement du PDF : {url}")
-    try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        with requests.get(url, headers=headers, stream=True, timeout=60) as r:
-            r.raise_for_status()
-            with open(dest, "wb") as f:
-                shutil.copyfileobj(r.raw, f)
-        print(f"   {os.path.getsize(dest) / 1024:.1f} Ko téléchargés")
-        return True
-    except Exception as e:
-        print(f"   ❌ Erreur : {e}")
-        return False
+def to_seconds(t: str) -> int:
+    h, m, *s = (int(x) for x in t.split(":"))
+    return h * 3600 + m * 60 + (s[0] if s else 0)
 
 
-def parse_pdf_timetable(pdf_path: str) -> list:
-    """Parse le PDF pour extraire les horaires (nécessite pdfplumber)."""
-    if not HAS_PDFPLUMBER:
-        print("   ⚠️ pdfplumber non installé, utilisation des horaires codés en dur")
-        return TIMETABLE_ELVAS_BADAJOZ
-
-    print(f"📄 Parsing du PDF...")
-    try:
-        trains = []
-        with pdfplumber.open(pdf_path) as pdf:
-            for page in pdf.pages:
-                tables = page.extract_tables()
-                for table in tables:
-                    # Parser les tableaux d'horaires
-                    # Structure typique : lignes avec heures
-                    for row in table:
-                        # Chercher des patterns d'horaires (HH:MM)
-                        times = [cell for cell in row if cell and re.match(r"\d{1,2}[:\.]?\d{2}", str(cell))]
-                        if len(times) >= 2:
-                            print(f"   Trouvé : {times}")
-
-        if not trains:
-            print("   ⚠️ Parsing automatique incomplet, utilisation des horaires codés en dur")
-            return TIMETABLE_ELVAS_BADAJOZ
-
-        return trains
-    except Exception as e:
-        print(f"   ❌ Erreur parsing PDF : {e}")
-        return TIMETABLE_ELVAS_BADAJOZ
+def to_gtfs(sec: int) -> str:
+    return f"{sec // 3600:02d}:{sec % 3600 // 60:02d}:{sec % 60:02d}"
 
 
-def format_time(t: str) -> str:
-    """Formate l'heure en HH:MM:SS pour GTFS."""
-    if not t:
-        return ""
-    t = t.replace(".", ":")
-    parts = t.split(":")
-    h, m = int(parts[0]), int(parts[1])
-    return f"{h:02d}:{m:02d}:00"
+def badajoz_time_pt(train: str):
+    """Heure du PDF convertie en heure portugaise (fuseau de l'agence CP, celui des stop_times)."""
+    t = BADAJOZ_TIMES_ES.get(train)
+    return to_seconds(t) - SPAIN_OFFSET_MIN * 60 if t else None
 
 
-def patch_gtfs(input_zip: str, output_zip: str, timetable: list):
-    """Patche le GTFS CP avec la liaison Elvas-Badajoz."""
+def read_csv(files: dict, name: str):
+    text = files[name].decode("utf-8-sig")
+    reader = csv.DictReader(io.StringIO(text))
+    return reader.fieldnames, list(reader)
+
+
+def write_csv(files: dict, name: str, header: list, rows: list):
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=header, extrasaction="ignore", lineterminator="\n")
+    w.writeheader()
+    w.writerows(rows)
+    files[name] = buf.getvalue().encode("utf-8")
+
+
+def route_ends(route_id: str):
+    """route_id CP = « <ligne>-<gare origine>-<gare terminus> » (ex. 24-94_34009-71_37606)."""
+    parts = route_id.split("-")
+    return (parts[1], parts[-1]) if len(parts) >= 3 else (None, None)
+
+
+def patch_gtfs(input_zip: str, output_zip: str) -> bool:
     print(f"\n📦 Patch du GTFS : {input_zip}")
-
     if not os.path.exists(input_zip):
         print(f"   ❌ Fichier introuvable : {input_zip}")
         return False
 
-    # Lire le GTFS existant
-    with zipfile.ZipFile(input_zip, "r") as zin:
+    with zipfile.ZipFile(input_zip) as zin:
         files = {name: zin.read(name) for name in zin.namelist()}
 
-    # 1. Ajouter Badajoz à stops.txt
-    stops_content = files.get("stops.txt", b"").decode("utf-8-sig")
-    stops_lines = stops_content.strip().split("\n")
-    stops_header = stops_lines[0] if stops_lines else ""
+    # 1. Gare de Badajoz
+    stops_header, stops = read_csv(files, "stops.txt")
+    if not any(s["stop_id"] == BADAJOZ_ID for s in stops):
+        stops.append({c: BADAJOZ_STOP.get(c, "") for c in stops_header})
+        write_csv(files, "stops.txt", stops_header, stops)
+        print("   ✅ Badajoz ajouté à stops.txt (Europe/Madrid)")
 
-    # Vérifier si Badajoz est déjà présent
-    badajoz_exists = any("Badajoz" in line or BADAJOZ_STOP["stop_id"] in line for line in stops_lines)
+    # 2. Trains dont la route va à / vient de Badajoz
+    _, trips = read_csv(files, "trips.txt")
+    targets = {}
+    for t in trips:
+        origin, dest = route_ends(t["route_id"])
+        if BADAJOZ_ID in (origin, dest):
+            targets[t["trip_id"]] = ("to" if dest == BADAJOZ_ID else "from", t.get("trip_short_name", ""))
+    if not targets:
+        print("   ⚠️ Aucun train vers/depuis Badajoz dans le GTFS CP : vérifier le PDF", PDF_URL)
+        return False
 
-    if not badajoz_exists:
-        # Construire la ligne Badajoz selon le header existant
-        header_cols = stops_header.split(",")
-        badajoz_row = []
-        for col in header_cols:
-            col = col.strip().lower()
-            if col in BADAJOZ_STOP:
-                badajoz_row.append(BADAJOZ_STOP[col])
-            else:
-                badajoz_row.append("")
+    st_header, stop_times = read_csv(files, "stop_times.txt")
+    by_trip = {}
+    for r in stop_times:
+        if r["trip_id"] in targets:
+            by_trip.setdefault(r["trip_id"], []).append(r)
 
-        stops_lines.append(",".join(badajoz_row))
-        files["stops.txt"] = "\n".join(stops_lines).encode("utf-8")
-        print(f"   ✅ Badajoz ajouté à stops.txt")
-    else:
-        print(f"   ℹ️ Badajoz déjà présent dans stops.txt")
+    added = []
+    for trip_id, (direction, train) in sorted(targets.items()):
+        rows = sorted(by_trip.get(trip_id, []), key=lambda r: int(r["stop_sequence"]))
+        if not rows or any(r["stop_id"] == BADAJOZ_ID for r in rows):
+            continue  # déjà jusqu'à Badajoz (CP a corrigé son GTFS) ou trip vide
+        pdf_time = badajoz_time_pt(train)
+        if direction == "to":
+            last = rows[-1]
+            if last["stop_id"] != ELVAS_ID:
+                print(f"   ⚠️ {train} ({trip_id}) ne s'arrête pas à Elvas en dernier, ignoré")
+                continue
+            t = pdf_time if pdf_time is not None else to_seconds(last["departure_time"]) + RUN_TO_BADAJOZ_MIN * 60
+            seq = int(last["stop_sequence"]) + 1
+        else:
+            first = rows[0]
+            if first["stop_id"] != ELVAS_ID:
+                print(f"   ⚠️ {train} ({trip_id}) ne part pas d'Elvas, ignoré")
+                continue
+            t = pdf_time if pdf_time is not None else to_seconds(first["arrival_time"]) - RUN_FROM_BADAJOZ_MIN * 60
+            seq = int(first["stop_sequence"]) - 1
+            if seq < 0:  # renumérote le trip pour garder des stop_sequence positives
+                for r in rows:
+                    r["stop_sequence"] = str(int(r["stop_sequence"]) + 1)
+                seq = 0
+        stop_times.append({c: "" for c in st_header} | {
+            "trip_id": trip_id,
+            "arrival_time": to_gtfs(t),
+            "departure_time": to_gtfs(t),
+            "stop_id": BADAJOZ_ID,
+            "stop_sequence": str(seq),
+            "pickup_type": "1" if direction == "to" else "0",    # terminus : pas de montée
+            "drop_off_type": "0" if direction == "to" else "1",  # origine : pas de descente
+        })
+        es = to_gtfs(t + SPAIN_OFFSET_MIN * 60)[:5]
+        src = "PDF" if pdf_time is not None else "estimé"
+        added.append(f"{train} {'Elvas → Badajoz' if direction == 'to' else 'Badajoz → Elvas'} {es} heure espagnole ({src})")
 
-    # 2. Vérifier/Ajouter le service dans calendar_dates.txt ou calendar.txt
-    # Pour simplifier, on utilise calendar_dates avec les prochains 90 jours
-    calendar_dates_content = files.get("calendar_dates.txt", b"").decode("utf-8-sig")
-    calendar_dates_lines = calendar_dates_content.strip().split("\n") if calendar_dates_content else ["service_id,date,exception_type"]
+    if not added:
+        print("   ℹ️ Rien à ajouter")
+        return False
+    write_csv(files, "stop_times.txt", st_header, stop_times)
+    for line in added:
+        print(f"   ✅ {line}")
 
-    # Vérifier si notre service existe
-    service_exists = any(SERVICE_ID in line for line in calendar_dates_lines)
-
-    if not service_exists:
-        # Ajouter 90 jours de service
-        today = datetime.now()
-        for i in range(90):
-            date = today + timedelta(days=i)
-            date_str = date.strftime("%Y%m%d")
-            calendar_dates_lines.append(f"{SERVICE_ID},{date_str},1")
-
-        files["calendar_dates.txt"] = "\n".join(calendar_dates_lines).encode("utf-8")
-        print(f"   ✅ Service {SERVICE_ID} ajouté (90 jours)")
-    else:
-        print(f"   ℹ️ Service {SERVICE_ID} déjà présent")
-
-    # 3. Ajouter la route si nécessaire
-    routes_content = files.get("routes.txt", b"").decode("utf-8-sig")
-    routes_lines = routes_content.strip().split("\n")
-
-    route_id = "ELVAS_BADAJOZ"
-    route_exists = any(route_id in line for line in routes_lines)
-
-    if not route_exists:
-        # Ajouter la route
-        routes_header = routes_lines[0] if routes_lines else "route_id,agency_id,route_short_name,route_long_name,route_type"
-        header_cols = routes_header.split(",")
-
-        route_data = {
-            "route_id": route_id,
-            "agency_id": "CP",
-            "route_short_name": "R",
-            "route_long_name": "Regional Elvas - Badajoz",
-            "route_type": "2",  # Rail
-            "route_color": "1E90FF",
-            "route_text_color": "FFFFFF",
-        }
-
-        route_row = []
-        for col in header_cols:
-            col = col.strip().lower()
-            route_row.append(route_data.get(col, ""))
-
-        routes_lines.append(",".join(route_row))
-        files["routes.txt"] = "\n".join(routes_lines).encode("utf-8")
-        print(f"   ✅ Route {route_id} ajoutée")
-    else:
-        print(f"   ℹ️ Route {route_id} déjà présente")
-
-    # 4. Ajouter les trips
-    trips_content = files.get("trips.txt", b"").decode("utf-8-sig")
-    trips_lines = trips_content.strip().split("\n")
-    trips_header = trips_lines[0] if trips_lines else "route_id,service_id,trip_id,trip_headsign,direction_id"
-    header_cols = trips_header.split(",")
-
-    existing_trip_ids = {line.split(",")[header_cols.index("trip_id") if "trip_id" in header_cols else 2]
-                         for line in trips_lines[1:] if line}
-
-    new_trips = []
-    for train_num, stops in timetable:
-        trip_id = f"EB_{train_num}"
-        if trip_id not in existing_trip_ids:
-            # Déterminer la direction (0 = vers Badajoz, 1 = vers Elvas)
-            first_stop = stops[0][0]
-            direction = "0" if first_stop == ELVAS_STOP_ID else "1"
-            headsign = "Badajoz" if direction == "0" else "Elvas"
-
-            trip_data = {
-                "route_id": route_id,
-                "service_id": SERVICE_ID,
-                "trip_id": trip_id,
-                "trip_headsign": headsign,
-                "direction_id": direction,
-                "trip_short_name": train_num,
-            }
-
-            trip_row = []
-            for col in header_cols:
-                col = col.strip().lower()
-                trip_row.append(trip_data.get(col, ""))
-
-            new_trips.append(",".join(trip_row))
-
-    if new_trips:
-        trips_lines.extend(new_trips)
-        files["trips.txt"] = "\n".join(trips_lines).encode("utf-8")
-        print(f"   ✅ {len(new_trips)} trips ajoutés")
-
-    # 5. Ajouter les stop_times
-    stop_times_content = files.get("stop_times.txt", b"").decode("utf-8-sig")
-    stop_times_lines = stop_times_content.strip().split("\n")
-    stop_times_header = stop_times_lines[0] if stop_times_lines else "trip_id,arrival_time,departure_time,stop_id,stop_sequence"
-    header_cols = stop_times_header.split(",")
-
-    new_stop_times = []
-    for train_num, stops in timetable:
-        trip_id = f"EB_{train_num}"
-        for seq, (stop_id, arr, dep) in enumerate(stops, 1):
-            arr_time = format_time(arr) if arr else format_time(dep)
-            dep_time = format_time(dep) if dep else format_time(arr)
-
-            st_data = {
-                "trip_id": trip_id,
-                "arrival_time": arr_time,
-                "departure_time": dep_time,
-                "stop_id": stop_id,
-                "stop_sequence": str(seq),
-                "pickup_type": "0",
-                "drop_off_type": "0",
-            }
-
-            st_row = []
-            for col in header_cols:
-                col = col.strip().lower()
-                st_row.append(st_data.get(col, ""))
-
-            new_stop_times.append(",".join(st_row))
-
-    if new_stop_times:
-        stop_times_lines.extend(new_stop_times)
-        files["stop_times.txt"] = "\n".join(stop_times_lines).encode("utf-8")
-        print(f"   ✅ {len(new_stop_times)} stop_times ajoutés")
-
-    # 6. Écrire le GTFS patché
     with zipfile.ZipFile(output_zip, "w", zipfile.ZIP_DEFLATED) as zout:
         for name, content in files.items():
             zout.writestr(name, content)
-
     print(f"\n✅ GTFS patché écrit : {output_zip}")
     return True
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Patch GTFS CP avec liaison Elvas-Badajoz")
+    parser = argparse.ArgumentParser(description="Prolonge les trains CP de la Linha do Leste jusqu'à Badajoz")
     parser.add_argument("--input", default=CP_GTFS, help="GTFS CP source")
     parser.add_argument("--output", default=OUTPUT_GTFS, help="GTFS patché")
-    parser.add_argument("--pdf", help="PDF des horaires (optionnel, sinon téléchargé)")
-    parser.add_argument("--update-timetable", action="store_true",
-                        help="Tente de parser le PDF pour mettre à jour les horaires")
     args = parser.parse_args()
-
-    print("=" * 60)
-    print("🚂 Patch GTFS CP : Liaison Elvas - Badajoz")
-    print("=" * 60)
-
-    timetable = TIMETABLE_ELVAS_BADAJOZ
-
-    # Optionnel : parser le PDF pour mettre à jour les horaires
-    if args.update_timetable:
-        with tempfile.TemporaryDirectory() as tmp_dir:
-            pdf_path = args.pdf if args.pdf else os.path.join(tmp_dir, "horaires.pdf")
-            if not args.pdf:
-                if download_pdf(PDF_URL, pdf_path):
-                    timetable = parse_pdf_timetable(pdf_path)
-            else:
-                timetable = parse_pdf_timetable(pdf_path)
-
-    # Patcher le GTFS
-    if patch_gtfs(args.input, args.output, timetable):
-        print("\n💡 Pour utiliser le GTFS patché :")
-        print(f"   mv {args.output} {args.input}")
-
-    print("\n✅ Terminé !")
+    patch_gtfs(args.input, args.output)
 
 
 if __name__ == "__main__":

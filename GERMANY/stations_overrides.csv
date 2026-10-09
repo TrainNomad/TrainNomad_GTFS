@@ -1,0 +1,8 @@
+# Choix manuels : gare du GTFS allemand -> gare de stations.csv (prioritaires sur le rapprochement automatique).
+# gtfs_name = nom exact dans le flux (colonne gtfs_name de stations_report.csv)
+# lat;lon = facultatifs, pour départager deux gares du flux portant le même nom
+# trainline_id = colonne id de stations.csv
+gtfs_name;lat;lon;trainline_id;commentaire
+Hauptbahnhof (oben);48.78473;9.183172;7710;Stuttgart Hbf
+Ostbahnhof;48.12815;11.604545;7683;München Ost
+Flughafen BER;52.364605;13.509874;14609;Berlin Flughafen BER - Terminal 1-2

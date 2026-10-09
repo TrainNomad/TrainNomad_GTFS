@@ -1,0 +1,129 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8014431;800014431;Basel Bad Bf;Basel Bad Bf;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020234;800020234;Muenchen Ost;Muenchen Ost;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101137;810001137;Schwarzach-St.Veit;Schwarzach-St.Veit;gtfs;;;Schwarzach im Pongau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103126;810003126;Wiener Neustadt;Wiener Neustadt Hbf;nom;0.424;Wiener Neustadt Hauptbahnhof;Wiener Neustadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103876;810003876;Mittewald a.d.Drau;Mittewald a.d.Drau;gtfs;;;Anras;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300030;830000030;Garbagna;Garbagna Novarese;nom;0.009;Garbagna Novarese;Garbagna Novarese;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300060;830000060;Torino Reb.Foss.;Torino Reb.Foss.;gtfs;;;Turin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300070;830000070;Biella S.Paolo;Biella S.Paolo;gtfs;;;Bielle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300090;830000090;Ciri�;Ciri�;gtfs;;;Cirié;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300092;830000092;Villanova Canavese-Grosso;Villanova Canavese-Grosso;gtfs;;;Villanova Canavese;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300207;830000207;Pc Meana;Pc Meana;gtfs;;;Méans;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300210;830000210;Borgone;Borgone di Susa;nom;0.022;Borgone di Susa;Borgone Susa;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300212;830000212;Condove;Condove - Chiusa San Michele;nom;0.019;Condove - Chiusa San Michele;L'Écluse;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300229;830000229;Settimo;Settimo Torinese;nom;0.015;Settimo Torinese;Settimo Torinese;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300315;830000315;Borgo S.Martino;Borgo S.Martino;gtfs;;;Borgo San Martino;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300348;830000348;Costigliole (Motta di);Costigliole (Motta di);gtfs;;;Costigliole d'Asti;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300460;830000460;Baldichieri;Baldichieri - Tigliole;nom;0.003;Baldichieri - Tigliole;Tigliole;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300613;830000613;Borgo S.Dalmazzo;Borgo S.Dalmazzo;gtfs;;;Borgo San Dalmazzo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300617;830000617;Limone;Limone Piemonte;nom;0.025;Limone Piemonte;Limone Piemonte;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8300730;830000730;Sommariva Bosco;Sommariva Bosco;gtfs;;;Sommariva del Bosco;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300809;830000809;Alice Belcolle;Alice Belcolle;gtfs;;;Alice Bel Colle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300872;830000872;Montechiaro Denice;Montechiaro Denice;gtfs;;;Montechiaro d'Acqui;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8300953;830000953;Vicoforte S.Michele;Vicoforte S.Michele;gtfs;;;Vicoforte;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301010;830001010;CUZZAGO (Domo-Novara);Cuzzago;nom;0.063;Cuzzago;Premosello-Chiovenda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301031;830001031;Busto Arsizio;Busto Arsizio FS;nom;0.026;Busto Arsizio FS;Busto Arsizio;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301039;830001039;Rho Fiera Milano;Rho Fiera Milano;gtfs;;;Rho;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301041;830001041;Corbetta S.Stefano;Corbetta S.Stefano;gtfs;;;Santo Stefano Ticino;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302001;830002001;Brennero;Brennero/Brenner;nom;0.03;Brenner - Brennero;Brennero;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302003;830002003;Trento S. Chiara;Trento S. Chiara;gtfs;;;Trente;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302005;830002005;Colle Isarco;Colle Isarco/Gossensass;nom;0.017;Gossensaß - Colle Isarco;Brennero;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302011;830002011;Fortezza;Fortezza/Franzensfeste;nom;0.007;Franzensfeste - Fortezza;Fortezza;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302013;830002013;Trento S.Bartolameo;Trento S.Bartolameo;gtfs;;;Trente;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302016;830002016;S.Lorenzo;San Lorenzo/St.Lorenzen;nom;0.041;St. Lorenzen - San Lorenzo di Sebato;San Lorenzo di Sebato;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302026;830002026;Bolzano;Bolzano/Bozen;nom;0.022;Bolzano - Bozen;Bolzano;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302032;830002032;Egna-Termeno;Neumarkt-Tramin - Egna-Termeno;nom;0.007;Neumarkt-Tramin - Egna-Termeno;Termeno sulla Strada del Vino;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302033;830002033;Magre'-Cortaccia;Margreid-Kurtatsch - Magrè-Cortaccia;nom;0.018;Margreid-Kurtatsch - Magrè-Cortaccia;Magrè sulla Strada del Vino;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302034;830002034;Salorno;Salorno - Salurn;nom;0.024;Salorno - Salurn;Salorno sulla Strada del Vino;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302048;830002048;Serravalle;Serravalle all'Adige;nom;0.016;Serravalle all'Adige;Ala;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302051;830002051;Borghetto;Borghetto sull'Adige;nom;0.02;Borghetto sull'Adige;Avio;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302053;830002053;Pc Dolce';Pc Dolce';gtfs;;;Dolcè;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302055;830002055;Domegliara;Domegliara - Sant'Ambrogio;nom;0.008;Domegliara - Sant'Ambrogio;Sant'Ambrogio di Valpolicella;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302059;830002059;Bolzano Casanova;Bolzano Casanova;gtfs;;;Bolzano;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302082;830002082;Ponte S.Marco-Calcinato;Ponte S.Marco-Calcinato;gtfs;;;Calcinato;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302084;830002084;Desenzano;Desenzano del Garda-Sirmione;nom;0.018;Desenzano del Garda-Sirmione;Desenzano del Garda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302102;830002102;Rio di Pusteria;Rio di Pusteria/Mühlbach;nom;0.008;Mühlbach - Rio di Pusteria;Rio di Pusteria;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302105;830002105;Casteldarne;Casteldarne/Ehrenburg;nom;0.002;Ehrenburg - Casteldarne;Chienes;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302110;830002110;Valdaora-Anterselva;Valdaora/Olang;nom;0.234;Olang-Antholz - Valdaora-Anterselva;Valdaora;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302111;830002111;Monguelfo-Casies;Monguelfo-Casies;gtfs;;;Monguelfo-Tesido;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302113;830002113;Dobbiaco;Dobbiaco/Toblach;nom;0.03;Toblach - Dobbiaco;Dobbiaco;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302114;830002114;S.Candido;San Candido/Innichen;nom;0.016;Innichen - San Candido;San Candido;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302142;830002142;Marano;Marano Vicentino;nom;0.003;Marano Vicentino;Marano Vicentino;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302221;830002221;Gargazzone;Gargazzone/Gargazon;nom;0.314;Gargazon - Gargazzone;Gargazzone;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302302;830002302;Povo;Povo-Mesiano;nom;0.084;Povo-Mesiano;Trente;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302305;830002305;Pergine;Pergine Valsugana;nom;0.064;Pergine Valsugana;Pergine Valsugana;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302309;830002309;Levico;Levico Terme;nom;0.024;Levico Terme;Levico Terme;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302367;830002367;Villabartolomea;Villabartolomea;gtfs;;;villa Bartolomea;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302374;830002374;Fratta;Fratta Polesine;nom;0.004;Fratta Polesine;Lendinara;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302390;830002390;Boschi S.Anna;Boschi S.Anna;gtfs;;;Boschi Sant'Anna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302517;830002517;Mestre Ospedale;Venezia Mestre Ospedale;nom;0.044;Venezia Mestre Ospedale;Venise;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302521;830002521;Rosa';Rosa';gtfs;;;Rosà;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302593;830002593;Venezia S.Lucia;Venezia S.Lucia;gtfs;;;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302666;830002666;S.Dona' di Piave;San Donà di Piave - Jesolo;nom;0.016;San Donà di Piave - Jesolo;San Donà di Piave;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302719;830002719;Mestre Gazzera;Mestre Gazzera;gtfs;;;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303028;830003028;Tricesimo-S.Pelagio;Tricesimo-S.Pelagio;gtfs;;;Tricesimo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303089;830003089;Sacile S.Liberale;Sacile S.Liberale;gtfs;;;Sacile;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303202;830003202;Latisana Lignano-Bibione;Latisana Lignano-Bibione;gtfs;;;Latisana;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303213;830003213;Trieste Aeroporto;Trieste Aeroporto;gtfs;;;Ronchi dei Legionari;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303312;830003312;Sistiana;Sistiana;gtfs;;;Duino-Aurisina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8303313;830003313;Bivio d'Aurisina;Bivio d'Aurisina / Nabrežina bivio;nom;0.048;Bivio d'Aurisina / Nabrežina bivio;Duino-Aurisina;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8303468;830003468;Villa Opicina;Villa Opicina;nom;0.056;Villa Opicina / Opčine;Trieste;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8304100;830004100;Visone;Stazione di Visone;nom;0.011;Stazione di Visone;Visone;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8304105;830004105;Campoligure Masone;Campoligure Masone;gtfs;;;campo Ligure;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8304222;830004222;Genova S.Biagio;Genova S.Biagio;gtfs;;;Gênes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8304480;830004480;Olivetta S.Michele;Olivetta S.Michele;gtfs;;;Olivetta San Michele;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8304518;830004518;Borghetto S.Spirito;Borghetto S.Spirito;gtfs;;;Borghetto Santo Spirito;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8304537;830004537;Genova Sestri Ponente;Genova Sestri Ponente - Aeroporto;nom;0.028;Genova Sestri Ponente - Aeroporto;Gênes;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8304716;830004716;Camogli S.Fruttuoso;Camogli S.Fruttuoso;gtfs;;;Camogli;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8305010;830005010;Calderara-Barge.;Calderara-Barge.;gtfs;;;Calderara di Reno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8305700;830005700;Abano Terme;Abano Terme;gtfs;;;Abano Terme;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8305709;830005709;Pc Canaro;Pc Canaro;gtfs;;;Canaro;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8306044;830006044;Ca' di Boschetti;Ca' di Boschetti;gtfs;;;La Spezia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8306085;830006085;Puglia Cecil.;Puglia Cecil.;gtfs;;;Arezzo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8306086;830006086;Arezzo CC1;Arezzo CC1;gtfs;;;Arezzo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8306514;830006514;S.Donnino Badia;S.Donnino Badia;gtfs;;;Campi Bisenzio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8306620;830006620;Popolano;Popolano;gtfs;;;Brisighella;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8307023;830007023;Monsampolo del T;Monsampolo del T;gtfs;;;Monsampolo del Tronto;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8307200;830007200;Castelferretti - Falconara Aeroporto;Castelferretti-Falconara Aeroporto delle Marche;nom;0.033;Castelferretti-Falconara Aeroporto delle Marche;Falconara Marittima;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8307230;830007230;Narni Amelia;Narni Amelia;gtfs;;;Narni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8307407;830007407;Castel S.Angelo;Castel S.Angelo;gtfs;;;Castel Sant’Angelo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8307417;830007417;L'Aquila S. Gregorio;L'Aquila S. Gregorio;gtfs;;;L'Aquila;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8307436;830007436;Bazzano (AQ);Bazzano;nom;0.119;Bazzano;L'Aquila;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8307810;830007810;Pescara;Pescara Centrale;nom;0.19;Pescara Centrale;Pescara;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8308023;830008023;Guidonia Montecelio;Guidonia Montecelio;gtfs;;;Guidonia Montecelio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308214;830008214;Fara Sabina;Fara Sabina-Montelibretti;nom;0.025;Fara Sabina-Montelibretti;Fara in Sabina;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8308220;830008220;Gavignano;Gavignano Sabino;nom;0.131;Gavignano Sabino;Forano;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8308224;830008224;Roma Nomentana Ll;Roma Nomentana;nom;0.088;Roma Nomentana;Rome;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8308318;830008318;Anguillara;Anguillara;gtfs;;;Anguillara Sabazia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308405;830008405;Roma Trastevere;Roma Trastevere;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308406;830008406;Roma Ostiense;Roma Ostiense;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308501;830008501;Tor Sapienza;Tor Sapienza;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308505;830008505;La Rustica Uir;La Rustica Uir;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308506;830008506;Guidonia-Montecelio-S.Angelo;Guidonia-Montecelio-S.Angelo;gtfs;;;Guidonia Montecelio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308516;830008516;Arsoli;Arsoli;gtfs;;;Arsoli;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308600;830008600;Torricola;Torricola;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308605;830008605;Monte S. Biagio-Terracina Mare;Monte S. Biagio-Terracina Mare;gtfs;;;monte San Biagio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8308665;830008665;Castro-Pofi;Castro-Pofi-Vallecorsa;nom;0.033;Castro-Pofi-Vallecorsa;Castro dei Volsci;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8308667;830008667;Isoletta-S.Giovanni I.;Isoletta-S.Giovanni I.;gtfs;;;Arce;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8309036;830009036;Valle di Maddaloni (nuova stazione);Valle di Maddaloni (nuova stazione);gtfs;;;Valle di Maddaloni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8309042;830009042;Acerra (nuova stazione);Acerra;nom;0.056;Acerra;Acerra;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8309043;830009043;Casalnuovo(new);Casalnuovo(new);gtfs;;;Afragola;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8309225;830009225;Fontanarosa;Fontanarosa-Cervaro;nom;0.231;Fontanarosa-Cervaro;Cassino;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8309835;830009835;Salerno Torrione;Salerno Torrione;gtfs;;;Salerne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8309836;830009836;Salerno Pastena;Salerno Pastena;gtfs;;;Salerne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8309839;830009839;Salerno Stadio Arechi;Salerno Stadio Arechi;gtfs;;;Salerne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8311251;830011251;Loseto;Bari Loseto;nom;0.014;Bari Loseto;Bari;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8311516;830011516;Modugno (new);Modugno;nom;0.887;Modugno;Modugno;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8311715;830011715;Centola;Centola-Palinuro-Marina di Camerota;nom;0.164;Centola-Palinuro-Marina di Camerota;Centola;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8311761;830011761;Ricadi;Ricadi-Capo Vaticano;nom;0.223;Ricadi-Capo Vaticano;Ricadi;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8311805;830011805;Monte Giordano;Monte Giordano;gtfs;;;Montegiordano;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8311956;830011956;Catanzaro;Catanzaro Sala;nom;0.288;Catanzaro Sala;Catanzaro;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8312075;830012075;Palermo Libert�;Palermo Libert�;gtfs;;;Palerme;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8312139;830012139;Palermo Cardillo-Zen;Palermo Cardillo-Zen;gtfs;;;Palerme;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8312203;830012203;Montemaggiore;Montemaggiore Belsito;nom;0.049;Montemaggiore Belsito;Caccamo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8313551;830013551;Salerno Mercatello;Salerno Mercatello;gtfs;;;Salerne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8313552;830013552;Salerno Arbostella;Salerno Arbostella;gtfs;;;Salerne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8313708;830013708;Brindisi Ricerca;Brindisi Ricerca;gtfs;;;Brindisi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8314570;830014570;Vigna Clara PES;Vigna Clara PES;gtfs;;;Rome;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8314916;830014916;Venezia Mestre Binario 1 Giardino;Venezia Mestre Binario 1 Giardino;gtfs;;;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

@@ -1,0 +1,2 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNFLIXTRAIN-086064da-8914-415f-83cc-8d6a087f5ed2;086064da-8914-415f-83cc-8d6a087f5ed2;Basel Bad Bf;Basel Bad Bf;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

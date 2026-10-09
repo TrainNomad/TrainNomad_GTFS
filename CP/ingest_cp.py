@@ -1,8 +1,8 @@
 """
-Télécharge le GTFS CP et applique le patch Elvas-Badajoz.
+Télécharge le GTFS CP et prolonge les trains de la Linha do Leste jusqu'à Badajoz.
 
-La liaison transfrontalière Elvas (PT) - Badajoz (ES) n'est pas publiée dans le GTFS officiel CP.
-Ce script télécharge le GTFS et injecte les horaires extraits du PDF publié par CP.
+Le GTFS officiel CP arrête à Elvas les Regionais Entroncamento <-> Badajoz (481/482/485/486).
+patch_elvas_badajoz.py ajoute l'arrêt Badajoz d'après le PDF publié par CP.
 
 Usage :
     python CP/ingest_cp.py
@@ -44,11 +44,11 @@ def main():
     # 1. Télécharger le GTFS officiel
     tmp_gtfs = download_cp_gtfs()
 
-    # 2. Importer et appliquer le patch Elvas-Badajoz
-    from patch_elvas_badajoz import patch_gtfs, TIMETABLE_ELVAS_BADAJOZ
+    # 2. Prolonger les trains de la Linha do Leste jusqu'à Badajoz
+    from patch_elvas_badajoz import patch_gtfs
 
-    print("\n🔧 Application du patch Elvas - Badajoz...")
-    success = patch_gtfs(tmp_gtfs, OUTPUT_ZIP, TIMETABLE_ELVAS_BADAJOZ)
+    print("\n🔧 Prolongement des trains Elvas -> Badajoz...")
+    success = patch_gtfs(tmp_gtfs, OUTPUT_ZIP)
 
     # Nettoyer le fichier temporaire
     if os.path.exists(tmp_gtfs):

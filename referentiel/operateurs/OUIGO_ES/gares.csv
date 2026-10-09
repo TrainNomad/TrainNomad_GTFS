@@ -1,0 +1,17 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN7103208;gare;Cuenca-Fernando Zóbel;Cuenca-Fernando Zóbel;Cuenca-Fernando Zóbel;7103208;;40.033965;-2.143689;ES;Europe/Madrid;Q15098;OUIGO;;uic;10592347455;Q3817337;;;007103208;Cuenca Fernando Zobel
+TN7103216;gare;València Joaquín Sorolla;València Joaquín Sorolla;València Joaquín Sorolla;7103216;;39.460047;-0.381208;ES;Europe/Madrid;Q8818;OUIGO;;uic;7246471727;Q801550;;;007103216;Valencia Joaquin Sorolla
+TN7103410;gare;Elche Av/Elx Av;Elche Av/Elx Av;Elche Av/Elx Av;7103410;;38.24551;-0.76675;ES;Europe/Madrid;Q10509;OUIGO;;gtfs;;;;;007103410;Elche Av/Elx Av
+TN7104040;gare;Zaragoza-Delicias;Zaragoza-Delicias;Zaragoza-Delicias;7104040;;41.658573;-0.911388;ES;Europe/Madrid;Q10305;OUIGO;;uic;4813092198;Q801660;;;007104040;Zaragoza-Delicias
+TN7104104;gare;Camp de Tarragona;Camp de Tarragona;Camp de Tarragona;7104104;;41.192173;1.273568;ES;Europe/Madrid;Q1230093;OUIGO;;nom;2713026494;Q3096129;;;007104104;Camp De Tarragona
+TN7108004;gare;Estación de Segovia-Guiomar;Estación de Segovia-Guiomar;Estación de Segovia-Guiomar;7108004;;40.910232;-4.094755;ES;Europe/Madrid;Q15684;OUIGO;;uic;12284813952;Q3325675;;;007108004;Segovia Guiomar
+TN7110600;gare;Valladolid - Campo Grande;Valladolid - Campo Grande;Valladolid - Campo Grande;7110600;;41.642127;-4.726951;ES;Europe/Madrid;Q8356;OUIGO;;uic;9175580427;Q3327085;;;007110600;Valladolid
+TN7117000;gare;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;7117000;;40.472057;-3.682262;ES;Europe/Madrid;Q2807;OUIGO;;uic;9821007500;;;;007117000;Madrid-Chamartin
+TN7150500;gare;Córdoba Julio Anguita;Córdoba Julio Anguita;Córdoba Julio Anguita;7150500;;37.88851;-4.789516;ES;Europe/Madrid;Q5818;OUIGO;;uic;7567516121;Q97624967;;;007150500;Cordoba-Central
+TN7151003;gare;Sevilla - Santa Justa;Sevilla - Santa Justa;Sevilla - Santa Justa;7151003;;37.392092;-5.975206;ES;Europe/Madrid;Q8717;OUIGO;;uic;191262271;Q801432;;;007151003;Sevilla-Santa Justa
+TN7154413;gare;Málaga María Zambrano;Málaga María Zambrano;Málaga María Zambrano;7154413;;36.71162;-4.43236;ES;Europe/Madrid;Q8851;OUIGO;;nom;2609534280;Q801214;;;007154413;Malaga Maria Zambrano
+TN7160000;gare;Madrid-Puerta de Atocha-Almudena Grandes;Madrid-Puerta de Atocha-Almudena Grandes;Madrid-Puerta de Atocha-Almudena Grandes;7160000;;40.405684;-3.690019;ES;Europe/Madrid;Q2807;OUIGO;;uic;7499028216;;;;007160000;Madrid-Puerta De Atocha
+TN7160600;gare;Albacete Los Llanos;Albacete Los Llanos;Albacete Los Llanos;7160600;;39.000106;-1.847348;ES;Europe/Madrid;Q15095;OUIGO;;uic;11016395831;Q3817348;;;007160600;Albacete
+TN7160911;gare;Alicante-Termino;Alicante-Termino;Alicante-Termino;7160911;;38.344443;-0.495;ES;Europe/Madrid;Q11959;OUIGO;;gtfs;;;;;007160911;Alicante-Termino
+TN7161200;gare;Murcia del Carmen;Murcia del Carmen;Murcia del Carmen;7161200;;37.974506;-1.130589;ES;Europe/Madrid;Q12225;OUIGO;;nom;13017334754;Q3325607;;;007161200;Murcia Del Carmen
+TN7171801;gare;Barcelona - Sants;Barcelona - Sants;Barcelona - Sants;7171801;;41.379007;2.140004;ES;Europe/Madrid;Q1492;OUIGO;;uic;2158044594;;;;007171801;Barcelona-Sants

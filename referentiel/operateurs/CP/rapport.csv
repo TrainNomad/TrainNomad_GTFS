@@ -1,0 +1,25 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN9403046;94_3046;Aguas Santas - Palmilheira;Aguas Santas - Palmilheira;gtfs;;;Maia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9409282;94_9282;Porto Rei;Porto Rei;gtfs;;;Mesão Frio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9418085;94_18085;Carreco;Carreco;nom;0.002;Carreço-A;Viana do Castelo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9418416;94_18416;Carvalha;Carvalha;nom;0.015;Carvalha-A;Vila Nova de Cerveira;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9432383;94_32383;Mato de Miranda;Mato de Miranda;gtfs;;;Golegã;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9433084;94_33084;Reguengo - Vale da Pedra;Reguengo - Vale da Pedra;nom;0.04;Reguengo - Vale da Pedra - Pontével;Cartaxo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9437184;94_37184;Paraimo - Sangalhos;Paraimo - Sangalhos;nom;0.008;Paraimo;Anadia;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9439164;94_39164;Vila Nova de Gaia - Devesas;Vila Nova de Gaia - Devesas;nom;0.016;Gaia;Vila Nova de Gaia;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9442093;94_42093;Sao Joao Loure;Sao Joao Loure;gtfs;;;Aveiro;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9442309;94_42309;Carvalhal Portela;Carvalhal Portela;gtfs;;;Águeda;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9446045;94_46045;Vacarica;Vacarica;nom;0.011;Quinta do Valongo - Vacariça;Mealhada;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9446219;94_46219;Monte de Lobos;Monte de Lobos;gtfs;;;Mortágua;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9452647;94_52647;Vila Velha de Rodao;Vila Velha de Rodao;nom;0.008;Ródão;Vila Velha de Ródão;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9460087;94_60087;Amadora;Amadora;gtfs;;;Amadora;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9460103;94_60103;Queluz - Belas;Queluz - Belas;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9460111;94_60111;Monte Abraao;Monte Abraao;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9460137;94_60137;Massama - Barcarena;Massama - Barcarena;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9461044;94_61044;Rio de Mouro;Rio de Mouro;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9461051;94_61051;Merces;Merces;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9461069;94_61069;Algueirao - Mem Martins;Algueirao - Mem Martins;gtfs;;;Sintra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9463263;94_63263;Valado - Nazare - Alcobaca;Valado - Nazare - Alcobaca;nom;0.008;Valado;Nazaré;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9463404;94_63404;Martinganca - Maceira;Martinganca - Maceira;gtfs;;;Alcobaça;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN9468080;94_68080;Palmela;Palmela;nom;0.034;Palmela-A;Palmela;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN9491058;94_91058;Praias do Sado-A;Praias do Sado-A;gtfs;;;Setúbal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

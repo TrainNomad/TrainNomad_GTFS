@@ -1,0 +1,1221 @@
+gtfs_name;gtfs_lat;gtfs_lon;checked;osm_id;osm_name;uic_ref;lat;lon;railway;km
+Achim(b Bremen) (Zug);53.016;9.030;2026-10-06;;;;;;;
+Adendorf;53.282;10.454;2026-10-06;4612558920;Adendorf;;53.282453;10.454363;station;0.003
+Adorf, Bahnhof;50.324;12.262;2026-10-06;229660055;Adorf (Vogtl);8006725;50.323858;12.260958;station;0.044
+Adorf, Haltepunkt;50.764;12.875;2026-10-06;12974540012;Adorf (Erzgeb);;50.763851;12.873725;halt;0.071
+Aha (Schluchsee) Bahnhof;47.833;8.134;2026-10-06;;;;;;;
+Ahlen, Bahnhof;51.761;7.895;2026-10-06;4009966506;Ahlen (Westf);8000441;51.761155;7.895437;station;0.049
+Alfons-Auer-Straße;49.006;12.108;2026-10-06;;;;;;;
+Altach;47.352;9.661;2026-10-06;3015483004;Altach;8100630;47.352373;9.661687;halt;0.054
+Altenberg Bahnhof;50.766;13.754;2026-10-06;3653234191;Kurort Altenberg (Erzgeb.);8006044;50.766483;13.753919;station;0.050
+Althengstett, Bahnhof;48.727;8.798;2026-10-06;13483546435;Althengstett;;48.726885;8.797432;halt;0.008
+Amselgrund;50.935;12.853;2026-10-06;1766621328;Amselgrund;;50.934864;12.852750;halt;0.003
+Andernach Miesenheim Bahnhof;50.404;7.408;2026-10-06;;;;;;;
+Andernach Namedy Bahnhof;50.457;7.362;2026-10-06;;;;;;;
+Antoninov;50.772;15.250;2026-10-06;340280165;Antonínov;;50.771576;15.249393;halt;0.016
+Apach(Moselle);49.459;6.372;2026-10-06;;;;;;;
+Appelhülsen, Bahnhof;51.893;7.427;2026-10-06;4227486342;Nottuln-Appelhülsen;8021007;51.892112;7.426254;station;0.055
+As mesto;50.219;12.183;2026-10-06;35309792;Aš město;5473015;50.218998;12.183420;station;0.020
+Aue, Stadion;50.596;12.707;2026-10-06;;;;;;;
+Auerbach, Bahnhof;49.702;8.613;2026-10-06;17658624;Bensheim-Auerbach;8000877;49.701602;8.613249;station;0.017
+Auhausen;49.006;10.624;2026-10-06;5133061674;Auhausen;;49.006722;10.623431;halt;0.043
+Aulfingen Bahnhof;47.887;8.662;2026-10-06;7448377513;Geisingen-Aulfingen;;47.886540;8.661918;halt;0.011
+Aßlar-Werdorf Bahnhof;50.593;8.419;2026-10-06;;;;;;;
+B.S-Schötmar, Bahnhof;52.070;8.754;2026-10-06;;;;;;;
+B.S-Sylbach, Bahnhof;52.027;8.765;2026-10-06;;;;;;;
+BASF, Bahnhof Mitte;49.510;8.432;2026-10-06;450529180;Ludwigshafen(Rhein) BASF Mitte;8000308;49.511314;8.431582;halt;0.124
+BASF, Bahnhof Nord;49.520;8.427;2026-10-06;1849566212;Ludwigshafen(Rhein) BASF Nord;8087060;49.520043;8.427869;station;0.051
+BASF, Bahnhof Süd;49.494;8.439;2026-10-06;450524797;Ludwigshafen(Rhein) BASF Süd;8002056;49.493995;8.438864;station;0.006
+Babenhausen-Hergershausen Bahnhof;49.937;8.917;2026-10-06;;;;;;;
+Bad Herrenalb Kullenmühle;48.809;8.444;2026-10-06;3109265532;Bad Herrenalb Kullenmühle;;48.808964;8.444026;halt;0.002
+Bad Laasphe-Feudingen Bf;50.941;8.329;2026-10-06;;;;;;;
+Bad Laasphe-Oberndorf Bf;50.952;8.300;2026-10-06;;;;;;;
+Bad Muskau;51.538;14.723;2026-10-06;6061420585;Bad Muskau;;51.537828;14.722813;station;0.011
+Bad Münstereifel Iversheim Bf/Mitte;50.583;6.769;2026-10-06;3111509891;Bad Münstereifel-Iversheim;8003104;50.583051;6.769195;halt;0.039
+Bad Münstereifel-Arloff;50.598;6.787;2026-10-06;3237900132;Bad Münstereifel-Arloff;8000601;50.597696;6.786819;halt;0.015
+Bad Neuenahr-Ahrweiler Ahrweiler Bahnhof;50.546;7.107;2026-10-06;;;;;;;
+Bad Neuenahr-Ahrweiler Ahrweiler Marktbahnhof;50.544;7.094;2026-10-06;;;;;;;
+Bad Neuenahr-Ahrweiler Lohrsdorf Bahnhof Heimersheim/Lohrsdorf;50.549;7.186;2026-10-06;;;;;;;
+Bad Neuenahr-Ahrweiler Walporzheim Bahnhof;50.532;7.079;2026-10-06;;;;;;;
+Bad Saarow, Pieskow Bahnhof;52.271;14.071;2026-10-06;1127084098;Bad Saarow-Pieskow;;52.270888;14.070950;halt;0.013
+Bad Vigaun;47.664;13.124;2026-10-06;2647539030;Bad Vigaun;8101718;47.664273;13.124151;halt;0.015
+Bad Vilbel-Dortelweil Bahnhof;50.207;8.751;2026-10-06;;;;;;;
+Baden(Achim);53.008;9.081;2026-10-06;;;;;;;
+Bahlingen Bahnhof;48.125;7.742;2026-10-06;3194960466;Bahlingen am Kaiserstuhl;8007293;48.124728;7.741656;station;0.019
+Baienfurt Niederbiegen Bahnhof;47.830;9.621;2026-10-06;;;;;;;
+Balingen Bahnhof/Busbf;48.279;8.851;2026-10-06;267109563;Balingen;8029345;48.278278;8.850209;station;0.117
+Basdorf (BAR), Bahnhof;52.715;13.434;2026-10-06;272437296;Basdorf;8003593;52.715416;13.433889;station;0.005
+Beeskow, Oegeln Bhf;52.173;14.271;2026-10-06;;;;;;;
+Beeskow, Schneeberg Bhf;52.165;14.330;2026-10-06;;;;;;;
+Beifang, Bahnhof;51.694;7.455;2026-10-06;289235814;Selm-Beifang;8005526;51.693496;7.454715;halt;0.038
+Bela p.Bezdezem mesto;50.493;14.787;2026-10-06;;;;;;;
+Bela p.Bezdezem z.;50.500;14.869;2026-10-06;;;;;;;
+Bela u Stare Paky;50.532;15.443;2026-10-06;26010747;Bělá u Staré Paky;;50.532569;15.442499;halt;0.012
+Bela u Stare Paky z.;50.534;15.446;2026-10-06;;;;;;;
+Belsen Bahnhof;48.395;9.030;2026-10-06;329433035;Bad Sebastiansweiler-Belsen;8029339;48.395470;9.029906;halt;0.017
+Bengel (Mosel), Bahnhof;50.011;7.059;2026-10-06;30209243;Bengel;8000870;50.010722;7.058925;halt;0.009
+Benndorf (Mansfelder Land) (Bus);51.573;11.493;2026-10-06;3365550082;Benndorf;;51.575420;11.491879;station;0.323
+Benneckenstein Benneckenstein Gleis 1;51.674;10.715;2026-10-06;9945157006;Benneckenstein;;51.673681;10.714741;station;0.014
+Benneckenstein Benneckenstein Gleis 2;51.674;10.715;2026-10-06;9945157006;Benneckenstein;;51.673681;10.714741;station;0.011
+Bereich Gl.1/2;53.605;10.154;2026-10-06;;;;;;;
+Bereich Gleis 1+2;53.830;10.495;2026-10-06;;;;;;;
+Bereich Lauenburg Gl.1+2;53.370;10.568;2026-10-06;;;;;;;
+Berg(CH);47.582;9.174;2026-10-06;;;;;;;
+Berg, Bahnhof;48.981;8.213;2026-10-06;28179678;Berg (Pfalz);8000890;48.980746;8.212758;halt;0.021
+Bergheim Glesch Bf;50.971;6.590;2026-10-06;;;;;;;
+Bergisch Gladbach Duckterath (S);50.985;7.103;2026-10-06;;;;;;;
+Bernburg (Saale) Keßlerturm (Parkeisenbahn);51.792;11.717;2026-10-06;;;;;;;
+Bernburg (Saale) Paradies (Parkeisenbahn);51.791;11.712;2026-10-06;;;;;;;
+Bernburg (Saale) Rosenhag (Parkeisenbahn);51.798;11.731;2026-10-06;;;;;;;
+Bernburg (Saale) Sportforum (Parkeisenbahn);51.795;11.721;2026-10-06;;;;;;;
+Bernburg (Saale) Tiergarten (Parkeisenbahn);51.796;11.727;2026-10-06;;;;;;;
+Bestenheid, Bahnhof Glashütte;49.786;9.500;2026-10-06;268365634;Wertheim-Bestenheid;;49.786136;9.500437;halt;0.021
+Betzingen Bahnhof;48.496;9.175;2026-10-06;308013044;Reutlingen-Betzingen;8029313;48.496278;9.175275;halt;0.005
+Bev.-Wehrden, Bahnhof;51.709;9.384;2026-10-06;;;;;;;
+Bezdekov u Klatov;49.381;13.237;2026-10-06;307401382;Bezděkov u Klatov;;49.380705;13.236751;halt;0.010
+Bezdez;50.516;14.730;2026-10-06;255478877;Bezděz;5456889;50.516131;14.729408;station;0.018
+Bi-Senne, Bahnhof;51.965;8.520;2026-10-06;;;;;;;
+Biberach ZOB/Bahnhof;48.102;9.793;2026-10-06;3493107549;Biberach (Riß);8029126;48.101927;9.793114;station;0.000
+Bibra (Bushaltestelle);50.468;10.439;2026-10-06;13465254581;Bibra;8016141;50.468519;10.444352;halt;0.379
+Biebergemünd-Wirtheim Bahnhof;50.226;9.258;2026-10-06;;;;;;;
+Biebesheim (Rhein) Bahnhof;49.782;8.474;2026-10-06;5964652363;Biebesheim;8000951;49.781841;8.474016;station;0.015
+Bielefeld, Brackwede Bahnhof;51.998;8.500;2026-10-06;1874626916;Bielefeld-Brackwede;8000048;51.997266;8.498484;station;0.151
+Bielefeld, Quelle Bahnhof;52.000;8.462;2026-10-06;;;;;;;
+Bila Tremesna;50.452;15.733;2026-10-06;769030570;Bílá Třemešná;;50.451910;15.733078;station;0.040
+Bily Potok p.Smrkem;50.876;15.206;2026-10-06;;;;;;;
+Blankenloch Kirche;49.065;8.471;2026-10-06;3112467810;Blankenloch Kirche;;49.064543;8.471343;tram_stop;0.030
+Blankenloch Mühlenweg;49.069;8.475;2026-10-06;3112467811;Blankenloch Mühlenweg;;49.068655;8.474508;tram_stop;0.009
+Blankenloch Nord;49.073;8.468;2026-10-06;3219421511;Blankenloch Nord;;49.073264;8.467713;tram_stop;0.001
+Blankenloch Süd;49.057;8.467;2026-10-06;3112467812;Blankenloch Süd;;49.057408;8.467079;tram_stop;0.000
+Blankenloch Tolna-Platz;49.060;8.469;2026-10-06;3112467812;Blankenloch Süd;;49.057408;8.467079;tram_stop;0.368
+Blizevedly;50.614;14.395;2026-10-06;537028502;Blíževedly;;50.613597;14.395341;station;0.011
+Bludenz Brunnenfeld;47.136;9.839;2026-10-06;618875938;Bludenz Brunnenfeld;;47.136376;9.838768;halt;0.012
+Bludenz-Moos;47.142;9.831;2026-10-06;618875940;Bludenz Moos;;47.142403;9.830819;halt;0.045
+Bochnia;49.977;20.431;2026-10-06;48267476;Bochnia;5100227;49.977339;20.430973;station;0.015
+Bochum Höntrop;51.460;7.155;2026-10-06;2751655137;Wattenscheid-Höntrop;8006227;51.459840;7.153388;halt;0.098
+Bocksthal;51.579;11.505;2026-10-06;3901345077;Bocksthal;;51.579237;11.504745;station;0.017
+Bohumin(Gr);49.917;18.322;2026-10-06;;;;;;;
+Bohusovice nad Ohri;50.491;14.149;2026-10-06;24700200;Bohušovice nad Ohří;;50.491291;14.149433;station;0.002
+Bondorf;48.523;8.828;2026-10-06;4457836359;Bondorf;8029396;48.523513;8.827835;station;0.027
+Borek p.Troskami;50.536;15.232;2026-10-06;1841625088;Borek pod Troskami;;50.535507;15.232227;halt;0.002
+Borgh-Oldendorf, Bahnhof;52.086;8.267;2026-10-06;;;;;;;
+Borgh-Westbarthsn, Bahnhof;52.097;8.233;2026-10-06;;;;;;;
+Borghorst, Bahnhof;52.119;7.398;2026-10-06;4895853494;Steinfurt-Borghorst;8001096;52.118521;7.398510;station;0.071
+Bork, Bahnhof;51.669;7.457;2026-10-06;371230571;Bork (Westf);8001097;51.669136;7.456325;station;0.032
+Bornheim Roisdorf Bf;50.753;7.016;2026-10-06;1293148815;Roisdorf;8005152;50.753200;7.016062;station;0.005
+Bornheim Sechtem Bf;50.796;6.957;2026-10-06;;;;;;;
+Borovnice;50.509;15.604;2026-10-06;958755214;Borovnice;;50.509160;15.604938;halt;0.065
+Borovnicka;50.500;15.659;2026-10-06;958755227;Borovnička;;50.500051;15.658761;halt;0.012
+Borovy;49.527;13.299;2026-10-06;307397654;Borovy;;49.527229;13.299955;halt;0.056
+Bozikov;50.679;14.650;2026-10-06;280900285;Zákupy-Božíkov;5457139;50.678722;14.649861;halt;0.017
+Brahlstorf b Hagenow Bahnhof;53.365;10.953;2026-10-06;1104185426;Brahlstorf;8027334;53.364017;10.953624;station;0.109
+Brahmsstraße;49.004;12.109;2026-10-06;;;;;;;
+Brand, Tropical Islands Bhf;52.030;13.722;2026-10-06;3190238273;Brand Tropical Islands;8004007;52.029921;13.721538;station;0.003
+Brandenburg, Görden Bhf;52.428;12.504;2026-10-06;;;;;;;
+Brandenburg, Kirchmöser Bhf;52.375;12.422;2026-10-06;;;;;;;
+Brechen-Oberbrechen Bahnhof;50.354;8.189;2026-10-06;;;;;;;
+Bregenz Hafen;47.506;9.748;2026-10-06;3006564368;Bregenz Hafen;8101950;47.506238;9.748532;halt;0.022
+Breitenfürst;48.860;9.630;2026-10-06;300557465;Breitenfürst;;48.860125;9.629753;halt;0.020
+Breitenstein (Pfalz);49.345;8.002;2026-10-06;274847305;Breitenstein (Pfalz);;49.344123;8.001123;halt;0.100
+Brezina n.Jizerou;50.546;15.036;2026-10-06;3267208307;Březina nad Jizerou;;50.545598;15.036065;halt;0.005
+Breziny u Decina;50.761;14.244;2026-10-06;248088381;Březiny u Děčína;5456219;50.760986;14.243931;halt;0.002
+Brezno u Mlada Boleslavi;50.414;15.005;2026-10-06;292724736;Březno u Mladé Boleslavi;;50.413456;15.004887;halt;0.041
+Brieskow-Finkenheerd, Finkenheerd Bhf;52.249;14.569;2026-10-06;;;;;;;
+Brohl Rheinanlagen;50.487;7.328;2026-10-06;1995350303;Brohl Rheinanlagen;;50.487472;7.327678;halt;0.026
+Brohl-Lützing Brohl Bahnhof;50.481;7.333;2026-10-06;;;;;;;
+Bronnbach, Bahnhof;49.715;9.544;2026-10-06;2870874231;Kloster Bronnbach;;49.715245;9.543386;halt;0.036
+Brtniky;50.952;14.439;2026-10-06;13016279966;Brtníky;5456469;50.951752;14.438830;halt;0.017
+Brzeg Dolny;51.266;16.727;2026-10-06;1005966746;Brzeg Dolny;;51.266963;16.725033;station;0.148
+Brzesko Okocim;49.986;20.610;2026-10-06;2197689089;Brzesko Okocim;;49.986763;20.609341;station;0.080
+Buchholz (bei Treuenbrietzen), Bahnhof;52.166;12.920;2026-10-06;31206666;Buchholz (Zauche);8003463;52.165709;12.920505;halt;0.004
+Bukovno;50.443;14.833;2026-10-06;6373086304;Bukovno;;50.443309;14.833357;halt;0.004
+Burbach Bf;50.749;8.078;2026-10-06;529022111;Burbach (Kr Siegen);8001268;50.749021;8.077712;station;0.025
+Burgau, Bahnhof;48.425;10.427;2026-10-06;11420198;Burgau (Schwab);8001276;48.425124;10.426816;station;0.014
+Burgsteinfurt, Bahnhof;52.147;7.331;2026-10-06;4173507266;Steinfurt-Burgsteinfurt;8000062;52.147275;7.329569;station;0.090
+Busenberg, Bahnhof;49.139;7.800;2026-10-06;5583897961;Busenberg-Schindhard;8079118;49.138862;7.799686;station;0.011
+Butoves;50.388;15.425;2026-10-06;273042027;Butoves;;50.388111;15.424905;station;0.000
+Bysice;50.306;14.604;2026-10-06;30579108;Byšice;;50.305723;14.603930;station;0.020
+Büchig;49.048;8.461;2026-10-06;3112467813;Büchig;;49.047929;8.461068;tram_stop;0.000
+Bünde, Bahnhof/ZOB;52.202;8.575;2026-10-06;21303996;Bünde (Westf);8000059;52.202246;8.574333;station;0.032
+Calden-Fürstenwald Bahnhof;51.381;9.360;2026-10-06;206686660;Calden-Fürstenwald;8002145;51.380464;9.360086;halt;0.010
+Cerekvice nad Bystrici;50.326;15.717;2026-10-06;272632607;Cerekvice nad Bystřicí;;50.325628;15.716629;halt;0.001
+Cernousy;51.008;15.037;2026-10-06;249073618;Černousy;;51.007845;15.037564;halt;0.033
+Cernovice u Chomutova;50.454;13.363;2026-10-06;12857426664;Černovice u Chomutova;5453499;50.454412;13.363392;station;0.010
+Cervene Porici;49.496;13.305;2026-10-06;307398182;Červené Poříčí;;49.495821;13.304950;halt;0.012
+Ceska Lipa - Holy vrch;50.682;14.523;2026-10-06;264508907;Česká Lípa-Holý vrch;5456199;50.682379;14.522808;halt;0.002
+Ceska Lipa strelnice;50.692;14.533;2026-10-06;417968089;Česká Lípa střelnice;5456829;50.691741;14.533190;halt;0.001
+Ceska Lipa, Strelnice;50.692;14.533;2026-10-06;417968089;Česká Lípa střelnice;5456829;50.691741;14.533190;halt;0.010
+Ceska Lipa-Holy vrch;50.682;14.523;2026-10-06;264508907;Česká Lípa-Holý vrch;5456199;50.682379;14.522808;halt;0.019
+Ceske Hamry;50.439;13.021;2026-10-06;12857426639;České Hamry;5453909;50.438550;13.020576;halt;0.050
+Chalupki;49.925;18.312;2026-10-06;3725887739;Chałupki;;49.925800;18.311407;station;0.038
+Chaudfontaine;50.587;5.644;2026-10-06;5878212496;Chaudfontaine;8842051;50.586997;5.643474;halt;0.011
+Cheb-Skalka;50.074;12.348;2026-10-06;13016076460;Cheb-Skalka;5475036;50.074111;12.348126;halt;0.021
+Chelm Miasto;51.138;23.459;2026-10-06;3457465320;Chełm Miasto;;51.138055;23.458321;halt;0.072
+Chlumcany u Dobran;49.623;13.292;2026-10-06;213423280;Chlumčany u Dobřan;5475335;49.622872;13.292068;station;0.058
+Chojna;52.963;14.444;2026-10-06;2152113908;Chojna;;52.963856;14.443959;station;0.050
+Chojnow;51.278;15.937;2026-10-06;1089058672;Chojnów;;51.277689;15.937662;station;0.043
+Choszczno;53.165;15.404;2026-10-06;603760755;Choszczno;;53.164855;15.404033;station;0.050
+Chotetov;50.340;14.810;2026-10-06;3275316673;Chotětov;;50.339794;14.810477;station;0.026
+Chotevice;50.519;15.760;2026-10-06;243779433;Chotěvice;;50.518947;15.759846;halt;0.001
+Chotyne;50.838;14.872;2026-10-06;12106328711;Chotyně;;50.837669;14.871648;halt;0.011
+Chrastava;50.813;14.953;2026-10-06;12106328713;Chrastava;;50.812980;14.952360;station;0.031
+Chribska;50.868;14.524;2026-10-06;13016266022;Chřibská;5456749;50.867842;14.523484;station;0.007
+Coswig Bahnhof;51.123;13.579;2026-10-06;1055406062;Coswig (b Dresden);8006226;51.122823;13.579460;station;0.023
+Cronheim;49.089;10.662;2026-10-06;10579869142;Cronheim;;49.089336;10.661510;station;0.009
+Cölbe-Bürgeln Bahnhof;50.854;8.817;2026-10-06;;;;;;;
+D-Bilk S;51.208;6.777;2026-10-06;;;;;;;
+D-Eller S;51.203;6.851;2026-10-06;;;;;;;
+D-Hamm S;51.211;6.739;2026-10-06;;;;;;;
+D-Rath S;51.264;6.820;2026-10-06;;;;;;;
+D-Zoo S;51.236;6.797;2026-10-06;;;;;;;
+Dabrowa Gornicza;50.330;19.185;2026-10-06;392952267;Dąbrowa Górnicza;5100250;50.330374;19.184823;station;0.050
+Dautphetal-Wolfgruben Wilhelmshütte;50.868;8.549;2026-10-06;;;;;;;
+Daxlanden Dornröschenweg;48.993;8.335;2026-10-06;;;;;;;
+Daxlanden Karl-Delisle-Straße;48.996;8.338;2026-10-06;;;;;;;
+Daxlanden Nussbaumweg;48.989;8.333;2026-10-06;;;;;;;
+Daxlanden Thomas-Mann-Straße;48.999;8.341;2026-10-06;;;;;;;
+Deblin;51.577;21.835;2026-10-06;3886372229;Dęblin;;51.579776;21.831770;station;0.334
+Decin - Certova Voda;50.816;14.222;2026-10-06;13016123036;Děčín-Čertova Voda;5455619;50.817136;14.221405;halt;0.077
+Decin - Certova Voda;50.817;14.221;2026-10-06;13016123036;Děčín-Čertova Voda;5455619;50.817136;14.221405;halt;0.011
+Decin - Priper;50.785;14.210;2026-10-06;24692907;Děčín-Přípeř;5455629;50.785032;14.209399;halt;0.013
+Decin - Prostredni Zleb;50.793;14.230;2026-10-06;5662733287;Děčín-Prostřední Žleb;5455609;50.793773;14.230602;station;0.085
+Decin-Certova voda;50.817;14.222;2026-10-06;13016123036;Děčín-Čertova Voda;5455619;50.817136;14.221405;halt;0.055
+Decin-Priper;50.785;14.209;2026-10-06;24692907;Děčín-Přípeř;5455629;50.785032;14.209399;halt;0.008
+Decin-Prostredni Zleb;50.793;14.230;2026-10-06;5662733287;Děčín-Prostřední Žleb;5455609;50.793773;14.230602;station;0.099
+Dehtin;49.451;13.286;2026-10-06;213423855;Dehtín;;49.449971;13.286824;halt;0.094
+Desenice;49.278;13.175;2026-10-06;888864652;Dešenice;;49.277560;13.174778;halt;0.016
+Desna;50.754;15.309;2026-10-06;289746912;Desná;5400799;50.753486;15.308896;station;0.025
+Desna-Pustinska;50.764;15.336;2026-10-06;885461709;Desná-Pustinská;5454974;50.764226;15.335612;halt;0.013
+Desna-Riedlova vila;50.759;15.314;2026-10-06;289746939;Desná-Riedlova vila;5454973;50.759280;15.313903;halt;0.029
+Diessenhofen;47.685;8.752;2026-10-06;3080372084;Diessenhofen;8503428;47.685495;8.752319;station;0.003
+Dietzhausen (Bushaltestelle);50.601;10.598;2026-10-06;11426103699;Dietzhausen;8016193;50.599462;10.597194;halt;0.125
+Dillenburg-Niederscheld-Süd Bahnhof;50.718;8.303;2026-10-06;;;;;;;
+Dlouha Lhota;50.421;15.039;2026-10-06;980578922;Dlouhá Lhota;;50.421200;15.039968;halt;0.047
+Dlouhe Dvory;50.262;15.726;2026-10-06;272507055;Dlouhé Dvory;;50.261709;15.725920;halt;0.009
+Dobiegniew;52.968;15.747;2026-10-06;1278165711;Dobiegniew;;52.968973;15.745427;station;0.117
+Dobova(Gr);45.891;15.680;2026-10-06;;;;;;;
+Dobra Voda u Horic;50.346;15.610;2026-10-06;272877713;Dobrá Voda u Hořic;;50.345918;15.609739;halt;0.001
+Dohalice;50.283;15.695;2026-10-06;272578828;Dohalice;;50.283065;15.695293;halt;0.017
+Doksy,,zel.st.;50.573;14.647;2026-10-06;264474221;Doksy;5456859;50.573449;14.647247;station;0.019
+Dolanky;50.604;15.171;2026-10-06;2844396880;Dolánky;;50.603852;15.171203;halt;0.004
+Dolni Bousov;50.441;15.132;2026-10-06;12742094068;Dolní Bousov;;50.441648;15.132093;station;0.025
+Dolni Habartice;50.750;14.336;2026-10-06;2525183896;Dolní Habartice;5456289;50.750240;14.335893;halt;0.003
+Dolni Krecany (Bahnhof);50.956;14.518;2026-10-06;13016279964;Dolní Křečany;5456479;50.956378;14.517981;halt;0.009
+Dolni Podluzi;50.886;14.621;2026-10-06;13016307213;Dolní Podluží;5456699;50.886318;14.620578;station;0.017
+Dolni Polubny;50.760;15.323;2026-10-06;289746889;Dolní Polubný;5400882;50.760541;15.323149;halt;0.016
+Dolni Poustevna;50.984;14.283;2026-10-06;5680209207;Dolní Poustevna;5456529;50.983532;14.283325;station;0.010
+Dolni Zleb zast.;50.837;14.223;2026-10-06;13016123035;Dolní Žleb zastávka;5455649;50.837372;14.223128;halt;0.005
+Dolni Zleb zastavka;50.837;14.223;2026-10-06;13016123035;Dolní Žleb zastávka;5455649;50.837372;14.223128;halt;0.006
+Dolni Zleb zastavka;50.837;14.224;2026-10-06;13016123035;Dolní Žleb zastávka;5455649;50.837372;14.223128;halt;0.055
+Dolní Bousov, Bechov;50.436;15.085;2026-10-06;;;;;;;
+Domazlice mesto;49.436;12.925;2026-10-06;257729597;Domažlice město;;49.435729;12.925021;halt;0.023
+Domina;50.479;13.352;2026-10-06;12857426661;Domina;5453829;50.479455;13.351597;halt;0.005
+Donautal Haltepunkt (Bahn);48.366;9.940;2026-10-06;7398040431;Ulm-Donautal;8029109;48.366392;9.940423;halt;0.005
+Dornbirn Schoren;47.413;9.727;2026-10-06;279108102;Dornbirn Schoren;8100728;47.413202;9.726743;halt;0.002
+Dornburg-Frickhofen Bahnhof;50.505;8.031;2026-10-06;;;;;;;
+Dornburg-Wilsenroth Bahnhof;50.531;8.032;2026-10-06;;;;;;;
+Dorsten Deuten Bf;51.713;6.971;2026-10-06;;;;;;;
+Dorsten Lembeck Bf;51.751;7.025;2026-10-06;;;;;;;
+Dorsten Rhade Bf;51.753;6.946;2026-10-06;;;;;;;
+Dorsten Wulfen Bf;51.719;7.012;2026-10-06;;;;;;;
+Dorum;53.689;8.576;2026-10-06;848592936;Dorum;;53.689100;8.575941;station;0.006
+Doubi u Turnova;50.608;15.102;2026-10-06;958755226;Doubí u Turnova;;50.607977;15.101924;halt;0.013
+Dubicna;50.610;14.359;2026-10-06;987482380;Dubičná;;50.609982;14.359394;halt;0.007
+Duisburg Rumeln Bahnhof;51.398;6.675;2026-10-06;;;;;;;
+Duisburg Trompet Bf;51.413;6.668;2026-10-06;;;;;;;
+Durlach Hubstraße;49.007;8.472;2026-10-06;;;;;;;
+Durlach Untermühlstraße;49.002;8.455;2026-10-06;2958859136;Karlsruhe-Durlach;8014043;49.002096;8.462254;station;0.498
+Döberitz (bei Premnitz), Bahnhof;52.524;12.368;2026-10-06;12956212174;Döberitz;8024284;52.524286;12.368358;halt;0.019
+Ebersbrunn, Eisenbahnhaltepunkt;50.651;12.444;2026-10-06;13015636782;Ebersbrunn;8059014;50.651454;12.443098;halt;0.093
+Ebersburg-Ried Bahnhof;50.459;9.770;2026-10-06;;;;;;;
+Ebingen Bahnhof;48.210;9.027;2026-10-06;257943996;Albstadt-Ebingen;8029350;48.210248;9.027235;station;0.004
+Ebringen (Frbg) Bahnhof;47.960;7.768;2026-10-06;2870274274;Ebringen;8014405;47.960171;7.767964;halt;0.001
+Eduardschacht;51.628;11.519;2026-10-06;1016954013;Eduardschacht;;51.628471;11.519182;halt;0.005
+Effelder (Frankenblick), Gemeinde;50.379;11.074;2026-10-06;12956952377;Effelder (Thür);;50.379814;11.075886;halt;0.154
+Egestorf Bahnhof;52.279;9.515;2026-10-06;2286071919;Egestorf (Deister);8001675;52.278721;9.513633;station;0.061
+Eggenstein Schweriner Straße;49.086;8.402;2026-10-06;3112598476;Eggenstein Schweriner Straße;;49.085746;8.402158;halt;0.015
+Eggenstein Süd;49.071;8.396;2026-10-06;3112587021;Eggenstein Süd;;49.071145;8.396062;halt;0.001
+Egling a.d.Paar;48.191;10.977;2026-10-06;635775997;Egling;8001683;48.190835;10.976374;station;0.010
+Ehningen;48.663;8.944;2026-10-06;301469901;Ehningen (bei Böblingen);8029391;48.662346;8.943506;halt;0.075
+Ehringshausen-Katzenfurt Bahnhof;50.616;8.343;2026-10-06;;;;;;;
+Eibsee;47.457;10.991;2026-10-06;7809398546;Eibsee;;47.456368;10.993871;station;0.231
+Eichenzell-Lütter Bahnhof;50.481;9.767;2026-10-06;;;;;;;
+Eichenzell-Welkers Bahnhof;50.481;9.722;2026-10-06;;;;;;;
+Eitorf Merten Bf;50.770;7.386;2026-10-06;;;;;;;
+Elend Elend Gleis 1;51.746;10.690;2026-10-06;3326701925;Elend;;51.745968;10.690148;station;0.026
+Elend Elend Gleis 2;51.746;10.690;2026-10-06;3326701925;Elend;;51.745968;10.690148;station;0.026
+Elmstein, Bahnhof;49.350;7.943;2026-10-06;274847402;Elmstein;;49.349633;7.943053;station;0.032
+Elxleben (An der Gera);51.044;10.948;2026-10-06;7997941866;Elxleben;8016685;51.043230;10.946667;halt;0.165
+Elz Bahnhof;50.414;8.038;2026-10-06;296564305;Elz;8001764;50.414437;8.038605;halt;0.015
+Elz Süd;50.409;8.032;2026-10-06;256395400;Elz Süd;8001765;50.408635;8.032205;halt;0.010
+Emmerich Praest Bahnhof;51.822;6.344;2026-10-06;;;;;;;
+Engelskirchen Ründeroth Bf;50.995;7.465;2026-10-06;;;;;;;
+Ennepetal (Gevelsberg) Bf.;51.305;7.344;2026-10-06;2639836027;Ennepetal (Gevelsberg);;51.304812;7.343547;halt;0.017
+Epe, Bahnhof;52.183;7.030;2026-10-06;4172254774;Epe (Westf);8001808;52.183963;7.030191;station;0.074
+Erbach Bahnhof;48.326;9.894;2026-10-06;7398040432;Erbach;8029112;48.325609;9.894766;station;0.032
+Erfenstein, Haltepunkt;49.353;8.018;2026-10-06;2419341555;Erfenstein;;49.352961;8.017108;station;0.033
+Ermatingen;47.670;9.086;2026-10-06;2486375605;Ermatingen;8506133;47.669956;9.085664;station;0.005
+Erndtebrück-Leimstruth Bf;50.991;8.313;2026-10-06;;;;;;;
+Erndtebrück-Schameder Bf;50.998;8.293;2026-10-06;;;;;;;
+Eschenz;47.645;8.877;2026-10-06;2479971948;Eschenz;8506138;47.645405;8.876442;station;0.009
+Essel;53.490;9.273;2026-10-06;1811444785;Essel (Kr Stade);;53.489752;9.271678;halt;0.077
+Ettlingen Albgaubad;48.937;8.416;2026-10-06;3109464772;Ettlingen Albgaubad;;48.936862;8.415203;halt;0.025
+Ettlingen Erbprinz / Schloss;48.941;8.405;2026-10-06;3109464774;Ettlingen Erbprinz;;48.941000;8.404053;halt;0.049
+Ettlingen Neuwiesenreben;48.953;8.401;2026-10-06;3109389306;Ettlingen Neuwiesenreben;;48.953091;8.400606;halt;0.013
+Ettlingen Spinnerei;48.935;8.442;2026-10-06;8442697173;Ettlingen Spinnerei;;48.934687;8.441852;halt;0.031
+Ettlingen Wasen;48.945;8.399;2026-10-06;3109464776;Ettlingen Wasen;;48.945244;8.398751;halt;0.001
+Euskirchen Kuchenheim Bf;50.656;6.834;2026-10-06;3237973064;Euskirchen-Kuchenheim;8003462;50.655460;6.833751;station;0.051
+FN Fischbach, Bahnhof;47.672;9.417;2026-10-06;;;;;;;
+FN Löwental Bahnhof;47.661;9.499;2026-10-06;;;;;;;
+FN Manzell, Bahnhof;47.664;9.429;2026-10-06;;;;;;;
+FN-Kluftern Bahnhof;47.688;9.409;2026-10-06;;;;;;;
+Fangschleuse;52.408;13.794;2026-10-06;265328692;Fangschleuse;8003161;52.408014;13.793268;station;0.060
+Feldkirch Amberg;47.255;9.621;2026-10-06;280345077;Feldkirch Amberg;8100791;47.255728;9.621711;halt;0.069
+Feuerthalen;47.692;8.646;2026-10-06;2475026135;Feuerthalen;8503425;47.692149;8.645937;station;0.003
+Feuerturmteich;51.532;14.704;2026-10-06;804890502;Bad Muskau Feuerturmteich;;51.531957;14.703554;halt;0.020
+Filipovka;50.990;15.025;2026-10-06;249073502;Filipovka;;50.989805;15.025015;halt;0.013
+Fischweier;48.888;8.451;2026-10-06;3109265538;Fischweier;;48.888049;8.451322;station;0.020
+Forbach (Schwarzwald);48.681;8.361;2026-10-06;2958399194;Forbach (Schwarzwald);;48.680346;8.361487;station;0.027
+Forchheim Hallenbad;48.979;8.317;2026-10-06;3111136798;Forchheim Hallenbad;;48.978633;8.317366;tram_stop;0.001
+Forchheim Hauptstraße;48.975;8.312;2026-10-06;3149922580;Forchheim Hauptstraße;;48.974884;8.312285;tram_stop;0.000
+Forchheim Leichtsandstr./Messe KA;48.982;8.323;2026-10-06;3111136800;Forchheim Messe;;48.982144;8.323447;tram_stop;0.000
+Forchheim Nord;49.732;11.064;2026-10-06;10068399223;Forchheim Nord;;49.733485;11.063936;halt;0.147
+Forchheim Oberfeldstraße;48.970;8.308;2026-10-06;3111136801;Forchheim Oberfeldstraße;;48.970252;8.307849;tram_stop;0.000
+Forst, Bahnhof;51.739;14.637;2026-10-06;5546585675;Forst (Lausitz) / Baršć (Łužyca);8004044;51.738935;14.637064;station;0.024
+Frankeneck, Bahnhof;49.376;8.051;2026-10-06;11681855136;Frankeneck;;49.375021;8.049993;halt;0.096
+Frankfurt (Main) Ginnheim Bahnhof;50.143;8.643;2026-10-06;;;;;;;
+Frankfurt (Oder), Helenesee Bhf;52.280;14.479;2026-10-06;;;;;;;
+Frantiskov nad Ploucnici;50.724;14.332;2026-10-06;264509093;Františkov nad Ploučnicí;5456239;50.723947;14.331888;station;0.004
+Frantiskovy Lazne Aquaforum;50.117;12.359;2026-10-06;13016020277;Františkovy Lázně-Aquaforum;5474010;50.117021;12.359017;halt;0.032
+Friedberg (Hessen)-Bruchenbrücken Bahnhof;50.302;8.788;2026-10-06;;;;;;;
+Friedberg (Hessen)-Dorheim Bahnhof;50.353;8.790;2026-10-06;;;;;;;
+Friedewald  Haltepunkt;51.131;13.652;2026-10-06;11001472151;Friedewald (Kr Dresden) Hp;;51.131452;13.652027;halt;0.034
+Friedrichsdorf-Burgholzhausen Bahnhof;50.258;8.677;2026-10-06;;;;;;;
+Friedrichsdorf-Köppern Bahnhof;50.270;8.646;2026-10-06;;;;;;;
+Friedrichsdorf-Seulberg Bahnhof;50.242;8.646;2026-10-06;;;;;;;
+Friedrichsh. Bodensee-Airport;47.672;9.524;2026-10-06;;;;;;;
+Friedrichstal Mitte;49.104;8.475;2026-10-06;4131379990;Friedrichstal Mitte;;49.104105;8.475203;tram_stop;0.029
+Friedrichstal St-Riquier-Platz;49.101;8.474;2026-10-06;3112425590;Friedrichstal (Baden) Saint-Riquier-Platz;;49.100857;8.474367;tram_stop;0.000
+Frydlant v Cechach;50.919;15.073;2026-10-06;140498785;Frýdlant v Čechách;;50.919022;15.072830;station;0.036
+Frydlant v Cechach predm.;50.927;15.077;2026-10-06;500637107;Frýdlant v Čechách předměstí;;50.926822;15.076495;halt;0.011
+Furth;48.035;11.593;2026-10-06;2478865164;Furth;8002161;48.035905;11.593741;halt;0.144
+Fürth Klinikum;49.482;10.968;2026-10-06;9609025074;Fürth Klinikum;8002154;49.482403;10.967560;halt;0.000
+Fürth, Bahnhof;49.649;8.781;2026-10-06;339362300;Fürth (Odenw);8002150;49.648401;8.780458;halt;0.018
+GD, Bahnhof;48.800;9.787;2026-10-06;;;;;;;
+Gablenz/Gora;51.529;14.682;2026-10-06;526799164;Gablenz / Gora;;51.529095;14.681552;halt;0.027
+Gdansk Oliwa;54.410;18.572;2026-10-06;3786011913;Gdańsk Oliwa;;54.409488;18.571977;halt;0.048
+Gdansk Wrzeszcz;54.382;18.605;2026-10-06;3785967847;Gdańsk Wrzeszcz;;54.381770;18.605511;station;0.011
+Geinberg;48.266;13.292;2026-10-06;387625076;Geinberg;8100830;48.266286;13.290793;halt;0.054
+Gelnhausen-Hailer Bahnhof;50.189;9.151;2026-10-06;;;;;;;
+Gemünden (Felda)-Ehringshausen (Felda) Bahnhof;50.709;9.102;2026-10-06;;;;;;;
+Gersfeld (Rhön)-Hettenhausen Bahnhof;50.448;9.815;2026-10-06;;;;;;;
+Gifhorn, Bahnhof (Süd);52.456;10.546;2026-10-06;3123334793;Gifhorn;8013020;52.455948;10.546143;station;0.003
+Gmund;47.750;11.735;2026-10-06;4512194964;Gmund;8007631;47.749608;11.734996;station;0.014
+Goleniow;53.559;14.840;2026-10-06;6348562377;Goleniów;5100105;53.559462;14.839589;station;0.020
+Gollmitz, Bahnhof;51.705;13.887;2026-10-06;5272794042;Gollmitz (Niederlausitz) - Chańc (Dolna Łužyca);8004336;51.704689;13.886909;halt;0.005
+Golzow (BAR), Bahnhof;52.914;13.827;2026-10-06;12245850873;Golzow (bei Eberswalde);8028250;52.914031;13.826797;halt;0.008
+Golzow (MOL), Bahnhof;52.563;14.512;2026-10-06;388631832;Golzow (Oderbruch);8003277;52.562568;14.512272;halt;0.048
+Golßen, Bahnhof;51.974;13.575;2026-10-06;5865963763;Golßen (Niederlausitz);8004359;51.973932;13.574861;station;0.028
+Grainau;47.472;11.025;2026-10-06;6928038102;Grainau;;47.471821;11.023778;station;0.125
+Grevenbroich Gustorf Bf;51.068;6.570;2026-10-06;;;;;;;
+Grimmenthal (Bushaltestelle);50.534;10.456;2026-10-06;3059296467;Grimmenthal;8016216;50.532771;10.450668;station;0.443
+Großenlüder-Oberbimbach Bahnhof;50.578;9.564;2026-10-06;;;;;;;
+Grub;48.164;11.782;2026-10-06;2488296604;Grub;8002435;48.164486;11.782446;halt;0.017
+Grunow (LOS), Bahnhof;52.165;14.379;2026-10-06;1399518633;Grunow (Niederlausitz);8003188;52.165131;14.378711;station;0.013
+Gryfino;53.254;14.493;2026-10-06;283566646;Gryfino;;53.254119;14.492962;station;0.011
+Grävenwiesbach-Hundstadt Bahnhof;50.371;8.468;2026-10-06;;;;;;;
+Grünberg-Göbelnrod Bahnhof;50.598;8.921;2026-10-06;;;;;;;
+Grünberg-Lehnheim Bahnhof;50.607;8.992;2026-10-06;;;;;;;
+Gründau-Lieblos Bahnhof;50.207;9.145;2026-10-06;;;;;;;
+Gt-Avenw/Bhf, Bahnhof;51.939;8.438;2026-10-06;;;;;;;
+Gurten OÖ;48.243;13.335;2026-10-06;369224763;Gurten;8100263;48.243317;13.335000;station;0.010
+Göggingen(Baden);48.008;9.198;2026-10-06;12724226973;Göggingen(Baden);;48.008044;9.197855;halt;0.025
+H-BM-Horn, Bahnhof;51.881;8.955;2026-10-06;;;;;;;
+HC-Clarholz, Bahnhof;51.899;8.201;2026-10-06;;;;;;;
+Hagen(Kr. Stade);53.550;9.460;2026-10-06;1811418887;Hagen (Kr Stade);;53.549943;9.459847;station;0.007
+Hagsfeld Bahnhof;49.027;8.454;2026-10-06;3112374777;Bahnhof Hagsfeld;;49.027476;8.453855;tram_stop;0.001
+Hagsfeld Geroldsäcker;49.033;8.455;2026-10-06;;;;;;;
+Hagsfeld Jenaer Straße;49.036;8.456;2026-10-06;;;;;;;
+Hagsfeld Reitschulschlag;49.043;8.461;2026-10-06;;;;;;;
+Hagsfeld Süd;49.024;8.450;2026-10-06;3112374780;Hagsfeld Süd;;49.024434;8.449528;tram_stop;0.000
+Haid Haidkapelle (B313);48.364;9.255;2026-10-06;;;;;;;
+Haiding;48.210;13.975;2026-10-06;423384346;Haiding;8100265;48.209494;13.975053;station;0.061
+Haiger-Allendorf Bahnhof;50.744;8.185;2026-10-06;;;;;;;
+Haiger-Dillbrecht Bahnhof;50.802;8.204;2026-10-06;;;;;;;
+Haiger-Sechshelden Bahnhof;50.749;8.253;2026-10-06;;;;;;;
+Hajniste;50.929;15.197;2026-10-06;500637086;Hajniště;;50.928843;15.197616;halt;0.020
+Halle, Bahnhof/ZOB;52.057;8.359;2026-10-06;204189162;Halle (Westf);8002539;52.057277;8.357768;station;0.063
+Halle, OWL-Arena;52.062;8.344;2026-10-06;;;;;;;
+Halle-Hesseln, Bahnhof;52.068;8.312;2026-10-06;;;;;;;
+Halle-Künsebeck, Bahnhof;52.037;8.384;2026-10-06;;;;;;;
+Hallein Burgfried;47.676;13.114;2026-10-06;2647539064;Hallein Burgfried;8102049;47.675813;13.114516;halt;0.031
+Haltern am See Sythen Bf;51.772;7.226;2026-10-06;;;;;;;
+Hamm, Heessen Bahnhof;51.709;7.834;2026-10-06;721965895;Hamm-Heessen;8002680;51.709216;7.831692;halt;0.139
+Hammersbach;47.465;11.045;2026-10-06;7658075785;Hammersbach;;47.466040;11.046395;halt;0.170
+Hamminkeln Dingden Bf;51.770;6.608;2026-10-06;319797811;Hamminkeln-Dingden;8001465;51.770495;6.607927;halt;0.064
+Hamminkeln Mehrhoog Bf;51.739;6.517;2026-10-06;;;;;;;
+Haren, Bahnhof;52.785;7.301;2026-10-06;319785121;Haren (Ems);8002598;52.785035;7.301383;station;0.035
+Harrachov;50.772;15.393;2026-10-06;264407406;Harrachov;5401014;50.771361;15.393855;station;0.051
+Hartenstein, Bahnhof / Burg Stein;50.652;12.661;2026-10-06;227195678;Hartenstein;;50.651774;12.658238;halt;0.167
+Haselstauden (Dornbirn);47.433;9.749;2026-10-06;279108103;Haselstauden (Dornbirn);8100981;47.432779;9.749261;halt;0.020
+Haslach, Bahnhalt;47.629;10.460;2026-10-06;10282771768;Wertach-Haslach;;47.628687;10.460419;station;0.004
+Hasselroth-Niedermittlau Bahnhof;50.178;9.110;2026-10-06;;;;;;;
+Hatlerdorf(Dornbirn);47.398;9.725;2026-10-06;;;;;;;
+Hattersheim (Main)-Eddersheim Bahnhof;50.039;8.457;2026-10-06;;;;;;;
+Hauptbahnhof (U, Tram);48.140;11.561;2026-10-06;344321466;Hauptbahnhof;;48.139954;11.561094;tram_stop;0.008
+Hausen Bahnhof;47.913;8.679;2026-10-06;1618730555;Geisingen Hausen;;47.912696;8.678773;halt;0.011
+Hausen i. K. Bahnhof;48.302;9.068;2026-10-06;252847733;Hausen-Starzeln;;48.301958;9.067947;station;0.010
+Hazlov;50.162;12.279;2026-10-06;10570056290;Hazlov;5473595;50.161923;12.279228;station;0.017
+Hegyeshalom(Gr);47.938;17.096;2026-10-06;;;;;;;
+Hejnice;50.879;15.185;2026-10-06;5681065258;Hejnice;;50.879588;15.184935;station;0.014
+Helmbach, Bahnhof;49.343;7.986;2026-10-06;2931031135;Helmbach (Pfalz);;49.341611;7.988577;station;0.276
+Herborn Bahnhof;50.685;8.308;2026-10-06;140372254;Herborn (Dillkr);8000161;50.684537;8.308062;station;0.024
+Herborn-Burg Nord DB;50.700;8.308;2026-10-06;;;;;;;
+Hermann-Geib-Straße;49.010;12.111;2026-10-06;;;;;;;
+Herten Westerholt Bf;51.602;7.083;2026-10-06;13374536756;Herten (Westf)-Westerholt;;51.601926;7.081816;halt;0.088
+Herten(Westf);51.598;7.139;2026-10-06;10170080201;Herten (Westf);;51.597452;7.138655;halt;0.028
+Hesedorf(Bremervörde);53.473;9.195;2026-10-06;;;;;;;
+Hessental Bahnhof;49.097;9.767;2026-10-06;29502822;Schwäbisch Hall-Hessental;8029678;49.096684;9.767246;station;0.036
+Heumaden (Calw), Bahnhof;48.709;8.762;2026-10-06;13483546436;Calw-Heumaden;;48.709248;8.762230;halt;0.017
+Hnevceves;50.313;15.721;2026-10-06;3964822610;Hněvčeves;;50.312504;15.721678;station;0.017
+Hnevice;50.453;14.362;2026-10-06;1893772746;Hněvice;;50.453249;14.361245;station;0.071
+Hockeroda (Bushaltestelle);50.597;11.436;2026-10-06;3072294051;Hockeroda;8016337;50.597395;11.434089;halt;0.117
+Hof (Baden);47.857;7.772;2026-10-06;;;;;;;
+Hofheim am Taunus-Lorsbach Bahnhof;50.115;8.423;2026-10-06;;;;;;;
+Hofheim, Bahnhof;49.659;8.409;2026-10-06;27144517;Hofheim/Ried;8002934;49.659529;8.409032;station;0.015
+Hohenecken, Bahnhof;49.415;7.699;2026-10-06;2019759225;Kaiserslautern-Hohenecken;8002943;49.415982;7.699670;halt;0.135
+Hojsova Straz-Brcalnik;49.192;13.223;2026-10-06;2670573837;Hojsova Stráž-Brčálník;;49.191572;13.222712;halt;0.056
+Holthusen b Schwerin Bahnhof;53.555;11.366;2026-10-06;3607507615;Holthusen;8027352;53.556497;11.365891;station;0.145
+Horka (OL) Bahnhof;51.304;14.902;2026-10-06;2805153632;Horka Pbf;8047969;51.303904;14.902085;station;0.020
+Horka u St.Paky;50.527;15.568;2026-10-06;25986882;Horka u Staré Paky;;50.526637;15.570641;station;0.182
+Horka(Gr);51.286;15.032;2026-10-06;;;;;;;
+Horn(Bodensee);47.493;9.463;2026-10-06;;;;;;;
+Horni Kamenice;50.799;14.436;2026-10-06;249608023;Horní Kamenice;5456309;50.799425;14.436488;halt;0.003
+Horni Nova Ves;50.450;15.572;2026-10-06;306045629;Horní Nová Ves;;50.450428;15.572226;halt;0.004
+Horni Podluzi;50.883;14.557;2026-10-06;13016307211;Horní Podluží;5456729;50.882920;14.556404;halt;0.044
+Horni Police;50.706;14.400;2026-10-06;264509080;Horní Police;5456249;50.706140;14.400085;station;0.017
+Horni Poustevna;50.997;14.301;2026-10-06;13016249679;Horní Poustevna;5456539;50.996943;14.300953;halt;0.021
+Horni Rasnice;50.952;15.197;2026-10-06;500637080;Horní Řasnice;;50.951899;15.197547;halt;0.016
+Horni Repcice;50.558;14.267;2026-10-06;477231269;Horní Řepčice;;50.557402;14.265511;halt;0.124
+Horni Sytova;50.632;15.462;2026-10-06;306494378;Horní Sytová;;50.632278;15.461885;halt;0.025
+Horstmar, Preußen Bahnhof;51.588;7.540;2026-10-06;;;;;;;
+Hostinne mesto;50.539;15.720;2026-10-06;243779495;Hostinné město;;50.539209;15.720158;halt;0.001
+Hovorcovice;50.181;14.528;2026-10-06;24688460;Hovorčovice;;50.180513;14.527661;halt;0.005
+Hrabacov (Bahnhof);50.623;15.501;2026-10-06;306493087;Hrabačov;;50.623218;15.501312;station;0.002
+Hrebeny;50.222;12.581;2026-10-06;2431832269;Hřebeny;5476495;50.221845;12.580856;halt;0.016
+Hruba Skala;50.550;15.213;2026-10-06;1841499138;Hrubá Skála;;50.550431;15.212898;station;0.015
+Hürtgenwald, Zerkall (Ort);50.692;6.451;2026-10-06;;;;;;;
+Hüsten, Bahnhof;51.438;7.970;2026-10-06;304833979;Arnsberg-Neheim-Hüsten;8004228;51.437964;7.970411;station;0.054
+Idstein-Wörsdorf Bahnhof;50.245;8.249;2026-10-06;;;;;;;
+Immelborn (Bushaltestelle);50.794;10.279;2026-10-06;3061947222;Immelborn;8016131;50.793282;10.280492;station;0.172
+Immenhausen Bahnhof, Bereich Gleis 1;51.427;9.464;2026-10-06;260715786;Immenhausen;;51.427092;9.464355;halt;0.006
+Iserl., Dechenhöhle Htp. DB;51.366;7.644;2026-10-06;;;;;;;
+Iserl., Hennen Bf.;51.437;7.647;2026-10-06;;;;;;;
+Iserl., Kalthof Bf.;51.425;7.672;2026-10-06;;;;;;;
+Iserl., Stadtbahnhof;51.373;7.692;2026-10-06;;;;;;;
+Ittersbach Industrie;48.885;8.509;2026-10-06;31097851;Ittersbach Industrie;;48.884772;8.508651;station;0.005
+Jabel;53.537;12.544;2026-10-06;266333453;Jabel;8011939;53.545174;12.546829;halt;0.965
+Jablonec n.Jizerou;50.700;15.435;2026-10-06;306541404;Jablonec nad Jizerou;;50.700402;15.435133;station;0.004
+Jablonec n.Jizerou-Hradsko;50.681;15.451;2026-10-06;306540401;Jablonec nad Jizerou-Hradsko;;50.680708;15.451202;halt;0.037
+Jablonec n.N.centrum;50.721;15.174;2026-10-06;309382440;Jablonec nad Nisou centrum;;50.720868;15.173815;halt;0.010
+Jablonec n.N.dol.n.;50.726;15.149;2026-10-06;309382584;Jablonec nad Nisou dolní nádraží;;50.726356;15.149282;halt;0.021
+Jablonec n.N.zast.;50.720;15.186;2026-10-06;309382407;Jablonec nad Nisou zastávka;;50.720412;15.185404;halt;0.010
+Jablonec n.Nisou;50.721;15.161;2026-10-06;5646229921;Jablonec nad Nisou;5455092;50.720940;15.160789;station;0.020
+Jablonecke Paseky;50.732;15.191;2026-10-06;309373662;Jablonecké Paseky;;50.731541;15.190405;halt;0.041
+Jakuszyce-Polana;50.819;15.434;2026-10-06;;;;;;;
+Janovice nad Uhlavou;49.353;13.204;2026-10-06;300524849;Janovice nad Úhlavou;;49.352428;13.203653;station;0.013
+Jaromer zast.;50.357;15.911;2026-10-06;958755219;Jaroměř zastávka;;50.357078;15.911340;halt;0.002
+Jaroslaw;50.011;22.678;2026-10-06;48314193;Jarosław;5100233;50.010622;22.678390;station;0.036
+Jaworzno Szczakowa;50.246;19.297;2026-10-06;1587252220;Jaworzno Szczakowa;;50.246247;19.297556;station;0.013
+Jerice;50.343;15.677;2026-10-06;272633388;Jeřice;;50.342823;15.676634;halt;0.003
+Jesenice(Gr);46.481;14.020;2026-10-06;;;;;;;
+Jesenny;50.652;15.328;2026-10-06;26025052;Jesenný;;50.651793;15.327837;station;0.002
+Jestrebi;50.614;14.600;2026-10-06;264475576;Jestřebí;5456839;50.614131;14.600396;station;0.023
+Jicin zastavka;50.451;15.381;2026-10-06;1842723066;Jičín zastávka;;50.450532;15.380943;halt;0.001
+Jilemnice;50.604;15.514;2026-10-06;306488008;Jilemnice;;50.604386;15.513742;station;0.007
+Jindrichovice p.Smrkem;50.959;15.254;2026-10-06;5681072031;Jindřichovice pod Smrkem;;50.958750;15.254201;station;0.022
+Jindřichovice pod Smrkem-Skanzen;50.959;15.228;2026-10-06;2055785803;Jindřichovice pod Smrkem-Skanzen;;50.959113;15.228152;halt;0.026
+Jinolice;50.479;15.335;2026-10-06;36268816;Jinolice;;50.479008;15.335033;halt;0.010
+Jiretin p.Bukovou;50.757;15.264;2026-10-06;340278892;Jiřetín pod Bukovou;;50.756954;15.263875;halt;0.013
+Jiretin pod Jedlovou;50.883;14.581;2026-10-06;13016307212;Jiřetín pod Jedlovou;5456739;50.883091;14.580457;halt;0.027
+Jivany;50.514;15.299;2026-10-06;295135592;Jivany;;50.513705;15.298864;halt;0.009
+Josefuv Dul;50.779;15.240;2026-10-06;340280167;Josefův Důl;5455032;50.779443;15.240358;station;0.019
+K'furt Bahnhof;48.529;9.139;2026-10-06;;;;;;;
+KA Durlacher Tor/KIT-Campus Süd;49.009;8.418;2026-10-06;;;;;;;
+KA Durlacher Tor/KIT-Campus Süd (U);49.009;8.417;2026-10-06;;;;;;;
+KA Ettlinger Tor/Staatstheater;49.005;8.402;2026-10-06;;;;;;;
+KA Ettlinger Tor/Staatstheater (U);49.005;8.403;2026-10-06;;;;;;;
+KA Europahalle/Europabad;48.999;8.376;2026-10-06;;;;;;;
+KA Europaplatz (U);49.010;8.394;2026-10-06;;;;;;;
+KA Hirtenweg/Technologiepark;49.017;8.439;2026-10-06;3111016217;Hirtenweg - Technologiepark;;49.017215;8.438922;tram_stop;0.018
+KA Karlstor/Bundesgerichtshof;49.005;8.395;2026-10-06;;;;;;;
+KA Knielinger Allee/Städt. Klinikum;49.019;8.375;2026-10-06;;;;;;;
+KA Moltkestr./Städt. Klinikum;49.015;8.375;2026-10-06;;;;;;;
+KA Tullastraße/Alter Schlachthof;49.006;8.432;2026-10-06;;;;;;;
+KIT-Campus Nord Bahnhof, Eggenstein-Leopoldshafen;49.097;8.430;2026-10-06;3112467814;KIT-Campus Nord;;49.097071;8.430361;station;0.002
+Kall Urft Bf;50.512;6.580;2026-10-06;;;;;;;
+Kaltenbrunnen im Montafon;47.085;9.888;2026-10-06;333221728;Kaltenbrunnen;;47.085535;9.887915;halt;0.023
+Kaltenkirchen, dodenhof;53.844;9.940;2026-10-06;;;;;;;
+Kaltenweide Bahnhof;52.480;9.736;2026-10-06;265704446;Langenhagen-Kaltenweide;8003165;52.479881;9.736391;station;0.022
+Kanina;50.416;14.615;2026-10-06;786620004;Kanina;;50.415726;14.614865;halt;0.003
+Karben-Okarben Bahnhof;50.253;8.754;2026-10-06;;;;;;;
+Karez;49.823;13.779;2026-10-06;5804378271;Kařez;5473160;49.822457;13.779013;halt;0.032
+Karlov pod Jestedem;50.774;14.984;2026-10-06;5680450655;Karlov pod Ještědem;5455172;50.773708;14.983710;station;0.020
+Karlovice-Sedmihorky;50.562;15.197;2026-10-06;1841473185;Karlovice-Sedmihorky;;50.561730;15.196521;halt;0.001
+Karlovy Vary dolni n.;50.230;12.864;2026-10-06;13018184864;Karlovy Vary dolní nádraží;5474585;50.230345;12.863864;station;0.013
+Karlsplatz (Stachus);48.140;11.566;2026-10-06;2473297785;Karlsplatz (Stachus);8004132;48.139486;11.565622;station;0.038
+Karlsruhe Augartenstraße;48.999;8.404;2026-10-06;2574283615;Karlsruhe Hauptbahnhof;8014228;48.993616;8.402052;station;0.575
+Karlsruhe August-Bebel-Straße;49.024;8.376;2026-10-06;;;;;;;
+Karlsruhe Dammerstock;48.984;8.404;2026-10-06;;;;;;;
+Karlsruhe Eckenerstraße;49.006;8.351;2026-10-06;;;;;;;
+Karlsruhe Einfahrt über Gl. 21;49.008;8.434;2026-10-06;;;;;;;
+Karlsruhe Einfahrt über Gl. 43;49.007;8.434;2026-10-06;;;;;;;
+Karlsruhe Essenweinstraße;49.010;8.432;2026-10-06;;;;;;;
+Karlsruhe Europaplatz;49.010;8.395;2026-10-06;;;;;;;
+Karlsruhe Gottesauer Platz/BGV;49.007;8.425;2026-10-06;;;;;;;
+Karlsruhe Hauptfriedhof;49.014;8.430;2026-10-06;;;;;;;
+Karlsruhe Haus Bethlehem;49.033;8.377;2026-10-06;;;;;;;
+Karlsruhe Händelstraße;49.011;8.369;2026-10-06;;;;;;;
+Karlsruhe Kongresszentrum (U);49.003;8.403;2026-10-06;;;;;;;
+Karlsruhe Konzerthaus;49.004;8.400;2026-10-06;;;;;;;
+Karlsruhe Kurt-Schumacher-Str.;49.030;8.376;2026-10-06;;;;;;;
+Karlsruhe Lameyplatz;49.013;8.355;2026-10-06;3321341099;Karlsruhe-Mühlburg;8014083;49.014558;8.351110;station;0.307
+Karlsruhe Landesbausparkasse;49.002;8.378;2026-10-06;;;;;;;
+Karlsruhe Mathystraße;49.002;8.394;2026-10-06;;;;;;;
+Karlsruhe Ostendstraße;49.005;8.416;2026-10-06;;;;;;;
+Karlsruhe Philipp-Reis-Straße;49.004;8.411;2026-10-06;;;;;;;
+Karlsruhe Philippstraße;49.011;8.365;2026-10-06;;;;;;;
+Karlsruhe Poststraße;48.995;8.404;2026-10-06;2574283615;Karlsruhe Hauptbahnhof;8014228;48.993616;8.402052;station;0.206
+Karlsruhe Rheinhafen;49.016;8.347;2026-10-06;3321341099;Karlsruhe-Mühlburg;8014083;49.014558;8.351110;station;0.292
+Karlsruhe Rheinhafenstraße;49.002;8.345;2026-10-06;;;;;;;
+Karlsruhe Rüppurrer Tor;49.006;8.410;2026-10-06;;;;;;;
+Karlsruhe Schillerstraße;49.010;8.380;2026-10-06;;;;;;;
+Karlsruhe Schloss Gottesaue;49.004;8.427;2026-10-06;;;;;;;
+Karlsruhe Schloss Rüppurr;48.981;8.404;2026-10-06;;;;;;;
+Karlsruhe Sophienstraße;49.008;8.379;2026-10-06;;;;;;;
+Karlsruhe Starckstraße;49.017;8.353;2026-10-06;3321341099;Karlsruhe-Mühlburg;8014083;49.014558;8.351110;station;0.259
+Karlsruhe Tivoli;48.997;8.411;2026-10-06;;;;;;;
+Karlsruhe Weinbrennerplatz;49.006;8.378;2026-10-06;;;;;;;
+Karlsruhe Weinweg;49.004;8.441;2026-10-06;;;;;;;
+Karlsruhe Werderstraße;49.000;8.411;2026-10-06;;;;;;;
+Karlsruhe Wolfartsweierer Str.;49.003;8.423;2026-10-06;;;;;;;
+Karlsruhe Yorckstraße;49.011;8.376;2026-10-06;;;;;;;
+Karsdorf, Bahnhof (Bus);51.279;11.651;2026-10-06;3073963913;Karsdorf;8016637;51.280917;11.655732;station;0.389
+Karstädt (PR), Bahnhof;53.161;11.738;2026-10-06;247745274;Karstädt;8027323;53.160828;11.738373;station;0.034
+Kassel Altmarkt/Regierungspräsidium;51.316;9.505;2026-10-06;;;;;;;
+Kassel Am Stern;51.318;9.500;2026-10-06;;;;;;;
+Kassel Am Weinberg;51.307;9.488;2026-10-06;;;;;;;
+Kassel Auestadion;51.299;9.481;2026-10-06;;;;;;;
+Kassel Bahnhof Wilhelmshöhe, Bereich Gleis 7/8;51.312;9.448;2026-10-06;260716557;Kassel-Wilhelmshöhe;8005365;51.311388;9.447705;station;0.034
+Kassel Friedrichsplatz;51.314;9.495;2026-10-06;;;;;;;
+Kassel Halitplatz/Philipp-Scheidemann-Haus;51.327;9.500;2026-10-06;272807834;Halitplatz;;51.326918;9.500004;tram_stop;0.001
+Kassel Hauptfriedhof;51.331;9.498;2026-10-06;;;;;;;
+Kassel Hegelsbergstraße;51.337;9.490;2026-10-06;;;;;;;
+Kassel Heinrich-Heine-Straße;51.304;9.484;2026-10-06;;;;;;;
+Kassel Holländische Straße;51.340;9.481;2026-10-06;;;;;;;
+Kassel Holländischer Platz/Universität;51.321;9.502;2026-10-06;;;;;;;
+Kassel Königsplatz;51.316;9.498;2026-10-06;;;;;;;
+Kassel Lutherplatz;51.319;9.496;2026-10-06;206670863;Kassel Hauptbahnhof;8005361;51.318339;9.489601;station;0.470
+Kassel Platz der Deutschen Einheit;51.311;9.513;2026-10-06;;;;;;;
+Kassel Rathaus;51.312;9.492;2026-10-06;;;;;;;
+Kassel Rathaus/Fünffensterstraße;51.312;9.491;2026-10-06;;;;;;;
+Kassel Sandershäuser Straße;51.309;9.518;2026-10-06;;;;;;;
+Kassel Scheidemannplatz;51.316;9.493;2026-10-06;206670863;Kassel Hauptbahnhof;8005361;51.318339;9.489601;station;0.314
+Kassel Unterneustädter Kirchplatz;51.313;9.509;2026-10-06;;;;;;;
+Kassel Wiener Straße;51.334;9.495;2026-10-06;;;;;;;
+Kassel Wilhelmsstraße/Stadtmuseum;51.314;9.489;2026-10-06;206670863;Kassel Hauptbahnhof;8005361;51.318339;9.489601;station;0.456
+Katusice;50.443;14.777;2026-10-06;367550044;Katusice;;50.443097;14.777512;station;0.041
+Kehlhof;47.572;9.170;2026-10-06;2507443665;Kehlhof;8506193;47.572330;9.169732;halt;0.008
+Kelkheim (Taunus) Bahnhof;50.137;8.448;2026-10-06;3230528172;Kelkheim;;50.137185;8.447726;station;0.001
+Kempen Bahnhof;51.368;6.425;2026-10-06;3528602039;Kempen (Niederrhein);8000409;51.367808;6.425359;station;0.056
+Kempenich Engeln Bf;50.425;7.157;2026-10-06;;;;;;;
+Kempten, Bahnhof St. Mang;47.708;10.326;2026-10-06;;;;;;;
+Kerken Aldekerk Bahnhof;51.435;6.413;2026-10-06;;;;;;;
+Kerken Nieukerk Bahnhof;51.457;6.377;2026-10-06;;;;;;;
+Kerpen Buir Bf;50.862;6.574;2026-10-06;;;;;;;
+Kerpen Horrem Bf;50.916;6.713;2026-10-06;;;;;;;
+Kierspe, Bahnhof / ZOB;51.130;7.616;2026-10-06;7022421387;Kierspe;;51.130539;7.616307;station;0.076
+Kimpling;48.267;13.671;2026-10-06;423384343;Kimpling;;48.266643;13.670960;halt;0.002
+Kinheim-Ürzig, Bahnhof;49.996;7.004;2026-10-06;;;;;;;
+Kirchdorf Bahnhof;52.291;9.491;2026-10-06;48172488;Kirchdorf (Deister);8003267;52.289775;9.491958;halt;0.136
+Kirchen (Sieg) Bahnhof;50.807;7.880;2026-10-06;267722697;Kirchen (Sieg);8000427;50.806490;7.880578;station;0.010
+Kirchen Bahnhof;47.905;8.674;2026-10-06;1618730556;Geisingen-Kirchen;;47.905109;8.674396;halt;0.010
+Kirchhain-Anzefahr Bahnhof;50.845;8.860;2026-10-06;;;;;;;
+Kirchheimbol., Schlossg. Bf.;49.669;8.016;2026-10-06;;;;;;;
+Klasterska Lhota;50.559;15.661;2026-10-06;243779555;Klášterská Lhota;;50.558568;15.660802;halt;0.010
+Klaus in Vorarlberg;47.309;9.624;2026-10-06;281519683;Klaus in Vorarlberg;8101100;47.308593;9.624467;halt;0.042
+Kleinkötz, Bahnhof/Fa. AL-KO;48.412;10.288;2026-10-06;4703292072;Kleinkötz;;48.411845;10.288457;halt;0.003
+Klingnau;47.582;8.250;2026-10-06;2095964520;Klingnau;8516176;47.581643;8.250067;station;0.019
+Knielingen Herweghstraße;49.030;8.341;2026-10-06;269735124;Karlsruhe-Knielingen;8014081;49.026652;8.341195;station;0.415
+Knielingen Siemens;49.025;8.346;2026-10-06;269735124;Karlsruhe-Knielingen;8014081;49.026652;8.341195;station;0.400
+Koebenhavn Syd;55.652;12.516;2026-10-06;;;;;;;
+Kojetice u Prahy;50.237;14.499;2026-10-06;24684183;Kojetice u Prahy;;50.237318;14.499186;halt;0.013
+Kojovice;50.307;14.656;2026-10-06;1104542361;Kojovice;;50.307155;14.656453;halt;0.020
+Kolomuty;50.407;14.978;2026-10-06;980579010;Kolomuty;;50.406628;14.977940;halt;0.010
+Korenov;50.770;15.366;2026-10-06;5686893152;Kořenov;;50.770138;15.365726;station;0.022
+Korenov zast.;50.763;15.347;2026-10-06;264407978;Kořenov zastávka;5401536;50.762570;15.347194;halt;0.011
+Kosatky;50.317;14.670;2026-10-06;1674416761;Košátky;;50.316962;14.670197;halt;0.010
+Koscian;52.079;16.642;2026-10-06;413385255;Kościan;;52.077803;16.640556;station;0.155
+Kostalov;50.569;15.404;2026-10-06;250855027;Košťálov;;50.568820;15.403665;station;0.006
+Kovac;50.392;15.470;2026-10-06;273041998;Kovač;;50.392307;15.469551;halt;0.001
+Kovarska;50.430;13.035;2026-10-06;12857426640;Kovářská;5453899;50.430052;13.035081;station;0.015
+Kovarska mestys;50.440;13.069;2026-10-06;12857426641;Kovářská městys;;50.440140;13.069636;halt;0.029
+Kraslice;50.330;12.503;2026-10-06;6532116689;Kraslice;5476535;50.330631;12.502793;station;0.040
+Kraslice predmesti;50.312;12.519;2026-10-06;10294164368;Kraslice předměstí;5476525;50.311769;12.518842;station;0.009
+Kraslice-Pod vlekem;50.341;12.497;2026-10-06;13015944666;Kraslice-Pod vlekem;5476534;50.340181;12.497081;halt;0.050
+Krasna Lipa mesto;50.907;14.512;2026-10-06;13016266021;Krásná Lípa město;5456669;50.907184;14.512050;halt;0.019
+Krasna Studanka;50.801;15.038;2026-10-06;140506947;Krásná Studánka;;50.801460;15.038392;halt;0.033
+Krasny Les;50.938;15.128;2026-10-06;500637100;Krásný Les;5454632;50.937730;15.128541;halt;0.015
+Krasny Les bazant.;50.931;15.109;2026-10-06;500637103;Krásný Les bažantnice;;50.930775;15.109127;halt;0.016
+Krauchenwies;48.020;9.238;2026-10-06;2925746327;Krauchenwies;;48.020166;9.238846;station;0.086
+Krauschwitz / Baierweiche;51.534;14.693;2026-10-06;804890500;Krauschwitz / Baierweiche;;51.534352;14.692401;station;0.052
+Kravare v Cechach;50.629;14.405;2026-10-06;280709674;Kravaře v Čechách;;50.629009;14.404547;halt;0.015
+Krensitz (Krostitz) (Bus);51.490;12.463;2026-10-06;2171504612;Krensitz;8023398;51.490576;12.461069;station;0.185
+Kreuzeck-/Alpspitzbahn;47.472;11.064;2026-10-06;441049049;Kreuzeck-/Alpspitzbahn;;47.472041;11.062864;station;0.061
+Kreuzlingen Hafen;47.649;9.182;2026-10-06;2486668293;Kreuzlingen Hafen;8506128;47.649142;9.181911;station;0.006
+Kreuztal-Eichen Bf;50.974;7.978;2026-10-06;4563438036;Kreuztal-Eichen;8001700;50.973712;7.978094;halt;0.013
+Krimov;50.490;13.276;2026-10-06;12857426658;Křimov;5453819;50.489770;13.275982;station;0.003
+Krimov zastavka;50.488;13.295;2026-10-06;12857426659;Křimov zastávka;5453859;50.487682;13.295271;halt;0.004
+Krimov-Suchdol;50.490;13.325;2026-10-06;12857426660;Křimov-Suchdol;5453849;50.490171;13.324965;halt;0.009
+Krizany;50.751;14.919;2026-10-06;5680450656;Křižany;5455182;50.751411;14.918620;station;0.019
+Krnsko;50.377;14.869;2026-10-06;33204357;Krnsko;;50.376875;14.869300;halt;0.033
+Kromlau Waldeisenbahn;51.533;14.628;2026-10-06;804890499;Kromlau Waldeisenbahn;;51.533053;14.627924;station;0.016
+Kropacova Vrutice;50.324;14.701;2026-10-06;33204354;Kropáčova Vrutice;;50.323543;14.701275;station;0.017
+Krsko;45.956;15.493;2026-10-06;11638938129;Krško;;45.956224;15.493329;station;0.010
+Krystofovo Udoli;50.772;14.942;2026-10-06;306513535;Kryštofovo Údolí;5455202;50.771990;14.941836;halt;0.015
+Krzeszowice;50.131;19.633;2026-10-06;1661872853;Krzeszowice;5101863;50.130831;19.635089;station;0.132
+Ktova;50.528;15.248;2026-10-06;1841489532;Ktová;;50.527946;15.247682;halt;0.001
+Kuks;50.396;15.885;2026-10-06;958755221;Kuks;;50.395913;15.884647;halt;0.007
+Kumpfmühl;48.270;13.620;2026-10-06;423384342;Kumpfmühl;;48.269687;13.620240;halt;0.003
+Kurzrickenbach Seepark;47.643;9.196;2026-10-06;2510438892;Kurzrickenbach Seepark;8506119;47.643091;9.196068;halt;0.022
+Kytlice;50.815;14.533;2026-10-06;249610624;Kytlice;5456429;50.814819;14.533634;halt;0.023
+Köfering, Abzw. Bahnhof;48.930;12.206;2026-10-06;10080595900;Köfering;8003357;48.932066;12.208495;station;0.300
+Köln Gremberghoven Steinstr. S-Bahn;50.896;7.057;2026-10-06;;;;;;;
+Köln Lövenich Bf Lövenich;50.943;6.834;2026-10-06;;;;;;;
+Köln Porz Bf Porz;50.883;7.065;2026-10-06;;;;;;;
+Köln Wahn S-Bahn;50.858;7.079;2026-10-06;;;;;;;
+Königstein (Taunus)-Schneidhain Bahnhof;50.173;8.452;2026-10-06;;;;;;;
+Köstendorf Weng;47.937;13.175;2026-10-06;5514301261;Köstendorf Weng;8101108;47.936408;13.175100;halt;0.042
+Kühnsdorf-Klopeiner See;46.625;14.621;2026-10-06;6232991009;Kühnsdorf-Klopeiner See;8100336;46.624854;14.620888;station;0.002
+LU-Mundenheim, Bahnhof;49.462;8.421;2026-10-06;;;;;;;
+LU-Oggersheim, Bahnhof;49.493;8.381;2026-10-06;;;;;;;
+Lage, Bahnhof;51.992;8.801;2026-10-06;2015926135;Lage (Lippe);8000215;51.991616;8.801330;station;0.031
+Laggenbeck, Bahnhof;52.265;7.782;2026-10-06;4147508389;Ibbenbüren-Laggenbeck;8003491;52.264787;7.781259;halt;0.027
+Lahntal-Caldern Bahnhof;50.853;8.670;2026-10-06;;;;;;;
+Lahntal-Goßfelden Bahnhof;50.868;8.738;2026-10-06;;;;;;;
+Lahntal-Sarnau Bahnhof;50.871;8.756;2026-10-06;3624025150;Lahntal-Sarnau;8005291;50.871099;8.755700;halt;0.038
+Lahntal-Sterzhausen Bahnhof;50.862;8.709;2026-10-06;;;;;;;
+Laim;48.144;11.503;2026-10-06;2468901141;Laim;8020345;48.144497;11.502966;station;0.069
+Lambach Markt;48.094;13.870;2026-10-06;2500106749;Lambach Markt;8101223;48.094345;13.870113;halt;0.018
+Lancken-Granitz Garftitz;54.378;13.638;2026-10-06;;;;;;;
+Lancken-Granitz Jagdschloß;54.376;13.620;2026-10-06;;;;;;;
+Lancut;50.081;22.228;2026-10-06;3535835440;Łańcut;5101932;50.081750;22.226396;station;0.087
+Langensteinbach Schießhüttenäcker;48.920;8.499;2026-10-06;3104169333;Langensteinbach Schießhüttenäcker;;48.920053;8.499402;halt;0.003
+Langensteinbach St. Barbara;48.910;8.500;2026-10-06;3104169335;Langensteinbach St. Barbara;;48.909699;8.499536;halt;0.004
+Langwiesen;47.683;8.662;2026-10-06;2351925301;Langwiesen;8503426;47.683468;8.662129;halt;0.014
+Lask;51.604;19.112;2026-10-06;1509858521;Łask;5101931;51.603743;19.111788;station;0.006
+Laubenheim, Bahnhof;49.961;8.314;2026-10-06;310093825;Mainz-Laubenheim;8003819;49.961155;8.314141;halt;0.002
+Lauf a.d.Pegnitz Bahnhof links der Pegnitz;49.507;11.286;2026-10-06;;;;;;;
+Laufen Bahnhof;48.223;8.918;2026-10-06;262387689;Albstadt-Laufen Ort;8029664;48.222631;8.917716;halt;0.009
+Lauterach;47.477;9.724;2026-10-06;3011462709;Lauterach;8100302;47.477670;9.724327;halt;0.029
+Lauterach Unterfeld;47.481;9.715;2026-10-06;10002117439;Lauterach Unterfeld;;47.480809;9.715720;halt;0.073
+Lauterbach (Hessen)-Wallenrod Bahnhof;50.665;9.332;2026-10-06;;;;;;;
+Le-Hörstmar, Bahnhof;52.012;8.845;2026-10-06;;;;;;;
+Leipferdingen Bahnhof;47.869;8.655;2026-10-06;1324684140;Geisingen-Leipferdingen;;47.869175;8.654696;halt;0.006
+Leipzig Werkstättenstraße;51.341;12.456;2026-10-06;1741830094;Leipzig Werkstättenstraße;8047958;51.340559;12.456368;halt;0.014
+Lend;47.298;13.056;2026-10-06;3508434066;Lend;8100045;47.297514;13.055341;station;0.021
+Lengwil;47.626;9.190;2026-10-06;263825561;Lengwil;8506196;47.626326;9.189651;station;0.094
+Leonding;48.274;14.254;2026-10-06;3393246606;Leonding;8101075;48.274032;14.253854;halt;0.007
+Leop-Asemissen, Bhf Oerlingh.;51.978;8.667;2026-10-06;;;;;;;
+Leopoldshafen Viermorgen;49.090;8.401;2026-10-06;3112600889;Leopoldshafen Viermorgen;;49.090316;8.400872;halt;0.013
+Leussow (b Neustrelitz) Zirtow-Leussow;53.281;12.887;2026-10-06;3158393640;Zirtow-Leussow;8028111;53.281016;12.886729;halt;0.012
+Leverkusen Manfort Bf;51.032;7.015;2026-10-06;1299991277;Leverkusen-Manfort;8003669;51.031232;7.015272;station;0.043
+Leverkusen Opladen Bf;51.066;7.009;2026-10-06;;;;;;;
+Levinska Olesnice;50.524;15.531;2026-10-06;25986903;Levínská Olešnice;;50.524337;15.530736;halt;0.001
+Lhotka (Melník), Hledsebe;50.364;14.563;2026-10-06;;;;;;;
+Lhotka u Melnika;50.382;14.542;2026-10-06;291680405;Lhotka u Mělníka;;50.382069;14.541784;station;0.004
+Lhotka u Melnika zastavka;50.373;14.551;2026-10-06;291680393;Lhotka u Mělníka zastávka;;50.373307;14.550997;halt;0.009
+Liberec,Rochlice,;50.747;15.062;2026-10-06;280987565;Liberec-Rochlice;;50.747260;15.061587;halt;0.013
+Liberec-Horni Ruzodol;50.753;15.033;2026-10-06;5680450654;Liberec-Horní Růžodol;5455152;50.753511;15.033336;station;0.037
+Libesice;50.572;14.285;2026-10-06;477231270;Liběšice;;50.572036;14.284937;station;0.005
+Libosovice;50.486;15.164;2026-10-06;295685227;Libošovice;;50.486106;15.163526;halt;0.002
+Libstat;50.556;15.417;2026-10-06;566183344;Libštát;;50.556086;15.417567;halt;0.021
+Libun zastavka;50.500;15.301;2026-10-06;36268991;Libuň zastávka;;50.500151;15.300543;halt;0.014
+Liederbach (Taunus)-Niederhofheim Liederbach Bf;50.119;8.486;2026-10-06;2968130090;Liederbach;;50.118639;8.486330;station;0.064
+Liederbach (Taunus)-Oberliederbach Liederbach Süd;50.115;8.501;2026-10-06;2970570365;Liederbach Süd;;50.115473;8.501287;halt;0.025
+Limburg (Lahn)-Staffel Bahnhof;50.400;8.046;2026-10-06;;;;;;;
+Lindhorst Bahnhof;52.354;9.287;2026-10-06;206146297;Lindhorst;8003699;52.354255;9.288464;station;0.086
+Lingen, Bahnhof;52.520;7.321;2026-10-06;4530820002;Lingen (Ems);8003701;52.519963;7.321595;station;0.042
+Linkenheim Schulzentrum;49.127;8.413;2026-10-06;3112635530;Linkenheim Schulzentrum;;49.127596;8.413560;tram_stop;0.017
+Linkenheim Süd;49.117;8.412;2026-10-06;3112635531;Linkenheim Süd;;49.116891;8.411561;station;0.033
+Lipova u Sluknova;50.995;14.358;2026-10-06;13016249682;Lipová u Šluknova;5456599;50.994666;14.358252;halt;0.010
+Lippstadt, Bustreff Bahnhof;51.671;8.350;2026-10-06;4310127539;Lippstadt;8000571;51.670688;8.348317;station;0.093
+Lisny;50.647;15.212;2026-10-06;11066894375;Líšný;;50.647211;15.212234;halt;0.008
+Lohmar Honrath Bf;50.911;7.253;2026-10-06;;;;;;;
+Lohsa Haltepunkt;51.374;14.405;2026-10-06;4905016624;Lohsa / Łaz;;51.374032;14.404404;halt;0.018
+Lollar-Odenhausen Friedelhausen Bf;50.672;8.711;2026-10-06;;;;;;;
+Lorch, Bahnhof;48.798;9.696;2026-10-06;4819550244;Lorch (Württemberg);8029539;48.797930;9.695559;station;0.035
+Lorüns;47.131;9.854;2026-10-06;333221554;Lorüns;;47.130995;9.853009;halt;0.056
+Loukov u Mnichova Hradiste;50.559;15.057;2026-10-06;3267208308;Loukov u Mnichova Hradiště;;50.558711;15.056555;station;0.019
+Lubin;51.396;16.194;2026-10-06;5356872372;Lubin;;51.395780;16.193436;station;0.039
+Lublin Zachodni;51.219;22.508;2026-10-06;6814014754;Lublin Zachodni;;51.218934;22.508927;halt;0.043
+Lucany n.Nisou;50.740;15.225;2026-10-06;288195264;Lučany nad Nisou;;50.739509;15.225365;halt;0.009
+Ludwigsfelde, Birkengrund Bhf;52.315;13.273;2026-10-06;;;;;;;
+Luh nad Svatavou;50.218;12.588;2026-10-06;10294164373;Luh nad Svatavou;5476485;50.217853;12.587450;halt;0.055
+Luh p.Smrkem;50.892;15.152;2026-10-06;;;;;;;
+Lukova;50.190;15.487;2026-10-06;1105631570;Luková;;50.190038;15.486910;halt;0.009
+Luzany;49.549;13.315;2026-10-06;307396996;Lužany;;49.548136;13.314572;halt;0.089
+Luzec p.Smrkem;50.886;15.165;2026-10-06;309538957;Lužec pod Smrkem;;50.886335;15.164830;halt;0.007
+Lvova;50.781;14.788;2026-10-06;5651023957;Lvová;5455232;50.781001;14.787847;halt;0.015
+Líny, Bukovno;50.446;14.810;2026-10-06;;;;;;;
+Löhne, Remarqueplatz/Bhf;52.197;8.712;2026-10-06;26112734;Löhne (Westf);8000233;52.196510;8.713952;station;0.138
+Lübben, Bahnhof;51.940;13.877;2026-10-06;2319615682;Lübben (Spreewald) / Lubin (Błota);8004010;51.940029;13.876531;station;0.062
+Lübbenau, Bahnhof;51.862;13.962;2026-10-06;2319624842;Lübbenau (Spreewald) / Lubnjow (Błota);8004012;51.862053;13.961166;station;0.070
+Lübeck-Moisling;53.837;10.630;2026-10-06;11396300884;Lübeck-Moisling;;53.837029;10.632079;halt;0.171
+Lüd., Bahnhof;51.220;7.629;2026-10-06;;;;;;;
+Lüd., Brügge Bahnhof;51.208;7.571;2026-10-06;;;;;;;
+MA-Käfertal, DB-Bahnhof;49.502;8.503;2026-10-06;;;;;;;
+MA-Rheinau, Bahnhof;49.424;8.535;2026-10-06;;;;;;;
+MG Hbf /Europaplatz;51.197;6.445;2026-10-06;;;;;;;
+Magdeburgerforth (Kleinbahn);52.234;12.197;2026-10-06;13513468487;Magdeburgerforth;;52.233355;12.196595;station;0.029
+Magdeburgerforth Lindenstr. (Kleinbahn);52.231;12.189;2026-10-06;2160701536;Magdeburgerforth Lindenstraße;;52.230602;12.189287;halt;0.007
+Magdeburgerforth Lumpenbahnhof (Kleinbahn);52.237;12.201;2026-10-06;13513468487;Magdeburgerforth;;52.233355;12.196595;station;0.496
+Magdeburgerforth Mitte (Kleinbahn);52.227;12.188;2026-10-06;8509849914;Magdeburgerforth Mitte;;52.227016;12.188130;station;0.014
+Mainz, Nordbahnhof\W. & Mertz;50.020;8.247;2026-10-06;30779411;Mainz Nord;8003815;50.020031;8.246156;halt;0.077
+Mala Bela;50.487;14.923;2026-10-06;370182607;Malá Bělá;5456928;50.486765;14.923033;halt;0.009
+Mala Velen;50.742;14.273;2026-10-06;248088438;Malá Veleň;5456229;50.742306;14.272578;halt;0.004
+Malechovice;50.493;15.187;2026-10-06;295687692;Malechovice;;50.493430;15.187401;halt;0.007
+Malsch (Kr Karlsruhe);48.889;8.323;2026-10-06;3069955997;Malsch;8014240;48.889557;8.323811;halt;0.034
+Mansfeld Schleife;51.601;11.416;2026-10-06;1679559685;Mansfeld Schleife;;51.601335;11.415795;station;0.003
+Marbach Bahnhof;48.384;9.422;2026-10-06;6502715652;Marbach;;48.383753;9.422214;station;0.010
+Marbach Ost;48.034;8.476;2026-10-06;4517386687;Marbach Ost;8072023;48.033834;8.475839;halt;0.006
+Marbach West;48.031;8.469;2026-10-06;296999770;Marbach West;8080297;48.031354;8.469159;halt;0.011
+Marienau Bahnhof;52.105;9.572;2026-10-06;11602943955;Marienau (Coppenbrügge);8006104;52.105046;9.572225;halt;0.006
+Markersdorf Alte Mühle / Schreckenstein;50.930;12.851;2026-10-06;1766621320;Alte Mühle / Schreckenstein;;50.929803;12.850831;halt;0.001
+Markersdorf-Taura;50.927;12.854;2026-10-06;8394435453;Markersdorf-Taura;;50.926814;12.854261;station;0.001
+Markkleeberg-Gaschwitz;51.250;12.379;2026-10-06;1834231118;Markkleeberg-Gaschwitz;8011598;51.249706;12.379174;station;0.022
+Marktoberdorf Nord;47.790;10.616;2026-10-06;13523719977;Marktoberdorf Nord;8001622;47.789488;10.615531;halt;0.018
+Markvartice;50.772;14.346;2026-10-06;248088554;Markvartice;5456279;50.772229;14.346187;station;0.025
+Mauer, Bahnhof;49.336;8.796;2026-10-06;1617569991;Mauer (bei Heidelberg);8014171;49.335792;8.795561;halt;0.005
+Mechernich Satzvey Bf;50.623;6.713;2026-10-06;;;;;;;
+Meckenbeuren Kehlen, Bahnhof;47.683;9.548;2026-10-06;;;;;;;
+Meckenheim Lüftelberg Kottenforst Bf;50.662;7.023;2026-10-06;2588832663;Meckenheim Kottenforst;8003414;50.661889;7.022888;halt;0.059
+Medenec;50.429;13.130;2026-10-06;12857426649;Měděnec;;50.428540;13.129915;halt;0.027
+Medenec zastavka;50.427;13.108;2026-10-06;12857426648;Měděnec zastávka;;50.427210;13.107482;halt;0.013
+Mellenbach, Verkehrszentrale;50.604;11.135;2026-10-06;;;;;;;
+Mellenbach-Glasbach (Bushaltestelle);50.608;11.115;2026-10-06;;;;;;;
+Melsungen-Schwarzenberg;51.146;9.561;2026-10-06;11265330138;Melsungen-Schwarzenberg;8003962;51.146395;9.561228;halt;0.024
+Menden, Lendringsen Bahnhof;51.410;7.826;2026-10-06;;;;;;;
+Mergelstetten Bahnhof;48.653;10.161;2026-10-06;1323505156;Heidenheim-Mergelstetten;8029703;48.653213;10.160925;station;0.009
+Mesice u Prahy;50.204;14.514;2026-10-06;7833572781;Měšice u Prahy;;50.204651;14.513532;station;0.076
+Mesum, Bahnhof;52.224;7.485;2026-10-06;4147508391;Rheine-Mesum;8004000;52.223181;7.485547;halt;0.111
+Methler, Bahnhof;51.568;7.613;2026-10-06;671695550;Kamen-Methler;8003169;51.567469;7.613231;halt;0.016
+Metz Ville;49.109;6.178;2026-10-06;;;;;;;
+Meßkirch Bahnhof;47.995;9.116;2026-10-06;8533658425;Meßkirch;;47.995199;9.116113;halt;0.047
+Miedzyzdroje;53.924;14.455;2026-10-06;1316021439;Międzyzdroje;5100252;53.924126;14.454579;halt;0.016
+Miesenbach (Pfalz), Bahnhof;49.456;7.548;2026-10-06;420130053;Miesenbach;8007482;49.456441;7.548275;halt;0.007
+Mieszkowice;52.782;14.486;2026-10-06;2152106201;Mieszkowice;;52.781738;14.485872;station;0.040
+Mikulasovice dol. nadr.;50.984;14.337;2026-10-06;13016249681;Mikulášovice dolní nádraží;5456549;50.984628;14.336445;station;0.035
+Mikulasovice dolni nadrazi;50.984;14.337;2026-10-06;13016249681;Mikulášovice dolní nádraží;5456549;50.984628;14.336445;station;0.036
+Mikulasovice horni nadrazi;50.956;14.390;2026-10-06;13016279967;Mikulášovice horní nádraží;5456559;50.956475;14.390402;halt;0.013
+Mikulasovice stred;50.962;14.358;2026-10-06;13016279968;Mikulášovice střed;5456569;50.962283;14.357637;halt;0.011
+Mikulásovice, horní nádraží;50.956;14.390;2026-10-06;13016279967;Mikulášovice horní nádraží;5456559;50.956475;14.390402;halt;0.004
+Mikulášovice střed;50.962;14.358;2026-10-06;13016279968;Mikulášovice střed;5456569;50.962283;14.357637;halt;0.015
+Minkovice;50.951;15.029;2026-10-06;249073261;Minkovice;;50.950793;15.029110;halt;0.012
+Mlada Boleslav mesto;50.419;14.916;2026-10-06;3422292814;Mladá Boleslav město;;50.419229;14.916129;halt;0.010
+Mlada Boleslav-Debr;50.448;14.887;2026-10-06;3267208309;Mladá Boleslav-Debř;;50.448015;14.887315;station;0.038
+Mladejov v Cechach;50.481;15.226;2026-10-06;295687741;Mladějov v Čechách;;50.481037;15.226230;station;0.009
+Mlyny;50.811;14.498;2026-10-06;249610500;Mlýny;5456419;50.811425;14.498236;station;0.002
+Mnisek u Liberce;50.833;15.065;2026-10-06;5684051455;Mníšek u Liberce;;50.832586;15.065014;station;0.001
+Morsum(Sylt-Ost);54.872;8.433;2026-10-06;;;;;;;
+Mosonmagyarovar;47.850;17.266;2026-10-06;91711522;Mosonmagyaróvár;5501347;47.849425;17.267592;station;0.135
+Mostek;50.491;15.692;2026-10-06;958755223;Mostek;;50.490753;15.692505;station;0.064
+Mseno;50.436;14.641;2026-10-06;367583485;Mšeno;;50.435721;14.640816;station;0.022
+Mudersbach Niederschelderhütte Bahnhof Niederschelden;50.839;7.965;2026-10-06;;;;;;;
+Mulsum, Bahnhof;53.499;9.305;2026-10-06;1811438339;Mulsum-Essel;;53.498885;9.307804;halt;0.195
+Museumsbf. Anlage Mitte;51.512;14.648;2026-10-06;;;;;;;
+Möhlin;47.562;7.834;2026-10-06;3080746021;Möhlin;8500302;47.561690;7.833337;station;0.044
+Mönchengladbach Herrath Bf;51.104;6.369;2026-10-06;;;;;;;
+Mönchengladbach Wickrath Bf;51.132;6.410;2026-10-06;;;;;;;
+Mörfelden-Walldorf-Mörfelden Bahnhof;49.979;8.566;2026-10-06;;;;;;;
+Mörfelden-Walldorf-Walldorf Bahnhof;50.001;8.581;2026-10-06;;;;;;;
+Mörsch Am Hang;48.957;8.285;2026-10-06;3111110599;Mörsch Am Hang;;48.956535;8.285483;tram_stop;0.001
+Mörsch Bach-West;48.959;8.284;2026-10-06;3111110600;Mörsch Bach West;;48.958944;8.283985;tram_stop;0.001
+Mörsch Merkurstraße;48.953;8.291;2026-10-06;3111110601;Mörsch Merkurstraße;;48.953156;8.291302;tram_stop;0.001
+Mörsch Narzissenstraße;48.966;8.302;2026-10-06;4065727697;Mörsch Narzissenstraße;;48.965986;8.302440;tram_stop;0.001
+Mörsch Rheinaustraße;48.959;8.294;2026-10-06;3111110602;Mörsch Rheinaustraße;;48.958549;8.294353;tram_stop;0.001
+Mörsch Römerstraße;48.961;8.297;2026-10-06;4065727698;Mörsch Römerstraße;;48.961430;8.297427;tram_stop;0.002
+Mörsch Rösselsbrünnle;48.968;8.305;2026-10-06;3111136803;Mörsch Rösselsbrünnle;;48.967777;8.305181;tram_stop;0.000
+Mücke-Flensungen Mücke Bahnhof;50.617;9.029;2026-10-06;;;;;;;
+Mühlheim (Donau) Bahnhof;48.029;8.886;2026-10-06;4397552676;Mühlheim;8029261;48.029266;8.885705;halt;0.011
+Mühlheim am Inn;48.270;13.221;2026-10-06;369140662;Mühlheim;;48.269705;13.220968;halt;0.009
+Mühlingen-Zoznegg;47.903;9.027;2026-10-06;11871976222;Mühlingen-Zoznegg;;47.903491;9.027322;halt;0.011
+Mühltal-Nieder-Ramstadt Mühltal Bahnhof;49.831;8.704;2026-10-06;;;;;;;
+Mülheim-Kärlich Bahnhof;50.403;7.509;2026-10-06;4550120545;Mülheim-Kärlich;8006035;50.402553;7.509435;station;0.028
+München Süd;48.121;11.555;2026-10-06;3256321608;München Süd;;48.121566;11.552973;station;0.195
+Münchhausen-Simtshausen Bahnhof;50.942;8.704;2026-10-06;510923611;Simtshausen;8005573;50.941632;8.704126;halt;0.031
+Münster;48.821;9.216;2026-10-06;6298426136;Stuttgart-Münster;8029028;48.820712;9.216174;station;0.008
+Münster (Hessen)-Altheim Bahnhof;49.923;8.891;2026-10-06;;;;;;;
+Naleczow;51.318;22.213;2026-10-06;2210300770;Nałęczów;;51.318044;22.213181;station;0.032
+Nassau, Bahnhof;50.770;13.486;2026-10-06;267780420;Nassau (Erzgeb);;50.769845;13.485672;halt;0.010
+Nauheim Bahnhof;49.942;8.449;2026-10-06;90603790;Nauheim;8004210;49.942118;8.449864;station;0.045
+Navarov;50.676;15.319;2026-10-06;26025026;Návarov;;50.676214;15.319320;halt;0.002
+Nebuzely;50.386;14.590;2026-10-06;318458340;Nebužely;;50.386216;14.589731;halt;0.005
+Neckarau, Bahnhof;49.455;8.495;2026-10-06;294846671;Neckarau Bahnhof;;49.455359;8.494297;tram_stop;0.029
+Neckarelz, Bahnhof;49.349;9.113;2026-10-06;1606633179;Mosbach-Neckarelz;8014126;49.348757;9.112976;station;0.030
+Neckarpark;48.792;9.241;2026-10-06;3068189388;Stuttgart Neckarpark;8029377;48.791816;9.241173;station;0.016
+Nedvezi;50.584;15.352;2026-10-06;958755224;Nedvězí;;50.584193;15.351979;halt;0.003
+Neermoor;53.306;7.437;2026-10-06;13264561772;Neermoor;;53.304909;7.437722;halt;0.070
+Nejdek;50.319;12.727;2026-10-06;13018230444;Nejdek;5474205;50.319109;12.727495;station;0.003
+Nejdek zastavka;50.329;12.722;2026-10-06;13018230417;Nejdek zastávka;5474215;50.329111;12.722265;halt;0.043
+Nejdek-Oldrichov;50.348;12.769;2026-10-06;13018227383;Nejdek-Oldřichov;5474265;50.348195;12.769615;halt;0.060
+Nejdek-Sejfy;50.349;12.751;2026-10-06;13018227385;Nejdek-Sejfy;5474255;50.349336;12.751307;halt;0.011
+Nejdek-Sucha;50.311;12.750;2026-10-06;13018235970;Nejdek-Suchá;5474195;50.310902;12.750131;halt;0.009
+Nejdek-Tisova;50.341;12.730;2026-10-06;13018227386;Nejdek-Tisová;5474245;50.341520;12.729340;halt;0.056
+Nenzing;47.192;9.708;2026-10-06;206095788;Nenzing;8100068;47.191568;9.708284;halt;0.002
+Neratovice sídliště;50.257;14.508;2026-10-06;7453270301;Neratovice sídliště;;50.257826;14.507560;halt;0.106
+Nestedice;50.670;14.141;2026-10-06;12851525432;Neštědice;5455779;50.670189;14.139990;halt;0.045
+Nettetal Breyell Bf;51.294;6.243;2026-10-06;;;;;;;
+Neu-Anspach-Hausen-Arnsbach Hausen (Ts) Bf;50.308;8.507;2026-10-06;;;;;;;
+Neu-Isenburg-Zeppelinheim Bahnhof;50.036;8.605;2026-10-06;;;;;;;
+Neu-Ulm S-Bahnhalt Finn. Str.;48.390;10.026;2026-10-06;;;;;;;
+Neudorf (Erzgeb), Vierenstr;50.467;12.968;2026-10-06;;;;;;;
+Neudorf, Kretscham;50.468;12.986;2026-10-06;;;;;;;
+Neuenhaus;52.502;6.970;2026-10-06;1983651284;Neuenhaus;;52.501894;6.970007;station;0.002
+Neuenrade, Küntrop Bf.;51.293;7.814;2026-10-06;662856514;Neuenrade-Küntrop;8003470;51.293475;7.815368;halt;0.064
+Neufahrn;48.320;11.661;2026-10-06;2499417211;Neufahrn (b Freising);8004279;48.321937;11.661699;station;0.236
+Neuhausen (SPN), Bahnhof;51.687;14.413;2026-10-06;2804556247;Neuhausen (b Cottbus);8004062;51.687510;14.412174;station;0.070
+Neuhausen Bahnhof;48.533;9.307;2026-10-06;8658576009;Metzingen Neuhausen;;48.532674;9.307162;halt;0.019
+Neuhof Bahnhof;50.454;9.620;2026-10-06;444344279;Neuhof (Kreis Fulda);;50.453576;9.620317;station;0.106
+Neukirchen b.Lambach;48.095;13.832;2026-10-06;29056884;Neukirchen bei Lambach;8101088;48.095220;13.832957;halt;0.064
+Neumünster-Einfeld;54.130;9.998;2026-10-06;;;;;;;
+Neuratting;48.227;13.374;2026-10-06;369222078;Neuratting;8101288;48.227222;13.373663;halt;0.020
+Neureut Adolf-Ehrmann-Bad;49.051;8.385;2026-10-06;3112374785;Neureut Kirchfeld;;49.052715;8.388501;halt;0.356
+Neureut Bärenweg;49.047;8.379;2026-10-06;;;;;;;
+Neureut Welschneureuter Straße;49.045;8.374;2026-10-06;;;;;;;
+Neuschweizerthal;50.937;12.848;2026-10-06;1015563613;Neuschweizerthal;;50.937089;12.848401;halt;0.001
+Neuss Norf Bf;51.161;6.731;2026-10-06;;;;;;;
+Neustadt (Hessen) Bahnhof;50.850;9.121;2026-10-06;;;;;;;
+Nidda-Ober-Widdersheim Häuserhof Bahnhof;50.419;8.939;2026-10-06;;;;;;;
+Niddatal-Assenheim Bahnhof;50.305;8.813;2026-10-06;;;;;;;
+Nidderau-Heldenbergen Nidderau Bahnhof;50.231;8.880;2026-10-06;;;;;;;
+Nidderau-Ostheim Bahnhof;50.220;8.903;2026-10-06;;;;;;;
+Niebüll Autoverladung;54.785;8.836;2026-10-06;779724927;Niebüll;8004343;54.789282;8.834669;station;0.530
+Niederglatt ZH;47.487;8.503;2026-10-06;1329658757;Niederglatt ZH;8503313;47.487477;8.503190;station;0.009
+Niedermendig Mendig Bahnhof;50.370;7.290;2026-10-06;;;;;;;
+Niederwillingen (Bushaltestelle);50.772;11.034;2026-10-06;13533230900;Niederwillingen;8016284;50.775445;11.038552;halt;0.490
+Niederzier, Selhausen (Ort);50.864;6.436;2026-10-06;;;;;;;
+Nordbahnhof;48.804;9.188;2026-10-06;263346985;Stuttgart Nordbahnhof;8029033;48.803730;9.188064;halt;0.001
+Norderstedt, Moorbekhalle (Schulzentrum Nord);53.717;9.992;2026-10-06;;;;;;;
+Nordhausen, Schurzfell (Bus);51.522;10.776;2026-10-06;13646146977;Nordhausen Schurzfell;;51.522802;10.775912;halt;0.064
+Nordholz(b Bremerhaven);53.779;8.621;2026-10-06;;;;;;;
+Nordhorn Bahnhof;52.430;7.065;2026-10-06;1983650657;Nordhorn;;52.430460;7.063942;station;0.091
+Nova Paka;50.487;15.523;2026-10-06;306045769;Nová Paka;5402164;50.486703;15.523057;station;0.008
+Nova Role;50.273;12.780;2026-10-06;13018125283;Nová Role;5474085;50.273532;12.780048;station;0.013
+Nova Role zastavka;50.291;12.756;2026-10-06;13018255179;Nová Role zastávka;5474185;50.291173;12.755928;halt;0.008
+Nova Ves n.Nisou;50.724;15.194;2026-10-06;5312443976;Nová Ves nad Nisou;;50.723549;15.194253;halt;0.046
+Nova Ves nad Popelkou;50.519;15.408;2026-10-06;306565615;Nová Ves nad Popelkou;;50.518943;15.407631;halt;0.024
+Nova Ves u Krimova;50.496;13.265;2026-10-06;12857426657;Nová Ves u Křimova;5453869;50.495584;13.264626;halt;0.009
+Nove Hamry;50.357;12.719;2026-10-06;13018184863;Nové Hamry;5474235;50.357135;12.719420;station;0.017
+Nove Mesto p.Smrkem;50.925;15.224;2026-10-06;;;;;;;
+Nove Zamky;47.995;18.174;2026-10-06;3658062010;Nové Zámky;5613436;47.995550;18.173424;station;0.073
+Novina;50.760;14.941;2026-10-06;306513534;Novina;5455192;50.760074;14.941700;halt;0.015
+Novy Bor;50.761;14.547;2026-10-06;5879097633;Nový Bor;5456789;50.760593;14.547247;station;0.019
+Nová Huť v Lužických horách;50.831;14.586;2026-10-06;2423932907;Nová Huť v Lužických horách;5456769;50.830769;14.585809;halt;0.007
+Nowy Tomysl;52.304;16.133;2026-10-06;3249493765;Nowy Tomyśl;5102514;52.304122;16.133039;station;0.008
+Nußdorf, Bahnhof;47.755;9.188;2026-10-06;7449508879;Überlingen-Nußdorf;8064617;47.755102;9.187794;halt;0.015
+Nyrsko;49.298;13.153;2026-10-06;49910507;Nýrsko;;49.297653;13.153376;station;0.002
+Nüziders;47.171;9.794;2026-10-06;890494632;Nüziders;;47.170905;9.794010;halt;0.040
+Obererbach (b. Altenkirchen) Obererbach Bahnhof;50.720;7.659;2026-10-06;298646976;Obererbach;8004527;50.719681;7.659504;halt;0.026
+Oberglatt ZH;47.470;8.511;2026-10-06;1327631013;Oberglatt;8503312;47.470417;8.510537;station;0.025
+Oberhofen-Zell am Moos;47.959;13.301;2026-10-06;6422856002;Oberhofen-Zell am Moos;8101103;47.959067;13.301961;halt;0.044
+Oberschöna, Bf Frankenstein;50.903;13.228;2026-10-06;;;;;;;
+Obertrattnach-Markt Hofkirchen;48.246;13.767;2026-10-06;385487769;Obertrattnach-Markt Hofkirchen;;48.246069;13.766839;halt;0.014
+Oberzent-Kailbach Bahnhof;49.539;9.078;2026-10-06;14143268487;Oberzent-Kailbach;8003144;49.539591;9.077720;halt;0.020
+Oborniki Slaskie;51.299;16.908;2026-10-06;302221812;Oborniki Śląskie;;51.299613;16.907326;station;0.074
+Oehna (bei Niedergörsdorf), Bahnhof;51.932;13.049;2026-10-06;252873716;Oehna;8023130;51.932056;13.048633;station;0.010
+Oelsnitz, Bahnhof Neuoelsnitz;50.720;12.723;2026-10-06;;;;;;;
+Oerl-Helpup, Bahnhof;51.977;8.713;2026-10-06;;;;;;;
+Oftering;48.228;14.151;2026-10-06;7966423352;Oftering;8101078;48.227713;14.151341;halt;0.009
+Ohnistany;50.334;15.507;2026-10-06;306038555;Ohnišťany;;50.333595;15.507012;halt;0.008
+Okna;50.527;14.674;2026-10-06;264468489;Okna;5456879;50.527273;14.674424;station;0.016
+Olbersdorf Bahnhof Bertsdorf;50.869;14.746;2026-10-06;;;;;;;
+Oldrichov v Hajich;50.855;15.092;2026-10-06;660914393;Oldřichov v Hájích;;50.855431;15.091760;halt;0.009
+Olovi;50.254;12.560;2026-10-06;10294164372;Oloví;5476505;50.254629;12.558305;station;0.122
+Opalenica;52.310;16.400;2026-10-06;3457117468;Opalenica;5102591;52.309737;16.400307;station;0.003
+Opoczno Poludnie;51.359;20.232;2026-10-06;3138262522;Opoczno Południe;;51.359183;20.232438;station;0.090
+Ortenberg-Effolderbach Bahnhof;50.338;9.008;2026-10-06;;;;;;;
+Ostasov;50.763;15.013;2026-10-06;306513536;Ostašov;5455162;50.763425;15.012067;halt;0.055
+Ostelsheim, Bahnhof;48.728;8.855;2026-10-06;13483546434;Ostelsheim;;48.728341;8.855023;station;0.017
+Osterholz-Scharmbeck-Ahrensfelde;53.234;8.817;2026-10-06;;;;;;;
+Otterbach, Bahnhof;49.484;7.729;2026-10-06;311371489;Lampertsmühle-Otterbach;8003504;49.483618;7.729423;station;0.028
+Ottersberg(b Bremen) Bahnhof (Nord);53.097;9.132;2026-10-06;;;;;;;
+Oy, Bahnhof;47.646;10.458;2026-10-06;260270845;Oy-Mittelberg;8004742;47.646311;10.457997;halt;0.018
+PW-Hausberge, Porta Bahnhof;52.244;8.921;2026-10-06;;;;;;;
+Pabianice;51.661;19.325;2026-10-06;7164421348;Pabianice;5100188;51.660930;19.324976;station;0.009
+Pansky;50.948;14.464;2026-10-06;3203687679;Panský;5456489;50.948363;14.463032;station;0.055
+Paradies (Hettstedt);51.623;11.532;2026-10-06;1931184083;Paradies;;51.623240;11.531587;halt;0.006
+Pardubice centrum;50.032;15.773;2026-10-06;11688526513;Pardubice centrum;;50.031591;15.772637;halt;0.022
+Pasching;48.257;14.208;2026-10-06;3393217427;Pasching;8101076;48.257182;14.208796;halt;0.047
+Paulinzella (Bushaltestelle);50.702;11.102;2026-10-06;13533258763;Paulinzella;8016287;50.701122;11.106088;halt;0.306
+Pe-Lahde, Bahnhof;52.368;9.010;2026-10-06;;;;;;;
+Pertoltice pod Ralskem;50.678;14.718;2026-10-06;306513533;Pertoltice pod Ralskem;5457179;50.677333;14.718275;halt;0.030
+Peterskirchen;48.234;13.549;2026-10-06;2653810951;Peterskirchen;8101399;48.233868;13.549391;halt;0.026
+Petrovice nad Uhlavo;49.321;13.179;2026-10-06;49910338;Petrovice nad Úhlavou;;49.320790;13.179392;halt;0.033
+Pfalzel, Hafenstraße;49.792;6.690;2026-10-06;;;;;;;
+Pfullendorf Bf./Stadtgarten;47.923;9.255;2026-10-06;2644451041;Pfullendorf;8070630;47.922842;9.255894;halt;0.045
+Pilawa;51.957;21.533;2026-10-06;359821935;Pilawa;;51.954851;21.534023;station;0.276
+Pilinkov;50.727;15.036;2026-10-06;958755216;Pilínkov;;50.727277;15.035441;halt;0.015
+Pilnikov;50.534;15.813;2026-10-06;243779366;Pilníkov;;50.534222;15.812914;station;0.001
+Plaue, Postplatz;50.778;10.903;2026-10-06;2700123206;Plaue (Thür);8016185;50.778536;10.908786;station;0.438
+Plavy;50.701;15.318;2026-10-06;26024353;Plavy;;50.701596;15.317366;halt;0.041
+Pleszew;51.892;17.733;2026-10-06;2002363570;Pleszew;;51.892587;17.732217;station;0.079
+Plett., Bahnhof;51.232;7.869;2026-10-06;;;;;;;
+Ploskovice;50.550;14.206;2026-10-06;280709491;Ploskovice;;50.549894;14.205726;halt;0.008
+Plotiste nad Labem;50.235;15.792;2026-10-06;272506981;Plotiště nad Labem;;50.235419;15.792016;halt;0.007
+Plzen zast.;49.737;13.375;2026-10-06;339416214;Plzeň zastávka;5475295;49.736794;13.374883;halt;0.000
+Plzen-Doudlevce;49.722;13.383;2026-10-06;1893915972;Plzeň-Doudlevce;5475305;49.721547;13.382984;halt;0.019
+Ponikla;50.649;15.457;2026-10-06;300850468;Poniklá;;50.648869;15.456992;station;0.032
+Ponikla zastavka;50.667;15.451;2026-10-06;306539998;Poniklá zastávka;;50.666702;15.450959;halt;0.001
+Porstendorf (b. Jena), Bushaltestelle;50.979;11.648;2026-10-06;32128102;Porstendorf;8016317;50.976957;11.645392;halt;0.252
+Potsdam, Golm Bhf;52.411;12.972;2026-10-06;30231539;Golm;8003512;52.409795;12.971877;station;0.084
+Pr.O-Holzhausen, Bahnhof;52.289;8.544;2026-10-06;;;;;;;
+Praha-Podbaba;50.112;14.396;2026-10-06;1723267682;Praha-Podbaba;;50.112336;14.395592;halt;0.003
+Praha-Radotin;49.986;14.364;2026-10-06;24595666;Praha-Radotín;;49.985629;14.363820;station;0.040
+Pram-Haag;48.232;13.619;2026-10-06;1583591380;Pram-Haag;8100526;48.231801;13.617979;station;0.067
+Prestice-Zastavka;49.601;13.299;2026-10-06;307396448;Přeštice-Zastávka;5475345;49.600760;13.299071;halt;0.007
+Prien, Hafen;47.860;12.363;2026-10-06;2471048059;Prien-Stock;;47.860852;12.365460;halt;0.197
+Prisovice;50.579;15.079;2026-10-06;3267208312;Příšovice;;50.579104;15.078660;station;0.014
+Prosec n.Nisou;50.728;15.116;2026-10-06;280987574;Proseč nad Nisou;;50.728318;15.115739;halt;0.020
+Prosecne;50.547;15.696;2026-10-06;243779516;Prosečné;;50.547415;15.696488;halt;0.017
+Przemysl Zasanie;49.794;22.774;2026-10-06;2017171375;Przemyśl Zasanie;5102825;49.793475;22.773728;halt;0.033
+Przeworsk;50.067;22.503;2026-10-06;48311251;Przeworsk;5100195;50.066985;22.505444;station;0.151
+Puch b.Hallein Urstein;47.724;13.088;2026-10-06;;;;;;;
+Puch bei Hallein;47.713;13.091;2026-10-06;2647508857;Puch bei Hallein;8101406;47.712976;13.090620;halt;0.014
+Pulawy Miasto;51.427;21.985;2026-10-06;3457368094;Puławy Miasto;;51.427785;21.984232;halt;0.115
+Pulheim Stommeln Bf;51.018;6.752;2026-10-06;;;;;;;
+Pulling;48.365;11.704;2026-10-06;2499425075;Pulling (bei Freising);8004900;48.363352;11.707112;halt;0.299
+Pöndorf;47.987;13.356;2026-10-06;206113985;Pöndorf;8101101;47.986606;13.355921;halt;0.020
+Püsselbüren, Esch Bahnhof;52.300;7.657;2026-10-06;;;;;;;
+Quendorf;52.338;7.172;2026-10-06;4957525272;Quendorf;;52.338446;7.172289;halt;0.016
+Quickborn, Ellerau;53.750;9.922;2026-10-06;;;;;;;
+RE Süd Bf;51.562;7.195;2026-10-06;;;;;;;
+RW-Rheda, Bahnhof;51.857;8.287;2026-10-06;;;;;;;
+Radebeul Hp Lößnitzgrund;51.121;13.654;2026-10-06;;;;;;;
+Radebeul S-Bf. Kötzschenbroda;51.108;13.629;2026-10-06;1535249258;Radebeul, Moritzburger Straße;;51.108345;13.629444;tram_stop;0.085
+Radlo;50.694;15.108;2026-10-06;929154060;Rádlo;;50.694279;15.108411;halt;0.014
+Radolfzell Haselbrunn Bahnhof;47.745;8.975;2026-10-06;4267146174;Radolfzell Haselbrunn;8045010;47.744697;8.975228;halt;0.001
+Radymno;49.940;22.829;2026-10-06;48318510;Radymno;;49.939721;22.828321;station;0.063
+Rahden, Bahnhof;52.433;8.624;2026-10-06;41926249;Rahden;8004919;52.433234;8.623926;station;0.028
+Rainau-Schwabsberg, Bahnhof;48.925;10.139;2026-10-06;;;;;;;
+Ramsen (Pfalz), Bahnhof;49.535;8.022;2026-10-06;459667254;Ramsen;8004935;49.535193;8.022361;halt;0.024
+Rasnice;50.939;15.151;2026-10-06;5681064440;Řasnice;5454622;50.938873;15.151140;station;0.020
+Rasnice zast.;50.939;15.163;2026-10-06;500637093;Řasnice zastávka;5454612;50.939530;15.163272;halt;0.012
+Raspenava;50.897;15.131;2026-10-06;2042807009;Raspenava;;50.896490;15.131624;station;0.056
+Ratingen Hösel S;51.342;6.894;2026-10-06;;;;;;;
+Rauenstein, Bahnhof;50.730;13.203;2026-10-06;1446942989;Lengefeld-Rauenstein;8012201;50.730489;13.202686;halt;0.020
+Ravensburg Oberzell, Bahnhof;47.752;9.575;2026-10-06;;;;;;;
+Ravensburg Weißenau, Bahnhof;47.766;9.595;2026-10-06;;;;;;;
+Rawicz;51.609;16.840;2026-10-06;1773651785;Rawicz;;51.609250;16.839439;station;0.079
+Rees Haldern Bahnhof;51.772;6.456;2026-10-06;;;;;;;
+Rees Millingen Bf/Hauptstraße;51.809;6.398;2026-10-06;;;;;;;
+Rehfeld (EE), Bahnhof;51.580;13.153;2026-10-06;364673115;Rehfeld (b Falkenberg/Elster);8023411;51.579745;13.153866;station;0.036
+Reichelsheim (Wetterau)-Beienheim Bahnhof;50.359;8.821;2026-10-06;;;;;;;
+Reichelsheim (Wetterau)-Weckesheim Bahnhof;50.360;8.843;2026-10-06;;;;;;;
+Reichenbach Kurpark;48.919;8.473;2026-10-06;3104169336;Reichenbach Kurpark;;48.918808;8.473066;halt;0.019
+Reiskirchen-Saasen Bahnhof;50.594;8.882;2026-10-06;;;;;;;
+Rejowiec;51.118;23.239;2026-10-06;2172404544;Rejowiec;;51.117695;23.238344;station;0.065
+Remagen Oberwinter Bahnhof;50.611;7.208;2026-10-06;;;;;;;
+Repov;50.407;14.956;2026-10-06;980578973;Řepov;;50.406894;14.955557;halt;0.005
+Riem;48.143;11.679;2026-10-06;2472241431;Riem;8004160;48.143969;11.677772;station;0.113
+Riffelriß;47.434;10.986;2026-10-06;1588966929;Riffelriss;;47.434108;10.986306;halt;0.000
+Rimbach, Schulzentrum Bf;49.622;8.754;2026-10-06;13074674458;Rimbach Schulzentrum;8005100;49.622318;8.753643;halt;0.004
+Rintheim Sinsheimer Straße;49.021;8.445;2026-10-06;4138938939;Rintheim;;49.016426;8.443708;tram_stop;0.521
+Rodgau-Nieder-Roden Rollwald Bahnhof;49.988;8.848;2026-10-06;;;;;;;
+Rohatsko;50.437;15.107;2026-10-06;980578916;Rohatsko;;50.437131;15.107554;halt;0.006
+Rohr;48.718;9.108;2026-10-06;3043348659;Stuttgart-Rohr;8029381;48.717726;9.108407;station;0.035
+Rokytnice nad Jizerou;50.712;15.423;2026-10-06;5681074605;Rokytnice nad Jizerou;;50.712161;15.422858;station;0.008
+Ropczyce;50.079;21.583;2026-10-06;3533737256;Ropczyce;;50.078358;21.579860;station;0.217
+Rosbach v.d. Höhe-Rodheim v.d. Höhe Bahnhof;50.268;8.696;2026-10-06;;;;;;;
+Rotava;50.287;12.536;2026-10-06;10294164369;Rotava;5476515;50.287047;12.535481;station;0.026
+Rottenbach (b. Königsee), Bahnhof;50.689;11.169;2026-10-06;1601694830;Rottenbach;8016288;50.689506;11.170681;station;0.118
+Rovensko pod Troskami;50.532;15.264;2026-10-06;1841489538;Rovensko pod Troskami;;50.531393;15.264282;station;0.040
+Roztoky u Jilemnice;50.555;15.490;2026-10-06;306080499;Roztoky u Jilemnice;;50.554540;15.490065;station;0.009
+Runkel-Kerkerbach Bahnhof;50.402;8.136;2026-10-06;;;;;;;
+Rusova;50.450;13.169;2026-10-06;12857426650;Rusová;5453889;50.450258;13.168725;halt;0.034
+Rynoltice;50.787;14.827;2026-10-06;280900379;Rynoltice;5455222;50.787001;14.826685;station;0.019
+Rümlang;47.454;8.533;2026-10-06;1321840643;Rümlang;8503311;47.454068;8.532678;station;0.007
+Rüppurr Battstraße;48.965;8.405;2026-10-06;3109314615;Rüppurr Battstraße;;48.965176;8.404822;station;0.008
+Rüppurr Ostendorfplatz, Karlsruhe;48.976;8.407;2026-10-06;;;;;;;
+Rüppurr Tulpenstraße;48.971;8.404;2026-10-06;;;;;;;
+S Attilastr. (Berlin);52.447;13.361;2026-10-06;;;;;;;
+S Bernau Bhf;52.676;13.593;2026-10-06;;;;;;;
+S Heerstr. (Berlin);52.508;13.258;2026-10-06;;;;;;;
+S Johannisthal (Berlin);52.447;13.524;2026-10-06;;;;;;;
+S Schönefeld (bei Berlin);52.391;13.513;2026-10-06;;;;;;;
+S Schönfließ;52.665;13.341;2026-10-06;;;;;;;
+S+U Hermannstr. (Berlin);52.467;13.432;2026-10-06;;;;;;;
+S+U Wittenau (Berlin);52.596;13.335;2026-10-06;;;;;;;
+S+U Yorckstr. (Berlin);52.492;13.372;2026-10-06;;;;;;;
+S+U Yorckstr. (Großgörschenstr.) (Berlin);52.492;13.368;2026-10-06;;;;;;;
+S-Sw-Schieder, Bf/SchiederSee;51.922;9.150;2026-10-06;;;;;;;
+SZ-Bad, Bahnhof;52.050;10.372;2026-10-06;;;;;;;
+SZ-Thiede, Bahnhof;52.180;10.494;2026-10-06;;;;;;;
+Sadova;50.296;15.694;2026-10-06;272580664;Sadová;;50.295382;15.693775;station;0.026
+Salzburg Kasern;47.839;13.065;2026-10-06;6863284028;Salzburg Kasern;8101113;47.839015;13.065283;halt;0.016
+Salzburg Parsch;47.799;13.073;2026-10-06;2647493743;Salzburg Parsch;8101481;47.799194;13.073066;halt;0.001
+Sande(Kr Friesland);53.490;8.032;2026-10-06;;;;;;;
+Sandhagen (Kr LRO);54.053;11.740;2026-10-06;5260051854;Sandhagen (b Bad Doberan);8027120;54.052653;11.740363;halt;0.014
+Sarovcova Lhota;50.408;15.561;2026-10-06;306045541;Šárovcova Lhota;;50.407851;15.560800;halt;0.013
+Sauldorf;47.944;9.095;2026-10-06;8806695283;Sauldorf;;47.944482;9.094652;halt;0.012
+Schedewitz, Bahnhof;50.702;12.495;2026-10-06;264343760;Zwickau-Schedewitz;8013434;50.701842;12.494982;halt;0.005
+Schierke Bobbahn Gleis 1;51.779;10.648;2026-10-06;;;;;;;
+Schierke Brocken Gleis 1;51.800;10.618;2026-10-06;;;;;;;
+Schierke Brockenmoor Gleis 1;51.799;10.624;2026-10-06;;;;;;;
+Schierke Eckerloch Gleis 1;51.785;10.620;2026-10-06;;;;;;;
+Schierke Goetheweg Gleis 1;51.789;10.593;2026-10-06;;;;;;;
+Schierke Knaupsholz Gleis 1;51.769;10.694;2026-10-06;;;;;;;
+Schierke Schierke Gleis 1;51.765;10.678;2026-10-06;2076074987;Schierke;8059822;51.765128;10.677673;station;0.009
+Schierke Schierke Gleis 2;51.765;10.678;2026-10-06;2076074987;Schierke;8059822;51.765128;10.677673;station;0.009
+Schlattingen;47.667;8.770;2026-10-06;2475106740;Schlattingen;8503429;47.666845;8.770277;station;0.027
+Schlins-Beschling;47.195;9.691;2026-10-06;3009852418;Schlins-Beschling;8101543;47.194859;9.690610;halt;0.008
+Schnaitheim Bahnhof;48.708;10.159;2026-10-06;8081821405;Heidenheim-Schnaitheim;8029701;48.708280;10.158772;station;0.001
+Schwarzach i Vorarl.;47.446;9.754;2026-10-06;3011405305;Schwarzach in Vorarlberg;8101634;47.446072;9.754422;halt;0.007
+Schweizerthal-Diethensdorf;50.939;12.841;2026-10-06;1015563615;Schweizerthal-Diethensdorf;;50.938762;12.841317;halt;0.001
+Schwentinental-Raisdorf;54.281;10.244;2026-10-06;;;;;;;
+Schwerin Industriepark;53.575;11.432;2026-10-06;12413130728;Schwerin Industriepark;8030128;53.575122;11.431804;halt;0.025
+Schwetzingen, Nordstadt;49.395;8.571;2026-10-06;3154069192;Schwetzingen Nordstadt;;49.394555;8.571464;halt;0.000
+Schönkirchen;54.333;10.229;2026-10-06;1802756615;Schönkirchen;8007314;54.332857;10.229360;station;0.003
+Scinawa;51.410;16.421;2026-10-06;2147439177;Ścinawa;;51.409111;16.421815;station;0.069
+Sebnitz(Gr);50.981;14.279;2026-10-06;253994943;Sebnitz;8006062;50.975852;14.272140;station;0.761
+Seddin (PM), Bahnhof;52.292;12.985;2026-10-06;36681682;Seddin;8003496;52.291529;12.984511;station;0.033
+Sedlejovice;50.637;15.099;2026-10-06;1499849494;Sedlejovice;;50.636669;15.099105;halt;0.018
+Sedziszow Malopolski;50.075;21.695;2026-10-06;571569632;Sędziszów Małopolski;;50.075441;21.692860;station;0.133
+Seehausen (UM), Bahnhof;53.221;13.885;2026-10-06;2967255952;Seehausen (Uckermark);8028330;53.221100;13.884448;halt;0.011
+Seekirchen/Wallersee Stadt;47.891;13.120;2026-10-06;12430132757;Seekirchen Stadt;;47.891194;13.120068;halt;0.069
+Seelbach (b. Hamm/Sieg) Marienthal Bahnhof Kloster Marienthal;50.739;7.669;2026-10-06;;;;;;;
+Sehlem, Bf;49.908;6.823;2026-10-06;2431400670;Sehlem (Kreis Wittlich);8005510;49.907415;6.823436;halt;0.021
+Seltendorf (Bushaltestelle);50.386;11.059;2026-10-06;12956375161;Seltendorf;8016236;50.387000;11.064065;halt;0.399
+Selters (Taunus)-Niederselters Bahnhof;50.333;8.230;2026-10-06;;;;;;;
+Seminova Lhota;50.518;15.281;2026-10-06;1841489563;Semínova Lhota;;50.517972;15.280949;halt;0.005
+Sevnica;46.010;15.301;2026-10-06;5684864292;Sevnica;;46.009475;15.301171;station;0.023
+Siegershausen;47.611;9.168;2026-10-06;2507429705;Siegershausen;8506195;47.610963;9.168083;station;0.014
+Siersleben (Bergwerksbahn);51.608;11.541;2026-10-06;6103488011;Siersleben;;51.608156;11.540972;station;0.010
+Sigmaringen Hanfertal Bhf.;48.100;9.236;2026-10-06;8833454840;Sigmaringen Hanfertal;;48.099786;9.235612;station;0.004
+Sinn-Edingen Bahnhof;50.632;8.323;2026-10-06;;;;;;;
+Sinntal-Jossa Bahnhof;50.233;9.604;2026-10-06;;;;;;;
+Sinntal-Sterbfritz Bahnhof;50.313;9.626;2026-10-06;;;;;;;
+Sinzing (b Regensburg);48.991;12.038;2026-10-06;4531827403;Sinzing;;48.990798;12.037733;halt;0.006
+Skalice u Ceske Lipy;50.742;14.522;2026-10-06;264481853;Skalice u České Lípy;5456799;50.741757;14.522244;station;0.010
+Skalsko;50.432;14.755;2026-10-06;291680949;Skalsko;;50.432217;14.755307;station;0.020
+Skierniewice;51.967;20.150;2026-10-06;3455554928;Skierniewice;;51.967619;20.151435;station;0.125
+Skramous;50.443;14.664;2026-10-06;367583567;Skramouš;;50.443223;14.664501;halt;0.007
+Skrivany;50.272;15.499;2026-10-06;306036486;Skřivany;;50.271929;15.498794;halt;0.011
+Sluknov;51.006;14.462;2026-10-06;13016249686;Šluknov;5456619;51.006464;14.461594;station;0.011
+Sluknov zast.;51.007;14.436;2026-10-06;13016249685;Šluknov zastávka;5456639;51.006746;14.435430;halt;0.010
+Sluknov zastavka;51.007;14.436;2026-10-06;13016249685;Šluknov zastávka;5456639;51.006746;14.435430;halt;0.007
+Smidary;50.295;15.495;2026-10-06;306036527;Smidary;;50.295077;15.495411;station;0.022
+Smrzovka;50.740;15.244;2026-10-06;288195386;Smržovka;;50.740112;15.243588;station;0.026
+Smrzovka dolni n.;50.735;15.281;2026-10-06;340281576;Smržovka dolní nádraží;;50.734801;15.280413;halt;0.009
+Smrzovka stred;50.732;15.255;2026-10-06;340281572;Smržovka střed;;50.732023;15.254397;halt;0.038
+Smrzovka-Lucni;50.735;15.249;2026-10-06;1454265856;Smržovka-Luční;;50.735025;15.249560;halt;0.038
+Sobcice;50.375;15.519;2026-10-06;273035195;Sobčice;;50.375359;15.518682;halt;0.001
+Sobotka;50.465;15.168;2026-10-06;295685065;Sobotka;;50.465603;15.167753;station;0.019
+Solln;48.079;11.527;2026-10-06;2500732468;Solln;8004161;48.079937;11.526937;station;0.092
+Sollstedt (bei Bleicherode);51.414;10.530;2026-10-06;3074882897;Sollstedt;8016525;51.413686;10.530067;station;0.015
+Solms-Albshausen Bahnhof;50.546;8.435;2026-10-06;;;;;;;
+Solms-Burgsolms Bahnhof;50.545;8.407;2026-10-06;;;;;;;
+Sondelfingen Bahnhof;48.515;9.237;2026-10-06;25720648;Reutlingen-Sondelfingen;8029307;48.515129;9.236804;halt;0.003
+Sonneberg, Hüttengrund (Bushaltestelle);50.383;11.198;2026-10-06;;;;;;;
+Sonnenstraße, Düsseldorf;51.212;6.791;2026-10-06;752552326;Sonnenstraße;;51.212288;6.791394;tram_stop;0.010
+Sorge Sorge Gleis 1;51.693;10.697;2026-10-06;3326701923;Sorge;;51.693347;10.697537;halt;0.013
+Sottrum(Kr Rotenburg);53.101;9.250;2026-10-06;;;;;;;
+Spalov;50.634;15.301;2026-10-06;250849918;Spálov;;50.634118;15.300797;halt;0.022
+Spicak;49.162;13.222;2026-10-06;304677891;Špičák;;49.161593;13.222620;station;0.039
+Spielfeld(Gr);46.695;15.642;2026-10-06;1371548682;Spielfeld-Straß;8100082;46.709517;15.629116;station;1.918
+Spielfeld-Straß;46.710;15.629;2026-10-06;1371548682;Spielfeld-Straß;8100082;46.709517;15.629116;station;0.011
+Spöck Hochhaus;49.111;8.500;2026-10-06;3003146659;Spöck Hochhaus;;49.111486;8.500432;tram_stop;0.001
+Spöck Richard-Hecht-Schule;49.113;8.505;2026-10-06;3111317724;Richard-Hecht-Schule;;49.112525;8.504604;tram_stop;0.038
+Srni u Ceske Lipy;50.637;14.585;2026-10-06;264479318;Srní u České Lípy;5456849;50.637038;14.584607;station;0.020
+Sroda Wielkopolska;52.218;17.275;2026-10-06;253705465;Środa Wielkopolska;;52.218330;17.274195;station;0.053
+St. Anton im Montafon;47.110;9.866;2026-10-06;333221656;St. Anton im Montafon;;47.109980;9.866146;station;0.005
+St. Katharinental;47.688;8.732;2026-10-06;2475106741;St. Katharinental;8506148;47.687518;8.731960;halt;0.008
+St. Paul im Lavanttal;46.721;14.856;2026-10-06;1936849742;St. Paul im Lavanttal;8100501;46.721515;14.855854;station;0.015
+Stara Role;50.246;12.836;2026-10-06;13018268460;Stará Role;5474165;50.245697;12.835800;station;0.011
+Stargard;53.340;15.032;2026-10-06;260872674;Stargard;;53.339287;15.031170;station;0.064
+Stary Sachov;50.721;14.375;2026-10-06;264509186;Starý Šachov;5456259;50.720873;14.375377;halt;0.047
+Staré Krecany;50.948;14.492;2026-10-06;13016279965;Staré Křečany;5456519;50.947804;14.491731;halt;0.003
+Staré Krecany, Brtníky;50.952;14.439;2026-10-06;;;;;;;
+Staré Krecany, Panský;50.948;14.463;2026-10-06;;;;;;;
+Staufen (Brsg) Bahnhof;47.885;7.728;2026-10-06;4448437606;Staufen;;47.885411;7.728127;station;0.002
+Steinheim-Sandebeck, Bahnhof;51.819;8.987;2026-10-06;29282389;Steinheim-Sandebeck;8005283;51.818383;8.987042;halt;0.020
+Stettbach;47.397;8.596;2026-10-06;1239941343;Stettbach;8503147;47.397152;8.596107;station;0.008
+Stobäusplatz;49.014;12.108;2026-10-06;;;;;;;
+Stock Hafen Bahnhof, Prien a. Chiemsee;47.861;12.365;2026-10-06;2471048059;Prien-Stock;;47.860852;12.365460;halt;0.022
+Straz n.Nisou;50.789;15.025;2026-10-06;345359490;Stráž nad Nisou;;50.788560;15.025596;halt;0.018
+Straßberg Bahnhof;48.179;9.088;2026-10-06;255122288;Straßberg-Winterlingen;8029351;48.178852;9.087821;halt;0.005
+Straßberg, Haltepunkt;50.481;12.093;2026-10-06;6699163549;Plauen (Vogtl)-Straßberg;8098112;50.480112;12.092147;halt;0.068
+Struznice;50.698;14.450;2026-10-06;264508968;Stružnice;5456269;50.698289;14.449911;station;0.015
+Stubben(b Bremerhaven);53.406;8.781;2026-10-06;;;;;;;
+Sturovo;47.800;18.680;2026-10-06;1078549756;Štúrovo;5613526;47.799903;18.679110;station;0.065
+Stvolinky;50.630;14.438;2026-10-06;987482379;Stvolínky;;50.629816;14.437646;halt;0.010
+Subzin-Liessow;53.893;12.347;2026-10-06;1918692233;Subzin-Liessow;8013072;53.891930;12.347621;station;0.079
+Sudoměř u Mladé Boleslavi;50.438;14.745;2026-10-06;367583491;Sudoměř u Mladé Boleslavi;;50.438028;14.744723;halt;0.031
+Sulz-Röthis;47.294;9.635;2026-10-06;416563423;Sulz-Röthis;8101585;47.294345;9.634551;halt;0.055
+Sulzbach, Bahnhof;49.576;8.656;2026-10-06;8265471201;Weinheim-Sulzbach;;49.576410;8.655983;station;0.025
+Sulzbachtal, Bahnhof;49.523;7.664;2026-10-06;342905230;Sulzbachtal;8006019;49.522572;7.663745;halt;0.005
+Svatava;50.191;12.624;2026-10-06;10294164376;Svatava;5476465;50.190204;12.624776;station;0.061
+Svatava zastavka;50.197;12.608;2026-10-06;10294164375;Svatava zastávka;5476475;50.197436;12.607246;halt;0.056
+Svor;50.791;14.593;2026-10-06;4596175020;Svor;5456779;50.790471;14.592577;station;0.028
+Swidnik Miasto;51.224;22.695;2026-10-06;2172404564;Świdnik Miasto;;51.223800;22.694919;halt;0.029
+Swisttal Odendorf Bf;50.651;6.880;2026-10-06;2123637609;Swisttal-Odendorf;8004616;50.650948;6.880895;station;0.084
+Sychrov;50.629;15.079;2026-10-06;280987304;Sychrov;;50.629339;15.078476;station;0.031
+Syrenov;50.513;15.437;2026-10-06;306565673;Syřenov;;50.513441;15.436732;halt;0.001
+Szamotuly;52.604;16.585;2026-10-06;12091115077;Szamotuły;;52.602055;16.588259;station;0.253
+Szklarska Poreba Huta;50.827;15.497;2026-10-06;907975411;Szklarska Poręba Huta;5163718;50.826662;15.497063;halt;0.012
+Sättelstädt (Bushaltestelle);50.944;10.482;2026-10-06;623414653;Sättelstädt;8016099;50.945922;10.480321;halt;0.265
+Tamm;48.922;9.125;2026-10-06;2923615645;Tamm (Württemberg);8029015;48.921673;9.125733;station;0.040
+Tample;50.546;15.465;2026-10-06;306080472;Tample;;50.546369;15.465174;halt;0.033
+Tannwald;48.868;9.632;2026-10-06;299276328;Welzheim-Tannwald;;48.867657;9.632290;halt;0.005
+Tanvald;50.743;15.311;2026-10-06;5688646199;Tanvald;;50.743466;15.311032;station;0.023
+Tanvald zast.;50.737;15.305;2026-10-06;244842088;Tanvald zastávka;5403091;50.737015;15.305261;halt;0.009
+Tanvaldsky Spicak;50.761;15.268;2026-10-06;340280164;Tanvaldský Špičák;;50.760963;15.267550;halt;0.006
+Teschow (b Neubukow);53.994;11.638;2026-10-06;5260051856;Teschow;8027118;53.994196;11.637649;halt;0.009
+Thionville;49.333;6.152;2026-10-06;;;;;;;
+Thondorf (Siersleben), Schenkplatz (virt.);51.599;11.530;2026-10-06;566443659;Thondorf;;51.597599;11.533778;halt;0.297
+Tisice;50.268;14.557;2026-10-06;30579003;Tišice;;50.267468;14.556655;halt;0.048
+Tocnik;49.429;13.309;2026-10-06;307400251;Točník;;49.429440;13.309356;halt;0.019
+Trebovetice;50.327;15.704;2026-10-06;272632808;Třebovětice;;50.327336;15.703762;halt;0.000
+Triboltingen;47.663;9.109;2026-10-06;2486375615;Triboltingen;8506118;47.662933;9.108878;halt;0.010
+Trier-Euren;49.738;6.612;2026-10-06;11816904219;Trier-Euren;;49.738069;6.612271;halt;0.014
+Trier-Pallien;49.764;6.630;2026-10-06;5096600089;Trier-Pallien;;49.763913;6.629860;halt;0.008
+Trier-West, Westbahnhof;49.752;6.624;2026-10-06;5096600087;Trier West;;49.751398;6.623585;station;0.088
+Trier-Zewen;49.720;6.581;2026-10-06;5096600085;Trier-Zewen;;49.720045;6.580967;halt;0.007
+Trnovany u Litomeric;50.543;14.176;2026-10-06;477231267;Trnovany u Litoměřic;;50.543518;14.176555;halt;0.041
+Trnová;50.445;14.718;2026-10-06;318450658;Trnová;;50.444649;14.718719;halt;0.030
+Troisdorf Spich Bf;50.827;7.115;2026-10-06;;;;;;;
+Trutnov-Volanov;50.561;15.888;2026-10-06;1735754032;Trutnov-Volanov;;50.560954;15.887581;halt;0.001
+Turnov mesto;50.580;15.152;2026-10-06;414208861;Turnov město;;50.579543;15.152022;halt;0.006
+Tägerwilen Dorf;47.654;9.140;2026-10-06;2486660801;Tägerwilen Dorf;8506198;47.653532;9.139474;station;0.022
+Tägerwilen-Gottlieben;47.660;9.133;2026-10-06;2486660802;Tägerwilen-Gottlieben;8506132;47.659593;9.132928;station;0.005
+Töppeln (Bushaltestelle);50.890;12.007;2026-10-06;3059744036;Töppeln;8016412;50.890853;12.006101;halt;0.122
+Uhyst (Spree) Bahnhof;51.363;14.509;2026-10-06;269300990;Uhyst / Delni Wujězd;;51.362858;14.508910;halt;0.015
+Unterschwaningen;49.072;10.632;2026-10-06;5133061695;Unterschwaningen;;49.071682;10.631758;halt;0.018
+Unterwurmbach;49.106;10.731;2026-10-06;1224447264;Unterwurmbach;8006025;49.106202;10.731383;halt;0.042
+Urbach;48.805;9.574;2026-10-06;4966834367;Urbach (b. Schorndorf);8029536;48.805030;9.573655;halt;0.044
+Uslar-Offensen;51.589;9.680;2026-10-06;;;;;;;
+Ustek;50.585;14.335;2026-10-06;7932068712;Úštěk;;50.585406;14.334924;station;0.010
+Usti u Stare Paky;50.516;15.458;2026-10-06;306565715;Ústí u Staré Paky;;50.516135;15.457567;halt;0.004
+VS-Zollhaus;48.041;8.506;2026-10-06;7441756038;VS-Zollhaus;8080306;48.041066;8.505958;halt;0.012
+Vachdorf (Bushaltestelle);50.526;10.536;2026-10-06;13513641576;Vachdorf;8016217;50.529442;10.538540;halt;0.446
+Valdek;50.981;14.507;2026-10-06;13016279962;Valdek;5456649;50.981234;14.507039;halt;0.006
+Varnsdorf Pivovar Kocour;50.919;14.604;2026-10-06;12844977333;Varnsdorf–pivovar Kocour;5454532;50.918572;14.604265;halt;0.006
+Varnsdorf stare nadrazi;50.910;14.612;2026-10-06;2610941049;Varnsdorf staré nádraží;5456709;50.909622;14.612595;station;0.046
+Varnsdorf, stare nadrazi;50.910;14.613;2026-10-06;2610941049;Varnsdorf staré nádraží;5456709;50.909622;14.612595;station;0.013
+Vatterode (Mansfeld), Dorfstr. (virt.);51.599;11.432;2026-10-06;12956418102;Vatterode;;51.597585;11.429196;halt;0.247
+Vatterode Wippergrund (Parkeisenbahn);51.601;11.427;2026-10-06;12956418102;Vatterode;;51.597585;11.429196;halt;0.431
+Vejprty koupaliste;50.483;13.034;2026-10-06;12857426637;Vejprty koupaliště;5453959;50.483319;13.033820;halt;0.022
+Vejprty zastavka;50.466;13.023;2026-10-06;12857426638;Vejprty zastávka;5453969;50.466458;13.022281;halt;0.030
+Velke Hamry;50.712;15.314;2026-10-06;26024341;Velké Hamry;;50.711458;15.313784;station;0.024
+Velke Hamry mesto;50.720;15.313;2026-10-06;1406403530;Velké Hamry město;;50.719607;15.313490;halt;0.006
+Velke Zernoseky;50.526;14.081;2026-10-06;5685829861;Velké Žernoseky;5453129;50.526202;14.080446;station;0.014
+Velky Borek;50.347;14.516;2026-10-06;786619991;Velký Borek;;50.346706;14.515612;halt;0.005
+Velky Grunov;50.699;14.728;2026-10-06;280900426;Velký Grunov;5457189;50.698447;14.728324;halt;0.024
+Velky Senov;50.993;14.380;2026-10-06;13016249683;Velký Šenov;5456589;50.993192;14.379671;station;0.056
+Velky Senov zast.;51.005;14.394;2026-10-06;13016249684;Velký Šenov zastávka;5456609;51.004719;14.394007;halt;0.008
+Velky Senov zastavka;51.005;14.394;2026-10-06;13016249684;Velký Šenov zastávka;5456609;51.004719;14.394007;halt;0.007
+Velky Valtinov;50.743;14.734;2026-10-06;280900409;Velký Valtinov;5457229;50.742565;14.733307;halt;0.018
+Velký Borek, Melnicka Vrutice;50.344;14.547;2026-10-06;;;;;;;
+Vesec u Liberce;50.743;15.081;2026-10-06;3995579063;Vesec u Liberce;;50.743540;15.080782;station;0.035
+Vesele pod Rabstejnem;50.794;14.363;2026-10-06;2525183898;Veselé pod Rabštejnem;5456319;50.794422;14.362867;halt;0.002
+Vichova n.Jizerou;50.627;15.484;2026-10-06;566197119;Víchová nad Jizerou;;50.627152;15.484132;halt;0.004
+Viersen Boisheim Bf;51.276;6.272;2026-10-06;;;;;;;
+Vilemov u Sluknova;50.992;14.321;2026-10-06;13016249680;Vilémov u Šluknova;5456579;50.992356;14.321010;halt;0.020
+Villmar-Aumenau Bahnhof;50.400;8.250;2026-10-06;;;;;;;
+Vils Stadt;47.550;10.632;2026-10-06;4332253181;Vils Stadt;8100116;47.549653;10.631946;halt;0.029
+Vise(fr);50.759;5.703;2026-10-06;;;;;;;
+Visnova;50.973;15.029;2026-10-06;249073484;Višňová;;50.973291;15.028598;station;0.007
+Vitineves;50.399;15.381;2026-10-06;273049795;Vitiněves;;50.399307;15.380720;halt;0.001
+Vlci Dul-Dobranov;50.672;14.608;2026-10-06;306513532;Vlčí Důl-Dobranov;5457159;50.671150;14.607303;halt;0.073
+Vlcice;50.547;15.835;2026-10-06;243779351;Vlčice;;50.546632;15.834193;halt;0.024
+Voerde Am Industriepark;51.622;6.652;2026-10-06;;;;;;;
+Voerde Bahnhof;51.597;6.689;2026-10-06;1047743116;Voerde (Niederrhein);8006098;51.597019;6.689678;halt;0.048
+Vohburg-Rockolding;48.739;11.609;2026-10-06;9983594679;Vohburg-Rockolding;;48.739324;11.608283;station;0.048
+Vojice;50.384;15.498;2026-10-06;273036551;Vojice;;50.384434;15.497949;halt;0.001
+Vojtanov obec;50.163;12.313;2026-10-06;33153063;Vojtanov obec;5473095;50.162496;12.313144;halt;0.023
+Vratislavice n.Nisou;50.740;15.094;2026-10-06;280987509;Vratislavice nad Nisou;;50.740133;15.093496;halt;0.016
+Vrchlabi, Podhuri Bf;50.601;15.625;2026-10-06;;;;;;;
+Vrátno;50.443;14.687;2026-10-06;367583509;Vrátno;;50.443146;14.686908;halt;0.043
+Vsestary;50.252;15.764;2026-10-06;272507010;Všestary;;50.252617;15.764615;station;0.024
+Vysluni;50.481;13.211;2026-10-06;12857426651;Výsluní;5453879;50.481017;13.211152;halt;0.002
+Vysoka Pec;50.342;12.712;2026-10-06;13018199391;Vysoká Pec;5474225;50.341637;12.712336;halt;0.040
+Wackershofen Bahnhof (Freilandmuseum);49.137;9.697;2026-10-06;1166325564;Wackershofen Freilandmuseum;8063534;49.137271;9.696990;halt;0.026
+Waldhof, Bahnhof;49.526;8.482;2026-10-06;659491374;Waldhof Bahnhof;;49.524866;8.482035;tram_stop;0.108
+Waldkirch (Brsg) Bahnhof;48.096;7.957;2026-10-06;799193164;Waldkirch;8014338;48.095699;7.957260;station;0.004
+Wangen Bahnhof;47.689;9.831;2026-10-06;6695488246;Wangen(Allgäu);8029207;47.689175;9.830586;station;0.001
+Warnitz, Bahnhof;53.184;13.877;2026-10-06;2967255953;Warnitz (Uckermark);8028329;53.183452;13.877171;halt;0.054
+Wartenberg-Angersbach Bahnhof;50.631;9.447;2026-10-06;;;;;;;
+Wehdel(Schiffdorf);53.512;8.807;2026-10-06;;;;;;;
+Wehr, Bahnhof;49.586;6.377;2026-10-06;5070454376;Wehr (Mosel);;49.586347;6.376857;halt;0.000
+Wehrheim Saalburg/Lochmühle Bahnhof;50.283;8.587;2026-10-06;;;;;;;
+Weilerswist Derkum Bf;50.705;6.817;2026-10-06;3027980569;Weilerswist-Derkum;8001416;50.706961;6.816832;station;0.223
+Weinbach-Fürfurt Bahnhof;50.431;8.253;2026-10-06;;;;;;;
+Weinbach-Gräveneck Bahnhof;50.452;8.251;2026-10-06;;;;;;;
+Weißwasser - Ost;51.517;14.658;2026-10-06;804890504;Weißwasser - Ost;;51.516903;14.657837;station;0.009
+Weißwasser Teichstraße;51.510;14.646;2026-10-06;804890505;Weißwasser Museumsbahnhof Anlage Mitte;;51.512429;14.647746;station;0.276
+Welzheim Busbahnhof;48.874;9.631;2026-10-06;286529675;Welzheim;;48.873561;9.630363;station;0.062
+Welzheim Laufenmühle;48.882;9.606;2026-10-06;;;;;;;
+Wendling b.Haag;48.247;13.650;2026-10-06;2425645167;Wendling bei Haag;8101785;48.246526;13.650297;halt;0.019
+Wennigsen Bahnhof;52.279;9.572;2026-10-06;48172337;Wennigsen (Deister);8006336;52.279466;9.572572;station;0.025
+Werbig (MOL), Bahnhof;52.565;14.405;2026-10-06;6189996203;Werbig;8003211;52.564881;14.405038;station;0.023
+Werne, Bahnhof;51.669;7.623;2026-10-06;325107873;Werne a d Lippe;8006348;51.669750;7.622899;station;0.067
+Wesenberg, Weißer See;53.281;12.959;2026-10-06;;;;;;;
+Westbevern-Vadrup, Bahnhof;52.030;7.743;2026-10-06;;;;;;;
+Westerhorn, Dauenhof;53.852;9.681;2026-10-06;;;;;;;
+Weststeiermark;46.814;15.297;2026-10-06;2700256059;Weststeiermark;8101345;46.813808;15.296887;station;0.015
+Westtünnen, Bahnhof;51.650;7.859;2026-10-06;11897258068;Hamm-Westtünnen;;51.650438;7.858840;halt;0.021
+Wetter, Wetter Bf.;51.386;7.386;2026-10-06;1410447176;Wetter (Ruhr);8006386;51.386379;7.385931;halt;0.039
+Wiesa, Bahnhof;50.611;13.024;2026-10-06;359667071;Wiesa;;50.610549;13.023464;halt;0.019
+Wilnsdorf-Rudersdorf Bf;50.839;8.144;2026-10-06;2060026899;Wilnsdorf-Rudersdorf;8005205;50.839202;8.144047;station;0.022
+Windeck Herchen Bf;50.771;7.521;2026-10-06;;;;;;;
+Windeck Rosbach Bf;50.797;7.609;2026-10-06;;;;;;;
+Windeck Schladern Bf;50.807;7.592;2026-10-06;;;;;;;
+Wissen Bahnhof;50.783;7.740;2026-10-06;4084081648;Wissen (Sieg);8006501;50.783065;7.739067;station;0.055
+Wolfhagen-Altenhasungen Bahnhof;51.344;9.226;2026-10-06;3985235797;Altenhasungen;8000530;51.343604;9.225886;halt;0.010
+Wolfsburg, Fallersleben Bahnhof;52.424;10.717;2026-10-06;;;;;;;
+Wolfurt;47.457;9.741;2026-10-06;281519668;Wolfurt;8100389;47.457086;9.741120;station;0.016
+Wolow;51.333;16.634;2026-10-06;2562003930;Wołów;;51.333927;16.632884;station;0.118
+Wronki;52.705;16.386;2026-10-06;363576641;Wronki;;52.705034;16.386189;station;0.008
+Wölfersheim-Melbach Bahnhof;50.379;8.812;2026-10-06;;;;;;;
+Würselen-Merzbrück;50.824;6.193;2026-10-06;12213652138;Forschungsflugplatz Würselen-Merzbrück;;50.823859;6.192700;halt;0.000
+Wüstenfelde b Grimmen Bahnhof;54.230;13.143;2026-10-06;5273777899;Wüstenfelde;8028704;54.230053;13.139663;halt;0.190
+Zachrastany;50.214;15.490;2026-10-06;306033891;Zachrašťany;;50.214462;15.489809;halt;0.008
+Zahradky u Ceske Lipy;50.637;14.506;2026-10-06;280709741;Zahrádky u České Lípy;;50.637294;14.506201;halt;0.023
+Zahrady u Rumburka;50.934;14.483;2026-10-06;13016266019;Zahrady u Rumburka;5456679;50.933963;14.482316;halt;0.025
+Zakupy;50.682;14.636;2026-10-06;280900285;Zákupy-Božíkov;5457139;50.678722;14.649861;halt;1.049
+Zakupy-Bozikov;50.679;14.650;2026-10-06;280900285;Zákupy-Božíkov;5457139;50.678722;14.649861;halt;0.015
+Zandov;50.712;14.390;2026-10-06;264509235;Žandov;5456339;50.712096;14.389693;halt;0.006
+Zapresic;45.844;15.813;2026-10-06;10881907782;Zaprešić;;45.844403;15.813168;station;0.010
+Zbaszyn;52.260;15.895;2026-10-06;3250134366;Zbąszyń;5104258;52.259412;15.894765;station;0.017
+Zdetin u Chotetova;50.315;14.786;2026-10-06;3275315963;Zdětín u Chotětova;;50.315444;14.786103;halt;0.017
+Zdislava;50.770;14.877;2026-10-06;280900343;Zdislava;5455212;50.770127;14.876710;halt;0.020
+Zdunska Wola;51.611;18.947;2026-10-06;8736125255;Zduńska Wola;;51.611363;18.947208;station;0.045
+Zelena Lhota;49.249;13.179;2026-10-06;49911634;Zelená Lhota;;49.249270;13.178929;station;0.006
+Zelezna Ruda centrum;49.136;13.237;2026-10-06;304677946;Železná Ruda centrum;;49.136358;13.236908;halt;0.027
+Zeleznice;50.462;15.376;2026-10-06;3670056810;Železnice;;50.462290;15.375890;halt;0.016
+Zell;48.724;9.360;2026-10-06;2516586345;Esslingen-Zell;8029057;48.724460;9.359399;halt;0.027
+Zell i.W. Bahnhof;47.705;7.849;2026-10-06;;;;;;;
+Zeutsch (Bushaltestelle);50.753;11.504;2026-10-06;1832202004;Zeutsch;8016325;50.754835;11.508200;halt;0.368
+Zierenberg-Oberelsungen Bahnhof;51.377;9.252;2026-10-06;301458087;Oberelsungen;8004526;51.376714;9.251759;halt;0.014
+Zimmern, Bahnhof;49.595;9.791;2026-10-06;2856802339;Zimmern (Main-Tauber);8029758;49.595308;9.790697;halt;0.002
+Zirkelschacht;51.583;11.526;2026-10-06;3901345079;Zirkelschacht;;51.582800;11.526152;station;0.007
+Zirovice-Seniky;50.148;12.336;2026-10-06;13016020276;Žírovice-Seníky;5474015;50.148126;12.335506;halt;0.019
+Zivonin;50.394;14.613;2026-10-06;291680836;Živonín;;50.394230;14.613120;halt;0.025
+Zizenhausen;47.880;8.999;2026-10-06;12915148728;Zizenhausen;;47.879403;8.998992;halt;0.032
+Zlonin;50.215;14.507;2026-10-06;24579463;Zlonín;;50.214862;14.507508;halt;0.022
+Zmigrod;51.475;16.902;2026-10-06;660810005;Żmigród;5104359;51.475332;16.901875;station;0.073
+Zug(CH);47.174;8.515;2026-10-06;;;;;;;
+Zugspitzplatt;47.414;10.980;2026-10-06;8915507446;Zugspitzplatt;;47.413746;10.980627;station;0.035
+Zyrardow;52.052;20.448;2026-10-06;3455528913;Żyrardów;;52.052463;20.448980;station;0.058
+Ötlingen;48.658;9.416;2026-10-06;133462173;Kirchheim (Teck)-Ötlingen;8029286;48.657793;9.416332;station;0.006
+Žireč;50.403;15.848;2026-10-06;2736188097;Žireč;;50.403306;15.847960;halt;0.002

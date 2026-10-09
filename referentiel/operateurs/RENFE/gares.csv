@@ -1,0 +1,1007 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN7101003;gare;Arahal;Arahal;Arahal;7101003;;37.268218;-5.548463;ES;Europe/Madrid;Q62717;MD;;nom;8048235459;Q5845696;;;01003;Arahal
+TN7101005;gare;Marchena;Marchena;Marchena;7101005;;37.334342;-5.425496;ES;Europe/Madrid;Q929481;MD;;nom;8048235405;Q5846678;;;01005;Marchena
+TN7101007;gare;Osuna;Osuna;Osuna;7101007;;37.233705;-5.114968;ES;Europe/Madrid;Q586018;MD;;nom;8048215384;Q8841380;;;01007;Osuna
+TN7101009;gare;Pedrera;Pedrera;Pedrera;7101009;;37.222265;-4.893637;ES;Europe/Madrid;Q1628338;MD;;nom;8048215376;Q5846904;;;01009;Pedrera
+TN7102002;gare;Puente Genil-Herrera;Puente Genil-Herrera;Puente Genil-Herrera;7102002;;37.358924;-4.822228;ES;Europe/Madrid;Q589053;AVANT|AVE|AVLO;;nom;7571619026;Q4886621;;;02002;Puente Genil-Herrera
+TN7102003;gare;Antequera-Santa Ana;Antequera-Santa Ana;Antequera-Santa Ana;7102003;;37.070168;-4.719708;ES;Europe/Madrid;Q572041;ALVIA|AVANT|AVE|AVLO|MD;;nom;7557413126;Q3325592;;;02003;Antequera-Santa Ana
+TN7102030;gare;Antequera AV;Antequera Alta Velocidad;Antequera Alta Velocidad;7102030;;37.029483;-4.561372;ES;Europe/Madrid;Q572041;ALVIA|AVANT|AVE|MD;;uic;11135074555;Q2918304;;;02030;Antequera AV
+TN7103001;gare;Mengíbar-Artichuela;Mengíbar-Artichuela;Mengíbar-Artichuela;7103001;;37.977882;-3.80155;ES;Europe/Madrid;Q1645553;MD;;nom;4668682266;Q6433201;;;03001;Mengíbar-Artichuela
+TN7103100;gare;Jaén;Jaén;Jaén;7103100;;37.779978;-3.790789;ES;Europe/Madrid;Q15681;MD;;nom;7752561504;;;;03100;Jaén
+TN7103208;gare;Cuenca-Fernando Zóbel;Cuenca-Fernando Zóbel;Cuenca-Fernando Zóbel;7103208;;40.033965;-2.143689;ES;Europe/Madrid;Q15098;ALVIA|AVANT|AVE|AVLO;;uic;10592347455;Q3817337;;;03208;Cuenca-Fernando Zóbel
+TN7103213;gare;Requena - Utiel;Requena - Utiel;Requena - Utiel;7103213;;39.521753;-1.134727;ES;Europe/Madrid;Q302099;AVANT|AVE|AVLO;;uic;1064038509;Q8841592;;;03213;Requena-Utiel
+TN7103216;gare;València Joaquín Sorolla;València Joaquín Sorolla;València Joaquín Sorolla;7103216;;39.460047;-0.381208;ES;Europe/Madrid;Q8818;AVANT|AVE|AVLO;;uic;7246471727;Q801550;;;03216;València-Joaquín Sorolla
+TN7103309;gare;Villena Alta Velocidad;Villena Alta Velocidad;Villena Alta Velocidad;7103309;;38.584315;-0.873887;ES;Europe/Madrid;Q502249;ALVIA|AVE|AVLO;;uic;4365035714;Q14623481;;;03309;Villena Alta Velocidad
+TN7103410;gare;Elche / Elx AV;Elche / Elx AV;Elche / Elx AV;7103410;;38.245382;-0.766756;ES;Europe/Madrid;Q10509;AVANT|AVE|AVLO;;nom;way/473732487;Q3394796;;;03410;Elche/Elx AV
+TN7103412;gare;Callosa de Segura-Cox;Callosa de Segura-Cox;Callosa de Segura-Cox;7103412;;38.122771;-0.874573;ES;Europe/Madrid;Q1750915;AVANT;;gtfs;;;;;03412;Callosa de Segura-Cox
+TN7104007;gare;Guadalajara - Yebes;Guadalajara - Yebes;Guadalajara - Yebes;7104007;;40.586368;-3.126434;ES;Europe/Madrid;Q1751978;ALVIA|AVE|AVE INT;;uic;26382278;Q3322272;;;04007;Guadalajara-Yebes
+TN7104040;gare;Zaragoza-Delicias;Zaragoza-Delicias;Zaragoza-Delicias;7104040;;41.658573;-0.911388;ES;Europe/Madrid;Q10305;ALVIA|AVANT|AVE|AVE INT|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;4813092198;Q801660;;;04040;Zaragoza Delicias
+TN7104104;gare;Camp de Tarragona;Camp de Tarragona;Camp de Tarragona;7104104;;41.192173;1.273568;ES;Europe/Madrid;Q1230093;ALVIA|AVANT|AVANT EXP|AVE|AVE INT|EUROMED|INTERCITY;;nom;2713026494;Q3096129;;;04104;Camp de Tarragona
+TN7104307;gare;Figueres Vilafant;Figueres Vilafant;Figueres Vilafant;7104307;;42.264695;2.942684;ES;Europe/Madrid;Q12153;AVANT|AVE|AVE INT|EUROMED;;uic;1914054304;Q2783545;;;04307;Figueres-Vilafant
+TN7105000;gare;Granada;Granada;Granada;7105000;;37.183694;-3.608628;ES;Europe/Madrid;Q8810;ALVIA|AVANT|AVE|MD;;nom;7201979115;;;;05000;Granada
+TN7105012;gare;Loja;Loja;Loja;7105012;;37.175106;-4.135667;ES;Europe/Madrid;Q332989;AVANT|AVE;;uic;13651827338;Q64784320;;;05012;Loja
+TN7105102;gare;San Xoán;San Xoán;San Xoán;7105102;;43.494508;-8.214203;ES;Europe/Madrid;Q485329;REGIONAL;;nom;14247712608;;;;05102;San Xoán
+TN7105103;gare;Santa Icía;Santa Icía;Santa Icía;7105103;;43.499799;-8.199909;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;14247440613;;;;05103;Santa Icía
+TN7105104;gare;Virxe do Mar;Virxe do Mar;Virxe do Mar;7105104;;43.496521;-8.204903;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;14245149534;;;;05104;Virxe Do Mar
+TN7105105;gare;Piñeiros;Piñeiros;Piñeiros;7105105;;43.50953;-8.183901;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;14247644280;;;;05105;Piñeiros
+TN7105106;gare;O Ponto;O Ponto;O Ponto;7105106;;43.514761;-8.177758;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;14247495084;Q17631321;;;05106;O Ponto
+TN7105107;gare;Xuvia;Xuvia;Xuvia;7105107;;43.517232;-8.161285;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;2059973150;Q17631481;;;05107;Xuvia
+TN7105108;gare;O Alto Do Castiñeiro;O Alto Do Castiñeiro;O Alto Do Castiñeiro;7105108;;43.503179;-8.195548;ES;Europe/Madrid;Q1368896;REGIONAL;;gtfs;;;;;05108;O Alto Do Castiñeiro
+TN7105109;gare;Ferrerías;As Ferrerías;As Ferrerías;7105109;;43.527941;-8.150431;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;14247642295;;;;05109;Ferrerías
+TN7105111;gare;Sedes;Sedes;Sedes;7105111;;43.542634;-8.1402;ES;Europe/Madrid;Q1368896;REGIONAL;;nom;357542461;Q17631417;;;05111;Sedes
+TN7105113;gare;Pedroso de Narón;Pedroso de Narón;Pedroso de Narón;7105113;;43.536707;-8.109193;ES;Europe/Madrid;Q1368896;REGIONAL;;gtfs;;;;;05113;Pedroso de Narón
+TN7105115;gare;San Sadurniño;San Sadurniño;San Sadurniño;7105115;;43.546113;-8.078067;ES;Europe/Madrid;Q1442511;REGIONAL;;nom;357554430;Q17631392;;;05115;San Sadurniño
+TN7105117;gare;Lamas;Lamas;Lamas;7105117;;43.547306;-8.049017;ES;Europe/Madrid;Q1442511;REGIONAL;;gtfs;;;;;05117;Lamas
+TN7105119;gare;A Palla;A Palla;A Palla;7105119;;43.550453;-8.018711;ES;Europe/Madrid;Q1442682;REGIONAL;;nom;1625258031;Q17993375;;;05119;Apalla
+TN7105121;gare;Moeche;Moeche;Moeche;7105121;;43.562132;-8.002757;ES;Europe/Madrid;Q1442682;REGIONAL;;gtfs;;;;;05121;Moeche
+TN7105123;gare;Labacengos;Labacengos;Labacengos;7105123;;43.565271;-7.980188;ES;Europe/Madrid;Q1442682;REGIONAL;;gtfs;;;;;05123;Labacengos
+TN7105125;gare;Entrambarrías;Entrambarrías;Entrambarrías;7105125;;43.577063;-7.954264;ES;Europe/Madrid;Q1442682;REGIONAL;;gtfs;;;;;05125;Entrambarrías
+TN7105127;gare;Cerdido;Cerdido;Cerdido;7105127;;43.587171;-7.934622;ES;Europe/Madrid;Q1442682;REGIONAL;;nom;way/271684182;Q17631190;;;05127;Cerdido
+TN7105129;gare;A Cuqueira;A Cuqueira;A Cuqueira;7105129;;43.607829;-7.921939;ES;Europe/Madrid;Q678870;REGIONAL;;gtfs;;;;;05129;A Cuqueira
+TN7105131;gare;Santa María de Mera;Santa María de Mera;Santa María de Mera;7105131;;43.640957;-7.916177;ES;Europe/Madrid;Q1375842;REGIONAL;;nom;way/328337768;Q17631406;;;05131;Santa María de Mera
+TN7105133;gare;Ponte Mera;Ponte Mera;Ponte Mera;7105133;;43.666038;-7.902621;ES;Europe/Madrid;Q1375842;REGIONAL;;gtfs;;;;;05133;Ponte Mera
+TN7105135;gare;San Clodio;San Clodio;San Clodio;7105135;;43.660944;-7.873478;ES;Europe/Madrid;Q1375842;REGIONAL;;gtfs;;;;;05135;San Clodio
+TN7105137;gare;Senra;Senra;Senra;7105137;;43.668793;-7.854553;ES;Europe/Madrid;Q1375842;REGIONAL;;gtfs;;;;;05137;Senra
+TN7105139;gare;Ortigueira;Ortigueira;Ortigueira;7105139;;43.686253;-7.849518;ES;Europe/Madrid;Q1375842;REGIONAL;;nom;way/265139620;Q17631329;;;05139;Ortigueira
+TN7105141;gare;Espasante;Espasante;Espasante;7105141;;43.70888;-7.804897;ES;Europe/Madrid;Q1375842;REGIONAL;;gtfs;;;;;05141;Espasante
+TN7105143;gare;Loiba;Loiba;Loiba;7105143;;43.730393;-7.750044;ES;Europe/Madrid;Q1375842;REGIONAL;;gtfs;;;;;05143;Loiba
+TN7105145;gare;O Barqueiro;O Barqueiro;O Barqueiro;7105145;;43.735649;-7.70288;ES;Europe/Madrid;Q613832;REGIONAL;;gtfs;;;;;05145;O Barqueiro
+TN7105147;gare;O Vicedo;O Vicedo;O Vicedo;7105147;;43.731026;-7.673215;ES;Europe/Madrid;Q944524;REGIONAL;;gtfs;;;;;05147;O Vicedo
+TN7105149;gare;Mosende;Mosende;Mosende;7105149;;43.706091;-7.636181;ES;Europe/Madrid;Q944524;REGIONAL;;nom;14141557286;Q17631297;;;05149;Mosende
+TN7105151;gare;Folgueiro;O Folgueiro;O Folgueiro;7105151;;43.692791;-7.635028;ES;Europe/Madrid;Q944524;REGIONAL;;nom;14139662427;;;;05151;Folgueiro
+TN7105153;gare;Covas de Viveiro;Covas;Covas;7105153;;43.670261;-7.614583;ES;Europe/Madrid;Q641221;REGIONAL;;nom;way/206909498;Q17631192;;;05153;Covas de Viveiro
+TN7105155;gare;Viveiro;Viveiro-Apeadoiro;Viveiro-Apeadoiro;7105155;;43.663058;-7.592115;ES;Europe/Madrid;Q641221;REGIONAL;;nom;1625248341;Q17631468;;;05155;Viveiro
+TN7105156;gare;Viveiro Apeadero;Viveiro;Viveiro;7105156;;43.65689;-7.600189;ES;Europe/Madrid;Q641221;REGIONAL;;nom;way/189867818;Q17631464;;;05156;Viveiro Apeadero
+TN7105157;gare;Xuances;Xuances;Xuances;7105157;;43.688099;-7.553863;ES;Europe/Madrid;Q1111013;REGIONAL;;nom;1625248357;Q17631477;;;05157;Xuances
+TN7105159;gare;Xove-Pobo;Xove-Pobo;Xove-Pobo;7105159;;43.683514;-7.51095;ES;Europe/Madrid;Q1111013;REGIONAL;;nom;14247461814;;;;05159;Xove Pobo
+TN7105161;gare;Xove;Xove;Xove;7105161;;43.681138;-7.495251;ES;Europe/Madrid;Q1111013;REGIONAL;;gtfs;;;;;05161;Xove
+TN7105163;gare;Lago;Lago;Lago;7105163;;43.687108;-7.481942;ES;Europe/Madrid;Q1111013;REGIONAL;;gtfs;;;;;05163;Lago
+TN7105165;gare;Bidueiros;Bidueiros;Bidueiros;7105165;;43.696712;-7.468843;ES;Europe/Madrid;Q1616622;REGIONAL;;gtfs;;;;;05165;Bidueiros
+TN7105167;gare;San Cibrao;San Cibrao;San Cibrao;7105167;;43.692201;-7.441813;ES;Europe/Madrid;Q1616622;REGIONAL;;nom;14246908539;;;;05167;San Cibrao
+TN7105169;gare;Madeiro;O Madeiro;O Madeiro;7105169;;43.686216;-7.412682;ES;Europe/Madrid;Q1616622;REGIONAL;;nom;14246913991;;;;05169;Madeiro
+TN7105171;gare;Burela;Burela;Burela;7105171;;43.660607;-7.361183;ES;Europe/Madrid;Q1619456;REGIONAL;;gtfs;;;;;05171;Burela
+TN7105173;gare;Cangas de Foz;Cangas de Foz;Cangas de Foz;7105173;;43.626045;-7.333306;ES;Europe/Madrid;Q917878;REGIONAL;;nom;14246966301;;;;05173;Cangas de Foz
+TN7105175;gare;Nois;Nois;Nois;7105175;;43.610309;-7.312256;ES;Europe/Madrid;Q917878;REGIONAL;;nom;14246972155;;;;05175;Nois
+TN7105177;gare;Fazouro;Fazouro;Fazouro;7105177;;43.600936;-7.299849;ES;Europe/Madrid;Q917878;REGIONAL;;nom;14250024245;;;;05177;Fazouro
+TN7105179;gare;Marzán;Marzán;Marzán;7105179;;43.574784;-7.269458;ES;Europe/Madrid;Q917878;REGIONAL;;nom;way/497255562;Q17631284;;;05179;Marzán
+TN7105181;gare;Foz;Foz;Foz;7105181;;43.560924;-7.272184;ES;Europe/Madrid;Q917878;REGIONAL;;nom;14246887155;Q17631237;;;05181;Foz
+TN7105183;gare;Barreiros;Barreiros;Barreiros;7105183;;43.547417;-7.225309;ES;Europe/Madrid;Q1634820;REGIONAL;;uic;13731865774;Q17631159;;;05183;Barreiros
+TN7105185;gare;Reinante;Reinante;Reinante;7105185;;43.549839;-7.174367;ES;Europe/Madrid;Q1634820;REGIONAL;;nom;14218609601;;;;05185;Reinante
+TN7105187;gare;Esteiro;Esteiro;Esteiro;7105187;;43.551697;-7.146099;ES;Europe/Madrid;Q824076;REGIONAL;;gtfs;;;;;05187;Esteiro
+TN7105189;gare;Os Castros;Os Castros;Os Castros;7105189;;43.551544;-7.130872;ES;Europe/Madrid;Q824076;REGIONAL;;nom;14219125966;;;;05189;Os Castros
+TN7105191;gare;Rinlo;Rinlo;Rinlo;7105191;;43.549761;-7.108645;ES;Europe/Madrid;Q824076;REGIONAL;;gtfs;;;;;05191;Rinlo
+TN7105193;gare;Ribadeo;Ribadeo;Ribadeo;7105193;;43.53607;-7.055572;ES;Europe/Madrid;Q824076;REGIONAL;;gtfs;;;;;05193;Ribadeo
+TN7105197;gare;Vegadeo-Pueblo;Vegadeo-Pueblo;Vegadeo-Pueblo;7105197;;43.473006;-7.050523;ES;Europe/Madrid;Q826607;REGIONAL;;nom;14210485373;;;;05197;Vegadeo Pueblo
+TN7105199;gare;Vilavedelle;Vilavedelle;Vilavedelle;7105199;;43.490502;-7.038353;ES;Europe/Madrid;Q826607;REGIONAL;;gtfs;;;;;05199;Vilavedelle
+TN7105239;gare;Santianes;Santianes;Santianes;7105239;;43.503753;-6.091797;ES;Europe/Madrid;Q820469;REGIONAL;;nom;14106243671;Q17631413;;;05239;Santianes
+TN7105241;gare;Los Cabos;Los Cabos;Los Cabos;7105241;;43.512363;-6.0974;ES;Europe/Madrid;Q820469;REGIONAL;;nom;14168468677;Q17631270;;;05241;Los Cabos
+TN7105243;gare;Muros del Nalón;Muros del Nalón;Muros del Nalón;7105243;;43.542973;-6.111072;ES;Europe/Madrid;Q842716;REGIONAL;;gtfs;;;;;05243;Muros del Nalón
+TN7105244;gare;El Pito - Piñera;El Pito - Piñera;El Pito - Piñera;7105244;;43.546858;-6.143342;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14168840503;Q17631202;;;05244;El Pito Piñera
+TN7105245;gare;Cudillero;Cudillero;Cudillero;7105245;;43.550906;-6.152158;ES;Europe/Madrid;Q818372;REGIONAL;;nom;30547011;Q17631195;;;05245;Cudillero
+TN7105247;gare;Villademar;Villademar;Villademar;7105247;;43.557123;-6.155403;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14200767828;;;;05247;Villademar
+TN7105249;gare;La Magdalena;La Magdalena;La Magdalena;7105249;;43.559205;-6.184967;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14201346784;;;;05249;La Magdalena
+TN7105251;gare;San Martín de Luiña;San Martín de Luiña;San Martín de Luiña;7105251;;43.544515;-6.228653;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14201349751;;;;05251;San Martín de Luiña
+TN7105253;gare;San Cosme;San Cosme;San Cosme;7105253;;43.544023;-6.248204;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14247445640;;;;05253;San Cosme
+TN7105255;gare;Soto de Luiña;Soto de Luiña;Soto de Luiña;7105255;;43.559635;-6.234369;ES;Europe/Madrid;Q818372;REGIONAL;;gtfs;;;;;05255;Soto de Luiña
+TN7105257;gare;Valdredo;Valdredo;Valdredo;7105257;;43.566406;-6.263229;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14201350090;;;;05257;Valdredo
+TN7105259;gare;Novellana;Novellana;Novellana;7105259;;43.557795;-6.289593;ES;Europe/Madrid;Q818372;REGIONAL;;gtfs;;;;;05259;Novellana
+TN7105261;gare;Santa Marina;Santa Marina;Santa Marina;7105261;;43.552652;-6.305148;ES;Europe/Madrid;Q818372;REGIONAL;;nom;14201342680;;;;05261;Santa Marina
+TN7105263;gare;Ballota;Ballota;Ballota;7105263;;43.550716;-6.322812;ES;Europe/Madrid;Q818372;REGIONAL;;gtfs;;;;;05263;Ballota
+TN7105265;gare;Tablizo;Tablizo;Tablizo;7105265;;43.547253;-6.351225;ES;Europe/Madrid;Q695499;REGIONAL;;gtfs;;;;;05265;Tablizo
+TN7105267;gare;Cadavedo;Cadavedo;Cadavedo;7105267;;43.542891;-6.39182;ES;Europe/Madrid;Q695499;REGIONAL;;nom;108478880;;;;05267;Cadavedo
+TN7105269;gare;San Cristóbal;San Cristóbal;San Cristóbal;7105269;;43.547225;-6.415264;ES;Europe/Madrid;Q695499;REGIONAL;;gtfs;;;;;05269;San Cristóbal
+TN7105271;gare;Canero;Canero;Canero;7105271;;43.541913;-6.445878;ES;Europe/Madrid;Q695499;REGIONAL;;gtfs;;;;;05271;Canero
+TN7105273;gare;Barcia;Barcia;Barcia;7105273;;43.546751;-6.50825;ES;Europe/Madrid;Q695499;REGIONAL;;nom;14209680949;;;;05273;Barcia
+TN7105275;gare;Luarca;Luarca;Luarca;7105275;;43.537577;-6.53667;ES;Europe/Madrid;Q695499;REGIONAL;;nom;13185390171;Q17631277;;;05275;Luarca
+TN7105277;gare;Otur;Otur;Otur;7105277;;43.540541;-6.593562;ES;Europe/Madrid;Q695499;REGIONAL;;gtfs;;;;;05277;Otur
+TN7105279;gare;Villapedre;Villapedre;Villapedre;7105279;;43.546723;-6.64587;ES;Europe/Madrid;Q668795;REGIONAL;;gtfs;;;;;05279;Villapedre
+TN7105281;gare;Piñera-Villaoril;Piñera-Villaoril;Piñera-Villaoril;7105281;;43.535565;-6.685352;ES;Europe/Madrid;Q668795;REGIONAL;;nom;14210389860;Q17631355;;;05281;Piñera-Villaoril
+TN7105283;gare;Navia;Navia;Navia;7105283;;43.536571;-6.719937;ES;Europe/Madrid;Q668795;REGIONAL;;nom;way/237464874;Q17631304;;;05283;Navia
+TN7105285;gare;Medal;Medal;Medal;7105285;;43.545685;-6.752986;ES;Europe/Madrid;Q695449;REGIONAL;;nom;14210433204;;;;05285;Medal
+TN7105287;gare;Loza;Loza;Loza;7105287;;43.551232;-6.771659;ES;Europe/Madrid;Q695449;REGIONAL;;nom;14212418945;Q18224067;;;05287;Loza
+TN7105289;gare;Cartavio;Cartavio;Cartavio;7105289;;43.550748;-6.789609;ES;Europe/Madrid;Q695449;REGIONAL;;nom;14210431632;Q17631182;;;05289;Cartavio
+TN7105291;gare;La Caridad;A Caridá;A Caridá;7105291;;43.547077;-6.827526;ES;Europe/Madrid;Q736022;REGIONAL;;nom;14219149011;;;;05291;La Caridad
+TN7105293;gare;Tapia;Tapia;Tapia;7105293;;43.535026;-6.909329;ES;Europe/Madrid;Q826603;REGIONAL;;gtfs;;;;;05293;Tapia
+TN7105295;gare;Tol;Tol;Tol;7105295;;43.527184;-6.952031;ES;Europe/Madrid;Q826607;REGIONAL;;nom;14210460106;;;;05295;Tol
+TN7105297;gare;Las Campas de Castropol;Las Campas de Castropol;Las Campas de Castropol;7105297;;43.520298;-6.977102;ES;Europe/Madrid;Q826607;REGIONAL;;gtfs;;;;;05297;Las Campas de Castropol
+TN7105299;gare;Castropol;Castropol;Castropol;7105299;;43.508892;-7.013849;ES;Europe/Madrid;Q826607;REGIONAL;;nom;11986323230;Q17631186;;;05299;Castropol
+TN7105300;gare;Vallobín;Vallobín;Vallobín;7105300;;43.365231;-5.864798;ES;Europe/Madrid;Q14317;REGIONAL;;gtfs;;;;;05300;Vallobín
+TN7105301;gare;Argañosa-Lavapiés;Argañosa-Lavapiés;Argañosa-Lavapiés;7105301;;43.365831;-5.870018;ES;Europe/Madrid;Q14317;REGIONAL;;gtfs;;;;;05301;Argañosa-Lavapiés
+TN7105302;gare;Las Campas;Las Campas;Las Campas;7105302;;43.363889;-5.883373;ES;Europe/Madrid;Q14317;REGIONAL;;gtfs;;;;;05302;Las Campas
+TN7105303;gare;Las Mazas;Las Mazas;Las Mazas;7105303;;43.358719;-5.897557;ES;Europe/Madrid;Q14317;REGIONAL;;gtfs;;;;;05303;Las Mazas
+TN7105304;gare;San Claudio;San Claudio;San Claudio;7105304;;43.355316;-5.917795;ES;Europe/Madrid;Q14317;REGIONAL;;nom;737223165;Q107972796;;;05304;San Claudio
+TN7105306;gare;San Pedro de Nora;San Pedro de Nora;San Pedro de Nora;7105306;;43.368748;-5.958595;ES;Europe/Madrid;Q14317;REGIONAL;;gtfs;;;;;05306;San Pedro de Nora
+TN7105308;gare;Soto Udrión;Soto Udrión/Sotu-Udrión;Soto Udrión/Sotu-Udrión;7105308;;43.356473;-5.965035;ES;Europe/Madrid;Q14317;REGIONAL;;nom;7844629003;Q107972884;;;05308;Soto Udrión
+TN7105311;gare;Trubia;Trubia;Trubia;7105311;;43.348564;-5.967582;ES;Europe/Madrid;Q14317;REGIONAL;;nom;13157639313;Q107972795;;;05311;Trubia
+TN7105313;gare;Santa María de Grado;Santa María de Grado;Santa María de Grado;7105313;;43.384227;-5.982708;ES;Europe/Madrid;Q617580;REGIONAL;;gtfs;;;;;05313;Santa María de Grado
+TN7105315;gare;Vega de Anzo;Vega de Anzo;Vega de Anzo;7105315;;43.38933;-6.005683;ES;Europe/Madrid;Q617580;REGIONAL;;gtfs;;;;;05315;Vega de Anzo
+TN7105316;gare;Peñaflor de Grado;Peñaflor;Peñaflor;7105316;;43.40293;-6.045175;ES;Europe/Madrid;Q617580;REGIONAL;;nom;2353404074;Q5701172;;;05316;Peñaflor de Grado
+TN7105317;gare;Grado;Grado;Grado;7105317;;43.394435;-6.063731;ES;Europe/Madrid;Q617580;REGIONAL;;nom;6913720698;;;;05317;Grado
+TN7105319;gare;Sandiche;Sandiche;Sandiche;7105319;;43.425595;-6.059904;ES;Europe/Madrid;Q737356;REGIONAL;;nom;14177336359;Q107972825;;;05319;Sandiche
+TN7105320;gare;Aces;Aces;Aces;7105320;;43.439909;-6.065792;ES;Europe/Madrid;Q737356;REGIONAL;;nom;2353364389;Q107972823;;;05320;Aces
+TN7105321;gare;San Román;San Román;San Román;7105321;;43.448858;-6.077162;ES;Europe/Madrid;Q737356;REGIONAL;;nom;way/747140046;Q107972822;;;05321;San Román
+TN7105323;gare;Beifar;Beifar;Beifar;7105323;;43.470123;-6.098933;ES;Europe/Madrid;Q820469;REGIONAL;;nom;14177369363;Q107972821;;;05323;Beifar
+TN7105325;gare;Pravia;Pravia;Pravia;7105325;;43.491143;-6.110619;ES;Europe/Madrid;Q820469;REGIONAL;;nom;7741995380;Q17563563;;;05325;Pravia
+TN7105451;gare;Bilbao la Concordia;Bilbao la Concordia;Bilbao la Concordia;7105451;;43.26019;-2.926384;ES;Europe/Madrid;Q8692;REGIONAL;;gtfs;;;;;05451;Bilbao la Concordia
+TN7105455;gare;Basurto Hospital;Basurto Hospital;Basurto Hospital;7105455;;43.25977;-2.953827;ES;Europe/Madrid;Q8692;REGIONAL;;gtfs;;;;;05455;Basurto Hospital
+TN7105457;gare;Zorrotza Zorrozgoiti;Zorrotza;Zorrotza;7105457;;43.277712;-2.972034;ES;Europe/Madrid;Q8692;REGIONAL;;nom;5299959453;Q3497419;;;05457;Zorrotza Zorrozgoiti
+TN7105459;gare;Santa Águeda;Santa Águeda;Santa Águeda;7105459;;43.261713;-2.972676;ES;Europe/Madrid;Q8692;REGIONAL;;nom;5451395346;Q12266971;;;05459;Santa Águeda
+TN7105460;gare;Kastrexana;Kastrexana;Kastrexana;7105460;;43.255438;-2.971986;ES;Europe/Madrid;Q8692;REGIONAL;;nom;5301954667;Q12261355;;;05460;Kastrexana
+TN7105461;gare;Irauregui;Irauregui;Irauregui;7105461;;43.248418;-2.990073;ES;Europe/Madrid;Q927978;REGIONAL;;gtfs;;;;;05461;Irauregui
+TN7105463;gare;Zaramillo;Zaramillo;Zaramillo;7105463;;43.233357;-3.016428;ES;Europe/Madrid;Q596305;REGIONAL;;nom;5454334458;Q12269216;;;05463;Zaramillo
+TN7105465;gare;La Quadra;La Quadra;La Quadra;7105465;;43.222817;-3.024888;ES;Europe/Madrid;Q596305;REGIONAL;;nom;6148706092;Q12266393;;;05465;La Quadra
+TN7105467;gare;Sodupe;Sodupe;Sodupe;7105467;;43.201728;-3.050732;ES;Europe/Madrid;Q596305;REGIONAL;;nom;5454334453;Q12267477;;;05467;Sodupe
+TN7105469;gare;Artxube;Artxube;Artxube;7105469;;43.201016;-3.071642;ES;Europe/Madrid;Q596305;REGIONAL;;nom;683405040;Q12254239;;;05469;Artxube
+TN7105470;gare;Lámbarri;Lámbarri;Lámbarri;7105470;;43.205987;-3.082461;ES;Europe/Madrid;Q596305;REGIONAL;;nom;6148706093;Q12261835;;;05470;Lambarri
+TN7105471;gare;Güeñes;Güeñes;Güeñes;7105471;;43.208964;-3.095327;ES;Europe/Madrid;Q596305;REGIONAL;;nom;6148706091;Q12258774;;;05471;Güeñes
+TN7105473;gare;Aranguren;Aranguren;Aranguren;7105473;;43.210498;-3.108963;ES;Europe/Madrid;Q4476;REGIONAL;;nom;5454334442;Q12253834;;;05473;Aranguren
+TN7105474;gare;Aranguren Apeadero;Aranguren Apeadero;Aranguren Apeadero;7105474;;43.210326;-3.113763;ES;Europe/Madrid;Q4476;REGIONAL;;nom;6148706090;Q12253835;;;05474;Aranguren-Apeadero
+TN7105475;gare;Zalla;Zalla;Zalla;7105475;;43.212833;-3.13333;ES;Europe/Madrid;Q4476;REGIONAL;;nom;5301954666;Q12269192;;;05475;Zalla
+TN7105477;gare;Colegio;Colegio;Colegio;7105477;;43.21095;-3.138532;ES;Europe/Madrid;Q4476;REGIONAL;;nom;683629988;Q12259496;;;05477;Colegio
+TN7105479;gare;Ibarra;Ibarra;Ibarra;7105479;;43.20392;-3.144871;ES;Europe/Madrid;Q4476;REGIONAL;;nom;6566500313;Q12259360;;;05479;Ibarra
+TN7105481;gare;La Herrera;La Herrera;La Herrera;7105481;;43.203168;-3.170521;ES;Europe/Madrid;Q4476;REGIONAL;;nom;6148706088;Q12261741;;;05481;La Herrera
+TN7105483;gare;Balmaseda;Balmaseda;Balmaseda;7105483;;43.196538;-3.189805;ES;Europe/Madrid;Q4480;REGIONAL;;nom;5919402025;Q12254735;;;05483;Balmaseda
+TN7105484;gare;Mimetiz;Mimetiz;Mimetiz;7105484;;43.215753;-3.131137;ES;Europe/Madrid;Q4476;REGIONAL;;nom;1604259381;Q12263664;;;05484;Mimetiz
+TN7105487;gare;Traslaviña;Traslaviña;Traslaviña;7105487;;43.233355;-3.198266;ES;Europe/Madrid;Q677615;REGIONAL;;nom;6090575843;Q12268164;;;05487;Traslaviña
+TN7105489;gare;Artzentales;Artzentales;Artzentales;7105489;;43.235723;-3.213278;ES;Europe/Madrid;Q677615;REGIONAL;;nom;6570688409;Q12254255;;;05489;Artzentales
+TN7105493;gare;Villaverde de Trucios;Villaverde de Trucios;Villaverde de Trucios;7105493;;43.241229;-3.25055;ES;Europe/Madrid;Q677615;REGIONAL;;nom;6570628980;Q12268889;;;05493;Villaverde de Trucios
+TN7105497;gare;Karrantza;Karrantza;Karrantza;7105497;;43.23893;-3.357748;ES;Europe/Madrid;Q686837;REGIONAL;;nom;5888318522;Q12261341;;;05497;Karrantza
+TN7105504;gare;Parque Principado;Parque Principado;Parque Principado;7105504;;43.386209;-5.808739;ES;Europe/Madrid;Q14317;REGIONAL;;nom;12926284057;;;;05504;Parque Principado
+TN7105505;gare;Colloto;Colloto / Cualloto;Colloto / Cualloto;7105505;;43.379493;-5.792072;ES;Europe/Madrid;Q744130;REGIONAL;;nom;12926284058;Q18222585;;;05505;Colloto
+TN7105507;gare;Meres;Meres;Meres;7105507;;43.380989;-5.748721;ES;Europe/Madrid;Q744130;REGIONAL;;gtfs;;;;;05507;Meres
+TN7105508;gare;Fonciello;Fonciello;Fonciello;7105508;;43.381744;-5.729693;ES;Europe/Madrid;Q744130;REGIONAL;;nom;12926284059;Q18223245;;;05508;Fonciello
+TN7105509;gare;El Berrón;El Berrón;El Berrón;7105509;;43.382479;-5.702474;ES;Europe/Madrid;Q744130;REGIONAL;;nom;11509683218;Q18222964;;;05509;El Berrón
+TN7105511;gare;La Carrera de Siero;La Carrera de Siero;La Carrera de Siero;7105511;;43.386921;-5.675346;ES;Europe/Madrid;Q744130;REGIONAL;;gtfs;;;;;05511;La Carrera de Siero
+TN7105513;gare;Pola de Siero;Pola de Siero;Pola de Siero;7105513;;43.388153;-5.664772;ES;Europe/Madrid;Q744130;REGIONAL;;gtfs;;;;;05513;Pola de Siero
+TN7105515;gare;Los Corros;Los Corros;Los Corros;7105515;;43.376855;-5.601462;ES;Europe/Madrid;Q744130;REGIONAL;;nom;14177372169;Q18224053;;;05515;Los Corros
+TN7105517;gare;Lieres;Lieres;Lieres;7105517;;43.380523;-5.582662;ES;Europe/Madrid;Q744130;REGIONAL;;nom;12926284060;Q18224009;;;05517;Lieres
+TN7105521;gare;El Remedio;El Remedio;El Remedio;7105521;;43.375079;-5.546239;ES;Europe/Madrid;Q946280;REGIONAL;;gtfs;;;;;05521;El Remedio
+TN7105522;gare;Llames;Llames;Llames;7105522;;43.368783;-5.525221;ES;Europe/Madrid;Q946280;REGIONAL;;uic;14189218123;Q18224030;;;05522;Llames
+TN7105523;gare;Nava;Nava;Nava;7105523;;43.361187;-5.508993;ES;Europe/Madrid;Q946280;REGIONAL;;nom;12926284061;;;;05523;Nava
+TN7105525;gare;Fuente Santa de Nava;Fuente Santa de Nava;Fuente Santa de Nava;7105525;;43.35557;-5.478379;ES;Europe/Madrid;Q946280;REGIONAL;;gtfs;;;;;05525;Fuente Santa de Nava
+TN7105527;gare;Ceceda;Ceceda;Ceceda;7105527;;43.356167;-5.451107;ES;Europe/Madrid;Q946280;REGIONAL;;nom;12926284062;Q18596136;;;05527;Ceceda
+TN7105529;gare;Carancos;Carancos;Carancos;7105529;;43.355368;-5.434574;ES;Europe/Madrid;Q946280;REGIONAL;;nom;12926284063;Q18596137;;;05529;Carancos
+TN7105531;gare;Pintueles;Pintueles;Pintueles;7105531;;43.359881;-5.384158;ES;Europe/Madrid;Q818363;REGIONAL;;nom;14166251387;;;;05531;Pintueles
+TN7105533;gare;Infiesto;Infiesto;Infiesto;7105533;;43.351787;-5.369202;ES;Europe/Madrid;Q818363;REGIONAL;;gtfs;;;;;05533;Infiesto
+TN7105534;gare;Infiesto Apeadero;Infiesto Apeadero;Infiesto Apeadero;7105534;;43.344041;-5.360641;ES;Europe/Madrid;Q818363;REGIONAL;;gtfs;;;;;05534;Infiesto Apeadero
+TN7105535;gare;Villamayor;Villamayor;Villamayor;7105535;;43.363065;-5.302498;ES;Europe/Madrid;Q818363;REGIONAL;;nom;14190661349;Q18613732;;;05535;Villamayor
+TN7105537;gare;Sebares;Sebares;Sebares;7105537;;43.362457;-5.257193;ES;Europe/Madrid;Q818363;REGIONAL;;nom;14177385744;Q18613728;;;05537;Sebares
+TN7105539;gare;Soto de Dueñas;Soto de Dueñas;Soto de Dueñas;7105539;;43.3583;-5.22689;ES;Europe/Madrid;Q818327;REGIONAL;;gtfs;;;;;05539;Soto de Dueñas
+TN7105541;gare;Ozanes;Ozanes;Ozanes;7105541;;43.368324;-5.185364;ES;Europe/Madrid;Q818327;REGIONAL;;nom;14178284816;Q18588232;;;05541;Ozanes
+TN7105542;gare;Policlínico;Policlínico de Arriondas;Policlínico de Arriondas;7105542;;43.378762;-5.186127;ES;Europe/Madrid;Q818327;REGIONAL;;nom;14197263844;;;;05542;Policlínico
+TN7105543;gare;Arriondas;Arriondas;Arriondas;7105543;;43.387513;-5.188258;ES;Europe/Madrid;Q818327;REGIONAL;;gtfs;;;;;05543;Arriondas
+TN7105545;gare;Fuentes;Fuentes;Fuentes;7105545;;43.401443;-5.143117;ES;Europe/Madrid;Q818327;REGIONAL;;gtfs;;;;;05545;Fuentes
+TN7105547;gare;Toraño;Toraño;Toraño;7105547;;43.412281;-5.118013;ES;Europe/Madrid;Q818327;REGIONAL;;gtfs;;;;;05547;Toraño
+TN7105549;gare;Cuevas;Cuevas;Cuevas;7105549;;43.431144;-5.073302;ES;Europe/Madrid;Q591580;REGIONAL;;gtfs;;;;;05549;Cuevas
+TN7105551;gare;Llovio;Llovio;Llovio;7105551;;43.440563;-5.055592;ES;Europe/Madrid;Q591580;REGIONAL;;gtfs;;;;;05551;Llovio
+TN7105553;gare;Ribadesella;Ribadesella;Ribadesella;7105553;;43.459376;-5.054662;ES;Europe/Madrid;Q591580;REGIONAL;;nom;12926284065;;;;05553;Ribadesella
+TN7105555;gare;Camango;Camango;Camango;7105555;;43.44821;-5.01882;ES;Europe/Madrid;Q591580;REGIONAL;;gtfs;;;;;05555;Camango
+TN7105557;gare;Belmonte de Pría;Belmonte;Belmonte;7105557;;43.439856;-4.98232;ES;Europe/Madrid;Q503094;REGIONAL;;nom;14200612953;Q18600407;;;05557;Belmonte de Pría
+TN7105559;gare;Nueva;Nueva;Nueva;7105559;;43.440508;-4.93543;ES;Europe/Madrid;Q503094;REGIONAL;;nom;12926284066;Q18600423;;;05559;Nueva
+TN7105561;gare;Villaḥormes;Villaḥormes;Villaḥormes;7105561;;43.441953;-4.903752;ES;Europe/Madrid;Q503094;REGIONAL;;nom;14200625800;;;;05561;Villahormes
+TN7105563;gare;Posada;Posada;Posada;7105563;;43.425122;-4.865209;ES;Europe/Madrid;Q503094;REGIONAL;;nom;12926284067;Q18600451;;;05563;Posada
+TN7105565;gare;Balmori;Balmori;Balmori;7105565;;43.42147;-4.83583;ES;Europe/Madrid;Q503094;REGIONAL;;gtfs;;;;;05565;Balmori
+TN7105567;gare;Celorio;Celorio;Celorio;7105567;;43.42501;-4.81133;ES;Europe/Madrid;Q503094;REGIONAL;;gtfs;;;;;05567;Celorio
+TN7105569;gare;Poo;Poo;Poo;7105569;;43.42429;-4.78189;ES;Europe/Madrid;Q503094;REGIONAL;;gtfs;;;;;05569;Poo
+TN7105571;gare;Llanes;Llanes;Llanes;7105571;;43.420911;-4.759121;ES;Europe/Madrid;Q503094;REGIONAL;;nom;12926284068;Q18601876;;;05571;Llanes
+TN7105573;gare;San Roque del Acebal;San Roque del Acebal;San Roque del Acebal;7105573;;43.39473;-4.73013;ES;Europe/Madrid;Q503094;REGIONAL;;gtfs;;;;;05573;San Roque del Acebal
+TN7105575;gare;Vidiago;Vidiago;Vidiago;7105575;;43.396613;-4.672767;ES;Europe/Madrid;Q503094;REGIONAL;;nom;14200684637;Q18602008;;;05575;Vidiago
+TN7105577;gare;Pendueles;Pendueles;Pendueles;7105577;;43.392749;-4.630114;ES;Europe/Madrid;Q503094;REGIONAL;;nom;14200765745;;;;05577;Pendueles
+TN7105579;gare;Colombres;Colombres;Colombres;7105579;;43.38287;-4.55687;ES;Europe/Madrid;Q842638;REGIONAL;;nom;14197094767;;;;05579;Colombres
+TN7105602;gare;Valdecilla-La Marga;Valdecilla-La Marga;Valdecilla-La Marga;7105602;;43.452692;-3.828572;ES;Europe/Madrid;Q12233;REGIONAL;;nom;5893258391;Q82474114;;;05602;Valdecilla la Marga
+TN7105621;gare;Torrelavega-Centro;Torrelavega-Centro;Torrelavega-Centro;7105621;;43.351044;-4.051272;ES;Europe/Madrid;Q494693;REGIONAL;;nom;13338126376;;;;05621;Torrelavega-Centro
+TN7105623;gare;Puente San Miguel;Puente San Miguel;Puente San Miguel;7105623;;43.358772;-4.087717;ES;Europe/Madrid;Q1623013;REGIONAL;;nom;12926284073;Q18603277;;;05623;Puente San Miguel
+TN7105637;gare;Cabezón de la Sal;Cabezón de la Sal;Cabezón de la Sal;7105637;;43.30784;-4.231763;ES;Europe/Madrid;Q593831;REGIONAL;;nom;12926284071;Q18603172;;;05637;Cabezón de la Sal
+TN7105641;gare;Treceño;Treceño;Treceño;7105641;;43.318389;-4.308998;ES;Europe/Madrid;Q743849;REGIONAL;;nom;13333752684;;;;05641;Treceño
+TN7105643;gare;Roiz;Roiz;Roiz;7105643;;43.328345;-4.349174;ES;Europe/Madrid;Q743849;REGIONAL;;nom;13333752685;Q18602079;;;05643;Roiz
+TN7105644;gare;El Barcenal;El Barcenal;El Barcenal;7105644;;43.341003;-4.38378;ES;Europe/Madrid;Q384817;REGIONAL;;nom;13333752686;Q18602068;;;05644;El Barcenal
+TN7105645;gare;San Vicente de la Barquera;San Vicente de la Barquera;San Vicente de la Barquera;7105645;;43.367751;-4.404563;ES;Europe/Madrid;Q384817;REGIONAL;;nom;12926284070;Q18602056;;;05645;San Vicente de la Barquera
+TN7105647;gare;Pesués;Pesués;Pesués;7105647;;43.370283;-4.48016;ES;Europe/Madrid;Q1614800;REGIONAL;;nom;13333752687;;;;05647;Pesués
+TN7105649;gare;Unquera;Unquera;Unquera;7105649;;43.374925;-4.514362;ES;Europe/Madrid;Q1614800;REGIONAL;;nom;12926284069;Q18602037;;;05649;Unquera
+TN7105651;gare;Nueva Montaña;Nueva Montaña;Nueva Montaña;7105651;;43.440131;-3.849535;ES;Europe/Madrid;Q12233;REGIONAL;;nom;6285101623;Q107652652;;;05651;Nueva Montaña
+TN7105652;gare;Valle Real;Valle Real;Valle Real;7105652;;43.427463;-3.84041;ES;Europe/Madrid;Q1635185;REGIONAL;;nom;6283393015;Q107440681;;;05652;Valle Real
+TN7105655;gare;Maliaño Vidriera;Maliaño;Maliaño;7105655;;43.417406;-3.842059;ES;Europe/Madrid;Q1635185;REGIONAL;;nom;way/224871994;Q5846665;;;05655;Maliaño Vidriera
+TN7105657;gare;Astillero;Astillero;Astillero;7105657;;43.403957;-3.820899;ES;Europe/Madrid;Q1443915;REGIONAL;;nom;6283409470;Q82759617;;;05657;Astillero
+TN7105661;gare;Heras;Heras;Heras;7105661;;43.401046;-3.766551;ES;Europe/Madrid;Q1602429;REGIONAL;;nom;6284885840;Q107440697;;;05661;Heras
+TN7105663;gare;Orejo;Orejo;Orejo;7105663;;43.39942;-3.73816;ES;Europe/Madrid;Q1606273;REGIONAL;;nom;8267660124;Q85211848;;;05663;Orejo
+TN7105672;gare;Puente Agüero;Puente Agüero;Puente Agüero;7105672;;43.406415;-3.719495;ES;Europe/Madrid;Q1606273;REGIONAL;;nom;13333752668;;;;05672;Puente Agüero
+TN7105673;gare;Villaverde de Pontones;Villaverde de Pontones;Villaverde de Pontones;7105673;;43.411244;-3.703665;ES;Europe/Madrid;Q1602418;REGIONAL;;nom;266131580;Q107441226;;;05673;Villaverde de Pontones
+TN7105675;gare;Hoz de Anero;Hoz de Anero;Hoz de Anero;7105675;;43.405023;-3.666663;ES;Europe/Madrid;Q1602418;REGIONAL;;nom;6577768899;Q107441228;;;05675;Hoz de Anero
+TN7105677;gare;Beranga;Beranga;Beranga;7105677;;43.413626;-3.577072;ES;Europe/Madrid;Q1444320;REGIONAL;;nom;5393997094;Q107441229;;;05677;Beranga
+TN7105679;gare;Gama;Gama;Gama;7105679;;43.423031;-3.524956;ES;Europe/Madrid;Q5875007;REGIONAL;;nom;6578037831;Q107441230;;;05679;Gama
+TN7105681;gare;Cicero;Cicero;Cicero;7105681;;43.417079;-3.490508;ES;Europe/Madrid;Q1443842;REGIONAL;;nom;6578040275;;;;05681;Cicero
+TN7105683;gare;Treto;Treto;Treto;7105683;;43.394184;-3.469364;ES;Europe/Madrid;Q1443842;REGIONAL;;nom;13333752667;;;;05683;Treto
+TN7105685;gare;Limpias;Limpias;Limpias;7105685;;43.358828;-3.433359;ES;Europe/Madrid;Q1641505;REGIONAL;;nom;6578031737;Q107441234;;;05685;Limpias
+TN7105687;gare;Marrón;Marrón;Marrón;7105687;;43.346526;-3.421046;ES;Europe/Madrid;Q1391463;REGIONAL;;nom;291282434;Q107441236;;;05687;Marrón
+TN7105689;gare;Udalla;Udalla;Udalla;7105689;;43.313661;-3.445643;ES;Europe/Madrid;Q1904286;REGIONAL;;nom;5888262511;Q107441369;;;05689;Udalla
+TN7105691;gare;Gibaja;Gibaja;Gibaja;7105691;;43.282031;-3.438285;ES;Europe/Madrid;Q674916;REGIONAL;;nom;8267660220;Q107441368;;;05691;Gibaja
+TN7105721;gare;Arla Berrón;Arla Berrón;Arla Berrón;7105721;;43.166714;-3.227618;ES;Europe/Madrid;Q1614774;REGIONAL;;nom;6566247833;Q107976027;;;05721;Arla Berrón
+TN7105722;gare;Ungo - Nava;Ungo - Nava;Ungo - Nava;7105722;;43.152056;-3.265986;ES;Europe/Madrid;Q1614774;REGIONAL;;nom;6189845315;;;;05722;Ungo Nava
+TN7105724;gare;Mercadillo-Villasana;Mercadillo-Villasana;Mercadillo-Villasana;7105724;;43.105538;-3.262951;ES;Europe/Madrid;Q1614774;REGIONAL;;nom;6036608781;Q107976029;;;05724;Mercadillo Villasana
+TN7105727;gare;Cadagua;Cadagua;Cadagua;7105727;;43.068014;-3.347481;ES;Europe/Madrid;Q1614774;REGIONAL;;nom;6038383746;Q107976031;;;05727;Cadagua
+TN7105730;gare;Bercedo-Montija;Bercedo-Montija;Bercedo-Montija;7105730;;43.088397;-3.457626;ES;Europe/Madrid;Q1631248;REGIONAL;;nom;5680147299;;;;05730;Bercedo-Montija
+TN7105731;gare;Quintana de los Prados;Quintana de los Prados;Quintana de los Prados;7105731;;43.079935;-3.511505;ES;Europe/Madrid;Q507149;REGIONAL;;nom;5703983534;;;;05731;Quintana de los Prados
+TN7105732;gare;Espinosa de los Monteros;Espinosa de los Monteros;Espinosa de los Monteros;7105732;;43.074295;-3.53727;ES;Europe/Madrid;Q507149;REGIONAL;;nom;11583894859;Q109593891;;;05732;Espinosa de los Monteros
+TN7105733;gare;Redondo;Redondo;Redondo;7105733;;43.060576;-3.619678;ES;Europe/Madrid;Q1643782;REGIONAL;;nom;5735465201;Q107976054;;;05733;Redondo
+TN7105734;gare;Sotoscueva;Sotoscueva;Sotoscueva;7105734;;43.045266;-3.688348;ES;Europe/Madrid;Q1643782;REGIONAL;;uic;13654694401;Q107976055;;;05734;Sotoscueva
+TN7105735;gare;Pedrosa;Pedrosa;Pedrosa;7105735;;43.012341;-3.73781;ES;Europe/Madrid;Q590929;REGIONAL;;uic;1864468754;Q107976058;;;05735;Pedrosa
+TN7105736;gare;Dosante-Cidad;Dosante-Cidad;Dosante-Cidad;7105736;;43.011301;-3.755865;ES;Europe/Madrid;Q590929;REGIONAL;;uic;12495839165;Q117069959;;;05736;Dosante Cidad
+TN7105737;gare;Robredo-Ahedo;Robredo-Ahedo;Robredo-Ahedo;7105737;;43.019037;-3.809315;ES;Europe/Madrid;Q590929;REGIONAL;;uic;12495839164;Q107976077;;;05737;Robredo Ahedo
+TN7105738;gare;Soncillo;Soncillo;Soncillo;7105738;;43.00579;-3.844863;ES;Europe/Madrid;Q923993;REGIONAL;;uic;13654590000;Q107976078;;;05738;Soncillo
+TN7105739;gare;Cabañas de Virtus;Cabañas de Virtus;Cabañas de Virtus;7105739;;42.996373;-3.858411;ES;Europe/Madrid;Q923993;REGIONAL;;uic;12495839163;;;;05739;Cabañas de Virtus
+TN7105740;gare;Arija;Arija;Arija;7105740;;42.991215;-3.94463;ES;Europe/Madrid;Q1623158;REGIONAL;;uic;6568552483;Q107976079;;;05740;Arija
+TN7105741;gare;Llano;Llano;Llano;7105741;;42.987954;-3.982613;ES;Europe/Madrid;Q1641165;REGIONAL;;uic;6570251746;Q107976102;;;05741;Llano
+TN7105742;gare;Las Rozas de Valdearroyo;Las Rozas de Valdearroyo;Las Rozas de Valdearroyo;7105742;;42.973621;-4.029853;ES;Europe/Madrid;Q1641165;REGIONAL;;uic;6570337796;Q107976103;;;05742;Las Rozas de Valdearroyo
+TN7105743;gare;Montes Claros;Montes Claros;Montes Claros;7105743;;42.932096;-4.042678;ES;Europe/Madrid;Q1641172;REGIONAL;;uic;6570292849;Q107976104;;;05743;Montes Claros
+TN7105744;gare;Los Carabeos;Los Carabeos;Los Carabeos;7105744;;42.910325;-4.075313;ES;Europe/Madrid;Q1641172;REGIONAL;;uic;6570309847;Q107976105;;;05744;Los Carabeos
+TN7105747;gare;Cillamayor;Cillamayor;Cillamayor;7105747;;42.857699;-4.279089;ES;Europe/Madrid;Q1776891;REGIONAL;;nom;5919355191;Q107976145;;;05747;Cillamayor
+TN7105748;gare;Salinas de Pisuerga;Salinas de Pisuerga;Salinas de Pisuerga;7105748;;42.851307;-4.386112;ES;Europe/Madrid;Q1918470;REGIONAL;;nom;6565464317;Q107976153;;;05748;Salinas de Pisuerga
+TN7105749;gare;Vado-Cervera;Vado-Cervera;Vado-Cervera;7105749;;42.839329;-4.494399;ES;Europe/Madrid;Q1119428;REGIONAL;;nom;5919350285;Q107976155;;;05749;Vado-Cervera
+TN7105750;gare;Castrejón de la Peña;Castrejón de la Peña;Castrejón de la Peña;7105750;;42.812106;-4.601937;ES;Europe/Madrid;Q1929204;REGIONAL;;nom;9879343525;;;;05750;Castrejón de la Peña
+TN7105751;gare;Villaverde-Tarilonte;Villaverde-Tarilonte;Villaverde-Tarilonte;7105751;;42.818554;-4.686052;ES;Europe/Madrid;Q1766448;REGIONAL;;nom;9879334814;Q107976157;;;05751;Villaverde Tarilonte
+TN7105752;gare;Santibáñez de la Peña;Santibáñez de la Peña;Santibáñez de la Peña;7105752;;42.801965;-4.741781;ES;Europe/Madrid;Q1766448;REGIONAL;;nom;6565239008;Q107976158;;;05752;Santibáñez de la Peña
+TN7105753;gare;Guardo Apeadero;Guardo Apeadero;Guardo Apeadero;7105753;;42.787703;-4.845102;ES;Europe/Madrid;Q1771104;REGIONAL;;uic;5919339216;;;;05753;Guardo Apeadero
+TN7105754;gare;Guardo;Guardo;Guardo;7105754;;42.790973;-4.85188;ES;Europe/Madrid;Q1771104;REGIONAL;;uic;13653191408;Q107976229;;;05754;Guardo
+TN7105755;gare;La Llama de la Guzpeña;La Llama de la Guzpeña;La Llama de la Guzpeña;7105755;;42.770298;-5.041321;ES;Europe/Madrid;Q138268;REGIONAL;;nom;5919330024;;;;05755;La Llama de la Guzpeña
+TN7105756;gare;La Espina;La Espina;La Espina;7105756;;42.786675;-4.905358;ES;Europe/Madrid;Q1615406;REGIONAL;;nom;5920025212;Q107976246;;;05756;La Espina
+TN7105757;gare;Valcuende;Valcuende;Valcuende;7105757;;42.765281;-4.929677;ES;Europe/Madrid;Q1615406;REGIONAL;;nom;5920024966;;;;05757;Valcuende
+TN7105758;gare;Puente Almuhey;Puente Almuhey;Puente Almuhey;7105758;;42.787602;-4.972475;ES;Europe/Madrid;Q1615406;REGIONAL;;nom;5919330155;Q107976249;;;05758;Puente Almuhey
+TN7105759;gare;Prado de la Guzpeña;Prado de la Guzpeña;Prado de la Guzpeña;7105759;;42.783282;-5.027145;ES;Europe/Madrid;Q138268;REGIONAL;;nom;5919330067;;;;05759;Prado de la Guzpeña
+TN7105760;gare;Valle de las Casas;Valle de las Casas;Valle de las Casas;7105760;;42.767885;-5.070958;ES;Europe/Madrid;Q138245;REGIONAL;;nom;5919329912;;;;05760;Valle de las Casas
+TN7105761;gare;Cistierna;Cistierna;Cistierna;7105761;;42.803181;-5.13091;ES;Europe/Madrid;Q1605993;REGIONAL;;nom;6565221747;Q26737712;;;05761;Cistierna
+TN7105763;gare;La Ercina;La Ercina;La Ercina;7105763;;42.808885;-5.214015;ES;Europe/Madrid;Q58341;REGIONAL;;nom;6566237027;Q107976305;;;05763;La Ercina
+TN7105766;gare;Boñar;Boñar;Boñar;7105766;;42.86278;-5.328711;ES;Europe/Madrid;Q26602;REGIONAL;;nom;6565199914;Q107976308;;;05766;Boñar
+TN7105767;gare;La Vecilla;La Vecilla;La Vecilla;7105767;;42.85511;-5.412067;ES;Europe/Madrid;Q1615474;REGIONAL;;nom;4217804413;Q26738272;;;05767;La Vecilla
+TN7105770;gare;Matallana;Matallana;Matallana;7105770;;42.841143;-5.522168;ES;Europe/Madrid;Q80143;REGIONAL;;nom;6565134415;Q107976311;;;05770;Matallana
+TN7105776;gare;San Feliz;San Feliz;San Feliz;7105776;;42.682268;-5.537956;ES;Europe/Madrid;Q137157;REGIONAL;;uic;6566106167;Q107976312;;;05776;San Feliz
+TN7105778;gare;Feve-León;Feve-León;Feve-León;7105778;;42.602492;-5.574934;ES;Europe/Madrid;Q15699;REGIONAL;;gtfs;;;;;05778;Feve-León
+TN7105790;gare;Sorriba;Sorriba;Sorriba;7105790;;42.786147;-5.127477;ES;Europe/Madrid;Q1605993;REGIONAL;;nom;7844651286;;;;05790;Sorriba
+TN7105799;gare;Cerezal de la Guzpeña;Cerezal de la Guzpeña;Cerezal de la Guzpeña;7105799;;42.779808;-5.005594;ES;Europe/Madrid;Q138268;REGIONAL;;nom;5919330154;;;;05799;Cerezal de la Guzpeña
+TN7105803;gare;La Asunción Universidad;Asunción-Universidad;Asunción-Universidad;7105803;;42.615954;-5.566241;ES;Europe/Madrid;Q15699;REGIONAL;;uic;6593377381;Q16483749;;;05803;La Asunción Universidad
+TN7106002;gare;Alhama de Murcia;Alhama de Murcia;Alhama de Murcia;7106002;;37.849359;-1.414495;ES;Europe/Madrid;Q954556;INTERCITY;;nom;way/223915527;Q6432928;;;06002;Alhama de Murcia
+TN7106003;gare;Totana;Totana;Totana;7106003;;37.763542;-1.495615;ES;Europe/Madrid;Q338174;INTERCITY;;gtfs;;;;;06003;Totana
+TN7106006;gare;Lorca Sutullena;Lorca Sutullena;Lorca Sutullena;7106006;;37.671935;-1.696313;ES;Europe/Madrid;Q47571;INTERCITY;;nom;way/126854529;Q3321881;;;06006;Lorca-Sutullena
+TN7107004;gare;Águilas;Águilas;Águilas;7107004;;37.409797;-1.572536;ES;Europe/Madrid;Q249941;INTERCITY;;nom;way/112558000;Q8842735;;;07004;Águilas
+TN7108004;gare;Segovia-Guiomar;Estación de Segovia-Guiomar;Estación de Segovia-Guiomar;7108004;;40.910232;-4.094755;ES;Europe/Madrid;Q15684;ALVIA|AVANT|AVE|AVLO|INTERCITY;;uic;12284813952;Q3325675;;;08004;Segovia-Guiomar
+TN7108223;gare;Vigo-Urzáiz;Vigo-Urzáiz;Vigo-Urzáiz;7108223;;42.234964;-8.7119;ES;Europe/Madrid;Q8745;ALVIA|AVE|AVLO|MD|REGIONAL;;nom;12819737430;Q3320436;;;08223;Vigo Urzaiz
+TN7108224;gare;Redondela AV;Redondela AV;Redondela AV;7108224;;42.284556;-8.603629;ES;Europe/Madrid;Q833032;MD|REGIONAL;;nom;13716624631;Q19760237;;;08224;Redondela AV
+TN7108240;gare;Medina del Campo AV;Medina del Campo Alta Velocidad;Medina del Campo Alta Velocidad;7108240;;41.291332;-4.922985;ES;Europe/Madrid;Q693913;ALVIA|AVLO;;uic;13364278536;Q24568348;;;08240;Medina del Campo AV
+TN7108247;gare;Sanabria AV;Sanabria Alta Velocidad;Sanabria Alta Velocidad;7108247;;42.044769;-6.562912;ES;Europe/Madrid;Q1769120;ALVIA|AVLO;;uic;13364248776;Q27958052;;;08247;Sanabria AV
+TN7108251;gare;A Gudiña-Porta de Galicia;A Gudiña-Porta de Galicia;A Gudiña-Porta de Galicia;7108251;;42.063765;-7.13437;ES;Europe/Madrid;Q677485;ALVIA|AVLO;;uic;12546448453;Q106492279;;;08251;A Gudiña-Porta de Galicia
+TN7110000;gare;Madrid-Príncipe Pío;Madrid-Príncipe Pío;Madrid-Príncipe Pío;7110000;;40.421599;-3.719032;ES;Europe/Madrid;Q2807;MD|REG.EXP.|REGIONAL;;nom;9820978455;Q11830371;;;10000;Madrid-Príncipe Pío
+TN7110001;gare;Aravaca;Aravaca;Aravaca;7110001;;40.448581;-3.785495;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5318466126;;;;10001;Aravaca
+TN7110002;gare;Pozuelo;Pozuelo;Pozuelo;7110002;;40.447408;-3.800061;ES;Europe/Madrid;Q639422;REGIONAL;;nom;5318415084;;;;10002;Pozuelo
+TN7110005;gare;Las Rozas;Las Rozas;Las Rozas;7110005;;40.494294;-3.867936;ES;Europe/Madrid;Q592747;REGIONAL;;nom;5318415085;Q1975280;;;10005;Las Rozas
+TN7110100;gare;Pinar de Las Rozas;Pinar de Las Rozas;Pinar de Las Rozas;7110100;;40.523069;-3.882318;ES;Europe/Madrid;Q592747;REGIONAL;;nom;way/204488968;;;;10100;Pinar de las Rozas
+TN7110101;gare;Las Matas;Las Matas;Las Matas;7110101;;40.552387;-3.896766;ES;Europe/Madrid;Q592747;REGIONAL;;gtfs;;;;;10101;Las Matas
+TN7110103;gare;Torrelodones;Torrelodones;Torrelodones;7110103;;40.574554;-3.956601;ES;Europe/Madrid;Q542958;REGIONAL;;gtfs;;;;;10103;Torrelodones
+TN7110104;gare;Galapagar - La Navata;Galapagar - La Navata;Galapagar - La Navata;7110104;;40.600592;-3.982249;ES;Europe/Madrid;Q1615953;REGIONAL;;nom;way/230250506;Q2085120;;;10104;Galapagar-La Navata
+TN7110200;gare;Villalba de Guadarrama;Villalba de Guadarrama;Villalba de Guadarrama;7110200;;40.626383;-4.008153;ES;Europe/Madrid;Q735759;MD|REG.EXP.|REGIONAL;;uic;13728638058;Q931922;;;10200;Villalba de Guadarrama
+TN7110201;gare;San Yago;San Yago;San Yago;7110201;;40.617834;-4.031078;ES;Europe/Madrid;Q1615953;REGIONAL;;uic;13728638057;Q5847153;;;10201;San Yago
+TN7110202;gare;Las Zorreras-Navalquejigo;Las Zorreras-Navalquejigo;Las Zorreras-Navalquejigo;7110202;;40.609449;-4.045954;ES;Europe/Madrid;Q985269;REGIONAL;;uic;12614210902;Q8840897;;;10202;Las Zorreras-Navalquejigo
+TN7110203;gare;El Escorial;El Escorial;El Escorial;7110203;;40.585256;-4.132322;ES;Europe/Madrid;Q985269;MD|REG.EXP.|REGIONAL;;uic;13728638056;Q11681645;;;10203;El Escorial
+TN7110204;gare;Zarzalejo;Zarzalejo;Zarzalejo;7110204;;40.538631;-4.157973;ES;Europe/Madrid;Q132247;MD|REG.EXP.|REGIONAL;;uic;5323342056;Q5847555;;;10204;Zarzalejo
+TN7110205;gare;Robledo de Chavela;Robledo de Chavela;Robledo de Chavela;7110205;;40.521216;-4.247136;ES;Europe/Madrid;Q734136;MD|REG.EXP.|REGIONAL;;uic;5323342059;Q5847065;;;10205;Robledo de Chavela
+TN7110206;gare;Santa María de la Alameda-Peguerinos;Santa María de la Alameda;Santa María de la Alameda;7110206;;40.568823;-4.269318;ES;Europe/Madrid;Q1769405;MD|REG.EXP.|REGIONAL;;uic;5323342058;Q5847180;;;10206;Santa María de la Alameda-Peguerinos
+TN7110207;gare;Las Navas del Marqués;Las Navas del Marqués;Las Navas del Marqués;7110207;;40.58916;-4.36162;ES;Europe/Madrid;Q1752883;MD|REG.EXP.|REGIONAL;;uic;5323342061;Q5846569;;;10207;Las Navas del Marqués
+TN7110208;gare;Navalperal;Navalperal;Navalperal;7110208;;40.590934;-4.408628;ES;Europe/Madrid;Q283318;MD|REG.EXP.|REGIONAL;;uic;2369495811;Q5846800;;;10208;Navalperal
+TN7110209;gare;El Pimpollar;El Pimpollar;El Pimpollar;7110209;;40.567684;-4.28277;ES;Europe/Madrid;Q1769405;MD|REGIONAL;;uic;13644968980;;;;10209;El Pimpollar
+TN7110300;gare;Herradón-La Cañada;Herradón-La Cañada;Herradón-La Cañada;7110300;;40.599349;-4.495012;ES;Europe/Madrid;Q664178;MD|REG.EXP.|REGIONAL;;uic;13644968975;Q5846367;;;10300;Herradón-La Cañada
+TN7110302;gare;Guimorcondo;Guimorcondo;Guimorcondo;7110302;;40.648939;-4.614986;ES;Europe/Madrid;Q15688;MD|REGIONAL;;uic;7063698911;Q5846350;;;10302;Guimorcondo
+TN7110400;gare;Ávila;Ávila;Ávila;7110400;;40.657091;-4.683002;ES;Europe/Madrid;Q15688;MD|REG.EXP.|REGIONAL;;uic;4033752071;Q3095870;;;10400;Ávila
+TN7110409;gare;Arévalo;Arévalo;Arévalo;7110409;;41.047072;-4.701933;ES;Europe/Madrid;Q476793;MD|REG.EXP.;;uic;2370627584;Q5845734;;;10409;Arévalo
+TN7110500;gare;Medina del Campo;Medina del Campo;Medina del Campo;7110500;;41.31726;-4.909678;ES;Europe/Madrid;Q693913;INTERCITY|MD|PROXIMDAD|REG.EXP.;;uic;13364278537;Q6544198;;;10500;Medina del Campo
+TN7110501;gare;Pozaldez;Pozaldez;Pozaldez;7110501;;41.367657;-4.835661;ES;Europe/Madrid;Q1907379;INTERCITY|MD|PROXIMDAD|REG.EXP.;;uic;598602872;Q5846967;;;10501;Pozaldez
+TN7110502;gare;Matapozuelos;Matapozuelos;Matapozuelos;7110502;;41.421901;-4.801475;ES;Europe/Madrid;Q1651689;INTERCITY|MD|PROXIMDAD|REG.EXP.;;uic;2288362387;Q5846691;;;10502;Matapozuelos
+TN7110503;gare;Valdestillas;Valdestillas;Valdestillas;7110503;;41.488744;-4.772948;ES;Europe/Madrid;Q1766688;INTERCITY|MD|PROXIMDAD|REG.EXP.;;uic;3711686028;Q8842143;;;10503;Valdestillas
+TN7110504;gare;Viana;Viana;Viana;7110504;;41.524066;-4.75456;ES;Europe/Madrid;Q1766715;INTERCITY|MD|PROXIMDAD|REG.EXP.;;uic;2288768949;;;;10504;Viana
+TN7110600;gare;Valladolid - Campo Grande;Valladolid - Campo Grande;Valladolid - Campo Grande;7110600;;41.642127;-4.726951;ES;Europe/Madrid;Q8356;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;9175580427;Q3327085;;;10600;Valladolid-Campo Grande
+TN7110602;gare;Cabezón del Pisuerga;Cabezón de Pisuerga;Cabezón de Pisuerga;7110602;;41.737246;-4.65127;ES;Europe/Madrid;Q1650608;PROXIMDAD|REG.EXP.|REGIONAL;;uic;255454508;Q5845889;;;10602;Cabezón del Pisuerga
+TN7110603;gare;Corcos-Aguilarejo;Corcos-Aguilarejo;Corcos-Aguilarejo;7110603;;41.766353;-4.623369;ES;Europe/Madrid;Q2249269;PROXIMDAD|REG.EXP.|REGIONAL;;uic;1986914415;Q5846076;;;10603;Corcos-Aguilarejo
+TN7110604;gare;Cubillas de Santa Marta;Cubillas de Santa Marta;Cubillas de Santa Marta;7110604;;41.80898;-4.57957;ES;Europe/Madrid;Q1922891;PROXIMDAD|REG.EXP.|REGIONAL;;uic;255455773;Q5846096;;;10604;Cubillas de Santa Marta
+TN7110605;gare;Dueñas;Dueñas;Dueñas;7110605;;41.871243;-4.540733;ES;Europe/Madrid;Q1657014;MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;3857310426;Q5577584;;;10605;Dueñas
+TN7110610;gare;Valladolid-Universidad;Valladolid-Universidad;Valladolid-Universidad;7110610;;41.660156;-4.704217;ES;Europe/Madrid;Q8356;MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;7699368435;Q5847418;;;10610;Valladolid Universidad
+TN7111000;gare;Venta de Baños;Venta de Baños;Venta de Baños;7111000;;41.917402;-4.496267;ES;Europe/Madrid;Q1657213;MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;2091973591;Q5847437;;;11000;Venta de Baños
+TN7111004;gare;Magaz;Magaz;Magaz;7111004;;41.976495;-4.431984;ES;Europe/Madrid;Q660256;MD;;uic;1782062632;Q5573801;;;11004;Magaz
+TN7111006;gare;Quintana del Puente;Quintana del Puente;Quintana del Puente;7111006;;42.079961;-4.198554;ES;Europe/Madrid;Q1919402;MD;;uic;2284687616;Q5553058;;;11006;Quintana del Puente
+TN7111009;gare;Villaquirán;Villaquirán;Villaquirán;7111009;;42.215664;-3.999618;ES;Europe/Madrid;Q1656733;MD;;uic;2371681583;Q5847498;;;11009;Villaquirán
+TN7111014;gare;Burgos - Rosa Manzano;Burgos - Rosa Manzano;Burgos - Rosa Manzano;7111014;;42.371165;-3.666322;ES;Europe/Madrid;Q9580;ALVIA|AVE|INTERCITY|MD|REG.EXP.;;uic;13021298528;Q3394788;;;11014;Burgos-Rosa Manzano
+TN7111109;gare;Briviesca;Briviesca;Briviesca;7111109;;42.542732;-3.319081;ES;Europe/Madrid;Q1391501;MD|REG.EXP.;;uic;9144790787;Q5574099;;;11109;Briviesca
+TN7111111;gare;Pancorbo;Pancorbo;Pancorbo;7111111;;42.630205;-3.112818;ES;Europe/Madrid;Q1631272;MD|REG.EXP.;;uic;1920075087;Q5846875;;;11111;Pancorbo
+TN7111200;gare;Miranda de Ebro;Miranda de Ebro;Miranda de Ebro;7111200;;42.690799;-2.941139;ES;Europe/Madrid;Q11994;ALVIA|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;13653602041;Q3327097;;;11200;Miranda de Ebro
+TN7111203;gare;Manzanos;Manzanos;Manzanos;7111203;;42.742736;-2.867335;ES;Europe/Madrid;Q1445256;REG.EXP.|REGIONAL;;uic;2046477540;Q3381098;;;11203;Manzanos
+TN7111204;gare;La Puebla de Arganzón;La Puebla de Arganzón;La Puebla de Arganzón;7111204;;42.765222;-2.830234;ES;Europe/Madrid;Q1634743;REG.EXP.|REGIONAL;;uic;2046477536;Q5645033;;;11204;La Puebla de Arganzón
+TN7111205;gare;Nanclares-Langraiz;Nanclares-Langraiz;Nanclares-Langraiz;7111205;;42.81603;-2.804854;ES;Europe/Madrid;Q1382293;REG.EXP.|REGIONAL;;uic;2046477543;Q3381365;;;11205;Nanclares-Langraiz
+TN7111208;gare;Vitoria-Gasteiz;Vitoria-Gasteiz;Vitoria-Gasteiz;7111208;;42.841303;-2.672697;ES;Europe/Madrid;Q14318;ALVIA|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;29568804;Q3381144;;;11208;Vitoria-Gasteiz
+TN7111210;gare;Alegría-Dulantzi;Alegría-Dulantzi;Alegría-Dulantzi;7111210;;42.849044;-2.514629;ES;Europe/Madrid;Q1330796;MD|REG.EXP.|REGIONAL;;uic;2044176476;Q3381113;;;11210;Alegría-Dulantzi
+TN7111212;gare;Agurain-Salvatierra de Álava;Agurain-Salvatierra de Álava;Agurain-Salvatierra de Álava;7111212;;42.846313;-2.388891;ES;Europe/Madrid;Q398698;MD|REG.EXP.|REGIONAL;;uic;2381701827;Q3381133;;;11212;Agurain-Salvatierra de Álava
+TN7111213;gare;Araia;Araia;Araia;7111213;;42.869233;-2.30674;ES;Europe/Madrid;Q1616072;MD|REG.EXP.|REGIONAL;;uic;4396236530;Q3381106;;;11213;Araia
+TN7111300;gare;Altsasu;Altsasu;Altsasu;7111300;;42.895406;-2.181308;ES;Europe/Madrid;Q1635681;ALVIA|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;4586116154;Q4464138;;;11300;Altsasu
+TN7111305;gare;Brinkola;Brinkola;Brinkola;7111305;;43.018799;-2.334467;ES;Europe/Madrid;Q1113716;REG.EXP.;;nom;1330680970;Q8779423;;;11305;Brinkola
+TN7111306;gare;Legazpi;Legazpi;Legazpi;7111306;;43.051009;-2.33048;ES;Europe/Madrid;Q1113716;MD|REG.EXP.;;nom;608988814;Q8840918;;;11306;Legazpi
+TN7111400;gare;Zumarraga;Zumarraga;Zumarraga;7111400;;43.087015;-2.319883;ES;Europe/Madrid;Q844508;ALVIA|INTERCITY|MD|REG.EXP.;;nom;6856255906;Q8842460;;;11400;Zumarraga
+TN7111402;gare;Ormáiztegui;Ormáiztegui;Ormáiztegui;7111402;;43.040275;-2.256462;ES;Europe/Madrid;Q932808;REG.EXP.;;gtfs;;;;;11402;Ormáiztegui
+TN7111404;gare;Beasain;Beasain;Beasain;7111404;;43.046097;-2.20234;ES;Europe/Madrid;Q847130;MD|REG.EXP.;;nom;2464005848;Q8779367;;;11404;Beasain
+TN7111405;gare;Ordizia;Ordizia;Ordizia;7111405;;43.052614;-2.17922;ES;Europe/Madrid;Q672483;MD|REG.EXP.;;nom;495990620;;;;11405;Ordizia
+TN7111500;gare;Tolosa;Tolosa;Tolosa;7111500;;43.135636;-2.079139;ES;Europe/Madrid;Q497801;ALVIA|INTERCITY|MD|REG.EXP.;;nom;6856255917;Q8842051;;;11500;Tolosa
+TN7111501;gare;Tolosa-Centro;Tolosa-Centro;Tolosa-Centro;7111501;;43.139467;-2.074157;ES;Europe/Madrid;Q497801;REG.EXP.;;nom;498214406;;;;11501;Tolosa-Centro
+TN7111503;gare;Billabona-Zizurkil;Villabona-Zizurkil;Villabona-Zizurkil;7111503;;43.188998;-2.055471;ES;Europe/Madrid;Q1618316;MD|REG.EXP.;;uic;6856255920;;;;11503;Billabona-Zizurkil
+TN7111504;gare;Andoain-Centro;Andoain-Centro;Andoain-Centro;7111504;;43.215526;-2.02031;ES;Europe/Madrid;Q1598976;MD|REG.EXP.;;nom;6856208612;Q11681630;;;11504;Andoain-Centro
+TN7111507;gare;Hernani-Erdia;Hernani-Erdia;Hernani-Erdia;7111507;;43.266478;-1.972623;ES;Europe/Madrid;Q1441329;MD;;gtfs;;;;;11507;Hernani-Erdia
+TN7111511;gare;San Sebastián-Donostia;San Sebastián-Donostia;San Sebastián-Donostia;7111511;;43.317696;-1.976717;ES;Europe/Madrid;Q10313;ALVIA|INTERCITY|MD|REG.EXP.;;gtfs;;;;;11511;San Sebastián-Donostia
+TN7111515;gare;Pasaia;Pasaia;Pasaia;7111515;;43.318981;-1.917073;ES;Europe/Madrid;Q847127;MD|REG.EXP.;;uic;6856255915;;;;11515;Pasaia
+TN7111516;gare;Lezo-Rentería;Lezo-Rentería;Lezo-Rentería;7111516;;43.315958;-1.899314;ES;Europe/Madrid;Q1649625;MD|REG.EXP.;;nom;6856255914;Q11681655;;;11516;Lezo-Rentería
+TN7111600;gare;Irun;Irun;Irun;7111600;;43.339205;-1.800575;ES;Europe/Madrid;Q200201;ALVIA|INTERCITY|MD|REG.EXP.;;uic;9882171870;Q3095803;;;11600;Irun
+TN7112001;gare;Los Negrales;Los Negrales;Los Negrales;7112001;;40.639063;-4.022075;ES;Europe/Madrid;Q947926;REGIONAL;;nom;way/793646319;Q5846633;;;12001;Los Negrales
+TN7112002;gare;Alpedrete;Alpedrete;Alpedrete;7112002;;40.658269;-4.035799;ES;Europe/Madrid;Q947926;REGIONAL;;nom;way/230359020;Q5845680;;;12002;Alpedrete
+TN7112004;gare;Collado Mediano;Collado Mediano;Collado Mediano;7112004;;40.692898;-4.035927;ES;Europe/Madrid;Q1751903;REGIONAL;;gtfs;;;;;12004;Collado Mediano
+TN7112005;gare;Los Molinos-Guadarrama;Los Molinos;Los Molinos;7112005;;40.706694;-4.066908;ES;Europe/Madrid;Q963615;REGIONAL;;nom;way/230359023;Q5846631;;;12005;Los Molinos-Guadarrama
+TN7112006;gare;Cercedilla;Cercedilla;Cercedilla;7112006;;40.737658;-4.066034;ES;Europe/Madrid;Q1646215;REGIONAL;;nom;9023491303;Q5846025;;;12006;Cercedilla
+TN7112007;gare;Tablada;Tablada;Tablada;7112007;;40.705632;-4.125388;ES;Europe/Madrid;Q517450;REGIONAL;;nom;way/230359031;Q5847304;;;12007;Tablada
+TN7112008;gare;Gudillos;Gudillos;Gudillos;7112008;;40.716914;-4.157681;ES;Europe/Madrid;Q986735;REGIONAL;;gtfs;;;;;12008;Gudillos
+TN7112009;gare;San Rafael;San Rafael;San Rafael;7112009;;40.714944;-4.181401;ES;Europe/Madrid;Q986735;REGIONAL;;nom;way/669518729;Q5847147;;;12009;San Rafael
+TN7112010;gare;El Espinar;El Espinar;El Espinar;7112010;;40.740852;-4.189482;ES;Europe/Madrid;Q986735;REGIONAL;;gtfs;;;;;12010;El Espinar
+TN7112011;gare;Los Ángeles de San Rafael;Los Ángeles de San Rafael;Los Ángeles de San Rafael;7112011;;40.778518;-4.207405;ES;Europe/Madrid;Q986735;REGIONAL;;nom;way/1135479477;Q5846644;;;12011;Los Ángeles de San Rafael
+TN7112012;gare;Otero-Herreros;Otero-Herreros;Otero-Herreros;7112012;;40.80092;-4.203559;ES;Europe/Madrid;Q1919693;REGIONAL;;nom;way/1201631840;Q5846856;;;12012;Otero-Herreros
+TN7112013;gare;Ortigosa del Monte;Ortigosa del Monte;Ortigosa del Monte;7112013;;40.832771;-4.168094;ES;Europe/Madrid;Q1948905;REGIONAL;;gtfs;;;;;12013;Ortigosa del Monte
+TN7112014;gare;Navas de Riofrío-La Losa;Navas de Riofrío-La Losa;Navas de Riofrío-La Losa;7112014;;40.856673;-4.141103;ES;Europe/Madrid;Q369759;REGIONAL;;gtfs;;;;;12014;Navas de Riofrío-La Losa
+TN7112100;gare;Segovia;Segovia;Segovia;7112100;;40.933531;-4.113483;ES;Europe/Madrid;Q15684;REGIONAL;;uic;12284813953;;;;12100;Segovia
+TN7113106;gare;Llodio;Llodio;Llodio;7113106;;43.142351;-2.960651;ES;Europe/Madrid;Q1832944;ALVIA|INTERCITY;;gtfs;;;;;13106;Llodio
+TN7113200;gare;Abando Indalecio Prieto;Abando Indalecio Prieto;Abando Indalecio Prieto;7113200;;43.259977;-2.928461;ES;Europe/Madrid;Q8692;ALVIA|INTERCITY;;nom;way/28776478;Q800535;;;13200;Bilbao-Intermod. Abando Indalecio Prieto
+TN7113206;gare;Ametzola;Ametzola;Ametzola;7113206;;43.254537;-2.943133;ES;Europe/Madrid;Q8692;REGIONAL;;nom;5299959449;Q3497373;;;13206;Ametzola
+TN7114100;gare;Palencia;Palencia;Palencia;7114100;;42.015728;-4.533862;ES;Europe/Madrid;Q8378;ALVIA|AVE|AVLO|INTERCITY|MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;1939943099;Q11681667;;;14100;Palencia
+TN7114101;gare;Monzón de Campos;Monzón de Campos;Monzón de Campos;7114101;;42.105565;-4.501729;ES;Europe/Madrid;Q1919373;REG.EXP.;;uic;1732357762;Q5846758;;;14101;Monzón de Campos
+TN7114102;gare;Amusco;Amusco;Amusco;7114102;;42.178228;-4.480577;ES;Europe/Madrid;Q1778135;REG.EXP.;;uic;1732357748;Q5845688;;;14102;Amusco
+TN7114103;gare;Piña;Piña;Piña;7114103;;42.211687;-4.434527;ES;Europe/Madrid;Q1918806;REG.EXP.;;uic;274618736;Q5846923;;;14103;Piña
+TN7114104;gare;Frómista;Frómista;Frómista;7114104;;42.264872;-4.402389;ES;Europe/Madrid;Q988834;REG.EXP.;;uic;274618728;Q5846262;;;14104;Frómista
+TN7114107;gare;Osorno;Osorno;Osorno;7114107;;42.414181;-4.357281;ES;Europe/Madrid;Q1657059;REG.EXP.;;uic;1732357763;Q5846847;;;14107;Osorno
+TN7114108;gare;Espinosa de Villagonzalo;Espinosa de Villagonzalo;Espinosa de Villagonzalo;7114108;;42.478946;-4.374525;ES;Europe/Madrid;Q1923896;REG.EXP.;;uic;985942118;Q5846215;;;14108;Espinosa de Villagonzalo
+TN7114111;gare;Herrera de Pisuerga;Herrera de Pisuerga;Herrera de Pisuerga;7114111;;42.598675;-4.316472;ES;Europe/Madrid;Q567563;REG.EXP.;;uic;1732357761;Q5846369;;;14111;Herrera de Pisuerga
+TN7114112;gare;Alar del Rey;Alar del Rey;Alar del Rey;7114112;;42.656821;-4.311233;ES;Europe/Madrid;Q572336;REG.EXP.;;uic;12714808106;Q5845610;;;14112;Alar del Rey
+TN7114113;gare;Mave;Mave;Mave;7114113;;42.723371;-4.275657;ES;Europe/Madrid;Q398349;REG.EXP.;;uic;258415358;Q5846695;;;14113;Mave
+TN7114114;gare;Aguilar de Campoo;Aguilar de Campoo;Aguilar de Campoo;7114114;;42.785268;-4.233745;ES;Europe/Madrid;Q398349;ALVIA|MD|REG.EXP.;;uic;1732357745;Q5845598;;;14114;Aguilar de Campoo
+TN7114115;gare;Quintanilla de las Torres;Quintanilla de las Torres;Quintanilla de las Torres;7114115;;42.818934;-4.202799;ES;Europe/Madrid;Q1907342;REG.EXP.;;uic;498472945;Q5847021;;;14115;Quintanilla de las Torres
+TN7114117;gare;El Carrión;El Carrión;El Carrión;7114117;;42.116751;-4.495862;ES;Europe/Madrid;Q1919373;REG.EXP.;;uic;1732357750;Q5846149;;;14117;El Carrión
+TN7114200;gare;Mataporquera;Mataporquera;Mataporquera;7114200;;42.871206;-4.165059;ES;Europe/Madrid;Q1603048;REG.EXP.|REGIONAL;;uic;9879276439;Q5846686;;;14200;Mataporquera
+TN7114202;gare;Reinosa;Reinosa;Reinosa;7114202;;42.994772;-4.140447;ES;Europe/Madrid;Q671326;ALVIA|INTERCITY|MD|REG.EXP.;;nom;13333883588;;;;14202;Reinosa
+TN7114206;gare;Bárcena;Bárcena;Bárcena;7114206;;43.128585;-4.053812;ES;Europe/Madrid;Q1606550;REG.EXP.;;nom;3826212457;Q6432985;;;14206;Bárcena
+TN7114210;gare;Los Corrales de Buelna;Los Corrales de Buelna;Los Corrales de Buelna;7114210;;43.255134;-4.063884;ES;Europe/Madrid;Q1443867;REG.EXP.;;nom;13728429302;;;;14210;Los Corrales de Buelna
+TN7114213;gare;Torrelavega;Torrelavega;Torrelavega;7114213;;43.327441;-4.042462;ES;Europe/Madrid;Q494693;ALVIA|INTERCITY|MD|REG.EXP.;;nom;8038471610;;;;14213;Torrelavega
+TN7114216;gare;Renedo;Renedo;Renedo;7114216;;43.353053;-3.949509;ES;Europe/Madrid;Q1623000;REG.EXP.;;nom;13728429303;;;;14216;Renedo
+TN7114220;gare;Maliaño;Maliaño - La Vidriera;Maliaño - La Vidriera;7114220;;43.416118;-3.840962;ES;Europe/Madrid;Q1635185;REG.EXP.;;nom;6283406177;Q5846665;;;14220;Maliaño
+TN7114223;gare;Santander;Santander;Santander;7114223;;43.458654;-3.811227;ES;Europe/Madrid;Q12233;ALVIA|INTERCITY|MD|REG.EXP.|REGIONAL;;nom;5893228216;;;;14223;Santander
+TN7114230;gare;Valdecilla;Valdecilla;Valdecilla;7114230;;43.453979;-3.827804;ES;Europe/Madrid;Q12233;REG.EXP.;;nom;13333702371;Q5847394;;;14230;Valdecilla
+TN7115001;gare;Grijota;Grijota;Grijota;7115001;;42.049842;-4.584914;ES;Europe/Madrid;Q1771168;REG.EXP.|REGIONAL;;uic;2383276325;Q5846322;;;15001;Grijota
+TN7115003;gare;Becerril;Becerril de Campos;Becerril de Campos;7115003;;42.104686;-4.647265;ES;Europe/Madrid;Q1906940;REG.EXP.|REGIONAL;;uic;2383262907;Q5845788;;;15003;Becerril
+TN7115004;gare;Paredes de Nava;Paredes de Nava;Paredes de Nava;7115004;;42.150683;-4.697627;ES;Europe/Madrid;Q919652;MD|REG.EXP.|REGIONAL;;uic;2383253431;Q5846890;;;15004;Paredes de Nava
+TN7115006;gare;Cisneros;Cisneros;Cisneros;7115006;;42.190988;-4.850384;ES;Europe/Madrid;Q1923902;REG.EXP.;;uic;569757411;Q5683905;;;15006;Cisneros
+TN7115007;gare;Villada;Villada;Villada;7115007;;42.245131;-4.97068;ES;Europe/Madrid;Q191770;MD|REG.EXP.|REGIONAL;;uic;2320749276;Q5847463;;;15007;Villada
+TN7115008;gare;Grajal;Grajal de Campos;Grajal de Campos;7115008;;42.323228;-5.013308;ES;Europe/Madrid;Q137698;REG.EXP.|REGIONAL;;uic;11494000079;Q5846316;;;15008;Grajal
+TN7115009;gare;Sahagún;Sahagún;Sahagún;7115009;;42.369396;-5.022602;ES;Europe/Madrid;Q821860;MD|REG.EXP.|REGIONAL;;uic;2384166014;Q968974;;;15009;Sahagún
+TN7115012;gare;El Burgo Ranero;El Burgo Ranero;El Burgo Ranero;7115012;;42.425772;-5.208454;ES;Europe/Madrid;Q26585;REG.EXP.|REGIONAL;;uic;12589982358;Q5846142;;;15012;El Burgo Ranero
+TN7115014;gare;Santas Martas;Santas Martas;Santas Martas;7115014;;42.459879;-5.386726;ES;Europe/Madrid;Q1635290;REG.EXP.;;uic;2384202227;Q5847187;;;15014;Santas Martas
+TN7115015;gare;Palanquinos;Palanquinos;Palanquinos;7115015;;42.460728;-5.495935;ES;Europe/Madrid;Q1640166;REG.EXP.|REGIONAL;;uic;2384757135;Q5846869;;;15015;Palanquinos
+TN7115100;gare;León;León;León;7115100;;42.5951;-5.58194;ES;Europe/Madrid;Q15699;ALVIA|AVE|AVLO|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;5299078295;Q3819662;;;15100;León
+TN7115106;gare;La Robla;La Robla;La Robla;7115106;;42.80399;-5.626479;ES;Europe/Madrid;Q60979;REGIONAL;;uic;4586092223;Q5846522;;;15106;La Robla
+TN7115108;gare;La Pola de Gordón;La Pola de Gordón;La Pola de Gordón;7115108;;42.853904;-5.6747;ES;Europe/Madrid;Q1605928;REGIONAL;;uic;13298248490;Q5650813;;;15108;La Pola de Gordón
+TN7115109;gare;Santa Lucía;Santa Lucía;Santa Lucía;7115109;;42.874946;-5.639576;ES;Europe/Madrid;Q1605928;REGIONAL;;uic;13653715565;Q2878197;;;15109;Santa Lucía
+TN7115112;gare;Villamanín;Villamanín;Villamanín;7115112;;42.936635;-5.657842;ES;Europe/Madrid;Q977246;REGIONAL;;uic;13653715566;Q5847484;;;15112;Villamanín
+TN7115113;gare;Busdongo;Busdongo;Busdongo;7115113;;42.984369;-5.705299;ES;Europe/Madrid;Q977246;REGIONAL;;uic;13653715567;Q5845867;;;15113;Busdongo
+TN7115116;gare;Linares-Congostinas;Ḷḷinares-Congostinas;Ḷḷinares-Congostinas;7115116;;43.1017;-5.772019;ES;Europe/Madrid;Q1031286;REGIONAL;;nom;14246877012;Q2884946;;;15116;Linares-Congostinas
+TN7115118;gare;Puente de los Fierros;Puente de los Fierros;Puente de los Fierros;7115118;;43.071679;-5.769441;ES;Europe/Madrid;Q1031286;REGIONAL;;nom;way/176265528;Q5846984;;;15118;Puente de los Fierros
+TN7115120;gare;Campomanes;Campomanes;Campomanes;7115120;;43.110121;-5.8164;ES;Europe/Madrid;Q1031286;REGIONAL;;nom;way/176265484;Q5845941;;;15120;Campomanes
+TN7115122;gare;Pola de Lena;Pola de Lena;Pola de Lena;7115122;;43.158649;-5.831126;ES;Europe/Madrid;Q1031286;ALVIA|AVE|AVLO|MD|REGIONAL;;nom;4586092222;Q5846945;;;15122;Pola de Lena
+TN7115200;gare;Ujo;Ujo;Ujo;7115200;;43.204696;-5.792642;ES;Europe/Madrid;Q818376;REGIONAL;;gtfs;;;;;15200;Ujo
+TN7115203;gare;Mieres-Puente;Mieres-Puente;Mieres-Puente;7115203;;43.250027;-5.782262;ES;Europe/Madrid;Q818376;ALVIA|AVE|AVLO|MD|REGIONAL;;gtfs;;;;;15203;Mieres-Puente
+TN7115211;gare;Oviedo;Oviedo / Uviéu;Oviedo / Uviéu;7115211;;43.366363;-5.854867;ES;Europe/Madrid;Q14317;ALVIA|AVE|AVLO|MD|REGIONAL;;nom;4586092220;Q3394520;;;15211;Oviedo
+TN7115217;gare;La Corredoria;La Corredoria;La Corredoria;7115217;;43.388168;-5.827139;ES;Europe/Madrid;Q14317;REGIONAL;;nom;13519909358;;;;15217;La Corredoria
+TN7115218;gare;Llamaquique;Llamaquique;Llamaquique;7115218;;43.358807;-5.857338;ES;Europe/Madrid;Q14317;REGIONAL;;nom;way/84542134;Q5846608;;;15218;Llamaquique
+TN7115401;gare;Calzada de Asturias;Calzada de Asturias;Calzada de Asturias;7115401;;43.535362;-5.697157;ES;Europe/Madrid;Q12273;REGIONAL;;nom;way/272210254;Q5845918;;;15401;Calzada de Asturias
+TN7115410;gare;Gijón-Sanz Crespo;Gijón-Sanz Crespo;Gijón-Sanz Crespo;7115410;;43.537733;-5.675809;ES;Europe/Madrid;Q12273;ALVIA|AVE|AVLO|MD|REGIONAL;;gtfs;;;;;15410;Gijón-Sanz Crespo
+TN7116403;gare;Avilés;Avilés;Avilés;7116403;;43.561475;-5.922956;ES;Europe/Madrid;Q14649;ALVIA;;nom;30546837;Q5845745;;;16403;Avilés
+TN7117000;gare;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;7117000;;40.472057;-3.682262;ES;Europe/Madrid;Q2807;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;9821007500;;;;17000;Madrid-Chamartín-Clara Campoamor
+TN7118000;gare;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;7118000;;40.406619;-3.689439;ES;Europe/Madrid;Q2807;ALVIA|MD|PROXIMDAD|REG.EXP.|REGIONAL;;gtfs;;;;;18000;Madrid-Atocha Cercanías
+TN7118001;gare;Madrid-Recoletos;Recoletos;Recoletos;7118001;;40.422496;-3.691704;ES;Europe/Madrid;Q2807;REGIONAL;;nom;4999319356;Q8841582;;;18001;Madrid-Recoletos
+TN7118002;gare;Madrid-Nuevos Ministerios;Nuevos Ministerios;Nuevos Ministerios;7118002;;40.445842;-3.691699;ES;Europe/Madrid;Q2807;REG.EXP.|REGIONAL;;nom;4998670036;Q2705508;;;18002;Madrid-Nuevos Ministerios
+TN7120002;gare;Quintana-Raneros;Quintana-Raneros;Quintana-Raneros;7120002;;42.550092;-5.637936;ES;Europe/Madrid;Q1605919;REG.EXP.;;uic;7538542562;Q5847019;;;20002;Quintana-Raneros
+TN7120005;gare;Veguellina;Veguellina;Veguellina;7120005;;42.433473;-5.887502;ES;Europe/Madrid;Q1615462;INTERCITY|MD|REG.EXP.;;uic;7529630164;Q5847428;;;20005;Veguellina
+TN7120006;gare;Barrientos;Barrientos;Barrientos;7120006;;42.414444;-5.964055;ES;Europe/Madrid;Q1635228;REG.EXP.;;uic;13683507997;Q5845777;;;20006;Barrientos
+TN7120007;gare;Nistal;Nistal;Nistal;7120007;;42.424394;-6.008028;ES;Europe/Madrid;Q68572;REG.EXP.;;uic;7538431844;;;;20007;Nistal
+TN7120008;gare;Villavante;Villavante;Villavante;7120008;;42.464586;-5.838958;ES;Europe/Madrid;Q138239;REG.EXP.;;uic;7538495683;;;;20008;Villavante
+TN7120100;gare;Astorga;Astorga;Astorga;7120100;;42.459398;-6.047059;ES;Europe/Madrid;Q465078;ALVIA|INTERCITY|MD|REG.EXP.;;uic;2974661834;Q9161351;;;20100;Astorga
+TN7120102;gare;Vega-Magaz;Vega-Magaz;Vega-Magaz;7120102;;42.553521;-6.068207;ES;Europe/Madrid;Q141235;INTERCITY|MD|REG.EXP.;;uic;7599789062;Q5847426;;;20102;Vega-Magaz
+TN7120103;gare;Porqueros;Porqueros;Porqueros;7120103;;42.598784;-6.108402;ES;Europe/Madrid;Q141235;REG.EXP.;;uic;7599486979;Q5846954;;;20103;Porqueros
+TN7120104;gare;Brañuelas;Brañuelas;Brañuelas;7120104;;42.632778;-6.200973;ES;Europe/Madrid;Q1622304;INTERCITY|MD|REG.EXP.;;uic;6077734214;Q5660983;;;20104;Brañuelas
+TN7120106;gare;La Granja;La Granja de San Vicente;La Granja de San Vicente;7120106;;42.606827;-6.294997;ES;Europe/Madrid;Q1605945;REG.EXP.;;uic;way/813498064;Q3820909;;;20106;La Granja
+TN7120109;gare;Torre del Bierzo;Torre del Bierzo;Torre del Bierzo;7120109;;42.595561;-6.328598;ES;Europe/Madrid;Q1605945;INTERCITY|MD|REG.EXP.;;uic;7525442923;Q5847344;;;20109;Torre del Bierzo
+TN7120111;gare;Bembibre;Bembibre;Bembibre;7120111;;42.609537;-6.422212;ES;Europe/Madrid;Q1157834;ALVIA|INTERCITY|MD|REG.EXP.;;uic;13714561632;Q5845797;;;20111;Bembibre
+TN7120113;gare;San Miguel de las Dueñas;San Miguel de las Dueñas;San Miguel de las Dueñas;7120113;;42.586501;-6.523927;ES;Europe/Madrid;Q44901;INTERCITY|MD|REG.EXP.;;uic;184051644;Q5847142;;;20113;San Miguel de las Dueñas
+TN7120200;gare;Ponferrada;Ponferrada;Ponferrada;7120200;;42.545662;-6.602492;ES;Europe/Madrid;Q12164;ALVIA|INTERCITY|MD|REG.EXP.;;uic;1069592576;Q5846947;;;20200;Ponferrada
+TN7120203;gare;Villadepalos;Villadepalos;Villadepalos;7120203;;42.536848;-6.751036;ES;Europe/Madrid;Q1442707;REG.EXP.;;nom;1876260781;Q5847467;;;20203;Villadepalos
+TN7120204;gare;Toral de los Vados;Toral de los Vados;Toral de los Vados;7120204;;42.540965;-6.776791;ES;Europe/Madrid;Q3332541;REG.EXP.;;uic;13151175122;Q5847333;;;20204;Toral de los Vados
+TN7120207;gare;Covas;Covas;Covas;7120207;;42.475254;-6.830825;ES;Europe/Madrid;Q516631;REG.EXP.;;nom;12759737324;Q8779662;;;20207;Covas
+TN7120208;gare;Quereño;Quereño;Quereño;7120208;;42.420644;-6.829461;ES;Europe/Madrid;Q516631;REG.EXP.;;uic;12587261280;Q8841564;;;20208;Quereño
+TN7120210;gare;Sobradelo;Sobradelo;Sobradelo;7120210;;42.414768;-6.911938;ES;Europe/Madrid;Q1607709;REG.EXP.;;uic;12589930093;Q8841969;;;20210;Sobradelo
+TN7120211;gare;O Barco de Valdeorras;O Barco de Valdeorras;O Barco de Valdeorras;7120211;;42.418258;-6.985049;ES;Europe/Madrid;Q1607428;ALVIA|MD|REG.EXP.;;nom;13753836213;Q8779694;;;20211;O Barco de Valdeorras
+TN7120212;gare;Vilamartín de Valdeorras;Vilamartín de Valdeorras;Vilamartín de Valdeorras;7120212;;42.411519;-7.061416;ES;Europe/Madrid;Q1618272;REG.EXP.;;uic;1876310708;Q8842239;;;20212;Vilamartín de Valdeorras
+TN7120213;gare;A Rúa-Petín;A Rúa-Petín;A Rúa-Petín;7120213;;42.392606;-7.113248;ES;Europe/Madrid;Q1607619;ALVIA|MD|REG.EXP.;;uic;13753836215;Q8779988;;;20213;A Rúa-Petín
+TN7120214;gare;Montefurado;Montefurado;Montefurado;7120214;;42.393697;-7.194552;ES;Europe/Madrid;Q969128;REG.EXP.;;uic;13753836216;Q8841089;;;20214;Montefurado
+TN7120216;gare;San Clodio-Quiroga;San Clodio-Quiroga;San Clodio-Quiroga;7120216;;42.465166;-7.287211;ES;Europe/Madrid;Q387385;ALVIA|MD|REG.EXP.;;uic;13753836217;Q8841715;;;20216;San Clodio-Quiroga
+TN7120218;gare;A Pobra do Brollón;A Pobra do Brollón;A Pobra do Brollón;7120218;;42.533635;-7.400268;ES;Europe/Madrid;Q920774;REG.EXP.;;uic;13373732630;Q8841547;;;20218;A Pobra Do Brollón
+TN7120300;gare;Monforte de Lemos;Monforte de Lemos;Monforte de Lemos;7120300;;42.529523;-7.503136;ES;Europe/Madrid;Q818341;ALVIA|INTERCITY|MD|REG.EXP.;;uic;1935793978;Q2884612;;;20300;Monforte de Lemos
+TN7120305;gare;Sarria;Sarria;Sarria;7120305;;42.78418;-7.418996;ES;Europe/Madrid;Q174833;ALVIA|INTERCITY|MD;;uic;13456229213;Q5142552;;;20305;Sarria
+TN7120306;gare;Pedrelo-Celtigos;Pedrelo-Celtigos;Pedrelo-Celtigos;7120306;;42.832888;-7.393416;ES;Europe/Madrid;Q174833;MD;;nom;12587239425;Q5429454;;;20306;Pedrelo-Céltigos
+TN7120309;gare;Lugo;Lugo;Lugo;7120309;;43.015095;-7.552157;ES;Europe/Madrid;Q11125;ALVIA|INTERCITY|MD;;uic;way/86123754;Q596245;;;20309;Lugo
+TN7120310;gare;Rábade;Rábade;Rábade;7120310;;43.121378;-7.624835;ES;Europe/Madrid;Q1444243;MD;;gtfs;;;;;20310;Rábade
+TN7120312;gare;Baamonde;Baamonde;Baamonde;7120312;;43.173405;-7.756128;ES;Europe/Madrid;Q959803;MD;;gtfs;;;;;20312;Baamonde
+TN7120313;gare;Parga;Parga;Parga;7120313;;43.163644;-7.837383;ES;Europe/Madrid;Q1602975;MD;;gtfs;;;;;20313;Parga
+TN7120314;gare;Guitiriz;Guitiriz;Guitiriz;7120314;;43.179051;-7.895104;ES;Europe/Madrid;Q1602975;MD;;nom;way/258110614;Q583256;;;20314;Guitiriz
+TN7120316;gare;Teixeiro;Teixeiro;Teixeiro;7120316;;43.141387;-8.037675;ES;Europe/Madrid;Q1373939;MD;;uic;way/108153480;Q583245;;;20316;Teixeiro
+TN7120317;gare;Curtis;Curtis;Curtis;7120317;;43.1273;-8.143236;ES;Europe/Madrid;Q1373939;MD;;uic;13573540430;Q11681644;;;20317;Curtis
+TN7120318;gare;Piñoi;Piñoi;Piñoi;7120318;;43.127922;-8.163498;ES;Europe/Madrid;Q13423086;MD;;gtfs;;;;;20318;Piñoi
+TN7120319;gare;Cesuras;Cesuras;Cesuras;7120319;;43.17302;-8.200544;ES;Europe/Madrid;Q13423086;MD;;nom;way/238054649;Q5429435;;;20319;Cesuras
+TN7120320;gare;Oza dos Ríos;Oza dos Ríos;Oza dos Ríos;7120320;;43.218708;-8.187015;ES;Europe/Madrid;Q13423086;MD;;nom;way/238055509;Q6392795;;;20320;Oza Dos Ríos
+TN7120400;gare;Betanzos-Infesta;Betanzos-Infesta;Betanzos-Infesta;7120400;;43.270698;-8.225847;ES;Europe/Madrid;Q671341;MD;;gtfs;;;;;20400;Betanzos-Infesta
+TN7120402;gare;Cecebre;Cecebre;Cecebre;7120402;;43.287848;-8.307769;ES;Europe/Madrid;Q1113375;MD;;nom;13782316676;Q6389575;;;20402;Cecebre
+TN7120403;gare;Cambre;Cambre;Cambre;7120403;;43.290441;-8.352171;ES;Europe/Madrid;Q1113375;MD;;nom;13782316675;Q6389550;;;20403;Cambre
+TN7120404;gare;O Burgo-Santiago;O Burgo-Santiago;O Burgo-Santiago;7120404;;43.317982;-8.368617;ES;Europe/Madrid;Q1113450;MD;;nom;13782316674;Q6389560;;;20404;O Burgo-Santiago
+TN7120410;gare;Elviña-Universidade;Elviña-Universidade;Elviña-Universidade;7120410;;43.335253;-8.413009;ES;Europe/Madrid;Q8757;MD;;nom;13782316673;;;;20410;Elviña-Universidade
+TN7121001;gare;Betanzos-Cidade;Betanzos-Cidade;Betanzos-Cidade;7121001;;43.284181;-8.21593;ES;Europe/Madrid;Q671341;MD;;nom;way/213985408;Q5845821;;;21001;Betanzos-Cidade
+TN7121002;gare;Miño;Miño;Miño;7121002;;43.349685;-8.207239;ES;Europe/Madrid;Q1616112;MD;;nom;2475737415;Q20545374;;;21002;Miño
+TN7121003;gare;Perbes;Perbes;Perbes;7121003;;43.378197;-8.201106;ES;Europe/Madrid;Q1616112;MD;;gtfs;;;;;21003;Perbes
+TN7121004;gare;Pontedeume;Pontedeume;Pontedeume;7121004;;43.411847;-8.180344;ES;Europe/Madrid;Q765283;MD;;nom;8008982086;Q5552484;;;21004;Pontedeume
+TN7121005;gare;Cabanas;Cabanas-O Areal;Cabanas-O Areal;7121005;;43.415722;-8.168853;ES;Europe/Madrid;Q974129;MD;;nom;14235294087;;;;21005;Cabanas
+TN7121007;gare;Barallobre;Barallobre;Barallobre;7121007;;43.462878;-8.188603;ES;Europe/Madrid;Q1374025;MD;;nom;2238588521;Q7830477;;;21007;Barallobre
+TN7121008;gare;Perlío;Perlío-Fene;Perlío-Fene;7121008;;43.472338;-8.174863;ES;Europe/Madrid;Q1374025;MD;;nom;2238595941;;;;21008;Perlío
+TN7121009;gare;Neda;Neda;Neda;7121009;;43.495301;-8.161085;ES;Europe/Madrid;Q1635664;MD;;nom;362214339;Q5846804;;;21009;Neda
+TN7121010;gare;Ferrol;Ferrol;Ferrol;7121010;;43.48805;-8.231002;ES;Europe/Madrid;Q485329;MD|REGIONAL;;nom;way/24930154;Q5809045;;;21010;Ferrol
+TN7122001;gare;Canaval;Canaval;Canaval;7122001;;42.482766;-7.587686;ES;Europe/Madrid;Q1442183;REG.EXP.;;nom;1876320716;Q11681638;;;22001;Canaval
+TN7122002;gare;Areas;Areas;Areas;7122002;;42.457911;-7.629271;ES;Europe/Madrid;Q1442183;REG.EXP.;;nom;13727193373;;;;22002;Areas
+TN7122003;gare;Santo Estevo do Sil;Santo Estevo do Sil;Santo Estevo do Sil;7122003;;42.427462;-7.662809;ES;Europe/Madrid;Q1447446;REG.EXP.;;nom;1876326473;Q8841724;;;22003;Santo Estevo Do Sil
+TN7122004;gare;San Pedro do Sil;San Pedro do Sil;San Pedro do Sil;7122004;;42.452933;-7.712678;ES;Europe/Madrid;Q1447446;REG.EXP.;;nom;12589982363;Q11681678;;;22004;San Pedro Do Sil
+TN7122005;gare;Os Peares;Os Peares;Os Peares;7122005;;42.451152;-7.735593;ES;Europe/Madrid;Q1603795;REG.EXP.;;nom;way/1220297137;Q8840968;;;22005;Os Peares
+TN7122006;gare;Barra de Miño;Barra de Miño;Barra de Miño;7122006;;42.401039;-7.802515;ES;Europe/Madrid;Q1605474;REG.EXP.;;nom;6090258617;Q8779352;;;22006;Barra de Miño
+TN7122100;gare;Ourense;Ourense-Empalme;Ourense-Empalme;7122100;;42.350692;-7.872551;ES;Europe/Madrid;Q99151;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|REG.EXP.|REGIONAL;;nom;1842017741;Q3268431;;;22100;Ourense
+TN7122101;gare;Barbantes;Barbantes;Barbantes;7122101;;42.338506;-8.011458;ES;Europe/Madrid;Q1607762;REG.EXP.;;nom;14106323728;Q8779339;;;22101;Barbantes
+TN7122102;gare;Ribadavia;Ribadavia;Ribadavia;7122102;;42.293039;-8.139015;ES;Europe/Madrid;Q917180;REG.EXP.;;uic;13522163528;Q8841616;;;22102;Ribadavia
+TN7122103;gare;Filgueira;Filgueira;Filgueira;7122103;;42.219917;-8.184788;ES;Europe/Madrid;Q1627605;REG.EXP.;;gtfs;;;;;22103;Filgueira
+TN7122104;gare;Frieira;Frieira;Frieira;7122104;;42.154882;-8.201036;ES;Europe/Madrid;Q1627605;REG.EXP.;;gtfs;;;;;22104;Frieira
+TN7122105;gare;Pousa-Crecente;A Pousa-Crecente;A Pousa-Crecente;7122105;;42.136694;-8.234894;ES;Europe/Madrid;Q1627605;REG.EXP.;;nom;way/533271333;Q8841534;;;22105;Pousa-Crecente
+TN7122106;gare;Arbo;Arbo;Arbo;7122106;;42.106938;-8.300076;ES;Europe/Madrid;Q630031;REG.EXP.;;nom;13717398240;Q8779298;;;22106;Arbo
+TN7122107;gare;Sela;Sela;Sela;7122107;;42.092144;-8.355956;ES;Europe/Madrid;Q630031;REG.EXP.;;nom;12769236781;;;;22107;Sela
+TN7122108;gare;As Neves;As Neves;As Neves;7122108;;42.075415;-8.420102;ES;Europe/Madrid;Q1634850;REG.EXP.;;nom;12229427555;Q8840901;;;22108;As Neves
+TN7122109;gare;Salvaterra;Salvaterra de Miño;Salvaterra de Miño;7122109;;42.081711;-8.49522;ES;Europe/Madrid;Q1629539;REG.EXP.;;nom;13716624633;Q8841689;;;22109;Salvaterra
+TN7122110;gare;Caldelas;Caldelas de Tui;Caldelas de Tui;7122110;;42.0557;-8.566414;ES;Europe/Madrid;Q824122;REG.EXP.;;nom;13717398211;;;;22110;Caldelas
+TN7122200;gare;Guillarei;Guillarei;Guillarei;7122200;;42.065667;-8.622531;ES;Europe/Madrid;Q824122;REG.EXP.;;uic;way/213840225;Q5142578;;;22200;Guillarei
+TN7122201;gare;O Porriño;O Porriño;O Porriño;7122201;;42.164144;-8.622174;ES;Europe/Madrid;Q1616392;REG.EXP.;;nom;12819737452;Q5639114;;;22201;O Porriño
+TN7122300;gare;Redondela;Redondela;Redondela;7122300;;42.286005;-8.619402;ES;Europe/Madrid;Q833032;REG.EXP.|REGIONAL;;gtfs;;;;;22300;Redondela
+TN7122308;gare;Vigo-Guixar;Vigo-Guixar;Vigo-Guixar;7122308;;42.23926;-8.712074;ES;Europe/Madrid;Q8745;REG.EXP.|REGIONAL|TRENCELTA;;nom;way/141812901;Q3330602;;;22308;Vigo-Guixar
+TN7123000;gare;Redondela-Picota;Redondela-Picota;Redondela-Picota;7123000;;42.286866;-8.607118;ES;Europe/Madrid;Q833032;REGIONAL;;gtfs;;;;;23000;Redondela-Picota
+TN7123001;gare;Cesantes;Cesantes;Cesantes;7123001;;42.310205;-8.616439;ES;Europe/Madrid;Q833032;REGIONAL;;nom;420539798;Q8002684;;;23001;Cesantes
+TN7123002;gare;Arcade;Arcade;Arcade;7123002;;42.340411;-8.610669;ES;Europe/Madrid;Q1628271;MD|REGIONAL;;nom;1692189268;Q8004097;;;23002;Arcade
+TN7123004;gare;Pontevedra;Pontevedra;Pontevedra;7123004;;42.421679;-8.6354;ES;Europe/Madrid;Q12411;ALVIA|AVE|AVLO|MD|REGIONAL;;nom;453651815;Q11681671;;;23004;Pontevedra
+TN7123005;gare;Portela;A Portela;A Portela;7123005;;42.5177;-8.654353;ES;Europe/Madrid;Q1645010;REGIONAL;;nom;3006639152;Q8021843;;;23005;Portela
+TN7123008;gare;Vilagarcía de Arousa;Vilagarcía de Arousa;Vilagarcía de Arousa;7123008;;42.601972;-8.762284;ES;Europe/Madrid;Q1442637;ALVIA|AVE|AVLO|MD|REGIONAL;;nom;way/391681629;Q8026084;;;23008;Vilagarcía de Arousa
+TN7123009;gare;Catoira;Catoira;Catoira;7123009;;42.672265;-8.725358;ES;Europe/Madrid;Q377244;REGIONAL;;nom;way/630158383;Q8027331;;;23009;Catoira
+TN7123010;gare;Pontecesures;Pontecesures;Pontecesures;7123010;;42.722949;-8.652153;ES;Europe/Madrid;Q1627584;REGIONAL;;nom;way/738202043;Q8028272;;;23010;Pontecesures
+TN7123011;gare;Padrón;Padrón;Padrón;7123011;;42.738977;-8.652412;ES;Europe/Madrid;Q500494;REGIONAL;;nom;12587231537;Q8037564;;;23011;Padrón
+TN7123013;gare;Osebe;Osebe;Osebe;7123013;;42.825233;-8.615681;ES;Europe/Madrid;Q1635642;REGIONAL;;nom;12589966787;Q8040872;;;23013;Osebe
+TN7123018;gare;Pontevedra Universidad;Pontevedra Universidad;Pontevedra Universidad;7123018;;42.43875;-8.630481;ES;Europe/Madrid;Q12411;REGIONAL;;gtfs;;;;;23018;Pontevedra Universidad
+TN7123021;gare;Padrón Barbanza;Padrón Barbanza;Padrón Barbanza;7123021;;42.738967;-8.652614;ES;Europe/Madrid;Q500494;MD;;gtfs;;;;;23021;Padrón Barbanza
+TN7130000;gare;Monfragüe;Monfragüe;Monfragüe;7130000;;39.937619;-6.101247;ES;Europe/Madrid;Q1643692;ALVIA|MD|REG.EXP.;;uic;2328131200;Q5846733;;;30000;Monfragüe
+TN7130002;gare;Plasencia;Plasencia;Plasencia;7130002;;40.022258;-6.09963;ES;Europe/Madrid;Q241767;ALVIA|MD|REG.EXP.;;uic;325231127;Q5846926;;;30002;Plasencia
+TN7130100;gare;Salamanca;Salamanca;Salamanca;7130100;;40.971382;-5.648628;ES;Europe/Madrid;Q15695;ALVIA|INTERCITY|MD|REG.EXP.;;uic;4448930346;Q6399140;;;30100;Salamanca
+TN7130110;gare;Salamanca-La Alamedilla;La Alamedilla;La Alamedilla;7130110;;40.966758;-5.656258;ES;Europe/Madrid;Q15695;MD|REG.EXP.;;uic;10805162798;Q5846453;;;30110;Salamanca-La Alamedilla
+TN7130200;gare;Zamora;Zamora;Zamora;7130200;;41.516001;-5.739782;ES;Europe/Madrid;Q15696;ALVIA|AVE|AVLO|REG.EXP.;;uic;791063229;Q8709271;;;30200;Zamora
+TN7131002;gare;Nava del Rey;Nava del Rey;Nava del Rey;7131002;;41.334801;-5.076726;ES;Europe/Madrid;Q1640915;REG.EXP.;;uic;13640759008;Q5846796;;;31002;Nava del Rey
+TN7131006;gare;Toro;Toro;Toro;7131006;;41.511778;-5.383329;ES;Europe/Madrid;Q836948;REG.EXP.;;uic;9088943157;Q5847334;;;31006;Toro
+TN7131104;gare;Carbajales de Alba;Carbajales de Alba;Carbajales de Alba;7131104;;41.681635;-5.97197;ES;Europe/Madrid;Q1650438;REG.EXP.;;uic;13646554042;Q5845956;;;31104;Carbajales de Alba
+TN7131106;gare;Ferreruela de Tábara;Ferreruela de Tábara;Ferreruela de Tábara;7131106;;41.764092;-6.073925;ES;Europe/Madrid;Q1922162;REG.EXP.;;uic;13646554043;Q5846232;;;31106;Ferreruela de Tábara
+TN7131107;gare;Abejera;Abejera;Abejera;7131107;;41.809424;-6.141823;ES;Europe/Madrid;Q1653184;REG.EXP.;;uic;13646554044;Q5845579;;;31107;Abejera
+TN7131108;gare;Sarracín de Aliste;Sarracín de Aliste;Sarracín de Aliste;7131108;;41.848337;-6.205027;ES;Europe/Madrid;Q1653184;REG.EXP.;;uic;13646554045;Q5811387;;;31108;Sarracín de Aliste
+TN7131109;gare;Cabañas de Aliste;Cabañas de Aliste;Cabañas de Aliste;7131109;;41.854573;-6.246382;ES;Europe/Madrid;Q1653184;REG.EXP.;;uic;13646554046;Q5845881;;;31109;Cabañas de Aliste
+TN7131112;gare;Linarejos-Pedroso;Linarejos-Pedroso;Linarejos-Pedroso;7131112;;41.946964;-6.484712;ES;Europe/Madrid;Q1777979;REG.EXP.;;uic;13646554048;Q5846597;;;31112;Linarejos-Pedroso
+TN7131200;gare;Puebla de Sanabria;Puebla de Sanabria;Puebla de Sanabria;7131200;;42.045515;-6.626991;ES;Europe/Madrid;Q1646385;REG.EXP.;;uic;1419646439;Q11681674;;;31200;Puebla de Sanabria
+TN7131303;gare;A Friela-Maside;A Friela-Maside;A Friela-Maside;7131303;;42.411419;-8.028961;ES;Europe/Madrid;Q1605484;REGIONAL;;nom;13370314589;Q8779813;;;31303;A Friela-Maside
+TN7131304;gare;O Carballiño;O Carballiño;O Carballiño;7131304;;42.431524;-8.068658;ES;Europe/Madrid;Q1607558;REGIONAL;;nom;10554286687;Q8779500;;;31304;O Carballiño
+TN7131306;gare;O Irixo;O Irixo;O Irixo;7131306;;42.519623;-8.104839;ES;Europe/Madrid;Q663077;REGIONAL;;nom;12593234166;Q8779914;;;31306;O Irixo
+TN7131308;gare;Lalín;Lalín;Lalín;7131308;;42.632437;-8.14286;ES;Europe/Madrid;Q1374736;REGIONAL;;nom;1998751056;Q8779998;;;31308;Lalín
+TN7131400;gare;Santiago de Compostela - Daniel Castelao;Santiago de Compostela - Daniel Castelao;Santiago de Compostela - Daniel Castelao;7131400;;42.870442;-8.545196;ES;Europe/Madrid;Q14314;ALVIA|AVANT|AVE|AVLO|MD|REGIONAL;;uic;12768629140;Q8841900;;;31400;Santiago de Compostela-Daniel Castelao
+TN7131411;gare;Uxes;Uxes;Uxes;7131411;;43.297512;-8.444177;ES;Europe/Madrid;Q996161;REGIONAL;;nom;9374763919;Q11681688;;;31411;Uxes
+TN7131412;gare;A Coruña;Estación de tren A Coruña;Estación de tren A Coruña;7131412;;43.35252;-8.409951;ES;Europe/Madrid;Q8757;AVANT|AVE|AVLO|MD|REGIONAL;;nom;13782316672;Q3329088;;;31412;A Coruña
+TN7131415;gare;Ordes;Ordes;Ordes;7131415;;43.037862;-8.44821;ES;Europe/Madrid;Q1442661;REGIONAL;;uic;13453006278;Q11681663;;;31415;Ordes
+TN7131416;gare;Cerceda-Meirama;Cerceda-Meirama;Cerceda-Meirama;7131416;;43.20766;-8.446635;ES;Europe/Madrid;Q1369070;MD|REGIONAL;;uic;12793504327;Q11681642;;;31416;Cerceda-Meirama
+TN7132001;gare;Campillo;Campillo;Campillo;7132001;;41.259593;-5.017918;ES;Europe/Madrid;Q2046733;MD|REG.EXP.;;uic;2232327698;Q5561833;;;32001;Campillo
+TN7132002;gare;El Carpio;Carpio;Carpio;7132002;;41.215561;-5.114533;ES;Europe/Madrid;Q2000446;INTERCITY|MD|REG.EXP.;;uic;2969107075;;;;32002;El Carpio
+TN7132003;gare;Fresno el Viejo;Fresno el Viejo;Fresno el Viejo;7132003;;41.191258;-5.137955;ES;Europe/Madrid;Q735777;INTERCITY|MD|REG.EXP.;;uic;2969107097;Q5846256;;;32003;Fresno el Viejo
+TN7132004;gare;Cantalapiedra;Cantalapiedra;Cantalapiedra;7132004;;41.133624;-5.183122;ES;Europe/Madrid;Q1628716;INTERCITY|MD|REG.EXP.;;uic;12594036573;Q5645944;;;32004;Cantalapiedra
+TN7132006;gare;El Pedroso de la Armuña;El Pedroso de la Armuña;El Pedroso de la Armuña;7132006;;41.079873;-5.406638;ES;Europe/Madrid;Q1768261;MD|REG.EXP.;;uic;594262575;Q5846171;;;32006;El Pedroso de la Armuña
+TN7132007;gare;Pitiegua;Pitiegua;Pitiegua;7132007;;41.063793;-5.474138;ES;Europe/Madrid;Q1766589;MD|REG.EXP.;;uic;2327649925;Q2884958;;;32007;Pitiegua
+TN7132008;gare;Gomecello;Gomecello;Gomecello;7132008;;41.042313;-5.541157;ES;Europe/Madrid;Q1651769;MD|REG.EXP.;;nom;540372481;Q5643551;;;32008;Gomecello
+TN7132009;gare;Moriscos;Moriscos;Moriscos;7132009;;41.011844;-5.584541;ES;Europe/Madrid;Q2267945;MD|REG.EXP.;;uic;602413543;Q5846770;;;32009;Moriscos
+TN7134002;gare;Cardeñosa de Ávila;Cardeñosa de Ávila;Cardeñosa de Ávila;7134002;;40.73918;-4.750887;ES;Europe/Madrid;Q285411;MD;;uic;13644818963;Q8779509;;;34002;Cardeñosa de Ávila
+TN7134005;gare;San Pedro del Arroyo;San Pedro del Arroyo;San Pedro del Arroyo;7134005;;40.803847;-4.871463;ES;Europe/Madrid;Q1630369;MD;;uic;13644818962;Q10951376;;;34005;San Pedro del Arroyo
+TN7134007;gare;Crespos;Crespos;Crespos;7134007;;40.870004;-4.968053;ES;Europe/Madrid;Q1633632;MD;;uic;13644818964;Q8779674;;;34007;Crespos
+TN7134008;gare;Narros del Castillo;Narros del Castillo;Narros del Castillo;7134008;;40.866674;-5.05291;ES;Europe/Madrid;Q1632650;MD;;uic;13644818965;Q8841116;;;34008;Narros del Castillo
+TN7134010;gare;Peñaranda de Bracamonte;Peñaranda de Bracamonte;Peñaranda de Bracamonte;7134010;;40.897927;-5.206479;ES;Europe/Madrid;Q679766;MD;;uic;13644818966;Q10949973;;;34010;Peñaranda de Bracamonte
+TN7134011;gare;Villar de Gallimazo;Villar de Gallimazo;Villar de Gallimazo;7134011;;40.951945;-5.296072;ES;Europe/Madrid;Q685542;MD;;uic;13644818967;Q8842242;;;34011;Villar de Gallimazo
+TN7134012;gare;Babilafuente;Babilafuente;Babilafuente;7134012;;40.972284;-5.430526;ES;Europe/Madrid;Q1606563;MD;;uic;2203343273;Q8779326;;;34012;Babilafuente
+TN7134013;gare;San Morales;San Morales;San Morales;7134013;;40.984109;-5.492759;ES;Europe/Madrid;Q1905253;MD;;uic;2203343275;Q10951372;;;34013;San Morales
+TN7134014;gare;Aldealengua;Aldealengua;Aldealengua;7134014;;40.979707;-5.55317;ES;Europe/Madrid;Q591641;MD;;uic;13644071839;Q8779237;;;34014;Aldealengua
+TN7135001;gare;Leganés;Leganés Central;Leganés Central;7135001;;40.328092;-3.772356;ES;Europe/Madrid;Q77433;ALVIA|MD|PROXIMDAD|REG.EXP.|REGIONAL;;nom;5305116635;;;;35001;Leganés
+TN7135002;gare;Fuenlabrada;Fuenlabrada Central;Fuenlabrada Central;7135002;;40.282288;-3.798275;ES;Europe/Madrid;Q54902;PROXIMDAD|REG.EXP.|REGIONAL;;nom;5305116650;;;;35002;Fuenlabrada
+TN7135005;gare;Illescas;Illescas;Illescas;7135005;;40.120854;-3.842256;ES;Europe/Madrid;Q1606474;MD|PROXIMDAD|REG.EXP.|REGIONAL;;uic;1164461464;Q5846393;;;35005;Illescas
+TN7135012;gare;Humanes;Humanes;Humanes;7135012;;40.25563;-3.828444;ES;Europe/Madrid;Q281632;PROXIMDAD;;uic;13395053375;Q5846387;;;35012;Humanes
+TN7135105;gare;Torrijos;Torrijos;Torrijos;7135105;;39.978806;-4.283162;ES;Europe/Madrid;Q919055;ALVIA|MD|REG.EXP.|REGIONAL;;uic;2328131205;Q5493393;;;35105;Torrijos
+TN7135109;gare;Montearagón;Montearagón;Montearagón;7135109;;39.96077;-4.64656;ES;Europe/Madrid;Q1641360;REGIONAL;;uic;2328131201;Q5846741;;;35109;Montearagón
+TN7135200;gare;Talavera de la Reina;Talavera de la Reina;Talavera de la Reina;7135200;;39.970634;-4.826545;ES;Europe/Madrid;Q181359;ALVIA|MD|REG.EXP.|REGIONAL;;uic;2328131203;Q5847306;;;35200;Talavera de la Reina
+TN7135203;gare;Oropesa de Toledo;Oropesa de Toledo;Oropesa de Toledo;7135203;;39.921853;-5.186207;ES;Europe/Madrid;Q747273;ALVIA|MD|REG.EXP.;;uic;2328131202;Q5846840;;;35203;Oropesa de Toledo
+TN7135206;gare;Navalmoral de la Mata;Navalmoral de la Mata;Navalmoral de la Mata;7135206;;39.894961;-5.54565;ES;Europe/Madrid;Q965529;ALVIA|MD|REG.EXP.;;uic;13715660837;Q5694798;;;35206;Navalmoral de la Mata
+TN7135207;gare;Casatejada;Casatejada;Casatejada;7135207;;39.89199;-5.677637;ES;Europe/Madrid;Q1613382;REG.EXP.;;uic;1073008477;Q5845986;;;35207;Casatejada
+TN7135301;gare;Mirabel;Mirabel;Mirabel;7135301;;39.866206;-6.22895;ES;Europe/Madrid;Q1764584;REG.EXP.;;uic;349044413;Q5846719;;;35301;Mirabel
+TN7135302;gare;Casas de Millán;Casas de Millán;Casas de Millán;7135302;;39.812059;-6.32569;ES;Europe/Madrid;Q1658755;REG.EXP.;;uic;2328131196;Q5845984;;;35302;Casas de Millán
+TN7135303;gare;Cañaveral;Cañaveral;Cañaveral;7135303;;39.788815;-6.374522;ES;Europe/Madrid;Q1626867;REG.EXP.;;uic;2328131197;Q5846016;;;35303;Cañaveral
+TN7135400;gare;Cáceres;Cáceres;Cáceres;7135400;;39.461177;-6.385725;ES;Europe/Madrid;Q15678;ALVIA|MD|REG.EXP.|REGIONAL;;uic;13714976346;Q3096340;;;35400;Cáceres
+TN7135402;gare;Arroyo de Malpartida;Arroyo de Malpartida;Arroyo de Malpartida;7135402;;39.468067;-6.534471;ES;Europe/Madrid;Q15678;REGIONAL;;uic;1585506300;Q5845732;;;35402;Arroyo de Malpartida
+TN7135405;gare;San Vicente de Alcántara;San Vicente de Alcántara;San Vicente de Alcántara;7135405;;39.381555;-7.116983;ES;Europe/Madrid;Q1442479;REGIONAL;;uic;2333726540;Q5847151;;;35405;San Vicente de Alcántara
+TN7135406;gare;Valencia de Alcántara;Valencia de Alcántara;Valencia de Alcántara;7135406;;39.426936;-7.230725;ES;Europe/Madrid;Q1613421;REGIONAL;;uic;683597660;Q5847411;;;35406;Valencia de Alcántara
+TN7137200;gare;Ciudad Real;Ciudad Real;Ciudad Real;7137200;;38.984868;-3.913141;ES;Europe/Madrid;Q15093;ALVIA|AVANT|AVE|AVLO|MD|REG.EXP.;;uic;13717016710;Q3325441;;;37200;Ciudad Real
+TN7137300;gare;Puertollano;Puertollano;Puertollano;7137300;;38.691288;-4.111936;ES;Europe/Madrid;Q215822;ALVIA|AVANT|AVE|AVLO|MD|REG.EXP.;;nom;9893687907;Q3097356;;;37300;Puertollano
+TN7137302;gare;Brazatortas - Veredas;Brazatortas - Veredas;Brazatortas - Veredas;7137302;;38.668862;-4.316654;ES;Europe/Madrid;Q1631975;MD|REG.EXP.;;uic;247377447;Q5845853;;;37302;Brazatortas-Veredas
+TN7137305;gare;Almadenejos - Almadén;Almadenejos - Almadén;Almadenejos - Almadén;7137305;;38.740443;-4.730307;ES;Europe/Madrid;Q1644863;MD|REG.EXP.;;uic;539006238;Q5845659;;;37305;Almadenejos-Almadén
+TN7137308;gare;Guadalmez - Los Pedroches;Guadalmez - Los Pedroches;Guadalmez - Los Pedroches;7137308;;38.699295;-4.929484;ES;Europe/Madrid;Q588228;MD|REG.EXP.;;uic;5254727527;Q5846335;;;37308;Guadalmez-Los Pedroches
+TN7137311;gare;Cabeza Del Buey;Cabeza Del Buey;Cabeza Del Buey;7137311;;38.723936;-5.227078;ES;Europe/Madrid;Q1100433;MD|REG.EXP.;;uic;539005521;Q5845885;;;37311;Cabeza del Buey
+TN7137400;gare;Almorchón;Almorchón;Almorchón;7137400;;38.696463;-5.290362;ES;Europe/Madrid;Q1100433;MD|REG.EXP.;;uic;7804977670;Q5845676;;;37400;Almorchón
+TN7137402;gare;Castuera;Castuera;Castuera;7137402;;38.735108;-5.541691;ES;Europe/Madrid;Q515016;MD|REG.EXP.;;uic;12589890277;;;;37402;Castuera
+TN7137404;gare;Campanario;Campanario;Campanario;7137404;;38.853305;-5.641494;ES;Europe/Madrid;Q1605982;MD|REG.EXP.;;uic;12819863889;Q5845930;;;37404;Campanario
+TN7137406;gare;Villanueva de la Serena;Villanueva de la Serena;Villanueva de la Serena;7137406;;38.968675;-5.796499;ES;Europe/Madrid;Q695380;MD|REG.EXP.|REGIONAL;;uic;12571012002;Q5847492;;;37406;Villanueva de la Serena
+TN7137407;gare;Don Benito;Don Benito;Don Benito;7137407;;38.967056;-5.862927;ES;Europe/Madrid;Q636120;MD|REG.EXP.|REGIONAL;;uic;1495837646;Q5846120;;;37407;Don Benito
+TN7137409;gare;Valdetorres;Valdetorres;Valdetorres;7137409;;38.913299;-6.06941;ES;Europe/Madrid;Q1630933;MD|REG.EXP.|REGIONAL;;uic;12590020268;Q5847409;;;37409;Valdetorres
+TN7137410;gare;Guareña;Guareña;Guareña;7137410;;38.896918;-6.12902;ES;Europe/Madrid;Q1098716;MD|REG.EXP.|REGIONAL;;uic;1900394161;Q5846342;;;37410;Guareña
+TN7137500;gare;Mérida;Mérida;Mérida;7137500;;38.921586;-6.343052;ES;Europe/Madrid;Q14323;ALVIA|MD|REG.EXP.|REGIONAL;;uic;2039781019;Q5846788;;;37500;Mérida
+TN7137603;gare;Montijo;Montijo;Montijo;7137603;;38.913579;-6.598666;ES;Europe/Madrid;Q1387091;ALVIA|MD|REG.EXP.|REGIONAL;;uic;2962633353;Q5846749;;;37603;Montijo
+TN7137604;gare;Guadiana;Guadiana;Guadiana;7137604;;38.921773;-6.690022;ES;Europe/Madrid;Q3822025;REG.EXP.|REGIONAL;;uic;2962633354;;;;37604;Guadiana
+TN7137606;gare;Badajoz;Badajoz;Badajoz;7137606;;38.890733;-6.981616;ES;Europe/Madrid;Q15679;ALVIA|MD|REG.EXP.|REGIONAL;;uic;2962633346;Q3095891;;;37606;Badajoz
+TN7137608;gare;Montijo - El Molino;Montijo - El Molino;Montijo - El Molino;7137608;;38.914023;-6.61824;ES;Europe/Madrid;Q1387091;MD|REG.EXP.|REGIONAL;;uic;9665651329;Q5846752;;;37608;Montijo-El Molino
+TN7137611;gare;Garrovilla - Las Vegas;Garrovilla - Las Vegas;Garrovilla - Las Vegas;7137611;;38.915368;-6.477209;ES;Europe/Madrid;Q587063;MD|REG.EXP.|REGIONAL;;uic;444122528;;;;37611;Garrovilla-Las Vegas
+TN7137704;gare;Villanueva de Córdoba;Villanueva de Córdoba-Los Pedroches;Villanueva de Córdoba-Los Pedroches;7137704;;38.255242;-4.571422;ES;Europe/Madrid;Q879493;AVE|AVLO;;uic;2269474720;Q20942785;;;37704;Villanueva de Córdoba
+TN7140002;gare;Calamonte;Calamonte;Calamonte;7140002;;38.886867;-6.382812;ES;Europe/Madrid;Q1020436;MD|REG.EXP.|REGIONAL;;nom;7785762875;Q8779448;;;40002;Calamonte
+TN7140004;gare;Almendralejo;Almendralejo;Almendralejo;7140004;;38.684682;-6.399529;ES;Europe/Madrid;Q490638;MD|REG.EXP.|REGIONAL;;nom;7785762869;Q10947354;;;40004;Almendralejo
+TN7140005;gare;Villafranca de los Barros;Villafranca de los Barros;Villafranca de los Barros;7140005;;38.564468;-6.352225;ES;Europe/Madrid;Q613908;MD|REG.EXP.|REGIONAL;;nom;7785762867;Q8842233;;;40005;Villafranca de los Barros
+TN7140006;gare;Los Santos de Maimona;Los Santos de Maimona;Los Santos de Maimona;7140006;;38.449746;-6.361512;ES;Europe/Madrid;Q1372555;MD|REG.EXP.|REGIONAL;;nom;7785762866;Q8840971;;;40006;Los Santos de Maimona
+TN7140008;gare;Zafra Feria;Zafra Feria;Zafra Feria;7140008;;38.424472;-6.409732;ES;Europe/Madrid;Q140203;MD|REG.EXP.|REGIONAL;;nom;7785762865;Q8842394;;;40008;Zafra Feria
+TN7140100;gare;Zafra;Zafra;Zafra;7140100;;38.413949;-6.40518;ES;Europe/Madrid;Q140203;MD|REG.EXP.|REGIONAL;;nom;1741275667;Q5847551;;;40100;Zafra
+TN7140105;gare;Llerena;Llerena;Llerena;7140105;;38.237746;-6.009621;ES;Europe/Madrid;Q686184;MD|REG.EXP.;;nom;1972336082;Q10949101;;;40105;Llerena
+TN7140107;gare;Fuente del Arco;Fuente del Arco;Fuente del Arco;7140107;;38.163673;-5.900414;ES;Europe/Madrid;Q1605901;MD|REG.EXP.;;nom;7785762854;Q8779825;;;40107;Fuente del Arco
+TN7140108;gare;Guadalcanal;Guadalcanal;Guadalcanal;7140108;;38.090375;-5.803328;ES;Europe/Madrid;Q943977;MD|REG.EXP.;;nom;7785762853;Q5846331;;;40108;Guadalcanal
+TN7140113;gare;Cazalla - Constantina;Cazalla - Constantina;Cazalla - Constantina;7140113;;37.932701;-5.704246;ES;Europe/Madrid;Q1445283;MD|REG.EXP.;;nom;7785762820;Q5846012;;;40113;Cazalla-Constantina
+TN7140115;gare;Pedroso;Pedroso;Pedroso;7140115;;37.837308;-5.762423;ES;Europe/Madrid;Q1445311;MD|REG.EXP.;;nom;7785762816;Q5405582;;;40115;Pedroso
+TN7140119;gare;Villanueva del Río-Minas;Villanueva del Río-Minas;Villanueva del Río-Minas;7140119;;37.661705;-5.712154;ES;Europe/Madrid;Q63041;MD|REG.EXP.;;gtfs;;;;;40119;Villanueva del Río-Minas
+TN7140122;gare;Tocina;Tocina;Tocina;7140122;;37.609127;-5.731526;ES;Europe/Madrid;Q63004;MD|REG.EXP.;;nom;7785762760;Q5689357;;;40122;Tocina
+TN7142005;gare;Fregenal de la Sierra;Fregenal de la Sierra;Fregenal de la Sierra;7142005;;38.167708;-6.637537;ES;Europe/Madrid;Q1613587;MD;;nom;7788690540;Q5846253;;;42005;Fregenal de la Sierra
+TN7142006;gare;Cumbres Mayores;Cumbres Mayores;Cumbres Mayores;7142006;;38.05308;-6.630903;ES;Europe/Madrid;Q1615072;MD;;nom;7788690536;Q5846103;;;42006;Cumbres Mayores
+TN7142008;gare;Jabugo-Galaroza;Jabugo-Galaroza;Jabugo-Galaroza;7142008;;37.927375;-6.772989;ES;Europe/Madrid;Q913504;MD;;nom;7788690533;Q5846411;;;42008;Jabugo-Galaroza
+TN7142009;gare;Almonaster - Cortegana;Almonaster - Cortegana;Almonaster - Cortegana;7142009;;37.901017;-6.797353;ES;Europe/Madrid;Q533277;MD;;nom;7788690530;Q5845670;;;42009;Almonaster-Cortegana
+TN7142012;gare;Valdelamusa;Valdelamusa;Valdelamusa;7142012;;37.78718;-6.873881;ES;Europe/Madrid;Q1615043;MD;;nom;2981357671;Q5847398;;;42012;Valdelamusa
+TN7142013;gare;El Tamujoso;El Tamujoso;El Tamujoso;7142013;;37.720344;-6.900445;ES;Europe/Madrid;Q1445364;MD;;nom;7788690527;Q5846188;;;42013;El Tamujoso
+TN7142015;gare;Calañas;Calañas;Calañas;7142015;;37.651775;-6.876287;ES;Europe/Madrid;Q913249;MD;;nom;2981344588;Q5845903;;;42015;Calañas
+TN7142016;gare;Los Milanos;Los Milanos;Los Milanos;7142016;;37.58618;-6.919766;ES;Europe/Madrid;Q913249;MD;;nom;7788593167;Q5846629;;;42016;Los Milanos
+TN7142018;gare;El Cobujon;El Cobujon;El Cobujon;7142018;;37.516485;-6.953244;ES;Europe/Madrid;Q913249;MD;;nom;7788593156;Q5846156;;;42018;El Cobujón
+TN7142019;gare;Belmonte;Belmonte;Belmonte;7142019;;37.461838;-6.947626;ES;Europe/Madrid;Q913215;MD;;nom;7788593147;Q5845795;;;42019;Belmonte
+TN7142020;gare;Gibraleón;Gibraleón;Gibraleón;7142020;;37.367895;-6.962147;ES;Europe/Madrid;Q913215;MD;;nom;7788593121;Q5846302;;;42020;Gibraleón
+TN7143005;gare;Benacazón;Benacazón;Benacazón;7143005;;37.357112;-6.207986;ES;Europe/Madrid;Q1628394;MD;;nom;1336831385;Q8779386;;;43005;Benacazón
+TN7143008;gare;Carrión de los Céspedes;Carrión de los Céspedes;Carrión de los Céspedes;7143008;;37.368891;-6.335168;ES;Europe/Madrid;Q1447344;MD;;nom;7779095181;Q5845975;;;43008;Carrión de los Céspedes
+TN7143009;gare;Escacena;Escacena;Escacena;7143009;;37.397719;-6.392082;ES;Europe/Madrid;Q970693;MD;;nom;7779139634;Q8779735;;;43009;Escacena
+TN7143011;gare;La Palma del Condado;La Palma del Condado;La Palma del Condado;7143011;;37.390794;-6.554361;ES;Europe/Madrid;Q904245;ALVIA|INTERCITY|MD;;nom;7779139644;Q8779976;;;43011;La Palma del Condado
+TN7143012;gare;Villarrasa;Villarrasa;Villarrasa;7143012;;37.386873;-6.598806;ES;Europe/Madrid;Q1618166;MD;;nom;way/998356506;Q8842253;;;43012;Villarrasa
+TN7143015;gare;Niebla-Puerta del Buey;Niebla-Puerta del Buey;Niebla-Puerta del Buey;7143015;;37.358425;-6.681357;ES;Europe/Madrid;Q828723;MD;;nom;9783898163;Q96912588;;;43015;Niebla-Puerta del Buey
+TN7143019;gare;Huelva;Huelva;Huelva;7143019;;37.252619;-6.944851;ES;Europe/Madrid;Q12246;ALVIA|INTERCITY|MD;;nom;5580567331;Q5846375;;;43019;Huelva
+TN7143021;gare;San Juan del Puerto;San Juan del Puerto;San Juan del Puerto;7143021;;37.311861;-6.840956;ES;Europe/Madrid;Q1444174;MD;;nom;3221905598;Q96912864;;;43021;San Juan del Puerto
+TN7150002;gare;Cinco Casas;Cinco Casas;Cinco Casas;7150002;;39.168884;-3.233055;ES;Europe/Madrid;Q679269;MD;;uic;7752700240;Q5846053;;;50002;Cinco Casas
+TN7150100;gare;Manzanares;Manzanares;Manzanares;7150100;;39.005896;-3.370597;ES;Europe/Madrid;Q1372697;ALVIA|MD|REG.EXP.;;uic;7752700243;Q5846673;;;50100;Manzanares
+TN7150102;gare;Valdepeñas;Valdepeñas;Valdepeñas;7150102;;38.763282;-3.396136;ES;Europe/Madrid;Q898563;ALVIA|MD;;nom;7752700244;Q5847407;;;50102;Valdepeñas
+TN7150200;gare;Santa Cruz de Mudela;Santa Cruz de Mudela;Santa Cruz de Mudela;7150200;;38.644591;-3.451352;ES;Europe/Madrid;Q958776;MD;;nom;2389630162;Q5847169;;;50200;Santa Cruz de Mudela
+TN7150202;gare;Almuradiel-Viso del Marques;Almuradiel-Viso del Marques;Almuradiel-Viso del Marques;7150202;;38.514365;-3.501939;ES;Europe/Madrid;Q1632554;MD;;nom;2052060244;Q5845678;;;50202;Almuradiel-Viso del Marqués
+TN7150207;gare;Vilches;Vilches;Vilches;7150207;;38.215735;-3.5177;ES;Europe/Madrid;Q684071;ALVIA|MD;;nom;7752653197;Q5847452;;;50207;Vilches
+TN7150300;gare;Linares-Baeza;Linares-Baeza;Linares-Baeza;7150300;;38.069084;-3.58914;ES;Europe/Madrid;Q281272;ALVIA|MD;;nom;7747890828;Q5846599;;;50300;Linares-Baeza
+TN7150400;gare;Espelúy;Espelúy;Espelúy;7150400;;38.010259;-3.83216;ES;Europe/Madrid;Q1756703;MD;;nom;7752561497;Q5408191;;;50400;Espelúy
+TN7150403;gare;Andújar;Andújar;Andújar;7150403;;38.027971;-4.066032;ES;Europe/Madrid;Q528530;MD;;nom;7752653211;Q5549560;;;50403;Andújar
+TN7150407;gare;Villa del Rio;Villa del Rio;Villa del Rio;7150407;;37.981287;-4.283694;ES;Europe/Madrid;Q970738;MD|PROXIMDAD;;nom;7752653212;Q5847454;;;50407;Villa del Río
+TN7150413;gare;Alcolea de Córdoba;Alcolea de Córdoba;Alcolea de Córdoba;7150413;;37.922326;-4.694751;ES;Europe/Madrid;Q5818;PROXIMDAD;;gtfs;;;;;50413;Alcolea de Córdoba
+TN7150417;gare;Campus Universitario de Rabanales;Campus Universitario de Rabanales;Campus Universitario de Rabanales;7150417;;37.91256;-4.72086;ES;Europe/Madrid;Q5818;MD|PROXIMDAD;;gtfs;;;;;50417;Campus Universitario de Rabanales
+TN7150500;gare;Córdoba Julio Anguita;Córdoba Julio Anguita;Córdoba Julio Anguita;7150500;;37.88851;-4.789516;ES;Europe/Madrid;Q5818;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|PROXIMDAD;;uic;7567516121;Q97624967;;;50500;Córdoba-Julio Anguita
+TN7150501;gare;El Higuerón;El Higuerón;El Higuerón;7150501;;37.867031;-4.850473;ES;Europe/Madrid;Q5818;PROXIMDAD;;nom;5254650053;Q57986271;;;50501;El Higuerón
+TN7150502;gare;Villarrubia de Córdoba;Villarrubia de Córdoba;Villarrubia de Córdoba;7150502;;37.847971;-4.913772;ES;Europe/Madrid;Q5818;PROXIMDAD;;nom;7758175192;Q57985482;;;50502;Villarrubia de Córdoba
+TN7150504;gare;Posadas;Posadas;Posadas;7150504;;37.804147;-5.105923;ES;Europe/Madrid;Q818312;MD|PROXIMDAD;;nom;7758175194;Q5846962;;;50504;Posadas
+TN7150506;gare;Palma del Río;Palma del Río;Palma del Río;7150506;;37.718141;-5.292952;ES;Europe/Madrid;Q1372714;MD|PROXIMDAD;;nom;7758175203;Q5846873;;;50506;Palma del Río
+TN7150507;gare;Peñaflor;Peñaflor;Peñaflor;7150507;;37.707368;-5.340799;ES;Europe/Madrid;Q1637576;MD;;nom;7758175205;Q5841476;;;50507;Peñaflor
+TN7150600;gare;Lora del Río;Lora del Río;Lora del Río;7150600;;37.661287;-5.531078;ES;Europe/Madrid;Q1161395;MD;;nom;7758175206;Q5846616;;;50600;Lora del Río
+TN7150700;gare;Los Rosales;Los Rosales;Los Rosales;7150700;;37.59012;-5.726996;ES;Europe/Madrid;Q63004;MD|REG.EXP.;;nom;7758141440;Q5846639;;;50700;Los Rosales
+TN7151003;gare;Sevilla - Santa Justa;Sevilla - Santa Justa;Sevilla - Santa Justa;7151003;;37.392092;-5.975206;ES;Europe/Madrid;Q8717;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|REG.EXP.;;uic;191262271;Q801432;;;51003;Sevilla-Santa Justa
+TN7151100;gare;San Bernardo;San Bernardo;San Bernardo;7151100;;37.377661;-5.979535;ES;Europe/Madrid;Q8717;MD;;nom;7763424280;Q3497828;;;51100;San Bernardo
+TN7151103;gare;Dos Hermanas;Dos Hermanas;Dos Hermanas;7151103;;37.287216;-5.923317;ES;Europe/Madrid;Q489205;MD;;nom;7758141421;Q4352686;;;51103;Dos Hermanas
+TN7151110;gare;Virgen del Rocío;Virgen del Rocío;Virgen del Rocío;7151110;;37.362813;-5.975822;ES;Europe/Madrid;Q8717;MD;;nom;7763424278;Q8842320;;;51110;Virgen del Rocío
+TN7151111;gare;Bellavista;Bellavista;Bellavista;7151111;;37.32152;-5.964232;ES;Europe/Madrid;Q489205;MD;;nom;7782117948;Q5686149;;;51111;Bellavista
+TN7151200;gare;Utrera;Utrera;Utrera;7151200;;37.183344;-5.79024;ES;Europe/Madrid;Q753825;MD;;nom;7768401196;Q8842131;;;51200;Utrera
+TN7151202;gare;Las Cabezas de San Juan;Las Cabezas de San Juan;Las Cabezas de San Juan;7151202;;37.018522;-5.945694;ES;Europe/Madrid;Q63052;MD;;nom;919627525;Q5846555;;;51202;Las Cabezas de San Juan
+TN7151203;gare;Lebrija;Lebrija;Lebrija;7151203;;36.911545;-6.095199;ES;Europe/Madrid;Q261085;MD;;nom;7768387808;Q16595808;;;51203;Lebrija
+TN7151205;gare;Aeropuerto de Jerez;Aeropuerto de Jerez;Aeropuerto de Jerez;7151205;;36.751231;-6.066446;ES;Europe/Madrid;Q12303;MD;;nom;1567648473;Q5845587;;;51205;Aeropuerto de Jerez
+TN7151300;gare;Jerez de la Frontera;Jerez de la Frontera;Jerez de la Frontera;7151300;;36.679812;-6.126103;ES;Europe/Madrid;Q12303;ALVIA|MD;;uic;10922195562;Q3394770;;;51300;Jerez de la Frontera
+TN7151400;gare;Puerto de Santa María;El Puerto de Santa María;El Puerto de Santa María;7151400;;36.604199;-6.216997;ES;Europe/Madrid;Q203040;ALVIA|MD;;nom;1738646773;Q3096416;;;51400;Puerto de Santa María
+TN7151401;gare;Puerto Real;Puerto Real;Puerto Real;7151401;;36.530831;-6.185301;ES;Europe/Madrid;Q846159;MD;;nom;7768387859;Q5650049;;;51401;Puerto Real
+TN7151404;gare;Segunda Aguada;Segunda Aguada;Segunda Aguada;7151404;;36.513503;-6.276963;ES;Europe/Madrid;Q15682;MD;;nom;5302170172;Q5847218;;;51404;Segunda Aguada
+TN7151405;gare;Cádiz;Cádiz;Cádiz;7151405;;36.527939;-6.286883;ES;Europe/Madrid;Q15682;ALVIA|MD;;nom;259625422;Q630752;;;51405;Cádiz
+TN7151406;gare;San Fernando-Bahía Sur;San Fernando-Bahía Sur;San Fernando-Bahía Sur;7151406;;36.467921;-6.206875;ES;Europe/Madrid;Q741765;ALVIA|MD;;nom;2340360836;Q3394783;;;51406;San Fernando-Bahía Sur
+TN7151409;gare;Cádiz-Estadio;Estadio;Estadio;7151409;;36.502923;-6.272048;ES;Europe/Madrid;Q15682;MD;;nom;496496219;Q5688092;;;51409;Cádiz-Estadio
+TN7154400;gare;Bobadilla;Bobadilla;Bobadilla;7154400;;37.03764;-4.727983;ES;Europe/Madrid;Q572041;MD;;nom;7567538143;Q5845842;;;54400;Bobadilla
+TN7154403;gare;El Chorro-Caminito del Rey;El Chorro-Caminito del Rey;El Chorro-Caminito del Rey;7154403;;36.907073;-4.759133;ES;Europe/Madrid;Q250746;INTERCITY|MD|PROXIMDAD;;nom;7567538139;Q5846154;;;54403;El Chorro-Caminito del Rey
+TN7154404;gare;Las Mellizas;Las Mellizas;Las Mellizas;7154404;;36.873219;-4.719202;ES;Europe/Madrid;Q250746;INTERCITY|MD|PROXIMDAD;;nom;3321848202;Q5846566;;;54404;Las Mellizas
+TN7154405;gare;Álora;Álora;Álora;7154405;;36.81971;-4.699399;ES;Europe/Madrid;Q250746;MD|PROXIMDAD;;nom;7567516180;Q8842737;;;54405;Álora
+TN7154413;gare;Málaga María Zambrano;Málaga María Zambrano;Málaga María Zambrano;7154413;;36.71162;-4.43236;ES;Europe/Madrid;Q8851;AVANT|AVE|AVLO|INTERCITY|MD|PROXIMDAD;;nom;2609534280;Q801214;;;54413;Málaga María Zambrano
+TN7155001;gare;Campillos;Campillos;Campillos;7155001;;37.032031;-4.863504;ES;Europe/Madrid;Q944101;MD;;nom;2624608403;Q5845936;;;55001;Campillos
+TN7155003;gare;Almargen - Cañete la Real;Almargen - Cañete la Real;Almargen - Cañete la Real;7155003;;37.000942;-5.019894;ES;Europe/Madrid;Q1630340;MD;;nom;8019139481;Q5845663;;;55003;Almargen-Cañete la Real
+TN7155005;gare;Setenil;Setenil;Setenil;7155005;;36.862597;-5.121352;ES;Europe/Madrid;Q918623;MD;;nom;3762227970;Q5847237;;;55005;Setenil
+TN7155007;gare;Ronda;Ronda;Ronda;7155007;;36.748591;-5.161965;ES;Europe/Madrid;Q13153;ALVIA|MD;;nom;8019118067;Q3394773;;;55007;Ronda
+TN7155008;gare;Arriate;Arriate;Arriate;7155008;;36.790954;-5.140566;ES;Europe/Madrid;Q1624154;MD;;nom;3762214740;Q5845729;;;55008;Arriate
+TN7155010;gare;Benaojan-Montejaque;Benaojan-Montejaque;Benaojan-Montejaque;7155010;;36.713709;-5.246136;ES;Europe/Madrid;Q816694;MD;;nom;3762221430;Q5845806;;;55010;Benaoján-Montejaque
+TN7155011;gare;Jimera de Líbar;Jimera de Líbar;Jimera de Líbar;7155011;;36.660644;-5.28134;ES;Europe/Madrid;Q1110772;MD;;nom;8022687352;Q5846427;;;55011;Jimera de Líbar
+TN7155012;gare;Cortes de la Frontera;Cortes de la Frontera;Cortes de la Frontera;7155012;;36.597377;-5.332627;ES;Europe/Madrid;Q1453000;MD;;nom;8022681349;Q5846078;;;55012;Cortes de la Frontera
+TN7155013;gare;Gaucin;Gaucin;Gaucin;7155013;;36.540239;-5.386822;ES;Europe/Madrid;Q1453000;MD;;nom;2961672592;Q5846286;;;55013;Gaucín
+TN7155014;gare;San Pablo;San Pablo;San Pablo;7155014;;36.467927;-5.419231;ES;Europe/Madrid;Q916664;MD;;nom;3762224319;Q5847144;;;55014;San Pablo
+TN7155015;gare;Jimena de la Frontera;Jimena de la Frontera;Jimena de la Frontera;7155015;;36.424264;-5.434172;ES;Europe/Madrid;Q916664;MD;;nom;1123926567;Q5846425;;;55015;Jimena de la Frontera
+TN7155017;gare;Almoraima;Almoraima;Almoraima;7155017;;36.276654;-5.429972;ES;Europe/Madrid;Q1610266;MD;;nom;3909008955;Q5845673;;;55017;Almoraima
+TN7155018;gare;San Roque - La Línea;San Roque - La Línea;San Roque - La Línea;7155018;;36.213772;-5.43229;ES;Europe/Madrid;Q846153;ALVIA|MD;;nom;8044666497;;;;55018;San Roque-La Línea
+TN7155019;gare;Los Barrios;Los Barrios;Los Barrios;7155019;;36.173774;-5.460631;ES;Europe/Madrid;Q925913;MD;;nom;1560751686;Q5846624;;;55019;Los Barrios
+TN7155020;gare;Algeciras;Algeciras;Algeciras;7155020;;36.12664;-5.450175;ES;Europe/Madrid;Q484552;ALVIA|MD;;nom;2182333421;Q3394517;;;55020;Algeciras
+TN7156004;gare;Jódar - Úbeda;Jódar - Úbeda;Jódar - Úbeda;7156004;;37.913475;-3.35018;ES;Europe/Madrid;Q329984;MD;;nom;7747890825;Q5846435;;;56004;Jódar-Úbeda
+TN7156009;gare;Cabra del Santo Cristo y Alicún;Cabra del Santo Cristo y Alicún;Cabra del Santo Cristo y Alicún;7156009;;37.656713;-3.262623;ES;Europe/Madrid;Q731592;MD;;gtfs;;;;;56009;Cabra del Santo Cristo y Alicún
+TN7156100;gare;Moreda;Moreda;Moreda;7156100;;37.431125;-3.310746;ES;Europe/Madrid;Q593725;MD;;nom;1857241320;Q5846767;;;56100;Moreda
+TN7156103;gare;Benalúa de Guadix;Benalúa de Guadix;Benalúa de Guadix;7156103;;37.345277;-3.163177;ES;Europe/Madrid;Q553885;MD;;gtfs;;;;;56103;Benalúa de Guadix
+TN7156200;gare;Guadix;Guadix;Guadix;7156200;;37.316875;-3.127016;ES;Europe/Madrid;Q244324;ALVIA|MD;;nom;7747890785;Q5846339;;;56200;Guadix
+TN7156301;gare;Fiñana;Fiñana;Fiñana;7156301;;37.184716;-2.839483;ES;Europe/Madrid;Q1157964;MD;;nom;7747890743;Q5846242;;;56301;Fiñana
+TN7156305;gare;Gérgal;Gérgal;Gérgal;7156305;;37.108608;-2.591576;ES;Europe/Madrid;Q1358171;MD;;nom;7747872375;Q5846295;;;56305;Gérgal
+TN7156308;gare;Gádor;Gádor;Gádor;7156308;;36.951497;-2.487514;ES;Europe/Madrid;Q940842;MD;;uic;348597701;Q5846274;;;56308;Gádor
+TN7156310;gare;Huércal-Viator;Huércal-Viator;Huércal-Viator;7156310;;36.883463;-2.436281;ES;Europe/Madrid;Q5277;ALVIA|MD;;uic;7747872372;Q15214252;;;56310;Huercal-Viator
+TN7156312;gare;Almería;Almería;Almería;7156312;;36.834951;-2.455519;ES;Europe/Madrid;Q10400;ALVIA|MD;;gtfs;;;;;56312;Almería
+TN7157003;gare;Iznalloz;Iznalloz;Iznalloz;7157003;;37.39582;-3.527761;ES;Europe/Madrid;Q1410782;MD;;nom;2364846599;Q2918573;;;57003;Iznalloz
+TN7160000;gare;Madrid-Puerta de Atocha-Almudena Grandes;Madrid-Puerta de Atocha-Almudena Grandes;Madrid-Puerta de Atocha-Almudena Grandes;7160000;;40.405684;-3.690019;ES;Europe/Madrid;Q2807;ALVIA|AVANT|AVE|AVE INT|AVLO|INTERCITY;;uic;7499028216;;;;60000;Madrid-Puerta de Atocha-Almudena Grandes
+TN7160200;gare;Aranjuez;Aranjuez;Aranjuez;7160200;;40.034828;-3.618251;ES;Europe/Madrid;Q486792;MD|REG.EXP.;;nom;12442154843;;;;60200;Aranjuez
+TN7160202;gare;Castillejo-Añover;Castillejo-Añover;Castillejo-Añover;7160202;;39.949573;-3.738593;ES;Europe/Madrid;Q486792;MD;;uic;5868423604;Q5845997;;;60202;Castillejo-Añover
+TN7160203;gare;Villasequilla;Villasequilla;Villasequilla;7160203;;39.879523;-3.728489;ES;Europe/Madrid;Q1610090;MD|REG.EXP.;;uic;2393787650;Q5847510;;;60203;Villasequilla
+TN7160206;gare;Tembleque;Tembleque;Tembleque;7160206;;39.722509;-3.496978;ES;Europe/Madrid;Q1656613;MD;;uic;2393743376;Q5847321;;;60206;Tembleque
+TN7160207;gare;El Romeral;El Romeral;El Romeral;7160207;;39.69397;-3.430097;ES;Europe/Madrid;Q1656613;MD;;uic;264034596;Q5846182;;;60207;El Romeral
+TN7160300;gare;Villacañas;Villacañas;Villacañas;7160300;;39.621971;-3.330248;ES;Europe/Madrid;Q659416;MD|REG.EXP.;;uic;264034930;Q5847461;;;60300;Villacañas
+TN7160301;gare;Quero;Quero;Quero;7160301;;39.504223;-3.266365;ES;Europe/Madrid;Q1769410;MD|REG.EXP.;;uic;2579743614;Q5495487;;;60301;Quero
+TN7160400;gare;Alcázar de San Juan;Alcázar de San Juan;Alcázar de San Juan;7160400;;39.395663;-3.205371;ES;Europe/Madrid;Q679269;ALVIA|MD|REG.EXP.;;uic;6766511991;Q5845633;;;60400;Alcázar de San Juan
+TN7160402;gare;Campo de Criptana;Campo de Criptana;Campo de Criptana;7160402;;39.394384;-3.117703;ES;Europe/Madrid;Q681080;MD|REG.EXP.;;nom;8072630141;Q5845938;;;60402;Campo de Criptana
+TN7160406;gare;Socuéllamos;Socuéllamos;Socuéllamos;7160406;;39.278541;-2.775393;ES;Europe/Madrid;Q1614556;ALVIA|MD|REG.EXP.;;uic;2397422303;Q5847265;;;60406;Socuéllamos
+TN7160500;gare;Villarrobledo;Villarrobledo;Villarrobledo;7160500;;39.26072;-2.598507;ES;Europe/Madrid;Q82030;ALVIA|MD|REG.EXP.;;uic;13719620829;Q5550630;;;60500;Villarrobledo
+TN7160503;gare;Minaya;Minaya;Minaya;7160503;;39.240651;-2.3485;ES;Europe/Madrid;Q582832;REG.EXP.;;uic;1492679575;Q5846717;;;60503;Minaya
+TN7160505;gare;La Roda de Albacete;La Roda de Albacete;La Roda de Albacete;7160505;;39.199318;-2.162922;ES;Europe/Madrid;Q630706;MD|REG.EXP.;;uic;2398452226;Q5846525;;;60505;La Roda de Albacete
+TN7160507;gare;La Gineta;La Gineta;La Gineta;7160507;;39.111609;-2.000453;ES;Europe/Madrid;Q1614683;MD|REG.EXP.;;uic;2170852034;Q5846481;;;60507;La Gineta
+TN7160600;gare;Albacete Los Llanos;Albacete Los Llanos;Albacete Los Llanos;7160600;;39.000106;-1.847348;ES;Europe/Madrid;Q15095;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;11016395831;Q3817348;;;60600;Albacete-Los Llanos
+TN7160800;gare;Almansa;Almansa;Almansa;7160800;;38.867651;-1.105574;ES;Europe/Madrid;Q13930;MD|REG.EXP.|REGIONAL;;nom;1126592624;Q5845661;;;60800;Almansa
+TN7160900;gare;La Encina;La Encina;La Encina;7160900;;38.76545;-0.953854;ES;Europe/Madrid;Q502249;REG.EXP.|REGIONAL;;nom;10922195560;Q526079;;;60900;La Encina
+TN7160901;gare;Caudete;Caudete;Caudete;7160901;;38.716267;-0.959565;ES;Europe/Madrid;Q1606055;MD;;nom;10922195561;Q5846010;;;60901;Caudete
+TN7160902;gare;Villena;Villena;Villena;7160902;;38.632266;-0.867951;ES;Europe/Madrid;Q502249;INTERCITY|MD|REG.EXP.|REGIONAL;;nom;2021580965;Q3329171;;;60902;Villena
+TN7160904;gare;Sax;Sax;Sax;7160904;;38.544251;-0.813729;ES;Europe/Madrid;Q1553513;MD|REGIONAL;;gtfs;;;;;60904;Sax
+TN7160905;gare;Elda-Petrer;Elda-Petrer;Elda-Petrer;7160905;;38.484928;-0.801069;ES;Europe/Madrid;Q608985;INTERCITY|MD|REG.EXP.|REGIONAL;;nom;way/1134371995;;;;60905;Elda-Petrer
+TN7160907;gare;Novelda-Aspe;Novelda-Aspe;Novelda-Aspe;7160907;;38.407264;-0.777554;ES;Europe/Madrid;Q983473;MD|REGIONAL;;nom;2400545326;Q5846817;;;60907;Novelda-Aspe
+TN7160911;gare;Alicante/Alacant-Terminal;Alacant Terminal;Alacant Terminal;7160911;;38.34498;-0.496061;ES;Europe/Madrid;Q11959;ALVIA|AVANT|AVE|AVLO|EUROMED|INTERCITY|MD|REG.EXP.|REGIONAL;;nom;10914769161;Q2608835;;;60911;Alicante/Alacant-Terminal
+TN7160913;gare;Sant Vicent - Centre;Sant Vicent - Centre;Sant Vicent - Centre;7160913;;38.39456;-0.528767;ES;Europe/Madrid;Q491667;MD|REG.EXP.|REGIONAL;;nom;10914787249;Q5847149;;;60913;Sant Vicent Centre
+TN7160914;gare;Universidad de Alicante;Universidad de Alicante;Universidad de Alicante;7160914;;38.384098;-0.528419;ES;Europe/Madrid;Q11959;MD|REG.EXP.|REGIONAL;;nom;13807863708;Q5847383;;;60914;Universidad de Alicante
+TN7161005;gare;Hellin;Hellin;Hellin;7161005;;38.509003;-1.688641;ES;Europe/Madrid;Q842652;INTERCITY;;nom;12582183548;;;;61005;Hellín
+TN7161012;gare;Cieza;Cieza;Cieza;7161012;;38.246692;-1.421672;ES;Europe/Madrid;Q1014709;INTERCITY;;nom;4777196655;Q5846050;;;61012;Cieza
+TN7161015;gare;Archena-Fortuna;Archena-Fortuna;Archena-Fortuna;7161015;;38.131384;-1.235879;ES;Europe/Madrid;Q917883;INTERCITY;;nom;4853402444;Q5845704;;;61015;Archena-Fortuna
+TN7161200;gare;Murcia del Carmen;Murcia del Carmen;Murcia del Carmen;7161200;;37.974506;-1.130589;ES;Europe/Madrid;Q12225;AVANT|AVE|AVLO|INTERCITY|MD|PROXIMDAD;;nom;13017334754;Q3325607;;;61200;Murcia del Carmen
+TN7161303;gare;Balsicas Mar Menor;Balsicas Mar Menor;Balsicas Mar Menor;7161303;;37.8188;-0.950939;ES;Europe/Madrid;Q949880;INTERCITY|MD|PROXIMDAD;;nom;737198383;Q5845769;;;61303;Balsicas-Mar Menor
+TN7161304;gare;Torre Pacheco;Torre Pacheco;Torre Pacheco;7161304;;37.746943;-0.967058;ES;Europe/Madrid;Q949880;INTERCITY|MD|PROXIMDAD;;nom;2674576493;Q5847338;;;61304;Torre-Pacheco
+TN7161307;gare;Cartagena;Cartagena;Cartagena;7161307;;37.605029;-0.974972;ES;Europe/Madrid;Q162615;INTERCITY|MD|PROXIMDAD;;nom;617134268;Q3096144;;;61307;Cartagena
+TN7162001;gare;Beniel;Beniel;Beniel;7162001;;38.047166;-0.995468;ES;Europe/Madrid;Q1989408;AVANT;;nom;way/262530351;;;;62001;Beniel
+TN7162002;gare;Orihuela Miguel Hernández;Orihuela Miguel Hernández;Orihuela Miguel Hernández;7162002;;38.077838;-0.944538;ES;Europe/Madrid;Q487786;AVANT|AVE|AVLO|INTERCITY|MD;;nom;way/58220199;Q5558514;;;62002;Orihuela-Miguel Hernández
+TN7162003;gare;Callosa de Segura;Callosa de Segura;Callosa de Segura;7162003;;38.122669;-0.874405;ES;Europe/Madrid;Q1750915;MD;;nom;way/1226352951;Q5845916;;;62003;Callosa de Segura
+TN7162100;gare;San Isidro-Albatera-Catral;San Isidro-Albatera-Catral;San Isidro-Albatera-Catral;7162100;;38.167246;-0.838349;ES;Europe/Madrid;Q2265463;MD;;nom;11372360327;;;;62100;San Isidro-Albatera-Catral
+TN7162101;gare;Crevillente;Crevillente;Crevillente;7162101;;38.224562;-0.781528;ES;Europe/Madrid;Q1616611;MD;;gtfs;;;;;62101;Crevillente
+TN7162102;gare;Elche/Elx-Carrús;Elx Carrús;Elx Carrús;7162102;;38.269038;-0.706298;ES;Europe/Madrid;Q10509;MD;;nom;12971865263;Q8779712;;;62102;Elche/Elx-Carrús
+TN7162103;gare;Elche/Elx-Parc;Elche/Elx-Parc;Elche/Elx-Parc;7162103;;38.271781;-0.695219;ES;Europe/Madrid;Q10509;INTERCITY|MD;;gtfs;;;;;62103;Elche/Elx-Parc
+TN7162104;gare;Torrellano;Torrellano;Torrellano;7162104;;38.289645;-0.582757;ES;Europe/Madrid;Q10509;MD;;nom;7677571532;Q5847348;;;62104;Torrellano
+TN7162109;gare;Sant Gabriel;Sant Gabriel;Sant Gabriel;7162109;;38.32906;-0.508617;ES;Europe/Madrid;Q11959;MD;;nom;230015114;Q5847123;;;62109;Sant Gabriel
+TN7164007;gare;L'Ènova - Manuel;L'Ènova - Manuel;L'Ènova - Manuel;7164007;;39.0502;-0.47733;ES;Europe/Madrid;Q2264712;REGIONAL;;nom;500857331;Q5846450;;;64007;Lenova-Manuel
+TN7164100;gare;Xàtiva;Xàtiva;Xàtiva;7164100;;38.992253;-0.524682;ES;Europe/Madrid;Q738013;ALVIA|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;13648571953;Q2894373;;;64100;Xàtiva
+TN7164102;gare;La Pobla Llarga;La Pobla Llarga;La Pobla Llarga;7164102;;39.083289;-0.469631;ES;Europe/Madrid;Q283163;REGIONAL;;nom;500857332;Q5846975;;;64102;La Pobla Llarga
+TN7164103;gare;Carcaixent;Carcaixent;Carcaixent;7164103;;39.120525;-0.45441;ES;Europe/Madrid;Q1771128;REGIONAL;;gtfs;;;;;64103;Carcaixent
+TN7164104;gare;Alzira;Alzira;Alzira;7164104;;39.153197;-0.450676;ES;Europe/Madrid;Q931780;REGIONAL;;nom;500857327;Q11681628;;;64104;Alzira
+TN7164105;gare;Algemesí;Algemesí;Algemesí;7164105;;39.193145;-0.44093;ES;Europe/Madrid;Q1649476;REGIONAL;;nom;500857328;Q5845645;;;64105;Algemesí
+TN7164107;gare;Benifaió;Benifaió;Benifaió;7164107;;39.284303;-0.429954;ES;Europe/Madrid;Q1919317;REGIONAL;;gtfs;;;;;64107;Benifaió
+TN7164200;gare;Silla;Silla;Silla;7164200;;39.361755;-0.414938;ES;Europe/Madrid;Q10843;MD|REG.EXP.|REGIONAL;;nom;3973594649;Q5847257;;;64200;Silla
+TN7164201;gare;Catarroja;Catarroja;Catarroja;7164201;;39.400072;-0.399188;ES;Europe/Madrid;Q1771131;REGIONAL;;nom;3973025564;Q5846006;;;64201;Catarroja
+TN7164202;gare;Massanassa;Massanassa;Massanassa;7164202;;39.409169;-0.395323;ES;Europe/Madrid;Q102878;REGIONAL;;nom;3973025583;Q5846685;;;64202;Massanassa
+TN7164203;gare;Alfafar - Benetússer;Alfafar - Benetússer;Alfafar - Benetússer;7164203;;39.422329;-0.392591;ES;Europe/Madrid;Q1648851;REGIONAL;;nom;3973594599;Q5845638;;;64203;Alfafar-Benetússer
+TN7165000;gare;València - Estació del Nord;Valencia - North Station;València - Estació del Nord;7165000;;39.466913;-0.377191;ES;Europe/Madrid;Q8818;ALVIA|EUROMED|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;7246471728;Q1102684;;;65000;València-Estació del Nord
+TN7165001;gare;Roca-Cúper;Roca-Cúper;Roca-Cúper;7165001;;39.526485;-0.323715;ES;Europe/Madrid;Q1993019;REGIONAL;;nom;7221315770;;;;65001;Roca-Cúper
+TN7165002;gare;València - La Font de Sant Lluís;València - La Font de Sant Lluís;València - La Font de Sant Lluís;7165002;;39.441528;-0.371461;ES;Europe/Madrid;Q8818;REGIONAL;;nom;7229825437;Q8842162;;;65002;València-La Font de Sant Lluís
+TN7165003;gare;València Cabanyal;València Cabanyal;València Cabanyal;7165003;;39.470116;-0.334585;ES;Europe/Madrid;Q8818;REG.EXP.|REGIONAL;;nom;14243510920;Q3097922;;;65003;València-Cabanyal
+TN7165005;gare;Albuixech;Albuixech;Albuixech;7165005;;39.543101;-0.320531;ES;Europe/Madrid;Q1771153;REGIONAL;;nom;1067401293;;;;65005;Albuixech
+TN7165006;gare;Massalfassar;Massalfassar;Massalfassar;7165006;;39.555677;-0.318119;ES;Europe/Madrid;Q1989342;REGIONAL;;nom;1013407340;;;;65006;Massalfassar
+TN7165007;gare;El Puig;El Puig;El Puig;7165007;;39.588189;-0.311903;ES;Europe/Madrid;Q2040100;REGIONAL;;nom;7221315771;;;;65007;El Puig
+TN7165008;gare;Puçol;Puçol;Puçol;7165008;;39.620485;-0.3031;ES;Europe/Madrid;Q23028;REGIONAL;;nom;7221315772;Q8841556;;;65008;Puçol
+TN7165200;gare;Sagunt;Sagunt;Sagunt;7165200;;39.675671;-0.271415;ES;Europe/Madrid;Q47483;INTERCITY|MD|REG.EXP.|REGIONAL;;nom;7221315773;Q3325475;;;65200;Sagunt
+TN7165201;gare;Les Valls;Les Valls;Les Valls;7165201;;39.719257;-0.23965;ES;Europe/Madrid;Q47483;REGIONAL;;nom;503196005;Q8840975;;;65201;Les Valls
+TN7165202;gare;Almenara;Almenara;Almenara;7165202;;39.748668;-0.218216;ES;Europe/Madrid;Q1917433;REGIONAL;;nom;7221315774;Q8779260;;;65202;Almenara
+TN7165203;gare;La Llosa;La Llosa;La Llosa;7165203;;39.767772;-0.202965;ES;Europe/Madrid;Q1900688;REGIONAL;;nom;7221315775;Q8779964;;;65203;La Llosa
+TN7165204;gare;Chilches/Xilxes;Xilxes;Xilxes;7165204;;39.782779;-0.190312;ES;Europe/Madrid;Q1768727;REGIONAL;;nom;7221315776;;;;65204;Chilches/Xilxes
+TN7165205;gare;Moncofa;Moncofa;Moncofa;7165205;;39.820879;-0.162362;ES;Europe/Madrid;Q1768703;REGIONAL;;nom;917059169;Q5576481;;;65205;Moncofa
+TN7165206;gare;Nules la Villavella;Nules la Villavella;Nules la Villavella;7165206;;39.853235;-0.152732;ES;Europe/Madrid;Q1768703;REG.EXP.|REGIONAL;;gtfs;;;;;65206;Nules la Villavella
+TN7165207;gare;Burriana-Alquerías Niño Perdido;Burriana-Alquerías Niño Perdido;Burriana-Alquerías Niño Perdido;7165207;;39.896509;-0.10386;ES;Europe/Madrid;Q385070;REGIONAL;;gtfs;;;;;65207;Burriana-Alquerías Niño Perdido
+TN7165208;gare;Vila-real;Vila-real;Vila-real;7165208;;39.932958;-0.096535;ES;Europe/Madrid;Q12292;REG.EXP.|REGIONAL;;nom;7221315778;Q8842259;;;65208;Vila-Real
+TN7165209;gare;Almassora;Almassora;Almassora;7165209;;39.954877;-0.076922;ES;Europe/Madrid;Q1373919;REGIONAL;;nom;246824211;Q8779256;;;65209;Almassora
+TN7165300;gare;Castelló de la Plana;Castelló;Castelló;7165300;;39.988174;-0.051895;ES;Europe/Madrid;Q15092;ALVIA|AVE|EUROMED|INTERCITY|REG.EXP.|REGIONAL;;nom;13894649638;Q3325599;;;65300;Castelló de la Plana
+TN7165304;gare;Orpesa;Orpesa;Orpesa;7165304;;40.092291;0.139998;ES;Europe/Madrid;Q1596349;INTERCITY|REG.EXP.|REGIONAL;;nom;241896202;Q8841351;;;65304;Orpesa
+TN7165306;gare;Torreblanca;Torreblanca;Torreblanca;7165306;;40.212187;0.199009;ES;Europe/Madrid;Q1635372;REG.EXP.|REGIONAL;;nom;way/1230530875;Q8842068;;;65306;Torreblanca
+TN7165308;gare;Alcalá de Chivert;Alcalá de Chivert;Alcalá de Chivert;7165308;;40.30469;0.228717;ES;Europe/Madrid;Q1635204;REG.EXP.|REGIONAL;;gtfs;;;;;65308;Alcalá de Chivert
+TN7165311;gare;Benicarló - Peníscola;Benicarló - Peníscola;Benicarló - Peníscola;7165311;;40.427667;0.41516;ES;Europe/Madrid;Q817302;ALVIA|INTERCITY|REG.EXP.|REGIONAL;;nom;1113085650;Q3095965;;;65311;Benicarló-Peñíscola
+TN7165312;gare;Vinaròs;Vinaròs;Vinaròs;7165312;;40.471751;0.455451;ES;Europe/Madrid;Q917888;ALVIA|INTERCITY|REG.EXP.|REGIONAL;;nom;7221024125;Q11681692;;;65312;Vinaròs
+TN7165314;gare;Ulldecona-Alcanar-La Sénia;Ulldecona-Alcanar-La Sénia;Ulldecona-Alcanar-La Sénia;7165314;;40.595927;0.449274;ES;Europe/Madrid;Q995682;REG.EXP.|REGIONAL;;gtfs;;;;;65314;Ulldecona-Alcanar-La Sénia
+TN7165318;gare;Benicàssim;Benicàssim;Benicàssim;7165318;;40.058054;0.057755;ES;Europe/Madrid;Q636467;INTERCITY|REG.EXP.|REGIONAL;;nom;way/800511864;Q11681636;;;65318;Benicàssim
+TN7165400;gare;Tortosa;Tortosa;Tortosa;7165400;;40.807121;0.522877;ES;Europe/Madrid;Q12812;AVANT EXP|REG.EXP.|REGIONAL;;nom;1113111468;Q5647848;;;65400;Tortosa
+TN7165401;gare;Camp-redó;Camp-redó;Camp-redó;7165401;;40.759156;0.555844;ES;Europe/Madrid;Q12812;REG.EXP.;;gtfs;;;;;65401;Camp-redó
+TN7165402;gare;L'Aldea - Amposta - Tortosa;L'Aldea - Amposta - Tortosa;L'Aldea - Amposta - Tortosa;7165402;;40.753587;0.614547;ES;Europe/Madrid;Q983575;ALVIA|AVANT EXP|INTERCITY|REG.EXP.|REGIONAL;;nom;2056581884;Q8779235;;;65402;L'Aldea-Amposta-Tortosa
+TN7165403;gare;Camarles - Deltebre;Camarles - Deltebre;Camarles - Deltebre;7165403;;40.775117;0.671099;ES;Europe/Madrid;Q1229298;REG.EXP.;;nom;5434997566;Q11681637;;;65403;Camarles-Deltebre
+TN7165404;gare;L'Ampolla-El Perelló-Deltebre;L'Ampolla-El Perelló-Deltebre;L'Ampolla-El Perelló-Deltebre;7165404;;40.81199;0.708263;ES;Europe/Madrid;Q983572;AVANT EXP|REG.EXP.;;gtfs;;;;;65404;L'Ampolla-El Perelló-Deltebre
+TN7165405;gare;l'Ametlla de Mar;l'Ametlla de Mar;l'Ametlla de Mar;7165405;;40.8862;0.800454;ES;Europe/Madrid;Q54780;AVANT EXP|REG.EXP.;;nom;2125146085;;;;65405;L'Ametlla de Mar
+TN7165411;gare;Salou-Port Aventura;Salou-Port Aventura;Salou-Port Aventura;7165411;;41.087917;1.145601;ES;Europe/Madrid;Q662789;REG.EXP.|REGIONAL;;nom;5435163761;Q3097333;;;65411;Salou-Port Aventura
+TN7165420;gare;l'Hospitalet de l'Infant;l'Hospitalet de l'Infant;l'Hospitalet de l'Infant;7165420;;40.999648;0.9124;ES;Europe/Madrid;Q983564;AVANT EXP|REG.EXP.;;nom;7108274841;Q11681650;;;65420;L'Hospitalet de l'Infant
+TN7165422;gare;Cambrils;Cambrils;Cambrils;7165422;;41.081105;1.045281;ES;Europe/Madrid;Q828572;ALVIA|AVANT EXP|INTERCITY|REG.EXP.;;nom;7220776558;Q104766835;;;65422;Cambrils
+TN7167004;gare;María de Huerva;María de Huerva;María de Huerva;7167004;;41.540088;-0.997477;ES;Europe/Madrid;Q1640944;REGIONAL;;nom;11845561378;Q5846682;;;67004;María de Huerva
+TN7167007;gare;Arañales de Muel;Arañales de Muel;Arañales de Muel;7167007;;41.46913;-1.086215;ES;Europe/Madrid;Q967136;MD|REGIONAL;;uic;7444849167;Q5845699;;;67007;Arañales de Muel
+TN7167009;gare;Longares;Longares;Longares;7167009;;41.406156;-1.158497;ES;Europe/Madrid;Q1650702;REGIONAL;;nom;5940817283;Q5846615;;;67009;Longares
+TN7167010;gare;Cariñena;Cariñena;Cariñena;7167010;;41.335799;-1.229089;ES;Europe/Madrid;Q984529;MD|REGIONAL;;nom;1314402001;Q5845965;;;67010;Cariñena
+TN7167011;gare;Encinacorba;Encinacorba;Encinacorba;7167011;;41.289017;-1.278712;ES;Europe/Madrid;Q1650371;MD|REGIONAL;;nom;2073025029;Q5846199;;;67011;Encinacorba
+TN7167013;gare;Villarreal de Huerva;Villarreal de Huerva;Villarreal de Huerva;7167013;;41.196308;-1.287096;ES;Europe/Madrid;Q744533;MD|REGIONAL;;nom;8697630055;Q5649415;;;67013;Villarreal de Huerva
+TN7167014;gare;Villadoz;Villadoz;Villadoz;7167014;;41.165482;-1.279339;ES;Europe/Madrid;Q1639196;MD|REGIONAL;;gtfs;;;;;67014;Villadoz
+TN7167015;gare;Badules;Badules;Badules;7167015;;41.139799;-1.251559;ES;Europe/Madrid;Q1639646;MD|REGIONAL;;nom;5940842407;Q5845759;;;67015;Badules
+TN7167016;gare;Villahermosa;Villahermosa;Villahermosa;7167016;;41.108519;-1.239847;ES;Europe/Madrid;Q1113400;MD|REGIONAL;;nom;8697676633;Q5847478;;;67016;Villahermosa
+TN7167017;gare;Ferreruela;Ferreruela;Ferreruela;7167017;;41.063837;-1.238594;ES;Europe/Madrid;Q1768510;MD|REGIONAL;;nom;8075148246;Q5846230;;;67017;Ferreruela
+TN7167018;gare;Cuencabuena;Cuencabuena;Cuencabuena;7167018;;41.009311;-1.254788;ES;Europe/Madrid;Q572760;REGIONAL;;uic;12589984751;Q5846097;;;67018;Cuencabuena
+TN7167019;gare;Lechago;Lechago;Lechago;7167019;;40.957646;-1.269038;ES;Europe/Madrid;Q572760;REGIONAL;;nom;12117543660;Q5846585;;;67019;Lechago
+TN7167020;gare;Navarrete;Navarrete;Navarrete;7167020;;40.937084;-1.26171;ES;Europe/Madrid;Q572760;REGIONAL;;nom;13397831246;Q5846802;;;67020;Navarrete
+TN7167021;gare;Calamocha;Calamocha;Calamocha;7167021;;40.903864;-1.299841;ES;Europe/Madrid;Q572760;MD|REGIONAL;;gtfs;;;;;67021;Calamocha
+TN7167100;gare;Caminreal-Fuentes Claras;Caminreal-Fuentes Claras;Caminreal-Fuentes Claras;7167100;;40.850452;-1.338578;ES;Europe/Madrid;Q1653275;MD|REGIONAL;;nom;5937929969;;;;67100;Caminreal-Fuentes Claras
+TN7167101;gare;Torrijo del Campo;Torrijo del Campo;Torrijo del Campo;7167101;;40.826253;-1.340519;ES;Europe/Madrid;Q1650828;MD|REGIONAL;;nom;5940860995;;;;67101;Torrijo del Campo
+TN7167103;gare;Villafranca del Campo;Villafranca del Campo;Villafranca del Campo;7167103;;40.683772;-1.358226;ES;Europe/Madrid;Q960090;REGIONAL;;nom;2074634373;Q5847476;;;67103;Villafranca del Campo
+TN7167105;gare;Santa Eulalia del Campo;Santa Eulalia del Campo;Santa Eulalia del Campo;7167105;;40.573056;-1.312919;ES;Europe/Madrid;Q1765482;MD|REGIONAL;;nom;2074611275;Q5847175;;;67105;Santa Eulalia del Campo
+TN7167107;gare;Cella;Cella;Cella;7167107;;40.455289;-1.24479;ES;Europe/Madrid;Q1651638;MD|REGIONAL;;nom;359166884;Q5846020;;;67107;Cella
+TN7167113;gare;Monreal del Campo;Monreal del Campo;Monreal del Campo;7167113;;40.782289;-1.360847;ES;Europe/Madrid;Q1113400;MD|REGIONAL;;nom;2331789915;Q5405127;;;67113;Monreal del Campo
+TN7167200;gare;Teruel;Teruel;Teruel;7167200;;40.340985;-1.110418;ES;Europe/Madrid;Q14336;MD|REGIONAL;;nom;368243347;Q931608;;;67200;Teruel
+TN7167203;gare;Puebla de Valverde;Puebla de Valverde;Puebla de Valverde;7167203;;40.212393;-0.943951;ES;Europe/Madrid;Q513918;MD;;nom;6167041751;Q5846977;;;67203;Puebla de Valverde
+TN7167205;gare;Sarrión;Sarrión;Sarrión;7167205;;40.146154;-0.823583;ES;Europe/Madrid;Q1650905;MD;;nom;8060131557;Q5847195;;;67205;Sarrión
+TN7167206;gare;Mora de Rubielos;Mora de Rubielos;Mora de Rubielos;7167206;;40.117843;-0.773467;ES;Europe/Madrid;Q1653493;MD;;nom;6167089167;Q5846760;;;67206;Mora de Rubielos
+TN7167207;gare;Rubielos de Mora;Rubielos de Mora;Rubielos de Mora;7167207;;40.118006;-0.773463;ES;Europe/Madrid;Q1653493;MD;;gtfs;;;;;67207;Rubielos de Mora
+TN7167208;gare;Barracas;Barracas;Barracas;7167208;;40.011559;-0.696416;ES;Europe/Madrid;Q1995232;MD;;nom;358501945;Q5845775;;;67208;Barracas
+TN7167215;gare;Segorbe - Ciudad;Segorbe - Ciudad;Segorbe - Ciudad;7167215;;39.847064;-0.482348;ES;Europe/Madrid;Q750968;MD;;nom;way/343218077;Q8841924;;;67215;Segorbe-Ciudad
+TN7169001;gare;Genovés;Genovés;Genovés;7169001;;38.98773;-0.47988;ES;Europe/Madrid;Q1993407;REGIONAL;;gtfs;;;;;69001;Genovés
+TN7169002;gare;Benigànim;Benigànim;Benigànim;7169002;;38.938329;-0.453228;ES;Europe/Madrid;Q1769957;REGIONAL;;nom;2379638924;Q10947713;;;69002;Benigànim
+TN7169003;gare;la Pobla del Duc;la Pobla del Duc;la Pobla del Duc;7169003;;38.915287;-0.445843;ES;Europe/Madrid;Q1992977;REGIONAL;;nom;10186542246;;;;69003;La Pobla del Duc
+TN7169004;gare;Montaberner;Montaberner;Montaberner;7169004;;38.884135;-0.491619;ES;Europe/Madrid;Q1993034;REGIONAL;;gtfs;;;;;69004;Montaberner
+TN7169005;gare;Bufali;Bufali;Bufali;7169005;;38.867361;-0.510475;ES;Europe/Madrid;Q591535;REGIONAL;;nom;5180084625;Q10947810;;;69005;Bufalí
+TN7169006;gare;Albaida;Albaida;Albaida;7169006;;38.844675;-0.522407;ES;Europe/Madrid;Q1917834;REGIONAL;;nom;7731911225;Q10947294;;;69006;Albaida
+TN7169007;gare;Agullent;Agullent;Agullent;7169007;;38.830556;-0.551197;ES;Europe/Madrid;Q932861;REGIONAL;;nom;5180084626;;;;69007;Agullent
+TN7169008;gare;Ontinyent;Ontinyent;Ontinyent;7169008;;38.809407;-0.60247;ES;Europe/Madrid;Q973641;REGIONAL;;nom;5180084627;Q10949551;;;69008;Ontinyent
+TN7169009;gare;Agres;Agres;Agres;7169009;;38.796856;-0.521834;ES;Europe/Madrid;Q1753479;REGIONAL;;nom;3051824558;;;;69009;Agres
+TN7169010;gare;Cocentaina;Cocentaina;Cocentaina;7169010;;38.740776;-0.447047;ES;Europe/Madrid;Q1231003;REGIONAL;;nom;2085235056;;;;69010;Cocentaina
+TN7169011;gare;Alcoi;Alcoi;Alcoi;7169011;;38.709477;-0.470649;ES;Europe/Madrid;Q494777;REGIONAL;;nom;10922195556;;;;69011;Alcoi
+TN7170002;gare;Asamblea de Madrid-Entrevías;Asamblea de Madrid-Entrevías;Asamblea de Madrid-Entrevías;7170002;;40.381633;-3.668024;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5318600155;Q1960376;;;70002;Asamblea de Madrid-Entrevías
+TN7170003;gare;El Pozo;El Pozo;El Pozo;7170003;;40.376166;-3.656095;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5448172309;Q613656;;;70003;El Pozo
+TN7170005;gare;Vallecas;Vallecas;Vallecas;7170005;;40.382058;-3.624785;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5320204129;Q5548317;;;70005;Vallecas
+TN7170100;gare;Vicálvaro;Vicálvaro;Vicálvaro;7170100;;40.401259;-3.595925;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5320204131;Q5847450;;;70100;Vicálvaro
+TN7170101;gare;San Fernando de Henares;San Fernando de Henares;San Fernando de Henares;7170101;;40.442627;-3.534108;ES;Europe/Madrid;Q164197;REGIONAL;;uic;5320204132;Q8841726;;;70101;San Fernando de Henares
+TN7170102;gare;Torrejón de Ardoz;Torrejón de Ardoz;Torrejón de Ardoz;7170102;;40.454728;-3.479731;ES;Europe/Madrid;Q489839;REGIONAL;;uic;5320204128;;;;70102;Torrejón de Ardoz
+TN7170103;gare;Alcalá de Henares;Alcalá de Henares;Alcalá de Henares;7170103;;40.48906;-3.366189;ES;Europe/Madrid;Q46940;REG.EXP.|REGIONAL;;uic;2542907152;Q530417;;;70103;Alcalá de Henares
+TN7170104;gare;Meco;Meco;Meco;7170104;;40.534628;-3.298573;ES;Europe/Madrid;Q1646210;REGIONAL;;uic;6185935418;Q5846698;;;70104;Meco
+TN7170105;gare;Azuqueca;Azuqueca;Azuqueca;7170105;;40.561009;-3.265344;ES;Europe/Madrid;Q794315;REGIONAL;;uic;6185935419;Q5845757;;;70105;Azuqueca
+TN7170107;gare;Alcalá de Henares Universidad;Alcalá de Henares Universidad;Alcalá de Henares Universidad;7170107;;40.505444;-3.335305;ES;Europe/Madrid;Q46940;REGIONAL;;uic;2251286293;Q9144626;;;70107;Alcalá de Henares-Universidad
+TN7170108;gare;Coslada;Coslada;Coslada;7170108;;40.423733;-3.561008;ES;Europe/Madrid;Q164197;REGIONAL;;uic;6823409719;Q2244036;;;70108;Coslada
+TN7170109;gare;Santa Eugenia;Santa Eugenia;Santa Eugenia;7170109;;40.387129;-3.609086;ES;Europe/Madrid;Q2807;REGIONAL;;nom;5320204130;Q5847173;;;70109;Santa Eugenia
+TN7170111;gare;La Garena;La Garena;La Garena;7170111;;40.480345;-3.392993;ES;Europe/Madrid;Q46940;REGIONAL;;uic;6068519469;Q584442;;;70111;La Garena
+TN7170112;gare;Soto del Henares;Soto del Henares;Soto del Henares;7170112;;40.463858;-3.441422;ES;Europe/Madrid;Q489839;REGIONAL;;uic;5320264660;;;;70112;Soto del Henares
+TN7170200;gare;Guadalajara;Guadalajara;Guadalajara;7170200;;40.644084;-3.182253;ES;Europe/Madrid;Q11953;REG.EXP.|REGIONAL;;uic;6313228293;Q3780222;;;70200;Guadalajara
+TN7170202;gare;Yunquera de Henares;Yunquera de Henares;Yunquera de Henares;7170202;;40.74699;-3.163074;ES;Europe/Madrid;Q1640925;REG.EXP.|REGIONAL;;uic;12442692485;Q5847546;;;70202;Yunquera de Henares
+TN7170204;gare;Humanes de Mohernando;Humanes de Mohernando;Humanes de Mohernando;7170204;;40.831174;-3.138915;ES;Europe/Madrid;Q1654677;REG.EXP.|REGIONAL;;uic;13641576097;Q5846390;;;70204;Humanes de Mohernando
+TN7170207;gare;Espinosa de Henares;Espinosa de Henares;Espinosa de Henares;7170207;;40.909707;-3.073162;ES;Europe/Madrid;Q728215;REG.EXP.|REGIONAL;;uic;11753241224;Q5846213;;;70207;Espinosa de Henares
+TN7170208;gare;Carrascosa de Henares;Carrascosa de Henares;Carrascosa de Henares;7170208;;40.90586;-3.014383;ES;Europe/Madrid;Q728215;REG.EXP.|REGIONAL;;uic;2461676724;Q5845972;;;70208;Carrascosa de Henares
+TN7170209;gare;Jadraque;Jadraque;Jadraque;7170209;;40.930002;-2.935848;ES;Europe/Madrid;Q1653873;REG.EXP.|REGIONAL;;uic;6186096064;Q5846416;;;70209;Jadraque
+TN7170210;gare;Matillas;Matillas;Matillas;7170210;;40.95385;-2.843284;ES;Europe/Madrid;Q542686;REG.EXP.|REGIONAL;;uic;6186096065;Q5846693;;;70210;Matillas
+TN7170300;gare;Baides;Baides;Baides;7170300;;41.004889;-2.786021;ES;Europe/Madrid;Q601029;REG.EXP.|REGIONAL;;uic;6186096067;Q5845763;;;70300;Baides
+TN7170302;gare;Sigüenza;Sigüenza;Sigüenza;7170302;;41.071445;-2.646225;ES;Europe/Madrid;Q47475;REG.EXP.|REGIONAL;;uic;321577458;Q9336829;;;70302;Sigüenza
+TN7170400;gare;Torralba;Torralba;Torralba;7170400;;41.136311;-2.493053;ES;Europe/Madrid;Q484628;REG.EXP.;;uic;13648729797;Q5847336;;;70400;Torralba
+TN7170401;gare;Medinaceli;Medinaceli;Medinaceli;7170401;;41.165217;-2.421173;ES;Europe/Madrid;Q484628;REG.EXP.|REGIONAL;;uic;4864432351;Q5846702;;;70401;Medinaceli
+TN7170403;gare;Arcos de Jalón;Arcos de Jalón;Arcos de Jalón;7170403;;41.215645;-2.277688;ES;Europe/Madrid;Q830147;REG.EXP.|REGIONAL;;nom;12704481908;Q5845708;;;70403;Arcos de Jalón
+TN7170404;gare;Santa María de Huerta;Santa María de Huerta;Santa María de Huerta;7170404;;41.264073;-2.177964;ES;Europe/Madrid;Q836523;REGIONAL;;nom;12582187376;Q5847178;;;70404;Santa María de Huerta
+TN7170405;gare;Monreal de Ariza;Monreal de Ariza;Monreal de Ariza;7170405;;41.2987;-2.109819;ES;Europe/Madrid;Q1650635;REGIONAL;;nom;12211306061;Q5846735;;;70405;Monreal de Ariza
+TN7170500;gare;Ariza;Ariza;Ariza;7170500;;41.309432;-2.059961;ES;Europe/Madrid;Q1640165;REG.EXP.|REGIONAL;;nom;2282123376;Q5845720;;;70500;Ariza
+TN7170501;gare;Cetina;Cetina;Cetina;7170501;;41.296037;-1.959936;ES;Europe/Madrid;Q959334;REGIONAL;;nom;5939682666;Q5679155;;;70501;Cetina
+TN7170502;gare;Alhama de Aragón;Alhama de Aragón;Alhama de Aragón;7170502;;41.294514;-1.904289;ES;Europe/Madrid;Q1642171;REGIONAL;;nom;2282080227;Q5845649;;;70502;Alhama de Aragón
+TN7170503;gare;Bubierca;Bubierca;Bubierca;7170503;;41.317169;-1.855489;ES;Europe/Madrid;Q1641739;REGIONAL;;nom;13151168668;;;;70503;Bubierca
+TN7170504;gare;Ateca;Ateca;Ateca;7170504;;41.324383;-1.785286;ES;Europe/Madrid;Q1628439;REGIONAL;;nom;5937978999;Q5845741;;;70504;Ateca
+TN7170505;gare;Terrer;Terrer;Terrer;7170505;;41.322193;-1.708475;ES;Europe/Madrid;Q979314;REGIONAL;;nom;12117555757;Q5847325;;;70505;Terrer
+TN7170600;gare;Calatayud;Calatayud;Calatayud;7170600;;41.346361;-1.638417;ES;Europe/Madrid;Q496424;ALVIA|AVANT|AVE|REG.EXP.|REGIONAL;;uic;6186096069;Q3325503;;;70600;Calatayud
+TN7170602;gare;Embid de Jalón;Embid de Jalón;Embid de Jalón;7170602;;41.421331;-1.593158;ES;Europe/Madrid;Q496424;REGIONAL;;uic;14243655839;Q5846197;;;70602;Embid de Jalón
+TN7170603;gare;Paracuellos-Sabiñán;Paracuellos-Sabiñán;Paracuellos-Sabiñán;7170603;;41.428874;-1.567558;ES;Europe/Madrid;Q1650679;REGIONAL;;nom;2386227009;Q5846881;;;70603;Paracuellos-Sabiñán
+TN7170604;gare;Sabiñán;Sabiñán;Sabiñán;7170604;;41.44406;-1.571152;ES;Europe/Madrid;Q1650630;REGIONAL;;nom;5288693384;;;;70604;Sabiñán
+TN7170605;gare;Morés;Morés;Morés;7170605;;41.47855;-1.566252;ES;Europe/Madrid;Q1920017;REGIONAL;;nom;2386248261;Q5846772;;;70605;Morés
+TN7170606;gare;Purroy;Purroy;Purroy;7170606;;41.477181;-1.540276;ES;Europe/Madrid;Q1920017;REGIONAL;;uic;6186096068;Q5847005;;;70606;Purroy
+TN7170607;gare;Morata de Jalón;Morata de Jalón;Morata de Jalón;7170607;;41.475496;-1.478573;ES;Europe/Madrid;Q1646180;REGIONAL;;nom;2386248277;Q5846765;;;70607;Morata de Jalón
+TN7170700;gare;Ricla-La Almunia;Ricla-La Almunia;Ricla-La Almunia;7170700;;41.501276;-1.402791;ES;Europe/Madrid;Q766898;REGIONAL;;nom;1836639300;Q5847055;;;70700;Ricla-La Almunia
+TN7170701;gare;Calatorao;Calatorao;Calatorao;7170701;;41.5287;-1.360814;ES;Europe/Madrid;Q1641454;REGIONAL;;nom;4457701373;Q5845900;;;70701;Calatorao
+TN7170702;gare;Salillas de Jalón;Salillas de Jalón;Salillas de Jalón;7170702;;41.568352;-1.325456;ES;Europe/Madrid;Q1640997;REGIONAL;;uic;12117573477;Q5847101;;;70702;Salillas de Jalón
+TN7170703;gare;Épila;Épila;Épila;7170703;;41.609715;-1.301166;ES;Europe/Madrid;Q1553092;REGIONAL;;uic;2400728055;Q5847626;;;70703;Épila
+TN7170704;gare;Rueda de Jalón-Lumpiaque;Rueda de Jalón-Lumpiaque;Rueda de Jalón-Lumpiaque;7170704;;41.639215;-1.281682;ES;Europe/Madrid;Q931379;REGIONAL;;uic;12117550962;Q5847080;;;70704;Rueda de Jalón-Lumpiaque
+TN7170705;gare;Plasencia de Jalón;Plasencia de Jalón;Plasencia de Jalón;7170705;;41.689623;-1.234358;ES;Europe/Madrid;Q1650559;REGIONAL;;uic;12550996847;;;;70705;Plasencia de Jalón
+TN7170706;gare;Grisén;Grisén;Grisén;7170706;;41.745259;-1.165845;ES;Europe/Madrid;Q1640400;REGIONAL;;uic;6186096066;Q5846325;;;70706;Grisén
+TN7170800;gare;Casetas;Casetas;Casetas;7170800;;41.722734;-1.02049;ES;Europe/Madrid;Q10305;REG.EXP.|REGIONAL;;uic;448128332;Q8779516;;;70800;Casetas
+TN7170801;gare;Utebo;Utebo;Utebo;7170801;;41.71092;-0.998492;ES;Europe/Madrid;Q220073;REG.EXP.|REGIONAL;;uic;1974345183;Q3324045;;;70801;Utebo
+TN7170806;gare;Zaragoza-Portillo;Zaragoza-Portillo;Zaragoza-Portillo;7170806;;41.652742;-0.895905;ES;Europe/Madrid;Q10305;REG.EXP.|REGIONAL;;uic;4586239561;;;;70806;Zaragoza-Portillo
+TN7170807;gare;Zaragoza-Goya;Zaragoza-Goya;Zaragoza-Goya;7170807;;41.643915;-0.891342;ES;Europe/Madrid;Q10305;REG.EXP.|REGIONAL;;uic;4179891043;Q2838310;;;70807;Zaragoza-Goya
+TN7171100;gare;Zaragoza-Miraflores;Zaragoza-Miraflores;Zaragoza-Miraflores;7171100;;41.633186;-0.868315;ES;Europe/Madrid;Q10305;REG.EXP.|REGIONAL;;uic;1147563224;Q8841056;;;71100;Zaragoza-Miraflores
+TN7171103;gare;Fuentes de Ebro;Fuentes de Ebro;Fuentes de Ebro;7171103;;41.515242;-0.618381;ES;Europe/Madrid;Q1639187;REGIONAL;;uic;5749156246;Q5846267;;;71103;Fuentes de Ebro
+TN7171105;gare;Quinto;Quinto;Quinto;7171105;;41.419589;-0.49053;ES;Europe/Madrid;Q1752280;REG.EXP.|REGIONAL;;uic;13378956082;Q5847024;;;71105;Quinto
+TN7171108;gare;La Zaida-Sástago;La Zaida-Sástago;La Zaida-Sástago;7171108;;41.320488;-0.427024;ES;Europe/Madrid;Q1650377;REG.EXP.|REGIONAL;;nom;13378966348;;;;71108;La Zaida-Sástago
+TN7171200;gare;La Puebla de Híjar;La Puebla de Híjar;La Puebla de Híjar;7171200;;41.224508;-0.438194;ES;Europe/Madrid;Q1644852;REG.EXP.|REGIONAL;;uic;13378853513;;;;71200;La Puebla de Híjar
+TN7171201;gare;Samper;Samper;Samper;7171201;;41.182076;-0.368736;ES;Europe/Madrid;Q1641141;REG.EXP.|REGIONAL;;uic;13378853528;;;;71201;Samper
+TN7171204;gare;Caspe;Caspe;Caspe;7171204;;41.239913;-0.042743;ES;Europe/Madrid;Q64010;REG.EXP.|REGIONAL;;uic;8734265540;;;;71204;Caspe
+TN7171205;gare;Val de Pilas;Val de Pilas;Val de Pilas;7171205;;41.229553;0.076062;ES;Europe/Madrid;Q64010;REGIONAL;;nom;13379272986;Q5847392;;;71205;Val de Pilas
+TN7171206;gare;Fabara;Fabara;Fabara;7171206;;41.234405;0.143284;ES;Europe/Madrid;Q956450;REG.EXP.|REGIONAL;;gtfs;;;;;71206;Fabara
+TN7171207;gare;Nonaspe;Nonaspe;Nonaspe;7171207;;41.213726;0.242393;ES;Europe/Madrid;Q1628416;REG.EXP.|REGIONAL;;uic;5784019615;Q8841123;;;71207;Nonaspe
+TN7171208;gare;Faió - la Pobla de Massaluca;Faió - la Pobla de Massaluca;Faió - la Pobla de Massaluca;7171208;;41.224981;0.350777;ES;Europe/Madrid;Q1233513;REG.EXP.|REGIONAL;;uic;7557284885;Q8779777;;;71208;Faió-La Pobla de Massaluca
+TN7171209;gare;Riba-roja d'Ebre;Riba-roja d'Ebre;Riba-roja d'Ebre;7171209;;41.248506;0.480794;ES;Europe/Madrid;Q1229607;REG.EXP.|REGIONAL;;uic;7554725804;Q11681675;;;71209;Riba-roja d'Ebre
+TN7171210;gare;Flix;Flix;Flix;7171210;;41.229417;0.540148;ES;Europe/Madrid;Q548045;REG.EXP.|REGIONAL;;uic;5452414077;Q8779784;;;71210;Flix
+TN7171211;gare;Ascó;Ascó;Ascó;7171211;;41.18232;0.569052;ES;Europe/Madrid;Q723440;REG.EXP.|REGIONAL;;uic;3316606134;Q11681633;;;71211;Ascó
+TN7171300;gare;Móra la Nova;Móra la Nova;Móra la Nova;7171300;;41.106423;0.653418;ES;Europe/Madrid;Q1233555;REG.EXP.|REGIONAL;;uic;2240188565;Q8841097;;;71300;Móra la Nova
+TN7171302;gare;Capçanes;Capçanes;Capçanes;7171302;;41.102084;0.780385;ES;Europe/Madrid;Q509226;REG.EXP.;;nom;2899839346;Q5405001;;;71302;Capçanes
+TN7171303;gare;Marçà - Falset;Marçà - Falset;Marçà - Falset;7171303;;41.130925;0.810508;ES;Europe/Madrid;Q775782;REG.EXP.;;uic;2725947903;Q11681658;;;71303;Marçà-Falset
+TN7171304;gare;Pradell;Pradell;Pradell;7171304;;41.13316;0.858641;ES;Europe/Madrid;Q1233450;REG.EXP.;;uic;2725947939;Q509291;;;71304;Pradell
+TN7171305;gare;Duesaigües - l'Argentera;Duesaigües - l'Argentera;Duesaigües - l'Argentera;7171305;;41.143625;0.920788;ES;Europe/Madrid;Q1231311;REG.EXP.;;nom;2899848133;Q8779700;;;71305;Duesaigües-L'Argentera
+TN7171306;gare;Riudecanyes - Botarell;Riudecanyes - Botarell;Riudecanyes - Botarell;7171306;;41.140048;0.975778;ES;Europe/Madrid;Q913304;REG.EXP.;;uic;2725948021;Q5669764;;;71306;Riudecanyes-Botarell
+TN7171307;gare;les Borges del Camp;les Borges del Camp;les Borges del Camp;7171307;;41.166412;1.022074;ES;Europe/Madrid;Q1230160;REG.EXP.;;uic;5453800281;;;;71307;Les Borges del Camp
+TN7171400;gare;Reus;Reus;Reus;7171400;;41.160602;1.099942;ES;Europe/Madrid;Q487096;REG.EXP.|REGIONAL;;uic;7206954520;Q3097406;;;71400;Reus
+TN7171401;gare;Vila-seca;Vila-seca;Vila-seca;7171401;;41.112877;1.150442;ES;Europe/Madrid;Q508754;REG.EXP.|REGIONAL;;nom;7206954504;Q8842228;;;71401;Vila-seca
+TN7171500;gare;Tarragona;Tarragona;Tarragona;7171500;;41.111223;1.253537;ES;Europe/Madrid;Q15088;INTERCITY|REG.EXP.|REGIONAL;;nom;13894696022;Q3754797;;;71500;Tarragona
+TN7171502;gare;Altafulla - Tamarit;Altafulla - Tamarit;Altafulla - Tamarit;7171502;;41.136606;1.373297;ES;Europe/Madrid;Q15088;REG.EXP.;;nom;5435480586;Q507041;;;71502;Altafulla-Tamarit
+TN7171503;gare;Torredembarra;Torredembarra;Torredembarra;7171503;;41.142792;1.405709;ES;Europe/Madrid;Q995637;REG.EXP.;;nom;5435487464;Q8842076;;;71503;Torredembarra
+TN7171600;gare;Sant Vicenç de Calders;Sant Vicenç de Calders;Sant Vicenç de Calders;7171600;;41.186082;1.525793;ES;Europe/Madrid;Q929759;REG.EXP.;;nom;7204816747;Q2179421;;;71600;Sant Vicenç de Calders
+TN7171700;gare;Vilanova i la Geltrú;Vilanova i la Geltrú;Vilanova i la Geltrú;7171700;;41.220181;1.730824;ES;Europe/Madrid;Q15553;REG.EXP.;;nom;5435604026;Q1994013;;;71700;Vilanova i la Geltrú
+TN7171801;gare;Barcelona - Sants;Barcelona - Sants;Barcelona - Sants;7171801;;41.379007;2.140004;ES;Europe/Madrid;Q1492;ALVIA|AVANT|AVANT EXP|AVE|AVE INT|EUROMED|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;2158044594;;;;71801;Barcelona-Sants
+TN7171802;gare;Barcelona-Passeig de Gràcia;Barcelona-Passeig de Gràcia;Barcelona-Passeig de Gràcia;7171802;;41.392545;2.16538;ES;Europe/Madrid;Q1492;MD|REG.EXP.|REGIONAL;;uic;7201979113;Q800446;;;71802;Barcelona-Passeig de Gràcia
+TN7172101;gare;Roda de Mar;Roda de Mar;Roda de Mar;7172101;;41.186433;1.455191;ES;Europe/Madrid;Q1229622;REG.EXP.;;nom;5443674165;Q11010557;;;72101;Roda de Mar
+TN7173001;gare;Puigverd de Lleida-Artesa de Lleida;Puigverd de Lleida-Artesa de Lleida;Puigverd de Lleida-Artesa de Lleida;7173001;;41.553702;0.733427;ES;Europe/Madrid;Q1646560;REG.EXP.|REGIONAL;;gtfs;;;;;73001;Puigverd de Lleida-Artesa de Lleida
+TN7173002;gare;Juneda;Juneda;Juneda;7173002;;41.543919;0.825525;ES;Europe/Madrid;Q1769576;REG.EXP.|REGIONAL;;uic;2726030723;Q11920784;;;73002;Juneda
+TN7173003;gare;les Borges Blanques;les Borges Blanques;les Borges Blanques;7173003;;41.521407;0.87791;ES;Europe/Madrid;Q928006;REG.EXP.|REGIONAL;;uic;5451675809;Q15296996;;;73003;Les Borges Blanques
+TN7173004;gare;la Floresta;la Floresta;la Floresta;7173004;;41.504172;0.924419;ES;Europe/Madrid;Q2302200;REG.EXP.|REGIONAL;;uic;5451678226;Q11920817;;;73004;La Floresta
+TN7173005;gare;Vinaixa;Vinaixa;Vinaixa;7173005;;41.425141;0.970374;ES;Europe/Madrid;Q1767414;REG.EXP.|REGIONAL;;gtfs;;;;;73005;Vinaixa
+TN7173006;gare;Vimbodí i Poblet;Vimbodí;Vimbodí;7173006;;41.402692;1.046027;ES;Europe/Madrid;Q776730;REG.EXP.|REGIONAL;;uic;5451606993;Q6746669;;;73006;Vimbodí i Poblet
+TN7173007;gare;l'Espluga de Francolí;l'Espluga de Francolí;l'Espluga de Francolí;7173007;;41.400474;1.103265;ES;Europe/Madrid;Q1229283;REG.EXP.|REGIONAL;;uic;2711347325;Q8779938;;;73007;L'Espluga de Francolí
+TN7173008;gare;Montblanc;Montblanc;Montblanc;7173008;;41.376516;1.165712;ES;Europe/Madrid;Q761735;REG.EXP.|REGIONAL;;uic;2209660914;Q11681662;;;73008;Montblanc
+TN7173009;gare;Vilaverd;Vilaverd;Vilaverd;7173009;;41.337634;1.176492;ES;Europe/Madrid;Q931134;REG.EXP.|REGIONAL;;nom;3592103996;Q8842230;;;73009;Vilaverd
+TN7173010;gare;la Riba;la Riba;la Riba;7173010;;41.318429;1.181359;ES;Europe/Madrid;Q280721;REG.EXP.|REGIONAL;;nom;5443935580;Q8779985;;;73010;La Riba
+TN7173100;gare;la Plana - Picamoixons;la Plana - Picamoixons;la Plana - Picamoixons;7173100;;41.306082;1.194946;ES;Europe/Madrid;Q825883;REG.EXP.|REGIONAL;;uic;1584912833;Q8779980;;;73100;La Plana-Picamoixons
+TN7173101;gare;Alcover;Alcover;Alcover;7173101;;41.261604;1.174173;ES;Europe/Madrid;Q427790;REG.EXP.|REGIONAL;;uic;1585031955;Q8779231;;;73101;Alcover
+TN7173102;gare;la Selva del Camp;la Selva del Camp;la Selva del Camp;7173102;;41.211271;1.143959;ES;Europe/Madrid;Q1230100;REG.EXP.|REGIONAL;;uic;1585031964;Q8779994;;;73102;La Selva del Camp
+TN7174200;gare;Huesca;Huesca;Huesca;7174200;;42.132751;-0.409851;ES;Europe/Madrid;Q11967;AVE|REGIONAL;;uic;8051540821;Q8779900;;;74200;Huesca
+TN7174204;gare;Ayerbe;Ayerbe;Ayerbe;7174204;;42.275525;-0.682434;ES;Europe/Madrid;Q189749;REGIONAL;;uic;8051540856;Q5845750;;;74204;Ayerbe
+TN7174206;gare;Riglos;Riglos;Riglos;7174206;;42.344241;-0.731473;ES;Europe/Madrid;Q1768883;REGIONAL;;uic;7593193736;Q5847059;;;74206;Riglos
+TN7174207;gare;Santa María y La Peña;Santa María y La Peña;Santa María y La Peña;7174207;;42.380245;-0.695809;ES;Europe/Madrid;Q1768883;REGIONAL;;uic;6127183265;Q56307804;;;74207;Santa María y la Peña
+TN7174208;gare;Anzánigo;Anzánigo;Anzánigo;7174208;;42.403204;-0.643078;ES;Europe/Madrid;Q1649596;REGIONAL;;uic;8051540855;Q5845691;;;74208;Anzánigo
+TN7174209;gare;Caldearenas-Aquilué;Caldearenas-Aquilué;Caldearenas-Aquilué;7174209;;42.397849;-0.499281;ES;Europe/Madrid;Q1649596;REGIONAL;;uic;8051540854;Q5845905;;;74209;Caldearenas-Aquilué
+TN7174211;gare;Sabiñánigo;Sabiñánigo;Sabiñánigo;7174211;;42.520223;-0.373352;ES;Europe/Madrid;Q1552975;REGIONAL;;uic;8051540853;Q5486484;;;74211;Sabiñánigo
+TN7174213;gare;Jaca;Jaca;Jaca;7174213;;42.577732;-0.538463;ES;Europe/Madrid;Q49581;REGIONAL;;nom;8051540831;Q5846413;;;74213;Jaca
+TN7174214;gare;Castiello-Pueblo;Castiello-Pueblo;Castiello-Pueblo;7174214;;42.625598;-0.54382;ES;Europe/Madrid;Q784295;REGIONAL;;nom;8051540827;Q5655733;;;74214;Castiello-Pueblo
+TN7174216;gare;Villanúa;Villanúa-Letranz;Villanúa-Letranz;7174216;;42.688567;-0.523493;ES;Europe/Madrid;Q752004;REGIONAL;;nom;10284908056;Q5847496;;;74216;Villanúa
+TN7174217;gare;Canfranc;Canfranc;Canfranc;7174217;;42.751124;-0.513107;ES;Europe/Madrid;Q984642;REGIONAL;;nom;7572455884;Q800612;;;74217;Canfranc
+TN7176001;gare;Salomó;Salomó;Salomó;7176001;;41.223395;1.376591;ES;Europe/Madrid;Q779424;REG.EXP.;;nom;3592103272;Q8841681;;;76001;Salomó
+TN7176002;gare;Vilabella;Vilabella;Vilabella;7176002;;41.239497;1.317479;ES;Europe/Madrid;Q646796;REG.EXP.;;nom;5443873391;Q8842212;;;76002;Vilabella
+TN7176003;gare;Nulles - Bràfim;Nulles - Bràfim;Nulles - Bràfim;7176003;;41.250339;1.297399;ES;Europe/Madrid;Q178822;REG.EXP.;;nom;3592103913;Q8841127;;;76003;Nulles-Bràfim
+TN7176004;gare;Valls;Valls;Valls;7176004;;41.289579;1.258705;ES;Europe/Madrid;Q825883;REG.EXP.;;nom;way/1014924821;Q8842170;;;76004;Valls
+TN7178005;gare;Villanueva de Gállego;Villanueva de Gállego;Villanueva de Gállego;7178005;;41.765395;-0.822164;ES;Europe/Madrid;Q1639259;REGIONAL;;uic;7590293222;Q5847490;;;78005;Villanueva de Gállego
+TN7178200;gare;Tardienta;Tardienta;Tardienta;7178200;;41.975567;-0.538428;ES;Europe/Madrid;Q904194;AVE|REG.EXP.|REGIONAL;;uic;4338239783;Q5847313;;;78200;Tardienta
+TN7178201;gare;Grañén;Grañén;Grañén;7178201;;41.937955;-0.369311;ES;Europe/Madrid;Q658838;REG.EXP.|REGIONAL;;uic;9256006949;Q5846320;;;78201;Grañén
+TN7178203;gare;Sariñena;Sariñena;Sariñena;7178203;;41.817169;-0.173612;ES;Europe/Madrid;Q478178;REG.EXP.|REGIONAL;;uic;way/1088564497;Q5847190;;;78203;Sariñena
+TN7178301;gare;Monzón-Río Cinca;Monzón-Río Cinca;Monzón-Río Cinca;7178301;;41.913718;0.196896;ES;Europe/Madrid;Q5123;REG.EXP.|REGIONAL;;uic;2190026009;Q5846756;;;78301;Monzón-Río Cinca
+TN7178302;gare;Binefar;Binefar;Binefar;7178302;;41.849739;0.291406;ES;Europe/Madrid;Q864175;REG.EXP.|REGIONAL;;uic;36130273;Q5845829;;;78302;Binéfar
+TN7178400;gare;Lleida-Pirineus;Lleida-Pirineus;Lleida-Pirineus;7178400;;41.620731;0.633035;ES;Europe/Madrid;Q15090;ALVIA|AVANT|AVE|INTERCITY|REG.EXP.|REGIONAL;;uic;7487337013;Q3319796;;;78400;Lleida-Pirineus
+TN7178402;gare;Bell-lloc d'Urgell;Bell-lloc d'Urgell;Bell-lloc d'Urgell;7178402;;41.631753;0.781599;ES;Europe/Madrid;Q1902343;REGIONAL;;uic;13595844127;Q633118;;;78402;Bell-lloc d'Urgell
+TN7178403;gare;Mollerussa;Mollerussa;Mollerussa;7178403;;41.631954;0.896879;ES;Europe/Madrid;Q676132;REGIONAL;;uic;13681470657;Q633091;;;78403;Mollerussa
+TN7178404;gare;Golmés;Golmés;Golmés;7178404;;41.635923;0.930859;ES;Europe/Madrid;Q631603;REGIONAL;;uic;2242865261;Q634492;;;78404;Golmés
+TN7178405;gare;Castellnou de Seana;Castellnou de Seana;Castellnou de Seana;7178405;;41.637378;0.967968;ES;Europe/Madrid;Q1116148;REGIONAL;;uic;2242865272;Q634409;;;78405;Castellnou de Seana
+TN7178406;gare;Bellpuig;Bellpuig;Bellpuig;7178406;;41.632603;1.01297;ES;Europe/Madrid;Q948983;REGIONAL;;uic;13722093709;Q634440;;;78406;Bellpuig
+TN7178407;gare;Anglesola;Anglesola;Anglesola;7178407;;41.646399;1.078976;ES;Europe/Madrid;Q1778184;REGIONAL;;uic;2242865298;Q634427;;;78407;Anglesola
+TN7178408;gare;Tàrrega;Tàrrega;Tàrrega;7178408;;41.650305;1.138826;ES;Europe/Madrid;Q752137;REGIONAL;;uic;13722093708;Q634460;;;78408;Tàrrega
+TN7178500;gare;Cervera;Cervera;Cervera;7178500;;41.673702;1.274718;ES;Europe/Madrid;Q847011;REGIONAL;;uic;2242865371;Q634450;;;78500;Cervera
+TN7178501;gare;Sant Guim de Freixenet;Sant Guim de Freixenet;Sant Guim de Freixenet;7178501;;41.655847;1.420631;ES;Europe/Madrid;Q1766650;REGIONAL;;uic;2242865342;Q634470;;;78501;Sant Guim de Freixenet
+TN7178502;gare;Sant Martí Sesgueioles;Sant Martí de Sesgueioles;Sant Martí de Sesgueioles;7178502;;41.701324;1.486274;ES;Europe/Madrid;Q15962;REGIONAL;;uic;2242865394;Q634480;;;78502;Sant Martí Sesgueioles
+TN7178503;gare;Calaf;Calaf;Calaf;7178503;;41.730152;1.515193;ES;Europe/Madrid;Q15940;REGIONAL;;uic;5434388023;Q634454;;;78503;Calaf
+TN7178504;gare;Seguers - Sant Pere Sallavinera;Seguers - Sant Pere Sallavinera;Seguers - Sant Pere Sallavinera;7178504;;41.74791;1.574102;ES;Europe/Madrid;Q15967;REGIONAL;;uic;2242865426;Q649253;;;78504;Seguers-Sant Pere Sallavinera
+TN7178505;gare;Aguilar de Segarra;Aguilar de Segarra;Aguilar de Segarra;7178505;;41.738753;1.623725;ES;Europe/Madrid;Q16675;REGIONAL;;uic;2282450274;Q651382;;;78505;Aguilar de Segarra
+TN7178506;gare;Rajadell;Rajadell;Rajadell;7178506;;41.732361;1.698576;ES;Europe/Madrid;Q16727;REGIONAL;;uic;1669114248;Q649294;;;78506;Rajadell
+TN7178600;gare;Manresa;Manresa;Manresa;7178600;;41.720265;1.826633;ES;Europe/Madrid;Q16697;REGIONAL;;uic;5434402725;Q971146;;;78600;Manresa
+TN7178604;gare;Sant Vicenç de Castellet;Sant Vicenç de Castellet;Sant Vicenç de Castellet;7178604;;41.66886;1.862323;ES;Europe/Madrid;Q16734;REGIONAL;;uic;7512362027;Q11681680;;;78604;Sant Vicenç de Castellet
+TN7178700;gare;Terrassa Estació del Nord;Terrassa Estació del Nord;Terrassa Estació del Nord;7178700;;41.569867;2.014262;ES;Europe/Madrid;Q13939;REGIONAL;;nom;7512362039;Q4891348;;;78700;Terrassa Estació del Nord
+TN7179004;gare;Barcelona-Sant Andreu;Barcelona-Sant Andreu;Barcelona-Sant Andreu;7179004;;41.436269;2.193858;ES;Europe/Madrid;Q1492;REGIONAL;;uic;7201979112;Q2536679;;;79004;Barcelona Sant Andreu
+TN7179009;gare;Barcelona-El Clot;Barcelona-El Clot;Barcelona-El Clot;7179009;;41.40907;2.187411;ES;Europe/Madrid;Q1492;MD|REGIONAL;;uic;7201979114;Q2404313;;;79009;Barcelona El Clot
+TN7179100;gare;Granollers Centre;Granollers Centre;Granollers Centre;7179100;;41.599655;2.291612;ES;Europe/Madrid;Q15420;REGIONAL;;nom;7229212778;Q4891327;;;79100;Granollers Centre
+TN7179104;gare;Sant Celoni;Sant Celoni;Sant Celoni;7179104;;41.685651;2.490967;ES;Europe/Madrid;Q15441;MD|REGIONAL;;nom;7482996465;Q8841713;;;79104;Sant Celoni
+TN7179105;gare;Gualba;Gualba;Gualba;7179105;;41.717955;2.538932;ES;Europe/Madrid;Q15421;REGIONAL;;nom;7482996466;Q5413720;;;79105;Gualba
+TN7179106;gare;Riells i Viabrea - Breda;Riells i Viabrea - Breda;Riells i Viabrea - Breda;7179106;;41.726487;2.568691;ES;Europe/Madrid;Q13073;REGIONAL;;nom;7482996472;Q5663877;;;79106;Riells i Viabrea-Breda
+TN7179107;gare;Hostalric;Hostalric;Hostalric;7179107;;41.747902;2.631668;ES;Europe/Madrid;Q13643;REGIONAL;;nom;7482996482;Q8779897;;;79107;Hostalric
+TN7179200;gare;Maçanet Massanes;Maçanet Massanes;Maçanet Massanes;7179200;;41.77217;2.673377;ES;Europe/Madrid;Q13634;MD|REGIONAL;;nom;7403526266;Q2328657;;;79200;Maçanet-Massanes
+TN7179202;gare;Sils;Sils;Sils;7179202;;41.807477;2.745015;ES;Europe/Madrid;Q13050;MD|REGIONAL;;nom;7403579018;Q8841959;;;79202;Sils
+TN7179203;gare;Caldes de Malavella;Caldes de Malavella;Caldes de Malavella;7179203;;41.841164;2.800572;ES;Europe/Madrid;Q13064;MD|REGIONAL;;nom;7490586755;Q8779450;;;79203;Caldes de Malavella
+TN7179204;gare;Riudellots;Riudellots de la Selva;Riudellots de la Selva;7179204;;41.896161;2.811743;ES;Europe/Madrid;Q13635;REGIONAL;;nom;5334025975;Q8841623;;;79204;Riudellots
+TN7179205;gare;Fornells de la Selva;Fornells de la Selva;Fornells de la Selva;7179205;;41.934966;2.809475;ES;Europe/Madrid;Q13431;REGIONAL;;nom;2483779639;Q8779799;;;79205;Fornells de la Selva
+TN7179300;gare;Girona;Girona;Girona;7179300;;41.979166;2.816286;ES;Europe/Madrid;Q7038;AVANT|AVE|AVE INT|EUROMED|MD|REGIONAL;;uic;7490586752;Q3088107;;;79300;Girona
+TN7179301;gare;Celrà;Celrà;Celrà;7179301;;42.027315;2.874849;ES;Europe/Madrid;Q13426;REGIONAL;;nom;7490586749;Q8779562;;;79301;Celrà
+TN7179302;gare;Bordils - Juià;Bordils - Juià;Bordils - Juià;7179302;;42.036978;2.915297;ES;Europe/Madrid;Q13432;REGIONAL;;nom;5330131966;;;;79302;Bordils-Juià
+TN7179303;gare;Flaçà;Flaçà;Flaçà;7179303;;42.047492;2.957171;ES;Europe/Madrid;Q13430;MD|REGIONAL;;nom;7504603570;;;;79303;Flaçà
+TN7179304;gare;Sant Jordi Desvalls;Sant Jordi Desvalls;Sant Jordi Desvalls;7179304;;42.068283;2.964762;ES;Europe/Madrid;Q13454;REGIONAL;;nom;7504603546;Q11681683;;;79304;Sant Jordi Desvalls
+TN7179305;gare;Camallera;Camallera;Camallera;7179305;;42.122216;2.965608;ES;Europe/Madrid;Q11865;REGIONAL;;nom;7504603523;Q5853553;;;79305;Camallera
+TN7179306;gare;Sant Miquel de Fluvià;Sant Miquel de Fluvià;Sant Miquel de Fluvià;7179306;;42.172287;2.989332;ES;Europe/Madrid;Q11837;REGIONAL;;nom;7504603522;Q8841742;;;79306;Sant Miquel de Fluvià
+TN7179308;gare;Vilamalla;Vilamalla;Vilamalla;7179308;;42.216375;2.978026;ES;Europe/Madrid;Q12163;REGIONAL;;nom;7504525657;Q8842215;;;79308;Vilamalla
+TN7179309;gare;Figueres;Figueres;Figueres;7179309;;42.265005;2.96897;ES;Europe/Madrid;Q6839;MD|REGIONAL;;nom;7512362062;Q3096440;;XEFI;79309;Figueres
+TN7179311;gare;Vilajuïga;Vilajuïga;Vilajuïga;7179311;;42.325154;3.086304;ES;Europe/Madrid;Q12159;REGIONAL;;nom;7512362047;Q937770;;;79311;Vilajuïga
+TN7179312;gare;Llançà;Llançà;Llançà;7179312;;42.3668;3.14916;ES;Europe/Madrid;Q11339;MD|REGIONAL;;uic;1998634565;Q8840949;;;79312;Llançà
+TN7179314;gare;Colera;Colera;Colera;7179314;;42.406998;3.154179;ES;Europe/Madrid;Q11296;REGIONAL;;nom;1996338625;Q8779643;;;79314;Colera
+TN7179315;gare;Portbou;Portbou;Portbou;7179315;;42.424798;3.158012;ES;Europe/Madrid;Q7165;MD|REGIONAL;;nom;5418197107;Q979452;;XEPB;79315;Portbou
+TN7179400;gare;Barcelona-Estació de França;Barcelona-Estació de França;Barcelona-Estació de França;7179400;;41.384389;2.18556;ES;Europe/Madrid;Q1492;REG.EXP.;;uic;13672711066;Q800449;;;79400;Barcelona Estació de França
+TN7180001;gare;Altsasu-Pueblo;Altsasu–Herria;Altsasu–Herria;7180001;;42.893335;-2.167451;ES;Europe/Madrid;Q1635681;REG.EXP.;;uic;4586116155;Q4464109;;;80001;Altsasu-Pueblo
+TN7180003;gare;Etxarri-Aranatz;Etxarri-Aranatz;Etxarri-Aranatz;7180003;;42.910961;-2.071728;ES;Europe/Madrid;Q1648046;REG.EXP.;;uic;26837751;Q4464191;;;80003;Etxarri-Aranatz
+TN7180005;gare;Uharte-Arakil;Uharte-Arakil;Uharte-Arakil;7180005;;42.920392;-1.974829;ES;Europe/Madrid;Q1647888;REG.EXP.;;uic;2118941959;Q4464145;;;80005;Uharte-Arakil
+TN7180100;gare;Pamplona / Iruña;Pamplona / Iruña;Pamplona / Iruña;7180100;;42.82505;-1.661487;ES;Europe/Madrid;Q10282;ALVIA|INTERCITY|MD|REG.EXP.;;uic;11757382798;Q3394058;;;80100;Pamplona/Iruña
+TN7180108;gare;Tafalla;Tafalla;Tafalla;7180108;;42.525751;-1.671215;ES;Europe/Madrid;Q820224;ALVIA|INTERCITY|MD|REG.EXP.;;nom;244184062;Q4464200;;;80108;Tafalla
+TN7180109;gare;Olite-Erriberri;Olite-Erriberri;Olite-Erriberri;7180109;;42.484989;-1.649964;ES;Europe/Madrid;Q837062;REG.EXP.;;gtfs;;;;;80109;Olite-Erriberri
+TN7180114;gare;Marcilla de Navarra;Marcilla de Navarra;Marcilla de Navarra;7180114;;42.334713;-1.717224;ES;Europe/Madrid;Q1636217;REG.EXP.;;nom;287467020;Q4464165;;;80114;Marcilla de Navarra
+TN7180115;gare;Villafranca de Navarra;Villafranca de Navarra;Villafranca de Navarra;7180115;;42.280742;-1.745439;ES;Europe/Madrid;Q1912688;REG.EXP.;;nom;26212732;Q5552479;;;80115;Villafranca de Navarra
+TN7181002;gare;Haro;Haro;Haro;7181002;;42.583713;-2.849135;ES;Europe/Madrid;Q405292;ALVIA|INTERCITY|MD;;uic;1536500006;Q5846354;;;81002;Haro
+TN7181100;gare;Logroño;Logroño;Logroño;7181100;;42.457574;-2.440819;ES;Europe/Madrid;Q14325;ALVIA|INTERCITY|MD|REG.EXP.;;uic;2459459539;;;;81100;Logroño
+TN7181102;gare;Agoncillo;Agoncillo;Agoncillo;7181102;;42.443554;-2.29167;ES;Europe/Madrid;Q1606725;REG.EXP.;;nom;2089761594;Q5845592;;;81102;Agoncillo
+TN7181105;gare;Alcanadre;Alcanadre;Alcanadre;7181105;;42.407592;-2.121975;ES;Europe/Madrid;Q1770483;REG.EXP.;;nom;2090074703;Q5793405;;;81105;Alcanadre
+TN7181106;gare;Féculas-Navarra;Féculas-Navarra;Féculas-Navarra;7181106;;42.411157;-2.098006;ES;Europe/Madrid;Q984882;REG.EXP.;;nom;2090101642;Q4464116;;;81106;Féculas-Navarra
+TN7181108;gare;Calahorra;Calahorra;Calahorra;7181108;;42.310696;-1.957819;ES;Europe/Madrid;Q642046;ALVIA|MD|REG.EXP.;;nom;2091426364;Q5845894;;;81108;Calahorra
+TN7181109;gare;Rincón de Soto;Rincón de Soto;Rincón de Soto;7181109;;42.230047;-1.847861;ES;Europe/Madrid;Q771336;ALVIA|MD|REG.EXP.;;nom;2091429119;Q5847063;;;81109;Rincón de Soto
+TN7181110;gare;Alfaro;Alfaro;Alfaro;7181110;;42.186609;-1.748137;ES;Europe/Madrid;Q695889;ALVIA|MD|REG.EXP.;;nom;2091431019;Q5845640;;;81110;Alfaro
+TN7181200;gare;Castejón de Ebro;Castejón de Ebro;Castejón de Ebro;7181200;;42.172868;-1.692439;ES;Europe/Madrid;Q1648779;ALVIA|INTERCITY|MD|REG.EXP.;;nom;26230611;Q4464156;;;81200;Castejón de Ebro
+TN7181202;gare;Tudela de Navarra;Tudela de Navarra;Tudela de Navarra;7181202;;42.059499;-1.597665;ES;Europe/Madrid;Q244747;ALVIA|INTERCITY|MD|REG.EXP.;;nom;26377011;Q4464174;;;81202;Tudela de Navarra
+TN7181203;gare;Ribaforada;Ribaforada;Ribaforada;7181203;;41.997072;-1.515479;ES;Europe/Madrid;Q1647994;REG.EXP.;;nom;26377358;Q4464130;;;81203;Ribaforada
+TN7181205;gare;Cortes de Navarra;Cortes de Navarra;Cortes de Navarra;7181205;;41.915358;-1.420871;ES;Europe/Madrid;Q1637031;REG.EXP.;;uic;2961586517;Q4464111;;;81205;Cortes de Navarra
+TN7181206;gare;Gallur;Gallur;Gallur;7181206;;41.867094;-1.321326;ES;Europe/Madrid;Q572779;REG.EXP.;;uic;26377368;Q5846278;;;81206;Gallur
+TN7181207;gare;Luceni;Luceni;Luceni;7181207;;41.826155;-1.244005;ES;Europe/Madrid;Q776889;REG.EXP.;;uic;6245732030;Q5663073;;;81207;Luceni
+TN7181208;gare;Pedrola;Pedrola;Pedrola;7181208;;41.805098;-1.201938;ES;Europe/Madrid;Q574869;REG.EXP.;;nom;81326548;;;;81208;Pedrola
+TN7181209;gare;Cabañas de Ebro;Cabañas de Ebro;Cabañas de Ebro;7181209;;41.788312;-1.168404;ES;Europe/Madrid;Q1650854;REG.EXP.;;uic;81326546;Q5845883;;;81209;Cabañas de Ebro
+TN7181210;gare;Alagón;Alagón;Alagón;7181210;;41.771625;-1.112608;ES;Europe/Madrid;Q1637315;REG.EXP.;;nom;81326544;Q5845603;;;81210;Alagón
+TN7182100;gare;Soria;Soria;Soria;7182100;;41.755346;-2.475612;ES;Europe/Madrid;Q12155;REG.EXP.;;uic;257347410;Q5847274;;;82100;Soria
+TN7184101;gare;Almazán - Villa;Almazán - Villa;Almazán - Villa;7184101;;41.489195;-2.52534;ES;Europe/Madrid;Q5202;REG.EXP.;;uic;2091476633;Q10947350;;;84101;Almazán-Villa
+TN7184103;gare;Tardelcuende;Tardelcuende;Tardelcuende;7184103;;41.593536;-2.63926;ES;Europe/Madrid;Q832238;REG.EXP.;;uic;445961560;Q8842028;;;84103;Tardelcuende
+TN7184104;gare;Quintana Redonda;Quintana Redonda;Quintana Redonda;7184104;;41.639616;-2.609588;ES;Europe/Madrid;Q834281;REG.EXP.;;uic;257474716;Q8841565;;;84104;Quintana Redonda
+TN7192102;gare;Toledo;Toledo;Toledo;7192102;;39.862563;-4.010827;ES;Europe/Madrid;Q5836;AVANT;;uic;254453384;Q801520;;;92102;Toledo
+TN7194002;gare;Daimiel;Daimiel;Daimiel;7194002;;39.06141;-3.604079;ES;Europe/Madrid;Q1631261;MD|REG.EXP.;;uic;2518537266;Q12174792;;;94002;Daimiel
+TN7194004;gare;Almagro;Almagro;Almagro;7194004;;38.895513;-3.70965;ES;Europe/Madrid;Q752280;MD|REG.EXP.;;uic;2519683289;Q12174779;;;94004;Almagro
+TN7197100;gare;Pitis;Pitis;Pitis;7197100;;40.495302;-3.725588;ES;Europe/Madrid;Q2807;REGIONAL;;nom;6393976871;;;;97100;Pitis
+TN7197200;gare;Mirasierra - Paco de Lucía;Mirasierra - Paco de Lucía;Mirasierra - Paco de Lucía;7197200;;40.499878;-3.709304;ES;Europe/Madrid;Q2807;REGIONAL;;nom;way/559233685;Q112043212;;;97200;Mirasierra-Paco de Lucía
+TN7197201;gare;Madrid-Ramón y Cajal;Ramón y Cajal;Ramón y Cajal;7197201;;40.488139;-3.694516;ES;Europe/Madrid;Q2807;REGIONAL;;nom;way/14665984;Q5847026;;;97201;Madrid-Ramón y Cajal
+TN7199117;gare;Ourense Turístico;Ourense Turístico;Ourense Turístico;7199117;;42.350389;-7.872777;ES;Europe/Madrid;Q99151;AVANT|MD;;gtfs;;;;;99117;Ourense Turístico
+TN7199143;gare;A Coruña-Turístico;A Coruña;A Coruña;7199143;;43.350443;-8.412061;ES;Europe/Madrid;Q8757;AVANT|MD|REGIONAL;;nom;way/1325270999;;;;99143;A Coruña-Turístico
+TN7199159;gare;Santiago-Turístico;Santiago-Turístico;Santiago-Turístico;7199159;;42.870842;-8.544697;ES;Europe/Madrid;Q14314;AVANT|MD|REGIONAL;;gtfs;;;;;99159;Santiago-Turístico
+TN7199161;gare;Pontevedra-Turístico;Pontevedra-Turístico;Pontevedra-Turístico;7199161;;42.421969;-8.635546;ES;Europe/Madrid;Q12411;MD;;gtfs;;;;;99161;Pontevedra-Turístico
+TNOSM10783341023;gare;Estação Ferroviária de Porto - Campanhã;Porto - Campanhã;Porto - Campanhã;;;41.149192;-8.58471;PT;Europe/Lisbon;Q36433;TRENCELTA;;nom;10783341023;Q801328;;;94346;Porto Campanha - O Porto Campaña
+TNOSM10783341024;gare;Estação Ferroviária de Nine;Nine;Nine;;;41.454737;-8.544285;PT;Europe/Lisbon;Q551658;TRENCELTA;;nom;10783341024;Q8841121;;;94021;Nine
+TNOSM10933998114;gare;Nîmes;Nîmes Centre;Nîmes Centre;;;43.832374;4.366255;FR;Europe/Paris;Q42807;AVE INT;;nom;10933998114;Q2360563;;;87302;Nimes
+TNOSM10940370468;gare;Cerbère;Cerbère;Cerbère;;;42.44156;3.163515;FR;Europe/Paris;Q6667;REGIONAL;;nom;10940370468;Q977356;;;79316;Cerbère
+TNOSM1721162711;gare;Montpellier Saint-Roch;Montpellier Saint-Roch;Montpellier Saint-Roch;;;43.604246;3.880322;FR;Europe/Paris;Q6441;AVE INT;;nom;1721162711;Q801197;;;87173;Montpellier Saint-Roch
+TNOSM2861321998;gare;Estação Ferroviária de Viana do Castelo;Viana do Castelo;Viana do Castelo;;;41.695208;-8.831558;PT;Europe/Lisbon;Q208158;TRENCELTA;;nom;2861321998;Q8842196;;;94033;Viana do Castelo
+TNOSM3301687461;gare;Estação Ferroviária de Valença;Valença;Valença;;;42.024704;-8.639295;PT;Europe/Lisbon;Q492475;TRENCELTA;;nom;3301687461;Q7610745;;;22402;Valença do Minho
+TNOSM4217899591;gare;Estação Ferroviária de Barcelos;Barcelos;Barcelos;;;41.536782;-8.608996;PT;Europe/Lisbon;Q213242;TRENCELTA;;nom;4217899591;Q2893868;;;96122;Barcelos
+TNOSM4290854845;gare;Aix-en-Provence TGV;Aix-en-Provence TGV;Aix-en-Provence TGV;;;43.455145;5.317287;FR;Europe/Paris;Q47465;AVE INT;;nom;4290854845;Q800366;;XFAX;87912;Aix en Provence TGV
+TNOSM4290857016;gare;Lyon Part-Dieu;Lyon Part-Dieu;Lyon Part-Dieu;;;45.760573;4.860163;FR;Europe/Paris;Q456;AVE INT;;nom;4290857016;Q2008;;XFLPD;87303;Lyon Part Dieu
+TNOSM4290857022;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;;;43.303263;5.381193;FR;Europe/Paris;Q23482;AVE INT;;nom;4290857022;Q371217;;XFM;87089;Marseille St Charles
+TNOSM448465221;gare;Perpignan;Gare de Perpignan;Gare de Perpignan;;;42.696244;2.879693;FR;Europe/Paris;Q6730;AVE INT;;nom;448465221;Q2283118;;;87374;Perpignan
+TNOSM4907034453;gare;Avignon TGV;Avignon TGV;Avignon TGV;;;43.921783;4.786072;FR;Europe/Paris;Q6397;AVE INT;;nom;4907034453;Q174845;;;87814;Avignon TGV
+TNOSM8077757623;gare;Narbonne;Narbonne;Narbonne;;;43.190629;3.00562;FR;Europe/Paris;Q6555;AVE INT;;nom;8077757623;Q2591311;;;87088;Narbonne
+TNOSM9909081028;gare;Valence TGV Rhône-Alpes Sud;Valence TGV Sud Rhône-Alpes;Valence TGV Sud Rhône-Alpes;;;44.991932;4.978434;FR;Europe/Paris;Q326786;AVE INT;;nom;9909081028;Q2052261;;;87810;Valence TGV

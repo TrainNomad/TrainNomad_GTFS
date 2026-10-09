@@ -1,0 +1,167 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN7118000;18000;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;gtfs;;;Madrid;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7135001;35001;Leganés;Leganés;nom;0.107;Leganés Central;Leganés;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7113200;13200;Bilbao-Intermod. Abando Indalecio Prieto;Abando Indalecio Prieto;nom;0.019;Abando Indalecio Prieto;Bilbao;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7113106;13106;Llodio;Llodio;gtfs;;;Cuadrilla de Ayala-Aiarako eskualdea;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7111511;11511;San Sebastián-Donostia;San Sebastián-Donostia;gtfs;;;Saint-Sébastien;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM10783341023;94346;Porto Campanha - O Porto Campaña;Estação Ferroviária de Porto - Campanhã;nom;0.069;Porto - Campanhã;Porto;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM3301687461;22402;Valença do Minho;Estação Ferroviária de Valença;nom;0.037;Valença;Valença;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7165300;65300;Castelló de la Plana;Castelló de la Plana;nom;0.051;Castelló;Castelló de la Plana;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7122100;22100;Ourense;Ourense;nom;0.038;Ourense-Empalme;Ourense;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7160911;60911;Alicante/Alacant-Terminal;Alicante/Alacant-Terminal;nom;0.055;Alacant Terminal;Alicante;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7162103;62103;Elche/Elx-Parc;Elche/Elx-Parc;gtfs;;;Elche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7106003;06003;Totana;Totana;gtfs;;;Totana;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7151400;51400;Puerto de Santa María;Puerto de Santa María;nom;0.084;El Puerto de Santa María;El Puerto de Santa María;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7156312;56312;Almería;Almería;gtfs;;;Almería;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7115410;15410;Gijón-Sanz Crespo;Gijón-Sanz Crespo;gtfs;;;Gijón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7115211;15211;Oviedo;Oviedo;nom;0.002;Oviedo / Uviéu;Oviedo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7115203;15203;Mieres-Puente;Mieres-Puente;gtfs;;;Mieres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7131412;31412;A Coruña;A Coruña;nom;0.552;Estación de tren A Coruña;La Corogne;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7103412;03412;Callosa de Segura-Cox;Callosa de Segura-Cox;gtfs;;;Callosa de Segura;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7199159;99159;Santiago-Turístico;Santiago-Turístico;gtfs;;;Saint-Jacques-de-Compostelle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7123021;23021;Padrón Barbanza;Padrón Barbanza;gtfs;;;Padrón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7199161;99161;Pontevedra-Turístico;Pontevedra-Turístico;gtfs;;;Pontevedra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7199143;99143;A Coruña-Turístico;A Coruña-Turístico;nom;0.318;A Coruña;La Corogne;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7199117;99117;Ourense Turístico;Ourense Turístico;gtfs;;;Ourense;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM10933998114;87302;Nimes;Nîmes;nom;0.034;Nîmes Centre;Nîmes;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM448465221;87374;Perpignan;Perpignan;nom;0.06;Gare de Perpignan;Perpignan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM9909081028;87810;Valence TGV;Valence TGV Rhône-Alpes Sud;nom;0.048;Valence TGV Sud Rhône-Alpes;Alixan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7115116;15116;Linares-Congostinas;Linares-Congostinas;nom;0.013;Ḷḷinares-Congostinas;Lena;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7115200;15200;Ujo;Ujo;gtfs;;;Mieres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7122300;22300;Redondela;Redondela;gtfs;;;Redondela;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7123000;23000;Redondela-Picota;Redondela-Picota;gtfs;;;Redondela;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7123005;23005;Portela;Portela;nom;0.024;A Portela;Barro;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7123018;23018;Pontevedra Universidad;Pontevedra Universidad;gtfs;;;Pontevedra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7122110;22110;Caldelas;Caldelas;nom;0.014;Caldelas de Tui;Tui;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7122109;22109;Salvaterra;Salvaterra;nom;0.01;Salvaterra de Miño;Salvaterra de Miño;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7122104;22104;Frieira;Frieira;gtfs;;;Crecente;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7122103;22103;Filgueira;Filgueira;gtfs;;;Crecente;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7122105;22105;Pousa-Crecente;Pousa-Crecente;nom;0.001;A Pousa-Crecente;Crecente;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7120400;20400;Betanzos-Infesta;Betanzos-Infesta;gtfs;;;Betanzos;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7120318;20318;Piñoi;Piñoi;gtfs;;;Oza Cesuras;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7120313;20313;Parga;Parga;gtfs;;;Guitiriz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7120312;20312;Baamonde;Baamonde;gtfs;;;Begonte;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7120310;20310;Rábade;Rábade;gtfs;;;Rábade;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7121008;21008;Perlío;Perlío;nom;0.004;Perlío-Fene;Fene;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7121005;21005;Cabanas;Cabanas;nom;0.015;Cabanas-O Areal;Cabanas;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7121003;21003;Perbes;Perbes;gtfs;;;Miño;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7151409;51409;Cádiz-Estadio;Cádiz-Estadio;nom;0.003;Estadio;Cadix;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7150413;50413;Alcolea de Córdoba;Alcolea de Córdoba;gtfs;;;Cordoue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7150417;50417;Campus Universitario de Rabanales;Campus Universitario de Rabanales;gtfs;;;Cordoue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7156103;56103;Benalúa de Guadix;Benalúa de Guadix;gtfs;;;Benalúa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165308;65308;Alcalá de Chivert;Alcalá de Chivert;gtfs;;;Alcalá de Chivert;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165314;65314;Ulldecona-Alcanar-La Sénia;Ulldecona-Alcanar-La Sénia;gtfs;;;Ulldecona;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165206;65206;Nules la Villavella;Nules la Villavella;gtfs;;;Nules;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7162101;62101;Crevillente;Crevillente;gtfs;;;Crevillent;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7162102;62102;Elche/Elx-Carrús;Elche/Elx-Carrús;nom;0.011;Elx Carrús;Elche;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7160904;60904;Sax;Sax;gtfs;;;Sax;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7164107;64107;Benifaió;Benifaió;gtfs;;;Benifaió;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7164103;64103;Carcaixent;Carcaixent;gtfs;;;Carcaixent;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165204;65204;Chilches/Xilxes;Chilches/Xilxes;nom;0.012;Xilxes;Xilxes;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7165207;65207;Burriana-Alquerías Niño Perdido;Burriana-Alquerías Niño Perdido;gtfs;;;Borriana;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7171206;71206;Fabara;Fabara;gtfs;;;Fabara;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7173005;73005;Vinaixa;Vinaixa;gtfs;;;Vinaixa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7173001;73001;Puigverd de Lleida-Artesa de Lleida;Puigverd de Lleida-Artesa de Lleida;gtfs;;;Puigverd de Lleida;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7174216;74216;Villanúa;Villanúa;nom;0.02;Villanúa-Letranz;Villanúa;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7179204;79204;Riudellots;Riudellots;nom;0.021;Riudellots de la Selva;Riudellots de la Selva;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7111402;11402;Ormáiztegui;Ormáiztegui;gtfs;;;Ormaiztegi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7180109;80109;Olite-Erriberri;Olite-Erriberri;gtfs;;;Olite-Erriberri;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7135002;35002;Fuenlabrada;Fuenlabrada;nom;0.157;Fuenlabrada Central;Fuenlabrada;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7118002;18002;Madrid-Nuevos Ministerios;Madrid-Nuevos Ministerios;nom;0.103;Nuevos Ministerios;Madrid;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7118001;18001;Madrid-Recoletos;Madrid-Recoletos;nom;0.117;Recoletos;Madrid;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7197201;97201;Madrid-Ramón y Cajal;Madrid-Ramón y Cajal;nom;0.024;Ramón y Cajal;Madrid;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7110101;10101;Las Matas;Las Matas;gtfs;;;Las Rozas de Madrid;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7110103;10103;Torrelodones;Torrelodones;gtfs;;;Torrelodones;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7112004;12004;Collado Mediano;Collado Mediano;gtfs;;;Collado Mediano;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7112005;12005;Los Molinos-Guadarrama;Los Molinos-Guadarrama;nom;0.025;Los Molinos;Los Molinos;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7112008;12008;Gudillos;Gudillos;gtfs;;;El Espinar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7112010;12010;El Espinar;El Espinar;gtfs;;;El Espinar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7112013;12013;Ortigosa del Monte;Ortigosa del Monte;gtfs;;;Ortigosa del Monte;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7112014;12014;Navas de Riofrío-La Losa;Navas de Riofrío-La Losa;gtfs;;;Navas de Riofrío;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7111507;11507;Hernani-Erdia;Hernani-Erdia;gtfs;;;Hernani;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165404;65404;L'Ampolla-El Perelló-Deltebre;L'Ampolla-El Perelló-Deltebre;gtfs;;;L'Ampolla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7165401;65401;Camp-redó;Camp-redó;gtfs;;;Tortose;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7114220;14220;Maliaño;Maliaño;nom;0.01;Maliaño - La Vidriera;Camargo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7167021;67021;Calamocha;Calamocha;gtfs;;;Calamocha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7167014;67014;Villadoz;Villadoz;gtfs;;;Villadoz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7167207;67207;Rubielos de Mora;Rubielos de Mora;gtfs;;;Albentosa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7140119;40119;Villanueva del Río-Minas;Villanueva del Río-Minas;gtfs;;;Villanueva del Río y Minas;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7156009;56009;Cabra del Santo Cristo y Alicún;Cabra del Santo Cristo y Alicún;gtfs;;;Cabra del Santo Cristo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7169001;69001;Genovés;Genovés;gtfs;;;Genovés;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7169004;69004;Montaberner;Montaberner;gtfs;;;Montaverner;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105193;05193;Ribadeo;Ribadeo;gtfs;;;Ribadeo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105108;05108;O Alto Do Castiñeiro;O Alto Do Castiñeiro;gtfs;;;Narón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105109;05109;Ferrerías;Ferrerías;nom;0.009;As Ferrerías;Narón;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105113;05113;Pedroso de Narón;Pedroso de Narón;gtfs;;;Narón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105117;05117;Lamas;Lamas;gtfs;;;San Sadurniño;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105121;05121;Moeche;Moeche;gtfs;;;Moeche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105123;05123;Labacengos;Labacengos;gtfs;;;Moeche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105125;05125;Entrambarrías;Entrambarrías;gtfs;;;Moeche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105129;05129;A Cuqueira;A Cuqueira;gtfs;;;Cerdido;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105133;05133;Ponte Mera;Ponte Mera;gtfs;;;Ortigueira;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105135;05135;San Clodio;San Clodio;gtfs;;;Ortigueira;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105137;05137;Senra;Senra;gtfs;;;Ortigueira;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105141;05141;Espasante;Espasante;gtfs;;;Ortigueira;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105143;05143;Loiba;Loiba;gtfs;;;Ortigueira;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105145;05145;O Barqueiro;O Barqueiro;gtfs;;;Mañón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105147;05147;O Vicedo;O Vicedo;gtfs;;;O Vicedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105151;05151;Folgueiro;Folgueiro;nom;0.003;O Folgueiro;O Vicedo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105153;05153;Covas de Viveiro;Covas de Viveiro;nom;0.003;Covas;Viveiro;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105155;05155;Viveiro;Viveiro;nom;0.952;Viveiro-Apeadoiro;Viveiro;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105156;05156;Viveiro Apeadero;Viveiro Apeadero;nom;0.68;Viveiro;Viveiro;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105161;05161;Xove;Xove;gtfs;;;Xove;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105163;05163;Lago;Lago;gtfs;;;Xove;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105165;05165;Bidueiros;Bidueiros;gtfs;;;Cervo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105169;05169;Madeiro;Madeiro;nom;0.015;O Madeiro;Cervo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105171;05171;Burela;Burela;gtfs;;;Burela;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105187;05187;Esteiro;Esteiro;gtfs;;;Ribadeo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105191;05191;Rinlo;Rinlo;gtfs;;;Ribadeo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105300;05300;Vallobín;Vallobín;gtfs;;;Oviedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105301;05301;Argañosa-Lavapiés;Argañosa-Lavapiés;gtfs;;;Oviedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105302;05302;Las Campas;Las Campas;gtfs;;;Oviedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105303;05303;Las Mazas;Las Mazas;gtfs;;;Oviedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105306;05306;San Pedro de Nora;San Pedro de Nora;gtfs;;;Oviedo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105308;05308;Soto Udrión;Soto Udrión;nom;0.004;Soto Udrión/Sotu-Udrión;Oviedo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105313;05313;Santa María de Grado;Santa María de Grado;gtfs;;;Grado;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105315;05315;Vega de Anzo;Vega de Anzo;gtfs;;;Grado;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105316;05316;Peñaflor de Grado;Peñaflor de Grado;nom;0.018;Peñaflor;Grado;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105243;05243;Muros del Nalón;Muros del Nalón;gtfs;;;Muros de Nalón;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105255;05255;Soto de Luiña;Soto de Luiña;gtfs;;;Cudillero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105259;05259;Novellana;Novellana;gtfs;;;Cudillero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105263;05263;Ballota;Ballota;gtfs;;;Cudillero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105265;05265;Tablizo;Tablizo;gtfs;;;Valdés;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105269;05269;San Cristóbal;San Cristóbal;gtfs;;;Valdés;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105271;05271;Canero;Canero;gtfs;;;Valdés;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105279;05279;Villapedre;Villapedre;gtfs;;;Navia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105291;05291;La Caridad;La Caridad;nom;0.001;A Caridá;El Franco;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105293;05293;Tapia;Tapia;gtfs;;;Tapia de Casariego;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105277;05277;Otur;Otur;gtfs;;;Valdés;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105297;05297;Las Campas de Castropol;Las Campas de Castropol;gtfs;;;Castropol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105199;05199;Vilavedelle;Vilavedelle;gtfs;;;Castropol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105505;05505;Colloto;Colloto;nom;0.024;Colloto / Cualloto;Siero;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105507;05507;Meres;Meres;gtfs;;;Siero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105511;05511;La Carrera de Siero;La Carrera de Siero;gtfs;;;Siero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105513;05513;Pola de Siero;Pola de Siero;gtfs;;;Siero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105521;05521;El Remedio;El Remedio;gtfs;;;Nava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105525;05525;Fuente Santa de Nava;Fuente Santa de Nava;gtfs;;;Nava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105533;05533;Infiesto;Infiesto;gtfs;;;Piloña;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105534;05534;Infiesto Apeadero;Infiesto Apeadero;gtfs;;;Piloña;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105539;05539;Soto de Dueñas;Soto de Dueñas;gtfs;;;Parres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105542;05542;Policlínico;Policlínico;nom;0.017;Policlínico de Arriondas;Parres;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105543;05543;Arriondas;Arriondas;gtfs;;;Parres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105545;05545;Fuentes;Fuentes;gtfs;;;Parres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105547;05547;Toraño;Toraño;gtfs;;;Parres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105549;05549;Cuevas;Cuevas;gtfs;;;Ribadesella;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105551;05551;Llovio;Llovio;gtfs;;;Ribadesella;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105555;05555;Camango;Camango;gtfs;;;Ribadesella;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105557;05557;Belmonte de Pría;Belmonte de Pría;nom;0.007;Belmonte;Llanes;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105565;05565;Balmori;Balmori;gtfs;;;Llanes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105567;05567;Celorio;Celorio;gtfs;;;Llanes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105569;05569;Poo;Poo;gtfs;;;Llanes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105573;05573;San Roque del Acebal;San Roque del Acebal;gtfs;;;Llanes;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105451;05451;Bilbao la Concordia;Bilbao la Concordia;gtfs;;;Bilbao;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105455;05455;Basurto Hospital;Basurto Hospital;gtfs;;;Bilbao;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105457;05457;Zorrotza Zorrozgoiti;Zorrotza Zorrozgoiti;nom;0.439;Zorrotza;Bilbao;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105461;05461;Irauregui;Irauregui;gtfs;;;Alonsotegi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7105655;05655;Maliaño Vidriera;Maliaño Vidriera;nom;0.173;Maliaño;Camargo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7105778;05778;Feve-León;Feve-León;gtfs;;;León;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

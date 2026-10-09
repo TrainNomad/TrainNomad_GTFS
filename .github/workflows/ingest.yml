@@ -40,6 +40,14 @@ jobs:
     - name: Télécharger et filtrer le GTFS SNCB
       run: python SNCB/ingest_sncb_gtfs.py
 
+    # Allemagne : GTFS grandes lignes + régional gtfs.de, gares rapprochées de stations.csv
+    - name: Télécharger et préparer le GTFS Allemagne
+      run: python GERMANY/ingest_de_gtfs.py
+
+    # FlixTrain : GTFS officiel Flix, trains uniquement (sans FlixBus)
+    - name: Télécharger et filtrer le GTFS FlixTrain
+      run: python FLIXTRAIN/ingest_flixtrain_gtfs.py
+
     - name: Compiler le réseau pour le moteur de routage (network.bin)
       run: |
         python build_network.py --refresh
@@ -52,6 +60,8 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add network.bin.gz harmonization_report.json
         git add CP/cp_gtfs.zip || true
+        # cache des recherches OpenStreetMap et gares ajoutées : réutilisés à la prochaine exécution
+        git add GERMANY/osm_stations.csv stations_extra.csv GERMANY/stations_report*.csv FLIXTRAIN/stations_report.csv || true
         git commit -m "Auto-update: Mise à jour GTFS harmonisé" || exit 0
         git push
 

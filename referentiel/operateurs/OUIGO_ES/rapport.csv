@@ -1,0 +1,3 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN7103410;007103410;Elche Av/Elx Av;Elche Av/Elx Av;gtfs;;;Elche;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7160911;007160911;Alicante-Termino;Alicante-Termino;gtfs;;;Alicante;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

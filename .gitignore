@@ -2,3 +2,6 @@
 feeds/
 network.bin
 SNCB/sncb_gtfs.zip
+GERMANY/de_gtfs.zip
+GERMANY/de_regio_gtfs.zip
+FLIXTRAIN/flixtrain_gtfs.zip

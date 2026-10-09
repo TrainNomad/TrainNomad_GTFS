@@ -1,0 +1,65 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN8300035;gare;Torino Porta Susa;Torino Porta Susa;Torino Porta Susa;8300035;;45.071577;7.665855;IT;Europe/Rome;Q495;ITALO;;uic;11592793752;Q782123;;;OUE;Torino Porta Susa
+TN8300219;gare;Torino Porta Nuova;Torino Porta Nuova;Torino Porta Nuova;8300219;;45.061203;7.6778;IT;Europe/Rome;Q495;ITALO;;uic;3395226356;Q801523;;;TOP;Torino Porta Nuova
+TN8301039;gare;Milano Rho Fiera;Milano Rho Fiera;Milano Rho Fiera;8301039;;45.521258;9.088039;IT;Europe/Rome;Q42784;ITALO;;gtfs;;;;;RRO;Milano Rho Fiera
+TN8301700;gare;Milano Centrale;Milano Centrale;Milano Centrale;8301700;;45.485879;9.204262;IT;Europe/Rome;Q490;ITALO;;uic;6067258870;Q801193;;;MC_;Milano Centrale
+TN8301717;gare;Brescia;Brescia;Brescia;8301717;;45.532334;10.21284;IT;Europe/Rome;Q6221;ITALO;;uic;4553822557;Q727319;;;BSC;Brescia
+TN8301820;gare;Milano Rogoredo;Milano Rogoredo;Milano Rogoredo;8301820;;45.433595;9.238601;IT;Europe/Rome;Q490;ITALO;;nom;9635608905;Q801189;;;RG_;Milano Rogoredo
+TN8301860;gare;Pavia;Pavia;Pavia;8301860;;45.188796;9.144903;IT;Europe/Rome;Q6259;ITALO;;nom;211030020;Q179302;;;P3_;Pavia
+TN8302026;gare;Bolzano/Bozen;Bolzano - Bozen;Bolzano - Bozen;8302026;;46.496429;11.358805;IT;Europe/Rome;Q6526;ITALO;;nom;1455004982;Q800560;;;BLZ;Bolzano
+TN8302038;gare;Trento;Trento;Trento;8302038;;46.072242;11.119319;IT;Europe/Rome;Q3376;ITALO;;nom;1764381735;Q1404881;;;TCN;Trento
+TN8302044;gare;Rovereto;Rovereto;Rovereto;8302044;;45.890823;11.033906;IT;Europe/Rome;Q279373;ITALO;;nom;1764381725;Q3970745;;XIRR;RVR;Rovereto
+TN8302084;gare;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;8302084;;45.462749;10.536538;IT;Europe/Rome;Q104577;ITALO;;nom;3324839623;Q3969525;;;DSG;Desenzano
+TN8302088;gare;Peschiera del Garda;Peschiera del Garda station;Peschiera del Garda;8302088;;45.438575;10.702309;IT;Europe/Rome;Q47649;ITALO;;nom;3324817342;Q3970454;;;PSY;Peschiera
+TN8302430;gare;Verona Porta Nuova;Verona Porta Nuova;Verona Porta Nuova;8302430;;45.429182;10.982371;IT;Europe/Rome;Q2028;ITALO;;uic;3738591149;Q908640;;;VPN;Verona Porta Nuova
+TN8302446;gare;Vicenza;Vicenza;Vicenza;8302446;;45.541481;11.540764;IT;Europe/Rome;Q6537;ITALO;;nom;6061881431;Q3971299;;;VIC;Vicenza
+TN8302581;gare;Padova;Padova;Padova;8302581;;45.417742;11.880497;IT;Europe/Rome;Q617;ITALO;;uic;6063641896;Q1150874;;;PD_;Padua
+TN8302589;gare;Venezia Mestre;Venezia Mestre;Venezia Mestre;8302589;;45.482462;12.231702;IT;Europe/Rome;Q641;ITALO;;nom;6063641892;Q520844;;;VEM;Venezia Mestre
+TN8302593;gare;Venezia S.Lucia;Venezia S.Lucia;Venezia S.Lucia;8302593;;45.441574;12.320878;IT;Europe/Rome;Q641;ITALO;;gtfs;;;;;VSL;Venezia S.Lucia
+TN8302666;gare;San Donà -Jesolo;San Donà -Jesolo;San Donà -Jesolo;8302666;;45.639826;12.559799;IT;Europe/Rome;Q47557;ITALO;;gtfs;;;;;SDP;San Donà -Jesolo
+TN8302701;gare;Pordenone;Pordenone;Pordenone;8302701;;45.956491;12.654223;IT;Europe/Rome;Q6606;ITALO;;nom;1670700542;Q3970559;;;PNE;Pordenone
+TN8302706;gare;Conegliano;Conegliano;Conegliano;8302706;;45.884697;12.298996;IT;Europe/Rome;Q47224;ITALO;;nom;6813794768;Q1117362;;;CON;Conegliano
+TN8303026;gare;Udine;Udine;Udine;8303026;;46.055927;13.241926;IT;Europe/Rome;Q2790;ITALO;;nom;11561037998;Q588301;;;UDN;Udine
+TN8303200;gare;Portogruaro - Caorle;Portogruaro - Caorle;Portogruaro - Caorle;8303200;;45.781216;12.832221;IT;Europe/Rome;Q47143;ITALO;;nom;12293982265;Q3970581;;;PGR;Portogruaro-Caorle
+TN8303202;gare;Latisana-Lignano-Bibione;Latisana-Lignano-Bibione;Latisana-Lignano-Bibione;8303202;;45.77772;13.0011;IT;Europe/Rome;Q53269;ITALO;;gtfs;;;;;LTL;Latisana-Lignano-Bibione
+TN8303213;gare;Trieste Airport;Trieste Airport;Trieste Airport;8303213;;45.81743;13.485537;IT;Europe/Rome;Q53137;ITALO;;nom;5488665598;Q48179288;;;RHA;Trieste Airport
+TN8303310;gare;Monfalcone;Monfalcone;Monfalcone;8303310;;45.807512;13.543043;IT;Europe/Rome;Q53133;ITALO;;nom;1623797404;Q3970182;;;MNF;Monfalcone
+TN8303317;gare;Trieste Centrale;Trieste Centrale;Trieste Centrale;8303317;;45.658301;13.771581;IT;Europe/Rome;Q546;ITALO;;nom;13732686802;Q801532;;;TSC;Trieste Centrale
+TN8304700;gare;Genova Piazza Principe;Genova Piazza Principe;Genova Piazza Principe;8304700;;44.41702;8.92113;IT;Europe/Rome;Q1449;ITALO;;nom;1777874067;Q800816;;;G__;Genova Piazza Principe
+TN8304702;gare;Genova Brignole;Genova Brignole;Genova Brignole;8304702;;44.406693;8.946916;IT;Europe/Rome;Q1449;ITALO;;nom;36899984;Q221313;;;GB_;Genova Brignole
+TN8305043;gare;Bologna Centrale;Bologna Centrale;Bologna Centrale;8305043;;44.505878;11.343343;IT;Europe/Rome;Q1891;ITALO;;uic;12294207488;Q800557;;;BC_;Bologna Centrale
+TN8305254;gare;Reggio Emilia AV Mediopadana;Reggio Emilia AV Mediopadana;Reggio Emilia AV Mediopadana;8305254;;44.7243;10.655123;IT;Europe/Rome;Q13360;ITALO;;uic;14031149407;Q1155591;;;AAV;Reggio Emilia AV
+TN8305706;gare;Rovigo;Rovigo;Rovigo;8305706;;45.076997;11.781292;IT;Europe/Rome;Q6572;ITALO;;nom;968923469;Q3970748;;;R__;Rovigo
+TN8305712;gare;Ferrara;Ferrara;Ferrara;8305712;;44.842878;11.603903;IT;Europe/Rome;Q13362;ITALO;;uic;2121919441;Q3969599;;;F__;Ferrara
+TN8306421;gare;Firenze Santa Maria Novella;Firenze Santa Maria Novella;Firenze Santa Maria Novella;8306421;;43.777572;11.247418;IT;Europe/Rome;Q2044;ITALO;;uic;1835203780;Q800761;;;SMN;Firenze S.M.Novella
+TN8308217;gare;Roma Tiburtina;Roma Tiburtina;Roma Tiburtina;8308217;;41.91119;12.53156;IT;Europe/Rome;Q220;ITALO;;uic;1313285471;Q801376;;;RTB;Roma Tiburtina
+TN8308409;gare;Roma Termini;Roma Termini;Roma Termini;8308409;;41.900582;12.502527;IT;Europe/Rome;Q220;ITALO;;uic;251904108;Q754485;;XIRM;RMT;Roma Termini
+TN8309006;gare;Aversa;Aversa;Aversa;8309006;;40.973283;14.218384;IT;Europe/Rome;Q19279;ITALO;;uic;25399515;Q3968936;;;AVR;Aversa
+TN8309211;gare;Caserta;Caserta;Caserta;8309211;;41.068526;14.328236;IT;Europe/Rome;Q1906;ITALO;;nom;1215079672;Q3969276;;;CEA;Caserta
+TN8309218;gare;Napoli Centrale;Napoli Centrale;Napoli Centrale;8309218;;40.853024;14.27314;IT;Europe/Rome;Q2634;ITALO;;uic;9126486961;Q801237;;;NAC;Napoli Centrale
+TN8309311;gare;Benevento;Benevento;Benevento;8309311;;41.141778;14.770141;IT;Europe/Rome;Q13437;ITALO;;uic;13424607466;Q751119;;;BEN;Benevento
+TN8309818;gare;Salerno;Salerno;Salerno;8309818;;40.675497;14.772621;IT;Europe/Rome;Q1083;ITALO;;uic;4190669370;Q964932;;;SAL;Salerno
+TN8309988;gare;Napoli Afragola;Napoli Afragola;Napoli Afragola;8309988;;40.931823;14.331566;IT;Europe/Rome;Q71610;ITALO;;uic;4905758798;Q3970269;;;NAF;Napoli Afragola
+TN8311100;gare;Foggia;Foggia;Foggia;8311100;;41.465921;15.555825;IT;Europe/Rome;Q13464;ITALO;;uic;13749195446;Q3969635;;;FG_;Foggia
+TN8311108;gare;Barletta;Barletta;Barletta;8311108;;41.315235;16.278643;IT;Europe/Rome;Q13470;ITALO;;uic;1699232800;Q3969004;;;BLT;Barletta
+TN8311112;gare;Trani;Trani;Trani;8311112;;41.272696;16.417687;IT;Europe/Rome;Q13495;ITALO;;uic;1882308946;Q17100170;;;TR_;Trani
+TN8311113;gare;Bisceglie;Bisceglie;Bisceglie;8311113;;41.235425;16.499503;IT;Europe/Rome;Q23178;ITALO;;uic;12294117214;Q16984431;;;BIG;Bisceglie
+TN8311114;gare;Molfetta;Molfetta;Molfetta;8311114;;41.195945;16.59682;IT;Europe/Rome;Q19300;ITALO;;uic;1882388462;Q17637397;;;ML_;Molfetta
+TN8311119;gare;Bari Centrale;Bari Centrale;Bari Centrale;8311119;;41.117672;16.870066;IT;Europe/Rome;Q3519;ITALO;;uic;1769071539;Q790420;;;BAC;Bari Centrale
+TN8311705;gare;Agropoli-Castellabate;Agropoli-Castellabate;Agropoli-Castellabate;8311705;;40.351609;15.002021;IT;Europe/Rome;Q80544;ITALO;;uic;4460442244;Q16608718;;;AGR;Agropoli
+TN8311709;gare;Vallo della Lucania-Castelnuovo;Vallo della Lucania-Castelnuovo;Vallo della Lucania-Castelnuovo;8311709;;40.229471;15.158137;IT;Europe/Rome;Q80750;ITALO;;uic;2357634229;Q16610017;;;VLH;Vallo della Lucania
+TN8311721;gare;Sapri;Sapri;Sapri;8311721;;40.07797;15.627174;IT;Europe/Rome;Q81654;ITALO;;uic;5756405235;Q3970901;;;SRI;Sapri
+TN8311723;gare;Maratea;Maratea;Maratea;8311723;;39.995025;15.709801;IT;Europe/Rome;Q52597;ITALO;;uic;6900820161;Q3970038;;;MRT;Maratea
+TN8311727;gare;Scalea-Santa Domenica Talao;Scalea-Santa Domenica Talao;Scalea-Santa Domenica Talao;8311727;;39.808404;15.801306;IT;Europe/Rome;Q54000;ITALO;;uic;6900820177;Q16609878;;;SDC;Scalea
+TN8311739;gare;Paola;Paola;Paola;8311739;;39.359458;16.033009;IT;Europe/Rome;Q53928;ITALO;;uic;6900820162;Q3970418;;;PAR;Paola
+TN8311749;gare;Lamezia Terme Centrale;Lamezia Terme Centrale;Lamezia Terme Centrale;8311749;;38.921319;16.255528;IT;Europe/Rome;Q53643;ITALO;;uic;6919171916;Q3969913;;;LON;Lamezia Terme C
+TN8311765;gare;Rosarno;Rosarno;Rosarno;8311765;;38.488699;15.970102;IT;Europe/Rome;Q54644;ITALO;;uic;6919346631;Q3970718;;;RUT;Rosarno
+TN8311781;gare;Reggio di Calabria Centrale;Reggio di Calabria Centrale;Reggio di Calabria Centrale;8311781;;38.103811;15.635938;IT;Europe/Rome;Q8471;ITALO;;uic;5371459402;Q3970657;;;RCE;Reggio Calabria
+TN8311789;gare;Vibo Valentia-Pizzo;Vibo Valentia-Pizzo;Vibo Valentia-Pizzo;8311789;;38.714668;16.13989;IT;Europe/Rome;Q13625;ITALO;;uic;7932212641;Q3971290;;;VIP;Vibo-Pizzo
+TN8313835;arret_car;Cortina D'Ampezzo;Cortina D'Ampezzo;Cortina D'Ampezzo;8313835;;46.539175;12.138057;IT;Europe/Rome;Q41158;;BUS;gtfs;;;;;CDZ;Cortina D'Ampezzo
+TNITALO-lux;arret_car;Lucca Comics and Games;Lucca Comics and Games;Lucca Comics and Games;;;43.842287;10.515195;IT;Europe/Rome;Q13373;;BUS;gtfs;;;;;LUX;Lucca Comics and Games
+TNITALO-sdx;arret_car;San Vito di Cadore;San Vito di Cadore;San Vito di Cadore;;;46.463986;12.204753;IT;Europe/Rome;Q41024;;BUS;gtfs;;;;;SDX;San Vito di Cadore
+TNITALO-sgm;gare;Villa San Giovanni Marittima;Villa San Giovanni Marittima;Villa San Giovanni Marittima;;;38.210042;15.635136;IT;Europe/Rome;Q54689;ITALO;;gtfs;;;;;SGM;Villa San Giovanni Marittima
+TNITALO-tdx;arret_car;Tai di Cadore;Tai di Cadore;Tai di Cadore;;;46.422488;12.359924;IT;Europe/Rome;Q41065;;BUS;gtfs;;;;;TDX;Tai di Cadore
+TNITALO-trx;arret_car;Treviso;Treviso;Treviso;;;45.65219;12.306419;IT;Europe/Rome;Q47046;;BUS;gtfs;;;;;TRX;Treviso
+TNOSM2490877773;gare;Longarone-Zoldo;Longarone-Zoldo;Longarone-Zoldo;;;46.26754;12.301848;IT;Europe/Rome;Q40161;ITALO;;nom;2490877773;Q3969979;;;LGZ;Longarone-Zoldo

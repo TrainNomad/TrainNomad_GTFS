@@ -4,7 +4,8 @@ chargé tel quel en RAM par le moteur de routage Go (dossier Europe/).
 
 Pipeline :
   1. Téléchargement des GTFS (cache local dans feeds/)
-  2. Dédoublonnage des gares via stations.csv (UIC, uic8_sncf, renfe_id) + regroupement par ville
+  2. Dédoublonnage des gares + regroupement par ville : base des gares TrainNomad (referentiel/gares.csv,
+     villes.csv, codes.csv) ; stations.csv (UIC, uic8_sncf, renfe_id) pour les opérateurs qui n'y sont pas encore
   3. Horaires : calendriers -> bitsets de jours, heures en minutes locales de l'agence
      (le moteur convertit en UTC avec le fuseau de l'agence -> Eurostar/Londres corrects)
   4. Regroupement des trajets en "routes" RAPTOR (même suite d'arrêts, sans dépassement)
@@ -40,6 +41,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FEEDS_DIR = os.path.join(BASE_DIR, "feeds")
 OPERATORS_FILE = os.path.join(BASE_DIR, "operators.json")
 STATIONS_CSV = os.path.join(BASE_DIR, "stations.csv")
+# gares absentes de stations.csv, ajoutées depuis OpenStreetMap (GERMANY/osm_lookup.py)
+STATIONS_EXTRA_CSV = os.path.join(BASE_DIR, "stations_extra.csv")
+# base des gares TrainNomad : gares.csv, villes.csv, codes.csv (referentiel/fusion.py)
+REFERENTIEL_DIR = os.path.join(BASE_DIR, "referentiel")
 OUT_BIN = os.path.join(BASE_DIR, "network.bin")
 OUT_GZ = OUT_BIN + ".gz"
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
@@ -63,6 +68,10 @@ NO_DROPOFF = 2
 # sur tous leurs arrêts, mêmes jours) sont écartés : trains transfrontaliers SNCB présents dans le
 # GTFS SNCF (TER Lille - Courtrai, Maubeuge - Charleroi...).
 DEDUP_AGAINST_EARLIER = {"SNCB"}
+# Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
+# (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
+DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
+TIME_TOLERANCE = 2
 
 SNCF_TYPES = {
     "Train TER": "SNCF TER",
@@ -71,7 +80,9 @@ SNCF_TYPES = {
     "OUIGO": "SNCF OUIGO",
     "INTERCITES": "SNCF Intercités",
     "INTERCITES de nuit": "SNCF Intercités de nuit",
-    "ICE": "SNCF ICE",
+    # Trains franco-allemands 95xx (Paris - Francfort / Stuttgart / Munich, Francfort - Marseille) :
+    # le GTFS SNCF les classe tous "ICE", qu'ils soient assurés en TGV INOUI ou en ICE
+    "ICE": "DB SNCF en coopération",
     "Lyria": "SNCF TGV Lyria",
     "TramTrain": "SNCF Tram-train",
     "Car à réservation": "SNCF Car",
@@ -224,6 +235,25 @@ SWISS_TYPES = {
     "EXT": "Swiss Train",
 }
 
+# GTFS grandes lignes allemand (gtfs.de) : type = marque de l'opérateur (agency_name) + catégorie
+# (1er mot de route_short_name, ex. "ICE 82" -> ICE). Ex. "DB ICE", "ÖBB Railjet", "PKP EuroCity".
+DB_BRANDS = {
+    "DB Fernverkehr AG": "DB", "DB Fernverkehr (Codesharing)": "DB", "ÖBB": "ÖBB", "SBB": "SBB",
+    "Nederlandse Spoorwegen": "NS", "PKP Intercity": "PKP", "Ceske Drahy": "ČD", "MAV": "MÁV",
+    "HZZP": "HŽPP", "ZSSK": "ZSSK", "Dänische Staatsbahnen": "DSB", "SNCF": "SNCF",
+    "BahnTouristikExpress": "BahnTouristikExpress",
+}
+DB_CATEGORIES = {
+    "ICE": "ICE", "IC": "Intercity", "EC": "EuroCity", "ECE": "EuroCity-Express", "EN": "EuroNight",
+    "RJ": "Railjet", "RJX": "Railjet Xpress", "NJ": "Nightjet", "TGV": "TGV",
+}
+
+# GTFS régional allemand (gtfs.de) : catégorie = lettres de la ligne ("S5" -> S, "RE1" -> RE)
+DB_REGIO_TYPES = {
+    "RE": "Regional-Express", "RB": "Regionalbahn", "S": "S-Bahn", "IRE": "Interregio-Express",
+    "MEX": "Metropolexpress", "RS": "Regio-S-Bahn", "FEX": "Flughafen-Express", "TER": "TER",
+}
+
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
 SNCB_TYPES = {
@@ -283,12 +313,18 @@ def parse_minutes(series: pd.Series) -> np.ndarray:
     return (parts[0].astype(int) * 60 + parts[1].astype(int)).to_numpy(np.int32)
 
 
-def covers(stops, arr, dep, sub_stops, sub_arr, sub_dep) -> bool:
-    """Le trajet (stops, arr, dep) dessert tous les arrêts de sub_* aux mêmes horaires."""
+def covers(stops, arr, dep, sub_stops, sub_arr, sub_dep, tol=0, missing=0) -> bool:
+    """Le trajet (stops, arr, dep) dessert les arrêts de sub_* aux mêmes horaires (à tol minutes près).
+    missing : nombre d'arrêts intermédiaires de sub_* que l'autre flux peut ne pas publier
+    (ex. Darmstadt, desserte intérieure allemande absente du GTFS SNCF)."""
     pos = {s: i for i, s in enumerate(stops)}
-    return (all(s in pos for s in sub_stops)
-            and all(dep[pos[s]] == sub_dep[i] for i, s in enumerate(sub_stops[:-1]))
-            and arr[pos[sub_stops[-1]]] == sub_arr[-1])
+    if sub_stops[0] not in pos or sub_stops[-1] not in pos:
+        return False
+    absent = sum(1 for s in sub_stops[1:-1] if s not in pos)
+    if absent > missing or len(sub_stops) - absent < 3 and absent:
+        return False
+    return (all(abs(dep[pos[s]] - sub_dep[i]) <= tol for i, s in enumerate(sub_stops[:-1]) if s in pos)
+            and abs(arr[pos[sub_stops[-1]]] - sub_arr[-1]) <= tol)
 
 
 # ---------------------------------------------------------------------------
@@ -373,13 +409,21 @@ class StationRef:
     def __init__(self, path: str):
         logging.info("📖 Chargement de stations.csv")
         cols = ["id", "name", "uic", "uic8_sncf", "latitude", "longitude", "parent_station_id",
-                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "cp_id", "cff_id", "same_as"]
+                "country", "time_zone", "is_city", "renfe_id", "atoc_id", "trenitalia_id", "cp_id", "cff_id", "same_as",
+                "db_id"]
         # Charger uniquement les colonnes existantes
         all_cols = pd.read_csv(path, sep=";", nrows=0, encoding="utf-8").columns.tolist()
         cols = [c for c in cols if c in all_cols]
         df = pd.read_csv(path, sep=";", dtype=str, keep_default_na=False, usecols=cols, encoding="utf-8")
+        extra_path = os.path.join(os.path.dirname(path), "stations_extra.csv")
+        if os.path.exists(extra_path):
+            extra = pd.read_csv(extra_path, sep=";", dtype=str, keep_default_na=False, encoding="utf-8")
+            extra = extra[~extra["id"].isin(set(df["id"]))]
+            df = pd.concat([df, extra.reindex(columns=cols, fill_value="")], ignore_index=True)
+            logging.info(f"   + {len(extra)} gares de stations_extra.csv (OpenStreetMap)")
         self.rows = {}
         self.by_uic, self.by_uic8, self.by_renfe, self.by_atoc, self.by_trenitalia, self.by_cp, self.by_cff = {}, {}, {}, {}, {}, {}, {}
+        self.by_db = {}  # numéro EVA DB (colonne db_id)
         for r in df.itertuples(index=False):
             self.rows[r.id] = {
                 "id": r.id, "name": r.name, "lat": to_float(r.latitude), "lon": to_float(r.longitude),
@@ -401,6 +445,8 @@ class StationRef:
                 self.by_cp[r.cp_id] = r.id
             if hasattr(r, "cff_id") and r.cff_id and r.cff_id not in self.by_cff:
                 self.by_cff[r.cff_id] = r.id
+            if getattr(r, "db_id", "") and r.db_id not in self.by_db:
+                self.by_db[r.db_id] = r.id
         logging.info(f"   {len(self.rows)} lignes, {len(self.by_uic)} UIC, {len(self.by_cff)} CFF")
 
     def canonical(self, rid: str) -> str:
@@ -484,6 +530,11 @@ class StationRef:
             if not rid:
                 # Fallback 2 : rechercher via cff_id (colonne stations.csv)
                 rid = self.by_cff.get(clean_id or stop_id)
+        elif op in ("DB", "DB_REGIO", "FLIXTRAIN"):
+            # Allemagne / FlixTrain : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py et
+            # FLIXTRAIN/ingest_flixtrain_gtfs.py ont rapproché chaque gare de stations.csv et écrit
+            # son id Trainline dans stop_code
+            rid = stop_code if stop_code in self.rows else None
         elif op == "SNCB":
             # Belgique : UIC à 7 chiffres dans le stop_id (88xxxxx en Belgique, 80/84/87/82... à l'étranger)
             #   gare "gs:nmbssncb:S8814001", quai "gs:nmbssncb:8814001_12"
@@ -502,13 +553,77 @@ class StationRef:
 
 
 # ---------------------------------------------------------------------------
+# Base des gares TrainNomad (referentiel/gares.csv, villes.csv, codes.csv, écrits par referentiel/fusion.py)
+# ---------------------------------------------------------------------------
+
+class Referentiel:
+    """Une gare = une ligne de gares.csv, rattachée à une ville de villes.csv ; codes.csv donne tous
+    les identifiants d'une gare, dont les stop_id de chaque opérateur (source = id de l'opérateur).
+    Un opérateur absent de la base passe encore par stations.csv (StationRef)."""
+
+    def __init__(self, folder: str):
+        self.gares, self.villes = {}, {}
+        self.by_code = {}       # (opérateur, stop_id) -> id de gare
+        self.by_uic = {}        # UIC 7 chiffres -> id de gare
+        self.city_by_name = defaultdict(list)  # (nom normalisé, pays) -> villes
+        paths = [os.path.join(folder, f) for f in ("gares.csv", "villes.csv", "codes.csv")]
+        if not all(os.path.exists(p) for p in paths):
+            logging.warning(f"⚠️ {folder} incomplet : gares rapprochées avec stations.csv uniquement")
+            return
+        logging.info("📖 Chargement du référentiel (gares.csv, villes.csv, codes.csv)")
+        gares, villes, codes = (pd.read_csv(p, sep=";", dtype=str, keep_default_na=False, encoding="utf-8")
+                                for p in paths)
+        for v in villes.to_dict("records"):
+            self.villes[v["id"]] = {"id": v["id"], "name": v["nom_fr"], "country": v["pays"],
+                                    "lat": to_float(v["lat"]), "lon": to_float(v["lon"]),
+                                    "parent": v.get("ville_parent", "")}
+        for v in self.villes.values():
+            self.city_by_name[(normalize_name(v["name"]), v["country"])].append(v)
+        for g in gares.to_dict("records"):
+            self.gares[g["id"]] = {
+                "id": g["id"], "name": g.get("nom_force") or g["nom_fr"], "uic": g["uic"],
+                "lat": to_float(g["lat"]), "lon": to_float(g["lon"]), "country": g["pays"], "tz": g["fuseau"],
+                "city": self.top_city(g["ville_id"], g["pays"]),
+            }
+            if g["uic"]:
+                self.by_uic[g["uic"]] = g["id"]
+        for gid, source, code in zip(codes["gare_id"], codes["source"], codes["code"]):
+            if gid in self.gares:
+                self.by_code[(source.upper(), code)] = gid
+        logging.info(f"   {len(self.gares)} gares, {len(self.villes)} villes, {len(self.by_code)} codes")
+
+    def top_city(self, vid: str, country: str) -> str:
+        """Suit ville_parent (id de ville, ou nom d'une ville du même pays) : Saint-Gilles -> Bruxelles."""
+        for _ in range(5):
+            parent = self.villes.get(vid, {}).get("parent", "")
+            if parent and parent not in self.villes:
+                named = self.city_by_name.get((normalize_name(parent), country), [])
+                parent = named[0]["id"] if named else ""
+            if not parent or parent == vid:
+                break
+            vid = parent
+        return vid
+
+    def match(self, op_id: str, stop_id: str):
+        return self.by_code.get((op_id.upper(), stop_id))
+
+    def city_named(self, name: str, country: str, lat, lon, max_km: float = 30.0):
+        """Ville de la base portant ce nom, dans ce pays et à proximité (gare venue de stations.csv)."""
+        for v in self.city_by_name.get((normalize_name(name), country), []):
+            if lat is None or v["lat"] is None or haversine_km(lat, lon, v["lat"], v["lon"]) <= max_km:
+                return v
+        return None
+
+
+# ---------------------------------------------------------------------------
 # Construction
 # ---------------------------------------------------------------------------
 
 class NetworkBuilder:
-    def __init__(self, operators, ref: StationRef):
+    def __init__(self, operators, ref: StationRef, gares: Referentiel):
         self.operators = operators
         self.ref = ref
+        self.gares = gares
         today = datetime.now(timezone.utc).date()
         self.base_date = today - timedelta(days=DAYS_BEFORE)
         self.day_dates = [self.base_date + timedelta(days=i) for i in range(NDAYS)]
@@ -532,8 +647,16 @@ class NetworkBuilder:
 
     def stop_for(self, op_id, raw, agency_tz):
         """Retourne l'index canonique d'un arrêt GTFS (création au besoin)."""
-        rid = self.ref.match(op_id, raw["stop_id"], raw.get("stop_code", ""))
+        # 1. code de l'opérateur dans la base des gares ; 2. stations.csv, puis la base par l'UIC ;
+        # 3. stations.csv seul (opérateur pas encore dans la base)
+        gid = self.gares.match(op_id, raw["stop_id"])
+        rid = None if gid else self.ref.match(op_id, raw["stop_id"], raw.get("stop_code", ""))
         if rid:
+            gid = self.gares.by_uic.get(self.ref.rows[rid]["uic"])
+        if gid:
+            key = "tn:" + gid
+            self.stats["stops_matched_referentiel"] += 1
+        elif rid:
             key = "ref:" + rid
             self.stats["stops_matched_ref"] += 1
         else:
@@ -546,7 +669,22 @@ class NetworkBuilder:
         if key in self.stop_key_index:
             return self.stop_key_index[key]
 
-        if rid:
+        if gid:
+            g = self.gares.gares[gid]
+            lat = g["lat"] if g["lat"] is not None else to_float(raw.get("stop_lat"))
+            lon = g["lon"] if g["lon"] is not None else to_float(raw.get("stop_lon"))
+            s = {
+                "id": g["uic"] or gid, "name": g["name"], "lat": lat, "lon": lon,
+                "tz": g["tz"] or raw.get("stop_timezone") or agency_tz, "country": g["country"],
+            }
+            city = self.gares.villes.get(g["city"])
+            if city:
+                s.update({"city_key": "tn:" + city["id"], "city_name": city["name"],
+                          "city_country": city["country"], "city_lat": city["lat"], "city_lon": city["lon"]})
+            else:
+                s.update({"city_key": key, "city_name": g["name"], "city_country": g["country"],
+                          "city_lat": None, "city_lon": None})
+        elif rid:
             row = self.ref.rows[rid]
             city_rid = self.ref.city_of(rid)
             city = self.ref.rows[city_rid]
@@ -559,6 +697,11 @@ class NetworkBuilder:
                 "city_key": "ref:" + city_rid, "city_name": city["name"], "city_country": city["country"],
                 "city_lat": city["lat"], "city_lon": city["lon"],
             }
+            # même ville que les gares de la base (pas de « Rennes » en double)
+            known = self.gares.city_named(city["name"], city["country"], s["lat"], s["lon"])
+            if known:
+                s.update({"city_key": "tn:" + known["id"], "city_name": known["name"],
+                          "city_lat": known["lat"], "city_lon": known["lon"]})
         else:
             name = raw.get("stop_name", "") or raw["stop_id"]
             if name.isupper():
@@ -667,12 +810,20 @@ class NetworkBuilder:
         starts = np.concatenate([[0], bounds])
         ends = np.concatenate([bounds, [len(trip_ids)]])
 
-        earlier = defaultdict(list)
-        if op_id in DEDUP_AGAINST_EARLIER:
+        earlier = defaultdict(list)    # numéro -> trajets des flux précédents
+        at_stop = defaultdict(list)    # gare -> (trajet, rang) des flux précédents (flux sans numéro)
+        if op_id in DEDUP_AGAINST_EARLIER | DEDUP_BY_TIMES:
             same_clock = {i for i, tz in enumerate(self.timezones) if self.same_offsets(tz, agency_tz)}
+            here = set(canon.values())
             for t in self.trips.values():
-                if t["number"] and t["op"] != op_idx and t["tz"] in same_clock:
+                if t["op"] == op_idx or t["tz"] not in same_clock:
+                    continue
+                if op_id in DEDUP_AGAINST_EARLIER and t["number"]:
                     earlier[t["number"]].append(t)
+                if op_id in DEDUP_BY_TIMES:
+                    for i, s in enumerate(t["stops"][:-1]):
+                        if s in here:
+                            at_stop[s].append((t, i))
 
         kept = 0
         for a, b in zip(starts, ends):
@@ -713,11 +864,24 @@ class NetworkBuilder:
 
             route = route_info.get(meta["route_id"], {})
             number, ttype, checkin = self.trip_labels(op_id, meta, route, stop_ids[a])
-            for o in earlier.get(number, ()):
-                if covers(o["stops"], o["arr"], o["dep"], seq_stops, seq_arr, seq_dep):
+            tol, miss = 0, 0
+            others = earlier.get(number, ())
+            if at_stop:
+                tol, miss, seen, others = TIME_TOLERANCE, 1, set(), []
+                for i, s in enumerate(seq_stops[:-1]):
+                    for o, j in at_stop.get(s, ()):
+                        if abs(o["dep"][j] - seq_dep[i]) <= tol and id(o) not in seen:
+                            seen.add(id(o))
+                            others.append(o)
+            for o in others:
+                if not o["days"] & days:
+                    continue
+                if covers(o["stops"], o["arr"], o["dep"], seq_stops, seq_arr, seq_dep, tol, miss):
                     days &= ~o["days"]  # déjà fourni par l'autre flux
-                elif covers(seq_stops, seq_arr, seq_dep, o["stops"], o["arr"], o["dep"]):
+                    number = number or o["number"]
+                elif covers(seq_stops, seq_arr, seq_dep, o["stops"], o["arr"], o["dep"], tol, miss):
                     o["days"] &= ~days  # l'autre flux n'en publie qu'une partie : on garde le trajet complet
+                    number = number or o["number"]
                     self.stats[f"trips_{op_id}_replaced"] += 1
             if not days:
                 self.stats[f"trips_{op_id}_duplicates"] += 1
@@ -735,7 +899,7 @@ class NetworkBuilder:
                 t["days"] |= days
                 self.stats["trips_merged"] += 1
             kept += 1
-        if earlier:
+        if earlier or at_stop:
             self.trips = {k: t for k, t in self.trips.items() if t["days"]}
         self.stats[f"trips_{op_id}"] = kept
         logging.info(f"  [{op_id}] {kept} trajets retenus")
@@ -752,6 +916,10 @@ class NetworkBuilder:
             number = meta.get("trip_headsign", "")
             m = re.match(r"StopPoint:OCE(.*)-\d+$", first_stop_id)
             ttype = SNCF_TYPES.get(m.group(1), f"SNCF {m.group(1)}") if m else "SNCF Train"
+            # OUIGO Train Classique (trains 40xx, lignes classiques vers Paris Austerlitz / Bercy) :
+            # type à part, que le moteur ne compte pas comme grande vitesse
+            if m and m.group(1) == "OUIGO" and re.fullmatch(r"40\d\d", number):
+                ttype = "SNCF OUIGO Train Classique"
         elif op_id == "RENFE":
             number = meta.get("trip_short_name", "")
             number = str(int(number)) if number.isdigit() else number
@@ -803,6 +971,25 @@ class NetworkBuilder:
             trip_num = meta.get("trip_short_name", "")
             number = f"{rs} {trip_num}".strip() if rs and trip_num else (trip_num or rs)
             ttype = "SBB"  # Generic SBB logo for all Swiss trains
+        elif op_id == "DB":
+            # pas de numéro de train dans le flux (repris d'un autre flux si le trajet y figure)
+            number = meta.get("trip_short_name", "")
+            cat = (route.get("route_short_name", "").split() or ["Train"])[0].upper()
+            brand = DB_BRANDS.get(self.agency_names.get(route.get("agency_id", ""), ""), "DB")
+            if brand == "SNCF" and cat in ("ICE", "TGV"):
+                ttype = SNCF_TYPES["ICE"]  # trains franco-allemands : même libellé que le flux SNCF
+            else:
+                ttype = f"{brand} {DB_CATEGORIES.get(cat, cat.title())}"
+        elif op_id == "DB_REGIO":
+            # pas de numéro de train : la ligne ("RE 1", "S5") est l'identifiant affiché par la DB
+            line = route.get("route_short_name", "")
+            m = re.match(r"[A-Za-z]+", line)
+            cat = m.group(0).upper() if m else ""
+            number = line
+            ttype = DB_REGIO_TYPES.get(cat, f"Train régional {cat}".strip())
+        elif op_id == "FLIXTRAIN":
+            number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
+            ttype = "FlixTrain"
         elif op_id == "SNCB":
             # trip_short_name = numéro commercial, route_short_name = catégorie (IC, L, P, S1..., EC...)
             number = meta.get("trip_short_name", "")
@@ -944,7 +1131,8 @@ class NetworkBuilder:
                 lon = sum(p[1] for p in pts) / len(pts) if pts else 0.0
             ck = s0["city_key"]
             cities.append({
-                "id": ("TL" + ck[4:]) if ck.startswith("ref:") else ck,
+                # base des gares : id de la ville (Wikidata, "Q647") ; stations.csv : "TL" + id Trainline
+                "id": ck[3:] if ck.startswith("tn:") else ("TL" + ck[4:]) if ck.startswith("ref:") else ck,
                 "name": s0["city_name"], "country": s0["city_country"] or s0["country"],
                 "lat": lat, "lon": lon,
             })
@@ -1104,13 +1292,18 @@ class BinWriter:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--refresh", action="store_true", help="force le re-téléchargement des GTFS")
+    parser.add_argument("--only", help="opérateurs à compiler, séparés par des virgules (ex. SNCF,SNCB)")
+    parser.add_argument("--out", default=OUT_BIN, help="fichier produit (défaut : network.bin)")
     args = parser.parse_args()
 
     with open(OPERATORS_FILE, encoding="utf-8") as f:
         operators = [o for o in json.load(f) if o.get("enabled", True) and (o.get("gtfs_url") or o.get("gtfs_path"))]
+    if args.only:
+        only = {x.strip().upper() for x in args.only.split(",")}
+        operators = [o for o in operators if o["id"].upper() in only]
 
     ref = StationRef(STATIONS_CSV)
-    builder = NetworkBuilder(operators, ref)
+    builder = NetworkBuilder(operators, ref, Referentiel(REFERENTIEL_DIR))
     logging.info(f"📅 Fenêtre : {builder.day_dates[0]} → {builder.day_dates[-1]}")
     for op in operators:
         path = fetch_feed(op, args.refresh)
@@ -1118,14 +1311,16 @@ def main():
             builder.load_feed(op, path)
 
     writer = builder.build()
-    writer.write(OUT_BIN)
-    with open(OUT_BIN, "rb") as fi, gzip.open(OUT_GZ, "wb", compresslevel=9) as fo:
+    out_bin, out_gz = args.out, args.out + ".gz"
+    writer.write(out_bin)
+    with open(out_bin, "rb") as fi, gzip.open(out_gz, "wb", compresslevel=9) as fo:
         shutil.copyfileobj(fi, fo)
-    with open(REPORT_PATH, "w", encoding="utf-8") as f:
-        json.dump(dict(builder.stats), f, indent=2, ensure_ascii=False)
+    if out_bin == OUT_BIN:
+        with open(REPORT_PATH, "w", encoding="utf-8") as f:
+            json.dump(dict(builder.stats), f, indent=2, ensure_ascii=False)
 
     logging.info(f"📊 {json.dumps(dict(builder.stats), ensure_ascii=False)}")
-    logging.info(f"✅ {OUT_BIN} : {os.path.getsize(OUT_BIN) / 1e6:.2f} Mo | .gz : {os.path.getsize(OUT_GZ) / 1e6:.2f} Mo")
+    logging.info(f"✅ {out_bin} : {os.path.getsize(out_bin) / 1e6:.2f} Mo | .gz : {os.path.getsize(out_gz) / 1e6:.2f} Mo")
 
 
 if __name__ == "__main__":

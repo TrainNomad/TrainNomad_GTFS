@@ -1,0 +1,10 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8015199;8015199;Aix-la-Chapelle Ouest;Aix-la-Chapelle Ouest;gtfs;;;Aix-la-Chapelle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8015588;8015588;Siegburg;Siegburg;gtfs;;;Siegburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019051;8019051;Mainz Hbf;Mainz Hbf;gtfs;;;Mayence;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8061676;8061676;Frankfurt Flugh;Frankfurt Flugh;gtfs;;;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8200935;8200935;Lamadeleine;Lamadeleine;gtfs;;;Pétange;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8842689;8842689;Poulseur;Poulseur;uic;0.007;Poulseur;Poulseur;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8843174;8843174;Ougrée;Ougrée;uic;0.01;Ougrée;Ougrée;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8860012;8860012;SALZINNES-A.C.;SALZINNES-A.C.;gtfs;;;Namur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8884327;8884327;Hainin;Hainin;uic;0.054;Hainin;Hainin;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent

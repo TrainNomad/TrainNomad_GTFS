@@ -1,0 +1,632 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN8011068;gare;Frankfurt(Main)Hbf;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;8011068;;50.106654;8.662581;DE;Europe/Berlin;Q1794;ICE;;uic;205364328;Q165368;de:6412:10:1;FF;8011068;Frankfurt Main
+TN8015190;gare;Herzogenrath;Herzogenrath;Herzogenrath;8015190;;50.871433;6.094601;DE;Europe/Berlin;Q6916;L|S;;nom;36492131;Q800917;;KHEZ;8015190;Herzogenrath
+TN8015199;gare;Aix-la-Chapelle Ouest;Aix-la-Chapelle Ouest;Aix-la-Chapelle Ouest;8015199;;50.78078;6.07055;DE;Europe/Berlin;Q1017;L|S;;gtfs;;;;;8015199;Aix-la-Chapelle Ouest
+TN8015321;gare;Köln-Ehrenfeld;Köln-Ehrenfeld;Köln-Ehrenfeld;8015321;;50.951502;6.916529;DE;Europe/Berlin;Q365;ICE|NJ;;nom;4551541317;Q3131028;;KKER;8015321;KOLN-EHRENFELD
+TN8015345;gare;Aachen Hbf;Aachen Central Train Station;Aachen Hauptbahnhof;8015345;;50.767766;6.091382;DE;Europe/Berlin;Q1017;IC|ICE|L|NJ|S|TRN;;uic;3070631211;Q300706;de:05334:1008;KA;8015345;Aachen Hbf
+TN8015458;gare;Köln Hbf;Köln Hauptbahnhof;Köln Hauptbahnhof;8015458;;50.942784;6.95907;DE;Europe/Berlin;Q365;ICE|NJ;;uic;2399559029;Q1954;;KK;8015458;Köln Hbf
+TN8015485;gare;Bonn Hbf;Bonn Hauptbahnhof;Bonn Hauptbahnhof;8015485;;50.732044;7.096765;DE;Europe/Berlin;Q586;NJ;;uic;2713060210;Q55423;;KB;8015485;Bonn Hbf
+TN8015577;gare;Bonn-Beuel;Bonn-Beuel;Bonn-Beuel;8015577;;50.738523;7.127682;DE;Europe/Berlin;Q586;NJ;;nom;1271017705;Q800550;;KBB;8015577;Bonn-Beuel
+TN8015588;gare;Siegburg;Siegburg;Siegburg;8015588;;50.793585;7.203076;DE;Europe/Berlin;Q14870;ICE;;gtfs;;;;;8015588;Siegburg
+TN8015714;gare;Köln Süd;Köln Süd;Köln Süd;8015714;;50.927601;6.937271;DE;Europe/Berlin;Q365;NJ;;nom;3044304327;Q801050;;KKS;8015714;KOLN SUD
+TN8019023;gare;Koblenz Hbf;Koblenz Hbf;Koblenz Hbf;8019023;;50.350823;7.589264;DE;Europe/Berlin;Q3104;NJ;;nom;3524305897;Q469682;;KKO;8019023;Koblenz Hbf
+TN8019051;gare;Mainz Hbf;Mainz Hbf;Mainz Hbf;8019051;;50.0013;8.2585;DE;Europe/Berlin;Q1720;NJ;;gtfs;;;;;8019051;Mainz Hbf
+TN8019585;gare;Montabaur;Montabaur;Montabaur;8019585;;50.44483;7.825224;DE;Europe/Berlin;Q632991;ICE;;nom;2453992382;Q469336;;FMT;8019585;MONTABAUR
+TN8020110;gare;Freilassing;Freilassing;Freilassing;8020110;;47.836889;12.976717;DE;Europe/Berlin;Q278352;NJ;;nom;3508395174;Q800783;;MFL;8020110;Freilassing
+TN8020174;gare;Rosenheim;Rosenheim;Rosenheim;8020174;;47.850348;12.119504;DE;Europe/Berlin;Q4007;NJ;;nom;2578699502;Q473903;;MRO;8020174;Rosenheim
+TN8020234;gare;München Ost;Munich East;München Ost;8020234;;48.127721;11.605519;DE;Europe/Berlin;Q1726;NJ;;nom;2465304880;Q801228;de:09162:5;MOP;8020234;München Ost
+TN8032572;gare;Limburg Süd;Limburg Süd;Limburg Süd;8032572;;50.382489;8.096097;DE;Europe/Berlin;Q16026;ICE;;nom;4530820013;Q322806;;FLIS;8032572;Limburg Sud
+TN8061676;gare;Frankfurt Flugh;Frankfurt Flugh;Frankfurt Flugh;8061676;;50.0531;8.5697;DE;Europe/Berlin;Q1794;ICE|NJ;;gtfs;;;;;8061676;Frankfurt Flugh
+TN8101003;gare;Wien Hbf;Vienna Central Station;Wien Hauptbahnhof;8101003;;48.184988;16.377939;AT;Europe/Vienna;Q1741;NJ;;uic;1839787470;Q697300;;XAWIE;8101003;Wien HBF
+TN8101032;gare;St. Pölten Hbf;St. Pölten Hauptbahnhof;St. Pölten Hauptbahnhof;8101032;;48.20828;15.624681;AT;Europe/Vienna;Q82500;NJ;;uic;2465563392;Q662913;;;8101032;St.Poelten Hbf
+TN8101073;gare;Linz Hbf;Linz Central station;Linz Hauptbahnhof;8101073;;48.290241;14.291862;AT;Europe/Vienna;Q41329;NJ;;uic;215682892;Q763157;;XAL;8101073;Linz Hbf
+TN8101114;gare;Salzburg Hbf;Salzburg Hauptbahnhof;Salzburg Hauptbahnhof;8101114;;47.813062;13.045853;AT;Europe/Vienna;Q34713;NJ;;uic;302097253;Q694694;;XASB;8101114;Salzburg Hbf
+TN8103107;gare;Wien Meidling;Wien Meidling;Wien Meidling;8103107;;48.17453;16.333965;AT;Europe/Vienna;Q1741;NJ;;nom;66432827;Q514441;;XAWG;8103107;Wien Meidling
+TN8200100;gare;Luxembourg;Luxembourg;Luxembourg;8200100;;49.599968;6.134249;LU;Europe/Luxembourg;Q1842;IC|L|P;;uic;3964570119;Q801140;;XLL;8200100;Luxembourg
+TN8200102;gare;Pfaffenthal-Kirchberg;Pfaffenthal-Kirchberg;Pfaffenthal-Kirchberg;8200102;;49.618951;6.132928;LU;Europe/Luxembourg;Q1842;IC;;nom;5221201562;Q25583594;;;8200102;Pfaffenthal-Kirchberg
+TN8200110;gare;Mersch(LUX);Mersch;Mersch;8200110;;49.751828;6.110394;LU;Europe/Luxembourg;Q284855;IC;;uic;3732003472;Q801177;;XLM;8200110;Mersch
+TN8200120;gare;Ettelbruck;Ettelbruck;Ettelbruck;8200120;;49.847777;6.106863;LU;Europe/Luxembourg;Q659351;IC;;uic;5072163539;Q2680903;;XLET;8200120;Ettelbruck
+TN8200128;gare;Michelau (LUX);Michelau;Michelau;8200128;;49.896651;6.092218;LU;Europe/Luxembourg;Q641381;IC;;nom;3728214590;Q2912368;;XLMC;8200128;Michelau
+TN8200129;gare;Goebelsmühle;Goebelsmühle;Goebelsmühle;8200129;;49.921056;6.053479;LU;Europe/Luxembourg;Q641381;IC;;nom;3728214639;Q2009897;;XLGB;8200129;GOEBELSMUHLE
+TN8200130;gare;Kautenbach;Kautenbach;Kautenbach;8200130;;49.948413;6.022355;LU;Europe/Luxembourg;Q1143742;IC;;nom;3728214640;Q3067847;;XLKT;8200130;Kautenbach
+TN8200132;gare;Wilwerwiltz;Wilwerwiltz;Wilwerwiltz;8200132;;49.988302;6.000732;LU;Europe/Luxembourg;Q1143742;IC;;nom;3727997833;Q2298354;;XLWW;8200132;Wilwerwiltz
+TN8200133;gare;Drauffelt;Drauffelt;Drauffelt;8200133;;50.016858;6.007203;LU;Europe/Luxembourg;Q836075;IC;;nom;420756851;Q3067835;;XLDF;8200133;Drauffelt
+TN8200134;gare;Clervaux;Clervaux;Clervaux;8200134;;50.061561;6.024674;LU;Europe/Luxembourg;Q836075;IC;;uic;3730912911;Q2542828;;XLCV;8200134;Clervaux
+TN8200136;gare;Troisvierges;Troisvierges;Troisvierges;8200136;;50.119351;5.991014;LU;Europe/Luxembourg;Q24454;IC;;uic;3727995454;Q3097920;;XLTV;8200136;Troisvierges
+TN8200510;gare;Bertrange-Strassen;Bertrange-Strassen;Bertrange-Strassen;8200510;;49.61292;6.060426;LU;Europe/Luxembourg;Q809603;IC|L|P;;uic;3734674986;Q2299753;;XLBG;8200510;Bertrange Strassen
+TN8200516;gare;Mamer;Mamer;Mamer;8200516;;49.625713;6.020172;LU;Europe/Luxembourg;Q921291;L|P;;nom;3734422882;Q2596197;;XLMR;8200516;Mamer
+TN8200518;gare;Capellen;Capellen;Capellen;8200518;;49.638507;5.982382;LU;Europe/Luxembourg;Q921291;L|P;;uic;3734423238;Q2093199;;XLCP;8200518;Capellen
+TN8200520;gare;Kleinbettingen;Kleinbettingen;Kleinbettingen;8200520;;49.643804;5.917139;LU;Europe/Luxembourg;Q985478;L|P;;uic;3734399406;Q2753608;;XLKB;8200520;Kleinbettingen
+TN8200710;gare;Hollerich;Hollerich;Hollerich;8200710;;49.59568;6.120118;LU;Europe/Luxembourg;Q1842;L;;uic;10773674667;Q3079945;;XLLH;8200710;Hollerich
+TN8200712;gare;Leudelange;Leudelange;Leudelange;8200712;;49.58703;6.059017;LU;Europe/Luxembourg;Q985382;L;;nom;3721698138;Q3096880;;XLLD;8200712;Leudelange
+TN8200714;gare;Dippach-Reckange;Dippach-Reckange;Dippach-Reckange;8200714;;49.57254;5.995144;LU;Europe/Luxembourg;Q426998;L;;nom;3721698137;Q3096376;;XLDR;8200714;Dippach-Reckange
+TN8200716;gare;Schouweiler;Schouweiler;Schouweiler;8200716;;49.573584;5.960253;LU;Europe/Luxembourg;Q426998;L;;nom;3721698934;Q3097712;;XLSW;8200716;Schouweiler
+TN8200718;gare;Bascharage-Sanem;Bascharage-Sanem;Bascharage-Sanem;8200718;;49.558433;5.9246;LU;Europe/Luxembourg;Q776642;L;;nom;2361763085;Q3095913;;XLBA;8200718;Bascharage-Sanem
+TN8200930;gare;Pétange;Pétange;Pétange;8200930;;49.554378;5.879223;LU;Europe/Luxembourg;Q602441;L;;uic;3721698933;Q801342;;;8200930;Pétange
+TN8200935;gare;Lamadeleine;Lamadeleine;Lamadeleine;8200935;;49.553337;5.861335;LU;Europe/Luxembourg;Q602441;L;;gtfs;;;;;8200935;Lamadeleine
+TN8200940;gare;Rodange;Rodange;Rodange;8200940;;49.551381;5.845186;LU;Europe/Luxembourg;Q602441;L;;uic;704409331;Q2805202;;XLRD;8200940;Rodange
+TN8210014;gare;Mamer Lycée;Mamer Lycée;Mamer Lycée;8210014;;49.618382;6.029697;LU;Europe/Luxembourg;Q921291;L|P;;nom;3734422881;Q3067850;;;8210014;Mamer-Lycée
+TN8400131;gare;Breda;Breda;Breda;8400131;;51.595143;4.780023;NL;Europe/Amsterdam;Q40844;EC|IC;;uic;43174364;Q800561;;;8400131;Breda
+TN8400219;gare;Eijsden;Eijsden;Eijsden;8400219;;50.772045;5.710079;NL;Europe/Amsterdam;Q1007134;L|S;;uic;7072277768;Q2508625;;;8400219;Eijsden
+TN8400234;gare;Eygelshoven Markt;Eygelshoven Markt;Eygelshoven Markt;8400234;;50.896103;6.057797;NL;Europe/Amsterdam;Q1019312;L|S;;uic;4018000913;Q2616812;;;8400234;Eygelshoven markt
+TN8400307;gare;Heerlen;Heerlen;Heerlen;8400307;;50.890879;5.975099;NL;Europe/Amsterdam;Q33444227;L|S;;uic;1506143976;Q800901;;XNH;8400307;Heerlen
+TN8400424;gare;Maastricht;Maastricht;Maastricht;8400424;;50.850178;5.70525;NL;Europe/Amsterdam;Q1309;L|S;;uic;5311118145;Q689931;;;8400424;Maastricht
+TN8400426;gare;Maastricht Randwyck;Maastricht Randwyck;Maastricht Randwyck;8400426;;50.837634;5.717621;NL;Europe/Amsterdam;Q1309;L|S;;uic;7047043027;Q1935405;;;8400426;Maastricht Randwijck
+TN8400434;gare;Meerssen;Meerssen;Meerssen;8400434;;50.882607;5.750129;NL;Europe/Amsterdam;Q2452442;L|S;;uic;11208806839;Q3539623;;;8400434;Meerssen
+TN8400526;gare;Roosendaal;Roosendaal;Roosendaal;8400526;;51.540329;4.45847;NL;Europe/Amsterdam;Q6903267;EC|IC|L|S;;uic;42966392;Q801378;;;8400526;Roosendaal
+TN8400530;gare;Rotterdam Centraal;Rotterdam Centraal;Rotterdam Centraal;8400530;;51.925057;4.469229;NL;Europe/Amsterdam;Q34370;EC|IC;;uic;4048801967;Q801388;;;8400530;Rotterdam Centraal
+TN8400548;gare;Landgraaf;Landgraaf;Landgraaf;8400548;;50.896491;6.019686;NL;Europe/Amsterdam;Q9795;L|S;;uic;5316997912;Q2522892;;;8400548;Landgraaf
+TN8400632;gare;Valkenburg;Valkenburg;Valkenburg;8400632;;50.86929;5.832882;NL;Europe/Amsterdam;Q100076;L|S;;uic;2815620698;Q2066241;;;8400632;Valkenburg
+TN8714210;gare;Lorraine TGV;Lorraine TGV;Lorraine TGV;8714210;;48.947743;6.169795;FR;Europe/Paris;Q21936;S;;uic;4043327190;Q801121;;XFLR;8714210;LORRAINE TGV
+TN8714732;gare;Meuse TGV;Meuse TGV;Meuse TGV;8714732;;48.978715;5.27091;FR;Europe/Paris;Q839114;S;;uic;4043327191;Q801181;;XFMU;8714732;Meuse-TGV
+TN8717192;gare;Champagne-Ardenne TGV;Champagne-Ardenne TGV;Champagne-Ardenne TGV;8717192;;49.214266;3.994342;FR;Europe/Paris;Q663951;S;;uic;4043327189;Q800616;;XFCV;8717192;Champagne-Ardenne TGV
+TN8721202;gare;Gare de Strasbourg;Strasbourg;Strasbourg;8721202;;48.585293;7.733925;FR;Europe/Paris;Q6602;S;;uic;3069229440;Q801473;;XFSTG;8721202;Strasbourg
+TN8722326;gare;Lille Europe;Lille-Europe station;Lille-Europe;8722326;;50.638983;3.075714;FR;Europe/Paris;Q648;S;;uic;8745537418;Q801099;;;8722326;Lille Europe
+TN8727149;gare;Aéroport Charles de Gaulle 2 TGV;Aéroport Charles de Gaulle 2 TGV;Aéroport Charles de Gaulle 2 TGV;8727149;;49.004016;2.571108;FR;Europe/Paris;Q242497;S;;uic;4269245656;Q800424;;;8727149;Aéroport Cdg TGV
+TN8728105;gare;Croix - L'Allumette;Croix l'Allumette;Croix l'Allumette;8728105;;50.686893;3.151245;FR;Europe/Paris;Q239091;IC;;uic;7042284669;Q3096324;;;8728105;Croix l'Allumette
+TN8728600;gare;Gare de Lille Flandres;Lille-Flandres station;Lille-Flandres;8728600;;50.63638;3.07053;FR;Europe/Paris;Q648;IC;;uic;8745537419;Q801098;;;8728600;Lille Flandres
+TN8728606;gare;Hellemmes;Hellemmes;Hellemmes;8728606;;50.622747;3.115337;FR;Europe/Paris;Q648;IC;;uic;3483925793;Q1969332;;;8728606;Hellemmes
+TN8728654;gare;Tourcoing;Tourcoing;Tourcoing;8728654;;50.716485;3.168217;FR;Europe/Paris;Q182481;IC;;uic;9573053023;Q2598042;;;8728654;Tourcoing
+TN8728671;gare;Croix - Wasquehal;Croix - Wasquehal;Croix - Wasquehal;8728671;;50.678659;3.137938;FR;Europe/Paris;Q681563;IC;;uic;11373747135;Q2755422;;;8728671;Croix Wasquehal
+TN8728673;gare;Roubaix;Roubaix;Roubaix;8728673;;50.695676;3.163011;FR;Europe/Paris;Q34001;IC;;uic;9853351883;Q2207342;;;8728673;Roubaix
+TN8728683;gare;Pont de Bois;Pont de Bois;Pont de Bois;8728683;;50.623995;3.129683;FR;Europe/Paris;Q43295;IC;;uic;3483925294;Q3097300;;;8728683;Pont de Bois
+TN8728685;gare;Annappes;Annappes;Annappes;8728685;;50.622832;3.147057;FR;Europe/Paris;Q43295;IC;;uic;8325981844;Q2499355;;;8728685;Annappes
+TN8728686;gare;Ascq;Ascq;Ascq;8728686;;50.621983;3.159744;FR;Europe/Paris;Q43295;IC;;uic;9965516794;Q2379109;;;8728686;Ascq
+TN8728687;gare;Baisieux;Baisieux;Baisieux;8728687;;50.618594;3.234666;FR;Europe/Paris;Q771753;IC;;uic;9043670620;Q3095897;;;8728687;Baisieux
+TN8728710;gare;Lezennes;Lezennes;Lezennes;8728710;;50.620505;3.098956;FR;Europe/Paris;Q648;IC;;uic;3483926094;Q2493685;;;8728710;Lezennes
+TN8729500;gare;Maubeuge;Maubeuge;Maubeuge;8729500;;50.272886;3.966631;FR;Europe/Paris;Q138648;L|S;;uic;494794776;Q2559978;;;8729500;Maubeuge
+TN8811007;gare;Schaerbeek;Schaerbeek - Schaarbeek;Schaerbeek - Schaarbeek;8811007;;50.878395;4.378458;BE;Europe/Brussels;Q239;EXT|IC|L|P|S|T|TRN;;uic;3833189777;Q801418;;;8811007;Schaerbeek
+TN8811106;gare;Evere;Evere;Evere;8811106;;50.867682;4.400855;BE;Europe/Brussels;Q239;L|S;;uic;7243258290;Q2969853;;;8811106;Evere
+TN8811130;gare;Haren-Sud;Haren-Sud - Haren-Zuid;Haren-Sud - Haren-Zuid;8811130;;50.889708;4.415703;BE;Europe/Brussels;Q239;IC|L|S;;uic;5673285175;Q2697132;;;8811130;Haren-Sud
+TN8811148;gare;Buda;Buda;Buda;8811148;;50.908111;4.417632;BE;Europe/Brussels;Q318418;L|S;;uic;7253672949;Q2621086;;;8811148;Buda
+TN8811155;gare;Haren;Haren;Haren;8811155;;50.888664;4.419814;BE;Europe/Brussels;Q239;L|S;;uic;7243435730;Q736902;;;8811155;Haren
+TN8811163;gare;Bordet;Bordet;Bordet;8811163;;50.877257;4.409532;BE;Europe/Brussels;Q239;IC|L|S;;uic;7243435736;Q3096028;;;8811163;Bordet
+TN8811171;gare;Meiser;Meiser;Meiser;8811171;;50.855094;4.394191;BE;Europe/Brussels;Q239;L|S;;uic;3887855857;Q654988;;;8811171;Meiser
+TN8811189;gare;Vilvorde;Vilvoorde;Vilvoorde;8811189;;50.924586;4.432769;BE;Europe/Brussels;Q318418;EXT|IC|L|P|S|TRN;;uic;7253672929;Q3166079;;;8811189;Vilvorde
+TN8811197;gare;Merode;Merode;Merode;8811197;;50.838677;4.400122;BE;Europe/Brussels;Q239;L|S;;uic;7243258350;Q16964678;;;8811197;Mérode
+TN8811205;gare;Delta;Delta;Delta;8811205;;50.818768;4.404008;BE;Europe/Brussels;Q239;L|S;;uic;7243104972;Q663260;;;8811205;Delta
+TN8811213;gare;Diegem;Diegem;Diegem;8811213;;50.889958;4.445266;BE;Europe/Brussels;Q752115;IC|L|S;;uic;5667469663;Q2112006;;;8811213;Diegem
+TN8811221;gare;Zaventem;Zaventem;Zaventem;8811221;;50.885005;4.472962;BE;Europe/Brussels;Q28898;IC|L|S|TRN;;uic;5667469692;Q4370800;;;8811221;Zaventem
+TN8811247;gare;Nossegem;Nossegem;Nossegem;8811247;;50.883323;4.505801;BE;Europe/Brussels;Q28898;IC|L|S;;uic;5654460048;Q2029216;;;8811247;Nossegem
+TN8811254;gare;Kortenberg;Kortenberg;Kortenberg;8811254;;50.89275;4.541078;BE;Europe/Brussels;Q929474;IC|L|S|TRN;;uic;5654460111;Q3214244;;;8811254;Kortenberg
+TN8811262;gare;Erps-Kwerps;Erps-Kwerps;Erps-Kwerps;8811262;;50.896623;4.586592;BE;Europe/Brussels;Q929474;IC|L|S;;uic;5654460255;Q2088913;;;8811262;Erps-Kwerps
+TN8811270;gare;Veltem;Veltem;Veltem;8811270;;50.90046;4.633212;BE;Europe/Brussels;Q930269;IC|L|S;;uic;5654321189;Q2415450;;;8811270;Veltem
+TN8811288;gare;Herent;Herent;Herent;8811288;;50.90384;4.676104;BE;Europe/Brussels;Q930269;IC|L|S|TRN;;uic;5654321201;Q2601999;;;8811288;Herent
+TN8811304;gare;Bruxelles-Luxembourg;Brussels-Luxembourg;Bruxelles-Luxembourg - Brussel-Luxemburg;8811304;;50.838199;4.373654;BE;Europe/Brussels;Q239;EXT|IC|L|P|S|T;;uic;3887847332;Q800583;;;8811304;Bruxelles-Luxembourg
+TN8811403;gare;Germoir;Germoir - Mouterij;Germoir - Mouterij;8811403;;50.83023;4.379526;BE;Europe/Brussels;Q239;L|S;;uic;5924593392;Q3033646;;;8811403;Germoir
+TN8811411;gare;Etterbeek;Etterbeek;Etterbeek;8811411;;50.822126;4.389588;BE;Europe/Brussels;Q239;EXT|IC|L|P|S;;uic;5924236536;Q2723162;;;8811411;Etterbeek
+TN8811429;gare;Watermael;Watermael - Watermaal;Watermael - Watermaal;8811429;;50.808513;4.400199;BE;Europe/Brussels;Q239;L|S;;uic;2194362683;Q739090;;;8811429;Watermael
+TN8811437;gare;Boitsfort;Boitsfort - Bosvoorde;Boitsfort - Bosvoorde;8811437;;50.795677;4.40715;BE;Europe/Brussels;Q239;EXT|L|S;;uic;5639369120;Q1932552;;;8811437;Boitsfort
+TN8811445;gare;Groenendaal;Groenendaal;Groenendaal;8811445;;50.766254;4.448768;BE;Europe/Brussels;Q641278;L|S;;uic;5639369119;Q2231881;;;8811445;Groenendaal
+TN8811460;gare;Hoeilaart;Hoeilaart;Hoeilaart;8811460;;50.76016;4.467439;BE;Europe/Brussels;Q641278;L|S;;uic;360210242;Q3096630;;;8811460;Hoeilaart
+TN8811510;gare;La Hulpe;La Hulpe;La Hulpe;8811510;;50.738302;4.497113;BE;Europe/Brussels;Q670407;EXT|L|S;;uic;2203525892;Q3096793;;;8811510;La Hulpe
+TN8811528;gare;Genval;Genval;Genval;8811528;;50.725584;4.515214;BE;Europe/Brussels;Q630478;EXT|IC|L|S;;uic;5639369118;Q2845873;;;8811528;Genval
+TN8811536;gare;Rixensart;Rixensart;Rixensart;8811536;;50.713045;4.531353;BE;Europe/Brussels;Q630478;EXT|L|S;;uic;5639369117;Q2026879;;;8811536;Rixensart
+TN8811544;gare;Profondsart;Profondsart;Profondsart;8811544;;50.699504;4.545543;BE;Europe/Brussels;Q181314;L|S;;uic;2203525893;Q2195610;;;8811544;Profondsart
+TN8811601;gare;Ottignies;Ottignies;Ottignies;8811601;;50.674557;4.568565;BE;Europe/Brussels;Q329642;EXT|IC|L|P|S|T;;uic;867138069;Q2521322;;;8811601;Ottignies
+TN8811635;gare;Limal;Limal;Limal;8811635;;50.69168;4.575612;BE;Europe/Brussels;Q181314;L|S;;uic;5760584208;Q2053788;;;8811635;Limal
+TN8811676;gare;Louvain-la-Neuve;Louvain-la-Neuve;Louvain-la-Neuve;8811676;;50.669984;4.616385;BE;Europe/Brussels;Q329642;EXT|L|P|S;;uic;5041130444;Q2681097;;;8811676;Louvain-la-Neuve
+TN8811718;gare;Bierges-Walibi;Bierges-Walibi;Bierges-Walibi;8811718;;50.705145;4.591283;BE;Europe/Brussels;Q181314;IC|L|S|T;;uic;5760591325;Q1854489;;;8811718;Bierges-Walibi
+TN8811726;gare;Wavre;Wavre;Wavre;8811726;;50.716022;4.605027;BE;Europe/Brussels;Q181314;IC|L|S|T;;uic;5760591330;Q2493508;;;8811726;Wavre
+TN8811734;gare;Basse-Wavre;Basse-Wavre;Basse-Wavre;8811734;;50.72433;4.621656;BE;Europe/Brussels;Q181314;IC|L|S;;uic;5760402787;Q2625038;;;8811734;Basse-Wavre
+TN8811742;gare;Gastuche;Gastuche;Gastuche;8811742;;50.736468;4.649939;BE;Europe/Brussels;Q670310;L|S;;uic;5760402799;Q2158561;;;8811742;Gastuche
+TN8811759;gare;Archennes;Archennes;Archennes;8811759;;50.754108;4.66248;BE;Europe/Brussels;Q670310;L|S;;uic;5760402815;Q2731280;;;8811759;Archennes
+TN8811767;gare;Florival;Florival;Florival;8811767;;50.761568;4.653994;BE;Europe/Brussels;Q670310;L|S;;uic;5760403126;Q2270879;;;8811767;Florival
+TN8811775;gare;Pécrot;Pécrot;Pécrot;8811775;;50.778718;4.651465;BE;Europe/Brussels;Q670310;L|S;;uic;5760403131;Q2840656;;;8811775;Pécrot
+TN8811817;gare;Céroux-Mousty;Céroux-Mousty;Céroux-Mousty;8811817;;50.659881;4.569099;BE;Europe/Brussels;Q329642;L|S;;uic;5959608038;Q2225606;;;8811817;Céroux-Mousty
+TN8811825;gare;Court-Saint-Étienne;Court-Saint-Étienne;Court-Saint-Étienne;8811825;;50.64637;4.565766;BE;Europe/Brussels;Q670210;IC|L|S;;uic;5959607997;Q2688690;;;8811825;Court-Saint-Etienne
+TN8811916;gare;Bruxelles-Schuman;Brussels-Schuman;Bruxelles-Schuman - Brussel-Schuman;8811916;;50.842867;4.380615;BE;Europe/Brussels;Q239;EXT|IC|L|P|S|T;;uic;5924443350;Q800589;;;8811916;Bruxelles-Schuman
+TN8811940;gare;Anderlecht;Anderlecht;Anderlecht;8811940;;50.817879;4.292146;BE;Europe/Brussels;Q239;IC|L|S;;uic;7970194823;Q98436002;;;8811940;Anderlecht
+TN8812005;gare;Bruxelles-Nord;Brussels-North;Bruxelles-Nord - Brussel-Noord;8812005;;50.860145;4.36149;BE;Europe/Brussels;Q239;EC|EXT|IC|ICE|L|NJ|P|S|T;;uic;66180313;Q660792;;;8812005;Bruxelles-Nord
+TN8812013;gare;Simonis;Simonis;Simonis;8812013;;50.863568;4.331208;BE;Europe/Brussels;Q239;IC|L|S;;uic;7285776320;Q3097746;;;8812013;Simonis
+TN8812021;gare;Bockstael;Bockstael;Bockstael;8812021;;50.879477;4.348454;BE;Europe/Brussels;Q239;IC|L|S;;uic;7444365729;Q4936291;;;8812021;Bockstael
+TN8812047;gare;Jette;Jette;Jette;8812047;;50.880945;4.328208;BE;Europe/Brussels;Q239;IC|L|S;;uic;7339999848;Q2745256;;;8812047;Jette
+TN8812062;gare;Zellik;Zellik;Zellik;8812062;;50.889386;4.275603;BE;Europe/Brussels;Q515710;IC|L|S;;uic;7339975216;Q1943023;;;8812062;Zellik
+TN8812070;gare;Asse;Asse;Asse;8812070;;50.906426;4.208365;BE;Europe/Brussels;Q515710;IC|L|S;;uic;7339933058;Q4518769;;;8812070;Asse
+TN8812112;gare;Mollem;Mollem;Mollem;8812112;;50.932723;4.216412;BE;Europe/Brussels;Q515710;IC|L|S;;uic;7339933394;Q4948356;;;8812112;Mollem
+TN8812120;gare;Merchtem;Merchtem;Merchtem;8812120;;50.954016;4.223605;BE;Europe/Brussels;Q912106;IC|L|S;;uic;7335737169;Q1976034;;;8812120;Merchtem
+TN8812146;gare;Opwijk;Opwijk;Opwijk;8812146;;50.974776;4.187178;BE;Europe/Brussels;Q930292;IC|L|S;;uic;7335760697;Q2963496;;;8812146;Opwijk
+TN8812153;gare;Heizijde;Heizijde;Heizijde;8812153;;50.989503;4.156261;BE;Europe/Brussels;Q504653;IC|L|S;;uic;7335760741;Q4340253;;;8812153;Heizijde
+TN8812161;gare;Lebbeke;Lebbeke;Lebbeke;8812161;;51.005243;4.134276;BE;Europe/Brussels;Q504653;IC|L|S;;uic;7333177233;Q2357975;;;8812161;Lebbeke
+TN8812211;gare;Berchem-Sainte-Agathe;Berchem-Sainte-Agathe - Sint-Agatha-Berchem;Berchem-Sainte-Agathe - Sint-Agatha-Berchem;8812211;;50.872761;4.290141;BE;Europe/Brussels;Q239;L|S;;uic;7454369596;Q3095968;;;8812211;Berchem-Sainte-Agathe
+TN8812229;gare;Grand-Bigard;Groot-Bijgaarden;Groot-Bijgaarden;8812229;;50.868351;4.273879;BE;Europe/Brussels;Q641134;L|S;;uic;7454486448;Q636471;;;8812229;Grand-Bigard
+TN8812237;gare;Dilbeek;Dilbeek;Dilbeek;8812237;;50.866178;4.24487;BE;Europe/Brussels;Q641134;L|S;;uic;7454473279;;;;8812237;Dilbeek
+TN8812245;gare;Sint-Martens-Bodegem;Sint-Martens-Bodegem;Sint-Martens-Bodegem;8812245;;50.867262;4.206307;BE;Europe/Brussels;Q641134;L|S;;uic;7454473238;Q2350566;;;8812245;Sint-Martens-Bodegem
+TN8812252;gare;Ternat;Ternat;Ternat;8812252;;50.874636;4.165889;BE;Europe/Brussels;Q930249;L|S;;uic;7454739809;Q2339070;;;8812252;Ternat
+TN8812260;gare;Essene-Lombeek;Essene-Lombeek;Essene-Lombeek;8812260;;50.882391;4.117046;BE;Europe/Brussels;Q930249;L|S;;uic;7454731314;;;;8812260;Essene Lombeek
+TN8813003;gare;Bruxelles-Central;Brussels-Central;Bruxelles-Central - Brussel-Centraal;8813003;;50.845464;4.356987;BE;Europe/Brussels;Q239;EC|EXT|IC|L|P|S|T;;uic;3266203405;Q800588;;;8813003;Bruxelles-Central
+TN8813037;gare;Bruxelles-Chapelle;Brussels-Chapel;Bruxelles-Chapelle - Brussel Kapellekerk;8813037;;50.841161;4.348653;BE;Europe/Brussels;Q239;IC|L|S;;uic;7846763865;Q2627408;;;8813037;Bruxelles-Chapelle
+TN8813045;gare;Bruxelles-Congrès;Brussels-Congress;Bruxelles-Congrès - Brussel-Congres;8813045;;50.85188;4.36253;BE;Europe/Brussels;Q239;IC|L|S;;uic;7846790400;Q2201793;;;8813045;Bruxelles-Congrès
+TN8814001;gare;Bruxelles-Midi;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;;50.835775;4.336054;BE;Europe/Brussels;Q239;EC|EXT|IC|ICE|L|NJ|P|S|T;;uic;17401552;Q800587;;XBB;8814001;Bruxelles-Midi
+TN8814118;gare;Forest-Est;Forest-Est - Vorst-Oost;Forest-Est - Vorst-Oost;8814118;;50.809633;4.320762;BE;Europe/Brussels;Q239;IC|L|S;;uic;6040151017;Q2479446;;;8814118;Forest-Est
+TN8814126;gare;Uccle-Stalle;Uccle-Stalle - Ukkel-Stalle;Uccle-Stalle - Ukkel-Stalle;8814126;;50.80233;4.323871;BE;Europe/Brussels;Q239;IC|L|S;;uic;6036364129;Q2478426;;;8814126;Uccle-Stalle
+TN8814134;gare;Uccle-Calevoet;Uccle-Calevoet - Ukkel-Kalevoet;Uccle-Calevoet - Ukkel-Kalevoet;8814134;;50.791829;4.332017;BE;Europe/Brussels;Q239;IC|L|P|S;;uic;6036364137;Q3095852;;;8814134;Uccle-Calevoet
+TN8814142;gare;Linkebeek;Linkebeek;Linkebeek;8814142;;50.773683;4.339423;BE;Europe/Brussels;Q631639;IC|L|S;;uic;3887858947;Q545517;;;8814142;Linkebeek
+TN8814159;gare;Holleken;Holleken;Holleken;8814159;;50.767308;4.354366;BE;Europe/Brussels;Q631639;IC|L|S;;uic;6036209435;Q3022258;;;8814159;Holleken
+TN8814167;gare;Rhode-Saint-Genèse;Sint-Genesius-Rode - Rhode-Saint-Genèse;Sint-Genesius-Rode - Rhode-Saint-Genèse;8814167;;50.747946;4.361974;BE;Europe/Brussels;Q841597;IC|L|P|S;;uic;6036209709;Q2780991;;;8814167;Rhode-Saint-Genèse
+TN8814175;gare;De Hoek;De Hoek;De Hoek;8814175;;50.738887;4.370701;BE;Europe/Brussels;Q841597;IC|L|S;;uic;6036209726;;;;8814175;De Hoek
+TN8814209;gare;Nivelles;Nivelles;Nivelles;8814209;;50.601172;4.335408;BE;Europe/Brussels;Q319463;EXT|IC|L|P|S;;uic;26912267;Q2953782;;;8814209;Nivelles
+TN8814241;gare;Lillois;Lillois;Lillois;8814241;;50.645014;4.365113;BE;Europe/Brussels;Q497572;IC|L|S;;uic;6031556542;Q3096887;;;8814241;Lillois
+TN8814258;gare;Braine-l'Alleud;Braine-l'Alleud;Braine-l'Alleud;8814258;;50.684129;4.37581;BE;Europe/Brussels;Q497572;EXT|IC|L|P|S;;uic;6033722936;Q2060145;;;8814258;Braine-l'Alleud
+TN8814266;gare;Waterloo;Waterloo;Waterloo;8814266;;50.716034;4.383593;BE;Europe/Brussels;Q179034;IC|L|P|S;;uic;6033722909;Q2695662;;;8814266;Waterloo
+TN8814308;gare;Hal;Halle;Halle;8814308;;50.733739;4.24049;BE;Europe/Brussels;Q210003;EXT|IC|L|P|S|T;;uic;7106577481;Q2549821;;;8814308;Hal
+TN8814332;gare;Lembeek;Lembeek;Lembeek;8814332;;50.714201;4.220638;BE;Europe/Brussels;Q210003;IC|L|S;;uic;7072163247;Q3096873;;;8814332;Lembeek
+TN8814340;gare;Buizingen;Buizingen;Buizingen;8814340;;50.751364;4.258435;BE;Europe/Brussels;Q210003;IC|L|S;;uic;7072245012;;;;8814340;Buizingen
+TN8814357;gare;Lot;Lot;Lot;8814357;;50.765952;4.273378;BE;Europe/Brussels;Q692168;L|S;;uic;7072200482;Q1824209;;;8814357;Lot
+TN8814365;gare;Ruisbroek;Ruisbroek;Ruisbroek;8814365;;50.791062;4.294971;BE;Europe/Brussels;Q688790;L|S;;uic;7072245726;Q2509613;;;8814365;Ruisbroek
+TN8814373;gare;Forest-Midi;Forest-Midi - Vorst-Zuid;Forest-Midi - Vorst-Zuid;8814373;;50.807816;4.308376;BE;Europe/Brussels;Q239;L|S;;uic;7072204237;Q952542;;;8814373;Forest-Midi
+TN8814415;gare;Huizingen;Huizingen;Huizingen;8814415;;50.751634;4.265454;BE;Europe/Brussels;Q692168;L|S;;uic;7237394394;Q2089790;;;8814415;Huizingen
+TN8814423;gare;Beersel;Beersel;Beersel;8814423;;50.766918;4.302962;BE;Europe/Brussels;Q692168;L|S;;uic;7237371053;Q2462704;;;8814423;Beersel
+TN8814431;gare;Moensberg;Moensberg;Moensberg;8814431;;50.779552;4.333667;BE;Europe/Brussels;Q239;L|S;;uic;7241012430;Q2331977;;;8814431;Moensberg
+TN8814449;gare;Saint-Job;Saint-Job - Sint-Job;Saint-Job - Sint-Job;8814449;;50.793948;4.361435;BE;Europe/Brussels;Q239;L|S;;uic;7241012405;Q1823157;;;8814449;Saint-Job
+TN8814456;gare;Boondael;Boondael - Boondaal;Boondael - Boondaal;8814456;;50.802108;4.393688;BE;Europe/Brussels;Q239;L|S;;uic;7241012389;Q2100626;;;8814456;Boondael
+TN8814464;gare;Vivier D'Oie;Vivier d'Oie - Diesdelle;Vivier d'Oie - Diesdelle;8814464;;50.795973;4.371936;BE;Europe/Brussels;Q239;L|S;;uic;7241012404;Q749343;;;8814464;Vivier D'Oie
+TN8814472;gare;Arcades;Arcades - Arcaden;Arcades - Arcaden;8814472;;50.809558;4.398321;BE;Europe/Brussels;Q239;L|S;;uic;7243129010;Q537979;;;8814472;Arcades
+TN8815016;gare;Tour-et-Taxis;Tour et Taxis - Thurn en Taxis;Tour et Taxis - Thurn en Taxis;8815016;;50.871761;4.341076;BE;Europe/Brussels;Q239;IC|L|S;;uic;9439320362;Q2314359;;;8815016;Tour-et-Taxis
+TN8815040;gare;Bruxelles-Ouest;Brussels-West;Bruxelles-Ouest - Brussel-West;8815040;;50.850348;4.321921;BE;Europe/Brussels;Q239;IC|L|S;;uic;7289380465;Q3096078;;;8815040;Bruxelles-Ouest
+TN8819406;gare;Brussels Airport-Zaventem;Brussels Airport-Zaventem;Brussels Airport-Zaventem;8819406;;50.898374;4.48249;BE;Europe/Brussels;Q28898;EC|IC|L|P|S|T;;uic;8313215285;Q852880;;;8819406;Brussels Airport-Zaventem
+TN8821006;gare;Anvers-Central;Antwerpen-Centraal;Antwerpen-Centraal;8821006;;51.215995;4.421101;BE;Europe/Brussels;Q12892;EC|EXT|IC|L|P|S|T|TRN;;uic;348421822;Q800398;;XBAC;8821006;Anvers-Central
+TN8821063;gare;Anvers-Luchtbal;Antwerpen-Luchtbal;Antwerpen-Luchtbal;8821063;;51.244366;4.424896;BE;Europe/Brussels;Q12892;IC|L|P|S;;uic;7216689580;Q800391;;;8821063;Anvers-Luchtbal
+TN8821071;gare;Ekeren;Ekeren;Ekeren;8821071;;51.281768;4.434336;BE;Europe/Brussels;Q12892;IC|L|P|S;;uic;4623345562;Q2202866;;;8821071;Ekeren
+TN8821089;gare;Anvers-Noorderdokken;Antwerpen-Noorderdokken;Antwerpen-Noorderdokken;8821089;;51.261359;4.42776;BE;Europe/Brussels;Q12892;IC|L|S;;uic;7216689571;Q800393;;;8821089;Anvers-Noorderdokken
+TN8821105;gare;Noorderkempen (Brecht);Noorderkempen;Noorderkempen;8821105;;51.357137;4.632999;BE;Europe/Brussels;Q917591;EC|EXT|IC|L|P|S;;uic;7216069540;Q1916027;;;8821105;Noorderkempen (Brecht)
+TN8821121;gare;Anvers-Berchem;Antwerpen-Berchem;Antwerpen-Berchem;8821121;;51.199701;4.432335;BE;Europe/Brussels;Q12892;EC|EXT|IC|L|P|S|T|TRN;;uic;7272811038;Q800387;;;8821121;Anvers-Berchem
+TN8821147;gare;Mortsel;Mortsel;Mortsel;8821147;;51.183122;4.447252;BE;Europe/Brussels;Q688781;IC|L|P|S|TRN;;uic;7359586102;Q6915000;;;8821147;Mortsel
+TN8821196;gare;Anvers-Sud;Antwerpen-Zuid;Antwerpen-Zuid;8821196;;51.197512;4.390963;BE;Europe/Brussels;Q12892;EXT|IC|L|S|T;;uic;351590239;Q1935700;;XBAZ;8821196;Anvers-Sud
+TN8821238;gare;Mortsel-Oude-God;Mortsel-Oude-God;Mortsel-Oude-God;8821238;;51.171143;4.455785;BE;Europe/Brussels;Q688781;IC|L|S;;uic;7267350074;Q2128736;;;8821238;Mortsel-Oude God
+TN8821246;gare;Mortsel-Liersesteenweg;Mortsel-Liersesteenweg;Mortsel-Liersesteenweg;8821246;;51.169528;4.469165;BE;Europe/Brussels;Q688781;IC|L|S;;uic;7359338065;Q2136907;;;8821246;Mortsel-Liersesteenweg
+TN8821311;gare;Kontich-Lint;Kontich-Lint;Kontich-Lint;8821311;;51.133949;4.476668;BE;Europe/Brussels;Q725074;IC|L|S|TRN;;uic;7267350804;Q2801243;;;8821311;Kontich-Lint
+TN8821337;gare;Hove;Hove;Hove;8821337;;51.153378;4.465596;BE;Europe/Brussels;Q649982;L|S;;uic;7267350785;Q2511105;;;8821337;Hove
+TN8821402;gare;Essen;Essen;Essen;8821402;;51.46268;4.45117;BE;Europe/Brussels;Q724283;IC|L|P|S;;uic;4623339106;Q2157270;;;8821402;Essen
+TN8821436;gare;Wildert;Wildert;Wildert;8821436;;51.427675;4.463418;BE;Europe/Brussels;Q724283;L|S;;uic;4623344475;Q2216154;;;8821436;Wildert
+TN8821444;gare;Kalmthout;Kalmthout;Kalmthout;8821444;;51.391092;4.466644;BE;Europe/Brussels;Q724777;IC|L|P|S;;uic;4623344474;Q2197004;;;8821444;Kalmthout
+TN8821451;gare;Kijkuit;Kijkuit;Kijkuit;8821451;;51.379131;4.467322;BE;Europe/Brussels;Q724777;L|S;;uic;4623345363;Q2844115;;;8821451;Kijkuit
+TN8821519;gare;Heide;Heide;Heide;8821519;;51.364792;4.460573;BE;Europe/Brussels;Q724777;IC|L|P|S;;uic;3724964726;Q2455656;;;8821519;Heide
+TN8821535;gare;Kapellen;Kapellen;Kapellen;8821535;;51.313466;4.432758;BE;Europe/Brussels;Q724942;IC|L|P|S;;uic;1516414635;Q1861733;;;8821535;Kapellen
+TN8821543;gare;Sint-Mariaburg;Sint-Mariaburg;Sint-Mariaburg;8821543;;51.290789;4.435134;BE;Europe/Brussels;Q12892;L|S;;uic;4623345362;Q1865600;;;8821543;Sint-Mariaburg
+TN8821600;gare;Lierre;Lier;Lier;8821600;;51.135842;4.561953;BE;Europe/Brussels;Q12460;EXT|IC|L|P|S|T;;uic;5391076209;;;;8821600;Lierre
+TN8821634;gare;Boechout;Boechout;Boechout;8821634;;51.163202;4.495117;BE;Europe/Brussels;Q723822;IC|L|P|S;;uic;5236690424;Q2073294;;;8821634;Boechout
+TN8821659;gare;Kessel;Kessel;Kessel;8821659;;51.15088;4.617967;BE;Europe/Brussels;Q912084;IC|L|P|S;;uic;5564945148;Q13641258;;;8821659;Kessel
+TN8821667;gare;Nijlen;Nijlen;Nijlen;8821667;;51.159747;4.666564;BE;Europe/Brussels;Q912084;IC|L|P|S;;uic;5236691811;Q2462335;;;8821667;Nijlen
+TN8821709;gare;Wolfstee;Wolfstee;Wolfstee;8821709;;51.168564;4.78508;BE;Europe/Brussels;Q724389;IC|L|S;;uic;5236693738;Q2297802;;;8821709;Wolfstee
+TN8821717;gare;Herentals;Herentals;Herentals;8821717;;51.180681;4.827597;BE;Europe/Brussels;Q383723;EXT|IC|L|P|S|T;;uic;2235412281;Q2513386;;;8821717;Herentals
+TN8821725;gare;Bouwel;Bouwel;Bouwel;8821725;;51.165662;4.746216;BE;Europe/Brussels;Q724389;IC|L|P|S;;uic;5236691898;Q2846933;;;8821725;Bouwel
+TN8821816;gare;Berlaar;Berlaar;Berlaar;8821816;;51.11349;4.638824;BE;Europe/Brussels;Q723774;IC|L|P;;uic;5543574057;Q2243397;;;8821816;Berlaar
+TN8821824;gare;Melkouwen;Melkouwen;Melkouwen;8821824;;51.0947;4.671983;BE;Europe/Brussels;Q723774;IC|L|P;;uic;5543574065;Q1911395;;;8821824;Melkouwen
+TN8821832;gare;Heist-op-den-Berg;Heist-op-den-Berg;Heist-op-den-Berg;8821832;;51.073515;4.709383;BE;Europe/Brussels;Q257979;IC|L|P;;uic;3392485194;Q2488076;;;8821832;Heist-op-den-Berg
+TN8821857;gare;Booischot;Booischot;Booischot;8821857;;51.037274;4.773527;BE;Europe/Brussels;Q257979;L|P;;uic;5543493727;Q1993758;;;8821857;Booischot
+TN8821865;gare;Begijnendijk;Begijnendijk;Begijnendijk;8821865;;51.022682;4.799242;BE;Europe/Brussels;Q432610;L|P;;uic;5543493747;Q2468390;;;8821865;Begijnendijk
+TN8821907;gare;Turnhout;Turnhout;Turnhout;8821907;;51.322867;4.937964;BE;Europe/Brussels;Q271783;EXT|IC|T;;uic;5632288792;;;;8821907;Turnhout
+TN8821964;gare;Tielen;Tielen;Tielen;8821964;;51.241928;4.894445;BE;Europe/Brussels;Q725029;EXT|IC|T;;uic;5632289465;Q4583672;;;8821964;Tielen
+TN8822004;gare;Malines;Mechelen;Mechelen;8822004;;51.017713;4.483742;BE;Europe/Brussels;Q162022;EC|EXT|IC|L|P|S|T|TRN;;uic;256563112;Q770919;;;8822004;Malines
+TN8822053;gare;Kapelle-op-den-Bos;Kapelle-op-den-Bos;Kapelle-op-den-Bos;8822053;;51.010825;4.359056;BE;Europe/Brussels;Q911995;IC|L|P;;uic;5752361427;Q2777622;;;8822053;Kapelle-op-den-Bos
+TN8822111;gare;Londerzeel;Londerzeel;Londerzeel;8822111;;51.009241;4.298056;BE;Europe/Brussels;Q587819;EXT|IC|L|P;;uic;5752361314;Q2697121;;;8822111;Londerzeel
+TN8822137;gare;Malderen;Malderen;Malderen;8822137;;51.014403;4.228665;BE;Europe/Brussels;Q587819;IC|L|P;;uic;5752361304;Q2918495;;;8822137;Malderen
+TN8822145;gare;Buggenhout;Buggenhout;Buggenhout;8822145;;51.016269;4.20116;BE;Europe/Brussels;Q202309;IC|L|P;;uic;5752361290;Q2634729;;;8822145;Buggenhout
+TN8822160;gare;Baasrode-Zuid;Baasrode-Zuid;Baasrode-Zuid;8822160;;51.01938;4.154022;BE;Europe/Brussels;Q504653;IC|L|P;;uic;5752361275;Q2342675;;;8822160;Baasrode-Zuid
+TN8822210;gare;Duffel;Duffel;Duffel;8822210;;51.091378;4.492874;BE;Europe/Brussels;Q615109;IC|L|S;;uic;7261826893;Q2070235;;;8822210;Duffel
+TN8822228;gare;Sint-Katelijne-Waver;Sint-Katelijne-Waver;Sint-Katelijne-Waver;8822228;;51.070659;4.495834;BE;Europe/Brussels;Q696578;IC|L|S;;uic;7261826896;Q3921076;;;8822228;Sint-Katelijne-Waver
+TN8822251;gare;Weerde;Weerde;Weerde;8822251;;50.977771;4.471401;BE;Europe/Brussels;Q179249;L|S;;uic;7259032381;Q2036100;;;8822251;Weerde
+TN8822269;gare;Eppegem;Eppegem;Eppegem;8822269;;50.958669;4.45774;BE;Europe/Brussels;Q179249;L|S;;uic;7253672907;;;;8822269;Eppegem
+TN8822277;gare;Hofstade;Hofstade;Hofstade;8822277;;50.988475;4.498314;BE;Europe/Brussels;Q179249;L|S;;uic;7366110667;Q2493903;;;8822277;Hofstade
+TN8822343;gare;Malines-Nekkerspoel;Mechelen-Nekkerspoel;Mechelen-Nekkerspoel;8822343;;51.030285;4.49023;BE;Europe/Brussels;Q162022;IC|L|P|S|TRN;;uic;7261826908;Q2288688;;;8822343;Malines-Nekkerspoel
+TN8822426;gare;Muizen;Muizen;Muizen;8822426;;51.008726;4.513436;BE;Europe/Brussels;Q162022;EXT|IC|L|P|S;;uic;5709413346;Q2662472;;;8822426;Muizen
+TN8822459;gare;Hever;Hever;Hever;8822459;;50.997424;4.538359;BE;Europe/Brussels;Q746078;EXT|IC|L|P;;uic;5709413378;Q3096627;;;8822459;Hever
+TN8822475;gare;Boortmeerbeek;Boortmeerbeek;Boortmeerbeek;8822475;;50.982019;4.573687;BE;Europe/Brussels;Q746078;EXT|IC|L|P;;uic;5706148705;Q613480;;;8822475;Boortmeerbeek
+TN8822517;gare;Haacht;Haacht;Haacht;8822517;;50.966177;4.613592;BE;Europe/Brussels;Q950129;EXT|IC|L|P;;uic;525922925;Q289086;;;8822517;Haacht
+TN8822525;gare;Wespelaar-Tildonk;Wespelaar-Tildonk;Wespelaar-Tildonk;8822525;;50.958066;4.638713;BE;Europe/Brussels;Q950129;EXT|IC|L|P;;uic;631428707;Q1925047;;;8822525;Wespelaar-Tildonk
+TN8822533;gare;Hambos;Hambos;Hambos;8822533;;50.944279;4.663447;BE;Europe/Brussels;Q950129;EXT|IC|L;;uic;5706148842;Q2604327;;;8822533;Hambos
+TN8822608;gare;Willebroek;Willebroek;Willebroek;8822608;;51.066435;4.356025;BE;Europe/Brussels;Q695278;EXT|IC|L|P;;uic;7390621895;Q2442412;;;8822608;Willebroek
+TN8822715;gare;Puurs;Puurs;Puurs;8822715;;51.077232;4.282815;BE;Europe/Brussels;Q45202943;EXT|IC|L|P|S;;uic;7391633177;Q1820790;;;8822715;Puurs
+TN8822772;gare;Bornem;Bornem;Bornem;8822772;;51.099379;4.240074;BE;Europe/Brussels;Q724025;EXT|L|P;;uic;7391633116;Q2231970;;;8822772;Bornem
+TN8822814;gare;Boom;Boom;Boom;8822814;;51.090851;4.360372;BE;Europe/Brussels;Q723972;EXT|IC|L|S;;uic;7394315782;Q2531617;;;8822814;Boom
+TN8822848;gare;Ruisbroek-Sauvegarde;Ruisbroek-Sauvegarde;Ruisbroek-Sauvegarde;8822848;;51.081056;4.325686;BE;Europe/Brussels;Q45202943;IC|L|S;;uic;7394213288;Q1882840;;;8822848;Ruisbroek-Sauvegarde
+TN8824158;gare;Hoboken-Polder;Hoboken-Polder;Hoboken-Polder;8824158;;51.182963;4.348381;BE;Europe/Brussels;Q12892;IC|L|S;;uic;7395943708;Q2186964;;;8824158;Hoboken-Polder
+TN8824224;gare;Hemiksem;Hemiksem;Hemiksem;8824224;;51.136334;4.338499;BE;Europe/Brussels;Q724448;IC|L|S;;uic;7395943757;Q2596940;;;8824224;Hemiksem
+TN8824232;gare;Schelle;Schelle;Schelle;8824232;;51.125525;4.340249;BE;Europe/Brussels;Q911968;IC|L|S;;uic;7394315721;Q1850441;;;8824232;Schelle
+TN8824240;gare;Niel;Niel;Niel;8824240;;51.111059;4.339895;BE;Europe/Brussels;Q912054;IC|L|S;;uic;7394315746;Q5058460;;;8824240;Niel
+TN8831005;gare;Hasselt;Hasselt;Hasselt;8831005;;50.930934;5.32755;BE;Europe/Brussels;Q319792;EXT|IC|L|P|S|T;;uic;5454793748;Q534987;;;8831005;Hasselt
+TN8831039;gare;Alken;Alken;Alken;8831039;;50.886715;5.292536;BE;Europe/Brussels;Q499604;EXT|IC|L;;uic;5455051620;Q4714536;;;8831039;Alken
+TN8831088;gare;Schulen;Schulen;Schulen;8831088;;50.964128;5.185574;BE;Europe/Brussels;Q319792;IC|L|P;;uic;5465245211;Q2958031;;;8831088;Schulen
+TN8831112;gare;Diepenbeek;Diepenbeek;Diepenbeek;8831112;;50.910528;5.420363;BE;Europe/Brussels;Q651826;EXT|IC|L|P|S|T;;uic;5454793812;Q1947277;;;8831112;Diepenbeek
+TN8831138;gare;Bilzen;Bilzen;Bilzen;8831138;;50.8685;5.509511;BE;Europe/Brussels;Q125522830;EXT|IC|L|P|S|T;;uic;1640542561;Q742547;;;8831138;Bilzen
+TN8831310;gare;Tongres;Tongeren;Tongeren;8831310;;50.784028;5.473587;BE;Europe/Brussels;Q125378487;EXT|IC|L|P|S|T;;uic;5451889159;Q681688;;;8831310;Tongres
+TN8831401;gare;Diest;Diest;Diest;8831401;;50.99302;5.051137;BE;Europe/Brussels;Q743236;IC|L|P|T;;uic;5467705903;Q2615724;;;8831401;Diest
+TN8831765;gare;Genk;Genk;Genk;8831765;;50.96713;5.49597;BE;Europe/Brussels;Q189692;EXT|IC|L;;uic;5528806498;Q2930117;;;8831765;Genk
+TN8831781;gare;Bokrijk;Bokrijk;Bokrijk;8831781;;50.955719;5.408255;BE;Europe/Brussels;Q189692;EXT|IC|L;;uic;5528742324;Q2343284;;;8831781;Bokrijk
+TN8831807;gare;Saint-Trond;Sint-Truiden;Sint-Truiden;8831807;;50.817213;5.17599;BE;Europe/Brussels;Q37792;EXT|IC|L|P;;uic;5455053023;Q2055506;;;8831807;Saint-Trond
+TN8832003;gare;Bourg-Léopold;Leopoldsburg;Leopoldsburg;8832003;;51.117333;5.258034;BE;Europe/Brussels;Q319792;IC|L;;uic;5550976744;Q2459980;;;8832003;Bourg-Léopold
+TN8832045;gare;Balen;Balen;Balen;8832045;;51.169019;5.165243;BE;Europe/Brussels;Q723651;IC|L;;uic;5557401938;Q2342272;;;8832045;Balen
+TN8832227;gare;Beverlo;Beverlo;Beverlo;8832227;;51.088642;5.234474;BE;Europe/Brussels;Q319792;IC|L;;uic;5550976763;Q2463957;;;8832227;Beverlo
+TN8832235;gare;Beringen;Beringen;Beringen;8832235;;51.050382;5.236321;BE;Europe/Brussels;Q319792;IC|L;;uic;5550976800;Q2240386;;;8832235;Beringen
+TN8832243;gare;Heusden;Heusden;Heusden;8832243;;51.038289;5.281064;BE;Europe/Brussels;Q319792;IC|L;;uic;5550819846;Q2082340;;;8832243;Heusden
+TN8832250;gare;Zolder;Zolder;Zolder;8832250;;51.033704;5.329807;BE;Europe/Brussels;Q319792;IC|L;;uic;5550819877;Q2154797;;;8832250;Zolder
+TN8832334;gare;Zonhoven;Zonhoven;Zonhoven;8832334;;50.990264;5.348841;BE;Europe/Brussels;Q319792;IC|L;;uic;5550819908;Q2190432;;;8832334;Zonhoven
+TN8832375;gare;Kiewit;Kiewit;Kiewit;8832375;;50.954463;5.349095;BE;Europe/Brussels;Q319792;EXT|IC|L;;uic;5528676168;Q2626891;;;8832375;Kiewit
+TN8832409;gare;Mol;Mol;Mol;8832409;;51.190595;5.114515;BE;Europe/Brussels;Q465710;EXT|IC|L|P|S|T;;uic;5548769849;Q2189072;;;8832409;Mol
+TN8832433;gare;Geel;Geel;Geel;8832433;;51.169015;4.989524;BE;Europe/Brussels;Q725122;EXT|IC|L|P|S|T;;uic;5560033966;Q2453559;;;8832433;Geel
+TN8832458;gare;Olen;Olen;Olen;8832458;;51.174068;4.902118;BE;Europe/Brussels;Q725122;EXT|IC|L|P|S|T;;uic;5562750103;Q14386812;;;8832458;Olen
+TN8832565;gare;Lommel;Lommel;Lommel;8832565;;51.211627;5.311993;BE;Europe/Brussels;Q194366;EXT|IC|L|P|T;;uic;5548769877;Q1981771;;;8832565;Lommel
+TN8832573;gare;Overpelt;Overpelt;Overpelt;8832573;;51.215624;5.424326;BE;Europe/Brussels;Q42878311;EXT|IC|L|P|T;;uic;5546029861;Q2673121;;;8832573;Overpelt
+TN8832615;gare;Neerpelt;Neerpelt;Neerpelt;8832615;;51.221857;5.437239;BE;Europe/Brussels;Q42878311;EXT|IC|L|P|S|T;;uic;2078764164;Q1925275;;;8832615;Neerpelt
+TN8832664;gare;Hamont;Hamont;Hamont;8832664;;51.246129;5.54253;BE;Europe/Brussels;Q499599;EXT|IC|L|P|S;;uic;5546029881;Q2386018;;;8832664;Hamont
+TN8833001;gare;Louvain;Leuven;Leuven;8833001;;50.881361;4.716388;BE;Europe/Brussels;Q118958;EXT|IC|L|P|S|T|TRN;;uic;5467988372;Q801090;;;8833001;Louvain
+TN8833050;gare;Vertrijk;Vertrijk;Vertrijk;8833050;;50.836039;4.835687;BE;Europe/Brussels;Q895293;EXT|IC|L|S;;uic;5652190940;Q2778419;;;8833050;Vertrijk
+TN8833126;gare;Heverlee;Heverlee;Heverlee;8833126;;50.862436;4.696124;BE;Europe/Brussels;Q118958;IC|L|P|S;;uic;5760185207;Q2191466;;;8833126;Heverlee
+TN8833134;gare;Oud-Heverlee;Oud-Heverlee;Oud-Heverlee;8833134;;50.835461;4.653304;BE;Europe/Brussels;Q746641;IC|L|S;;uic;5760185165;Q14386939;;;8833134;Oud-Heverlee
+TN8833159;gare;Sint-Joris-Weert;Sint-Joris-Weert;Sint-Joris-Weert;8833159;;50.800687;4.651701;BE;Europe/Brussels;Q746641;IC|L|P|S;;uic;5760185139;Q2190537;;;8833159;Sint-Joris-Weert
+TN8833175;gare;Wijgmaal;Wijgmaal;Wijgmaal;8833175;;50.922623;4.701629;BE;Europe/Brussels;Q118958;EXT|IC|L|P;;uic;5688678697;Q2177319;;;8833175;Wijgmaal
+TN8833209;gare;Aarschot;Aarschot;Aarschot;8833209;;50.984198;4.823544;BE;Europe/Brussels;Q273442;EXT|IC|L|P|T;;uic;5467940363;Q2399238;;;8833209;Aarschot
+TN8833233;gare;Wezemaal;Wezemaal;Wezemaal;8833233;;50.956408;4.748119;BE;Europe/Brussels;Q926139;IC|L|P;;uic;5467940340;Q3098079;;;8833233;Wezemaal
+TN8833258;gare;Langdorp;Langdorp;Langdorp;8833258;;51.002487;4.863749;BE;Europe/Brussels;Q273442;IC|L|P;;uic;5467705840;Q1848026;;;8833258;Langdorp
+TN8833266;gare;Testelt;Testelt;Testelt;8833266;;51.009771;4.946908;BE;Europe/Brussels;Q932020;IC|L|P;;uic;5467705856;Q3097851;;;8833266;Testelt
+TN8833274;gare;Zichem;Zichem;Zichem;8833274;;51.006407;4.988266;BE;Europe/Brussels;Q932020;IC|L|P;;uic;5467705869;Q3098109;;;8833274;Zichem
+TN8833308;gare;Tirlemont;Tienen;Tienen;8833308;;50.807869;4.926188;BE;Europe/Brussels;Q456550;EXT|IC|L|P|S|TRN;;uic;5334823333;Q1966021;;;8833308;Tirlemont
+TN8833449;gare;Ezemaal;Ezemaal;Ezemaal;8833449;;50.77158;4.995022;BE;Europe/Brussels;Q943502;EXT|IC|L|S;;uic;5651934790;Q22911288;;;8833449;Ezemaal
+TN8833605;gare;Landen;Landen;Landen;8833605;;50.747971;5.080098;BE;Europe/Brussels;Q943502;EXT|IC|L|P|S|TRN;;uic;5455053029;Q2251844;;;8833605;Landen
+TN8833670;gare;Neerwinden;Neerwinden;Neerwinden;8833670;;50.763748;5.036334;BE;Europe/Brussels;Q943502;EXT|IC|L|S;;uic;5651934816;Q2132331;;;8833670;Neerwinden
+TN8841004;gare;Liège-Guillemins;Liège-Guillemins;Liège-Guillemins;8841004;;50.624728;5.567065;BE;Europe/Brussels;Q3992;EXT|IC|ICE|L|NJ|P|S|T|TRN;;uic;5307127700;Q801116;;;8841004;Liège-Guillemins
+TN8841202;gare;Ans;Ans;Ans;8841202;;50.661358;5.509776;BE;Europe/Brussels;Q499594;EXT|IC|L|P|S;;uic;5650133165;Q2481173;;;8841202;Ans
+TN8841319;gare;Bierset-Awans;Bierset-Awans;Bierset-Awans;8841319;;50.658225;5.457038;BE;Europe/Brussels;Q683034;L|S;;uic;5650133149;Q2229953;;;8841319;Bierset-Awans
+TN8841327;gare;Voroux;Voroux;Voroux;8841327;;50.660791;5.43004;BE;Europe/Brussels;Q379113;L|S;;uic;5650206985;Q2410737;;;8841327;Voroux
+TN8841400;gare;Waremme;Waremme;Waremme;8841400;;50.694649;5.249662;BE;Europe/Brussels;Q711474;EXT|IC|L|P|S;;uic;5651261635;Q2393685;;;8841400;Waremme
+TN8841434;gare;Bleret;Bleret;Bleret;8841434;;50.685301;5.286039;BE;Europe/Brussels;Q711474;L|S;;uic;5650203509;Q2460146;;;8841434;Bléret
+TN8841442;gare;Remicourt;Remicourt;Remicourt;8841442;;50.678752;5.320779;BE;Europe/Brussels;Q710690;L|S;;uic;5650206932;Q2264702;;;8841442;Remicourt
+TN8841459;gare;Momalle;Momalle;Momalle;8841459;;50.670029;5.366903;BE;Europe/Brussels;Q710690;L|S;;uic;5650206942;Q1857831;;;8841459;Momalle
+TN8841467;gare;Fexhe-le-Haut-Clocher;Fexhe-le-Haut-Clocher;Fexhe-le-Haut-Clocher;8841467;;50.664117;5.398139;BE;Europe/Brussels;Q379113;L|S;;uic;5650206955;Q2026015;;;8841467;Fexhe-le-Haut-Clocher
+TN8841525;gare;Liège-Saint-Lambert;Liège-Saint-Lambert;Liège-Saint-Lambert;8841525;;50.646499;5.570912;BE;Europe/Brussels;Q3992;IC|L|P|S;;uic;5451456278;Q739816;;;8841525;Liège-Saint-Lambert
+TN8841558;gare;Liège-Carré;Liège-Carré;Liège-Carré;8841558;;50.640548;5.561912;BE;Europe/Brussels;Q3992;IC|L|P|S;;uic;5451456277;Q2173920;;;8841558;Liège-Carré
+TN8841608;gare;Herstal;Herstal;Herstal;8841608;;50.660726;5.62298;BE;Europe/Brussels;Q211033;IC|L|P|S;;uic;5451456298;Q2249000;;;8841608;Herstal
+TN8841665;gare;Milmort;Milmort;Milmort;8841665;;50.693256;5.599671;BE;Europe/Brussels;Q211033;IC|L|S;;uic;5451456318;Q3097043;;;8841665;Milmort
+TN8841673;gare;Liers;Liers;Liers;8841673;;50.698167;5.569064;BE;Europe/Brussels;Q211033;IC|L|S;;uic;5451456319;Q2066548;;;8841673;Liers
+TN8841731;gare;Glons;Glons;Glons;8841731;;50.75019;5.535368;BE;Europe/Brussels;Q680918;IC|L|S;;uic;5451463141;Q3096549;;;8841731;Glons
+TN8842002;gare;Angleur;Angleur;Angleur;8842002;;50.613123;5.598664;BE;Europe/Brussels;Q3992;IC|L|P|S|T;;uic;5370990616;Q601108;;;8842002;Angleur
+TN8842036;gare;Chênée;Chênée;Chênée;8842036;;50.607523;5.617423;BE;Europe/Brussels;Q3992;IC|L|S;;uic;5370990582;Q2463355;;;8842036;Chênée
+TN8842051;gare;Chaudfontaine;Chaudfontaine;Chaudfontaine;8842051;;50.586997;5.643474;BE;Europe/Brussels;Q503363;IC|L|S;;uic;5878212496;;;;8842051;Chaudfontaine
+TN8842630;gare;Tilff;Tilff;Tilff;8842630;;50.570522;5.583679;BE;Europe/Brussels;Q682271;L|P|T;;uic;2343212512;Q2441708;;;8842630;Tilff
+TN8842648;gare;Méry;Méry;Méry;8842648;;50.547951;5.587187;BE;Europe/Brussels;Q682271;L|P|T;;uic;5451076130;Q2490956;;;8842648;Méry
+TN8842655;gare;Hony;Hony;Hony;8842655;;50.540086;5.57382;BE;Europe/Brussels;Q682271;L|P|T;;uic;5451076171;Q2933609;;;8842655;Hony
+TN8842663;gare;Esneux;Esneux;Esneux;8842663;;50.530508;5.572836;BE;Europe/Brussels;Q682271;IC|L|P|T;;uic;5450896270;Q2604456;;;8842663;Esneux
+TN8842689;gare;Poulseur;Poulseur;Poulseur;8842689;;50.509234;5.578758;BE;Europe/Brussels;VBE-poulseur;IC|L|P|T;;uic;5450896295;Q2556799;;;8842689;Poulseur
+TN8842705;gare;Rivage;Rivage;Rivage;8842705;;50.48609;5.585541;BE;Europe/Brussels;Q696110;IC|L|P|T;;uic;5450903203;Q2210608;;;8842705;Rivage
+TN8842754;gare;Aywaille;Aywaille;Aywaille;8842754;;50.472856;5.67287;BE;Europe/Brussels;Q793396;IC|P;;uic;9794478411;Q2568244;;;8842754;Aywaille
+TN8842838;gare;Comblain-la-Tour;Comblain-la-Tour;Comblain-la-Tour;8842838;;50.456659;5.567118;BE;Europe/Brussels;Q683083;L|P|T;;uic;5450677961;Q2779368;;;8842838;Comblain-la-Tour
+TN8842846;gare;Hamoir;Hamoir;Hamoir;8842846;;50.42879;5.533924;BE;Europe/Brussels;Q683083;L|P|T;;uic;5450678272;Q2733445;;;8842846;Hamoir
+TN8842853;gare;Sy;Sy;Sy;8842853;;50.40317;5.523759;BE;Europe/Brussels;Q682570;L|P|T;;uic;5450583991;Q1881203;;;8842853;Sy
+TN8843067;gare;Seraing;Seraing;Seraing;8843067;;50.608786;5.512872;BE;Europe/Brussels;Q194037;L|S;;uic;5734657962;;;;8843067;Seraing
+TN8843133;gare;Sclessin;Sclessin;Sclessin;8843133;;50.610876;5.555216;BE;Europe/Brussels;Q3992;IC|L|P;;uic;5635888058;Q2165464;;;8843133;Sclessin
+TN8843141;gare;Pont-de-Seraing;Pont-de-Seraing;Pont-de-Seraing;8843141;;50.619611;5.509513;BE;Europe/Brussels;Q194037;IC|L|P;;uic;5635887491;Q1922640;;;8843141;Pont-de-Seraing
+TN8843158;gare;Jemeppe-sur-Meuse;Jemeppe-sur-Meuse;Jemeppe-sur-Meuse;8843158;;50.618627;5.498485;BE;Europe/Brussels;Q194037;IC|L|P;;uic;5642377434;Q1906418;;;8843158;Jemeppe-sur-Meuse
+TN8843166;gare;Flémalle-Grande;Flémalle-Grande;Flémalle-Grande;8843166;;50.604854;5.480125;BE;Europe/Brussels;Q175322;IC|L|P;;uic;5642377435;Q2069997;;;8843166;Flémalle-Grande
+TN8843174;gare;Ougrée;Ougrée;Ougrée;8843174;;50.605369;5.537105;BE;Europe/Brussels;VBE-ougree;IC|L|S;;uic;5734657961;;;;8843174;Ougrée
+TN8843208;gare;Flémalle-Haute;Flémalle-Haute;Flémalle-Haute;8843208;;50.59447;5.456432;BE;Europe/Brussels;Q175322;IC|L|P|S;;uic;5642377321;Q2316410;;;8843208;Flémalle-Haute
+TN8843224;gare;Leman;Leman;Leman;8843224;;50.599796;5.46758;BE;Europe/Brussels;Q175322;IC|L|P;;uic;5642377351;Q2322474;;;8843224;Leman
+TN8843240;gare;Engis;Engis;Engis;8843240;;50.582856;5.402765;BE;Europe/Brussels;Q682223;L|P;;uic;5644012757;Q3095739;;;8843240;Engis
+TN8843307;gare;Huy;Huy;Huy;8843307;;50.526733;5.233041;BE;Europe/Brussels;Q207095;IC|L|P;;uic;5644510035;Q2187214;;;8843307;Huy
+TN8843323;gare;Ampsin;Ampsin;Ampsin;8843323;;50.539281;5.289689;BE;Europe/Brussels;Q455969;L|P;;uic;5644362262;Q2295195;;;8843323;Ampsin
+TN8843331;gare;Amay;Amay;Amay;8843331;;50.546043;5.32077;BE;Europe/Brussels;Q455969;L|P;;uic;5644362279;Q3088711;;;8843331;Amay
+TN8843349;gare;Haute-Flone;Haute-Flone;Haute-Flone;8843349;;50.55404;5.331006;BE;Europe/Brussels;Q455969;L|P;;uic;5644362288;Q2786157;;;8843349;Haute-Flône
+TN8843406;gare;Statte;Statte;Statte;8843406;;50.527846;5.220981;BE;Europe/Brussels;Q207095;IC|L|P;;uic;5644508194;Q2229980;;;8843406;Statte
+TN8843430;gare;Bas-Oha;Bas-Oha;Bas-Oha;8843430;;50.523174;5.192188;BE;Europe/Brussels;Q711443;L|P;;uic;5644508151;Q2666286;;;8843430;Bas-Oha
+TN8843901;gare;Bressoux;Bressoux;Bressoux;8843901;;50.644451;5.61314;BE;Europe/Brussels;Q3992;L|S;;uic;5368442765;Q2229337;;;8843901;Bressoux
+TN8844008;gare;Verviers-Central;Verviers-Central;Verviers-Central;8844008;;50.588326;5.855102;BE;Europe/Brussels;Q202954;EXT|IC|L|NJ|P|S;;uic;26446051;Q2234830;;;8844008;Verviers-Central
+TN8844057;gare;Verviers-Palais;Verviers-Palais;Verviers-Palais;8844057;;50.590802;5.864286;BE;Europe/Brussels;Q202954;IC|L|S;;uic;2981565079;Q1824615;;;8844057;Verviers-Palais
+TN8844206;gare;Pepinster;Pepinster;Pepinster;8844206;;50.56816;5.806359;BE;Europe/Brussels;Q710522;IC|L|P|S;;uic;2981565078;Q2622077;;;8844206;Pepinster
+TN8844230;gare;Nessonvaux;Nessonvaux;Nessonvaux;8844230;;50.572028;5.741949;BE;Europe/Brussels;Q711205;IC|L|S;;uic;5383309894;Q3097185;;;8844230;Nessonvaux
+TN8844255;gare;Fraipont;Fraipont;Fraipont;8844255;;50.565081;5.723677;BE;Europe/Brussels;Q711205;IC|L|S;;uic;5383310865;Q508527;;;8844255;Fraipont
+TN8844271;gare;Trooz;Trooz;Trooz;8844271;;50.573235;5.688531;BE;Europe/Brussels;Q711205;IC|L|S;;uic;5378745728;Q2123787;;;8844271;Trooz
+TN8844313;gare;Pepinster-Cité;Pepinster-Cité;Pepinster-Cité;8844313;;50.563649;5.804276;BE;Europe/Brussels;Q710522;L|P;;uic;4021608027;Q2622080;;;8844313;Pepinster-Cité
+TN8844321;gare;Juslenville;Juslenville;Juslenville;8844321;;50.54472;5.810065;BE;Europe/Brussels;Q711079;L|P;;uic;5435074763;Q2886515;;;8844321;Juslenville
+TN8844339;gare;Theux;Theux;Theux;8844339;;50.536258;5.815171;BE;Europe/Brussels;Q711079;L|P;;uic;13475755620;;;;8844339;Theux
+TN8844347;gare;Franchimont;Franchimont;Franchimont;8844347;;50.525544;5.822415;BE;Europe/Brussels;Q711079;L|P;;uic;4021608025;Q2679330;;;8844347;Franchimont
+TN8844404;gare;Spa;Spa;Spa;8844404;;50.490188;5.855528;BE;Europe/Brussels;Q39865;L|P;;uic;4021608030;Q2337875;;;8844404;Spa
+TN8844420;gare;Spa-Géronstère;Spa-Géronstère;Spa-Géronstère;8844420;;50.489287;5.867001;BE;Europe/Brussels;Q39865;L|P;;uic;4021608031;Q2560619;;;8844420;Spa-Géronstère
+TN8844503;gare;Welkenraedt;Welkenraedt;Welkenraedt;8844503;;50.659657;5.97549;BE;Europe/Brussels;Q152743;EXT|IC|L|S|TRN;;uic;2540120495;Q2614479;;;8844503;Welkenraedt
+TN8844545;gare;Dolhain-Gileppe;Dolhain-Gileppe;Dolhain-Gileppe;8844545;;50.626161;5.938475;BE;Europe/Brussels;Q506739;IC|L|S;;uic;4209210889;Q2453072;;;8844545;Dolhain-Gileppe
+TN8844628;gare;Eupen;Eupen;Eupen;8844628;;50.635112;6.038919;BE;Europe/Brussels;Q151831;EXT|IC|L;;uic;506056777;Q2659653;;;8844628;Eupen
+TN8844644;gare;Hergenrath;Hergenrath;Hergenrath;8844644;;50.709026;6.043228;BE;Europe/Brussels;Q159864;L|S;;uic;4019772510;Q2082795;;;8844644;Hergenrath
+TN8845005;gare;Gouvy;Gouvy;Gouvy;8845005;;50.189619;5.954019;BE;Europe/Brussels;Q713319;IC|P;;uic;5450310126;Q3096564;;;8845005;Gouvy
+TN8845146;gare;Vielsalm;Vielsalm;Vielsalm;8845146;;50.278732;5.909521;BE;Europe/Brussels;Q650172;IC|P;;uic;5450310140;Q3097974;;;8845146;Vielsalm
+TN8845203;gare;Trois-Ponts;Trois-Ponts;Trois-Ponts;8845203;;50.369164;5.873028;BE;Europe/Brussels;Q711183;IC|P;;uic;4333858841;Q2256421;;;8845203;Trois-Ponts
+TN8845229;gare;Coo;Coo;Coo;8845229;;50.39106;5.880963;BE;Europe/Brussels;Q468920;IC|P;;uic;5450310145;Q2690435;;;8845229;Coo
+TN8846201;gare;Visé;Visé;Visé;8846201;;50.739208;5.692254;BE;Europe/Brussels;Q49743;L|S;;uic;2365928002;Q2354611;;;8846201;Visé
+TN8860012;gare;SALZINNES-A.C.;SALZINNES-A.C.;SALZINNES-A.C.;8860012;;50.466045;4.839569;BE;Europe/Brussels;Q134121;EXT;;gtfs;;;;;8860012;SALZINNES-A.C.
+TN8861119;gare;Ronet;Ronet;Ronet;8861119;;50.458172;4.829292;BE;Europe/Brussels;Q134121;EXT|L|P|S;;uic;5990597788;Q2440909;;;8861119;Ronet
+TN8861127;gare;Flawinne;Flawinne;Flawinne;8861127;;50.456281;4.806254;BE;Europe/Brussels;Q134121;EXT|L|P|S;;uic;5990597565;Q3096439;;;8861127;Flawinne
+TN8861135;gare;Floreffe;Floreffe;Floreffe;8861135;;50.443173;4.762232;BE;Europe/Brussels;Q578583;EXT|L|P|S;;uic;5993889206;Q2197630;;;8861135;Floreffe
+TN8861143;gare;Franière;Franière;Franière;8861143;;50.439662;4.733525;BE;Europe/Brussels;Q578583;EXT|L|P|S;;uic;5993889166;Q781005;;;8861143;Franière
+TN8861150;gare;Moustier;Moustier;Moustier;8861150;;50.452817;4.694394;BE;Europe/Brussels;Q720791;EXT|IC|L|P|S;;uic;5993888914;Q2389923;;;8861150;Moustier
+TN8861200;gare;Gembloux;Gembloux;Gembloux;8861200;;50.570184;4.691112;BE;Europe/Brussels;Q223927;EXT|IC|L|P|S|T;;uic;10760025171;;;;8861200;Gembloux
+TN8861317;gare;Chapelle-Dieu;Chapelle-Dieu;Chapelle-Dieu;8861317;;50.557888;4.698629;BE;Europe/Brussels;Q223927;P;;uic;5952310967;Q2627157;;;8861317;Chapelle-Dieu
+TN8861333;gare;Mazy;Mazy;Mazy;8861333;;50.513044;4.675579;BE;Europe/Brussels;Q223927;P;;uic;5952310677;Q2329797;;;8861333;Mazy
+TN8861416;gare;Lonzée;Lonzée;Lonzée;8861416;;50.551802;4.720389;BE;Europe/Brussels;Q223927;L|P;;uic;5922824134;Q1981583;;;8861416;Lonzée
+TN8861424;gare;Beuzet;Beuzet;Beuzet;8861424;;50.533986;4.748579;BE;Europe/Brussels;Q223927;L|P;;uic;5922824143;Q2438529;;;8861424;Beuzet
+TN8861432;gare;Saint-Denis Bovesse;Saint-Denis Bovesse;Saint-Denis Bovesse;8861432;;50.521324;4.768026;BE;Europe/Brussels;Q715422;L|P;;uic;5922824148;Q3073188;;;8861432;Saint-Denis-Bovesse
+TN8861440;gare;Rhisnes;Rhisnes;Rhisnes;8861440;;50.499251;4.801846;BE;Europe/Brussels;Q715422;L|P;;uic;5922824179;Q2712393;;;8861440;Rhisnes
+TN8861515;gare;Ernage;Ernage;Ernage;8861515;;50.591974;4.66762;BE;Europe/Brussels;Q223927;L|P;;uic;5923793897;Q2228103;;;8861515;Ernage
+TN8861523;gare;Chastre;Chastre;Chastre;8861523;;50.607875;4.649766;BE;Europe/Brussels;Q618054;IC|L|P;;uic;5923793878;Q2628870;;;8861523;Chastre
+TN8861531;gare;Blanmont;Blanmont;Blanmont;8861531;;50.620223;4.635915;BE;Europe/Brussels;Q618054;L|P;;uic;5923793859;Q2505776;;;8861531;Blanmont
+TN8861549;gare;Mont-Saint-Guibert;Mont-Saint-Guibert;Mont-Saint-Guibert;8861549;;50.638166;4.61291;BE;Europe/Brussels;Q650152;L|P;;uic;5923793846;Q1991759;;;8861549;Mont-Saint-Guibert
+TN8862018;gare;Stockem;Stockem;Stockem;8862018;;49.69092;5.767804;BE;Europe/Brussels;Q675960;EXT|IC|L|P;;uic;5876112723;Q2728895;;;8862018;Stockem
+TN8863008;gare;Namur;Namur;Namur;8863008;;50.46866;4.862529;BE;Europe/Brussels;Q134121;EXT|IC|L|P|S|T;;uic;5645805399;Q1951230;;;8863008;Namur
+TN8863115;gare;Jambes;Jambes;Jambes;8863115;;50.45457;4.875911;BE;Europe/Brussels;Q134121;IC|L|P|S;;uic;5929598749;Q947570;;;8863115;Jambes
+TN8863156;gare;Lustin;Lustin;Lustin;8863156;;50.369037;4.877039;BE;Europe/Brussels;Q696940;IC|L|P;;uic;5927394126;Q2549896;;;8863156;Lustin
+TN8863354;gare;Jambes-Est;Jambes-Est;Jambes-Est;8863354;;50.454929;4.880309;BE;Europe/Brussels;Q134121;EXT|L|P;;uic;5899667608;Q2294676;;;8863354;Jambes-Est
+TN8863362;gare;Dave-Saint-Martin;Dave-Saint-Martin;Dave-Saint-Martin;8863362;;50.428925;4.884378;BE;Europe/Brussels;Q134121;L|P;;uic;5896990423;Q2360781;;;8863362;Dave-Saint-Martin
+TN8863404;gare;Andenne;Andenne;Andenne;8863404;;50.496807;5.095275;BE;Europe/Brussels;Q333466;IC|L|P;;uic;5645451376;Q2620535;;;8863404;Andenne
+TN8863438;gare;Château de Seilles;Château de Seilles;Château de Seilles;8863438;;50.497275;5.082349;BE;Europe/Brussels;Q333466;IC|L|P;;uic;5645450994;Q1977260;;;8863438;Château-de-Seilles
+TN8863446;gare;Sclaigneaux;Sclaigneaux;Sclaigneaux;8863446;;50.492201;5.026588;BE;Europe/Brussels;Q333466;IC|L|P;;uic;5645730470;Q2481140;;;8863446;Sclaigneaux
+TN8863453;gare;Namêche;Namêche;Namêche;8863453;;50.470052;4.997525;BE;Europe/Brussels;Q333466;IC|L|P;;uic;5645730383;Q3097166;;;8863453;Namêche
+TN8863461;gare;Marche-les-Dames;Marche-les-Dames;Marche-les-Dames;8863461;;50.480672;4.965426;BE;Europe/Brussels;Q134121;IC|L|P;;uic;5645729915;Q2292564;;;8863461;Marche-les-Dames
+TN8863503;gare;Dinant;Dinant;Dinant;8863503;;50.261214;4.907942;BE;Europe/Brussels;Q108247;IC|L|P|T;;uic;5927413236;Q2746627;;;8863503;Dinant
+TN8863545;gare;Yvoir;Yvoir;Yvoir;8863545;;50.320665;4.8786;BE;Europe/Brussels;Q650163;IC|L|P;;uic;5927413089;Q2766631;;;8863545;Yvoir
+TN8863560;gare;Godinne;Godinne;Godinne;8863560;;50.348755;4.869049;BE;Europe/Brussels;Q650163;IC|L|P;;uic;5927412913;Q2073820;;;8863560;Godinne
+TN8863818;gare;Anseremme;Anseremme;Anseremme;8863818;;50.237356;4.904726;BE;Europe/Brussels;Q108247;L|P|T;;uic;5875529913;Q3095645;;;8863818;Anseremme
+TN8863834;gare;Gendron-Celles;Gendron-Celles;Gendron-Celles;8863834;;50.2105;4.964649;BE;Europe/Brussels;Q695390;L|P|T;;uic;5875529958;Q16964673;;;8863834;Gendron-Celles
+TN8863842;gare;Houyet;Houyet;Houyet;8863842;;50.19013;5.00606;BE;Europe/Brussels;Q695390;L|P|T;;uic;5864086201;Q3096642;;;8863842;Houyet
+TN8863867;gare;Beauraing;Beauraing;Beauraing;8863867;;50.114816;4.956778;BE;Europe/Brussels;Q329621;L|P;;uic;5863700965;Q2489858;;;8863867;Beauraing
+TN8864006;gare;Rochefort-Jemelle;Rochefort-Jemelle;Rochefort-Jemelle;8864006;;50.159975;5.267159;BE;Europe/Brussels;Q497764;IC|L|P|T;;uic;5888612385;Q3096654;;;8864006;Rochefort-Jemelle
+TN8864311;gare;Forrières;Forrières;Forrières;8864311;;50.132402;5.276691;BE;Europe/Brussels;Q429794;L|P;;uic;5885099289;Q962739;;;8864311;Forrières
+TN8864337;gare;Grupont;Grupont;Grupont;8864337;;50.090766;5.280757;BE;Europe/Brussels;Q713812;L|P;;uic;5885099337;Q2537972;;;8864337;Grupont
+TN8864345;gare;Marloie;Marloie;Marloie;8864345;;50.2025;5.313956;BE;Europe/Brussels;Q269908;EXT|IC|L|P|T;;uic;5450440093;Q2456324;;;8864345;Marloie
+TN8864352;gare;Aye;Aye;Aye;8864352;;50.224487;5.300974;BE;Europe/Brussels;Q269908;L|P;;uic;5892762838;Q3095717;;;8864352;Aye
+TN8864410;gare;Marche-en-Famenne;Marche-en-Famenne;Marche-en-Famenne;8864410;;50.222485;5.345991;BE;Europe/Brussels;Q269908;L|P|T;;uic;5450440057;Q528743;;;8864410;Marche-en-Famenne
+TN8864436;gare;Melreux-Hotton;Melreux-Hotton;Melreux-Hotton;8864436;;50.283983;5.440972;BE;Europe/Brussels;Q160709;L|P|T;;uic;5450434202;Q2044362;;;8864436;Melreux-Hotton
+TN8864451;gare;Barvaux;Barvaux;Barvaux;8864451;;50.349094;5.501404;BE;Europe/Brussels;Q497697;L|P|T;;uic;5450587713;Q2684760;;;8864451;Barvaux
+TN8864469;gare;Bomal;Bomal;Bomal;8864469;;50.376869;5.519586;BE;Europe/Brussels;Q497697;L|P|T;;uic;5450587661;Q2596555;;;8864469;Bomal
+TN8864501;gare;Ciney;Ciney;Ciney;8864501;;50.291383;5.091454;BE;Europe/Brussels;Q456490;EXT|IC|L|P|T;;uic;5892984186;Q2300665;;;8864501;Ciney
+TN8864816;gare;Leignon;Leignon;Leignon;8864816;;50.267704;5.107643;BE;Europe/Brussels;Q456490;L|P;;uic;5892984213;Q1845673;;;8864816;Leignon
+TN8864824;gare;Chapois;Chapois;Chapois;8864824;;50.261824;5.12501;BE;Europe/Brussels;Q456490;L|P;;uic;5892984242;Q2680946;;;8864824;Chapois
+TN8864832;gare;Haversin;Haversin;Haversin;8864832;;50.249052;5.194413;BE;Europe/Brussels;Q456490;L|P;;uic;5892762022;Q743820;;;8864832;Haversin
+TN8864915;gare;Natoye;Natoye;Natoye;8864915;;50.343114;5.061339;BE;Europe/Brussels;Q696133;L|P;;uic;5894141336;Q2181220;;;8864915;Natoye
+TN8864931;gare;Assesse;Assesse;Assesse;8864931;;50.368225;5.022551;BE;Europe/Brussels;Q715246;L|P;;uic;5894141314;Q3095683;;;8864931;Assesse
+TN8864949;gare;Courrière;Courrière;Courrière;8864949;;50.389044;4.99511;BE;Europe/Brussels;Q715246;L|P;;uic;5896990873;Q2393942;;;8864949;Courrière
+TN8864956;gare;Sart-Bernard;Sart-Bernard;Sart-Bernard;8864956;;50.406494;4.949243;BE;Europe/Brussels;Q715246;L|P;;uic;5896990821;Q3097683;;;8864956;Sart-Bernard
+TN8864964;gare;Naninne;Naninne;Naninne;8864964;;50.419567;4.929929;BE;Europe/Brussels;Q134121;L|P;;uic;5896990450;Q3097171;;;8864964;Naninne
+TN8865003;gare;Libramont;Libramont;Libramont;8865003;;49.920237;5.379308;BE;Europe/Brussels;Q612267;EXT|IC|L|P|T;;uic;5779840185;Q2856503;;;8865003;Libramont
+TN8865227;gare;Poix-Saint-Hubert;Poix-Saint-Hubert;Poix-Saint-Hubert;8865227;;50.019424;5.292664;BE;Europe/Brussels;Q713740;IC|L|P;;uic;5884971672;Q1993729;;;8865227;Poix-Saint-Hubert
+TN8865300;gare;Bertrix;Bertrix;Bertrix;8865300;;49.8527;5.267806;BE;Europe/Brussels;Q713135;L|P;;uic;5771497176;Q2145703;;;8865300;Bertrix
+TN8865540;gare;Paliseul;Paliseul;Paliseul;8865540;;49.895171;5.118791;BE;Europe/Brussels;Q696127;L|P;;uic;5861541102;Q2098757;;;8865540;Paliseul
+TN8865565;gare;Carlsbourg;Carlsbourg;Carlsbourg;8865565;;49.907393;5.087352;BE;Europe/Brussels;Q696127;L|P;;uic;5863457530;Q2389574;;;8865565;Carlsbourg
+TN8865615;gare;Graide;Graide;Graide;8865615;;49.933858;5.043327;BE;Europe/Brussels;Q715371;L|P;;uic;5863457476;Q2743727;;;8865615;Graide
+TN8865649;gare;Gedinne;Gedinne;Gedinne;8865649;;49.984284;4.978211;BE;Europe/Brussels;Q241069;L|P;;uic;5863457409;Q2013241;;;8865649;Gedinne
+TN8866001;gare;Arlon;Arlon;Arlon;8866001;;49.680415;5.809531;BE;Europe/Brussels;Q675960;EXT|IC|L|P|T;;uic;5875951223;Q2043244;;;8866001;Arlon
+TN8866118;gare;Viville;Viville;Viville;8866118;;49.688206;5.785875;BE;Europe/Brussels;Q675960;EXT|L|P;;uic;5876112729;Q2777083;;;8866118;Viville
+TN8866142;gare;Habay;Habay;Habay;8866142;;49.71811;5.632714;BE;Europe/Brussels;Q713334;EXT|L|P;;uic;2033131286;Q961508;;;8866142;Habay
+TN8866175;gare;Marbehan;Marbehan;Marbehan;8866175;;49.727419;5.539388;BE;Europe/Brussels;Q713334;EXT|IC|L|P|T;;uic;5882541161;Q662867;;;8866175;Marbehan
+TN8866258;gare;Neufchâteau;Neufchâteau;Neufchâteau;8866258;;49.854159;5.452589;BE;Europe/Brussels;Q650135;EXT|IC|L|P;;uic;5884549412;Q3097183;;;8866258;Neufchâteau
+TN8866407;gare;Virton;Virton;Virton;8866407;;49.560515;5.519647;BE;Europe/Brussels;Q456495;L|P;;uic;5766470106;Q3098024;;;8866407;Virton
+TN8866530;gare;Halanzy;Halanzy;Halanzy;8866530;;49.555945;5.742287;BE;Europe/Brussels;Q713088;L|P;;uic;5764358887;Q3096607;;;8866530;Halanzy
+TN8866605;gare;Athus;Athus;Athus;8866605;;49.563857;5.829253;BE;Europe/Brussels;Q713088;L|P;;uic;5117245255;Q2194045;;;8866605;Athus
+TN8866654;gare;Aubange;Aubange;Aubange;8866654;;49.563392;5.799771;BE;Europe/Brussels;Q713088;L|P;;uic;5764359919;Q1844932;;;8866654;Aubange
+TN8866662;gare;Messancy;Messancy;Messancy;8866662;;49.592899;5.81846;BE;Europe/Brussels;Q692243;L|P;;uic;5761481284;Q2372985;;;8866662;Messancy
+TN8866845;gare;Florenville;Florenville;Florenville;8866845;;49.706909;5.332313;BE;Europe/Brussels;Q713300;L|P;;uic;5768862934;Q2479235;;;8866845;Florenville
+TN8871100;gare;Marchienne-au-Pont;Marchienne-au-Pont;Marchienne-au-Pont;8871100;;50.412317;4.394151;BE;Europe/Brussels;Q81046;EXT|IC|L|P|S|T;;uic;6023088536;Q2310045;;;8871100;Marchienne-au-Pont
+TN8871175;gare;Jamioulx;Jamioulx;Jamioulx;8871175;;50.352834;4.411446;BE;Europe/Brussels;Q666952;L|P|S;;uic;2663744947;Q1921102;;;8871175;Jamioulx
+TN8871183;gare;Beignée;Beignée;Beignée;8871183;;50.333404;4.40657;BE;Europe/Brussels;Q666952;L|P|S;;uic;5986613579;Q2607733;;;8871183;Beignée
+TN8871217;gare;Roux;Roux;Roux;8871217;;50.442993;4.393732;BE;Europe/Brussels;Q81046;IC|L|P|S;;uic;6025570232;Q643231;;;8871217;Roux
+TN8871225;gare;Courcelles-Motte;Courcelles-Motte;Courcelles-Motte;8871225;;50.462666;4.400622;BE;Europe/Brussels;Q665860;IC|L|P|S;;uic;6028140032;Q2147999;;;8871225;Courcelles-Motte
+TN8871308;gare;Luttre;Luttre;Luttre;8871308;;50.506236;4.383919;BE;Europe/Brussels;Q607182;EXT|IC|L|P|S;;uic;6028139914;Q2171146;;;8871308;Luttre
+TN8871332;gare;Obaix-Buzet;Obaix-Buzet;Obaix-Buzet;8871332;;50.535608;4.363644;BE;Europe/Brussels;Q607182;IC|L|P|S;;uic;6029157282;Q2928602;;;8871332;Obaix-Buzet
+TN8871365;gare;Pont-à-Celles;Pont-à-Celles;Pont-à-Celles;8871365;;50.512907;4.361918;BE;Europe/Brussels;Q607182;L|S;;uic;6356156295;Q1945111;;;8871365;Pont-à-Celles
+TN8871373;gare;Gouy-Lez-Piéton;Gouy-Lez-Piéton;Gouy-Lez-Piéton;8871373;;50.496757;4.325359;BE;Europe/Brussels;Q665860;L|S;;uic;6356156198;Q2780180;;;8871373;Gouy-lez-Piéton
+TN8871381;gare;Godarville;Godarville;Godarville;8871381;;50.492941;4.290264;BE;Europe/Brussels;Q95140;L|S;;uic;6356156143;Q2566814;;;8871381;Godarville
+TN8871415;gare;Piéton;Piéton;Piéton;8871415;;50.434911;4.288939;BE;Europe/Brussels;Q95140;IC|L|S;;uic;6345874210;Q3097276;;;8871415;Piéton
+TN8871514;gare;Forchies;Forchies;Forchies;8871514;;50.433167;4.32454;BE;Europe/Brussels;Q666696;IC|L|S;;uic;3327004794;Q3096452;;;8871514;Forchies
+TN8871605;gare;Erquelinnes;Erquelinnes;Erquelinnes;8871605;;50.303655;4.112415;BE;Europe/Brussels;Q666335;IC|L|S;;uic;6016120140;;;;8871605;Erquelinnes
+TN8871647;gare;Erquelinnes-Village;Erquelinnes-Village;Erquelinnes-Village;8871647;;50.309979;4.130904;BE;Europe/Brussels;Q666335;L|S;;uic;6016120162;Q2687284;;;8871647;Erquelinnes-Village
+TN8871662;gare;Solre-sur-Sambre;Solre-sur-Sambre;Solre-sur-Sambre;8871662;;50.312757;4.158126;BE;Europe/Brussels;Q666335;L|S;;uic;6016124040;Q781852;;;8871662;Solre-sur-Sambre
+TN8871670;gare;Labuissière;Labuissière;Labuissière;8871670;;50.31626;4.186276;BE;Europe/Brussels;Q668139;L|S;;uic;6016124066;Q3096825;;;8871670;Labuissière
+TN8871688;gare;Fontaine-Valmont;Fontaine-Valmont;Fontaine-Valmont;8871688;;50.321205;4.212932;BE;Europe/Brussels;Q668139;L|S;;uic;6016124186;Q1855658;;;8871688;Fontaine-Valmont
+TN8871712;gare;Lobbes;Lobbes;Lobbes;8871712;;50.346173;4.261618;BE;Europe/Brussels;Q667936;L|S;;uic;6015917266;Q2051889;;;8871712;Lobbes
+TN8871811;gare;Thuin;Thuin;Thuin;8871811;;50.342534;4.288462;BE;Europe/Brussels;Q669186;L|S;;uic;4793334874;Q2599197;;;8871811;Thuin
+TN8871829;gare;Hourpes;Hourpes;Hourpes;8871829;;50.364913;4.308539;BE;Europe/Brussels;Q669186;L|S;;uic;6015919700;Q659258;;;8871829;Hourpes
+TN8871837;gare;Landelies;Landelies;Landelies;8871837;;50.377352;4.350608;BE;Europe/Brussels;Q668437;L|S;;uic;6013522669;Q2326429;;;8871837;Landelies
+TN8871852;gare;Marchienne-Zone;Marchienne-Zone;Marchienne-Zone;8871852;;50.397816;4.390431;BE;Europe/Brussels;Q81046;L|S;;uic;6013524527;Q594080;;;8871852;Marchienne-Zone
+TN8872009;gare;Charleroi-Central;Charleroi-Central;Charleroi-Central;8872009;;50.404735;4.438781;BE;Europe/Brussels;Q81046;EXT|IC|L|P|S|T;;uic;6010646002;Q2043526;;;8872009;Charleroi-Central
+TN8872066;gare;Charleroi-Ouest;Charleroi-Ouest;Charleroi-Ouest;8872066;;50.411274;4.436799;BE;Europe/Brussels;Q81046;IC|L|S;;uic;5967211577;Q954149;;;8872066;Charleroi-Ouest
+TN8872306;gare;Lodelinsart;Lodelinsart;Lodelinsart;8872306;;50.433116;4.464691;BE;Europe/Brussels;Q81046;IC|L|S;;uic;5967212231;Q2206766;;;8872306;Lodelinsart
+TN8872413;gare;Fleurus;Fleurus;Fleurus;8872413;;50.48196;4.543675;BE;Europe/Brussels;Q314922;IC|L|S;;uic;5955060055;Q2033211;;;8872413;Fleurus
+TN8872520;gare;Ligny;Ligny;Ligny;8872520;;50.511978;4.566014;BE;Europe/Brussels;Q650226;L|S;;uic;5960998344;Q971743;;;8872520;Ligny
+TN8872553;gare;Tilly;Tilly;Tilly;8872553;;50.55766;4.552332;BE;Europe/Brussels;Q678612;L|S;;uic;5960998507;Q2137620;;;8872553;Tilly
+TN8872579;gare;Villers-la-Ville;Villers-la-Ville;Villers-la-Ville;8872579;;50.577936;4.533854;BE;Europe/Brussels;Q678612;IC|L|S;;uic;5960998566;Q2173560;;;8872579;Villers-la-Ville
+TN8872587;gare;La Roche(Brabant);La Roche(Brabant);La Roche(Brabant);8872587;;50.610542;4.539746;BE;Europe/Brussels;Q670210;L|S;;uic;5959607907;Q2284821;;;8872587;La Roche (brabant)
+TN8872611;gare;Faux;Faux;Faux;8872611;;50.621204;4.548636;BE;Europe/Brussels;Q670210;L|S;;uic;5959607965;Q730167;;;8872611;Faux
+TN8873007;gare;Walcourt;Walcourt;Walcourt;8873007;;50.259477;4.436089;BE;Europe/Brussels;Q497565;L|P|S;;uic;5982811887;Q2061873;;;8873007;Walcourt
+TN8873122;gare;Philippeville;Philippeville;Philippeville;8873122;;50.191111;4.535742;BE;Europe/Brussels;Q650239;L|P|S;;uic;5979541222;Q2234535;;;8873122;Philippeville
+TN8873239;gare;Yves-Gomezée;Yves-Gomezée;Yves-Gomezée;8873239;;50.236977;4.500593;BE;Europe/Brussels;Q497565;L|P|S;;uic;5979539469;Q2401773;;;8873239;Yves-Gomezée
+TN8873312;gare;Pry;Pry;Pry;8873312;;50.26907;4.429496;BE;Europe/Brussels;Q497565;L|P|S;;uic;2480347498;Q1950097;;;8873312;Pry
+TN8873320;gare;Berzée;Berzée;Berzée;8873320;;50.285535;4.406078;BE;Europe/Brussels;Q497565;L|P|S;;uic;5982811684;Q1959254;;;8873320;Berzée
+TN8873379;gare;Cour-sur-Heure;Cour-sur-Heure;Cour-sur-Heure;8873379;;50.300356;4.391713;BE;Europe/Brussels;Q666952;L|P|S;;uic;5986613670;Q3918483;;;8873379;Cour-sur-Heure
+TN8873387;gare;Ham-sur-Heure;Ham-sur-Heure;Ham-sur-Heure;8873387;;50.320059;4.404911;BE;Europe/Brussels;Q666952;L|P|S;;uic;5986613624;Q4695214;;;8873387;Ham-sur-Heure
+TN8874005;gare;Châtelet;Châtelet;Châtelet;8874005;;50.409403;4.520941;BE;Europe/Brussels;Q95144;IC|L|P|S;;uic;5976088018;Q3096240;;;8874005;Châtelet
+TN8874054;gare;Couillet;Couillet;Couillet;8874054;;50.392719;4.468882;BE;Europe/Brussels;Q81046;L|P|S;;uic;6008152951;Q2948946;;;8874054;Couillet
+TN8874559;gare;Le Campinaire;Le Campinaire;Le Campinaire;8874559;;50.423947;4.543141;BE;Europe/Brussels;Q666503;L|P|S;;uic;5996234891;Q2080628;;;8874559;Le Campinaire
+TN8874567;gare;Farciennes;Farciennes;Farciennes;8874567;;50.429194;4.552678;BE;Europe/Brussels;Q666503;L|P|S;;uic;5996234927;Q2283816;;;8874567;Farciennes
+TN8874583;gare;Aiseau;Aiseau;Aiseau;8874583;;50.429508;4.584725;BE;Europe/Brussels;Q95004;L|P|S;;uic;5996235005;Q2616513;;;8874583;Aiseau
+TN8874609;gare;Tamines;Tamines;Tamines;8874609;;50.432313;4.609746;BE;Europe/Brussels;Q650185;IC|L|P|S;;uic;5996235083;Q2492695;;;8874609;Tamines
+TN8874716;gare;Auvelais;Auvelais;Auvelais;8874716;;50.449178;4.6311;BE;Europe/Brussels;Q650185;IC|L|P|S;;uic;5955059898;Q977561;;;8874716;Auvelais
+TN8874724;gare;Jemeppe-sur-Sambre;Jemeppe-sur-Sambre;Jemeppe-sur-Sambre;8874724;;50.451316;4.66326;BE;Europe/Brussels;Q720791;IC|L|P|S;;uic;5952310602;Q2284577;;;8874724;Jemeppe-sur-Sambre
+TN8875002;gare;Mariembourg;Mariembourg;Mariembourg;8875002;;50.095475;4.525203;BE;Europe/Brussels;Q326771;L|P|S;;uic;5976176285;Q2789199;;;8875002;Mariembourg
+TN8875127;gare;Couvin;Couvin;Couvin;8875127;;50.057065;4.492448;BE;Europe/Brussels;Q326771;L|P|S;;uic;5976176358;Q2162997;;;8875127;Couvin
+TN8881000;gare;Mons;Mons;Mons;8881000;;50.454044;3.941965;BE;Europe/Brussels;Q83407;EXT|IC|L|P|T;;uic;6360374596;Q3097068;;;8881000;Mons
+TN8881125;gare;Ghlin;Ghlin;Ghlin;8881125;;50.487512;3.906371;BE;Europe/Brussels;Q83407;L|P;;uic;7072157528;Q2860050;;;8881125;Ghlin
+TN8881158;gare;Erbisoeul;Erbisœul;Erbisœul;8881158;;50.507131;3.887928;BE;Europe/Brussels;Q377152;L|P;;uic;2982874234;Q1920074;;;8881158;Erbisoeul
+TN8881166;gare;Jurbise;Jurbise;Jurbise;8881166;;50.529883;3.90951;BE;Europe/Brussels;Q377152;EXT|IC|L|P|T;;uic;7072219492;Q2048462;;;8881166;Jurbise
+TN8881174;gare;Masnuy-Saint-Pierre;Masnuy-Saint-Pierre;Masnuy-Saint-Pierre;8881174;;50.53636;3.961748;BE;Europe/Brussels;Q377152;L;;uic;7072202016;Q1840242;;;8881174;Masnuy-Saint-Pierre
+TN8881190;gare;Lens;Lens;Lens;8881190;;50.559093;3.903333;BE;Europe/Brussels;Q667158;L|P;;uic;7164736822;Q3096874;;;8881190;Lens
+TN8881315;gare;Nimy;Nimy;Nimy;8881315;;50.471618;3.956061;BE;Europe/Brussels;Q83407;L|P;;uic;6360374646;Q2782047;;;8881315;Nimy
+TN8881406;gare;Obourg;Obourg;Obourg;8881406;;50.469833;4.006955;BE;Europe/Brussels;Q83407;IC|L|P;;uic;6360111540;Q2169820;;;8881406;Obourg
+TN8881430;gare;Havré;Havré;Havré;8881430;;50.470583;4.060218;BE;Europe/Brussels;Q668861;L|P;;uic;6360111590;;;;8881430;Havré
+TN8881455;gare;Thieu;Thieu;Thieu;8881455;;50.469579;4.097807;BE;Europe/Brussels;Q668861;IC|L|P;;uic;6360111671;Q3097865;;;8881455;Thieu
+TN8881463;gare;Bracquegnies;Bracquegnies;Bracquegnies;8881463;;50.474143;4.124984;BE;Europe/Brussels;Q211572;IC|L|P;;uic;6360111912;;;;8881463;Bracquegnies
+TN8881505;gare;Quévy;Quévy;Quévy;8881505;;50.341389;3.909241;BE;Europe/Brussels;Q668702;IC|L|P;;uic;6363460603;Q2441411;;;8881505;Quévy
+TN8881562;gare;Genly;Genly;Genly;8881562;;50.39154;3.911096;BE;Europe/Brussels;Q668702;IC|L|P;;uic;6363460509;Q1822497;;;8881562;Genly
+TN8881570;gare;Frameries;Frameries;Frameries;8881570;;50.405756;3.906444;BE;Europe/Brussels;Q666751;IC|L|P;;uic;1307660429;Q3096472;;;8881570;Frameries
+TN8882107;gare;La Louvière-Centre;La Louvière-Centre;La Louvière-Centre;8882107;;50.478195;4.180553;BE;Europe/Brussels;Q211572;EXT|IC|L|P|S;;uic;446059037;Q1892465;;;8882107;La Louvière-Centre
+TN8882206;gare;La Louvière-Sud;La Louvière-Sud;La Louvière-Sud;8882206;;50.465388;4.188301;BE;Europe/Brussels;Q211572;EXT|IC|L|P|S|T;;uic;6348185815;Q2132655;;;8882206;La Louvière-Sud
+TN8882230;gare;Morlanwelz;Morlanwelz;Morlanwelz;8882230;;50.458523;4.247055;BE;Europe/Brussels;Q668493;IC|L|S;;uic;6348185856;Q3097111;;;8882230;Morlanwelz
+TN8882248;gare;Carnières;Carnières;Carnières;8882248;;50.447933;4.264157;BE;Europe/Brussels;Q668493;IC|L|S;;uic;6348185909;Q2364337;;;8882248;Carnières
+TN8882339;gare;Leval;Leval;Leval;8882339;;50.429623;4.210291;BE;Europe/Brussels;Q95121;EXT|IC|L|P|S;;uic;6341861680;Q2240980;;;8882339;Leval
+TN8882362;gare;Binche;Binche;Binche;8882362;;50.408887;4.173217;BE;Europe/Brussels;Q95121;EXT|IC|L|P|S;;uic;6341861702;Q3095993;;;8882362;Binche
+TN8882701;gare;Manage;Manage;Manage;8882701;;50.506194;4.234713;BE;Europe/Brussels;Q667987;EXT|IC|L|P|S;;uic;5972727723;Q2110854;;;8882701;Manage
+TN8883006;gare;Braine-le-Comte;Braine-le-Comte;Braine-le-Comte;8883006;;50.605491;4.138753;BE;Europe/Brussels;Q95129;EXT|IC|L|P|S|T;;uic;5865167974;Q3096055;;;8883006;Braine-le-Comte
+TN8883022;gare;Hennuyères;Hennuyères;Hennuyères;8883022;;50.651277;4.176451;BE;Europe/Brussels;Q95129;IC|L|S;;uic;7072182304;Q2089017;;;8883022;Hennuyères
+TN8883113;gare;Soignies;Soignies;Soignies;8883113;;50.573238;4.069202;BE;Europe/Brussels;Q462985;EXT|IC|L|P|T;;uic;7088051898;Q1868452;;;8883113;Soignies
+TN8883121;gare;Neufvilles;Neufvilles;Neufvilles;8883121;;50.543355;4.010425;BE;Europe/Brussels;Q462985;L;;uic;5713037711;Q2135183;;;8883121;Neufvilles
+TN8883212;gare;Écaussinnes;Écaussinnes;Écaussinnes;8883212;;50.562158;4.156907;BE;Europe/Brussels;Q273316;EXT|IC|L|P|S;;uic;6359993170;Q1819726;;;8883212;Ecaussinnes
+TN8883220;gare;Marche-lez-Écaussinnes;Marche-lez-Écaussinnes;Marche-lez-Écaussinnes;8883220;;50.546494;4.176709;BE;Europe/Brussels;Q273316;L|P|S;;uic;6356278778;Q2180260;;;8883220;Marche-lez-Ecaussinnes
+TN8883238;gare;Familleureux;Familleureux;Familleureux;8883238;;50.519669;4.211165;BE;Europe/Brussels;Q669051;L|P|S;;uic;6356279544;Q2749541;;;8883238;Familleureux
+TN8883311;gare;Enghien;Enghien - Edingen;Enghien - Edingen;8883311;;50.697278;4.04713;BE;Europe/Brussels;Q666238;EXT|IC|L|P|S|T;;uic;306203775;Q3095735;;;8883311;Enghien
+TN8883436;gare;Silly;Silly;Silly;8883436;;50.662802;3.936237;BE;Europe/Brussels;Q669088;EXT|IC|P;;uic;7122412274;Q946889;;;8883436;Silly
+TN8883808;gare;Tubize;Tubize;Tubize;8883808;;50.691787;4.20561;BE;Europe/Brussels;Q497549;EXT|IC|L|P|S;;uic;7072202031;Q2293791;;;8883808;Tubize
+TN8884004;gare;Saint-Ghislain;Saint-Ghislain;Saint-Ghislain;8884004;;50.442535;3.818967;BE;Europe/Brussels;Q668950;EXT|IC|L|P|T;;uic;6360977251;Q3097536;;;8884004;Saint-Ghislain
+TN8884319;gare;Boussu;Boussu;Boussu;8884319;;50.43619;3.796555;BE;Europe/Brussels;Q95126;EXT|IC|L|P;;uic;13589530993;Q1980169;;;8884319;Boussu
+TN8884327;gare;Hainin;Hainin;Hainin;8884327;;50.428234;3.767582;BE;Europe/Brussels;VBE-hainin;EXT|IC|L|P;;uic;270630922;Q2056896;;;8884327;Hainin
+TN8884335;gare;Quiévrain;Quiévrain;Quiévrain;8884335;;50.410223;3.686677;BE;Europe/Brussels;Q668815;EXT|IC|L|P;;uic;6360708248;Q3097372;;;8884335;Quiévrain
+TN8884350;gare;Thulin;Thulin;Thulin;8884350;;50.423313;3.74525;BE;Europe/Brussels;Q666983;EXT|IC|L|P;;uic;270630931;Q593251;;;8884350;Thulin
+TN8884541;gare;Quaregnon;Quaregnon;Quaregnon;8884541;;50.449794;3.855851;BE;Europe/Brussels;Q538735;EXT|IC|L|P|T;;uic;6360977218;Q2312094;;;8884541;Quaregnon
+TN8884566;gare;Jemappes;Jemappes;Jemappes;8884566;;50.452604;3.885923;BE;Europe/Brussels;Q83407;EXT|IC|L|P|T;;uic;1146307282;Q2411271;;;8884566;Jemappes
+TN8884632;gare;Ville-Pommeroeul;Ville-Pommerœul;Ville-Pommerœul;8884632;;50.464927;3.723666;BE;Europe/Brussels;Q95112;P;;uic;7140746104;Q2482209;;;8884632;Ville-Pommeroeul
+TN8884640;gare;Harchies;Harchies;Harchies;8884640;;50.482288;3.699027;BE;Europe/Brussels;Q95112;P;;uic;506266542;Q644404;;;8884640;Harchies
+TN8884715;gare;Blaton;Blaton;Blaton;8884715;;50.505315;3.666224;BE;Europe/Brussels;Q95112;IC|L|P;;uic;7140841728;Q2326107;;;8884715;Blaton
+TN8884855;gare;Péruwelz;Péruwelz;Péruwelz;8884855;;50.513627;3.59186;BE;Europe/Brussels;Q668630;IC|L|P;;uic;10940262959;Q2297369;;;8884855;Péruwelz
+TN8884889;gare;Callenelle;Callenelle;Callenelle;8884889;;50.53024;3.520558;BE;Europe/Brussels;Q668630;P;;uic;2077994093;Q2171720;;;8884889;Callenelle
+TN8885001;gare;Tournai;Tournai;Tournai;8885001;;50.612929;3.397119;BE;Europe/Brussels;Q173219;EXT|IC|L|P|T;;uic;7072155262;Q283437;;;8885001;Tournai
+TN8885068;gare;Froyennes;Froyennes;Froyennes;8885068;;50.628718;3.357141;BE;Europe/Brussels;Q173219;EXT|IC|L|P|T;;uic;436458637;Q3096496;;;8885068;Froyennes
+TN8885522;gare;Antoing;Antoing;Antoing;8885522;;50.569605;3.45145;BE;Europe/Brussels;Q95011;IC|L|P;;uic;7147256328;Q1814722;;;8885522;Antoing
+TN8885530;gare;Maubray;Maubray;Maubray;8885530;;50.547675;3.495436;BE;Europe/Brussels;Q95011;P;;uic;6588503649;;;;8885530;Maubray
+TN8885704;gare;Mouscron;Mouscron - Moeskroen;Mouscron - Moeskroen;8885704;;50.740112;3.227441;BE;Europe/Brussels;Q220145;EXT|IC|L|P|T;;uic;7299178958;Q3097128;;;8885704;Mouscron
+TN8885753;gare;Herseaux;Herseaux - Herzeeuw;Herseaux - Herzeeuw;8885753;;50.715222;3.242898;BE;Europe/Brussels;Q220145;EXT|IC|L|P|T;;uic;7293064010;Q2530450;;;8885753;Herseaux
+TN8886009;gare;Ath;Ath;Ath;8886009;;50.626992;3.777274;BE;Europe/Brussels;Q95096;EXT|IC|L|P|T;;uic;7122715807;;;;8886009;Ath
+TN8886041;gare;Maffle;Maffle;Maffle;8886041;;50.614854;3.799358;BE;Europe/Brussels;Q95096;L|P;;uic;7167500348;;;;8886041;Maffle
+TN8886058;gare;Mévergnies-Attre;Mévergnies-Attre;Mévergnies-Attre;8886058;;50.599875;3.834275;BE;Europe/Brussels;Q95130;L|P;;uic;7167500376;;;;8886058;Mévergnies-Attre
+TN8886066;gare;Brugelette;Brugelette;Brugelette;8886066;;50.594162;3.852329;BE;Europe/Brussels;Q95130;L|P;;uic;7164733853;Q2796893;;;8886066;Brugelette
+TN8886074;gare;Cambron-Casteau;Cambron-Casteau;Cambron-Casteau;8886074;;50.586514;3.874861;BE;Europe/Brussels;Q95130;L|P|T;;uic;7164733864;;;;8886074;Cambron-Casteau
+TN8886348;gare;Leuze;Leuze;Leuze;8886348;;50.600527;3.616629;BE;Europe/Brussels;Q667862;EXT|IC|L|P;;uic;7129248830;Q2226990;;;8886348;Leuze
+TN8886504;gare;Lessines;Lessines;Lessines;8886504;;50.713052;3.836873;BE;Europe/Brussels;Q667790;L|P;;uic;7072164180;Q2139525;;;8886504;Lessines
+TN8886546;gare;Acren;Acren;Acren;8886546;;50.732992;3.847058;BE;Europe/Brussels;Q667790;L|P;;uic;7173056192;Q2296160;;;8886546;Acren
+TN8886553;gare;Houraing;Houraing;Houraing;8886553;;50.702809;3.835177;BE;Europe/Brussels;Q667790;L|P;;uic;7170188405;Q2506668;;;8886553;Houraing
+TN8886561;gare;Papignies;Papignies;Papignies;8886561;;50.68642;3.82329;BE;Europe/Brussels;Q667790;L|P;;uic;7170188410;Q2651117;;;8886561;Papignies
+TN8886587;gare;Rebaix;Rebaix;Rebaix;8886587;;50.661568;3.793883;BE;Europe/Brussels;Q95096;L|P;;uic;7170188451;Q1884481;;;8886587;Rebaix
+TN8891009;gare;Bruges;Brugge;Brugge;8891009;;51.196981;3.217241;BE;Europe/Brussels;Q12994;EXT|IC|L|P|T;;uic;2929614444;Q800580;;;8891009;Bruges
+TN8891033;gare;Bruges-Saint-Pierre;Brugge-Sint-Pieters;Brugge-Sint-Pieters;8891033;;51.222983;3.201801;BE;Europe/Brussels;Q12994;EXT|L|P;;uic;7598205491;Q1911408;;;8891033;Bruges-Saint-Pierre
+TN8891116;gare;Oostkamp;Oostkamp;Oostkamp;8891116;;51.154378;3.257319;BE;Europe/Brussels;Q742892;IC|L|P;;uic;7072274498;Q2589968;;;8891116;Oostkamp
+TN8891124;gare;Beernem;Beernem;Beernem;8891124;;51.128138;3.329488;BE;Europe/Brussels;Q687921;IC|L|P;;uic;7072212783;Q2090018;;;8891124;Beernem
+TN8891132;gare;Maria-Aalter;Maria-Aalter;Maria-Aalter;8891132;;51.108141;3.385181;BE;Europe/Brussels;Q300970;IC|L|P;;uic;7072271646;Q2417780;;;8891132;Maria-Aalter
+TN8891140;gare;Aalter;Aalter;Aalter;8891140;;51.092038;3.44897;BE;Europe/Brussels;Q300970;EXT|IC|L|P|T;;uic;827977507;Q2198493;;;8891140;Aalter
+TN8891157;gare;Bellem;Bellem;Bellem;8891157;;51.083422;3.488766;BE;Europe/Brussels;Q300970;IC|L|P;;uic;7072260984;Q2417603;;;8891157;Bellem
+TN8891165;gare;Hansbeke;Hansbeke;Hansbeke;8891165;;51.073187;3.535926;BE;Europe/Brussels;Q499313;IC|L|P;;uic;7072257971;Q2688151;;;8891165;Hansbeke
+TN8891173;gare;Zeebrugge-Strand;Zeebrugge-Strand;Zeebrugge-Strand;8891173;;51.330459;3.184101;BE;Europe/Brussels;Q12994;EXT|L;;uic;7598463775;Q1978037;;;8891173;Zeebrugge-Strand
+TN8891264;gare;Zedelgem;Zedelgem;Zedelgem;8891264;;51.126622;3.163681;BE;Europe/Brussels;Q184287;IC|P;;uic;7332857770;Q2752064;;;8891264;Zedelgem
+TN8891314;gare;Torhout;Torhout;Torhout;8891314;;51.064791;3.105734;BE;Europe/Brussels;Q270633;IC|P;;uic;7332212663;;;;8891314;Torhout
+TN8891405;gare;Blankenberge;Blankenberge;Blankenberge;8891405;;51.31234;3.133918;BE;Europe/Brussels;Q328104;EXT|IC|L|P|T;;uic;1634330013;;;;8891405;Blankenberge
+TN8891553;gare;Zeebrugge-Dorp;Zeebrugge-Dorp;Zeebrugge-Dorp;8891553;;51.326422;3.194889;BE;Europe/Brussels;Q12994;L|P;;uic;1016392118;Q339697;;;8891553;Zeebrugge-Dorp
+TN8891629;gare;Lissewege;Lissewege;Lissewege;8891629;;51.294682;3.194457;BE;Europe/Brussels;Q12994;EXT|L|P;;uic;7598316088;Q3096894;;;8891629;Lissewege
+TN8891645;gare;Heist;Heist;Heist;8891645;;51.333899;3.239172;BE;Europe/Brussels;Q12988;EXT|IC|L|P|T;;uic;1015988681;Q3096625;;;8891645;Heist
+TN8891652;gare;Duinbergen;Duinbergen;Duinbergen;8891652;;51.338307;3.263556;BE;Europe/Brussels;Q12988;EXT|IC|L|P|T;;uic;1015981197;Q2347428;;;8891652;Duinbergen
+TN8891660;gare;Knokke;Knokke;Knokke;8891660;;51.339827;3.284322;BE;Europe/Brussels;Q12988;EXT|IC|L|P|T;;uic;1015981231;Q2785861;;;8891660;Knokke
+TN8891702;gare;Ostende;Oostende;Oostende;8891702;;51.228432;2.926215;BE;Europe/Brussels;Q12996;EXT|IC|P|T;;uic;1027979508;Q2292734;;;8891702;Ostende
+TN8892007;gare;Gand-Saint-Pierre;Gent-Sint-Pieters;Gent-Sint-Pieters;8892007;;51.035524;3.710716;BE;Europe/Brussels;Q1296;EXT|IC|L|P|S|T;;uic;1178257779;Q800814;;;8892007;Gand-Saint-Pierre
+TN8892031;gare;Tronchiennes;Drongen;Drongen;8892031;;51.047343;3.654432;BE;Europe/Brussels;Q1296;IC|L|P;;uic;7072255873;Q2297616;;;8892031;Tronchiennes
+TN8892056;gare;Landegem;Landegem;Landegem;8892056;;51.064575;3.575479;BE;Europe/Brussels;Q499313;IC|L|P;;uic;7072265390;Q1818284;;;8892056;Landegem
+TN8892080;gare;De Pinte;De Pinte;De Pinte;8892080;;50.996641;3.649523;BE;Europe/Brussels;Q125550409;EXT|IC|L|P|S|T;;uic;660115815;Q3096355;;;8892080;De Pinte
+TN8892106;gare;Deinze;Deinze;Deinze;8892106;;50.978145;3.535073;BE;Europe/Brussels;Q499313;EXT|IC|L|P|T;;uic;7306660825;Q729472;;;8892106;Deinze
+TN8892205;gare;Lichtervelde;Lichtervelde;Lichtervelde;8892205;;51.025219;3.126806;BE;Europe/Brussels;Q696871;EXT|IC|P|T;;uic;3009257603;Q1925338;;;8892205;Lichtervelde
+TN8892254;gare;Tielt;Tielt;Tielt;8892254;;50.990425;3.329623;BE;Europe/Brussels;Q651811;IC|P|T;;uic;7310113505;Q2675511;;;8892254;Tielt
+TN8892288;gare;Aarsele;Aarsele;Aarsele;8892288;;50.9845;3.418502;BE;Europe/Brussels;Q651811;P;;uic;1584951481;Q2681247;;;8892288;Aarsele
+TN8892304;gare;Furnes;Veurne;Veurne;8892304;;51.073739;2.671082;BE;Europe/Brussels;Q506707;IC|P|T;;uic;7314829304;Q3096503;;;8892304;Furnes
+TN8892320;gare;Coxyde;Koksijde;Koksijde;8892320;;51.079075;2.653027;BE;Europe/Brussels;Q506707;IC|P|T;;uic;7314816866;Q526990;;;8892320;Coxyde
+TN8892338;gare;La Panne;De Panne;De Panne;8892338;;51.07727;2.602166;BE;Europe/Brussels;Q674954;IC|P|T;;uic;506944265;Q2419184;;;8892338;La Panne
+TN8892403;gare;Kortemark;Kortemark;Kortemark;8892403;;51.025166;3.044075;BE;Europe/Brussels;Q822763;IC|P|T;;uic;506950667;Q2055540;;;8892403;Kortemark
+TN8892452;gare;Dixmude;Diksmuide;Diksmuide;8892452;;51.032734;2.86927;BE;Europe/Brussels;Q215244;IC|P|T;;uic;7313242380;Q2431799;;;8892452;Dixmude
+TN8892601;gare;Audenarde;Oudenaarde;Oudenaarde;8892601;;50.85139;3.601589;BE;Europe/Brussels;Q12992;EXT|IC|L|P|S;;uic;60849950;Q2507498;;;8892601;Audenarde
+TN8892627;gare;Eine;Eine;Eine;8892627;;50.870419;3.623748;BE;Europe/Brussels;Q12992;EXT|L|S;;uic;7236721465;Q2184110;;;8892627;Eine
+TN8892635;gare;Zingem;Zingem;Zingem;8892635;;50.908035;3.64631;BE;Europe/Brussels;Q46865464;EXT|L|S;;uic;7236721442;Q2652325;;;8892635;Zingem
+TN8892643;gare;Gavere-Asper;Gavere-Asper;Gavere-Asper;8892643;;50.929136;3.640045;BE;Europe/Brussels;Q690611;EXT|L|S;;uic;7236964210;Q2343950;;;8892643;Gavere-Asper
+TN8892650;gare;Eke-Nazareth;Eke-Nazareth;Eke-Nazareth;8892650;;50.960966;3.62791;BE;Europe/Brussels;Q125550409;EXT|L|S;;uic;7236962666;Q2770505;;;8892650;Eke-Nazareth
+TN8892692;gare;Sint-Denijs-Boekel;Sint-Denijs-Boekel;Sint-Denijs-Boekel;8892692;;50.874226;3.698497;BE;Europe/Brussels;Q231568;L|P|S;;uic;7228471881;Q2524775;;;8892692;Sint-Denijs-Boekel
+TN8892734;gare;Anzegem;Anzegem;Anzegem;8892734;;50.826287;3.494869;BE;Europe/Brussels;Q614274;L|P;;uic;7223472933;Q2295816;;;8892734;Anzegem
+TN8892908;gare;Renaix;Ronse - Renaix;Ronse - Renaix;8892908;;50.742255;3.601779;BE;Europe/Brussels;Q268219;EXT|L|S;;uic;7236631369;Q2227924;;;8892908;Renaix
+TN8893013;gare;Merelbeke;Merelbeke;Merelbeke;8893013;;51.020189;3.76459;BE;Europe/Brussels;Q1296;EXT|IC|L|P|S;;uic;3047301202;Q2680012;;;8893013;Merelbeke
+TN8893039;gare;Melle;Melle;Melle;8893039;;51.002542;3.797374;BE;Europe/Brussels;Q124477893;IC|L|P|S;;uic;7470496830;Q2332107;;;8893039;Melle
+TN8893047;gare;Gontrode;Gontrode;Gontrode;8893047;;50.97975;3.801456;BE;Europe/Brussels;Q124477893;L|S;;uic;7214796411;Q5018909;;;8893047;Gontrode
+TN8893054;gare;Landskouter;Landskouter;Landskouter;8893054;;50.970817;3.791492;BE;Europe/Brussels;Q842477;L|S;;uic;7214796416;Q2949315;;;8893054;Landskouter
+TN8893062;gare;Moortsele;Moortsele;Moortsele;8893062;;50.953313;3.781181;BE;Europe/Brussels;Q842477;L|S;;uic;7214719677;Q2668416;;;8893062;Moortsele
+TN8893070;gare;Scheldewindeke;Scheldewindeke;Scheldewindeke;8893070;;50.936874;3.777975;BE;Europe/Brussels;Q842477;L|P|S;;uic;7214745585;Q1824804;;;8893070;Scheldewindeke
+TN8893120;gare;Gand-Dampoort;Gent-Dampoort;Gent-Dampoort;8893120;;51.055608;3.740752;BE;Europe/Brussels;Q1296;EXT|IC|L|P|S|T;;uic;56336696;Q3096519;;;8893120;Gand-Dampoort
+TN8893179;gare;Gentbrugge;Gentbrugge;Gentbrugge;8893179;;51.03863;3.756289;BE;Europe/Brussels;Q1296;EXT|IC|L|P|S;;uic;7442778959;Q2180210;;;8893179;Gentbrugge
+TN8893211;gare;Wondelgem;Wondelgem;Wondelgem;8893211;;51.089033;3.719608;BE;Europe/Brussels;Q1296;L|S;;uic;7439120741;Q2619109;;;8893211;Wondelgem
+TN8893252;gare;Evergem;Evergem;Evergem;8893252;;51.10711;3.702314;BE;Europe/Brussels;Q12997;L|S;;uic;7438915765;Q2661638;;;8893252;Evergem
+TN8893260;gare;Sleidinge;Sleidinge;Sleidinge;8893260;;51.126282;3.667813;BE;Europe/Brussels;Q12997;L|S;;uic;7438915784;Q2264984;;;8893260;Sleidinge
+TN8893401;gare;Termonde;Dendermonde;Dendermonde;8893401;;51.022831;4.100868;BE;Europe/Brussels;Q13122;EXT|IC|L|P|S|T;;uic;967026850;Q2426602;;;8893401;Termonde
+TN8893443;gare;Sint-Gillis;Sint-Gillis;Sint-Gillis;8893443;;51.021175;4.118442;BE;Europe/Brussels;Q13122;IC|L|S;;uic;7333177284;Q3006672;;;8893443;Sint-Gillis
+TN8893518;gare;Oudegem;Oudegem;Oudegem;8893518;;51.015013;4.063708;BE;Europe/Brussels;Q13122;IC|L|P;;uic;5759149238;Q1995918;;;8893518;Oudegem
+TN8893526;gare;Schoonaarde;Schoonaarde;Schoonaarde;8893526;;51.003181;4.011535;BE;Europe/Brussels;Q13122;IC|L|P;;uic;5759149230;Q1952616;;;8893526;Schoonaarde
+TN8893534;gare;Wichelen;Wichelen;Wichelen;8893534;;51.001861;3.970305;BE;Europe/Brussels;Q730801;IC|L|P;;uic;5759145919;Q2856149;;;8893534;Wichelen
+TN8893542;gare;Schellebelle;Schellebelle;Schellebelle;8893542;;51.003102;3.920967;BE;Europe/Brussels;Q730801;IC|L|P;;uic;7467997988;Q2159970;;;8893542;Schellebelle
+TN8893559;gare;Wetteren;Wetteren;Wetteren;8893559;;51.001617;3.882449;BE;Europe/Brussels;Q643980;EXT|IC|L|P|T;;uic;3084588309;Q2252106;;;8893559;Wetteren
+TN8893567;gare;Kwatrecht;Kwatrecht;Kwatrecht;8893567;;50.991718;3.828958;BE;Europe/Brussels;Q643980;IC|L|P;;uic;7470496840;Q2397828;;;8893567;Kwatrecht
+TN8893583;gare;Serskamp;Serskamp;Serskamp;8893583;;50.985037;3.958639;BE;Europe/Brussels;Q730801;IC|P;;uic;7467997996;Q3097724;;;8893583;Serskamp
+TN8893708;gare;Eeklo;Eeklo;Eeklo;8893708;;51.180783;3.575359;BE;Europe/Brussels;Q12440;L|S;;uic;269183362;Q12446;;;8893708;Eeklo
+TN8893815;gare;Waarschoot;Waarschoot;Waarschoot;8893815;;51.154406;3.615188;BE;Europe/Brussels;Q46865167;L|S;;uic;7438942295;Q12445;;;8893815;Waarschoot
+TN8894151;gare;Beervelde;Beervelde;Beervelde;8894151;;51.087163;3.879846;BE;Europe/Brussels;Q735827;EXT|IC|L|P|S;;uic;3091116156;Q3075755;;;8894151;Beervelde
+TN8894201;gare;Lokeren;Lokeren;Lokeren;8894201;;51.107607;3.986277;BE;Europe/Brussels;Q12910;EXT|IC|L|P|S|T;;uic;496893320;Q2614291;;;8894201;Lokeren
+TN8894235;gare;Zele;Zele;Zele;8894235;;51.073046;4.042414;BE;Europe/Brussels;Q388115;IC|L|S;;uic;96658277;Q2076395;;;8894235;Zele
+TN8894425;gare;Sinaai;Sinaai;Sinaai;8894425;;51.143281;4.068216;BE;Europe/Brussels;Q13127;L|S;;uic;7398779690;Q3188190;;;8894425;Sinaai
+TN8894433;gare;Belsele;Belsele;Belsele;8894433;;51.150657;4.087848;BE;Europe/Brussels;Q13127;L|S;;uic;5699706957;Q1886053;;;8894433;Belsele
+TN8894508;gare;Saint-Nicolas;Sint-Niklaas;Sint-Niklaas;8894508;;51.171994;4.144184;BE;Europe/Brussels;Q13127;EXT|IC|L|P|S|T;;uic;7391741770;Q1907355;;;8894508;Saint-Nicolas
+TN8894672;gare;Tamise;Temse;Temse;8894672;;51.126115;4.221148;BE;Europe/Brussels;Q823623;EXT|IC|L|P;;uic;7391744403;Q2195482;;;8894672;Tamise
+TN8894714;gare;Nieuwkerken-Waas;Nieuwkerken-Waas;Nieuwkerken-Waas;8894714;;51.185372;4.185243;BE;Europe/Brussels;Q13127;IC|L|S;;uic;7398182156;Q2579795;;;8894714;Nieuwkerken-Waas
+TN8894748;gare;Beveren;Beveren;Beveren;8894748;;51.208271;4.259705;BE;Europe/Brussels;Q130298413;EXT|IC|L|S;;uic;7398182178;Q1865803;;;8894748;Beveren
+TN8894755;gare;Melsele;Melsele;Melsele;8894755;;51.210709;4.286788;BE;Europe/Brussels;Q130298413;IC|L|S;;uic;7398197229;Q2793118;;;8894755;Melsele
+TN8894821;gare;Zwijndrecht;Zwijndrecht;Zwijndrecht;8894821;;51.214149;4.330637;BE;Europe/Brussels;Q130298413;IC|L|S;;uic;7397978134;Q2733471;;;8894821;Zwijndrecht
+TN8894839;gare;Anvers-Linkeroever;Antwerpen-Linkeroever;Antwerpen-Linkeroever;8894839;;51.215818;4.359387;BE;Europe/Brussels;Q12892;EXT|IC|L|S;;uic;13789509157;Q1827418;;;8894839;Anvers-Linkeroever
+TN8895000;gare;Alost;Aalst;Aalst;8895000;;50.943027;4.039445;BE;Europe/Brussels;Q13121;IC|L|P|S;;uic;565768238;Q2741273;;;8895000;Alost
+TN8895067;gare;Lede;Lede;Lede;8895067;;50.97057;3.985869;BE;Europe/Brussels;Q912113;IC|P;;uic;497075392;Q2059550;;;8895067;Lede
+TN8895091;gare;Erembodegem;Erembodegem;Erembodegem;8895091;;50.919666;4.055395;BE;Europe/Brussels;Q13121;L|P|S;;uic;7459261457;Q2749511;;;8895091;Erembodegem
+TN8895125;gare;Alost Kerrebroek;Aalst-Kerrebroek;Aalst-Kerrebroek;8895125;;50.948258;4.024847;BE;Europe/Brussels;Q13121;P;;uic;3070612638;Q14385553;;;8895125;Alost Kerrebroek
+TN8895208;gare;Zottegem;Zottegem;Zottegem;8895208;;50.868849;3.814559;BE;Europe/Brussels;Q226941;EXT|IC|L|P|S;;uic;7209134042;Q750872;;;8895208;Zottegem
+TN8895232;gare;Munkzwalm;Munkzwalm;Munkzwalm;8895232;;50.875548;3.732988;BE;Europe/Brussels;Q231568;IC|L|P|S;;uic;7228471857;Q2255433;;;8895232;Munkzwalm
+TN8895240;gare;Balegem-Zuid;Balegem-Zuid;Balegem-Zuid;8895240;;50.899926;3.806252;BE;Europe/Brussels;Q842477;L|S;;uic;7213778055;Q2355151;;;8895240;Balegem-Zuid
+TN8895257;gare;Balegem-Dorp;Balegem-Dorp;Balegem-Dorp;8895257;;50.919455;3.791519;BE;Europe/Brussels;Q842477;L|S;;uic;7214745591;Q4400061;;;8895257;Balegem-Dorp
+TN8895422;gare;Hillegem;Hillegem;Hillegem;8895422;;50.891506;3.858227;BE;Europe/Brussels;Q587979;IC|L|S;;uic;7234066184;;;;8895422;Hillegem
+TN8895430;gare;Herzele;Herzele;Herzele;8895430;;50.897147;3.880318;BE;Europe/Brussels;Q587979;IC|L|S;;uic;7234066165;Q2774199;;;8895430;Herzele
+TN8895448;gare;Terhagen;Terhagen;Terhagen;8895448;;50.901515;3.896432;BE;Europe/Brussels;Q587979;IC|L|S;;uic;7234066135;Q2629119;;;8895448;Terhagen
+TN8895455;gare;Burst;Burst;Burst;8895455;;50.906932;3.920931;BE;Europe/Brussels;Q817458;IC|L|P|S;;uic;7234066119;Q14385724;;;8895455;Burst
+TN8895463;gare;Bambrugge;Bambrugge;Bambrugge;8895463;;50.913639;3.935724;BE;Europe/Brussels;Q817458;P;;uic;7237069606;Q2795959;;;8895463;Bambrugge
+TN8895471;gare;Erpe-Mere;Erpe-Mere;Erpe-Mere;8895471;;50.929233;3.96289;BE;Europe/Brussels;Q817458;P;;uic;7237069594;Q2390227;;;8895471;Erpe-Mere
+TN8895489;gare;Vijfhuizen;Vijfhuizen;Vijfhuizen;8895489;;50.943486;3.983319;BE;Europe/Brussels;Q817458;P;;uic;7237056880;Q2218674;;;8895489;Vijfhuizen
+TN8895505;gare;Grammont;Geraardsbergen;Geraardsbergen;8895505;;50.77041;3.872015;BE;Europe/Brussels;Q499532;L|P|S;;uic;7181505776;Q2515358;;;8895505;Grammont
+TN8895570;gare;Lierde;Lierde;Lierde;8895570;;50.815961;3.826914;BE;Europe/Brussels;Q648509;L|P|S;;uic;7209156592;Q1932336;;;8895570;Lierde
+TN8895612;gare;Viane-Moerbeke;Viane-Moerbeke;Viane-Moerbeke;8895612;;50.751947;3.916824;BE;Europe/Brussels;Q499532;L|S;;uic;7182456188;Q2345009;;;8895612;Viane-Moerbeke
+TN8895620;gare;Gammerages;Galmaarden;Galmaarden;8895620;;50.743576;3.966549;BE;Europe/Brussels;Q123848537;L|S;;uic;7182456225;;;;8895620;Gammerages
+TN8895638;gare;Tollembeek;Tollembeek;Tollembeek;8895638;;50.735543;3.99255;BE;Europe/Brussels;Q123848537;L|S;;uic;7182456277;Q2619951;;;8895638;Tollembeek
+TN8895646;gare;Herne;Herne;Herne;8895646;;50.724262;4.013681;BE;Europe/Brussels;Q123848537;L|S;;uic;7182456295;Q2261485;;;8895646;Herne
+TN8895711;gare;Schendelbeke;Schendelbeke;Schendelbeke;8895711;;50.797948;3.899722;BE;Europe/Brussels;Q499532;L|P|S;;uic;1543246317;Q521146;;;8895711;Schendelbeke
+TN8895729;gare;Idegem;Idegem;Idegem;8895729;;50.801387;3.920397;BE;Europe/Brussels;Q499532;L|P|S;;uic;2165827963;Q2393849;;;8895729;Idegem
+TN8895737;gare;Zandbergen;Zandbergen;Zandbergen;8895737;;50.806991;3.957358;BE;Europe/Brussels;Q499532;L|P|S;;uic;319871278;Q927374;;;8895737;Zandbergen
+TN8895745;gare;Appelterre;Appelterre;Appelterre;8895745;;50.813452;3.972958;BE;Europe/Brussels;Q385026;L|P|S;;uic;319871281;Q2630402;;;8895745;Appelterre
+TN8895752;gare;Eichem;Eichem;Eichem;8895752;;50.824172;3.993985;BE;Europe/Brussels;Q385026;L|P|S;;uic;2165827962;Q3095728;;;8895752;Eichem
+TN8895760;gare;Ninove;Ninove;Ninove;8895760;;50.839463;4.026178;BE;Europe/Brussels;Q385026;L|P|S;;uic;499183563;Q2226318;;;8895760;Ninove
+TN8895778;gare;Okegem;Okegem;Okegem;8895778;;50.856544;4.053664;BE;Europe/Brussels;Q385026;L|P|S;;uic;1164168322;Q3095824;;;8895778;Okegem
+TN8895802;gare;Denderleeuw;Denderleeuw;Denderleeuw;8895802;;50.891899;4.071402;BE;Europe/Brussels;Q696825;EXT|IC|L|P|S|T;;uic;60475728;Q1938674;;;8895802;Denderleeuw
+TN8895836;gare;Liedekerke;Liedekerke;Liedekerke;8895836;;50.882584;4.094919;BE;Europe/Brussels;Q818621;IC|L|P|S;;uic;7454731296;Q2634732;;;8895836;Liedekerke
+TN8895844;gare;Iddergem;Iddergem;Iddergem;8895844;;50.877014;4.068655;BE;Europe/Brussels;Q696825;L|P|S;;uic;369391005;Q2299014;;;8895844;Iddergem
+TN8895851;gare;Welle;Welle;Welle;8895851;;50.902759;4.051897;BE;Europe/Brussels;Q696825;L|S;;uic;7236460071;Q2309107;;;8895851;Welle
+TN8895869;gare;Haaltert;Haaltert;Haaltert;8895869;;50.906844;4.023627;BE;Europe/Brussels;Q911974;L|S;;uic;7236474885;Q2527008;;;8895869;Haaltert
+TN8895877;gare;Ede;Ede;Ede;8895877;;50.910973;3.986972;BE;Europe/Brussels;Q911974;L|S;;uic;7236474964;Q1893696;;;8895877;Ede
+TN8896008;gare;Courtrai;Kortrijk;Kortrijk;8896008;;50.824271;3.264454;BE;Europe/Brussels;Q12995;EXT|IC|L|P;;uic;21309047;Q2786619;;;8896008;Courtrai
+TN8896115;gare;Harelbeke;Harelbeke;Harelbeke;8896115;;50.856208;3.314519;BE;Europe/Brussels;Q478797;EXT|IC|L|P;;uic;2959833649;Q281153;;;8896115;Harelbeke
+TN8896149;gare;Waregem;Waregem;Waregem;8896149;;50.891705;3.424342;BE;Europe/Brussels;Q204547;EXT|IC|L|P;;uic;3028253065;;;;8896149;Waregem
+TN8896230;gare;Vichte;Vichte;Vichte;8896230;;50.833545;3.391912;BE;Europe/Brussels;Q614274;L|P;;uic;7223472983;Q3523144;;;8896230;Vichte
+TN8896305;gare;Menin;Menen;Menen;8896305;;50.799396;3.11379;BE;Europe/Brussels;Q213224;EXT|IC|P;;uic;355017335;Q3097017;;;8896305;Menin
+TN8896370;gare;Wevelgem;Wevelgem;Wevelgem;8896370;;50.811178;3.182678;BE;Europe/Brussels;Q392343;EXT|IC|P;;uic;727306052;Q2171382;;;8896370;Wevelgem
+TN8896388;gare;Bissegem;Bissegem;Bissegem;8896388;;50.826173;3.22522;BE;Europe/Brussels;Q12995;EXT|IC|P;;uic;537521128;Q2518871;;;8896388;Bissegem
+TN8896396;gare;Wervik;Wervik;Wervik;8896396;;50.781815;3.046282;BE;Europe/Brussels;Q318532;EXT|IC|P;;uic;315220553;Q2746917;;;8896396;Wervik
+TN8896412;gare;Comines;Comines - Komen;Comines - Komen;8896412;;50.771749;2.998505;BE;Europe/Brussels;Q665761;EXT|IC|P;;uic;3005610525;Q3096272;;;8896412;Comines
+TN8896503;gare;Ypres;Ieper;Ieper;8896503;;50.847854;2.876502;BE;Europe/Brussels;Q102728;EXT|IC|P;;uic;11283649993;Q2098094;;;8896503;Ypres
+TN8896735;gare;Poperinge;Poperinge;Poperinge;8896735;;50.854351;2.736861;BE;Europe/Brussels;Q499588;EXT|IC|P;;uic;537522410;Q2221445;;;8896735;Poperinge
+TN8896800;gare;Roulers;Roeselare;Roeselare;8896800;;50.948923;3.130461;BE;Europe/Brussels;Q211037;IC|P;;uic;3023557446;Q516477;;;8896800;Roulers
+TN8896909;gare;Izegem;Izegem;Izegem;8896909;;50.92111;3.214532;BE;Europe/Brussels;Q392337;IC|P;;uic;1782729462;Q3095810;;;8896909;Izegem
+TN8896925;gare;Ingelmunster;Ingelmunster;Ingelmunster;8896925;;50.913986;3.255412;BE;Europe/Brussels;Q822748;IC|P;;uic;705226902;Q2007374;;;8896925;Ingelmunster

@@ -1,0 +1,118 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN7056670;AFS;Ashford Surrey;Ashford Surrey;gtfs;;;Ashford;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7053980;AHS;Ashurst Kent;Ashurst Kent;gtfs;;;Royal Tunbridge Wells;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7023960;APB;Appley Bridge;Appley Bridge;code;0.057;Appley Bridge;Appley Bridge;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNATIONAL_RAIL-apn;APN;Newcastle Airport;Newcastle Airport;gtfs;;;Newcastle upon Tyne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7014300;APS;Apsley;Apsley;code;0.055;Apsley;Corner Hall;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7033290;BBZ;Bristol Brabazon;Bristol Brabazon;gtfs;;;Bristol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7065530;BDS;Bond Street El;Bond Street El;gtfs;;;Westminster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7045720;BEW;Bewdley S.V.R;Bewdley S.V.R;gtfs;;;Bewdley;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7098620;BHC;Balloch Central;Balloch Central;gtfs;;;Balloch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7068000;BIS;Bishops Stortford;Bishops Stortford;gtfs;;;Bishop’s Stortford;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7009910;BKR;Blackridge;Blackridge;code;0.079;Blackridge;Westrigg;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7025610;BMB;Bamber Bridge;Bamber Bridge;code;0.044;Bamber Bridge;Bamber Bridge;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7077400;BNR;Brockley Whins;Brockley Whins;code;0.162;Brockley Whins;West Boldon;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7038080;BUN;Butetown;Butetown;gtfs;;;Cardiff;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7050920;BVD;Belvedere;Belvedere;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7001060;CAP;Capel Curig Bryn-Llys;Capel Curig Bryn-Llys;gtfs;;;Pont Cyfyng;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7035680;CAU;Causeland;Causeland;code;0.041;Causeland;Tredinnick;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7097180;CEA;Cleland;Cleland;code;0.076;Cleland;Cleland;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7058360;CFR;Chandlers Ford;Chandlers Ford;gtfs;;;Chandler's Ford;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7053190;CHH;Christs Hospital;Christs Hospital;gtfs;;;Horsham;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7099022;CKY;Crosskeys;Crosskeys;code;0.033;Crosskeys;Pont-y-waun;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7027950;CLI;Clifton;Clifton;gtfs;;;Pendlebury;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7040690;CLR;Clarbeston Road;Clarbeston Road;code;0.052;Clarbeston Road;Clarbeston Road;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7058200;CPN;Chapleton;Chapleton;gtfs;;;Atherington;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7025560;CTW;Church & Oswaldtwistle;Church & Oswaldtwistle;gtfs;;;Church;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7065610;CUS;Custom House El;Custom House El;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7048760;CWL;Colwall;Colwall;code;0.068;Colwall;Colwall Stone;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7065600;CWX;Canary Wharf El;Canary Wharf El;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7091860;DFE;Dunfermline Town;Dunfermline Town;gtfs;;;Dunfermline;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7050360;DLH;Doleham;Doleham;code;0.051;Doleham;Three Oaks;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7024520;DWD;Dolwyddelan;Dolwyddelan;code;0.062;Dolwyddelan;Dolwyddelan;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7077460;EBL;East Boldon;East Boldon;code;0.064;East Boldon;East Boldon;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7051340;EML;East Malling;East Malling;code;0.074;East Malling;East Malling;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7040760;FGH;Fishguard Harbour;Fishguard Harbour;code;0.096;Fishguard Harbour;Harbour Village;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7095680;FLG;Felling;Felling;nom;0.046;Felling;Pelaw;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7052180;FRT;Frant;Frant;code;0.033;Frant;Bells Yew Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7029480;GDL;Godley;Godley;code;0.604;Godley;Newtonmoor;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7054740;GDN;Godstone;Godstone;code;0.067;Godstone;South Godstone;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7051380;GNH;Greenhithe for Bluewater;Greenhithe for Bluewater;gtfs;;;Dartford;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7019960;GNR;Green Road;Green Road;code;0.038;Green Road;The Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7012200;GTR;Goostrey;Goostrey;code;0.008;Goostrey;Twemlow Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7070910;HAF;Heathrow Terminal 4 Rail;Heathrow Terminal 4 Rail;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7025580;HCT;Huncoat;Huncoat;code;0.076;Huncoat;Huncoat;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7077660;HEW;Heworth;Heworth;code;0.169;Heworth;Pelaw;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7052020;HGM;Higham;Higham;code;0.09;Higham;Lower Higham;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7033140;HIG;Highbridge & Burnham;Highbridge & Burnham;code;0.027;Highbridge and Burnham;Highbridge;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7053080;HLM;Holmwood;Holmwood;code;0.099;Holmwood;Beare Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7095630;HMA;Haymarket (Newcastle);Haymarket (Newcastle);nom;0.035;Haymarket;Newcastle upon Tyne;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7027670;HTH;Handforth;Handforth;code;0.028;Handforth;Dean Row;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7026040;HTY;Hattersley;Hattersley;code;0.062;Hattersley;Hattersley;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7098461;HWV;Heathrow Terminal 5 Rail;Heathrow Terminal 5 Rail;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7095730;KDM;Kidderminster S.V.R.;Kidderminster S.V.R.;gtfs;;;Kidderminster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7045080;KGS;Kings Sutton;Kings Sutton;gtfs;;;Kings Sutton;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7040830;KGT;Kilgetty;Kilgetty;code;0.059;Kilgetty;Kilgetty;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7071150;KLN;Kings Lynn;Kings Lynn;gtfs;;;King's Lynn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7056780;KMP;Kempton Park;Kempton Park;code;0.085;Kempton Park;Kempton Park;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7095180;KRK;Kirkconnel;Kirkconnel;code;0.094;Kirkconnel;Kirkconnel;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7042230;LAS;Llansamlet;Llansamlet;code;0.491;Llansamlet;Tregof;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7010670;LBK;Long Buckby;Long Buckby;code;0.057;Long Buckby;Long Buckby Wharf;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7088300;LCS;Locheilside;Locheilside;code;0.059;Locheilside;Blaich;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7051100;LEE;Lee;Lee;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7088460;LHE;Loch Eil Outward Bound;Loch Eil Outward Bound;code;0.078;Loch Eil Outward Bound;Blaich;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7099251;LLR;Llanharan;Llanharan;code;0.059;Llanharan;Llanharan;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7026890;LOH;Lostock Hall;Lostock Hall;code;0.006;Lostock Hall;Lostock Hall;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7058920;LYP;Lymington Pier;Lymington Pier;code;0.044;Lymington Pier;Walhampton;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7022540;MEO;Meols;Meols;code;0.027;Meols;Great Meols;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7056440;MLF;Milford (Surrey);Milford (Surrey);code;0.075;Milford;Enton Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7095650;MMS;Monument South;Monument South;gtfs;;;Newcastle upon Tyne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7095700;MNH;Monument North;Monument North;gtfs;;;Newcastle upon Tyne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7026750;MOS;Moss Side;Moss Side;code;0.053;Moss Side;Wrea Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNATIONAL_RAIL-ncz;NCZ;Newcastle Central (Metro);Newcastle Central (Metro);gtfs;;;Newcastle upon Tyne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7054760;NUF;Nutfield;Nutfield;code;0.033;Nutfield;South Nutfield;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7029400;NVR;Navigation Road;Navigation Road;code;0.04;Navigation Road;West Timperley;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7027890;NWN;Newton for Hyde;Newton for Hyde;code;0.054;Newton for Hyde;Newtonmoor;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7036740;NWP;Newport Gwent;Newport Gwent;gtfs;;;Newport;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7046410;OHL;Old Hill;Old Hill;code;0.029;Old Hill;Old Hill;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7032130;PWY;Patchway;Patchway;code;0.022;Patchway;Harry Stoke;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7024590;PYP;Pont-Y-Pant;Pont-y-Pant;code;0.019;Pont-y-Pant;Dolwyddelan;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7098220;QPK;Queens Park Glasgow;Queens Park Glasgow;gtfs;;;Glasgow;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7014190;QPW;Queens Park London;Queens Park London;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNNATIONAL_RAIL-qta;QTA;Three Oaks - Maxfield Lane;Three Oaks - Maxfield Lane;gtfs;;;Three Oaks;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7039940;QYD;Quakers Yard;Quakers Yard;code;0.036;Quakers Yard;Edwardsville;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7038761;RIA;Rhoose Cardiff Airport;Rhoose Cardiff Airport;gtfs;;;Rhoose;nominatim;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TN7024440;RMB;Roman Bridge;Roman Bridge;code;0.02;Roman Bridge;Blaenau Dolwyddelan;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7055430;RYR;Ryde St Johns Road;Ryde St Johns Road;gtfs;;;Ryde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7035840;SDP;Sandplace;Sandplace;code;0.103;Sandplace;Tredinnick;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM1974988736;SFI;Shawfair;Shawfair;code;0.759;Shawfair;Newton Village;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7011140;SGB;Smethwick Galton Bridge Low Level;Smethwick Galton Bridge Low Level;gtfs;;;Smethwick;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7052400;SOG;Stonegate;Stonegate;code;0.044;Stonegate;Stonegate;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7095871;SPB;Shepherds Bush;Shepherds Bush;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7021990;SPI;Spital;Spital;gtfs;;;Bebington;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7010830;SQE;Surrey Quays;Surrey Quays;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7069690;SRA;Stratford London;Stratford London;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7045260;SRL;Shirley;Shirley;code;0.032;Shirley;Haslucks Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7068340;SSD;Stansted Airport;Stansted Airport;code;0.048;Stansted Airport;Molehill Green;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7086740;STF;Stromeferry;Stromeferry;code;0.054;Stromeferry;Stromeferry;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7076320;STZ;St Peters;St Peters;gtfs;;;Sunderland;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7056080;SUU;Sunbury;Sunbury;code;0.052;Sunbury;Kempton Park;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7070980;SUY;Sudbury Suffolk;Sudbury Suffolk;gtfs;;;Sudbury;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7063280;SXY;Saxilby;Saxilby;code;0.04;Saxilby;Saxilby;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7038800;TAF;Taffs Well;Taffs Well;code;0.068;Taffs Well;Taffs Well;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7065560;TCR;Tottenham Court Road El;Tottenham Court Road El;gtfs;;;Westminster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7058370;TMC;Templecombe;Templecombe;code;0.059;Templecombe;Abbas Combe;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7050280;TOK;Three Oaks;Three Oaks;code;0.057;Three Oaks;Three Oaks;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7038860;TRE;Trefforest Estate;Trefforest Estate;gtfs;;;Upper Boat;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7038880;TRH;Trehafod;Trehafod;code;0.049;Trehafod;Pantygraigwen;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7052310;WAD;Wadhurst;Wadhurst;code;0.039;Wadhurst;Durgates;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7051580;WAE;London Waterloo (East);London Waterloo (East);gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7076950;WDD;Widdrington;Widdrington;code;0.032;Widdrington;Widdrington Station;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7074070;WMW;Walthamstow Queens Road;Walthamstow Queens Road;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7056720;WNR;Windsor & Eton Riverside;Windsor & Eton Riverside;gtfs;;;Windsor;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7041110;WTL;Whitland;Whitland;code;0.037;Whitland;Whitland;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7065620;WWC;Woolwich El;Woolwich El;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNNATIONAL_RAIL-xcf;XCF;Cardiff International Airport;Cardiff International Airport;gtfs;;;Rhoose;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7058380;YVJ;Yeovil Junction;Yeovil Junction;code;0.068;Yeovil Junction;Stoford;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNATIONAL_RAIL-zeh;ZEH;East Ham Und;East Ham Und;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7005620;ZET;Earl’s Court L.T.;Earl’s Court L.T.;gtfs;;;Londres;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

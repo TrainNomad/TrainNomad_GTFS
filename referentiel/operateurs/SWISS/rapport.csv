@@ -1,0 +1,22 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8014010;8014010;Mannheim Hgbf;Mannheim Hgbf;gtfs;;;Mannheim;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014431;8014431;Basel Bad Bf;Basel Bad Bf;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8060979;8060979;Weil am Rhein Pfädlistrasse;Weil am Rhein Pfädlistrasse;gtfs;;;Weil-am-Rhein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8069220;8069220;Lörrach Dammstrasse;Lörrach Dammstrasse;gtfs;;;Lörrach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8083846;8083846;Lörrach Schwarzwaldstrasse;Lörrach Schwarzwaldstrasse;gtfs;;;Lörrach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8099985;8099985;Singen (Htw) Industriegebiet;Singen (Htw) Industriegebiet;gtfs;;;Singen (Hohentwiel);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301031;8301031;Busto Arsizio;Busto Arsizio FS;nom;0.085;Busto Arsizio FS;Busto Arsizio;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301039;8301039;Rho Fiera Milano;Rho Fiera Milano;gtfs;;;Rho;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301208;8301208;Castronno;Castronno;gtfs;;;Morazzone;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301210;8301210;Cavaria-Oggiona-Ierago;Cavaria-Oggiona-Ierago;gtfs;;;Gallarate;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301325;8301325;Sesto S. Giovanni;Sesto S. Giovanni;gtfs;;;Sesto San Giovanni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302593;8302593;Venezia S. Lucia;Venezia S. Lucia;gtfs;;;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8500138;8500138;Basel, St-Louis Grenze;Basel, St-Louis Grenze;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8501691;8501691;Riffelalp;Riffelalp;gtfs;;;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8501694;8501694;Gornergrat;Gornergrat;gtfs;;;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8504028;8504028;Rosé;Rosé;gtfs;;;Avry;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8506036;8506036;Reutlingen;Reutlingen;gtfs;;;Winterthour;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8507069;8507069;Ittigen bei Bern;Ittigen bei Bern;nom;0.02;Ittigen;Ittigen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8509197;8509197;Bergün/Bravuogn;Bergün/Bravuogn;gtfs;;;Bergün Filisur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8530858;8530858;Zermatt Ferienhaus legendär;Zermatt Ferienhaus legendär;gtfs;;;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8774538;8774538;Pougny-Chancy;Pougny-Chancy;gtfs;;;Pougny;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

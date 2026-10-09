@@ -1,0 +1,9 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8302026;BLZ;Bolzano;Bolzano/Bozen;nom;0.02;Bolzano - Bozen;Bolzano;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302084;DSG;Desenzano;Desenzano del Garda-Sirmione;nom;0.018;Desenzano del Garda-Sirmione;Desenzano del Garda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8303202;LTL;Latisana-Lignano-Bibione;Latisana-Lignano-Bibione;gtfs;;;Latisana;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302088;PSY;Peschiera;Peschiera del Garda;nom;0.018;Peschiera del Garda;Peschiera del Garda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301039;RRO;Milano Rho Fiera;Milano Rho Fiera;gtfs;;;Rho;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302666;SDP;San Donà -Jesolo;San Donà -Jesolo;gtfs;;;San Donà di Piave;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNITALO-sgm;SGM;Villa San Giovanni Marittima;Villa San Giovanni Marittima;gtfs;;;villa San Giovanni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302593;VSL;Venezia S.Lucia;Venezia S.Lucia;gtfs;;;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
