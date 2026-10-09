@@ -1,0 +1,102 @@
+name: Réseau Europe (assemblage)
+
+# Assemble les GTFS déjà publiés par chaque compagnie (Release gtfs-latest) en network.bin.gz,
+# le teste avec le vrai moteur Europe, puis le publie dans la Release network-latest et prévient l'API.
+# Aucun GTFS n'est retéléchargé ni reconverti ici (sauf un opérateur à URL directe jamais publié).
+#
+# Garde-fous : si le moteur ne trouve plus de trajets dans un pays, si un opérateur disparaît ou si le
+# réseau perd plus de 30 % de ses trajets, rien n'est publié et l'API garde le réseau actuel.
+# Pour passer outre (changement voulu), relancer à la main avec « forcer ».
+
+on:
+  schedule:
+    - cron: '0 4 * * 0'   # dimanche 04:00 UTC, après les workflows « GTFS · … » (00:05 → 01:30)
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Publier même si les contrôles signalent un problème"
+        type: boolean
+        default: false
+  workflow_call:
+    inputs:
+      forcer:
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # Release network-latest
+
+jobs:
+  assembler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: reseau-europe
+      cancel-in-progress: false
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Installer les dépendances
+      run: pip install pandas numpy requests
+
+    - name: Récupérer les GTFS publiés par chaque compagnie
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: python pipeline/gtfs_source.py placer --depuis-release
+
+    # Sans --refresh : les GTFS placés à l'étape précédente sont utilisés tels quels
+    - name: Compiler le réseau (network.bin.gz)
+      run: python build_network.py
+
+    - name: Récupérer le moteur Europe
+      uses: actions/checkout@v4
+      with:
+        repository: TrainNomad/TrainNomad_SQL
+        path: moteur
+
+    - uses: actions/setup-go@v5
+      with:
+        go-version-file: moteur/go.mod
+        cache: false
+
+    - name: Tester le réseau avec le moteur Europe
+      run: |
+        (cd moteur && go build -o "$RUNNER_TEMP/api" .)
+        NETWORK_PATH="$GITHUB_WORKSPACE/network.bin.gz" PORT=8000 "$RUNNER_TEMP/api" > "$RUNNER_TEMP/api.log" 2>&1 &
+        python pipeline/tester_reseau.py http://localhost:8000 ${{ inputs.forcer && '--forcer' || '' }} \
+          || { echo "--- journal de l'API"; tail -n 30 "$RUNNER_TEMP/api.log"; exit 1; }
+
+    - name: Comparer avec le réseau publié
+      run: |
+        curl -sfL -o ancien_rapport.json \
+          "https://github.com/${{ github.repository }}/releases/download/network-latest/harmonization_report.json" || true
+        python pipeline/gtfs_source.py verifier-reseau ancien_rapport.json harmonization_report.json \
+          ${{ inputs.forcer && '--forcer' || '' }}
+
+    - name: Publier le réseau dans la Release network-latest
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG=network-latest
+        NOTES="Réseau Europe compilé le $(date -u +%Y-%m-%dT%H:%M:%SZ) (run ${{ github.run_id }}). Lu par l'API Europe : ne pas supprimer."
+        if ! gh release view "$TAG" >/dev/null 2>&1; then
+          gh release create "$TAG" --title "Réseau Europe (dernière version)" --notes "$NOTES" --latest=false
+        fi
+        gh release upload "$TAG" network.bin.gz harmonization_report.json --clobber
+        gh release edit "$TAG" --notes "$NOTES"
+
+    - name: Demander à l'API Europe de recharger le réseau
+      env:
+        API_URL: ${{ secrets.EUROPE_API_URL }}
+        RELOAD_TOKEN: ${{ secrets.RELOAD_TOKEN }}
+      run: |
+        if [ -z "$API_URL" ] || [ -z "$RELOAD_TOKEN" ]; then
+          echo "::warning::Secrets EUROPE_API_URL / RELOAD_TOKEN absents : l'API ne chargera le nouveau réseau qu'à son prochain redémarrage."
+          exit 0
+        fi
+        curl -fsS --retry 5 --retry-delay 15 --retry-all-errors --max-time 120 -X POST -H "Authorization: Bearer $RELOAD_TOKEN" "${API_URL%/}/reload"

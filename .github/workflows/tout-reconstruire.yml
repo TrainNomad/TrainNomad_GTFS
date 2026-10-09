@@ -1,0 +1,49 @@
+name: Tout reconstruire (toutes les compagnies puis le réseau)
+
+# À lancer à la main : première mise en service, ou après un changement qui touche toutes les compagnies.
+# La liste des compagnies vient de operators.json (opérateurs activés) : un nouveau pays y est inclus
+# automatiquement. Une compagnie en échec n'empêche pas les autres ; l'assemblage reprend alors sa
+# dernière version publiée.
+
+on:
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Publier même si les contrôles signalent un problème"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  liste:
+    runs-on: ubuntu-latest
+    outputs:
+      sources: ${{ steps.liste.outputs.sources }}
+    steps:
+    - uses: actions/checkout@v4
+    - id: liste
+      run: echo "sources=$(python3 pipeline/gtfs_source.py liste --json)" >> "$GITHUB_OUTPUT"
+
+  gtfs:
+    needs: liste
+    strategy:
+      fail-fast: false
+      matrix:
+        source: ${{ fromJSON(needs.liste.outputs.sources) }}
+    uses: ./.github/workflows/_gtfs_source.yml
+    with:
+      source: ${{ matrix.source }}
+      forcer: ${{ inputs.forcer }}
+      assembler: false
+    secrets: inherit
+
+  reseau:
+    needs: gtfs
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/reseau.yml
+    with:
+      forcer: ${{ inputs.forcer }}
+    secrets: inherit

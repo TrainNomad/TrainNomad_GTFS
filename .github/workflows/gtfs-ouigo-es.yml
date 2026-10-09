@@ -1,0 +1,32 @@
+name: GTFS · Espagne (Ouigo España)
+
+# Met à jour le GTFS de cette compagnie dans la Release gtfs-latest, sans toucher aux autres.
+# Le dimanche, l'assemblage du réseau (reseau.yml, 04:00 UTC) reprend tous les GTFS publiés.
+# Lancé à la main, il reconstruit aussi le réseau global juste après (case « assembler »).
+
+on:
+  schedule:
+    - cron: '30 0 * * 0'   # dimanche 00:30 UTC
+  workflow_dispatch:
+    inputs:
+      assembler:
+        description: "Reconstruire ensuite le réseau global"
+        type: boolean
+        default: true
+      forcer:
+        description: "Publier même si le nombre de trajets baisse de plus de 50 %"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  gtfs:
+    uses: ./.github/workflows/_gtfs_source.yml
+    with:
+      source: ouigo_es
+      assembler: ${{ github.event_name == 'workflow_dispatch' && inputs.assembler }}
+      forcer: ${{ github.event_name == 'workflow_dispatch' && inputs.forcer }}
+    secrets: inherit

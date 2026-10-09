@@ -1,0 +1,82 @@
+name: GTFS d'une source (modèle commun)
+
+# Appelé par chaque workflow « GTFS · <compagnie> » et par « Tout reconstruire ».
+# Prépare le GTFS de la source, le vérifie et le publie dans la Release gtfs-latest
+# (<OP>.zip + <OP>.json, remplacés à chaque fois) : rien n'est enregistré dans l'historique git.
+# Un GTFS refusé (invalide, expiré, baisse anormale) n'est pas publié : la version précédente reste.
+
+on:
+  workflow_call:
+    inputs:
+      source:
+        type: string
+        required: true
+      forcer:
+        type: boolean
+        default: false
+      assembler:
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # Release gtfs-latest (+ cache des gares allemandes)
+  actions: write    # lancer l'assemblage du réseau
+
+jobs:
+  preparer:
+    name: ${{ inputs.source }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    concurrency:
+      group: gtfs-${{ inputs.source }}
+      cancel-in-progress: false
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Installer les dépendances
+      run: pip install pandas numpy requests
+
+    - name: Préparer et vérifier le GTFS
+      id: preparer
+      env:
+        # chaque secret n'est transmis qu'à la source qui en a besoin
+        NR_EMAIL: ${{ inputs.source == 'uk' && secrets.NR_EMAIL || '' }}
+        NR_PASSWORD: ${{ inputs.source == 'uk' && secrets.NR_PASSWORD || '' }}
+        OUIGO_ES_API_KEY: ${{ inputs.source == 'ouigo_es' && secrets.OUIGO_ES_API_KEY || '' }}
+      run: python pipeline/gtfs_source.py preparer "${{ inputs.source }}" ${{ inputs.forcer && '--forcer' || '' }}
+
+    # Aussi après un échec partiel (ex. Italo refusé, Trenitalia valide) : ce qui est valide est publié.
+    - name: Publier dans la Release gtfs-latest
+      if: ${{ !cancelled() && hashFiles('pipeline/sortie/*.zip') != '' }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        if ! gh release view gtfs-latest >/dev/null 2>&1; then
+          gh release create gtfs-latest --title "GTFS par compagnie (dernière version)" --latest=false \
+            --notes "Un GTFS vérifié par opérateur (<OP>.zip + <OP>.json), remplacé à chaque mise à jour. Lu par le workflow d'assemblage du réseau : ne pas supprimer."
+        fi
+        # le zip d'abord, puis sa fiche (date, empreinte, nombre de trajets)
+        gh release upload gtfs-latest pipeline/sortie/*.zip --clobber
+        gh release upload gtfs-latest pipeline/sortie/*.json --clobber
+
+    # Cache des recherches OpenStreetMap des gares allemandes : petits CSV réutilisés d'une semaine à l'autre
+    - name: Enregistrer le cache des gares allemandes
+      if: ${{ inputs.source == 'germany' && steps.preparer.outcome == 'success' }}
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add GERMANY/osm_stations.csv stations_extra.csv
+        git commit -m "Auto-update: cache des gares allemandes" || exit 0
+        git pull --rebase
+        git push
+
+    - name: Reconstruire le réseau global
+      if: ${{ inputs.assembler && success() }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: gh workflow run reseau.yml --ref "${{ github.ref_name }}"
