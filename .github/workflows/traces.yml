@@ -1,0 +1,141 @@
+name: Tracés sur les voies
+
+# Calcule le tracé des trains d'une compagnie sur les voies d'OpenStreetMap (traces/build_traces.py) et
+# publie le résultat dans la Release traces-latest, sans toucher aux tracés des autres compagnies :
+#   traces.tar.gz   tous les tracés fusionnés : téléchargé par le front à chaque build (carte d'un trajet)
+#   <OP>.zip        tracés d'une compagnie, repris ici pour ne calculer que les nouvelles paires de gares
+# Rien n'est enregistré dans l'historique git.
+#
+# Lancement à la main uniquement : les voies changent peu, et le téléchargement d'OpenStreetMap (Overpass)
+# est lent. Si des carreaux de voies restent indisponibles, rien n'est publié : relancer plus tard (les
+# carreaux déjà téléchargés sont gardés en cache), ou cocher « publier quand même ».
+#
+# Les tracés calculés sur un poste (python traces/publier.py --release) se publient en déposant le contenu
+# de traces/release/ dans la Release traces-latest.
+
+on:
+  workflow_dispatch:
+    inputs:
+      operateur:
+        description: "Compagnie (identifiant de operators.json : SNCF, SNCB, EUROSTAR, EUROPEAN_SLEEPER…)"
+        type: string
+        required: true
+      pays:
+        description: "Limiter aux gares de ces pays (FR ou FR,BE) ; vide = toutes les gares de la compagnie"
+        type: string
+        default: ""
+      refaire:
+        description: "Recalculer aussi les tracés déjà publiés de cette compagnie"
+        type: boolean
+        default: false
+      incomplet:
+        description: "Publier quand même si des carreaux de voies sont indisponibles"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # Release traces-latest
+
+jobs:
+  tracer:
+    name: ${{ inputs.operateur }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    concurrency:
+      group: traces
+      cancel-in-progress: false
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Installer les dépendances
+      run: pip install pandas numpy scipy requests
+
+    - name: Récupérer les GTFS publiés par chaque compagnie
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: python pipeline/gtfs_source.py placer --depuis-release
+
+    # Voies déjà téléchargées (un fichier par carreau de 1°). Enregistré même si le calcul échoue, pour
+    # qu'une relance ne redemande que les carreaux manquants.
+    - name: Reprendre le cache des voies OpenStreetMap
+      uses: actions/cache/restore@v4
+      with:
+        path: traces/cache/osm
+        key: traces-osm-${{ github.run_id }}
+        restore-keys: traces-osm-
+
+    - name: Reprendre les tracés déjà publiés
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        mkdir -p traces/sortie recu_traces
+        if gh release view traces-latest >/dev/null 2>&1; then
+          gh release download traces-latest --dir recu_traces --pattern '*.zip' || true
+        fi
+        for z in recu_traces/*.zip; do
+          [ -e "$z" ] || continue
+          op=$(basename "$z" .zip)
+          mkdir -p "traces/sortie/$op"
+          unzip -q -o "$z" -d "traces/sortie/$op"
+          echo "repris : $op"
+        done
+
+    - name: Calculer les tracés
+      id: calcul
+      run: |
+        set -o pipefail
+        python traces/build_traces.py --op "${{ inputs.operateur }}" \
+          ${{ inputs.pays != '' && format('--pays "{0}"', inputs.pays) || '' }} \
+          ${{ inputs.refaire && '--refaire' || '' }} 2>&1 | tee calcul.log
+        if grep -q "carreaux indisponibles" calcul.log; then
+          echo "incomplet=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::Des carreaux de voies n'ont pas pu être téléchargés : certains tracés manquent ou font un détour."
+        fi
+
+    - name: Enregistrer le cache des voies OpenStreetMap
+      if: ${{ !cancelled() && hashFiles('traces/cache/osm/*.json.gz') != '' }}
+      uses: actions/cache/save@v4
+      with:
+        path: traces/cache/osm
+        key: traces-osm-${{ github.run_id }}
+
+    - name: Refuser un calcul incomplet
+      if: ${{ steps.calcul.outputs.incomplet == 'true' && !inputs.incomplet }}
+      run: |
+        echo "::error::Calcul incomplet, rien n'est publié. Relancer plus tard (les carreaux obtenus sont en cache) ou cocher « publier quand même »."
+        exit 1
+
+    - name: Assembler les tracés de toutes les compagnies
+      run: python traces/publier.py --release --sans-front
+
+    - name: Publier dans la Release traces-latest
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG=traces-latest
+        NOTES="Tracés des trains sur les voies, mis à jour le $(date -u +%Y-%m-%dT%H:%M:%SZ) (${{ inputs.operateur }}, run ${{ github.run_id }}). traces.tar.gz est téléchargé par le front à chaque build : ne pas supprimer."
+        if ! gh release view "$TAG" >/dev/null 2>&1; then
+          gh release create "$TAG" --title "Tracés sur les voies (dernière version)" --notes "$NOTES" --latest=false
+        fi
+        # les fichiers par compagnie d'abord, l'archive lue par le front en dernier
+        gh release upload "$TAG" traces/release/*.zip --clobber
+        gh release upload "$TAG" traces/release/traces.tar.gz --clobber
+        gh release edit "$TAG" --notes "$NOTES"
+        tail -n 4 calcul.log >> "$GITHUB_STEP_SUMMARY"
+
+    # Le front ne lit les tracés qu'au build : sans ces secrets, ils n'arrivent sur le site qu'au
+    # prochain déploiement. (Render > service > Settings > Deploy Hook)
+    - name: Demander à Render de reconstruire le site de test
+      env:
+        HOOK: ${{ secrets.RENDER_TEST_DEPLOY_HOOK }}
+      run: |
+        if [ -z "$HOOK" ]; then
+          echo "::warning::Secret RENDER_TEST_DEPLOY_HOOK absent : les nouveaux tracés seront pris au prochain déploiement du front."
+          exit 0
+        fi
+        curl -fsS --retry 3 --retry-delay 10 --max-time 60 -X POST "$HOOK"

@@ -39,6 +39,8 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Allemagne (DB) | `germany` | DB, DB_REGIO (désactivé) |
 | GTFS · Italie (Trenitalia + Italo) | `trenitalia` | TRENITALIA, ITALO |
 | GTFS · FlixTrain | `flixtrain` | FLIXTRAIN |
+| GTFS · Pays-Bas (NS) | `netherlands` | NS (désactivé) |
+| GTFS · Italie (Trenord) | `trenord` | TRENORD (désactivé) |
 
 ## Contrôles (fiabilité)
 

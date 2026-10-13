@@ -28,3 +28,8 @@ referentiel/sources_officielles/
 __pycache__/
 *.pyc
 .env
+
+# Tracés sur les voies : cache OpenStreetMap et fichiers produits (traces/build_traces.py)
+traces/cache/
+traces/sortie/
+traces/release/

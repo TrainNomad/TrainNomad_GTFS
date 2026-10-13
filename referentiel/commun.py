@@ -471,6 +471,10 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
                        or (f or {}).get("addr:country", "") or UIC_COUNTRY.get(st["uic"][:2], ""))
             if st["uic"] and st.get("uic_pays") and country and country != st["uic_pays"]:
                 st = {**st, "uic": "", "uic8": ""}  # UIC de formule, faux hors de son pays
+            if st["uic"] and st.get("uic_a_confirmer") and statut not in ("uic", "en_attente"):
+                # UIC déduit d'un code (Trenord) : gardé seulement si OpenStreetMap porte le même sur
+                # cette gare ; sinon c'est un code interne (gares Ferrovienord : Milano Cadorna, Malpensa)
+                st = {**st, "uic": "", "uic8": ""}
             ibnr = []
             if not st["uic"] and f:
                 # pas d'UIC dans le flux : celui de la gare dans Wikidata (P722), sinon celui de l'objet OSM,
@@ -478,12 +482,18 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
                 # le numéro EVA de la DB (Hannover Hbf : UIC 8013552, EVA 8000152) : Wikidata donne les
                 # deux séparément (P954 = EVA), l'EVA n'est jamais pris comme UIC
                 wd_codes = wd.get_many([qid], station=True).get(qid, {}) if qid else {}
+                # L'opérateur peut fournir l'EVA qu'il connaît (ibnr) et un UIC de secours (uic_secours),
+                # pris si Wikidata n'en donne pas, avant l'uic_ref d'OSM (build_gares_db.py)
                 ibnr = [c for c in wd_codes.get("ibnr", []) if re.fullmatch(r"\d{7}", c)]
+                ibnr += [c for c in st.get("ibnr", []) if c not in ibnr]
                 osm_uic = re.sub(r"\D", "", str(f.get("uic_ref") or ""))
-                found = next((c for c in wd_codes.get("uic", []) if re.fullmatch(r"\d{7}", c)), "") \
-                    or ("" if osm_uic in ibnr else osm_uic)
+                found = next((c for c in wd_codes.get("uic", []) if re.fullmatch(r"\d{7}", c) and c not in ibnr), "") \
+                    or st.get("uic_secours", "") or ("" if osm_uic in ibnr else osm_uic)
                 if len(found) == 7 and UIC_COUNTRY.get(found[:2], country) == country:
                     st = {**st, "uic": found}
+            elif not st["uic"] and st.get("uic_secours") and statut != "en_attente" \
+                    and UIC_COUNTRY.get(st["uic_secours"][:2], country) == country:
+                st = {**st, "uic": st["uic_secours"]}  # gare absente d'OSM
             gid = station_id(st, f, op)
             nom_fr, nom_en, local = names(st, f, country)
             if fold(nom_en) != fold(local) and fold(nom_en) in (fold(city.get("en") or ""), fold(city.get("fr") or "")):

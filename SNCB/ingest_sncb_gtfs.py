@@ -13,6 +13,7 @@ Structure du flux SNCB :
 
 Filtrage :
   ✗ Bus de substitution (route_type 3 / "BUS")
+  ✗ Banlieue : trains S (S1..S64), comme le RER en France
   ✗ Trains déjà fournis par un autre flux (sinon doublons dans les résultats) :
       OUIGO Train Classique Paris - Bruxelles ("OTC")      -> GTFS SNCF
       Eurostar / TGV INOUI (numéros 9xxx)                  -> GTFS Eurostar et SNCF
@@ -56,6 +57,9 @@ EXCLUDED_CATEGORIES = {
     "HST",  # Eurostar / TGV (TRN 9xxx) : déjà dans les GTFS Eurostar et SNCF
     "ES",   # European Sleeper : déjà dans son propre GTFS
 }
+# Banlieue (trains S de Bruxelles, Anvers, Gand, Liège et Charleroi : S1..S64), absente du moteur
+# comme le RER et le Transilien en France : seuls les trains régionaux et grandes lignes sont gardés.
+SUBURBAN_CATEGORIES = r"^S\d+$"
 EUROPEAN_SLEEPER_NUMBERS = {"452", "453", "474", "475"}
 GENERIC_CATEGORY = "TRN"
 KEEP_DAYS_BEFORE = 2  # dates de calendrier conservées avant aujourd'hui
@@ -137,6 +141,9 @@ def filter_feed(src: str, dst: str, today=None) -> dict:
         # 2. catégorie générique -> catégorie réelle, puis exclusions
         routes, trips = resolve_generic(routes, trips)
         routes = routes[~routes["route_short_name"].str.upper().isin(EXCLUDED_CATEGORIES)]
+        suburban = routes["route_short_name"].str.strip().str.upper().str.match(SUBURBAN_CATEGORIES)
+        stats["routes_banlieue_exclues"] = int(suburban.sum())
+        routes = routes[~suburban]
         trips = trips[trips["route_id"].isin(routes["route_id"])]
         routes = routes[routes["route_id"].isin(trips["route_id"])]
 

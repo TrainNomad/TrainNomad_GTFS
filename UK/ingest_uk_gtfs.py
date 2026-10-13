@@ -59,6 +59,10 @@ BUS_CATEGORIES = {"BR", "BS"}
 METRO_CATEGORIES = {"OL"}
 # Eurostar a son propre GTFS (opérateur EUROSTAR) : on évite les doublons.
 EXCLUDED_ATOC = {"ES"}
+# Banlieue et métro, absents du moteur comme le RER en France : métro de Londres (LT), London
+# Overground (LO), Elizabeth line (XR), Merseyrail (ME), métro de Newcastle (TW), tram de Sheffield (SJ).
+# Les compagnies qui font aussi du régional (Southern, Thameslink, South Western...) sont gardées.
+SUBURBAN_ATOC = {"LT", "LO", "XR", "ME", "TW", "SJ"}
 
 PICKUP_CODES = {"T", "TB", "U", "R"}
 DROPOFF_CODES = {"T", "TF", "D", "R"}
@@ -448,6 +452,9 @@ class CifConverter:
                     continue
                 if s.atoc in EXCLUDED_ATOC:
                     self.stats["trips_excluded_operator"] += 1
+                    continue
+                if s.atoc in SUBURBAN_ATOC or s.route_type == 1:
+                    self.stats["trips_excluded_suburban"] += 1
                     continue
                 if len(s.stops) < 2:
                     self.stats["trips_too_few_stops"] += 1

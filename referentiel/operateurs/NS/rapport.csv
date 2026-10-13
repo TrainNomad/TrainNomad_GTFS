@@ -1,0 +1,7 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8014431;baselb;Basel Bad Bf;Basel Bad Bf;gtfs;;Basel Bad Bf;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8400139;bp;Buitenpost;Buitenpost;gtfs;;Buitenpost;Buitenpost;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNNS-bunde;bunde;Bunde(Ostfriesl);Bunde(Ostfriesl);gtfs;;Bunde(Ostfriesl);Bunde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8061676;fnaf;Frankfurt Flughafen Fernb;Frankfurt Flughafen Fernb;gtfs;;Frankfurt Flughafen Fernb;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8010002;hamm;Hamm (Westf.);Hamm (Westf) Pbf;nom;0.06;Hamm (Westf) Hbf;Hamm;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8021091;leer;Leer (Ostfriesl);Leer (Ostfriesland);nom;0.022;Leer (Ostfriesland);Leer;wikidata;vérifier que la gare OSM est la bonne (nom différent)

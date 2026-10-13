@@ -62,6 +62,9 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 TIMEZONE = "Europe/Rome"
 
 NS = "{http://www.netex.org.uk/netex}"
+# Banlieue, absente du moteur comme le RER en France : Metropolitano (MET, Naples...) et
+# Servizio Ferroviario Metropolitano (SFM, Turin). Catégorie = route_short_name.
+SUBURBAN_CATEGORIES = {"MET", "SFM"}
 GTFS_BUS = 3
 GTFS_RAIL = 2
 
@@ -377,6 +380,9 @@ class GtfsBuilder:
             line = self.n.lines.get(line_ref)
             if line is None:
                 self.stats["journeys_unknown_line"] += 1
+                continue
+            if line["short"].strip().upper() in SUBURBAN_CATEGORIES:
+                self.stats["journeys_suburban_excluded"] += 1
                 continue
             service_id = self.service_for(day_type)
             if service_id is None:

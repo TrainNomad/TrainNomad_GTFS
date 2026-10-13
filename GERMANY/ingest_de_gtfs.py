@@ -58,14 +58,17 @@ DE_REGIO_URL = "https://download.gtfs.de/germany/rv_free/latest.zip"
 
 # Deux flux gtfs.de, deux opérateurs dans build_network.py :
 #   fv (Fernverkehr) -> "DB"        : ICE, IC, EC, EN, RJ
-#   rv (Regionalverkehr) -> "DB_REGIO" : RE, RB, S-Bahn et compagnies régionales
+#   rv (Regionalverkehr) -> "DB_REGIO" : RE, RB et compagnies régionales, sans la banlieue
+# Comme pour la France (TER oui, Transilien/RER non) : pas de S-Bahn ni de Regio-S-Bahn (RS),
+# reconnus à leur nom de ligne (S1, S 25, RS3...) puisque tout le flux est en route_type 2.
+SUBURBAN_LINES = r"^(S|RS|U)\s*\d*[A-Za-z]?$"
 FEEDS = {
     "fv": {"url": DE_GTFS_URL, "zip": OUTPUT_ZIP, "report": REPORT_CSV,
-           "exclude_agencies": set(), "same_line_only": False},
+           "exclude_agencies": set(), "same_line_only": False, "exclude_lines": None},
     # FlixTrain vient de son propre GTFS (FLIXTRAIN/), plus complet ; dans le régional, les morceaux
     # ne sont recollés que sur la même ligne (S1 -> S1) : 139 compagnies se croisent dans les gares
     "rv": {"url": DE_REGIO_URL, "zip": REGIO_ZIP, "report": REGIO_REPORT_CSV,
-           "exclude_agencies": {"Flixtrain"}, "same_line_only": True},
+           "exclude_agencies": {"Flixtrain"}, "same_line_only": True, "exclude_lines": SUBURBAN_LINES},
 }
 
 MAX_KM = 0.5           # distance maximale gare GTFS <-> gare stations.csv
@@ -430,7 +433,7 @@ def merge_border_splits(trips, routes, st, stops, days, same_line_only=False):
 # ---------------------------------------------------------------------------
 
 def build(src: str, dst: str, matcher: StationMatcher, report_csv: str = REPORT_CSV,
-          exclude_agencies=(), same_line_only=False) -> dict:
+          exclude_agencies=(), same_line_only=False, exclude_lines=None) -> dict:
     stats = {}
     with zipfile.ZipFile(src) as z:
         agency, feed_info = read(z, "agency.txt"), read(z, "feed_info.txt")
@@ -444,6 +447,10 @@ def build(src: str, dst: str, matcher: StationMatcher, report_csv: str = REPORT_
     routes = routes[(rt == 2) | rt.between(100, 117)]
     excluded = set(agency.loc[agency["agency_name"].isin(exclude_agencies), "agency_id"])
     routes = routes[~routes["agency_id"].isin(excluded)]
+    if exclude_lines:
+        suburban = routes["route_short_name"].fillna("").str.strip().str.match(exclude_lines)
+        stats["routes_banlieue_exclues"] = int(suburban.sum())
+        routes = routes[~suburban]
     trips = trips[trips["route_id"].isin(routes["route_id"])]
     st = st[st["trip_id"].isin(set(trips["trip_id"]))]
 
@@ -511,7 +518,8 @@ def main():
         raw = feed["zip"] + ".raw"
         try:
             download(feed["url"], raw)
-            stats = build(raw, feed["zip"], matcher, feed["report"], feed["exclude_agencies"], feed["same_line_only"])
+            stats = build(raw, feed["zip"], matcher, feed["report"], feed["exclude_agencies"], feed["same_line_only"],
+                          feed["exclude_lines"])
         finally:
             if os.path.exists(raw):
                 os.remove(raw)

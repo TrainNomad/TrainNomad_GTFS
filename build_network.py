@@ -67,7 +67,9 @@ NO_DROPOFF = 2
 # Opérateurs dont les trajets déjà fournis par un flux chargé avant (même numéro, mêmes horaires
 # sur tous leurs arrêts, mêmes jours) sont écartés : trains transfrontaliers SNCB présents dans le
 # GTFS SNCF (TER Lille - Courtrai, Maubeuge - Charleroi...).
-DEDUP_AGAINST_EARLIER = {"SNCB"}
+# De même pour les trains internationaux du flux néerlandais (ICE, EuroCity, Nightjet, trains belges).
+# et pour les trains Milan - Tessin de Trenord, présents dans le flux suisse.
+DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD"}
 # Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
 # (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
@@ -604,8 +606,13 @@ class Referentiel:
             vid = parent
         return vid
 
+    # opérateurs dont les stop_id sont un code standard, rangé sous ce nom dans codes.csv
+    # (Royaume-Uni : stop_id = code CRS, referentiel/build_gares_uk.py)
+    CODE_SOURCES = {"NATIONAL_RAIL": "CRS"}
+
     def match(self, op_id: str, stop_id: str):
-        return self.by_code.get((op_id.upper(), stop_id))
+        op = op_id.upper()
+        return self.by_code.get((op, stop_id)) or self.by_code.get((self.CODE_SOURCES.get(op), stop_id))
 
     def city_named(self, name: str, country: str, lat, lon, max_km: float = 30.0):
         """Ville de la base portant ce nom, dans ce pays et à proximité (gare venue de stations.csv)."""

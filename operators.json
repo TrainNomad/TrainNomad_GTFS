@@ -76,8 +76,6 @@
       "Espresso",
       "Regionale Veloce",
       "Regionale",
-      "Metropolitano",
-      "SFM",
       "Bus"
     ]
   },
@@ -102,8 +100,7 @@
       "Alfa Pendular",
       "Intercidades",
       "InterRegional",
-      "Regional",
-      "Urbano"
+      "Regional"
     ]
   },
   {
@@ -146,7 +143,6 @@
       "InterCity",
       "Local",
       "Heure de pointe",
-      "S-Train",
       "Touristique",
       "Extra",
       "EuroCity",
@@ -180,10 +176,9 @@
     "gtfs_url": "https://download.gtfs.de/germany/rv_free/latest.zip",
     "transport_types": [
       "Regional-Express",
-      "Regionalbahn",
-      "S-Bahn"
+      "Regionalbahn"
     ],
-    "note": "Désactivé tant que l'API tourne sur la VM Oracle de 1 Go (+115 Mo de mémoire). Passer à true après la migration."
+    "note": "Désactivé : à réactiver avec la VM plus grande ou l'allègement du cache. Sans S-Bahn ni Regio-S-Bahn (comme la France : TER oui, RER non)."
   },
   {
     "id": "FLIXTRAIN",
@@ -195,5 +190,38 @@
     "transport_types": [
       "FlixTrain"
     ]
+  },
+  {
+    "id": "NS",
+    "name": "Pays-Bas (NS, Arriva, Keolis)",
+    "enabled": false,
+    "gtfs_path": "./NETHERLANDS/nl_gtfs.zip",
+    "script_path": "./NETHERLANDS/ingest_nl_gtfs.py",
+    "gtfs_url": "https://gtfs.ovapi.nl/nl/gtfs-nl.zip",
+    "transport_types": [
+      "Intercity",
+      "Intercity direct",
+      "Sprinter",
+      "Sneltrein",
+      "Stoptrein",
+      "ICE",
+      "EuroCity",
+      "Nightjet"
+    ],
+    "note": "Désactivé pour l'instant : lancer d'abord referentiel/build_gares_ns.py puis fusion.py (gares), passer à true, puis lancer le workflow « GTFS · Pays-Bas »."
+  },
+  {
+    "id": "TRENORD",
+    "name": "Trenord (Lombardie)",
+    "enabled": false,
+    "gtfs_path": "./TRENORD/trenord_gtfs.zip",
+    "script_path": "./TRENORD/ingest_trenord_gtfs.py",
+    "gtfs_url": "https://www.dati.lombardia.it/download/3z4k-mxz9/application%2Fzip",
+    "transport_types": [
+      "Regionale",
+      "RegioExpress",
+      "Malpensa Express"
+    ],
+    "note": "Désactivé pour l'instant : lancer d'abord referentiel/build_gares_trenord.py puis fusion.py (gares), passer à true, puis lancer le workflow « GTFS · Italie (Trenord) ». Sans les lignes S (banlieue de Milan)."
   }
 ]

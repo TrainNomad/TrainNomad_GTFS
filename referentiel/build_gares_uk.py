@@ -5,8 +5,8 @@ ScotRail, Northern, Southeastern, Caledonian Sleeper...).
 Source : UK/uk_gtfs.zip, le GTFS produit par UK/ingest_uk_gtfs.py à partir des horaires National Rail.
 Le stop_id est le code CRS à 3 lettres ("EDB" = Edinburgh), sans UIC. L'UIC vient du fichier officiel
 CORPUS de Network Rail (sources_officielles/CORPUSExtract.json.gz) : UIC = "70" + son champ UIC
-(EDB -> 93280 -> 7093280). Les gares récentes absentes de CORPUS (Cambridge South, Edinburgh
-Gateway) prennent l'id de leur objet OpenStreetMap.
+(EDB -> 93280 -> 7093280). Pour les gares récentes sans UIC dans CORPUS (Cambridge South, Edinburgh
+Gateway), il est déduit de leur numéro national (NLC), selon la même règle.
 
 OpenStreetMap porte rarement l'UIC des gares britanniques mais presque toujours leur code CRS
 (ref:crs) : la gare est cherchée par son nom et confirmée par ce code (statut "code"), ce qui
@@ -45,11 +45,22 @@ def corpus_uic(path: str = CORPUS) -> dict:
     if not os.path.exists(path):
         logging.warning(f"   {path} absent : gares britanniques sans UIC")
         return {}
-    out = {}
+    out, nlc = {}, {}
     for r in json.load(gzip.open(path, "rt", encoding="utf-8"))["TIPLOCDATA"]:
         crs, uic = (r.get("3ALPHA") or "").strip(), (r.get("UIC") or "").strip()
         if crs and re.fullmatch(r"\d{5}", uic):
             out.setdefault(crs, "70" + uic)
+        if crs and r.get("NLC"):
+            nlc.setdefault(crs, str(r["NLC"]).zfill(6))
+    # gares récentes dont CORPUS laisse l'UIC vide (Cambridge South, Edinburgh Gateway, Galashiels) : il se
+    # déduit du numéro national de la gare (NLC), comme pour toutes les autres : NLC 932800 -> UIC 93280
+    # (Edinburgh). Seulement pour un NLC de gare (terminé par 00) dont l'UIC n'est pas déjà pris.
+    used = set(out.values())
+    for crs, n in nlc.items():
+        uic = "70" + n[:5]
+        if crs not in out and n.endswith("00") and uic not in used:
+            out[crs] = uic
+            used.add(uic)
     return out
 
 

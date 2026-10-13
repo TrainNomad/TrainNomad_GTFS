@@ -1,0 +1,535 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN5100007;gare;Brzeg;Brzeg;Brzeg;5100007;;50.852901;17.470893;PL;Europe/Warsaw;Q214640;EC;;code;3037185178;Q2702898;;XPBG;89677;Brzeg
+TN5100023;gare;Gdynia Główna Osobowa;Gdynia Główna;Gdynia Główna;5100023;;54.521788;18.526826;PL;Europe/Warsaw;Q385;EC;;code;1964369654;Q800808;;XPGD;205972;Gdynia Glowna
+TN5100043;gare;Kędzierzyn-Koźle;Kędzierzyn-Koźle;Kędzierzyn-Koźle;5100043;;50.345059;18.204607;PL;Europe/Warsaw;Q605483;EC|EN|IC;;nom;331033657;Q3931997;;;106009;Kedzierzyn Kozle
+TN5100047;gare;Koluszki;Koluszki;Koluszki;5100047;;51.743472;19.818451;PL;Europe/Warsaw;Q403929;IC;;nom;2183694742;Q5956689;;XPKK;303489;Koluszki
+TN5100055;gare;Kutno;Kutno;Kutno;5100055;;52.227094;19.348144;PL;Europe/Warsaw;Q202160;EC;;code;3456935411;Q6448510;;XPKT;229465;Kutno
+TN5100061;gare;Legnica;Legnica;Legnica;5100061;;51.214093;16.169655;PL;Europe/Warsaw;Q106274;EC|IC;;code;2627870779;Q801070;;XPLE;482935;Legnica
+TN5100062;gare;Leszno;Leszno;Leszno;5100062;;51.845967;16.565471;PL;Europe/Warsaw;Q52892;EC;;nom;618850607;Q11755171;;XPLN;278025;Leszno
+TN5100065;gare;Lublin Główny;Lublin Główny;Lublin Główny;5100065;;51.231292;22.568964;PL;Europe/Warsaw;Q37333;IC;;nom;3457415162;Q1862048;;XPLL;436443;Lublin
+TN5100069;gare;Łódź Chojny;Łódź Chojny;Łódź Chojny;5100069;;51.726409;19.484195;PL;Europe/Warsaw;Q580;IC;;code;1494055816;Q940290;;XPLC;504506;Lodz Chojny
+TN5100072;gare;Łódź Widzew;Łódź Widzew;Łódź Widzew;5100072;;51.763105;19.543805;PL;Europe/Warsaw;Q580;IC;;nom;4176079485;Q1940317;;XPLW;22413;Lodz Widzew
+TN5100085;gare;Opole Główna Osobowa;Opole Główne;Opole Główne;5100085;;50.661647;17.927207;PL;Europe/Warsaw;Q92212;EC|IC;;code;3374664234;Q801305;;;341599;Opole Glowne
+TN5100096;gare;Przemyśl Główny;Przemyśl Główny;Przemyśl Główny;5100096;;49.78361;22.780152;PL;Europe/Warsaw;Q208473;EC|EN|IC;;code;560182965;Q11829017;;;637183;Przemysl Glowny
+TN5100103;gare;Rzeszów Główny;Rzeszów Główny;Rzeszów Główny;5100103;;50.042991;22.006086;PL;Europe/Warsaw;Q598;EC|EN|IC;;code;3438299348;Q7385770;;;325378;Rzeszow Glowny
+TN5100108;gare;Skierniewice Osobowa;Skierniewice;Skierniewice;5100108;;51.967619;20.151435;PL;Europe/Warsaw;Q2734;IC;;nom;3455554928;Q4438265;;XPSW;680490;Skierniewice
+TN5100116;gare;Sosnowiec Glowny;Sosnowiec Główny;Sosnowiec Główny;5100116;;50.27895;19.126386;PL;Europe/Warsaw;Q105060;EN|IC;;code;3455731172;Q2585729;;XPSI;567716;Sosnowiec Glowny
+TN5100119;gare;Szczecin Główny;Szczecin Main Railway Station;Szczecin Główny;5100119;;53.418241;14.549407;PL;Europe/Warsaw;Q393;IC;;code;4005504572;Q247642;;XPSG;504935;Szczecin Glowny
+TN5100126;gare;Tarnów;Tarnów;Tarnów;5100126;;50.005288;20.975117;PL;Europe/Warsaw;Q106281;EC|EN|IC;;code;2007029030;Q2472727;;;250182;Tarnow
+TN5100127;gare;Tczew;Tczew;Tczew;5100127;;54.097248;18.789781;PL;Europe/Warsaw;Q474697;EC;;nom;1354117153;Q2253001;;XPTC;575311;Tczew
+TN5100136;gare;Dworzec Centralny im. Stanisława Moniuszki;Warsaw Central;Warszawa Centralna;5100136;;52.228821;21.00316;PL;Europe/Warsaw;Q270;EC|EN|IC;;code;9814916146;Q693034;;XPWC;659393;Warszawa Centralna
+TN5100138;gare;Warszawa Wschodnia Osobowa;Warsaw East;Warszawa Wschodnia;5100138;;52.251589;21.052368;PL;Europe/Warsaw;Q270;EC|EN|IC;;code;33210583;Q3270196;;XPWW;683622;Warszawa Wschodnia
+TN5100143;gare;Wrocław Główny;Wrocław Główny;Wrocław Główny;5100143;;51.097916;17.037951;PL;Europe/Warsaw;Q1799;EC|IC;;code;155479759;Q428443;;XPWR;55644;Wroclaw Glowny
+TN5100146;gare;Zabrze;Zabrze;Zabrze;5100146;;50.305299;18.787128;PL;Europe/Warsaw;Q103892;EC|EN|IC;;code;2987517885;Q2562351;;;605068;Zabrze
+TN5100156;gare;Wysoka Kamieńska;Wysoka Kamieńska;Wysoka Kamieńska;5100156;;53.825969;14.83201;PL;Europe/Warsaw;Q557354;IC;;code;2152133654;;;;387250;Wysoka Kamienska
+TN5100163;gare;Jarosław;Jarosław;Jarosław;5100163;;50.010622;22.67839;PL;Europe/Warsaw;Q721928;EC|EN|IC;;code;48314193;Q2316035;;;320347;Jaroslaw
+TN5100220;gare;Stargard;Stargard;Stargard;5100220;;53.339287;15.03117;PL;Europe/Warsaw;Q106268;IC;;nom;260872674;Q9344135;;;488557;Stargard
+TN5100271;gare;Wronki;Wronki;Wronki;5100271;;52.705034;16.386189;PL;Europe/Warsaw;Q52900;IC;;nom;363576641;Q2796943;;;169583;Wronki
+TN5100585;gare;Świnoujście;Świnoujście;Świnoujście;5100585;;53.904445;14.266023;PL;Europe/Warsaw;Q41599;IC;;code;366700324;Q3284197;;;282087;Swinoujscie
+TN5100594;gare;Sopot;Sopot;Sopot;5100594;;54.440057;18.562314;PL;Europe/Warsaw;Q92689;EC;;nom;266781738;Q7563186;;XPSO;501265;Sopot
+TN5100750;gare;Gdansk Glowny;Gdansk Glowny;Gdansk Glowny;5100750;;54.35552;18.643803;PL;Europe/Warsaw;Q1792;EC;;gtfs;;;;;300667;Gdansk Glowny
+TN5100753;gare;Gdańsk Wrzeszcz;Gdańsk Wrzeszcz;Gdańsk Wrzeszcz;5100753;;54.38177;18.605511;PL;Europe/Warsaw;Q1792;EC;;nom;3785967847;Q934967;;XPGWR;246460;Gdansk Wrzeszcz
+TN5100758;gare;Gdańsk Oliwa;Gdańsk Oliwa;Gdańsk Oliwa;5100758;;54.409488;18.571977;PL;Europe/Warsaw;Q1792;EC;;nom;3786011913;Q594376;;XPGOL;544982;Gdansk Oliwa
+TN5101300;gare;Kostrzyn Osobowy;Kostrzyn;Kostrzyn;5101300;;52.591361;14.646975;PL;Europe/Warsaw;Q156837;IC;;nom;433238973;Q11744164;;XPKOS;112475;Kostrzyn
+TN5101341;gare;Mieszkowice;Mieszkowice;Mieszkowice;5101341;;52.781738;14.485872;PL;Europe/Warsaw;Q988644;IC;;nom;2152106201;Q927669;;;294424;Mieszkowice
+TN5101840;gare;Bydgoszcz Glowna;Bydgoszcz Glowna;Bydgoszcz Glowna;5101840;;53.135113;17.991636;PL;Europe/Warsaw;Q41252;EC;;gtfs;;;;;425468;Bydgoszcz Glowna
+TN5101870;gare;Inowroclaw;Inowroclaw;Inowroclaw;5101870;;52.804947;18.24406;PL;Europe/Warsaw;Q378821;EC;;gtfs;;;;;684219;Inowroclaw
+TN5101948;gare;Sieradz;Sieradz;Sieradz;5101948;;51.597655;18.713644;PL;Europe/Warsaw;Q745074;IC;;nom;242095470;Q1859549;;XPSR;401608;Sieradz
+TN5102580;gare;Rzepin;Rzepin;Rzepin;5102580;;52.349917;14.815287;PL;Europe/Warsaw;Q990823;EC|IC;;code;3258261975;Q801385;;XPR;348140;Rzepin
+TN5102610;gare;Zbąszynek;Zbąszynek;Zbąszynek;5102610;;52.242613;15.818176;PL;Europe/Warsaw;Q168902;EC;;code;2843454031;Q1885966;;;385620;Zbaszynek
+TN5102780;gare;Zielona Gora Glowna;Zielona Gora Glowna;Zielona Gora Glowna;5102780;;51.947437;15.513709;PL;Europe/Warsaw;Q104720;EC|IC;;gtfs;;;;;558396;Zielona Gora Glowna
+TN5102810;gare;Świebodzin;Świebodzin;Świebodzin;5102810;;52.245251;15.539962;PL;Europe/Warsaw;Q387463;EC;;code;3254868376;;;;309581;Swiebodzin
+TN5102910;gare;Krzyż;Krzyż;Krzyż;5102910;;52.877642;16.019422;PL;Europe/Warsaw;Q1021294;IC;;nom;727366743;Q2188798;;;382436;Krzyz
+TN5103060;gare;Poznan Glowny;Poznan Glowny;Poznan Glowny;5103060;;52.401993;16.91087;PL;Europe/Warsaw;Q268;EC|IC;;gtfs;;;;;596938;Poznan Glowny
+TN5103080;gare;Gniezno;Gniezno;Gniezno;5103080;;52.529666;17.603227;PL;Europe/Warsaw;Q51432;EC;;nom;674044770;Q2304534;;XPGN;374904;Gniezno
+TN5103310;gare;Konin;Konin;Konin;5103310;;52.231098;18.2541;PL;Europe/Warsaw;Q52845;EC;;code;29830753;Q1978193;;;495869;Konin
+TN5103350;gare;Warszawa Zachodnia;Warszawa Zachodnia;Warszawa Zachodnia;5103350;;52.220157;20.965172;PL;Europe/Warsaw;Q270;EC|EN|IC;;code;3390821831;Q2694091;;XPWZ;536894;Warszawa Zachodnia
+TN5104200;gare;Nowa Sól;Nowa Sól;Nowa Sól;5104200;;51.79896;15.708799;PL;Europe/Warsaw;Q157190;IC;;nom;1013471462;Q2212282;;XPNS;377678;Nowa Sol
+TN5104220;gare;Glogow;Glogow;Glogow;5104220;;51.668957;16.079712;PL;Europe/Warsaw;Q66013;EC|IC;;gtfs;;;;;81476;Glogow
+TN5104470;gare;Jarocin;Jarocin;Jarocin;5104470;;51.96831;17.494719;PL;Europe/Warsaw;Q52840;IC;;nom;3203653735;Q11720724;;XPJA;118903;Jarocin
+TN5104524;gare;Kalisz;Kalisz;Kalisz;5104524;;51.742827;18.071365;PL;Europe/Warsaw;Q52842;IC;;nom;3459064660;Q729516;;XPKL;123135;Kalisz
+TN5105090;gare;Chelm;Chelm;Chelm;5105090;;51.141197;23.494036;PL;Europe/Warsaw;Q234184;IC;;gtfs;;;;;312468;Chelm
+TN5105180;gare;Węgliniec;Węgliniec;Węgliniec;5105180;;51.290101;15.222966;PL;Europe/Warsaw;Q328402;IC;;nom;410697138;Q177489;;XPWE;431132;Wegliniec
+TN5105328;gare;Lubin;Lubin;Lubin;5105328;;51.39578;16.193436;PL;Europe/Warsaw;Q237512;EC;;nom;5356872372;Q2174315;;;657749;Lubin
+TN5105385;gare;Boleslawiec;Boleslawiec;Boleslawiec;5105385;;51.266155;15.568923;PL;Europe/Warsaw;Q156828;IC;;gtfs;;;;;539997;Boleslawiec
+TN5106820;gare;Rybnik;Rybnik;Rybnik;5106820;;50.089104;18.547972;PL;Europe/Warsaw;Q107094;EN|IC;;code;2480151502;;;;460846;Rybnik (PL)
+TN5106870;gare;Racibórz;Racibórz;Racibórz;5106870;;50.090605;18.226713;PL;Europe/Warsaw;Q25302;EN|IC;;code;2264796986;Q2961619;;;657408;Raciborz
+TN5106970;gare;Gliwice;Gliwice;Gliwice;5106970;;50.301159;18.67704;PL;Europe/Warsaw;Q105084;EC|EN|IC;;code;2987517884;Q583287;;XPGL;385168;Gliwice
+TN5107331;gare;Katowice Osobowa;Katowice;Katowice;5107331;;50.257607;19.017146;PL;Europe/Warsaw;Q588;EC|EN|IC;;code;3246621282;Q800992;;XPKA;443526;Katowice
+TN5107530;gare;Zawiercie;Zawiercie;Zawiercie;5107530;;50.480637;19.423162;PL;Europe/Warsaw;Q148827;EN|IC;;code;3455716822;Q1923670;;XPZAW;177000;Zawiercie
+TN5107750;gare;Trzebinia;Trzebinia;Trzebinia;5107750;;50.154123;19.452956;PL;Europe/Warsaw;Q686167;EC|EN|IC;;code;6093920532;Q3102081;;;159915;Trzebinia
+TN5108041;gare;Kraków Główny;Krakow Main Station;Kraków Główny;5108041;;50.068424;19.947886;PL;Europe/Warsaw;Q31487;EC|EN|IC;;code;206270454;Q2154725;;;314826;Krakow Glowny
+TN5108120;gare;Dębica;Dębica;Dębica;5108120;;50.053931;21.404146;PL;Europe/Warsaw;Q947404;EC|EN|IC;;code;3442849471;Q2190272;;;28126;Debica
+TN5108443;gare;Przemyśl Zasanie;Przemyśl Zasanie;Przemyśl Zasanie;5108443;;49.793475;22.773728;PL;Europe/Warsaw;Q208473;EC|EN|IC;;nom;2017171375;Q2060837;;;99591;Przemysl Zasanie
+TN5433295;gare;Brno hl.n.;Brno hl.n.;Brno hl.n.;5433295;;49.19054;16.612774;CZ;Europe/Prague;Q14960;EN|RJ;;gtfs;;;;;614691;Brno hl.n.
+TN5433425;gare;Břeclav;Břeclav;Břeclav;5433425;;48.753971;16.893266;CZ;Europe/Prague;Q581478;EN|IC|RJ;;nom;3315724401;Q5005700;;;32587;Breclav
+TN5434124;gare;Bohumín osobní nádraží;Bohumín;Bohumín;5434124;;49.900749;18.359597;CZ;Europe/Prague;Q890949;IC;;nom;3271358589;Q4189414;;XTBO;492574;Bohumin
+TN5434364;gare;Ostrava hl.n.;Ostrava hl.n.;Ostrava hl.n.;5434364;;49.852085;18.267262;CZ;Europe/Prague;Q8385;EN|IC;;gtfs;;;;;265475;Ostrava hl.n.
+TN5453179;gare;Usti nad Labem hl.n.;Usti nad Labem hl.n.;Usti nad Labem hl.n.;5453179;;50.65956;14.044728;CZ;Europe/Prague;Q156974;EC|EN|RJ;;gtfs;;;;;227618;Usti nad Labem hl.n.
+TN5453209;gare;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;5453209;;50.649885;14.048541;CZ;Europe/Prague;Q156974;EN;;nom;13016177035;Q19297489;;;119507;Usti nad Labem-Strekov
+TN5453414;gare;Kolín;Kolín;Kolín;5453414;;50.02533;15.2144;CZ;Europe/Prague;Q470369;EN|RJ;;nom;24684084;Q166594;;;450751;Kolin (CZ)
+TN5453613;gare;Pardubice hlavní nádraží;Pardubice hlavní nádraží;Pardubice hlavní nádraží;5453613;;50.031708;15.756088;CZ;Europe/Prague;Q36989;EN|RJ;;code;3129312254;Q617791;;;138420;Pardubice hl.n.
+TN5453913;gare;Ceska Trebova;Česká Třebová;Česká Třebová;5453913;;49.897076;16.446678;CZ;Europe/Prague;Q341056;RJ;;nom;3129289404;Q2321172;;;587795;Ceska Trebova
+TN5454257;gare;Roudnice nad Labem;Roudnice nad Labem;Roudnice nad Labem;5454257;;50.426528;14.264154;CZ;Europe/Prague;Q63855;RJ;;nom;24579251;Q9322976;;;305917;Roudnice nad Labem
+TN5454287;gare;Hněvice;Hněvice;Hněvice;5454287;;50.453249;14.361245;CZ;Europe/Prague;Q392624;RJ;;nom;1893772746;Q19400684;;;630209;Hnevice
+TN5454396;gare;Kralupy nad Vltavou;Kralupy nad Vltavou;Kralupy nad Vltavou;5454396;;50.238541;14.313409;CZ;Europe/Prague;Q987496;RJ;;nom;5262567728;Q18180343;;;92471;Kralupy nad Vltavou
+TN5455659;gare;Decin hl.n.;Decin hl.n.;Decin hl.n.;5455659;;50.773193;14.200972;CZ;Europe/Prague;Q146307;EC|EN|RJ;;gtfs;;;;;568882;Decin hl.n.
+TN5455859;gare;Lovosice;Lovosice;Lovosice;5455859;;50.509691;14.059583;CZ;Europe/Prague;Q1000069;RJ;;nom;4069900192;Q18180390;;;269385;Lovosice
+TN5455909;gare;Bohušovice nad Ohří;Bohušovice nad Ohří;Bohušovice nad Ohří;5455909;;50.491291;14.149433;CZ;Europe/Prague;Q891004;RJ;;nom;24700200;Q18180140;;;91126;Bohusovice nad Ohri
+TN5457076;gare;Praha hl.n.;Praha hl.n.;Praha hl.n.;5457076;;50.08306;14.436039;CZ;Europe/Prague;Q1085;EC|EN|RJ;;gtfs;;;;;539641;Praha hl.n.
+TN5457256;gare;Praha-Holešovice;Praha-Holešovice;Praha-Holešovice;5457256;;50.110658;14.439751;CZ;Europe/Prague;Q1085;EC|EN|RJ;;nom;3134733933;Q373868;;;230268;Praha-Holesovice
+TN5501024;gare;Budapest-Kelenföld;Budapest-Kelenföld;Budapest-Kelenföld;5501024;;47.464299;19.020615;HU;Europe/Budapest;Q1781;EN;;nom;2894347408;Q800998;;XMBL;455129;Budapest-Kelenföld
+TN5501131;gare;Tatabanya;Tatabánya;Tatabánya;5501131;;47.585443;18.392896;HU;Europe/Budapest;Q187821;EN;;nom;344319183;Q12816463;;XMBT;674873;Tatabanya
+TN5501289;gare;Györ;Győr;Győr;5501289;;47.682085;17.634827;HU;Europe/Budapest;Q134494;EN;;nom;91687004;Q3096600;;XMG;227768;Györ
+TN5501347;gare;Mosonmagyarovar;Mosonmagyaróvár;Mosonmagyaróvár;5501347;;47.849425;17.267592;HU;Europe/Budapest;Q207406;EN;;nom;91711522;Q21891728;;;274510;Mosonmagyarovar
+TN5501362;gare;Hegyeshalom;Hegyeshalom;Hegyeshalom;5501362;;47.91321;17.146734;HU;Europe/Budapest;Q1012768;EC|EN;;nom;11878737947;Q553145;;;364196;Hegyeshalom
+TN5510017;gare;Budapest-Keleti;Budapest Keleti Station;Budapest-Keleti;5510017;;47.500412;19.08398;HU;Europe/Budapest;Q1781;EN;;nom;3141893115;Q841167;;XMBK;261596;Budapest-Keleti
+TN5510033;gare;Budapest-Nyugati;Budapest-Nyugati;Budapest-Nyugati;5510033;;47.51072;19.05748;HU;Europe/Budapest;Q1781;EN|RJ;;nom;3010560233;Q522868;;XMBN;355428;Budapest-Nyugati
+TN5510447;gare;Vác;Vác;Vác;5510447;;47.782719;19.13301;HU;Europe/Budapest;Q207408;EN|RJ;;nom;1687607528;Q21850265;;;349873;Vac
+TN5510470;gare;Nagymaros-Visegrád;Nagymaros-Visegrád;Nagymaros-Visegrád;5510470;;47.791081;18.958887;HU;Europe/Budapest;Q282460;RJ;;nom;3141610637;Q21866920;;;330576;Nagymaros-Visegrad
+TN5510504;gare;Szob;Szob;Szob;5510504;;47.82106;18.861938;HU;Europe/Budapest;Q429409;RJ;;nom;1684065427;Q21866926;;;640462;Szob
+TN5613016;gare;Kúty;Kúty;Kúty;5613016;;48.661951;17.047464;SK;Europe/Bratislava;Q1018849;EN|RJ;;nom;3350963373;Q4851;;;508025;Kuty
+TN5613206;gare;Bratislava hl.st.;Bratislava hl.st.;Bratislava hl.st.;5613206;;48.15891;17.106466;SK;Europe/Bratislava;Q1780;EN|RJ;;gtfs;;;;;158732;Bratislava hl.st.
+TN5613436;gare;Nové Zámky;Nové Zámky;Nové Zámky;5613436;;47.99555;18.173424;SK;Europe/Bratislava;Q276362;EN|RJ;;nom;3658062010;Q12781948;;;382404;Nove Zamky
+TN5613526;gare;Štúrovo;Štúrovo;Štúrovo;5613526;;47.799903;18.67911;SK;Europe/Bratislava;Q781089;EN|RJ;;nom;1078549756;Q12781949;;;326090;Sturovo
+TN7400144;gare;Alvesta station;Alvesta station;Alvesta station;7400144;;56.89848;14.556882;SE;Europe/Stockholm;Q182007;EN;;gtfs;;;;;236714;Alvesta station
+TN7401707;gare;Hässleholm Central;Hässleholm Central;Hässleholm Central;7401707;;56.15852;13.763922;SE;Europe/Stockholm;Q508125;EN;;gtfs;;;;;644255;Hässleholm Central
+TN7402421;gare;Linköping Central;Linköping Central;Linköping Central;7402421;;58.41601;15.626675;SE;Europe/Stockholm;Q25413;EN;;gtfs;;;;;238728;Linköping Central
+TN7402485;gare;Lund Central;Lund Central;Lund Central;7402485;;55.70552;13.186582;SE;Europe/Stockholm;Q2167;EN;;gtfs;;;;;446810;Lund Central
+TN7402930;gare;Norrköping Central;Norrköping Central;Norrköping Central;7402930;;58.596558;16.18368;SE;Europe/Stockholm;Q25724;EN;;gtfs;;;;;94914;Norrköping Central
+TN7403012;gare;Nässjö Central;Nässjö Central;Nässjö Central;7403012;;57.652126;14.694786;SE;Europe/Stockholm;Q505096;EN;;gtfs;;;;;65107;Nässjö Central
+TN7403751;gare;Stockholm Central;Stockholm Central;Stockholm Central;7403751;;59.329875;18.057501;SE;Europe/Stockholm;Q1754;EN;;nom;25948183;Q54315;;;513694;Stockholm Central
+TN7872480;gare;Zagreb Glavni kolodvor;Zagreb Central Railway Station;Zagreb Glavni kolodvor;7872480;;45.804446;15.978833;HR;Europe/Zagreb;Q1435;EC|EN;;nom;5627130425;Q140377;;;555733;Zagreb Glavni kolodvor
+TN7942001;gare;Dobova;Dobova;Dobova;7942001;;45.898486;15.655353;SI;Europe/Ljubljana;Q906879;EC|EN;;code;5226766123;Q5286654;;;618075;Dobova
+TN7942200;gare;Zidani Most;Zidani Most;Zidani Most;7942200;;46.085452;15.170286;SI;Europe/Ljubljana;Q15887;EC|EN;;nom;12925781205;Q8071482;;;204272;Zidani Most
+TN7942300;gare;Ljubljana;Ljubljana;Ljubljana;7942300;;46.058171;14.510278;SI;Europe/Ljubljana;Q3434113;EC|EN;;nom;617483683;Q1817806;;XZL;104273;Ljubljana
+TN7942307;gare;Kranj;Kranj;Kranj;7942307;;46.238955;14.348247;SI;Europe/Ljubljana;Q3441893;EC|EN;;code;50002957;Q6436087;;;300185;Kranj
+TN7942313;gare;Lesce-Bled;Lesce-Bled;Lesce-Bled;7942313;;46.360369;14.157919;SI;Europe/Ljubljana;Q15910;EC|EN;;nom;5685260194;Q11198952;;;58035;Lesce-Bled
+TN7942400;gare;Jesenice (SL);Jesenice;Jesenice;7942400;;46.436183;14.054821;SI;Europe/Ljubljana;Q15881;EC|EN;;code;9165200969;Q6962376;;;678200;Jesenice (SLO)
+TN7943100;gare;Celje;Celje;Celje;7943100;;46.228531;15.268233;SI;Europe/Ljubljana;Q3441823;EN;;nom;8550748250;Q5058125;;;397009;Celje
+TN7943400;gare;Maribor;Maribor;Maribor;7943400;;46.561951;15.658112;SI;Europe/Ljubljana;Q3435104;EN;;nom;5610972932;Q6762546;;;480305;Maribor
+TN8000462;gare;Freilassing;Freilassing;Freilassing;8000462;;47.836889;12.976717;DE;Europe/Berlin;Q278352;EC|ICE;;code;3508395174;Q800783;;MFL;607050;Freilassing
+TN8000494;gare;Singen (Hohentwiel);Singen (Hohentwiel);Singen (Hohentwiel);8000494;;47.759084;8.840912;DE;Europe/Berlin;Q6979;IC|ICE;;nom;3267688508;Q18682229;de:08335:6588;RSI;22518;Singen (Hohentwiel)
+TN8001054;gare;Büchen;Büchen;Büchen;8001054;;53.475052;10.623145;DE;Europe/Berlin;Q631683;ICE;;nom;3360122846;Q800600;;ABCH;281372;Büchen
+TN8001063;gare;Bergedorf;Bergedorf;Bergedorf;8001063;;53.489975;10.206372;DE;Europe/Berlin;Q1055;ICE;;code;4010276891;Q320225;;ABG S;614998;Hamburg-Bergedorf
+TN8001071;gare;Hamburg Hbf;Hamburg Hbf;Hamburg Hauptbahnhof;8001071;;53.552696;10.007564;DE;Europe/Berlin;Q1055;ECE|EN|IC|ICE;;nom;2459919677;Q6456;de:02000:10950;AHS;294573;Hamburg Hbf
+TN8001089;gare;Hamburg Dammtor;Hamburg Dammtor;Hamburg Dammtor;8001089;;53.561181;9.989023;DE;Europe/Berlin;Q1055;ECE|ICE;;code;3255993297;Q634142;;ADF;620650;Hamburg Dammtor
+TN8001093;gare;Hamburg-Altona;Hamburg-Altona;Hamburg-Altona;8001093;;53.552153;9.934565;DE;Europe/Berlin;Q1055;IC|ICE;;nom;3357946758;Q650270;;AAS;130140;Hamburg-Altona (S)
+TN8001134;gare;Harburg;Harburg;Harburg;8001134;;53.456954;9.991336;DE;Europe/Berlin;Q1055;ECE|IC|ICE;;nom;3135336139;Q566812;;AHRS;602933;Hamburg-Harburg (S)
+TN8001173;gare;Lüneburg;Lüneburg;Lüneburg;8001173;;53.249773;10.419772;DE;Europe/Berlin;Q3920;IC|ICE;;nom;3594997072;Q801145;;ALBG;365110;Lüneburg
+TN8001295;gare;Neumünster;Neumünster;Neumünster;8001295;;54.076104;9.979966;DE;Europe/Berlin;Q3879;ICE;;code;7160009313;Q475520;;AN;219871;Neumünster
+TN8001304;gare;Kiel Hauptbahnhof;Kiel Hauptbahnhof;Kiel Hauptbahnhof;8001304;;54.313472;10.130965;DE;Europe/Berlin;Q1707;ICE;;code;4257641280;Q454898;;AK;418246;Hauptbahnhof A1
+TN8001415;gare;Schleswig;Schleswig;Schleswig;8001415;;54.499583;9.537899;DE;Europe/Berlin;Q501661;ECE|ICE;;nom;3638019008;Q323865;de:01059:81683;ASW;188146;Schleswig
+TN8001427;gare;Flensburg / Flensborg;Flensburg / Flensborg;Flensburg / Flensborg;8001427;;54.774112;9.436527;DE;Europe/Berlin;Q3798;IC|ICE;;nom;4189000814;Q459134;;AF;249020;Flensburg
+TN8001494;gare;Itzehoe;Itzehoe;Itzehoe;8001494;;53.924234;9.510045;DE;Europe/Berlin;Q16073;ICE;;code;3679469445;Q800962;;AIZ;553099;Itzehoe
+TN8001532;gare;Heide (Holstein);Heide (Holstein);Heide (Holstein);8001532;;54.192782;9.101105;DE;Europe/Berlin;Q492322;ICE;;code;1787116074;Q800902;;AHI;80863;Heide (Holst)
+TN8001551;gare;Husum;Husum;Husum;8001551;;54.472069;9.056051;DE;Europe/Berlin;Q21159;ICE;;nom;3632945747;Q472412;;AHM;663957;Husum
+TN8001572;gare;Niebüll;Niebüll;Niebüll;8001572;;54.789282;8.834669;DE;Europe/Berlin;Q21014;ICE;;code;779724927;Q323542;;ANB;360946;Niebüll
+TN8001583;gare;Westerland (Sylt);Westerland (Sylt);Westerland (Sylt);8001583;;54.905916;8.313041;DE;Europe/Berlin;Q21008;ICE;;nom;794524754;Q801596;;AWLA;220684;Westerland (Sylt)
+TN8002042;gare;Donauwörth;Donauwörth;Donauwörth;8002042;;48.714091;10.771561;DE;Europe/Berlin;Q53742;ICE;;code;1379035216;;;MDT;656343;Donauwörth
+TN8002084;gare;Günzburg;Günzburg;Günzburg;8002084;;48.460434;10.278672;DE;Europe/Berlin;Q489685;ICE;;code;4214795601;Q800859;;MGZB;679178;Günzburg
+TN8002089;gare;Neu-Ulm;Neu-Ulm;Neu-Ulm;8002089;;48.393406;10.00556;DE;Europe/Berlin;Q4120;ICE;;code;489553166;Q801236;de:9775:1711;MNM;514129;Neu-Ulm
+TN8002140;gare;Augsburg Hbf;Augsburg Hbf;Augsburg Hauptbahnhof;8002140;;48.365491;10.885691;DE;Europe/Berlin;Q2749;IC|ICE;;nom;1058668074;Q682505;de:09761:100;MA;5089;Augsburg Hbf
+TN8002181;gare;Buchloe;Buchloe;Buchloe;8002181;;48.033256;10.716116;DE;Europe/Berlin;Q265110;EC|ECE;;code;4530820014;Q800586;;MBU;26921;Buchloe
+TN8002252;gare;Memmingen;Memmingen;Memmingen;8002252;;47.985407;10.186987;DE;Europe/Berlin;Q14825;EC|ECE;;code;13620866;Q801171;;MM;502238;Memmingen
+TN8003025;gare;Berlin-Spandau;Berlin-Spandau;Berlin-Spandau;8003025;;52.534769;13.195629;DE;Europe/Berlin;Q64;ICE;;nom;3101920259;Q654980;;BSPD;386630;Berlin-Spandau
+TN8003037;gare;Berlin-Wannsee;Berlin-Wannsee;Berlin-Wannsee;8003037;;52.421199;13.18006;DE;Europe/Berlin;Q64;IC|ICE;;nom;455501170;Q567336;;BWS;407940;Berlin-Wannsee
+TN8003142;gare;Ostkreuz (Ringbahn);Ostkreuz (Ringbahn);Ostkreuz (Ringbahn);8003142;;52.502981;13.469119;DE;Europe/Berlin;Q64;IC;;code;5284961126;Q660045;;BOK;228936;Berlin Ostkreuz
+TN8003231;gare;Lichtenberg;Lichtenberg;Lichtenberg;8003231;;52.510234;13.497813;DE;Europe/Berlin;Q64;EC|EN|IC;;code;3995738144;Q634247;;BLI;244928;Berlin-Lichtenberg
+TN8003360;gare;Berlin-Schöneweide;Berlin-Schöneweide;Berlin-Schöneweide;8003360;;52.454874;13.509251;DE;Europe/Berlin;Q64;IC;;code;3540720029;Q540899;;BSWP;288718;Berlin-Schöneweide
+TN8003479;gare;Potsdam Hbf;Potsdam Hbf;Potsdam Hauptbahnhof;8003479;;52.391516;13.067223;DE;Europe/Berlin;Q1711;IC|ICE;;nom;3421260909;Q647973;;BPD;566339;Potsdam Hbf
+TN8004275;gare;Ruhland;Ruhland;Ruhland;8004275;;51.45526;13.870107;DE;Europe/Berlin;Q572601;EC|IC;;nom;134330087;Q801381;;BRU;481950;Ruhland
+TN8004318;gare;Hoyerswerda;Hoyerswerda - Wojerecy;Hoyerswerda - Wojerecy;8004318;;51.432778;14.231122;DE;Europe/Berlin;Q14904;EC|IC;;nom;3028759519;Q15617419;;BHW;98322;Hoyerswerda
+TN8004348;gare;Elsterwerda;Elsterwerda;Elsterwerda;8004348;;51.459813;13.516501;DE;Europe/Berlin;Q584473;EC|IC;;nom;2773783022;Q323268;;BEW;179898;Elsterwerda
+TN8005365;gare;Kassel-Wilhelmshöhe;Kassel-Wilhelmshöhe;Kassel-Wilhelmshöhe;8005365;;51.311388;9.447705;DE;Europe/Berlin;Q2865;ECE|IC|ICE;;nom;260716557;Q563272;;FKW;207139;Kassel-Wilhelmshöhe
+TN8005374;gare;Wabern (Bz Kassel);Wabern (Bz Kassel);Wabern (Bz Kassel);8005374;;51.102907;9.35809;DE;Europe/Berlin;Q621212;ICE;;code;2821187067;Q9369596;;FWAB;588098;Wabern (Bz Kassel)
+TN8005379;gare;Treysa;Treysa;Treysa;8005379;;50.910638;9.185868;DE;Europe/Berlin;Q516599;ICE;;code;2821118193;Q324771;;FTS;511481;Treysa
+TN8005386;gare;Marburg (Lahn);Marburg (Lahn);Marburg (Lahn);8005386;;50.819217;8.775088;DE;Europe/Berlin;Q3869;ICE;;code;2821118190;Q471844;;FMBG;122631;Marburg (Lahn)
+TN8005606;gare;Bebra;Bebra;Bebra;8005606;;50.968997;9.798216;DE;Europe/Berlin;Q558530;IC;;nom;475564605;Q326569;;FB;18279;Bebra
+TN8005637;gare;Fulda;Fulda;Fulda;8005637;;50.554754;9.684382;DE;Europe/Berlin;Q3963;IC|ICE;;code;1600298350;Q463931;de:6631:11049;FFU;481056;Fulda
+TN8005648;gare;Bad Hersfeld;Bad Hersfeld;Bad Hersfeld;8005648;;50.869888;9.71664;DE;Europe/Berlin;Q16145;ICE;;code;1720505511;Q324739;;FBHF;23291;Bad Hersfeld
+TN8006050;gare;Dresden Hbf;Dresden Hbf;Dresden Hbf;8006050;;51.040245;13.732077;DE;Europe/Berlin;Q1731;IC|ICE;;nom;25397500;Q704354;;DH;200548;Dresden Hbf
+TN8006216;gare;Dresden-Neustadt;Dresden-Neustadt;Dresden-Neustadt;8006216;;51.065867;13.74054;DE;Europe/Berlin;Q1731;IC|ICE;;nom;3723386251;Q800686;;DN;345643;Dresden-Neustadt
+TN8006233;gare;Riesa;Riesa;Riesa;8006233;;51.309541;13.287335;DE;Europe/Berlin;Q8775;EC|IC|ICE;;nom;961012947;Q801361;;DR;167720;Riesa
+TN8006349;gare;Freiberg (Sachs);Freiberg (Sachs);Freiberg (Sachs);8006349;;50.90867;13.344578;DE;Europe/Berlin;Q14819;IC;;nom;2749430565;Q800782;;DFR;283893;Freiberg (Sachs)
+TN8006377;gare;Chemnitz Hbf;Chemnitz Hbf;Chemnitz Hauptbahnhof;8006377;;50.839579;12.930589;DE;Europe/Berlin;Q2795;IC;;nom;3607858763;Q564795;;DC;440370;Chemnitz Hbf
+TN8007799;gare;Berlin Gesundbrunnen;Berlin Gesundbrunnen;Berlin Gesundbrunnen;8007799;;52.548645;13.390217;DE;Europe/Berlin;Q64;EC|EN|IC|ICE;;nom;459277140;Q678286;;BGS;450426;Berlin Gesundbrunnen
+TN8008073;gare;Hagen Hbf;Hagen Hbf;Hagen Hbf;8008073;;51.36296;7.460606;DE;Europe/Berlin;Q2871;IC|ICE;;nom;2397306450;Q529644;de:05914:2007;EHG;436430;Hagen Hbf
+TN8008094;gare;Düsseldorf Hbf;Düsseldorf Central Station;Düsseldorf Hauptbahnhof;8008094;;51.219734;6.794302;DE;Europe/Berlin;Q1718;IC|ICE;;nom;1880180223;Q255951;;KD;267355;Düsseldorf Hbf
+TN8008143;gare;Wuppertal Hbf;Wuppertal Hbf;Wuppertal Hauptbahnhof;8008143;;51.254578;7.150053;DE;Europe/Berlin;Q2107;IC|ICE;;nom;3862773818;Q541041;;KW;582031;Wuppertal Hbf
+TN8008179;gare;Solingen Hbf;Solingen Hbf;Solingen Hauptbahnhof;8008179;;51.161122;7.004223;DE;Europe/Berlin;Q2942;IC|ICE;;code;2204326323;Q471599;;KSO;306016;Solingen Hbf
+TN8008521;gare;Warburg (Westf);Warburg (Westf);Warburg (Westf);8008521;;51.492893;9.164048;DE;Europe/Berlin;Q968;ICE;;code;3986760009;Q801579;;HWAR;307734;Warburg (Westf)
+TN8010002;gare;Hamm (Westf) Hbf;Hamm (Westf) Hbf;Hamm (Westf) Hbf;8010002;;51.678575;7.807713;DE;Europe/Berlin;Q2880;IC|ICE;;code;2146217850;Q528204;de:05915:7756;EHM;654908;Hamm (Westf) Hbf
+TN8010053;gare;Dortmund Hbf;Dortmund Hbf;Dortmund Hbf;8010053;;51.517893;7.459283;DE;Europe/Berlin;Q1295;IC|ICE;;nom;1458488633;Q704394;de:05913:131;EDO;227262;Dortmund Hbf
+TN8010127;gare;Herne-Wanne-Eickel Hbf;Herne-Wanne-Eickel Hbf;Herne-Wanne-Eickel Hbf;8010127;;51.531238;7.166116;DE;Europe/Berlin;Q2904;IC|ICE;;code;3229747444;Q468749;;EWAN;20817;Herne-Wanne-Eickel Hbf
+TN8010138;gare;Recklinghausen Hbf;Recklinghausen Hbf;Recklinghausen Hauptbahnhof;8010138;;51.616096;7.203273;DE;Europe/Berlin;Q3050;IC|ICE;;code;3114398224;Q466357;;ERE;343599;Recklinghausen Hbf
+TN8010143;gare;Gelsenkirchen Hbf;Gelsenkirchen Hbf;Gelsenkirchen Hauptbahnhof;8010143;;51.504768;7.102298;DE;Europe/Berlin;Q2765;IC|ICE;;code;554461146;Q462284;;EG;381192;Gelsenkirchen Hbf
+TN8010179;gare;Bochum Hbf;Bochum Hauptbahnhof;Bochum Hauptbahnhof;8010179;;51.478533;7.223234;DE;Europe/Berlin;Q2103;IC|ICE;;nom;1578683190;Q453861;de:5911:5194;EBO;295975;Bochum Hbf
+TN8010184;gare;Essen Hbf;Essen Hbf;Essen Hauptbahnhof;8010184;;51.451477;7.014468;DE;Europe/Berlin;Q2066;IC|ICE;;nom;3010827615;Q135607;;EE;414856;Essen Hbf
+TN8010263;gare;Oberhausen Hbf;Oberhausen Hbf;Oberhausen Hbf;8010263;;51.474906;6.851681;DE;Europe/Berlin;Q2838;IC|ICE;;code;449582627;Q472955;;EOB;654559;Oberhausen Hbf
+TN8010316;gare;Duisburg Hbf;Duisburg Hbf;Duisburg Hauptbahnhof;8010316;;51.42967;6.776177;DE;Europe/Berlin;Q2100;IC|ICE;;nom;2970328245;Q567024;;EDG;224;Duisburg Hbf
+TN8010373;gare;Soest;Soest;Soest;8010373;;51.578417;8.104363;DE;Europe/Berlin;Q6149;ICE;;code;4310127541;Q7553541;de:05974:11246;ESOT;109695;Soest
+TN8011018;gare;Wiesbaden Hbf;Wiesbaden Hbf;Wiesbaden Hauptbahnhof;8011018;;50.069831;8.243985;DE;Europe/Berlin;Q1721;IC|ICE;;code;10688209087;Q667121;;FW;571920;Wiesbaden Hbf
+TN8011033;gare;Gießen;Gießen;Gießen;8011033;;50.579868;8.662212;DE;Europe/Berlin;Q3874;ICE;;code;2821098770;Q462086;;FG;198267;Gießen
+TN8011051;gare;Hanau Hbf;Hanau Hbf;Hanau Hbf;8011051;;50.121073;8.929215;DE;Europe/Berlin;Q3802;ICE;;code;33640346;Q538828;;FH;84610;Hanau Hbf
+TN8011065;gare;Frankfurt (Main) Süd;Frankfurt (Main) Süd;Frankfurt (Main) Süd;8011065;;50.099356;8.686302;DE;Europe/Berlin;Q1794;ECE|IC|ICE;;nom;2553727757;Q285550;de:6412:912;FFS;565305;Frankfurt (Main) Süd
+TN8011068;gare;Frankfurt (Main) Hbf;Frankfurt (Main) Hbf;Frankfurt (Main) Hauptbahnhof;8011068;;50.106654;8.662581;DE;Europe/Berlin;Q1794;ECE|IC|ICE;;nom;205364328;Q165368;de:6412:10:1;FF;419134;Frankfurt (Main) Hbf
+TN8011306;gare;Bensheim;Bensheim;Bensheim;8011306;;49.680791;8.616808;DE;Europe/Berlin;Q14872;ICE;;code;17658630;Q321004;;FBH;552343;Bensheim
+TN8011310;gare;Weinheim (Bergstr) Hbf;Weinheim (Bergstr) Hbf;Weinheim (Bergstr) Hbf;8011310;;49.553461;8.665534;DE;Europe/Berlin;Q7050;ICE;;nom;21412520;Q324220;de:08226:4109;RWE;608160;Weinheim (Bergstr) Hbf
+TN8011336;gare;Darmstadt Hbf;Darmstadt Hbf;Darmstadt Hauptbahnhof;8011336;;49.872853;8.629411;DE;Europe/Berlin;Q2973;ECE|IC|ICE;;code;3175310444;Q682529;;FD;506015;Darmstadt Hbf
+TN8011379;gare;Friedberg (Hess);Friedberg (Hess);Friedberg (Hess);8011379;;50.332691;8.761258;DE;Europe/Berlin;Q516485;ICE;;nom;4238186252;Q439509;;FFG;208327;Friedberg (Hess)
+TN8011581;gare;Haiger;Haiger;Haiger;8011581;;50.741266;8.221427;DE;Europe/Berlin;Q516448;ICE;;code;2896838160;Q800867;;FHG;527423;Haiger
+TN8013050;gare;Göttingen;Göttingen;Göttingen;8013050;;51.536783;9.925897;DE;Europe/Berlin;Q3033;ECE|IC|ICE;;nom;3059639306;Q320098;;HG;9936;Göttingen
+TN8013227;gare;Helmstedt;Helmstedt;Helmstedt;8013227;;52.222044;11.01053;DE;Europe/Berlin;Q486562;IC;;nom;34706932;Q11708873;;HHLM;197679;Helmstedt
+TN8013240;gare;Braunschweig Hbf;Braunschweig Hbf;Braunschweig Hauptbahnhof;8013240;;52.252144;10.540335;DE;Europe/Berlin;Q2773;IC|ICE;;nom;333165742;Q318930;;HBS;563662;Braunschweig Hbf
+TN8013318;gare;Altenbeken;Altenbeken;Altenbeken;8013318;;51.766456;8.943023;DE;Europe/Berlin;Q183262;ICE;;code;3493177832;Q322534;de:5774:7131:30;HA;277163;Altenbeken
+TN8013413;gare;Hildesheim Hbf;Hildesheim Hbf;Hildesheim Hauptbahnhof;8013413;;52.160721;9.954203;DE;Europe/Berlin;Q3185;ICE;;code;3616040153;Q324775;;HHI;579165;Hildesheim Hbf
+TN8013552;gare;Hannover Hbf;Hanover Central Station;Hannover Hauptbahnhof;8013552;;52.37695;9.741653;DE;Europe/Berlin;Q1715;ECE|IC|ICE;;code;3059639307;Q703918;;HH;553707;Hannover Hbf
+TN8013555;gare;Hannover Messe/Laatzen;Hannover Messe/Laatzen;Hannover Messe/Laatzen;8013555;;52.31737;9.792482;DE;Europe/Berlin;Q14856;ICE;;code;250587750;Q314955;;HHML;162450;Hannover Messe/Laatzen
+TN8013565;gare;Wunstorf;Wunstorf;Wunstorf;8013565;;52.422157;9.451408;DE;Europe/Berlin;Q14827;IC;;code;25268512;Q15944999;;HWUN;638814;Wunstorf
+TN8013577;gare;Minden (Westf);Minden (Westf);Minden (Westf);8013577;;52.290562;8.93446;DE;Europe/Berlin;Q3846;IC|ICE;;code;1202746817;Q472651;;HM;321795;Minden (Westf)
+TN8013585;gare;Bad Oeynhausen;Bad Oeynhausen;Bad Oeynhausen;8013585;;52.205366;8.796537;DE;Europe/Berlin;Q6858;IC|ICE;;code;3450593811;Q323677;;HOY;317924;Bad Oeynhausen
+TN8013593;gare;Herford;Herford;Herford;8013593;;52.119639;8.663775;DE;Europe/Berlin;Q3971;IC|ICE;;code;3735046925;Q320668;de:5758:1380;EHFD;103000;Herford
+TN8013597;gare;Bielefeld Hbf;Bielefeld Main Station;Bielefeld Hauptbahnhof;8013597;;52.029332;8.532713;DE;Europe/Berlin;Q2112;IC|ICE;;code;1874501382;Q564750;;EBIL;374444;Bielefeld Hbf
+TN8013606;gare;Gütersloh Hbf;Gütersloh Hbf;Gütersloh Hbf;8013606;;51.906904;8.384946;DE;Europe/Berlin;Q3771;IC|ICE;;code;3450444902;Q323533;;EGLO;93462;Gütersloh Hbf
+TN8013622;gare;Uelzen;Uelzen;Uelzen;8013622;;52.969595;10.552975;DE;Europe/Berlin;Q15989;ECE|IC|ICE;;nom;4725309874;Q322286;;HU;80400;Uelzen
+TN8013631;gare;Celle;Celle;Celle;8013631;;52.620984;10.062584;DE;Europe/Berlin;Q3933;ICE;;code;252367716;Q23065531;de:03351:50;HC;136719;Celle
+TN8013732;gare;Nienburg (Weser);Nienburg (Weser);Nienburg (Weser);8013732;;52.645376;9.217827;DE;Europe/Berlin;Q16079;IC;;code;4530820001;Q323374;;HNBG;145281;Nienburg (Weser)
+TN8013741;gare;Verden (Aller);Verden (Aller);Verden (Aller);8013741;;52.920795;9.237876;DE;Europe/Berlin;Q486551;IC;;code;25268471;Q612074;;HV;448097;Verden (Aller)
+TN8013751;gare;Bremen Hbf;Bremen Hbf;Bremen Hauptbahnhof;8013751;;53.083297;8.813758;DE;Europe/Berlin;Q24879;IC|ICE;;nom;8041901931;Q631094;de:04011:13927;HB;261623;Bremen Hbf
+TN8013828;gare;Delmenhorst;Delmenhorst;Delmenhorst;8013828;;53.052809;8.629463;DE;Europe/Berlin;Q3907;IC|ICE;;code;26490141;Q5254284;;HD;488170;Delmenhorst
+TN8013831;gare;Hude;Hude;Hude;8013831;;53.109356;8.461354;DE;Europe/Berlin;Q703497;IC;;code;1347965940;Q5928360;;HHUD;322415;Hude
+TN8014008;gare;Mannheim Hbf;Mannheim Hbf;Mannheim Hauptbahnhof;8014008;;49.479236;8.469411;DE;Europe/Berlin;Q2119;ECE|IC|ICE;;nom;25439439;Q706994;de:08222:2417;RM;61555;Mannheim Hbf
+TN8014021;gare;Heidelberg Hbf;Heidelberg Hbf;Heidelberg Hauptbahnhof;8014021;;49.403474;8.675422;DE;Europe/Berlin;Q2966;ECE|IC|ICE;;nom;2820941790;Q467998;de:08221:1160;RH;590219;Heidelberg Hbf
+TN8014035;gare;Wiesloch-Walldorf;Wiesloch-Walldorf;Wiesloch-Walldorf;8014035;;49.291055;8.664218;DE;Europe/Berlin;Q22874;IC|ICE;;nom;1688514504;Q324979;de:08226:4252;RWS;218173;Wiesloch-Walldorf
+TN8014040;gare;Bruchsal;Bruchsal;Bruchsal;8014040;;49.124429;8.589793;DE;Europe/Berlin;Q7059;IC|ICE;;nom;25436271;Q318279;de:08215:1856;RBR;264083;Bruchsal
+TN8014043;gare;Karlsruhe-Durlach;Karlsruhe-Durlach;Karlsruhe-Durlach;8014043;;49.002096;8.462254;DE;Europe/Berlin;Q1040;IC|ICE;;nom;2958859136;Q442305;de:08212:801;RKDU;251272;Karlsruhe-Durlach
+TN8014228;gare;Karlsruhe Hbf;Karlsruhe Hbf;Karlsruhe Hauptbahnhof;8014228;;48.993616;8.402052;DE;Europe/Berlin;Q1040;ECE|IC|ICE;;nom;2574283615;Q688541;de:08212:90;RK;204502;Karlsruhe Hbf
+TN8014277;gare;Baden-Baden;Baden-Baden;Baden-Baden;8014277;;48.790442;8.191063;DE;Europe/Berlin;Q4100;ICE;;nom;2931245709;Q442698;de:08211:1847;RBB;287462;Baden-Baden
+TN8014292;gare;Kehl;Kehl;Kehl;8014292;;48.576837;7.807123;DE;Europe/Berlin;Q15979;ICE;;code;2931354552;Q669924;de:08317:15011;RKL;520454;Kehl
+TN8014309;gare;Offenburg;Offenburg;Offenburg;8014309;;48.476515;7.946541;DE;Europe/Berlin;Q4044;ECE|ICE;;nom;2931428598;Q470320;de:08317:14506;RO;496137;Offenburg
+TN8014325;gare;Ringsheim/Europa-Park;Ringsheim/Europa-Park;Ringsheim/Europa-Park;8014325;;48.248649;7.773031;DE;Europe/Berlin;Q557798;ECE;;nom;3740588666;Q110233880;de:08317:16700;RRI;476782;Ringsheim/Europa-Park
+TN8014350;gare;Freiburg, Hauptbahnhof;Freiburg, Hauptbahnhof;Freiburg, Hauptbahnhof;8014350;;47.99746;7.840954;DE;Europe/Berlin;Q2833;ECE|ICE;;gtfs;;;;;386253;Freiburg, Hauptbahnhof
+TN8014413;gare;Müllheim im Markgräflerland;Müllheim im Markgräflerland;Müllheim im Markgräflerland;8014413;;47.810102;7.599561;DE;Europe/Berlin;Q505468;ICE;;nom;2870447635;Q3097154;de:08315:6522;RML;174937;Müllheim im Markgräflerland
+TN8014427;gare;Weil am Rhein;Weil am Rhein;Weil am Rhein;8014427;;47.593541;7.608414;DE;Europe/Berlin;Q61909;ICE;;nom;2691597727;Q3098065;de:08336:6639;RW;370599;Weil am Rhein
+TN8014518;gare;St Georgen (Schwarzw);St Georgen (Schwarzw);St. Georgen(Schwarzw);8014518;;48.124001;8.341906;DE;Europe/Berlin;Q83036;ICE;;nom;3750401728;Q801395;de:08326:6597;RSGO;282839;St Georgen (Schwarzw)
+TN8014521;gare;Villingen (Schwarzwald);Villingen train station;Villingen (Schwarzwald);8014521;;48.057815;8.465287;DE;Europe/Berlin;Q3865;ICE;;nom;2866952341;Q801560;de:08326:6592;RVL;226442;Villingen (Schwarzw)
+TN8014529;gare;Donaueschingen;Donaueschingen;Donaueschingen;8014529;;47.947972;8.498756;DE;Europe/Berlin;Q83062;ICE;;nom;3750401727;Q213233;de:08326:6537;RDO;459125;Donaueschingen
+TN8014554;gare;Engen;Engen;Engen;8014554;;47.856258;8.772839;DE;Europe/Berlin;Q515527;IC;;nom;1128306281;Q28029178;de:08335:6551;RENG;116816;Engen
+TN8014571;gare;Radolfzell;Radolfzell;Radolfzell;8014571;;47.73619;8.968906;DE;Europe/Berlin;Q16113;IC;;nom;1128306277;Q11833501;de:08335:6560;RRZ;163208;Radolfzell
+TN8014586;gare;Konstanz;Konstanz;Konstanz;8014586;;47.658869;9.177217;DE;Europe/Berlin;Q3834;IC;;code;939682216;Q438791;de:08335:6554;RKO;76210;Konstanz
+TN8015149;gare;Neuss Hbf;Neuss Hbf;Neuss Hbf;8015149;;51.204438;6.684671;DE;Europe/Berlin;Q2948;ICE;;code;1868965214;Q472236;;KN;418525;Neuss Hbf
+TN8015165;gare;Mönchengladbach Hbf;Mönchengladbach Hbf;Mönchengladbach Hbf;8015165;;51.19672;6.446273;DE;Europe/Berlin;Q2758;ICE;;code;2631683231;Q547338;;KM;629927;Mönchengladbach Hbf
+TN8015172;gare;Rheydt Hbf;Rheydt Hbf;Rheydt Hauptbahnhof;8015172;;51.163225;6.439673;DE;Europe/Berlin;Q2758;ICE;;code;3218812644;Q130508;;KRY;414694;Rheydt Hbf
+TN8015183;gare;Erkelenz;Erkelenz;Erkelenz;8015183;;51.076552;6.321515;DE;Europe/Berlin;Q7025;ICE;;code;3486999437;Q800735;;KERZ;651040;Erkelenz
+TN8015188;gare;Geilenkirchen;Geilenkirchen;Geilenkirchen;8015188;;50.960995;6.124436;DE;Europe/Berlin;Q205050;ICE;;code;4302112263;Q800806;;KGEK;645375;Geilenkirchen
+TN8015321;gare;Köln-Ehrenfeld;Köln-Ehrenfeld;Köln-Ehrenfeld;8015321;;50.951502;6.916529;DE;Europe/Berlin;Q365;ICE;;code;4551541317;Q3131028;;KKER;370125;Köln-Ehrenfeld
+TN8015345;gare;Aachen Hbf;Aachen Central Train Station;Aachen Hauptbahnhof;8015345;;50.767766;6.091382;DE;Europe/Berlin;Q1017;ICE;;nom;3070631211;Q300706;de:05334:1008;KA;654121;Aachen Hbf
+TN8015458;gare;Köln Hbf;Köln Hbf;Köln Hauptbahnhof;8015458;;50.942784;6.95907;DE;Europe/Berlin;Q365;IC|ICE;;nom;2399559029;Q1954;;KK;674626;Köln Hbf
+TN8015469;gare;Köln Süd;Köln Süd;Köln Süd;8015469;;50.927601;6.937271;DE;Europe/Berlin;Q365;ICE;;code;3044304327;Q801050;;KKS;627095;Köln Süd
+TN8015485;gare;Bonn Hbf;Bonn Hbf;Bonn Hauptbahnhof;8015485;;50.732044;7.096765;DE;Europe/Berlin;Q586;IC|ICE;;nom;2713060210;Q55423;;KB;237236;Bonn Hbf
+TN8015561;gare;Köln Messe/Deutz;Cologne Trade Fair/Deutz;Köln Messe/Deutz;8015561;;50.940989;6.975131;DE;Europe/Berlin;Q365;ICE;;code;74880878;Q151146;;KKDZ;177970;Köln Messe/Deutz
+TN8015588;gare;Siegburg/Bonn;Siegburg/Bonn;Siegburg/Bonn;8015588;;50.794026;7.202658;DE;Europe/Berlin;Q14870;ICE;;nom;35879657;Q316905;;KSIB;321569;Siegburg/Bonn
+TN8016008;gare;Weißenfels;Weißenfels;Weißenfels;8016008;;51.204656;11.971016;DE;Europe/Berlin;Q14815;IC;;nom;2104102802;Q9371879;;UW;416754;Weißenfels
+TN8016011;gare;Naumburg (Saale) Hbf;Naumburg (Saale) Hbf;Naumburg (Saale) Hauptbahnhof;8016011;;51.162927;11.796639;DE;Europe/Berlin;Q15986;IC|ICE;;nom;3073802252;Q1971888;;UNM;27273;Naumburg (Saale) Hbf
+TN8016043;gare;Erfurt Hbf;Erfurt Hbf;Erfurt Hauptbahnhof;8016043;;50.972285;11.038082;DE;Europe/Berlin;Q1729;ICE;;nom;2700123189;Q476107;;UE P;531090;Erfurt Hbf
+TN8016051;gare;Gotha;Gotha;Gotha;8016051;;50.939047;10.712378;DE;Europe/Berlin;Q6986;ICE;;nom;1781376484;Q800830;;UGO;331076;Gotha
+TN8016077;gare;Eisenach Hbf;Eisenach Hbf;Eisenach Hauptbahnhof;8016077;;50.976897;10.331994;DE;Europe/Berlin;Q7070;ICE;;nom;3061947220;Q319908;;UEI;75523;Eisenach Hbf
+TN8016320;gare;Jena Paradies;Jena Paradies;Jena Paradies;8016320;;50.924932;11.58766;DE;Europe/Berlin;Q3150;IC|ICE;;nom;1126168394;Q320572;;UJP;102548;Jena Paradies
+TN8016321;gare;Jena-Göschwitz;Jena-Göschwitz;Jena-Göschwitz;8016321;;50.883784;11.593251;DE;Europe/Berlin;Q3150;IC|ICE;;nom;262650799;Q166545;;UGW;327872;Jena-Göschwitz
+TN8016332;gare;Saalfeld (Saale);Saalfeld (Saale);Saalfeld (Saale);8016332;;50.650449;11.374565;DE;Europe/Berlin;Q155984;IC|ICE;;nom;2993548324;Q320974;;US;495820;Saalfeld (Saale)
+TN8016333;gare;Rudolstadt (Thür);Rudolstadt (Thür);Rudolstadt (Thür);8016333;;50.718003;11.339226;DE;Europe/Berlin;Q517107;IC;;nom;3059447826;Q50300514;;UR;563077;Rudolstadt (Thür)
+TN8016563;gare;Lindau-Reutin;Lindau-Reutin;Lindau-Reutin;8016563;;47.552455;9.703115;DE;Europe/Berlin;Q153969;EC|ECE|ICE;;nom;4815522994;Q28777562;;MLIR;321464;Lindau-Reutin
+TN8019001;gare;Remagen;Remagen;Remagen;8019001;;50.577321;7.229708;DE;Europe/Berlin;Q486548;ICE;;code;31172814;Q324036;;KRE;457967;Remagen
+TN8019008;gare;Andernach;Andernach;Andernach;8019008;;50.434477;7.405067;DE;Europe/Berlin;Q490058;ICE;;code;3322912824;Q322789;;KAND;329122;Andernach
+TN8019021;gare;Koblenz Hbf;Koblenz Hbf;Koblenz Hbf;8019021;;50.350823;7.589264;DE;Europe/Berlin;Q3104;IC|ICE;;nom;3524305897;Q469682;;KKO;120521;Koblenz Hbf
+TN8019041;gare;Bingen (Rhein) Hbf;Bingen Central Station;Bingen (Rhein) Hauptbahnhof;8019041;;49.96881;7.883485;DE;Europe/Berlin;Q285879;IC|ICE;;code;27464973;Q821332;;FBGK;518285;Bingen (Rhein) Hbf
+TN8019051;gare;Mainz Hbf;Mainz Hbf;Mainz Hauptbahnhof;8019051;;50.001113;8.258723;DE;Europe/Berlin;Q1720;IC|ICE;;code;7141879068;Q636700;;FMZ;225895;Mainz Hbf
+TN8019066;gare;Worms Hbf;Worms Hbf;Worms Hauptbahnhof;8019066;;49.63518;8.356647;DE;Europe/Berlin;Q3852;ICE;;nom;27144516;Q320361;de:07319:4415;FWOR;610399;Worms Hbf
+TN8019082;gare;Ludwigshafen (Rhein) Hauptbahnhof;Ludwigshafen (Rhein) Hauptbahnhof;Ludwigshafen (Rhein) Hauptbahnhof;8019082;;49.477559;8.434148;DE;Europe/Berlin;Q2910;ICE;;code;66795510;Q319977;;RL;9971;Ludwigshafen (Rh) Hbf
+TN8019403;gare;Neustadt (Weinstraße) Hauptbahnhof;Neustadt (Weinstraße) Hauptbahnhof;Neustadt (Weinstraße) Hauptbahnhof;8019403;;49.349567;8.140389;DE;Europe/Berlin;Q4149;ICE;;code;84766819;Q320066;;RN;100791;Neustadt (Weinstr) Hbf
+TN8019585;gare;Montabaur;Montabaur;Montabaur;8019585;;50.44483;7.825224;DE;Europe/Berlin;Q632991;ICE;;code;2453992382;Q469336;;FMT;238287;Montabaur
+TN8019698;gare;Kaiserslautern Hbf;Kaiserslautern Hbf;Kaiserslautern Hauptbahnhof;8019698;;49.435985;7.76893;DE;Europe/Berlin;Q3758;ICE;;nom;30959690;Q547299;de:7312:9035:1;SKL;613079;Kaiserslautern Hbf
+TN8019714;gare;Landstuhl;Landstuhl;Landstuhl;8019714;;49.416314;7.566388;DE;Europe/Berlin;Q22950;ICE;;code;301831690;Q15785183;;SLD;328358;Landstuhl
+TN8020012;gare;Simbach (Inn);Simbach (Inn);Simbach (Inn);8020012;;48.262829;13.022925;DE;Europe/Berlin;Q253236;EC;;code;40202893;Q26836635;;MSBI;375478;Simbach (Inn)
+TN8020117;gare;Traunstein;Traunstein;Traunstein;8020117;;47.869742;12.638815;DE;Europe/Berlin;Q253119;EC|ICE;;code;4530820012;Q801525;;MTS;269015;Traunstein
+TN8020150;gare;Prien a Chiemsee;Prien am Chiemsee;Prien am Chiemsee;8020150;;47.85501;12.346969;DE;Europe/Berlin;Q18863;ICE;;code;4530820000;Q801333;;MPR;610994;Prien am Chiemsee
+TN8020156;gare;Bad Endorf (Oberbay);Bad Endorf (Oberbay);Bad Endorf (Oberbay);8020156;;47.904855;12.301811;DE;Europe/Berlin;Q251462;ICE;;code;13876512;Q800421;;MBEF;192415;Bad Endorf
+TN8020174;gare;Rosenheim;Rosenheim;Rosenheim;8020174;;47.850348;12.119504;DE;Europe/Berlin;Q4007;EC|ICE;;code;2578699502;Q473903;;MRO;361407;Rosenheim
+TN8020234;gare;München Ost;Munich East;München Ost;8020234;;48.127721;11.605519;DE;Europe/Berlin;Q1726;EC|ICE;;code;2465304880;Q801228;de:09162:5;MOP;448841;München Ost
+TN8020286;gare;München-Pasing;München-Pasing;München-Pasing;8020286;;48.149956;11.461767;DE;Europe/Berlin;Q1726;ICE;;code;2476438979;Q564970;;MP;578993;München-Pasing
+TN8020291;gare;Mittenwald;Mittenwald;Mittenwald;8020291;;47.439992;11.265749;DE;Europe/Berlin;Q127553;IC;;code;13925786;Q18608312;;MMW;517727;Mittenwald
+TN8020292;gare;Klais;Klais;Klais;8020292;;47.483034;11.238421;DE;Europe/Berlin;Q509557;IC;;code;13925787;Q54869449;;MKLA;391558;Klais
+TN8020295;gare;Garmisch-Partenkirchen;Garmisch-Partenkirchen;Garmisch-Partenkirchen;8020295;;47.491541;11.097018;DE;Europe/Berlin;Q127043;IC|ICE;;code;13927006;Q800804;;MGP;537823;Garmisch-Partenkirchen
+TN8020301;gare;Murnau;Murnau;Murnau;8020301;;47.682276;11.192779;DE;Europe/Berlin;Q254356;ICE;;code;473263479;Q15107232;;MMU;264659;Murnau
+TN8020305;gare;Weilheim (Oberbayern);Weilheim (Oberbayern);Weilheim (Oberbayern);8020305;;47.845221;11.143029;DE;Europe/Berlin;Q535674;IC|ICE;;code;11298518;Q11774738;;MWH;519265;Weilheim (Oberbay)
+TN8020310;gare;Tutzing;Tutzing;Tutzing;8020310;;47.907107;11.272801;DE;Europe/Berlin;Q533166;ICE;;code;2497168220;Q801533;;MTZ;568449;Tutzing
+TN8020347;gare;München Hbf;Munich Central Station;München Hauptbahnhof;8020347;;48.140725;11.556943;DE;Europe/Berlin;Q1726;EC|ECE|IC|ICE;;nom;2470201868;Q254647;;MH;97445;München Hbf
+TN8020369;gare;Treuchtlingen;Treuchtlingen;Treuchtlingen;8020369;;48.961307;10.908258;DE;Europe/Berlin;Q252466;IC|ICE;;code;4418226827;Q721990;;MTL;627949;Treuchtlingen
+TN8021011;gare;Münster (Westf) Hbf;Münster (Westf) Hbf;Münster (Westf) Hauptbahnhof;8021011;;51.956405;7.635792;DE;Europe/Berlin;Q2742;IC|ICE;;code;3374898279;Q564761;de:05515:41000;EMST;394491;Münster (Westf) Hbf
+TN8021025;gare;Osnabrück Hbf;Osnabrück Hbf;Osnabrück Hauptbahnhof;8021025;;52.272906;8.061566;DE;Europe/Berlin;Q2916;ICE;;code;268894281;Q464355;;HO;309595;Osnabrück Hbf
+TN8021031;gare;Osnabrück Altstadt;Osnabrück Altstadt;Osnabrück Altstadt;8021031;;52.280802;8.046024;DE;Europe/Berlin;Q2916;ICE;;code;4072012965;Q7107273;;HOHT;490036;Osnabrück Altstadt
+TN8021041;gare;Diepholz;Diepholz;Diepholz;8021041;;52.604931;8.38053;DE;Europe/Berlin;Q498534;ICE;;code;293424465;Q5274966;;HDIP;78029;Diepholz
+TN8021067;gare;Rheine;Rheine;Rheine;8021067;;52.27617;7.434019;DE;Europe/Berlin;Q3890;IC|ICE;;code;3451020543;Q277743;de:05566:60846;HR;112398;Rheine
+TN8021075;gare;Lingen (Ems);Lingen (Ems);Lingen (Ems);8021075;;52.519963;7.321595;DE;Europe/Berlin;Q4185;IC;;code;4530820002;Q320255;;HLIG;593848;Lingen (Ems)
+TN8021078;gare;Meppen;Meppen;Meppen;8021078;;52.69598;7.298065;DE;Europe/Berlin;Q15977;IC;;code;3599570363;Q651214;;HMEP;214662;Meppen
+TN8021086;gare;Papenburg;Papenburg;Papenburg;8021086;;53.089894;7.386978;DE;Europe/Berlin;Q14957;IC;;code;289857892;Q7132569;;HPAP;667165;Papenburg (Ems)
+TN8021090;gare;Leer (Ostfriesland);Leer (Ostfriesland);Leer (Ostfriesland);8021090;;53.231389;7.465159;DE;Europe/Berlin;Q15984;IC;;code;4530820003;Q325154;;HLEE;526568;Leer (Ostfriesl)
+TN8021099;gare;Emden Hbf;Emden Hbf;Emden Hbf;8021099;;53.369078;7.195181;DE;Europe/Berlin;Q4174;IC;;code;8850875841;Q320682;;HE;357611;Emden Hbf
+TN8021105;gare;Marienhafe;Marienhafe;Marienhafe;8021105;;53.519129;7.274529;DE;Europe/Berlin;Q622159;IC;;code;4578556183;Q15247532;;HMAR;290897;Bahnhof, Marienhafe
+TN8021109;gare;Norden;Norden;Norden;8021109;;53.588065;7.21926;DE;Europe/Berlin;Q492366;IC;;nom;4252690385;Q7050599;;HNN;563343;Norden
+TN8021156;gare;Bad Bentheim;Bad Bentheim;Bad Bentheim;8021156;;52.309733;7.158289;DE;Europe/Berlin;Q574332;ICE;;code;4530820008;Q2028380;;HBTH;551935;Bad Bentheim
+TN8021173;gare;Bünde (Westf);Bünde (Westf);Bünde (Westf);8021173;;52.202246;8.574333;DE;Europe/Berlin;Q7021;ICE;;code;21303996;Q317151;de:05758:1120;HBDE;409943;Bünde (Westf)
+TN8021204;gare;Oldenburg (Oldb) Hbf;Oldenburg (Oldb) Hbf;Oldenburg (Oldb) Hbf;8021204;;53.144191;8.223113;DE;Europe/Berlin;Q2936;IC|ICE;;code;91753264;Q543350;;HOLD;252824;Oldenburg (Oldb) Hbf
+TN8021229;gare;Bad Zwischenahn;Bad Zwischenahn;Bad Zwischenahn;8021229;;53.182471;8.003782;DE;Europe/Berlin;Q504526;IC;;code;99707282;Q9164004;;HZWI;201840;Bad Zwischenahn
+TN8021232;gare;Westerstede-Ocholt;Westerstede-Ocholt;Westerstede-Ocholt;8021232;;53.202162;7.886781;DE;Europe/Berlin;Q492360;IC;;code;99707277;Q15945001;;HOCH;662356;Westerstede-Ocholt
+TN8021234;gare;Augustfehn;Augustfehn;Augustfehn;8021234;;53.220906;7.759246;DE;Europe/Berlin;Q503471;IC;;code;331311206;Q15193988;;HAUG;398937;Augustfehn
+TN8021453;gare;Norddeich;Norddeich;Norddeich;8021453;;53.621409;7.161077;DE;Europe/Berlin;Q492366;IC;;nom;4530819995;Q1660405;de:03452:67921;HND;447995;Norddeich
+TN8021456;gare;Emden Außenhafen;Emden Außenhafen;Emden Außenhafen;8021456;;53.344083;7.185873;DE;Europe/Berlin;Q4174;IC;;code;2471022759;Q800727;;HEA;387560;Emden Außenhafen
+TN8021706;gare;Norddeich Mole;Norddeich Mole;Norddeich Mole;8021706;;53.624272;7.158572;DE;Europe/Berlin;Q492366;IC;;nom;4530819994;Q7050584;;HNDM;482826;Norddeich Mole
+TN8022023;gare;Ludwigsstadt;Ludwigsstadt;Ludwigsstadt;8022023;;50.486677;11.382978;DE;Europe/Berlin;Q163024;IC;;nom;2066755512;Q55621428;;NLUS;473969;Ludwigsstadt
+TN8022035;gare;Kronach;Kronach;Kronach;8022035;;50.239712;11.320188;DE;Europe/Berlin;Q494537;IC;;nom;383078569;Q125954;;NK;630842;Kronach
+TN8022056;gare;Lichtenfels;Lichtenfels;Lichtenfels;8022056;;50.146269;11.058952;DE;Europe/Berlin;Q160405;IC|ICE;;nom;21438697;Q324749;;NLF;445068;Lichtenfels
+TN8022090;gare;Bamberg;Bamberg;Bamberg;8022090;;49.900636;10.899734;DE;Europe/Berlin;Q3936;IC|ICE;;nom;2835627177;Q800444;;NBA;612519;Bamberg
+TN8022163;gare;Erlangen;Erlangen;Erlangen;8022163;;49.596069;11.001591;DE;Europe/Berlin;Q117751880;IC|ICE;;code;4530820005;Q800737;;NER;329249;Erlangen
+TN8022193;gare;Nürnberg Hbf;Nürnberg Hbf;Nürnberg Hauptbahnhof;8022193;;49.445199;11.082309;DE;Europe/Berlin;Q2090;IC|ICE;;code;4543919208;Q682583;;NN;297400;Nürnberg Hbf
+TN8022534;gare;Würzburg Hbf;Würzburg Hbf;Würzburg Hauptbahnhof;8022534;;49.802155;9.935891;DE;Europe/Berlin;Q118464900;IC|ICE;;code;27453687;Q682609;;NWH;512309;Würzburg Hbf
+TN8022609;gare;Aschaffenburg Hbf;Aschaffenburg Hbf;Aschaffenburg Hbf;8022609;;49.980666;9.143882;DE;Europe/Berlin;Q3942;IC|ICE;;code;30717143;Q203532;;NAH;664242;Aschaffenburg Hbf
+TN8022728;gare;Ansbach;Ansbach;Ansbach;8022728;;49.297943;10.577733;DE;Europe/Berlin;Q14859;IC|ICE;;code;15431109;Q138493;;NAN;626565;Ansbach
+TN8022803;gare;Coburg;Coburg;Coburg;8022803;;50.262759;10.957511;DE;Europe/Berlin;Q14821;ICE;;nom;102871249;Q800626;;NC;417432;Coburg
+TN8023002;gare;Halle (Saale) Hbf;Halle (Saale) Hbf;Halle (Saale) Hauptbahnhof;8023002;;51.477487;11.987296;DE;Europe/Berlin;Q2814;IC|ICE;;nom;250082941;Q320366;de:15002:8010159;LH;590100;Halle (Saale) Hbf
+TN8023141;gare;Lutherstadt Wittenberg Hbf;Lutherstadt Wittenberg Hbf;Lutherstadt Wittenberg Hbf;8023141;;51.86752;12.662063;DE;Europe/Berlin;Q6837;ICE;;nom;280139991;Q801132;;LW;482664;Lutherstadt Wittenberg Hbf
+TN8023148;gare;Bitterfeld;Bitterfeld;Bitterfeld;8023148;;51.622599;12.316895;DE;Europe/Berlin;Q7007;IC|ICE;;nom;2480240101;Q9172296;;LBT;319331;Bitterfeld
+TN8023179;gare;Leipzig Hbf;Leipzig Hbf;Leipzig Hauptbahnhof;8023179;;51.346552;12.383086;DE;Europe/Berlin;Q2079;EC|IC|ICE;;nom;376142577;Q703916;;LL;359188;Leipzig Hbf
+TN8023723;gare;Dessau Hbf;Dessau Hbf;Dessau Hauptbahnhof;8023723;;51.839882;12.234789;DE;Europe/Berlin;Q3828;IC;;nom;2844061660;Q266559;de:15001:3167;LD;16666;Dessau Hbf
+TN8024001;gare;Magdeburg Hbf;Magdeburg Central Station;Magdeburg Hauptbahnhof;8024001;;52.130517;11.626719;DE;Europe/Berlin;Q1733;IC|ICE;;nom;3087634633;Q455960;;LM;98330;Magdeburg Hbf
+TN8024019;gare;Brandenburg Hbf;Brandenburg Hbf;Brandenburg Hauptbahnhof;8024019;;52.400481;12.56575;DE;Europe/Berlin;Q3931;IC|ICE;;nom;286639857;Q4956662;;LB;259010;Brandenburg Hbf
+TN8024062;gare;Stendal Hbf;Stendal Hbf;Stendal Hauptbahnhof;8024062;;52.594677;11.854887;DE;Europe/Berlin;Q7082;IC;;nom;4530819998;Q801468;de:15090:8010334;LS;309876;Stendal Hbf
+TN8024137;gare;Köthen;Köthen;Köthen;8024137;;51.752301;11.989289;DE;Europe/Berlin;Q1796771;IC;;nom;2975991455;Q15107206;;LK;315453;Köthen
+TN8024585;gare;Salzwedel;Salzwedel;Salzwedel;8024585;;52.858293;11.161101;DE;Europe/Berlin;Q486985;IC;;nom;32881721;Q801391;;LSW;97176;Salzwedel
+TN8025391;gare;Saarbrücken Hbf;Saarbrücken Central Station;Saarbrücken Hauptbahnhof;8025391;;49.241197;6.990794;DE;Europe/Berlin;Q1724;ICE;;nom;259449966;Q127089;;SSH;647861;Saarbrücken Hbf
+TN8025459;gare;Homburg (Saar) Hbf;Homburg (Saar) Hbf;Homburg (Saar) Hauptbahnhof;8025459;;49.327814;7.336531;DE;Europe/Berlin;Q7040;ICE;;code;117552968;Q324828;;SHO;340992;Homburg (Saar) Hbf
+TN8026294;gare;Regensburg Hbf;Regensburg Hbf;Regensburg Hauptbahnhof;8026294;;49.012206;12.099733;DE;Europe/Berlin;Q2978;IC|ICE;;code;2703868858;Q138888;;NRH;284045;Regensburg Hbf
+TN8027016;gare;Bad Kleinen;Bad Kleinen;Bad Kleinen;8027016;;53.766685;11.466198;DE;Europe/Berlin;Q552679;IC|ICE;;nom;252097111;Q324562;;WK;89684;Bad Kleinen
+TN8027021;gare;Bützow;Bützow;Bützow;8027021;;53.83723;11.998196;DE;Europe/Berlin;Q536634;IC|ICE;;code;252086216;Q186740;;WB;157223;Bützow
+TN8027064;gare;Ribnitz-Damgarten West;Ribnitz-Damgarten West;Ribnitz-Damgarten West;8027064;;54.2392;12.437051;DE;Europe/Berlin;Q571959;ICE;;nom;4530819999;Q7322379;;WRI;141268;Ribnitz-Damgarten West
+TN8027089;gare;Rostock Hbf;Rostock Hbf;Rostock Hauptbahnhof;8027089;;54.07815;12.131125;DE;Europe/Berlin;Q2861;IC|ICE;;nom;987773654;Q682569;de:13003:1489;WR;190827;Rostock Hbf
+TN8027098;gare;Warnemünde;Warnemünde;Warnemünde;8027098;;54.177171;12.090748;DE;Europe/Berlin;Q2861;IC;;nom;289634477;Q801578;;WWM;539956;Warnemünde
+TN8027316;gare;Wittenberge;Wittenberge;Wittenberge;8027316;;53.003528;11.76281;DE;Europe/Berlin;Q541956;IC|ICE;;nom;3620887012;Q320778;;WW;646854;Wittenberge
+TN8027327;gare;Ludwigslust;Ludwigslust;Ludwigslust;8027327;;53.334718;11.494585;DE;Europe/Berlin;Q156119;IC|ICE;;nom;99994278;Q801130;;WL;618459;Ludwigslust
+TN8027359;gare;Schwerin Hbf;Schwerin Hbf;Schwerin Hauptbahnhof;8027359;;53.63538;11.407505;DE;Europe/Berlin;Q1709;IC|ICE;;nom;252098248;Q464303;;WS;226567;Schwerin Hbf
+TN8027504;gare;Leipzig/Halle Flughafen;Leipzig/Halle Airport;Leipzig/Halle Flughafen;8027504;;51.423312;12.223646;DE;Europe/Berlin;Q12058;IC;;nom;3602155783;Q325491;de:14730:19928;LFLU;371302;Leipzig/Halle Flughafen
+TN8028227;gare;Eberswalde Hbf;Eberswalde Hbf;Eberswalde Hauptbahnhof;8028227;;52.834114;13.797195;DE;Europe/Berlin;Q9306;IC|ICE;;nom;29366548;Q440542;;WE;684055;Eberswalde Hbf
+TN8028324;gare;Angermünde;Angermünde;Angermünde;8028324;;53.015833;13.99599;DE;Europe/Berlin;Q490066;IC;;nom;3658775594;Q439525;;WA;527697;Angermünde
+TN8028332;gare;Prenzlau;Prenzlau;Prenzlau;8028332;;53.322274;13.866698;DE;Europe/Berlin;Q537214;IC|ICE;;nom;4263811827;Q323587;;WPL;67885;Prenzlau
+TN8028403;gare;Pasewalk;Pasewalk;Pasewalk;8028403;;53.515005;13.989298;DE;Europe/Berlin;Q493924;IC|ICE;;nom;32828690;Q801310;;WP;51444;Pasewalk
+TN8028425;gare;Anklam;Anklam;Anklam;8028425;;53.856069;13.70187;DE;Europe/Berlin;Q488513;IC|ICE;;nom;4263811817;Q4766078;;WAK;325141;Anklam
+TN8028429;gare;Züssow;Züssow;Züssow;8028429;;53.972691;13.549778;DE;Europe/Berlin;Q248869;IC|ICE;;nom;4530819996;Q801681;;WZS;304776;Züssow
+TN8028436;gare;Greifswald;Greifswald;Greifswald;8028436;;54.092954;13.37045;DE;Europe/Berlin;Q4098;IC|ICE;;nom;4243045146;Q800835;;WGW;85141;Greifswald
+TN8028496;gare;Bergen auf Rügen;Bergen auf Rügen;Bergen auf Rügen;8028496;;54.420741;13.418602;DE;Europe/Berlin;Q492538;IC|ICE;;nom;4268035708;Q800466;;WBG;650561;Bergen auf Rügen
+TN8028504;gare;Stralsund Hbf;Stralsund Hbf;Stralsund Hbf;8028504;;54.308817;13.077904;DE;Europe/Berlin;Q4065;IC|ICE;;nom;277350630;Q320175;;WSR;665639;Stralsund Hbf
+TN8028518;gare;Velgast;Velgast;Velgast;8028518;;54.277375;12.802859;DE;Europe/Berlin;Q263965;ICE;;nom;4530819997;Q7918908;;WV;327378;Velgast
+TN8028562;gare;Ostseebad Binz;Ostseebad Binz;Ostseebad Binz;8028562;;54.405003;13.600579;DE;Europe/Berlin;Q523490;IC|ICE;;nom;324223788;Q801302;;WBI;356341;Ostseebad Binz
+TN8029006;gare;Mühlacker;Mühlacker;Mühlacker;8029006;;48.953085;8.84583;DE;Europe/Berlin;Q80670;IC;;nom;26617815;Q442758;de:08236:3090;TM;592799;Mühlacker
+TN8029009;gare;Vaihingen (Enz);Vaihingen (Enz);Vaihingen (Enz);8029009;;48.947688;8.95828;DE;Europe/Berlin;Q61928;IC|ICE;;nom;2656117800;Q324238;de:08118:5879;TV;490958;Vaihingen (Enz)
+TN8029034;gare;Stuttgart Hbf;Stuttgart Main Station;Stuttgart Hauptbahnhof;8029034;;48.78561;9.183396;DE;Europe/Berlin;Q1022;IC|ICE;;nom;1635698272;Q613766;de:08111:6115;TS;664082;Stuttgart Hbf
+TN8029103;gare;Ulm Hbf;Ulm Hbf;Ulm Hauptbahnhof;8029103;;48.399416;9.982602;DE;Europe/Berlin;Q3012;IC|ICE;;nom;1384282612;Q472937;de:08421:1008;TU;464516;Ulm Hbf
+TN8029126;gare;Biberach (Riß);Biberach (Riß);Biberach (Riß);8029126;;48.101927;9.793114;DE;Europe/Berlin;Q16069;ICE;;nom;3493107549;Q9170701;de:08426:6170;TBI;446773;Biberach (Riß)
+TN8029153;gare;Ravensburg;Ravensburg;Ravensburg;8029153;;47.784689;9.606241;DE;Europe/Berlin;Q6832;ICE;;nom;2191096658;Q11172012;de:08436:8000;TRB;399624;Ravensburg
+TN8029162;gare;Friedrichshafen Stadt;Friedrichshafen Stadt;Friedrichshafen Stadt;8029162;;47.653234;9.4737;DE;Europe/Berlin;Q4051;ICE;;nom;29530137;Q406198;de:08435:44002;TF;169807;Friedrichshafen Stadt
+TN8029367;gare;Stuttgart-Vaihingen;Stuttgart-Vaihingen;Stuttgart-Vaihingen;8029367;;48.726463;9.113176;DE;Europe/Berlin;Q1022;IC;;nom;2521443817;Q801478;de:08111:6002;TSV;371901;Stuttgart-Vaihingen
+TN8029383;gare;Böblingen;Böblingen;Böblingen;8029383;;48.688044;9.004732;DE;Europe/Berlin;Q6931;IC;;nom;2711388096;Q440075;de:08115:7100;TBO;501924;Böblingen
+TN8029394;gare;Herrenberg;Herrenberg;Herrenberg;8029394;;48.594059;8.862922;DE;Europe/Berlin;Q16100;IC;;nom;1449139682;Q440548;de:08115:4512;THE;238196;Herrenberg
+TN8029395;gare;Gäufelden;Gäufelden;Gäufelden;8029395;;48.559669;8.850041;DE;Europe/Berlin;Q538579;IC;;nom;2848020285;;de:08115:5776;TGFD;629899;Gäufelden
+TN8029396;gare;Bondorf;Bondorf;Bondorf;8029396;;48.523513;8.827835;DE;Europe/Berlin;Q200744;IC;;nom;4457836359;Q25090000;de:08115:4510;TBD;80174;Bondorf (b Herrenberg)
+TN8029397;gare;Ergenzingen;Ergenzingen;Ergenzingen;8029397;;48.489392;8.809905;DE;Europe/Berlin;Q7078;IC;;nom;4457536958;Q116016537;de:08416:2052;TEG;595645;Ergenzingen
+TN8029398;gare;Eutingen;Eutingen;Eutingen;8029398;;48.479749;8.782304;DE;Europe/Berlin;Q81702;IC;;nom;254909957;;de:08237:7965;TET;164661;Eutingen im Gäu
+TN8029399;gare;Horb;Horb;Horb;8029399;;48.441813;8.688974;DE;Europe/Berlin;Q82690;IC;;code;2848020286;Q9293808;de:08237:5001;THB;286437;Horb
+TN8029403;gare;Sulz (Neckar);Sulz (Neckar);Sulz (Neckar);8029403;;48.366695;8.636762;DE;Europe/Berlin;Q83167;IC;;gtfs;;;;;61511;Sulz (Neckar)
+TN8029406;gare;Oberndorf (Neckar);Oberndorf (Neckar);Oberndorf(Neckar);8029406;;48.296197;8.575427;DE;Europe/Berlin;Q83206;IC;;nom;4457995758;Q116155640;de:08325:6596;TOB;661428;Oberndorf (Neckar)
+TN8029411;gare;Rottweil;Rottweil;Rottweil;8029411;;48.16524;8.639555;DE;Europe/Berlin;Q82960;IC;;nom;3179421514;Q324806;de:08325:6584;TR;305820;Rottweil
+TN8029416;gare;Spaichingen;Spaichingen;Spaichingen;8029416;;48.069211;8.740237;DE;Europe/Berlin;Q519688;IC;;nom;3078750351;Q801449;de:08327:1510;TSP;612315;Spaichingen
+TN8029429;gare;Tuttlingen;Tuttlingen;Tuttlingen;8029429;;47.980452;8.799129;DE;Europe/Berlin;Q15987;IC;;nom;3181548204;Q285633;de:08327:1748;TTU;120573;Tuttlingen
+TN8029500;gare;Pforzheim Hbf;Pforzheim Hbf;Pforzheim Hauptbahnhof;8029500;;48.893981;8.703258;DE;Europe/Berlin;Q3046;IC;;code;25972727;Q322374;de:08231:50;TPH;281872;Pforzheim Hbf
+TN8029525;gare;Schorndorf;Schorndorf;Schorndorf;8029525;;48.807021;9.525821;DE;Europe/Berlin;Q14882;IC;;nom;3061260240;Q321722;de:08119:7703;TSF;584465;Schorndorf
+TN8029541;gare;Schwäbisch Gmünd;Schwäbisch Gmünd;Schwäbisch Gmünd;8029541;;48.80108;9.787974;DE;Europe/Berlin;Q4037;IC;;nom;75360611;Q322983;de:08136:3077;TSG;456379;Schwäbisch Gmünd
+TN8029548;gare;Aalen Hbf;Aalen Hbf;Aalen Hauptbahnhof;8029548;;48.841004;10.096511;DE;Europe/Berlin;Q3951;IC;;nom;3158014541;Q319241;de:08136:1000;TA;608933;Aalen Hbf
+TN8029685;gare;Crailsheim;Crailsheim;Crailsheim;8029685;;49.138268;10.064295;DE;Europe/Berlin;Q16048;IC;;nom;33648231;Q800633;de:08127:21001;TC;289489;Crailsheim
+TN8029693;gare;Ellwangen;Ellwangen;Ellwangen;8029693;;48.964124;10.129623;DE;Europe/Berlin;Q163973;IC;;nom;268250061;Q800720;de:08136:2007;TEL;523935;Ellwangen
+TN8032003;gare;Köln/Bonn Flughafen;Köln/Bonn Airport;Köln/Bonn Flughafen;8032003;;50.87908;7.119362;DE;Europe/Berlin;Q365;ICE;;code;4530820016;Q569474;de:05315:17551;KFKB;16469;Köln/Bonn Flughafen
+TN8032572;gare;Limburg Süd;Limburg Süd;Limburg Süd;8032572;;50.382489;8.096097;DE;Europe/Berlin;Q16026;ICE;;code;4530820013;Q322806;;FLIS;34877;Limburg Süd
+TN8033452;gare;Berlin Hbf;Berlin Central Station;Berlin Hauptbahnhof;8033452;;52.524945;13.369661;DE;Europe/Berlin;Q64;IC|ICE;;nom;3856100103;Q1097;;BLS;256012;Berlin Hbf
+TN8033701;gare;Paderborn Hbf;Paderborn Hbf;Paderborn Hauptbahnhof;8033701;;51.71286;8.740438;DE;Europe/Berlin;Q2971;ICE;;code;2675283037;Q474433;de:05774:7000;EPD;658714;Paderborn Hbf
+TN8039904;gare;Düsseldorf Flughafen;Düsseldorf Flughafen;Düsseldorf Flughafen;8039904;;51.291563;6.786607;DE;Europe/Berlin;Q1718;IC|ICE;;code;4550707900;Q800701;;KDFFH;579058;Düsseldorf Flughafen
+TN8053610;gare;Frankfurt (Oder);Frankfurt (Oder);Frankfurt (Oder);8053610;;52.336536;14.546695;DE;Europe/Berlin;Q4024;EC;;nom;321555238;Q445993;;BFP;116144;Frankfurt (Oder)
+TN8065971;gare;Berlin Südkreuz;Berlin Südkreuz;Berlin Südkreuz;8065971;;52.476572;13.36604;DE;Europe/Berlin;Q64;IC|ICE;;nom;267379240;Q376589;;BPAF;435844;Berlin Südkreuz
+TN8084407;gare;Flughafen BER;BER Airport station;Flughafen BER;8084407;;52.364284;13.508157;DE;Europe/Berlin;Q521475;IC;;nom;1450481793;Q800759;;BFBB;87529;Flughafen BER
+TN8101003;gare;Wien Hbf;Vienna Central Station;Wien Hauptbahnhof;8101003;;48.184988;16.377939;AT;Europe/Vienna;Q1741;EC|EN|IC|ICE|RJ;;nom;1839787470;Q697300;;XAWIE;408109;Wien Hbf
+TN8101032;gare;St. Pölten Hbf;St. Pölten Hauptbahnhof;St. Pölten Hauptbahnhof;8101032;;48.20828;15.624681;AT;Europe/Vienna;Q82500;EC|EN|ICE;;nom;2465563392;Q662913;;;662408;St.Pölten Hbf
+TN8101035;gare;St. Paul im Lavanttal;St. Paul im Lavanttal;St. Paul im Lavanttal;8101035;;46.721515;14.855854;AT;Europe/Vienna;Q692880;ICE|RJ;;nom;1936849742;Q111171387;;;103515;St. Paul im Lavanttal
+TN8101081;gare;Wels Hbf;Wels Hauptbahnhof;Wels Hauptbahnhof;8101081;;48.165948;14.02651;AT;Europe/Vienna;Q178582;EC;;nom;29056915;Q872526;;;399370;Wels Hbf
+TN8101114;gare;Salzburg Hbf;Salzburg Hauptbahnhof;Salzburg Hauptbahnhof;8101114;;47.813062;13.045853;AT;Europe/Vienna;Q34713;EC|EN|ICE|RJ;;nom;302097253;Q694694;;XASB;191322;Salzburg Hbf
+TN8101128;gare;Golling-Abtenau;Golling-Abtenau;Golling-Abtenau;8101128;;47.600822;13.164056;AT;Europe/Vienna;Q527800;EC|ICE|RJ;;code;2647539046;Q60616614;;;447245;Golling-Abtenau
+TN8101134;gare;Bischofshofen;Bischofshofen;Bischofshofen;8101134;;47.417903;13.219954;AT;Europe/Vienna;Q254165;EC|ICE|RJ;;code;3508395173;Q15107137;;;553479;Bischofshofen
+TN8101136;gare;St. Johann im Pongau;St. Johann im Pongau;St. Johann im Pongau;8101136;;47.348416;13.194888;AT;Europe/Vienna;Q251022;EC|ICE|RJ;;code;3508395181;;;;485624;St. Johann im Pongau
+TN8101137;gare;Schwarzach-St. Veit;Schwarzach-St. Veit;Schwarzach-St. Veit;8101137;;47.318564;13.154595;AT;Europe/Vienna;Q253179;EC|EN|ICE|RJ;;code;3508395180;Q20480853;;;550819;Schwarzach-St.Veit
+TN8101145;gare;Zell am See;Zell am See;Zell am See;8101145;;47.320665;12.796885;AT;Europe/Vienna;Q187572;ICE;;code;3508434078;Q111045655;;;675356;Zell am See
+TN8101146;gare;Maishofen-Saalbach;Maishofen-Saalbach;Maishofen-Saalbach;8101146;;47.359358;12.81068;AT;Europe/Vienna;Q700432;ICE;;code;3508434068;;;;675097;Maishofen-Saalbach
+TN8101148;gare;Saalfelden;Saalfelden;Saalfelden;8101148;;47.42681;12.829786;AT;Europe/Vienna;Q183228;ICE;;code;3508395179;;;;438577;Saalfelden
+TN8101153;gare;Hochfilzen;Hochfilzen;Hochfilzen;8101153;;47.467447;12.626602;AT;Europe/Vienna;Q511701;ICE;;code;129973615;Q72830709;;;323007;Hochfilzen
+TN8101155;gare;Fieberbrunn;Fieberbrunn;Fieberbrunn;8101155;;47.490964;12.529469;AT;Europe/Vienna;Q688822;ICE;;code;2508266192;;;;485196;Fieberbrunn
+TN8101157;gare;St. Johann in Tirol;St. Johann in Tirol;St. Johann in Tirol;8101157;;47.519601;12.430819;AT;Europe/Vienna;Q699599;ICE;;code;36635331;Q72833891;;;526766;St. Johann in Tirol
+TN8101160;gare;Kitzbühel;Kitzbühel;Kitzbühel;8101160;;47.454235;12.391016;AT;Europe/Vienna;Q264665;ICE;;code;36635240;Q72833788;;;306729;Kitzbühel
+TN8101161;gare;Kitzbühel Hahnenkamm;Kitzbühel Hahnenkamm;Kitzbühel Hahnenkamm;8101161;;47.443304;12.389995;AT;Europe/Vienna;Q264665;ICE;;code;3020361407;Q72833813;;;448692;Kitzbühel Hahnenkamm
+TN8101163;gare;Kirchberg in Tirol;Kirchberg in Tirol;Kirchberg in Tirol;8101163;;47.448942;12.309079;AT;Europe/Vienna;Q665755;ICE;;code;36632331;Q72831136;;;666810;Kirchberg in Tirol
+TN8101168;gare;Hopfgarten im Brixental;Hopfgarten;Hopfgarten;8101168;;47.455442;12.149036;AT;Europe/Vienna;Q675939;ICE;;code;3020574344;Q72808338;;;329000;Hopfgarten im Brixental
+TN8101170;gare;Wörgl Hbf;Wörgl Hauptbahnhof;Wörgl Hauptbahnhof;8101170;;47.491514;12.060622;AT;Europe/Vienna;Q253639;ICE|RJ;;code;27322337;Q871927;;;232033;Wörgl Hbf
+TN8101176;gare;Jenbach;Jenbach;Jenbach;8101176;;47.388425;11.778271;AT;Europe/Vienna;Q668227;ICE|RJ;;code;26827614;Q663697;;XAJB;303151;Jenbach
+TN8101187;gare;Innsbruck Hbf;Innsbruck Hauptbahnhof;Innsbruck Hauptbahnhof;8101187;;47.263297;11.401021;AT;Europe/Vienna;Q1735;ICE|RJ;;nom;337863237;Q668727;;XAI;326941;Innsbruck Hbf
+TN8101198;gare;Telfs-Pfaffenhofen;Telfs-Pfaffenhofen;Telfs-Pfaffenhofen;8101198;;47.300664;11.078646;AT;Europe/Vienna;Q667627;RJ;;code;286392419;Q72833913;;XATP;214223;Telfs-Pfaffenhofen
+TN8101204;gare;Ötztal;Ötztal;Ötztal;8101204;;47.238603;10.859384;AT;Europe/Vienna;Q696161;ICE|RJ;;code;2986409595;Q8079090;;XAOE;450045;Ötztal
+TN8101206;gare;Imst-Pitztal;Imst-Pitztal;Imst-Pitztal;8101206;;47.219056;10.761896;AT;Europe/Vienna;Q681920;RJ;;code;2987941559;Q11711967;;XAIP;416174;Imst-Pitztal
+TN8101212;gare;Landeck-Zams;Landeck-Zams;Landeck-Zams;8101212;;47.14817;10.57837;AT;Europe/Vienna;Q660183;ICE|RJ;;code;2457151618;Q801057;;XALE;619742;Landeck-Zams
+TN8101222;gare;St. Anton am Arlberg;St. Anton am Arlberg;St. Anton am Arlberg;8101222;;47.127382;10.267319;AT;Europe/Vienna;Q659996;ICE|RJ;;code;327287949;Q7587118;;XAAB;457103;St. Anton am Arlberg
+TN8101223;gare;Langen am Arlberg;Langen am Arlberg;Langen am Arlberg;8101223;;47.131615;10.121246;AT;Europe/Vienna;Q513801;ICE|RJ;;code;463092859;Q56908659;;;673497;Langen am Arlberg
+TN8101230;gare;Bludenz;Bludenz;Bludenz;8101230;;47.154723;9.814894;AT;Europe/Vienna;Q494504;ICE|RJ;;code;1435056267;Q800537;;;633061;Bludenz
+TN8101236;gare;Feldkirch;Feldkirch;Feldkirch;8101236;;47.240926;9.604311;AT;Europe/Vienna;Q183104;ICE|RJ;;code;2661465941;Q698785;;;66650;Feldkirch
+TN8101345;gare;Weststeiermark;Weststeiermark;Weststeiermark;8101345;;46.813808;15.296887;AT;Europe/Vienna;Q666739;ICE|RJ;;nom;2700256059;Q127375690;;;614187;Weststeiermark
+TN8101591;gare;Linz/Donau Hbf;Linz/Donau Hbf;Linz/Donau Hbf;8101591;;48.290237;14.291864;AT;Europe/Vienna;Q41329;EC|EN|ICE;;gtfs;;;;;6568;Linz/Donau Hbf
+TN8102113;gare;Dorfgastein;Dorfgastein;Dorfgastein;8102113;;47.238518;13.103221;AT;Europe/Vienna;Q541132;EC|RJ;;code;87015765;Q32800339;;;18631;Dorfgastein
+TN8102114;gare;Bad Hofgastein;Bad Hofgastein;Bad Hofgastein;8102114;;47.195409;13.100543;AT;Europe/Vienna;Q671445;EC|RJ;;code;3508448107;Q32312972;;;376929;Bad Hofgastein
+TN8102117;gare;Bad Gastein;Bad Gastein;Bad Gastein;8102117;;47.111771;13.131922;AT;Europe/Vienna;Q254835;EC|EN|ICE|RJ;;code;3508448106;Q32173184;;;389038;Bad Gastein
+TN8102121;gare;Mallnitz-Obervellach;Mallnitz-Obervellach;Mallnitz-Obervellach;8102121;;46.981907;13.176067;AT;Europe/Vienna;Q692892;EC|EN|ICE|RJ;;code;2095047443;Q111045754;;;17042;Mallnitz-Obervellach
+TN8102128;gare;Spittal-Millstättersee;Spittal-Millstättersee;Spittal-Millstättersee;8102128;;46.795736;13.487545;AT;Europe/Vienna;Q487500;EC|EN|ICE|RJ;;code;2022631287;Q111166284;;;57823;Spittal-Millstätter See
+TN8102184;gare;Kufstein;Kufstein;Kufstein;8102184;;47.582972;12.165727;AT;Europe/Vienna;Q486341;ICE|RJ;;code;1364686371;Q801040;;XAKN;113259;Kufstein
+TN8102322;gare;Rankweil;Rankweil;Rankweil;8102322;;47.271958;9.637599;AT;Europe/Vienna;Q871383;ICE;;code;276639628;Q56887319;;;263020;Rankweil
+TN8102327;gare;Hohenems;Hohenems;Hohenems;8102327;;47.364931;9.681313;AT;Europe/Vienna;Q698591;ICE;;code;3015432275;Q31338289;;;574693;Hohenems
+TN8102329;gare;Dornbirn;Dornbirn;Dornbirn;8102329;;47.417584;9.738669;AT;Europe/Vienna;Q171219;ICE;;nom;185525285;Q24817320;;;239446;Dornbirn
+TN8102335;gare;Bregenz Riedenburg;Riedenburg;Riedenburg;8102335;;47.493473;9.72124;AT;Europe/Vienna;Q1737;ICE;;code;3005434096;Q56887354;;;259383;Bregenz Riedenburg
+TN8102336;gare;Bregenz;Bregenz;Bregenz;8102336;;47.50302;9.739763;AT;Europe/Vienna;Q1737;EC|ECE|ICE;;nom;2459480034;Q15282663;;XAB;364425;Bregenz
+TN8102924;gare;Flughafen Wien;Vienna Airport;Flughafen Wien;8102924;;48.120226;16.564274;AT;Europe/Vienna;Q489972;RJ;;code;62823673;Q17381787;;XAWIF;646864;Flughafen Wien
+TN8103107;gare;Wien Meidling;Wien Meidling;Wien Meidling;8103107;;48.17453;16.333965;AT;Europe/Vienna;Q1741;EC|EN|ICE|RJ;;code;66432827;Q514441;;XAWG;47810;Wien Meidling
+TN8103126;gare;Wiener Neustadt Hbf;Wiener Neustadt Hauptbahnhof;Wiener Neustadt Hauptbahnhof;8103126;;47.81107;16.233655;AT;Europe/Vienna;Q131612;RJ;;code;2874038819;Q663815;;XAWNS;128690;Wiener Neustadt Hbf
+TN8103144;gare;Mürzzuschlag;Mürzzuschlag;Mürzzuschlag;8103144;;47.607914;15.677248;AT;Europe/Vienna;Q492868;RJ;;code;248061440;Q801226;at:46:7426:1:zug;;141362;Mürzzuschlag
+TN8103155;gare;Kapfenberg;Kapfenberg;Kapfenberg;8103155;;47.44523;15.292352;AT;Europe/Vienna;Q623049;RJ;;code;3591878657;Q111171460;at:46:6092:1:zug;;629210;Kapfenberg
+TN8103158;gare;Bruck a.d. Mur;Bruck an der Mur;Bruck an der Mur;8103158;;47.413884;15.279498;AT;Europe/Vienna;Q259893;RJ;;code;3591878656;;at:46:2065:1:zug;;418229;Bruck/Mur
+TN8103171;gare;Graz Hbf;Graz Hauptbahnhof;Graz Hauptbahnhof;8103171;;47.072398;15.416517;AT;Europe/Vienna;Q13298;ICE|RJ;;nom;25528260;;;;428350;Graz Hbf
+TN8103642;gare;Klagenfurt Hbf;Klagenfurt Hauptbahnhof;Klagenfurt Hauptbahnhof;8103642;;46.615686;14.313703;AT;Europe/Vienna;Q41753;EC|ICE|RJ;;nom;3225806984;Q700931;;;453606;Klagenfurt Hbf
+TN8103648;gare;Pörtschach/Wörther See;Pörtschach am Wörthersee;Pörtschach am Wörthersee;8103648;;46.636199;14.146344;AT;Europe/Vienna;Q875805;EC|ICE|RJ;;code;303394583;Q111167761;;;220124;Pörtschach am Wörther See
+TN8103650;gare;Velden/Wörther See;Velden am Wörther See;Velden am Wörther See;8103650;;46.620085;14.044848;AT;Europe/Vienna;Q660687;EC|ICE|RJ;;code;4160744273;Q111167745;;;450613;Velden am Wörther See
+TN8103654;gare;Villach Hbf;Villach Hauptbahnhof;Villach Hauptbahnhof;8103654;;46.618618;13.848444;AT;Europe/Vienna;Q483522;EC|EN|ICE|RJ;;nom;2507246162;Q699533;;;144488;Villach Hbf
+TN8400055;gare;Amersfoort Centraal;Amersfoort Centraal;Amersfoort Centraal;8400055;;52.153898;5.374098;NL;Europe/Amsterdam;Q33421377;ICE;;code;45489203;Q49854;;;40470;Amersfoort Centraal
+TN8400058;gare;Amsterdam Centraal;Amsterdam Central Station;Amsterdam Centraal;8400058;;52.378901;4.900581;NL;Europe/Amsterdam;Q727;IC|ICE;;code;4290854847;Q50719;;XNAC;165948;Amsterdam Centraal
+TN8400066;gare;Apeldoorn;Apeldoorn;Apeldoorn;8400066;;52.209278;5.968973;NL;Europe/Amsterdam;Q3018561;ICE;;code;4530820009;Q800395;;;509880;Apeldoorn
+TN8400071;gare;Arnhem Centraal;Arnhem Centraal;Arnhem Centraal;8400071;;51.985069;5.899977;NL;Europe/Amsterdam;Q1310;IC|ICE;;code;14119771339;Q800399;;;41041;Arnhem Centraal
+TN8400173;gare;Deventer;Deventer;Deventer;8400173;;52.257293;6.161105;NL;Europe/Amsterdam;Q26296883;ICE;;code;4530820007;Q17461651;;;573132;Deventer
+TN8400206;gare;Eindhoven Centraal;Eindhoven Centraal;Eindhoven Centraal;8400206;;51.442962;5.479527;NL;Europe/Amsterdam;Q9832;IC;;code;7510315998;Q689942;;;449862;Eindhoven Centraal
+TN8400316;gare;Hengelo;Hengelo;Hengelo;8400316;;52.261775;6.794909;NL;Europe/Amsterdam;Q10006;ICE;;code;45931397;Q800910;;;476802;Hengelo
+TN8400322;gare;Hilversum;Hilversum;Hilversum;8400322;;52.226534;5.181297;NL;Europe/Amsterdam;Q9934;ICE;;code;7606656811;Q49868;;;303956;Hilversum
+TN8400621;gare;Utrecht Centraal;Utrecht Centraal;Utrecht Centraal;8400621;;52.089392;5.109821;NL;Europe/Amsterdam;Q39297398;IC|ICE;;code;45198301;Q575655;;;277621;Utrecht Centraal
+TN8500010;gare;Basel SBB;Basel SBB;Basel SBB;8500010;;47.547623;7.589642;CH;Europe/Zurich;Q78;EC|ECE|EN|IC|ICE;;code;3080746011;Q667201;;XSB;45831;Basel SBB
+TN8500023;gare;Liestal;Liestal;Liestal;8500023;;47.484517;7.731379;CH;Europe/Zurich;Q68972;ICE;;code;3080746017;Q3096881;;;528912;Liestal
+TN8500218;gare;Olten;Olten;Olten;8500218;;47.351935;7.907522;CH;Europe/Zurich;Q68129;IC|ICE;;code;636798044;Q29370;;;345850;Olten
+TN8500301;gare;Rheinfelden;Rheinfelden;Rheinfelden;8500301;;47.55126;7.792137;CH;Europe/Zurich;Q269667;IC;;code;3080746024;Q20020599;;;310770;Rheinfelden (CH)
+TN8500305;gare;Frick;Frick;Frick;8500305;;47.507337;8.013125;CH;Europe/Zurich;Q66617;IC;;code;3080695742;Q2919733;;;117789;Frick
+TN8500309;gare;Brugg AG;Brugg;Brugg;8500309;;47.480827;8.208746;CH;Europe/Zurich;Q64099;IC;;code;3080695737;Q800578;;;472492;Brugg AG
+TN8500320;gare;Stein-Säckingen;Stein-Säckingen;Stein-Säckingen;8500320;;47.54164;7.948925;CH;Europe/Zurich;Q65914;IC;;code;3080746029;Q801463;;;374479;Stein-Säckingen
+TN8501605;gare;Visp;Visp;Visp;8501605;;46.29402;7.881488;CH;Europe/Zurich;Q64147;ICE;;code;3080728390;Q801563;;;430191;Visp
+TN8501609;gare;Brig;Brig;Brig;8501609;;46.319319;7.988264;CH;Europe/Zurich;Q15583;ICE;;code;3080728372;Q2082964;;;425718;Brig
+TN8503000;gare;Zürich HB;Zürich Hauptbahnhof;Zürich Hauptbahnhof;8503000;;47.378101;8.539364;CH;Europe/Zurich;Q72;EC|EN|IC|ICE;;code;1236383343;Q224494;;;396679;Zürich HB
+TN8503016;gare;Zürich Flughafen;Zürich Flughafen;Zürich Flughafen;8503016;;47.450098;8.561898;CH;Europe/Zurich;Q68165;EC;;code;1240260092;Q40700;;;428215;Zürich Flughafen
+TN8503424;gare;Schaffhausen;Schaffhausen;Schaffhausen;8503424;;47.698105;8.632684;CH;Europe/Zurich;Q9009;EC|EN|IC|ICE;;code;2428167137;;;;601880;Schaffhausen
+TN8503504;gare;Baden;Baden;Baden;8503504;;47.476408;8.307776;CH;Europe/Zurich;Q63939;IC;;code;3080695733;Q800441;;;173324;Baden (CH)
+TN8506000;gare;Winterthur;Winterthur;Winterthur;8506000;;47.500314;8.723974;CH;Europe/Zurich;Q9125;EC;;code;1286602751;Q677527;;;391088;Winterthur
+TN8506302;gare;St. Gallen;St. Gallen;St. Gallen;8506302;;47.423255;9.369814;CH;Europe/Zurich;Q25607;EC;;code;1346888802;Q117694;;;63944;St. Gallen (CH)
+TN8506314;gare;St. Margrethen SG;St. Margrethen SG;St. Margrethen SG;8506314;;47.453147;9.63823;CH;Europe/Zurich;Q66243;EC|ECE;;code;4886725252;Q15639432;;XSSM;98206;St. Margrethen SG
+TN8507000;gare;Bern;Bern;Bern;8507000;;46.948909;7.439955;CH;Europe/Zurich;Q70;IC|ICE;;code;3081154349;Q28870;;XSBE;319445;Bern
+TN8507100;gare;Thun;Thun;Thun;8507100;;46.754945;7.629617;CH;Europe/Zurich;Q68978;ICE;;code;3081154442;Q801516;;;391947;Thun
+TN8507483;gare;Spiez;Spiez;Spiez;8507483;;46.686585;7.680035;CH;Europe/Zurich;Q69484;ICE;;code;3080728389;Q1709253;;;34591;Spiez
+TN8507492;gare;Interlaken Ost;Interlaken Ost;Interlaken Ost;8507492;;46.690448;7.868996;CH;Europe/Zurich;Q68103;ICE;;code;3114762827;Q672006;;;125738;Interlaken Ost
+TN8507493;gare;Interlaken West;Interlaken West;Interlaken West;8507493;;46.682791;7.851602;CH;Europe/Zurich;Q68103;ICE;;code;3080372092;Q663794;;;401931;Interlaken West
+TN8509000;gare;Chur;Chur;Chur;8509000;;46.853556;9.529646;CH;Europe/Zurich;Q69007;IC|ICE;;code;2522151337;Q663869;;;569606;Chur
+TN8509002;gare;Landquart;Landquart;Landquart;8509002;;46.967441;9.554096;CH;Europe/Zurich;Q70631;IC|ICE;;code;2517831407;Q382743;;;385653;Landquart
+TN8509411;gare;Sargans;Sargans;Sargans;8509411;;47.045386;9.445369;CH;Europe/Zurich;Q64571;IC|ICE;;code;1333665650;Q605247;;;103118;Sargans
+TN8600079;gare;Fredericia st;Fredericia st;Fredericia st;8600079;;55.56809;9.738813;DK;Europe/Copenhagen;Q21145;IC;;gtfs;;;;;209678;Fredericia st
+TN8600083;gare;Kolding st;Kolding st;Kolding st;8600083;;55.49084;9.481528;DK;Europe/Copenhagen;Q27119;ECE|IC|RJ;;gtfs;;;;;208304;Kolding st
+TN8600086;gare;Lunderskov st;Lunderskov st;Lunderskov st;8600086;;55.48012;9.303791;DK;Europe/Copenhagen;Q21101;IC;;gtfs;;;;;334861;Lunderskov st
+TN8600087;gare;Vamdrup st;Vamdrup st;Vamdrup st;8600087;;55.428093;9.286454;DK;Europe/Copenhagen;Q21101;IC;;gtfs;;;;;653184;Vamdrup st
+TN8600091;gare;Vojens st;Vojens st;Vojens st;8600091;;55.248478;9.304915;DK;Europe/Copenhagen;Q21143;IC;;gtfs;;;;;494650;Vojens st
+TN8600094;gare;Roedekro st;Roedekro st;Roedekro st;8600094;;55.069687;9.332754;DK;Europe/Copenhagen;Q21152;IC;;gtfs;;;;;421459;Roedekro st
+TN8600097;gare;Tinglev st;Tinglev st;Tinglev st;8600097;;54.936172;9.258234;DK;Europe/Copenhagen;Q21152;IC;;gtfs;;;;;667549;Tinglev st
+TN8600100;gare;Padborg st;Padborg st;Padborg st;8600100;;54.82425;9.358803;DK;Europe/Copenhagen;Q21152;ECE|EN|IC|ICE|RJ;;gtfs;;;;;107109;Padborg st
+TN8600512;gare;Odense st;Odense st;Odense st;8600512;;55.401775;10.386005;DK;Europe/Copenhagen;Q25331;ECE|RJ;;gtfs;;;;;47162;Odense st
+TN8600611;gare;Ringsted st;Ringsted st;Ringsted st;8600611;;55.438038;11.786155;DK;Europe/Copenhagen;Q503116;ECE|RJ;;gtfs;;;;;335392;Ringsted st
+TN8600626;gare;Koebenhavn H;Koebenhavn H;Koebenhavn H;8600626;;55.67272;12.564617;DK;Europe/Copenhagen;Q1748;ECE|RJ;;gtfs;;;;;170;Koebenhavn H
+TN8603327;gare;Koebenhavns Lufthavn st;Koebenhavns Lufthavn st;Koebenhavns Lufthavn st;8603327;;55.629604;12.649382;DK;Europe/Copenhagen;Q282496;ECE|EN;;gtfs;;;;;487805;Koebenhavns Lufthavn st
+TN8711300;gare;Paris Est;Paris Est;Paris Est;8711300;;48.876976;2.35912;FR;Europe/Paris;Q90;ICE;;gtfs;;;;;122301;Paris Est
+TN8719300;gare;Forbach;Forbach;Forbach;8719300;;49.189486;6.901098;FR;Europe/Paris;Q22703;ICE;;nom;4451861574;Q2717025;;;662218;Forbach (F)
+TN8721202;gare;Gare de Strasbourg;Strasbourg;Strasbourg;8721202;;48.585293;7.733925;FR;Europe/Paris;Q6602;ICE;;nom;3069229440;Q801473;;XFSTG;612834;Strasbourg
+TN8812005;gare;Bruxelles-Nord - Brussel-Noord;Brussels-North;Bruxelles-Nord - Brussel-Noord;8812005;;50.860145;4.36149;BE;Europe/Brussels;Q239;ICE;;nom;66180313;Q660792;;;616012;Bruxelles-Nord
+TN8814001;gare;Bruxelles-Midi - Brussel-Zuid;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;;50.835775;4.336054;BE;Europe/Brussels;Q239;ICE;;nom;17401552;Q800587;;XBB;660292;Bruxelles Midi
+TN8819406;gare;Brussels Airport-Zaventem;Brussels Airport-Zaventem;Brussels Airport-Zaventem;8819406;;50.898374;4.48249;BE;Europe/Brussels;Q28898;ICE;;nom;8313215285;Q852880;;;507204;Brussels Airport - Zaventem
+TN8821006;gare;Antwerpen-Centraal;Antwerpen-Centraal;Antwerpen-Centraal;8821006;;51.215995;4.421101;BE;Europe/Brussels;Q12892;ICE;;nom;348421822;Q800398;;XBAC;163085;Antwerpen Centraal
+TN8833001;gare;Leuven;Leuven;Leuven;8833001;;50.881361;4.716388;BE;Europe/Brussels;Q118958;ICE;;nom;5467988372;Q801090;;;186856;Leuven
+TN8841004;gare;Liège-Guillemins;Liège-Guillemins;Liège-Guillemins;8841004;;50.624728;5.567065;BE;Europe/Brussels;Q3992;ICE;;nom;5307127700;Q801116;;;569973;Liège-Guillemins
+TNDB-103013;gare;Sedziszow Malopolski;Sedziszow Malopolski;Sedziszow Malopolski;;;50.07528;21.694704;PL;Europe/Warsaw;Q867704;EN|IC;;gtfs;;;;;103013;Sedziszow Malopolski
+TNDB-183525;gare;Szamotuly;Szamotuly;Szamotuly;;;52.603542;16.58542;PL;Europe/Warsaw;Q51427;IC;;gtfs;;;;;183525;Szamotuly
+TNDB-196328;gare;Chalupki;Chalupki;Chalupki;;;49.925476;18.311562;PL;Europe/Warsaw;Q645005;EN|IC;;gtfs;;;;;196328;Chalupki
+TNDB-29814;gare;Pulawy Miasto;Pulawy Miasto;Pulawy Miasto;;;51.426903;21.985098;PL;Europe/Warsaw;Q320007;IC;;gtfs;;;;;29814;Pulawy Miasto
+TNDB-345100;gare;Opoczno Poludnie;Opoczno Poludnie;Opoczno Poludnie;;;51.358517;20.231709;PL;Europe/Warsaw;Q9396378;EN|IC;;gtfs;;;;;345100;Opoczno Poludnie
+TNDB-352255;gare;Koebenhavn Syd;Koebenhavn Syd;Koebenhavn Syd;;;55.65242;12.516317;DK;Europe/Copenhagen;Q1748;ECE|RJ;;gtfs;;;;;352255;Koebenhavn Syd
+TNDB-410279;gare;Basel Bad Bf;Basel Bad Bf;Basel Bad Bf;;;47.567287;7.607805;CH;Europe/Zurich;Q78;EC|ECE|ICE;;gtfs;;;;;410279;Basel Bad Bf
+TNDB-503488;gare;Wolow;Wolow;Wolow;;;51.333015;16.633755;PL;Europe/Warsaw;Q983726;IC;;gtfs;;;;;503488;Wolow
+TNDB-545309;gare;Naleczow;Naleczow;Naleczow;;;51.31779;22.21296;PL;Europe/Warsaw;Q5309845;IC;;gtfs;;;;;545309;Naleczow
+TNDB-626020;gare;Frankfurt (M) Flughafen Regionalbf;Frankfurt (M) Flughafen Regionalbf;Frankfurt (M) Flughafen Regionalbf;;;50.051205;8.571427;DE;Europe/Berlin;Q1794;IC|ICE;;gtfs;;;;;626020;Frankfurt (M) Flughafen Regionalbf
+TNDB-643080;gare;Frankfurt (M) Flughafen Fernbf;Frankfurt (M) Flughafen Fernbf;Frankfurt (M) Flughafen Fernbf;;;50.053055;8.570224;DE;Europe/Berlin;Q1794;IC|ICE;;gtfs;;;;;643080;Frankfurt (M) Flughafen Fernbf
+TNDB-88327;gare;Chelm Miasto;Chelm Miasto;Chelm Miasto;;;51.138405;23.459185;PL;Europe/Warsaw;Q234184;IC;;gtfs;;;;;88327;Chelm Miasto
+TNDB-92253;gare;Bremen, Hauptbahnhof;Bremen, Hauptbahnhof;Bremen, Hauptbahnhof;;;53.081783;8.813086;DE;Europe/Berlin;Q24879;IC|ICE;;gtfs;;;;;92253;Bremen, Hauptbahnhof
+TNOSM1005966746;gare;Brzeg Dolny;Brzeg Dolny;Brzeg Dolny;;;51.266963;16.725033;PL;Europe/Warsaw;Q995429;IC;;nom;1005966746;Q9180851;;;593289;Brzeg Dolny
+TNOSM10881907782;gare;Zaprešić;Zaprešić;Zaprešić;;;45.844403;15.813168;HR;Europe/Zagreb;Q5408;EC|EN;;nom;10881907782;Q17356490;;;625777;Zapresic
+TNOSM1089058672;gare;Chojnów;Chojnów;Chojnów;;;51.277689;15.937662;PL;Europe/Warsaw;Q478869;IC;;nom;1089058672;Q2057058;;;298869;Chojnow
+TNOSM11638938129;gare;Krško;Krško;Krško;;;45.956224;15.493329;SI;Europe/Ljubljana;Q3484655;EN;;nom;11638938129;Q12807494;;;222279;Krsko
+TNOSM1278165711;gare;Dobiegniew;Dobiegniew;Dobiegniew;;;52.968973;15.745427;PL;Europe/Warsaw;Q988628;IC;;nom;1278165711;Q3401095;;;451123;Dobiegniew
+TNOSM1316021439;gare;Międzyzdroje;Międzyzdroje;Międzyzdroje;;;53.924126;14.454579;PL;Europe/Warsaw;Q148615;IC;;code;1316021439;Q2750911;;;509686;Miedzyzdroje
+TNOSM1371548682;gare;Spielfeld-Straß;Spielfeld-Straß;Spielfeld-Straß;;;46.709517;15.629116;AT;Europe/Vienna;Q690920;EN;;code;1371548682;;at:46:1839:1:zug;;109701;Spielfeld (Gr)
+TNOSM1509858521;gare;Łask;Łask;Łask;;;51.603743;19.111788;PL;Europe/Warsaw;Q324897;IC;;nom;1509858521;Q4875109;;;463724;Lask
+TNOSM1587252220;gare;Jaworzno Szczakowa;Jaworzno Szczakowa;Jaworzno Szczakowa;;;50.246247;19.297556;PL;Europe/Warsaw;Q158006;EC|EN|IC;;nom;1587252220;Q2037205;;XPJS;593980;Jaworzno Szczakowa
+TNOSM1661872853;gare;Krzeszowice;Krzeszowice;Krzeszowice;;;50.130831;19.635089;PL;Europe/Warsaw;Q146509;EC|EN|IC;;code;1661872853;Q11748984;;XPKC;567173;Krzeszowice
+TNOSM1723267682;gare;Praha-Podbaba;Praha-Podbaba;Praha-Podbaba;;;50.112336;14.395592;CZ;Europe/Prague;Q1085;RJ;;nom;1723267682;Q18249598;;;246927;Praha-Podbaba
+TNOSM1773651785;gare;Rawicz;Rawicz;Rawicz;;;51.60925;16.839439;PL;Europe/Warsaw;Q52898;EC;;nom;1773651785;Q2489936;;;609924;Rawicz
+TNOSM2002363570;gare;Pleszew;Pleszew;Pleszew;;;51.892587;17.732217;PL;Europe/Warsaw;Q555825;IC;;nom;2002363570;Q2292008;;;118055;Pleszew
+TNOSM206270914;gare;Kraków Płaszów;Kraków Płaszów;Kraków Płaszów;;;50.035021;19.974785;PL;Europe/Warsaw;Q31487;EC|EN|IC;;code;206270914;Q3077203;;;528945;Krakow Plaszow
+TNOSM2147439177;gare;Ścinawa;Ścinawa;Ścinawa;;;51.409111;16.421815;PL;Europe/Warsaw;Q387095;IC;;nom;2147439177;Q1959724;;;646640;Scinawa
+TNOSM2152113908;gare;Chojna;Chojna;Chojna;;;52.963856;14.443959;PL;Europe/Warsaw;Q954157;IC;;nom;2152113908;;;;611301;Chojna
+TNOSM2172404544;gare;Rejowiec;Rejowiec;Rejowiec;;;51.117695;23.238344;PL;Europe/Warsaw;Q1906301;IC;;nom;2172404544;Q2467096;;;648726;Rejowiec
+TNOSM2172404564;gare;Świdnik Miasto;Świdnik Miasto;Świdnik Miasto;;;51.2238;22.694919;PL;Europe/Warsaw;Q387387;IC;;nom;2172404564;Q1961725;;;589486;Swidnik Miasto
+TNOSM2197689089;gare;Brzesko Okocim;Brzesko Okocim;Brzesko Okocim;;;49.986763;20.609341;PL;Europe/Warsaw;Q324884;EC|EN|IC;;nom;2197689089;Q2325225;;;592984;Brzesko Okocim
+TNOSM253705465;gare;Środa Wielkopolska;Środa Wielkopolska;Środa Wielkopolska;;;52.21833;17.274195;PL;Europe/Warsaw;Q52903;IC;;nom;253705465;Q9395808;;;311195;Sroda Wielkopolska
+TNOSM283566646;gare;Gryfino;Gryfino;Gryfino;;;53.254119;14.492962;PL;Europe/Warsaw;Q186441;IC;;nom;283566646;;;;469222;Gryfino
+TNOSM302221812;gare;Oborniki Śląskie;Oborniki Śląskie;Oborniki Śląskie;;;51.299613;16.907326;PL;Europe/Warsaw;Q936101;EC;;nom;302221812;Q2352126;;;190799;Oborniki Slaskie
+TNOSM3080746021;gare;Möhlin;Möhlin;Möhlin;;;47.56169;7.833337;CH;Europe/Zurich;Q69126;IC;;nom;3080746021;Q3097153;;;591561;Möhlin
+TNOSM3249493765;gare;Nowy Tomyśl;Nowy Tomyśl;Nowy Tomyśl;;;52.304122;16.133039;PL;Europe/Warsaw;Q52893;EC;;code;3249493765;Q946897;;;26216;Nowy Tomysl
+TNOSM3250134366;gare;Zbąszyń;Zbąszyń;Zbąszyń;;;52.259412;15.894765;PL;Europe/Warsaw;Q168905;EC;;code;3250134366;Q2646054;;XPZN;631115;Zbaszyn
+TNOSM3455528913;gare;Żyrardów;Żyrardów;Żyrardów;;;52.052463;20.44898;PL;Europe/Warsaw;Q393251;IC;;nom;3455528913;Q2043493;;XPZR;429471;Zyrardow
+TNOSM3457117468;gare;Opalenica;Opalenica;Opalenica;;;52.309737;16.400307;PL;Europe/Warsaw;Q202889;EC;;code;3457117468;;;;342109;Opalenica
+TNOSM3533737256;gare;Ropczyce;Ropczyce;Ropczyce;;;50.078318;21.579148;PL;Europe/Warsaw;Q336375;EN|IC;;nom;3533737256;Q2513213;;;403858;Ropczyce
+TNOSM3535835440;gare;Łańcut;Łańcut;Łańcut;;;50.08175;22.226396;PL;Europe/Warsaw;Q345331;EC|EN|IC;;nom;3535835440;Q4486619;;;408211;Lancut
+TNOSM3543804400;gare;Ingolstadt Hbf;Ingolstadt Central Station;Ingolstadt Hbf;;;48.74439;11.437407;DE;Europe/Berlin;Q3004;ICE;;code;3543804400;;;MIH;364962;Ingolstadt Hbf
+TNOSM359821935;gare;Pilawa;Pilawa;Pilawa;;;51.954851;21.534023;PL;Europe/Warsaw;Q1946077;IC;;nom;359821935;Q3054924;;XPPW;503436;Pilawa
+TNOSM3886372229;gare;Dęblin;Dęblin;Dęblin;;;51.579776;21.83177;PL;Europe/Warsaw;Q983732;IC;;nom;3886372229;Q2518681;;XPDL;295529;Deblin
+TNOSM392952267;gare;Dabrowa Gornicza;Dąbrowa Górnicza;Dąbrowa Górnicza;;;50.330374;19.184823;PL;Europe/Warsaw;Q108672;EN|IC;;code;392952267;Q5320686;;XPDGO;621884;Dabrowa Gornicza
+TNOSM413385255;gare;Kościan;Kościan;Kościan;;;52.077803;16.640556;PL;Europe/Warsaw;Q52889;EC;;nom;413385255;Q3162783;;;72535;Koscian
+TNOSM417910859;gare;Włoszczowa Północ;Włoszczowa Północ;Włoszczowa Północ;;;50.856395;19.946045;PL;Europe/Warsaw;Q611784;EN|IC;;code;417910859;Q2309003;;XPWLP;26381;Wloszczowa Polnoc
+TNOSM4799803848;gare;Szczecin Dąbie;Szczecin Dąbie;Szczecin Dąbie;;;53.391347;14.670462;PL;Europe/Warsaw;Q393;IC;;code;4799803848;Q3051317;;;243689;Szczecin Dabie
+TNOSM48267476;gare;Bochnia;Bochnia;Bochnia;;;49.977339;20.430973;PL;Europe/Warsaw;Q815903;EC|EN|IC;;code;48267476;Q2664707;;;378574;Bochnia
+TNOSM48311251;gare;Przeworsk;Przeworsk;Przeworsk;;;50.066985;22.505444;PL;Europe/Warsaw;Q983875;EC|EN|IC;;code;48311251;Q2109826;;;655314;Przeworsk
+TNOSM48318510;gare;Radymno;Radymno;Radymno;;;49.939721;22.828321;PL;Europe/Warsaw;Q336217;EN|IC;;nom;48318510;Q785458;;;41781;Radymno
+TNOSM539118751;gare;Mysłowice;Mysłowice;Mysłowice;;;50.237839;19.141668;PL;Europe/Warsaw;Q161595;EN|IC;;code;539118751;;;;401885;Myslowice
+TNOSM5684864292;gare;Sevnica;Sevnica;Sevnica;;;46.009475;15.301171;SI;Europe/Ljubljana;Q11214302;EC|EN;;nom;5684864292;Q9335716;;;513220;Sevnica
+TNOSM603760755;gare;Choszczno;Choszczno;Choszczno;;;53.164855;15.404033;PL;Europe/Warsaw;Q640223;IC;;nom;603760755;Q2338086;;;6357;Choszczno
+TNOSM6232991009;gare;Kühnsdorf-Klopeiner See;Kühnsdorf-Klopeiner See;Kühnsdorf-Klopeiner See;;;46.624854;14.620888;AT;Europe/Vienna;Q662378;ICE;;code;6232991009;;;;675784;Kühnsdorf-Klopeiner See
+TNOSM6348562377;gare;Goleniów;Goleniów;Goleniów;;;53.559462;14.839589;PL;Europe/Warsaw;Q329597;IC;;code;6348562377;Q2535907;;;422292;Goleniow
+TNOSM660810005;gare;Żmigród;Żmigród;Żmigród;;;51.475332;16.901875;PL;Europe/Warsaw;Q393138;EC;;nom;660810005;Q2671288;;;19445;Zmigrod
+TNOSM6814014754;gare;Lublin Zachodni;Lublin Zachodni;Lublin Zachodni;;;51.218934;22.508927;PL;Europe/Warsaw;Q37333;IC;;nom;6814014754;Q56328800;;;392342;Lublin Zachodni
+TNOSM7164421348;gare;Pabianice;Pabianice;Pabianice;;;51.66093;19.324976;PL;Europe/Warsaw;Q158589;IC;;nom;7164421348;Q11802058;;;484483;Pabianice
+TNOSM8736125255;gare;Zduńska Wola;Zduńska Wola;Zduńska Wola;;;51.611363;18.947208;PL;Europe/Warsaw;Q169237;IC;;nom;8736125255;Q9389569;;XPZW;643444;Zdunska Wola
