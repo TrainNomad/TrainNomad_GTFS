@@ -30,7 +30,8 @@ import sys
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from commun import BASE_DIR, GARES_COLUMNS, OPERATEURS_DIR, VILLES_COLUMNS, fold, km, merge_cities  # noqa: E402
+from commun import (BASE_DIR, GARES_COLUMNS, OPERATEURS_DIR, UIC_MAX_KM, VILLES_COLUMNS, fold, km,  # noqa: E402
+                    merge_cities, slug)
 
 GARES_CSV = os.path.join(BASE_DIR, "gares.csv")
 VILLES_CSV = os.path.join(BASE_DIR, "villes.csv")
@@ -67,6 +68,39 @@ def union(values):
     return "|".join(out)
 
 
+def split_far_ids(gares, codes) -> int:
+    """Même id chez deux opérateurs pour deux gares éloignées : un UIC erroné (DB_REGIO a donné à Lambach
+    Markt l'UIC de Langen am Arlberg, à 300 km, que la DB a aussi). Au-delà de UIC_MAX_KM, ce ne sont pas
+    les mêmes gares : la ligne confirmée par son UIC ou un code OSM (puis celle de l'opérateur du pays) garde
+    l'id, l'autre prend l'id de son objet OSM (sinon TN<op>-<clé>) et ses codes la suivent, sans cet UIC.
+    gares et codes (colonne operateur) sont modifiés en place ; rend le nombre de lignes séparées."""
+    taken = set(gares["id"])
+    n = 0
+    for gid, g in gares.groupby("id"):
+        if g["operateur"].nunique() < 2:
+            continue
+        rows = sorted(g.itertuples(), key=lambda r: (r.statut not in ("uic", "code"),
+                                                     OPERATOR_COUNTRY.get(r.operateur) != r.pays))
+        keep = rows[0]
+        for r in rows[1:]:
+            if r.operateur == keep.operateur or \
+                    km(float(keep.lat), float(keep.lon), float(r.lat), float(r.lon)) <= UIC_MAX_KM:
+                continue
+            new = f"TNOSM{r.osm_id}" if r.osm_id else ""
+            if not new or new in taken:
+                new = f"TN{r.operateur}-{slug(r.cle)}"
+            logging.warning(f"   ⚠️ {gid} : {r.nom_fr} ({r.operateur}) n'est pas {keep.nom_fr} ({keep.operateur}), "
+                            f"devient {new}")
+            taken.add(new)
+            gares.loc[r.Index, ["id", "uic", "uic8"]] = [new, "", ""]
+            mine = (codes["operateur"] == r.operateur) & (codes["gare_id"] == gid)
+            wrong = mine & codes["source"].isin(["UIC", "UIC8"]) & codes["code"].isin([r.uic, keep.uic])
+            codes.loc[mine, "gare_id"] = new
+            codes.drop(index=codes.index[wrong], inplace=True)
+            n += 1
+    return n
+
+
 def main():
     ops = sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(OPERATEURS_DIR, "*", "gares.csv")))
     if not ops:
@@ -75,7 +109,10 @@ def main():
     gares = pd.concat([read(os.path.join(OPERATEURS_DIR, o, "gares.csv")).assign(operateur=o) for o in ops],
                       ignore_index=True)
     villes = pd.concat([read(os.path.join(OPERATEURS_DIR, o, "villes.csv")) for o in ops], ignore_index=True)
-    codes = pd.concat([read(os.path.join(OPERATEURS_DIR, o, "codes.csv")) for o in ops], ignore_index=True)
+    codes = pd.concat([read(os.path.join(OPERATEURS_DIR, o, "codes.csv")).assign(operateur=o) for o in ops],
+                      ignore_index=True)
+    split = split_far_ids(gares, codes)
+    codes = codes.drop(columns="operateur")
 
     # une gare = un id. Lignes à réunir : même objet OSM, ou second UIC (code "UIC" venu de l'objet OSM)
     # qui est l'id d'une autre gare à moins de 1 km
@@ -182,7 +219,8 @@ def main():
                                                                                 encoding="utf-8")
     multi = sum(1 for g in merged if "|" in g["operateurs"])
     logging.info(f"   {len(merged)} gares ({multi} communes à plusieurs opérateurs), {len(villes_d)} villes, "
-                 f"{len(codes.drop_duplicates())} codes, {len(conflicts)} divergences à relire")
+                 f"{len(codes.drop_duplicates())} codes, {len(conflicts)} divergences à relire, "
+                 f"{split} gares séparées (même id, gares éloignées)")
     print(f"\n✅ {GARES_CSV}\n   {VILLES_CSV}\n   {CODES_CSV}\n📋 {RAPPORT_CSV}")
 
 

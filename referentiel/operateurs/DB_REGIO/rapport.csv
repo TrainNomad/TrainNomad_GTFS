@@ -1,0 +1,737 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNDB_REGIO-100596;100596;Jiretin p.Bukovou;Jiretin p.Bukovou;gtfs;;Jiretin p.Bukovou;Jiřetín pod Bukovou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-101394;101394;Bernburg (Saale) Tiergarten (Parkeisenbahn);Bernburg (Saale) Tiergarten (Parkeisenbahn);gtfs;;Bernburg (Saale) Tiergarten (Parkeisenbahn);Bernbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-101724;101724;Werderstraße, Karlsruhe;Werderstraße, Karlsruhe;gtfs;;Werderstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-102917;102917;Poststraße, Karlsruhe;Poststraße, Karlsruhe;gtfs;;Poststraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719164;103346;Apach (Moselle);Apach;nom;0.032;Apach;Apach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8061714;105202;Dettingen Gsaidt;Dettingen Gsaidt;gtfs;;Dettingen Gsaidt;Dettingen an der Erms;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023234;105890;Bahnhof, Herzberg (Elster);Herzberg (Elster);nom;0.021;Herzberg (Elster);Herzberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-106871;106871;Augartenstraße, Karlsruhe;Augartenstraße, Karlsruhe;gtfs;;Augartenstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014556;107110;Mühlhausen (b Engen);Mühlhausen (b Engen);gtfs;;Mühlhausen (b Engen);Mühlhausen-Ehingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-107684;107684;Bernburg (Saale) Keßlerturm (Parkeisenbahn);Bernburg (Saale) Keßlerturm (Parkeisenbahn);gtfs;;Bernburg (Saale) Keßlerturm (Parkeisenbahn);Bernbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029287;108252;Kirchheim (T);Kirchheim (Teck);nom;0.01;Kirchheim (Teck);Kirchheim unter Teck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-108615;108615;Kolpingplatz, Karlsruhe;Kolpingplatz, Karlsruhe;gtfs;;Kolpingplatz, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001241;108792;Ottersberg (Han);Ottersberg;nom;0.088;Ottersberg;Ottersberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006094;109404;Löbau (Sachs);Löbau (Sachsen);nom;0.022;Löbau (Sachsen);Löbau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8001427;109731;Flensburg;Flensburg / Flensborg;nom;0.013;Flensburg / Flensborg;Flensbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5454272;110529;Hodkovice n.Mohelkou;Hodkovice n.Mohelkou;gtfs;;Hodkovice n.Mohelkou;Hodkovice nad Mohelkou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004002;111351;Bahnhof Franz-Mehring-Str., Bestensee;Bestensee;nom;0.023;Bestensee;Bestensee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-111679;111679;Lameyplatz, Karlsruhe;Lameyplatz, Karlsruhe;gtfs;;Lameyplatz, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004308;112453;Biehla Bahnhof, Elsterwerda;Biehla Bahnhof, Elsterwerda;gtfs;;Biehla Bahnhof, Elsterwerda;Elsterwerda;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004014;113291;Bahnhof, Vetschau (Spreewald);Bahnhof, Vetschau (Spreewald);gtfs;;Bahnhof, Vetschau (Spreewald);Vetschau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8091359;114446;Hoyerswerda-Neustadt;Hoyerswerda-Neustadt / Wojerecy-Nowe město;nom;0.037;Hoyerswerda-Neustadt / Wojerecy-Nowe město;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-115089;115089;Chemnitz, Haltepunkt Borna;Chemnitz, Haltepunkt Borna;gtfs;;Chemnitz, Haltepunkt Borna;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022254;115471;Friedrichsthal (b Bayreuth);Friedrichsthal (b Bayreuth);gtfs;;Friedrichsthal (b Bayreuth);Bayreuth;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8028246;115991;Bad Freienwalde;Bad Freienwalde (Oder);nom;0.008;Bad Freienwalde (Oder);Bad Freienwalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042917;117474;Chemnitz, Uhlestr;Chemnitz, Uhlestr;gtfs;;Chemnitz, Uhlestr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-117641;117641;Vise (fr);Vise (fr);gtfs;;Vise (fr);Eijsden;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8013104;118192;Osterode am Harz Mitte;Osterode am Harz Mitte;gtfs;;Osterode am Harz Mitte;Osterode am Harz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-118285;118285;Jablonec n.Jizerou-Hradsko;Jablonec n.Jizerou-Hradsko;gtfs;;Jablonec n.Jizerou-Hradsko;Jablonec nad Jizerou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453120;118370;Hradec Kralove hl.n.;Hradec Kralove hl.n.;gtfs;;Hradec Kralove hl.n.;Hradec Králové;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8028026;119033;Bahnhof, Gransee;Gransee;nom;0.004;Gransee;Gransee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042913;119660;Chemnitz, Schule Altchemnitz;Chemnitz, Schule Altchemnitz;gtfs;;Chemnitz, Schule Altchemnitz;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016098;119985;Eisenach Opelwerke Hp;Eisenach Opelwerke Hp;gtfs;;Eisenach Opelwerke Hp;Eisenach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-1205;1205;Münchingen Rührberg;Münchingen Rührberg;gtfs;;Münchingen Rührberg;Korntal-Münchingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8028031;120649;Bahnhof, Fürstenberg (Havel);Fürstenberg (Havel);nom;0.06;Fürstenberg (Havel);Fürstenberg/Havel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-123611;123611;Staré Krecany, Panský;Staré Krecany, Panský;gtfs;;Staré Krecany, Panský;Staré Křečany;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001644;124526;Neustadt (Holst);Neustadt (Holstein);nom;0.041;Neustadt (Holstein);Neustadt in Holstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8059806;125448;Ilfeld Tiefenbachmühle Gleis 1;Tiefenbachmühle;nom;0.037;Tiefenbachmühle;Harztor;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8063534;125487;Wackershofen;Wackershofen Freilandmuseum;nom;0.026;Wackershofen Freilandmuseum;Schwäbisch Hall;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-12560;12560;Knielinger Allee/Städt. Klinikum, Karlsruhe;Knielinger Allee/Städt. Klinikum, Karlsruhe;gtfs;;Knielinger Allee/Städt. Klinikum, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006096;125724;Pommritz;Pommritz / Pomorcy;nom;0.052;Pommritz / Pomorcy;Hochkirch;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047966;125828;Rietschen;Rietschen / Rěčicy;nom;0.017;Rietschen / Rěčicy;Rietschen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006958;126314;Kurort Kipsdorf Bahnhof;Kurort Kipsdorf;nom;0.036;Kurort Kipsdorf;Altenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028951;127099;Binz LB;Binz LB;gtfs;;Binz LB;Binz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001186;127321;Hamburg-Neugraben;Neugraben;nom;0.028;Neugraben;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8091356;133086;Klitten;Klitten / Klětno;nom;0.01;Klitten / Klětno;Boxberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-134730;134730;Bozikov;Bozikov;gtfs;;Bozikov;Zákupy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-135453;135453;Wolfartsweierer Straße, Karlsruhe;Wolfartsweierer Straße, Karlsruhe;gtfs;;Wolfartsweierer Straße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8069675;135616;Steilküste/Wittenbeck;Steilküste/Wittenbeck;gtfs;;Steilküste/Wittenbeck;Wittenbeck;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016307;135660;Lichtenhain (a d Bergbahn);Lichtenhain (a d Bergbahn);gtfs;;Lichtenhain (a d Bergbahn);Schwarzatal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-136178;136178;Körle Gl.1 Ri. Melsungen;Körle Gl.1 Ri. Melsungen;gtfs;;Körle Gl.1 Ri. Melsungen;Körle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-136951;136951;Erfenstein, Haltepunkt;Erfenstein, Haltepunkt;gtfs;;Erfenstein, Haltepunkt;Esthal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016082;138779;Herleshausen Hp;Herleshausen Hp;gtfs;;Herleshausen Hp;Herleshausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004316;14157;Lauta (Nl);Lauta (Nl);gtfs;;Lauta (Nl);Lauta;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042125;142137;Menzingen (Baden);Menzingen;nom;0.001;Menzingen;Kraichtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014326;144628;Herbolzheim (Breisg);Herbolzheim (Breisgau);nom;0.035;Herbolzheim (Breisgau);Herbolzheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8002157;145285;St Ottilien;St Ottilien;gtfs;;St Ottilien;Eresing;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-146000;146000;Heilbronn Pfühlpark;Heilbronn Pfühlpark;gtfs;;Heilbronn Pfühlpark;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059003;146504;Falkenstein (Vogtl);Falkenstein;nom;0.102;Falkenstein;Falkenstein/Vogtl.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-146983;146983;Jablonec n.N.centrum;Jablonec n.N.centrum;gtfs;;Jablonec n.N.centrum;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-147173;147173;Líny, Bukovno;Líny, Bukovno;gtfs;;Líny, Bukovno;Bukovno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004044;147560;Forst (Lausitz);Forst (Lausitz) / Baršć (Łužyca);nom;0.024;Forst (Lausitz) / Baršć (Łužyca);Forst (Lusace);wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8024034;147763;Eilsleben (b Magdeburg);Eilsleben;nom;0.073;Eilsleben;Eilsleben;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8015735;148338;Chemnitz, Roter Turm;Chemnitz, Roter Turm;gtfs;;Chemnitz, Roter Turm;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024566;149256;Stendal Vorbf;Stendal Vorbf;gtfs;;Stendal Vorbf;Stendal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014350;150012;Freiburg, Hauptbahnhof;Freiburg, Hauptbahnhof;gtfs;;Freiburg, Hauptbahnhof;Fribourg-en-Brisgau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003317;151063;Friedersdorf (Königs Wusterhausen);Friedersdorf (Königs Wusterhausen);gtfs;;Friedersdorf (Königs Wusterhausen);Heidesee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-151842;151842;Gottesauer Platz/BGV, Karlsruhe;Gottesauer Platz/BGV, Karlsruhe;gtfs;;Gottesauer Platz/BGV, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003316;152450;Kummersdorf (Storkow);Kummersdorf (Storkow);gtfs;;Kummersdorf (Storkow);Storkow (Mark);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024577;152844;Steinfeld (Stendal);Steinfeld;nom;0.035;Steinfeld;Bismark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023443;153971;Taucha (Leipzig);Taucha (Leipzig);gtfs;;Taucha (Leipzig);Taucha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014677;154086;Chemnitz, Moritzhof;Chemnitz, Moritzhof;gtfs;;Chemnitz, Moritzhof;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8005183;154290;Espenau-Mönchehof Gl.1 Ri. Kassel;Espenau-Mönchehof;nom;0.046;Espenau-Mönchehof;Espenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8058193;15454;Holdorf (Meckl);Holdorf (Mecklenburg);nom;0.031;Holdorf (Mecklenburg);Holdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047013;158017;Jungingen (Hohenz);Jungingen;nom;0.013;Jungingen;Jungingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-158797;158797;Einbeck BBS/PS-Speicher;Einbeck BBS/PS-Speicher;gtfs;;Einbeck BBS/PS-Speicher;Einbeck;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042956;159685;Frankenberg, Bahnhof;Frankenberg, Bahnhof;gtfs;;Frankenberg, Bahnhof;Frankenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002224;160857;Weilbach (Unterallg);Weilbach;nom;0.004;Weilbach;Pfaffenhausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-161073;161073;Prien/Stock (Hafen);Prien/Stock (Hafen);gtfs;;Prien/Stock (Hafen);Prien am Chiemsee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-161614;161614;Neustadt (Weinstr) Süd;Neustadt (Weinstr) Süd;gtfs;;Neustadt (Weinstr) Süd;Neustadt an der Weinstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8009855;163243;Forst (Gr);Forst (Gr);gtfs;;Forst (Gr);Forst (Lusace);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-163845;163845;Kiel-Russee;Kiel-Russee;gtfs;;Kiel-Russee;Kiel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006584;164401;Dittersdorf, Bahnhof;Dittersdorf;nom;0.104;Dittersdorf;Amtsberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8007078;165203;Alsdorf (Westerw);Alsdorf (Westerwald);nom;0.012;Alsdorf (Westerwald);Alsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-165498;165498;Neureut Adolf-Ehrmann-Bad, Karlsruhe;Neureut Adolf-Ehrmann-Bad, Karlsruhe;gtfs;;Neureut Adolf-Ehrmann-Bad, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8005361;165819;Hauptbahnhof Gleis 4 Ri. SCPL;Hauptbahnhof Gleis 4 Ri. SCPL;gtfs;;Hauptbahnhof Gleis 4 Ri. SCPL;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004062;165838;Neuhausen (Cottbus);Neuhausen (Cottbus);gtfs;;Neuhausen (Cottbus);Neuhausen/Spree;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014521;166264;Villingen (Schwarzw);Villingen (Schwarzwald);nom;0.018;Villingen (Schwarzwald);Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-167192;167192;Bela p.Bezdezem mesto;Bela p.Bezdezem mesto;gtfs;;Bela p.Bezdezem mesto;Bělá pod Bezdězem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006661;168592;Aue (Sachs);Aue (Sachsen);nom;0.174;Aue (Sachsen);Aue-Bad Schlema;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8721241;1692;Roppenheim;Roppenheim;nom;0.027;Beinheim-Roppenheim;Beinheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-170621;170621;Haus Bethlehem, Karlsruhe;Haus Bethlehem, Karlsruhe;gtfs;;Haus Bethlehem, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-171131;171131;Scheidemannplatz Ri. Wilhelmsstraße;Scheidemannplatz Ri. Wilhelmsstraße;gtfs;;Scheidemannplatz Ri. Wilhelmsstraße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-172388;172388;Ettlinger Tor/Staatstheater, Karlsruhe;Ettlinger Tor/Staatstheater, Karlsruhe;gtfs;;Ettlinger Tor/Staatstheater, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8091354;172911;Petershain;Petershain / Hóznica;nom;0.039;Petershain / Hóznica;Quitzdorf am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-173355;173355;Stock Hafen Bahnhof, Prien a. Chiemsee;Stock Hafen Bahnhof, Prien a. Chiemsee;gtfs;;Stock Hafen Bahnhof, Prien a. Chiemsee;Prien am Chiemsee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014120;174585;Chemnitz, Gustav-Freytag-Str;Chemnitz, Gustav-Freytag-Str;gtfs;;Chemnitz, Gustav-Freytag-Str;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM8915507446;17498;Zugspitze Bahnhof Zugspitzplatt, Garmisch-Partenki;Zugspitzplatt;nom;0.035;Zugspitzplatt;Garmisch-Partenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-176569;176569;Rüppurrer Tor, Karlsruhe;Rüppurrer Tor, Karlsruhe;gtfs;;Rüppurrer Tor, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8028327;177866;Wilmersdorf (Angerm);Wilmersdorf (Angerm);gtfs;;Wilmersdorf (Angerm);Angermünde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014271;178611;Baiersbronn Bf;Baiersbronn;nom;0.021;Baiersbronn;Baiersbronn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-179213;179213;Händelstraße, Karlsruhe;Händelstraße, Karlsruhe;gtfs;;Händelstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016068;179250;Waltershausen;Waltershausen;gtfs;;Waltershausen;Waltershausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059835;179334;Silberhütte NE;Silberhütte NE;gtfs;;Silberhütte NE;Harzgerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006056;179668;Porschdorf Bahnhof;Porschdorf Bahnhof;gtfs;;Porschdorf Bahnhof;Bad Schandau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042807;180606;Weil i. S. Troppel;Weil i. S. Troppel;gtfs;;Weil i. S. Troppel;Weil im Schönbuch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004059;180768;Cottbus-Merzdorf;Cottbus-Merzdorf;nom;0.016;Cottbus-Merzdorf - Chóśebuz-Žylowk;Cottbus;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-181338;181338;Melsungen Gl.1 Ankunft von KS;Melsungen Gl.1 Ankunft von KS;gtfs;;Melsungen Gl.1 Ankunft von KS;Melsungen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003376;181511;Bahnhof, Königs Wusterhausen;Königs Wusterhausen;nom;0.032;Königs Wusterhausen;Königs Wusterhausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006342;182869;Freital S-Bahnhof Hainsberg;Freital S-Bahnhof Hainsberg;gtfs;;Freital S-Bahnhof Hainsberg;Freital;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-183338;183338;Neukirchen b.Lambach;Neukirchen b.Lambach;gtfs;;Neukirchen b.Lambach;Neukirchen bei Lambach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8015747;183657;Chemnitz, Scheffelstr;Chemnitz, Scheffelstr;gtfs;;Chemnitz, Scheffelstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004057;184873;Peitz Ost;Peitz Ost;nom;0.01;Peitz Ost - Picnjo pódzajtšo;Peitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029612;185422;Walheim (Württ);Walheim (Württemberg);nom;0.02;Walheim (Württemberg);Walheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8600100;185992;Padborg st;Padborg st;gtfs;;Padborg st;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042957;186174;Frankenberg, Süd;Frankenberg, Süd;gtfs;;Frankenberg, Süd;Frankenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-187934;187934;Unterneustädter Kirchplatz Ri. Altmarkt;Unterneustädter Kirchplatz Ri. Altmarkt;gtfs;;Unterneustädter Kirchplatz Ri. Altmarkt;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029398;18846;Eutingen im Gäu;Eutingen;nom;0.005;Eutingen;Eutingen im Gäu;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-18915;18915;Lutherplatz Ri. Am Stern;Lutherplatz Ri. Am Stern;gtfs;;Lutherplatz Ri. Am Stern;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003550;189500;Vehlefanz Bahnhof, Oberkrämer;Vehlefanz;nom;0.04;Vehlefanz;Oberkrämer;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8062313;189564;Schwaigern (Württ) West;Schwaigern (Württ) West;gtfs;;Schwaigern (Württ) West;Schwaigern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-191539;191539;Ostendstraße, Karlsruhe;Ostendstraße, Karlsruhe;gtfs;;Ostendstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8009873;191673;Schöna (Gr);Schöna (Gr);gtfs;;Schöna (Gr);Reinhardtsdorf-Schöna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8027349;191693;Lüblow (Meckl);Lüblow;nom;0.032;Lüblow;Lüblow;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-191715;191715;Markersdorf Alte Mühle / Schreckenstein;Markersdorf Alte Mühle / Schreckenstein;gtfs;;Markersdorf Alte Mühle / Schreckenstein;Claußnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453414;192131;Kolin (CZ);Kolín;nom;0.015;Kolín;Kolín;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004055;193106;Jänschwalde Ost;Jänschwalde Ost;nom;0.007;Jänschwalde Ost - Janšojce Pódzajtšo;Jänschwalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-193980;193980;Jablonec n.N.dol.n.;Jablonec n.N.dol.n.;gtfs;;Jablonec n.N.dol.n.;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8019412;19442;Frankeneck, Bahnhof;Frankeneck;nom;0.096;Frankeneck;Lambrecht;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-194766;194766;Karlovy Vary dolni n.;Karlovy Vary dolni n.;gtfs;;Karlovy Vary dolni n.;Carlsbad;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004215;19484;Calau (Nl);Calau (Nl);gtfs;;Calau (Nl);Calau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014094;19560;Bretten;Bretten Bahnhof;nom;0.036;Bretten Bahnhof;Bretten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8024114;197441;Lübs (Magdeburg);Lübs;nom;0.008;Lübs;Gommern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-198076;198076;Jablonec n.Nisou;Jablonec n.Nisou;gtfs;;Jablonec n.Nisou;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8071996;198080;Villingen-Schwenningen Hammerstatt;Villingen-Schwenningen Hammerstatt;gtfs;;Villingen-Schwenningen Hammerstatt;Villingen-Schwenningen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3330031590;19842;Krimderode Nordhausen Ricarda-Huch-Straße Gleis 1;Nordhausen Ricarda-Huch-Straße;nom;0.0;Nordhausen Ricarda-Huch-Straße;Nordhausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006970;199961;Kurort Oybin;Kurort Oybin;gtfs;;Kurort Oybin;Oybin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8005174;203286;Hümme Gl.1 Ankunft aus KS;Hümme Gl.1 Ankunft aus KS;gtfs;;Hümme Gl.1 Ankunft aus KS;Hofgeismar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-20568;20568;Decin-Prostredni Zleb;Decin-Prostredni Zleb;gtfs;;Decin-Prostredni Zleb;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042941;205933;Chemnitz, Altchemnitz;Chemnitz, Altchemnitz;gtfs;;Chemnitz, Altchemnitz;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-206332;206332;Vellmar-Obervellmar Gl.1 Ri. Hümme;Vellmar-Obervellmar Gl.1 Ri. Hümme;gtfs;;Vellmar-Obervellmar Gl.1 Ri. Hümme;Vellmar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-208115;208115;Mühlheim am Inn;Mühlheim am Inn;gtfs;;Mühlheim am Inn;Mühlheim am Inn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022256;20909;Untersteinach (Bayr);Untersteinach (Bayr);gtfs;;Untersteinach (Bayr);Weidenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-209441;209441;Guxhagen Gl.1 Ri. Kassel;Guxhagen Gl.1 Ri. Kassel;gtfs;;Guxhagen Gl.1 Ri. Kassel;Guxhagen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301645;210179;Milano Porta Garibaldi;Milano Porta Garibaldi (superficie);nom;0.014;Milano Porta Garibaldi (superficie);Milan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029551;210812;Hofen (b Aalen);Hofen (b Aalen);gtfs;;Hofen (b Aalen);Aalen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029663;212188;Waldenburg (Württ);Waldenburg (Württemberg);nom;0.01;Waldenburg (Württemberg);Waldenbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-212502;212502;Kongresszentrum (U), Karlsruhe;Kongresszentrum (U), Karlsruhe;gtfs;;Kongresszentrum (U), Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001093;213122;Hamburg-Altona (S);Hamburg-Altona;nom;0.073;Hamburg-Altona;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006376;213733;Chemnitz, Bahnhof Hilbersdorf;Chemnitz, Bahnhof Hilbersdorf;gtfs;;Chemnitz, Bahnhof Hilbersdorf;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024008;213864;Burg (Magdeburg);Burg (Magdeburg);gtfs;;Burg (Magdeburg);Burg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022089;213942;Hallstadt (b Bamberg);Hallstadt (b Bamberg);gtfs;;Hallstadt (b Bamberg);Hallstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-213967;213967;Bernburg (Saale) Paradies (Parkeisenbahn);Bernburg (Saale) Paradies (Parkeisenbahn);gtfs;;Bernburg (Saale) Paradies (Parkeisenbahn);Bernbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016694;215938;Crossen a d Elster;Crossen a d Elster;gtfs;;Crossen a d Elster;Crossen an der Elster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029486;216347;Hochdorf (b Horb);Hochdorf;nom;0.044;Hochdorf;Eutingen im Gäu;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8721230;216813;Bischheim (F);Gare de Bischheim;nom;0.004;Bischheim;Schiltigheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-216912;216912;Plzen zast.;Plzen zast.;gtfs;;Plzen zast.;Pilsen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023411;217276;Rehfeld (Falkenberg);Rehfeld (Falkenberg);gtfs;;Rehfeld (Falkenberg);Falkenberg/Elster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003396;218542;Bahnhof, Zossen;Zossen;nom;0.015;Zossen;Zossen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8058199;218808;Sukow (b Schwerin);Sukow (b Schwerin);gtfs;;Sukow (b Schwerin);Sukow;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-219201;219201;Frydlant v Cechach predm.;Frydlant v Cechach predm.;gtfs;;Frydlant v Cechach predm.;Frýdlant;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006002;220272;Schöna Bahnhof;Schöna;nom;0.022;Schöna;Reinhardtsdorf-Schöna;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-220867;220867;Benneckenstein Benneckenstein Gleis 2;Benneckenstein Benneckenstein Gleis 2;gtfs;;Benneckenstein Benneckenstein Gleis 2;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433295;223022;Brno hl.n.;Brno hl.n.;gtfs;;Brno hl.n.;Brno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8039251;223057;Gondelsheim Schlossstadion;Gondelsheim Schlossstadion;gtfs;;Gondelsheim Schlossstadion;Gondelsheim;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011431;223333;Stockhausen (Lahn);Stockhausen (Lahn);gtfs;;Stockhausen (Lahn);Leun;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004013;224392;Raddusch;Raddusch / Raduš;nom;0.005;Raddusch / Raduš;Vetschau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8003549;224483;Bärenklau Bahnhof, Oberkrämer;Bärenklau;nom;0.054;Bärenklau;Oberkrämer;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-225353;225353;Wendling b.Haag;Wendling b.Haag;gtfs;;Wendling b.Haag;Wendling;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-226124;226124;Immenhausen Gl.2 Ri. Kassel;Immenhausen Gl.2 Ri. Kassel;gtfs;;Immenhausen Gl.2 Ri. Kassel;Immenhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-227068;227068;Straz n.Nisou;Straz n.Nisou;gtfs;;Straz n.Nisou;Stráž nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029238;227594;Ehingen (Donau);Ehingen;nom;0.025;Ehingen;Ehingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029096;227860;Amstetten (Württ);Amstetten (Württemberg);nom;0.013;Amstetten (Württemberg);Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8005355;228808;Speele;Staufenberg-Speele;nom;0.011;Staufenberg-Speele;Staufenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM13028508565;22883;Schmiedeberg Naundorf Hp;Schmiedeberg-Naundorf;nom;0.007;Schmiedeberg-Naundorf;Dippoldiswalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-228866;228866;Decin vychod;Decin vychod;gtfs;;Decin vychod;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5456740;229226;Dvur Kralove n.Labem;Dvur Kralove n.Labem;gtfs;;Dvur Kralove n.Labem;Dvůr Králové nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-230681;230681;Kurt-Schumacher-Straße, Karlsruhe;Kurt-Schumacher-Straße, Karlsruhe;gtfs;;Kurt-Schumacher-Straße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-235338;235338;Karlsruhe Bahnhofsvorplatz;Karlsruhe Bahnhofsvorplatz;gtfs;;Karlsruhe Bahnhofsvorplatz;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-235542;235542;Kronenplatz (U), Karlsruhe;Kronenplatz (U), Karlsruhe;gtfs;;Kronenplatz (U), Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8047964;235578;Schleife;Schleife / Slepo;nom;0.058;Schleife / Slepo;Schleife;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8026222;236362;Sulzbach-Rosenberg Hütte;Sulzbach-Rosenberg Hütte;gtfs;;Sulzbach-Rosenberg Hütte;Sulzbach-Rosenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5455659;237500;Decin hl.n.;Decin hl.n.;gtfs;;Decin hl.n.;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719162;237573;Malling (F);Malling;nom;0.031;Malling;Malling;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006654;23926;Wiesenburg (Sachs);Wiesenburg;nom;0.015;Wiesenburg;Wildenfels;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8719334;239654;Teting (Moselle);Teting (Moselle);gtfs;;Teting (Moselle);Teting-sur-Nied;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004265;240530;Bahnhof, Neupetershain;Neupetershain;nom;0.063;Neupetershain;Neupetershain;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-240972;240972;Wernigerode Wernigerode Gleis 31;Wernigerode Wernigerode Gleis 31;gtfs;;Wernigerode Wernigerode Gleis 31;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003533;241835;Bahnhof/A.-Bebel-Str., Brieselang;Brieselang;nom;0.077;Brieselang;Brieselang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006055;243085;Rathmannsdorf Bahnhof;Rathmannsdorf Bahnhof;gtfs;;Rathmannsdorf Bahnhof;Rathmannsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8027903;243109;Ostseebad Kühlungsborn Ost;Ostseebad Kühlungsborn Ost;gtfs;;Ostseebad Kühlungsborn Ost;Kühlungsborn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-24364;24364;Karlsruhe Durlacher Tor / KIT-Campus Süd;Karlsruhe Durlacher Tor / KIT-Campus Süd;gtfs;;Karlsruhe Durlacher Tor / KIT-Campus Süd;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059017;244865;Grünbach (Vogtl);Grünbach;nom;0.062;Grünbach;Grünbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023151;245089;Landsberg (b. Halle/Saale);Landsberg (b. Halle/Saale);gtfs;;Landsberg (b. Halle/Saale);Landsberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-245152;245152;Schierke Goetheweg Gleis 1;Schierke Goetheweg Gleis 1;gtfs;;Schierke Goetheweg Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-245179;245179;Haltepunkt Biosphärenreservat;Haltepunkt Biosphärenreservat;gtfs;;Haltepunkt Biosphärenreservat;Oranienbaum-Wörlitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003291;246650;Fürstenwalde Süd;Fürstenwalde Süd;gtfs;;Fürstenwalde Süd;Fürstenwalde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042918;246661;Chemnitz, Zentralhaltestelle;Chemnitz, Zentralhaltestelle;gtfs;;Chemnitz, Zentralhaltestelle;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006057;246916;Bahnhof Goßdorf-Kohlmühle;Goßdorf-Kohlmühle;nom;0.014;Goßdorf-Kohlmühle;Hohnstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-24767;24767;Moltkestraße/Städt. Klinikum, Karlsruhe;Moltkestraße/Städt. Klinikum, Karlsruhe;gtfs;;Moltkestraße/Städt. Klinikum, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016079;247802;Hörschel Hp;Hörschel;nom;0.009;Hörschel;Eisenach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014171;247902;Mauer (b Heidelberg);Mauer (b Heidelberg);gtfs;;Mauer (b Heidelberg);Mauer;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-24809;24809;Bela p.Bezdezem z.;Bela p.Bezdezem z.;gtfs;;Bela p.Bezdezem z.;Bělá pod Bezdězem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434362;248261;Olomouc hl.n.;Olomouc hl.n.;gtfs;;Olomouc hl.n.;Olomouc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5476985;249116;Hojsova Straz;Hamry-Hojsova Stráž;nom;0.058;Hamry-Hojsova Stráž;Hamry;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023498;250930;Grimma ob Bf;Grimma ob Bf;gtfs;;Grimma ob Bf;Grimma;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004263;251009;Bahnhof, Drebkau;Drebkau;nom;0.009;Drebkau;Drebkau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006429;252306;Annaberg-Buchholz unterer Bf;Annaberg-Buchholz unterer Bf;gtfs;;Annaberg-Buchholz unterer Bf;Annaberg-Buchholz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006945;254347;Dippoldiswalde Bahnhof;Dippoldiswalde;nom;0.032;Dippoldiswalde;Dippoldiswalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028707;254920;Kummerow (Stralsund);Kummerow (Stralsund);gtfs;;Kummerow (Stralsund);Niepars;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023714;257311;Bahnhof Wörlitz;Wörlitz;nom;0.006;Wörlitz;Oranienbaum-Wörlitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023474;259584;Borsdorf (Sachs);Borsdorf (Sachsen);nom;0.006;Borsdorf (Sachsen);Borsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-261180;261180;Horka u St.Paky;Horka u St.Paky;gtfs;;Horka u St.Paky;Horka u Staré Paky;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014253;261934;Bad Rotenfels Bf;Bad Rotenfels Bf;gtfs;;Bad Rotenfels Bf;Gaggenau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8033534;263233;Rinklingen;Bretten Rinklingen;nom;0.006;Bretten Rinklingen;Bretten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029322;264890;Rottenburg (Neckar);Rottenburg;nom;0.046;Rottenburg;Rottenburg am Neckar;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042942;26538;Hp Klaffenbach;Hp Klaffenbach;gtfs;;Hp Klaffenbach;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-26549;26549;Jablonec n.N.zast.;Jablonec n.N.zast.;gtfs;;Jablonec n.N.zast.;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-266241;266241;Untermühlstraße, Karlsruhe;Untermühlstraße, Karlsruhe;gtfs;;Untermühlstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-266998;266998;Halitplatz Ri. Hauptfriedhof;Halitplatz Ri. Hauptfriedhof;gtfs;;Halitplatz Ri. Hauptfriedhof;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023114;267270;Nauendorf (Saalkr);Nauendorf (Saalkreis);nom;0.018;Nauendorf (Saalkreis);Wettin-Löbejün;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8016319;267358;Jena Saalbf;Jena Saalbf;gtfs;;Jena Saalbf;Iéna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3330002662;267362;Niedersachswerfen Niedersachswerfen Ost Gleis 1;Niedersachswerfen Ost;nom;0.003;Niedersachswerfen Ost;Harztor;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-267729;267729;Dolni Zleb;Dolni Zleb;gtfs;;Dolni Zleb;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-267775;267775;Puch b.Hallein Urstein;Puch b.Hallein Urstein;gtfs;;Puch b.Hallein Urstein;Puch bei Hallein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006386;268887;Falkenau (Sachs) Hp;Falkenau;nom;0.028;Falkenau;Flöha;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-269536;269536;Wolfhagen Gl.4 Ri. Kassel;Wolfhagen Gl.4 Ri. Kassel;gtfs;;Wolfhagen Gl.4 Ri. Kassel;Wolfhagen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011360;269963;Reinheim (Odenw);Reinheim (Odenwald);nom;0.062;Reinheim (Odenwald);Reinheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006971;270343;Kurort Jonsdorf Hst;Kurort Jonsdorf Hst;gtfs;;Kurort Jonsdorf Hst;Jonsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006318;270881;Limmritz (Sachs);Limmritz;nom;0.002;Limmritz;Döbeln;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8020197;274383;Aßling (Oberbay);Aßling (Oberbayern);nom;0.017;Aßling (Oberbayern);Aßling;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004058;274632;Bahnhof, Teichland;Bahnhof, Teichland;gtfs;;Bahnhof, Teichland;Teichland;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002098;275436;Krumbach (Schwab);Krumbach (Schwaben);nom;0.029;Krumbach (Schwaben);Krumbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029436;276014;Schwenningen (Neckar);Schwenningen;nom;0.0;Schwenningen;Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-2773;2773;Jaromer zast.;Jaromer zast.;gtfs;;Jaromer zast.;Jaroměř;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024583;277431;Pretzier (Altm);Pretzier (Altmark);nom;0.021;Pretzier (Altmark);Salzwedel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5457200;277499;Vrchlabí, Bf;Vrchlabí;nom;0.027;Vrchlabí;Vrchlabí;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042997;278210;Chemnitz, Alt Chemnitz Center;Chemnitz, Alt Chemnitz Center;gtfs;;Chemnitz, Alt Chemnitz Center;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029356;278806;Endingen (Württ);Endingen (Württ);gtfs;;Endingen (Württ);Balingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-281781;281781;Jablonec n.Jizerou;Jablonec n.Jizerou;gtfs;;Jablonec n.Jizerou;Jablonec nad Jizerou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM12213652138;282045;Würselen-Merzbrück;Forschungsflugplatz Würselen-Merzbrück;nom;0.0;Forschungsflugplatz Würselen-Merzbrück;Würselen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006588;283764;Thalheim, Bahnhof;Thalheim, Bahnhof;gtfs;;Thalheim, Bahnhof;Thalheim/Erzgeb.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-284861;284861;Varnsdorf (Bahnhof);Varnsdorf (Bahnhof);gtfs;;Varnsdorf (Bahnhof);Varnsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8091358;285091;Lohsa;Lohsa / Łaz;nom;0.018;Lohsa / Łaz;Lohsa;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029396;285521;Bondorf (b Herrenberg);Bondorf;nom;0.027;Bondorf;Bondorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-286267;286267;Sandershäuser Straße Ri. Kirchgasse;Sandershäuser Straße Ri. Kirchgasse;gtfs;;Sandershäuser Straße Ri. Kirchgasse;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004016;287256;Kunersdorf (SPN) Bahnhof, Kolkwitz;Kunersdorf (SPN) Bahnhof, Kolkwitz;gtfs;;Kunersdorf (SPN) Bahnhof, Kolkwitz;Kolkwitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-287623;287623;Rathaus/Fünffensterstraße Ri. Ständeplatz;Rathaus/Fünffensterstraße Ri. Ständeplatz;gtfs;;Rathaus/Fünffensterstraße Ri. Ständeplatz;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-287971;287971;Karlsruhe Albtalbahnhof;Karlsruhe Albtalbahnhof;gtfs;;Karlsruhe Albtalbahnhof;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004318;289670;Hoyerswerda;Hoyerswerda;nom;0.027;Hoyerswerda - Wojerecy;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-289889;289889;Vichova n.Jizerou;Vichova n.Jizerou;gtfs;;Vichova n.Jizerou;Víchová nad Jizerou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004010;291096;Bahnhof, Lübben (Spreewald);Bahnhof, Lübben (Spreewald);gtfs;;Bahnhof, Lübben (Spreewald);Lübben (Spreewald);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-291613;291613;Wilhelmsstraße/Stadtmuseum Ri. Scheidemannplatz;Wilhelmsstraße/Stadtmuseum Ri. Scheidemannplatz;gtfs;;Wilhelmsstraße/Stadtmuseum Ri. Scheidemannplatz;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006586;292479;Burkhardtsdorf, Bahnhof;Burkhardtsdorf;nom;0.016;Burkhardtsdorf;Burkhardtsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006591;295120;Zwönitz, Bahnhof;Zwönitz;nom;0.043;Zwönitz;Zwönitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004005;295232;Bahnhof, Halbe;Halbe;nom;0.072;Halbe;Halbe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-296266;296266;Frankfurt (M) Flughafen Fernbf;Frankfurt (M) Flughafen Fernbf;gtfs;;Frankfurt (M) Flughafen Fernbf;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029345;296668;Balingen (Württ);Balingen;nom;0.117;Balingen;Balingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-296844;296844;Nove Mesto p.Smrkem;Nove Mesto p.Smrkem;gtfs;;Nove Mesto p.Smrkem;Nové Město pod Smrkem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8093822;297271;Rabenau Bahnhof;Rabenau;nom;0.012;Rabenau;Rabenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006372;298893;Falkenau (Sachs) Süd;Falkenau (Sachs) Süd;gtfs;;Falkenau (Sachs) Süd;Flöha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-299578;299578;Heilbronn Finanzamt;Heilbronn Finanzamt;gtfs;;Heilbronn Finanzamt;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042999;300086;Chemnitz, Erdmannsdorfer Str;Chemnitz, Erdmannsdorfer Str;gtfs;;Chemnitz, Erdmannsdorfer Str;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453179;301103;Usti nad Labem hl.n.;Usti nad Labem hl.n.;gtfs;;Usti nad Labem hl.n.;Ústí nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042104;301587;Zeutern Bf;Zeutern Bf;gtfs;;Zeutern Bf;Ubstadt-Weiher;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3109265538;30293;Fischweier, Karlsbad;Fischweier;nom;0.02;Fischweier;Karlsbad;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8002074;303491;Schwenningen (Bay);Schwenningen (Bayern);nom;0.01;Schwenningen (Bayern);Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8089412;303560;Marbach-Grafeneck;Marbach-Grafeneck;gtfs;;Marbach-Grafeneck;Gomadingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029489;30367;Schopfloch (b Freudenstadt);Schopfloch (b Freudenstadt);gtfs;;Schopfloch (b Freudenstadt);Schopfloch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016574;304595;Ballstädt (Gotha);Ballstädt (Gotha);gtfs;;Ballstädt (Gotha);Nessetal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-3057;3057;Karlstor/Bundesgerichtshof, Karlsruhe;Karlstor/Bundesgerichtshof, Karlsruhe;gtfs;;Karlstor/Bundesgerichtshof, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024332;305963;Halberstadt Oststr;Halberstadt Oststr;gtfs;;Halberstadt Oststr;Halberstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8093818;307016;Freital Hp Coßmannsdorf;Freital Hp Coßmannsdorf;gtfs;;Freital Hp Coßmannsdorf;Freital;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003408;307864;Bahnhof, Brück;Bahnhof, Brück;gtfs;;Bahnhof, Brück;Brück;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8040304;307953;Waldhausen (b Geislingen);Waldhausen;nom;0.046;Waldhausen;Geislingen an der Steige;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-308954;308954;Krasny Les bazant.;Krasny Les bazant.;gtfs;;Krasny Les bazant.;Krásný Les;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042908;309075;Niederdorf, Haltepunkt;Niederdorf, Haltepunkt;gtfs;;Niederdorf, Haltepunkt;Niederdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042915;309614;Chemnitz, Theaterplatz;Chemnitz, Theaterplatz;gtfs;;Chemnitz, Theaterplatz;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8085918;310311;Heilbronn Harmonie;Heilbronn Harmonie;gtfs;;Heilbronn Harmonie;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-310822;310822;Mathystraße, Karlsruhe;Mathystraße, Karlsruhe;gtfs;;Mathystraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-311114;311114;Ebertstraße, Karlsruhe;Ebertstraße, Karlsruhe;gtfs;;Ebertstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059001;312295;Auerbach (V) ob Bf;Auerbach (V) ob Bf;gtfs;;Auerbach (V) ob Bf;Auerbach/Vogtl.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8711300;312894;Paris Est;Paris Est;gtfs;;Paris Est;Paris;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023666;313387;Deuben (Zeitz);Deuben (Zeitz);gtfs;;Deuben (Zeitz);Teuchern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-31379;31379;Frankfurt (M) Flughafen Regionalbf;Frankfurt (M) Flughafen Regionalbf;gtfs;;Frankfurt (M) Flughafen Regionalbf;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042120;313873;Unteröwisheim Bf;Unteröwisheim Bf;gtfs;;Unteröwisheim Bf;Kraichtal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014104;313995;Jöhlingen;Jöhlingen Bahnhof;nom;0.003;Jöhlingen Bahnhof;Walzbachtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-314344;314344;Jindrichovice p.Smrkem;Jindrichovice p.Smrkem;gtfs;;Jindrichovice p.Smrkem;Jindřichovice pod Smrkem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-315291;315291;Wolfhagen-Altenhasungen Gl.1 Ri. Kassel;Wolfhagen-Altenhasungen Gl.1 Ri. Kassel;gtfs;;Wolfhagen-Altenhasungen Gl.1 Ri. Kassel;Wolfhagen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029324;316496;Bieringen;Bieringen b Horb;nom;0.014;Bieringen b Horb;Rottenburg am Neckar;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-316559;316559;Heilbronn Hauptbahnhof/Willy-Brandt-Pl.;Heilbronn Hauptbahnhof/Willy-Brandt-Pl.;gtfs;;Heilbronn Hauptbahnhof/Willy-Brandt-Pl.;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-317155;317155;Korenov zast.;Korenov zast.;gtfs;;Korenov zast.;Desná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011747;317373;Unteröwisheim M.-Luther-Str.;Unteröwisheim M.-Luther-Str.;gtfs;;Unteröwisheim M.-Luther-Str.;Kraichtal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-319055;319055;Szob (Gr);Szob (Gr);gtfs;;Szob (Gr);Chľaba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014151;320594;Auerbach (b Mosbach, Baden);Auerbach (b Mosbach);nom;0.02;Auerbach (b Mosbach);Elztal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8043000;320833;Blumenthal (Mark);Blumenthal;nom;0.002;Blumenthal;Heiligengrabe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8066083;321343;Freudenstadt Schulzentrum;Freudenstadt Schulzentrum/Panoramabad;nom;0.009;Freudenstadt Schulzentrum/Panoramabad;Freudenstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-322689;322689;Regensburg Brahmsstraße;Regensburg Brahmsstraße;gtfs;;Regensburg Brahmsstraße;Ratisbonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029258;323763;Hausen i Tal;Hausen i Tal;gtfs;;Hausen i Tal;Beuron;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8727100;325626;Paris Nord;Paris Nord;gtfs;;Paris Nord;Paris;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3535835440;325660;Lancut;Łańcut;nom;0.087;Łańcut;Łańcut;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8011430;32575;Leun/Braunfels;Leun/Braunfels;gtfs;;Leun/Braunfels;Leun;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-326313;326313;Dolní Bousov, Bechov;Dolní Bousov, Bechov;gtfs;;Dolní Bousov, Bechov;Dolní Bousov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8721240;329502;Roeschwoog;Roeschwoog;gtfs;;Roeschwoog;Rœschwoog;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-330337;330337;Weißwasser Teichstraße;Weißwasser Teichstraße;gtfs;;Weißwasser Teichstraße;Weißwasser;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042912;33034;Chemnitz, Schneeberger Str;Chemnitz, Schneeberger Str;gtfs;;Chemnitz, Schneeberger Str;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-331615;331615;Schloss Gottesaue, Karlsruhe;Schloss Gottesaue, Karlsruhe;gtfs;;Schloss Gottesaue, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-332277;332277;Karlsruhe Entenfang;Karlsruhe Entenfang;gtfs;;Karlsruhe Entenfang;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014404;333089;Freiburg-St Georgen;Freiburg-St Georgen;gtfs;;Freiburg-St Georgen;Fribourg-en-Brisgau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-334754;334754;Karlsruhe Mühlburger Tor;Karlsruhe Mühlburger Tor;gtfs;;Karlsruhe Mühlburger Tor;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004303;335227;Bahnhof, Bad Liebenwerda;Bad Liebenwerda;nom;0.009;Bad Liebenwerda;Bad Liebenwerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029414;33531;Aldingen (b Spaichingen);Aldingen;nom;0.016;Aldingen;Aldingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006670;335502;Erlabrunn (Erzgeb);Erlabrunn;nom;0.101;Erlabrunn;Breitenbrunn/Erzgeb.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014511;335539;Hornberg (Schwarzw);Hornberg;nom;0.003;Hornberg;Hornberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-335839;335839;Heinrich-Heine-Straße Ri. Am Weinberg;Heinrich-Heine-Straße Ri. Am Weinberg;gtfs;;Heinrich-Heine-Straße Ri. Am Weinberg;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-337553;337553;Ceska Lipa-Holy vrch;Ceska Lipa-Holy vrch;gtfs;;Ceska Lipa-Holy vrch;Česká Lípa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006124;338472;Ebersbach (Sachs);Ebersbach (Sachsen);nom;0.026;Ebersbach (Sachsen);Ebersbach-Neugersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029539;338909;Lorch (Württ);Lorch (Württemberg);nom;0.035;Lorch (Württemberg);Lorch;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014191;339979;Richen (b Eppingen);Richen (b Eppingen);gtfs;;Richen (b Eppingen);Eppingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8072023;342102;Marbach Ost (Villingen-Schwenningen);Marbach Ost;nom;0.006;Marbach Ost;Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8008134;343223;Ennepetal;Ennepetal (Gevelsberg);nom;0.017;Ennepetal (Gevelsberg);Ennepetal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-343736;343736;Helmbach, Bahnhof;Helmbach, Bahnhof;gtfs;;Helmbach, Bahnhof;Esthal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600432;343754;Toender st;Toender st;gtfs;;Toender st;Tønder;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-34409;34409;Spielfeld (Gr);Spielfeld (Gr);gtfs;;Spielfeld (Gr);Straß in Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029326;344584;Mühlen (b Horb);Mühlen;nom;0.022;Mühlen;Horb am Neckar;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8814001;3449;Bruxelles Midi;Bruxelles-Midi - Brussel-Zuid;nom;0.051;Bruxelles-Midi - Brussel-Zuid;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029219;345446;Tannheim (Württ);Tannheim (Württemberg);nom;0.003;Tannheim (Württemberg);Tannheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-345576;345576;Neureut Welschneureuter Straße, Karlsruhe;Neureut Welschneureuter Straße, Karlsruhe;gtfs;;Neureut Welschneureuter Straße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029290;345735;Owen;Owen (Teck);nom;0.004;Owen (Teck);Owen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8022480;346558;Escherndorf-Vogelsburg;Escherndorf;nom;0.031;Escherndorf;Volkach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006062;347134;Sebnitz Bahnhof;Sebnitz;nom;0.02;Sebnitz;Sebnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8089127;347465;Oberndorf;Rudersberg-Oberndorf;nom;0.003;Rudersberg-Oberndorf;Rudersberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006580;347528;Chemnitz, Bahnhof Reichenhain;Chemnitz, Bahnhof Reichenhain;gtfs;;Chemnitz, Bahnhof Reichenhain;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8721234;348445;Herrlisheim (Bas-Rhin);Gare de Herrlisheim;nom;0.042;Herrlisheim;Herrlisheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004012;348521;Lübbenau (Spreewald);Lübbenau (Spreewald) / Lubnjow (Błota);nom;0.07;Lübbenau (Spreewald) / Lubnjow (Błota);Lübbenau/Spreewald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM13031931610;34912;Schmiedeberg (Dresden);Schmiedeberg;nom;0.033;Schmiedeberg;Dippoldiswalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8022320;349838;Rückersdorf (Mfr);Rückersdorf (Mfr);gtfs;;Rückersdorf (Mfr);Rückersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006587;350722;Meinersdorf, Bahnhof;Meinersdorf, Bahnhof;gtfs;;Meinersdorf, Bahnhof;Burkhardtsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8091353;351877;Niesky;Niesky / Niska;nom;0.013;Niesky / Niska;Niesky;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8080306;352521;Zollhaus (Villingen-Schwenningen);Zollhaus (Villingen-Schwenningen);gtfs;;Zollhaus (Villingen-Schwenningen);Villingen-Schwenningen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-353911;353911;Durlacher Tor/KIT-Campus Süd (U), Karlsruhe;Durlacher Tor/KIT-Campus Süd (U), Karlsruhe;gtfs;;Durlacher Tor/KIT-Campus Süd (U), Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042906;354192;Jahnsdorf, Haltepunkt;Jahnsdorf, Haltepunkt;gtfs;;Jahnsdorf, Haltepunkt;Jahnsdorf/Erzgeb.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-354566;354566;Holländische Straße (Ausstieg);Holländische Straße (Ausstieg);gtfs;;Holländische Straße (Ausstieg);Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004004;355535;Bahnhof, Groß Köris;Groß Köris;nom;0.045;Groß Köris;Groß Köris;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5454982;35572;Tanvald zast.;Tanvald zast.;nom;0.009;Tanvald zastávka;Tanvald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-356593;356593;Kullenmühle, Bad Herrenalb;Kullenmühle, Bad Herrenalb;gtfs;;Kullenmühle, Bad Herrenalb;Bad Herrenalb;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006133;357886;Schmölln (Ol);Schmölln (Ol);gtfs;;Schmölln (Ol);Schmölln-Putzkau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-360043;360043;Schierke Bobbahn Gleis 1;Schierke Bobbahn Gleis 1;gtfs;;Schierke Bobbahn Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003332;36131;Berlin-Karow;Karow;nom;0.073;Karow;Berlin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8091357;363317;Uhyst;Uhyst / Delni Wujězd;nom;0.015;Uhyst / Delni Wujězd;Boxberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8058185;363677;Plate (Meckl);Plate (Mecklenburg);nom;0.017;Plate (Mecklenburg);Plate;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028330;364345;Seehausen (Uckermark) BÜ, Oberuckersee;Seehausen (Uckermark);nom;0.011;Seehausen (Uckermark);Seehausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-365560;365560;Rathaus Ri. Friedrichsplatz;Rathaus Ri. Friedrichsplatz;gtfs;;Rathaus Ri. Friedrichsplatz;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8087365;366580;Wiesa (Erzgeb);Wiesa;nom;0.019;Wiesa;Thermalbad Wiesenbad;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-367303;367303;Benesov n. Ploucnici;Benesov n. Ploucnici;gtfs;;Benesov n. Ploucnici;Benešov nad Ploučnicí;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8026040;367740;Schönwald (Oberfr);Schönwald;nom;0.008;Schönwald;Schönwald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047018;369125;Neufra (Hohenz);Neufra (Hohenzollern);nom;0.01;Neufra (Hohenzollern);Neufra;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-369408;369408;Wernigerode Drei Annen Hohne Gleis 2;Wernigerode Drei Annen Hohne Gleis 2;gtfs;;Wernigerode Drei Annen Hohne Gleis 2;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-369626;369626;Hegelsbergstraße Ri. Holländ. Straße;Hegelsbergstraße Ri. Holländ. Straße;gtfs;;Hegelsbergstraße Ri. Holländ. Straße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004053;369957;Kerkwitz;Kerkwitz;nom;0.06;Kerkwitz - Keŕkojce;Schenkendöbern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-370906;370906;Wernigerode Drei Annen Hohne Gleis 1;Wernigerode Drei Annen Hohne Gleis 1;gtfs;;Wernigerode Drei Annen Hohne Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004342;371464;Klinge;Klinge / Klinka;nom;0.0;Klinge / Klinka;Wiesengrund;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-371547;371547;Niebüll Autoverladung;Niebüll Autoverladung;gtfs;;Niebüll Autoverladung;Niebüll;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006327;372205;Chemnitz, Hp Kinderwaldstätte;Chemnitz, Hp Kinderwaldstätte;gtfs;;Chemnitz, Hp Kinderwaldstätte;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8072025;372808;Villingen-Schwenningen Eisstadion;Villingen-Schwenningen Eisstadion;gtfs;;Villingen-Schwenningen Eisstadion;Villingen-Schwenningen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029026;373121;Kornwestheim Pbf;Kornwestheim Pbf;gtfs;;Kornwestheim Pbf;Kornwestheim;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004226;373731;Hosena;Hosena / Hóznja;nom;0.025;Hosena / Hóznja;Senftenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8024051;373900;Bösdorf (Sachs-Anh);Bösdorf (Sachs-Anh);gtfs;;Bösdorf (Sachs-Anh);Oebisfelde-Weferlingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8013106;374127;Herzberg Schloß;Herzberg Schloß;gtfs;;Herzberg Schloß;Herzberg am Harz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-374522;374522;Schierke Brockenmoor Gleis 1;Schierke Brockenmoor Gleis 1;gtfs;;Schierke Brockenmoor Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM8509849914;374644;Magdeburgerforth Mitte (Kleinbahn);Magdeburgerforth Mitte;nom;0.014;Magdeburgerforth Mitte;Möckern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-375506;375506;Auestadion Ri. H.-Heine-Straße;Auestadion Ri. H.-Heine-Straße;gtfs;;Auestadion Ri. H.-Heine-Straße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006272;375553;Gröditz (Riesa);Gröditz (Riesa);gtfs;;Gröditz (Riesa);Gröditz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-376642;376642;Stolberg (Rheinl) Hbf Gl.44;Stolberg (Rheinl) Hbf Gl.44;gtfs;;Stolberg (Rheinl) Hbf Gl.44;Stolberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8025151;376911;Igel (Gr);Igel (Gr);gtfs;;Igel (Gr);Langsur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-377106;377106;Tivoli, Karlsruhe;Tivoli, Karlsruhe;gtfs;;Tivoli, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-379444;379444;Ahnatal-Weimar Gl.1 Ri.Wolfhagen;Ahnatal-Weimar Gl.1 Ri.Wolfhagen;gtfs;;Ahnatal-Weimar Gl.1 Ri.Wolfhagen;Ahnatal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-380200;380200;Vrchlabi, Podhuri Bf;Vrchlabi, Podhuri Bf;gtfs;;Vrchlabi, Podhuri Bf;Vrchlabí;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-382098;382098;Chemnitz, Rosenbergstr;Chemnitz, Rosenbergstr;gtfs;;Chemnitz, Rosenbergstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8047963;383771;Spremberg;Spremberg / Grodk;nom;0.06;Spremberg / Grodk;Spremberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047965;384484;Weißwasser (Oberlausitz);Weißwasser (Oberlausitz) / Běła Woda;nom;0.021;Weißwasser (Oberlausitz) / Běła Woda;Weißwasser;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004336;386221;Gollmitz (Niederlausitz);Gollmitz (Niederlausitz);nom;0.005;Gollmitz (Niederlausitz) - Chańc (Dolna Łužyca);Calau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8025197;387292;Apach (fr);Apach (fr);gtfs;;Apach (fr);Perl;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-387766;387766;Heilbronn Neckarturm;Heilbronn Neckarturm;gtfs;;Heilbronn Neckarturm;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM260715786;388655;Immenhausen Gl.1 Ri. Hümme;Immenhausen;nom;0.006;Immenhausen;Immenhausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8003407;389695;Bahnhof, Borkheide;Borkheide;nom;0.013;Borkheide;Borkheide;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042107;390110;Odenheim Bf;Odenheim;nom;0.0;Odenheim;Östringen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028250;390842;Golzow (Eberswalde);Golzow (Eberswalde);gtfs;;Golzow (Eberswalde);Chorin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006585;39087;Kemtau, Bahnhof;Kemtau;nom;0.015;Kemtau;Burkhardtsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029305;394115;Dettingen-Mitte;Dettingen-Mitte;gtfs;;Dettingen-Mitte;Dettingen an der Erms;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014256;394275;Gernsbach Bf;Gernsbach;nom;0.036;Gernsbach;Gernsbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-395714;395714;Brezno u Mlada Boleslavi;Brezno u Mlada Boleslavi;gtfs;;Brezno u Mlada Boleslavi;Březno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-396250;396250;Yorckstraße, Karlsruhe;Yorckstraße, Karlsruhe;gtfs;;Yorckstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016705;398446;Hauptbahnhof (EV), Gera;Hauptbahnhof (EV), Gera;gtfs;;Hauptbahnhof (EV), Gera;Gera;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719161;405150;Koenigsmacker;Koenigsmacker;gtfs;;Koenigsmacker;Kœnigsmacker;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8045509;40570;Gstadt (Wanderbahn);Gstadt;nom;0.006;Gstadt;Viechtach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-405818;405818;Bernau (b Berlin);Bernau (b Berlin);gtfs;;Bernau (b Berlin);Bernau bei Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-407900;407900;Landesbausparkasse, Karlsruhe;Landesbausparkasse, Karlsruhe;gtfs;;Landesbausparkasse, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-408471;408471;Schierke Schierke Gleis 2;Schierke Schierke Gleis 2;gtfs;;Schierke Schierke Gleis 2;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8047005;408509;Stetten (b. Haigerloch);Stetten (b. Haigerloch);gtfs;;Stetten (b. Haigerloch);Haigerloch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023747;40854;Coswig (Anh);Coswig (Anhalt);nom;0.08;Coswig (Anhalt);Coswig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-408885;408885;Luzec p.Smrkem;Luzec p.Smrkem;gtfs;;Luzec p.Smrkem;Raspenava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-409286;409286;Dolni Zleb zast.;Dolni Zleb zast.;gtfs;;Dolni Zleb zast.;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011049;411024;Rodenbach (b Hanau);Rodenbach;nom;0.101;Rodenbach;Rodenbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-41139;41139;Brezina n.Jizerou;Brezina n.Jizerou;gtfs;;Brezina n.Jizerou;Březina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004325;412367;Bahnhof, Schönborn (Brandenburg);Bahnhof, Schönborn (Brandenburg);gtfs;;Bahnhof, Schönborn (Brandenburg);Schönborn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8005378;414877;Schlierbach (Schwalm-Eder-Kr.);Schlierbach (Schwalm-Eder-Kreis);nom;0.051;Schlierbach (Schwalm-Eder-Kreis);Neuental;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-417371;417371;Chemnitz, Stadlerplatz;Chemnitz, Stadlerplatz;gtfs;;Chemnitz, Stadlerplatz;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042958;418042;Hainichen, Bahnhof;Hainichen;nom;0.071;Hainichen;Hainichen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029260;419009;Fridingen (b Tuttlingen);Fridingen;nom;0.01;Fridingen;Fridingen an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5434364;419358;Ostrava hl.n.;Ostrava hl.n.;gtfs;;Ostrava hl.n.;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-420416;420416;Mühlburger Tor, Karlsruhe;Mühlburger Tor, Karlsruhe;gtfs;;Mühlburger Tor, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8039277;420625;Bruchsal Bildungszentrum;Bruchsal Bildungszentrum;gtfs;;Bruchsal Bildungszentrum;Bruchsal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-421912;421912;Königsplatz Ri. Am Stern;Königsplatz Ri. Am Stern;gtfs;;Königsplatz Ri. Am Stern;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-422980;422980;Amstetten (W) Lokalbahn;Amstetten (W) Lokalbahn;gtfs;;Amstetten (W) Lokalbahn;Amstetten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8066082;423095;Friedrichstal b Freudenstadt;Friedrichstal b Freudenstadt;gtfs;;Friedrichstal b Freudenstadt;Baiersbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004007;423841;Brand Bahnhof, Halbe;Brand Bahnhof, Halbe;gtfs;;Brand Bahnhof, Halbe;Halbe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016415;424754;Papiermühle (Stadtr);Papiermühle;nom;0.05;Papiermühle;Stadtroda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029403;425205;Sulz (Neckar);Sulz (Neckar);gtfs;;Sulz (Neckar);Sulz am Neckar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-425421;425421;Naumburg-Roßbach;Naumburg-Roßbach;gtfs;;Naumburg-Roßbach;Naumbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024090;429793;Eichstedt (Altm);Eichstedt;nom;0.051;Eichstedt;Eichstedt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8059006;429893;Lengenfeld (Vogtl);Lengenfeld (Vogtland);nom;0.088;Lengenfeld (Vogtland);Lengenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8005634;43127;Neuhof (Kr Fulda);Neuhof (Kr Fulda);gtfs;;Neuhof (Kr Fulda);Neuhof;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-433463;433463;Lörrach Gbf ARZ;Lörrach Gbf ARZ;gtfs;;Lörrach Gbf ARZ;Lörrach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-434674;434674;Karlsruhe Marktplatz (Pyramide U);Karlsruhe Marktplatz (Pyramide U);gtfs;;Karlsruhe Marktplatz (Pyramide U);Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-434765;434765;Weinweg, Karlsruhe;Weinweg, Karlsruhe;gtfs;;Weinweg, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014236;435442;Bietigheim (Baden);Bietigheim;nom;0.012;Bietigheim;Bietigheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-437429;437429;Heilbronn Rathaus;Heilbronn Rathaus;gtfs;;Heilbronn Rathaus;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042998;437663;Chemnitz, Riemenschneiderstr;Chemnitz-Riemenschneiderstraße;nom;0.005;Chemnitz-Riemenschneiderstraße;Chemnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-439094;439094;Melsungen-Röhrenfurth Gl.1 Ri. Kassel;Melsungen-Röhrenfurth Gl.1 Ri. Kassel;gtfs;;Melsungen-Röhrenfurth Gl.1 Ri. Kassel;Melsungen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029112;439157;Erbach (Württ);Erbach;nom;0.032;Erbach;Erbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-440241;440241;Stobäusplatz;Stobäusplatz;gtfs;;Stobäusplatz;Ratisbonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042905;440588;Adorf, Haltepunkt;Adorf, Haltepunkt;gtfs;;Adorf, Haltepunkt;Neukirchen/Erzgeb.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-443283;443283;Friedrichsplatz Ri. Königsplatz;Friedrichsplatz Ri. Königsplatz;gtfs;;Friedrichsplatz Ri. Königsplatz;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8069256;443471;Sellin (Rügen) West;Sellin (Rügen) West;gtfs;;Sellin (Rügen) West;Sellin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006090;446785;Gersdorf (Görlitz);Gersdorf (Görlitz);gtfs;;Gersdorf (Görlitz);Markersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8040608;448077;Bruchsal Schloßgarten;Bruchsal Schloßgarten;gtfs;;Bruchsal Schloßgarten;Bruchsal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059303;448884;Norderstedt Mitte;Norderstedt Mitte;gtfs;;Norderstedt Mitte;Norderstedt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-450984;450984;Varnsdorf stare nadrazi;Varnsdorf stare nadrazi;gtfs;;Varnsdorf stare nadrazi;Varnsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8023115;451384;Domnitz (Saalkr);Domnitz (Saalkreis);nom;0.004;Domnitz (Saalkreis);Wettin-Löbejün;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-451815;451815;Doksy,,zel.st.;Doksy,,zel.st.;gtfs;;Doksy,,zel.st.;Doksy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006005;452037;Krippen Bahnhof;Krippen;nom;0.006;Krippen;Bad Schandau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004317;452421;Schwarzkollm;Schwarzkollm / Čorny Chołmc;nom;0.007;Schwarzkollm / Čorny Chołmc;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8027120;453791;Sandhagen (b Bad Dob);Sandhagen (b Bad Doberan);nom;0.014;Sandhagen (b Bad Doberan);Biendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-454896;454896;Schierke Eckerloch Gleis 1;Schierke Eckerloch Gleis 1;gtfs;;Schierke Eckerloch Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-456198;456198;Schwarzach i Vorarl.;Schwarzach i Vorarl.;gtfs;;Schwarzach i Vorarl.;Schwarzach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024578;458434;Kläden (Stendal);Kläden (Stendal);gtfs;;Kläden (Stendal);Bismark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-460492;460492;Konzerthaus, Karlsruhe;Konzerthaus, Karlsruhe;gtfs;;Konzerthaus, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016020;466124;WE Berkaer Bahnhof;WE Berkaer Bahnhof;gtfs;;WE Berkaer Bahnhof;Weimar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059804;467183;Wernigerode Wernigerode-Hasserode Gleis 1;Wernigerode-Hasserode;nom;0.077;Wernigerode-Hasserode;Wernigerode;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM7658075785;467229;Hammersbach Zugspitzbahn, Grainau;Hammersbach;nom;0.17;Hammersbach;Grainau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM263825644;467489;Berg (CH);Berg;nom;0.051;Berg;Berg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-469378;469378;Bahnhof Oranienbaum;Bahnhof Oranienbaum;gtfs;;Bahnhof Oranienbaum;Oranienbaum-Wörlitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-469624;469624;Bremen, Hauptbahnhof K;Bremen, Hauptbahnhof K;gtfs;;Bremen, Hauptbahnhof K;Brême;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-470406;470406;Tullastraße/Alter Schlachthof, Karlsruhe;Tullastraße/Alter Schlachthof, Karlsruhe;gtfs;;Tullastraße/Alter Schlachthof, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029262;470949;Stetten (Donau);Stetten;nom;0.027;Stetten;Mühlheim an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8083659;471691;Kurort Oberwiesenthal;Kurort Oberwiesenthal;gtfs;;Kurort Oberwiesenthal;Oberwiesenthal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029192;47248;Ostrach Bahnhof;Ostrach;nom;0.036;Ostrach;Ostrach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006059;473126;Ulbersdorf Bahnhof;Ulbersdorf;nom;0.009;Ulbersdorf;Hohnstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5456898;474505;Bela p.Bezdezem;Bela p.Bezdezem;gtfs;;Bela p.Bezdezem;Bělá pod Bezdězem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8027905;475120;Ostseebad Kühlungsborn West;Ostseebad Kühlungsborn West;gtfs;;Ostseebad Kühlungsborn West;Kühlungsborn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-475553;475553;Regensburg Alfons-Auer-Straße;Regensburg Alfons-Auer-Straße;gtfs;;Regensburg Alfons-Auer-Straße;Ratisbonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006003;476514;Schmilka Hp Hirschmühle;Schmilka Hp Hirschmühle;gtfs;;Schmilka Hp Hirschmühle;Reinhardtsdorf-Schöna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014319;477058;Lahr (Schwarzw);Lahr (Schwarzwald);nom;0.103;Lahr (Schwarzwald);Lahr/Schwarzwald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8003310;477310;Buckow (Beeskow);Buckow (Beeskow);gtfs;;Buckow (Beeskow);Rietz-Neuendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029461;478274;Neuenbürg (Enz);Neuenbürg (Enz);gtfs;;Neuenbürg (Enz);Neuenbürg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-479356;479356;Basel Bad Bf;Basel Bad Bf;gtfs;;Basel Bad Bf;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006669;479745;Breitenbrunn (Erzg);Breitenbrunn;nom;0.061;Breitenbrunn;Breitenbrunn/Erzgeb.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029303;480306;Metzingen (Württ);Metzingen (Württemberg);nom;0.011;Metzingen (Württemberg);Metzingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029084;480467;Kuchen;Kuchen (Fils);nom;0.029;Kuchen (Fils);Kuchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006324;481437;Altmittweida, Bahnhof;Altmittweida;nom;0.154;Altmittweida;Altmittweida;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047012;481956;Schlatt (Hohenz);Schlatt;nom;0.014;Schlatt;Hechingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-482486;482486;Bily Potok p.Smrkem;Bily Potok p.Smrkem;gtfs;;Bily Potok p.Smrkem;Hejnice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-484843;484843;Jakuszyce-Polana;Jakuszyce-Polana;gtfs;;Jakuszyce-Polana;Szklarska Poręba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-485436;485436;Platz der Deutschen Einheit Ri. Sandershäuser Straße;Platz der Deutschen Einheit Ri. Sandershäuser Straße;gtfs;;Platz der Deutschen Einheit Ri. Sandershäuser Straße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454232;485868;Rychnov u Jabl.n.Nisou;Rychnov u Jabl.n.Nisou;gtfs;;Rychnov u Jabl.n.Nisou;Rychnov u Jablonce nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-486350;486350;Decin-Certova voda;Decin-Certova voda;gtfs;;Decin-Certova voda;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-486817;486817;Riffelriß, Grainau;Riffelriß, Grainau;gtfs;;Riffelriß, Grainau;Grainau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003609;488318;Schönwalde (Barnim);Schönwalde;nom;0.071;Schönwalde;Wandlitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029261;488720;Mühlheim (b Tuttlingen);Mühlheim;nom;0.011;Mühlheim;Mühlheim an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-490420;490420;Schierke Knaupsholz Gleis 1;Schierke Knaupsholz Gleis 1;gtfs;;Schierke Knaupsholz Gleis 1;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-49199;49199;Praha hl.n.;Praha hl.n.;gtfs;;Praha hl.n.;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024136;493646;Wulfen (Anh);Wulfen (Anhalt);nom;0.033;Wulfen (Anhalt);Osternienburger Land;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006589;493874;Dorfchemnitz, Bahnhof;Dorfchemnitz;nom;0.007;Dorfchemnitz;Zwönitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-495524;495524;Elend Elend Gleis 1;Elend Elend Gleis 1;gtfs;;Elend Elend Gleis 1;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8007847;496581;Hausen (Taunus);Hausen;nom;0.036;Hausen;Neu-Anspach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-497736;497736;Zakupy;Zakupy;gtfs;;Zakupy;Zákupy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8013105;497803;Osterode am Harz Leege;Osterode am Harz Leege;gtfs;;Osterode am Harz Leege;Osterode am Harz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006665;497839;Schwarzenberg (Erzg);Schwarzenberg (Erzgebirge);nom;0.057;Schwarzenberg (Erzgebirge);Schwarzenberg/Erzgeb.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8085218;498364;Heilbronn Trappensee;Trappensee;nom;0.019;Trappensee;Heilbronn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-498539;498539;Wernigerode Drei Annen Hohne Gleis 3;Wernigerode Drei Annen Hohne Gleis 3;gtfs;;Wernigerode Drei Annen Hohne Gleis 3;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8013023;498964;Leiferde (b Gifhorn);Leiferde;nom;0.028;Leiferde;Leiferde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8049304;500047;Watzelsteg;Watzelsteg;gtfs;;Watzelsteg;Rimbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-503608;503608;Elend Elend Gleis 2;Elend Elend Gleis 2;gtfs;;Elend Elend Gleis 2;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014103;504530;Wössingen;Wössingen Bahnhof;nom;0.02;Wössingen Bahnhof;Walzbachtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-505050;505050;Petrovice nad Uhlavo;Petrovice nad Uhlavo;gtfs;;Petrovice nad Uhlavo;Janovice nad Úhlavou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-50563;50563;Magdeburgerforth Lumpenbahnhof (Kleinbahn);Magdeburgerforth Lumpenbahnhof (Kleinbahn);gtfs;;Magdeburgerforth Lumpenbahnhof (Kleinbahn);Möckern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8027238;506798;Dossow (Prign);Dossow (Prignitz);nom;0.05;Dossow (Prignitz);Wittstock;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5454451;508727;Mlada Boleslav,,hl.nadr.;Mlada Boleslav,,hl.nadr.;gtfs;;Mlada Boleslav,,hl.nadr.;Mladá Boleslav;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029625;510211;Nordheim (Württ);Nordheim (Württemberg);nom;0.03;Nordheim (Württemberg);Nordheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-510371;510371;Ceska Lipa, hl.n.;Ceska Lipa, hl.n.;gtfs;;Ceska Lipa, hl.n.;Česká Lípa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8085005;511112;Aue, Stadion;Aue, Stadion;gtfs;;Aue, Stadion;Aue-Bad Schlema;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029085;511400;Geislingen (Steige) West;Geislingen (Steige) West;gtfs;;Geislingen (Steige) West;Geislingen an der Steige;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016406;512962;Pößneck unt Bf;Pößneck unt Bf;gtfs;;Pößneck unt Bf;Pößneck;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8061713;513294;Dettingen Freibad;Dettingen Freibad;gtfs;;Dettingen Freibad;Dettingen an der Erms;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-513674;513674;Bakov n.Jizerou;Bakov n.Jizerou;gtfs;;Bakov n.Jizerou;Bakov nad Jizerou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-514019;514019;August-Bebel-Straße, Karlsruhe;August-Bebel-Straße, Karlsruhe;gtfs;;August-Bebel-Straße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011744;517194;Ubstadt Salzbrunnenstr;Ubstadt Salzbrunnenstraße;nom;0.003;Ubstadt Salzbrunnenstraße;Ubstadt-Weiher;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5102780;520878;Zielona Gora Glowna;Zielona Gora Glowna;gtfs;;Zielona Gora Glowna;Zielona Góra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM7809398546;520959;Eibsee Zugspitzbahn, Grainau;Eibsee;nom;0.231;Eibsee;Grainau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101591;521166;Linz/Donau Hbf;Linz/Donau Hbf;gtfs;;Linz/Donau Hbf;Linz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8015347;521824;Chemnitz, Rößlerstr;Chemnitz, Rößlerstr;gtfs;;Chemnitz, Rößlerstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-522601;522601;Gießenbach in Tirol;Gießenbach in Tirol;gtfs;;Gießenbach in Tirol;Scharnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011422;522720;Dutenhofen (Wetzlar);Dutenhofen;nom;0.079;Dutenhofen;Wetzlar;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM299276328;52389;Tannwald;Welzheim-Tannwald;nom;0.005;Welzheim-Tannwald;Welzheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-523919;523919;Nordhausen, Bahnhofsplatz;Nordhausen, Bahnhofsplatz;gtfs;;Nordhausen, Bahnhofsplatz;Nordhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-524506;524506;Mikulášovice střed;Mikulášovice střed;gtfs;;Mikulášovice střed;Mikulášovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM274847402;524795;Elmstein, Bahnhof;Elmstein;nom;0.032;Elmstein;Elmstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8003477;526780;Griebnitzsee Bahnhof Süd, Potsdam;Griebnitzsee;nom;0.052;Griebnitzsee;Potsdam;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-52771;52771;Weinbrennerplatz, Karlsruhe;Weinbrennerplatz, Karlsruhe;gtfs;;Weinbrennerplatz, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-529187;529187;Ettlinger Tor/Staatstheater (U), Karlsruhe;Ettlinger Tor/Staatstheater (U), Karlsruhe;gtfs;;Ettlinger Tor/Staatstheater (U), Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004328;529657;Bahnhof, Finsterwalde;Bahnhof, Finsterwalde;gtfs;;Bahnhof, Finsterwalde;Finsterwalde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8058183;529865;Friedrichsruhe (Meck);Friedrichsruhe (Mecklenburg);nom;0.026;Friedrichsruhe (Mecklenburg);Friedrichsruhe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-530513;530513;Heilbronn Friedensplatz;Heilbronn Friedensplatz;gtfs;;Heilbronn Friedensplatz;Heilbronn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-531020;531020;Lauf (links Pegnitz);Lauf (links Pegnitz);gtfs;;Lauf (links Pegnitz);Lauf an der Pegnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024095;531136;Seehausen (Altm);Seehausen;nom;0.018;Seehausen;Seehausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302014;531526;Bressanone/Brixen;Bressanone/Brixen;gtfs;;Bressanone/Brixen;Bressanone;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003502;533358;Bahnhof Medienstadt Babelsberg Vorpl., Potsdam;Bahnhof Medienstadt Babelsberg Vorpl., Potsdam;gtfs;;Bahnhof Medienstadt Babelsberg Vorpl., Potsdam;Potsdam;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-533421;533421;Schierke Schierke Gleis 1;Schierke Schierke Gleis 1;gtfs;;Schierke Schierke Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042904;533526;Neukirchen, Bf Neukirchen-Klaffenbach;Neukirchen-Klaffenbach;nom;0.018;Neukirchen-Klaffenbach;Neukirchen/Erzgeb.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8027192;534079;Bahnhof, Wittstock (Dosse);Wittstock (Dosse);nom;0.077;Wittstock (Dosse);Wittstock;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8027191;534162;Liebenthal (Prignitz);Liebenthal (Prign);nom;0.072;Liebenthal (Prign);Heiligengrabe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-534203;534203;Bela u Stare Paky z.;Bela u Stare Paky z.;gtfs;;Bela u Stare Paky z.;Bělá;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719331;534770;St Avold;St Avold;gtfs;;St Avold;Valmont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-536390;536390;Bernburg (Saale) Rosenhag (Parkeisenbahn);Bernburg (Saale) Rosenhag (Parkeisenbahn);gtfs;;Bernburg (Saale) Rosenhag (Parkeisenbahn);Bernbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8768600;536676;Paris Gare de Lyon;Paris Gare de Lyon Hall 1 & 2;nom;0.028;Gare de Lyon;Paris;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-536707;536707;Borek p.Troskami;Borek p.Troskami;gtfs;;Borek p.Troskami;Hrubá Skála;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-537526;537526;Chemnitz, Hbf Bahnhofstr;Chemnitz, Hbf Bahnhofstr;gtfs;;Chemnitz, Hbf Bahnhofstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006099;537597;Bautzen;Bautzen;nom;0.033;Bautzen - Budyšin;Bautzen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-538624;538624;Nordhausen Schurzfell Gleis 1;Nordhausen Schurzfell Gleis 1;gtfs;;Nordhausen Schurzfell Gleis 1;Nordhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042809;538862;Weil i. S. Untere Halde;Weil i. S. Untere Halde;gtfs;;Weil i. S. Untere Halde;Weil im Schönbuch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006325;539629;Ottendorf (Mittweida);Ottendorf (Mittweida);gtfs;;Ottendorf (Mittweida);Lichtenau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8015378;540922;Leipzig Hbf (tief);Leipzig Hauptbahnhof (Tiefgleise);nom;0.036;Leipzig Hauptbahnhof (Tiefgleise);Leipzig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006101;541876;Seitschen;Seitschen / Žičeń;nom;0.018;Seitschen / Žičeń;Göda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-542686;542686;Weiler (Brohltal);Weiler (Brohltal);gtfs;;Weiler (Brohltal);Burgbrohl;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-543137;543137;Altmarkt/Regierungspräsidium Ri. Am Stern;Altmarkt/Regierungspräsidium Ri. Am Stern;gtfs;;Altmarkt/Regierungspräsidium Ri. Am Stern;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006008;54339;Königstein (Sächs Schw);Königstein (Sächs Schweiz) Hp;nom;0.015;Königstein (Sächs Schweiz) Hp;Königstein (Sächsische Schweiz);wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8080297;543970;Marbach West (Villingen-Schwenningen);Marbach West;nom;0.011;Marbach West;Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8080521;54429;Zwönitz, Hp Niederzwönitz;Niederzwönitz;nom;0.014;Niederzwönitz;Zwönitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8002040;544331;Harburg (Schwab);Harburg (Schwaben);nom;0.022;Harburg (Schwaben);Harbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023149;545164;Roitzsch (Bitterf);Roitzsch (Bitterf);gtfs;;Roitzsch (Bitterf);Sandersdorf-Brehna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-546457;546457;Hennigsdorf (b Berlin);Hennigsdorf (b Berlin);gtfs;;Hennigsdorf (b Berlin);Hennigsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-546595;546595;Mikulasovice dol. nadr.;Mikulasovice dol. nadr.;gtfs;;Mikulasovice dol. nadr.;Vilémov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014252;547625;Bischweier;Bischweier (Baden);nom;0.001;Bischweier (Baden);Bischweier;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006044;547777;Kurort Altenberg (Erzgebirge);Kurort Altenberg (Erzgeb.);nom;0.05;Kurort Altenberg (Erzgeb.);Altenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-547882;547882;Plauen (Vogtl) Mitte;Plauen (Vogtl) Mitte;gtfs;;Plauen (Vogtl) Mitte;Plauen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-548428;548428;Karlsruhe Sophienstraße;Karlsruhe Sophienstraße;gtfs;;Karlsruhe Sophienstraße;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003437;549478;Bahnhof, Teltow;Teltow;nom;0.076;Teltow;Teltow;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-550196;550196;Wernigerode Wernigerode Westerntor Gleis 1;Wernigerode Wernigerode Westerntor Gleis 1;gtfs;;Wernigerode Wernigerode Westerntor Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029289;550870;Dettingen (T);Dettingen (Teck);nom;0.015;Dettingen (Teck);Dettingen unter Teck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-551058;551058;Gurten OÖ;Gurten OÖ;gtfs;;Gurten OÖ;Gurten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8066084;551585;Freudenstadt Industriegebiet;Freudenstadt Industriegebiet/Schmid;nom;0.013;Freudenstadt Industriegebiet/Schmid;Freudenstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-553473;553473;Stolberg (Rheinl) Hbf Gl.27;Stolberg (Rheinl) Hbf Gl.27;gtfs;;Stolberg (Rheinl) Hbf Gl.27;Stolberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-553946;553946;Nova Ves n.Nisou;Nova Ves n.Nisou;gtfs;;Nova Ves n.Nisou;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-554856;554856;Karlsruhe Rheinhafen;Karlsruhe Rheinhafen;gtfs;;Karlsruhe Rheinhafen;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-554916;554916;Neustadt (Weinstr) Hbf;Neustadt (Weinstr) Hbf;gtfs;;Neustadt (Weinstr) Hbf;Neustadt an der Weinstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-555336;555336;Bernburg (Saale) Sportforum (Parkeisenbahn);Bernburg (Saale) Sportforum (Parkeisenbahn);gtfs;;Bernburg (Saale) Sportforum (Parkeisenbahn);Bernbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719300;556521;Forbach (F);Forbach;nom;0.068;Forbach;Forbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8013044;558186;Stederdorf (Kr Uelzen);Stederdorf (Kr Uelzen);gtfs;;Stederdorf (Kr Uelzen);Wrestedt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022821;558561;Bad Rodach;Bad Rodach (b Coburg);nom;0.035;Bad Rodach (b Coburg);Bad Rodach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM275261260;558993;Obercarsdorf Bahnhof;Obercarsdorf;nom;0.01;Obercarsdorf;Dippoldiswalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006931;560302;Neudorf (Erzgeb);Neudorf;nom;0.029;Neudorf;Sehmatal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM3112374785;561143;Karlsruhe-Neureut Kirchfeld;Neureut Kirchfeld;nom;0.02;Neureut Kirchfeld;Karlsruhe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-561267;561267;Sorge Sorge Gleis 1;Sorge Sorge Gleis 1;gtfs;;Sorge Sorge Gleis 1;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006060;566435;Hainersdorf Bf Amtshainersdorf;Amtshainersdorf;nom;0.02;Amtshainersdorf;Sebnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8016124;566655;Förtha (Eisenach);Förtha (Eisenach);gtfs;;Förtha (Eisenach);Gerstungen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8093820;566708;Seifersdorf/DW Bahnhof;Seifersdorf;nom;0.021;Seifersdorf;Rabenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM6928038102;567489;Zugspitzbahnhof, Grainau;Grainau;nom;0.125;Grainau;Grainau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-567806;567806;Lhotka (Melník), Hledsebe;Lhotka (Melník), Hledsebe;gtfs;;Lhotka (Melník), Hledsebe;Lhotka;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-568654;568654;Biberach (Riß) Süd;Biberach (Riß) Süd;gtfs;;Biberach (Riß) Süd;Biberach an der Riß;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042805;57016;Holzgerlingen;Holzgerlingen Bahnhof;nom;0.02;Holzgerlingen Bahnhof;Holzgerlingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014261;570175;Forbach (Schwarzw);Forbach (Schwarzwald);nom;0.027;Forbach (Schwarzwald);Forbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8000452;572300;Aachen Süd (Gr);Aachen Süd (Gr);gtfs;;Aachen Süd (Gr);Aix-la-Chapelle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006176;572315;Arnsdorf (Dresden);Arnsdorf (Dresden);gtfs;;Arnsdorf (Dresden);Arnsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006251;572759;Großenhain Cottb Bf;Großenhain Cottb Bf;gtfs;;Großenhain Cottb Bf;Großenhain;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004262;572977;Leuthen (Cottbus);Leuthen (Cottbus);gtfs;;Leuthen (Cottbus);Drebkau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-573139;573139;Philippstraße, Karlsruhe;Philippstraße, Karlsruhe;gtfs;;Philippstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-573473;573473;Ceska Lipa, Strelnice;Ceska Lipa, Strelnice;gtfs;;Ceska Lipa, Strelnice;Česká Lípa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-573751;573751;Prosec n.Nisou;Prosec n.Nisou;gtfs;;Prosec n.Nisou;Liberec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8059818;574152;Krimderode Krimderode Gleis 1;Krimderode Krimderode Gleis 1;gtfs;;Krimderode Krimderode Gleis 1;Nordhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-575470;575470;Vatterode Wippergrund (Parkeisenbahn);Vatterode Wippergrund (Parkeisenbahn);gtfs;;Vatterode Wippergrund (Parkeisenbahn);Mansfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-575770;575770;Vratislavice n.Nisou;Vratislavice n.Nisou;gtfs;;Vratislavice n.Nisou;Liberec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029272;575856;Marbach (b Münsingen);Marbach;nom;0.01;Marbach;Gomadingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8812005;57632;Bruxelles-Nord;Bruxelles-Nord - Brussel-Noord;nom;0.011;Bruxelles-Nord - Brussel-Noord;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-57714;57714;Chemnitz, TU Campus;Chemnitz, TU Campus;gtfs;;Chemnitz, TU Campus;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-577331;577331;Chemnitz, Technopark;Chemnitz, Technopark;gtfs;;Chemnitz, Technopark;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-577779;577779;Chemnitz, Bernsbachplatz;Chemnitz, Bernsbachplatz;gtfs;;Chemnitz, Bernsbachplatz;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-578589;578589;Hauptfriedhof Ri. Mombachstraße;Hauptfriedhof Ri. Mombachstraße;gtfs;;Hauptfriedhof Ri. Mombachstraße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8027904;579130;Ostseebad Kühlungsborn Mitte;Kühlungsborn Mitte;nom;0.036;Kühlungsborn Mitte;Kühlungsborn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023113;579304;Wallwitz (Saalkr);Wallwitz (Saalkreis);nom;0.033;Wallwitz (Saalkreis);Petersberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006322;579531;Erlau (Sachs);Erlau;nom;0.009;Erlau;Erlau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8003552;57993;Bahnhof, Kremmen;Kremmen;nom;0.038;Kremmen;Kremmen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8034328;583392;Rostock Thierfelder Str.;Rostock Thierfelder Straße;nom;0.266;Rostock Thierfelder Straße;Rostock;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5473275;583860;Plzen hl.n.;Plzen hl.n.;gtfs;;Plzen hl.n.;Pilsen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-584095;584095;Kreuzlingen Bernrain;Kreuzlingen Bernrain;gtfs;;Kreuzlingen Bernrain;Kreuzlingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011308;5852;Laudenbach (Bergstr);Laudenbach (Bergstraße);nom;0.04;Laudenbach (Bergstraße);Laudenbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006640;589111;Zwickau (Sachs) Hbf;Zwickau (Sachs) Hbf;gtfs;;Zwickau (Sachs) Hbf;Zwickau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-590139;590139;Decin - Priper;Decin - Priper;gtfs;;Decin - Priper;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM441049049;591131;Kreuzeck/Alpspitzbahn Bahnhof, Garmisch-Partenkirc;Kreuzeck-/Alpspitzbahn;nom;0.061;Kreuzeck-/Alpspitzbahn;Garmisch-Partenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047030;591847;Trochtelfingen (Hohenz);Trochtelfingen;nom;0.019;Trochtelfingen;Trochtelfingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8024029;592681;Wellen (Magdeburg);Wellen;nom;0.003;Wellen;Hohe Börde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8001593;592963;Dorum (Weserm);Dorum;nom;0.006;Dorum;Wurster Nordseeküste;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8024135;593478;Sachsendorf (Calbe);Sachsendorf (Calbe);gtfs;;Sachsendorf (Calbe);Barby;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001569;595776;Langenhorn (Schlesw);Langenhorn (Schleswig);nom;0.002;Langenhorn (Schleswig);Langenhorn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-596351;596351;Kasbach Brauerei Steffens;Kasbach Brauerei Steffens;gtfs;;Kasbach Brauerei Steffens;Erpel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8080304;597170;Weilheim (Württ);Weilheim;nom;0.001;Weilheim;Rietheim-Weilheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8059002;597579;Auerbach (Vogtl) Hp;Auerbach (Vogtl) Hp;gtfs;;Auerbach (Vogtl) Hp;Auerbach/Vogtl.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-599042;599042;Europaplatz, Karlsruhe;Europaplatz, Karlsruhe;gtfs;;Europaplatz, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-599797;599797;Benesov n.Ploucnici;Benesov n.Ploucnici;gtfs;;Benesov n.Ploucnici;Benešov nad Ploučnicí;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-600463;600463;Rasnice zast.;Rasnice zast.;gtfs;;Rasnice zast.;Dolní Řasnice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-604268;604268;Holländischer Platz Ri. Am Stern;Holländischer Platz Ri. Am Stern;gtfs;;Holländischer Platz Ri. Am Stern;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8733851;607331;Hoenheim-Tram;Hoenheim-Tram;gtfs;;Hoenheim-Tram;Hœnheim;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-608847;608847;Kassel-Wilhelmshöhe Gl.7 Ri. Melsungen;Kassel-Wilhelmshöhe Gl.7 Ri. Melsungen;gtfs;;Kassel-Wilhelmshöhe Gl.7 Ri. Melsungen;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM13513468487;610807;Magdeburgerforth (Kleinbahn);Magdeburgerforth;nom;0.029;Magdeburgerforth;Möckern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028150;611802;Mölln (Meckl);Mölln (Mecklenburg);nom;0.012;Mölln (Mecklenburg);Mölln;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-611892;611892;Zierenberg Gl.1 Ri. Wolfhagen;Zierenberg Gl.1 Ri. Wolfhagen;gtfs;;Zierenberg Gl.1 Ri. Wolfhagen;Zierenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-614955;614955;Zierenberg-Oberelsungen Gl.1 Ri. Wolfhagen;Zierenberg-Oberelsungen Gl.1 Ri. Wolfhagen;gtfs;;Zierenberg-Oberelsungen Gl.1 Ri. Wolfhagen;Zierenberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006790;617242;Teufelsmühle;Oybin Haltepunkt Teufelsmühle;nom;0.011;Oybin Haltepunkt Teufelsmühle;Oybin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8059013;61814;Auerbach (V) unt Bf;Auerbach (V) unt Bf;gtfs;;Auerbach (V) unt Bf;Auerbach/Vogtl.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8036764;618143;Frankfurt-Unterliederbach;Frankfurt-Unterliederbach;gtfs;;Frankfurt-Unterliederbach;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-619564;619564;Chemnitz, Omnibusbahnhof;Chemnitz, Omnibusbahnhof;gtfs;;Chemnitz, Omnibusbahnhof;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-620792;620792;Frankfurt (Oder) (Gr);Frankfurt (Oder) (Gr);gtfs;;Frankfurt (Oder) (Gr);Słubice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-623635;623635;Schierke Brocken Gleis 1;Schierke Brocken Gleis 1;gtfs;;Schierke Brocken Gleis 1;Wernigerode;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-625175;625175;Velký Borek, Melnicka Vrutice;Velký Borek, Melnicka Vrutice;gtfs;;Velký Borek, Melnicka Vrutice;Velký Borek;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5456479;625798;Dolni Krecany (Bahnhof);Dolní Křečany;nom;0.009;Dolní Křečany;Staré Křečany;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8015749;626135;Chemnitz, Treffurthstr;Chemnitz, Treffurthstr;gtfs;;Chemnitz, Treffurthstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-626354;626354;Regensburg Hermann-Geib-Straße;Regensburg Hermann-Geib-Straße;gtfs;;Regensburg Hermann-Geib-Straße;Ratisbonne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-626366;626366;Schillerstraße, Karlsruhe;Schillerstraße, Karlsruhe;gtfs;;Schillerstraße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-628093;628093;As (CZ);As (CZ);gtfs;;As (CZ);Aš;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001134;628210;Hamburg-Harburg (S);Harburg;nom;0.084;Harburg;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-629725;629725;Staré Krecany, Brtníky;Staré Krecany, Brtníky;gtfs;;Staré Krecany, Brtníky;Staré Křečany;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-630047;630047;Jena-Zwätzen;Jena-Zwätzen;gtfs;;Jena-Zwätzen;Iéna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-630269;630269;Chemnitz, Annenstr;Chemnitz, Annenstr;gtfs;;Chemnitz, Annenstr;Chemnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8034512;630665;Heilbr.-Böckingen Berufsschulzentrum;Böckingen Berufsschulzentrum;nom;0.037;Böckingen Berufsschulzentrum;Heilbronn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-631282;631282;Mikulasovice horni nadrazi;Mikulasovice horni nadrazi;gtfs;;Mikulasovice horni nadrazi;Mikulášovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8013055;632286;Northeim (Han);Northeim (Hannover);nom;0.01;Northeim (Hannover);Northeim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5457190;632429;Hrabacov (Bahnhof);Hrabačov;nom;0.002;Hrabačov;Jilemnice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029434;634108;Trossingen Bahnhof;Trossingen;nom;0.052;Trossingen;Deißlingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028329;634389;Warnitz (Uckermark) Bahnhof, Oberuckersee;Warnitz (Uckermark);nom;0.054;Warnitz (Uckermark);Seehausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-635510;635510;Zell/Pram;Zell/Pram;gtfs;;Zell/Pram;Zell an der Pram;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102328;635857;Hatlerdorf (Dornbirn);Hatlerdorf (Dornbirn);nom;0.074;Hatlerdorf;Dornbirn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-636794;636794;Smrzovka dolni n.;Smrzovka dolni n.;gtfs;;Smrzovka dolni n.;Smržovka;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-639232;639232;Jülich An den Aspen;Jülich An den Aspen;gtfs;;Jülich An den Aspen;Juliers;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006197;639403;Hermsdorf (Dresden);Hermsdorf (Dresden);gtfs;;Hermsdorf (Dresden);Ottendorf-Okrilla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011146;639527;Usingen Bahnhof Nbussteig2;Usingen;nom;0.042;Usingen;Usingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8014157;640991;Buchen (Odenw);Buchen (Odenw);gtfs;;Buchen (Odenw);Buchen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8088504;643579;Frickenhausen Kelterstr.;Frickenhausen Kelterstr.;gtfs;;Frickenhausen Kelterstr.;Frickenhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-643689;643689;Kassel-Oberzwehren Gl.1 Ri. Kassel;Kassel-Oberzwehren Gl.1 Ri. Kassel;gtfs;;Kassel-Oberzwehren Gl.1 Ri. Kassel;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002081;643717;Gundelfingen (Bay);Gundelfingen (Bayern);nom;0.015;Gundelfingen (Bayern);Gundelfingen an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8011746;644359;Ubstadt Uhlandstr.;Ubstadt Uhlandstraße;nom;0.001;Ubstadt Uhlandstraße;Ubstadt-Weiher;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8719203;64450;Metz Ville;Metz;nom;0.05;Metz;Metz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8028946;646387;Posewald;Posewald Hp;nom;0.012;Posewald Hp;Putbus;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-647858;647858;Magdeburgerforth Lindenstr. (Kleinbahn);Magdeburgerforth Lindenstr. (Kleinbahn);gtfs;;Magdeburgerforth Lindenstr. (Kleinbahn);Möckern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-65048;65048;Baunatal-Guntershausen Gl.1 Ri. Kassel;Baunatal-Guntershausen Gl.1 Ri. Kassel;gtfs;;Baunatal-Guntershausen Gl.1 Ri. Kassel;Baunatal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042954;652383;Braunsdorf, Bf Braunsdorf-Lichtenwalde;Braunsdorf-Lichtenwalde;nom;0.06;Braunsdorf-Lichtenwalde;Niederwiesa;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029263;654192;Nendingen (b Tuttlingen);Nendingen;nom;0.007;Nendingen;Tuttlingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-654996;654996;Neureut Bärenweg, Karlsruhe;Neureut Bärenweg, Karlsruhe;gtfs;;Neureut Bärenweg, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8049308;656914;Lam;Lam;gtfs;;Lam;Lam;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8042907;657332;Pfaffenhain, Bahnhof;Pfaffenhain;nom;0.111;Pfaffenhain;Jahnsdorf/Erzgeb.;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8042123;657627;Gochsheim (Baden);Gochsheim;nom;0.001;Gochsheim;Kraichtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM804890502;65794;Feuerturmteich;Bad Muskau Feuerturmteich;nom;0.02;Bad Muskau Feuerturmteich;Bad Muskau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-660267;660267;Lucany n.Nisou;Lucany n.Nisou;gtfs;;Lucany n.Nisou;Lučany nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-661659;661659;Am Weinberg Ri. Heinrich-Heine-Straße;Am Weinberg Ri. Heinrich-Heine-Straße;gtfs;;Am Weinberg Ri. Heinrich-Heine-Straße;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-663805;663805;Wallenrod;Wallenrod;gtfs;;Wallenrod;Lauterbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006739;664652;Ronneburg (Thür);Ronneburg;nom;0.033;Ronneburg;Ronneburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8023131;666792;Bahnhof, Niedergörsdorf;Niedergörsdorf;nom;0.009;Niedergörsdorf;Niedergörsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8005100;667352;Rimbach Schulzentrum Bf;Rimbach Schulzentrum;nom;0.004;Rimbach Schulzentrum;Rimbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-667387;667387;Ceska Lipa hl.n.;Ceska Lipa hl.n.;gtfs;;Ceska Lipa hl.n.;Česká Lípa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5474035;667609;Plesna (CZ);Plesná;nom;0.031;Plesná;Plesná;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029041;668999;Stuttgart-Bad Cannstatt;Bad Cannstatt;nom;0.047;Bad Cannstatt;Stuttgart;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8016069;670490;Schnepfenthal;Waltershausen Schnepfenthal;nom;0.026;Waltershausen Schnepfenthal;Waltershausen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8007314;671792;Schönkirchen Bf;Schönkirchen;nom;0.003;Schönkirchen;Schönkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8091355;672574;Mücka;Mücka / Mikow;nom;0.01;Mücka / Mikow;Mücka;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006098;673388;Kubschütz;Kubschütz / Kubšicy;nom;0.01;Kubschütz / Kubšicy;Kubschütz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029288;674096;Kirchheim (T) Süd;Kirchheim (T) Süd;gtfs;;Kirchheim (T) Süd;Kirchheim unter Teck;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8080670;674829;Brunnen (Oberbay);Brunnen;nom;0.025;Brunnen;Brunnen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-67787;67787;Wiener Straße Ri. Hauptfriedhof;Wiener Straße Ri. Hauptfriedhof;gtfs;;Wiener Straße Ri. Hauptfriedhof;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-67988;67988;Dolni Zleb zastavka;Dolni Zleb zastavka;gtfs;;Dolni Zleb zastavka;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006693;68106;Lehndorf (Altenburg);Lehndorf (Altenburg);gtfs;;Lehndorf (Altenburg);Nobitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-68228;68228;Westerland (Sylt) Autoverladung;Westerland (Sylt) Autoverladung;gtfs;;Westerland (Sylt) Autoverladung;Sylt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004056;6866;Jänschwalde;Jänschwalde;nom;0.082;Jänschwalde - Janšojce;Jänschwalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006666;69265;Schwarzenberg Hp;Schwarzenberg Hp;gtfs;;Schwarzenberg Hp;Schwarzenberg/Erzgeb.;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014239;69357;Bruchhausen (b Ettlingen);Bruchhausen (b Ettlingen);gtfs;;Bruchhausen (b Ettlingen);Ettlingen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-70320;70320;Hauptbahnhof A1;Hauptbahnhof A1;gtfs;;Hauptbahnhof A1;Kiel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8061712;70648;Dettingen Lehen;Dettingen Lehen;gtfs;;Dettingen Lehen;Dettingen an der Erms;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-71515;71515;Thionville;Thionville;gtfs;;Thionville;Thionville;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8004223;73990;Senftenberg;Senftenberg;nom;0.109;Senftenberg - Zły Komorow;Senftenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM1679559685;7443;Mansfeld Schleife (Parkeisenbahn);Mansfeld Schleife;nom;0.003;Mansfeld Schleife;Mansfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-74483;74483;Hofgeismar Gl.1 Ri. Hümme;Hofgeismar Gl.1 Ri. Hümme;gtfs;;Hofgeismar Gl.1 Ri. Hümme;Hofgeismar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016585;77285;Seebach (Mühlhausen);Seebach (Mühlhausen);gtfs;;Seebach (Mühlhausen);Mühlhausen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029007;77971;Illingen (Württ);Illingen (Württemberg);nom;0.001;Illingen (Württemberg);Illingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006969;78247;Kurort Oybin-Niederdorf;Kurort Oybin-Niederdorf;gtfs;;Kurort Oybin-Niederdorf;Oybin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001229;81658;Weingarten Berg;Weingarten Berg;gtfs;;Weingarten Berg;Weingarten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029557;82790;Aufhausen (Württ);Aufhausen (Württemberg);nom;0.076;Aufhausen (Württemberg);Bopfingen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8047969;83848;Horka;Horka Pbf;nom;0.02;Horka Pbf;Horka;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-84321;84321;Benneckenstein Benneckenstein Gleis 1;Benneckenstein Benneckenstein Gleis 1;gtfs;;Benneckenstein Benneckenstein Gleis 1;Oberharz am Brocken;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-85597;85597;Philipp-Reis-Straße, Karlsruhe;Philipp-Reis-Straße, Karlsruhe;gtfs;;Philipp-Reis-Straße, Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-8633;8633;Gablenz/Gora;Gablenz/Gora;gtfs;;Gablenz/Gora;Gablenz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5457020;87269;Trutnov hl.n.;Trutnov hl.n.;gtfs;;Trutnov hl.n.;Trutnov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-88723;88723;Sedziszow Malopolski;Sedziszow Malopolski;gtfs;;Sedziszow Malopolski;Sędziszów Małopolski;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8775100;89311;Marseille-St-Charles;Marseille-St-Charles;gtfs;;Marseille-St-Charles;Marseille;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8093819;91024;Malter Bahnhof;Malter;nom;0.001;Malter;Dippoldiswalde;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-9106;9106;Baunatal-Rengershausen Gl.1 Ri. Kassel;Baunatal-Rengershausen Gl.1 Ri. Kassel;gtfs;;Baunatal-Rengershausen Gl.1 Ri. Kassel;Baunatal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-93982;93982;Decin - Certova Voda;Decin - Certova Voda;gtfs;;Decin - Certova Voda;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-94239;94239;Am Stern von Altmarkt;Am Stern von Altmarkt;gtfs;;Am Stern von Altmarkt;Cassel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016474;94344;Reinsdorf (Artern);Reinsdorf (Artern);gtfs;;Reinsdorf (Artern);Reinsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB_REGIO-95455;95455;Europahalle/Europabad (Schleife), Karlsruhe;Europahalle/Europabad (Schleife), Karlsruhe;gtfs;;Europahalle/Europabad (Schleife), Karlsruhe;Karlsruhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8045576;95564;Viechtach, Bahnhof/ZOB;Viechtach;nom;0.003;Viechtach;Viechtach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006370;96181;Frankenstein (Sachs);Frankenstein (Sachsen);nom;0.036;Frankenstein (Sachsen);Oberschöna;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB_REGIO-96980;96980;Luh p.Smrkem;Luh p.Smrkem;gtfs;;Luh p.Smrkem;Raspenava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029425;99318;Rietheim (Württ);Rietheim;nom;0.049;Rietheim;Rietheim-Weilheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8011022;49416;Wiesbaden-Erbenheim;Wiesbaden-Erbenheim;code;0.129;Wiesbaden-Erbenheim;Wiesbaden-Erbenheim;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNDB_REGIO-494160;494160;Burgholzhausen v d H;Burgholzhausen v d H;gtfs;;;Burgholzhausen v d H;à compléter;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TN8003515;494226;Priort;Priort;nom;0.102;Priort;Priort;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8022052;494338;Redwitz (Rodach);Redwitz (Rodach);nom;0.026;Redwitz (Rodach);Redwitz (Rodach);à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4695167987;494400;Seeshaupt;Seeshaupt;code;0.091;Seeshaupt;Seeshaupt;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8014328;494461;Riegel-Malterdingen;Riegel-Malterdingen;nom;0.05;Riegel-Malterdingen;Riegel-Malterdingen;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM25480338;494660;Rheinsheim;Rheinsheim;nom;0.016;Rheinsheim;Rheinsheim;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4216213850;494936;Neuburg (Donau);Neuburg (Donau);code;0.011;Neuburg (Donau);Neuburg (Donau);à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM5070454376;495033;Wehr (Mosel);Wehr (Mosel);nom;0.0;Wehr (Mosel);Wehr (Mosel);à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM204188944;495301;Quelle-Kupferheide;Quelle Kupferheide;code;0.002;Quelle Kupferheide;Bielefeld;osm;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8013098;495346;Bad Gandersheim;Bad Gandersheim;nom;0.012;Bad Gandersheim;Bad Gandersheim;osm;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM3142076171;495385;Zierenberg;Zierenberg;nom;0.018;Zierenberg;Zierenberg;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8006635;495396;Glauchau (Sachs);Glauchau (Sachs);nom;0.089;Glauchau (Sachs);Glauchau (Sachs);à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM3930199628;495417;Sondern;Sondern;code;0.036;Sondern;Sondern;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN8004219;528089;Bahnhof, Großräschen;Großräschen;nom;0.002;Großräschen;Großräschen;à compléter;"vérifier que la gare OSM est la bonne (nom différent) ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TNOSM4564050380;528329;Cölbe;Cölbe;code;0.011;Cölbe;Cölbe;à compléter;ville sans Wikidata : vérifier ou renseigner ville_parent

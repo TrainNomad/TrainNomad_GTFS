@@ -34,6 +34,15 @@ FRONT_DIR = os.path.normpath(os.path.join(ROOT, "..", "..", "..", "trainnomad-re
 CITY_RADIUS_KM = 8      # gares d'une ville : à moins de 8 km de son centre
 DETOUR_MAX = 2.2        # au-delà de 2,2 fois la ligne droite, ce n'est pas la liaison annoncée
 SIMPLIFY_M = 1500       # un pixel du globe vaut plusieurs kilomètres
+# Deux gares voisines d'une même ville (Bâle SNCF et Bâle CFF, Paris-Nord et Paris-Est) : le parcours peut
+# passer de l'une à l'autre, par un trait droit compté comme une correspondance
+HUB_KM = 1.5
+HUB_MINUTES = 20
+# Tronçons sans tracé, reliés par un trait droit entre les deux gares (minutes de parcours)
+FERRIES = [
+    ("TN8311774", "TN8312301", 40),   # Villa San Giovanni - Messina Centrale : les trains pour la Sicile prennent le ferry
+    ("TN8718213", "TN8500138", 3),    # Saint-Louis (Haut-Rhin) - Bâle frontière : inutile une fois tracée la SNCF avec --pays FR,CH
+]
 
 
 def km(a, b):
@@ -118,6 +127,20 @@ def main():
             if r["id"] in adj and r["lat"]:
                 coords[r["id"]] = (float(r["lat"]), float(r["lon"]))
 
+    # une gare tracée mais sortie du référentiel depuis (identifiant changé) : ses tronçons sont ignorés
+    adj = {u: {v: e for v, e in vs.items() if v in coords} for u, vs in adj.items() if u in coords}
+
+    ids = list(coords)
+    for i, a in enumerate(ids):
+        for b in ids[i + 1:]:
+            if abs(coords[a][0] - coords[b][0]) < 0.02 and b not in adj[a] and km(coords[a], coords[b]) <= HUB_KM:
+                adj[a][b] = adj[b][a] = (HUB_MINUTES, a, encode_polyline(np.array([coords[a], coords[b]])))
+    for a, b, minutes in FERRIES:
+        if a in coords and b in coords:
+            adj[a][b] = adj[b][a] = (minutes, a, encode_polyline(np.array([coords[a], coords[b]])))
+        else:
+            print(f"   ⚠️ ferry {a} - {b} : gare absente des tracés, traversée ignorée")
+
     def stations(city):
         c = (city["lat"], city["lng"])
         return [g for g, p in coords.items() if km(c, p) <= CITY_RADIUS_KM]
@@ -126,7 +149,7 @@ def main():
     for a, b in network["routes"]:
         ca, cb = network["cities"][a], network["cities"][b]
         pa, pb = (ca["lat"], ca["lng"]), (cb["lat"], cb["lng"])
-        name = f"{ca['label']} – {cb['label']}"
+        name = f"{ca.get('label', a)} – {cb.get('label', b)}"
         chain = route(adj, stations(ca), stations(cb))
         if not chain:
             print(f"   ⚪ {name} : pas de tracé complet")

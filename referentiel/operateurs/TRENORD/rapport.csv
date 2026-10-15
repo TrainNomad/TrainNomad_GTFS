@@ -1,0 +1,31 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8300030;S00030;Garbagna;Garbagna Novarese;nom;0.007;Garbagna Novarese;Garbagna Novarese;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM5863479416;S00403;Sannazzaro;Sannazzaro de' Burgondi;nom;0.012;Sannazzaro de' Burgondi;Sannazzaro de' Burgondi;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNTRENORD-s01022;S01022;Milano Tibaldi - Bocconi;Milano Tibaldi - Bocconi;gtfs;;;Milan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301031;S01031;Busto Arsizio;Busto Arsizio FS;nom;0.005;Busto Arsizio FS;Busto Arsizio;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301039;S01039;Rho Fiera Milano;Rho Fiera Milano;gtfs;;;Rho;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301059;S01059;Albairate;Albairate-Vermezzo;nom;0.023;Albairate-Vermezzo;Albairate;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8325016;S01085;Bovisio Masciago;Bovisio Masciago-Mombello;nom;0.002;Bovisio Masciago-Mombello;Bovisio-Masciago;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNTRENORD-s01210;S01210;Cavaria Oggiona Ierago;Cavaria Oggiona Ierago;gtfs;;;Cavaria con Premezzo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301325;S01325;Sesto S.Giovanni;Sesto S.Giovanni;gtfs;;;Sesto San Giovanni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8301411;S01411;Varenna Esino;Varenna-Esino-Perledo;nom;0.02;Varenna-Esino-Perledo;Perledo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8301440;S01440;Tirano;Tirano RFI;nom;0.02;Tirano RFI;Tirano;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNTRENORD-s01523;S01523;Vercurago S.Girolamo;Vercurago S.Girolamo;gtfs;;;Vercurago;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01528;S01528;Ponte S.Pietro;Ponte S.Pietro;gtfs;;;Ponte San Pietro;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01534;S01534;Albano S.Alessandro;Albano S.Alessandro;gtfs;;;Albano Sant'Alessandro;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01630;S01630;Milano S.Cristoforo;Milano S.Cristoforo;gtfs;;;Milan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01712;S01712;Cividate-Calcio;Cividate-Calcio;gtfs;;;Cividate al Piano;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3343695760;S01728;Abbiate Guazzone;Tradate-Abbiate Guazzone;nom;0.007;Tradate-Abbiate Guazzone;Tradate;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8325231;S01735;Venegono Superiore-Castiglione O.;Venegono Superiore-Castiglione Olona;nom;0.015;Venegono Superiore-Castiglione Olona;Venegono Superiore;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNTRENORD-s01764;S01764;Como Borghi;Como Borghi;gtfs;;;Côme;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01765;S01765;Como Lago;Como Lago;gtfs;;;Côme;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01780;S01780;Pian Camuno-Gratacasolo;Pian Camuno-Gratacasolo;gtfs;;;Pian Camuno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01790;S01790;Cazzago S. Martino;Cazzago S. Martino;gtfs;;;Cazzago San Martino;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s01804;S01804;S.Martino Cava;S.Martino Cava;gtfs;;;San Martino Siccomario;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM2216153912;S01806;Lungavilla;Pizzale-Lungavilla;nom;0.011;Pizzale-Lungavilla;Pizzale;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNTRENORD-s01917;S01917;Gazzo Pieve S.Giacomo;Gazzo Pieve S.Giacomo;gtfs;;;Pieve San Giacomo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302026;S02026;Bolzano;Bolzano/Bozen;nom;0.064;Bolzano - Bozen;Bolzano;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302082;S02082;Ponte S.Marco;Ponte S.Marco;gtfs;;;Calcinato;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8304716;S04716;Camogli S.Fruttuoso;Camogli S.Fruttuoso;gtfs;;;Camogli;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-s19901;S19901;Mendrisio S. Martino;Mendrisio S. Martino;gtfs;;;Mendrisio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNTRENORD-z05304;Z05304;Capolago-Riva S.Vitale;Capolago-Riva S.Vitale;gtfs;;;Mendrisio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

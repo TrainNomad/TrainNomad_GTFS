@@ -380,6 +380,71 @@ def station_id(st: dict, f: dict | None, op: str) -> str:
     return f"TN{op}-{slug(st['cle'])}"
 
 
+def split_collisions(gares: list, codes: list, spans: list, op: str) -> int:
+    """Deux gares du flux sous le même id, à plus de NAME_MAX_KM l'une de l'autre : un UIC erroné dans OSM,
+    Wikidata ou stations.csv (Stauchitz avec l'UIC de Welkers, Ersingen avec celui d'Ispringen). Sans cela,
+    drop_duplicates garderait une seule des deux et les codes de l'autre pointeraient vers elle. La gare
+    confirmée par son UIC ou un code OSM garde l'id ; les autres prennent l'id de leur objet OSM (sinon
+    TN<op>-<clé>) et perdent cet UIC. Modifie gares et codes en place ; rend le nombre de gares séparées."""
+    by_id = {}
+    for i, g in enumerate(gares):
+        by_id.setdefault(g["id"], []).append(i)
+    taken = set(by_id)
+    drop = set()
+    n = 0
+    for gid, idx in by_id.items():
+        if len(idx) < 2:
+            continue
+        idx.sort(key=lambda i: gares[i]["statut"] not in ("uic", "code"))
+        keep = gares[idx[0]]
+        for i in idx[1:]:
+            g = gares[i]
+            if km(float(keep["lat"]), float(keep["lon"]), float(g["lat"]), float(g["lon"])) <= NAME_MAX_KM:
+                continue  # même gare vue deux fois dans le flux : réunies
+            new = f"TNOSM{g['osm_id']}" if g["osm_id"] else ""
+            if not new or new in taken:
+                new = f"TN{op}-{slug(g['cle'])}"
+            logging.warning(f"   ⚠️ {g['nom_fr']} et {keep['nom_fr']} portent le même id {gid} : "
+                            f"{g['nom_fr']} devient {new}")
+            wrong_uic = g["uic"]
+            g.update({"id": new, "uic": "", "uic8": ""})
+            taken.add(new)
+            start, end = spans[i]
+            for k in range(start, end):
+                c = codes[k]
+                if c["source"] in ("UIC", "UIC8", "IBNR") and c["code"] in (wrong_uic, keep["uic"]):
+                    drop.add(k)
+                c["gare_id"] = new
+            n += 1
+    codes[:] = [c for k, c in enumerate(codes) if k not in drop]
+    return n
+
+
+COUNTRY_NEIGHBOR_KM = 25.0  # pays d'une gare non géocodée : celui de la gare connue la plus proche
+
+
+def fill_missing_country(gares: list, villes: dict) -> int:
+    """Gare sans pays (ville non géocodée, hors ligne ou Nominatim muet : Rheinsheim, Seeshaupt) : pays et
+    fuseau de la gare la plus proche qui en a un, à moins de COUNTRY_NEIGHBOR_KM ; sa ville provisoire
+    aussi. Sans pays, le front n'affiche pas de drapeau et l'horaire n'a pas de fuseau. Rend le nombre de gares
+    complétées."""
+    known = [g for g in gares if g["pays"]]
+    n = 0
+    for g in gares:
+        if g["pays"] or not known:
+            continue
+        lat, lon = float(g["lat"]), float(g["lon"])
+        d, near = min((km(lat, lon, float(k["lat"]), float(k["lon"])), id(k), k) for k in known)[::2]
+        if d > COUNTRY_NEIGHBOR_KM:
+            continue
+        g["pays"], g["fuseau"] = near["pays"], near["fuseau"] or TIMEZONES.get(near["pays"], "")
+        v = villes.get(g["ville_id"])
+        if v and not v["pays"]:
+            v["pays"] = g["pays"]
+        n += 1
+    return n
+
+
 def build_operator(op: str, op_country: str, stations: list[dict], search_name=None, names=None,
                    complet: bool = False, chercher_uic: bool = True) -> dict:
     """Enrichit les gares d'un opérateur et écrit operateurs/<op>/*.csv.
@@ -398,19 +463,26 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
     orm, wd, nominatim, overpass = OpenRailwayMap(), Wikidata(), Nominatim(), Overpass()
 
     gares, villes, codes, rapport = [], {}, [], []
+    spans = []  # codes[début:fin] de chaque gare, dans l'ordre de gares (split_collisions)
     prev_g, prev_cle, prev_v, prev_c, prev_r = read_previous(out_dir)
-    op_sources = {src for st in stations for src, _ in st["codes"]}
+    # codes propres au flux, remis à jour à chaque passage ; les identifiants trouvés par l'enrichissement
+    # (IBNR de Wikidata, OSM...) restent, même quand le flux en fournit aussi pour certaines gares
+    op_sources = {src for st in stations for src, _ in st["codes"]} - {"IBNR", "UIC", "UIC8", "OSM", "WIKIDATA",
+                                                                       "IFOPT", "CRS"}
     work, reserved = [], set()
     for st in stations:
         pid = prev_cle.get(st["cle"]) or (f"TN{st['uic']}" if st["uic"] else None)
         row = prev_g.get(pid) if pid else None
-        if complet or row is None or needs_work(row):
+        # ligne d'une autre gare du flux sous le même id (UIC erroné) : recalculée, sinon elle en prendrait
+        # les coordonnées et split_collisions ne pourrait plus les séparer
+        if complet or row is None or needs_work(row) or row.get("cle", st["cle"]) != st["cle"]:
             work.append(st)
             continue
         # gare déjà en base et complète : reprise sans calcul ni appel
         row = dict(row)
         row.update({"type": st["type"], "trains": st["trains"], "cars": st["cars"], "uic8": st.get("uic8", ""),
                     "cle": st["cle"], "nom_gtfs": st["nom_gtfs"]})
+        first_code = len(codes)
         gares.append(row)
         if row["osm_id"]:
             reserved.add(str(row["osm_id"]))
@@ -419,6 +491,7 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
         codes += [{"gare_id": pid, "source": c["source"], "code": c["code"]} for c in prev_c.get(pid, [])
                   if c["source"] not in op_sources]
         codes += [{"gare_id": pid, "source": src, "code": c} for src, c in st["codes"]]
+        spans.append((first_code, len(codes)))
         a_faire = to_do(row["type"], row["statut"], row["nom_local"], st["nom_gtfs"], row["ville_id"])
         if a_faire:
             old = prev_r.get(pid, {})
@@ -521,6 +594,7 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
                 villes[ville_id] = {"id": ville_id, "nom_fr": nom_fr, "nom_en": nom_en, "pays": country,
                                     "lat": glat, "lon": glon}
 
+            first_code = len(codes)
             gares.append({
                 "id": gid, "type": st["type"], "nom_fr": nom_fr, "nom_en": nom_en, "nom_local": local,
                 "uic": st["uic"], "uic8": st.get("uic8", ""), "lat": round(glat, 6), "lon": round(glon, 6),
@@ -545,6 +619,7 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
                                 ("CRS", "ref:crs")):
                 if (f or {}).get(key):
                     codes.append({"gare_id": gid, "source": source, "code": str(f[key])})
+            spans.append((first_code, len(codes)))
             # rapport : uniquement ce qui est à relire (un arrêt de car absent d'OSM est normal)
             a_faire = to_do(st["type"], statut, (f or {}).get("name", ""), st["nom_gtfs"],
                             ville_id if ville_source == "wikidata" else "")
@@ -559,6 +634,8 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
         nominatim.save()
         overpass.save()
 
+    split = split_collisions(gares, codes, spans, op)
+    filled = fill_missing_country(gares, villes)
     merge_cities(gares, villes)
     gares_df = pd.DataFrame(gares, columns=GARES_COLUMNS).drop_duplicates("id").sort_values("id")
     gares_df.to_csv(os.path.join(out_dir, "gares.csv"), sep=";", index=False, encoding="utf-8")
@@ -569,6 +646,7 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
     pd.DataFrame(rapport, columns=RAPPORT_COLUMNS).to_csv(os.path.join(out_dir, "rapport.csv"), sep=";",
                                                           index=False, encoding="utf-8")
     stats = {"gares": len(gares_df), "reprises_telles_quelles": reused, "cherchees": len(stations),
+             "gares_separees": split, "pays_deduits_du_voisinage": filled,
              "villes": len(villes), "codes": len(codes),
              "requetes_openrailwaymap": orm.requests, "requetes_wikidata": wd.requests,
              "requetes_nominatim": nominatim.requests, "requetes_overpass": overpass.requests}

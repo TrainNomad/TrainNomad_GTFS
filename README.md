@@ -36,11 +36,11 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Belgique (SNCB) | `sncb` | SNCB |
 | GTFS · Suisse | `swiss` | SWISS |
 | GTFS · Royaume-Uni (National Rail) | `uk` | NATIONAL_RAIL (secrets `NR_EMAIL`, `NR_PASSWORD`) |
-| GTFS · Allemagne (DB) | `germany` | DB, DB_REGIO (désactivé) |
+| GTFS · Allemagne (DB) | `germany` | DB, DB_REGIO |
 | GTFS · Italie (Trenitalia + Italo) | `trenitalia` | TRENITALIA, ITALO |
 | GTFS · FlixTrain | `flixtrain` | FLIXTRAIN |
-| GTFS · Pays-Bas (NS) | `netherlands` | NS (désactivé) |
-| GTFS · Italie (Trenord) | `trenord` | TRENORD (désactivé) |
+| GTFS · Pays-Bas (NS) | `netherlands` | NS |
+| GTFS · Italie (Trenord) | `trenord` | TRENORD |
 
 ## Contrôles (fiabilité)
 

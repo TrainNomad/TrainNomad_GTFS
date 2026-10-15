@@ -236,6 +236,7 @@ Egestorf Bahnhof;52.279;9.515;2026-10-06;2286071919;Egestorf (Deister);8001675;5
 Eggenstein Schweriner Straße;49.086;8.402;2026-10-06;3112598476;Eggenstein Schweriner Straße;;49.085746;8.402158;halt;0.015
 Eggenstein Süd;49.071;8.396;2026-10-06;3112587021;Eggenstein Süd;;49.071145;8.396062;halt;0.001
 Egling a.d.Paar;48.191;10.977;2026-10-06;635775997;Egling;8001683;48.190835;10.976374;station;0.010
+Egling a.d.Paar;48.191;10.976;2026-10-14;;;;;;;
 Ehningen;48.663;8.944;2026-10-06;301469901;Ehningen (bei Böblingen);8029391;48.662346;8.943506;halt;0.075
 Ehringshausen-Katzenfurt Bahnhof;50.616;8.343;2026-10-06;;;;;;;
 Eibsee;47.457;10.991;2026-10-06;7809398546;Eibsee;;47.456368;10.993871;station;0.231
@@ -377,6 +378,7 @@ Herten(Westf);51.598;7.139;2026-10-06;10170080201;Herten (Westf);;51.597452;7.13
 Hesedorf(Bremervörde);53.473;9.195;2026-10-06;;;;;;;
 Hessental Bahnhof;49.097;9.767;2026-10-06;29502822;Schwäbisch Hall-Hessental;8029678;49.096684;9.767246;station;0.036
 Heumaden (Calw), Bahnhof;48.709;8.762;2026-10-06;13483546436;Calw-Heumaden;;48.709248;8.762230;halt;0.017
+Hittfeld Bereich Gleis1+2;53.404;9.975;2026-10-14;;;;;;;
 Hnevceves;50.313;15.721;2026-10-06;3964822610;Hněvčeves;;50.312504;15.721678;station;0.017
 Hnevice;50.453;14.362;2026-10-06;1893772746;Hněvice;;50.453249;14.361245;station;0.071
 Hockeroda (Bushaltestelle);50.597;11.436;2026-10-06;3072294051;Hockeroda;8016337;50.597395;11.434089;halt;0.117
@@ -643,6 +645,7 @@ Libstat;50.556;15.417;2026-10-06;566183344;Libštát;;50.556086;15.417567;halt;0
 Libun zastavka;50.500;15.301;2026-10-06;36268991;Libuň zastávka;;50.500151;15.300543;halt;0.014
 Liederbach (Taunus)-Niederhofheim Liederbach Bf;50.119;8.486;2026-10-06;2968130090;Liederbach;;50.118639;8.486330;station;0.064
 Liederbach (Taunus)-Oberliederbach Liederbach Süd;50.115;8.501;2026-10-06;2970570365;Liederbach Süd;;50.115473;8.501287;halt;0.025
+Liederbach (Taunus)-Oberliederbach Liederbach Süd;50.115;8.502;2026-10-14;;;;;;;
 Limburg (Lahn)-Staffel Bahnhof;50.400;8.046;2026-10-06;;;;;;;
 Lindhorst Bahnhof;52.354;9.287;2026-10-06;206146297;Lindhorst;8003699;52.354255;9.288464;station;0.086
 Lingen, Bahnhof;52.520;7.321;2026-10-06;4530820002;Lingen (Ems);8003701;52.519963;7.321595;station;0.042
@@ -698,6 +701,7 @@ Marktoberdorf Nord;47.790;10.616;2026-10-06;13523719977;Marktoberdorf Nord;80016
 Markvartice;50.772;14.346;2026-10-06;248088554;Markvartice;5456279;50.772229;14.346187;station;0.025
 Mauer, Bahnhof;49.336;8.796;2026-10-06;1617569991;Mauer (bei Heidelberg);8014171;49.335792;8.795561;halt;0.005
 Mechernich Satzvey Bf;50.623;6.713;2026-10-06;;;;;;;
+Meckelfeld Bereich Gleis 1+2;53.424;10.030;2026-10-14;;;;;;;
 Meckenbeuren Kehlen, Bahnhof;47.683;9.548;2026-10-06;;;;;;;
 Meckenheim Lüftelberg Kottenforst Bf;50.662;7.023;2026-10-06;2588832663;Meckenheim Kottenforst;8003414;50.661889;7.022888;halt;0.059
 Medenec;50.429;13.130;2026-10-06;12857426649;Měděnec;;50.428540;13.129915;halt;0.027

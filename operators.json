@@ -194,7 +194,7 @@
   {
     "id": "NS",
     "name": "Pays-Bas (NS, Arriva, Keolis)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./NETHERLANDS/nl_gtfs.zip",
     "script_path": "./NETHERLANDS/ingest_nl_gtfs.py",
     "gtfs_url": "https://gtfs.ovapi.nl/nl/gtfs-nl.zip",
@@ -207,13 +207,12 @@
       "ICE",
       "EuroCity",
       "Nightjet"
-    ],
-    "note": "Désactivé pour l'instant : lancer d'abord referentiel/build_gares_ns.py puis fusion.py (gares), passer à true, puis lancer le workflow « GTFS · Pays-Bas »."
+    ]
   },
   {
     "id": "TRENORD",
     "name": "Trenord (Lombardie)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./TRENORD/trenord_gtfs.zip",
     "script_path": "./TRENORD/ingest_trenord_gtfs.py",
     "gtfs_url": "https://www.dati.lombardia.it/download/3z4k-mxz9/application%2Fzip",
@@ -221,7 +220,6 @@
       "Regionale",
       "RegioExpress",
       "Malpensa Express"
-    ],
-    "note": "Désactivé pour l'instant : lancer d'abord referentiel/build_gares_trenord.py puis fusion.py (gares), passer à true, puis lancer le workflow « GTFS · Italie (Trenord) ». Sans les lignes S (banlieue de Milan)."
+    ]
   }
 ]

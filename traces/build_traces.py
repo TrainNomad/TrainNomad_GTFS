@@ -28,6 +28,7 @@ Les tracés déjà calculés sont conservés d'un lancement à l'autre (--refair
 Les cars ne sont pas tracés (route_type 3, arrêts « Car » de la SNCF).
 
 Usage :
+    python traces/build_traces.py                           (toutes les compagnies activées, puis publier.py --release et globe.py)
     python traces/build_traces.py --op SNCB --pays BE      (gares belges uniquement)
     python traces/build_traces.py --op SNCB                 (tout l'opérateur, trains internationaux compris)
     python traces/build_traces.py --op SNCF --offline      (voies déjà en cache uniquement)
@@ -42,6 +43,7 @@ import logging
 import math
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -391,9 +393,52 @@ def load_existing(out_dir: str) -> dict:
     return done
 
 
+def run_all(args):
+    """Sans --op : chaque compagnie activée l'une après l'autre (un processus chacune : la mémoire est rendue
+    entre deux, et une compagnie en échec n'arrête pas les suivantes), puis publier.py --release et globe.py."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    with open(OPERATORS_FILE, encoding="utf-8") as f:
+        ops = [o for o in json.load(f) if o.get("enabled")]
+    env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    t0 = time.time()
+    SEP = "=" * 70
+
+    def launch(script, *options):
+        """Lance un script en affichant sa sortie au fil de l'eau : (code de retour, carreaux indisponibles)."""
+        proc = subprocess.Popen([sys.executable, os.path.join(here, script), *options], env=env, stdout=subprocess.PIPE,
+                                stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace")
+        incomplete = False
+        for line in proc.stdout:
+            print(line, end="", flush=True)
+            incomplete = incomplete or "carreaux indisponibles" in line
+        return proc.wait(), incomplete
+
+    options = [o for o, on in (("--offline", args.offline), ("--refaire", args.refaire)) if on]
+    if args.pays:
+        options += ["--pays", args.pays]
+    bilan = []
+    for op in ops:
+        print(f"\n{SEP}\n{op['id']}\n{SEP}", flush=True)
+        if not os.path.exists(feed_path(op)):
+            bilan.append((op["id"], "GTFS absent, ignorée"))
+            continue
+        code, incomplete = launch("build_traces.py", "--op", op["id"], *options)
+        bilan.append((op["id"], "ÉCHEC" if code else "carreaux indisponibles : à relancer" if incomplete else "ok"))
+    for script, opts in (("publier.py", ["--release"]), ("globe.py", [])):
+        print(f"\n{SEP}\n{script}\n{SEP}", flush=True)
+        code, _ = launch(script, *opts)
+        bilan.append((script, "ÉCHEC" if code else "ok"))
+    print(f"\n{SEP}\nBilan ({(time.time() - t0) / 60:.0f} min)")
+    for name, state in bilan:
+        print(f"   {'✅' if state == 'ok' else '⚠️'} {name} : {state}")
+    if any("relancer" in state for _, state in bilan):
+        print("   Relancer la même commande : seuls les carreaux et les trajets manquants seront repris.")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--op", required=True, help="identifiant de l'opérateur dans operators.json (SNCF, SNCB...)")
+    parser.add_argument("--op", help="identifiant de l'opérateur dans operators.json (SNCF, SNCB...) ; "
+                                     "sans lui : toutes les compagnies activées, puis publier.py et globe.py")
     parser.add_argument("--pays", help="ne trace que les paires dont les deux gares sont dans ces pays (FR, ou FR,BE pour inclure les transfrontaliers)")
     parser.add_argument("--offline", action="store_true", help="voies en cache uniquement, aucun téléchargement")
     parser.add_argument("--refaire", action="store_true", help="recalcule les tracés déjà présents")
@@ -401,6 +446,9 @@ def main():
     args = parser.parse_args()
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+    if not args.op:
+        return run_all(args)
 
     with open(OPERATORS_FILE, encoding="utf-8") as f:
         op = next((o for o in json.load(f) if o["id"].upper() == args.op.upper()), None)
@@ -437,20 +485,23 @@ def main():
         cells = cells_for(todo, gares)
         logging.info(f"🗺️  Voies OpenStreetMap : {len(cells)} carreaux")
         graph = RailGraph()
-        missing = 0
+        missing = set()
         for i, (lat, lon) in enumerate(cells, 1):
             elements = fetch_cell(lat, lon, args.offline)
             if elements is None:
-                missing += 1
+                missing.add((lat, lon))
                 continue
             graph.add_cell(elements)
             logging.info(f"   {i}/{len(cells)} carreaux, {len(graph.seen)} voies")
+        # seules les paires dont le rectangle touche un carreau manquant sont douteuses : un carreau en mer
+        # (Fehmarn, 54_11) ne doit pas faire recalculer tout l'opérateur à chaque lancement
+        touched = {p for p in todo if missing & set(cells_for([p], gares))}
         if missing:
-            logging.warning(f"   {missing} carreaux indisponibles : tracés provisoires (manquants ou détournés), "
-                            f"recalculés au prochain lancement")
+            logging.warning(f"   {len(missing)} carreaux indisponibles ({', '.join(f'{a}_{o}' for a, o in sorted(missing))}) : "
+                            f"{len(touched)} tracés provisoires (manquants ou détournés), recalculés au prochain lancement")
         if not graph.seen:
             sys.exit("❌ aucune voie chargée")
-        doubt = doubt | set(todo) if missing else doubt - set(todo)
+        doubt = (doubt - set(todo)) | touched
         stations = {g: (gares[g]["lat"], gares[g]["lon"]) for p in todo for g in p}
         graph.build(stations)
 

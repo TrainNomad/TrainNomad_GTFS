@@ -893,6 +893,13 @@ class NetworkBuilder:
             if not days:
                 self.stats[f"trips_{op_id}_duplicates"] += 1
                 continue
+            if op_id == "DB" and not number:
+                # gtfs.de ne publie pas les numéros de train : sans numéro repris d'un autre flux, la ligne
+                # ("ICE 82", "IC 55"), comme pour le régional ("RE73"). Une catégorie seule ("EC") n'apprend rien.
+                line = route.get("route_short_name", "").strip()
+                if re.search(r"\d", line):
+                    number = line
+                    self.stats["trips_DB_line_as_number"] += 1
             type_idx = self.intern(self.types, ttype)
             key = (op_idx, tuple(seq_stops), tuple(seq_flags), tuple(seq_arr), tuple(seq_dep), number, type_idx, checkin)
             t = self.trips.get(key)
