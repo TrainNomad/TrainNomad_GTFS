@@ -33,6 +33,8 @@ import logging
 import os
 import re
 import shutil
+import subprocess
+import time
 import zipfile
 
 import pandas as pd
@@ -50,11 +52,24 @@ MALPENSA_LINES = {"RE51", "RE54"}
 
 
 def download(url: str, dest: str) -> None:
+    """Trois essais avec requests, puis curl : le portail de la Lombardie coupe parfois la connexion
+    depuis les serveurs de GitHub (échec du workflow du 2026-10-18)."""
     logging.info(f"📥 Téléchargement : {url}")
-    with requests.get(url, stream=True, timeout=300, headers={"User-Agent": "Mozilla/5.0 TrainNomad"}) as r:
-        r.raise_for_status()
-        with open(dest, "wb") as f:
-            shutil.copyfileobj(r.raw, f, 1024 * 1024)
+    for attempt in range(1, 4):
+        try:
+            with requests.get(url, stream=True, timeout=300, headers={"User-Agent": "Mozilla/5.0 TrainNomad"}) as r:
+                r.raise_for_status()
+                with open(dest, "wb") as f:
+                    shutil.copyfileobj(r.raw, f, 1024 * 1024)
+            break
+        except requests.RequestException as e:
+            logging.warning(f"   essai {attempt}/3 échoué : {e}")
+            if attempt < 3:
+                time.sleep(30)
+    else:
+        logging.warning("   nouvel essai avec curl")
+        subprocess.run(["curl", "-sSfL", "--retry", "3", "--retry-delay", "30", "--retry-all-errors",
+                        "--max-time", "600", "-A", "Mozilla/5.0 TrainNomad", "-o", dest, url], check=True)
     logging.info(f"   {os.path.getsize(dest) / 1e6:.1f} Mo")
 
 

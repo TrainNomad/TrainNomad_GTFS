@@ -3,6 +3,7 @@ Test du réseau compilé avec le vrai moteur Europe (dépôt TrainNomad_SQL), av
 
 Le workflow lance l'API sur network.bin.gz, puis ce script vérifie qu'elle répond et qu'une relation
 par pays trouve des trajets (J+3, 8 h). Une relation sans résultat = un pays cassé : réseau non publié.
+Les relations d'une compagnie absente du réseau (désactivée dans operators.json) sont sautées.
 
 Usage :
     python pipeline/tester_reseau.py [http://localhost:8000] [--forcer]
@@ -15,18 +16,20 @@ import time
 import urllib.parse
 import urllib.request
 
+# (départ, arrivée, compagnie testée)
 RELATIONS = [
-    ("Paris", "Lyon"),            # SNCF
-    ("Paris", "London"),          # Eurostar
-    ("Madrid", "Barcelona"),      # Renfe
-    ("Lisboa", "Porto"),          # CP
-    ("London", "Edinburgh"),      # National Rail
-    ("Milano", "Roma"),           # Trenitalia / Italo
-    ("Zürich", "Genève"),         # Suisse
-    ("Bruxelles", "Liège"),       # SNCB
-    ("Berlin", "München"),        # DB
-    ("Lübeck", "Kiel"),           # DB Regio (aucun train grandes lignes)
-    ("Amsterdam", "Utrecht"),     # NS
+    ("Paris", "Lyon", "SNCF"),
+    ("Paris", "London", "EUROSTAR"),
+    ("Madrid", "Barcelona", "RENFE"),
+    ("Lisboa", "Porto", "CP"),
+    ("London", "Edinburgh", "NATIONAL_RAIL"),
+    ("Milano", "Roma", "TRENITALIA"),
+    ("Zürich", "Genève", "SWISS"),
+    ("Bruxelles", "Liège", "SNCB"),
+    ("Berlin", "München", "DB"),
+    ("Lübeck", "Kiel", "DB_REGIO"),      # aucun train grandes lignes
+    ("Amsterdam", "Utrecht", "NS"),
+    ("Milano", "Tirano", "TRENORD"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 
@@ -54,7 +57,11 @@ def main() -> int:
     day = (datetime.date.today() + datetime.timedelta(days=3)).isoformat()
     rows = ["| Relation | Trajets |", "|---|---|"]
     failures = []
-    for a, b in RELATIONS:
+    operators = {o["id"] if isinstance(o, dict) else o for o in health.get("operators") or []}
+    for a, b, op in RELATIONS:
+        if operators and op not in operators:
+            rows.append(f"| {a} → {b} | {op} absent du réseau, non testé |")
+            continue
         q = urllib.parse.urlencode({"from": a, "to": b, "date": day, "time": "08:00"})
         try:
             n = len(get(f"{base}/search?{q}").get("journeys") or [])
