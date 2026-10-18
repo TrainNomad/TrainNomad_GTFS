@@ -51,9 +51,19 @@ BUS_LINES = {"TN BUS"}
 MALPENSA_LINES = {"RE51", "RE54"}
 
 
+def not_a_zip(path: str) -> str:
+    """'' si le fichier est un zip, sinon son début (page d'erreur ou de blocage renvoyée à la place)."""
+    if zipfile.is_zipfile(path):
+        return ""
+    with open(path, "rb") as f:
+        head = f.read(300).decode("utf-8", "replace")
+    return f"pas un zip ({os.path.getsize(path)} octets) : {' '.join(head.split())[:200]!r}"
+
+
 def download(url: str, dest: str) -> None:
     """Trois essais avec requests, puis curl : le portail de la Lombardie coupe parfois la connexion
-    depuis les serveurs de GitHub (échec du workflow du 2026-10-18)."""
+    depuis les serveurs de GitHub (échec du workflow du 2026-10-18). Une réponse qui n'est pas un zip
+    compte comme un échec."""
     logging.info(f"📥 Téléchargement : {url}")
     for attempt in range(1, 4):
         try:
@@ -61,15 +71,21 @@ def download(url: str, dest: str) -> None:
                 r.raise_for_status()
                 with open(dest, "wb") as f:
                     shutil.copyfileobj(r.raw, f, 1024 * 1024)
-            break
+            problem = not_a_zip(dest)
+            if not problem:
+                break
         except requests.RequestException as e:
-            logging.warning(f"   essai {attempt}/3 échoué : {e}")
-            if attempt < 3:
-                time.sleep(30)
+            problem = str(e)
+        logging.warning(f"   essai {attempt}/3 échoué : {problem}")
+        if attempt < 3:
+            time.sleep(30)
     else:
         logging.warning("   nouvel essai avec curl")
         subprocess.run(["curl", "-sSfL", "--retry", "3", "--retry-delay", "30", "--retry-all-errors",
                         "--max-time", "600", "-A", "Mozilla/5.0 TrainNomad", "-o", dest, url], check=True)
+        problem = not_a_zip(dest)
+        if problem:
+            raise RuntimeError(f"téléchargement Trenord : {problem}")
     logging.info(f"   {os.path.getsize(dest) / 1e6:.1f} Mo")
 
 
@@ -172,4 +188,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        # message visible dans le résumé du workflow (sinon seulement « code 1 » au fond du journal)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::error::Trenord : {type(e).__name__} : {' '.join(str(e).split())[:500]}")
+        raise
