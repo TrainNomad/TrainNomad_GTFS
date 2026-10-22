@@ -9,6 +9,7 @@ Alfons-Auer-Straße;49.006;12.108;2026-10-06;;;;;;;
 Altach;47.352;9.661;2026-10-06;3015483004;Altach;8100630;47.352373;9.661687;halt;0.054
 Altenberg Bahnhof;50.766;13.754;2026-10-06;3653234191;Kurort Altenberg (Erzgeb.);8006044;50.766483;13.753919;station;0.050
 Althengstett, Bahnhof;48.727;8.798;2026-10-06;13483546435;Althengstett;;48.726885;8.797432;halt;0.008
+Althengstett, Bahnhof;48.727;8.797;2026-10-22;13483546435;Althengstett;;48.726885;8.797432;halt;0.002
 Amselgrund;50.935;12.853;2026-10-06;1766621328;Amselgrund;;50.934864;12.852750;halt;0.003
 Andernach Miesenheim Bahnhof;50.404;7.408;2026-10-06;;;;;;;
 Andernach Namedy Bahnhof;50.457;7.362;2026-10-06;;;;;;;
@@ -75,6 +76,7 @@ Bev.-Wehrden, Bahnhof;51.709;9.384;2026-10-06;;;;;;;
 Bezdekov u Klatov;49.381;13.237;2026-10-06;307401382;Bezděkov u Klatov;;49.380705;13.236751;halt;0.010
 Bezdez;50.516;14.730;2026-10-06;255478877;Bezděz;5456889;50.516131;14.729408;station;0.018
 Bi-Senne, Bahnhof;51.965;8.520;2026-10-06;;;;;;;
+Biberach ZOB/Bahnhof;48.101;9.793;2026-10-22;3493107549;Biberach (Riß);8029126;48.101927;9.793114;station;0.055
 Biberach ZOB/Bahnhof;48.102;9.793;2026-10-06;3493107549;Biberach (Riß);8029126;48.101927;9.793114;station;0.000
 Bibra (Bushaltestelle);50.468;10.439;2026-10-06;13465254581;Bibra;8016141;50.468519;10.444352;halt;0.379
 Biebergemünd-Wirtheim Bahnhof;50.226;9.258;2026-10-06;;;;;;;
@@ -312,12 +314,14 @@ Gemünden (Felda)-Ehringshausen (Felda) Bahnhof;50.709;9.102;2026-10-06;;;;;;;
 Gersfeld (Rhön)-Hettenhausen Bahnhof;50.448;9.815;2026-10-06;;;;;;;
 Gifhorn, Bahnhof (Süd);52.456;10.546;2026-10-06;3123334793;Gifhorn;8013020;52.455948;10.546143;station;0.003
 Gmund;47.750;11.735;2026-10-06;4512194964;Gmund;8007631;47.749608;11.734996;station;0.014
+Gmund;47.750;11.736;2026-10-22;4512194964;Gmund;8007631;47.749608;11.734996;station;0.086
 Goleniow;53.559;14.840;2026-10-06;6348562377;Goleniów;5100105;53.559462;14.839589;station;0.020
 Gollmitz, Bahnhof;51.705;13.887;2026-10-06;5272794042;Gollmitz (Niederlausitz) - Chańc (Dolna Łužyca);8004336;51.704689;13.886909;halt;0.005
 Golzow (BAR), Bahnhof;52.914;13.827;2026-10-06;12245850873;Golzow (bei Eberswalde);8028250;52.914031;13.826797;halt;0.008
 Golzow (MOL), Bahnhof;52.563;14.512;2026-10-06;388631832;Golzow (Oderbruch);8003277;52.562568;14.512272;halt;0.048
 Golßen, Bahnhof;51.974;13.575;2026-10-06;5865963763;Golßen (Niederlausitz);8004359;51.973932;13.574861;station;0.028
 Grainau;47.472;11.025;2026-10-06;6928038102;Grainau;;47.471821;11.023778;station;0.125
+Grebenstein Bahnhof, Bereich Gleis 2/3;51.448;9.420;2026-10-22;;;;;;;
 Grevenbroich Gustorf Bf;51.068;6.570;2026-10-06;;;;;;;
 Grimmenthal (Bushaltestelle);50.534;10.456;2026-10-06;3059296467;Grimmenthal;8016216;50.532771;10.450668;station;0.443
 Großenlüder-Oberbimbach Bahnhof;50.578;9.564;2026-10-06;;;;;;;
