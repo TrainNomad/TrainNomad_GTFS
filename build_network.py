@@ -250,11 +250,53 @@ DB_CATEGORIES = {
     "RJ": "Railjet", "RJX": "Railjet Xpress", "NJ": "Nightjet", "TGV": "TGV",
 }
 
-# GTFS régional allemand (gtfs.de) : catégorie = lettres de la ligne ("S5" -> S, "RE1" -> RE)
+# GTFS régional allemand (gtfs.de) : catégorie = lettres de la ligne ("S5" -> S, "RE1" -> RE). Le flux
+# contient aussi des trains grandes lignes et de nuit des compagnies voisines (Railjet, Nightjet...).
 DB_REGIO_TYPES = {
     "RE": "Regional-Express", "RB": "Regionalbahn", "S": "S-Bahn", "IRE": "Interregio-Express",
     "MEX": "Metropolexpress", "RS": "Regio-S-Bahn", "FEX": "Flughafen-Express", "TER": "TER",
+    "RT": "RegioTram", "R": "Regionalzug", "REX": "Regionalexpress", "OS": "Osobní vlak", "RR": "Rychlík",
+    "RJX": "Railjet Xpress", "RJ": "Railjet", "NJ": "Nightjet", "EN": "EuroNight", "EC": "EuroCity",
+    "ECE": "EuroCity-Express", "ECM": "EuroCity", "IC": "Intercity", "ICE": "ICE",
 }
+
+# Flux allemands (gtfs.de) : toutes les compagnies qui roulent en Allemagne dans deux flux. Un train est rattaché
+# à sa vraie compagnie (agency_name) : à l'opérateur TrainNomad qui la publie par ailleurs (un EuroCity SBB est un
+# train SBB, pas DB), ou à un opérateur créé pour les grandes compagnies étrangères sans flux propre (un Nightjet
+# est un train ÖBB). Les autres restent dans leur flux (DB, DB_REGIO), leur marque dans le type affiché.
+DE_AGENCY_OPERATOR = {
+    "SBB": "SWISS", "THURBO": "SWISS", "Nederlandse Spoorwegen": "NS", "SNCF": "SNCF", "SNCB": "SNCB",
+    "EUROSTAR": "EUROSTAR", "European Sleeper": "EUROPEAN_SLEEPER", "Trenitalia": "TRENITALIA",
+    "ÖBB": "OBB", "PKP Intercity": "PKP", "Ceske Drahy": "CD", "MAV": "MAV", "Dänische Staatsbahnen": "DSB",
+    "CFL": "CFL", "ZSSK": "ZSSK", "HZZP": "HZPP",
+}
+# Opérateurs sans GTFS propre, ajoutés au réseau dès qu'un de leurs trains y entre (nom affiché par l'API)
+EXTRA_OPERATORS = {
+    "OBB": "ÖBB", "PKP": "PKP", "CD": "ČD",
+    "MAV": "MÁV", "DSB": "DSB", "CFL": "CFL", "ZSSK": "ZSSK",
+    "HZPP": "HŽPP",
+}
+# Marque affichée devant le type des trains régionaux allemands ("HLB Regionalbahn") : le logo en dépend.
+# Les autres compagnies gardent leur nom, sans forme juridique ("NordWestBahn", "metronom").
+DE_REGIO_BRANDS = [
+    (r"^(800151 )?DB Regio|^DB RegioNetz|^Gesamtnetz der deutschen Bahn", "DB"),
+    (r"^Hessische Landesbahn", "HLB"), (r"^Ostdeutsche Eisenbahn", "ODEG"), (r"^VIAS", "VIAS"),
+    (r"^agilis", "agilis"), (r"Arverio", "Arverio"), (r"^Erfurter Bahn", "Erfurter Bahn"),
+    (r"^Süd-Thüringen-Bahn", "Süd-Thüringen-Bahn"), (r"^(\w+(-express)?) - Die Länderbahn", r"\1"),
+    (r"^Bayerische Regiobahn", "BRB"), (r"^KVG M$", "RegioTram Kassel"), (r"^AKN", "AKN"),
+    (r"^NEB ", "NEB"), (r"^Nordbahn", "nordbahn"), (r"^Südwestdeutsche Verkehrs", "SWEG"),
+    (r"^ABELLIO", "Abellio"), (r"^cantus", "cantus"), (r"^EVB ", "EVB"), (r"^MittelrheinBahn", "MittelrheinBahn"),
+    (r"^Harzer Schmalspurbahn", "HSB"), (r"^Hanseatische Eisenbahn", "Hanseatische Eisenbahn"),
+    (r"^AUTOZUG Sylt", "Autozug Sylt"),
+]
+
+
+def de_regio_brand(agency: str) -> str:
+    for pattern, brand in DE_REGIO_BRANDS:
+        m = re.search(pattern, agency)
+        if m:
+            return m.expand(brand)  # "\1" : sous-marque de Die Länderbahn (alex, trilex...)
+    return re.sub(r"\s+(GmbH|AG|mbH|Verkehrsgesellschaft|Eisenbahngesellschaft)\b.*$", "", agency).strip()
 
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
@@ -629,6 +671,9 @@ class Referentiel:
 class NetworkBuilder:
     def __init__(self, operators, ref: StationRef, gares: Referentiel):
         self.operators = operators
+        # opérateurs sans GTFS propre (EXTRA_OPERATORS), placés après ceux de operators.json : à part, car la
+        # boucle principale parcourt `operators` pour charger les flux
+        self.extra_operators = []
         self.ref = ref
         self.gares = gares
         today = datetime.now(timezone.utc).date()
@@ -871,6 +916,7 @@ class NetworkBuilder:
 
             route = route_info.get(meta["route_id"], {})
             number, ttype, checkin = self.trip_labels(op_id, meta, route, stop_ids[a])
+            trip_op = self.trip_operator(op_id, op_idx, route)
             tol, miss = 0, 0
             others = earlier.get(number, ())
             if at_stop:
@@ -901,11 +947,11 @@ class NetworkBuilder:
                     number = line
                     self.stats["trips_DB_line_as_number"] += 1
             type_idx = self.intern(self.types, ttype)
-            key = (op_idx, tuple(seq_stops), tuple(seq_flags), tuple(seq_arr), tuple(seq_dep), number, type_idx, checkin)
+            key = (trip_op, tuple(seq_stops), tuple(seq_flags), tuple(seq_arr), tuple(seq_dep), number, type_idx, checkin)
             t = self.trips.get(key)
             if t is None:
                 self.trips[key] = {
-                    "op": op_idx, "tz": tz_idx, "stops": seq_stops, "flags": seq_flags,
+                    "op": trip_op, "tz": tz_idx, "stops": seq_stops, "flags": seq_flags,
                     "arr": seq_arr, "dep": seq_dep, "number": number, "type": type_idx,
                     "checkin": checkin, "days": days,
                 }
@@ -913,6 +959,8 @@ class NetworkBuilder:
                 t["days"] |= days
                 self.stats["trips_merged"] += 1
             kept += 1
+            if trip_op != op_idx:
+                self.stats[f"trips_{op_id}_to_{(self.operators + self.extra_operators)[trip_op]['id'].upper()}"] += 1
         if earlier or at_stop:
             self.trips = {k: t for k, t in self.trips.items() if t["days"]}
         self.stats[f"trips_{op_id}"] = kept
@@ -923,6 +971,25 @@ class NetworkBuilder:
         a, b = ZoneInfo(tz_a), ZoneInfo(tz_b)
         days = (datetime(d.year, d.month, d.day, 12) for d in self.day_dates)
         return all(a.utcoffset(d) == b.utcoffset(d) for d in days)
+
+    def trip_operator(self, op_id: str, op_idx: int, route: dict) -> int:
+        """Opérateur d'un trajet : pour les flux allemands, sa vraie compagnie (DE_AGENCY_OPERATOR), sinon le flux.
+        Une compagnie dont le flux est désactivé dans operators.json reste dans le flux allemand."""
+        if op_id not in ("DB", "DB_REGIO"):
+            return op_idx
+        target = DE_AGENCY_OPERATOR.get(self.agency_names.get(route.get("agency_id", ""), ""))
+        ids = [o["id"].upper() for o in self.operators]
+        if not target:
+            return op_idx
+        if target in ids:
+            return ids.index(target)
+        if target not in EXTRA_OPERATORS:
+            return op_idx
+        extra = [o["id"] for o in self.extra_operators]
+        if target not in extra:
+            self.extra_operators.append({"id": target, "name": EXTRA_OPERATORS[target]})
+            extra.append(target)
+        return len(self.operators) + extra.index(target)
 
     def trip_labels(self, op_id, meta, route, first_stop_id):
         checkin = 0
@@ -996,11 +1063,30 @@ class NetworkBuilder:
                 ttype = f"{brand} {DB_CATEGORIES.get(cat, cat.title())}"
         elif op_id == "DB_REGIO":
             # pas de numéro de train : la ligne ("RE 1", "S5") est l'identifiant affiché par la DB
-            line = route.get("route_short_name", "")
+            line = route.get("route_short_name", "").strip()
             m = re.match(r"[A-Za-z]+", line)
             cat = m.group(0).upper() if m else ""
             number = line
-            ttype = DB_REGIO_TYPES.get(cat, f"Train régional {cat}".strip())
+            agency = self.agency_names.get(route.get("agency_id", ""), "")
+            if re.fullmatch(r"\d+N", line):  # ligne de nuit (91N : Nightjet Hambourg - Vienne)
+                label = "Nightjet" if agency == "ÖBB" else "EuroNight"
+            elif line.isdigit() and agency.startswith("DB Fernverkehr"):
+                label = "Fernverkehr"  # ligne grandes lignes de la DB (27 : EuroCity Hambourg - Prague)
+            elif cat == "DRF":
+                label = ""  # train à réservation d'une compagnie (WESTbahn, LEO Express, Autozug) : sa marque seule
+            else:  # ligne sans lettres (ÖBB 51 Simbach - Wels, SBB 75) : train régional
+                label = DB_REGIO_TYPES.get(cat) or ("Regionalzug" if line.isdigit() else "Train régional")
+            # type "<marque> <produit>" comme les grandes lignes ("HLB Regionalbahn", "ÖBB Railjet Xpress") :
+            # le logo du front dépend de la marque ; types déjà connus du front pour les autres flux
+            if agency == "EUROSTAR":
+                ttype = "Eurostar"
+            elif agency == "European Sleeper":
+                ttype = "European Sleeper"
+            elif agency == "SNCF":
+                # TER transfrontaliers, ou ICE / TGV franco-allemands (lignes DB 82, 83, 84)
+                ttype = SNCF_TYPES["Train TER"] if cat == "TER" else "DB SNCF en coopération"
+            else:
+                ttype = f"{DB_BRANDS.get(agency) or de_regio_brand(agency)} {label}".strip()
         elif op_id == "FLIXTRAIN":
             number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
             ttype = "FlixTrain"
@@ -1208,7 +1294,8 @@ class NetworkBuilder:
             "base_date": self.base_date.isoformat(),
             "ndays": NDAYS, "words": words,
             "timezones": self.timezones, "types": self.types,
-            "operators": [{"id": o["id"].upper(), "name": o.get("name", o["id"])} for o in self.operators],
+            "operators": [{"id": o["id"].upper(), "name": o.get("name", o["id"])}
+                          for o in self.operators + self.extra_operators],
             "stats": dict(self.stats),
         }
 
@@ -1308,10 +1395,14 @@ def main():
     parser.add_argument("--refresh", action="store_true", help="force le re-téléchargement des GTFS")
     parser.add_argument("--only", help="opérateurs à compiler, séparés par des virgules (ex. SNCF,SNCB)")
     parser.add_argument("--out", default=OUT_BIN, help="fichier produit (défaut : network.bin)")
+    parser.add_argument("--inclure", help="opérateurs désactivés à compiler quand même, pour un essai en local "
+                                          "(ex. DB,DB_REGIO) ; operators.json n'est pas modifié")
     args = parser.parse_args()
 
     with open(OPERATORS_FILE, encoding="utf-8") as f:
-        operators = [o for o in json.load(f) if o.get("enabled", True) and (o.get("gtfs_url") or o.get("gtfs_path"))]
+        extra = {x.strip().upper() for x in (args.inclure or "").split(",") if x.strip()}
+        operators = [o for o in json.load(f) if (o.get("enabled", True) or o["id"].upper() in extra)
+                     and (o.get("gtfs_url") or o.get("gtfs_path"))]
     if args.only:
         only = {x.strip().upper() for x in args.only.split(",")}
         operators = [o for o in operators if o["id"].upper() in only]

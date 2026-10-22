@@ -153,7 +153,7 @@
   {
     "id": "DB",
     "name": "Deutsche Bahn (grandes lignes)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./GERMANY/de_gtfs.zip",
     "script_path": "./GERMANY/ingest_de_gtfs.py",
     "gtfs_url": "https://download.gtfs.de/germany/fv_free/latest.zip",
