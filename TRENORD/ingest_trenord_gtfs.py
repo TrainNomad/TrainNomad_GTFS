@@ -45,6 +45,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_ZIP = os.path.join(BASE_DIR, "trenord_gtfs.zip")
 TRENORD_GTFS_URL = "https://www.dati.lombardia.it/download/3z4k-mxz9/application%2Fzip"
+# Copie du flux brut, déposée à la main dans la Release sources-latest (téléchargée depuis un poste en
+# Europe) : reprise quand le portail de la Lombardie refuse les serveurs de GitHub
+TRENORD_MIRROR_URL = "https://github.com/TrainNomad/TrainNomad_GTFS/releases/download/sources-latest/trenord_brut.zip"
 
 SUBURBAN_LINES = r"^S\d+$"
 BUS_LINES = {"TN BUS"}
@@ -177,7 +180,13 @@ def main():
     raw = args.input or OUTPUT_ZIP + ".raw"
     try:
         if not args.input:
-            download(TRENORD_GTFS_URL, raw)
+            try:
+                download(TRENORD_GTFS_URL, raw)
+            except Exception as e:
+                logging.warning(f"⚠️ portail de la Lombardie injoignable ({e}) : copie de la Release sources-latest")
+                if os.environ.get("GITHUB_ACTIONS") == "true":
+                    print("::warning::Trenord : portail injoignable, flux repris de la Release sources-latest")
+                download(TRENORD_MIRROR_URL, raw)
         stats = build(raw, OUTPUT_ZIP)
     finally:
         if not args.input and os.path.exists(raw):

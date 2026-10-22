@@ -212,7 +212,7 @@
   {
     "id": "TRENORD",
     "name": "Trenord (Lombardie)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./TRENORD/trenord_gtfs.zip",
     "script_path": "./TRENORD/ingest_trenord_gtfs.py",
     "gtfs_url": "https://www.dati.lombardia.it/download/3z4k-mxz9/application%2Fzip",
