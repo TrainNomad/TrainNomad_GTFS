@@ -64,9 +64,9 @@ jobs:
         gh release upload gtfs-latest pipeline/sortie/*.zip --clobber
         gh release upload gtfs-latest pipeline/sortie/*.json --clobber
 
-    # Cache des recherches OpenStreetMap des gares allemandes : petits CSV réutilisés d'une semaine à l'autre
+    # Cache des recherches OpenStreetMap des gares (Allemagne, Autriche) : petits CSV réutilisés d'une semaine à l'autre
     - name: Enregistrer le cache des gares allemandes
-      if: ${{ inputs.source == 'germany' && steps.preparer.outcome == 'success' }}
+      if: ${{ (inputs.source == 'germany' || inputs.source == 'austria') && steps.preparer.outcome == 'success' }}
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'

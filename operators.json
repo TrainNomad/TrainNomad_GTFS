@@ -133,6 +133,25 @@
     ]
   },
   {
+    "id": "OBB",
+    "name": "ÖBB (Autriche)",
+    "enabled": false,
+    "gtfs_path": "./AUSTRIA/at_gtfs.zip",
+    "script_path": "./AUSTRIA/ingest_at_gtfs.py",
+    "gtfs_url": "https://static.web.oebb.at/open-data/soll-fahrplan-gtfs/GTFS_Fahrplan_2026.zip",
+    "transport_types": [
+      "Railjet",
+      "Railjet Xpress",
+      "Nightjet",
+      "EuroCity",
+      "Intercity",
+      "Cityjet Xpress",
+      "Regionalexpress",
+      "Regionalzug"
+    ],
+    "note": "Avant SNCB et DB : les flux suivants écartent les trains qu'ÖBB publie déjà et reprennent leur numéro. gtfs_url indicative : le script choisit l'année d'horaire (GTFS_Fahrplan_<année>.zip)."
+  },
+  {
     "id": "SNCB",
     "name": "SNCB/NMBS (Belgique)",
     "enabled": true,
@@ -170,7 +189,7 @@
   {
     "id": "DB_REGIO",
     "name": "Trains régionaux (Allemagne)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./GERMANY/de_regio_gtfs.zip",
     "script_path": "./GERMANY/ingest_de_gtfs.py",
     "gtfs_url": "https://download.gtfs.de/germany/rv_free/latest.zip",
@@ -178,7 +197,7 @@
       "Regional-Express",
       "Regionalbahn"
     ],
-    "note": "Désactivé : à réactiver avec la VM plus grande ou l'allègement du cache. Sans S-Bahn ni Regio-S-Bahn (comme la France : TER oui, RER non)."
+    "note": "Sans S-Bahn ni Regio-S-Bahn (comme la France : TER oui, RER non). Activé le 2026-10-23 : mémoire de l'API mesurée à 230 Mo (290 Mo en pic) pour une limite de 350 Mo."
   },
   {
     "id": "FLIXTRAIN",

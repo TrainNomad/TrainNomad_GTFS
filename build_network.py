@@ -69,7 +69,9 @@ NO_DROPOFF = 2
 # GTFS SNCF (TER Lille - Courtrai, Maubeuge - Charleroi...).
 # De même pour les trains internationaux du flux néerlandais (ICE, EuroCity, Nightjet, trains belges).
 # et pour les trains Milan - Tessin de Trenord, présents dans le flux suisse.
-DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD"}
+# ÖBB : trains internationaux (EuroCity, Nightjet, ICE) des flux suisse et italien.
+# Les numéros sont comparés sur leurs chiffres : "EC 163" (flux suisse et autrichien) = "163" (flux néerlandais).
+DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB"}
 # Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
 # (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
@@ -250,6 +252,17 @@ DB_CATEGORIES = {
     "RJ": "Railjet", "RJX": "Railjet Xpress", "NJ": "Nightjet", "TGV": "TGV",
 }
 
+# GTFS ÖBB (AUSTRIA/ingest_at_gtfs.py) : trip_short_name = catégorie + numéro ("RJ 658") ;
+# type affiché = marque + produit ("ÖBB Railjet", "ÖBB Cityjet Xpress"), comme les flux allemands.
+# Catégories tchèques des trains vers České Velenice et Bratislava : Os, Sp, R.
+OBB_CATEGORIES = {
+    **DB_CATEGORIES, "IR": "InterRegio", "D": "Schnellzug", "CJX": "Cityjet Xpress", "REX": "Regionalexpress",
+    "R": "Regionalzug", "RB": "Regionalbahn", "ER": "Regionalzug", "OS": "Regionalzug", "SP": "Regionalzug",
+    "RR": "Schnellzug",
+}
+# agency_name -> marque ; le City Airport Train (Wien Mitte - aéroport) garde son nom seul
+OBB_BRANDS = {"OEBB Personenverkehr AG Kundenservice": "ÖBB", "Montafonerbahn AG": "Montafonerbahn"}
+
 # GTFS régional allemand (gtfs.de) : catégorie = lettres de la ligne ("S5" -> S, "RE1" -> RE). Le flux
 # contient aussi des trains grandes lignes et de nuit des compagnies voisines (Railjet, Nightjet...).
 DB_REGIO_TYPES = {
@@ -355,6 +368,12 @@ def parse_minutes(series: pd.Series) -> np.ndarray:
     series = series.fillna("0:00:00").replace("", "0:00:00")
     parts = series.str.split(":", n=2, expand=True)
     return (parts[0].astype(int) * 60 + parts[1].astype(int)).to_numpy(np.int32)
+
+
+def number_key(number: str) -> str:
+    """Numéro de train comparable d'un flux à l'autre : ses chiffres ("EC 163" -> "163"), sinon tel quel."""
+    digits = re.sub(r"\D", "", number)
+    return digits or number
 
 
 def covers(stops, arr, dep, sub_stops, sub_arr, sub_dep, tol=0, missing=0) -> bool:
@@ -574,10 +593,10 @@ class StationRef:
             if not rid:
                 # Fallback 2 : rechercher via cff_id (colonne stations.csv)
                 rid = self.by_cff.get(clean_id or stop_id)
-        elif op in ("DB", "DB_REGIO", "FLIXTRAIN"):
-            # Allemagne / FlixTrain : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py et
-            # FLIXTRAIN/ingest_flixtrain_gtfs.py ont rapproché chaque gare de stations.csv et écrit
-            # son id Trainline dans stop_code
+        elif op in ("DB", "DB_REGIO", "FLIXTRAIN", "OBB"):
+            # Allemagne / FlixTrain / Autriche : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py,
+            # FLIXTRAIN/ingest_flixtrain_gtfs.py et AUSTRIA/ingest_at_gtfs.py ont rapproché chaque gare de
+            # stations.csv et écrit son id Trainline dans stop_code
             rid = stop_code if stop_code in self.rows else None
         elif op == "SNCB":
             # Belgique : UIC à 7 chiffres dans le stop_id (88xxxxx en Belgique, 80/84/87/82... à l'étranger)
@@ -663,6 +682,21 @@ class Referentiel:
                 return v
         return None
 
+    def city_near(self, country: str, lat, lon, max_km: float = 3.0):
+        """Ville de la base dont le centre est à moins de max_km de ce centre de ville, dans le même pays :
+        même ville sous un autre nom (« Wien » de stations.csv = « Vienne » de la base). Le pays évite de
+        confondre deux villes homonymes (Vienne en Autriche, Vienne en Isère)."""
+        if lat is None or lon is None or not country:
+            return None
+        if not hasattr(self, "_by_country"):
+            self._by_country = defaultdict(list)
+            for v in self.villes.values():
+                if v["lat"] is not None:
+                    self._by_country[v["country"]].append(v)
+        best = min(self._by_country.get(country, []), default=None,
+                   key=lambda v: haversine_km(lat, lon, v["lat"], v["lon"]))
+        return best if best and haversine_km(lat, lon, best["lat"], best["lon"]) <= max_km else None
+
 
 # ---------------------------------------------------------------------------
 # Construction
@@ -674,6 +708,7 @@ class NetworkBuilder:
         # opérateurs sans GTFS propre (EXTRA_OPERATORS), placés après ceux de operators.json : à part, car la
         # boucle principale parcourt `operators` pour charger les flux
         self.extra_operators = []
+        self.city_renames = set()  # villes de stations.csv rattachées par leur position (journal)
         self.ref = ref
         self.gares = gares
         today = datetime.now(timezone.utc).date()
@@ -749,8 +784,15 @@ class NetworkBuilder:
                 "city_key": "ref:" + city_rid, "city_name": city["name"], "city_country": city["country"],
                 "city_lat": city["lat"], "city_lon": city["lon"],
             }
-            # même ville que les gares de la base (pas de « Rennes » en double)
+            # même ville que les gares de la base (pas de « Rennes » en double), au besoin sous un autre nom
             known = self.gares.city_named(city["name"], city["country"], s["lat"], s["lon"])
+            if not known and city_rid != rid:
+                # seulement pour une vraie ville de stations.csv (« Wien ») : une gare sans ville serait sinon
+                # rattachée à la commune voisine la plus proche, pas forcément la sienne
+                known = self.gares.city_near(city["country"], city["lat"], city["lon"])
+                if known and (city["name"], known["name"]) not in self.city_renames:
+                    self.city_renames.add((city["name"], known["name"]))
+                    logging.info(f"   ville {city['name']} ({city['country']}) = {known['name']} de la base (même position)")
             if known:
                 s.update({"city_key": "tn:" + known["id"], "city_name": known["name"],
                           "city_lat": known["lat"], "city_lon": known["lon"]})
@@ -871,7 +913,7 @@ class NetworkBuilder:
                 if t["op"] == op_idx or t["tz"] not in same_clock:
                     continue
                 if op_id in DEDUP_AGAINST_EARLIER and t["number"]:
-                    earlier[t["number"]].append(t)
+                    earlier[number_key(t["number"])].append(t)
                 if op_id in DEDUP_BY_TIMES:
                     for i, s in enumerate(t["stops"][:-1]):
                         if s in here:
@@ -918,7 +960,7 @@ class NetworkBuilder:
             number, ttype, checkin = self.trip_labels(op_id, meta, route, stop_ids[a])
             trip_op = self.trip_operator(op_id, op_idx, route)
             tol, miss = 0, 0
-            others = earlier.get(number, ())
+            others = earlier.get(number_key(number), ()) if number else ()
             if at_stop:
                 tol, miss, seen, others = TIME_TOLERANCE, 1, set(), []
                 for i, s in enumerate(seq_stops[:-1]):
@@ -1087,6 +1129,14 @@ class NetworkBuilder:
                 ttype = SNCF_TYPES["Train TER"] if cat == "TER" else "DB SNCF en coopération"
             else:
                 ttype = f"{DB_BRANDS.get(agency) or de_regio_brand(agency)} {label}".strip()
+        elif op_id == "OBB":
+            number = meta.get("trip_short_name", "")  # "RJ 658"
+            cat = (number.split() or [""])[0].upper()
+            agency = self.agency_names.get(route.get("agency_id", ""), "")
+            if cat == "CAT":
+                ttype = "City Airport Train"
+            else:
+                ttype = f"{OBB_BRANDS.get(agency, 'ÖBB')} {OBB_CATEGORIES.get(cat, 'Train')}"
         elif op_id == "FLIXTRAIN":
             number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
             ttype = "FlixTrain"

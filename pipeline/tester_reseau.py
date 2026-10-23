@@ -30,6 +30,7 @@ RELATIONS = [
     ("Lübeck", "Kiel", "DB_REGIO"),      # aucun train grandes lignes
     ("Amsterdam", "Utrecht", "NS"),
     ("Milano", "Tirano", "TRENORD"),
+    ("Salzburg", "Innsbruck", "OBB"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 

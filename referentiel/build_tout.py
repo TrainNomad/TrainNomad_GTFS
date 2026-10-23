@@ -18,7 +18,7 @@ import time
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # du plus court au plus long
-OPERATEURS = ["eurostar", "european_sleeper", "flixtrain", "ouigo_es", "italo", "trenord", "ns", "db", "sncb", "cp",
+OPERATEURS = ["eurostar", "european_sleeper", "flixtrain", "ouigo_es", "italo", "trenord", "ns", "obb", "db", "sncb", "cp",
               "renfe", "sncf", "swiss", "trenitalia", "uk", "db_regio"]
 
 

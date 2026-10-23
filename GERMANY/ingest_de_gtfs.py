@@ -68,7 +68,7 @@ FEEDS = {
     # FlixTrain vient de son propre GTFS (FLIXTRAIN/), plus complet ; dans le régional, les morceaux
     # ne sont recollés que sur la même ligne (S1 -> S1) : 139 compagnies se croisent dans les gares
     "rv": {"url": DE_REGIO_URL, "zip": REGIO_ZIP, "report": REGIO_REPORT_CSV,
-           "exclude_agencies": {"Flixtrain"}, "same_line_only": True, "exclude_lines": SUBURBAN_LINES},
+           "exclude_agencies": {"Flixtrain", "csscss"}, "same_line_only": True, "exclude_lines": SUBURBAN_LINES},
 }
 
 MAX_KM = 0.5           # distance maximale gare GTFS <-> gare stations.csv
@@ -340,10 +340,12 @@ def service_dates(cal: pd.DataFrame, cd: pd.DataFrame) -> dict:
 # Trajets coupés à la frontière
 # ---------------------------------------------------------------------------
 
-def merge_border_splits(trips, routes, st, stops, days, same_line_only=False):
+def merge_border_splits(trips, routes, st, stops, days, same_line_only=False, same_number=False):
     """Recolle A puis B quand : A finit là où B commence, à la même heure, avec changement
     d'opérateur, sans demi-tour, et sans autre candidat. Le trajet recollé circule les jours
-    communs ; A et B restent seuls les autres jours."""
+    communs ; A et B restent seuls les autres jours.
+    same_number : flux qui coupe un train en morceaux du même opérateur (ÖBB) : au lieu du changement
+    d'opérateur, A et B doivent porter le même numéro de train (trip_short_name)."""
     parent = dict(zip(stops["stop_id"], stops["parent_station"]))
     st = st.assign(station=st["stop_id"].map(lambda s: parent.get(s) or s), seq=st["stop_sequence"].astype(int))
     st = st.sort_values(["trip_id", "seq"])
@@ -360,7 +362,11 @@ def merge_border_splits(trips, routes, st, stops, days, same_line_only=False):
     # même train : le morceau suivant est noté à la jonction 0 à JUNCTION_MAX_GAP min après l'arrivée
     gap = pairs["arrival_time_b"].map(to_min) - pairs["arrival_time_a"].map(to_min)
     pairs = pairs[(gap >= 0) & (gap <= JUNCTION_MAX_GAP) & (pairs["A"] != pairs["B"])]
-    pairs = pairs[np.array([agency[a] != agency[b] for a, b in zip(pairs["A"], pairs["B"])], dtype=bool)]
+    if same_number:
+        number = trips.set_index("trip_id")["trip_short_name"]
+        pairs = pairs[np.array([number[a] == number[b] for a, b in zip(pairs["A"], pairs["B"])], dtype=bool)]
+    else:
+        pairs = pairs[np.array([agency[a] != agency[b] for a, b in zip(pairs["A"], pairs["B"])], dtype=bool)]
     if same_line_only:
         line = trips["route_id"].map(routes.set_index("route_id")["route_short_name"])
         line.index = trips["trip_id"]
