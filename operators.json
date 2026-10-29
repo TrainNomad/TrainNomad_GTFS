@@ -135,7 +135,7 @@
   {
     "id": "OBB",
     "name": "ÖBB (Autriche)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./AUSTRIA/at_gtfs.zip",
     "script_path": "./AUSTRIA/ingest_at_gtfs.py",
     "gtfs_url": "https://static.web.oebb.at/open-data/soll-fahrplan-gtfs/GTFS_Fahrplan_2026.zip",
