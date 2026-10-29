@@ -70,8 +70,9 @@ NO_DROPOFF = 2
 # De même pour les trains internationaux du flux néerlandais (ICE, EuroCity, Nightjet, trains belges).
 # et pour les trains Milan - Tessin de Trenord, présents dans le flux suisse.
 # ÖBB : trains internationaux (EuroCity, Nightjet, ICE) des flux suisse et italien.
+# Tchéquie : railjet Prague - Vienne, trains vers České Velenice et Bratislava, déjà dans le flux ÖBB.
 # Les numéros sont comparés sur leurs chiffres : "EC 163" (flux suisse et autrichien) = "163" (flux néerlandais).
-DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB"}
+DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD"}
 # Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
 # (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
@@ -310,6 +311,28 @@ def de_regio_brand(agency: str) -> str:
         if m:
             return m.expand(brand)  # "\1" : sous-marque de Die Länderbahn (alex, trilex...)
     return re.sub(r"\s+(GmbH|AG|mbH|Verkehrsgesellschaft|Eisenbahngesellschaft)\b.*$", "", agency).strip()
+
+# GTFS tchèque (CZECH/ingest_cz_gtfs.py) : trip_short_name = catégorie + numéro ("SC 516", "rj 578") ;
+# type affiché = marque + produit ("ČD SuperCity", "RegioJet Rychlík", "Arriva Osobní vlak"), comme les flux
+# allemand et autrichien. Casse gardée : "rj" = railjet de ČD, "RJ" = train RegioJet.
+CD_CATEGORIES = {
+    "Os": "Osobní vlak", "Sp": "Spěšný vlak", "R": "Rychlík", "Rx": "Rychlík", "Ex": "Expres", "AEx": "Expres",
+    "IC": "InterCity", "EC": "EuroCity", "EN": "EuroNight", "NJ": "Nightjet", "SC": "SuperCity", "rj": "Railjet",
+    "RJ": "RegioJet", "LE": "Leo Express", "TL": "Osobní vlak", "TLX": "Expres", "ES": "European Sleeper",
+}
+# agency_name -> marque ; les autres compagnies gardent leur nom, sans forme juridique ("Zubačka provoz")
+CD_BRANDS = {
+    "České dráhy, a.s.": "ČD", "RegioJet a.s.": "RegioJet", "RegioJet ÚK a.s.": "RegioJet",
+    "Leo Express s.r.o.": "Leo Express", "Leo Express Tenders s.r.o.": "Leo Express", "ARRIVA vlaky s.r.o.": "Arriva",
+    "Die Länderbahn CZ s.r.o.": "trilex", "GW Train Regio a.s.": "GW Train", "KŽC Doprava, s.r.o.": "KŽC",
+    "AŽD Praha, s.r.o.": "AŽD", "European Sleeper Coöperatie U.A. - žadatel": "European Sleeper",
+    "Prvá Slovenská železničná, akciová spoločnosť": "PSŽ",
+}
+
+
+def cd_brand(agency: str) -> str:
+    return CD_BRANDS.get(agency) or re.sub(r",?\s+(a\.\s?s\.|s\.\s?r\.\s?o\.|o\.p\.s\.|z\.s\.|SE|spolek)$", "",
+                                           agency).strip()
 
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
@@ -593,6 +616,12 @@ class StationRef:
             if not rid:
                 # Fallback 2 : rechercher via cff_id (colonne stations.csv)
                 rid = self.by_cff.get(clean_id or stop_id)
+        elif op == "CD":
+            # Tchéquie : gare "-SR70ST-CZ-33615", voie "-SR70S-CZ-33615-6" ; UIC = "54" + code SR70,
+            # en Tchéquie seulement (les codes des gares étrangères du flux ne sont pas des UIC)
+            m = re.match(r"-SR70ST?-CZ-(\d{5})", stop_id or "")
+            if m:
+                rid = self.by_uic.get("54" + m.group(1))
         elif op in ("DB", "DB_REGIO", "FLIXTRAIN", "OBB"):
             # Allemagne / FlixTrain / Autriche : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py,
             # FLIXTRAIN/ingest_flixtrain_gtfs.py et AUSTRIA/ingest_at_gtfs.py ont rapproché chaque gare de
@@ -732,14 +761,50 @@ class NetworkBuilder:
             lst.append(value)
             return len(lst) - 1
 
+    # stop_id renumérotés à chaque publication du flux (numéros internes de gtfs.de) : ceux de codes.csv
+    # datent du flux lu par referentiel/build_gares_db*.py et désignent ensuite une autre gare (Düren
+    # devenait Berlin-Spandau). Ces arrêts passent par leur stop_code (id de stations.csv), puis l'UIC.
+    UNSTABLE_STOP_IDS = {"DB", "DB_REGIO"}
+    # au-delà, et sans un mot en commun dans le nom, la gare trouvée n'est pas l'arrêt du flux
+    MAX_MATCH_KM = 10.0
+
+    def referentiel_gare(self, op_id, raw):
+        """Gare de la base pour cet arrêt par son code d'opérateur (codes.csv), ou None."""
+        if op_id.upper() in self.UNSTABLE_STOP_IDS:
+            return None
+        gid = self.gares.match(op_id, raw["stop_id"])
+        if gid and self.wrong_gare(raw, self.gares.gares[gid]):
+            # code périmé ou réutilisé par l'opérateur (Trenord : Pioltello Limito -> Montello-Gorlago)
+            self.stats["stops_code_rejected"] += 1
+            return None
+        return gid
+
+    def wrong_gare(self, raw, gare) -> bool:
+        """Gare trouvée loin de l'arrêt du flux et sans un mot de son nom. Le nom en commun garde les arrêts
+        aux coordonnées fausses dans le flux (München Ost chez NS, à 5 000 km de Munich)."""
+        lat, lon = to_float(raw.get("stop_lat")), to_float(raw.get("stop_lon"))
+        if None in (lat, lon, gare["lat"], gare["lon"]):
+            return False
+        if haversine_km(lat, lon, gare["lat"], gare["lon"]) <= self.MAX_MATCH_KM:
+            return False
+        return not set(normalize_name(raw.get("stop_name", "")).split()) & set(normalize_name(gare["name"]).split())
+
     def stop_for(self, op_id, raw, agency_tz):
         """Retourne l'index canonique d'un arrêt GTFS (création au besoin)."""
         # 1. code de l'opérateur dans la base des gares ; 2. stations.csv, puis la base par l'UIC ;
         # 3. stations.csv seul (opérateur pas encore dans la base)
-        gid = self.gares.match(op_id, raw["stop_id"])
+        gid = self.referentiel_gare(op_id, raw)
         rid = None if gid else self.ref.match(op_id, raw["stop_id"], raw.get("stop_code", ""))
+        if rid and self.wrong_gare(raw, self.ref.rows[rid]):
+            # gare de stations.csv mal rapprochée par le script d'ingestion du flux
+            self.stats["stops_ref_rejected"] += 1
+            rid = None
         if rid:
             gid = self.gares.by_uic.get(self.ref.rows[rid]["uic"])
+            if gid and self.wrong_gare(raw, self.gares.gares[gid]):
+                # même UIC qu'une autre gare de la base (Klaus in Vorarlberg -> Frankenmarkt) : stations.csv seul
+                self.stats["stops_uic_rejected"] += 1
+                gid = None
         if gid:
             key = "tn:" + gid
             self.stats["stops_matched_referentiel"] += 1
@@ -1137,6 +1202,13 @@ class NetworkBuilder:
                 ttype = "City Airport Train"
             else:
                 ttype = f"{OBB_BRANDS.get(agency, 'ÖBB')} {OBB_CATEGORIES.get(cat, 'Train')}"
+        elif op_id == "CD":
+            number = meta.get("trip_short_name", "")  # "SC 516", "rj 578"
+            cat = (number.split() or [""])[0]
+            brand = cd_brand(self.agency_names.get(route.get("agency_id", ""), ""))
+            label = CD_CATEGORIES.get(cat, "Vlak")
+            # produit qui porte le nom de la compagnie ("RJ" de RegioJet, "LE", "ES") : la marque seule
+            ttype = brand if label == brand else f"{brand} {label}"
         elif op_id == "FLIXTRAIN":
             number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
             ttype = "FlixTrain"

@@ -152,6 +152,27 @@
     "note": "Avant SNCB et DB : les flux suivants écartent les trains qu'ÖBB publie déjà et reprennent leur numéro. gtfs_url indicative : le script choisit l'année d'horaire (GTFS_Fahrplan_<année>.zip)."
   },
   {
+    "id": "CD",
+    "name": "Tchéquie (ČD, RegioJet, Leo Express, Arriva...)",
+    "enabled": false,
+    "gtfs_path": "./CZECH/cz_gtfs.zip",
+    "script_path": "./CZECH/ingest_cz_gtfs.py",
+    "gtfs_url": "https://data.jr.ggu.cz/results/latest/CZPTT_GTFS.zip",
+    "transport_types": [
+      "SuperCity",
+      "Railjet",
+      "RegioJet",
+      "Leo Express",
+      "EuroCity",
+      "InterCity",
+      "Expres",
+      "Rychlík",
+      "Spěšný vlak",
+      "Osobní vlak"
+    ],
+    "note": "Après OBB (écarte les railjet Prague - Vienne déjà publiés), avant DB : la DB écarte les trains tchèques que ce flux publie. Flux non officiel (JrUtil, horaires CZPTT de Správa železnic) : copie de secours cz_brut.zip dans la Release sources-latest."
+  },
+  {
     "id": "SNCB",
     "name": "SNCB/NMBS (Belgique)",
     "enabled": true,

@@ -1,2 +1,4 @@
 id;nom;operateur_retenu;ville_retenue;autre_operateur;autre_nom;autre_ville;km
+TN8101591;Linz/Donau Hauptbahnhof;OBB;Q487958;DB;Linz/Donau Hbf;Q41329;3.06
+TN8101591;Linz/Donau Hauptbahnhof;OBB;Q487958;DB_REGIO;Linz/Donau Hbf;Q41329;3.06
 TN8301208;Castronno;TRENORD;Q39935;SWISS;Castronno;Q40644;2.548

@@ -19,6 +19,11 @@ Compagnies a Voie Etroite / Panoramiques:
 Trains de Montagne / Funiculaires:
   BOB, JB, WAB, GGB, BRB, PB, AB, RBS, SZU
 
+FENETRE DE DATES:
+  Le flux couvre toute l'annee d'horaire (calendar_dates : un jour par ligne, 3 millions de lignes).
+  Seuls les jours que le moteur assemble sont gardes (build_network.py : NDAYS jours a partir de
+  la veille) : fichier plus leger, preparation et assemblage plus rapides, meme reseau.
+
 OPERATEURS SUPPRIMES:
   ✗ Musees/historiques (DFB, DVZO, etc.)
   ✗ Transports urbains (TL, TRN, etc.)
@@ -34,7 +39,9 @@ Avec override SSL (dev local):
 import os
 import shutil
 import logging
+import sys
 import zipfile
+from datetime import date, timedelta
 
 import pandas as pd
 import requests
@@ -45,6 +52,8 @@ logging.basicConfig(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(BASE_DIR))
+from build_network import DAYS_BEFORE, NDAYS  # noqa: E402  (fenetre de dates du moteur)
 OUTPUT_ZIP = os.path.join(BASE_DIR, "swiss_gtfs.zip")
 SWISS_GTFS_URL = "https://gtfs.geops.ch/dl/gtfs_train.zip"
 
@@ -114,6 +123,22 @@ def download_swiss_gtfs() -> str:
     return tmp_path
 
 
+def trim_to_window(calendar, calendar_dates, trips, today=None):
+    """Ne garde que les jours assembles par le moteur (de la veille a NDAYS jours plus tard) et les
+    trajets qui y circulent au moins une fois."""
+    start = (today or date.today()) - timedelta(days=DAYS_BEFORE)
+    first, last = start.strftime("%Y%m%d"), (start + timedelta(days=NDAYS - 1)).strftime("%Y%m%d")
+    calendar_dates = calendar_dates[(calendar_dates["date"] >= first) & (calendar_dates["date"] <= last)]
+    calendar = calendar.assign(start_date=calendar["start_date"].where(calendar["start_date"] > first, first),
+                               end_date=calendar["end_date"].where(calendar["end_date"] < last, last))
+    weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    calendar = calendar[(calendar["start_date"] <= calendar["end_date"]) & (calendar[weekdays] == "1").any(axis=1)]
+    active = set(calendar["service_id"]) | set(calendar_dates.loc[calendar_dates["exception_type"] == "1", "service_id"])
+    trips = trips[trips["service_id"].astype(str).isin(active)]
+    calendar_dates = calendar_dates[calendar_dates["service_id"].isin(set(trips["service_id"].astype(str)))]
+    return calendar, calendar_dates, trips, f"{first} -> {last}"
+
+
 def filter_gtfs_by_operators(input_zip: str, output_zip: str):
     """
     Filtre le GTFS pour ne garder que les operateurs specifiques et les vrais arrets (UIC codes).
@@ -146,6 +171,12 @@ def filter_gtfs_by_operators(input_zip: str, output_zip: str):
         print(f"      Agency: {len(agency)}")
         print(f"      Trips: {len(trips)}")
         print(f"      Stops: {len(stops)}")
+
+        # Etape 1b: jours assembles par le moteur seulement
+        trips_orig, cd_orig = len(trips), len(calendar_dates)
+        calendar, calendar_dates, trips, window = trim_to_window(calendar, calendar_dates, trips)
+        print(f"  [1b] Fenetre {window} : {trips_orig} → {len(trips)} trajets, "
+              f"{cd_orig} → {len(calendar_dates)} jours de circulation")
 
         # Etape 2: Filtrer agency
         print("  [2] Filtrage operateurs...")
@@ -192,6 +223,8 @@ def filter_gtfs_by_operators(input_zip: str, output_zip: str):
         trips_before = len(trips)
         trips = trips[trips["trip_id"].isin(trips_with_valid_stops)]
         print(f"      {trips_before} → {len(trips)} trajets valides")
+        routes = routes[routes["route_id"].isin(trips["route_id"])]
+        print(f"      {len(routes)} routes utilisees")
 
         # Etape 8: Filtrer transfers
         if transfers is not None:

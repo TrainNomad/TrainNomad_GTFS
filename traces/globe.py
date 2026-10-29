@@ -149,7 +149,7 @@ def main():
     for a, b in network["routes"]:
         ca, cb = network["cities"][a], network["cities"][b]
         pa, pb = (ca["lat"], ca["lng"]), (cb["lat"], cb["lng"])
-        name = f"{ca.get('label', a)} – {cb.get('label', b)}"
+        name = f"{ca.get('label') or ca.get('name', a)} – {cb.get('label') or cb.get('name', b)}"
         chain = route(adj, stations(ca), stations(cb))
         if not chain:
             print(f"   ⚪ {name} : pas de tracé complet")

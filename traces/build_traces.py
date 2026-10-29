@@ -38,6 +38,7 @@ import argparse
 import csv
 import gzip
 import heapq
+import http.client
 import json
 import logging
 import math
@@ -166,7 +167,7 @@ def fetch_cell(lat: int, lon: int, offline: bool):
             with urllib.request.urlopen(req, timeout=200) as r:
                 raw = r.read()
             elements = json.loads(raw)["elements"]   # une page d'erreur HTML lève ValueError
-        except (OSError, ValueError, KeyError) as e:
+        except (OSError, ValueError, KeyError, http.client.HTTPException) as e:   # HTTPException : réponse coupée (IncompleteRead)
             logging.warning(f"   carreau {lat},{lon} : {type(e).__name__} sur {url.split('/')[2]}, nouvel essai")
             time.sleep(10 * (attempt + 1))
             continue
