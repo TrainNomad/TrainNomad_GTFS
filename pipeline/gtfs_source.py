@@ -50,6 +50,7 @@ RELEASE_URL = f"https://github.com/{REPO}/releases/download/{RELEASE_TAG}"
 REQUIRED_FILES = ["agency.txt", "stops.txt", "routes.txt", "trips.txt", "stop_times.txt"]
 BAISSE_MAX_SOURCE = 0.5   # un GTFS qui perd plus de 50 % de ses trajets n'est pas publié (sauf --forcer)
 BAISSE_MAX_RESEAU = 0.3   # un réseau qui perd plus de 30 % de ses trajets n'est pas publié (sauf --forcer)
+DISPARITION_MIN = 20      # une compagnie de moins de 20 trajets qui disparaît est signalée sans bloquer
 AGE_MAX_JOURS = 8         # au-delà, l'assemblage signale un GTFS non mis à jour (mise à jour hebdomadaire)
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -342,12 +343,20 @@ def cmd_verifier(ancien: str, nouveau: str, forcer: bool) -> int:
     ops = sorted({k[6:] for k in list(old) + list(new)
                   if k.startswith("trips_") and k not in ("trips_merged", "trips_out_of_window")
                   and not k.endswith(("_replaced", "_duplicates"))})
+    known_ops = {o["id"].upper() for o in load_operators()}
     for op in ops:
         a, b = old.get(f"trips_{op}", 0), new.get(f"trips_{op}", 0)
         evo = f"{(b - a) / a:+.0%}" if a else "nouveau"
-        if a and not b:
+        # « X_to_Y » : trains du flux X attribués à la compagnie Y, et autres compteurs (DB_line_as_number) ;
+        # ils varient avec les flux voisins (ÖBB ajouté : la DB perd les trains qu'ÖBB publie). Leur
+        # disparition est signalée, seule celle d'une compagnie bloque la publication.
+        counter = "_to_" in op or op.islower() or op not in known_ops
+        if a and not b and not counter and a >= DISPARITION_MIN:
             problems.append(f"{op} a disparu du réseau ({a} trajets auparavant)")
             evo = "❌ disparu"
+        elif a and not b:
+            warn(f"{op} : disparu ({a} trajets auparavant)")
+            evo = "⚠️ disparu"
         elif a and b < a * (1 - BAISSE_MAX_SOURCE):
             warn(f"{op} : {b} trajets contre {a} ({evo})")
             evo = f"⚠️ {evo}"
