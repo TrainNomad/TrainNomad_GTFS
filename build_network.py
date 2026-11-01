@@ -50,6 +50,7 @@ OUT_GZ = OUT_BIN + ".gz"
 REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
 FORMAT_VERSION = 1
+BORDER_JOIN_MAX_MIN = 15    # train coupé entre deux flux : arrêt à la frontière (changement de locomotive...)
 NDAYS = 128                 # jours couverts par les bitsets (2 mots de 64 bits)
 DAYS_BEFORE = 1             # la fenêtre commence la veille (trains de nuit en cours)
 FEED_MAX_AGE_H = 6          # réutilise un GTFS téléchargé depuis moins de 6 h
@@ -71,8 +72,11 @@ NO_DROPOFF = 2
 # et pour les trains Milan - Tessin de Trenord, présents dans le flux suisse.
 # ÖBB : trains internationaux (EuroCity, Nightjet, ICE) des flux suisse et italien.
 # Tchéquie : railjet Prague - Vienne, trains vers České Velenice et Bratislava, déjà dans le flux ÖBB.
+# Pologne : trains Prague - Cracovie / Varsovie et Leo Express, RegioJet déjà dans le flux tchèque.
+# Slovaquie : trains vers Prague, Vienne, Budapest et la Pologne déjà dans les flux tchèque, ÖBB et polonais.
+# Hongrie : trains vers Vienne, Bratislava et Prague déjà dans les flux ÖBB et slovaque (coupés à la frontière).
 # Les numéros sont comparés sur leurs chiffres : "EC 163" (flux suisse et autrichien) = "163" (flux néerlandais).
-DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD"}
+DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD", "PKP", "ZSSK", "MAV"}
 # Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
 # (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
@@ -284,11 +288,41 @@ DE_AGENCY_OPERATOR = {
     "ÖBB": "OBB", "PKP Intercity": "PKP", "Ceske Drahy": "CD", "MAV": "MAV", "Dänische Staatsbahnen": "DSB",
     "CFL": "CFL", "ZSSK": "ZSSK", "HZZP": "HZPP",
 }
+# Flux tchèque (CZECH/ingest_cz_gtfs.py) : les compagnies qui vendent leurs propres billets ont leur opérateur,
+# sans quoi un RegioJet suivi d'un ČD ferait un seul billet ČD sur le site ; les petites compagnies régionales
+# (KŽC, AŽD, Zubačka...) restent dans le flux CD, leur marque dans le type affiché
+CZ_AGENCY_OPERATOR = {
+    "RegioJet a.s.": "REGIOJET", "RegioJet ÚK a.s.": "REGIOJET",
+    "Leo Express s.r.o.": "LEO_EXPRESS", "Leo Express Tenders s.r.o.": "LEO_EXPRESS",
+    "ARRIVA vlaky s.r.o.": "ARRIVA_CZ", "GW Train Regio a.s.": "GW_TRAIN", "Die Länderbahn CZ s.r.o.": "TRILEX",
+    "European Sleeper Coöperatie U.A. - žadatel": "EUROPEAN_SLEEPER",
+}
+# Flux polonais (POLAND/ingest_pl_gtfs.py) : chaque compagnie vend ses billets, PKP Intercity reste dans le flux PKP
+PL_AGENCY_OPERATOR = {
+    "PolRegio": "POLREGIO", "Koleje Mazowieckie": "KOLEJE_MAZOWIECKIE", "Koleje Śląskie": "KOLEJE_SLASKIE",
+    "Koleje Dolnośląskie": "KOLEJE_DOLNOSLASKIE", "Koleje Wielkopolskie": "KOLEJE_WIELKOPOLSKIE",
+    "Koleje Małopolskie": "KOLEJE_MALOPOLSKIE", "Łódzka Kolej Aglomeracyjna": "LKA", "Arriva RP": "ARRIVA_PL",
+    "RegioJet": "REGIOJET", "Leo Express": "LEO_EXPRESS",
+}
+# Flux slovaque (SLOVAKIA/ingest_sk_gtfs.py) : ZSSK reste dans le flux ZSSK
+SK_AGENCY_OPERATOR = {
+    "RegioJet,a.s.": "REGIOJET", "Leo Express s.r.o.": "LEO_EXPRESS", "Leo Express Slovensko s.r.o.": "LEO_EXPRESS",
+}
+# Flux hongrois (HUNGARY/ingest_hu_gtfs.py) : MÁV reste dans le flux MAV
+HU_AGENCY_OPERATOR = {"GYSEV Zrt.": "GYSEV"}
+AGENCY_OPERATOR = {"DB": DE_AGENCY_OPERATOR, "DB_REGIO": DE_AGENCY_OPERATOR, "CD": CZ_AGENCY_OPERATOR,
+                   "PKP": PL_AGENCY_OPERATOR, "ZSSK": SK_AGENCY_OPERATOR, "MAV": HU_AGENCY_OPERATOR}
 # Opérateurs sans GTFS propre, ajoutés au réseau dès qu'un de leurs trains y entre (nom affiché par l'API)
 EXTRA_OPERATORS = {
     "OBB": "ÖBB", "PKP": "PKP", "CD": "ČD",
     "MAV": "MÁV", "DSB": "DSB", "CFL": "CFL", "ZSSK": "ZSSK",
     "HZPP": "HŽPP",
+    "REGIOJET": "RegioJet", "LEO_EXPRESS": "Leo Express", "ARRIVA_CZ": "Arriva", "GW_TRAIN": "GW Train",
+    "TRILEX": "trilex",
+    "POLREGIO": "PolRegio", "KOLEJE_MAZOWIECKIE": "Koleje Mazowieckie", "KOLEJE_SLASKIE": "Koleje Śląskie",
+    "KOLEJE_DOLNOSLASKIE": "Koleje Dolnośląskie", "KOLEJE_WIELKOPOLSKIE": "Koleje Wielkopolskie",
+    "KOLEJE_MALOPOLSKIE": "Koleje Małopolskie", "LKA": "ŁKA", "ARRIVA_PL": "Arriva",
+    "GYSEV": "GYSEV",
 }
 # Marque affichée devant le type des trains régionaux allemands ("HLB Regionalbahn") : le logo en dépend.
 # Les autres compagnies gardent leur nom, sans forme juridique ("NordWestBahn", "metronom").
@@ -333,6 +367,48 @@ CD_BRANDS = {
 def cd_brand(agency: str) -> str:
     return CD_BRANDS.get(agency) or re.sub(r",?\s+(a\.\s?s\.|s\.\s?r\.\s?o\.|o\.p\.s\.|z\.s\.|SE|spolek)$", "",
                                            agency).strip()
+
+# GTFS polonais (POLAND/ingest_pl_gtfs.py) : trip_short_name = catégorie + numéro ("EIP 5406", "R3 19488"),
+# catégorie seule dans route_desc du trajet. Type affiché = marque + produit ("PKP Intercity Express InterCity
+# Premium", "PolRegio Osobowy", "Koleje Mazowieckie Przyspieszony"). Les catégories régionales sont souvent des
+# lignes ("R3", "SKA2", "K7P") : un P final, un "RE" ou une route « Przyspieszony » = train accéléré.
+PL_CATEGORIES = {
+    "EIP": "Express InterCity Premium", "EIC": "Express InterCity", "IC": "InterCity", "IC+": "InterCity",
+    "ICN": "InterCity", "TLK": "TLK", "EC": "EuroCity", "EN": "EuroNight", "MP": "Międzynarodowy Pospieszny",
+    "IR": "interREGIO", "ŁS": "Sprinter", "RJ": "RegioJet", "Ex": "Leo Express",
+}
+PL_BRANDS = {"Łódzka Kolej Aglomeracyjna": "ŁKA", "Arriva RP": "Arriva"}
+
+
+def pl_label(cat: str, route: dict) -> str:
+    if route.get("route_type") == "3":
+        return "Bus"  # bus de remplacement d'un train
+    if cat in PL_CATEGORIES:
+        return PL_CATEGORIES[cat]
+    if re.fullmatch(r"\w+P|RE\d*", cat) or "Przyspieszony" in route.get("route_long_name", ""):
+        return "Przyspieszony"
+    return "Osobowy"
+
+# GTFS slovaque (SLOVAKIA/ingest_sk_gtfs.py) : trip_short_name = catégorie + numéro ("EC 120", "rj 1033"),
+# casse gardée comme en Tchéquie. Type affiché = marque + produit ("ZSSK Rýchlik", "ČD SuperCity").
+SK_CATEGORIES = {
+    "Os": "Osobný vlak", "Zr": "Zrýchlený vlak", "R": "Rýchlik", "RRR": "Regionálny rýchlik",
+    "REX": "Regionálny expres", "Ex": "Expres", "IC": "InterCity", "EC": "EuroCity", "EN": "EuroNight",
+    "SC": "SuperCity", "rj": "Railjet", "rjx": "Railjet Xpress", "RJ": "RegioJet", "LE": "Leo Express",
+}
+# trains ČD (Pendolino, railjet Prague - Vienne) et ÖBB (railjet xpress) publiés sous l'agence ZSSK
+SK_CATEGORY_BRANDS = {"SC": "ČD", "rj": "ČD", "rjx": "ÖBB"}
+SK_BRANDS = {"Železničná spoločnosť Slovensko, a.s.": "ZSSK", "RegioJet,a.s.": "RegioJet",
+             "Leo Express s.r.o.": "Leo Express", "Leo Express Slovensko s.r.o.": "Leo Express"}
+
+# GTFS hongrois (HUNGARY/ingest_hu_gtfs.py) : trip_short_name = catégorie abrégée + numéro ("IC 950", "Gy 822"),
+# catégorie seule dans route_desc. Type affiché = marque + produit ("MÁV InterCity", "GYSEV Személyvonat").
+HU_CATEGORIES = {
+    "IC": "InterCity", "IR": "InterRégió", "Gy": "Gyorsvonat", "S": "Sebesvonat", "Ex": "Expresszvonat",
+    "Sz": "Személyvonat", "ER": "EuroRegio", "EC": "EuroCity", "EN": "EuroNight", "RJ": "Railjet",
+    "RJX": "Railjet Xpress", "TT": "Tram-train", "S-Bahn": "S-Bahn", "Bus": "Bus",
+}
+HU_BRANDS = {"MÁV Személyszállítási Zrt.": "MÁV", "GYSEV Zrt.": "GYSEV"}
 
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
@@ -622,6 +698,12 @@ class StationRef:
             m = re.match(r"-SR70ST?-CZ-(\d{5})", stop_id or "")
             if m:
                 rid = self.by_uic.get("54" + m.group(1))
+        elif op == "MAV":
+            # Hongrie : gare "1:005513912", voie "1:005513912_4" ; UIC = chiffres après "00" (5513912). Les arrêts
+            # de bus de remplacement ("1:v.0055...") ne sont pas des gares
+            m = re.match(r"1:00(\d{7})(?:_|$)", stop_id or "")
+            if m:
+                rid = self.by_uic.get(m.group(1))
         elif op in ("DB", "DB_REGIO", "FLIXTRAIN", "OBB"):
             # Allemagne / FlixTrain / Autriche : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py,
             # FLIXTRAIN/ingest_flixtrain_gtfs.py et AUSTRIA/ingest_at_gtfs.py ont rapproché chaque gare de
@@ -1060,7 +1142,7 @@ class NetworkBuilder:
                 self.trips[key] = {
                     "op": trip_op, "tz": tz_idx, "stops": seq_stops, "flags": seq_flags,
                     "arr": seq_arr, "dep": seq_dep, "number": number, "type": type_idx,
-                    "checkin": checkin, "days": days,
+                    "checkin": checkin, "days": days, "feed": op_idx,
                 }
             else:
                 t["days"] |= days
@@ -1080,11 +1162,11 @@ class NetworkBuilder:
         return all(a.utcoffset(d) == b.utcoffset(d) for d in days)
 
     def trip_operator(self, op_id: str, op_idx: int, route: dict) -> int:
-        """Opérateur d'un trajet : pour les flux allemands, sa vraie compagnie (DE_AGENCY_OPERATOR), sinon le flux.
-        Une compagnie dont le flux est désactivé dans operators.json reste dans le flux allemand."""
-        if op_id not in ("DB", "DB_REGIO"):
+        """Opérateur d'un trajet : pour les flux allemands et tchèque, sa vraie compagnie (AGENCY_OPERATOR), sinon
+        le flux. Une compagnie dont le flux est désactivé dans operators.json reste dans le flux d'origine."""
+        if op_id not in AGENCY_OPERATOR:
             return op_idx
-        target = DE_AGENCY_OPERATOR.get(self.agency_names.get(route.get("agency_id", ""), ""))
+        target = AGENCY_OPERATOR[op_id].get(self.agency_names.get(route.get("agency_id", ""), ""))
         ids = [o["id"].upper() for o in self.operators]
         if not target:
             return op_idx
@@ -1209,6 +1291,25 @@ class NetworkBuilder:
             label = CD_CATEGORIES.get(cat, "Vlak")
             # produit qui porte le nom de la compagnie ("RJ" de RegioJet, "LE", "ES") : la marque seule
             ttype = brand if label == brand else f"{brand} {label}"
+        elif op_id == "PKP":
+            number = meta.get("trip_short_name", "")  # "EIP 5406", "R3 19488"
+            agency = self.agency_names.get(route.get("agency_id", ""), "")
+            brand = PL_BRANDS.get(agency, agency) or "PKP Intercity"
+            label = pl_label(meta.get("route_desc", ""), route)
+            # produit qui porte le nom de la compagnie (RegioJet, Leo Express) : la marque seule
+            ttype = brand if label == brand else f"{brand} {label}"
+        elif op_id == "ZSSK":
+            number = meta.get("trip_short_name", "")  # "EC 120", "rj 1033"
+            cat = (number.split() or [""])[0]
+            agency = self.agency_names.get(route.get("agency_id", ""), "")
+            brand = SK_CATEGORY_BRANDS.get(cat) or SK_BRANDS.get(agency, "ZSSK")
+            # NAD : bus de remplacement d'un train
+            label = "Bus" if route.get("route_long_name") == "NAD" else SK_CATEGORIES.get(cat, "Vlak")
+            ttype = brand if label == brand else f"{brand} {label}"
+        elif op_id == "MAV":
+            number = meta.get("trip_short_name", "")  # "IC 950", "Gy 822"
+            brand = HU_BRANDS.get(self.agency_names.get(route.get("agency_id", ""), ""), "MÁV")
+            ttype = f"{brand} {HU_CATEGORIES.get(meta.get('route_desc', ''), 'Vonat')}"
         elif op_id == "FLIXTRAIN":
             number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
             ttype = "FlixTrain"
@@ -1224,6 +1325,63 @@ class NetworkBuilder:
         return number, ttype, checkin
 
     # -- routes RAPTOR -------------------------------------------------------
+
+    def join_border_trips(self):
+        """Recolle les trains coupés entre deux flux à la frontière : le railjet Praha - Wien est « rj 55 » Praha ->
+        Břeclav dans le flux tchèque, puis « RJ 55 » Břeclav -> Wien dans le flux ÖBB. Sans cela, le site propose
+        une correspondance à Břeclav dans le même train. Trajet A d'un flux qui finit à la gare où repart, sous le
+        même numéro, un trajet B d'un autre flux, 0 à BORDER_JOIN_MAX_MIN minutes plus tard, dans un fuseau à la
+        même heure : un seul trajet, ses jours communs ; A et B gardent seuls leurs autres jours. Le trajet recollé
+        garde la compagnie et le type de A (départ). Plusieurs passages : un Nightjet peut traverser trois flux."""
+        joined = 0
+        for _ in range(3):
+            starts = defaultdict(list)  # (gare de départ, numéro) -> trajets
+            for t in self.trips.values():
+                if t["number"] and t["days"]:
+                    starts[(t["stops"][0], number_key(t["number"]))].append(t)
+            new = []
+            for a in list(self.trips.values()):
+                if not a["number"] or not a["days"]:
+                    continue
+                for b in starts.get((a["stops"][-1], number_key(a["number"])), ()):
+                    if b is a or b["feed"] == a["feed"] or not b["days"] or not a["days"]:
+                        continue
+                    if len(a["stops"]) > 1 and len(b["stops"]) > 1 and a["stops"][-2] == b["stops"][1]:
+                        continue  # demi-tour : deux trains distincts
+                    if a["tz"] != b["tz"] and not self.same_offsets(self.timezones[a["tz"]], self.timezones[b["tz"]]):
+                        continue
+                    # B part le même jour que A arrive à la frontière, ou le lendemain (A arrive après minuit)
+                    k = max(0, round((a["arr"][-1] - b["dep"][0]) / 1440))
+                    gap = b["dep"][0] + 1440 * k - a["arr"][-1]
+                    if not 0 <= gap <= BORDER_JOIN_MAX_MIN:
+                        continue
+                    common = a["days"] & (b["days"] >> k)
+                    if not common:
+                        continue
+                    shift = 1440 * k
+                    new.append({
+                        **a, "days": common,
+                        "stops": a["stops"] + b["stops"][1:],
+                        # gare de jonction : montée et descente permises (terminus de A, origine de B)
+                        "flags": a["flags"][:-1] + [0] + b["flags"][1:],
+                        "arr": a["arr"] + [x + shift for x in b["arr"][1:]],
+                        "dep": a["dep"][:-1] + [x + shift for x in b["dep"]],
+                    })
+                    a["days"] &= ~common
+                    b["days"] &= ~(common << k)
+                    joined += 1
+            if not new:
+                break
+            for t in new:
+                key = (t["op"], tuple(t["stops"]), tuple(t["flags"]), tuple(t["arr"]), tuple(t["dep"]), t["number"],
+                       t["type"], t["checkin"])
+                if key in self.trips:
+                    self.trips[key]["days"] |= t["days"]
+                else:
+                    self.trips[key] = t
+            self.trips = {k: t for k, t in self.trips.items() if t["days"]}
+        self.stats["trips_joined_at_border"] = joined
+        logging.info(f"🔗 {joined} trains recollés à la frontière entre deux flux")
 
     def build_routes(self):
         """Regroupe les trajets par (suite d'arrêts, règles montée/descente, fuseau, enregistrement)
@@ -1302,6 +1460,7 @@ class NetworkBuilder:
     # -- export --------------------------------------------------------------
 
     def build(self):
+        self.join_border_trips()
         routes = self.build_routes()
 
         # seules les gares desservies sont exportées

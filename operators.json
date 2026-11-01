@@ -173,6 +173,64 @@
     "note": "Après OBB (écarte les railjet Prague - Vienne déjà publiés), avant DB : la DB écarte les trains tchèques que ce flux publie. Flux non officiel (JrUtil, horaires CZPTT de Správa železnic) : copie de secours cz_brut.zip dans la Release sources-latest."
   },
   {
+    "id": "PKP",
+    "name": "Pologne (PKP Intercity, PolRegio, Koleje...)",
+    "enabled": false,
+    "gtfs_path": "./POLAND/pl_gtfs.zip",
+    "script_path": "./POLAND/ingest_pl_gtfs.py",
+    "gtfs_url": "https://mkuran.pl/gtfs/polish_trains.zip",
+    "transport_types": [
+      "Express InterCity Premium",
+      "Express InterCity",
+      "InterCity",
+      "TLK",
+      "EuroCity",
+      "interREGIO",
+      "Przyspieszony",
+      "Osobowy",
+      "Bus"
+    ],
+    "note": "Après CD (écarte les trains Prague - Pologne, Leo Express et RegioJet déjà publiés), avant DB : la DB écarte les trains polonais que ce flux publie. Sans SKM Warszawa ni SKM Trójmiasto (urbains). Flux non officiel (Mikołaj Kuranowski, données PKP PLK), serveur lent : copie de secours pl_brut.zip dans la Release sources-latest."
+  },
+  {
+    "id": "ZSSK",
+    "name": "Slovaquie (ZSSK, RegioJet, Leo Express)",
+    "enabled": false,
+    "gtfs_path": "./SLOVAKIA/sk_gtfs.zip",
+    "script_path": "./SLOVAKIA/ingest_sk_gtfs.py",
+    "gtfs_url": "https://data.slovensko.sk/datasety/ebeeedf1-aca2-451a-bdc0-35d536714888",
+    "transport_types": [
+      "EuroCity",
+      "InterCity",
+      "Expres",
+      "Rýchlik",
+      "Regionálny expres",
+      "Osobný vlak",
+      "Bus"
+    ],
+    "note": "Après OBB, CD et PKP (écarte les trains internationaux déjà publiés), avant DB. Source officielle ŽSR dans le catalogue national des données ouvertes : l'adresse du fichier change à chaque publication, le script la demande au catalogue (SPARQL). stop_id = UIC. Horaire annuel : le flux expire au changement de service de décembre jusqu'à la publication du suivant. Copie de secours sk_brut.zip dans la Release sources-latest."
+  },
+  {
+    "id": "MAV",
+    "name": "Hongrie (MÁV, GYSEV)",
+    "enabled": false,
+    "gtfs_path": "./HUNGARY/hu_gtfs.zip",
+    "script_path": "./HUNGARY/ingest_hu_gtfs.py",
+    "gtfs_url": "https://jbb.ghsq.de/gtfs/hu-m%C3%A1v_szem%C3%A9lysz%C3%A1ll%C3%ADt%C3%A1si_zrt..gtfs.zip",
+    "transport_types": [
+      "InterCity",
+      "InterRégió",
+      "Expresszvonat",
+      "Gyorsvonat",
+      "Sebesvonat",
+      "EuroCity",
+      "EuroRegio",
+      "Személyvonat",
+      "Bus"
+    ],
+    "note": "Après OBB, CD, PKP et ZSSK, avant DB : trains MÁV coupés à la frontière des pays déjà publiés (ÖBB, ZSSK...), trains GYSEV entiers. Flux non officiels (jbb.ghsq.de, utilisés par Transitous ; GYSEV dans un second fichier), vérifiés le 2026-10-31 avec le calculateur MÁV. Copies de secours hu_mav_brut.zip et hu_gysev_brut.zip dans la Release sources-latest. Le GTFS officiel de MÁV est délivré sur demande."
+  },
+  {
     "id": "SNCB",
     "name": "SNCB/NMBS (Belgique)",
     "enabled": true,

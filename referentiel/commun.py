@@ -57,22 +57,27 @@ RAPPORT_COLUMNS = ["id", "cle", "nom_gtfs", "nom_fr", "statut", "km_osm", "nom_o
 RAILWAY_KINDS = {"station", "halt"}
 UIC_MAX_KM = 5.0     # un uic_ref mal saisi dans OSM ne doit pas déplacer la gare
 NAME_MAX_KM = 2.0
+WRONG_UIC_KM = 1.0        # gare trouvée par l'UIC à plus de 1 km de l'arrêt du flux...
+WRONG_UIC_OTHER_KM = 0.3  # ... et à moins de 300 m d'un autre arrêt du flux : uic_ref mal placé dans OSM
 NAME_CONTAINS_MAX_KM = 1.0  # nom OSM seulement contenu dans celui du GTFS (ou l'inverse)
 
 UIC_COUNTRY = {"87": "FR", "80": "DE", "85": "CH", "88": "BE", "82": "LU", "83": "IT", "71": "ES",
                "84": "NL", "81": "AT", "70": "GB", "94": "PT", "51": "PL", "54": "CZ", "55": "HU",
-               "56": "SK", "79": "SI", "78": "HR", "86": "DK", "74": "SE", "76": "NO"}
+               "56": "SK", "79": "SI", "78": "HR", "86": "DK", "74": "SE", "76": "NO",
+               "53": "RO", "72": "RS", "22": "UA", "24": "LT", "21": "BY"}
 WIKIDATA_COUNTRY = {"Q142": "FR", "Q183": "DE", "Q39": "CH", "Q31": "BE", "Q32": "LU", "Q38": "IT",
                     "Q29": "ES", "Q55": "NL", "Q40": "AT", "Q145": "GB", "Q45": "PT", "Q235": "MC",
                     "Q347": "LI", "Q228": "AD", "Q36": "PL", "Q213": "CZ", "Q28": "HU", "Q214": "SK",
-                    "Q215": "SI", "Q224": "HR", "Q35": "DK", "Q34": "SE", "Q20": "NO", "Q27": "IE"}
+                    "Q215": "SI", "Q224": "HR", "Q35": "DK", "Q34": "SE", "Q20": "NO", "Q27": "IE",
+                    "Q218": "RO", "Q403": "RS", "Q212": "UA", "Q37": "LT", "Q184": "BY"}
 TIMEZONES = {"FR": "Europe/Paris", "DE": "Europe/Berlin", "CH": "Europe/Zurich", "BE": "Europe/Brussels",
              "LU": "Europe/Luxembourg", "IT": "Europe/Rome", "ES": "Europe/Madrid", "NL": "Europe/Amsterdam",
              "AT": "Europe/Vienna", "GB": "Europe/London", "PT": "Europe/Lisbon", "MC": "Europe/Monaco",
              "LI": "Europe/Vaduz", "AD": "Europe/Andorra", "PL": "Europe/Warsaw", "CZ": "Europe/Prague",
              "HU": "Europe/Budapest", "SK": "Europe/Bratislava", "SI": "Europe/Ljubljana",
              "HR": "Europe/Zagreb", "DK": "Europe/Copenhagen", "SE": "Europe/Stockholm",
-             "NO": "Europe/Oslo", "IE": "Europe/Dublin"}
+             "NO": "Europe/Oslo", "IE": "Europe/Dublin", "RO": "Europe/Bucharest", "RS": "Europe/Belgrade",
+             "UA": "Europe/Kyiv", "LT": "Europe/Vilnius", "BY": "Europe/Minsk"}
 
 
 # ---------------------------------------------------------------------------
@@ -369,6 +374,8 @@ def needs_work(row: dict) -> bool:
     """Gare déjà en base mais incomplète : retentée au lieu d'être reprise telle quelle."""
     if row.get("statut") == "en_attente" or not row.get("ville_id", "").startswith("Q"):
         return True
+    if float(row.get("lat") or 0) == 0 and float(row.get("lon") or 0) == 0:
+        return True  # gare sans position
     return row.get("type") == "gare" and row.get("statut") == "gtfs" and not Overpass.DISABLED
 
 
@@ -499,6 +506,8 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
                             "statut": row["statut"], "km_osm": old.get("km_osm", ""), "nom_osm": row["nom_local"],
                             "ville": villes.get(row["ville_id"], {}).get("nom_fr", ""),
                             "ville_source": "wikidata", "a_faire": a_faire})
+    placed = [(st["lat"], st["lon"], fold(st["nom_gtfs"])) for st in stations
+              if st["type"] == "gare" and (st["lat"] or st["lon"])]
     reused = len(stations) - len(work)
     logging.info(f"   {reused} gares reprises telles quelles, {len(work)} à chercher"
                  + (" (--complet)" if complet else ""))
@@ -523,6 +532,15 @@ def build_operator(op: str, op_country: str, stations: list[dict], search_name=N
         for osm_id, lst in claims.items():
             keep = 0 if osm_id in reserved else 1  # objet déjà pris par une gare reprise : aucun
             for _, i in sorted(lst)[keep:]:
+                matches[i] = (None, "gtfs", None)
+        # uic_ref d'OSM posé sur la gare voisine (Chornice porte celui de Nectava, Ptení celui de Zdětín) :
+        # l'objet trouvé par l'UIC est loin de l'arrêt mais pile sur un autre arrêt du flux : refusé
+        for i, (f, statut, dist) in enumerate(matches):
+            if f and statut == "uic" and (dist or 0) > WRONG_UIC_KM and any(
+                    name != fold(stations[i]["nom_gtfs"]) and km(lat, lon, f["latitude"], f["longitude"]) <= WRONG_UIC_OTHER_KM
+                    for lat, lon, name in placed):
+                logging.warning(f"   ⚠️ {stations[i]['nom_gtfs']} : l'uic_ref d'OSM est sur une autre gare du "
+                                f"flux ({f.get('name', '')}), position du GTFS gardée")
                 matches[i] = (None, "gtfs", None)
 
         # 2. ville, noms, codes

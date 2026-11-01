@@ -59,6 +59,13 @@ from osm_lookup import OsmLookup, write_extra  # noqa: E402
 OUTPUT_ZIP = os.path.join(BASE_DIR, "at_gtfs.zip")
 REPORT_CSV = os.path.join(BASE_DIR, "stations_report.csv")
 URL = "https://static.web.oebb.at/open-data/soll-fahrplan-gtfs/GTFS_Fahrplan_{year}.zip"
+# Copie du flux brut, déposée à la main dans la Release sources-latest sous son nom d'origine
+# (GTFS_Fahrplan_<année>.zip, téléchargé depuis un poste en Europe) : reprise quand static.web.oebb.at
+# ne renvoie pas le zip aux serveurs de GitHub
+MIRROR_URL = "https://github.com/TrainNomad/TrainNomad_GTFS/releases/download/sources-latest/GTFS_Fahrplan_{year}.zip"
+# Transitland recopie chaque jour le flux ÖBB depuis ses propres serveurs : premier secours, automatique.
+# Clé gratuite (compte sur transit.land) dans le secret GitHub TRANSITLAND_API_KEY ; sans clé, étape sautée.
+TRANSITLAND_URL = "https://transit.land/api/v2/rest/feeds/f-oebb~at/download_latest_feed_version"
 # changement d'horaire européen : deuxième samedi de décembre, au plus tard le 14
 FAHRPLAN_CHANGE = (12, 14)
 
@@ -152,6 +159,26 @@ def build(src: str, dst: str, matcher: StationMatcher) -> dict:
     return stats
 
 
+def download_backup(year: int, raw: str) -> None:
+    """Secours quand static.web.oebb.at ne renvoie pas le zip : Transitland (si clé), puis la Release sources-latest."""
+    on_github = os.environ.get("GITHUB_ACTIONS") == "true"
+    key = os.environ.get("TRANSITLAND_API_KEY")
+    if key:
+        try:
+            download(TRANSITLAND_URL, raw, {"apikey": key})
+            if on_github:
+                print("::warning::ÖBB : site injoignable, flux repris de Transitland")
+            return
+        except Exception as e:
+            logging.warning(f"⚠️ Transitland indisponible ({e}) : copie de la Release sources-latest")
+    if on_github:
+        print("::warning::ÖBB : site injoignable, flux repris de la Release sources-latest")
+    try:
+        download(MIRROR_URL.format(year=year), raw)
+    except requests.HTTPError:
+        download(MIRROR_URL.format(year=year - 1), raw)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", help="zip ÖBB déjà téléchargé")
@@ -166,11 +193,15 @@ def main():
         if not args.input:
             year = timetable_year(date.today())
             try:
-                download(URL.format(year=year), raw)
-            except requests.HTTPError:
-                # fichier de la nouvelle année pas encore publié au moment du changement d'horaire
-                logging.warning(f"   horaire {year} indisponible : horaire {year - 1}")
-                download(URL.format(year=year - 1), raw)
+                try:
+                    download(URL.format(year=year), raw)
+                except requests.HTTPError:
+                    # fichier de la nouvelle année pas encore publié au moment du changement d'horaire
+                    logging.warning(f"   horaire {year} indisponible : horaire {year - 1}")
+                    download(URL.format(year=year - 1), raw)
+            except Exception as e:
+                logging.warning(f"⚠️ static.web.oebb.at injoignable ({e})")
+                download_backup(year, raw)
         stats = build(raw, OUTPUT_ZIP, matcher)
     finally:
         if not args.input and os.path.exists(raw):

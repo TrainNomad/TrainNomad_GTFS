@@ -25,7 +25,8 @@ Sorties (traces/sortie/<OP>/, hors de git) :
                         Le trajet b -> a se lit dans le fichier de a, tracé à inverser.
 
 Les tracés déjà calculés sont conservés d'un lancement à l'autre (--refaire pour tout recalculer).
-Les cars ne sont pas tracés (route_type 3, arrêts « Car » de la SNCF).
+Les cars ne sont pas tracés (route_type 3 et 700 à 799, arrêts « Car » de la SNCF, bus de remplacement « NAD »
+du flux slovaque).
 
 Usage :
     python traces/build_traces.py                           (toutes les compagnies activées, puis publier.py --release et globe.py)
@@ -53,6 +54,7 @@ import zipfile
 from collections import defaultdict
 
 import numpy as np
+import pandas as pd
 from scipy.spatial import cKDTree
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -105,7 +107,12 @@ def load_pairs(op: dict, ref: Referentiel) -> dict:
     z = zipfile.ZipFile(path)
     routes = read_gtfs(z, "routes.txt")
     trips = read_gtfs(z, "trips.txt")
-    bus_routes = set(routes.loc[routes.get("route_type", "") == "3", "route_id"]) if "route_type" in routes else set()
+    # cars et bus de remplacement : route_type 3, ou 700 à 799 (Hongrie : 714) ; Slovaquie : trains « NAD »
+    rt = pd.to_numeric(routes["route_type"], errors="coerce") if "route_type" in routes else pd.Series(dtype=float)
+    is_bus = (rt == 3) | rt.between(700, 799)
+    if "route_long_name" in routes:
+        is_bus |= routes["route_long_name"] == "NAD"
+    bus_routes = set(routes.loc[is_bus, "route_id"]) if "route_type" in routes else set()
     bus_trips = set(trips.loc[trips["route_id"].isin(bus_routes), "trip_id"])
 
     st = read_gtfs(z, "stop_times.txt")
@@ -461,7 +468,8 @@ def main():
     ref = Referentiel(REFERENTIEL_DIR)
     logging.info(f"🚆 Paires de gares de {op['id']}")
     directed = load_pairs(op, ref)
-    gares = {g: v for g, v in ref.gares.items() if v["lat"] is not None}
+    # gare en 0,0 (position absente du flux) : sa paire couvrirait des centaines de carreaux jusqu'à l'équateur
+    gares = {g: v for g, v in ref.gares.items() if v["lat"] is not None and (v["lat"], v["lon"]) != (0, 0)}
     # une paire = un tracé pour les deux sens (a < b)
     pairs = sorted({(min(a, b), max(a, b)) for a, b in directed if a in gares and b in gares})
     if args.pays:

@@ -41,6 +41,9 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · FlixTrain | `flixtrain` | FLIXTRAIN |
 | GTFS · Pays-Bas (NS) | `netherlands` | NS |
 | GTFS · Italie (Trenord) | `trenord` | TRENORD |
+| GTFS · Pologne (PKP Intercity, PolRegio...) | `poland` | PKP (désactivé : référentiel des gares à construire) |
+| GTFS · Slovaquie (ZSSK, RegioJet, Leo Express) | `slovakia` | ZSSK (désactivé : référentiel des gares à construire) |
+| GTFS · Hongrie (MÁV, GYSEV) | `hungary` | MAV (désactivé : référentiel des gares à construire) |
 
 ## Contrôles (fiabilité)
 

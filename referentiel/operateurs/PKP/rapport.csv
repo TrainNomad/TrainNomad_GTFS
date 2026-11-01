@@ -1,0 +1,63 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNPKP-10751;10751;Kolonia;Kolonia;gtfs;;Kolonia;Świętajno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-124876;124876;Darnytsia;Darnytsia;gtfs;;Darnytsia;Kiev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-124879;124879;Kyiv-Pasazhyrsky;Kyiv-Pasazhyrsky;gtfs;;Kyiv-Pasazhyrsky;Kiev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-124974;124974;Volochysk;Volochysk;gtfs;;Volochysk;Volochysk Hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-124979;124979;Khmelnytskyi;Khmelnytskyi;gtfs;;Khmelnytskyi;Khmelnytskyï;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125013;125013;Vinnytsia;Vinnytsia;gtfs;;Vinnytsia;communauté territoriale de Vinnytsia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125070;125070;Berdychiv;Berdychiv;gtfs;;Berdychiv;Berdychiv urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2200170;125072;Koziatyn 1;Козятин 1;nom;0.011;Козятин 1;communauté territoriale de Koziatyn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNPKP-125159;125159;Kovel;Kovel;gtfs;;Kovel;communauté territoriale de Kovel;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125182;125182;Rivne;Rivne;gtfs;;Rivne;Rivne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125200;125200;Kivertsi;Kivertsi;gtfs;;Kivertsi;communauté territoriale de Kivertsi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125205;125205;Ternopil;Ternopil;gtfs;;Ternopil;Ternopil Hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125266;125266;Lviv-Holovnyi;Lviv-Holovnyi;gtfs;;Lviv-Holovnyi;communauté municipale de Lviv;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125585;125585;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;gtfs;;imeni Tarasa Shevchenka;Smilianska miska hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125634;125634;Kremenchuk;Kremenchuk;gtfs;;Kremenchuk;Krementchouk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125653;125653;Romodan;Romodan;gtfs;;Romodan;Ромоданівська селищна громада;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125662;125662;Hrebinka;Hrebinka;gtfs;;Hrebinka;Hrebinka urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125672;125672;Lubny;Lubny;gtfs;;Lubny;Лубенська міська громада;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125711;125711;Kharkiv-Pasazhyrskyi;Kharkiv-Pasazhyrskyi;gtfs;;Kharkiv-Pasazhyrskyi;Kharkiv;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125780;125780;Myrhorod;Myrhorod;gtfs;;Myrhorod;Myrhorod urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125787;125787;Poltava-Kyivska;Poltava-Kyivska;gtfs;;Poltava-Kyivska;Poltava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125797;125797;Liubotyn;Liubotyn;gtfs;;Liubotyn;Lioubotyn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-125806;125806;Dnipro-Holovnyi;Dnipro-Holovnyi;gtfs;;Dnipro-Holovnyi;Dnipro;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-126260;126260;Kalvariia;Kalvariia;gtfs;;Kalvariia;Jungėnai;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8003142;140168;Berlin Ostkreuz;Berlin Ostkreuz (S-Bahn);nom;0.025;Ostkreuz;Berlin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004019;140581;Cottbus Hauptbahnhof;Cottbus Hbf;nom;0.185;Cottbus Hauptbahnhof / Chóśebuz głowne dwórnišćo;Cottbus;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004318;140707;Hoyerswerda;Hoyerswerda;nom;0.001;Hoyerswerda - Wojerecy;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004342;140727;Klinge;Klinge / Klinka;nom;0.003;Klinge / Klinka;Wiesengrund;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNPKP-141249;141249;Dresden Hauptbahnhof;Dresden Hauptbahnhof;gtfs;;Dresden Hauptbahnhof;Dresde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-141286;141286;Gersdorf (bei Görlitz);Gersdorf (bei Görlitz);gtfs;;Gersdorf (bei Görlitz);Markersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8006094;141290;Löbau (Sachs);Löbau(Sachs);nom;0.013;Löbau (Sachsen);Löbau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006096;141292;Pommritz;Pommritz / Pomorcy;nom;0.02;Pommritz / Pomorcy;Hochkirch;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006098;141294;Kubschütz;Kubschütz / Kubšicy;nom;0.024;Kubschütz / Kubšicy;Kubschütz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006099;141295;Bautzen;Bautzen - Budyšin;nom;0.004;Bautzen - Budyšin;Bautzen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8006101;141297;Seitschen;Seitschen / Žičeń;nom;0.016;Seitschen / Žičeń;Göda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM4208908256;150616;Mölln (Meckl);Mölln (Mecklenburg);nom;0.005;Mölln (Mecklenburg);Mölln;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004044;179210;Forst (Lausitz);Forst(Lausitz);nom;0.008;Forst (Lausitz) / Baršć (Łužyca);Forst (Lusace);wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNPKP-179214;179214;Küstrien-Kietz;Küstrien-Kietz;gtfs;;Küstrien-Kietz;Küstriner Vorland;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433234;179225;Český Těšín;Český Těšín (Czeski Cieszyn);nom;0.011;Český Těšín (Czeski Cieszyn);Český Těšín;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNPKP-190042;190042;Rava-Ruska;Rava-Ruska;gtfs;;Rava-Ruska;Rava-Ruska urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-19588;19588;Huta;Huta;gtfs;;Huta;Huta;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-209839;209839;Znamianka-Pasazhyrska;Znamianka-Pasazhyrska;gtfs;;Znamianka-Pasazhyrska;Znamianka urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-209910;209910;Kamianske-Pasazhyrske;Kamianske-Pasazhyrske;gtfs;;Kamianske-Pasazhyrske;communauté territoriale de Kamianske;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-24182;24182;Ruda;Ruda;gtfs;;Ruda;Ruda;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002120;247495;Cottbus-Sandow;Cottbus-Sandow - Chóśebuz-Žandow;nom;0.013;Cottbus-Sandow - Chóśebuz-Žandow;Cottbus;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM2210277299;39297;Łaskarzew Przystanek;Łaskarzew Przystanek;nom;0.019;Łaskarzew;Łaskarzew;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM2517728018;46888;Grudze;Grudze;nom;0.238;Stare Grudze;Łyszkowice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNPKP-59626;59626;Solniki Wielkie;Solniki Wielkie;gtfs;;Solniki Wielkie;Solniki Wielkie;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-64352;64352;Klimontów;Klimontów;gtfs;;Klimontów;Klimontów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-64519;64519;Potok;Potok;gtfs;;Potok;Zagórze;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-65706;65706;Chmielów;Chmielów;gtfs;;Chmielów;Chmielów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-65755;65755;Padew Narodowa;Padew Narodowa;gtfs;;Padew Narodowa;Padew Narodowa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-69823;69823;Zabrze;Zabrze;gtfs;;Zabrze;Zabrze;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-71480;71480;Lisowice;Lisowice;gtfs;;Lisowice;Pawonków;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-74583;74583;Dąbrowa Górnicza;Dąbrowa Górnicza;gtfs;;Dąbrowa Górnicza;Dąbrowa Górnicza;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-75630;75630;Podgwizdów;Podgwizdów;gtfs;;Podgwizdów;Pogwizdów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNPKP-75770;75770;Zaborze;Zaborze;gtfs;;Zaborze;Zaborze;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM1874629583;14340;Górki Noteckie;Górki Noteckie;nom;0.006;Górki Noteckie;Górki Noteckie;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM2152327174;14472;Miasteczko Krajeńskie;Miasteczko Krajeńskie;nom;0.136;Miasteczko Krajeńskie;Miasteczko Krajeńskie;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM440869800;42671;Stare Bojanowo;Stare Bojanowo;nom;0.061;Stare Bojanowo;Stare Bojanowo;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM861147982;42689;Przysieka Stara;Przysieka Stara;nom;0.011;Przysieka Stara;Stara Przysieka;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM3820920395;8227;Gronowo Elbląskie;Gronowo Elbląskie;nom;0.072;Gronowo Elbląskie;Gronowo Elbląskie;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent

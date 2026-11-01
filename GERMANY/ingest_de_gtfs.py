@@ -32,6 +32,7 @@ import re
 import shutil
 import sys
 import unicodedata
+import time
 import zipfile
 from collections import defaultdict
 from datetime import datetime, timedelta
@@ -93,12 +94,52 @@ NOISE = {"bahnhof", "bf", "bhf", "hbf", "zob", "busbf", "bushaltestelle", "s", "
 # Lecture / écriture
 # ---------------------------------------------------------------------------
 
-def download(url: str, dest: str) -> None:
+DOWNLOAD_TRIES = 4
+
+
+def download(url: str, dest: str, extra_headers: dict | None = None) -> None:
+    """Télécharge un zip. Une connexion coupée en route (ÖBB, 170 Mo) laisse un fichier tronqué, sans la table
+    des matières du zip qui est à la fin : le téléchargement reprend là où il s'est arrêté (Range), sinon depuis
+    le début, jusqu'à DOWNLOAD_TRIES fois. Une erreur HTTP (404...) n'est pas réessayée."""
     logging.info(f"📥 Téléchargement {url}")
-    with requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, stream=True, timeout=300) as r:
-        r.raise_for_status()
-        with open(dest, "wb") as f:
-            shutil.copyfileobj(r.raw, f)
+    headers = {"User-Agent": "Mozilla/5.0", **(extra_headers or {})}
+    if os.path.exists(dest):
+        os.remove(dest)
+    expected = None
+    for attempt in range(1, DOWNLOAD_TRIES + 1):
+        have = os.path.getsize(dest) if os.path.exists(dest) else 0
+        try:
+            h = {**headers, "Range": f"bytes={have}-"} if have else headers
+            with requests.get(url, headers=h, stream=True, timeout=300) as r:
+                r.raise_for_status()
+                resumed = have and r.status_code == 206
+                total = r.headers.get("Content-Range", "").rpartition("/")[2] if resumed \
+                    else r.headers.get("Content-Length")  # "bytes 1000-173582699/173582700"
+                expected = int(total) if total and total.isdigit() else expected
+                with open(dest, "ab" if resumed else "wb") as f:
+                    shutil.copyfileobj(r.raw, f)
+        except requests.HTTPError:
+            raise
+        except (requests.RequestException, OSError) as e:
+            logging.warning(f"   connexion coupée ({type(e).__name__}), essai {attempt}/{DOWNLOAD_TRIES}")
+            continue
+        size = os.path.getsize(dest)
+        if expected is not None and size < expected:
+            logging.warning(f"   fichier incomplet ({size / 1e6:.1f} / {expected / 1e6:.1f} Mo), "
+                            f"essai {attempt}/{DOWNLOAD_TRIES}")
+            continue
+        if zipfile.is_zipfile(dest):
+            break
+        # réponse 200 qui n'est pas un zip (page d'erreur, anti-robot, maintenance) : on recommence de zéro
+        with open(dest, "rb") as f:
+            head = f.read(200)
+        logging.warning(f"   réponse qui n'est pas un zip ({size} octets, {r.headers.get('Content-Type')}) : "
+                        f"{head!r}, essai {attempt}/{DOWNLOAD_TRIES}")
+        os.remove(dest)
+        expected = None
+        time.sleep(30 * attempt)
+    if not os.path.exists(dest):
+        raise zipfile.BadZipFile(f"{url} : aucun zip valide après {DOWNLOAD_TRIES} essais")
     zipfile.ZipFile(dest).testzip()
     logging.info(f"   ✅ {os.path.getsize(dest) / 1e6:.1f} Mo")
 

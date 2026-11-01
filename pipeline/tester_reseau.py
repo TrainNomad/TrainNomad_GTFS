@@ -31,6 +31,9 @@ RELATIONS = [
     ("Amsterdam", "Utrecht", "NS"),
     ("Milano", "Tirano", "TRENORD"),
     ("Salzburg", "Innsbruck", "OBB"),
+    ("Warszawa", "Kraków", "PKP"),
+    ("Bratislava", "Košice", "ZSSK"),
+    ("Budapest", "Debrecen", "MAV"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 

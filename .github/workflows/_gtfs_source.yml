@@ -48,6 +48,7 @@ jobs:
         NR_EMAIL: ${{ inputs.source == 'uk' && secrets.NR_EMAIL || '' }}
         NR_PASSWORD: ${{ inputs.source == 'uk' && secrets.NR_PASSWORD || '' }}
         OUIGO_ES_API_KEY: ${{ inputs.source == 'ouigo_es' && secrets.OUIGO_ES_API_KEY || '' }}
+        TRANSITLAND_API_KEY: ${{ inputs.source == 'austria' && secrets.TRANSITLAND_API_KEY || '' }}
       run: python pipeline/gtfs_source.py preparer "${{ inputs.source }}" ${{ inputs.forcer && '--forcer' || '' }}
 
     # Aussi après un échec partiel (ex. Italo refusé, Trenitalia valide) : ce qui est valide est publié.
