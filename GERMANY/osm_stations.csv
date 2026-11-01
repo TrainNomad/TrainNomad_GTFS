@@ -69,16 +69,22 @@ Benndorf (Mansfelder Land) (Bus);51.573;11.493;2026-10-06;3365550082;Benndorf;;5
 Benneckenstein Benneckenstein Gleis 1;51.674;10.715;2026-10-06;9945157006;Benneckenstein;;51.673681;10.714741;station;0.014
 Benneckenstein Benneckenstein Gleis 2;51.674;10.715;2026-10-06;9945157006;Benneckenstein;;51.673681;10.714741;station;0.011
 Bereich Gl.1/2;53.605;10.154;2026-10-06;;;;;;;
+Bereich Gl.2/3;53.404;10.066;2026-11-01;;;;;;;
 Bereich Gleis 1+2;53.830;10.495;2026-10-06;;;;;;;
 Bereich Lauenburg Gl.1+2;53.370;10.568;2026-10-06;;;;;;;
 Berg(CH);47.582;9.174;2026-10-06;;;;;;;
 Berg, Bahnhof;48.981;8.213;2026-10-06;28179678;Berg (Pfalz);8000890;48.980746;8.212758;halt;0.021
 Bergheim Glesch Bf;50.971;6.590;2026-10-06;;;;;;;
 Bergisch Gladbach Duckterath (S);50.985;7.103;2026-10-06;;;;;;;
+Bernburg (Saale) Keßlerturm;51.792;11.717;2026-11-01;;;;;;;
 Bernburg (Saale) Keßlerturm (Parkeisenbahn);51.792;11.717;2026-10-06;;;;;;;
+Bernburg (Saale) Paradies;51.791;11.712;2026-11-01;;;;;;;
 Bernburg (Saale) Paradies (Parkeisenbahn);51.791;11.712;2026-10-06;;;;;;;
+Bernburg (Saale) Rosenhag;51.798;11.731;2026-11-01;;;;;;;
 Bernburg (Saale) Rosenhag (Parkeisenbahn);51.798;11.731;2026-10-06;;;;;;;
+Bernburg (Saale) Sportforum;51.795;11.721;2026-11-01;;;;;;;
 Bernburg (Saale) Sportforum (Parkeisenbahn);51.795;11.721;2026-10-06;;;;;;;
+Bernburg (Saale) Tiergarten;51.796;11.727;2026-11-01;;;;;;;
 Bernburg (Saale) Tiergarten (Parkeisenbahn);51.796;11.727;2026-10-06;;;;;;;
 Berndorf Stadt Bahnhof;47.945;16.108;2026-10-23;1494078429;Berndorf Stadt;8100652;47.944825;16.108696;halt;0.020
 Bestenheid, Bahnhof Glashütte;49.786;9.500;2026-10-06;268365634;Wertheim-Bestenheid;;49.786136;9.500437;halt;0.021
@@ -181,6 +187,7 @@ Bílina-Chudeřice;50.572;13.787;2026-10-29;78901067;Bílina-Chudeřice;5454799;
 Bílovice nad Svitavou;49.243;16.673;2026-10-29;5644258111;Bílovice nad Svitavou;;49.242751;16.673700;halt;0.034
 Bítovčice;49.363;15.735;2026-10-29;525532756;Bítovčice;;49.362984;15.734760;halt;0.002
 Böhlerwerk an der Ybbs Bahnhof;47.983;14.754;2026-10-23;;;;;;;
+Böhmhof, Hotel Böhmhof;49.053;13.110;2026-11-01;;;;;;;
 Büchig;49.048;8.461;2026-10-06;3112467813;Büchig;;49.047929;8.461068;tram_stop;0.000
 Bünde, Bahnhof/ZOB;52.202;8.575;2026-10-06;21303996;Bünde (Westf);8000059;52.202246;8.574333;station;0.032
 Břevnice;49.632;15.616;2026-10-29;246519180;Břevnice;;49.632300;15.616173;halt;0.001
@@ -481,6 +488,7 @@ Haslach, Bahnhalt;47.629;10.460;2026-10-06;10282771768;Wertach-Haslach;;47.62868
 Hasselroth-Niedermittlau Bahnhof;50.178;9.110;2026-10-06;;;;;;;
 Hatlerdorf(Dornbirn);47.398;9.725;2026-10-06;;;;;;;
 Hattersheim (Main)-Eddersheim Bahnhof;50.039;8.457;2026-10-06;;;;;;;
+Hauptbahnhof;48.785;9.183;2026-11-01;;;;;;;
 Hauptbahnhof (U, Tram);48.140;11.561;2026-10-06;344321466;Hauptbahnhof;;48.139954;11.561094;tram_stop;0.008
 Haus Bahnhof;47.417;13.800;2026-10-23;;;;;;;
 Hausen Bahnhof;47.913;8.679;2026-10-06;1618730555;Geisingen Hausen;;47.912696;8.678773;halt;0.011
@@ -627,6 +635,7 @@ KA Ettlinger Tor/Staatstheater;49.005;8.402;2026-10-06;;;;;;;
 KA Ettlinger Tor/Staatstheater (U);49.005;8.403;2026-10-06;;;;;;;
 KA Europahalle/Europabad;48.999;8.376;2026-10-06;;;;;;;
 KA Europaplatz (U);49.010;8.394;2026-10-06;;;;;;;
+KA Europaplatz/Postgalerie;49.010;8.395;2026-11-01;;;;;;;
 KA Hirtenweg/Technologiepark;49.017;8.439;2026-10-06;3111016217;Hirtenweg - Technologiepark;;49.017215;8.438922;tram_stop;0.018
 KA Karlstor/Bundesgerichtshof;49.005;8.395;2026-10-06;;;;;;;
 KA Knielinger Allee/Städt. Klinikum;49.019;8.375;2026-10-06;;;;;;;
@@ -923,6 +932,16 @@ Loučná n.Des.-Fil. z;50.055;17.082;2026-10-29;;;;;;;
 Lubin;51.396;16.194;2026-10-06;5356872372;Lubin;;51.395780;16.193436;station;0.039
 Lublin Zachodni;51.219;22.508;2026-10-06;6814014754;Lublin Zachodni;;51.218934;22.508927;halt;0.043
 Lucany n.Nisou;50.740;15.225;2026-10-06;288195264;Lučany nad Nisou;;50.739509;15.225365;halt;0.009
+Ludw. Bietigheimer Straße;48.901;9.190;2026-11-01;;;;;;;
+Ludw. Obere Marbacher Str.;48.903;9.205;2026-11-01;;;;;;;
+Ludw. Schloss Favorite;48.902;9.196;2026-11-01;;;;;;;
+Ludw. Untere Marbacher Str.;48.904;9.210;2026-11-01;;;;;;;
+Ludwigsburg Abelstraße;48.898;9.183;2026-11-01;;;;;;;
+Ludwigsburg Heilbronner Str.;48.903;9.187;2026-11-01;;;;;;;
+Ludwigsburg Neckarbrücke;48.907;9.219;2026-11-01;;;;;;;
+Ludwigsburg Rathaus;48.896;9.193;2026-11-01;;;;;;;
+Ludwigsburg Residenzschloss;48.899;9.194;2026-11-01;;;;;;;
+Ludwigsburg Talstraße;48.900;9.185;2026-11-01;;;;;;;
 Ludwigsfelde, Birkengrund Bhf;52.315;13.273;2026-10-06;;;;;;;
 Luh nad Svatavou;50.218;12.588;2026-10-06;10294164373;Luh nad Svatavou;5476485;50.217853;12.587450;halt;0.055
 Luh p.Smrkem;50.892;15.152;2026-10-06;;;;;;;
@@ -947,6 +966,7 @@ Lüd., Bahnhof;51.220;7.629;2026-10-06;;;;;;;
 Lüd., Brügge Bahnhof;51.208;7.571;2026-10-06;;;;;;;
 MA-Käfertal, DB-Bahnhof;49.502;8.503;2026-10-06;;;;;;;
 MA-Rheinau, Bahnhof;49.424;8.535;2026-10-06;;;;;;;
+MAL-Pfaffenberg, Bahnhof;48.768;12.257;2026-11-01;;;;;;;
 MG Hbf /Europaplatz;51.197;6.445;2026-10-06;;;;;;;
 Magdeburgerforth (Kleinbahn);52.234;12.197;2026-10-06;13513468487;Magdeburgerforth;;52.233355;12.196595;station;0.029
 Magdeburgerforth Lindenstr. (Kleinbahn);52.231;12.189;2026-10-06;2160701536;Magdeburgerforth Lindenstraße;;52.230602;12.189287;halt;0.007
@@ -1073,6 +1093,8 @@ Nebuzely;50.386;14.590;2026-10-06;318458340;Nebužely;;50.386216;14.589731;halt;
 Neckarau, Bahnhof;49.455;8.495;2026-10-06;294846671;Neckarau Bahnhof;;49.455359;8.494297;tram_stop;0.029
 Neckarelz, Bahnhof;49.349;9.113;2026-10-06;1606633179;Mosbach-Neckarelz;8014126;49.348757;9.112976;station;0.030
 Neckarpark;48.792;9.241;2026-10-06;3068189388;Stuttgart Neckarpark;8029377;48.791816;9.241173;station;0.016
+Neckarweih. Peter-Hebel-Str.;48.912;9.225;2026-11-01;;;;;;;
+Neckarweihingen Lechtstr.;48.910;9.223;2026-11-01;;;;;;;
 Nectava;49.657;16.780;2026-10-29;303411128;Nectava;5434037;49.657444;16.780443;halt;0.006
 Nedvezi;50.584;15.352;2026-10-06;958755224;Nedvězí;;50.584193;15.351979;halt;0.003
 Neermoor;53.306;7.437;2026-10-06;13264561772;Neermoor;;53.304909;7.437722;halt;0.070
@@ -1206,6 +1228,7 @@ Oy, Bahnhof;47.646;10.458;2026-10-06;260270845;Oy-Mittelberg;8004742;47.646311;1
 Očelice;50.243;16.063;2026-10-29;280322048;Očelice;;50.243342;16.063259;halt;0.001
 PW-Hausberge, Porta Bahnhof;52.244;8.921;2026-10-06;;;;;;;
 Pabianice;51.661;19.325;2026-10-06;7164421348;Pabianice;5100188;51.660930;19.324976;station;0.009
+Pallien, Bahnhof Pallien;49.764;6.630;2026-11-01;;;;;;;
 Pansky;50.948;14.464;2026-10-06;3203687679;Panský;5456489;50.948363;14.463032;station;0.055
 Paradies (Hettstedt);51.623;11.532;2026-10-06;1931184083;Paradies;;51.623240;11.531587;halt;0.006
 Pardubice centrum;50.032;15.773;2026-10-06;11688526513;Pardubice centrum;;50.031591;15.772637;halt;0.022
@@ -1226,6 +1249,7 @@ Petrov n.Des.zast. z;50.005;17.043;2026-10-29;;;;;;;
 Petrov u Strážnice;48.879;17.274;2026-10-29;5287727672;Petrov u Strážnice;;48.878919;17.273855;halt;0.004
 Petrovice nad Orlicí;50.174;16.046;2026-10-29;958685341;Petrovice nad Orlicí;;50.173723;16.046107;halt;0.013
 Petrovice nad Uhlavo;49.321;13.179;2026-10-06;49910338;Petrovice nad Úhlavou;;49.320790;13.179392;halt;0.033
+Pfalzel, Bahnhof Hafenstr.;49.792;6.690;2026-11-01;;;;;;;
 Pfalzel, Hafenstraße;49.792;6.690;2026-10-06;;;;;;;
 Pfennigbach Bahnhof;47.796;15.924;2026-10-23;319346822;Pfennigbach;8101349;47.795708;15.923888;halt;0.013
 Pfullendorf Bf./Stadtgarten;47.923;9.255;2026-10-06;2644451041;Pfullendorf;8070630;47.922842;9.255894;halt;0.045
@@ -1258,6 +1282,11 @@ Ponikla zastavka;50.667;15.451;2026-10-06;306539998;Poniklá zastávka;;50.66670
 Ponětovice;49.155;16.750;2026-10-29;3321572716;Ponětovice;;49.154975;16.749257;halt;0.064
 Popov;49.081;17.967;2026-10-29;13056468329;Popov;;49.080212;17.969113;halt;0.165
 Popovice u Rajhradu;49.104;16.606;2026-10-29;5300657283;Popovice u Rajhradu;;49.103318;16.605639;halt;0.021
+Poppenweiler Burghaldenstr.;48.913;9.262;2026-11-01;;;;;;;
+Poppenweiler Friedhof;48.906;9.266;2026-11-01;;;;;;;
+Poppenweiler Jahnstr.;48.904;9.271;2026-11-01;;;;;;;
+Poppenweiler Steinheimer Str.;48.910;9.265;2026-11-01;;;;;;;
+Poppenweiler Zehntscheuer;48.909;9.266;2026-11-01;;;;;;;
 Porstendorf (b. Jena), Bushaltestelle;50.979;11.648;2026-10-06;32128102;Porstendorf;8016317;50.976957;11.645392;halt;0.252
 Postoupky;49.321;17.360;2026-10-29;3307230747;Postoupky;;49.320887;17.361072;halt;0.053
 Potsdam, Golm Bhf;52.411;12.972;2026-10-06;30231539;Golm;8003512;52.409795;12.971877;station;0.084
@@ -1682,6 +1711,7 @@ Waldegg Bahnhof;47.869;16.059;2026-10-23;6844644619;Waldegg;8101745;47.868913;16
 Waldhof, Bahnhof;49.526;8.482;2026-10-06;659491374;Waldhof Bahnhof;;49.524866;8.482035;tram_stop;0.108
 Waldkirch (Brsg) Bahnhof;48.096;7.957;2026-10-06;799193164;Waldkirch;8014338;48.095699;7.957260;station;0.004
 Wangen Bahnhof;47.689;9.831;2026-10-06;6695488246;Wangen(Allgäu);8029207;47.689175;9.830586;station;0.001
+Wangen, Bahnhof;47.689;9.831;2026-11-01;6695488246;Wangen(Allgäu);8029207;47.689175;9.830586;station;0.001
 Warnitz, Bahnhof;53.184;13.877;2026-10-06;2967255953;Warnitz (Uckermark);8028329;53.183452;13.877171;halt;0.054
 Wartberg Bahnhof;47.527;15.484;2026-10-23;5849549855;Wartberg im Mürztal;8100383;47.527368;15.484727;station;0.040
 Wartenberg-Angersbach Bahnhof;50.631;9.447;2026-10-06;;;;;;;
@@ -1693,8 +1723,10 @@ Weinbach-Fürfurt Bahnhof;50.431;8.253;2026-10-06;;;;;;;
 Weinbach-Gräveneck Bahnhof;50.452;8.251;2026-10-06;;;;;;;
 Weißwasser - Ost;51.517;14.658;2026-10-06;804890504;Weißwasser - Ost;;51.516903;14.657837;station;0.009
 Weißwasser Teichstraße;51.510;14.646;2026-10-06;804890505;Weißwasser Museumsbahnhof Anlage Mitte;;51.512429;14.647746;station;0.276
+Welzheim Breitenfürst Bf;48.860;9.630;2026-11-01;;;;;;;
 Welzheim Busbahnhof;48.874;9.631;2026-10-06;286529675;Welzheim;;48.873561;9.630363;station;0.062
 Welzheim Laufenmühle;48.882;9.606;2026-10-06;;;;;;;
+Welzheim Tannwald;48.868;9.632;2026-11-01;299276328;Welzheim-Tannwald;;48.867657;9.632290;halt;0.015
 Wendling b.Haag;48.247;13.650;2026-10-06;2425645167;Wendling bei Haag;8101785;48.246526;13.650297;halt;0.019
 Wennigsen Bahnhof;52.279;9.572;2026-10-06;48172337;Wennigsen (Deister);8006336;52.279466;9.572572;station;0.025
 Werbig (MOL), Bahnhof;52.565;14.405;2026-10-06;6189996203;Werbig;8003211;52.564881;14.405038;station;0.023
