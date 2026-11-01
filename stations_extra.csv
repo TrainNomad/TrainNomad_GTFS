@@ -363,9 +363,12 @@ OSM3901345079;Zirkelschacht;;51.582800;11.526152;DE;Europe/Berlin;f;openstreetma
 OSM3958211992;Wulkaprodersdorf Rathausgasse / Vulkaprodrštof Rathausgasse;8101810;47.799079;16.496476;AT;Europe/Vienna;f;openstreetmap
 OSM3964822610;Hněvčeves;;50.312504;15.721678;CZ;Europe/Prague;f;openstreetmap
 OSM3964915344;Schwarzenau;8102444;48.746272;15.267214;AT;Europe/Vienna;f;openstreetmap
+OSM3964948506;Göpfritz;8102442;48.729738;15.394349;AT;Europe/Vienna;f;openstreetmap
+OSM3975407778;Himberg;8100950;48.081982;16.445093;AT;Europe/Vienna;f;openstreetmap
 OSM3995579063;Vesec u Liberce;;50.743540;15.080782;CZ;Europe/Prague;f;openstreetmap
 OSM4065727697;Mörsch Narzissenstraße;;48.965986;8.302440;DE;Europe/Berlin;f;openstreetmap
 OSM4065727698;Mörsch Römerstraße;;48.961430;8.297427;DE;Europe/Berlin;f;openstreetmap
+OSM410869590;Neudorf / Novo Selo;8100388;48.008846;16.938264;AT;Europe/Vienna;f;openstreetmap
 OSM4116313089;Wieselburg;;48.132221;15.142512;AT;Europe/Vienna;f;openstreetmap
 OSM4131379990;Friedrichstal Mitte;;49.104105;8.475203;DE;Europe/Berlin;f;openstreetmap
 OSM413385255;Kościan;;52.077803;16.640556;PL;Europe/Warsaw;f;openstreetmap
@@ -379,6 +382,7 @@ OSM441049049;Kreuzeck-/Alpspitzbahn;;47.472041;11.062864;DE;Europe/Berlin;f;open
 OSM4549640199;Nötsch;8101284;46.588643;13.625570;AT;Europe/Vienna;f;openstreetmap
 OSM4596175020;Svor;5456779;50.790471;14.592577;CZ;Europe/Prague;f;openstreetmap
 OSM4612558920;Adendorf;;53.282453;10.454363;DE;Europe/Berlin;f;openstreetmap
+OSM4616899143;Rybník;5475232;48.649566;14.431679;CZ;Europe/Prague;f;openstreetmap
 OSM477231267;Trnovany u Litoměřic;;50.543518;14.176555;CZ;Europe/Prague;f;openstreetmap
 OSM477231269;Horní Řepčice;;50.557402;14.265511;CZ;Europe/Prague;f;openstreetmap
 OSM48318510;Radymno;;49.939721;22.828321;PL;Europe/Warsaw;f;openstreetmap
@@ -392,6 +396,7 @@ OSM500637107;Frýdlant v Čechách předměstí;;50.926822;15.076495;PL;Europe/W
 OSM5054207269;Neudörfl;;47.793742;16.300696;AT;Europe/Vienna;f;openstreetmap
 OSM5096600085;Trier-Zewen;;49.720045;6.580967;DE;Europe/Berlin;f;openstreetmap
 OSM5096600089;Trier-Pallien;;49.763913;6.629860;DE;Europe/Berlin;f;openstreetmap
+OSM5114829424;Hohenbrugg an der Raab;8100945;46.944266;16.060235;AT;Europe/Vienna;f;openstreetmap
 OSM5142716791;Hall-Thaur;8102105;47.277113;11.474005;AT;Europe/Vienna;f;openstreetmap
 OSM526799164;Gablenz / Gora;;51.529095;14.681552;DE;Europe/Berlin;f;openstreetmap
 OSM5272794042;Gollmitz (Niederlausitz) - Chańc (Dolna Łužyca);8004336;51.704689;13.886909;DE;Europe/Berlin;f;openstreetmap
@@ -435,6 +440,7 @@ OSM6863284028;Salzburg Kasern;8101113;47.839015;13.065283;AT;Europe/Vienna;f;ope
 OSM6928038102;Grainau;;47.471821;11.023778;DE;Europe/Berlin;f;openstreetmap
 OSM7164421348;Pabianice;5100188;51.660930;19.324976;PL;Europe/Warsaw;f;openstreetmap
 OSM7453270301;Neratovice sídliště;;50.257826;14.507560;CZ;Europe/Prague;f;openstreetmap
+OSM7484127154;Baia Mare;5341638;47.647061;23.552123;UA;Europe/Kiev;f;openstreetmap
 OSM752552326;Sonnenstraße;;51.212288;6.791394;DE;Europe/Berlin;f;openstreetmap
 OSM7658075785;Hammersbach;;47.466040;11.046395;DE;Europe/Berlin;f;openstreetmap
 OSM7809398546;Eibsee;;47.456368;10.993871;DE;Europe/Berlin;f;openstreetmap
@@ -457,6 +463,7 @@ OSM8915507446;Zugspitzplatt;;47.413746;10.980627;AT;Europe/Vienna;f;openstreetma
 OSM8933659168;St. Pölten Bildungscampus;8101330;48.189707;15.615070;AT;Europe/Vienna;f;openstreetmap
 OSM907975411;Szklarska Poręba Huta;5163718;50.826662;15.497063;PL;Europe/Warsaw;f;openstreetmap
 OSM91711522;Mosonmagyaróvár;5501347;47.849425;17.267592;HU;Europe/Budapest;f;openstreetmap
+OSM9555790979;Satu Mare;5345452;47.795223;22.893128;UA;Europe/Kiev;f;openstreetmap
 OSM958755216;Pilínkov;;50.727277;15.035441;CZ;Europe/Prague;f;openstreetmap
 OSM958755219;Jaroměř zastávka;;50.357078;15.911340;CZ;Europe/Prague;f;openstreetmap
 OSM958755224;Nedvězí;;50.584193;15.351979;CZ;Europe/Prague;f;openstreetmap
