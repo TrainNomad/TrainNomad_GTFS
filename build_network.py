@@ -451,6 +451,29 @@ def to_float(v):
         return None
 
 
+def raw_coords(raw):
+    """Position d'un arrêt du flux, ou (None, None) : certains flux publient leurs gares étrangères à 0,0
+    (NS : Oberhausen-Holten, Salzburg Hbf ; ČD : Bad Schandau, Zittau), ce n'est pas une position."""
+    lat, lon = to_float(raw.get("stop_lat")), to_float(raw.get("stop_lon"))
+    if lat is None or lon is None or (abs(lat) < 0.01 and abs(lon) < 0.01):
+        return None, None
+    return lat, lon
+
+
+# mots ignorés pour reconnaître une gare à son seul nom (« Salzburg Hbf » = « Salzburg Hauptbahnhof »,
+# « Unterretzbach z » = « Unterretzbach zastávka », « Gmünd NÖ » = « Gmünd Bahnhof »)
+NAME_NOISE = {"hbf", "hauptbahnhof", "bf", "bhf", "bahnhof", "hp", "z", "zastavka", "b", "bei", "no", "sachs", "s"}
+
+
+def name_keys(name: str) -> set:
+    """Formes d'un nom de gare comparées entre flux : nom entier, sans parenthèses, avant la barre oblique
+    (« Hohenau/March Bahnhof »), chacune avec et sans les mots de NAME_NOISE."""
+    name = (name or "").replace("ß", "ss")
+    forms = {normalize_name(name), normalize_name(re.sub(r"\(.*?\)", " ", name)), normalize_name(name.split("/")[0])}
+    forms |= {" ".join(w for w in f.split() if w not in NAME_NOISE) for f in forms}
+    return {f for f in forms if f}
+
+
 def read_gtfs(z: zipfile.ZipFile, name: str):
     if name not in z.namelist():
         return None
@@ -739,6 +762,7 @@ class Referentiel:
         self.gares, self.villes = {}, {}
         self.by_code = {}       # (opérateur, stop_id) -> id de gare
         self.by_uic = {}        # UIC 7 chiffres -> id de gare
+        self.by_name = defaultdict(set)  # forme du nom (name_keys) -> ids de gare
         self.city_by_name = defaultdict(list)  # (nom normalisé, pays) -> villes
         paths = [os.path.join(folder, f) for f in ("gares.csv", "villes.csv", "codes.csv")]
         if not all(os.path.exists(p) for p in paths):
@@ -761,6 +785,9 @@ class Referentiel:
             }
             if g["uic"]:
                 self.by_uic[g["uic"]] = g["id"]
+            for n in {g["nom_fr"], g.get("nom_local", ""), g.get("nom_en", ""), g.get("nom_force", "")}:
+                for k in name_keys(n):
+                    self.by_name[k].add(g["id"])
         for gid, source, code in zip(codes["gare_id"], codes["source"], codes["code"]):
             if gid in self.gares:
                 self.by_code[(source.upper(), code)] = gid
@@ -785,6 +812,34 @@ class Referentiel:
     def match(self, op_id: str, stop_id: str):
         op = op_id.upper()
         return self.by_code.get((op, stop_id)) or self.by_code.get((self.CODE_SOURCES.get(op), stop_id))
+
+    def named(self, name: str, hint=None, max_km: float = 80.0):
+        """Gare de la base reconnue à son seul nom, pour un arrêt publié sans position. hint : position d'un
+        arrêt voisin dans le même trajet ; il départage les homonymes (Melle en Allemagne ou en Belgique) et
+        écarte une gare homonyme lointaine. Sans voisin connu, seulement un nom sans homonyme éloigné."""
+        ids = set()
+        for k in name_keys(name):
+            ids |= self.by_name.get(k, set())
+        if not ids:
+            # abréviations du flux : « Szkl. Poręba Huta » = « Szklarska Poręba Huta »
+            words = (name or "").replace("ß", "ss").split()
+            if any(w.endswith(".") for w in words):
+                q = [(normalize_name(w), w.endswith(".")) for w in words]
+                q = [(t, a) for t, a in q if t]
+                for k, gids in self.by_name.items():
+                    kt = k.split()
+                    if len(kt) == len(q) and all(x == t or (a and x.startswith(t)) for x, (t, a) in zip(kt, q)):
+                        ids |= gids
+        cands = [self.gares[i] for i in sorted(ids) if self.gares[i]["lat"] is not None]
+        if not cands:
+            return None
+        if hint:
+            best = min(cands, key=lambda g: haversine_km(hint[0], hint[1], g["lat"], g["lon"]))
+            return best["id"] if haversine_km(hint[0], hint[1], best["lat"], best["lon"]) <= max_km else None
+        first = cands[0]
+        if all(haversine_km(first["lat"], first["lon"], g["lat"], g["lon"]) <= 20 for g in cands):
+            return first["id"]
+        return None
 
     def city_named(self, name: str, country: str, lat, lon, max_km: float = 30.0):
         """Ville de la base portant ce nom, dans ce pays et à proximité (gare venue de stations.csv)."""
@@ -833,6 +888,7 @@ class NetworkBuilder:
         self.types = []
         self.trips = {}          # dédoublonnage : clé -> trip dict (bitset OR)
         self.stats = defaultdict(int)
+        self.dropped_stops = set()  # arrêts sans position ni gare reconnue, retirés des trajets (journal)
 
     # -- gares -------------------------------------------------------------
 
@@ -864,7 +920,7 @@ class NetworkBuilder:
     def wrong_gare(self, raw, gare) -> bool:
         """Gare trouvée loin de l'arrêt du flux et sans un mot de son nom. Le nom en commun garde les arrêts
         aux coordonnées fausses dans le flux (München Ost chez NS, à 5 000 km de Munich)."""
-        lat, lon = to_float(raw.get("stop_lat")), to_float(raw.get("stop_lon"))
+        lat, lon = raw_coords(raw)
         if None in (lat, lon, gare["lat"], gare["lon"]):
             return False
         if haversine_km(lat, lon, gare["lat"], gare["lon"]) <= self.MAX_MATCH_KM:
@@ -887,6 +943,16 @@ class NetworkBuilder:
                 # même UIC qu'une autre gare de la base (Klaus in Vorarlberg -> Frankenmarkt) : stations.csv seul
                 self.stats["stops_uic_rejected"] += 1
                 gid = None
+        if not gid and not rid and raw_coords(raw)[0] is None:
+            # arrêt publié sans position (gare étrangère à 0,0) : la gare de la base qui porte ce nom
+            gid = self.gares.named(raw.get("stop_name", ""), raw.get("_hint"))
+            if gid:
+                self.stats["stops_matched_by_name"] += 1
+            else:
+                # ni code, ni position, ni nom connu : l'arrêt est retiré des trajets (pas de gare à 0,0)
+                self.stats["stops_without_position_dropped"] += 1
+                self.dropped_stops.add(f"{op_id}:{raw.get('stop_name') or raw['stop_id']}")
+                return None
         if gid:
             key = "tn:" + gid
             self.stats["stops_matched_referentiel"] += 1
@@ -905,8 +971,7 @@ class NetworkBuilder:
 
         if gid:
             g = self.gares.gares[gid]
-            lat = g["lat"] if g["lat"] is not None else to_float(raw.get("stop_lat"))
-            lon = g["lon"] if g["lon"] is not None else to_float(raw.get("stop_lon"))
+            lat, lon = (g["lat"], g["lon"]) if g["lat"] is not None else raw_coords(raw)
             s = {
                 "id": g["uic"] or gid, "name": g["name"], "lat": lat, "lon": lon,
                 "tz": g["tz"] or raw.get("stop_timezone") or agency_tz, "country": g["country"],
@@ -924,8 +989,8 @@ class NetworkBuilder:
             city = self.ref.rows[city_rid]
             s = {
                 "id": row["uic"] or f"TL{rid}", "name": row["name"],
-                "lat": row["lat"] if row["lat"] is not None else to_float(raw.get("stop_lat")),
-                "lon": row["lon"] if row["lon"] is not None else to_float(raw.get("stop_lon")),
+                "lat": row["lat"] if row["lat"] is not None else raw_coords(raw)[0],
+                "lon": row["lon"] if row["lon"] is not None else raw_coords(raw)[1],
                 "tz": row["tz"] or raw.get("stop_timezone") or agency_tz,
                 "country": row["country"],
                 "city_key": "ref:" + city_rid, "city_name": city["name"], "city_country": city["country"],
@@ -949,7 +1014,7 @@ class NetworkBuilder:
                 name = name.title()
             s = {
                 "id": key, "name": name,
-                "lat": to_float(raw.get("stop_lat")), "lon": to_float(raw.get("stop_lon")),
+                "lat": raw_coords(raw)[0], "lon": raw_coords(raw)[1],
                 "tz": raw.get("stop_timezone") or agency_tz, "country": "",
                 "city_key": key, "city_name": name, "city_country": "",
                 "city_lat": None, "city_lon": None,
@@ -962,7 +1027,7 @@ class NetworkBuilder:
 
     def geo_match(self, raw):
         """Arrêt inconnu du référentiel : fusion avec une gare existante proche et de nom proche."""
-        lat, lon = to_float(raw.get("stop_lat")), to_float(raw.get("stop_lon"))
+        lat, lon = raw_coords(raw)
         if lat is None or lon is None:
             return None
         norm = normalize_name(raw.get("stop_name", ""))
@@ -1040,10 +1105,33 @@ class NetworkBuilder:
         stop_ids = st["stop_id"].to_numpy()
         trip_ids = st["trip_id"].to_numpy()
 
-        # index canonique de chaque stop_id rencontré
+        # arrêts publiés sans position : position de l'arrêt voisin le plus proche dans un trajet, pour
+        # reconnaître la gare à son nom sans la confondre avec une homonyme lointaine
+        hints = {}
+        no_pos = {sid for sid in pd.unique(stop_ids) if raw_coords(raw_stops.get(sid, {}))[0] is None}
+        if no_pos:
+            for k in np.flatnonzero(pd.Series(stop_ids).isin(no_pos).to_numpy()):
+                sid = stop_ids[k]
+                if sid in hints:
+                    continue
+                for d in range(1, 15):
+                    found = None
+                    for j in (k - d, k + d):
+                        if 0 <= j < len(stop_ids) and trip_ids[j] == trip_ids[k]:
+                            c = raw_coords(raw_stops.get(stop_ids[j], {}))
+                            if c[0] is not None:
+                                found = c
+                                break
+                    if found:
+                        hints[sid] = found
+                        break
+
+        # index canonique de chaque stop_id rencontré (None : arrêt sans position ni gare reconnue)
         canon = {}
         for sid in pd.unique(stop_ids):
             raw = raw_stops.get(sid, {"stop_id": sid})
+            if sid in hints:
+                raw = {**raw, "_hint": hints[sid]}
             canon[sid] = self.stop_for(op_id, raw, agency_tz)
 
         trip_meta = {r["trip_id"]: r for r in trips.to_dict("records")}
@@ -1055,7 +1143,7 @@ class NetworkBuilder:
         at_stop = defaultdict(list)    # gare -> (trajet, rang) des flux précédents (flux sans numéro)
         if op_id in DEDUP_AGAINST_EARLIER | DEDUP_BY_TIMES:
             same_clock = {i for i, tz in enumerate(self.timezones) if self.same_offsets(tz, agency_tz)}
-            here = set(canon.values())
+            here = set(canon.values()) - {None}
             for t in self.trips.values():
                 if t["op"] == op_idx or t["tz"] not in same_clock:
                     continue
@@ -1081,6 +1169,8 @@ class NetworkBuilder:
             seq_stops, seq_arr, seq_dep, seq_flags = [], [], [], []
             for k in range(a, b):
                 s = canon[stop_ids[k]]
+                if s is None:
+                    continue
                 f = (NO_PICKUP if no_pick[k] else 0) | (NO_DROPOFF if no_drop[k] else 0)
                 if seq_stops and seq_stops[-1] == s:
                     seq_dep[-1] = int(dep_all[k])
@@ -1705,6 +1795,9 @@ def main():
         with open(REPORT_PATH, "w", encoding="utf-8") as f:
             json.dump(dict(builder.stats), f, indent=2, ensure_ascii=False)
 
+    if builder.dropped_stops:
+        logging.warning(f"⚠️ {len(builder.dropped_stops)} arrêts sans position ni gare reconnue, retirés des trajets : "
+                        f"{', '.join(sorted(builder.dropped_stops))}")
     logging.info(f"📊 {json.dumps(dict(builder.stats), ensure_ascii=False)}")
     logging.info(f"✅ {out_bin} : {os.path.getsize(out_bin) / 1e6:.2f} Mo | .gz : {os.path.getsize(out_gz) / 1e6:.2f} Mo")
 
