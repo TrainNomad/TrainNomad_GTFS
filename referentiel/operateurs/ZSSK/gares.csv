@@ -1,0 +1,877 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN2200010;gare;Chop;Chop;Chop;2200010;;48.433651;22.206478;UA;Europe/Kyiv;Q104869815;R|RJ;;gtfs;;;;;2200010;Chop
+TN2200033;gare;Mukatschewo;Mukatschewo;Mukatschewo;2200033;;48.430191;22.711817;UA;Europe/Kyiv;Q97195034;R;;gtfs;;;;;2200033;Mukatschewo
+TN5100020;gare;Katowice Osobowa;Katowice;Katowice;5100020;;50.257607;19.017146;PL;Europe/Warsaw;Q588;EC|IC;;uic;3246621282;Q800992;;XPKA;5100020;Katowice
+TN5100065;gare;Dworzec Centralny im. Stanisława Moniuszki;Warsaw Central;Warszawa Centralna;5100065;;52.228821;21.00316;PL;Europe/Warsaw;Q270;EC|IC;;uic;9814916146;Q693034;;XPWC;5100065;Warszawa Centralna
+TN5100066;gare;Warszawa Wschodnia Osobowa;Warsaw East;Warszawa Wschodnia;5100066;;52.251589;21.052368;PL;Europe/Warsaw;Q270;EC|IC;;uic;33210583;Q3270196;;XPWW;5100066;Warszawa Wschodnia
+TN5100067;gare;Warszawa Zachodnia;Warszawa Zachodnia;Warszawa Zachodnia;5100067;;52.220157;20.965172;PL;Europe/Warsaw;Q270;EC|IC;;uic;3390821831;Q2694091;;XPWZ;5100067;Warszawa Zachodnia
+TN5100133;gare;Sosnowiec Glowny;Sosnowiec Główny;Sosnowiec Główny;5100133;;50.27895;19.126386;PL;Europe/Warsaw;Q105060;EC|IC;;uic;3455731172;Q2585729;;XPSI;5100133;Sosnowiec Glowny
+TN5100212;gare;Zawiercie;Zawiercie;Zawiercie;5100212;;50.480637;19.423162;PL;Europe/Warsaw;Q148827;EC|IC;;uic;3455716822;Q1923670;;XPZAW;5100212;Zawiercie
+TN5100250;gare;Dabrowa Gornicza;Dąbrowa Górnicza;Dąbrowa Górnicza;5100250;;50.330374;19.184823;PL;Europe/Warsaw;Q108672;EC|IC;;uic;392952267;Q5320686;;XPDGO;5100250;Dabrowa Gornicza
+TN5100260;gare;Tychy;Tychy;Tychy;5100260;;50.135768;18.964178;PL;Europe/Warsaw;Q11977;EC|IC;;uic;3689310738;Q801537;;;5100260;Tychy
+TN5100264;gare;Zebrzydowice;Zebrzydowice;Zebrzydowice;5100264;;49.87154;18.621635;PL;Europe/Warsaw;Q169521;EC|IC;;uic;3525511368;Q2202082;;XPZB;5100264;Zebrzydowice
+TN5102920;gare;Pszczyna;Pszczyna;Pszczyna;5102920;;49.97498;18.953469;PL;Europe/Warsaw;Q948304;EC|IC;;uic;2473137378;Q655923;;;5102920;Pszczyna
+TN5104398;gare;Zwardoń;Zwardoń;Zwardoń;5104398;;49.50426;18.977158;PL;Europe/Warsaw;Q379249;Os;;nom;2123554082;Q25143;;;5104398;Zwardon(PL)
+TN5104660;gare;Włoszczowa Północ;Włoszczowa Północ;Włoszczowa Północ;5104660;;50.856395;19.946045;PL;Europe/Warsaw;Q611784;EC|IC;;uic;417910859;Q2309003;;XPWLP;5104660;Wloszczowa Polnoc
+TN5104744;gare;Opoczno Poludnie;Opoczno Poludnie;Opoczno Poludnie;5104744;;51.362532;20.235533;PL;Europe/Warsaw;Q994271;EC|IC;;gtfs;;;;;5104744;Opoczno Poludnie
+TN5433014;gare;Albrechtice u Č.Těš.;Albrechtice u Č.Těš.;Albrechtice u Č.Těš.;5433014;;49.793759;18.524589;CZ;Europe/Prague;Q910497;Zr;;gtfs;;;;;5433014;Albrechtice u Č.Těš.
+TN5433104;gare;Bystřice (Bystrzyca);Bystřice (Bystrzyca);Bystřice (Bystrzyca);5433104;;49.636224;18.717326;CZ;Europe/Prague;Q265711;Os|RJ|Zr;;nom;3284163696;Q11689192;;;5433104;Bystřice (Bystrzyca)
+TN5433114;gare;Hrádek (Gródek);Hrádek (Gródek);Hrádek (Gródek);5433114;;49.613748;18.739476;CZ;Europe/Prague;Q1632600;Os|Zr;;nom;3284163697;Q9294516;;;5433114;Hrádek (Gródek)
+TN5433124;gare;Vendryně (Wędrynia);Vendryně (Wędrynia);Vendryně (Wędrynia);5433124;;49.656413;18.696064;CZ;Europe/Prague;Q1727871;Os|Zr;;nom;3284163701;Q9381371;;;5433124;Vendryně (Wedrynia)
+TN5433234;gare;Český Těšín (Czeski Cieszyn);Český Těšín (Czeski Cieszyn);Český Těšín (Czeski Cieszyn);5433234;;49.743292;18.622459;CZ;Europe/Prague;Q278877;EC|LE|Os|R|RJ|Zr;;nom;3274267878;Q1929319;;;5433234;Český Těšín (Czeski Cieszyn)
+TN5433244;gare;Chotěbuz (Kocobędz);Chotěbuz (Kocobędz);Chotěbuz (Kocobędz);5433244;;49.781418;18.598251;CZ;Europe/Prague;Q1115905;Os;;nom;3274267642;Q11740733;;;5433244;Chotěbuz (Kocobedz)
+TN5433254;gare;Ropice zast. (Ropica przystanek);Ropice zast. (Ropica przystanek);Ropice zast. (Ropica przystanek);5433254;;49.717541;18.626394;CZ;Europe/Prague;Q278877;Os;;gtfs;;;;;5433254;Ropice zast. (Ropica przystanek)
+TN5433274;gare;Dětmarovice;Dětmarovice;Dětmarovice;5433274;;49.900228;18.466472;CZ;Europe/Prague;Q1025177;Os;;nom;3272604319;Q9248715;;;5433274;Dětmarovice
+TN5433295;gare;Brno hlavní nádraží;Brno hlavní nádraží;Brno hlavní nádraží;5433295;;49.190666;16.613257;CZ;Europe/Prague;Q14960;EC|RJ|rj;;uic;3325029085;Q921772;;;5433295;Brno hl.n.
+TN5433312;gare;Červenka;Červenka;Červenka;5433312;;49.723984;17.09132;CZ;Europe/Prague;Q339735;EC;;uic;5652207529;Q9393809;;;5433312;Červenka
+TN5433395;gare;Brno-Židenice;Brno-Židenice;Brno-Židenice;5433395;;49.204145;16.636105;CZ;Europe/Prague;Q14960;RJ;;uic;3325196997;Q25416073;;;5433395;Brno-Židenice
+TN5433425;gare;Břeclav;Břeclav;Břeclav;5433425;;48.753971;16.893266;CZ;Europe/Prague;Q581478;EC|EN|IC|LE|Os|RJ|rj;;uic;3315724401;Q5005700;;;5433425;Břeclav
+TN5433454;gare;Havířov;Havířov;Havířov;5433454;;49.791696;18.412488;CZ;Europe/Prague;Q192904;RJ|Zr;;nom;3261711037;Q14435151;;;5433454;Havířov
+TN5433461;gare;Havířov střed;Havířov střed;Havířov střed;5433461;;49.788292;18.439658;CZ;Europe/Prague;Q192904;Zr;;nom;5179472787;Q24948476;;;5433461;Havířov střed
+TN5433474;gare;Havířov-Suchá;Havířov-Suchá;Havířov-Suchá;5433474;;49.790791;18.460519;CZ;Europe/Prague;Q192904;Zr;;nom;3261711038;Q9286785;;;5433474;Havířov-Suchá
+TN5433484;gare;Horní Suchá;Horní Suchá;Horní Suchá;5433484;;49.792885;18.488045;CZ;Europe/Prague;Q599055;Zr;;nom;3261711039;Q9347765;;;5433484;Horní Suchá
+TN5433624;gare;Návsí (Nawsie);Návsí (Nawsie);Návsí (Nawsie);5433624;;49.589997;18.754417;CZ;Europe/Prague;Q2006359;EC|Os|R|RJ|Zr;;nom;3284163700;Q11794281;;;5433624;Návsí (Nawsie)
+TN5433634;gare;Bocanovice (Boconowice);Bocanovice (Boconowice);Bocanovice (Boconowice);5433634;;49.563714;18.740286;CZ;Europe/Prague;Q888969;Os|Zr;;nom;3284163695;Q9174893;;;5433634;Bocanovice (Boconowice)
+TN5433652;gare;Horní Lideč;Horní Lideč;Horní Lideč;5433652;;49.189126;18.058349;CZ;Europe/Prague;Q1022342;EC;;uic;5652315514;Q66827665;;;5433652;Horní Lideč
+TN5433674;gare;Karviná hl.n.;Karviná hl.n.;Karviná hl.n.;5433674;;49.856446;18.526815;CZ;Europe/Prague;Q191793;EC|LE|Os|R;;gtfs;;;;;5433674;Karviná hl.n.
+TN5433722;gare;Hranice na Moravě;Hranice na Moravě;Hranice na Moravě;5433722;;49.56544;17.742001;CZ;Europe/Prague;Q638306;EC|IC|LE|RJ;;nom;3266743006;Q9294436;;;5433722;Hranice na Moravě
+TN5433845;gare;Hodonín;Hodonín;Hodonín;5433845;;48.856315;17.122051;CZ;Europe/Prague;Q321778;EC|IC|LE|Os;;uic;5278533873;Q17750111;;;5433845;Hodonín
+TN5433984;gare;Louky n.Olší;Louky n.Olší;Louky n.Olší;5433984;;49.796138;18.586767;CZ;Europe/Prague;Q191793;Os;;gtfs;;;;;5433984;Louky n.Olší
+TN5433985;gare;Hulín;Hulín;Hulín;5433985;;49.316462;17.476718;CZ;Europe/Prague;Q541071;EC|LE;;uic;3307230743;Q18180256;;;5433985;Hulín
+TN5434042;gare;Lipník nad Bečvou;Lipník nad Bečvou;Lipník nad Bečvou;5434042;;49.529178;17.572779;CZ;Europe/Prague;Q1021080;EC;;uic;3300077229;Q11757749;;;5434042;Lipník n.Bečvou
+TN5434104;gare;Mosty u Jablunkova (Mosty kolo Jabl.);Mosty u Jablunkova (Mosty kolo Jabl.);Mosty u Jablunkova (Mosty kolo Jabl.);5434104;;49.525208;18.751275;CZ;Europe/Prague;Q1949570;Os|Zr;;gtfs;;;;;5434104;Mosty u Jablunkova (Mosty kolo Jabl.)
+TN5434114;gare;Mosty u Jablunkova z. (Mosty kolo J.pr.);Mosty u Jablunkova z. (Mosty kolo J.pr.);Mosty u Jablunkova z. (Mosty kolo J.pr.);5434114;;49.508851;18.751182;CZ;Europe/Prague;Q1949570;Os|Zr;;gtfs;;;;;5434114;Mosty u Jablunkova z. (Mosty kolo J.pr.)
+TN5434124;gare;Bohumín osobní nádraží;Bohumín;Bohumín;5434124;;49.900749;18.359597;CZ;Europe/Prague;Q890949;EC|EN|IC|LE|Os|R;;nom;3271358589;Q4189414;;XTBO;5434124;Bohumín
+TN5434134;gare;Dolní Lutyně;Dolní Lutyně;Dolní Lutyně;5434134;;49.912487;18.414389;CZ;Europe/Prague;Q367267;Os;;nom;3272604317;Q11764364;;;5434134;Dolní Lutyně
+TN5434282;gare;Mohelnice;Mohelnice;Mohelnice;5434282;;49.776926;16.942696;CZ;Europe/Prague;Q587388;EC;;uic;12920648672;Q11784678;;;5434282;Mohelnice
+TN5434362;gare;Olomouc hlavní nádraží;Olomouc hlavní nádraží;Olomouc hlavní nádraží;5434362;;49.592844;17.278345;CZ;Europe/Prague;Q81137;EC|EN|LE|RJ|SC;;uic;2506544888;Q11798083;;;5434362;Olomouc hl.n.
+TN5434364;gare;Ostrava hl.n.;Ostrava hl.n.;Ostrava hl.n.;5434364;;49.850914;18.264026;CZ;Europe/Prague;Q8385;EC|EN|IC|LE|Os|R|RJ|SC|Zr;;gtfs;;;;;5434364;Ostrava hl.n.
+TN5434384;gare;Ostrava-Mar.Hory;Ostrava-Mar.Hory;Ostrava-Mar.Hory;5434384;;49.837743;18.239222;CZ;Europe/Prague;Q8385;Os;;gtfs;;;;;5434384;Ostrava-Mar.Hory
+TN5434393;gare;Ostrava-Stodolní;Ostrava-Stodolní;Ostrava-Stodolní;5434393;;49.835079;18.280429;CZ;Europe/Prague;Q8385;RJ|Zr;;nom;3259758513;Q11800683;;;5434393;Ostrava-Stodolní
+TN5434394;gare;Ostrava střed;Ostrava střed;Ostrava střed;5434394;;49.829107;18.282909;CZ;Europe/Prague;Q8385;Zr;;nom;3259758510;Q11800690;;;5434394;Ostrava střed
+TN5434414;gare;Ostrava-Kunčice;Ostrava-Kunčice;Ostrava-Kunčice;5434414;;49.790682;18.291476;CZ;Europe/Prague;Q8385;Zr;;nom;3259758511;Q11800681;;;5434414;Ostrava-Kunčice
+TN5434434;gare;Ostrava-Svinov;Ostrava-Svinov;Ostrava-Svinov;5434434;;49.821034;18.209889;CZ;Europe/Prague;Q8385;EC|EN|IC|LE|Os|R|RJ|SC|Zr;;uic;3268545280;Q11800686;;;5434434;Ostrava-Svinov
+TN5434662;gare;Přerov;Přerov;Přerov;5434662;;49.447051;17.444805;CZ;Europe/Prague;Q470380;EC|IC|LE;;uic;3266780396;Q11829137;;;5434662;Přerov
+TN5434694;gare;Studénka;Studénka;Studénka;5434694;;49.707563;18.066607;CZ;Europe/Prague;Q1019371;EC|LE;;nom;3268545288;Q9347487;;;5434694;Studénka
+TN5434804;gare;Suchdol n.Odrou;Suchdol n.Odrou;Suchdol n.Odrou;5434804;;49.643008;17.938514;CZ;Europe/Prague;Q1553447;EC|LE;;gtfs;;;;;5434804;Suchdol n.Odrou
+TN5434924;gare;Třinec (Trzyniec);Třinec (Trzyniec);Třinec (Trzyniec);5434924;;49.687769;18.661267;CZ;Europe/Prague;Q986102;Os|Zr;;nom;3274267647;Q9362396;;;5434924;Třinec (Trzyniec)
+TN5434934;gare;Třinec-Konská (Trzyniec-Końska);Třinec-Konská (Trzyniec-Końska);Třinec-Konská (Trzyniec-Końska);5434934;;49.702288;18.640933;CZ;Europe/Prague;Q986102;Os;;nom;3274267648;Q9363912;;;5434934;Třinec-Konská (Trzyniec-Konska)
+TN5434944;gare;Třinec centrum (Trzyniec Centrum);Třinec centrum (Trzyniec Centrum);Třinec centrum (Trzyniec Centrum);5434944;;49.670891;18.680862;CZ;Europe/Prague;Q986102;EC|LE|Os|R|RJ|Zr;;nom;3274267646;Q25401614;;;5434944;Třinec centrum (Trzyniec centrum)
+TN5435162;gare;Valašské Meziříčí;Valašské Meziříčí;Valašské Meziříčí;5435162;;49.474516;17.960714;CZ;Europe/Prague;Q375651;EC;;uic;3266743007;Q17749999;;;5435162;Valašské Meziříčí
+TN5435442;gare;Vsetín;Vsetín;Vsetín;5435442;;49.334941;17.994349;CZ;Europe/Prague;Q513417;EC;;uic;3379890319;Q17750066;;;5435442;Vsetín
+TN5435502;gare;Zábřeh na Moravě;Zábřeh na Moravě;Zábřeh na Moravě;5435502;;49.872206;16.887082;CZ;Europe/Prague;Q246634;EC|LE|RJ;;uic;4274477550;Q9393250;;;5435502;Zábřeh na Moravě
+TN5435575;gare;Otrokovice;Otrokovice;Otrokovice;5435575;;49.202509;17.531271;CZ;Europe/Prague;Q1009095;EC|IC|LE;;uic;3309263057;Q17749933;;;5435575;Otrokovice
+TN5435875;gare;Rohatec;Rohatec;Rohatec;5435875;;48.892844;17.198503;CZ;Europe/Prague;Q2660139;Os;;uic;5278524280;Q19401345;;;5435875;Rohatec
+TN5435885;gare;Rohatec zast.;Rohatec zast.;Rohatec zast.;5435885;;48.884199;17.178466;CZ;Europe/Prague;Q2660139;Os;;gtfs;;;;;5435885;Rohatec zast.
+TN5435895;gare;Rohatec kolonie (zast);Rohatec kolonie (zast);Rohatec kolonie (zast);5435895;;48.892438;17.212347;CZ;Europe/Prague;Q2660139;Os;;nom;280340121;Q19401346;;;5435895;Rohatec kolonie
+TN5436145;gare;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;5436145;;49.07623;17.422699;CZ;Europe/Prague;Q1009003;EC|IC|LE;;uic;5648139217;Q22808398;;;5436145;Staré Město u Uh.Hrad.
+TN5436795;gare;Veselí nad Moravou;Veselí nad Moravou;Veselí nad Moravou;5436795;;48.948902;17.382436;CZ;Europe/Prague;Q105198;Os;;uic;5287641089;Q17749949;;;5436795;Veselí n.Moravou
+TN5437085;gare;Sudoměřice nad Moravou;Sudoměřice nad Moravou;Sudoměřice nad Moravou;5437085;;48.87177;17.243201;CZ;Europe/Prague;Q2359219;Os;;uic;5287727673;Q19401493;;;5437085;Sudoměřice n.Moravou
+TN5437095;gare;Strážnice;Strážnice;Strážnice;5437095;;48.897513;17.318525;CZ;Europe/Prague;Q304189;Os;;uic;5287727671;Q18180529;;;5437095;Strážnice
+TN5437105;gare;Petrov u Strážnice;Petrov u Strážnice;Petrov u Strážnice;5437105;;48.878919;17.273855;CZ;Europe/Prague;Q2220839;Os;;nom;5287727672;Q19401236;;;5437105;Petrov u Strážnice
+TN5437115;gare;Vnorovy;Vnorovy;Vnorovy;5437115;;48.93081;17.347593;CZ;Europe/Prague;Q605873;Os;;nom;5287727670;Q19366265;;;5437115;Vnorovy
+TN5437125;gare;Blatnice p.Sv.Antonínkem;Blatnice p.Sv.Antonínkem;Blatnice p.Sv.Antonínkem;5437125;;48.941619;17.439323;CZ;Europe/Prague;Q882122;Os;;gtfs;;;;;5437125;Blatnice p.Sv.Antonínkem
+TN5437135;gare;Lipov;Lipov;Lipov;5437135;;48.909795;17.457889;CZ;Europe/Prague;Q1827421;Os;;uic;5287976960;Q19400894;;;5437135;Lipov
+TN5437145;gare;Velká n.Veličkou;Velká n.Veličkou;Velká n.Veličkou;5437145;;48.879652;17.510713;CZ;Europe/Prague;Q1974421;Os;;gtfs;;;;;5437145;Velká n.Veličkou
+TN5437155;gare;Louka u Ostrohu;Louka u Ostrohu;Louka u Ostrohu;5437155;;48.912283;17.484474;CZ;Europe/Prague;Q2405777;Os;;nom;5287976959;Q25402376;;;5437155;Louka u Ostrohu
+TN5437175;gare;Javorník n.Veličkou zast.;Javorník n.Veličkou zast.;Javorník n.Veličkou zast.;5437175;;48.861881;17.520618;CZ;Europe/Prague;Q1974421;Os;;gtfs;;;;;5437175;Javorník n.Veličkou zast.
+TN5437185;gare;Vlárský průsmyk;Vlárský průsmyk;Vlárský průsmyk;5437185;;49.033053;18.053031;CZ;Europe/Prague;Q992481;Os;;uic;282575960;Q56325053;;;5437185;Vlárský průsmyk
+TN5437205;gare;Veselí n.Mor.-Zarazice;Veselí n.Mor.-Zarazice;Veselí n.Mor.-Zarazice;5437205;;48.938169;17.361413;CZ;Europe/Prague;Q105198;Os;;gtfs;;;;;5437205;Veselí n.Mor.-Zarazice
+TN5453179;gare;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;5453179;;50.659434;14.044516;CZ;Europe/Prague;Q156974;rj;;uic;4171354660;Q14806970;;;5453179;Ústí n.L.hl.n.
+TN5453414;gare;Kolín;Kolín;Kolín;5453414;;50.02533;15.2144;CZ;Europe/Prague;Q470369;EC|EN|LE|SC|rj;;uic;24684084;Q166594;;;5453414;Kolín
+TN5453513;gare;Přelouč;Přelouč;Přelouč;5453513;;50.039657;15.574504;CZ;Europe/Prague;Q1018341;EC;;uic;5646282699;Q2356255;;;5453513;Přelouč
+TN5453613;gare;Pardubice hl.n.;Pardubice hl.n.;Pardubice hl.n.;5453613;;50.032598;15.756362;CZ;Europe/Prague;Q36989;EC|EN|LE|RJ|SC|rj;;gtfs;;;;;5453613;Pardubice hl.n.
+TN5453813;gare;Choceň;Choceň;Choceň;5453813;;49.99372;16.223163;CZ;Europe/Prague;Q1019936;EC;;uic;24952579;Q2621367;;;5453813;Choceň
+TN5453863;gare;Ústí nad Orlicí;Ústí nad Orlicí;Ústí nad Orlicí;5453863;;49.971365;16.377982;CZ;Europe/Prague;Q330409;EC|LE;;uic;1315020489;Q2164159;;;5453863;Ústí n.Orlicí
+TN5453873;gare;Ústí nad Orlicí město;Ústí nad Orlicí město;Ústí nad Orlicí město;5453873;;49.96856;16.395415;CZ;Europe/Prague;Q330409;EC;;uic;4640755616;Q2540436;;;5453873;Ústí n.Orlicí město
+TN5453913;gare;Ceska Trebova;Česká Třebová;Česká Třebová;5453913;;49.897076;16.446678;CZ;Europe/Prague;Q341056;EC|EN|RJ|rj;;uic;3129289404;Q2321172;;;5453913;Česká Třebová
+TN5454333;gare;Svitavy;Svitavy;Svitavy;5454333;;49.759449;16.479449;CZ;Europe/Prague;Q755698;rj;;uic;5298253349;Q18180534;;;5454333;Svitavy
+TN5455659;gare;Decin hl.n.;Děčín hlavní nádraží;Děčín hlavní nádraží;5455659;;50.773478;14.201296;CZ;Europe/Prague;Q146307;rj;;uic;5062517821;Q15735008;;XTD;5455659;Děčín hl.n.
+TN5457076;gare;Praha hlavní nádraží;Prague Main Station;Praha hlavní nádraží;5457076;;50.082963;14.436094;CZ;Europe/Prague;Q1085;EC|EN|LE|RJ|SC|rj;;uic;3134751791;Q751174;;;5457076;Praha hl.n.
+TN5457176;gare;Praha-Libeň;Praha-Libeň;Praha-Libeň;5457176;;50.100758;14.501812;CZ;Europe/Prague;Q1085;EC|LE|rj;;uic;9969044666;Q3503816;;;5457176;Praha-Libeň
+TN5457256;gare;Praha-Holešovice;Praha-Holešovice;Praha-Holešovice;5457256;;50.110658;14.439751;CZ;Europe/Prague;Q1085;rj;;nom;3134733933;Q373868;;;5457256;Praha-Holešovice
+TN5457279;gare;Praha-Zahradní Město;Praha-Zahradní Město;Praha-Zahradní Město;5457279;;50.062156;14.503569;CZ;Europe/Prague;Q1085;RJ;;uic;7117714960;Q70907000;;;5457279;Praha-Zahradní Město
+TN5458377;gare;Praha-Michle autovlak;Praha-Michle autovlak;Praha-Michle autovlak;5458377;;50.052943;14.469878;CZ;Europe/Prague;Q1085;EN;;uic;13094340825;;;;5458377;Praha-Michle autovlak
+TN5500002;gare;Rajka;Rajka;Rajka;5500002;;47.994353;17.192919;HU;Europe/Budapest;Q1009081;Os|RRR;;nom;11876769768;Q12815768;;;5500002;Rajka
+TN5500003;gare;Budapest-Keleti;Budapest Keleti Station;Budapest-Keleti;5500003;;47.500412;19.08398;HU;Europe/Budapest;Q1781;EC|IC;;nom;3141893115;Q841167;;XMBK;5500003;Budapest-Keleti pu
+TN5500006;gare;Szob;Szob;Szob;5500006;;47.82106;18.861938;HU;Europe/Budapest;Q429409;EC|IC|rj;;nom;1684065427;Q21866926;;;5500006;Szob
+TN5500011;gare;Hatvan;Hatvan;Hatvan;5500011;;47.663126;19.671233;HU;Europe/Budapest;Q629849;EC|IC;;nom;243750414;Q5191800;;;5500011;Hatvan
+TN5500015;gare;Mezőkövesd;Mezőkövesd;Mezőkövesd;5500015;;47.797362;20.567908;HU;Europe/Budapest;Q933638;EC|IC;;nom;247091862;Q22074424;;;5500015;Mezökövesd
+TN5500017;gare;Hegyeshalom;Hegyeshalom;Hegyeshalom;5500017;;47.91321;17.146734;HU;Europe/Budapest;Q1012768;Os|RRR;;nom;11878737947;Q553145;;;5500017;Hegyeshalom
+TN5500018;gare;Miskolc Tiszai pu;Miskolc Tiszai pu;Miskolc Tiszai pu;5500018;;48.099528;20.810509;HU;Europe/Budapest;Q102397;EC|IC;;gtfs;;;;;5500018;Miskolc Tiszai pu
+TN5500033;gare;Forró-Encs;Forró-Encs;Forró-Encs;5500033;;48.327364;21.11748;HU;Europe/Budapest;Q855060;EC|IC;;nom;5972892361;Q22071391;;;5500033;Forro-Encs
+TN5500034;gare;Hidasnémeti;Hidasnémeti;Hidasnémeti;5500034;;48.508873;21.230136;HU;Europe/Budapest;Q691644;EC|IC;;nom;499511195;Q12814599;;;5500034;Hidasnemeti
+TN5500299;gare;Bezenye;Bezenye;Bezenye;5500299;;47.97338;17.207742;HU;Europe/Budapest;Q1009081;Os|RRR;;nom;8893458883;Q21891719;;;5500299;Bezenye
+TN5500610;gare;Halmaj;Halmaj;Halmaj;5500610;;48.246335;20.991338;HU;Europe/Budapest;Q1006959;EC|IC;;nom;1065129962;Q22071388;;;5500610;Halmaj
+TN5500728;gare;Budapest-Nyugati;Budapest-Nyugati;Budapest-Nyugati;5500728;;47.51072;19.05748;HU;Europe/Budapest;Q1781;EC|EN|IC|rj;;nom;3010560233;Q522868;;XMBN;5500728;Budapest-Nyugati pu
+TN5500913;gare;Nagymaros-Visegrád;Nagymaros-Visegrád;Nagymaros-Visegrád;5500913;;47.791081;18.958887;HU;Europe/Budapest;Q282460;EC|IC|rj;;nom;3141610637;Q21866920;;;5500913;Nagymaros-Visegrad
+TN5500949;gare;Novajidrány;Novajidrány;Novajidrány;5500949;;48.403638;21.170075;HU;Europe/Budapest;Q631397;EC|IC;;nom;1212433939;Q22071393;;;5500949;Novajidrany
+TN5501273;gare;Szikszó-Vásártér;Szikszó-Vásártér;Szikszó-Vásártér;5501273;;48.193037;20.934789;HU;Europe/Budapest;Q854913;EC|IC;;nom;1060125632;Q22071385;;;5501273;Szikszo-Vasarter
+TN5501413;gare;Vác;Vác;Vác;5501413;;47.782719;19.13301;HU;Europe/Budapest;Q207408;EC|EN|IC|rj;;nom;1687607528;Q21850265;;;5501413;Vac
+TN5501494;gare;Sopron;Sopron;Sopron;5501494;;47.677649;16.586891;HU;Europe/Budapest;Q168648;REX;;nom;9481803762;Q1007116;;;5501494;Sopron
+TN5501582;gare;Ináncs;Ináncs;Ináncs;5501582;;48.289286;21.053667;HU;Europe/Budapest;Q935342;EC|IC;;nom;1065129673;Q22071390;;;5501582;Inancs
+TN5613011;gare;Ľubochňa;Ľubochňa;Ľubochňa;5613011;;49.126957;19.172132;SK;Europe/Bratislava;Q344696;Os;;uic;5236529666;Q63410828;;;5613011;Ľubochňa
+TN5613013;gare;Martin;Martin;Martin;5613013;;49.064932;18.915504;SK;Europe/Bratislava;Q27001;Os|R;;uic;455084798;Q108538575;;;5613013;Martin
+TN5613016;gare;Kúty;Kúty;Kúty;5613016;;48.661951;17.047464;SK;Europe/Bratislava;Q1018849;EC|EN|IC|Os|rj;;uic;3350963373;Q4851;;;5613016;Kúty
+TN5613021;gare;Stankovany;Stankovany;Stankovany;5613021;;49.143653;19.172948;SK;Europe/Bratislava;Q653121;Os;;uic;5236529684;Q65192758;;;5613021;Stankovany
+TN5613023;gare;Košťany nad Turcom;Košťany nad Turcom;Košťany nad Turcom;5613023;;49.028679;18.905857;SK;Europe/Bratislava;Q964999;Os;;uic;455084809;Q111699372;;;5613023;Košťany n.Turcom
+TN5613026;gare;Brodské;Brodské;Brodské;5613026;;48.69269;17.023027;SK;Europe/Bratislava;Q924922;Os;;uic;3350963365;Q53256110;;;5613026;Brodské
+TN5613031;gare;Švošov;Švošov;Švošov;5613031;;49.122625;19.194668;SK;Europe/Bratislava;Q1072407;Os;;uic;257792483;Q65190665;;;5613031;Švošov
+TN5613033;gare;Príbovce-Rakovo;Príbovce-Rakovo;Príbovce-Rakovo;5613033;;48.993721;18.879615;SK;Europe/Bratislava;Q1186084;Os;;uic;30727710;Q111703208;;;5613033;Príbovce-Rakovo
+TN5613036;gare;Kuklov;Kuklov;Kuklov;5613036;;48.649366;17.069678;SK;Europe/Bratislava;Q875426;Os;;uic;387185143;Q22807288;;;5613036;Kuklov
+TN5613041;gare;Ružomberok;Ružomberok;Ružomberok;5613041;;49.083499;19.30923;SK;Europe/Bratislava;Q27541;EC|EN|Ex|LE|Os|R|RJ|SC;;uic;257790771;Q801384;;;5613041;Ružomberok
+TN5613043;gare;Kláštor pod Znievom;Kláštor pod Znievom;Kláštor pod Znievom;5613043;;48.956432;18.852721;SK;Europe/Bratislava;Q764320;Os;;uic;272487239;Q111701696;;;5613043;Kláštor p.Znievom
+TN5613046;gare;Sekule;Sekule;Sekule;5613046;;48.607722;17.018998;SK;Europe/Bratislava;Q617485;Os;;uic;282377198;Q22807285;;;5613046;Sekule
+TN5613051;gare;Hrboltová;Hrboltová;Hrboltová;5613051;;49.099979;19.247942;SK;Europe/Bratislava;Q27541;Os;;uic;257791471;Q65190504;;;5613051;Hrboltová
+TN5613053;gare;Diviaky;Diviaky;Diviaky;5613053;;48.875928;18.850513;SK;Europe/Bratislava;Q135647;Os;;uic;455084858;Q108538569;;;5613053;Diviaky
+TN5613056;gare;Moravský Svätý Ján;Moravský Svätý Ján;Moravský Svätý Ján;5613056;;48.587383;17.009065;SK;Europe/Bratislava;Q203687;Os;;uic;3350963374;Q47012045;;;5613056;Moravský Svätý Ján
+TN5613061;gare;Ružomberok-Rybárpole;Ružomberok-Rybárpole;Ružomberok-Rybárpole;5613061;;49.086059;19.281431;SK;Europe/Bratislava;Q27541;Os;;uic;10186163188;Q65192748;;;5613061;Ružomberok-Rybárpole
+TN5613063;gare;Jazernica;Jazernica;Jazernica;5613063;;48.928083;18.834499;SK;Europe/Bratislava;Q247283;Os;;uic;272487261;Q111701762;;;5613063;Jazernica
+TN5613066;gare;Veľké Leváre;Veľké Leváre;Veľké Leváre;5613066;;48.5091;17.018643;SK;Europe/Bratislava;Q780356;Os;;uic;3334032453;Q52791954;;;5613066;Veľké Leváre
+TN5613073;gare;Malý Čepčín;Malý Čepčín;Malý Čepčín;5613073;;48.904624;18.843417;SK;Europe/Bratislava;Q1091704;Os;;uic;455084852;Q111697957;;;5613073;Malý Čepčín
+TN5613076;gare;Závod;Závod;Závod;5613076;;48.539214;17.007648;SK;Europe/Bratislava;Q247102;Os;;uic;3334032454;Q47012042;;;5613076;Závod
+TN5613081;gare;Liptovská Teplá;Liptovská Teplá;Liptovská Teplá;5613081;;49.099743;19.416591;SK;Europe/Bratislava;Q1021194;Os;;uic;11082970787;Q65192713;;;5613081;Liptovská Teplá
+TN5613083;gare;Turčianske Teplice;Turčianske Teplice;Turčianske Teplice;5613083;;48.862903;18.853779;SK;Europe/Bratislava;Q135647;Os|R;;uic;990175345;Q111686199;;;5613083;Turčianske Teplice
+TN5613086;gare;Malacky;Malacky;Malacky;5613086;;48.432541;17.023091;SK;Europe/Bratislava;Q837464;Os;;uic;3329784546;Q47012036;;;5613086;Malacky
+TN5613091;gare;Lisková zastávka;Lisková zastávka;Lisková zastávka;5613091;;49.087373;19.353791;SK;Europe/Bratislava;Q1095668;Os;;uic;257765425;;;;5613091;Lisková zast.
+TN5613093;gare;Horná Štubňa;Horná Štubňa;Horná Štubňa;5613093;;48.792795;18.881809;SK;Europe/Bratislava;Q999490;Os;;uic;272487293;Q65782945;;;5613093;Horná Štubňa
+TN5613096;gare;Zohor;Zohor;Zohor;5613096;;48.325753;16.991373;SK;Europe/Bratislava;Q218398;Os;;nom;6646508753;Q52791957;;;5613096;Zohor
+TN5613101;gare;Liptovský Mikuláš;Liptovský Mikuláš;Liptovský Mikuláš;5613101;;49.092232;19.605126;SK;Europe/Bratislava;Q272040;EC|EN|Ex|LE|Os|R|RJ|SC;;uic;8441919177;Q53768626;;;5613101;Liptovský Mikuláš
+TN5613103;gare;Horná Štubňa zastávka;Horná Štubňa zastávka;Horná Štubňa zastávka;5613103;;48.822613;18.869788;SK;Europe/Bratislava;Q999490;Os;;uic;400912139;Q111702067;;;5613103;Horná Štubňa zast.
+TN5613106;gare;Plavecký Štvrtok;Plavecký Štvrtok;Plavecký Štvrtok;5613106;;48.373078;17.007737;SK;Europe/Bratislava;Q163449;Os;;uic;282377194;Q47012031;;;5613106;Plavecký Štvrtok
+TN5613113;gare;Turček;Turček;Turček;5613113;;48.759273;18.917641;SK;Europe/Bratislava;Q669698;Os;;uic;661293218;Q111686203;;;5613113;Turček
+TN5613123;gare;Kremnica;Kremnica;Kremnica;5613123;;48.697505;18.924101;SK;Europe/Bratislava;Q754776;Os;;uic;408541630;Q108538572;;;5613123;Kremnica
+TN5613131;gare;Okoličné;Okoličné;Okoličné;5613131;;49.07663;19.651797;SK;Europe/Bratislava;Q272040;Os;;uic;5707475372;Q65192735;;;5613131;Okoličné
+TN5613133;gare;Kremnické Bane;Kremnické Bane;Kremnické Bane;5613133;;48.742896;18.90277;SK;Europe/Bratislava;Q1072423;Os;;uic;356610538;Q108538573;;;5613133;Kremnické Bane
+TN5613136;gare;Devínska Nová Ves;Devínska Nová Ves;Devínska Nová Ves;5613136;;48.219078;16.976362;SK;Europe/Bratislava;Q1780;Os|REX|RRR;;uic;3350963367;Q12781947;;;5613136;Devínska N.Ves
+TN5613141;gare;Liptovský Hrádok;Liptovský Hrádok;Liptovský Hrádok;5613141;;49.038002;19.721399;SK;Europe/Bratislava;Q338528;Os;;uic;27317525;Q65194535;;;5613141;Liptovský Hrádok
+TN5613146;gare;Devínske Jazero;Devínske Jazero;Devínske Jazero;5613146;;48.250488;16.961039;SK;Europe/Bratislava;Q1780;Os;;uic;10186163185;;;;5613146;Devínske Jazero
+TN5613151;gare;Podtureň;Podtureň;Podtureň;5613151;;49.059182;19.695301;SK;Europe/Bratislava;Q776692;Os;;uic;5707483917;Q65192743;;;5613151;Podtureň
+TN5613153;gare;Bartošova Lehôtka;Bartošova Lehôtka;Bartošova Lehôtka;5613153;;48.637313;18.911923;SK;Europe/Bratislava;Q790954;Os;;uic;828149143;Q108538565;;;5613153;Bartošova Lehôtka
+TN5613161;gare;Kráľova Lehota;Kráľova Lehota;Kráľova Lehota;5613161;;49.025644;19.786514;SK;Europe/Bratislava;Q290920;Os;;uic;848478071;Q65194533;;;5613161;Kráľova Lehota
+TN5613163;gare;Jastrabá;Jastrabá;Jastrabá;5613163;;48.644025;18.924376;SK;Europe/Bratislava;Q779854;Os;;uic;276558270;Q111701764;;;5613163;Jastrabá
+TN5613166;gare;Bratislava-Lamač;Bratislava-Lamač;Bratislava-Lamač;5613166;;48.184637;17.051061;SK;Europe/Bratislava;Q1780;Os;;uic;8223326625;Q4180549;;;5613166;Bratislava-Lamač
+TN5613171;gare;Východná;Východná;Východná;5613171;;49.050408;19.916756;SK;Europe/Bratislava;VTN5613171;Os;;uic;5236504031;Q63440089;;;5613171;Východná
+TN5613176;gare;Bratislava-Železná studienka;Bratislava-Železná studienka;Bratislava-Železná studienka;5613176;;48.174597;17.072783;SK;Europe/Bratislava;Q1780;Os;;uic;3350963364;Q4178862;;;5613176;Bratislava-Železná studienka
+TN5613181;gare;Liptovské Vlachy;Liptovské Vlachy;Liptovské Vlachy;5613181;;49.087864;19.474477;SK;Europe/Bratislava;Q240903;Os;;uic;257763988;Q65192715;;;5613181;Liptovské Vlachy
+TN5613183;gare;Hronská Dúbrava;Hronská Dúbrava;Hronská Dúbrava;5613183;;48.576267;18.989919;SK;Europe/Bratislava;Q999068;Os|R;;uic;246660165;Q28597439;;;5613183;Hronská Dúbrava
+TN5613193;gare;Trnavá Hora;Trnavá Hora;Trnavá Hora;5613193;;48.591701;18.948882;SK;Europe/Bratislava;Q289376;Os;;uic;828148910;Q111686221;;;5613193;Trnavá Hora
+TN5613200;gare;Štrba;Štrba;Štrba;5613200;;49.083925;20.064785;SK;Europe/Bratislava;Q373739;EC|EN|Ex|LE|Os|RJ|SC;;uic;9040800059;Q8082891;;;5613200;Štrba
+TN5613206;gare;Bratislava hlavná stanica;Bratislava main station;Bratislava hlavná stanica;5613206;;48.15903;17.106468;SK;Europe/Bratislava;Q1780;EC|EN|Ex|IC|LE|Os|R|REX|RJ|RRR|Zr|rj|rjx;;uic;3350963359;Q899662;;;5613206;Bratislava hl.st.
+TN5613210;gare;Važec;Važec;Važec;5613210;;49.067137;19.98814;SK;Europe/Bratislava;Q1091398;Os;;uic;8007950886;Q65194550;;;5613210;Važec
+TN5613216;gare;Bratislava-Vajnory;Bratislava-Vajnory;Bratislava-Vajnory;5613216;;48.194755;17.206828;SK;Europe/Bratislava;Q1780;Os;;uic;3355889029;Q9179062;;;5613216;Bratislava-Vajnory
+TN5613220;gare;Štrba zast.;Štrba zast.;Štrba zast.;5613220;;49.063492;20.082527;SK;Europe/Bratislava;Q373739;Os;;gtfs;;;;;5613220;Štrba zast.
+TN5613223;gare;Zvolen osobná stanica;Zvolen osobná stanica;Zvolen osobná stanica;5613223;;48.569499;19.120749;SK;Europe/Bratislava;Q11874;Os|R;;uic;8012721730;Q8075566;;;5613223;Zvolen osob.st.
+TN5613230;gare;Svit;Svit;Svit;5613230;;49.060899;20.198;SK;Europe/Bratislava;Q852318;Os;;nom;88063538;Q53254826;;;5613230;Svit
+TN5613233;gare;Zvolen nákladná stanica;Zvolen nákladná stanica;Zvolen nákladná stanica;5613233;;48.572776;19.144113;SK;Europe/Bratislava;Q11874;Os;;uic;10607895201;Q47254726;;;5613233;Zvolen nákl.st.
+TN5613240;gare;Lučivná;Lučivná;Lučivná;5613240;;49.05802;20.144188;SK;Europe/Bratislava;Q632278;Os;;uic;10566216287;;;;5613240;Lučivná
+TN5613246;gare;Bernolákovo;Bernolákovo;Bernolákovo;5613246;;48.19786;17.305941;SK;Europe/Bratislava;Q826711;Os|R|REX;;uic;3846992434;Q111701960;;;5613246;Bernolákovo
+TN5613250;gare;Poprad-Tatry;Poprad-Tatry;Poprad-Tatry;5613250;;49.060091;20.294941;SK;Europe/Bratislava;Q26393;EC|EN|Ex|LE|Os|R|REX|RJ|SC;;nom;9156014259;Q801323;;;5613250;Poprad-Tatry
+TN5613256;gare;Ivanka pri Dunaji;Ivanka pri Dunaji;Ivanka pri Dunaji;5613256;;48.194771;17.259606;SK;Europe/Bratislava;Q302787;Os|REX;;uic;3846992440;Q111701771;;;5613256;Ivanka pri Dunaji
+TN5613263;gare;Zvolen mesto;Zvolen mesto;Zvolen mesto;5613263;;48.577149;19.132197;SK;Europe/Bratislava;Q11874;Os|R;;uic;84497688;Q65161300;;;5613263;Zvolen mesto
+TN5613266;gare;Veľký Biel;Veľký Biel;Veľký Biel;5613266;;48.206031;17.361993;SK;Europe/Bratislava;Q221808;Os;;uic;3846993458;Q111684193;;;5613266;Veľký Biel
+TN5613270;gare;Gánovce;Gánovce;Gánovce;5613270;;49.023282;20.316509;SK;Europe/Bratislava;Q943716;Os|REX;;uic;1345796611;Q65194530;;;5613270;Gánovce
+TN5613276;gare;Senec;Senec;Senec;5613276;;48.213591;17.414223;SK;Europe/Bratislava;Q754790;Os|R|REX;;uic;25426361;Q111694195;;;5613276;Senec
+TN5613286;gare;Reca;Reca;Reca;5613286;;48.219289;17.455427;SK;Europe/Bratislava;Q596104;Os;;uic;3846992441;Q111700131;;;5613286;Reca
+TN5613293;gare;Horná Štubňa obec;Horná Štubňa obec;Horná Štubňa obec;5613293;;48.83106;18.877613;SK;Europe/Bratislava;Q135647;Os|R;;uic;4002226419;Q111702068;;;5613293;Horná Štubňa obec
+TN5613296;gare;Sládkovičovo;Sládkovičovo;Sládkovičovo;5613296;;48.195552;17.629694;SK;Europe/Bratislava;Q568249;Os|REX;;uic;3846992455;Q111694181;;;5613296;Sládkovičovo
+TN5613300;gare;Veľký Slavkov;Veľký Slavkov;Veľký Slavkov;5613300;;49.09121;20.277472;SK;Europe/Bratislava;Q1094067;Os;;nom;6797536727;;;;5613300;Veľký Slavkov
+TN5613310;gare;Vydrník;Vydrník;Vydrník;5613310;;48.994742;20.407638;SK;Europe/Bratislava;Q1025243;Os|REX;;uic;3480082385;Q65194551;;;5613310;Vydrník
+TN5613316;gare;Pusté Úľany;Pusté Úľany;Pusté Úľany;5613316;;48.208156;17.543075;SK;Europe/Bratislava;Q1043571;Os;;uic;3846992451;Q111703178;;;5613316;Pusté Úľany
+TN5613320;gare;Spišský Štiavnik;Spišský Štiavnik;Spišský Štiavnik;5613320;;49.007406;20.377286;SK;Europe/Bratislava;Q1094191;Os|REX;;uic;7906896666;Q65194543;;;5613320;Spišský Štiavnik
+TN5613326;gare;Galanta;Galanta;Galanta;5613326;;48.185083;17.721845;SK;Europe/Bratislava;Q460767;EC|Os|R|REX;;uic;3846992439;Q48780286;;XYG;5613326;Galanta
+TN5613330;gare;Letanovce;Letanovce;Letanovce;5613330;;48.973262;20.461089;SK;Europe/Bratislava;Q1072921;Os|REX;;uic;7912041640;Q65194534;;;5613330;Letanovce
+TN5613336;gare;Šaľa;Šaľa;Šaľa;5613336;;48.147053;17.861944;SK;Europe/Bratislava;Q391361;EC|Os|R|REX;;uic;27346876;Q54328705;;;5613336;Šaľa
+TN5613340;gare;Spišské Tomášovce;Spišské Tomášovce;Spišské Tomášovce;5613340;;48.964476;20.474829;SK;Europe/Bratislava;Q607944;Os|REX;;uic;3480085043;Q65194542;;;5613340;Spišské Tomášovce
+TN5613346;gare;Topoľnica;Topoľnica;Topoľnica;5613346;;48.166484;17.795066;SK;Europe/Bratislava;Q513623;Os|REX;;uic;1039017207;Q111691819;;;5613346;Topoľnica
+TN5613350;gare;Smižany;Smižany;Smižany;5613350;;48.953266;20.522166;SK;Europe/Bratislava;Q524287;Os|REX;;uic;457875141;Q65194541;;;5613350;Smižany
+TN5613360;gare;Spišská Nová Ves;Spišská Nová Ves;Spišská Nová Ves;5613360;;48.950428;20.560538;SK;Europe/Bratislava;Q462840;EC|EN|Ex|LE|Os|R|REX|RJ|SC;;uic;5235211300;Q15278908;;;5613360;Spišská Nová Ves
+TN5613363;gare;Banská Bystrica;Banská Bystrica;Banská Bystrica;5613363;;48.734955;19.163876;SK;Europe/Bratislava;Q144983;Os|R|REX;;uic;8012637130;Q4857149;;;5613363;Banská Bystrica
+TN5613370;gare;Teplička nad Hornádom;Teplička nad Hornádom;Teplička nad Hornádom;5613370;;48.9188;20.583344;SK;Europe/Bratislava;Q462840;Os;;uic;603658243;Q65194546;;;5613370;Teplička n.Hornádom
+TN5613383;gare;Banská Bystrica mesto;Banská Bystrica mesto;Banská Bystrica mesto;5613383;;48.731534;19.146452;SK;Europe/Bratislava;Q144983;Os|R;;uic;84505804;;;;5613383;Banská Bystrica mesto
+TN5613386;gare;Trnovec nad Váhom;Trnovec nad Váhom;Trnovec nad Váhom;5613386;;48.152598;17.929036;SK;Europe/Bratislava;Q570162;Os|REX;;uic;314964836;Q54328701;;;5613386;Trnovec n.Váhom
+TN5613390;gare;Markušovce;Markušovce;Markušovce;5613390;;48.917922;20.668853;SK;Europe/Bratislava;Q1035675;Os|REX;;gtfs;;;;;5613390;Markušovce
+TN5613393;gare;Šalková;Šalková;Šalková;5613393;;48.741356;19.219424;SK;Europe/Bratislava;Q144983;Os|REX;;uic;84511498;Q65162965;;;5613393;Šalková
+TN5613396;gare;Jatov;Jatov;Jatov;5613396;;48.118955;18.006991;SK;Europe/Bratislava;Q577374;Os|REX;;uic;1039043230;Q111701763;;;5613396;Jatov
+TN5613400;gare;Matejovce n.Hornádom;Matejovce n.Hornádom;Matejovce n.Hornádom;5613400;;48.911238;20.634227;SK;Europe/Bratislava;Q1067902;Os|REX;;gtfs;;;;;5613400;Matejovce n.Hornádom
+TN5613403;gare;Radvaň;Radvaň;Radvaň;5613403;;48.716548;19.140796;SK;Europe/Bratislava;Q144983;Os;;uic;27320254;Q62576950;;;5613403;Radvaň
+TN5613406;gare;Tvrdošovce;Tvrdošovce;Tvrdošovce;5613406;;48.092584;18.040641;SK;Europe/Bratislava;Q665224;Os|REX;;uic;4752645712;Q111686193;;;5613406;Tvrdošovce
+TN5613410;gare;Chrasť nad Hornádom;Chrasť nad Hornádom;Chrasť nad Hornádom;5613410;;48.925676;20.700575;SK;Europe/Bratislava;Q1033844;Os|REX;;uic;1180839568;Q86667096;;;5613410;Chrasť n.Hornádom
+TN5613416;gare;Palárikovo;Palárikovo;Palárikovo;5613416;;48.060197;18.081717;SK;Europe/Bratislava;Q251130;Os|R|REX;;uic;198156640;Q58099652;;;5613416;Palárikovo
+TN5613420;gare;Spišské Vlachy;Spišské Vlachy;Spišské Vlachy;5613420;;48.935496;20.803803;SK;Europe/Bratislava;Q524405;Os|REX;;nom;509686839;Q86667077;;;5613420;Spišské Vlachy
+TN5613423;gare;Vlkanová;Vlkanová;Vlkanová;5613423;;48.669428;19.149404;SK;Europe/Bratislava;Q996510;Os;;uic;84505762;Q106949578;;;5613423;Vlkanová
+TN5613426;gare;Ľudovítov;Ľudovítov;Ľudovítov;5613426;;48.035065;18.113816;SK;Europe/Bratislava;Q251130;Os|REX;;uic;1039043206;Q111698437;;;5613426;Ľudovítov
+TN5613436;gare;Nové Zámky;Nové Zámky;Nové Zámky;5613436;;47.99555;18.173424;SK;Europe/Bratislava;Q276362;EC|EN|IC|Os|R|REX|rj;;uic;3658062010;Q12781948;;;5613436;Nové Zámky
+TN5613440;gare;Vítkovce;Vítkovce;Vítkovce;5613440;;48.925615;20.718597;SK;Europe/Bratislava;Q676858;Os|REX;;uic;202877314;Q86667098;;;5613440;Vítkovce
+TN5613443;gare;Sliač kúpele;Sliač kúpele;Sliač kúpele;5613443;;48.614366;19.149548;SK;Europe/Bratislava;Q258439;Os|R;;uic;84505747;Q107782623;;;5613443;Sliač kúpele
+TN5613446;gare;Dvory nad Žitavou;Dvory nad Žitavou;Dvory nad Žitavou;5613446;;47.968558;18.249504;SK;Europe/Bratislava;Q1070674;Os;;uic;26152964;Q111702626;;;5613446;Dvory n.Žitavou
+TN5613450;gare;Olcnava;Olcnava;Olcnava;5613450;;48.926449;20.748699;SK;Europe/Bratislava;Q904498;Os|REX;;uic;202876733;Q86667078;;;5613450;Olcnava
+TN5613453;gare;Hronsek;Hronsek;Hronsek;5613453;;48.648604;19.159298;SK;Europe/Bratislava;Q922622;Os;;uic;8245580361;Q111702032;;;5613453;Hronsek
+TN5613456;gare;Pribeta;Pribeta;Pribeta;5613456;;47.938084;18.316305;SK;Europe/Bratislava;Q1071404;Os;;uic;8962443357;Q111703209;;;5613456;Pribeta
+TN5613460;gare;Krompachy;Krompachy;Krompachy;5613460;;48.92164;20.886012;SK;Europe/Bratislava;Q842018;Os|REX;;uic;388481077;Q86667074;;;5613460;Krompachy
+TN5613463;gare;Veľká Lúka;Veľká Lúka;Veľká Lúka;5613463;;48.630968;19.154308;SK;Europe/Bratislava;Q1073990;Os;;uic;355465762;Q111684445;;;5613463;Veľká Lúka
+TN5613466;gare;Strekov;Strekov;Strekov;5613466;;47.89991;18.399747;SK;Europe/Bratislava;Q784885;Os;;uic;1260636603;Q111693854;;;5613466;Strekov
+TN5613470;gare;Richnava;Richnava;Richnava;5613470;;48.922772;20.924907;SK;Europe/Bratislava;Q1072994;Os;;uic;629158311;Q86667059;;;5613470;Richnava
+TN5613473;gare;Vígľaš;Vígľaš;Vígľaš;5613473;;48.554134;19.282773;SK;Europe/Bratislava;Q1095685;Os;;uic;2506859179;Q34132853;;;5613473;Vígľaš
+TN5613480;gare;Kluknava;Kluknava;Kluknava;5613480;;48.914054;20.948281;SK;Europe/Bratislava;Q937408;Os;;uic;202875225;Q86667055;;;5613480;Kluknava
+TN5613486;gare;Gbelce;Gbelce;Gbelce;5613486;;47.849453;18.506953;SK;Europe/Bratislava;Q601581;Os;;uic;5224951613;Q111702528;;;5613486;Gbelce
+TN5613490;gare;Margecany;Margecany;Margecany;5613490;;48.89515;21.011787;SK;Europe/Bratislava;Q615108;EN|Ex|Os|R|REX|RJ;;uic;202875162;Q18007141;;;5613490;Margecany
+TN5613493;gare;Zvolenská Slatina;Zvolenská Slatina;Zvolenská Slatina;5613493;;48.558932;19.260927;SK;Europe/Bratislava;Q231435;Os;;uic;84489835;Q34131238;;;5613493;Zvolenská Slatina
+TN5613496;gare;Nová Vieska;Nová Vieska;Nová Vieska;5613496;;47.868789;18.460882;SK;Europe/Bratislava;Q1044209;Os;;uic;5224953323;Q111697311;;;5613496;Nová Vieska
+TN5613500;gare;Margecany zastávka;Margecany zastávka;Margecany zastávka;5613500;;48.88921;21.042014;SK;Europe/Bratislava;Q615108;Os;;uic;719650897;Q86667038;;;5613500;Margecany zast.
+TN5613503;gare;Pstruša;Pstruša;Pstruša;5613503;;48.553304;19.312707;SK;Europe/Bratislava;Q1095685;Os;;uic;27319280;Q34131589;;;5613503;Pstruša
+TN5613513;gare;Stožok;Stožok;Stožok;5613513;;48.538171;19.358485;SK;Europe/Bratislava;Q908174;Os;;uic;83488878;Q34131707;;;5613513;Stožok
+TN5613516;gare;Mužla;Mužla;Mužla;5613516;;47.812962;18.595529;SK;Europe/Bratislava;Q973985;Os;;uic;9580996576;Q111697822;;;5613516;Mužla
+TN5613520;gare;Jaklovce;Jaklovce;Jaklovce;5613520;;48.874038;20.979999;SK;Europe/Bratislava;Q680906;Os|REX;;nom;11082927585;Q65190513;;;5613520;Jaklovce
+TN5613523;gare;Kriváň;Kriváň;Kriváň;5613523;;48.528483;19.44563;SK;Europe/Bratislava;Q1073894;Os|R;;uic;83456594;Q30127891;;;5613523;Kriváň
+TN5613526;gare;Štúrovo;Štúrovo;Štúrovo;5613526;;47.799903;18.67911;SK;Europe/Bratislava;Q781089;EC|EN|IC|Os|rj;;uic;1078549756;Q12781949;;;5613526;Štúrovo
+TN5613530;gare;Malá Lodina;Malá Lodina;Malá Lodina;5613530;;48.873923;21.134021;SK;Europe/Bratislava;Q268700;Os;;uic;719650894;Q86667037;;;5613530;Malá Lodina
+TN5613533;gare;Detva;Detva;Detva;5613533;;48.533674;19.406387;SK;Europe/Bratislava;Q11857;Os|R;;uic;27319294;Q34132178;;;5613533;Detva
+TN5613540;gare;Ružín;Ružín;Ružín;5613540;;48.874541;21.108348;SK;Europe/Bratislava;Q268700;Os;;uic;6386034370;Q111694206;;;5613540;Ružín
+TN5613543;gare;Podkriváň;Podkriváň;Podkriváň;5613543;;48.516471;19.466938;SK;Europe/Bratislava;Q427537;Os;;uic;27319328;Q31093620;;;5613543;Podkriváň
+TN5613550;gare;Veľká Lodina;Veľká Lodina;Veľká Lodina;5613550;;48.856209;21.155642;SK;Europe/Bratislava;Q1050248;Os;;uic;719650903;Q86667019;;;5613550;Veľká Lodina
+TN5613553;gare;Lovinobaňa;Lovinobaňa;Lovinobaňa;5613553;;48.444745;19.574925;SK;Europe/Bratislava;Q261390;Os;;uic;8173618305;Q31093606;;;5613553;Lovinobaňa
+TN5613560;gare;Kysak;Kysak;Kysak;5613560;;48.852402;21.223937;SK;Europe/Bratislava;Q1088731;EN|Ex|Os|R|REX|RJ|SC;;uic;206175238;Q801043;;;5613560;Kysak
+TN5613563;gare;Píla;Píla;Píla;5613563;;48.482368;19.514974;SK;Europe/Bratislava;Q249843;Os;;uic;8173673192;Q31093618;;;5613563;Píla
+TN5613570;gare;Trebejov;Trebejov;Trebejov;5613570;;48.835898;21.218655;SK;Europe/Bratislava;Q1046810;Os;;uic;719650907;Q86666995;;;5613570;Trebejov
+TN5613573;gare;Mýtna;Mýtna;Mýtna;5613573;;48.465805;19.547744;SK;Europe/Bratislava;Q249843;Os;;uic;83416785;Q31093611;;;5613573;Mýtna
+TN5613580;gare;Kostoľany nad Hornádom;Kostoľany nad Hornádom;Kostoľany nad Hornádom;5613580;;48.795565;21.246139;SK;Europe/Bratislava;Q2642418;Os;;uic;27177012;Q65767125;;;5613580;Kostoľany n.Hornádom
+TN5613583;gare;Lovinobaňa zastávka;Lovinobaňa zastávka;Lovinobaňa zastávka;5613583;;48.434011;19.585433;SK;Europe/Bratislava;Q261390;Os;;uic;83402497;Q31093551;;;5613583;Lovinobaňa zast.
+TN5613593;gare;Podrečany;Podrečany;Podrečany;5613593;;48.405407;19.599768;SK;Europe/Bratislava;Q1045881;Os;;uic;83402482;Q31093524;;;5613593;Podrečany
+TN5613596;gare;Bratislava-Vinohrady;Bratislava-Vinohrady;Bratislava-Vinohrady;5613596;;48.186806;17.133578;SK;Europe/Bratislava;Q1780;EC|Ex|Os|R|REX|RJ;;uic;2001930740;Q4095893;;;5613596;Bratislava-Vinohrady
+TN5613600;gare;Košice;Košice;Košice;5613600;;48.72202;21.269212;SK;Europe/Bratislava;Q25409;EC|EN|Ex|IC|Os|R|REX|RJ|SC;;uic;7316507989;Q801037;;;5613600;Košice
+TN5613603;gare;Tomášovce;Tomášovce;Tomášovce;5613603;;48.369227;19.626913;SK;Europe/Bratislava;Q745918;Os;;uic;27069282;Q31093519;;;5613603;Tomášovce
+TN5613606;gare;Bratislava-Rača;Bratislava-Rača;Bratislava-Rača;5613606;;48.209108;17.161029;SK;Europe/Bratislava;Q1780;Os|R;;uic;26202728;Q9179061;;;5613606;Bratislava-Rača
+TN5613610;gare;Ťahanovce;Ťahanovce;Ťahanovce;5613610;;48.755506;21.253597;SK;Europe/Bratislava;Q25409;Os|REX;;uic;289960750;Q16508028;;;5613610;Ťahanovce
+TN5613613;gare;Lučenec;Lučenec;Lučenec;5613613;;48.335989;19.667633;SK;Europe/Bratislava;Q728965;Os|R;;uic;8294228024;Q31093504;;;5613613;Lučenec
+TN5613616;gare;Svätý Jur;Svätý Jur;Svätý Jur;5613616;;48.247417;17.21749;SK;Europe/Bratislava;Q247240;Os;;uic;3846993457;Q56389874;;;5613616;Svätý Jur
+TN5613620;gare;Košice predmestie;Košice predmestie;Košice predmestie;5613620;;48.709603;21.265818;SK;Europe/Bratislava;Q25409;Os|REX;;uic;289960748;Q56389863;;;5613620;Košice predmestie
+TN5613623;gare;Holiša;Holiša;Holiša;5613623;;48.304251;19.741778;SK;Europe/Bratislava;Q1046298;Os;;uic;27069289;Q31093518;;;5613623;Holiša
+TN5613626;gare;Pezinok;Pezinok;Pezinok;5613626;;48.282462;17.270383;SK;Europe/Bratislava;Q659424;Os|R;;uic;3846992448;Q56389876;;;5613626;Pezinok
+TN5613636;gare;Pezinok-Grinava;Pezinok-Grinava;Pezinok-Grinava;5613636;;48.267328;17.246512;SK;Europe/Bratislava;Q659424;Os;;uic;3846992450;Q61728304;;;5613636;Pezinok-Grinava
+TN5613646;gare;Šenkvice;Šenkvice;Šenkvice;5613646;;48.301749;17.346169;SK;Europe/Bratislava;Q391430;Os|R;;uic;9021401179;Q56389925;;;5613646;Šenkvice
+TN5613653;gare;Opatová pri Lučenci;Opatová pri Lučenci;Opatová pri Lučenci;5613653;;48.336977;19.682052;SK;Europe/Bratislava;Q728965;Os;;uic;59629172;Q31093513;;;5613653;Opatová pri Lučenci
+TN5613656;gare;Báhoň;Báhoň;Báhoň;5613656;;48.305657;17.4505;SK;Europe/Bratislava;Q672338;Os;;uic;3846992435;Q50083596;;;5613656;Báhoň
+TN5613660;gare;Krásna nad Hornádom;Krásna nad Hornádom;Krásna nad Hornádom;5613660;;48.6703;21.29536;SK;Europe/Bratislava;Q25409;Os;;uic;616361629;Q16507970;;;5613660;Krásna n.Hornádom
+TN5613666;gare;Cífer;Cífer;Cífer;5613666;;48.323045;17.486712;SK;Europe/Bratislava;Q1020250;Os|R;;uic;3846992437;Q50194208;;;5613666;Cífer
+TN5613676;gare;Trnava;Trnava;Trnava;5613676;;48.36972;17.584915;SK;Europe/Bratislava;Q26175;Ex|Os|R|REX|RJ;;uic;432804211;Q15057869;;;5613676;Trnava
+TN5613680;gare;Nižná Myšľa;Nižná Myšľa;Nižná Myšľa;5613680;;48.62985;21.371485;SK;Europe/Bratislava;Q258855;Os;;uic;379606785;Q111697493;;;5613680;Nižná Myšľa
+TN5613686;gare;Trnava predmestie;Trnava predmestie;Trnava predmestie;5613686;;48.389352;17.566797;SK;Europe/Bratislava;Q26175;Os;;uic;26502177;Q111686217;;;5613686;Trnava predm.
+TN5613690;gare;Vyšná Myšľa;Vyšná Myšľa;Vyšná Myšľa;5613690;;48.637629;21.38263;SK;Europe/Bratislava;Q999340;Os;;uic;379606788;Q111680231;;;5613690;Vyšná Myšľa
+TN5613693;gare;Fiľakovo;Fiľakovo;Fiľakovo;5613693;;48.266244;19.832523;SK;Europe/Bratislava;Q247620;Os;;uic;384249646;Q27656228;;;5613693;Fiľakovo
+TN5613696;gare;Brestovany;Brestovany;Brestovany;5613696;;48.382157;17.691337;SK;Europe/Bratislava;Q849427;Os|REX;;uic;8891912964;Q95433770;;;5613696;Brestovany
+TN5613700;gare;Bohdanovce;Bohdanovce;Bohdanovce;5613700;;48.651625;21.401256;SK;Europe/Bratislava;Q1008297;Os;;uic;379606794;Q111701921;;;5613700;Bohdanovce
+TN5613703;gare;Fiľakovo zastávka;Fiľakovo zastávka;Fiľakovo zastávka;5613703;;48.273593;19.827678;SK;Europe/Bratislava;Q247620;Os|R;;uic;10241723288;Q27656308;;;5613703;Fiľakovo zast.
+TN5613710;gare;Ruskov;Ruskov;Ruskov;5613710;;48.672272;21.427765;SK;Europe/Bratislava;Q263627;Os;;uic;379606797;Q111694213;;;5613710;Ruskov
+TN5613713;gare;Prša;Prša;Prša;5613713;;48.297041;19.79117;SK;Europe/Bratislava;Q958858;Os;;uic;73307006;Q31093516;;;5613713;Prša
+TN5613716;gare;Leopoldov;Leopoldov;Leopoldov;5613716;;48.441422;17.758589;SK;Europe/Bratislava;Q690807;Os|R|REX;;uic;325586396;Q15703303;;;5613716;Leopoldov
+TN5613720;gare;Slanec;Slanec;Slanec;5613720;;48.644556;21.488091;SK;Europe/Bratislava;Q1188058;Os;;uic;379590190;Q111694170;;;5613720;Slanec
+TN5613730;gare;Kalša;Kalša;Kalša;5613730;;48.616107;21.533313;SK;Europe/Bratislava;Q660172;Os;;uic;401864263;Q111701746;;;5613730;Kalša
+TN5613740;gare;Kuzmice;Kuzmice;Kuzmice;5613740;;48.58175;21.579425;SK;Europe/Bratislava;Q782661;Os;;uic;401864265;Q111698942;;;5613740;Kuzmice
+TN5613746;gare;Piešťany;Piešťany;Piešťany;5613746;;48.59546;17.814208;SK;Europe/Bratislava;Q321074;R|RJ;;uic;4759561100;Q15631059;;;5613746;Piešťany
+TN5613750;gare;Michaľany;Michaľany;Michaľany;5613750;;48.52177;21.626221;SK;Europe/Bratislava;Q205915;Os|REX;;nom;572502547;Q54991745;;;5613750;Michaľany
+TN5613753;gare;Hajnáčka;Hajnáčka;Hajnáčka;5613753;;48.235063;19.932304;SK;Europe/Bratislava;Q554592;Os;;uic;27173733;Q42717080;;;5613753;Hajnáčka
+TN5613760;gare;Lastovce;Lastovce;Lastovce;5613760;;48.533594;21.623566;SK;Europe/Bratislava;Q781449;Os;;nom;1259643269;Q111698891;;;5613760;Lastovce
+TN5613763;gare;Šíd;Šíd;Šíd;5613763;;48.267111;19.877502;SK;Europe/Bratislava;Q737795;Os;;nom;27173756;;;;5613763;Šíd
+TN5613770;gare;Veľaty;Veľaty;Veľaty;5613770;;48.528469;21.65453;SK;Europe/Bratislava;Q1072869;Os;;uic;1831154686;Q111685484;;;5613770;Veľaty
+TN5613773;gare;Čamovce;Čamovce;Čamovce;5613773;;48.250566;19.889504;SK;Europe/Bratislava;Q874073;Os;;uic;73360237;Q50098498;;;5613773;Čamovce
+TN5613780;gare;Čerhov;Čerhov;Čerhov;5613780;;48.460509;21.644812;SK;Europe/Bratislava;Q876352;Os|REX;;uic;572520364;Q111702945;;;5613780;Čerhov
+TN5613783;gare;Blhovce;Blhovce;Blhovce;5613783;;48.277162;19.955097;SK;Europe/Bratislava;Q789539;Os;;uic;62373883;;;;5613783;Blhovce
+TN5613790;gare;Slovenské Nové Mesto;Slovenské Nové Mesto;Slovenské Nové Mesto;5613790;;48.403883;21.667275;SK;Europe/Bratislava;Q965104;Os|REX;;uic;4084211603;Q54991746;;;5613790;Slovenské Nové Mesto
+TN5613793;gare;Hodejov;Hodejov;Hodejov;5613793;;48.296345;19.979783;SK;Europe/Bratislava;Q1043094;Os;;uic;73396490;;;;5613793;Hodejov
+TN5613800;gare;Borša;Borša;Borša;5613800;;48.393828;21.706317;SK;Europe/Bratislava;Q847987;Os|REX;;uic;572520362;Q111701915;;;5613800;Borša
+TN5613803;gare;Jesenské;Jesenské;Jesenské;5613803;;48.299547;20.062006;SK;Europe/Bratislava;Q998819;Os|R;;uic;73438863;Q35147117;;;5613803;Jesenské
+TN5613810;gare;Streda nad Bodrogom;Streda nad Bodrogom;Streda nad Bodrogom;5613810;;48.390343;21.757616;SK;Europe/Bratislava;Q833132;Os|REX;;uic;1385112152;Q111693855;;;5613810;Streda n.Bodrogom
+TN5613813;gare;Gortva;Gortva;Gortva;5613813;;48.300905;20.026847;SK;Europe/Bratislava;Q1027653;Os;;uic;73414289;;;;5613813;Gortva
+TN5613816;gare;Nové Mesto nad Váhom;Nové Mesto nad Váhom;Nové Mesto nad Váhom;5613816;;48.750988;17.835833;SK;Europe/Bratislava;Q376987;Os|R|RJ;;uic;26727211;Q39772348;;;5613816;Nové Mesto n.Váhom
+TN5613820;gare;Somotor;Somotor;Somotor;5613820;;48.389586;21.808876;SK;Europe/Bratislava;Q545621;Os|REX;;uic;571643757;Q54991754;;;5613820;Somotor
+TN5613823;gare;Jesenské zastávka;Jesenské zastávka;Jesenské zastávka;5613823;;48.30518;20.077002;SK;Europe/Bratislava;Q998819;Os;;uic;8175990614;Q111701756;;;5613823;Jesenské zast.
+TN5613826;gare;Trenčianske Bohuslavice;Trenčianske Bohuslavice;Trenčianske Bohuslavice;5613826;;48.801729;17.873954;SK;Europe/Bratislava;Q833440;Os;;uic;4761786774;Q50192574;;;5613826;Trenčianske Bohuslav.
+TN5613836;gare;Melčice;Melčice;Melčice;5613836;;48.836812;17.919323;SK;Europe/Bratislava;Q1043988;Os;;uic;10782000024;Q111697875;;;5613836;Melčice
+TN5613840;gare;Veľký Horeš;Veľký Horeš;Veľký Horeš;5613840;;48.390324;21.913856;SK;Europe/Bratislava;Q1073092;Os|REX;;uic;1829806705;Q111684175;;;5613840;Veľký Horeš
+TN5613846;gare;Trenčín-Zlatovce;Trenčín-Zlatovce;Trenčín-Zlatovce;5613846;;48.900645;18.022745;SK;Europe/Bratislava;Q145002;Os;;uic;11950481211;Q61951468;;;5613846;Trenčín-Zlatovce
+TN5613850;gare;Pribeník;Pribeník;Pribeník;5613850;;48.39936;21.998888;SK;Europe/Bratislava;Q728733;Os|REX;;uic;1399075734;Q111703212;;;5613850;Pribeník
+TN5613856;gare;Kostolná-Záriečie;Kostolná-Záriečie;Kostolná-Záriečie;5613856;;48.878509;17.976249;SK;Europe/Bratislava;Q1071496;Os;;uic;10781982193;Q111699545;;;5613856;Kostolná-Záriečie
+TN5613860;gare;Čierna nad Tisou;Čierna nad Tisou;Čierna nad Tisou;5613860;;48.419511;22.085142;SK;Europe/Bratislava;Q212590;Os|R|REX;;uic;27175020;Q8079774;;;5613860;Čierna n.Tisou
+TN5613863;gare;Číž kúpele;Číž kúpele;Číž kúpele;5613863;;48.305101;20.278116;SK;Europe/Bratislava;Q341836;R;;uic;73521528;;;;5613863;Číž kúpele
+TN5613866;gare;Trenčín;Trenčín;Trenčín;5613866;;48.896633;18.052188;SK;Europe/Bratislava;Q145002;Ex|Os|R|RJ;;uic;1911997558;Q9361479;;;5613866;Trenčín
+TN5613870;gare;Dobrá;Dobrá;Dobrá;5613870;;48.406991;22.024361;SK;Europe/Bratislava;Q1078653;Os|REX;;uic;1829822678;Q111702750;;;5613870;Dobrá
+TN5613876;gare;Trenčín predmestie;Trenčín predmestie;Trenčín predmestie;5613876;;48.887536;18.028187;SK;Europe/Bratislava;Q145002;Os;;uic;1293226433;Q111686240;;;5613876;Trenčín predm.
+TN5613880;gare;Biel;Biel;Biel;5613880;;48.413387;22.05534;SK;Europe/Bratislava;Q212590;Os|REX;;uic;1829970151;Q111701957;;;5613880;Biel
+TN5613886;gare;Trenčianska Teplá;Trenčianska Teplá;Trenčianska Teplá;5613886;;48.937381;18.113286;SK;Europe/Bratislava;Q597002;Os|R|RJ;;uic;206244063;Q15057882;;;5613886;Trenčianska Teplá
+TN5613890;gare;Čierna nad Tisou zastávka;Čierna nad Tisou zastávka;Čierna nad Tisou zastávka;5613890;;48.416461;22.07044;SK;Europe/Bratislava;Q212590;Os|REX;;uic;7822666269;Q111702902;;;5613890;Čierna n.Tisou z.
+TN5613896;gare;Trenčín-Opatová;Trenčín-Opatová;Trenčín-Opatová;5613896;;48.910156;18.088143;SK;Europe/Bratislava;Q145002;Os;;uic;4468209259;Q111686238;;;5613896;Trenčín-Opatová
+TN5613903;gare;Tornaľa;Tornaľa;Tornaľa;5613903;;48.422651;20.330913;SK;Europe/Bratislava;Q909291;R;;uic;73617362;Q50103485;;;5613903;Tornaľa
+TN5613963;gare;Priekopa;Priekopa;Priekopa;5613963;;49.097168;18.934099;SK;Europe/Bratislava;Q27001;Os;;uic;1417840495;Q111699010;;;5613963;Priekopa
+TN5614000;gare;Nová Lesná;Nová Lesná;Nová Lesná;5614000;;49.115957;20.26195;SK;Europe/Bratislava;Q1094067;Os;;nom;6797536722;Q104658734;;;5614000;Nová Lesná
+TN5614010;gare;Štrbské Pleso;Štrbské Pleso;Štrbské Pleso;5614010;;49.118277;20.063583;SK;Europe/Bratislava;Q373739;Os;;nom;306074298;Q8082892;;;5614010;Štrbské Pleso
+TN5614013;gare;Hronský Beňadik;Hronský Beňadik;Hronský Beňadik;5614013;;48.344368;18.561589;SK;Europe/Bratislava;Q600313;Os;;uic;27304288;Q55376486;;;5614013;Hronský Beňadik
+TN5614023;gare;Psiare;Psiare;Psiare;5614023;;48.329155;18.55122;SK;Europe/Bratislava;Q600313;Os;;uic;27304281;Q55376489;;;5614023;Psiare
+TN5614030;gare;Popradské Pleso;Popradské Pleso;Popradské Pleso;5614030;;49.126043;20.074959;SK;Europe/Bratislava;Q612516;Os;;nom;6797512182;Q104657553;;;5614030;Popradské Pleso
+TN5614033;gare;Nová Baňa;Nová Baňa;Nová Baňa;5614033;;48.413308;18.647984;SK;Europe/Bratislava;Q268463;Os|R;;uic;27318508;Q95433766;;;5614033;Nová Baňa
+TN5614040;gare;Vyšné Hágy;Vyšné Hágy;Vyšné Hágy;5614040;;49.118822;20.123213;SK;Europe/Bratislava;Q612516;Os;;nom;6797512183;Q104657805;;;5614040;Vyšné Hágy
+TN5614043;gare;Tekovská Breznica;Tekovská Breznica;Tekovská Breznica;5614043;;48.3824;18.60445;SK;Europe/Bratislava;Q947431;Os;;uic;27318488;Q111691885;;;5614043;Tekovská Breznica
+TN5614050;gare;Starý Smokovec;Starý Smokovec;Starý Smokovec;5614050;;49.139065;20.222499;SK;Europe/Bratislava;Q612516;Os;;nom;9648125359;Q7602901;;;5614050;Starý Smokovec
+TN5614053;gare;Rudno nad Hronom;Rudno nad Hronom;Rudno nad Hronom;5614053;;48.435141;18.681807;SK;Europe/Bratislava;Q930913;Os;;uic;27318524;Q111694216;;;5614053;Rudno n.Hronom
+TN5614060;gare;Nová Polianka;Nová Polianka;Nová Polianka;5614060;;49.118348;20.150749;SK;Europe/Bratislava;Q612516;Os;;nom;6797536686;Q104657951;;;5614060;Nová Polianka
+TN5614063;gare;Žarnovica;Žarnovica;Žarnovica;5614063;;48.485709;18.728025;SK;Europe/Bratislava;Q393421;Os|R;;uic;27318549;Q66900037;;;5614063;Žarnovica
+TN5614070;gare;Danielov Dom;Danielov Dom;Danielov Dom;5614070;;49.118746;20.168172;SK;Europe/Bratislava;Q612516;Os;;nom;4427766990;Q104658090;;;5614070;Danielov Dom
+TN5614073;gare;Dolné Hámre;Dolné Hámre;Dolné Hámre;5614073;;48.47485;18.718791;SK;Europe/Bratislava;Q393421;Os;;uic;27318545;Q111702693;;;5614073;Dolné Hámre
+TN5614080;gare;Tatranská Polianka;Tatranská Polianka;Tatranská Polianka;5614080;;49.122707;20.186194;SK;Europe/Bratislava;Q612516;Os;;nom;6797536691;;;;5614080;Tatranská Polianka
+TN5614083;gare;Voznica;Voznica;Voznica;5614083;;48.459618;18.691451;SK;Europe/Bratislava;Q1008232;Os;;uic;563295346;Q111680259;;;5614083;Voznica
+TN5614090;gare;Tatranský Lieskovec;Tatranský Lieskovec;Tatranský Lieskovec;5614090;;49.092634;20.067206;SK;Europe/Bratislava;Q373739;Os;;uic;6797536730;Q104657227;;;5614090;Tatranský Lieskovec
+TN5614093;gare;Hliník nad Hronom;Hliník nad Hronom;Hliník nad Hronom;5614093;;48.539676;18.77085;SK;Europe/Bratislava;Q947067;Os|R;;uic;457100821;Q109914273;;;5614093;Hliník n.Hronom
+TN5614100;gare;Tatranské Zruby;Tatranské Zruby;Tatranské Zruby;5614100;;49.130067;20.1993;SK;Europe/Bratislava;Q612516;Os;;nom;6797536694;Q104658379;;;5614100;Tatranské Zruby
+TN5614103;gare;Bzenica;Bzenica;Bzenica;5614103;;48.529143;18.738359;SK;Europe/Bratislava;Q691957;Os;;uic;563291037;Q111703059;;;5614103;Bzenica
+TN5614110;gare;Sibír;Sibír;Sibír;5614110;;49.134773;20.210596;SK;Europe/Bratislava;Q612516;Os;;nom;6797536703;Q104658584;;;5614110;Sibír
+TN5614116;gare;Šaštín-Stráže;Šaštín-Stráže;Šaštín-Stráže;5614116;;48.634026;17.142153;SK;Europe/Bratislava;Q135649;Os;;uic;27026143;Q52791959;;;5614116;Šaštín-Stráže
+TN5614120;gare;Nový Smokovec;Nový Smokovec;Nový Smokovec;5614120;;49.136896;20.216073;SK;Europe/Bratislava;Q612516;Os;;nom;6797536712;Q104658689;;;5614120;Nový Smokovec
+TN5614123;gare;Žiar n.Hronom;Žiar n.Hronom;Žiar n.Hronom;5614123;;48.579514;18.87049;SK;Europe/Bratislava;Q980722;Os|R;;gtfs;;;;;5614123;Žiar n.Hronom
+TN5614126;gare;Borský Mikuláš;Borský Mikuláš;Borský Mikuláš;5614126;;48.64231;17.191568;SK;Europe/Bratislava;Q238875;Os;;uic;30615059;Q111701917;;;5614126;Borský Mikuláš
+TN5614130;gare;Dolný Smokovec;Dolný Smokovec;Dolný Smokovec;5614130;;49.132002;20.239684;SK;Europe/Bratislava;Q612516;Os;;nom;6797536720;Q104658732;;;5614130;Dolný Smokovec
+TN5614133;gare;Žiar nad Hronom zastávka;Žiar nad Hronom zastávka;Žiar nad Hronom zastávka;5614133;;48.568779;18.851355;SK;Europe/Bratislava;Q393925;Os;;uic;27318668;Q111678519;;;5614133;Žiar n.Hronom zast.
+TN5614136;gare;Senica;Senica;Senica;5614136;;48.66597;17.334205;SK;Europe/Bratislava;Q750407;Os;;uic;3776215193;Q52772546;;;5614136;Senica
+TN5614140;gare;Pod lesom;Pod lesom;Pod lesom;5614140;;49.12596;20.245204;SK;Europe/Bratislava;Q612516;Os;;nom;6797536721;;;;5614140;Pod lesom
+TN5614143;gare;Šášovské Podhradie;Šášovské Podhradie;Šášovské Podhradie;5614143;;48.588241;18.906887;SK;Europe/Bratislava;Q393925;Os;;uic;27318684;Q111693825;;;5614143;Šášovské Podhradie
+TN5614146;gare;Šajdíkove Humence;Šajdíkove Humence;Šajdíkove Humence;5614146;;48.659932;17.262563;SK;Europe/Bratislava;Q1077114;Os;;uic;569185322;Q111693831;;;5614146;Šajdíkove Humence
+TN5614150;gare;Pekná Vyhliadka;Pekná Vyhliadka;Pekná Vyhliadka;5614150;;49.139274;20.232953;SK;Europe/Bratislava;Q612516;Os;;nom;6122404978;Q104658834;;;5614150;Pekná Vyhliadka
+TN5614153;gare;Jalná;Jalná;Jalná;5614153;;48.587357;18.955548;SK;Europe/Bratislava;Q289376;Os;;uic;563290566;Q111701767;;;5614153;Jalná
+TN5614160;gare;Horný Smokovec;Horný Smokovec;Horný Smokovec;5614160;;49.142586;20.240872;SK;Europe/Bratislava;Q612516;Os;;nom;6122404977;Q104658835;;;5614160;Horný Smokovec
+TN5614166;gare;Jablonica;Jablonica;Jablonica;5614166;;48.606281;17.40981;SK;Europe/Bratislava;Q1099133;Os;;uic;30618653;Q111701768;;;5614166;Jablonica
+TN5614170;gare;Tatranská Lomnica;Tatranská Lomnica;Tatranská Lomnica;5614170;;49.164637;20.279466;SK;Europe/Bratislava;Q612516;Os;;uic;9456331910;Q7688242;;;5614170;Tatranská Lomnica
+TN5614176;gare;Cerová-Lieskové;Cerová-Lieskové;Cerová-Lieskové;5614176;;48.596621;17.403533;SK;Europe/Bratislava;Q1020367;Os;;uic;261126017;Q111702986;;;5614176;Cerová-Lieskové
+TN5614180;gare;Stará Lesná;Stará Lesná;Stará Lesná;5614180;;49.154962;20.271063;SK;Europe/Bratislava;Q612516;Os;;nom;6122404975;Q104658837;;;5614180;Stará Lesná
+TN5614190;gare;Tatranská Lesná;Tatranská Lesná;Tatranská Lesná;5614190;;49.150077;20.256697;SK;Europe/Bratislava;Q612516;Os;;nom;6122404976;Q104658836;;;5614190;Tatranská Lesná
+TN5614200;gare;Matejovce pri Poprade;Matejovce pri Poprade;Matejovce pri Poprade;5614200;;49.081522;20.333997;SK;Europe/Bratislava;Q26393;Os;;uic;388038640;Q111697902;;;5614200;Matejovce pri Poprade
+TN5614203;gare;Slovenská Ľupča;Slovenská Ľupča;Slovenská Ľupča;5614203;;48.762944;19.276513;SK;Europe/Bratislava;Q952967;Os|REX;;uic;85126542;Q65162894;;;5614203;Slovenská Ľupča
+TN5614210;gare;Studený Potok;Studený Potok;Studený Potok;5614210;;49.108955;20.354624;SK;Europe/Bratislava;Q1025210;Os;;uic;7745619336;Q111693849;;;5614210;Studený Potok
+TN5614213;gare;Slovenská Ľupča-Príboj;Slovenská Ľupča-Príboj;Slovenská Ľupča-Príboj;5614213;;48.74648;19.237348;SK;Europe/Bratislava;Q952967;Os|REX;;uic;85126469;Q65162890;;;5614213;Slovenská Ľupča-Príboj
+TN5614216;gare;Smolenice;Smolenice;Smolenice;5614216;;48.520458;17.455326;SK;Europe/Bratislava;Q1020253;Os;;uic;30618602;Q53256106;;;5614216;Smolenice
+TN5614221;gare;Veľká Lomnica-Golf;Veľká Lomnica-Golf;Veľká Lomnica-Golf;5614221;;49.136303;20.337379;SK;Europe/Bratislava;Q1025210;Os;;uic;1812529616;Q111684480;;;5614221;Veľká Lomnica-Golf
+TN5614223;gare;Medzibrod;Medzibrod;Medzibrod;5614223;;48.79128;19.357275;SK;Europe/Bratislava;Q1021208;Os|REX;;uic;85138870;Q66218504;;;5614223;Medzibrod
+TN5614230;gare;Kežmarok;Kežmarok;Kežmarok;5614230;;49.139268;20.423206;SK;Europe/Bratislava;Q327977;Os;;uic;388032842;Q15119683;;;5614230;Kežmarok
+TN5614233;gare;Lučatín;Lučatín;Lučatín;5614233;;48.781475;19.31396;SK;Europe/Bratislava;Q686747;Os|REX;;uic;85138605;Q86667209;;;5614233;Lučatín
+TN5614236;gare;Buková;Buková;Buková;5614236;;48.551732;17.450809;SK;Europe/Bratislava;Q735510;Os;;uic;30618613;Q111703090;;;5614236;Buková
+TN5614240;gare;Huncovce;Huncovce;Huncovce;5614240;;49.121212;20.374859;SK;Europe/Bratislava;Q1025260;Os;;uic;430233504;Q86675089;;;5614240;Huncovce
+TN5614246;gare;Boleráz;Boleráz;Boleráz;5614246;;48.470224;17.49847;SK;Europe/Bratislava;Q428141;Os;;uic;1040818111;Q111701919;;;5614246;Boleráz
+TN5614250;gare;Kežmarok zastávka;Kežmarok zastávka;Kežmarok zastávka;5614250;;49.150232;20.429867;SK;Europe/Bratislava;Q327977;Os;;uic;430238973;Q86675077;;;5614250;Kežmarok zast.
+TN5614253;gare;Dubová;Dubová;Dubová;5614253;;48.813711;19.439543;SK;Europe/Bratislava;Q1008213;Os|REX;;uic;85160192;Q65162074;;;5614253;Dubová
+TN5614256;gare;Bíňovce;Bíňovce;Bíňovce;5614256;;48.501343;17.472622;SK;Europe/Bratislava;Q1020253;Os;;uic;1040815419;Q111701933;;;5614256;Bíňovce
+TN5614260;gare;Kežmarok-Pradiareň;Kežmarok-Pradiareň;Kežmarok-Pradiareň;5614260;;49.162944;20.447551;SK;Europe/Bratislava;Q327977;Os;;uic;430238976;Q86675073;;;5614260;Kežmarok-Pradiareň
+TN5614263;gare;Brusno kúpele;Brusno kúpele;Brusno kúpele;5614263;;48.791827;19.386327;SK;Europe/Bratislava;Q506954;Os|REX;;uic;85160057;Q86667213;;;5614263;Brusno kúpele
+TN5614266;gare;Klčovany;Klčovany;Klčovany;5614266;;48.451879;17.511922;SK;Europe/Bratislava;Q428141;Os;;nom;30618579;Q111701694;;;5614266;Klčovany
+TN5614270;gare;Strážky zastávka;Strážky zastávka;Strážky zastávka;5614270;;49.171642;20.460059;SK;Europe/Bratislava;Q605059;Os;;uic;7317100636;Q86673979;;;5614270;Strážky zast.
+TN5614273;gare;Nemecká;Nemecká;Nemecká;5614273;;48.810905;19.416878;SK;Europe/Bratislava;Q1008213;Os|REX;;uic;85160166;Q111697542;;;5614273;Nemecká
+TN5614276;gare;Šelpice;Šelpice;Šelpice;5614276;;48.42789;17.537402;SK;Europe/Bratislava;Q1070405;Os;;uic;3015141129;Q111693822;;;5614276;Šelpice
+TN5614280;gare;Spišská Belá zastávka;Spišská Belá zastávka;Spišská Belá zastávka;5614280;;49.184292;20.471598;SK;Europe/Bratislava;Q605059;Os;;uic;428910960;Q9340345;;;5614280;Spišská Belá zast.
+TN5614283;gare;Predajná;Predajná;Predajná;5614283;;48.807178;19.465484;SK;Europe/Bratislava;Q387884;Os|REX;;uic;85160255;Q65162400;;;5614283;Predajná
+TN5614290;gare;Bušovce;Bušovce;Bušovce;5614290;;49.218667;20.493494;SK;Europe/Bratislava;Q852319;Os;;uic;430244441;Q86673961;;;5614290;Bušovce
+TN5614293;gare;Podbrezová;Podbrezová;Podbrezová;5614293;;48.810264;19.523171;SK;Europe/Bratislava;Q731309;Os|REX;;uic;452398297;Q65173272;;;5614293;Podbrezová
+TN5614300;gare;Podhorany pri Kežmarku;Podhorany pri Kežmarku;Podhorany pri Kežmarku;5614300;;49.23121;20.491191;SK;Europe/Bratislava;Q1025218;Os;;uic;430092164;Q86673949;;;5614300;Podhorany pri Kežmarku
+TN5614303;gare;Lopej;Lopej;Lopej;5614303;;48.815427;19.498173;SK;Europe/Bratislava;Q731309;Os|REX;;uic;85160316;Q65173253;;;5614303;Lopej
+TN5614306;gare;Gbely;Gbely;Gbely;5614306;;48.723493;17.091087;SK;Europe/Bratislava;Q846424;Os;;uic;3350963369;Q55594244;;;5614306;Gbely
+TN5614310;gare;Toporec;Toporec;Toporec;5614310;;49.246013;20.508701;SK;Europe/Bratislava;Q1037859;Os;;uic;434017888;Q86673911;;;5614310;Toporec
+TN5614320;gare;Podolínec;Podolínec;Podolínec;5614320;;49.255148;20.526436;SK;Europe/Bratislava;Q852324;Os;;uic;10171078914;Q11820578;;;5614320;Podolínec
+TN5614323;gare;Chvatimech;Chvatimech;Chvatimech;5614323;;48.804336;19.560158;SK;Europe/Bratislava;Q964979;Os|REX;;uic;454663459;Q65162030;;;5614323;Chvatimech
+TN5614326;gare;Holíč nad Moravou;Holíč nad Moravou;Holíč nad Moravou;5614326;;48.814655;17.150034;SK;Europe/Bratislava;Q653326;Os;;uic;6388664864;Q58806972;;;5614326;Holíč n.Moravou
+TN5614330;gare;Nižné Ružbachy;Nižné Ružbachy;Nižné Ružbachy;5614330;;49.276371;20.578742;SK;Europe/Bratislava;Q680104;Os;;uic;430092119;Q11792568;;;5614330;Nižné Ružbachy
+TN5614333;gare;Valaská;Valaská;Valaská;5614333;;48.811728;19.573221;SK;Europe/Bratislava;Q1008220;Os|REX;;uic;8210823744;Q65162472;;;5614333;Valaská
+TN5614336;gare;Kopčany;Kopčany;Kopčany;5614336;;48.771652;17.121309;SK;Europe/Bratislava;Q683855;Os;;uic;2333181962;Q111699555;;;5614336;Kopčany
+TN5614340;gare;Forbasy;Forbasy;Forbasy;5614340;;49.295727;20.621053;SK;Europe/Bratislava;Q367428;Os;;uic;430268043;Q9261304;;;5614340;Forbasy
+TN5614346;gare;Kátov;Kátov;Kátov;5614346;;48.828329;17.177644;SK;Europe/Bratislava;Q1123771;Os;;uic;2333182261;Q111701713;;;5614346;Kátov
+TN5614350;gare;Stará Ľubovňa;Stará Ľubovňa;Stará Ľubovňa;5614350;;49.308333;20.6802;SK;Europe/Bratislava;Q605521;Os;;uic;430092097;Q9344533;;;5614350;Stará Ľubovňa
+TN5614353;gare;Brezno;Brezno;Brezno;5614353;;48.801554;19.628888;SK;Europe/Bratislava;Q465312;Os|REX;;uic;10212731053;Q18327182;;;5614353;Brezno
+TN5614360;gare;Chmeľnica;Chmeľnica;Chmeľnica;5614360;;49.291999;20.730779;SK;Europe/Bratislava;Q683460;Os;;uic;430268044;Q86673884;;;5614360;Chmeľnica
+TN5614363;gare;Brezno mesto;Brezno mesto;Brezno mesto;5614363;;48.804289;19.647273;SK;Europe/Bratislava;Q465312;Os|REX;;uic;332521720;Q65161999;;;5614363;Brezno mesto
+TN5614366;gare;Skalica na Slovensku;Skalica na Slovensku;Skalica na Slovensku;5614366;;48.849968;17.218369;SK;Europe/Bratislava;Q649076;Os;;uic;3350963377;Q55443443;;;5614366;Skalica na Slovensku
+TN5614370;gare;Plavnica;Plavnica;Plavnica;5614370;;49.287831;20.779332;SK;Europe/Bratislava;Q1186898;Os;;uic;430268045;Q86673842;;;5614370;Plavnica
+TN5614373;gare;Brezno-Halny;Brezno-Halny;Brezno-Halny;5614373;;48.817717;19.665208;SK;Europe/Bratislava;Q465312;Os;;uic;736519398;Q65161995;;;5614373;Brezno-Halny
+TN5614376;gare;Myjava;Myjava;Myjava;5614376;;48.763767;17.570901;SK;Europe/Bratislava;Q837460;Os;;uic;473481359;Q61748124;;;5614376;Myjava
+TN5614380;gare;Hromoš;Hromoš;Hromoš;5614380;;49.265537;20.805112;SK;Europe/Bratislava;Q1186898;Os;;uic;430268046;Q86673834;;;5614380;Hromoš
+TN5614383;gare;Gašparovo;Gašparovo;Gašparovo;5614383;;48.826916;19.745704;SK;Europe/Bratislava;Q792860;Os;;uic;454663458;Q65162102;;;5614383;Gašparovo
+TN5614386;gare;Brestovec;Brestovec;Brestovec;5614386;;48.786147;17.557423;SK;Europe/Bratislava;Q733946;Os;;uic;9536994172;;;;5614386;Brestovec
+TN5614390;gare;Plaveč;Plaveč;Plaveč;5614390;;49.269597;20.851703;SK;Europe/Bratislava;Q1025197;Os|REX;;uic;430097959;Q11819505;;;5614390;Plaveč
+TN5614393;gare;Bujakovo zastávka;Bujakovo zastávka;Bujakovo zastávka;5614393;;48.820585;19.688437;SK;Europe/Bratislava;Q465312;Os;;uic;101171782;Q65162018;;;5614393;Bujakovo zast.
+TN5614396;gare;Poriadie;Poriadie;Poriadie;5614396;;48.776047;17.615659;SK;Europe/Bratislava;Q990514;Os;;uic;473481526;Q61748125;;;5614396;Poriadie
+TN5614400;gare;Tatranská Lomnica zastávka;Tatranská Lomnica zastávka;Tatranská Lomnica zastávka;5614400;;49.148789;20.315303;SK;Europe/Bratislava;Q612516;Os;;uic;430278196;Q86675086;;;5614400;Tatranská Lomnica z.
+TN5614406;gare;Stará Turá;Stará Turá;Stará Turá;5614406;;48.773165;17.700409;SK;Europe/Bratislava;Q512771;Os;;uic;473481521;Q61728302;;;5614406;Stará Turá
+TN5614413;gare;Beňuš;Beňuš;Beňuš;5614413;;48.828539;19.761352;SK;Europe/Bratislava;Q792860;Os|REX;;uic;101172008;Q111701970;;;5614413;Beňuš
+TN5614416;gare;Paprad;Paprad;Paprad;5614416;;48.780613;17.643877;SK;Europe/Bratislava;Q512771;Os;;uic;473481467;Q61748130;;;5614416;Paprad
+TN5614423;gare;Bacúch;Bacúch;Bacúch;5614423;;48.843961;19.818277;SK;Europe/Bratislava;Q1045554;Os;;uic;101182621;Q65161970;;;5614423;Bacúch
+TN5614426;gare;Vaďovce;Vaďovce;Vaďovce;5614426;;48.731131;17.72472;SK;Europe/Bratislava;Q1184580;Os;;uic;637319523;Q61951469;;;5614426;Vaďovce
+TN5614433;gare;Polomka;Polomka;Polomka;5614433;;48.846414;19.854664;SK;Europe/Bratislava;Q628228;Os|REX;;uic;101185883;Q65162389;;;5614433;Polomka
+TN5614436;gare;Hrachovište;Hrachovište;Hrachovište;5614436;;48.718041;17.727168;SK;Europe/Bratislava;Q631191;Os;;uic;9725163341;;;;5614436;Hrachovište
+TN5614446;gare;Čachtice;Čachtice;Čachtice;5614446;;48.72147;17.798689;SK;Europe/Bratislava;Q337440;Os;;uic;1351232125;Q61748127;;;5614446;Čachtice
+TN5614453;gare;Závadka nad Hronom obec;Závadka nad Hronom obec;Závadka nad Hronom obec;5614453;;48.848129;19.913826;SK;Europe/Bratislava;Q247054;Os|REX;;uic;101194417;Q65162508;;;5614453;Závadka n.Hronom obec
+TN5614456;gare;Višňové;Višňové;Višňové;5614456;;48.725184;17.752382;SK;Europe/Bratislava;Q179143;Os;;uic;522445926;Q61748132;;;5614456;Višňové
+TN5614466;gare;Horné Srnie;Horné Srnie;Horné Srnie;5614466;;48.997487;18.099308;SK;Europe/Bratislava;Q144816;Os;;uic;1796163868;Q111702062;;;5614466;Horné Srnie
+TN5614476;gare;Nemšová;Nemšová;Nemšová;5614476;;48.967635;18.121951;SK;Europe/Bratislava;Q389942;Os;;nom;1560394861;Q111697529;;;5614476;Nemšová
+TN5614483;gare;Heľpa;Heľpa;Heľpa;5614483;;48.856317;19.959354;SK;Europe/Bratislava;Q1035197;Os|REX;;uic;101207612;Q65162122;;;5614483;Heľpa
+TN5614503;gare;Nová Maša;Nová Maša;Nová Maša;5614503;;48.836298;20.052074;SK;Europe/Bratislava;Q615500;Os;;uic;101217146;Q65162333;;;5614503;Nová Maša
+TN5614513;gare;Pohorelá;Pohorelá;Pohorelá;5614513;;48.851721;20.013741;SK;Europe/Bratislava;Q1070060;Os|REX;;uic;101208170;Q65162381;;;5614513;Pohorelá
+TN5614516;gare;Bratislava predmestie;Bratislava predmestie;Bratislava predmestie;5614516;;48.18522;17.135154;SK;Europe/Bratislava;Q1780;Os|R;;uic;668119151;Q9179063;;;5614516;Bratislava predm.
+TN5614523;gare;Pohorelská Maša;Pohorelská Maša;Pohorelská Maša;5614523;;48.84864;20.028486;SK;Europe/Bratislava;Q1070060;Os;;uic;101208215;Q65162377;;;5614523;Pohorelská Maša
+TN5614533;gare;Vaľkovňa;Vaľkovňa;Vaľkovňa;5614533;;48.833883;20.066883;SK;Europe/Bratislava;Q615500;Os;;uic;101222195;Q65162476;;;5614533;Vaľkovňa
+TN5614543;gare;Červená Skala;Červená Skala;Červená Skala;5614543;;48.823185;20.131519;SK;Europe/Bratislava;Q241486;Os|REX;;uic;101235644;Q65169350;;;5614543;Červená Skala
+TN5614550;gare;Dobšinská Ľadová Jaskyňa;Dobšinská Ľadová Jaskyňa;Dobšinská Ľadová Jaskyňa;5614550;;48.876298;20.296408;SK;Europe/Bratislava;Q677811;Os|REX;;uic;118733117;Q111702704;;;5614550;Dobšinská Ľadová Jas.
+TN5614560;gare;Stratená;Stratená;Stratená;5614560;;48.869513;20.341427;SK;Europe/Bratislava;Q677811;Os|REX;;uic;118733411;Q65166048;;;5614560;Stratená
+TN5614570;gare;Mlynky;Mlynky;Mlynky;5614570;;48.854481;20.407289;SK;Europe/Bratislava;Q1037862;Os|REX;;uic;454329897;Q111697849;;;5614570;Mlynky
+TN5614576;gare;Bratislava-Petržalka;Bratislava-Petržalka;Bratislava-Petržalka;5614576;;48.121482;17.099466;SK;Europe/Bratislava;Q1780;EC|LE|Os|REX|RRR|rjx;;uic;30073060;Q800563;;;5614576;Bratislava-Petržalka
+TN5614580;gare;Dedinky;Dedinky;Dedinky;5614580;;48.855641;20.381925;SK;Europe/Bratislava;Q946996;Os|REX;;uic;454329899;Q65165595;;;5614580;Dedinky
+TN5614586;gare;Rusovce;Rusovce;Rusovce;5614586;;48.046766;17.150783;SK;Europe/Bratislava;Q1780;Os|RRR;;uic;5279185356;Q9324128;;;5614586;Rusovce
+TN5614590;gare;Mlynky zastávka;Mlynky zastávka;Mlynky zastávka;5614590;;48.850813;20.426554;SK;Europe/Bratislava;Q1037862;Os;;uic;454329889;Q65165838;;;5614590;Mlynky zast.
+TN5614600;gare;Rakovec;Rakovec;Rakovec;5614600;;48.842032;20.434566;SK;Europe/Bratislava;Q1037862;Os;;uic;454329884;;;;5614600;Rakovec
+TN5614603;gare;Banská Belá;Banská Belá;Banská Belá;5614603;;48.473207;18.947873;SK;Europe/Bratislava;Q806960;Os;;uic;561516079;Q111699015;;;5614603;Banská Belá
+TN5614610;gare;Sykavka;Sykavka;Sykavka;5614610;;48.846042;20.470713;SK;Europe/Bratislava;Q1037862;Os;;uic;118760146;Q65166052;;;5614610;Sykavka
+TN5614613;gare;Kozelník;Kozelník;Kozelník;5614613;;48.51551;19.004733;SK;Europe/Bratislava;Q1045452;Os;;uic;1171145870;Q111699363;;;5614613;Kozelník
+TN5614616;gare;Bratislava-Nové Mesto;Bratislava-Nové Mesto;Bratislava-Nové Mesto;5614616;;48.171922;17.1467;SK;Europe/Bratislava;Q1780;Os|R|REX|RRR|Zr;;uic;3355889023;Q3490099;;;5614616;Bratislava-N.Mesto
+TN5614618;gare;Bratislava-Vrakuňa;Bratislava-Vrakuňa;Bratislava-Vrakuňa;5614618;;48.144239;17.213415;SK;Europe/Bratislava;Q1780;Os|REX|Zr;;uic;6384121355;Q27654353;;;5614618;Bratislava-Vrakuňa
+TN5614620;gare;Hnilec;Hnilec;Hnilec;5614620;;48.830381;20.500951;SK;Europe/Bratislava;Q1073900;Os|REX;;uic;118760330;Q111702091;;;5614620;Hnilec
+TN5614623;gare;Banská Štiavnica;Banská Štiavnica;Banská Štiavnica;5614623;;48.443957;18.915519;SK;Europe/Bratislava;Q208110;Os;;uic;561515926;;;;5614623;Banská Štiavnica
+TN5614626;gare;Podunajské Biskupice;Podunajské Biskupice;Podunajské Biskupice;5614626;;48.131282;17.220864;SK;Europe/Bratislava;Q1780;Os|REX|Zr;;uic;8150247696;Q13365739;;;5614626;Podunajské Biskupice
+TN5614633;gare;Banský Studenec;Banský Studenec;Banský Studenec;5614633;;48.4548;18.936764;SK;Europe/Bratislava;Q806961;Os;;uic;561515959;Q111701988;;;5614633;Banský Studenec
+TN5614646;gare;Rovinka;Rovinka;Rovinka;5614646;;48.107781;17.255866;SK;Europe/Bratislava;Q785168;Os;;uic;6384121356;Q111694222;;;5614646;Rovinka
+TN5614656;gare;Nové Košariská;Nové Košariská;Nové Košariská;5614656;;48.099923;17.276792;SK;Europe/Bratislava;Q911359;Os|Zr;;uic;6384121354;Q111697254;;;5614656;Nové Košariská
+TN5614666;gare;Kvetoslavov;Kvetoslavov;Kvetoslavov;5614666;;48.055646;17.359446;SK;Europe/Bratislava;Q925135;Os|REX|Zr;;uic;6384121353;Q111698900;;;5614666;Kvetoslavov
+TN5614668;gare;Kvetoslavov zastávka;Kvetoslavov zastávka;Kvetoslavov zastávka;5614668;;48.060274;17.341016;SK;Europe/Bratislava;Q925135;Os|Zr;;uic;6384121352;Q111698899;;;5614668;Kvetoslavov zast.
+TN5614676;gare;Miloslavov;Miloslavov;Miloslavov;5614676;;48.085444;17.301781;SK;Europe/Bratislava;Q340081;Os|Zr;;uic;6384121357;;;;5614676;Miloslavov
+TN5614686;gare;Malá Paka;Malá Paka;Malá Paka;5614686;;48.044235;17.387458;SK;Europe/Bratislava;Q1184622;Os;;uic;378682266;Q111697958;;;5614686;Malá Paka
+TN5614696;gare;Veľká Paka;Veľká Paka;Veľká Paka;5614696;;48.038444;17.403822;SK;Europe/Bratislava;Q1184622;Os;;uic;370931363;Q111684390;;;5614696;Veľká Paka
+TN5614706;gare;Lehnice;Lehnice;Lehnice;5614706;;48.031774;17.452044;SK;Europe/Bratislava;Q672690;Os;;uic;676246350;Q111698883;;;5614706;Lehnice
+TN5614716;gare;Michal na Ostrove;Michal na Ostrove;Michal na Ostrove;5614716;;48.018252;17.504614;SK;Europe/Bratislava;Q1070113;Os;;uic;676608423;Q111697870;;;5614716;Michal na Ostrove
+TN5614726;gare;Orechová Potôň;Orechová Potôň;Orechová Potôň;5614726;;48.01448;17.52973;SK;Europe/Bratislava;Q906751;Os|REX|Zr;;uic;676637642;Q111694633;;;5614726;Orechová Potôň
+TN5614736;gare;Dunajská Streda;Dunajská Streda;Dunajská Streda;5614736;;47.993218;17.608337;SK;Europe/Bratislava;Q646393;Os|REX|Zr;;uic;676637641;Q111702633;;;5614736;Dunajská Streda
+TN5614746;gare;Veľké Blahovo;Veľké Blahovo;Veľké Blahovo;5614746;;48.006514;17.575624;SK;Europe/Bratislava;Q1088585;Os;;uic;676637643;Q111684224;;;5614746;Veľké Blahovo
+TN5614756;gare;Kútniky;Kútniky;Kútniky;5614756;;47.982956;17.652335;SK;Europe/Bratislava;Q767044;Os|REX|Zr;;nom;676641067;Q111698947;;;5614756;Kútniky
+TN5614766;gare;Dolný Bar;Dolný Bar;Dolný Bar;5614766;;47.967365;17.693462;SK;Europe/Bratislava;Q525158;Os|REX|Zr;;uic;3768748934;Q111702681;;;5614766;Dolný Bar
+TN5614776;gare;Dolný Štál;Dolný Štál;Dolný Štál;5614776;;47.951273;17.743576;SK;Europe/Bratislava;Q650465;Os|REX|Zr;;uic;6771996817;Q111702667;;;5614776;Dolný Štál
+TN5614796;gare;Okoč;Okoč;Okoč;5614796;;47.896152;17.794751;SK;Europe/Bratislava;Q719561;Os|REX|Zr;;uic;3768748936;Q111694765;;;5614796;Okoč
+TN5614806;gare;Veľký Meder;Veľký Meder;Veľký Meder;5614806;;47.861565;17.781691;SK;Europe/Bratislava;Q740469;Os|REX|Zr;;uic;1382047578;Q111684119;;;5614806;Veľký Meder
+TN5614811;gare;Telgárt penzión;Telgárt penzión;Telgárt penzión;5614811;;48.851685;20.199477;SK;Europe/Bratislava;Q665067;REX;;uic;478168128;Q65174749;;;5614811;Telgárt penzión
+TN5614813;gare;Kalinovo;Kalinovo;Kalinovo;5614813;;48.395138;19.705506;SK;Europe/Bratislava;Q943573;Os;;uic;59631885;;;;5614813;Kalinovo
+TN5614816;gare;Bodza;Bodza;Bodza;5614816;;47.834912;17.820449;SK;Europe/Bratislava;Q262869;Os|REX|Zr;;uic;3768748933;Q111701925;;;5614816;Bodza
+TN5614823;gare;Veľká Ves;Veľká Ves;Veľká Ves;5614823;;48.38098;19.686818;SK;Europe/Bratislava;Q943573;Os;;uic;59631541;Q111684388;;;5614823;Veľká Ves
+TN5614826;gare;Zemianska Olča;Zemianska Olča;Zemianska Olča;5614826;;47.8079;17.8524;SK;Europe/Bratislava;Q1071121;Os|REX|Zr;;uic;30418842;Q111677971;;;5614826;Zemianska Olča
+TN5614830;gare;Nálepkovo;Nálepkovo;Nálepkovo;5614830;;48.838363;20.630132;SK;Europe/Bratislava;Q508996;Os|REX;;uic;454328984;Q65165889;;;5614830;Nálepkovo
+TN5614833;gare;Breznička;Breznička;Breznička;5614833;;48.423198;19.739834;SK;Europe/Bratislava;Q1046327;Os;;uic;59632354;Q111703167;;;5614833;Breznička
+TN5614836;gare;Okoličná na Ostrove;Okoličná na Ostrove;Okoličná na Ostrove;5614836;;47.792989;17.900797;SK;Europe/Bratislava;Q1043950;Os|REX|Zr;;uic;30418836;Q111694757;;;5614836;Okoličná na Ostrove
+TN5614840;gare;Nálepkovo-Peklisko;Nálepkovo-Peklisko;Nálepkovo-Peklisko;5614840;;48.816465;20.54795;SK;Europe/Bratislava;Q508996;Os|REX;;uic;454328884;Q111697550;;;5614840;Nálepkovo-Peklisko
+TN5614843;gare;Zelené;Zelené;Zelené;5614843;;48.429264;19.769712;SK;Europe/Bratislava;Q259694;Os;;uic;59632763;Q111680145;;;5614843;Zelené
+TN5614846;gare;Zlatná na Ostrove;Zlatná na Ostrove;Zlatná na Ostrove;5614846;;47.775072;17.976781;SK;Europe/Bratislava;Q207202;Os|REX|Zr;;uic;7423865752;;;;5614846;Zlatná na Ostrove
+TN5614850;gare;Tretí Hámor;Tretí Hámor;Tretí Hámor;5614850;;48.816807;20.583229;SK;Europe/Bratislava;Q508996;Os|REX;;uic;454328909;Q65166076;;;5614850;Tretí Hámor
+TN5614856;gare;Horná Zlatná;Horná Zlatná;Horná Zlatná;5614856;;47.780414;17.946938;SK;Europe/Bratislava;Q207202;Os|REX|Zr;;uic;3785150157;Q111702066;;;5614856;Horná Zlatná
+TN5614860;gare;Švedlár;Švedlár;Švedlár;5614860;;48.805505;20.723223;SK;Europe/Bratislava;Q389692;Os|REX;;uic;454329120;Q65174778;;;5614860;Švedlár
+TN5614866;gare;Nová Stráž;Nová Stráž;Nová Stráž;5614866;;47.764398;18.048655;SK;Europe/Bratislava;Q210796;Os|REX|Zr;;uic;412160885;Q56345558;;;5614866;Nová Stráž
+TN5614870;gare;Stará Voda;Stará Voda;Stará Voda;5614870;;48.812515;20.670701;SK;Europe/Bratislava;Q1046512;Os|REX;;uic;10822339238;Q115959120;;;5614870;Stará Voda
+TN5614880;gare;Mníšek nad Hnilcom;Mníšek nad Hnilcom;Mníšek nad Hnilcom;5614880;;48.811627;20.814975;SK;Europe/Bratislava;Q1073009;Os|REX;;uic;454329278;Q65169148;;;5614880;Mníšek n.Hnilcom
+TN5614890;gare;Helcmanovce;Helcmanovce;Helcmanovce;5614890;;48.827704;20.865252;SK;Europe/Bratislava;Q1186980;Os|REX;;uic;454329355;Q65168996;;;5614890;Helcmanovce
+TN5614893;gare;Poltár;Poltár;Poltár;5614893;;48.428722;19.795399;SK;Europe/Bratislava;Q259694;Os;;uic;59642867;Q111694233;;;5614893;Poltár
+TN5614903;gare;Slaná Lehota;Slaná Lehota;Slaná Lehota;5614903;;48.45499;19.793687;SK;Europe/Bratislava;Q259694;Os;;uic;8173415677;Q111694180;;;5614903;Slaná Lehota
+TN5614906;gare;Komárno;Komárno;Komárno;5614906;;47.769268;18.125896;SK;Europe/Bratislava;Q210796;Os|REX|Zr;;uic;6795614368;Q75006568;;;5614906;Komárno
+TN5614913;gare;České Brezovo;České Brezovo;České Brezovo;5614913;;48.476958;19.801657;SK;Europe/Bratislava;Q871095;Os;;uic;59644630;Q111702929;;;5614913;České Brezovo
+TN5614930;gare;Prakovce;Prakovce;Prakovce;5614930;;48.820149;20.885806;SK;Europe/Bratislava;Q538055;Os|REX;;uic;454329417;Q65169214;;;5614930;Prakovce
+TN5614940;gare;Prakovce zastávka;Prakovce zastávka;Prakovce zastávka;5614940;;48.816498;20.895457;SK;Europe/Bratislava;Q538055;Os|REX;;uic;454329439;Q65169216;;;5614940;Prakovce zast.
+TN5614943;gare;Kokava nad Rimavicou;Kokava nad Rimavicou;Kokava nad Rimavicou;5614943;;48.566922;19.841591;SK;Europe/Bratislava;Q123519;Os;;uic;59645971;Q111699582;;;5614943;Kokava n.Rimavicou
+TN5614950;gare;Gelnica;Gelnica;Gelnica;5614950;;48.858384;20.947485;SK;Europe/Bratislava;Q842028;Os|REX;;uic;454329645;Q65190495;;;5614950;Gelnica
+TN5614953;gare;Zlatno;Zlatno;Zlatno;5614953;;48.513484;19.816704;SK;Europe/Bratislava;Q516339;Os;;uic;59644676;Q111677933;;;5614953;Zlatno
+TN5614960;gare;Gelnica mesto;Gelnica mesto;Gelnica mesto;5614960;;48.850634;20.935125;SK;Europe/Bratislava;Q842028;Os|REX;;uic;3307636494;Q65175463;;;5614960;Gelnica mesto
+TN5614963;gare;Kokava nad Rimavicou - Liešnica;Kokava nad Rimavicou - Liešnica;Kokava nad Rimavicou - Liešnica;5614963;;48.546435;19.829849;SK;Europe/Bratislava;Q123519;Os;;uic;59645928;Q111699592;;;5614963;Kokava n.Rim.-Liešnica
+TN5614966;gare;Komárno závody;Komárno závody;Komárno závody;5614966;;47.772364;18.092471;SK;Europe/Bratislava;Q210796;Os|REX|Zr;;uic;3785150158;Q111699576;;;5614966;Komárno závody
+TN5614973;gare;Utekáč;Utekáč;Utekáč;5614973;;48.603389;19.805203;SK;Europe/Bratislava;Q1073020;Os;;uic;59646634;Q111685486;;;5614973;Utekáč
+TN5614980;gare;Žakarovce;Žakarovce;Žakarovce;5614980;;48.869388;20.964202;SK;Europe/Bratislava;Q842028;Os|REX;;uic;454329703;Q65190670;;;5614980;Žakarovce
+TN5614986;gare;Sereď;Sereď;Sereď;5614986;;48.290368;17.726964;SK;Europe/Bratislava;Q429676;Os;;uic;6793945400;Q56102875;;;5614986;Sereď
+TN5615010;gare;Plešivec;Plešivec;Plešivec;5615010;;48.553464;20.412723;SK;Europe/Bratislava;Q220500;R;;uic;1314175093;Q56389114;;;5615010;Plešivec
+TN5615016;gare;Gáň;Gáň;Gáň;5615016;;48.233671;17.723317;SK;Europe/Bratislava;Q945292;Os;;uic;6793945401;Q111702555;;;5615016;Gáň
+TN5615026;gare;Križovany nad Dudváhom;Križovany nad Dudváhom;Križovany nad Dudváhom;5615026;;48.330225;17.661186;SK;Europe/Bratislava;Q1184544;Os;;uic;6793945399;Q111699311;;;5615026;Križovany n.Dudváhom
+TN5615033;gare;Rimavská Sobota;Rimavská Sobota;Rimavská Sobota;5615033;;48.385148;20.028602;SK;Europe/Bratislava;Q829812;Os;;uic;73439138;Q111699035;;;5615033;Rimavská Sobota
+TN5615043;gare;Rimavské Janovce;Rimavské Janovce;Rimavské Janovce;5615043;;48.352492;20.056011;SK;Europe/Bratislava;Q1070038;Os;;uic;8175950186;Q111699029;;;5615043;Rimavské Janovce
+TN5615053;gare;Čerenčany;Čerenčany;Čerenčany;5615053;;48.412091;19.989868;SK;Europe/Bratislava;Q871847;Os;;uic;81252350;Q111702948;;;5615053;Čerenčany
+TN5615060;gare;Rožňava;Rožňava;Rožňava;5615060;;48.635222;20.514134;SK;Europe/Bratislava;Q181628;Os|R;;uic;356429966;Q41556842;;;5615060;Rožňava
+TN5615073;gare;Veľké Teriakovce;Veľké Teriakovce;Veľké Teriakovce;5615073;;48.437373;19.973305;SK;Europe/Bratislava;Q789054;Os;;uic;8176026861;Q111684208;;;5615073;Veľké Teriakovce
+TN5615083;gare;Nižný Skálnik;Nižný Skálnik;Nižný Skálnik;5615083;;48.453115;19.967583;SK;Europe/Bratislava;Q679432;Os;;uic;81252701;Q111697468;;;5615083;Nižný Skálnik
+TN5615086;gare;Trenčianska Turná;Trenčianska Turná;Trenčianska Turná;5615086;;48.858858;18.019456;SK;Europe/Bratislava;Q1070688;Os;;uic;1560167807;Q111686244;;;5615086;Trenčianska Turná
+TN5615093;gare;Rimavské Janovce obec;Rimavské Janovce obec;Rimavské Janovce obec;5615093;;48.33714;20.056895;SK;Europe/Bratislava;Q1070038;Os;;uic;73457415;Q111699028;;;5615093;Rimavské Janovce obec
+TN5615096;gare;Soblahov;Soblahov;Soblahov;5615096;;48.852911;18.062042;SK;Europe/Bratislava;Q577509;Os;;uic;1560167806;Q111693934;;;5615096;Soblahov
+TN5615106;gare;Mníchova Lehota;Mníchova Lehota;Mníchova Lehota;5615106;;48.813003;18.087549;SK;Europe/Bratislava;Q791130;Os;;uic;1560203761;Q111697843;;;5615106;Mníchova Lehota
+TN5615110;gare;Lipovník;Lipovník;Lipovník;5615110;;48.632275;20.602887;SK;Europe/Bratislava;Q1068424;Os;;uic;1833129811;;;;5615110;Lipovník
+TN5615116;gare;Trenčianske Jastrabie;Trenčianske Jastrabie;Trenčianske Jastrabie;5615116;;48.800908;18.119115;SK;Europe/Bratislava;Q544343;Os;;uic;614207657;Q111686241;;;5615116;Trenčianske Jastrabie
+TN5615126;gare;Svinná;Svinná;Svinná;5615126;;48.780972;18.17239;SK;Europe/Bratislava;Q793218;Os;;uic;990186563;Q111693838;;;5615126;Svinná
+TN5615133;gare;Pohronská Polhora;Pohronská Polhora;Pohronská Polhora;5615133;;48.758352;19.793649;SK;Europe/Bratislava;Q517326;Os;;uic;60460270;Q111694239;;;5615133;Pohronská Polhora
+TN5615136;gare;Ruskovce;Ruskovce;Ruskovce;5615136;;48.748092;18.19752;SK;Europe/Bratislava;Q388868;Os;;uic;1560203766;Q111694208;;;5615136;Ruskovce
+TN5615140;gare;Turňa nad Bodvou;Turňa nad Bodvou;Turňa nad Bodvou;5615140;;48.597637;20.88892;SK;Europe/Bratislava;Q669340;Os|R;;uic;705471340;Q56389165;;;5615140;Turňa n.Bodvou
+TN5615143;gare;Brezno-Rohozná;Brezno-Rohozná;Brezno-Rohozná;5615143;;48.794854;19.708844;SK;Europe/Bratislava;Q465312;Os;;uic;60462487;Q111703134;;;5615143;Brezno-Rohozná
+TN5615146;gare;Bánovce nad Bebravou;Bánovce nad Bebravou;Bánovce nad Bebravou;5615146;;48.720295;18.251297;SK;Europe/Bratislava;Q549849;Os;;uic;1560203739;Q61728299;;;5615146;Bánovce n.Bebravou
+TN5615150;gare;Hrhov;Hrhov;Hrhov;5615150;;48.606794;20.769201;SK;Europe/Bratislava;Q1074186;Os;;uic;1833094066;;;;5615150;Hrhov
+TN5615153;gare;Michalová zastávka;Michalová zastávka;Michalová zastávka;5615153;;48.773749;19.756937;SK;Europe/Bratislava;Q465312;Os;;uic;60460906;Q111697863;;;5615153;Michalová zast.
+TN5615156;gare;Horné Ozorovce;Horné Ozorovce;Horné Ozorovce;5615156;;48.73692;18.233069;SK;Europe/Bratislava;Q549849;Os;;uic;1560203755;Q111702064;;;5615156;Horné Ozorovce
+TN5615163;gare;Michalová;Michalová;Michalová;5615163;;48.765516;19.777038;SK;Europe/Bratislava;Q1045583;Os;;uic;60460877;Q111697866;;;5615163;Michalová
+TN5615166;gare;Rybany;Rybany;Rybany;5615166;;48.669063;18.261748;SK;Europe/Bratislava;Q740924;Os;;uic;5743856155;Q111694201;;;5615166;Rybany
+TN5615170;gare;Moldava nad Bodvou;Moldava nad Bodvou;Moldava nad Bodvou;5615170;;48.600817;21.003145;SK;Europe/Bratislava;Q1050552;Os|R;;uic;705471383;;;;5615170;Moldava n.Bodvou
+TN5615173;gare;Zbojská;Zbojská;Zbojská;5615173;;48.746627;19.84099;SK;Europe/Bratislava;Q517326;Os;;uic;844375491;Q111680146;;;5615173;Zbojská
+TN5615176;gare;Dolné Naštice;Dolné Naštice;Dolné Naštice;5615176;;48.69037;18.248786;SK;Europe/Bratislava;Q678614;Os;;uic;1560217179;Q111702686;;;5615176;Dolné Naštice
+TN5615183;gare;Tisovec;Tisovec;Tisovec;5615183;;48.690766;19.935671;SK;Europe/Bratislava;Q370445;Os;;uic;60458138;Q111691850;;;5615183;Tisovec
+TN5615186;gare;Ostratice;Ostratice;Ostratice;5615186;;48.647903;18.272014;SK;Europe/Bratislava;Q1044202;Os;;uic;9510658634;Q111694620;;;5615186;Ostratice
+TN5615190;gare;Mokrance;Mokrance;Mokrance;5615190;;48.590833;21.022694;SK;Europe/Bratislava;Q1050552;Os;;uic;705471333;Q56389849;;;5615190;Mokrance
+TN5615193;gare;Tisovec-Bánovo;Tisovec-Bánovo;Tisovec-Bánovo;5615193;;48.715582;19.867989;SK;Europe/Bratislava;Q370445;Os;;uic;60459265;Q111691838;;;5615193;Tisovec-Bánovo
+TN5615196;gare;Chynorany;Chynorany;Chynorany;5615196;;48.608027;18.275312;SK;Europe/Bratislava;Q517457;Os|R;;uic;702384342;Q55281183;;;5615196;Chynorany
+TN5615200;gare;Čečejovce;Čečejovce;Čečejovce;5615200;;48.58642;21.0696;SK;Europe/Bratislava;Q341403;Os;;uic;705471405;Q56389852;;;5615200;Čečejovce
+TN5615203;gare;Tisovec mesto;Tisovec mesto;Tisovec mesto;5615203;;48.68029;19.94733;SK;Europe/Bratislava;Q370445;Os;;uic;60458118;Q111691846;;;5615203;Tisovec mesto
+TN5615206;gare;Šurany;Šurany;Šurany;5615206;;48.085232;18.172727;SK;Europe/Bratislava;Q392704;Os|R;;uic;10210597090;Q55281188;;;5615206;Šurany
+TN5615210;gare;Cestice;Cestice;Cestice;5615210;;48.586383;21.097256;SK;Europe/Bratislava;Q1046523;Os;;uic;705471360;Q111702980;;;5615210;Cestice
+TN5615213;gare;Rimavská Píla;Rimavská Píla;Rimavská Píla;5615213;;48.650527;19.947584;SK;Europe/Bratislava;Q370445;Os;;uic;81287610;Q111699041;;;5615213;Rimavská Píla
+TN5615216;gare;Bánov;Bánov;Bánov;5615216;;48.045548;18.167445;SK;Europe/Bratislava;Q853090;Os;;uic;3325142554;Q111699016;;;5615216;Bánov
+TN5615223;gare;Hnúšťa;Hnúšťa;Hnúšťa;5615223;;48.577257;19.957782;SK;Europe/Bratislava;Q828850;Os;;uic;81266628;Q111702088;;;5615223;Hnúšťa
+TN5615226;gare;Šurany zastávka;Šurany zastávka;Šurany zastávka;5615226;;48.090998;18.196219;SK;Europe/Bratislava;Q392704;Os;;uic;3325103352;Q111692016;;;5615226;Šurany zast.
+TN5615230;gare;Moldava nad Bodvou mesto;Moldava nad Bodvou mesto;Moldava nad Bodvou mesto;5615230;;48.608116;21.003168;SK;Europe/Bratislava;Q846440;Os;;uic;6635016746;Q111697836;;;5615230;Moldava n.Bodvou mesto
+TN5615233;gare;Hačava;Hačava;Hačava;5615233;;48.626251;19.953299;SK;Europe/Bratislava;Q828850;Os;;uic;8176137568;Q111702119;;;5615233;Hačava
+TN5615243;gare;Hačava skálie;Hačava skálie;Hačava skálie;5615243;;48.617392;19.959139;SK;Europe/Bratislava;Q828850;Os;;uic;1401589450;Q111702118;;;5615243;Hačava skálie
+TN5615246;gare;Komjatice;Komjatice;Komjatice;5615246;;48.152095;18.163751;SK;Europe/Bratislava;Q261162;Os;;uic;1400715645;Q111699565;;;5615246;Komjatice
+TN5615250;gare;Veľká Ida;Veľká Ida;Veľká Ida;5615250;;48.590857;21.171227;SK;Europe/Bratislava;Q683256;Os;;uic;705471310;Q111684624;;;5615250;Veľká Ida
+TN5615256;gare;Ondrochov;Ondrochov;Ondrochov;5615256;;48.121594;18.16506;SK;Europe/Bratislava;Q769687;Os;;uic;1400713591;Q111694660;;;5615256;Ondrochov
+TN5615260;gare;Hutníky;Hutníky;Hutníky;5615260;;48.610103;21.207858;SK;Europe/Bratislava;Q25409;Os;;uic;705471386;;;;5615260;Hutníky
+TN5615263;gare;Hnúšťa zastávka;Hnúšťa zastávka;Hnúšťa zastávka;5615263;;48.604171;19.958865;SK;Europe/Bratislava;Q828850;Os;;uic;8176082680;Q111702085;;;5615263;Hnúšťa zast.
+TN5615266;gare;Veľký Kýr;Veľký Kýr;Veľký Kýr;5615266;;48.18353;18.150716;SK;Europe/Bratislava;Q1026693;Os;;uic;27279256;Q111684163;;;5615266;Veľký Kýr
+TN5615273;gare;Likier;Likier;Likier;5615273;;48.561297;19.963144;SK;Europe/Bratislava;Q828850;Os;;uic;81266612;Q111698560;;;5615273;Likier
+TN5615276;gare;Ivanka pri Nitre;Ivanka pri Nitre;Ivanka pri Nitre;5615276;;48.244394;18.109638;SK;Europe/Bratislava;Q1070804;Os;;uic;27279264;Q111701770;;;5615276;Ivanka pri Nitre
+TN5615280;gare;Haniska pri Košiciach;Haniska pri Košiciach;Haniska pri Košiciach;5615280;;48.631471;21.248613;SK;Europe/Bratislava;Q428663;Os|R;;uic;619336549;Q56389859;;;5615280;Haniska pri Košiciach
+TN5615283;gare;Rimavské Brezovo;Rimavské Brezovo;Rimavské Brezovo;5615283;;48.539995;19.964315;SK;Europe/Bratislava;Q1043125;Os;;uic;712578527;Q111699032;;;5615283;Rimavské Brezovo
+TN5615286;gare;Branč;Branč;Branč;5615286;;48.207262;18.137219;SK;Europe/Bratislava;Q793344;Os;;uic;1400719393;Q111701910;;;5615286;Branč
+TN5615290;gare;Barca;Barca;Barca;5615290;;48.679261;21.276338;SK;Europe/Bratislava;Q25409;Os;;uic;1786317295;Q55810038;;;5615290;Barca
+TN5615293;gare;Rimavská Baňa;Rimavská Baňa;Rimavská Baňa;5615293;;48.509938;19.9446;SK;Europe/Bratislava;Q1068529;Os;;uic;81260929;Q111699043;;;5615293;Rimavská Baňa
+TN5615296;gare;Dolné Krškany;Dolné Krškany;Dolné Krškany;5615296;;48.271059;18.093277;SK;Europe/Bratislava;Q26397;Os;;uic;1400720242;Q111702690;;;5615296;Dolné Krškany
+TN5615303;gare;Rimavské Zalužany;Rimavské Zalužany;Rimavské Zalužany;5615303;;48.500021;19.940384;SK;Europe/Bratislava;Q687133;Os;;uic;81260782;Q111699027;;;5615303;Rimavské Zalužany
+TN5615304;gare;Tisovec závody;Tisovec závody;Tisovec závody;5615304;;48.66958;19.946127;SK;Europe/Bratislava;Q370445;Os;;uic;60458105;Q111691843;;;5615304;Tisovec závody
+TN5615306;gare;Nitra;Nitra;Nitra;5615306;;48.301521;18.07922;SK;Europe/Bratislava;Q26397;Os|REX;;uic;7066101885;;;;5615306;Nitra
+TN5615313;gare;Kociha;Kociha;Kociha;5615313;;48.485225;19.951804;SK;Europe/Bratislava;Q687133;Os;;uic;81260305;Q111701687;;;5615313;Kociha
+TN5615316;gare;Nitra zastávka;Nitra zastávka;Nitra zastávka;5615316;;48.311707;18.056871;SK;Europe/Bratislava;Q26397;Os;;uic;1678847922;;;;5615316;Nitra zast.
+TN5615320;gare;Valaliky;Valaliky;Valaliky;5615320;;48.646833;21.287655;SK;Europe/Bratislava;Q1073263;Os;;uic;619336611;;;;5615320;Valaliky
+TN5615321;gare;Valaliky terminál;Valaliky terminál;Valaliky terminál;5615321;;0.0;0.0;SK;Europe/Bratislava;VTN5615321;Os;;gtfs;;;;;5615321;Valaliky terminál
+TN5615323;gare;Hrachovo;Hrachovo;Hrachovo;5615323;;48.464798;19.960212;SK;Europe/Bratislava;Q1042880;Os;;uic;81252754;Q111702049;;;5615323;Hrachovo
+TN5615326;gare;Mlynárce;Mlynárce;Mlynárce;5615326;;48.325196;18.039832;SK;Europe/Bratislava;Q26397;Os;;uic;10186163186;Q111697853;;;5615326;Mlynárce
+TN5615330;gare;Čaňa;Čaňa;Čaňa;5615330;;48.609551;21.309786;SK;Europe/Bratislava;Q337978;Os;;uic;272305921;;;;5615330;Čaňa
+TN5615336;gare;Lužianky;Lužianky;Lužianky;5615336;;48.351971;18.023774;SK;Europe/Bratislava;Q1071400;Os|REX;;uic;3667792819;Q17542192;;;5615336;Lužianky
+TN5615346;gare;Zbehy obec;Zbehy obec;Zbehy obec;5615346;;48.367026;18.013327;SK;Europe/Bratislava;Q167966;Os;;uic;1174954328;Q111680147;;;5615346;Zbehy obec
+TN5615356;gare;Zbehy;Zbehy;Zbehy;5615356;;48.382071;17.99999;SK;Europe/Bratislava;Q167966;Os|R|REX;;uic;1174954487;Q53768629;;;5615356;Zbehy
+TN5615396;gare;Čakajovce;Čakajovce;Čakajovce;5615396;;48.372566;18.036161;SK;Europe/Bratislava;Q337518;Os;;uic;1174953463;Q111702971;;;5615396;Čakajovce
+TN5615404;gare;Šahy;Šahy;Šahy;5615404;;48.059218;18.956737;SK;Europe/Bratislava;Q390946;Os;;uic;7683964612;Q109658578;;;5615404;Šahy
+TN5615406;gare;Jelšovce;Jelšovce;Jelšovce;5615406;;48.38366;18.052712;SK;Europe/Bratislava;Q668824;Os;;uic;1174953686;Q111701760;;;5615406;Jelšovce
+TN5615416;gare;Koniarovce;Koniarovce;Koniarovce;5615416;;48.429912;18.090409;SK;Europe/Bratislava;Q253827;Os;;uic;1400723491;Q111699561;;;5615416;Koniarovce
+TN5615426;gare;Výčapy-Opatovce;Výčapy-Opatovce;Výčapy-Opatovce;5615426;;48.413007;18.080143;SK;Europe/Bratislava;Q1070338;Os;;uic;7768091214;;;;5615426;Výčapy-Opatovce
+TN5615446;gare;Preseľany nad Nitrou zastávka;Preseľany nad Nitrou zastávka;Preseľany nad Nitrou zastávka;5615446;;48.448454;18.093416;SK;Europe/Bratislava;Q583278;Os;;uic;1400723494;Q111703214;;;5615446;Preseľany n.Nitrou z.
+TN5615456;gare;Ludanice;Ludanice;Ludanice;5615456;;48.504312;18.118829;SK;Europe/Bratislava;Q284191;Os;;uic;7767784188;Q111698470;;;5615456;Ludanice
+TN5615466;gare;Mýtna Nová Ves;Mýtna Nová Ves;Mýtna Nová Ves;5615466;;48.484199;18.103423;SK;Europe/Bratislava;Q284191;Os;;nom;1400723493;Q111697577;;;5615466;Mýtna Nová Ves
+TN5615476;gare;Kamanová;Kamanová;Kamanová;5615476;;48.466441;18.095303;SK;Europe/Bratislava;Q277595;Os;;uic;1400723490;Q111701737;;;5615476;Kamanová
+TN5615486;gare;Chrabrany;Chrabrany;Chrabrany;5615486;;48.53144;18.147793;SK;Europe/Bratislava;Q1043694;Os;;uic;9498387931;Q55281190;;;5615486;Chrabrany
+TN5615506;gare;Topoľčany;Topoľčany;Topoľčany;5615506;;48.562398;18.169423;SK;Europe/Bratislava;Q750423;Os|R;;uic;5366254620;Q108147340;;;5615506;Topoľčany
+TN5615516;gare;Krušovce;Krušovce;Krušovce;5615516;;48.582745;18.201688;SK;Europe/Bratislava;Q764102;Os|R;;uic;734111884;Q111699302;;;5615516;Krušovce
+TN5615526;gare;Bošany;Bošany;Bošany;5615526;;48.592973;18.241922;SK;Europe/Bratislava;Q288058;Os|R;;uic;10214421244;Q108538566;;;5615526;Bošany
+TN5615536;gare;Žabokreky nad Nitrou;Žabokreky nad Nitrou;Žabokreky nad Nitrou;5615536;;48.617453;18.299448;SK;Europe/Bratislava;Q393313;Os|R;;uic;2293679094;Q99482687;;;5615536;Žabokreky n.Nitrou
+TN5615542;gare;Maňa zastávka;Maňa zastávka;Maňa zastávka;5615542;;48.146499;18.264168;SK;Europe/Bratislava;Q975852;Os;;uic;10210597069;Q111697951;;;5615542;Maňa zast.
+TN5615546;gare;Veľké Bielice;Veľké Bielice;Veľké Bielice;5615546;;48.624686;18.349706;SK;Europe/Bratislava;Q754768;Os|R;;uic;617993225;Q96747236;;;5615546;Veľké Bielice
+TN5615556;gare;Partizánske;Partizánske;Partizánske;5615556;;48.6272;18.369685;SK;Europe/Bratislava;Q754768;Os|R;;uic;628618619;Q54991753;;;5615556;Partizánske
+TN5615566;gare;Partizánske zastávka;Partizánske zastávka;Partizánske zastávka;5615566;;48.627106;18.393538;SK;Europe/Bratislava;Q754768;Os|R;;uic;6253850462;Q111694588;;;5615566;Partizánske zast.
+TN5615576;gare;Veľké Uherce;Veľké Uherce;Veľké Uherce;5615576;;48.625473;18.424763;SK;Europe/Bratislava;Q681718;Os|R;;uic;7371960355;Q108907761;;;5615576;Veľké Uherce
+TN5615586;gare;Oslany;Oslany;Oslany;5615586;;48.641377;18.464314;SK;Europe/Bratislava;Q973842;Os|R;;uic;990183222;Q111694622;;;5615586;Oslany
+TN5615606;gare;Úľany nad Žitavou;Úľany nad Žitavou;Úľany nad Žitavou;5615606;;48.09785;18.233009;SK;Europe/Bratislava;Q781025;Os|R;;uic;10186163187;Q109911944;;;5615606;Úľany n.Žitavou
+TN5615616;gare;Hul;Hul;Hul;5615616;;48.097933;18.265609;SK;Europe/Bratislava;Q1044173;Os;;uic;2222263884;Q109912170;;;5615616;Hul
+TN5615626;gare;Podhájska;Podhájska;Podhájska;5615626;;48.102733;18.344271;SK;Europe/Bratislava;Q595525;Os|R;;uic;35234003;Q109911980;;;5615626;Podhájska
+TN5615636;gare;Radava;Radava;Radava;5615636;;48.09813;18.305508;SK;Europe/Bratislava;Q1044006;Os;;uic;27303810;Q111700149;;;5615636;Radava
+TN5615646;gare;Beša;Beša;Beša;5615646;;48.1384;18.402161;SK;Europe/Bratislava;Q539580;Os;;uic;2094813181;Q109911835;;;5615646;Beša
+TN5615656;gare;Pozba;Pozba;Pozba;5615656;;48.115354;18.387748;SK;Europe/Bratislava;Q598366;Os;;uic;27303826;Q111703252;;;5615656;Pozba
+TN5615666;gare;Jesenské údolie;Jesenské údolie;Jesenské údolie;5615666;;48.160816;18.418058;SK;Europe/Bratislava;Q1050570;Os;;uic;3648648344;Q111701759;;;5615666;Jesenské údolie
+TN5615676;gare;Lok;Lok;Lok;5615676;;48.185375;18.472856;SK;Europe/Bratislava;Q1008204;Os;;uic;3648631593;Q109912114;;;5615676;Lok
+TN5615686;gare;Horný Pial;Horný Pial;Horný Pial;5615686;;48.159621;18.449637;SK;Europe/Bratislava;Q609341;Os;;uic;2094813192;Q111702055;;;5615686;Horný Pial
+TN5615696;gare;Kalná nad Hronom;Kalná nad Hronom;Kalná nad Hronom;5615696;;48.204114;18.51677;SK;Europe/Bratislava;Q572345;Os;;uic;27303888;Q98115940;;;5615696;Kalná n.Hronom
+TN5615710;gare;Drienovská Nová Ves;Drienovská Nová Ves;Drienovská Nová Ves;5615710;;48.911482;21.245244;SK;Europe/Bratislava;Q958802;Os;;uic;683508646;Q86666682;;;5615710;Drienovská Nová Ves
+TN5615716;gare;Levice;Levice;Levice;5615716;;48.211346;18.592648;SK;Europe/Bratislava;Q506693;Os|R;;uic;10113550443;Q30531413;;;5615716;Levice
+TN5615720;gare;Ličartovce;Ličartovce;Ličartovce;5615720;;48.875145;21.240887;SK;Europe/Bratislava;Q740778;Os;;uic;410288702;Q86666670;;;5615720;Ličartovce
+TN5615726;gare;Veľké Kozmálovce;Veľké Kozmálovce;Veľké Kozmálovce;5615726;;48.280526;18.549201;SK;Europe/Bratislava;Q1044667;Os;;uic;563298351;Q98554284;;;5615726;Veľké Kozmálovce
+TN5615730;gare;Kendice;Kendice;Kendice;5615730;;48.926717;21.247468;SK;Europe/Bratislava;Q1106868;Os;;uic;1180654758;Q86666673;;;5615730;Kendice
+TN5615736;gare;Tlmače;Tlmače;Tlmače;5615736;;48.290338;18.540821;SK;Europe/Bratislava;Q239637;Os;;uic;563298344;Q111691825;;;5615736;Tlmače
+TN5615740;gare;Obišovce;Obišovce;Obišovce;5615740;;48.862192;21.238663;SK;Europe/Bratislava;Q480446;Os;;uic;27177016;Q86666666;;;5615740;Obišovce
+TN5615746;gare;Hronské Kľačany;Hronské Kľačany;Hronské Kľačany;5615746;;48.246824;18.582223;SK;Europe/Bratislava;Q1008190;Os;;uic;563298589;Q111702082;;;5615746;Hronské Kľačany
+TN5615750;gare;Prešov;Prešov;Prešov;5615750;;48.983176;21.248984;SK;Europe/Bratislava;Q26119;EC|Ex|LE|Os|REX;;uic;346420319;Q54328697;;;5615750;Prešov
+TN5615756;gare;Kozárovce;Kozárovce;Kozárovce;5615756;;48.310722;18.536187;SK;Europe/Bratislava;Q667721;Os|R;;uic;563298349;Q55281184;;;5615756;Kozárovce
+TN5615760;gare;Prešov mesto;Prešov mesto;Prešov mesto;5615760;;48.994256;21.234043;SK;Europe/Bratislava;Q26119;Os|REX;;uic;1180654064;Q86666641;;;5615760;Prešov mesto
+TN5615770;gare;Haniska pri Prešove;Haniska pri Prešove;Haniska pri Prešove;5615770;;48.956599;21.240924;SK;Europe/Bratislava;Q990017;Os;;uic;410288699;Q86666657;;;5615770;Haniska pri Prešove
+TN5615780;gare;Šarišské Lúky;Šarišské Lúky;Šarišské Lúky;5615780;;49.016412;21.267118;SK;Europe/Bratislava;Q345031;Os;;uic;384621924;Q67480510;;;5615780;Šarišské Lúky
+TN5615800;gare;Kapušany pri Prešove;Kapušany pri Prešove;Kapušany pri Prešove;5615800;;49.043869;21.32054;SK;Europe/Bratislava;Q1095718;Os;;uic;330448175;Q86666964;;;5615800;Kapušany pri Prešove
+TN5615810;gare;Lada;Lada;Lada;5615810;;49.047309;21.359146;SK;Europe/Bratislava;Q549778;Os;;uic;1180652828;Q111698898;;;5615810;Lada
+TN5615816;gare;Bajč;Bajč;Bajč;5615816;;47.926428;18.211546;SK;Europe/Bratislava;Q788691;Os;;uic;1063783348;Q111699017;;;5615816;Bajč
+TN5615820;gare;Fulianka;Fulianka;Fulianka;5615820;;49.066975;21.334588;SK;Europe/Bratislava;Q367012;Os;;uic;677212651;Q111702621;;;5615820;Fulianka
+TN5615826;gare;Hurbanovo;Hurbanovo;Hurbanovo;5615826;;47.876639;18.203471;SK;Europe/Bratislava;Q856402;Os;;uic;25551787;Q111701883;;;5615826;Hurbanovo
+TN5615830;gare;Tulčík;Tulčík;Tulčík;5615830;;49.088003;21.306825;SK;Europe/Bratislava;Q961487;Os;;uic;677212657;Q111686212;;;5615830;Tulčík
+TN5615836;gare;Chotín;Chotín;Chotín;5615836;;47.808856;18.189905;SK;Europe/Bratislava;Q971116;Os;;uic;7098468026;Q111701804;;;5615836;Chotín
+TN5615850;gare;Demjata obec;Demjata obec;Demjata obec;5615850;;49.107488;21.312521;SK;Europe/Bratislava;Q590006;Os;;uic;677212671;Q111700165;;;5615850;Demjata obec
+TN5615860;gare;Lipníky;Lipníky;Lipníky;5615860;;49.04902;21.405657;SK;Europe/Bratislava;Q771997;Os;;uic;330448113;Q111698556;;;5615860;Lipníky
+TN5615870;gare;Hanušovce nad Topľou;Hanušovce nad Topľou;Hanušovce nad Topľou;5615870;;49.018892;21.519838;SK;Europe/Bratislava;Q780527;Os;;uic;1839989858;Q110270817;;;5615870;Hanušovce n.Topľou
+TN5615880;gare;Pavlovce;Pavlovce;Pavlovce;5615880;;49.033518;21.459545;SK;Europe/Bratislava;Q1046033;Os;;uic;981426738;Q111694580;;;5615880;Pavlovce
+TN5615890;gare;Hanušovce nad Topľou mesto;Hanušovce nad Topľou mesto;Hanušovce nad Topľou mesto;5615890;;49.023963;21.504462;SK;Europe/Bratislava;Q780527;Os;;uic;1339048141;Q111702114;;;5615890;Hanušovce n.Topľou mesto
+TN5615900;gare;Čierne nad Topľou;Čierne nad Topľou;Čierne nad Topľou;5615900;;48.989781;21.569431;SK;Europe/Bratislava;Q341483;Os;;uic;330447992;Q111702863;;;5615900;Čierne n.Topľou
+TN5615906;gare;Hlohovec;Hlohovec;Hlohovec;5615906;;48.433304;17.807029;SK;Europe/Bratislava;Q754773;Os|R|REX;;uic;26823556;Q20053966;;;5615906;Hlohovec
+TN5615910;gare;Bystré;Bystré;Bystré;5615910;;49.003311;21.542393;SK;Europe/Bratislava;Q1018689;Os;;uic;1011773391;Q111703062;;;5615910;Bystré
+TN5615916;gare;Leopoldov zastávka;Leopoldov zastávka;Leopoldov zastávka;5615916;;48.448683;17.776022;SK;Europe/Bratislava;Q690807;Os;;uic;1002369373;Q15703290;;;5615916;Leopoldov zast.
+TN5615920;gare;Soľ;Soľ;Soľ;5615920;;48.931974;21.60051;SK;Europe/Bratislava;Q1074168;Os;;uic;1839989868;Q111693933;;;5615920;Soľ
+TN5615926;gare;Rišňovce;Rišňovce;Rišňovce;5615926;;48.373106;17.890311;SK;Europe/Bratislava;Q375577;Os|REX;;uic;321855210;Q111699023;;;5615926;Rišňovce
+TN5615930;gare;Hlinné;Hlinné;Hlinné;5615930;;48.952912;21.584174;SK;Europe/Bratislava;Q551701;Os;;uic;1839989861;Q111702102;;;5615930;Hlinné
+TN5615936;gare;Kľačany;Kľačany;Kľačany;5615936;;48.387007;17.867904;SK;Europe/Bratislava;Q684272;Os;;uic;482941326;Q111701701;;;5615936;Kľačany
+TN5615940;gare;Vranov nad Topľou;Vranov nad Topľou;Vranov nad Topľou;5615940;;48.889997;21.674098;SK;Europe/Bratislava;Q842005;Os;;uic;990162289;Q55281187;;;5615940;Vranov n.Topľou
+TN5615946;gare;Alekšince;Alekšince;Alekšince;5615946;;48.363648;17.942893;SK;Europe/Bratislava;Q547367;Os|REX;;uic;321855493;Q111699014;;;5615946;Alekšince
+TN5615956;gare;Andač;Andač;Andač;5615956;;48.381113;17.967245;SK;Europe/Bratislava;Q167966;Os;;uic;9495737925;Q111699012;;;5615956;Andač
+TN5615960;gare;Vranovské Dlhé;Vranovské Dlhé;Vranovské Dlhé;5615960;;48.869507;21.705149;SK;Europe/Bratislava;Q842005;Os;;uic;1839989873;Q111680256;;;5615960;Vranovské Dlhé
+TN5615970;gare;Komárany;Komárany;Komárany;5615970;;48.913127;21.638561;SK;Europe/Bratislava;Q651057;Os;;uic;1839989862;Q111699578;;;5615970;Komárany
+TN5615990;gare;Nižný Hrabovec;Nižný Hrabovec;Nižný Hrabovec;5615990;;48.857039;21.751861;SK;Europe/Bratislava;Q277601;Os;;uic;243980648;Q111697475;;;5615990;Nižný Hrabovec
+TN5616000;gare;Hencovce;Hencovce;Hencovce;5616000;;48.857057;21.724748;SK;Europe/Bratislava;Q1035266;Os;;uic;1839989859;Q111702107;;;5616000;Hencovce
+TN5616010;gare;Strážske;Strážske;Strážske;5616010;;48.867115;21.825043;SK;Europe/Bratislava;Q846434;EN|Os|R|REX;;uic;1780131104;Q105703035;;;5616010;Strážske
+TN5616040;gare;Humenné;Humenné;Humenné;5616040;;48.929481;21.899075;SK;Europe/Bratislava;Q502264;EN|Os|R|REX;;uic;413527698;Q56072239;;;5616040;Humenné
+TN5616050;gare;Brekov;Brekov;Brekov;5616050;;48.902407;21.840809;SK;Europe/Bratislava;Q302991;Os|REX;;uic;1831154539;Q111703174;;;5616050;Brekov
+TN5616060;gare;Humenné mesto;Humenné mesto;Humenné mesto;5616060;;48.933513;21.9123;SK;Europe/Bratislava;Q502264;Os;;uic;1168628337;Q111701887;;;5616060;Humenné mesto
+TN5616070;gare;Hažín nad Cirochou;Hažín nad Cirochou;Hažín nad Cirochou;5616070;;48.931998;21.957572;SK;Europe/Bratislava;Q778394;Os;;uic;201545007;Q111702111;;;5616070;Hažín n.Cirochou
+TN5616080;gare;Kamenica nad Cirochou;Kamenica nad Cirochou;Kamenica nad Cirochou;5616080;;48.934027;21.991254;SK;Europe/Bratislava;Q1186876;Os;;uic;1168629570;Q111701724;;;5616080;Kamenica n.Cirochou
+TN5616090;gare;Kamenica nad Cirochou dvor;Kamenica nad Cirochou dvor;Kamenica nad Cirochou dvor;5616090;;48.936237;22.000363;SK;Europe/Bratislava;Q1186876;Os;;uic;1168629824;Q111701721;;;5616090;Kamenica n.Cirochou dv.
+TN5616100;gare;Modra nad Cirochou;Modra nad Cirochou;Modra nad Cirochou;5616100;;48.947756;22.034554;SK;Europe/Bratislava;Q1067885;Os;;uic;283128666;Q111697841;;;5616100;Modra n.Cirochou
+TN5616110;gare;Dlhé nad Cirochou;Dlhé nad Cirochou;Dlhé nad Cirochou;5616110;;48.954901;22.055183;SK;Europe/Bratislava;Q867625;Os;;uic;1168629737;Q111702752;;;5616110;Dlhé n.Cirochou
+TN5616116;gare;Zlaté Moravce;Zlaté Moravce;Zlaté Moravce;5616116;;48.385886;18.376434;SK;Europe/Bratislava;Q207226;Os;;uic;1828665125;Q111677967;;;5616116;Zlaté Moravce
+TN5616120;gare;Dlhé nad Cirochou obec;Dlhé nad Cirochou obec;Dlhé nad Cirochou obec;5616120;;48.958499;22.066206;SK;Europe/Bratislava;Q867625;Os;;uic;1168628321;Q111702751;;;5616120;Dlhé n.Cirochou obec
+TN5616130;gare;Udavské;Udavské;Udavské;5616130;;48.965517;21.947094;SK;Europe/Bratislava;Q370333;Os;;uic;1601010060;Q111685614;;;5616130;Udavské
+TN5616140;gare;Ľubiša;Ľubiša;Ľubiša;5616140;;49.002374;21.943838;SK;Europe/Bratislava;Q344682;Os;;uic;1831162906;Q111698539;;;5616140;Ľubiša
+TN5616146;gare;Maňa;Maňa;Maňa;5616146;;48.15578;18.270607;SK;Europe/Bratislava;Q975852;Os;;uic;3324968995;Q111697954;;;5616146;Maňa
+TN5616150;gare;Koškovce;Koškovce;Koškovce;5616150;;49.051439;21.954665;SK;Europe/Bratislava;Q1073950;Os;;uic;1831154552;Q111699375;;;5616150;Koškovce
+TN5616156;gare;Malá Maňa;Malá Maňa;Malá Maňa;5616156;;48.136451;18.258177;SK;Europe/Bratislava;Q975852;Os;;uic;3325030475;Q111697961;;;5616156;Malá Maňa
+TN5616160;gare;Hankovce;Hankovce;Hankovce;5616160;;49.026135;21.94789;SK;Europe/Bratislava;Q784615;Os;;uic;1831154546;Q111702115;;;5616160;Hankovce
+TN5616166;gare;Kmeťovo;Kmeťovo;Kmeťovo;5616166;;48.168106;18.276596;SK;Europe/Bratislava;Q1029203;Os;;uic;3324968992;Q111701688;;;5616166;Kmeťovo
+TN5616170;gare;Zbudské Dlhé;Zbudské Dlhé;Zbudské Dlhé;5616170;;49.072744;21.955188;SK;Europe/Bratislava;Q1046048;Os;;uic;1831154695;Q111678552;;;5616170;Zbudské Dlhé
+TN5616176;gare;Michal nad Žitavou;Michal nad Žitavou;Michal nad Žitavou;5616176;;48.184661;18.281894;SK;Europe/Bratislava;Q1044265;Os;;uic;3324968996;Q111697872;;;5616176;Michal n.Žitavou
+TN5616180;gare;Hrabovec nad Laborcom;Hrabovec nad Laborcom;Hrabovec nad Laborcom;5616180;;49.095897;21.941951;SK;Europe/Bratislava;Q1098887;Os;;uic;1462190562;Q111702054;;;5616180;Hrabovec n.Laborcom
+TN5616186;gare;Vráble;Vráble;Vráble;5616186;;48.254648;18.300707;SK;Europe/Bratislava;Q264708;Os;;uic;3324944468;Q111680257;;;5616186;Vráble
+TN5616190;gare;Radvaň nad Laborcom;Radvaň nad Laborcom;Radvaň nad Laborcom;5616190;;49.134833;21.921954;SK;Europe/Bratislava;Q1025224;Os;;uic;1831154676;Q111700147;;;5616190;Radvaň n.Laborcom
+TN5616196;gare;Dyčka;Dyčka;Dyčka;5616196;;48.234572;18.287097;SK;Europe/Bratislava;Q264708;Os;;uic;9053404089;Q111702623;;;5616196;Dyčka
+TN5616200;gare;Volica;Volica;Volica;5616200;;49.154337;21.913237;SK;Europe/Bratislava;Q280689;Os;;uic;1462191834;Q111680261;;;5616200;Volica
+TN5616206;gare;Lúčnica nad Žitavou;Lúčnica nad Žitavou;Lúčnica nad Žitavou;5616206;;48.217401;18.283337;SK;Europe/Bratislava;Q277764;Os;;uic;3324968993;Q111698505;;;5616206;Lúčnica n.Žitavou
+TN5616210;gare;Nižné Čabiny;Nižné Čabiny;Nižné Čabiny;5616210;;49.172831;21.900857;SK;Europe/Bratislava;Q614899;Os;;uic;1831154638;Q111697489;;;5616210;Nižné Čabiny
+TN5616216;gare;Martinová;Martinová;Martinová;5616216;;48.198635;18.280028;SK;Europe/Bratislava;Q277764;Os;;uic;9053404074;Q111697914;;;5616216;Martinová
+TN5616220;gare;Medzilaborce;Medzilaborce;Medzilaborce;5616220;;49.261352;21.905421;SK;Europe/Bratislava;Q578686;Os;;uic;1831154613;Q11776890;;;5616220;Medzilaborce
+TN5616226;gare;Tesárske Mlyňany;Tesárske Mlyňany;Tesárske Mlyňany;5616226;;48.343127;18.359457;SK;Europe/Bratislava;Q1184564;Os;;uic;3324944467;Q111691862;;;5616226;Tesárske Mlyňany
+TN5616230;gare;Vyšné Čabiny;Vyšné Čabiny;Vyšné Čabiny;5616230;;49.187515;21.897128;SK;Europe/Bratislava;Q614899;Os;;uic;1831154690;Q111678582;;;5616230;Vyšné Čabiny
+TN5616236;gare;Nová Ves nad Žitavou;Nová Ves nad Žitavou;Nová Ves nad Žitavou;5616236;;48.292256;18.32089;SK;Europe/Bratislava;Q374308;Os;;uic;3324904220;Q111697332;;;5616236;Nová Ves n.Žitavou
+TN5616240;gare;Sukov;Sukov;Sukov;5616240;;49.204541;21.887405;SK;Europe/Bratislava;Q614899;Os;;uic;1831160386;Q111693839;;;5616240;Sukov
+TN5616246;gare;Slepčany;Slepčany;Slepčany;5616246;;48.316187;18.34146;SK;Europe/Bratislava;Q1071502;Os;;uic;3324904221;Q111694146;;;5616246;Slepčany
+TN5616250;gare;Krásny Brod;Krásny Brod;Krásny Brod;5616250;;49.242269;21.904872;SK;Europe/Bratislava;Q542438;Os;;uic;1831160598;Q111699331;;;5616250;Krásny Brod
+TN5616260;gare;Medzilaborce mesto;Medzilaborce mesto;Medzilaborce mesto;5616260;;49.273756;21.90059;SK;Europe/Bratislava;Q578686;Os;;uic;1831154612;Q110416760;;;5616260;Medzilaborce mesto
+TN5616266;gare;Tekovský Hrádok;Tekovský Hrádok;Tekovský Hrádok;5616266;;48.158835;18.554924;SK;Europe/Bratislava;Q736978;Os;;uic;31147613;Q111691883;;;5616266;Tekovský Hrádok
+TN5616270;gare;Monastyr;Monastyr;Monastyr;5616270;;49.228497;21.89486;SK;Europe/Bratislava;Q542438;Os;;uic;1831154624;Q54991751;;;5616270;Monastyr
+TN5616276;gare;Dolná Seč;Dolná Seč;Dolná Seč;5616276;;48.17298;18.569057;SK;Europe/Bratislava;Q594173;Os;;uic;355131947;Q111702695;;;5616276;Dolná Seč
+TN5616286;gare;Tekovské Lužany;Tekovské Lužany;Tekovské Lužany;5616286;;48.100302;18.563469;SK;Europe/Bratislava;Q240066;Os;;uic;815607771;Q111691884;;;5616286;Tekovské Lužany
+TN5616296;gare;Želiezovce;Želiezovce;Želiezovce;5616296;;48.044295;18.645702;SK;Europe/Bratislava;Q393609;Os;;uic;749736264;Q111677865;;;5616296;Želiezovce
+TN5616300;gare;Snina;Snina;Snina;5616300;;48.983781;22.173202;SK;Europe/Bratislava;Q754788;Os;;uic;197533061;Q111693939;;;5616300;Snina
+TN5616306;gare;Hronovce;Hronovce;Hronovce;5616306;;48.006169;18.650079;SK;Europe/Bratislava;Q389449;Os;;uic;8286654450;Q111702033;;;5616306;Hronovce
+TN5616310;gare;Belá nad Cirochou;Belá nad Cirochou;Belá nad Cirochou;5616310;;48.977747;22.10288;SK;Europe/Bratislava;Q816326;Os;;uic;197554293;Q111701981;;;5616310;Belá n.Cirochou
+TN5616316;gare;Pohronský Ruskov;Pohronský Ruskov;Pohronský Ruskov;5616316;;47.97536;18.648502;SK;Europe/Bratislava;Q547130;Os;;uic;8286654536;Q111694238;;;5616316;Pohronský Ruskov
+TN5616320;gare;Snina predmestie;Snina predmestie;Snina predmestie;5616320;;48.990655;22.135511;SK;Europe/Bratislava;Q754788;Os;;uic;245549379;Q111693935;;;5616320;Snina predm.
+TN5616326;gare;Čata;Čata;Čata;5616326;;47.956242;18.648673;SK;Europe/Bratislava;Q337743;Os;;uic;1910876352;Q111702970;;;5616326;Čata
+TN5616330;gare;Snina mesto;Snina mesto;Snina mesto;5616330;;48.990444;22.15593;SK;Europe/Bratislava;Q754788;Os;;uic;190123331;Q111693937;;;5616330;Snina mesto
+TN5616336;gare;Zalaba;Zalaba;Zalaba;5616336;;47.967455;18.700321;SK;Europe/Bratislava;Q953796;Os;;uic;1910876310;Q111680159;;;5616336;Zalaba
+TN5616340;gare;Stakčín;Stakčín;Stakčín;5616340;;48.996182;22.21798;SK;Europe/Bratislava;Q1025235;Os;;uic;245549197;Q56345553;;;5616340;Stakčín
+TN5616346;gare;Bíňa;Bíňa;Bíňa;5616346;;47.920105;18.635069;SK;Europe/Bratislava;Q854491;Os;;uic;8285988368;Q111701938;;;5616346;Bíňa
+TN5616350;gare;Veľký Šariš;Veľký Šariš;Veľký Šariš;5616350;;49.04481;21.202932;SK;Europe/Bratislava;Q852313;Os|REX;;uic;1180654829;Q54328704;;;5616350;Veľký Šariš
+TN5616366;gare;Kamenín;Kamenín;Kamenín;5616366;;47.888592;18.642299;SK;Europe/Bratislava;Q1044018;Os;;nom;8285988298;Q111701719;;;5616366;Kamenín
+TN5616370;gare;Šarišské Michaľany;Šarišské Michaľany;Šarišské Michaľany;5616370;;49.065249;21.139152;SK;Europe/Bratislava;Q391231;Os|REX;;uic;1151804641;Q86665396;;;5616370;Šarišské Michaľany
+TN5616376;gare;Kamenný Most nad Hronom;Kamenný Most nad Hronom;Kamenný Most nad Hronom;5616376;;47.848547;18.655084;SK;Europe/Bratislava;Q1071029;Os;;uic;2951362261;Q111701718;;;5616376;Kamenný Most n.Hronom
+TN5616380;gare;Sabinov;Sabinov;Sabinov;5616380;;49.103313;21.088414;SK;Europe/Bratislava;Q837478;Os|REX;;uic;991023310;Q9332590;;;5616380;Sabinov
+TN5616386;gare;Pastovce;Pastovce;Pastovce;5616386;;47.971956;18.749437;SK;Europe/Bratislava;Q1070076;Os;;uic;1910876309;Q111694587;;;5616386;Pastovce
+TN5616390;gare;Orkucany;Orkucany;Orkucany;5616390;;49.087903;21.109241;SK;Europe/Bratislava;Q837478;Os|REX;;uic;1180654379;Q86665385;;;5616390;Orkucany
+TN5616396;gare;Ipeľský Sokolec;Ipeľský Sokolec;Ipeľský Sokolec;5616396;;48.023763;18.802523;SK;Europe/Bratislava;Q1043101;Os;;uic;1910832922;Q111701783;;;5616396;Ipeľský Sokolec
+TN5616400;gare;Pečovská Nová Ves;Pečovská Nová Ves;Pečovská Nová Ves;5616400;;49.12023;21.041554;SK;Europe/Bratislava;Q1068547;Os|REX;;uic;281832196;Q86662814;;;5616400;Pečovská Nová Ves
+TN5616406;gare;Bielovce;Bielovce;Bielovce;5616406;;47.99625;18.774593;SK;Europe/Bratislava;Q1042887;Os;;uic;1910876308;Q111701947;;;5616406;Bielovce
+TN5616410;gare;Lipany;Lipany;Lipany;5616410;;49.151834;20.960479;SK;Europe/Bratislava;Q847118;Os|REX;;uic;1180654096;Q56692158;;;5616410;Lipany
+TN5616420;gare;Červenica;Červenica;Červenica;5616420;;49.132242;21.025088;SK;Europe/Bratislava;Q1072789;Os|REX;;uic;1180654102;Q86665272;;;5616420;Červenica
+TN5616426;gare;Vyškovce nad Ipľom;Vyškovce nad Ipľom;Vyškovce nad Ipľom;5616426;;48.054699;18.857335;SK;Europe/Bratislava;Q683764;Os;;uic;8014787090;;;;5616426;Vyškovce n.Ipľom
+TN5616430;gare;Rožkovany;Rožkovany;Rožkovany;5616430;;49.1432;20.993311;SK;Europe/Bratislava;Q542562;Os|REX;;uic;1180654870;Q86665384;;;5616430;Rožkovany
+TN5616440;gare;Krivany;Krivany;Krivany;5616440;;49.172212;20.922318;SK;Europe/Bratislava;Q1045770;REX;;uic;665857482;Q86665264;;;5616440;Krivany
+TN5616446;gare;Vrbovce zastávka;Vrbovce zastávka;Vrbovce zastávka;5616446;;48.80485;17.528687;SK;Europe/Bratislava;Q1070062;Os;;uic;1844344791;;;;5616446;Vrbovce zast.
+TN5616460;gare;Pusté Pole;Pusté Pole;Pusté Pole;5616460;;49.213693;20.914876;SK;Europe/Bratislava;Q1121273;REX;;uic;972900338;Q25413127;;;5616460;Pusté Pole
+TN5616470;gare;Kochanovce;Kochanovce;Kochanovce;5616470;;48.953522;21.945373;SK;Europe/Bratislava;Q999248;Os;;uic;1601010057;Q111701686;;;5616470;Kochanovce
+TN5616486;gare;Vrbovce;Vrbovce;Vrbovce;5616486;;48.824387;17.516296;SK;Europe/Bratislava;Q1070062;Os;;uic;280568755;Q67320992;;;5616486;Vrbovce
+TN5616490;gare;Vaniškovce;Vaniškovce;Vaniškovce;5616490;;49.165021;21.290206;SK;Europe/Bratislava;Q692894;Os;;uic;677212720;Q111685432;;;5616490;Vaniškovce
+TN5616520;gare;Ďurková;Ďurková;Ďurková;5616520;;49.245419;20.876139;SK;Europe/Bratislava;Q1030537;REX;;uic;665858038;Q25413125;;;5616520;Ďurková
+TN5616530;gare;Ľubotín;Ľubotín;Ľubotín;5616530;;49.26176;20.873751;SK;Europe/Bratislava;Q598592;REX;;uic;665857970;Q9393868;;;5616530;Ľubotín
+TN5616550;gare;Raslavice;Raslavice;Raslavice;5616550;;49.149224;21.314516;SK;Europe/Bratislava;Q261228;Os;;uic;677212740;Q111700134;;;5616550;Raslavice
+TN5616570;gare;Bartošovce;Bartošovce;Bartošovce;5616570;;49.196935;21.278189;SK;Europe/Bratislava;Q790966;Os;;uic;1839989856;Q111701985;;;5616570;Bartošovce
+TN5616580;gare;Hertník;Hertník;Hertník;5616580;;49.215924;21.266633;SK;Europe/Bratislava;Q790966;Os;;uic;1839989860;Q111702105;;;5616580;Hertník
+TN5616590;gare;Bardejov;Bardejov;Bardejov;5616590;;49.296673;21.283139;SK;Europe/Bratislava;Q27007;Os;;uic;677212818;Q9165770;;;5616590;Bardejov
+TN5616600;gare;Šiba;Šiba;Šiba;5616600;;49.233167;21.242506;SK;Europe/Bratislava;Q1072925;Os;;uic;1839992444;Q111692035;;;5616600;Šiba
+TN5616610;gare;Kľušov;Kľušov;Kľušov;5616610;;49.261183;21.250644;SK;Europe/Bratislava;Q27007;Os;;nom;677212783;Q111701690;;;5616610;Kľušov
+TN5616620;gare;Úpor;Úpor;Úpor;5616620;;48.577204;21.671722;SK;Europe/Bratislava;Q1192806;Os;;uic;1831162904;Q111685582;;;5616620;Úpor
+TN5616630;gare;Stanča;Stanča;Stanča;5616630;;48.56559;21.65843;SK;Europe/Bratislava;Q1073214;Os;;uic;1831154678;Q111693917;;;5616630;Stanča
+TN5616640;gare;Trebišov;Trebišov;Trebišov;5616640;;48.632618;21.711088;SK;Europe/Bratislava;Q256301;EN|Os|R|REX;;uic;27133417;Q55698474;;;5616640;Trebišov
+TN5616690;gare;Bánovce nad Ondavou;Bánovce nad Ondavou;Bánovce nad Ondavou;5616690;;48.679298;21.834785;SK;Europe/Bratislava;Q241685;EN|R|REX;;uic;1829927002;Q84177757;;;5616690;Bánovce n.Ondavou
+TN5616730;gare;Michalovce;Michalovce;Michalovce;5616730;;48.750845;21.898503;SK;Europe/Bratislava;Q460925;EN|R|REX;;uic;7419981499;Q109911366;;;5616730;Michalovce
+TN5616960;gare;Drienovská Nová Ves obec;Drienovská Nová Ves obec;Drienovská Nová Ves obec;5616960;;48.900761;21.245666;SK;Europe/Bratislava;Q958802;Os;;uic;410288701;Q111702657;;;5616960;Drienovská Nová Ves obec
+TN5617015;gare;Dubnica nad Váhom;Dubnica nad Váhom;Dubnica nad Váhom;5617015;;48.966446;18.168071;SK;Europe/Bratislava;Q481528;Os|R;;uic;431624808;Q111702654;;;5617015;Dubnica n.Váhom
+TN5617025;gare;Ilava;Ilava;Ilava;5617025;;49.002036;18.236182;SK;Europe/Bratislava;Q481564;Os|R;;uic;431626390;Q55443441;;;5617025;Ilava
+TN5617035;gare;Košeca;Košeca;Košeca;5617035;;49.014787;18.258047;SK;Europe/Bratislava;Q278679;Os;;uic;206244036;Q111699522;;;5617035;Košeca
+TN5617045;gare;Ladce;Ladce;Ladce;5617045;;49.034369;18.2905;SK;Europe/Bratislava;Q481738;Os;;uic;442710420;Q111698894;;;5617045;Ladce
+TN5617055;gare;Beluša;Beluša;Beluša;5617055;;49.062663;18.319349;SK;Europe/Bratislava;Q520872;Os;;uic;3057990394;Q111701973;;;5617055;Beluša
+TN5617065;gare;Dolné Kočkovce;Dolné Kočkovce;Dolné Kočkovce;5617065;;49.091312;18.322188;SK;Europe/Bratislava;Q664891;Os;;uic;2641236407;Q111702691;;;5617065;Dolné Kočkovce
+TN5617205;gare;Bystričany;Bystričany;Bystričany;5617205;;48.658981;18.489517;SK;Europe/Bratislava;Q600146;Os|R;;uic;8975032451;Q65553100;;;5617205;Bystričany
+TN5617215;gare;Zemianske Kostoľany;Zemianske Kostoľany;Zemianske Kostoľany;5617215;;48.684532;18.519292;SK;Europe/Bratislava;Q189354;Os|R;;uic;446101163;Q109911287;;;5617215;Zemianske Kostoľany
+TN5617235;gare;Nováky;Nováky;Nováky;5617235;;48.718291;18.53636;SK;Europe/Bratislava;Q909301;Os|R;;uic;356178089;Q55281186;;;5617235;Nováky
+TN5617245;gare;Koš;Koš;Koš;5617245;;48.74872;18.574146;SK;Europe/Bratislava;Q672703;Os|R;;uic;2384791118;Q111699541;;;5617245;Koš
+TN5617255;gare;Prievidza;Prievidza;Prievidza;5617255;;48.774744;18.616673;SK;Europe/Bratislava;Q208750;Os|R;;uic;5878712864;Q15631068;;;5617255;Prievidza
+TN5617295;gare;Chrenovec;Chrenovec;Chrenovec;5617295;;48.778214;18.712104;SK;Europe/Bratislava;Q942975;Os;;uic;413111313;Q108538567;;;5617295;Chrenovec
+TN5617315;gare;Handlová;Handlová;Handlová;5617315;;48.725492;18.754154;SK;Europe/Bratislava;Q842011;Os;;uic;307439585;Q108538570;;;5617315;Handlová
+TN5617325;gare;Ráztočno;Ráztočno;Ráztočno;5617325;;48.767944;18.762633;SK;Europe/Bratislava;Q1184593;Os;;uic;417964729;Q111700132;;;5617325;Ráztočno
+TN5617335;gare;Remäta;Remäta;Remäta;5617335;;48.753103;18.805091;SK;Europe/Bratislava;Q1184593;Os;;uic;472955778;Q111700128;;;5617335;Remäta
+TN5617345;gare;Jalovec;Jalovec;Jalovec;5617345;;48.772723;18.745655;SK;Europe/Bratislava;Q1044770;Os;;uic;444962712;Q111701766;;;5617345;Jalovec
+TN5617355;gare;Sklené pri Handlovej;Sklené pri Handlovej;Sklené pri Handlovej;5617355;;48.78276;18.842329;SK;Europe/Bratislava;Q1091724;Os;;uic;472955828;Q108538576;;;5617355;Sklené pri Handlovej
+TN5617365;gare;Bytča;Bytča;Bytča;5617365;;49.207086;18.552564;SK;Europe/Bratislava;Q27907;Os|R;;uic;7555183810;Q87702039;;;5617365;Bytča
+TN5617375;gare;Predmier;Predmier;Predmier;5617375;;49.197536;18.535867;SK;Europe/Bratislava;Q1091390;Os;;uic;4077331701;Q111703236;;;5617375;Predmier
+TN5617385;gare;Plevník-Drienové;Plevník-Drienové;Plevník-Drienové;5617385;;49.171209;18.490997;SK;Europe/Bratislava;Q221171;Os;;uic;206318683;Q111694558;;;5617385;Plevník-Drienové
+TN5617405;gare;Dolný Hričov;Dolný Hričov;Dolný Hričov;5617405;;49.240969;18.643529;SK;Europe/Bratislava;Q430636;Os;;uic;2945412290;Q111702680;;;5617405;Dolný Hričov
+TN5617415;gare;Horný Hričov;Horný Hričov;Horný Hričov;5617415;;49.254898;18.659746;SK;Europe/Bratislava;Q764854;Os;;uic;7320546671;Q111702057;;;5617415;Horný Hričov
+TN5617425;gare;Dolný Kubín;Dolný Kubín;Dolný Kubín;5617425;;49.216951;19.296924;SK;Europe/Bratislava;Q589309;Os;;uic;1766156334;Q55594505;;;5617425;Dolný Kubín
+TN5617435;gare;Dolný Kubín zastávka;Dolný Kubín zastávka;Dolný Kubín zastávka;5617435;;49.211788;19.27929;SK;Europe/Bratislava;Q589309;Os;;uic;7415196493;Q86667265;;;5617435;Dolný Kubín zast.
+TN5617445;gare;Mokraď;Mokraď;Mokraď;5617445;;49.235418;19.308818;SK;Europe/Bratislava;Q589309;Os;;uic;8241078073;Q86667288;;;5617445;Mokraď
+TN5617455;gare;Veličná;Veličná;Veličná;5617455;;49.201908;19.250543;SK;Europe/Bratislava;Q933018;Os;;uic;8231697947;Q86667262;;;5617455;Veličná
+TN5617465;gare;Bziny;Bziny;Bziny;5617465;;49.229413;19.320263;SK;Europe/Bratislava;Q794423;Os;;uic;1837559105;Q86667301;;;5617465;Bziny
+TN5617475;gare;Kraľovany;Kraľovany;Kraľovany;5617475;;49.153024;19.130232;SK;Europe/Bratislava;Q1017994;EN|Ex|Os|R|SC;;uic;260551946;Q18007130;;;5617475;Kraľovany
+TN5617485;gare;Šútovo-Ratkovo;Šútovo-Ratkovo;Šútovo-Ratkovo;5617485;;49.142893;19.090795;SK;Europe/Bratislava;Q1186061;Os;;uic;206328672;Q65192770;;;5617485;Šútovo-Ratkovo
+TN5617495;gare;Kraľovany zastávka;Kraľovany zastávka;Kraľovany zastávka;5617495;;49.179184;19.146926;SK;Europe/Bratislava;Q240956;Os;;uic;8231496204;Q111699359;;;5617495;Kraľovany zast.
+TN5617505;gare;Lietavská Lúčka;Lietavská Lúčka;Lietavská Lúčka;5617505;;49.175639;18.718576;SK;Europe/Bratislava;Q1130583;Os;;uic;2609961450;Q111698862;;;5617505;Lietavská Lúčka
+TN5617515;gare;Porúbka;Porúbka;Porúbka;5617515;;49.149864;18.728325;SK;Europe/Bratislava;Q1071411;Os;;uic;2714715484;Q111694223;;;5617515;Porúbka
+TN5617525;gare;Poluvsie;Poluvsie;Poluvsie;5617525;;49.133205;18.703691;SK;Europe/Bratislava;Q135655;Os;;uic;852839822;Q111694230;;;5617525;Poluvsie
+TN5617535;gare;Bytčica;Bytčica;Bytčica;5617535;;49.188231;18.730682;SK;Europe/Bratislava;Q25797;Os;;uic;859387925;Q111703060;;;5617535;Bytčica
+TN5617545;gare;Lúky pod Makytou;Lúky pod Makytou;Lúky pod Makytou;5617545;;49.191114;18.228022;SK;Europe/Bratislava;Q679152;Os;;uic;2281250494;Q111698433;;;5617545;Lúky p.Makytou
+TN5617555;gare;Dohňany;Dohňany;Dohňany;5617555;;49.145747;18.287144;SK;Europe/Bratislava;Q908885;Os;;uic;11930737157;Q111702696;;;5617555;Dohňany
+TN5617565;gare;Púchov zastávka;Púchov zastávka;Púchov zastávka;5617565;;49.116418;18.30617;SK;Europe/Bratislava;Q258481;Os;;uic;11930737164;;;;5617565;Púchov zast.
+TN5617575;gare;Záriečie;Záriečie;Záriečie;5617575;;49.177018;18.252835;SK;Europe/Bratislava;Q671895;Os;;uic;11930737144;Q111680152;;;5617575;Zariečie
+TN5617585;gare;Oravský Podzámok;Oravský Podzámok;Oravský Podzámok;5617585;;49.26111;19.363852;SK;Europe/Bratislava;Q1091685;Os;;uic;668011731;Q55618629;;;5617585;Oravský Podzámok
+TN5617595;gare;Dlhá nad Oravou;Dlhá nad Oravou;Dlhá nad Oravou;5617595;;49.264611;19.446784;SK;Europe/Bratislava;Q741528;Os;;uic;1776265923;Q111702757;;;5617595;Dlhá n.Oravou
+TN5617605;gare;Horná Lehota;Horná Lehota;Horná Lehota;5617605;;49.251695;19.399467;SK;Europe/Bratislava;Q999295;Os;;uic;1766110819;Q111702072;;;5617605;Horná Lehota
+TN5617615;gare;Sedliacka Dubová;Sedliacka Dubová;Sedliacka Dubová;5617615;;49.258403;19.431852;SK;Europe/Bratislava;Q1068524;Os;;uic;1766110833;Q111694198;;;5617615;Sedliacka Dubová
+TN5617625;gare;Medzibrodie nad Oravou;Medzibrodie nad Oravou;Medzibrodie nad Oravou;5617625;;49.234002;19.345777;SK;Europe/Bratislava;Q1175382;Os;;uic;1838287858;Q111697889;;;5617625;Medzibrodie n.Oravou
+TN5617635;gare;Párnica;Párnica;Párnica;5617635;;49.192947;19.19695;SK;Europe/Bratislava;Q240956;Os;;uic;330036456;Q55443442;;;5617635;Párnica
+TN5617645;gare;Istebné;Istebné;Istebné;5617645;;49.201335;19.228188;SK;Europe/Bratislava;Q1026595;Os;;uic;329044004;Q111701779;;;5617645;Istebné
+TN5617655;gare;Púchov závody;Púchov závody;Púchov závody;5617655;;49.107621;18.316598;SK;Europe/Bratislava;Q258481;Os;;uic;11930737169;Q111703186;;;5617655;Púchov závody
+TN5617665;gare;Podbiel;Podbiel;Podbiel;5617665;;49.303952;19.478467;SK;Europe/Bratislava;Q734817;Os;;uic;1731250652;Q111694549;;;5617665;Podbiel
+TN5617675;gare;Krivá;Krivá;Krivá;5617675;;49.288018;19.47521;SK;Europe/Bratislava;Q1026601;Os;;uic;1731238816;Q111699318;;;5617675;Krivá
+TN5617685;gare;Nižná;Nižná;Nižná;5617685;;49.310224;19.528561;SK;Europe/Bratislava;Q942639;Os;;uic;1767486313;Q111697522;;;5617685;Nižná
+TN5617695;gare;Považská Bystrica;Považská Bystrica;Považská Bystrica;5617695;;49.123284;18.430238;SK;Europe/Bratislava;Q319787;Ex|Os|R|RJ;;uic;11083650047;Q47036141;;;5617695;Považská Bystrica
+TN5617715;gare;Považská Teplá;Považská Teplá;Považská Teplá;5617715;;49.14015;18.468072;SK;Europe/Bratislava;Q319787;Os;;uic;206244688;Q111700153;;;5617715;Považská Teplá
+TN5617725;gare;Púchov;Púchov;Púchov;5617725;;49.113725;18.327306;SK;Europe/Bratislava;Q258481;EC|Ex|Os|R|RJ;;uic;366036951;Q15057870;;;5617725;Púchov
+TN5617735;gare;Nosice;Nosice;Nosice;5617735;;49.133253;18.354182;SK;Europe/Bratislava;Q258481;Os;;uic;7913371562;;;;5617735;Nosice
+TN5617745;gare;Rajec;Rajec;Rajec;5617745;;49.090298;18.643921;SK;Europe/Bratislava;Q909333;Os;;uic;1912829395;Q15703347;;;5617745;Rajec
+TN5617755;gare;Konská pri Rajci;Konská pri Rajci;Konská pri Rajci;5617755;;49.124099;18.669877;SK;Europe/Bratislava;Q154208;Os;;uic;7999388391;Q111699558;;;5617755;Konská pri Rajci
+TN5617765;gare;Rajecké Teplice;Rajecké Teplice;Rajecké Teplice;5617765;;49.129354;18.678584;SK;Europe/Bratislava;Q135655;Os;;uic;1389422721;Q15703344;;;5617765;Rajecké Teplice
+TN5617775;gare;Kľače;Kľače;Kľače;5617775;;49.106686;18.64448;SK;Europe/Bratislava;Q1071393;Os;;uic;1484681015;Q111701697;;;5617775;Kľače
+TN5617785;gare;Sučany;Sučany;Sučany;5617785;;49.103801;18.98806;SK;Europe/Bratislava;Q1091698;Os;;uic;2092887112;Q65194544;;;5617785;Sučany
+TN5617795;gare;Trstená;Trstená;Trstená;5617795;;49.360845;19.61928;SK;Europe/Bratislava;Q847350;Os;;uic;1846554199;Q18007147;;;5617795;Trstená
+TN5617825;gare;Turany;Turany;Turany;5617825;;49.10983;19.03833;SK;Europe/Bratislava;Q1023443;Os;;uic;8264864729;Q48002045;;;5617825;Turany
+TN5617835;gare;Krpeľany;Krpeľany;Krpeľany;5617835;;49.126488;19.083753;SK;Europe/Bratislava;Q1023443;Os;;uic;206328661;Q65192707;;;5617835;Krpeľany
+TN5617845;gare;Tvrdošín;Tvrdošín;Tvrdošín;5617845;;49.337111;19.563115;SK;Europe/Bratislava;Q509715;Os;;uic;1888446452;Q55618721;;;5617845;Tvrdošín
+TN5617855;gare;Krásna Hôrka;Krásna Hôrka;Krásna Hôrka;5617855;;49.321382;19.545168;SK;Europe/Bratislava;Q509715;Os;;uic;1460193248;Q111699356;;;5617855;Krásna Hôrka
+TN5617865;gare;Varín;Varín;Varín;5617865;;49.201498;18.848201;SK;Europe/Bratislava;Q587895;Os;;uic;442710421;Q49203967;;;5617865;Varín
+TN5617875;gare;Nezbudská Lúčka-Strečno;Nezbudská Lúčka-Strečno;Nezbudská Lúčka-Strečno;5617875;;49.182168;18.869601;SK;Europe/Bratislava;Q373166;Os;;uic;1434766699;Q49203972;;;5617875;Nezbudská Lúčka-Strečno
+TN5617895;gare;Vrútky;Vrútky;Vrútky;5617895;;49.114721;18.925324;SK;Europe/Bratislava;Q837456;EC|EN|Ex|LE|Os|R|RJ|SC;;uic;8398119353;Q15631062;;;5617895;Vrútky
+TN5617915;gare;Žilina;Žilina;Žilina;5617915;;49.226848;18.747267;SK;Europe/Bratislava;Q25797;EC|EN|Ex|LE|Os|R|RJ|SC;;uic;6446509215;Q801697;;;5617915;Žilina
+TN5617925;gare;Žilina-Záriečie;Žilina-Záriečie;Žilina-Záriečie;5617925;;49.218643;18.731074;SK;Europe/Bratislava;Q25797;Os;;uic;836252359;Q15063682;;;5617925;Žilina-zariečie
+TN5617930;gare;Žilina-Solinky;Žilina-Solinky;Žilina-Solinky;5617930;;49.199184;18.732918;SK;Europe/Bratislava;Q25797;Os;;uic;859388028;Q20085418;;;5617930;Žilina-Solinky
+TN5617935;gare;Zbyňov;Zbyňov;Zbyňov;5617935;;49.117389;18.65589;SK;Europe/Bratislava;Q1071150;Os;;uic;2389918229;Q111677976;;;5617935;Zbyňov
+TN5617985;gare;Lysá pod Makytou;Lysá pod Makytou;Lysá pod Makytou;5617985;;49.195456;18.196672;SK;Europe/Bratislava;Q188329;Os;;uic;2281250492;Q111698179;;;5617985;Lysá p.Makytou
+TN5617995;gare;Strelenka;Strelenka;Strelenka;5617995;;49.183561;18.143655;SK;Europe/Bratislava;Q188329;Os;;uic;257914222;Q111693851;;;5617995;Strelenka
+TN5618115;gare;Čadca;Čadca;Čadca;5618115;;49.445246;18.78694;SK;Europe/Bratislava;Q337478;EC|EN|LE|Os|R|RJ|SC|Zr;;uic;8495268559;Q3037886;;;5618115;Čadca
+TN5618125;gare;Čadca mesto;Čadca mesto;Čadca mesto;5618125;;49.436566;18.793999;SK;Europe/Bratislava;Q337478;Os;;uic;991009944;Q9393780;;;5618125;Čadca mesto
+TN5618135;gare;Čadca zastávka;Čadca zastávka;Čadca zastávka;5618135;;49.439106;18.779433;SK;Europe/Bratislava;Q337478;Os;;uic;10607628268;Q111700156;;;5618135;Čadca zast.
+TN5618145;gare;Čierne pri Čadci;Čierne pri Čadci;Čierne pri Čadci;5618145;;49.495325;18.81961;SK;Europe/Bratislava;Q341468;Os;;uic;2037637051;Q9393833;;;5618145;Čierne pri Čadci
+TN5618155;gare;Oščadnica;Oščadnica;Oščadnica;5618155;;49.415672;18.832437;SK;Europe/Bratislava;Q337478;Os;;uic;7128814275;Q11801704;;;5618155;Oščadnica
+TN5618165;gare;Svrčinovec;Svrčinovec;Svrčinovec;5618165;;49.480281;18.79312;SK;Europe/Bratislava;Q653391;Os;;uic;736019171;Q9396386;;;5618165;Svrčinovec
+TN5618175;gare;Svrčinovec zast.;Svrčinovec zast.;Svrčinovec zast.;5618175;;49.480778;18.789011;SK;Europe/Bratislava;Q653391;Os|Zr;;gtfs;;;;;5618175;Svrčinovec zast.
+TN5618185;gare;Staškov zastávka;Staškov zastávka;Staškov zastávka;5618185;;49.432629;18.706901;SK;Europe/Bratislava;Q939523;Os;;uic;6532272425;Q111693864;;;5618185;Staškov zast.
+TN5618205;gare;Raková;Raková;Raková;5618205;;49.446924;18.736923;SK;Europe/Bratislava;Q1184468;Os;;uic;1986280996;Q111700142;;;5618205;Raková
+TN5618215;gare;Krásno nad Kysucou;Krásno nad Kysucou;Krásno nad Kysucou;5618215;;49.378611;18.835801;SK;Europe/Bratislava;Q909281;Os;;uic;7127945746;Q11750079;;;5618215;Krásno n.Kysucou
+TN5618225;gare;Dunajov;Dunajov;Dunajov;5618225;;49.359794;18.818351;SK;Europe/Bratislava;Q741951;Os;;uic;9910904669;Q9212949;;;5618225;Dunajov
+TN5618235;gare;Ochodnica;Ochodnica;Ochodnica;5618235;;49.347405;18.806678;SK;Europe/Bratislava;Q389065;Os;;uic;9910904668;Q11795647;;;5618235;Ochodnica
+TN5618245;gare;Kysucké Nové Mesto;Kysucké Nové Mesto;Kysucké Nové Mesto;5618245;;49.305892;18.783797;SK;Europe/Bratislava;Q516578;Os;;uic;8001466679;Q11751817;;;5618245;Kysucké Nové Mesto
+TN5618255;gare;Brodno;Brodno;Brodno;5618255;;49.266247;18.752518;SK;Europe/Bratislava;Q25797;Os;;uic;9910904666;Q9179521;;;5618255;Brodno
+TN5618265;gare;Rudina;Rudina;Rudina;5618265;;49.280315;18.757545;SK;Europe/Bratislava;Q965561;Os;;uic;9806594721;Q9323694;;;5618265;Rudina
+TN5618275;gare;Makov;Makov;Makov;5618275;;49.372134;18.484448;SK;Europe/Bratislava;Q1027990;Os;;uic;11761667906;Q111697971;;;5618275;Makov
+TN5618285;gare;Nižný Kelčov;Nižný Kelčov;Nižný Kelčov;5618285;;49.376932;18.50712;SK;Europe/Bratislava;Q1034858;Os;;uic;4460106424;Q111697472;;;5618285;Nižný Kelčov
+TN5618295;gare;Vysoká nad Kysucou;Vysoká nad Kysucou;Vysoká nad Kysucou;5618295;;49.379543;18.548847;SK;Europe/Bratislava;Q1034858;Os;;uic;4460106422;Q111680241;;;5618295;Vysoká n.Kysucou
+TN5618305;gare;Skalité;Skalité;Skalité;5618305;;49.498177;18.889641;SK;Europe/Bratislava;Q946079;Os;;uic;1914581014;Q9337543;;;5618305;Skalité
+TN5618315;gare;Čierne pri Čadci zastávka;Čierne pri Čadci zastávka;Čierne pri Čadci zastávka;5618315;;49.509713;18.84568;SK;Europe/Bratislava;Q341468;Os;;uic;2029218855;Q9393834;;;5618315;Čierne pri Čadci z.
+TN5618325;gare;Skalité-Kudlov;Skalité-Kudlov;Skalité-Kudlov;5618325;;49.498946;18.936016;SK;Europe/Bratislava;Q946079;Os;;uic;293895584;Q9337541;;;5618325;Skalité-Kudlov
+TN5618335;gare;Skalité-Serafínov;Skalité-Serafínov;Skalité-Serafínov;5618335;;49.501525;18.964073;SK;Europe/Bratislava;Q946079;Os;;uic;293895539;Q9337542;;;5618335;Skalité-Serafínov
+TN5618345;gare;Turzovka;Turzovka;Turzovka;5618345;;49.40363;18.628033;SK;Europe/Bratislava;Q182903;Os;;uic;10607601001;Q111686196;;;5618345;Turzovka
+TN5618355;gare;Podvysoká;Podvysoká;Podvysoká;5618355;;49.413647;18.671291;SK;Europe/Bratislava;Q592245;Os;;nom;4460114530;Q111694246;;;5618355;Podvysoká
+TN5618365;gare;Staškov;Staškov;Staškov;5618365;;49.423583;18.690138;SK;Europe/Bratislava;Q939523;Os;;uic;2383547615;Q111693874;;;5618365;Staškov
+TN5618375;gare;Turzovka zastávka;Turzovka zastávka;Turzovka zastávka;5618375;;49.382463;18.593473;SK;Europe/Bratislava;Q182903;Os;;uic;4460106421;Q111686195;;;5618375;Turzovka zast.
+TN5618385;gare;Skalité pod Poľanou;Skalité pod Poľanou;Skalité pod Poľanou;5618385;;49.495991;18.916213;SK;Europe/Bratislava;Q946079;Os;;uic;2005730806;Q9337545;;;5618385;Skalité p.Poľanou
+TN5618395;gare;Skalité zastávka;Skalité zastávka;Skalité zastávka;5618395;;49.505324;18.872205;SK;Europe/Bratislava;Q946079;Os;;uic;2025758146;Q9337544;;;5618395;Skalité zast.
+TN5618415;gare;Čierne-Polesie;Čierne-Polesie;Čierne-Polesie;5618415;;49.511768;18.860467;SK;Europe/Bratislava;Q341468;Os;;uic;2029218881;Q9393830;;;5618415;Čierne-Polesie
+TN5618640;gare;Čeľovce;Čeľovce;Čeľovce;5618640;;48.613318;21.628595;SK;Europe/Bratislava;Q778915;REX;;uic;1832457351;Q111702951;;;5618640;Čeľovce
+TN5618895;gare;Vrútky nákladná stanica;Vrútky nákladná stanica;Vrútky nákladná stanica;5618895;;49.10896;18.94681;SK;Europe/Bratislava;Q27001;Os;;uic;5715256323;Q65192766;;;5618895;Vrútky nákl.st.
+TN5618945;gare;Oravský Podzámok zastávka;Oravský Podzámok zastávka;Oravský Podzámok zastávka;5618945;;49.262717;19.377667;SK;Europe/Bratislava;Q1091685;Os;;uic;1888446448;Q111694637;;;5618945;Oravský Podzámok zast.
+TN8000199;gare;Kiel Hbf;Kiel Hauptbahnhof;Kiel Hauptbahnhof;8000199;;54.313472;10.130965;DE;Europe/Berlin;Q1707;rj;;uic;4257641280;Q454898;;AK;8000199;Kiel Hbf
+TN8000271;gare;Neumünster;Neumünster;Neumünster;8000271;;54.076104;9.979966;DE;Europe/Berlin;Q3879;rj;;uic;7160009313;Q475520;;AN;8000271;Neumünster
+TN8002549;gare;Hamburg Hbf;Hamburg Central Station;Hamburg Hauptbahnhof;8002549;;53.553199;10.006436;DE;Europe/Berlin;Q1055;rj;;nom;1680910488;Q6456;;AH;8002549;Hamburg Hbf
+TN8002553;gare;Hamburg-Altona;Hamburg-Altona;Hamburg-Altona;8002553;;53.553829;9.935145;DE;Europe/Berlin;Q1055;rj;;nom;3183841635;Q650270;;AA;8002553;Hamburg-Altona
+TN8010022;gare;Bad Schandau;Bad Schandau;Bad Schandau;8010022;;50.918921;14.13893;DE;Europe/Berlin;Q6406;rj;;nom;2736023837;Q800438;;DSA;8010022;Bad Schandau
+TN8010085;gare;Dresden Hbf;Dresden Hbf;Dresden Hbf;8010085;;51.040245;13.732077;DE;Europe/Berlin;Q1731;rj;;nom;25397500;Q704354;;DH;8010085;Dresden Hbf
+TN8010089;gare;Dresden-Neustadt;Dresden-Neustadt;Dresden-Neustadt;8010089;;51.065867;13.74054;DE;Europe/Berlin;Q1731;rj;;nom;3723386251;Q800686;;DN;8010089;Dresden-Neustadt
+TN8010404;gare;Berlin-Spandau;Berlin-Spandau;Berlin-Spandau;8010404;;52.534769;13.195629;DE;Europe/Berlin;Q64;rj;;nom;3101920259;Q654980;;BSPD;8010404;Berlin-Spandau
+TN8011113;gare;Berlin Südkreuz;Berlin Südkreuz;Berlin Südkreuz;8011113;;52.476572;13.36604;DE;Europe/Berlin;Q64;rj;;nom;267379240;Q376589;;BPAF;8011113;Berlin Südkreuz
+TN8098160;gare;Berlin Hauptbahnhof - Lehrter Bahnhof;Berlin Hauptbahnhof (tief);Berlin Hauptbahnhof (tief);8098160;;52.524636;13.369861;DE;Europe/Berlin;Q64;rj;;uic;2459919675;Q1097;;BL;8098160;Berlin Hbf (tief)
+TN8100001;gare;Kufstein;Kufstein;Kufstein;8100001;;47.582972;12.165727;AT;Europe/Vienna;Q486341;rjx;;uic;1364686371;Q801040;;XAKN;8100001;Kufstein
+TN8100002;gare;Salzburg Hbf;Salzburg Hauptbahnhof;Salzburg Hauptbahnhof;8100002;;47.813062;13.045853;AT;Europe/Vienna;Q34713;rjx;;nom;302097253;Q694694;;XASB;8100002;Salzburg Hbf
+TN8100008;gare;St.Pölten Hbf;St.Pölten Hbf;St.Pölten Hbf;8100008;;48.209071;15.626079;AT;Europe/Vienna;Q82500;rjx;;gtfs;;;;;8100008;St.Pölten Hbf
+TN8100013;gare;Linz Hbf;Linz Central station;Linz Hauptbahnhof;8100013;;48.290241;14.291862;AT;Europe/Vienna;Q41329;rjx;;nom;215682892;Q763157;;XAL;8100013;Linz Hbf
+TN8100025;gare;Baden;Baden;Baden;8100025;;48.004044;16.242789;AT;Europe/Vienna;Q486450;REX;;uic;3244697567;Q32173155;;;8100025;Baden b.Wien
+TN8100026;gare;Gloggnitz;Gloggnitz;Gloggnitz;8100026;;47.677685;15.947197;AT;Europe/Vienna;Q679328;REX;;uic;3317722406;Q800821;;;8100026;Gloggnitz
+TN8100027;gare;Payerbach-Reichenau;Payerbach-Reichenau;Payerbach-Reichenau;8100027;;47.696056;15.863208;AT;Europe/Vienna;Q676675;REX;;uic;3317218512;Q801311;;;8100027;Payerbach-Reichenau
+TN8100028;gare;Semmering;Semmering;Semmering;8100028;;47.639594;15.830883;AT;Europe/Vienna;Q659891;REX;;uic;248064880;Q83706074;;;8100028;Semmering
+TN8100029;gare;Mürzzuschlag;Mürzzuschlag;Mürzzuschlag;8100029;;47.607914;15.677248;AT;Europe/Vienna;Q492868;REX;;uic;248061440;Q801226;at:46:7426:1:zug;;8100029;Mürzzuschlag
+TN8100061;gare;Ötztal;Ötztal;Ötztal;8100061;;47.238603;10.859384;AT;Europe/Vienna;Q696161;rjx;;uic;2986409595;Q8079090;;XAOE;8100061;Ötztal
+TN8100063;gare;Landeck-Zams;Landeck-Zams;Landeck-Zams;8100063;;47.14817;10.57837;AT;Europe/Vienna;Q660183;rjx;;uic;2457151618;Q801057;;XALE;8100063;Landeck-Zams
+TN8100064;gare;St. Anton am Arlberg;St. Anton am Arlberg;St. Anton am Arlberg;8100064;;47.127382;10.267319;AT;Europe/Vienna;Q659996;rjx;;uic;327287949;Q7587118;;XAAB;8100064;St. Anton am Arlberg
+TN8100067;gare;Bludenz;Bludenz;Bludenz;8100067;;47.154723;9.814894;AT;Europe/Vienna;Q494504;rjx;;uic;1435056267;Q800537;;;8100067;Bludenz
+TN8100099;gare;Wörgl Hbf;Wörgl Hauptbahnhof;Wörgl Hauptbahnhof;8100099;;47.491514;12.060622;AT;Europe/Vienna;Q253639;rjx;;uic;27322337;Q871927;;;8100099;Wörgl Hbf
+TN8100108;gare;Innsbruck Hbf;Innsbruck Hauptbahnhof;Innsbruck Hauptbahnhof;8100108;;47.263297;11.401021;AT;Europe/Vienna;Q1735;rjx;;nom;337863237;Q668727;;XAI;8100108;Innsbruck Hbf
+TN8100197;gare;Feldkirch;Feldkirch;Feldkirch;8100197;;47.240926;9.604311;AT;Europe/Vienna;Q183104;rjx;;uic;2661465941;Q698785;;;8100197;Feldkirch
+TN8100198;gare;Bruck/Leitha;Bruck an der Leitha;Bruck an der Leitha;8100198;;48.019005;16.781064;AT;Europe/Vienna;Q660740;REX|RRR;;uic;3359297214;Q27031506;;;8100198;Bruck/Leitha
+TN8100216;gare;Baumgarten-Schattendorf;Baumgarten-Schattendorf;Baumgarten-Schattendorf;8100216;;47.72781;16.517666;AT;Europe/Vienna;Q661709;REX;;nom;310507988;;;;8100216;Baumgarten
+TN8100220;gare;Draßburg;Draßburg;Draßburg;8100220;;47.747884;16.494942;AT;Europe/Vienna;Q533718;REX;;uic;310507989;;;;8100220;Drassburg
+TN8100225;gare;Ebenfurth;Ebenfurth;Ebenfurth;8100225;;47.877659;16.362127;AT;Europe/Vienna;Q661789;REX;;uic;5054207265;Q111171562;;;8100225;Ebenfurth
+TN8100226;gare;Ebreichsdorf;Ebreichsdorf;Ebreichsdorf;8100226;;47.964149;16.419323;AT;Europe/Vienna;Q646396;REX;;uic;5506238376;Q123274974;;;8100226;Ebreichsdorf
+TN8100254;gare;Götzendorf/Leitha;Götzendorf an der Leitha;Götzendorf an der Leitha;8100254;;48.02571;16.586308;AT;Europe/Vienna;Q677412;REX|RRR;;uic;4217317196;;;;8100254;Götzendorf/Leitha
+TN8100332;gare;Gattendorf;Gattendorf;Gattendorf;8100332;;48.010646;16.981382;AT;Europe/Vienna;Q871461;REX|RRR;;uic;3360962316;;;;8100332;Gattendorf
+TN8100361;gare;Wulkaprodersdorf;Wulkaprodersdorf;Wulkaprodersdorf;8100361;;47.789053;16.490548;AT;Europe/Vienna;Q571503;REX;;uic;3373657840;;;;8100361;Wulkaprodersdorf
+TN8100369;gare;Gramatneusiedl;Gramatneusiedl;Gramatneusiedl;8100369;;48.036295;16.488333;AT;Europe/Vienna;Q673374;REX|RRR;;uic;3975404621;;;;8100369;Gramatneusiedl
+TN8100373;gare;Kittsee;Kittsee;Kittsee;8100373;;48.081512;17.071557;AT;Europe/Vienna;Q680628;REX|RRR;;uic;3360962317;;;;8100373;Kittsee
+TN8100388;gare;Neudorf / Novo Selo;Neudorf / Novo Selo;Neudorf / Novo Selo;8100388;;48.008846;16.938264;AT;Europe/Vienna;Q650614;REX|RRR;;uic;410869590;;;;8100388;Neudorf b.Parndorf
+TN8100424;gare;Müllendorf;Müllendorf;Müllendorf;8100424;;47.834709;16.459103;AT;Europe/Vienna;Q660992;REX;;nom;310508282;;;;8100424;Müllendorf
+TN8100466;gare;Marchegg;Marchegg;Marchegg;8100466;;48.249801;16.917522;AT;Europe/Vienna;Q546273;REX|RRR;;uic;32436687;;;;8100466;Marchegg
+TN8100495;gare;Neufeld/Leitha;Neufeld/Leitha;Neufeld/Leitha;8100495;;47.869401;16.381258;AT;Europe/Vienna;Q259859;REX;;gtfs;;;;;8100495;Neufeld/Leitha
+TN8100514;gare;Wien Meidling;Wien Meidling;Wien Meidling;8100514;;48.17453;16.333965;AT;Europe/Vienna;Q1741;REX|RRR|rjx;;uic;66432827;Q514441;;XAWG;8100514;Wien Meidling
+TN8100515;gare;Parndorf Ort;Parndorf Ort / Pandrof mjesto;Parndorf Ort / Pandrof mjesto;8100515;;47.992036;16.851981;AT;Europe/Vienna;Q660886;REX|RRR;;uic;3359328962;;;;8100515;Parndorf Ort
+TN8100516;gare;Wiener Neustadt Hbf;Wiener Neustadt Hauptbahnhof;Wiener Neustadt Hauptbahnhof;8100516;;47.81107;16.233655;AT;Europe/Vienna;Q131612;REX;;uic;2874038819;Q663815;;XAWNS;8100516;Wiener Neustadt Hbf
+TN8100543;gare;Pama / Bijelo Selo;Pama / Bijelo Selo;Pama / Bijelo Selo;8100543;;48.042061;17.041381;AT;Europe/Vienna;Q635272;REX|RRR;;uic;158714803;;;;8100543;Pama
+TN8100692;gare;Breitenstein;Breitenstein;Breitenstein;8100692;;47.660022;15.820488;AT;Europe/Vienna;Q124981;REX;;uic;3596040128;Q32607493;;;8100692;Breitenstein am Semmering
+TN8100719;gare;Deutschkreutz;Deutschkreutz;Deutschkreutz;8100719;;47.603879;16.62021;AT;Europe/Vienna;Q41945;REX;;uic;5054207270;Q28686616;;;8100719;Deutschkreutz
+TN8101050;gare;Klamm-Schottwien;Klamm-Schottwien;Klamm-Schottwien;8101050;;47.66524;15.874321;AT;Europe/Vienna;Q124981;REX;;uic;3596019607;Q83353247;;;8101050;Klamm-Schottwien
+TN8101051;gare;Kledering b. Wien;Kledering;Kledering;8101051;;48.133522;16.438944;AT;Europe/Vienna;Q489972;RRR;;uic;3111811989;Q111172314;;;8101051;Kledering b.Wien
+TN8101173;gare;Lanzendorf-Rannersdorf;Lanzendorf-Rannersdorf;Lanzendorf-Rannersdorf;8101173;;48.113483;16.44744;AT;Europe/Vienna;Q691554;RRR;;uic;4367442874;;;;8101173;Lanzendorf-Rannersdorf
+TN8101277;gare;Neunkirchen NÖ;Neunkirchen NÖ;Neunkirchen NÖ;8101277;;47.731605;16.085118;AT;Europe/Vienna;Q265948;REX;;uic;3317807574;;;;8101277;Neunkirchen NÖ
+TN8101335;gare;Parndorf;Parndorf / Pandrof;Parndorf / Pandrof;8101335;;47.9869;16.870739;AT;Europe/Vienna;Q660886;REX|RRR;;uic;452907511;Q20493287;;;8101335;Parndorf
+TN8101467;gare;Sarasdorf;Sarasdorf;Sarasdorf;8101467;;48.023212;16.677211;AT;Europe/Vienna;Q670580;RRR;;uic;4366592601;;;;8101467;Sarasdorf
+TN8101477;gare;Siebenbrunn-Leopoldsdorf;Siebenbrunn-Leopoldsdorf;Siebenbrunn-Leopoldsdorf;8101477;;48.24555;16.704177;AT;Europe/Vienna;Q686384;REX|RRR;;uic;3326393879;;;;8101477;Siebenbrunn-Leopoldsdorf
+TN8101545;gare;Schönfeld-Lassee;Schönfeld-Lassee;Schönfeld-Lassee;8101545;;48.251127;16.807276;AT;Europe/Vienna;Q699625;REX|RRR;;uic;3326393878;;;;8101545;Schönfeld-Lassee
+TN8101553;gare;Wien Simmering;Wien Simmering;Wien Simmering;8101553;;48.17004;16.419531;AT;Europe/Vienna;Q1741;REX|RRR;;uic;1772970220;;;XAWSG;8101553;Wien Simmering
+TN8101556;gare;Wien Grillgasse;Wien Grillgasse;Wien Grillgasse;8101556;;48.167365;16.406763;AT;Europe/Vienna;Q1741;REX|RRR;;uic;3265275935;Q9373166;;;8101556;Wien Grillgasse
+TN8101596;gare;Spital am Semmering;Spital am Semmering;Spital am Semmering;8101596;;47.616383;15.748002;AT;Europe/Vienna;Q176887;REX;;uic;3596129298;Q84019545;at:46:7427:1:zug;;8101596;Spital am Semmering
+TN8101653;gare;Trautmannsdorf an der Leitha;Trautmannsdorf an der Leitha;Trautmannsdorf an der Leitha;8101653;;48.024216;16.642446;AT;Europe/Vienna;Q670580;RRR;;uic;4366592602;;;;8101653;Trautmannsdorf an der Leitha
+TN8101771;gare;Wilfleinsdorf;Wilfleinsdorf;Wilfleinsdorf;8101771;;48.021999;16.719815;AT;Europe/Vienna;Q661329;RRR;;uic;4366592603;;;;8101771;Wilfleinsdorf
+TN8102888;gare;Wien Aspern;Wien Aspern Nord;Wien Aspern Nord;8102888;;48.234749;16.504462;AT;Europe/Vienna;Q1741;REX|RRR;;uic;3598290692;Q85848019;;;8102888;Wien Aspern Nord
+TN8103000;gare;Wien Hbf;Vienna Central Station;Wien Hauptbahnhof;8103000;;48.184988;16.377939;AT;Europe/Vienna;Q1741;REX|RRR|rjx;;nom;1839787470;Q697300;;XAWIE;8103000;Wien Hbf
+TN8104229;gare;Wien Stadlau;Wien Stadlau;Wien Stadlau;8104229;;48.218571;16.448167;AT;Europe/Vienna;Q1741;REX|RRR;;uic;3327518464;Q85848033;;;8104229;Wien Stadlau
+TN8509404;gare;Buchs SG;Buchs SG;Buchs SG;8509404;;47.168712;9.478766;CH;Europe/Zurich;Q68277;rjx;;uic;1339769454;Q15964098;;;8509404;Buchs SG
+TN8509411;gare;Sargans;Sargans;Sargans;8509411;;47.045386;9.445369;CH;Europe/Zurich;Q64571;rjx;;uic;1333665650;Q605247;;;8509411;Sargans

@@ -36,6 +36,17 @@ RELATIONS = [
     ("Budapest", "Debrecen", "MAV"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
+OPERATORS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "operators.json")
+
+
+def disabled_operators() -> set:
+    """Compagnies désactivées dans operators.json : leur flux n'est pas dans le réseau, même si l'API les
+    cite (trains transfrontaliers d'un autre flux attribués à ZSSK, PKP...)."""
+    try:
+        with open(OPERATORS_FILE, encoding="utf-8") as f:
+            return {o["id"].upper() for o in json.load(f) if not o.get("enabled", True)}
+    except (OSError, ValueError):
+        return set()
 
 
 def get(url: str, timeout: int = 120):
@@ -62,7 +73,11 @@ def main() -> int:
     rows = ["| Relation | Trajets |", "|---|---|"]
     failures = []
     operators = {o["id"] if isinstance(o, dict) else o for o in health.get("operators") or []}
+    disabled = disabled_operators()
     for a, b, op in RELATIONS:
+        if op in disabled:
+            rows.append(f"| {a} → {b} | {op} désactivé dans operators.json, non testé |")
+            continue
         if operators and op not in operators:
             rows.append(f"| {a} → {b} | {op} absent du réseau, non testé |")
             continue
