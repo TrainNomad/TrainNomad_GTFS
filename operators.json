@@ -154,7 +154,7 @@
   {
     "id": "CD",
     "name": "České dráhy (ČD)",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./CZECH/cz_gtfs.zip",
     "script_path": "./CZECH/ingest_cz_gtfs.py",
     "gtfs_url": "https://data.jr.ggu.cz/results/latest/CZPTT_GTFS.zip",
@@ -175,7 +175,7 @@
   {
     "id": "PKP",
     "name": "PKP Intercity",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./POLAND/pl_gtfs.zip",
     "script_path": "./POLAND/ingest_pl_gtfs.py",
     "gtfs_url": "https://mkuran.pl/gtfs/polish_trains.zip",
@@ -195,7 +195,7 @@
   {
     "id": "ZSSK",
     "name": "ZSSK",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./SLOVAKIA/sk_gtfs.zip",
     "script_path": "./SLOVAKIA/ingest_sk_gtfs.py",
     "gtfs_url": "https://data.slovensko.sk/datasety/ebeeedf1-aca2-451a-bdc0-35d536714888",
@@ -213,7 +213,7 @@
   {
     "id": "MAV",
     "name": "MÁV",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./HUNGARY/hu_gtfs.zip",
     "script_path": "./HUNGARY/ingest_hu_gtfs.py",
     "gtfs_url": "https://jbb.ghsq.de/gtfs/hu-m%C3%A1v_szem%C3%A9lysz%C3%A1ll%C3%ADt%C3%A1si_zrt..gtfs.zip",
