@@ -20,8 +20,9 @@ Structure du flux :
   - calendar_dates.txt seul
 
 Ce que fait le script :
-  ✓ numéro du train dans trip_short_name : catégorie + premier numéro ("EIP 5406", "R3 19488") ; le
-    premier numéro est celui que publient les flux voisins (tchèque, allemand) : les doublons s'y retrouvent
+  ✓ numéro du train dans trip_short_name : catégorie + premier numéro commercial ("EIP 5406", "EN 406",
+    "EC 113") ; c'est celui que publient les flux voisins (tchèque, allemand) : les doublons s'y retrouvent.
+    Le numéro de sillon PLK (plk_train_number : 41010 pour l'EN 406 Chopin) ne sert qu'à défaut
   ✓ catégorie seule dans route_desc (la première : "EC/IC" -> "EC"), lue par build_network.py
   ✓ bus de remplacement d'un train gardés (route_type 3) ; lignes de bus régulières écartées (navette de
     l'aéroport de Modlin, lignes D31, D81, D92 de Koleje Dolnośląskie)
@@ -118,9 +119,14 @@ def build(src: str, dst: str) -> dict:
         trips = trips[trips["service_id"].isin(set(cd["service_id"])) & trips["route_id"].isin(routes["route_id"])].copy()
         stats["trajets_en_cours"] = len(trips)
 
-        # 3. numéro affiché : catégorie + premier numéro ("EIP 5406") ; catégorie seule dans route_desc
-        number = trips["plk_train_number"].where(trips["plk_train_number"] != "", trips["trip_short_name"])
-        first = number.str.extract(r"^\s*(\d+)", expand=False).fillna("")
+        # 3. numéro affiché : catégorie + premier numéro ("EIP 5406") ; catégorie seule dans route_desc.
+        # Numéro commercial (trip_short_name : "406 Chopin", "113 Silesia", "1029") d'abord : plk_train_number
+        # est le numéro de sillon du gestionnaire, différent pour les trains internationaux (41010 pour l'EN 406,
+        # 41006 pour l'EC 113, 14022 pour le RJ 1029) ; à défaut (vide ou "0"), le numéro PLK
+        commercial = trips["trip_short_name"].str.extract(r"^\s*(\d+)", expand=False).fillna("")
+        plk = trips["plk_train_number"].str.extract(r"^\s*(\d+)", expand=False).fillna("")
+        first = commercial.where(~commercial.isin(["", "0"]), plk)
+        stats["numeros_commerciaux_differents_du_plk"] = int(((first != plk) & (plk != "")).sum())
         cat = trips["plk_category_code"].str.split("/").str[0].str.strip()
         # trajets de Koleje Mazowieckie sans catégorie PLK : la ligne ("R3")
         cat = cat.where(cat != "", trips["route_id"].map(routes.set_index("route_id")["route_short_name"]).fillna(""))

@@ -1,65 +1,66 @@
 id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
-TN8600626;170;Koebenhavn H;Koebenhavn H;gtfs;;Koebenhavn H;Copenhague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM3535835440;408211;Lancut;Łańcut;nom;0.087;Łańcut;Łańcut;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN7401707;644255;Hässleholm Central;Hässleholm Central;gtfs;;Hässleholm Central;Hässleholm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8814001;660292;Bruxelles Midi;Bruxelles-Midi - Brussel-Zuid;nom;0.051;Bruxelles-Midi - Brussel-Zuid;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8004318;98322;Hoyerswerda;Hoyerswerda;nom;0.027;Hoyerswerda - Wojerecy;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNDB-103013;103013;Sedziszow Malopolski;Sedziszow Malopolski;gtfs;;;Sędziszów Małopolski;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600100;107109;Padborg st;Padborg st;gtfs;;;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8711300;122301;Paris Est;Paris Est;gtfs;;;Paris;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8001093;130140;Hamburg-Altona (S);Hamburg-Altona;nom;0.033;Hamburg-Altona;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5613206;158732;Bratislava hl.st.;Bratislava hl.st.;gtfs;;;Bratislava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029398;164661;Eutingen im Gäu;Eutingen;nom;0.005;Eutingen;Eutingen im Gäu;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNDB-183525;183525;Szamotuly;Szamotuly;gtfs;;;Szamotuły;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-196328;196328;Chalupki;Chalupki;gtfs;;;Chałupki;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600083;208304;Kolding st;Kolding st;gtfs;;;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600079;209678;Fredericia st;Fredericia st;gtfs;;;Fredericia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5100072;22413;Lodz Widzew;Łódź Widzew;nom;0.045;Łódź Widzew;Łódź;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8014521;226442;Villingen (Schwarzw);Villingen (Schwarzwald);nom;0.018;Villingen (Schwarzwald);Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5453179;227618;Usti nad Labem hl.n.;Usti nad Labem hl.n.;gtfs;;;Ústí nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN7400144;236714;Alvesta station;Alvesta station;gtfs;;;Alvesta;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN7402421;238728;Linköping Central;Linköping Central;gtfs;;;Linköping;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8001427;249020;Flensburg;Flensburg / Flensborg;nom;0.013;Flensburg / Flensborg;Flensbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5434364;265475;Ostrava hl.n.;Ostrava hl.n.;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-29814;29814;Pulawy Miasto;Pulawy Miasto;gtfs;;;Puławy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5100750;300667;Gdansk Glowny;Gdansk Glowny;gtfs;;;Gdańsk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5105090;312468;Chelm;Chelm;gtfs;;;Chełm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600086;334861;Lunderskov st;Lunderskov st;gtfs;;;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600611;335392;Ringsted st;Ringsted st;gtfs;;;Ringsted;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-345100;345100;Opoczno Poludnie;Opoczno Poludnie;gtfs;;;Świerczyna, gmina Opoczno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-352255;352255;Koebenhavn Syd;Koebenhavn Syd;gtfs;;;Copenhague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8014350;386253;Freiburg, Hauptbahnhof;Freiburg, Hauptbahnhof;gtfs;;;Fribourg-en-Brisgau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-410279;410279;Basel Bad Bf;Basel Bad Bf;gtfs;;;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600094;421459;Roedekro st;Roedekro st;gtfs;;;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5101840;425468;Bydgoszcz Glowna;Bydgoszcz Glowna;gtfs;;;Bydgoszcz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5100065;436443;Lublin;Lublin Główny;nom;0.04;Lublin Główny;Lublin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN7402485;446810;Lund Central;Lund Central;gtfs;;;Lund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453414;450751;Kolin (CZ);Kolín;nom;0.015;Kolín;Kolín;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM1509858521;463724;Lask;Łask;nom;0.006;Łask;Łask;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8600512;47162;Odense st;Odense st;gtfs;;;Odense;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8603327;487805;Koebenhavns Lufthavn st;Koebenhavns Lufthavn st;gtfs;;;Tårnby;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600091;494650;Vojens st;Vojens st;gtfs;;;Haderslev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-503488;503488;Wolow;Wolow;gtfs;;;Wołów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5457076;539641;Praha hl.n.;Praha hl.n.;gtfs;;;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5105385;539997;Boleslawiec;Boleslawiec;gtfs;;;Bolesławiec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-545309;545309;Naleczow;Naleczow;gtfs;;;Drzewce-Kolonia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5102780;558396;Zielona Gora Glowna;Zielona Gora Glowna;gtfs;;;Zielona Góra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5455659;568882;Decin hl.n.;Decin hl.n.;gtfs;;;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5103060;596938;Poznan Glowny;Poznan Glowny;gtfs;;;Poznań;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8001134;602933;Hamburg-Harburg (S);Harburg;nom;0.119;Harburg;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5433295;614691;Brno hl.n.;Brno hl.n.;gtfs;;;Brno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029403;61511;Sulz (Neckar);Sulz (Neckar);gtfs;;;Sulz am Neckar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8812005;616012;Bruxelles-Nord;Bruxelles-Nord - Brussel-Noord;nom;0.011;Bruxelles-Nord - Brussel-Noord;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNDB-626020;626020;Frankfurt (M) Flughafen Regionalbf;Frankfurt (M) Flughafen Regionalbf;gtfs;;;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-643080;643080;Frankfurt (M) Flughafen Fernbf;Frankfurt (M) Flughafen Fernbf;gtfs;;;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN7403012;65107;Nässjö Central;Nässjö Central;gtfs;;;Nässjö;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8600087;653184;Vamdrup st;Vamdrup st;gtfs;;;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101591;6568;Linz/Donau Hbf;Linz/Donau Hbf;gtfs;;;Linz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8719300;662218;Forbach (F);Forbach;nom;0.068;Forbach;Forbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8600097;667549;Tinglev st;Tinglev st;gtfs;;;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5101870;684219;Inowroclaw;Inowroclaw;gtfs;;;Inowrocław;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029396;80174;Bondorf (b Herrenberg);Bondorf;nom;0.027;Bondorf;Bondorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5104220;81476;Glogow;Glogow;gtfs;;;Głogów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-88327;88327;Chelm Miasto;Chelm Miasto;gtfs;;;Chełm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNDB-92253;92253;Bremen, Hauptbahnhof;Bremen, Hauptbahnhof;gtfs;;;Brême;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN7402930;94914;Norrköping Central;Norrköping Central;gtfs;;;Norrköping;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001134;102176;Hamburg-Harburg (S);Harburg;nom;0.084;Harburg;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5104220;110051;Glogow;Glogow;gtfs;;Glogow;Głogów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5102780;132316;Zielona Gora Glowna;Zielona Gora Glowna;gtfs;;Zielona Gora Glowna;Zielona Góra;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5100750;138192;Gdansk Glowny;Gdansk Glowny;gtfs;;Gdansk Glowny;Gdańsk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-145778;145778;Pulawy Miasto;Pulawy Miasto;gtfs;;Pulawy Miasto;Puławy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014521;151330;Villingen (Schwarzw);Villingen (Schwarzwald);nom;0.018;Villingen (Schwarzwald);Villingen-Schwenningen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8029396;155001;Bondorf (b Herrenberg);Bondorf;nom;0.027;Bondorf;Bondorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101591;162178;Linz/Donau Hbf;Linz/Donau Hbf;gtfs;;Linz/Donau Hbf;Linz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3535835440;188411;Lancut;Łańcut;nom;0.087;Łańcut;Łańcut;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5613206;1981;Bratislava hl.st.;Bratislava hl.st.;gtfs;;Bratislava hl.st.;Bratislava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001093;201607;Hamburg-Altona (S);Hamburg-Altona;nom;0.033;Hamburg-Altona;Hambourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5453414;216430;Kolin (CZ);Kolín;nom;0.015;Kolín;Kolín;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5433295;227436;Brno hl.n.;Brno hl.n.;gtfs;;Brno hl.n.;Brno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600087;231406;Vamdrup st;Vamdrup st;gtfs;;Vamdrup st;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8711300;248470;Paris Est;Paris Est;gtfs;;Paris Est;Paris;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8603327;250578;Koebenhavns Lufthavn st;Koebenhavns Lufthavn st;gtfs;;Koebenhavns Lufthavn st;Tårnby;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-251934;251934;Sedziszow Malopolski;Sedziszow Malopolski;gtfs;;Sedziszow Malopolski;Sędziszów Małopolski;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7403012;267196;Nässjö Central;Nässjö Central;gtfs;;Nässjö Central;Nässjö;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600083;274819;Kolding st;Kolding st;gtfs;;Kolding st;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-277423;277423;Chalupki;Chalupki;gtfs;;Chalupki;Chałupki;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453179;283763;Usti nad Labem hl.n.;Usti nad Labem hl.n.;gtfs;;Usti nad Labem hl.n.;Ústí nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-285016;285016;Frankfurt (M) Flughafen Fernbf;Frankfurt (M) Flughafen Fernbf;gtfs;;Frankfurt (M) Flughafen Fernbf;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400144;293283;Alvesta station;Alvesta station;gtfs;;Alvesta station;Alvesta;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8028332;312694;Bahnhof, Prenzlau;Prenzlau;nom;0.074;Prenzlau;Prenzlau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8600086;337854;Lunderskov st;Lunderskov st;gtfs;;Lunderskov st;Kolding;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5100072;347712;Lodz Widzew;Łódź Widzew;nom;0.045;Łódź Widzew;Łódź;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB-34827;34827;Chelm Miasto;Chelm Miasto;gtfs;;Chelm Miasto;Chełm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600512;355071;Odense st;Odense st;gtfs;;Odense st;Odense;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-360393;360393;Basel Bad Bf;Basel Bad Bf;gtfs;;Basel Bad Bf;Bâle;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5100065;37000;Lublin;Lublin Główny;nom;0.04;Lublin Główny;Lublin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB-384783;384783;Szamotuly;Szamotuly;gtfs;;Szamotuly;Szamotuły;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600097;410275;Tinglev st;Tinglev st;gtfs;;Tinglev st;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8016043;416191;Hauptbahnhof;Erfurt Hauptbahnhof;nom;0.06;Erfurt Hauptbahnhof;Erfurt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN5455659;42330;Decin hl.n.;Decin hl.n.;gtfs;;Decin hl.n.;Děčín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5457076;425886;Praha hl.n.;Praha hl.n.;gtfs;;Praha hl.n.;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434364;429469;Ostrava hl.n.;Ostrava hl.n.;gtfs;;Ostrava hl.n.;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5105090;430632;Chelm;Chelm;gtfs;;Chelm;Chełm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM1509858521;437917;Lask;Łask;nom;0.006;Łask;Łask;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB-445914;445914;Opoczno Poludnie;Opoczno Poludnie;gtfs;;Opoczno Poludnie;Świerczyna, gmina Opoczno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029403;450784;Sulz (Neckar);Sulz (Neckar);gtfs;;Sulz (Neckar);Sulz am Neckar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8812005;454257;Bruxelles-Nord;Bruxelles-Nord - Brussel-Noord;nom;0.011;Bruxelles-Nord - Brussel-Noord;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7402421;469567;Linköping Central;Linköping Central;gtfs;;Linköping Central;Linköping;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-474510;474510;Frankfurt (M) Flughafen Regionalbf;Frankfurt (M) Flughafen Regionalbf;gtfs;;Frankfurt (M) Flughafen Regionalbf;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7401707;474727;Hässleholm Central;Hässleholm Central;gtfs;;Hässleholm Central;Hässleholm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600626;490794;Koebenhavn H;Koebenhavn H;gtfs;;Koebenhavn H;Copenhague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600079;49681;Fredericia st;Fredericia st;gtfs;;Fredericia st;Fredericia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600100;514695;Padborg st;Padborg st;gtfs;;Padborg st;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8014350;559426;Freiburg, Hauptbahnhof;Freiburg, Hauptbahnhof;gtfs;;Freiburg, Hauptbahnhof;Fribourg-en-Brisgau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5103060;561920;Poznan Glowny;Poznan Glowny;gtfs;;Poznan Glowny;Poznań;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8719300;565023;Forbach (F);Forbach;nom;0.068;Forbach;Forbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8004318;573285;Hoyerswerda;Hoyerswerda;nom;0.027;Hoyerswerda - Wojerecy;Hoyerswerda;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8600611;593500;Ringsted st;Ringsted st;gtfs;;Ringsted st;Ringsted;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600091;594792;Vojens st;Vojens st;gtfs;;Vojens st;Haderslev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5105385;610017;Boleslawiec;Boleslawiec;gtfs;;Boleslawiec;Bolesławiec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001427;622297;Flensburg;Flensburg / Flensborg;nom;0.013;Flensburg / Flensborg;Flensbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8814001;630176;Bruxelles Midi;Bruxelles-Midi - Brussel-Zuid;nom;0.051;Bruxelles-Midi - Brussel-Zuid;Bruxelles;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7402930;637222;Norrköping Central;Norrköping Central;gtfs;;Norrköping Central;Norrköping;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029398;658102;Eutingen im Gäu;Eutingen;nom;0.005;Eutingen;Eutingen im Gäu;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNDB-662419;662419;Traunstein;Traunstein;gtfs;;Traunstein;Traunstein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7402485;668180;Lund Central;Lund Central;gtfs;;Lund Central;Lund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-670263;670263;Naleczow;Naleczow;gtfs;;Naleczow;Drzewce-Kolonia;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5101840;671310;Bydgoszcz Glowna;Bydgoszcz Glowna;gtfs;;Bydgoszcz Glowna;Bydgoszcz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNDB-689544;689544;Wolow;Wolow;gtfs;;Wolow;Wołów;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5101870;73836;Inowroclaw;Inowroclaw;gtfs;;Inowroclaw;Inowrocław;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600094;97312;Roedekro st;Roedekro st;gtfs;;Roedekro st;Aabenraa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

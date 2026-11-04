@@ -143,7 +143,6 @@ Q1065474;Chipping Norton;Chipping Norton;GB;51.94;-1.55
 Q10686;Belfast;Belfast;GB;54.596666666666664;-5.93
 Q10690;Cardiff;Cardiff;GB;51.48166666666667;-3.1791666666666667
 Q107032618;Little Mountain;Little Mountain;GB;53.163317;-3.053465
-Q107033333;Hightown;Hightown;GB;53.03949;-2.98279
 Q107033449;Ynys;Ynys;GB;52.896245;-4.086994
 Q1070428;Chertsey;Chertsey;GB;51.3902;-0.5074
 Q1070481;Cherwell;Cherwell;GB;51.95;-1.25
@@ -263,7 +262,6 @@ Q1530983;Glenfinnan;Glenfinnan;GB;56.87083333333333;-5.4463888888888885
 Q153647;St Helens;St Helens;GB;53.4541;-2.7461
 Q1537181;Tonypandy;Tonypandy;GB;51.622325;-3.4512027777778
 Q1538358;Workington;Workington;GB;54.6365;-3.5549
-Q1546645;Sefton;Sefton;GB;53.445;-2.998
 Q1547379;Groombridge;Groombridge;GB;51.115;0.185
 Q156150;Powys;Powys;GB;52.3;-3.4166666666667
 Q1570884;Halesworth;Halesworth;GB;52.342;1.506
@@ -412,7 +410,6 @@ Q1941870;Stainforth;Stainforth;GB;54.101969444444;-2.2746194444444
 Q1943257;Huby;Huby;GB;54.082;-1.135
 Q1947185;Mòrar;Mòrar;GB;56.9695;-5.82157
 Q1950182;Elmswell;Elmswell;GB;52.237238888889;0.91131944444444
-Q1951431;Maghull;Maghull;GB;53.5174;-2.9449
 Q1953000;Menheniot;Menheniot;GB;50.44;-4.412
 Q1957196;Aslockton;Aslockton;GB;52.952777777777776;-0.8969444444444445
 Q1963910;Polegate;Polegate;GB;50.8216;0.2442
@@ -464,7 +461,6 @@ Q2020505;Elton;Elton;GB;53.276558333333;-2.8168222222222
 Q2021055;Langwathby;Langwathby;GB;54.695938888889;-2.6700722222222
 Q202174;Argyll and Bute;Argyll and Bute;GB;55.98333333;-5.45
 Q202348;Ashington;Ashington;GB;55.181;-1.568
-Q2024069;Hoylake;Hoylake;GB;53.39;-3.18
 Q202628;Oldham;Oldham;GB;53.544722222222;-2.1183333333333
 Q203000;Perth;Perth;GB;56.395833333333336;-3.4333333333333336
 Q203349;Poole;Poole;GB;50.716666666667;-1.9833333333333
@@ -489,7 +485,6 @@ Q2064938;Old Kilpatrick;Old Kilpatrick;GB;55.925;-4.4593
 Q2067089;Slaithwaite;Slaithwaite;GB;53.62;-1.88
 Q2067964;Ripley;Ripley;GB;54.041;-1.568
 Q206988;Cheltenham;Cheltenham;GB;51.896519444444;-2.0784277777778
-Q20709709;Bebington;Bebington;GB;53.35;-3.003
 Q2073045;Helsby;Helsby;GB;53.273;-2.773
 Q207371;Lichfield;Lichfield;GB;52.6835;-1.82653
 Q207639;Chichester;Chichester;GB;50.8365;-0.7792
@@ -618,13 +613,11 @@ Q2281091;Worksop;Worksop;GB;53.309722222222;-1.1227777777778
 Q2281103;Kenilworth;Kenilworth;GB;52.341;-1.566
 Q2281750;Darsham;Darsham;GB;52.274847222222;1.5423694444444
 Q2282115;Gretna;Gretna;GB;54.994;-3.062
-Q2285773;Capenhurst;Capenhurst;GB;53.258;-2.95
 Q2287588;Rutherglen;Rutherglen;GB;55.828;-4.224
 Q2287962;Cliffsend;Cliffsend;GB;51.328969444444;1.3659111111111
 Q22889;Bath;Bath;GB;51.381388888888885;-2.359722222222222
 Q22905;Bradford;Bradford;GB;53.794444444444444;-1.7519444444444443
 Q2292266;Manea;Manea;GB;52.48;0.17
-Q2297044;Ilford;Ilford;GB;51.5575;0.08583333333333334
 Q2297559;Ebbw Vale;Ebbw Vale;GB;51.7779;-3.2117
 Q2298016;Kirk Hammerton;Kirk Hammerton;GB;53.9946;-1.2903
 Q2300574;Rishton;Rishton;GB;53.770111111111;-2.4187027777778
@@ -654,7 +647,6 @@ Q2334989;Watlington;Watlington;GB;51.645;-1.008
 Q2335054;Whittlesey;Whittlesey;GB;52.556680555556;-0.13071944444444
 Q2335129;Chorleywood;Chorleywood;GB;51.65;-0.51
 Q2335721;Brandon;Brandon;GB;52.4474;0.6242
-Q2338272;Bromborough;Bromborough;GB;53.336;-2.978
 Q2338468;South Woodham Ferrers;South Woodham Ferrers;GB;51.651;0.6124
 Q2338783;Kirton in Lindsey;Kirton in Lindsey;GB;53.4759;-0.5887
 Q2339370;Pegswood;Pegswood;GB;55.1798;-1.6442
@@ -732,7 +724,6 @@ Q2499345;Dronfield;Dronfield;GB;53.3024;-1.4664
 Q2499366;Dalston;Dalston;GB;51.545;-0.07
 Q251903;Bicester;Bicester;GB;51.9;-1.15
 Q2519746;Theale;Theale;GB;51.437;-1.077
-Q2530172;Willaston;Willaston;GB;53.082;-2.479
 Q2537605;Haddenham;Haddenham;GB;52.358;0.149
 Q2548710;Hoveton;Hoveton;GB;52.713269444444;1.4096
 Q2551138;Thornton;Thornton;GB;51.997;-0.918
@@ -745,7 +736,6 @@ Q2569076;March;March;GB;52.54;0.07
 Q2569086;New Mills;New Mills;GB;53.367;-2.007
 Q2569138;Leyland;Leyland;GB;53.69027777777778;-2.6991666666666667
 Q2569184;Wendover;Wendover;GB;51.7675;-0.745
-Q2569221;Formby;Formby;GB;53.5586;-3.0666
 Q2569297;Shifnal;Shifnal;GB;52.665;-2.373
 Q2569319;Fenny Stratford;Fenny Stratford;GB;51.998;-0.715
 Q2570025;Chester-le-Street;Chester-le-Street;GB;54.8594;-1.5699
@@ -812,7 +802,6 @@ Q2749481;Duffield;Duffield;GB;52.9891;-1.4889
 Q2749964;Kintbury;Kintbury;GB;51.399;-1.449
 Q2751552;Thurston;Thurston;GB;52.249938888889;0.8259
 Q2752670;Penyffordd;Penyffordd;GB;53.149;-3.03
-Q2756002;Port Sunlight;Port Sunlight;GB;53.355;-2.994
 Q2762400;Broomfleet;Broomfleet;GB;53.734688888889;-0.66457222222222
 Q276274;Wolverton;Wolverton;GB;52.0625;-0.8166666666666667
 Q2771917;Abergele;Abergele;GB;53.28;-3.58
@@ -821,7 +810,6 @@ Q2779500;Nateby;Nateby;GB;54.455419444444;-2.3494
 Q2779533;Parbold;Parbold;GB;53.5934;-2.7649
 Q2793287;Staveley;Staveley;GB;54.059580555556;-1.44105
 Q281749;Stroud;Stroud;GB;51.744166666667;-2.215
-Q2836339;Moreton;Moreton;GB;50.7033;-2.2793
 Q284348;Mexborough;Mexborough;GB;53.494166666666665;-1.2833333333333332
 Q285323;Staines-upon-Thames;Staines-upon-Thames;GB;51.434;-0.511
 Q285778;Datchet;Datchet;GB;51.4841;-0.5762
@@ -932,7 +920,6 @@ Q3849623;Markinch;Markinch;GB;56.2026;-3.13504
 Q386087;Catterick Garrison;Catterick Garrison;GB;54.3774;-1.722
 Q386419;Knebworth;Knebworth;GB;51.866;-0.184
 Q387419;Wareham;Wareham;GB;50.685;-2.108
-Q3875229;New Ferry;New Ferry;GB;53.36;-2.997
 Q3876531;Yorton;Yorton;GB;52.8;-2.73333
 Q3896128;Parkeston;Parkeston;GB;51.9407;1.2531
 Q3899034;Pendlebury;Pendlebury;GB;53.5075;-2.3154
@@ -1037,7 +1024,6 @@ Q5173891;Cosford (Warwickshire);Cosford;GB;52.408;-1.265
 Q5175043;Ulleskelf;Ulleskelf;GB;53.854880555556;-1.2126694444444
 Q5184679;Creswell;Creswell;GB;53.264;-1.212
 Q5187471;Croft;Croft;GB;53.1296;0.254115
-Q5188019;Crosby;Crosby;GB;54.313;-1.372
 Q5188616;Crossgates;Crossgates;GB;52.2748;-3.33732
 Q5189246;Crowhurst;Crowhurst;GB;50.89;0.5
 Q519215;Johnston;Johnston;GB;51.754;-4.9976
@@ -1122,7 +1108,6 @@ Q609161;Abergavenny;Abergavenny;GB;51.833055555556;-3.0172222222222
 Q610238;Gillingham;Gillingham;GB;51.3792;0.5498
 Q611046;Driffield;Driffield;GB;54.005;-0.438
 Q612117;Kidsgrove;Kidsgrove;GB;53.0874;-2.2478
-Q613226;Aughton;Aughton;GB;53.542;-2.912
 Q613847;Mossley;Mossley;GB;53.5147;-2.0387
 Q614314;Dunblane;Dunblane;GB;56.18833333333333;-3.964166666666667
 Q617188;Hunstanton;Hunstanton;GB;52.93;0.48
@@ -1136,14 +1121,12 @@ Q623687;Falkirk;Falkirk;GB;55.99944444444444;-3.7847222222222223
 Q623765;Rugby;Rugby;GB;52.37;-1.26
 Q630668;Arbroath;Arbroath;GB;56.561386111111;-2.5857055555556
 Q632993;Melrose;Melrose;GB;55.583333333333;-2.7166666666667
-Q633627;West Kirby;West Kirby;GB;53.373;-3.184
 Q634054;Conwy;Conwy;GB;53.28;-3.83
 Q635169;Caersws;Caersws;GB;52.5215;-3.42243
 Q635838;Betchworth;Betchworth;GB;51.2335;-0.2665
 Q636627;Whitchurch;Whitchurch;GB;52.969;-2.6827
 Q637482;Esher;Esher;GB;51.3691;-0.365
 Q6387177;Kemsley;Kemsley;GB;51.36;0.74
-Q6389759;Kennessee Green;Kennessee Green;GB;53.5065;-2.93121
 Q6395231;Kestle;Kestle;GB;50.394017;-5.0193939
 Q639675;Pewsey;Pewsey;GB;51.343;-1.764
 Q640073;Ardrossan;Ardrossan;GB;55.6432;-4.8097
@@ -1189,9 +1172,7 @@ Q661619;Weymouth;Weymouth;GB;50.609722222222224;-2.4547222222222222
 Q661707;Stourbridge;Stourbridge;GB;52.458;-2.148
 Q662167;Flookburgh;Flookburgh;GB;54.174;-2.972
 Q662238;Mid Devon;Mid Devon;GB;50.9;-3.49
-Q6647845;Litherland;Litherland;GB;53.4727;-2.999
 Q6649241;Little Bowden;Little Bowden;GB;52.475;-0.911
-Q6649692;Little Crosby;Little Crosby;GB;53.5058;-3.0239
 Q665034;Medlar-with-Wesham;Medlar-with-Wesham;GB;53.7902;-2.8857
 Q665330;Ledbury;Ledbury;GB;52.0339;-2.4235
 Q665489;Royal Tunbridge Wells;Royal Tunbridge Wells;GB;51.132;0.263
@@ -1300,7 +1281,6 @@ Q743521;Scarborough;Scarborough;GB;54.2825;-0.4
 Q7442007;Seaton Carew;Seaton Carew;GB;54.6628;-1.18882
 Q7457920;Severn Beach;Severn Beach;GB;51.5583;-2.6583
 Q746681;Egham;Egham;GB;51.4289;-0.5479
-Q746718;Birkenhead;Birkenhead;GB;53.383333333333;-3.0166666666667
 Q747456;South Ockendon;South Ockendon;GB;51.5207;0.2956
 Q747777;Neilston;Neilston;GB;55.7847;-4.4234
 Q747778;Atherstone;Atherstone;GB;52.5787;-1.5462
@@ -1325,7 +1305,6 @@ Q7637597;Summerhill;Summerhill;GB;53.0697;-3.0264
 Q764754;Bury St Edmunds;Bury St Edmunds;GB;52.246667;0.7125
 Q7654068;Sway;Sway;GB;50.783;-1.6
 Q7658401;Swinderby;Swinderby;GB;53.158;-0.702
-Q766594;Bewdley;Bewdley;GB;52.375238888889;-2.3162388888889
 Q767858;Pershore;Pershore;GB;52.114;-2.08
 Q7680325;Talsarnau;Talsarnau;GB;52.9035;-4.06461
 Q7688391;Tattenham Corner;Tattenham Corner;GB;51.309;-0.243
@@ -1343,9 +1322,7 @@ Q7796469;Thornliebank;Thornliebank;GB;55.8;-4.31667
 Q7796521;Thornton Curtis;Thornton Curtis;GB;53.6465;-0.356438
 Q7796582;Thorntonhall;Thorntonhall;GB;55.769444444444;-4.2480555555556
 Q7800812;Tidbury Green;Tidbury Green;GB;52.3806;-1.8538
-Q780923;Wallasey;Wallasey;GB;53.423;-3.065
 Q7810419;Tividale;Tividale;GB;52.5124;-2.053
-Q782155;Jarrow;Jarrow;GB;54.98138888888889;-1.49
 Q7826059;Tornagrain;Tornagrain;GB;57.5206;-4.06331
 Q783210;Bracknell;Bracknell;GB;51.416;-0.749
 Q783269;Bingham;Bingham;GB;52.95;-0.954
@@ -1531,11 +1508,9 @@ VGB-corner-hall;Corner Hall;Corner Hall;GB;51.732364999143975;-0.462988800000000
 VGB-dean-row;Dean Row;Dean Row;GB;53.34644599910628;-2.2136737
 VGB-dolwyddelan;Dolwyddelan;Dolwyddelan;GB;53.05157029908961;-3.8845507
 VGB-durgates;Durgates;Durgates;GB;51.07338829923692;0.31304059999999995
-VGB-east-boldon;East Boldon;East Boldon;GB;54.94634499940445;-1.4201544999999998
 VGB-east-malling;East Malling;East Malling;GB;51.285671299203045;0.44035949999999996
 VGB-edwardsville;Edwardsville;Edwardsville;GB;51.66036369915227;-3.3229308000000004
 VGB-enton-green;Enton Green;Enton Green;GB;51.1631789992222;-0.6368938999999999
-VGB-great-meols;Great Meols;Great Meols;GB;53.399438199110456;-3.1539245999999994
 VGB-harbour-village;Harbour Village;Harbour Village;GB;52.01069169911655;-4.986172999999999
 VGB-harry-stoke;Harry Stoke;Harry Stoke;GB;51.52582709916911;-2.5623446999999997
 VGB-haslucks-green;Haslucks Green;Haslucks Green;GB;52.4035741990916;-1.8451962
@@ -1554,7 +1529,7 @@ VGB-newton-village;Newton Village;Newton Village;GB;55.91769659975335;-3.0902235
 VGB-newtonmoor;Newtonmoor;Newtonmoor;GB;53.45224879911503;-2.0556364
 VGB-old-hill;Old Hill;Old Hill;GB;52.47079389908906;-2.0561814
 VGB-pantygraigwen;Pantygraigwen;Pantygraigwen;GB;51.61009659915837;-3.3807002999999995
-VGB-pelaw;Pelaw;Pelaw;GB;54.95314639940645;-1.571771
+VGB-pelaw;Pelaw;Pelaw;GB;54.951594199405996;-1.5575800999999998
 VGB-pont-cyfyng;Pont Cyfyng;Pont Cyfyng;GB;53.102165;-3.902861
 VGB-pont-y-waun;Pont-y-waun;Pont-y-waun;GB;51.620757499157065;-3.1258367
 VGB-rhoose;Rhoose;Rhoose;GB;51.387454;-3.347599
@@ -1571,7 +1546,6 @@ VGB-tredinnick;Tredinnick;Tredinnick;GB;50.40568949936364;-4.4664151
 VGB-tregof;Tregof;Tregof;GB;51.66150719915214;-3.8854619
 VGB-twemlow-green;Twemlow Green;Twemlow Green;GB;53.22256989909789;-2.3263394
 VGB-walhampton;Walhampton;Walhampton;GB;50.75769209929336;-1.5293234999999998
-VGB-west-boldon;West Boldon;West Boldon;GB;54.95951929940835;-1.4606839999999999
 VGB-west-timperley;West Timperley;West Timperley;GB;53.39574459911016;-2.3432686
 VGB-westrigg;Westrigg;Westrigg;GB;55.88438249973955;-3.7502801000000003
 VGB-whitland;Whitland;Whitland;GB;51.818024999134714;-4.6149893

@@ -27,6 +27,11 @@ from commun import GTFS_DIR, run  # noqa: E402
 
 ZSSK_ZIP = os.path.join(GTFS_DIR, "SLOVAKIA", "sk_gtfs.zip")
 
+# Arrêts publiés à 0,0 par le flux et absents d'OpenStreetMap : position relevée à la main
+KNOWN_POSITIONS = {
+    "5615321": (48.633056, 21.294167),   # Valaliky terminál, halte nouvelle (ligne Košice - Hidasnémeti)
+}
+
 
 def category(number: str) -> str:
     """ "EC 120" -> "EC" ; "rj 1033" -> "rj" (casse gardée : "RJ" est RegioJet) """
@@ -57,6 +62,8 @@ def load_zssk_stations(path: str = ZSSK_ZIP) -> list[dict]:
     out = []
     for s in stops[stops["stop_id"].isin(cats.index)].to_dict("records"):
         uic = s["stop_id"] if re.fullmatch(r"\d{7}", s["stop_id"]) else ""
+        if float(s["stop_lat"] or 0) == 0 and s["stop_id"] in KNOWN_POSITIONS:
+            s["stop_lat"], s["stop_lon"] = KNOWN_POSITIONS[s["stop_id"]]
         out.append({"cle": s["stop_id"], "uic": uic, "code_osm": ("uic_ref", uic) if uic else None,
                     "nom_gtfs": " ".join(s["stop_name"].split()),
                     "lat": float(s["stop_lat"]), "lon": float(s["stop_lon"]), "type": "gare",

@@ -1,48 +1,23 @@
 id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
-TN8103273;Pat:41:3087;Bad Sauerbrunn Bahnhof;Bad Sauerbrunn Bahnhof;nom;0.006;Bad Sauerbrunn;Bad Sauerbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8133216;Pat:41:3145;Baumgarten-Schattendorf Bahnhof;Baumgarten-Schattendorf Bahnhof;nom;0.02;Baumgarten-Schattendorf;Baumgarten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100397;Pat:41:3186;Breitenbrunn Bahnhof;Breitenbrunn Bahnhof;nom;0.007;Breitenbrunn;Breitenbrunn am Neusiedler See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103282;Pat:41:3294;Deutschkreutz Bahnhof;Deutschkreutz Bahnhof;nom;0.008;Deutschkreutz;Deutschkreutz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100219;Pat:41:3298;Donnerskirchen Bahnhof;Donnerskirchen Bahnhof;nom;0.012;Donnerskirchen;Donnerskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100220;Pat:41:3303;Draßburg Bahnhof;Draßburg Bahnhof;nom;0.034;Draßburg;Draßburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM315111042;Pat:41:3443;Frauenkirchen Bahnhof;Frauenkirchen Bahnhof;nom;0.01;Frauenkirchen;Frauenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM254073098;Pat:41:3531;Gols Bahnhof;Gols Bahnhof;nom;0.056;Gols;Gols;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100280;Pat:41:3831;Jois Bahnhof;Jois Bahnhof;nom;0.043;Jois;Jois;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103277;Pat:41:4109;Loipersbach-Schattendorf Bhf.;Loipersbach-Schattendorf;nom;0.006;Loipersbach-Schattendorf;Loipersbach im Burgenland;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103276;Pat:41:4176;Marz-Rohrbach Bahnhof;Marz-Rohrbach Bahnhof;nom;0.025;Marz-Rohrbach;Rohrbach bei Mattersburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103275;Pat:41:4177;Mattersburg Bahnhof;Mattersburg Bahnhof;nom;0.018;Mattersburg;Mattersburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM277756229;Pat:41:4309;Mönchhof-Halbturn Bahnhof;Mönchhof-Halbturn Bahnhof;nom;0.136;Mönchhof-Halbturn;Mönchhof;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103272;Pat:41:4325;Neudörfl Bahnhof;Neudörfl Bahnhof;nom;0.001;Neudörfl;Neudörfl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-41-4348;Pat:41:4348;Neusiedl am See Bad Bahnhof;Neusiedl am See Bad Bahnhof;gtfs;;Neusiedl am See Bad Bahnhof;Neusiedl am See;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100434;Pat:41:4351;Neusiedl am See Bahnhof;Neusiedl am See Bahnhof;nom;0.024;Neusiedl am See;Neusiedl am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100499;Pat:41:4367;Nickelsdorf Bahnhof;Nickelsdorf Bahnhof;nom;0.045;Nickelsdorf;Nickelsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8133028;Pat:41:4464;Pamhagen Bahnhof;Pamhagen Bahnhof;nom;0.015;Pamhagen;Pamhagen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-41-4469;Pat:41:4469;Parndorf Bahnhof;Parndorf Bahnhof;gtfs;;Parndorf Bahnhof;Parndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-41-4473;Pat:41:4473;Parndorf Ort Bahnhof;Parndorf Ort Bahnhof;gtfs;;Parndorf Ort Bahnhof;Parndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-41-4592;Pat:41:4592;Purbach am Neusiedler See Bf.;Purbach am Neusiedler See Bf.;gtfs;;Purbach am Neusiedler See Bf.;Purbach am Neusiedlersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-41-4731;Pat:41:4731;Schützen am Gebirge Ruster Straße Bahnhof;Schützen am Gebirge Ruster Straße Bahnhof;gtfs;;Schützen am Gebirge Ruster Straße Bahnhof;Schützen am Gebirge;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM6844650619;Pat:41:4732;Schützen am Gebirge Bahnhof;Schützen am Gebirge Bahnhof;nom;0.02;Schützen am Gebirge;Schützen am Gebirge;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM304177046;Pat:41:4821;St. Andrä am Zicksee Bahnhof;St. Andrä am Zicksee;nom;0.01;St. Andrä am Zicksee;Sankt Andrä am Zicksee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-41-5143;Pat:41:5143;Wallern im Bgld Bahnhof;Wallern im Bgld Bahnhof;gtfs;;Wallern im Bgld Bahnhof;Wallern im Burgenland;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM279676014;Pat:41:5157;Weiden am See Bahnhof;Weiden am See Bahnhof;nom;0.007;Weiden am See;Weiden am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103274;Pat:41:5233;Wiesen-Sigleß Bahnhof;Wiesen-Sigleß Bahnhof;nom;0.016;Wiesen-Sigleß;Mattersburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-41-4731;Pat:41:4731;Schützen am Gebirge Ruster Straße;Schützen am Gebirge Ruster Straße;gtfs;;Schützen am Gebirge Ruster Straße;Schützen am Gebirge;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM6844650619;Pat:41:4732;Schützen am Gebirge Bahnhof;Schützen am Gebirge Bahnhof;nom;0.011;Schützen am Gebirge;Schützen am Gebirge;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100357;Pat:41:5248;Winden am See Bahnhof;Winden am See Bahnhof;nom;0.011;Winden am See;Winden am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100361;Pat:41:5286;Wulkaprodersdorf Bahnhof;Wulkaprodersdorf Bahnhof;nom;0.036;Wulkaprodersdorf;Antau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101810;Pat:41:5288;Wulkaprodersdorf Rathausgasse;Wulkaprodersdorf Rathausgasse;nom;0.002;Wulkaprodersdorf Rathausgasse / Vulkaprodrštof Rathausgasse;Wulkaprodersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102978;Pat:41:5312;Zurndorf Bahnhof;Zurndorf Bahnhof;nom;0.034;Zurndorf;Zurndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-41-5969;Pat:41:5969;Neudorf bei Parndorf Bahnhof;Neudorf bei Parndorf Bahnhof;gtfs;;Neudorf bei Parndorf Bahnhof;Neudorf bei Parndorf/Novo Selo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100332;Pat:41:5970;Gattendorf Bahnhof;Gattendorf Bahnhof;nom;0.001;Gattendorf;Gattendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-41-5971;Pat:41:5971;Pama Bahnhof;Pama Bahnhof;gtfs;;Pama Bahnhof;Pama;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100373;Pat:41:5972;Kittsee Bahnhof;Kittsee Bahnhof;nom;0.026;Kittsee;Kittsee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-41-5980;Pat:41:5980;Mattersburg Nord Bahnhof;Mattersburg Nord Bahnhof;gtfs;;Mattersburg Nord Bahnhof;Mattersburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103508;Pat:41:7075;Jennersdorf Bahnhof;Jennersdorf Bahnhof;nom;0.039;Jennersdorf;Jennersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103510;Pat:41:7455;Mogersdorf Bahnhof;Mogersdorf Bahnhof;nom;0.005;Mogersdorf;Mogersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102121;Pat:42:2121;Mallnitz-Obervellach Bahnhof;Mallnitz-Obervellach Bahnhof;nom;0.028;Mallnitz-Obervellach;Mallnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102125;Pat:42:2125;Kolbnitz Bahnhof;Kolbnitz Bahnhof;nom;0.014;Kolbnitz;Reißeck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102126;Pat:42:2126;Mühldorf-Möllbrücke Bahnhst;Mühldorf-Möllbrücke Bahnhst;nom;0.02;Mühldorf-Möllbrücke;Lurnfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102127;Pat:42:2127;Pusarnitz Bahnhof;Pusarnitz Bahnhof;nom;0.017;Pusarnitz;Lurnfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102128;Pat:42:2128;Spittal-Millstätter See Bahnhof;Spittal-Millstätter See Bahnhof;nom;0.031;Spittal-Millstättersee;Spittal an der Drau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM3137411203;Pat:42:2133;Paternion-Feistritz Bahnhst;Paternion-Feistritz Bahnhst;nom;0.007;Paternion-Feistritz;Weißenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102139;Pat:42:2139;Faak am See Bahnhof;Faak am See Bahnhof;nom;0.02;Faak am See;Finkenstein am Faaker See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100083;Pat:42:2143;Rosenbach Bahnhst;Rosenbach Bahnhst;nom;0.021;Rosenbach;Sankt Jakob im Rosental;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103625;Pat:42:3625;Friesach Bahnhof;Friesach Bahnhof;nom;0.044;Friesach;Friesach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103626;Pat:42:3626;Micheldorf-Hirt Bahnhst;Micheldorf-Hirt Bahnhst;nom;0.006;Micheldorf-Hirt;Micheldorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100096;Pat:42:3627;Treibach-Althofen Bahnhof;Treibach-Althofen Bahnhof;nom;0.026;Treibach-Althofen;Althofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -50,56 +25,64 @@ TN8101075;Pat:42:3628;Kappel am Krappfeld Bahnhst;Kappel am Krappfeld Bahnhst;no
 TN8101393;Pat:42:3629;Passering Bahnhst;Passering Bahnhst;nom;0.007;Passering;Kappel am Krappfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100077;Pat:42:3631;Launsdorf-Hochosterwitz Bahnhof;Launsdorf-Hochosterwitz Bahnhof;nom;0.023;Launsdorf-Hochosterwitz;Sankt Georgen am Längsee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-42-3632;Pat:42:3632;St.Georgen am Längsee Bahnhst;St.Georgen am Längsee Bahnhst;gtfs;;St.Georgen am Längsee Bahnhst;Sankt Georgen am Längsee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103633;Pat:42:3633;St. Veit an der Glan Bahnhof;St. Veit an der Glan Bahnhof;gtfs;;St. Veit an der Glan Bahnhof;Sankt Veit an der Glan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103633;Pat:42:3633;St.Veit/Glan Bahnhof;St.Veit/Glan Bahnhof;gtfs;;St.Veit/Glan Bahnhof;Sankt Veit an der Glan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100849;Pat:42:3636;Glandorf Bahnhst;Glandorf Bahnhst;nom;0.041;Glandorf;Sankt Veit an der Glan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101239;Pat:42:3639;Maria Saal Bahnhof;Maria Saal Bahnhof;nom;0.024;Maria Saal;Maria Saal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101090;Pat:42:3640;Klagenfurt Annabichl Bahnhst;Klagenfurt Annabichl Bahnhst;nom;0.119;Klagenfurt Annabichl;Klagenfurt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM3238848466;Pat:42:3643;Klagenfurt West Bahnhst;Klagenfurt West Bahnhst;nom;0.021;Klagenfurt West;Klagenfurt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103645;Pat:42:3645;Klagenfurt Lend Bahnhst;Klagenfurt Lend Bahnhst;nom;0.025;Klagenfurt Lend;Klagenfurt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103646;Pat:42:3646;Krumpendorf/Wörthersee Bahnhof;Krumpendorf/Wörthersee Bahnhof;gtfs;;Krumpendorf/Wörthersee Bahnhof;Krumpendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103648;Pat:42:3648;Pörtschach/Wörthersee Bahnhof;Pörtschach/Wörthersee Bahnhof;gtfs;;Pörtschach/Wörthersee Bahnhof;Pörtschach am Wörthersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101676;Pat:42:3649;Töschling Bahnhst;Töschling Bahnhst;nom;0.014;Töschling;Techelsberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103650;Pat:42:3650;Velden/Wörthersee Bahnhof;Velden/Wörthersee Bahnhof;gtfs;;Velden/Wörthersee Bahnhof;Velden am Wörther See;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101157;Pat:42:3651;Lind-Rosegg Bahnhst;Lind-Rosegg Bahnhst;nom;;Lind-Rosegg;Velden am Wörther See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103652;Pat:42:3652;Föderlach Bahnhof;Föderlach Bahnhof;nom;0.014;Föderlach;Wernberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101496;Pat:42:3653;Villach Seebach Bahnhst;Villach Seebach Bahnhst;nom;0.052;Villach Seebach;Villach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103657;Pat:42:3657;Villach Warmbad Bahnhst;Villach Warmbad Bahnhst;nom;0.057;Villach Warmbad;Villach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM7058615187;Pat:42:3655;Villach Landskron Bahnhst;Villach Landskron Bahnhst;nom;0.018;Villach Landskron;Villach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103657;Pat:42:3657;Villach Warmbad Bahnhof;Villach Warmbad Bahnhof;nom;0.057;Villach Warmbad;Villach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103659;Pat:42:3659;Fürnitz Bahnhof;Fürnitz Bahnhof;nom;0.015;Fürnitz;Finkenstein am Faaker See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103662;Pat:42:3662;Arnoldstein Bahnhof;Arnoldstein Bahnhof;nom;0.023;Arnoldstein;Arnoldstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM1372327605;Pat:42:3663;Thörl-Maglern Bahnhof;Thörl-Maglern Bahnhof;nom;0.037;Thörl-Maglern;Arnoldstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM1372327605;Pat:42:3663;Thörl-Maglern Bahnhst;Thörl-Maglern Bahnhst;nom;0.037;Thörl-Maglern;Arnoldstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100359;Pat:42:3715;Wolfsberg Bahnhof;Wolfsberg Bahnhof;nom;0.029;Wolfsberg;Wolfsberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101383;Pat:42:3716;Wolfsberg Reding Bahnhst;Wolfsberg Reding Bahnhst;nom;0.007;Wolfsberg Reding;Wolfsberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-42-3717;Pat:42:3717;St.Stefan Bahnhof;St.Stefan Bahnhof;gtfs;;St.Stefan Bahnhof;Wolfsberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-42-3718;Pat:42:3718;St.Andrä Bahnhof;St.Andrä Bahnhof;gtfs;;St.Andrä Bahnhof;Sankt Andrä;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101035;Pat:42:3721;St.Paul im Lavanttal Bahnhof;St. Paul im Lavanttal;nom;0.023;St. Paul im Lavanttal;Sankt Paul im Lavanttal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-42-3800;Pat:42:3800;St.Veit/Glan Westbahnhof;St.Veit/Glan Westbahnhof;gtfs;;St.Veit/Glan Westbahnhof;Sankt Veit an der Glan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100305;Pat:42:3802;Liebenfels Bahnhst;Liebenfels Bahnhst;nom;0.04;Liebenfels;Liebenfels;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101652;Pat:42:3803;Tauchendorf-Haidensee Bahnhst;Tauchendorf-Haidensee Bahnhst;nom;0.037;Tauchendorf-Haidensee;Glanegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-42-3804;Pat:42:3804;Glanegg in Ktn Bahnhst;Glanegg in Ktn Bahnhst;gtfs;;Glanegg in Ktn Bahnhst;Glanegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101205;Pat:42:3805;Mautbrücken Bahnhst;Mautbrücken Bahnhst;nom;0.005;Mautbrücken;Glanegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-42-3806;Pat:42:3806;St.Martin-Sittich Bahnhst (Bundesstraße);St.Martin-Sittich Bahnhst (Bundesstraße);gtfs;;St.Martin-Sittich Bahnhst (Bundesstraße);Feldkirchen in Kärnten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-42-3807;Pat:42:3807;Feldkirchen in Ktn Bahnhof;Feldkirchen in Ktn Bahnhof;gtfs;;Feldkirchen in Ktn Bahnhof;Feldkirchen in Kärnten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101669;Pat:42:3808;Tiffen Bahnhst;Tiffen Bahnhst;nom;0.027;Tiffen;Steindorf am Ossiacher See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103809;Pat:42:3809;Steindorf am Ossiacher See Bahnhst;Steindorf am Ossiacher See Bahnhst;nom;0.021;Steindorf am Ossiacher See;Steindorf am Ossiacher See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103810;Pat:42:3810;Ossiach-Bodensdorf Bahnhof;Ossiach-Bodensdorf Bahnhof;nom;0.015;Ossiach-Bodensdorf;Steindorf am Ossiacher See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-42-3811;Pat:42:3811;St.Urban/Ossiacher See Bahnhst;St.Urban/Ossiacher See Bahnhst;gtfs;;St.Urban/Ossiacher See Bahnhst;Steindorf am Ossiacher See;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103810;Pat:42:3810;Ossiach-Bodensdorf Bahnhst;Ossiach-Bodensdorf Bahnhst;nom;0.015;Ossiach-Bodensdorf;Steindorf am Ossiacher See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-42-3811;Pat:42:3811;St.Urban am Ossiacher See Bahnhst;St.Urban am Ossiacher See Bahnhst;gtfs;;St.Urban am Ossiacher See Bahnhst;Steindorf am Ossiacher See;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103812;Pat:42:3812;Sattendorf Bahnhof;Sattendorf Bahnhof;nom;0.024;Sattendorf;Treffen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103813;Pat:42:3813;Annenheim Bahnhst;Annenheim Bahnhst;nom;0.079;Annenheim;Treffen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103814;Pat:42:3814;Villach St.Ruprecht Bahnhof;Villach St. Ruprecht;nom;0.017;Villach St. Ruprecht;Villach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100256;Pat:42:3820;Grafenstein Bahnhof;Grafenstein Bahnhof;nom;0.024;Grafenstein;Grafenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-42-3825;Pat:42:3825;Bleiburg Bahnhof;Bleiburg Bahnhof;gtfs;;Bleiburg Bahnhof;Bleiburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100336;Pat:42:3831;Kühnsdorf-Klopeiner See Bahnhof;Kühnsdorf-Klopeiner See Bahnhof;nom;0.007;Kühnsdorf-Klopeiner See;Eberndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103866;Pat:42:3866;Greifenburg-Weißensee Bahnhof;Greifenburg-Weißensee Bahnhof;nom;0.021;Greifenburg-Weißensee;Greifenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103870;Pat:42:3870;Oberdrauburg Bahnhof;Oberdrauburg Bahnhof;nom;0.023;Oberdrauburg;Oberdrauburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103901;Pat:42:3901;Nötsch Bahnhof;Nötsch Bahnhof;nom;0.018;Nötsch;Nötsch im Gailtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-pat-42-3901;Pat:42:3901;Nötsch im Gailtal Bahnhst;Nötsch im Gailtal Bahnhst;gtfs;;Nötsch im Gailtal Bahnhst;Nötsch im Gailtal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100745;Pat:42:3902;Emmersdorf im Gailtal Bahnhst;Emmersdorf im Gailtal Bahnhst;nom;0.011;Emmersdorf im Gailtal;Nötsch im Gailtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101598;Pat:42:3903;St.Stefan-Vorderberg Bahnhof;St. Stefan-Vorderberg;nom;0.039;St. Stefan-Vorderberg;Sankt Stefan im Gailtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100862;Pat:42:3904;Görtschach-Förolach Bahnhof;Görtschach-Förolach Bahnhof;nom;0.017;Görtschach-Förolach;Hermagor-Pressegger See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101598;Pat:42:3903;St.Stefan-Vorderberg Bahnhst;St. Stefan-Vorderberg;nom;0.039;St. Stefan-Vorderberg;Sankt Stefan im Gailtal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100862;Pat:42:3904;Görtschach-Förolach Bahnhst;Görtschach-Förolach Bahnhst;nom;0.017;Görtschach-Förolach;Hermagor-Pressegger See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100529;Pat:42:3905;Pressegger See Bahnhst;Pressegger See Bahnhst;nom;0.018;Pressegger See;Hermagor-Pressegger See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103906;Pat:42:3906;Vellach-Khünburg Bahnhst;Vellach-Khünburg Bahnhst;nom;0.022;Vellach-Khünburg;Hermagor-Pressegger See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103907;Pat:42:3907;Hermagor Bahnhof;Hermagor Bahnhof;nom;0.019;Hermagor;Hermagor-Pressegger See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8171189;Pat:43:20307;Unterretzbach Bahnhof;Unterretzbach Bahnhof;nom;0.021;Unterretzbach;Retzbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102423;Pat:43:3004;Absdorf-Hippersdorf Bahnhof;Absdorf-Hippersdorf Bahnhof;nom;0.0;Absdorf-Hippersdorf;Absdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3005;Pat:43:3005;Altenhof/Kamp Bahnhof;Altenhof/Kamp Bahnhof;gtfs;;Altenhof/Kamp Bahnhof;Schönberg am Kamp;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-3046;Pat:43:3046;Angern/March Bahnhof;Angern/March Bahnhof;gtfs;;Angern/March Bahnhof;Angern an der March;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100538;Pat:43:3079;Bad Deutsch-Altenburg Bahnhof;Bad Deutsch-Altenburg Bahnhof;nom;0.077;Bad Deutsch Altenburg;Bad Deutsch-Altenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103119;Pat:43:3090;Bad Vöslau Bahnhof;Bad Vöslau Bahnhof;nom;0.001;Bad Vöslau;Bad Vöslau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103118;Pat:43:3101;Baden Bahnhof;Baden Bahnhof;nom;0.004;Baden;Baden;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3155;Pat:43:3155;Berndorf/Triesting Fabrik Bahnhof;Berndorf/Triesting Fabrik Bahnhof;gtfs;;Berndorf/Triesting Fabrik Bahnhof;Berndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101324;Pat:43:3160;Berndorf Stadt Bahnhof;Berndorf Stadt Bahnhof;nom;0.02;Berndorf Stadt;Berndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102828;Pat:43:3162;Bernhardsthal Bahnhof;Bernhardsthal Bahnhof;nom;0.001;Bernhardsthal;Bernhardsthal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102648;Pat:43:3170;Bisamberg Bahnhof;Bisamberg Bahnhof;nom;0.0;Bisamberg;Langenzersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102523;Pat:43:3189;Breiteneich bei Horn Bahnhof;Breiteneich bei Horn Bahnhof;nom;0.023;Breiteneich bei Horn;Horn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3204;Pat:43:3204;Breitensee Bahnhof;Breitensee Bahnhof;gtfs;;Breitensee Bahnhof;Marchegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102660;Pat:43:3205;Breitenwaida Bahnhof;Breitenwaida Bahnhof;nom;0.022;Breitenwaida;Hollabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102974;Pat:43:3209;Bruck/Leitha Bahnhof;Bruck/Leitha Bahnhof;gtfs;;Bruck/Leitha Bahnhof;Bruckneudorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103112;Pat:43:3255;Brunn-Maria Enzersdorf Bahnhof;Brunn-Maria Enzersdorf Bahnhof;nom;0.016;Brunn-Maria Enzersdorf;Brunn am Gebirge;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3260;Pat:43:3260;Buchberg/Kamp Bahnhof;Buchberg/Kamp Bahnhof;gtfs;;Buchberg/Kamp Bahnhof;Gars am Kamp;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
@@ -107,23 +90,18 @@ TN8101029;Pat:43:3264;Böheimkirchen Bahnhof;Böheimkirchen Bahnhof;nom;0.0;Böh
 TN8100721;Pat:43:3279;Deutsch-Wagram Bahnhof;Deutsch-Wagram Bahnhof;nom;0.032;Deutsch-Wagram;Deutsch-Wagram;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100221;Pat:43:3309;Drösing Bahnhof;Drösing Bahnhof;nom;0.024;Drösing;Drösing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100724;Pat:43:3310;Dürnkrut Bahnhof;Dürnkrut Bahnhof;nom;0.109;Dürnkrut;Dürnkrut;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103199;Pat:43:3318;Ebenfurth Bahnhof;Ebenfurth Bahnhof;nom;0.023;Ebenfurth;Ebenfurth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102433;Pat:43:3339;Eggenburg Bahnhof;Eggenburg Bahnhof;nom;0.007;Eggenburg;Eggenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101019;Pat:43:3347;Eichgraben-Altlengbach Bahnhof;Eichgraben-Altlengbach Bahnhof;nom;0.007;Eichgraben-Altlengbach;Eichgraben;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102882;Pat:43:3388;Enzersdorf bei Staatz Bahnhof;Enzersdorf bei Staatz Bahnhof;nom;0.0;Enzersdorf bei Staatz;Staatz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101328;Pat:43:3401;Enzesfeld-Lindabrunn Bahnhof;Enzesfeld-Lindabrunn Bahnhof;nom;0.011;Enzesfeld-Lindabrunn;Enzesfeld-Lindabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102470;Pat:43:3408;Etsdorf-Straß Bahnhof;Etsdorf-Straß Bahnhof;nom;0.034;Etsdorf-Straß;Grafenegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100780;Pat:43:3415;Felixdorf Bahnhof;Felixdorf Bahnhof;nom;0.074;Felixdorf;Sollenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102468;Pat:43:3420;Fels am Wagram Bahnhof;Fels am Wagram Bahnhof;nom;0.036;Fels am Wagram;Fels am Wagram;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100235;Pat:43:3430;Fischamend Bahnhof;Fischamend Bahnhof;nom;0.012;Fischamend;Fischamend;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100808;Pat:43:3449;Frättingsdorf Bahnhof;Frättingsdorf Bahnhof;nom;0.071;Frättingsdorf;Mistelbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102518;Pat:43:3486;Gars-Thunau Bahnhof;Gars-Thunau Bahnhof;nom;0.035;Gars-Thunau;Gars am Kamp;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100828;Pat:43:3493;Gedersdorf Bahnhof;Gedersdorf Bahnhof;nom;0.017;Gedersdorf;Gedersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102865;Pat:43:3499;Gerasdorf Bahnhof;Gerasdorf Bahnhof;nom;0.048;Gerasdorf;Gerasdorf bei Wien;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100852;Pat:43:3527;Glinzendorf Bahnhof;Glinzendorf Bahnhof;nom;0.059;Glinzendorf;Glinzendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102511;Pat:43:3528;Gobelsburg Bahnhof;Gobelsburg Bahnhof;nom;0.006;Gobelsburg;Langenlois;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100369;Pat:43:3538;Gramatneusiedl Bahnhof;Gramatneusiedl Bahnhof;nom;0.177;Gramatneusiedl;Gramatneusiedl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102426;Pat:43:3580;Großweikersdorf Bahnhof;Großweikersdorf Bahnhof;nom;0.037;Großweikersdorf;Großweikersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103115;Pat:43:3602;Gumpoldskirchen Bahnhof;Gumpoldskirchen Bahnhof;nom;0.025;Gumpoldskirchen;Gumpoldskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100894;Pat:43:3608;Guntersdorf Bahnhof;Guntersdorf Bahnhof;nom;0.027;Guntersdorf;Wullersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103114;Pat:43:3616;Guntramsdorf Thallern Bahnhof;Guntramsdorf Thallern Bahnhof;nom;0.027;Guntramsdorf Thallern;Gumpoldskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -134,22 +112,19 @@ TN8103195;Pat:43:3653;Ebreichsdorf Bahnhof;Ebreichsdorf Bahnhof;nom;0.001;Ebreic
 TNOBB-pat-43-3655;Pat:43:3655;Götzendorf Bahnhof;Götzendorf Bahnhof;gtfs;;Götzendorf Bahnhof;Götzendorf an der Leitha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-3660;Pat:43:3660;Hadersdorf/Kamp Bahnhof;Hadersdorf/Kamp Bahnhof;gtfs;;Hadersdorf/Kamp Bahnhof;Hadersdorf-Kammern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-3677;Pat:43:3677;Hainburg/Donau Ungartor/B9;Hainburg/Donau Ungartor/B9;gtfs;;Hainburg/Donau Ungartor/B9;Hainburg an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-43-3681;Pat:43:3681;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;gtfs;;Hainburg/Donau Kulturfabrik Bhf.;Hainburg an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-3686;Pat:43:3686;Hainburg/Donau Personenbhf.;Hainburg/Donau Personenbhf.;gtfs;;Hainburg/Donau Personenbhf.;Hainburg an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-3706;Pat:43:3706;Haslau an der Donau Bahnhof;Haslau an der Donau Bahnhof;gtfs;;Haslau an der Donau Bahnhof;Haslau-Maria Ellend;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102462;Pat:43:3709;Hausleiten Bahnhof;Hausleiten Bahnhof;nom;0.056;Hausleiten;Hausleiten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100936;Pat:43:3733;Hetzmannsdorf-Wullersdorf Bhf.;Hetzmannsdorf-Wullersdorf;nom;0.034;Hetzmannsdorf-Wullersdorf;Wullersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100950;Pat:43:3734;Himberg Bahnhof;Himberg Bahnhof;nom;0.0;Himberg;Himberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101327;Pat:43:3766;Hirtenberg Bahnhof;Hirtenberg Bahnhof;nom;0.021;Hirtenberg;Enzesfeld-Lindabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3778;Pat:43:3778;Hohenau/March Bahnhof;Hohenau/March Bahnhof;gtfs;;Hohenau/March Bahnhof;Hohenau an der March;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100274;Pat:43:3780;Hollabrunn Bahnhof;Hollabrunn Bahnhof;nom;0.0;Hollabrunn;Hollabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102522;Pat:43:3784;Horn Bahnhof;Horn Bahnhof;nom;0.125;Horn;Horn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100962;Pat:43:3794;Höbersdorf Bahnhof;Höbersdorf Bahnhof;nom;0.03;Höbersdorf;Sierndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-3800;Pat:43:3800;Höflein/Donau Bahnhof;Höflein/Donau Bahnhof;gtfs;;Höflein/Donau Bahnhof;Klosterneuburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100970;Pat:43:3806;Hörersdorf Bahnhof;Hörersdorf Bahnhof;nom;0.034;Hörersdorf;Mistelbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101012;Pat:43:3830;Jedenspeigen Bahnhof;Jedenspeigen Bahnhof;nom;0.098;Jedenspeigen;Jedenspeigen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102519;Pat:43:3851;Kamegg Bahnhof;Kamegg Bahnhof;nom;0.112;Kamegg;Gars am Kamp;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102866;Pat:43:3852;Kapellerfeld Bahnhof;Kapellerfeld Bahnhof;nom;0.037;Kapellerfeld;Gerasdorf bei Wien;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-3867;Pat:43:3867;Katzelsdorf Bahnhof;Katzelsdorf Bahnhof;gtfs;;Katzelsdorf Bahnhof;Wiener Neustadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100288;Pat:43:3880;Kirchberg am Wagram Bhf.;Kirchberg am Wagram;nom;0.015;Kirchberg am Wagram;Kirchberg am Wagram;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101027;Pat:43:3885;Kirchstetten Bahnhof;Kirchstetten Bahnhof;nom;0.018;Kirchstetten;Kirchstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102963;Pat:43:3895;Kledering Bahnhof;Kledering Bahnhof;nom;0.133;Kledering;Schwechat;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -160,15 +135,12 @@ TN8103120;Pat:43:3989;Kottingbrunn Bahnhof;Kottingbrunn Bahnhof;nom;0.044;Kottin
 TN8102884;Pat:43:3991;Kottingneusiedl Bahnhof;Kottingneusiedl Bahnhof;nom;0.006;Kottingneusiedl;Laa an der Thaya;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102474;Pat:43:3993;Krems Bahnhof;Krems Bahnhof;gtfs;;Krems Bahnhof;Krems;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102412;Pat:43:3995;Kritzendorf Bahnhof;Kritzendorf Bahnhof;nom;0.0;Kritzendorf;Klosterneuburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-4015;Pat:43:4015;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;gtfs;;Laa/Thaya Bahnhof;Laa an der Thaya;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101330;Pat:43:4016;St. Pölten Bildungscampus Bahnhof;St. Pölten Bildungscampus;nom;0.036;St. Pölten Bildungscampus;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM7083320733;Pat:43:4025;Ladendorf Bahnhof;Ladendorf Bahnhof;nom;0.049;Ladendorf;Ladendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102418;Pat:43:4029;Langenlebarn Bahnhof;Langenlebarn Bahnhof;nom;0.019;Langenlebarn;Tulln an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102512;Pat:43:4036;Langenlois Bahnhof;Langenlois Bahnhof;nom;0.041;Langenlois;Langenlois;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102647;Pat:43:4045;Langenzersdorf Bahnhof;Langenzersdorf Bahnhof;nom;0.036;Langenzersdorf;Langenzersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103036;Pat:43:4067;Laxenburg-Biedermannsdorf Bhf.;Laxenburg-Biedermannsdorf;nom;0.001;Laxenburg-Biedermannsdorf;Biedermannsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102651;Pat:43:4083;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf-Burg Kreuzenstein;nom;0.0;Leobendorf-Burg Kreuzenstein;Leobendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101163;Pat:43:4084;Leobersdorf Bahnhof;Leobersdorf Bahnhof;nom;;Leobersdorf;Kottingbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102430;Pat:43:4102;Limberg-Maissau Bahnhof;Limberg-Maissau Bahnhof;nom;0.029;Limberg-Maissau;Maissau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100466;Pat:43:4132;Marchegg Bahnhof;Marchegg Bahnhof;nom;0.0;Marchegg;Marchegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101197;Pat:43:4140;Maria Anzbach Bahnhof;Maria Anzbach Bahnhof;nom;0.002;Maria Anzbach;Maria Anzbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100537;Pat:43:4142;Maria Ellend Bahnhof;Maria Ellend Bahnhof;nom;0.081;Maria Ellend;Haslau-Maria Ellend;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -181,21 +153,16 @@ TN8101024;Pat:43:4338;Neulengbach Stadt Bahnhof;Neulengbach Stadt Bahnhof;nom;0.
 TN8101272;Pat:43:4377;Niederkreuzstetten Bahnhof;Niederkreuzstetten Bahnhof;nom;0.027;Niederkreuzstetten;Kreuzstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101315;Pat:43:4408;Oberolberndorf Bahnhof;Oberolberndorf Bahnhof;nom;0.024;Oberolberndorf;Sierndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101317;Pat:43:4417;Obersdorf Bahnhof;Obersdorf Bahnhof;nom;0.0;Obersdorf;Wolkersdorf im Weinviertel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103041;Pat:43:4423;Oberwaltersdorf Bahnhof;Oberwaltersdorf Bahnhof;nom;0.007;Oberwaltersdorf;Oberwaltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101026;Pat:43:4440;Ollersbach Bahnhof;Ollersbach Bahnhof;nom;0.052;Ollersbach;Neulengbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103111;Pat:43:4500;Perchtoldsdorf Bahnhof;Perchtoldsdorf Bahnhof;nom;0.003;Perchtoldsdorf;Perchtoldsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100520;Pat:43:4531;Petronell-Carnuntum Bahnhof;Petronell-Carnuntum Bahnhof;nom;0.028;Petronell-Carnuntum;Petronell-Carnuntum;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103116;Pat:43:4533;Pfaffstätten Bahnhof;Pfaffstätten Bahnhof;nom;0.013;Pfaffstätten;Pfaffstätten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102516;Pat:43:4549;Plank am Kamp Bahnhof;Plank am Kamp Bahnhof;nom;0.046;Plank am Kamp;Schönberg am Kamp;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101367;Pat:43:4552;Platt Bahnhof;Platt Bahnhof;nom;0.015;Platt;Zellerndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM3982397740;Pat:43:4556;Pottenbrunn Bahnhof;Pottenbrunn Bahnhof;nom;0.0;Pottenbrunn;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100525;Pat:43:4562;Pottendorf-Landegg Bahnhof;Pottendorf-Landegg Bahnhof;nom;0.048;Pottendorf-Landegg;Pottendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-4565;Pat:43:4565;Pottenstein an der Triesting Bhf.;Pottenstein an der Triesting Bhf.;gtfs;;Pottenstein an der Triesting Bhf.;Pottenstein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101016;Pat:43:4574;Pressbaum Bahnhof;Pressbaum Bahnhof;nom;0.04;Pressbaum;Pressbaum;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101013;Pat:43:4603;Purkersdorf Zentrum Bahnhof;Purkersdorf Zentrum Bahnhof;nom;0.0;Purkersdorf Zentrum;Purkersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101415;Pat:43:4613;Raasdorf Bahnhof;Raasdorf Bahnhof;nom;0.025;Raasdorf;Raasdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101416;Pat:43:4616;Rabensburg Bahnhof;Rabensburg Bahnhof;nom;0.001;Rabensburg;Rabensburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101430;Pat:43:4639;Regelsbrunn Bahnhof;Regelsbrunn Bahnhof;nom;0.11;Regelsbrunn;Scharndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100469;Pat:43:4656;Retz Bahnhof;Retz Bahnhof;nom;0.023;Retz;Retz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101430;Pat:43:4639;Regelsbrunn Bahnhof;Regelsbrunn Bahnhof;nom;0.004;Regelsbrunn;Scharndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-4671;Pat:43:4671;Rohrendorf bei Krems Bahnhof;Rohrendorf bei Krems Bahnhof;gtfs;;Rohrendorf bei Krems Bahnhof;Rohrendorf bei Krems;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102520;Pat:43:4674;Rosenburg Bahnhof;Rosenburg Bahnhof;nom;0.016;Rosenburg;Rosenburg-Mold;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM3923751888;Pat:43:4695;Schleinbach Bahnhof;Schleinbach Bahnhof;nom;0.0;Schleinbach;Ulrichskirchen-Schleinbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -205,150 +172,72 @@ TNOBB-pat-43-4742;Pat:43:4742;Schönberg/Kamp Bahnhof;Schönberg/Kamp Bahnhof;gt
 TN8101548;Pat:43:4743;Schönborn-Mallebarn Bahnhof;Schönborn-Mallebarn Bahnhof;nom;0.002;Schönborn-Mallebarn;Sierndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101545;Pat:43:4745;Schönfeld-Lassee Bahnhof;Schönfeld-Lassee Bahnhof;nom;0.001;Schönfeld-Lassee;Lassee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102867;Pat:43:4759;Seyring Bahnhof;Seyring Bahnhof;nom;0.001;Seyring;Gerasdorf bei Wien;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101477;Pat:43:4764;Siebenbrunn-Leopoldsdorf Bahnhof;Siebenbrunn-Leopoldsdorf Bahnhof;nom;0.017;Siebenbrunn-Leopoldsdorf;Obersiebenbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101477;Pat:43:4764;Siebenbrunn-Leopoldsdorf Bahnhof;Siebenbrunn-Leopoldsdorf Bahnhof;nom;;Siebenbrunn-Leopoldsdorf;Obersiebenbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-4765;Pat:43:4765;Siebenhirten (NÖ) Haltestelle;Siebenhirten (NÖ) Haltestelle;gtfs;;Siebenhirten (NÖ) Haltestelle;Mistelbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-4783;Pat:43:4783;Sierndorf bei Stockerau Bahnhof;Sierndorf bei Stockerau Bahnhof;gtfs;;Sierndorf bei Stockerau Bahnhof;Sierndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101524;Pat:43:4787;Sierndorf an der March Bahnhof;Sierndorf an der March Bahnhof;nom;0.001;Sierndorf an der March;Jedenspeigen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102435;Pat:43:4789;Sigmundsherberg Bahnhof;Sigmundsherberg Bahnhof;nom;0.147;Sigmundsherberg;Sigmundsherberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100591;Pat:43:4790;Silberwald Bahnhof;Silberwald Bahnhof;nom;0.017;Silberwald;Strasshof an der Nordbahn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103122;Pat:43:4801;Sollenau Bahnhof;Sollenau Bahnhof;nom;0.059;Sollenau;Sollenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102652;Pat:43:4814;Spillern Bahnhof;Spillern Bahnhof;nom;0.06;Spillern;Spillern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102415;Pat:43:4824;St. Andrä-Wördern Bahnhof;St. Andrä-Wördern;nom;0.001;St. Andrä-Wördern;St. Andrä-Wördern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-4849;Pat:43:4849;St. Veit an der Triesting Bhf.;St. Veit an der Triesting Bhf.;gtfs;;St. Veit an der Triesting Bhf.;Berndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102883;Pat:43:4852;Staatz Bahnhof;Staatz Bahnhof;nom;0.01;Staatz;Staatz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102515;Pat:43:4881;Stiefern Bahnhof;Stiefern Bahnhof;nom;0.017;Stiefern;Schönberg am Kamp;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101536;Pat:43:4882;Stillfried Bahnhof;Stillfried Bahnhof;nom;0.0;Stillfried;Angern an der March;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102653;Pat:43:4884;Stockerau Bahnhof;Stockerau Bahnhof;nom;0.02;Stockerau;Stockerau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101595;Pat:43:4922;Strasshof Bahnhof;Strasshof Bahnhof;nom;0.0;Strasshof;Strasshof an der Nordbahn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101644;Pat:43:4975;Tallesbrunn Bahnhof;Tallesbrunn Bahnhof;nom;0.005;Tallesbrunn;Weikendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103042;Pat:43:4978;Tattendorf Bahnhof;Tattendorf Bahnhof;nom;0.015;Tattendorf;Tattendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103043;Pat:43:4983;Teesdorf Bahnhof;Teesdorf Bahnhof;nom;0.02;Teesdorf;Teesdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101664;Pat:43:4990;Theresienfeld Bahnhof;Theresienfeld Bahnhof;nom;0.022;Theresienfeld;Theresienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-5023;Pat:43:5023;Trumau Bahnhof;Trumau Bahnhof;gtfs;;Trumau Bahnhof;Trumau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101015;Pat:43:5068;Tullnerbach-Pressbaum Bahnhof;Tullnerbach-Pressbaum Bahnhof;nom;0.001;Tullnerbach-Pressbaum;Tullnerbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101697;Pat:43:5070;Ulrichskirchen Bahnhof;Ulrichskirchen Bahnhof;nom;0.001;Ulrichskirchen;Ulrichskirchen-Schleinbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM10753383331;Pat:43:5090;Untersiebenbrunn Bahnhof;Untersiebenbrunn Bahnhof;nom;0.03;Untersiebenbrunn;Untersiebenbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101764;Pat:43:5138;Wagram-Grafenegg Bahnhof;Wagram-Grafenegg Bahnhof;nom;0.058;Wagram-Grafenegg;Grafenwörth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103197;Pat:43:5147;Wampersdorf Bahnhof;Wampersdorf Bahnhof;nom;0.0;Wampersdorf;Pottendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101748;Pat:43:5189;Weikendorf-Dörfles Bahnhof;Weikendorf-Dörfles Bahnhof;nom;0.004;Weikendorf-Dörfles;Weikendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101321;Pat:43:5195;Weissenbach-Neuhaus Bahnhof;Weissenbach-Neuhaus Bahnhof;nom;0.043;Weissenbach-Neuhaus;Weissenbach an der Triesting;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101787;Pat:43:5235;Wildungsmauer Bahnhof;Wildungsmauer Bahnhof;nom;0.032;Wildungsmauer;Scharndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-5255;Pat:43:5255;Wittmannsdorf Bahnhof;Wittmannsdorf Bahnhof;gtfs;;Wittmannsdorf Bahnhof;Leobersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100360;Pat:43:5271;Wolfsthal Bahnhof;Wolfsthal Bahnhof;nom;0.014;Wolfsthal;Wolfsthal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101793;Pat:43:5274;Wolkersdorf Bahnhof;Wolkersdorf Bahnhof;nom;0.001;Wolkersdorf;Wolkersdorf im Weinviertel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102665;Pat:43:5303;Zellerndorf Bahnhof;Zellerndorf Bahnhof;nom;0.073;Zellerndorf;Zellerndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102428;Pat:43:5304;Ziersdorf Bahnhof;Ziersdorf Bahnhof;nom;0.04;Ziersdorf;Ziersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102513;Pat:43:5323;Zöbing Bahnhof;Zöbing Bahnhof;nom;0.031;Zöbing;Langenlois;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101295;Pat:43:5759;Tullnerfeld Bahnhof;Tullnerfeld Bahnhof;nom;0.015;Tullnerfeld;Langenrohr;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-6003;Pat:43:6003;Wiener Neustadt Anemonensee;Wiener Neustadt Anemonensee;gtfs;;Wiener Neustadt Anemonensee;Wiener Neustadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100192;Pat:43:7032;Bad Erlach Bahnhof;Bad Erlach Bahnhof;nom;0.0;Bad Erlach;Bad Erlach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103303;Pat:43:7033;Brunn an der Pitten Bahnhof;Brunn an der Pitten Bahnhof;nom;0.069;Brunn an der Pitten;Pitten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100191;Pat:43:7034;Pitten Bahnhof;Pitten Bahnhof;nom;0.051;Pitten;Pitten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101611;Pat:43:7035;Sautern-Schiltern Bahnhof;Sautern-Schiltern Bahnhof;nom;0.011;Sautern-Schiltern;Pitten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100190;Pat:43:7036;Seebenstein Bahnhof;Seebenstein Bahnhof;nom;0.02;Seebenstein;Seebenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100851;Pat:43:7037;Gleißenfeld Bahnhof;Gleißenfeld Bahnhof;nom;0.0;Gleißenfeld;Scheiblingkirchen-Thernberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103308;Pat:43:7038;Scheiblingkirchen-Warth Bhf.;Scheiblingkirchen-Warth;nom;0.001;Scheiblingkirchen-Warth;Scheiblingkirchen-Thernberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103309;Pat:43:7039;Petersbaumgarten Bahnhof;Petersbaumgarten Bahnhof;nom;0.027;Petersbaumgarten;Warth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103310;Pat:43:7040;Edlitz-Grimmenstein Bahnhof;Edlitz-Grimmenstein Bahnhof;nom;0.001;Edlitz-Grimmenstein;Thomasberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103312;Pat:43:7041;Aspang Markt Bahnhof;Aspang Markt Bahnhof;nom;0.035;Aspang Markt;Aspang-Markt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103314;Pat:43:7042;Ausschlag-Zöbern Bahnhof;Ausschlag-Zöbern Bahnhof;nom;0.003;Ausschlag-Zöbern;Aspang-Markt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM71796548;Pat:43:7057;Lanzenkirchen Bahnhof;Lanzenkirchen Bahnhof;nom;;Lanzenkirchen;Lanzenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103049;Pat:43:7091;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn Bahnhof;nom;0.01;Bad Fischau-Brunn;Bad Fischau-Brunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103048;Pat:43:7092;Bad Fischau Bahnhof;Bad Fischau Bahnhof;nom;0.0;Bad Fischau;Bad Fischau-Brunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103047;Pat:43:7093;Feuerwerksanstalt Bahnhof;Feuerwerksanstalt Bahnhof;nom;0.041;Feuerwerksanstalt;Wöllersdorf-Steinabrückl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103234;Pat:43:7094;Wöllersdorf Bahnhof;Wöllersdorf Bahnhof;nom;0.016;Wöllersdorf;Wöllersdorf-Steinabrückl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103236;Pat:43:7096;Dreistetten Bahnhof;Dreistetten Bahnhof;nom;0.013;Dreistetten;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-7097;Pat:43:7097;Oberpiesting Bahnhof;Oberpiesting Bahnhof;gtfs;;Oberpiesting Bahnhof;Waldegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103238;Pat:43:7098;Wopfing Bahnhof;Wopfing Bahnhof;nom;0.012;Wopfing;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101745;Pat:43:7099;Waldegg Bahnhof;Waldegg Bahnhof;nom;0.043;Waldegg;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7100;Pat:43:7100;Oed/Piesting Bahnhof;Oed/Piesting Bahnhof;gtfs;;Oed/Piesting Bahnhof;Waldegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103241;Pat:43:7101;Miesenbach-Waidmannsfeld Bhf.;Miesenbach-Waidmannsfeld;nom;0.056;Miesenbach-Waidmannsfeld;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-7102;Pat:43:7102;Pernitz Ortmann Bahnhof;Pernitz Ortmann Bahnhof;gtfs;;Pernitz Ortmann Bahnhof;Pernitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103243;Pat:43:7104;Pernitz-Muggendorf Bahnhof;Pernitz-Muggendorf Bahnhof;nom;0.021;Pernitz-Muggendorf;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103244;Pat:43:7105;Gutenstein Bahnhof;Gutenstein Bahnhof;nom;0.05;Gutenstein;Gutenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103232;Pat:43:7106;Wöllersdorf Marchgraben Bf;Wöllersdorf Marchgraben Bf;nom;0.048;Wöllersdorf Marchgraben;Wöllersdorf-Steinabrückl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103248;Pat:43:7108;Waldegg-Dürnbach Bahnhof;Waldegg-Dürnbach Bahnhof;nom;0.01;Waldegg-Dürnbach;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7109;Pat:43:7109;Markt Piesting Bahnhof;Markt Piesting Bahnhof;gtfs;;Markt Piesting Bahnhof;Markt Piesting;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103052;Pat:43:7112;Winzendorf Bahnhof;Winzendorf Bahnhof;nom;0.04;Winzendorf;Winzendorf-Muthmannsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103053;Pat:43:7113;Urschendorf Bahnhof;Urschendorf Bahnhof;nom;0.014;Urschendorf;Winzendorf-Muthmannsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103055;Pat:43:7114;Willendorf Bahnhof;Willendorf Bahnhof;nom;0.06;Willendorf;Willendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7115;Pat:43:7115;Unterhöflein Bahnhof;Unterhöflein Bahnhof;gtfs;;Unterhöflein Bahnhof;Höflein an der Hohen Wand;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-43-7116;Pat:43:7116;Grünbach/Schneeberg Bahnhof;Grünbach/Schneeberg Bahnhof;gtfs;;Grünbach/Schneeberg Bahnhof;Grünbach am Schneeberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-7117;Pat:43:7117;Grünbach/Schneeberg Schule;Grünbach/Schneeberg Schule;gtfs;;Grünbach/Schneeberg Schule;Grünbach am Schneeberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-7118;Pat:43:7118;Grünbach/Schneeberg Kohlenwerk;Grünbach/Schneeberg Kohlenwerk;gtfs;;Grünbach/Schneeberg Kohlenwerk;Grünbach am Schneeberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103054;Pat:43:7119;Rothengrub Bahnhof;Rothengrub Bahnhof;nom;0.012;Rothengrub;Willendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM8130811972;Pat:43:7120;Puchberg am Schneeberg Bahnhof;Puchberg am Schneeberg Bahnhof;nom;0.008;Puchberg am Schneeberg;Puchberg am Schneeberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102438;Pat:43:7161;Hötzelsdorf-Geras Bahnhof;Hötzelsdorf-Geras Bahnhof;nom;0.006;Hötzelsdorf-Geras;Geras;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102440;Pat:43:7162;Irnfritz Bahnhof;Irnfritz Bahnhof;nom;0.011;Irnfritz;Irnfritz-Messern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7163;Pat:43:7163;Göpfritz an der Wild Bahnhof;Göpfritz an der Wild Bahnhof;gtfs;;Göpfritz an der Wild Bahnhof;Göpfritz an der Wild;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102443;Pat:43:7164;Allentsteig Bahnhof;Allentsteig Bahnhof;nom;0.009;Allentsteig;Allentsteig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102444;Pat:43:7165;Schwarzenau Bahnhof;Schwarzenau Bahnhof;nom;0.054;Schwarzenau;Schwarzenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102447;Pat:43:7166;Vitis Bahnhof;Vitis Bahnhof;nom;0.009;Vitis;Vitis;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7167;Pat:43:7167;Hirschbach bei Gmünd Bahnhof;Hirschbach bei Gmünd Bahnhof;gtfs;;Hirschbach bei Gmünd Bahnhof;Hirschbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102449;Pat:43:7168;Pürbach-Schrems Bahnhof;Pürbach-Schrems Bahnhof;nom;0.081;Pürbach-Schrems;Schrems;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-7211;Pat:43:7211;St. Pantaleon Bahnhof;St. Pantaleon Bahnhof;gtfs;;St. Pantaleon Bahnhof;Sankt Pantaleon-Erla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOSM3977681021;Pat:43:7222;Prinzersdorf Bahnhof;Prinzersdorf Bahnhof;nom;0.051;Prinzersdorf;Prinzersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-7223;Pat:43:7223;Markersdorf an der Pielach Bf.;Markersdorf an der Pielach Bf.;gtfs;;Markersdorf an der Pielach Bf.;Markersdorf-Haindorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100890;Pat:43:7224;Groß Sierning Bahnhof;Groß Sierning Bahnhof;nom;0.02;Groß Sierning;Haunoldstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7225;Pat:43:7225;Loosdorf/Melk Bahnhof;Loosdorf/Melk Bahnhof;gtfs;;Loosdorf/Melk Bahnhof;Loosdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101041;Pat:43:7226;Melk Bahnhof;Melk Bahnhof;nom;0.017;Melk;Melk;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101042;Pat:43:7227;Pöchlarn Bahnhof;Pöchlarn Bahnhof;nom;0.01;Pöchlarn;Pöchlarn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101043;Pat:43:7228;Krummnußbaum Bahnhof;Krummnußbaum Bahnhof;nom;0.001;Krummnußbaum;Krummnußbaum;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101044;Pat:43:7229;Säusenstein Bahnhof;Säusenstein Bahnhof;nom;0.104;Säusenstein;Ybbs an der Donau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-7230;Pat:43:7230;Ybbs/Donau Bahnhof;Ybbs/Donau Bahnhof;gtfs;;Ybbs/Donau Bahnhof;Ybbs an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-7231;Pat:43:7231;Neumarkt/Ybbs-Karlsbach Bf.;Neumarkt/Ybbs-Karlsbach Bf.;gtfs;;Neumarkt/Ybbs-Karlsbach Bf.;Neumarkt an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101048;Pat:43:7233;Blindenmarkt Bahnhof;Blindenmarkt Bahnhof;nom;0.021;Blindenmarkt;Blindenmarkt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101049;Pat:43:7234;Amstetten Bahnhof;Amstetten Bahnhof;nom;0.005;Amstetten;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101053;Pat:43:7235;Mauer-Öhling Bahnhof;Mauer-Öhling Bahnhof;nom;0.065;Mauer-Öhling;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101054;Pat:43:7236;Aschbach Bahnhof;Aschbach Bahnhof;nom;0.006;Aschbach;Aschbach-Markt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101055;Pat:43:7237;Krenstetten-Biberbach Bahnhof;Krenstetten-Biberbach Bahnhof;nom;0.047;Krenstetten-Biberbach;Biberbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7238;Pat:43:7238;St. Peter-Seitenstetten Bhf.;St. Peter-Seitenstetten Bhf.;gtfs;;St. Peter-Seitenstetten Bhf.;Sankt Peter in der Au;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101057;Pat:43:7239;St. Johann-Weistrach Bahnhof;St. Johann-Weistrach;nom;0.008;St. Johann-Weistrach;Sankt Peter in der Au;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101059;Pat:43:7241;Stadt Haag Bahnhof;Stadt Haag Bahnhof;nom;0.003;Stadt Haag;Haag;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101061;Pat:43:7242;St. Valentin Bahnhof;St. Valentin;nom;0.028;St. Valentin;St. Valentin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101063;Pat:43:7243;Ennsdorf Bahnhof;Ennsdorf Bahnhof;nom;0.022;Ennsdorf;Ennsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101510;Pat:43:7376;St. Georgen am Steinfelde Bahnhof;St. Georgen am Steinfelde;nom;0.017;St. Georgen am Steinfelde;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7377;Pat:43:7377;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg/Traisen Bahnhof;gtfs;;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101306;Pat:43:7378;Kreisbach Bahnhof;Kreisbach Bahnhof;nom;0.003;Kreisbach;Wilhelmsburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101309;Pat:43:7381;Traisen Bahnhof;Traisen Bahnhof;nom;0.03;Traisen;Traisen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101331;Pat:43:7382;Traisen Markt Bahnhof;Traisen Markt Bahnhof;nom;0.039;Traisen Markt;Traisen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101332;Pat:43:7383;Marktl Bahnhof;Marktl Bahnhof;nom;0.006;Marktl;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101333;Pat:43:7384;Lilienfeld Bahnhof;Lilienfeld Bahnhof;nom;0.008;Lilienfeld;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101334;Pat:43:7385;Lilienfeld Krankenhaus Bahnhof;Lilienfeld Krankenhaus Bahnhof;nom;0.145;Lilienfeld Krankenhaus;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101586;Pat:43:7386;Schrambach Bahnhof;Schrambach Bahnhof;nom;0.077;Schrambach;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101804;Pat:43:7399;Wiesenfeld-Schwarzenbach Bf.;Wiesenfeld-Schwarzenbach;nom;0.051;Wiesenfeld-Schwarzenbach;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101622;Pat:43:7400;St. Veit an der Gölsen Bahnhof;St. Veit an der Gölsen;nom;0.015;St. Veit an der Gölsen;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101421;Pat:43:7401;Rainfeld-Kleinzell Bahnhof;Rainfeld-Kleinzell Bahnhof;nom;0.025;Rainfeld-Kleinzell;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101439;Pat:43:7402;Rohrbach an der Gölsen Bahnhof;Rohrbach an der Gölsen Bahnhof;nom;0.039;Rohrbach an der Gölsen;Rohrbach an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100957;Pat:43:7403;Hainfeld Bahnhof;Hainfeld Bahnhof;nom;0.07;Hainfeld;Hainfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101411;Pat:43:7435;Erlauf Bahnhof;Erlauf Bahnhof;nom;0.005;Erlauf;Erlauf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101412;Pat:43:7442;Petzenkirchen Bahnhof;Petzenkirchen Bahnhof;nom;0.002;Petzenkirchen;Petzenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM4116313089;Pat:43:7443;Wieselburg Bahnhof;Wieselburg Bahnhof;nom;0.034;Wieselburg;Wieselburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101225;Pat:43:7444;Mühling Bahnhof;Mühling Bahnhof;nom;0.013;Mühling;Wieselburg-Land;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101841;Pat:43:7445;Mühling-Plaika Bahnhof;Mühling-Plaika Bahnhof;nom;0.017;Mühling-Plaika;Wieselburg-Land;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101480;Pat:43:7446;Schauboden Bahnhof;Schauboden Bahnhof;nom;0.009;Schauboden;Purgstall an der Erlauf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7447;Pat:43:7447;Purgstall/Erlauf Bahnhof;Purgstall/Erlauf Bahnhof;gtfs;;Purgstall/Erlauf Bahnhof;Purgstall an der Erlauf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101851;Pat:43:7448;Sölling Bahnhof;Sölling Bahnhof;nom;0.018;Sölling;Purgstall an der Erlauf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101463;Pat:43:7449;Saffen Bahnhof;Saffen Bahnhof;nom;0.092;Saffen;Scheibbs;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM1279571961;Pat:43:7450;Scheibbs Bahnhof;Scheibbs Bahnhof;nom;0.027;Scheibbs;Scheibbs;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM294590552;Pat:43:7893;Greinsfurth Bahnhof;Greinsfurth Bahnhof;nom;;Greinsfurth;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101431;Pat:43:7894;Ulmerfeld-Hausmening Bahnhof;Ulmerfeld-Hausmening Bahnhof;nom;0.017;Ulmerfeld-Hausmening;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM294590733;Pat:43:7895;Kröllendorf Bahnhof;Kröllendorf Bahnhof;nom;;Kröllendorf;Allhartsberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101433;Pat:43:7896;Hilm-Kematen Bahnhof;Hilm-Kematen Bahnhof;nom;0.02;Hilm-Kematen;Sonntagberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7897;Pat:43:7897;Rosenau am Sonntagberg Bahnhof;Rosenau am Sonntagberg Bahnhof;gtfs;;Rosenau am Sonntagberg Bahnhof;Sonntagberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101435;Pat:43:7898;Sonntagberg Bahnhof;Sonntagberg Bahnhof;nom;0.055;Sonntagberg;Sonntagberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-7899;Pat:43:7899;Böhlerwerk an der Ybbs Bahnhof;Böhlerwerk an der Ybbs Bahnhof;gtfs;;Böhlerwerk an der Ybbs Bahnhof;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-43-7900;Pat:43:7900;Waidhofen/Ybbs Bahnhof;Waidhofen/Ybbs Bahnhof;gtfs;;Waidhofen/Ybbs Bahnhof;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pat-43-7901;Pat:43:7901;Waidhofen/Ybbs Stadt;Waidhofen/Ybbs Stadt;gtfs;;Waidhofen/Ybbs Stadt;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102552;Pat:43:8000;Furth-Göttweig Bahnhof;Furth-Göttweig Bahnhof;nom;0.009;Furth-Göttweig;Furth bei Göttweig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102551;Pat:43:8001;Furth-Palt Bahnhof;Furth-Palt Bahnhof;nom;0.059;Furth-Palt;Furth bei Göttweig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101284;Pat:43:8003;Herzogenburg Bahnhof;Herzogenburg Bahnhof;nom;0.023;Herzogenburg;Herzogenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102554;Pat:43:8009;Paudorf Bahnhof;Paudorf Bahnhof;nom;0.026;Paudorf;Paudorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102556;Pat:43:8010;Statzendorf Bahnhof;Statzendorf Bahnhof;nom;0.066;Statzendorf;Statzendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-43-8022;Pat:43:8022;Brunn an der Schneebergbahn Bhf.;Brunn an der Schneebergbahn Bhf.;gtfs;;Brunn an der Schneebergbahn Bhf.;Bad Fischau-Brunn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103245;Pat:43:8059;Pernitz Wipfelhofstraße/Bf.;Pernitz Wipfelhofstraße;nom;0.019;Pernitz Wipfelhofstraße;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101349;Pat:43:8068;Pfennigbach Bahnhof;Pfennigbach Bahnhof;nom;0.013;Pfennigbach;Puchberg am Schneeberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103246;Pat:43:8074;Pernitz Raimundviertel Bahnhof;Pernitz Raimundviertel Bahnhof;nom;0.054;Pernitz Raimundviertel;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101525;Pat:43:8240;Herzograd Bahnhof;Herzograd Bahnhof;nom;0.011;Herzograd;St. Valentin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101526;Pat:43:8241;Ernsthofen Bahnhof;Ernsthofen Bahnhof;nom;0.008;Ernsthofen;Ernsthofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-43-8757;Pat:43:8757;St. Egyden/Stfd Bahnhof;St. Egyden/Stfd Bahnhof;gtfs;;St. Egyden/Stfd Bahnhof;St. Egyden am Steinfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-43-8758;Pat:43:8758;Neunkirchen Bahnhof;Neunkirchen Bahnhof;gtfs;;Neunkirchen Bahnhof;Neunkirchen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
@@ -361,7 +250,6 @@ TNOBB-pat-43-8765;Pat:43:8765;Eichberg am Semmering Bahnhof;Eichberg am Semmerin
 TN8103138;Pat:43:8766;Klamm-Schottwien Bahnhof;Klamm-Schottwien Bahnhof;nom;0.117;Klamm-Schottwien;Breitenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103139;Pat:43:8767;Breitenstein Bahnhof;Breitenstein Bahnhof;nom;0.015;Breitenstein;Breitenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103140;Pat:43:8768;Wolfsbergkogel Bahnhof;Wolfsbergkogel Bahnhof;nom;0.001;Wolfsbergkogel;Semmering;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103141;Pat:43:8769;Semmering Bahnhof;Semmering Bahnhof;nom;0.051;Semmering;Semmering;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101729;Pat:44:40156;Neumarkt-Kallham Bahnhof;Neumarkt-Kallham Bahnhof;nom;0.023;Neumarkt-Kallham;Neumarkt im Hausruckkreis;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102009;Pat:44:40179;Lengau Bahnhst;Lengau Bahnhst;nom;0.011;Lengau;Lengau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102510;Pat:44:40222;Perg Schulzentrum Bahnhst;Perg Schulzentrum Bahnhst;nom;0.047;Perg Schulzentrum;Perg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -380,7 +268,7 @@ TN8101064;Pat:44:41910;Enns Bahnhof;Enns Bahnhof;nom;0.024;Enns;Enns;wikidata;v�
 TN8101754;Pat:44:42146;Wels Lokalbahn Bahnhof;Wels Lokalbahn Bahnhof;nom;0.023;Wels Lokalbahn;Wels;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101946;Pat:44:42268;Wels Messe Bahnhof;Wels Messe Bahnhof;nom;0.008;Wels Messe;Wels;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101079;Pat:44:42300;Marchtrenk Bahnhof;Marchtrenk Bahnhof;nom;0.054;Marchtrenk;Marchtrenk;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM2111876791;Pat:44:42390;Kremsmünster Bahnhof;Kremsmünster Bahnhof;nom;;Kremsmünster;Kremsmünster;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101611;Pat:44:42390;Kremsmünster Bahnhof;Kremsmünster Bahnhof;nom;0.078;Kremsmünster;Kremsmünster;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101802;Pat:44:42410;Schauersberg Bahnhst;Schauersberg Bahnhst;nom;0.011;Schauersberg;Thalheim bei Wels;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-44-42411;Pat:44:42411;Steinhaus b.Wels Bahnhst;Steinhaus b.Wels Bahnhst;gtfs;;Steinhaus b.Wels Bahnhst;Steinhaus;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-44-42412;Pat:44:42412;Oberhart b.Steinhaus Bahnhst;Oberhart b.Steinhaus Bahnhst;gtfs;;Oberhart b.Steinhaus Bahnhst;Steinhaus;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
@@ -445,7 +333,6 @@ TN8101672;Pat:44:45765;Kleinzell im Mühlkreis Bahnhst;Kleinzell im Mühlkreis B
 TN8101671;Pat:44:45780;Neuhaus-Niederwaldkirchen Bahnhst;Neuhaus-Niederwaldkirchen Bahnhst;nom;0.014;Neuhaus-Niederwaldkirchen;Niederwaldkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101361;Pat:44:46009;Pinsdorf Bahnhst;Pinsdorf Bahnhst;nom;0.037;Pinsdorf;Pinsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101924;Pat:44:46010;Gmunden Bahnhof;Gmunden Bahnhof;nom;0.032;Gmunden;Gmunden;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-44-46011;Pat:44:46011;Altmünster/Traunsee Bahnhof;Altmünster/Traunsee Bahnhof;gtfs;;Altmünster/Traunsee Bahnhof;Altmünster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101716;Pat:44:46320;Viechtwang Bahnhst;Viechtwang Bahnhst;nom;0.033;Viechtwang;Scharnstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101831;Pat:44:46321;Scharnstein-Mühldorf Bahnhof;Scharnstein-Mühldorf Bahnhof;nom;0.036;Scharnstein-Mühldorf;Scharnstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101832;Pat:44:46322;Kothmühle Bahnhst;Kothmühle Bahnhst;nom;0.006;Kothmühle;Scharnstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -534,121 +421,75 @@ TN8100333;Pat:44:49220;Uttendorf-Helpfau Bahnhst;Uttendorf-Helpfau Bahnhst;nom;0
 TN8100602;Pat:44:49320;Achenlohe Bahnhst;Achenlohe Bahnhst;nom;0.007;Achenlohe;Munderfing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101658;Pat:44:49330;Teichstätt Bahnhof;Teichstätt Bahnhof;nom;0.006;Teichstätt;Lengau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100241;Pat:44:49331;Friedburg Bahnhof;Friedburg Bahnhof;nom;0.012;Friedburg;Lengau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102047;Pat:44:49650;Mattighofen Bahnhof;Mattighofen Bahnhof;nom;0.025;Mattighofen;Mattighofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102047;Pat:44:49650;Mattighofen Bahnhof;Mattighofen Bahnhof;nom;0.018;Mattighofen;Mattighofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100489;Pat:44:49666;Munderfing Bahnhof;Munderfing Bahnhof;nom;0.062;Munderfing;Munderfing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101178;Pat:44:49759;Lasberg-St.Oswald Bahnhst;Lasberg-St. Oswald;nom;0.017;Lasberg-St. Oswald;Lasberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101679;Pat:44:49841;Schlägl Bahnhst;Schlägl Bahnhst;nom;0.017;Schlägl;Aigen-Schlägl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101680;Pat:44:49844;Aigen-Schlägl Bahnhof;Aigen-Schlägl Bahnhof;nom;0.016;Aigen-Schlägl;Aigen-Schlägl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-45-50034;Pat:45:50034;Salzburg Liefering S-Bahn;Salzburg Liefering S-Bahn;gtfs;;Salzburg Liefering S-Bahn;Salzbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101109;Pat:45:50209;Wallersee S-Bahn;Wallersee S-Bahn;nom;0.021;Wallersee;Seekirchen am Wallersee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101108;Pat:45:50210;Köstendorf Weng S-Bahn;Köstendorf Weng S-Bahn;nom;0.036;Köstendorf Weng;Köstendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101111;Pat:45:50230;Eugendorf S-Bahn;Eugendorf S-Bahn;nom;0.04;Eugendorf;Eugendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101113;Pat:45:50253;Salzburg Kasern S-Bahn;Salzburg Kasern S-Bahn;nom;0.011;Salzburg Kasern;Hallwang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101112;Pat:45:50254;Hallwang-Elixhausen S-Bahn;Hallwang-Elixhausen S-Bahn;nom;0.024;Hallwang-Elixhausen;Hallwang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-45-50273;Pat:45:50273;Neumarkt Bahnhof;Neumarkt Bahnhof;gtfs;;Neumarkt Bahnhof;Neumarkt am Wallersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101481;Pat:45:50456;Salzburg Parsch S-Bahn;Salzburg Parsch S-Bahn;nom;0.055;Salzburg Parsch;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101121;Pat:45:50457;Salzburg Aigen S-Bahn;Salzburg Aigen S-Bahn;nom;0.029;Salzburg Aigen;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101122;Pat:45:50458;Salzburg-Süd S-Bahn;Salzburg-Süd S-Bahn;nom;0.007;Salzburg Süd;Elsbethen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100772;Pat:45:50470;Elsbethen S-Bahn;Elsbethen S-Bahn;nom;0.006;Elsbethen;Elsbethen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-45-50475;Pat:45:50475;Puch S-Bahn;Puch S-Bahn;gtfs;;Puch S-Bahn;Puch bei Hallein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102006;Pat:45:50489;Oberalm S-Bahn;Oberalm S-Bahn;nom;0.037;Oberalm;Oberalm;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101125;Pat:45:50494;Hallein Bahnhof;Hallein Bahnhof;nom;0.03;Hallein;Hallein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102049;Pat:45:50500;Hallein Burgfried S-Bahn;Hallein Burgfried S-Bahn;nom;0.037;Hallein Burgfried;Hallein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM2647539072;Pat:45:50578;Kuchl Garnei S-Bahn;Kuchl Garnei S-Bahn;nom;;Kuchl Garnei;Kuchl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101127;Pat:45:50580;Kuchl S-Bahn;Kuchl S-Bahn;nom;0.023;Kuchl;Kuchl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101128;Pat:45:50591;Golling-Abtenau Bahnhof;Golling-Abtenau Bahnhof;nom;0.028;Golling-Abtenau;Golling an der Salzach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101118;Pat:45:50861;Salzburg Sam S-Bahn;Salzburg Sam S-Bahn;nom;0.011;Salzburg Sam;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8192099;Pat:45:51023;Salzburg Mülln-Altstadt S-Bahn;Salzburg Mülln-Altstadt S-Bahn;nom;0.004;Salzburg Mülln-Altstadt;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8192098;Pat:45:51024;Salzburg Aiglhof S-Bahn;Salzburg Aiglhof S-Bahn;nom;0.037;Salzburg Aiglhof;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101134;Pat:45:52099;Bischofshofen Bahnhof;Bischofshofen Bahnhof;nom;0.027;Bischofshofen;Bischofshofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101482;Pat:45:52106;Pöham Bahnhof;Pöham Bahnhof;nom;0.073;Pöham;Bischofshofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM3514086219;Pat:45:52114;Radstadt Bahnhof;Radstadt Bahnhof;nom;;Radstadt;Radstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101478;Pat:45:52183;Altenmarkt Bahnhof;Altenmarkt Bahnhof;gtfs;;Altenmarkt Bahnhof;Altenmarkt im Pongau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100045;Pat:45:52191;Lend Bahnhof;Lend Bahnhof;nom;0.077;Lend;Lend;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101135;Pat:45:52192;Mitterberghütten Bahnhof;Mitterberghütten Bahnhof;nom;0.023;Mitterberghütten;Bischofshofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101137;Pat:45:52197;Schwarzach-St.Veit Bahnhof;Schwarzach-St. Veit;nom;0.025;Schwarzach-St. Veit;Schwarzach im Pongau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102113;Pat:45:52199;Dorfgastein Bahnhof;Dorfgastein Bahnhof;nom;0.027;Dorfgastein;Dorfgastein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102114;Pat:45:52201;Bad Hofgastein Bahnhof;Bad Hofgastein Bahnhof;nom;0.025;Bad Hofgastein;Bad Hofgastein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102117;Pat:45:52204;Bad Gastein Bahnhof;Bad Gastein Bahnhof;nom;0.03;Bad Gastein;Bad Gastein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102119;Pat:45:52205;Böckstein Bahnhof;Böckstein Bahnhof;nom;0.027;Böckstein;Bad Gastein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101131;Pat:45:52210;Tenneck Bahnhof;Tenneck Bahnhof;nom;0.025;Tenneck;Werfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102117;Pat:45:52204;Bad Gastein Bahnhof;Bad Gastein Bahnhof;nom;0.039;Bad Gastein;Bad Gastein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101136;Pat:45:52385;St.Johann Bahnhof;St.Johann Bahnhof;gtfs;;St.Johann Bahnhof;Sankt Johann im Pongau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101202;Pat:45:52418;Mandling Bahnhof;Mandling Bahnhof;nom;0.023;Mandling;Radstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101133;Pat:45:52428;Pfarrwerfen Bahnhof;Pfarrwerfen Bahnhof;nom;0.015;Pfarrwerfen;Pfarrwerfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101132;Pat:45:52434;Werfen Bahnhof;Werfen Bahnhof;nom;0.027;Werfen;Pfarrwerfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM3512010700;Pat:45:52495;Niedernfritz-St.Martin Bahnhof;Niedernfritz-St. Martin;nom;;Niedernfritz-St. Martin;Hüttau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM12395717629;Pat:45:52600;Hüttau Bahnhof;Hüttau Bahnhof;nom;;Hüttau;Hüttau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101480;Pat:45:52495;Niedernfritz-St.Martin Bahnhof;Niedernfritz-St. Martin;nom;0.003;Niedernfritz-St. Martin;Hüttau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101148;Pat:45:54001;Saalfelden Bahnhof;Saalfelden Bahnhof;nom;0.027;Saalfelden;Saalfelden;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101145;Pat:45:54104;Zell am See Bahnhof;Zell am See Bahnhof;nom;0.022;Zell am See;Zell am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101144;Pat:45:54179;Bruck-Fusch Bahnhof;Bruck-Fusch Bahnhof;nom;0.022;Bruck-Fusch;Bruck an der Großglocknerstraße;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101142;Pat:45:54180;Taxenbach-Rauris Bahnhof;Taxenbach-Rauris Bahnhof;nom;0.027;Taxenbach-Rauris;Taxenbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM3508395176;Pat:45:54252;Leogang-Steinberge Bahnhof;Leogang-Steinberge Bahnhof;nom;0.024;Leogang-Steinberge;Leogang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101146;Pat:45:54253;Maishofen-Saalbach Bahnhof;Maishofen-Saalbach Bahnhof;nom;0.094;Maishofen-Saalbach;Maishofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101150;Pat:45:54276;Leogang Bahnhof;Leogang Bahnhof;nom;0.026;Leogang;Leogang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-45-56183;Pat:45:56183;Seekirchen Bahnhof;Seekirchen Bahnhof;gtfs;;Seekirchen Bahnhof;Seekirchen am Wallersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101126;Pat:45:56199;Bad Vigaun S-Bahn;Bad Vigaun S-Bahn;nom;0.011;Bad Vigaun;Bad Vigaun;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-45-56408;Pat:45:56408;Seekirchen Stadt S-Bahn;Seekirchen Stadt S-Bahn;gtfs;;Seekirchen Stadt S-Bahn;Seekirchen am Wallersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100559;Pat:45:56533;Salzburg Gnigl S-Bahn;Salzburg Gnigl S-Bahn;nom;0.028;Salzburg Gnigl;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-45-56656;Pat:45:56656;Puch Urstein (FH);Puch Urstein (FH);gtfs;;Puch Urstein (FH);Puch bei Hallein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101171;Pat:45:56702;Salzburg Taxham Europark S-Bahn;Salzburg Taxham Europark S-Bahn;nom;0.037;Salzburg Taxham Europark;Salzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-45-56900;Pat:45:56900;Gries Bahnhof;Gries Bahnhof;gtfs;;Gries Bahnhof;Bruck an der Großglocknerstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100196;Pat:46:1034;Studenzen-Fladnitz Bahnhof;Studenzen-Fladnitz Bahnhof;nom;0.028;Studenzen-Fladnitz;Kirchberg an der Raab;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM1254082871;Pat:46:1748;Wildon Bahnhof;Wildon Bahnhof;nom;0.072;Wildon;Wildon;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM9044236191;Pat:46:1749;Lebring Bahnhof;Lebring Bahnhof;nom;;Lebring;Lebring-Sankt Margarethen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100034;Pat:46:1760;Peggau-Deutschfeistritz Bahnhof;Peggau-Deutschfeistritz Bahnhof;nom;0.035;Peggau-Deutschfeistritz;Peggau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100194;Pat:46:1761;Laßnitzhöhe Bahnhof;Laßnitzhöhe Bahnhof;nom;0.015;Laßnitzhöhe;Laßnitzhöhe;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100318;Pat:46:1762;Takern-St.Margarethen Bahnhof;Takern-St. Margarethen;nom;0.059;Takern-St. Margarethen;Sankt Margarethen an der Raab;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-46-1764;Pat:46:1764;Rohr/Raab Bahnhof;Rohr/Raab Bahnhof;gtfs;;Rohr/Raab Bahnhof;Edelsbach bei Feldbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100857;Pat:46:1765;Gniebing Bahnhof;Gniebing Bahnhof;nom;0.01;Gniebing;Feldbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101164;Pat:46:1766;Lödersdorf Bahnhof;Lödersdorf Bahnhof;nom;;Lödersdorf;Riegersburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100945;Pat:46:1767;Hohenbrugg an der Raab Bahnhof;Hohenbrugg an der Raab Bahnhof;nom;0.022;Hohenbrugg an der Raab;Fehring;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100268;Pat:46:1768;Hatzendorf Bahnhof;Hatzendorf Bahnhof;nom;0.028;Hatzendorf;Fehring;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100429;Pat:46:1770;Söchau Bahnhof;Söchau Bahnhof;nom;0.015;Söchau;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101694;Pat:46:1771;Übersbach Bahnhof;Übersbach Bahnhof;nom;0.011;Übersbach;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-1772;Pat:46:1772;Bierbaum/Safen Bahnhof;Bierbaum/Safen Bahnhof;gtfs;;Bierbaum/Safen Bahnhof;Bad Blumau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103331;Pat:46:1774;Bad Waltersdorf Bahnhof;Bad Waltersdorf Bahnhof;nom;0.014;Bad Waltersdorf;Bad Waltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103330;Pat:46:1775;Sebersdorf Bahnhof;Sebersdorf Bahnhof;nom;0.018;Sebersdorf;Bad Waltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100035;Pat:46:1827;Leibnitz Bahnhof;Leibnitz Bahnhof;nom;0.037;Leibnitz;Leibnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100082;Pat:46:1839;Spielfeld-Straß Bahnhof;Spielfeld-Straß Bahnhof;nom;0.027;Spielfeld-Straß;Straß in Steiermark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103503;Pat:46:1923;Feldbach Bahnhof;Feldbach Bahnhof;nom;0.004;Feldbach;Feldbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100176;Pat:46:1960;Fehring Bahnhof;Fehring Bahnhof;nom;0.042;Fehring;Fehring;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103338;Pat:46:1982;Fürstenfeld Bahnhof;Fürstenfeld Bahnhof;nom;0.021;Fürstenfeld;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103326;Pat:46:2022;Hartberg Bahnhof;Hartberg Bahnhof;nom;0.03;Hartberg;Hartberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100033;Pat:46:2042;Frohnleiten Bahnhof;Frohnleiten Bahnhof;nom;0.049;Frohnleiten;Frohnleiten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103158;Pat:46:2065;Bruck/Mur Bahnhof;Bruck/Mur Bahnhof;gtfs;;Bruck/Mur Bahnhof;Bruck an der Mur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM7201843814;Pat:46:2244;Laßnitzthal Bahnhof;Laßnitzthal Bahnhof;nom;0.028;Laßnitzthal;Gleisdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103333;Pat:46:2735;Bad Blumau Bahnhof;Bad Blumau Bahnhof;nom;0.068;Bad Blumau;Bad Blumau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100195;Pat:46:28;Gleisdorf Bahnhof;Gleisdorf Bahnhof;nom;0.054;Gleisdorf;Gleisdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101345;Pat:46:30077;Weststeiermark Bahnhof;Weststeiermark Bahnhof;nom;0.044;Weststeiermark;Groß Sankt Florian;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100193;Pat:46:3039;Raaba Bahnhof;Raaba Bahnhof;nom;0.022;Raaba;Raaba-Grambach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM8435021931;Pat:46:30454;Leoben Lerchenfeld Bahnhof;Leoben Lerchenfeld Bahnhof;nom;0.016;Leoben Lerchenfeld;Leoben;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-46-3918;Pat:46:3918;Kaindorf Bahnhof;Kaindorf Bahnhof;gtfs;;Kaindorf Bahnhof;Leibnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103175;Pat:46:4279;Graz Puntigam Bahnhof;Graz Puntigam Bahnhof;nom;0.057;Graz Puntigam;Graz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8178420;Pat:46:4498;Graz Don Bosco Bahnhof;Graz Don Bosco Bahnhof;nom;0.039;Graz Don Bosco;Graz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103325;Pat:46:5205;St.Johann in der Haide Bahnhof;St. Johann in der Haide;nom;0.013;St. Johann in der Haide;Sankt Johann in der Haide;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8178420;Pat:46:4498;Graz Don Bosco Bahnhof;Graz Don Bosco Bahnhof;nom;0.044;Graz Don Bosco;Graz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-46-5211;Pat:46:5211;Grafendorf Bahnhof;Grafendorf Bahnhof;gtfs;;Grafendorf Bahnhof;Grafendorf bei Hartberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8103321;Pat:46:5230;Rohrbach-Vorau Bahnhof;Rohrbach-Vorau Bahnhof;nom;0.034;Rohrbach-Vorau;Rohrbach an der Lafnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100370;Pat:46:525;Gratwein-Gratkorn Bahnhof;Gratwein-Gratkorn Bahnhof;nom;0.022;Gratwein-Gratkorn;Gratwein-Straßengel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103618;Pat:46:5511;Unzmarkt Bahnhof;Unzmarkt Bahnhof;nom;0.024;Unzmarkt;Unzmarkt-Frauenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103155;Pat:46:6092;Kapfenberg Bahnhof;Kapfenberg Bahnhof;nom;0.015;Kapfenberg;Kapfenberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103153;Pat:46:6155;St.Marein-St.Lorenzen Bahnhof;St.Marein-St.Lorenzen;nom;0.026;St.Marein-St.Lorenzen;Sankt Marein im Mürztal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103151;Pat:46:6313;Kindberg Bahnhof;Kindberg Bahnhof;nom;0.025;Kindberg;Kindberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103148;Pat:46:6539;Krieglach Bahnhof;Krieglach Bahnhof;nom;0.016;Krieglach;Alpl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101449;Pat:46:6589;Hieflau Bahnhof;Hieflau Bahnhof;nom;0.024;Hieflau;Landl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101650;Pat:46:6750;St.Michael Bahnhof;St.Michael Bahnhof;gtfs;;St.Michael Bahnhof;Sankt Michael in Obersteiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-46-6770;Pat:46:6770;Mautern Bahnhof;Mautern Bahnhof;gtfs;;Mautern Bahnhof;Mautern in Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100161;Pat:46:6793;Admont Bahnhof;Admont Bahnhof;nom;0.022;Admont;Admont;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-6802;Pat:46:6802;Gstatterboden Bahnhof;Gstatterboden Bahnhof;gtfs;;Gstatterboden Bahnhof;Admont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101461;Pat:46:6892;Stainach-Irdning Bahnhof;Stainach-Irdning Bahnhof;nom;0.055;Stainach-Irdning;Stainach-Pürgg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-6947;Pat:46:6947;Rottenmann Bahnhof;Rottenmann Bahnhof;gtfs;;Rottenmann Bahnhof;Rottenmann;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101468;Pat:46:7024;Gröbming Bahnhof;Gröbming Bahnhof;nom;0.036;Gröbming;Michaelerberg-Pruggern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101944;Pat:46:7063;Bad Aussee Bahnhof;Bad Aussee Bahnhof;nom;0.036;Bad Aussee;Bad Aussee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101948;Pat:46:7112;Tauplitz Bahnhof;Tauplitz Bahnhof;nom;0.017;Tauplitz;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-7189;Pat:46:7189;Haus Bahnhof;Haus Bahnhof;gtfs;;Haus Bahnhof;Haus im Ennstal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101634;Pat:46:6947;Stadt Rottenmann Bahnhof;Stadt Rottenmann Bahnhof;nom;0.011;Stadt Rottenmann;Rottenmann;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101473;Pat:46:7208;Schladming Bahnhof;Schladming Bahnhof;nom;0.031;Schladming;Schladming;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101947;Pat:46:7316;Bad Mitterndorf Bahnhof;Bad Mitterndorf Bahnhof;nom;0.017;Bad Mitterndorf;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103152;Pat:46:7421;Allerheiligen-Mürzhofen Bahnhof;Allerheiligen-Mürzhofen Bahnhof;nom;0.02;Allerheiligen-Mürzhofen;Kindberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-7422;Pat:46:7422;Wartberg Bahnhof;Wartberg Bahnhof;gtfs;;Wartberg Bahnhof;Sankt Barbara im Mürztal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103149;Pat:46:7423;Mitterdorf-Veitsch Bahnhof;Mitterdorf-Veitsch Bahnhof;nom;0.042;Mitterdorf-Veitsch;Sankt Barbara im Mürztal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-46-7424;Pat:46:7424;Langenwang Bahnhof;Langenwang Bahnhof;gtfs;;Langenwang Bahnhof;Langenwang;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103144;Pat:46:7426;Mürzzuschlag Bahnhof;Mürzzuschlag Bahnhof;nom;0.029;Mürzzuschlag;Mürzzuschlag;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -660,18 +501,8 @@ TNOBB-pat-46-7433;Pat:46:7433;Wald am Schoberpaß Bahnhof;Wald am Schoberpaß Ba
 TN8100819;Pat:46:7435;Gaishorn Bahnhof;Gaishorn Bahnhof;nom;0.065;Gaishorn;Gaishorn am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100128;Pat:46:7436;Trieben Bahnhof;Trieben Bahnhof;nom;0.05;Trieben;Trieben;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101459;Pat:46:7437;Liezen Bahnhof;Liezen Bahnhof;nom;0.088;Liezen;Liezen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100425;Pat:46:7438;Wörschach Schwefelbad Bahnhof;Wörschach Schwefelbad Bahnhof;nom;0.035;Wörschach Schwefelbad;Wörschach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101465;Pat:46:7441;Niederöblarn Bahnhof;Niederöblarn Bahnhof;nom;0.029;Niederöblarn;Öblarn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100133;Pat:46:7442;Öblarn Bahnhof;Öblarn Bahnhof;nom;0.019;Öblarn;Öblarn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101467;Pat:46:7443;Stein an der Enns Bahnhof;Stein an der Enns Bahnhof;nom;0.017;Stein an der Enns;Sölk;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101386;Pat:46:7444;Pruggern Bahnhof;Pruggern Bahnhof;nom;0.018;Pruggern;Michaelerberg-Pruggern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100597;Pat:46:7445;Aich-Assach Bahnhof;Aich-Assach Bahnhof;nom;0.019;Aich-Assach;Aich;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM2413308670;Pat:46:7447;Pichl bei Schladming Bahnhof;Pichl bei Schladming Bahnhof;nom;0.014;Pichl bei Schladming;Schladming;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101632;Pat:46:7449;Ardning Bahnhof;Ardning Bahnhof;nom;0.025;Ardning;Ardning;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-7452;Pat:46:7452;Johnsbach Bahnhof;Johnsbach Bahnhof;gtfs;;Johnsbach Bahnhof;Admont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101445;Pat:46:7456;Weißenbach-St.Gallen Bahnhof;Weißenbach-St. Gallen;nom;0.028;Weißenbach-St. Gallen;Sankt Gallen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103602;Pat:46:7461;Niklasdorf Bahnhof;Niklasdorf Bahnhof;nom;0.032;Niklasdorf;Niklasdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-7463;Pat:46:7463;Kraubath an der Mur Bahnhof;Kraubath an der Mur Bahnhof;gtfs;;Kraubath an der Mur Bahnhof;Kraubath an der Mur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100783;Pat:46:7465;Fentsch-St.Lorenzen Bahnhof;Fentsch-St.Lorenzen;nom;0.021;Fentsch-St.Lorenzen;Sankt Margarethen bei Knittelfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100072;Pat:46:7466;Knittelfeld Bahnhof;Knittelfeld Bahnhof;nom;0.027;Knittelfeld;Knittelfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103614;Pat:46:7468;Zeltweg Bahnhof;Zeltweg Bahnhof;nom;0.032;Zeltweg;Zeltweg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -679,20 +510,12 @@ TN8103615;Pat:46:7469;Judenburg Bahnhof;Judenburg Bahnhof;nom;0.027;Judenburg;Ju
 TNOSM302464587;Pat:46:7470;Thalheim-Pöls Bahnhof;Thalheim-Pöls Bahnhof;nom;;Thalheim-Pöls;Pöls-Oberkurzheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101504;Pat:46:7471;St.Georgen ob Judenburg Bahnhof;St. Georgen ob Judenburg;nom;0.019;St. Georgen ob Judenburg;Sankt Georgen ob Judenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101538;Pat:46:7472;Scheifling Bahnhof;Scheifling Bahnhof;nom;0.078;Scheifling;Scheifling;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101244;Pat:46:7473;Mariahof-St.Lambrecht Bahnhof;Mariahof-St. Lambrecht;nom;0.004;Mariahof-St. Lambrecht;Neumarkt in der Steiermark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pat-46-7474;Pat:46:7474;Neumarkt Bahnhof;Neumarkt Bahnhof;gtfs;;Neumarkt Bahnhof;Neumarkt in der Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101950;Pat:46:7510;Pürgg Bahnhof;Pürgg Bahnhof;nom;0.01;Pürgg;Stainach-Pürgg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOSM957067223;Pat:46:7512;Bad Mitterndorf-Heilbrunn Bahnhof;Bad Mitterndorf-Heilbrunn Bahnhof;nom;;Bad Mitterndorf-Heilbrunn;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101945;Pat:46:7513;Kainisch Bahnhof;Kainisch Bahnhof;nom;0.029;Kainisch;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103320;Pat:46:7542;Dechantskirchen Bahnhof;Dechantskirchen Bahnhof;nom;0.015;Dechantskirchen;Dechantskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103319;Pat:46:7543;Friedberg Bahnhof;Friedberg Bahnhof;nom;0.026;Friedberg;Friedberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103317;Pat:46:7547;Pinggau Markt Bahnhof;Pinggau Markt Bahnhof;nom;0.015;Pinggau Markt;Pinggau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103316;Pat:46:7548;Tauchen-Schaueregg Bahnhof;Tauchen-Schaueregg Bahnhof;nom;0.046;Tauchen-Schaueregg;Pinggau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8100763;Pat:46:76;Ehrenhausen Bahnhof;Ehrenhausen Bahnhof;nom;0.018;Ehrenhausen;Ehrenhausen an der Weinstraße;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-46-977;Pat:46:977;Hart b.Graz Bahnhof;Hart b.Graz Bahnhof;gtfs;;Hart b.Graz Bahnhof;Hart bei Graz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101153;Pat:47:1153;Hochfilzen Bahnhof;Hochfilzen Bahnhof;nom;0.023;Hochfilzen;Hochfilzen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101155;Pat:47:1155;Fieberbrunn Bahnhof;Fieberbrunn Bahnhof;nom;0.007;Fieberbrunn;Fieberbrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101157;Pat:47:1157;St. Johann i. T. Bahnhof;St. Johann i. T. Bahnhof;gtfs;;St. Johann i. T. Bahnhof;St. Johann in Tirol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-pat-47-1157;Pat:47:1157;St. Johann i. T. Bahnhof;St. Johann i. T. Bahnhof;gtfs;;St. Johann i. T. Bahnhof;St. Johann in Tirol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-47-1159;Pat:47:1159;Oberndorf i. T. Bahnhof;Oberndorf i. T. Bahnhof;gtfs;;Oberndorf i. T. Bahnhof;Oberndorf en Tyrol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101160;Pat:47:1160;Kitzbühel Bahnhof;Kitzbühel Bahnhof;nom;0.03;Kitzbühel;Kitzbühel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101161;Pat:47:1161;Kitzbühel Hahnenkamm Bahnhof;Kitzbühel Hahnenkamm Bahnhof;nom;0.034;Kitzbühel Hahnenkamm;Kitzbühel;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -701,7 +524,6 @@ TNOBB-pat-47-1164;Pat:47:1164;Brixen i. Th. Bahnhof;Brixen i. Th. Bahnhof;gtfs;;
 TN8101165;Pat:47:1165;Westendorf Bahnhof;Westendorf Bahnhof;gtfs;;Westendorf Bahnhof;Westendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-47-1167;Pat:47:1167;Hopfgarten i. Br. Berglift Bahnhof;Hopfgarten i. Br. Berglift Bahnhof;gtfs;;Hopfgarten i. Br. Berglift Bahnhof;Hopfgarten im Brixental;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101168;Pat:47:1168;Hopfgarten i. Br. Bahnhof;Hopfgarten i. Br. Bahnhof;gtfs;;Hopfgarten i. Br. Bahnhof;Hopfgarten im Brixental;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM2999563457;Pat:47:1169;Wörgl Süd-Bruckhäusl Bahnhof;Wörgl Süd-Bruckhäusl Bahnhof;nom;0.028;Wörgl Süd-Bruckhäusl;Wörgl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101172;Pat:47:1172;Kundl Bahnhof;Kundl Bahnhof;gtfs;;Kundl Bahnhof;Kundl;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101173;Pat:47:1173;Rattenberg-Kramsach Bahnhof;Rattenberg-Kramsach Bahnhof;nom;0.028;Rattenberg-Kramsach;Radfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101174;Pat:47:1174;Brixlegg Bahnhof;Brixlegg Bahnhof;nom;0.031;Brixlegg;Brixlegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -715,35 +537,21 @@ TN8101198;Pat:47:1198;Telfs-Pfaffenhofen Bahnhof;Telfs-Pfaffenhofen Bahnhof;nom;
 TNOSM2985980335;Pat:47:1199;Rietz Bahnhof;Rietz Bahnhof;nom;;Rietz;Rietz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100589;Pat:47:1200;Stams Bahnhof;Stams Bahnhof;nom;0.014;Stams;Stams;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101201;Pat:47:1201;Mötz Bahnhof;Mötz Bahnhof;nom;0.072;Mötz;Silz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM2986313292;Pat:47:1202;Silz Bahnhof;Silz Bahnhof;nom;;Silz;Silz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101202;Pat:47:1202;Silz Bahnhof;Silz Bahnhof;nom;0.002;Silz;Silz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8100956;Pat:47:1203;Haiming Bahnhof;Haiming Bahnhof;nom;0.062;Haiming;Haiming;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101204;Pat:47:1204;Ötztal-Bahnhof;Ötztal-Bahnhof;nom;0.036;Ötztal;Haiming;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101205;Pat:47:1205;Roppen Bahnhof;Roppen Bahnhof;nom;0.005;Roppen;Roppen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101206;Pat:47:1206;Imst-Pitztal Bahnhof;Imst-Pitztal Bahnhof;nom;0.022;Imst-Pitztal;Arzl im Pitztal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101209;Pat:47:1209;Imsterberg Bahnhof;Imsterberg Bahnhof;nom;0.026;Imsterberg;Imsterberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8101210;Pat:47:1210;Schönwies Bahnhof;Schönwies Bahnhof;nom;0.018;Schönwies;Schönwies;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101212;Pat:47:1212;Landeck-Zams Bahnhof;Landeck-Zams Bahnhof;nom;0.029;Landeck-Zams;Landeck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101222;Pat:47:1222;St. Anton a. A. Bahnhof;St. Anton a. A. Bahnhof;gtfs;;St. Anton a. A. Bahnhof;Sankt Anton am Arlberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOSM8680111884;Pat:47:211;Innsbruck Messe Bahnhof;Innsbruck Messe Bahnhof;nom;0.006;Innsbruck Messe;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102181;Pat:47:2181;Kirchbichl Bahnhof;Kirchbichl Bahnhof;nom;0.018;Kirchbichl;Kirchbichl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102183;Pat:47:2183;Schaftenau Bahnhof;Schaftenau Bahnhof;nom;0.004;Schaftenau;Langkampfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102184;Pat:47:2184;Kufstein Bahnhof;Kufstein Bahnhof;nom;0.017;Kufstein;Kufstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102221;Pat:47:2221;Innsbruck Hötting Bahnhof;Innsbruck Hötting Bahnhof;nom;0.008;Innsbruck Hötting;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102222;Pat:47:2222;Innsbruck Allerheiligenhöfe Bahnhof;Innsbruck Allerheiligenhöfe Bahnhof;nom;0.005;Innsbruck Allerheiligenhöfe;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102223;Pat:47:2223;Kranebitten Bahnhof;Kranebitten Bahnhof;nom;0.018;Kranebitten;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102225;Pat:47:2225;Hochzirl Bahnhof;Hochzirl Bahnhof;nom;0.028;Hochzirl;Zirl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102226;Pat:47:2226;Leithen Bahnhof;Leithen Bahnhof;nom;0.014;Leithen;Reith bei Seefeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102227;Pat:47:2227;Reith b. S. Bahnhof;Reith b. S. Bahnhof;gtfs;;Reith b. S. Bahnhof;Reith bei Seefeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102228;Pat:47:2228;Seefeld i. T. Bahnhof;Seefeld i. T. Bahnhof;gtfs;;Seefeld i. T. Bahnhof;Seefeld in Tirol;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102230;Pat:47:2230;Gießenbach Bahnhof;Gießenbach Bahnhof;nom;0.022;Gießenbach;Scharnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102231;Pat:47:2231;Scharnitz Bahnhof;Scharnitz Bahnhof;nom;0.019;Scharnitz;Scharnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102263;Pat:47:2263;Matrei a. Br. Bahnhof;Matrei a. Br. Bahnhof;gtfs;;Matrei a. Br. Bahnhof;Matrei am Brenner;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102264;Pat:47:2264;Steinach a. Br. Bahnhof;Steinach a. Br. Bahnhof;gtfs;;Steinach a. Br. Bahnhof;Steinach am Brenner;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-47-2265;Pat:47:2265;St. Jodok a. Br. Bahnhof;St. Jodok a. Br. Bahnhof;gtfs;;St. Jodok a. Br. Bahnhof;Schmirn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-47-2266;Pat:47:2266;Gries a. Br. Bahnhof;Gries a. Br. Bahnhof;gtfs;;Gries a. Br. Bahnhof;Gries am Brenner;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101185;Pat:47:294;Hall-Thaur Bahnhof;Hall-Thaur Bahnhof;nom;0.049;Hall-Thaur;Hall en Tyrol;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8103873;Pat:47:3873;Lienz Bahnhof;Lienz Bahnhof;nom;0.038;Lienz;Lienz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8103879;Pat:47:3879;Sillian Bahnhof;Sillian Bahnhof;nom;0.012;Sillian;Sillian;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101176;Pat:47:61321;Jenbach Bahnhof;Jenbach Bahnhof;nom;0.028;Jenbach;Jenbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102325;Pat:48:1029;Götzis Bahnhof;Götzis Bahnhof;nom;0.02;Götzis;Götzis;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102351;Pat:48:1098;Hard-Fussach Bahnhof;Hard-Fussach Bahnhof;nom;0.12;Hard-Fussach;Hard;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -760,71 +568,370 @@ TN8102323;Pat:48:233;Sulz-Röthis Bahnhof;Sulz-Röthis Bahnhof;nom;0.015;Sulz-R�
 TN8102333;Pat:48:356;Wolfurt Bahnhof;Wolfurt Bahnhof;nom;0.014;Wolfurt;Wolfurt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102336;Pat:48:452;Bregenz Bahnhof;Bregenz Bahnhof;nom;0.072;Bregenz;Brégence;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-48-454;Pat:48:454;Bregenz Riedenburg Bahnhof;Bregenz Riedenburg Bahnhof;gtfs;;Bregenz Riedenburg Bahnhof;Brégence;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102338;Pat:48:466;Bregenz Hafen Bahnhof;Bregenz Hafen Bahnhof;nom;0.018;Bregenz Hafen;Brégence;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-pat-48-567;Pat:48:567;Altenstadt Bahnhof;Altenstadt Bahnhof;gtfs;;Altenstadt Bahnhof;Feldkirch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-pat-48-628;Pat:48:628;Dornbirn Hatlerdorf Bahnhof;Dornbirn Hatlerdorf Bahnhof;gtfs;;Dornbirn Hatlerdorf Bahnhof;Dornbirn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102337;Pat:48:738;Dornbirn Schoren Bahnhof;Dornbirn Schoren Bahnhof;nom;0.025;Dornbirn Schoren;Dornbirn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102321;Pat:48:847;Feldkirch Amberg Bahnhof;Feldkirch Amberg Bahnhof;nom;0.049;Feldkirch Amberg;Feldkirch;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101235;Pat:48:868;Frastanz Bahnhof;Frastanz Bahnhof;nom;0.045;Frastanz;Frastanz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102339;Pat:48:889;Lochau-Hörbranz Bahnhof;Lochau-Hörbranz Bahnhof;nom;0.017;Lochau-Hörbranz;Lochau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102842;Pat:49:743;Wien Mitte-Landstraße;Wien Mitte-Landstraße;nom;0.052;Wien Mitte;Vienne;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pcz-0-5436275;Pcz:0:5436275;Šatov, železniční stanice;Šatov, železniční stanice;gtfs;;Šatov, železniční stanice;Šatov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8020234;Pde:09162:5;München Ostbahnhof;München Ost;nom;0.144;München Ost;Munich;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8020174;Pde:09163:9;Rosenheim Bahnhof;Rosenheim;nom;0.043;Rosenheim;Rosenheim;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8000462;Pde:09172:42293;Freilassing Bahnhof;Freilassing;nom;0.036;Freilassing;Freilassing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8020291;Pde:09180:42873;Mittenwald Bahnhof;Mittenwald;nom;0.005;Mittenwald;Mittenwald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pfl-21-104;Pfl:21:104;Schaan Bahnhof;Schaan Bahnhof;gtfs;;Schaan Bahnhof;Schaan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOSM1353606655;Pfl:21:1371;Nendeln Bahnhof;Nendeln;nom;0.008;Nendeln;Eschen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM1887823668;Pfl:21:4145;Schaan Forst Hilti Bahnhof;Forst Hilti;nom;0.025;Forst Hilti;Schaan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-phr-62-65;Phr:62:65;Split željeznički kolodvor;Split željeznički kolodvor;gtfs;;Split željeznički kolodvor;Split;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5502725;Phu:08518:27001898;Sopron pályaudvar;Sopron;nom;0.043;Sopron;Sopron;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5502667;Phu:15343:27001902;Fertőszentmiklós pályaudvar;Fertőszentmiklós;nom;0.008;Fertőszentmiklós;Fertőszentmiklós;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5501362;Phu:17905:27000493;Hegyeshalom pályaudvar;Hegyeshalom;nom;0.082;Hegyeshalom;Hegyeshalom;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5501289;Phu:28007:51761;Győr pályaudvar;Györ;nom;0.065;Győr;Győr;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8314706;Pit:22015:116;Bologna, Stazione di Bologna Centrale;Bologna, Stazione di Bologna Centrale;gtfs;;Bologna, Stazione di Bologna Centrale;Bologne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020150;Pde:09187:41818;Prien Bahnhof;Prien Bahnhof;gtfs;;Prien Bahnhof;Prien am Chiemsee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8302011;Pit:22021:1170;Fortezza, Stazione di Fortezza;Fortezza, Stazione di Fortezza;gtfs;;Fortezza, Stazione di Fortezza;Fortezza;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8302001;Pit:22021:1389;Brennero, Stazione di Brennero;Brennero, Stazione di Brennero;gtfs;;Brennero, Stazione di Brennero;Brennero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8302114;Pit:22021:1980;San Candido, Stazione di San Candido;San Candido, Stazione di San Candido;gtfs;;San Candido, Stazione di San Candido;San Candido;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8302026;Pit:22021:468;Bolzano, Stazione di Bolzano;Bolzano, Stazione di Bolzano;gtfs;;Bolzano, Stazione di Bolzano;Bolzano;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8303026;Pit:22095:7049;Udine stazione;Udine;nom;0.009;Udine;Udine;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOBB-pit-22095-7068;Pit:22095:7068;Tarvisio Citta Boscoverde;Tarvisio Citta Boscoverde;gtfs;;Tarvisio Citta Boscoverde;Tarvisio;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8302589;Pit:22099:7023;Venezia Mestre stazione;Venezia Mestre;nom;0.027;Venezia Mestre;Venise;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5107331;Ppl:51020;Katowice stacja kolejowa;Katowice Osobowa;nom;0.005;Katowice;Katowice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNOSM5682644396;Psi:63:102;Šentilj železniška postaja;Sentilj;nom;0.001;Šentilj;Šentilj;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN7943400;Psi:63:106;Maribor Železniška postaja;Maribor;nom;0.037;Maribor;Maribor;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN7942400;Psi:63:5948;Jesenice (SI) železniška posta;Jesenice (SL);nom;0.032;Jesenice;Jesenice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5614576;Psk:56:2;Bratislava-Petržalka stanica;Bratislava-Petrzalka;nom;0.039;Bratislava-Petržalka;Bratislava;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN2232030;Pua:22005;Kyjiw-Passaschyrskyj;Kyjiw-Passaschyrskyj;gtfs;;Kyjiw-Passaschyrskyj;Kiev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pua-22010;Pua:22010;Chop;Chop;gtfs;;Chop;Chop urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pua-22025;Pua:22025;Lviv;Lviv;gtfs;;Lviv;communauté municipale de Lviv;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pua-22033;Pua:22033;Mukačevo;Mukačevo;gtfs;;Mukačevo;Mukachevo urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pua-22072;Pua:22072;Stryj;Stryj;gtfs;;Stryj;Stryi urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNOBB-pua-22517;Pua:22517;Swaljawa;Swaljawa;gtfs;;Swaljawa;Свалявська міська громада;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302044;Pit:22022:7002;Rovereto, Stazione di Rovereto;Rovereto;nom;0.019;Rovereto;Rovereto;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302038;Pit:22022:95699;Trento, Stazione di Trento;Trento;nom;0.005;Trento;Trente;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-3294-0-1;at:41:3294:0:1;Deutschkreutz Bahnhof;Deutschkreutz Bahnhof;gtfs;;Deutschkreutz Bahnhof;Deutschkreutz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103282;at:41:3294:0:5;Deutschkreutz Bahnhof;Deutschkreutz Bahnhof;nom;0.037;Deutschkreutz;Deutschkreutz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100219;at:41:3298:0:1;Donnerskirchen Bahnhof;Donnerskirchen Bahnhof;nom;0.014;Donnerskirchen;Donnerskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100220;at:41:3303:0:1;Draßburg Bahnhof;Draßburg Bahnhof;nom;0.014;Draßburg;Draßburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-at-41-3351-0-1;at:41:3351:0:1;Eisenstadt Bahnhof;Eisenstadt Bahnhof;gtfs;;Eisenstadt Bahnhof;Eisenstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100231;at:41:3351:0:4;Eisenstadt Bahnhof;Eisenstadt Bahnhof;nom;0.073;Eisenstadt;Eisenstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-at-41-3351-0-5;at:41:3351:0:5;Eisenstadt Bahnhof;Eisenstadt Bahnhof;gtfs;;Eisenstadt Bahnhof;Eisenstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM315111042;at:41:3443:0:1;Frauenkirchen Bahnhof;Frauenkirchen Bahnhof;nom;0.009;Frauenkirchen;Frauenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM254073098;at:41:3531:0:1;Gols Bahnhof;Gols Bahnhof;nom;0.038;Gols;Gols;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-4227-0-1;at:41:4227:0:1;Müllendorf Bahnhof;Müllendorf Bahnhof;gtfs;;Müllendorf Bahnhof;Müllendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM310508282;at:41:4227:0:4;Müllendorf Bahnhof;Müllendorf Bahnhof;nom;0.045;Müllendorf;Müllendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM277756229;at:41:4309:0:1;Mönchhof-Halbturn Bahnhof;Mönchhof-Halbturn Bahnhof;nom;0.12;Mönchhof-Halbturn;Mönchhof;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-4327-0-1;at:41:4327:0:1;Neufeld an der Leitha Bahnhof;Neufeld an der Leitha Bahnhof;gtfs;;Neufeld an der Leitha Bahnhof;Neufeld an der Leitha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM39440165;at:41:4327:0:2;Neufeld an der Leitha Bahnhof;Neufeld an der Leitha Bahnhof;nom;0.01;Neufeld an der Leitha;Neufeld an der Leitha;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-4348-0-1;at:41:4348:0:1;Neusiedl am See Bad Bahnhof;Neusiedl am See Bad Bahnhof;gtfs;;Neusiedl am See Bad Bahnhof;Neusiedl am See;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100499;at:41:4367:0:1;Nickelsdorf Bahnhof;Nickelsdorf Bahnhof;nom;0.023;Nickelsdorf;Nickelsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-4367-0-3;at:41:4367:0:3;Nickelsdorf Bahnhof;Nickelsdorf Bahnhof;gtfs;;Nickelsdorf Bahnhof;Nickelsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8133028;at:41:4464:0:1;Pamhagen Bahnhof;Pamhagen Bahnhof;nom;0.037;Pamhagen;Pamhagen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-4592-0-1;at:41:4592:0:1;Purbach am Neusiedler See Bf.;Purbach am Neusiedler See Bf.;gtfs;;Purbach am Neusiedler See Bf.;Purbach am Neusiedlersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-41-4592-0-3;at:41:4592:0:3;Purbach am Neusiedler See Bf.;Purbach am Neusiedler See Bf.;gtfs;;Purbach am Neusiedler See Bf.;Purbach am Neusiedlersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM304177046;at:41:4821:0:1;St. Andrä am Zicksee Bahnhof;St. Andrä am Zicksee;nom;0.026;St. Andrä am Zicksee;Sankt Andrä am Zicksee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-5143-0-1;at:41:5143:0:1;Wallern im Bgld Bahnhof;Wallern im Bgld Bahnhof;gtfs;;Wallern im Bgld Bahnhof;Wallern im Burgenland;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM279676014;at:41:5157:0:1;Weiden am See Bahnhof;Weiden am See Bahnhof;nom;0.004;Weiden am See;Weiden am See;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100361;at:41:5286:0:4;Wulkaprodersdorf Bahnhof;Wulkaprodersdorf Bahnhof;nom;0.04;Wulkaprodersdorf;Antau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100388;at:41:5969:0:1;Neudorf;Neudorf;nom;0.034;Neudorf / Novo Selo;Neudorf bei Parndorf/Novo Selo;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100332;at:41:5970:0:1;Gattendorf Bahnhof;Gattendorf Bahnhof;nom;0.061;Gattendorf;Gattendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-41-5970-0-2;at:41:5970:0:2;Gattendorf Bahnhof;Gattendorf Bahnhof;gtfs;;Gattendorf Bahnhof;Gattendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-41-5971-0-1;at:41:5971:0:1;Pama Bahnhof;Pama Bahnhof;gtfs;;Pama Bahnhof;Pama;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100373;at:41:5972:0:1;Kittsee Bahnhof;Kittsee Bahnhof;nom;0.084;Kittsee;Kittsee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103508;at:41:7075:0:3;Jennersdorf Bahnhof;Jennersdorf Bahnhof;nom;0.071;Jennersdorf;Jennersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103510;at:41:7455:0:1;Mogersdorf Bahnhof;Mogersdorf Bahnhof;nom;0.008;Mogersdorf;Mogersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103647;at:42:3647:0:2;Pritschitz Bahnhst;Pritschitz Bahnhst;nom;0.006;Pritschitz;Pörtschach am Wörthersee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103870;at:42:3870:0:2;Oberdrauburg Bahnhof;Oberdrauburg Bahnhof;nom;0.049;Oberdrauburg;Oberdrauburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8171189;at:43:20307:0:1;Unterretzbach Bahnhof;Unterretzbach Bahnhof;nom;0.003;Unterretzbach;Retzbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100538;at:43:3079:0:3;Bad Deutsch-Altenburg Bahnhof;Bad Deutsch-Altenburg Bahnhof;nom;0.006;Bad Deutsch Altenburg;Bad Deutsch-Altenburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101324;at:43:3160:0:1;Berndorf Stadt Bahnhof;Berndorf Stadt Bahnhof;nom;0.007;Berndorf Stadt;Berndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102660;at:43:3205:0:1;Breitenwaida Bahnhof;Breitenwaida Bahnhof;nom;0.036;Breitenwaida;Hollabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-3318-0-1;at:43:3318:0:1;Ebenfurth Bahnhof;Ebenfurth Bahnhof;gtfs;;Ebenfurth Bahnhof;Ebenfurth;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103199;at:43:3318:0:5;Ebenfurth Bahnhof;Ebenfurth Bahnhof;nom;0.049;Ebenfurth;Ebenfurth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-3401-0-1;at:43:3401:0:1;Enzesfeld-Lindabrunn Bahnhof;Enzesfeld-Lindabrunn Bahnhof;gtfs;;Enzesfeld-Lindabrunn Bahnhof;Enzesfeld-Lindabrunn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101328;at:43:3401:0:5;Enzesfeld-Lindabrunn Bahnhof;Enzesfeld-Lindabrunn Bahnhof;nom;0.026;Enzesfeld-Lindabrunn;Enzesfeld-Lindabrunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100235;at:43:3430:0:1;Fischamend Bahnhof;Fischamend Bahnhof;nom;0.039;Fischamend;Fischamend;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-3430-0-3;at:43:3430:0:3;Fischamend Bahnhof;Fischamend Bahnhof;gtfs;;Fischamend Bahnhof;Fischamend;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100808;at:43:3449:0:1;Frättingsdorf Bahnhof;Frättingsdorf Bahnhof;nom;0.01;Frättingsdorf;Mistelbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-3449-0-2;at:43:3449:0:2;Frättingsdorf Bahnhof;Frättingsdorf Bahnhof;gtfs;;Frättingsdorf Bahnhof;Mistelbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102426;at:43:3580:0:1;Großweikersdorf Bahnhof;Großweikersdorf Bahnhof;nom;0.116;Großweikersdorf;Großweikersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-3580-0-3;at:43:3580:0:3;Großweikersdorf Bahnhof;Großweikersdorf Bahnhof;gtfs;;Großweikersdorf Bahnhof;Großweikersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-3681-0-1;at:43:3681:0:1;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;gtfs;;Hainburg/Donau Kulturfabrik Bhf.;Hainburg an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-3681-0-2;at:43:3681:0:2;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;gtfs;;Hainburg/Donau Kulturfabrik Bhf.;Hainburg an der Donau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-3784-0-1;at:43:3784:0:1;Horn Bahnhof;Horn Bahnhof;gtfs;;Horn Bahnhof;Horn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102522;at:43:3784:0:4;Horn Bahnhof;Horn Bahnhof;nom;0.101;Horn;Horn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4015-0-1;at:43:4015:0:1;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;gtfs;;Laa/Thaya Bahnhof;Laa an der Thaya;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-4015-0-4;at:43:4015:0:4;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;gtfs;;Laa/Thaya Bahnhof;Laa an der Thaya;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101330;at:43:4016:0:1;St. Pölten Bildungscampus Bahnhof;St. Pölten Bildungscampus;nom;0.03;St. Pölten Bildungscampus;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102651;at:43:4083:0:1;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf-Burg Kreuzenstein;nom;0.011;Leobendorf-Burg Kreuzenstein;Leobendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4083-0-2;at:43:4083:0:2;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf-Burg Kreuzenstein Bhf.;gtfs;;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102430;at:43:4102:0:1;Limberg-Maissau Bahnhof;Limberg-Maissau Bahnhof;nom;0.172;Limberg-Maissau;Maissau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4102-0-2;at:43:4102:0:2;Limberg-Maissau Bahnhof;Limberg-Maissau Bahnhof;gtfs;;Limberg-Maissau Bahnhof;Maissau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102417;at:43:4225:0:1;Muckendorf-Wipfing Bahnhof;Muckendorf-Wipfing Bahnhof;nom;0.053;Muckendorf-Wipfing;Muckendorf-Wipfing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4225-0-2;at:43:4225:0:2;Muckendorf-Wipfing Bahnhof;Muckendorf-Wipfing Bahnhof;gtfs;;Muckendorf-Wipfing Bahnhof;Muckendorf-Wipfing;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103041;at:43:4423:0:1;Oberwaltersdorf Bahnhof;Oberwaltersdorf Bahnhof;nom;0.02;Oberwaltersdorf;Oberwaltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100520;at:43:4531:0:1;Petronell-Carnuntum Bahnhof;Petronell-Carnuntum Bahnhof;nom;0.04;Petronell-Carnuntum;Petronell-Carnuntum;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4531-0-4;at:43:4531:0:4;Petronell-Carnuntum Bahnhof;Petronell-Carnuntum Bahnhof;gtfs;;Petronell-Carnuntum Bahnhof;Petronell-Carnuntum;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3982397740;at:43:4556:0:1;Pottenbrunn Bahnhof;Pottenbrunn Bahnhof;nom;0.007;Pottenbrunn;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4556-0-4;at:43:4556:0:4;Pottenbrunn Bahnhof;Pottenbrunn Bahnhof;gtfs;;Pottenbrunn Bahnhof;Sankt Pölten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101416;at:43:4616:0:1;Rabensburg Bahnhof;Rabensburg Bahnhof;nom;0.098;Rabensburg;Rabensburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4616-0-2;at:43:4616:0:2;Rabensburg Bahnhof;Rabensburg Bahnhof;gtfs;;Rabensburg Bahnhof;Rabensburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100469;at:43:4656:0:1;Retz Bahnhof;Retz Bahnhof;nom;0.091;Retz;Retz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-4656-0-4;at:43:4656:0:4;Retz Bahnhof;Retz Bahnhof;gtfs;;Retz Bahnhof;Retz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102652;at:43:4814:0:3;Spillern Bahnhof;Spillern Bahnhof;nom;0.017;Spillern;Spillern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102883;at:43:4852:0:1;Staatz Bahnhof;Staatz Bahnhof;nom;0.016;Staatz;Staatz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103043;at:43:4983:0:1;Teesdorf Bahnhof;Teesdorf Bahnhof;nom;0.036;Teesdorf;Teesdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101764;at:43:5138:0:1;Wagram-Grafenegg Bahnhof;Wagram-Grafenegg Bahnhof;nom;0.031;Wagram-Grafenegg;Grafenwörth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101321;at:43:5195:0:1;Weissenbach-Neuhaus Bahnhof;Weissenbach-Neuhaus Bahnhof;nom;0.053;Weissenbach-Neuhaus;Weissenbach an der Triesting;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-5195-0-5;at:43:5195:0:5;Weissenbach-Neuhaus Bahnhof;Weissenbach-Neuhaus Bahnhof;gtfs;;Weissenbach-Neuhaus Bahnhof;Weissenbach an der Triesting;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-5271-0-1;at:43:5271:0:1;Wolfsthal;Wolfsthal;gtfs;;Wolfsthal;Wolfsthal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-5271-0-4;at:43:5271:0:4;Wolfsthal;Wolfsthal;gtfs;;Wolfsthal;Wolfsthal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-5301-0-1;at:43:5301:0:1;Zeiselmauer-Königstetten Bhf.;Zeiselmauer-Königstetten Bhf.;gtfs;;Zeiselmauer-Königstetten Bhf.;Zeiselmauer-Wolfpassing;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102416;at:43:5301:0:3;Zeiselmauer-Königstetten Bhf.;Zeiselmauer-Königstetten;nom;0.052;Zeiselmauer-Königstetten;Zeiselmauer-Wolfpassing;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100192;at:43:7032:0:1;Bad Erlach Bahnhof;Bad Erlach Bahnhof;nom;0.07;Bad Erlach;Bad Erlach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7032-0-4;at:43:7032:0:4;Bad Erlach Bahnhof;Bad Erlach Bahnhof;gtfs;;Bad Erlach Bahnhof;Bad Erlach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103303;at:43:7033:0:1;Brunn an der Pitten Bahnhof;Brunn an der Pitten Bahnhof;nom;0.01;Brunn an der Pitten;Pitten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM654133068;at:43:7035:0:1;Sautern-Schiltern Bahnhof;Sautern-Schiltern Bahnhof;nom;;Sautern-Schiltern;Pitten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100190;at:43:7036:0:1;Seebenstein Bahnhof;Seebenstein Bahnhof;nom;0.02;Seebenstein;Seebenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7036-0-3;at:43:7036:0:3;Seebenstein Bahnhof;Seebenstein Bahnhof;gtfs;;Seebenstein Bahnhof;Seebenstein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7038-0-2;at:43:7038:0:2;Scheiblingkirchen-Warth;Scheiblingkirchen-Warth;gtfs;;Scheiblingkirchen-Warth;Scheiblingkirchen-Thernberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103309;at:43:7039:0:1;Petersbaumgarten Bahnhof;Petersbaumgarten Bahnhof;nom;0.04;Petersbaumgarten;Warth;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7040-0-1;at:43:7040:0:1;Edlitz-Grimmenstein Bahnhof;Edlitz-Grimmenstein Bahnhof;gtfs;;Edlitz-Grimmenstein Bahnhof;Thomasberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7042-0-1;at:43:7042:0:1;Ausschlag-Zöbern Bahnhof;Ausschlag-Zöbern Bahnhof;gtfs;;Ausschlag-Zöbern Bahnhof;Aspang-Markt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103314;at:43:7042:0:3;Ausschlag-Zöbern Bahnhof;Ausschlag-Zöbern Bahnhof;nom;0.054;Ausschlag-Zöbern;Aspang-Markt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM71796548;at:43:7057:0:1;Lanzenkirchen Bahnhof;Lanzenkirchen Bahnhof;nom;;Lanzenkirchen;Lanzenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7057-0-3;at:43:7057:0:3;Lanzenkirchen Bahnhof;Lanzenkirchen Bahnhof;gtfs;;Lanzenkirchen Bahnhof;Lanzenkirchen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7091-0-3;at:43:7091:0:3;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn Bahnhof;gtfs;;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103049;at:43:7091:0:4;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn Bahnhof;nom;0.026;Bad Fischau-Brunn;Bad Fischau-Brunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7091-0-5;at:43:7091:0:5;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn Bahnhof;gtfs;;Bad Fischau-Brunn Bahnhof;Bad Fischau-Brunn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103048;at:43:7092:0:1;Bad Fischau Bahnhof;Bad Fischau Bahnhof;nom;0.003;Bad Fischau;Bad Fischau-Brunn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7093-0-1;at:43:7093:0:1;Feuerwerksanstalt Bahnhof;Feuerwerksanstalt Bahnhof;gtfs;;Feuerwerksanstalt Bahnhof;Wöllersdorf-Steinabrückl;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103047;at:43:7093:0:2;Feuerwerksanstalt Bahnhof;Feuerwerksanstalt Bahnhof;nom;0.02;Feuerwerksanstalt;Wöllersdorf-Steinabrückl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7094-0-1;at:43:7094:0:1;Wöllersdorf Bahnhof;Wöllersdorf Bahnhof;gtfs;;Wöllersdorf Bahnhof;Wöllersdorf-Steinabrückl;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103234;at:43:7094:0:2;Wöllersdorf Bahnhof;Wöllersdorf Bahnhof;nom;0.017;Wöllersdorf;Wöllersdorf-Steinabrückl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7099-0-1;at:43:7099:0:1;Waldegg Bahnhof;Waldegg Bahnhof;gtfs;;Waldegg Bahnhof;Waldegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101745;at:43:7099:0:2;Waldegg Bahnhof;Waldegg Bahnhof;nom;0.011;Waldegg;Waldegg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7100-0-1;at:43:7100:0:1;Oed/Piesting Bahnhof;Oed/Piesting Bahnhof;gtfs;;Oed/Piesting Bahnhof;Waldegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7100-0-2;at:43:7100:0:2;Oed/Piesting Bahnhof;Oed/Piesting Bahnhof;gtfs;;Oed/Piesting Bahnhof;Waldegg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7104-0-1;at:43:7104:0:1;Pernitz-Muggendorf Bahnhof;Pernitz-Muggendorf Bahnhof;gtfs;;Pernitz-Muggendorf Bahnhof;Pernitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103243;at:43:7104:0:4;Pernitz-Muggendorf Bahnhof;Pernitz-Muggendorf Bahnhof;nom;0.006;Pernitz-Muggendorf;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7105-0-1;at:43:7105:0:1;Gutenstein Bahnhof;Gutenstein Bahnhof;gtfs;;Gutenstein Bahnhof;Gutenstein;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103244;at:43:7105:0:3;Gutenstein Bahnhof;Gutenstein Bahnhof;nom;0.019;Gutenstein;Gutenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7109-0-1;at:43:7109:0:1;Markt Piesting Bahnhof;Markt Piesting Bahnhof;gtfs;;Markt Piesting Bahnhof;Markt Piesting;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7109-0-4;at:43:7109:0:4;Markt Piesting Bahnhof;Markt Piesting Bahnhof;gtfs;;Markt Piesting Bahnhof;Markt Piesting;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7112-0-1;at:43:7112:0:1;Winzendorf Bahnhof;Winzendorf Bahnhof;gtfs;;Winzendorf Bahnhof;Winzendorf-Muthmannsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103052;at:43:7112:0:4;Winzendorf Bahnhof;Winzendorf Bahnhof;nom;0.032;Winzendorf;Winzendorf-Muthmannsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103053;at:43:7113:0:1;Urschendorf Bahnhof;Urschendorf Bahnhof;nom;0.006;Urschendorf;Winzendorf-Muthmannsdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103055;at:43:7114:0:1;Willendorf Bahnhof;Willendorf Bahnhof;nom;0.02;Willendorf;Willendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7114-0-2;at:43:7114:0:2;Willendorf Bahnhof;Willendorf Bahnhof;gtfs;;Willendorf Bahnhof;Willendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7115-0-1;at:43:7115:0:1;Unterhöflein Bahnhof;Unterhöflein Bahnhof;gtfs;;Unterhöflein Bahnhof;Höflein an der Hohen Wand;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7116-0-1;at:43:7116:0:1;Grünbach/Schneeberg Bahnhof;Grünbach/Schneeberg Bahnhof;gtfs;;Grünbach/Schneeberg Bahnhof;Grünbach am Schneeberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7116-0-2;at:43:7116:0:2;Grünbach/Schneeberg Bahnhof;Grünbach/Schneeberg Bahnhof;gtfs;;Grünbach/Schneeberg Bahnhof;Grünbach am Schneeberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103054;at:43:7119:0:1;Rothengrub Bahnhof;Rothengrub Bahnhof;nom;0.009;Rothengrub;Willendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM8130811972;at:43:7120:0:1;Puchberg am Schneeberg Bahnhof;Puchberg am Schneeberg Bahnhof;nom;0.012;Puchberg am Schneeberg;Puchberg am Schneeberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102438;at:43:7161:0:3;Hötzelsdorf-Geras Bahnhof;Hötzelsdorf-Geras Bahnhof;nom;0.054;Hötzelsdorf-Geras;Geras;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7162-0-1;at:43:7162:0:1;Irnfritz Bahnhof;Irnfritz Bahnhof;gtfs;;Irnfritz Bahnhof;Irnfritz-Messern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102440;at:43:7162:0:3;Irnfritz Bahnhof;Irnfritz Bahnhof;nom;0.058;Irnfritz;Irnfritz-Messern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7163-0-1;at:43:7163:0:1;Göpfritz;Göpfritz;gtfs;;Göpfritz;Göpfritz an der Wild;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102443;at:43:7164:0:1;Allentsteig Bahnhof;Allentsteig Bahnhof;nom;0.044;Allentsteig;Allentsteig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7164-0-3;at:43:7164:0:3;Allentsteig Bahnhof;Allentsteig Bahnhof;gtfs;;Allentsteig Bahnhof;Allentsteig;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7165-0-1;at:43:7165:0:1;Schwarzenau Bahnhof;Schwarzenau Bahnhof;gtfs;;Schwarzenau Bahnhof;Schwarzenau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102444;at:43:7165:0:3;Schwarzenau Bahnhof;Schwarzenau Bahnhof;nom;0.121;Schwarzenau;Schwarzenau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7166-0-1;at:43:7166:0:1;Vitis Bahnhof;Vitis Bahnhof;gtfs;;Vitis Bahnhof;Vitis;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102447;at:43:7166:0:4;Vitis Bahnhof;Vitis Bahnhof;nom;0.06;Vitis;Vitis;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7167-0-1;at:43:7167:0:1;Hirschbach bei Gmünd Bahnhof;Hirschbach bei Gmünd Bahnhof;gtfs;;Hirschbach bei Gmünd Bahnhof;Hirschbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102449;at:43:7168:0:4;Pürbach-Schrems Bahnhof;Pürbach-Schrems Bahnhof;nom;0.037;Pürbach-Schrems;Schrems;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-at-43-7169-0-1;at:43:7169:0:1;Gmünd Bahnhof;Gmünd Bahnhof;gtfs;;Gmünd Bahnhof;Gmünd;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-at-43-7169-0-6;at:43:7169:0:6;Gmünd Bahnhof;Gmünd Bahnhof;gtfs;;Gmünd Bahnhof;Gmünd;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-at-43-7169-0-7;at:43:7169:0:7;Gmünd Bahnhof;Gmünd Bahnhof;gtfs;;Gmünd Bahnhof;Gmünd;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7225-0-1;at:43:7225:0:1;Loosdorf/Melk Bahnhof;Loosdorf/Melk Bahnhof;gtfs;;Loosdorf/Melk Bahnhof;Loosdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7225-0-4;at:43:7225:0:4;Loosdorf/Melk Bahnhof;Loosdorf/Melk Bahnhof;gtfs;;Loosdorf/Melk Bahnhof;Loosdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7228-0-1;at:43:7228:0:1;Krummnußbaum Bahnhof;Krummnußbaum Bahnhof;gtfs;;Krummnußbaum Bahnhof;Krummnußbaum;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101043;at:43:7228:0:2;Krummnußbaum Bahnhof;Krummnußbaum Bahnhof;nom;0.008;Krummnußbaum;Krummnußbaum;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101053;at:43:7235:0:1;Mauer-Öhling Bahnhof;Mauer-Öhling Bahnhof;nom;0.053;Mauer-Öhling;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7235-0-3;at:43:7235:0:3;Mauer-Öhling Bahnhof;Mauer-Öhling Bahnhof;gtfs;;Mauer-Öhling Bahnhof;Amstetten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7238-0-1;at:43:7238:0:1;St. Peter-Seitenstetten Bhf.;St. Peter-Seitenstetten Bhf.;gtfs;;St. Peter-Seitenstetten Bhf.;Sankt Peter in der Au;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7238-0-4;at:43:7238:0:4;St. Peter-Seitenstetten Bhf.;St. Peter-Seitenstetten Bhf.;gtfs;;St. Peter-Seitenstetten Bhf.;Sankt Peter in der Au;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101510;at:43:7376:0:1;St. Georgen am Steinfelde Bahnhof;St. Georgen am Steinfelde;nom;0.057;St. Georgen am Steinfelde;Sankt Pölten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7377-0-1;at:43:7377:0:1;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg/Traisen Bahnhof;gtfs;;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7377-0-4;at:43:7377:0:4;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg/Traisen Bahnhof;gtfs;;Wilhelmsburg/Traisen Bahnhof;Wilhelmsburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101306;at:43:7378:0:1;Kreisbach Bahnhof;Kreisbach Bahnhof;nom;0.06;Kreisbach;Wilhelmsburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7381-0-1;at:43:7381:0:1;Traisen Bahnhof;Traisen Bahnhof;gtfs;;Traisen Bahnhof;Traisen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101309;at:43:7381:0:4;Traisen Bahnhof;Traisen Bahnhof;nom;0.093;Traisen;Traisen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101331;at:43:7382:0:1;Traisen Markt Bahnhof;Traisen Markt Bahnhof;nom;0.018;Traisen Markt;Traisen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101332;at:43:7383:0:1;Marktl Bahnhof;Marktl Bahnhof;nom;0.033;Marktl;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7384-0-1;at:43:7384:0:1;Lilienfeld Bahnhof;Lilienfeld Bahnhof;gtfs;;Lilienfeld Bahnhof;Lilienfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101333;at:43:7384:0:5;Lilienfeld Bahnhof;Lilienfeld Bahnhof;nom;0.007;Lilienfeld;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101586;at:43:7386:0:1;Schrambach Bahnhof;Schrambach Bahnhof;nom;0.02;Schrambach;Lilienfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101804;at:43:7399:0:1;Wiesenfeld-Schwarzenbach Bf.;Wiesenfeld-Schwarzenbach;nom;0.022;Wiesenfeld-Schwarzenbach;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101622;at:43:7400:0:1;St. Veit an der Gölsen Bahnhof;St. Veit an der Gölsen;nom;0.004;St. Veit an der Gölsen;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101421;at:43:7401:0:1;Rainfeld-Kleinzell Bahnhof;Rainfeld-Kleinzell Bahnhof;nom;0.049;Rainfeld-Kleinzell;Sankt Veit an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101439;at:43:7402:0:1;Rohrbach an der Gölsen Bahnhof;Rohrbach an der Gölsen Bahnhof;nom;0.039;Rohrbach an der Gölsen;Rohrbach an der Gölsen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100957;at:43:7403:0:1;Hainfeld Bahnhof;Hainfeld Bahnhof;nom;0.033;Hainfeld;Hainfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7403-0-4;at:43:7403:0:4;Hainfeld Bahnhof;Hainfeld Bahnhof;gtfs;;Hainfeld Bahnhof;Hainfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101412;at:43:7442:0:1;Petzenkirchen Bahnhof;Petzenkirchen Bahnhof;nom;0.003;Petzenkirchen;Petzenkirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM4116313089;at:43:7443:0:1;Wieselburg Bahnhof;Wieselburg Bahnhof;nom;0.006;Wieselburg;Wieselburg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7443-0-4;at:43:7443:0:4;Wieselburg/Erlauf;Wieselburg/Erlauf;gtfs;;Wieselburg/Erlauf;Wieselburg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101225;at:43:7444:0:1;Mühling Bahnhof;Mühling Bahnhof;nom;0.002;Mühling;Wieselburg-Land;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM1398940888;at:43:7446:0:1;Schauboden Bahnhof;Schauboden Bahnhof;nom;;Schauboden;Purgstall an der Erlauf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7447-0-1;at:43:7447:0:1;Purgstall/Erlauf Bahnhof;Purgstall/Erlauf Bahnhof;gtfs;;Purgstall/Erlauf Bahnhof;Purgstall an der Erlauf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7447-0-4;at:43:7447:0:4;Purgstall/Erlauf Bahnhof;Purgstall/Erlauf Bahnhof;gtfs;;Purgstall/Erlauf Bahnhof;Purgstall an der Erlauf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101851;at:43:7448:0:1;Sölling Bahnhof;Sölling Bahnhof;nom;0.003;Sölling;Purgstall an der Erlauf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101463;at:43:7449:0:1;Saffen Bahnhof;Saffen Bahnhof;nom;0.003;Saffen;Scheibbs;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM1279571961;at:43:7450:0:1;Scheibbs Bahnhof;Scheibbs Bahnhof;nom;0.037;Scheibbs;Scheibbs;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM294590552;at:43:7893:0:1;Greinsfurth Bahnhof;Greinsfurth Bahnhof;nom;;Greinsfurth;Amstetten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7897-0-3;at:43:7897:0:3;Rosenau am Sonntagberg Bahnhof;Rosenau am Sonntagberg Bahnhof;gtfs;;Rosenau am Sonntagberg Bahnhof;Sonntagberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101435;at:43:7898:0:1;Sonntagberg Bahnhof;Sonntagberg Bahnhof;nom;0.006;Sonntagberg;Sonntagberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-7899-0-1;at:43:7899:0:1;Böhlerwerk an der Ybbs Bahnhof;Böhlerwerk an der Ybbs Bahnhof;gtfs;;Böhlerwerk an der Ybbs Bahnhof;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7900-0-1;at:43:7900:0:1;Waidhofen/Ybbs Bahnhof;Waidhofen/Ybbs Bahnhof;gtfs;;Waidhofen/Ybbs Bahnhof;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7900-0-4;at:43:7900:0:4;Waidhofen/Ybbs Bahnhof;Waidhofen/Ybbs Bahnhof;gtfs;;Waidhofen/Ybbs Bahnhof;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-7901-0-1;at:43:7901:0:1;Waidhofen/Ybbs Stadt;Waidhofen/Ybbs Stadt;gtfs;;Waidhofen/Ybbs Stadt;Waidhofen an der Ybbs;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102552;at:43:8000:0:1;Furth-Göttweig Bahnhof;Furth-Göttweig Bahnhof;nom;0.03;Furth-Göttweig;Furth bei Göttweig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-8001-0-1;at:43:8001:0:1;Furth-Palt Bahnhof;Furth-Palt Bahnhof;gtfs;;Furth-Palt Bahnhof;Furth bei Göttweig;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102551;at:43:8001:0:4;Furth-Palt Bahnhof;Furth-Palt Bahnhof;nom;0.029;Furth-Palt;Furth bei Göttweig;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102554;at:43:8009:0:1;Paudorf Bahnhof;Paudorf Bahnhof;nom;0.06;Paudorf;Paudorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-8009-0-2;at:43:8009:0:2;Paudorf Bahnhof;Paudorf Bahnhof;gtfs;;Paudorf Bahnhof;Paudorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-43-8010-0-1;at:43:8010:0:1;Statzendorf Bahnhof;Statzendorf Bahnhof;gtfs;;Statzendorf Bahnhof;Statzendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102556;at:43:8010:0:4;Statzendorf Bahnhof;Statzendorf Bahnhof;nom;0.003;Statzendorf;Statzendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-8022-0-1;at:43:8022:0:1;Brunn an der Schneebergbahn Bhf.;Brunn an der Schneebergbahn Bhf.;gtfs;;Brunn an der Schneebergbahn Bhf.;Bad Fischau-Brunn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103245;at:43:8059:0:1;Pernitz Wipfelhofstraße/Bf.;Pernitz Wipfelhofstraße;nom;0.016;Pernitz Wipfelhofstraße;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101349;at:43:8068:0:1;Pfennigbach Bahnhof;Pfennigbach Bahnhof;nom;0.003;Pfennigbach;Puchberg am Schneeberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103246;at:43:8074:0:1;Pernitz Raimundviertel Bahnhof;Pernitz Raimundviertel Bahnhof;nom;0.041;Pernitz Raimundviertel;Pernitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101525;at:43:8240:0:1;Herzograd Bahnhof;Herzograd Bahnhof;nom;0.049;Herzograd;St. Valentin;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-at-43-8764-0-1;at:43:8764:0:1;Küb Bahnhof;Küb Bahnhof;gtfs;;Küb Bahnhof;Payerbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8103136;at:43:8764:0:2;Küb Bahnhof;Küb Bahnhof;nom;0.038;Küb;Payerbach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-43-8769-0-2;at:43:8769:0:2;Semmering Bahnhof;Semmering Bahnhof;gtfs;;Semmering Bahnhof;Semmering;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103141;at:43:8769:0:3;Semmering Bahnhof;Semmering Bahnhof;nom;0.064;Semmering;Semmering;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101630;at:44:43660:0:1;Spital am Pyhrn Bahnhof;Spital am Pyhrn Bahnhof;gtfs;;Spital am Pyhrn Bahnhof;Spital am Pyhrn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-44-46011-0-1;at:44:46011:0:1;Altmünster/Traunsee Bahnhof;Altmünster/Traunsee Bahnhof;gtfs;;Altmünster/Traunsee Bahnhof;Altmünster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-44-46011-0-2;at:44:46011:0:2;Altmünster/Traunsee Bahnhof;Altmünster/Traunsee Bahnhof;gtfs;;Altmünster/Traunsee Bahnhof;Altmünster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-45-50210-0-1;at:45:50210:0:1;Köstendorf Weng S-Bahn;Köstendorf Weng S-Bahn;gtfs;;Köstendorf Weng S-Bahn;Köstendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101108;at:45:50210:0:2;Köstendorf Weng S-Bahn;Köstendorf Weng S-Bahn;nom;0.017;Köstendorf Weng;Köstendorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101104;at:45:50290:0:2;Straßwalchen Bahnhof;Straßwalchen Bahnhof;gtfs;;Straßwalchen Bahnhof;Straßwalchen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101482;at:45:52106:0:2;Pöham Bahnhof;Pöham Bahnhof;nom;0.009;Pöham;Bischofshofen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-45-52114-0-2;at:45:52114:0:2;Radstadt Bahnhof;Radstadt Bahnhof;gtfs;;Radstadt Bahnhof;Radstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3514086219;at:45:52114:0:3;Radstadt Bahnhof;Radstadt Bahnhof;nom;;Radstadt;Radstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-45-52114-0-4;at:45:52114:0:4;Radstadt Bahnhof;Radstadt Bahnhof;gtfs;;Radstadt Bahnhof;Radstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101478;at:45:52183:0:2;Altenmarkt Bahnhof;Altenmarkt Bahnhof;gtfs;;Altenmarkt Bahnhof;Altenmarkt im Pongau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101131;at:45:52210:0:1;Tenneck Bahnhof;Tenneck Bahnhof;nom;0.011;Tenneck;Werfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-45-52210-0-2;at:45:52210:0:2;Tenneck Bahnhof;Tenneck Bahnhof;gtfs;;Tenneck Bahnhof;Werfen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-45-52418-0-2;at:45:52418:0:2;Mandling Bahnhof;Mandling Bahnhof;gtfs;;Mandling Bahnhof;Radstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM3514073348;at:45:52418:0:3;Mandling Bahnhof;Mandling Bahnhof;nom;;Mandling;Radstadt;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101133;at:45:52428:0:1;Pfarrwerfen Bahnhof;Pfarrwerfen Bahnhof;nom;0.092;Pfarrwerfen;Pfarrwerfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-45-52428-0-3;at:45:52428:0:3;Pfarrwerfen Bahnhof;Pfarrwerfen Bahnhof;gtfs;;Pfarrwerfen Bahnhof;Pfarrwerfen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101481;at:45:52600:0:1;Hüttau Bahnhof;Hüttau Bahnhof;nom;0.052;Hüttau;Hüttau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM3508395176;at:45:54252:0:2;Leogang-Steinberge Bahnhof;Leogang-Steinberge Bahnhof;nom;0.05;Leogang-Steinberge;Leogang;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-45-56408-0-1;at:45:56408:0:1;Seekirchen Stadt S-Bahn;Seekirchen Stadt S-Bahn;gtfs;;Seekirchen Stadt S-Bahn;Seekirchen am Wallersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-45-56408-0-2;at:45:56408:0:2;Seekirchen Stadt S-Bahn;Seekirchen Stadt S-Bahn;gtfs;;Seekirchen Stadt S-Bahn;Seekirchen am Wallersee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-45-56900-0-2;at:45:56900:0:2;Gries Bahnhof;Gries Bahnhof;gtfs;;Gries Bahnhof;Bruck an der Großglocknerstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-45-56900-0-3;at:45:56900:0:3;Gries Bahnhof;Gries Bahnhof;gtfs;;Gries Bahnhof;Bruck an der Großglocknerstraße;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM1254082871;at:46:1748:0:4;Wildon Bahnhof;Wildon Bahnhof;nom;0.022;Wildon;Wildon;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1761-0-1;at:46:1761:0:1;Laßnitzhöhe;Laßnitzhöhe;gtfs;;Laßnitzhöhe;Laßnitzhöhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100429;at:46:1770:0:2;Söchau Bahnhof;Söchau Bahnhof;nom;0.037;Söchau;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1770-0-3;at:46:1770:0:3;Söchau Bahnhof;Söchau Bahnhof;gtfs;;Söchau Bahnhof;Fürstenfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101694;at:46:1771:0:1;Übersbach Bahnhof;Übersbach Bahnhof;nom;0.013;Übersbach;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1772-0-1;at:46:1772:0:1;Bierbaum/Safen Bahnhof;Bierbaum/Safen Bahnhof;gtfs;;Bierbaum/Safen Bahnhof;Bad Blumau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-1772-0-2;at:46:1772:0:2;Bierbaum/Safen Bahnhof;Bierbaum/Safen Bahnhof;gtfs;;Bierbaum/Safen Bahnhof;Bad Blumau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103331;at:46:1774:0:1;Bad Waltersdorf Bahnhof;Bad Waltersdorf Bahnhof;nom;0.027;Bad Waltersdorf;Bad Waltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1775-0-1;at:46:1775:0:1;Sebersdorf Bahnhof;Sebersdorf Bahnhof;gtfs;;Sebersdorf Bahnhof;Bad Waltersdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103330;at:46:1775:0:2;Sebersdorf Bahnhof;Sebersdorf Bahnhof;nom;0.023;Sebersdorf;Bad Waltersdorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1839-0-1;at:46:1839:0:1;Spielfeld-Straß Bahnhof;Spielfeld-Straß Bahnhof;gtfs;;Spielfeld-Straß Bahnhof;Straß in Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100082;at:46:1839:0:3;Spielfeld-Straß Bahnhof;Spielfeld-Straß Bahnhof;nom;0.009;Spielfeld-Straß;Straß in Steiermark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1839-0-4;at:46:1839:0:4;Spielfeld-Straß Bahnhof;Spielfeld-Straß Bahnhof;gtfs;;Spielfeld-Straß Bahnhof;Straß in Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103338;at:46:1982:0:2;Fürstenfeld Bahnhof;Fürstenfeld Bahnhof;nom;0.023;Fürstenfeld;Fürstenfeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-1982-0-3;at:46:1982:0:3;Fürstenfeld Bahnhof;Fürstenfeld Bahnhof;gtfs;;Fürstenfeld Bahnhof;Fürstenfeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103326;at:46:2022:0:2;Hartberg Bahnhof;Hartberg Bahnhof;nom;0.071;Hartberg;Hartberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-2022-0-3;at:46:2022:0:3;Hartberg Bahnhof;Hartberg Bahnhof;gtfs;;Hartberg Bahnhof;Hartberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103333;at:46:2735:0:1;Bad Blumau Bahnhof;Bad Blumau Bahnhof;nom;0.013;Bad Blumau;Bad Blumau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103325;at:46:5205:0:2;St.Johann in der Haide Bahnhof;St. Johann in der Haide;nom;0.008;St. Johann in der Haide;Sankt Johann in der Haide;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-5230-0-1;at:46:5230:0:1;Rohrbach-Vorau Bahnhof;Rohrbach-Vorau Bahnhof;gtfs;;Rohrbach-Vorau Bahnhof;Rohrbach an der Lafnitz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103321;at:46:5230:0:2;Rohrbach-Vorau Bahnhof;Rohrbach-Vorau Bahnhof;nom;0.194;Rohrbach-Vorau;Rohrbach an der Lafnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101449;at:46:6589:0:4;Hieflau Bahnhof;Hieflau Bahnhof;nom;0.023;Hieflau;Landl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-6802-0-2;at:46:6802:0:2;Gstatterboden Bahnhof;Gstatterboden Bahnhof;gtfs;;Gstatterboden Bahnhof;Admont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101468;at:46:7024:0:1;Gröbming Bahnhof;Gröbming Bahnhof;gtfs;0.024;Gröbming Bahnhof;Michaelerberg-Pruggern;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101944;at:46:7063:0:3;Bad Aussee Bahnhof;Bad Aussee Bahnhof;nom;;Bad Aussee;Bad Aussee;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101948;at:46:7112:0:2;Tauplitz Bahnhof;Tauplitz Bahnhof;nom;0.016;Tauplitz;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7189-0-1;at:46:7189:0:1;Haus Bahnhof;Haus Bahnhof;gtfs;;Haus Bahnhof;Haus im Ennstal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7189-0-2;at:46:7189:0:2;Haus Bahnhof;Haus Bahnhof;gtfs;;Haus Bahnhof;Haus im Ennstal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101947;at:46:7316:0:1;Bad Mitterndorf Bahnhof;Bad Mitterndorf Bahnhof;nom;;Bad Mitterndorf;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7422-0-1;at:46:7422:0:1;Wartberg Bahnhof;Wartberg Bahnhof;gtfs;;Wartberg Bahnhof;Sankt Barbara im Mürztal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7422-0-3;at:46:7422:0:3;Wartberg Bahnhof;Wartberg Bahnhof;gtfs;;Wartberg Bahnhof;Sankt Barbara im Mürztal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100425;at:46:7438:0:3;Wörschach Schwefelbad Bahnhof;Wörschach Schwefelbad Bahnhof;nom;0.026;Wörschach Schwefelbad;Wörschach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101465;at:46:7441:0:2;Niederöblarn Bahnhof;Niederöblarn Bahnhof;nom;0.027;Niederöblarn;Öblarn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7442-0-1;at:46:7442:0:1;Öblarn Bahnhof;Öblarn Bahnhof;gtfs;;Öblarn Bahnhof;Öblarn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100133;at:46:7442:0:2;Öblarn Bahnhof;Öblarn Bahnhof;nom;0.007;Öblarn;Öblarn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101467;at:46:7443:0:1;Stein an der Enns Bahnhof;Stein an der Enns Bahnhof;nom;0.004;Stein an der Enns;Sölk;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101386;at:46:7444:0:2;Pruggern Bahnhof;Pruggern Bahnhof;nom;0.01;Pruggern;Michaelerberg-Pruggern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100597;at:46:7445:0:3;Aich-Assach Bahnhof;Aich-Assach Bahnhof;nom;0.006;Aich-Assach;Aich;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101632;at:46:7449:0:2;Ardning Bahnhof;Ardning Bahnhof;nom;0.028;Ardning;Ardning;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7449-0-3;at:46:7449:0:3;Ardning Bahnhof;Ardning Bahnhof;gtfs;;Ardning Bahnhof;Ardning;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7452-0-1;at:46:7452:0:1;Johnsbach Bahnhof;Johnsbach Bahnhof;gtfs;;Johnsbach Bahnhof;Admont;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101445;at:46:7456:0:3;Weißenbach-St.Gallen Bahnhof;Weißenbach-St. Gallen;nom;0.009;Weißenbach-St. Gallen;Sankt Gallen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7463-0-2;at:46:7463:0:2;Kraubath an der Mur Bahnhof;Kraubath an der Mur Bahnhof;gtfs;;Kraubath an der Mur Bahnhof;Kraubath an der Mur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7473-0-2;at:46:7473:0:2;Mariahof-St.Lambrecht Bahnhof;Mariahof-St.Lambrecht Bahnhof;gtfs;;Mariahof-St.Lambrecht Bahnhof;Neumarkt in der Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101244;at:46:7473:0:4;Mariahof-St.Lambrecht Bahnhof;Mariahof-St. Lambrecht;nom;0.015;Mariahof-St. Lambrecht;Neumarkt in der Steiermark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7474-0-1;at:46:7474:0:1;Neumarkt Bahnhof;Neumarkt Bahnhof;gtfs;;Neumarkt Bahnhof;Neumarkt in der Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7474-0-2;at:46:7474:0:2;Neumarkt Bahnhof;Neumarkt Bahnhof;gtfs;;Neumarkt Bahnhof;Neumarkt in der Steiermark;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101950;at:46:7510:0:1;Pürgg Bahnhof;Pürgg Bahnhof;nom;0.01;Pürgg;Stainach-Pürgg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7513-0-3;at:46:7513:0:3;Kainisch Bahnhof;Kainisch Bahnhof;gtfs;;Kainisch Bahnhof;Bad Mitterndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101945;at:46:7513:0:4;Kainisch Bahnhof;Kainisch Bahnhof;nom;0.003;Kainisch;Bad Mitterndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103320;at:46:7542:0:1;Dechantskirchen Bahnhof;Dechantskirchen Bahnhof;nom;0.004;Dechantskirchen;Dechantskirchen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-46-7543-0-3;at:46:7543:0:3;Friedberg;Friedberg;gtfs;;Friedberg;Friedberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-46-7548-0-1;at:46:7548:0:1;Tauchen-Schaueregg Bahnhof;Tauchen-Schaueregg Bahnhof;gtfs;;Tauchen-Schaueregg Bahnhof;Pinggau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103316;at:46:7548:0:2;Tauchen-Schaueregg Bahnhof;Tauchen-Schaueregg Bahnhof;nom;0.026;Tauchen-Schaueregg;Pinggau;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8100763;at:46:76:0:2;Ehrenhausen Bahnhof;Ehrenhausen Bahnhof;nom;0.007;Ehrenhausen;Ehrenhausen an der Weinstraße;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM2999563457;at:47:1169:0:3;Wörgl Süd-Bruckhäusl Bahnhof;Wörgl Süd-Bruckhäusl Bahnhof;nom;0.024;Wörgl Süd-Bruckhäusl;Wörgl;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM2987919842;at:47:1205:0:1;Roppen Bahnhof;Roppen Bahnhof;nom;;Roppen;Roppen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-47-1205-0-2;at:47:1205:0:2;Roppen Bahnhof;Roppen Bahnhof;gtfs;;Roppen Bahnhof;Roppen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101206;at:47:1206:0:1;Imst-Pitztal Bahnhof;Imst-Pitztal Bahnhof;gtfs;;Imst-Pitztal Bahnhof;Arzl im Pitztal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101209;at:47:1209:0:3;Imsterberg Bahnhof;Imsterberg Bahnhof;nom;0.012;Imsterberg;Imsterberg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101210;at:47:1210:0:2;Schönwies Bahnhof;Schönwies Bahnhof;nom;0.008;Schönwies;Schönwies;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102183;at:47:2183:0:1;Schaftenau Bahnhof;Schaftenau Bahnhof;gtfs;0.005;Schaftenau Bahnhof;Langkampfen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102221;at:47:2221:0:1;Innsbruck Hötting Bahnhof;Innsbruck Hötting Bahnhof;nom;0.012;Innsbruck Hötting;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102222;at:47:2222:0:1;Innsbruck Allerheiligenhöfe Bahnhof;Innsbruck Allerheiligenhöfe Bahnhof;nom;0.003;Innsbruck Allerheiligenhöfe;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102223;at:47:2223:0:1;Kranebitten Bahnhof;Kranebitten Bahnhof;nom;0.023;Kranebitten;Innsbruck;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102226;at:47:2226:0:1;Leithen Bahnhof;Leithen Bahnhof;nom;0.012;Leithen;Reith bei Seefeld;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102227;at:47:2227:0:4;Reith b. S. Bahnhof;Reith b. S. Bahnhof;gtfs;;Reith b. S. Bahnhof;Reith bei Seefeld;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102230;at:47:2230:0:1;Gießenbach Bahnhof;Gießenbach Bahnhof;nom;0.025;Gießenbach;Scharnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102231;at:47:2231:0:1;Scharnitz Bahnhof;Scharnitz Bahnhof;nom;0.003;Scharnitz;Scharnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103879;at:47:3879:0:2;Sillian Bahnhof;Sillian Bahnhof;nom;0.01;Sillian;Sillian;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102327;at:48:1133:0:2;Hohenems Bahnhof;Hohenems Bahnhof;nom;;Hohenems;Hohenems;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TNOBB-at-48-1184-0-4;at:48:1184:0:4;Klaus Bahnhof;Klaus Bahnhof;gtfs;;Klaus Bahnhof;Klaus;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-at-48-1184-0-5;at:48:1184:0:5;Klaus Bahnhof;Klaus Bahnhof;gtfs;;Klaus Bahnhof;Klaus;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101230;at:48:130:0:1;Bludenz Bahnhof;Bludenz Bahnhof;gtfs;;Bludenz Bahnhof;Bludenz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102322;at:48:1436:0:2;Rankweil Bahnhof;Rankweil Bahnhof;nom;;Rankweil;Rankweil;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102326;at:48:394:0:3;Altach Bahnhof;Altach Bahnhof;nom;0.073;Altach;Altach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8102329;at:48:585:0:2;Dornbirn Bahnhof;Dornbirn Bahnhof;gtfs;0.052;Dornbirn Bahnhof;Dornbirn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-at-48-394-0-3;at:48:394:0:3;Altach Bahnhof;Altach Bahnhof;gtfs;;Altach Bahnhof;Altach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102326;at:48:394:0:4;Altach Bahnhof;Altach Bahnhof;nom;0.049;Altach;Altach;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOBB-at-48-466-0-5;at:48:466:0:5;Bregenz Hafen Bahnhof;Bregenz Hafen Bahnhof;gtfs;;Bregenz Hafen Bahnhof;Brégence;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102338;at:48:466:0:7;Bregenz Hafen Bahnhof;Bregenz Hafen Bahnhof;nom;0.027;Bregenz Hafen;Brégence;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102329;at:48:585:0:3;Dornbirn Bahnhof;Dornbirn Bahnhof;gtfs;0.052;Dornbirn Bahnhof;Dornbirn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101236;at:48:817:0:2;Feldkirch Bahnhof;Feldkirch Bahnhof;nom;;Feldkirch;Feldkirch;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8001071;de:02000:10950:11:1;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;Hamburg Hauptbahnhof;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8814001;be:26:8814001:90;Bruxelles-Midi;Bruxelles-Midi;gtfs;;Bruxelles-Midi;Bruxelles;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-cz-0-5436275-0-1;cz:0:5436275:0:1;Šatov, železniční stanice;Šatov, železniční stanice;gtfs;;Šatov, železniční stanice;Šatov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-cz-0-5475232-0-1;cz:0:5475232:0:1;Rybník;Rybník;gtfs;;Rybník;Dolní Dvořiště;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001071;de:02000:10950:1:5;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;Hamburg Hauptbahnhof;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001134;de:02000:49950:1:1;Hamburg Harburg Bahnhof;Hamburg Harburg Bahnhof;gtfs;;Hamburg Harburg Bahnhof;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8021011;de:05515:41000:91:2;Münster (Westf) Hbf;Münster (Westf) Hbf;gtfs;;Münster (Westf) Hbf;Münster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8010053;de:05913:131:90:10;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;gtfs;;Dortmund Hauptbahnhof;Dortmund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011068;de:06412:10:16:16;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;gtfs;;Frankfurt (Main) Hauptbahnhof;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8029103;de:08421:1008:31:1;Ulm Hauptbahnhof;Ulm Hauptbahnhof;gtfs;;Ulm Hauptbahnhof;Ulm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-de-09161-9000-3-2;de:09161:9000:3:2;Ingolstadt Hbf;Ingolstadt Hbf;gtfs;;Ingolstadt Hbf;Ingolstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-de-09161-9000-3-3;de:09161:9000:3:3;Ingolstadt Hbf;Ingolstadt Hbf;gtfs;;Ingolstadt Hbf;Ingolstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-de-09161-9000-5-7;de:09161:9000:5:7;Ingolstadt Hbf;Ingolstadt Hbf;gtfs;;Ingolstadt Hbf;Ingolstadt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:11:11;München Hauptbahnhof;München Hauptbahnhof;gtfs;;München Hauptbahnhof;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020286;de:09162:10:43:83;München Pasing;München Pasing;gtfs;;München Pasing;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020291;de:09180:42873:1:1;Mittenwald Bahnhof;Mittenwald;nom;;Mittenwald;Mittenwald;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8026506;de:09262:156:2:2;Passau Hauptbahnhof;Passau Hauptbahnhof;gtfs;;Passau Hauptbahnhof;Passau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:1;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;Nürnberg Hauptbahnhof;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002140;de:09761:100:11:1;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;gtfs;;Augsburg Hauptbahnhof;Augsbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002084;de:09774:2600:2:2;Günzburg Bahnhof;Günzburg Bahnhof;gtfs;0.044;Günzburg Bahnhof;Guntzbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002371;de:09776:1546:1:1;Lindau-Insel;Lindau-Insel;gtfs;;Lindau-Insel;Lindau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-de-09776-1592-2-2;de:09776:1592:2:2;Lindau-Reutin;Lindau-Reutin;gtfs;;Lindau-Reutin;Lindau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TNOBB-de-09776-1592-2-4;de:09776:1592:2:4;Lindau-Reutin;Lindau-Reutin;gtfs;;Lindau-Reutin;Lindau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8101479;Pat:45:52343;Eben Bahnhof;Eben Bahnhof;gtfs;;;Schattbach;nominatim;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TN8065969;de:11000:900003200:1:51;Berlin Hauptbahnhof;Berlin Hauptbahnhof;gtfs;;Berlin Hauptbahnhof;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-fl-21-104-0-6;fl:21:104:0:6;Schaan Bahnhof;Schaan Bahnhof;gtfs;;Schaan Bahnhof;Schaan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM1353606655;fl:21:1371:0:4;Nendeln Bahnhof;Nendeln;nom;0.011;Nendeln;Eschen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM1887823668;fl:21:4145:0:3;Schaan Forst Hilti Bahnhof;Forst Hilti;nom;0.042;Forst Hilti;Schaan;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302001;it:22021:1389:50:31091;Brennero, Stazione di Brennero;Brennero, Stazione di Brennero;gtfs;;Brennero, Stazione di Brennero;Brennero;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-it-22034-stv1-1-1;it:22034:stv1:1:1;Ancona, Stazione di Ancona;Ancona, Stazione di Ancona;gtfs;;Ancona, Stazione di Ancona;Ancône;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8314706;it:22037:116:51:51;Bologna, Stazione di Bologna Centrale;Bologna, Stazione di Bologna Centrale;gtfs;;Bologna, Stazione di Bologna Centrale;Bologne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-it-22061-7021-50-1;it:22061:7021:50:1;Padova stazione;Padova stazione;gtfs;;Padova stazione;Padoue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-it-22061-7021-50-2;it:22061:7021:50:2;Padova stazione;Padova stazione;gtfs;;Padova stazione;Padoue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8305071;it:22077:fvo1:1:1;Rimini, Stazione di Rimini;Rimini;nom;0.016;Rimini;Rimini;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8303026;it:22095:7049:1:1;Udine stazione;Udine;nom;0.016;Udine;Udine;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302589;it:22099:7023:0:2;Venezia Mestre stazione;Venezia Mestre stazione;gtfs;0.011;Venezia Mestre stazione;Venise;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302446;it:22100:7048:0:2;Vicenza stazione;Vicenza stazione;gtfs;0.054;Vicenza stazione;Vicence;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2232030;ua:22005:1:1;Kyjiw-Passaschyrskyj;Kyjiw-Passaschyrskyj;gtfs;;Kyjiw-Passaschyrskyj;Kiev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22010-1-1;ua:22010:1:1;Chop;Chop;gtfs;;Chop;Tchop;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22025-1-1;ua:22025:1:1;Lviv;Lviv;gtfs;;Lviv;Lviv;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22033-1-1;ua:22033:1:1;Mukačevo;Mukačevo;gtfs;;Mukačevo;Moukatchevo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22072-1-1;ua:22072:1:1;Stryj;Stryj;gtfs;;Stryj;Stryï;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22517-1-1;ua:22517:1:1;Swaljawa;Swaljawa;gtfs;;Swaljawa;Svaliava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOBB-ua-22542-0-1;ua:22542:0:1;Uzhhorod;Uzhhorod;gtfs;;Uzhhorod;Oujhorod;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101003;Pat:49:1350;Wien Hauptbahnhof Autoreisezug;Wien Hauptbahnhof Autoreisezug;gtfs;;;Vienne;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101104;at:45:50290:0:5;Straßwalchen Bahnhof;Straßwalchen Bahnhof;gtfs;;;Straßwalchen;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101479;at:45:52343:0:2;Eben Bahnhof;Eben Bahnhof;gtfs;;;Schattbach;nominatim;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TN8101479;at:45:52343:0:3;Eben Bahnhof;Eben Bahnhof;gtfs;;;Schattbach;nominatim;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
+TN8101468;at:46:7024:0:2;Gröbming Bahnhof;Gröbming Bahnhof;nom;0.024;Gröbming;Michaelerberg-Pruggern;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101944;at:46:7063:0:5;Bad Aussee Bahnhof;Bad Aussee Bahnhof;gtfs;;;Bad Aussee;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101947;at:46:7316:0:3;Bad Mitterndorf Bahnhof;Bad Mitterndorf Bahnhof;gtfs;;;Bad Mitterndorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8101206;at:47:1206:0:4;Imst-Pitztal Bahnhof;Imst-Pitztal Bahnhof;nom;0.005;Imst-Pitztal;Arzl im Pitztal;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8101206;at:47:1206:0:5;Imst-Pitztal Bahnhof;Imst-Pitztal Bahnhof;gtfs;;;Arzl im Pitztal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102183;at:47:2183:0:2;Schaftenau Bahnhof;Schaftenau Bahnhof;nom;0.005;Schaftenau;Langkampfen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8102327;at:48:1133:0:3;Hohenems Bahnhof;Hohenems Bahnhof;gtfs;;;Hohenems;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102327;at:48:1133:0:4;Hohenems Bahnhof;Hohenems Bahnhof;gtfs;;;Hohenems;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101230;at:48:130:0:10;Bludenz Bahnhof;Bludenz Bahnhof;nom;0.073;Bludenz;Bludenz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
@@ -832,16 +939,73 @@ TN8101230;at:48:130:0:11;Bludenz Bahnhof;Bludenz Bahnhof;gtfs;;;Bludenz;wikidata
 TN8101230;at:48:130:0:12;Bludenz Bahnhof;Bludenz Bahnhof;gtfs;;;Bludenz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101230;at:48:130:0:4;Bludenz Bahnhof;Bludenz Bahnhof;gtfs;;;Bludenz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102322;at:48:1436:0:3;Rankweil Bahnhof;Rankweil Bahnhof;gtfs;;;Rankweil;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102322;at:48:1436:0:4;Rankweil Bahnhof;Rankweil Bahnhof;gtfs;;;Rankweil;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8102329;at:48:585:0:3;Dornbirn Bahnhof;Dornbirn Bahnhof;gtfs;;;Dornbirn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8102329;at:48:585:0:4;Dornbirn Bahnhof;Dornbirn Bahnhof;nom;0.052;Dornbirn;Dornbirn;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN8101236;at:48:817:0:3;Feldkirch Bahnhof;Feldkirch Bahnhof;gtfs;;;Feldkirch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101236;at:48:817:0:4;Feldkirch Bahnhof;Feldkirch Bahnhof;gtfs;;;Feldkirch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101236;at:48:817:0:5;Feldkirch Bahnhof;Feldkirch Bahnhof;gtfs;;;Feldkirch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8101236;at:48:817:0:6;Feldkirch Bahnhof;Feldkirch Bahnhof;gtfs;;;Feldkirch;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8001071;de:02000:10950:1:5;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8814001;be:26:8814001:91;Bruxelles-Midi;Bruxelles-Midi;gtfs;;;Bruxelles;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001071;de:02000:10950:2:8;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001071;de:02000:10950:4:13;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8001071;de:02000:10950:4:14;Hamburg Hauptbahnhof;Hamburg Hauptbahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029034;de:08111:6115:3:5;Stuttgart Hauptbahnhof 5;Stuttgart Hauptbahnhof 5;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029034;de:08111:6115:5:10;Stuttgart Hauptbahnhof 10;Stuttgart Hauptbahnhof 10;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029034;de:08111:6115:5:9;Stuttgart Hauptbahnhof 9;Stuttgart Hauptbahnhof 9;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8029034;de:08111:6115:8:16;Stuttgart Hauptbahnhof 16;Stuttgart Hauptbahnhof 16;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001134;de:02000:49950:1:2;Hamburg Harburg Bahnhof;Hamburg Harburg Bahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8001134;de:02000:49950:3:5;Hamburg Harburg Bahnhof;Hamburg Harburg Bahnhof;gtfs;;;Hambourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8008094;de:05111:18235:93:16;Düsseldorf Hauptbahnhof;Düsseldorf Hauptbahnhof;gtfs;;;Düsseldorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8008094;de:05111:18235:94:18;Düsseldorf Hauptbahnhof;Düsseldorf Hauptbahnhof;gtfs;;;Düsseldorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8021011;de:05515:41000:91:3;Münster (Westf) Hbf;Münster (Westf) Hbf;gtfs;;;Münster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8021011;de:05515:41000:92:4;Münster (Westf) Hbf;Münster (Westf) Hbf;gtfs;;;Münster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8021011;de:05515:41000:94:14;Münster (Westf) Hbf;Münster (Westf) Hbf;gtfs;;;Münster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8021011;de:05515:41000:94:17;Münster (Westf) Hbf;Münster (Westf) Hbf;gtfs;;;Münster;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8010053;de:05913:131:90:8;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;gtfs;;;Dortmund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8010053;de:05913:131:92:18;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;gtfs;;;Dortmund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8010053;de:05913:131:92:20;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;gtfs;;;Dortmund;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8011068;de:06412:10:17:20;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;gtfs;;;Francfort-sur-le-Main;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:1:2;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:2:3;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:2:4;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:3:5;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:4:8;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:5:10;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:5:9;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:6:11;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:6:12;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:7:13;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:7:14;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:8:15;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029034;de:08111:6115:8:16;Stuttgart Hauptbahnhof;Stuttgart Hauptbahnhof;gtfs;;;Stuttgart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8029103;de:08421:1008:34:8;Ulm Hauptbahnhof;Ulm Hauptbahnhof;gtfs;;;Ulm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:11:12;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:11:13;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:11:14;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:11:15;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:16:16;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:10;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:5;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:6;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:7;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:8;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020347;de:09162:100:5:9;München Hauptbahnhof;München Hauptbahnhof;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020286;de:09162:10:49:90;München Pasing;München Pasing;gtfs;;;Munich;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020291;de:09180:42873:3:2;Mittenwald Bahnhof;Mittenwald Bahnhof;gtfs;;;Mittenwald;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020291;de:09180:42873:3:3;Mittenwald Bahnhof;Mittenwald Bahnhof;gtfs;;;Mittenwald;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8026506;de:09262:156:3:5;Passau Hauptbahnhof;Passau Hauptbahnhof;gtfs;;;Passau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8026506;de:09262:156:3:6;Passau Hauptbahnhof;Passau Hauptbahnhof;gtfs;;;Passau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8020012;de:09277:80490:2:1;Simbach (Inn);Simbach (Inn);gtfs;;;Simbach am Inn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:1:1;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:4:4;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:4:5;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:5:6;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8022193;de:09564:510:6:8;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;gtfs;;;Nuremberg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002140;de:09761:100:12:2;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;gtfs;;;Augsbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002140;de:09761:100:12:3;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;gtfs;;;Augsbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002140;de:09761:100:13:5;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;gtfs;;;Augsbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002140;de:09761:100:14:6;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;gtfs;;;Augsbourg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002084;de:09774:2600:2:3;Günzburg Bahnhof;Günzburg;nom;0.044;Günzburg;Guntzbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8002371;de:09776:1546:1:2;Lindau-Insel;Lindau-Insel;gtfs;;;Lindau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8002371;de:09776:1546:1:3;Lindau-Insel;Lindau-Insel;gtfs;;;Lindau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8065969;de:11000:900003200:2:52;Berlin Hauptbahnhof;Berlin Hauptbahnhof;gtfs;;;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8065969;de:11000:900003200:2:53;Berlin Hauptbahnhof;Berlin Hauptbahnhof;gtfs;;;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8065969;de:11000:900003200:3:54;Berlin Hauptbahnhof;Berlin Hauptbahnhof;gtfs;;;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8065969;de:11000:900003200:4:56;Berlin Hauptbahnhof;Berlin Hauptbahnhof;gtfs;;;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8302589;it:22099:7023:1:1;Venezia Mestre stazione;Venezia Mestre;nom;0.011;Venezia Mestre;Venise;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8302446;it:22100:7048:50:1;Vicenza stazione;Vicenza;nom;0.054;Vicenza;Vicence;wikidata;vérifier que la gare OSM est la bonne (nom différent)

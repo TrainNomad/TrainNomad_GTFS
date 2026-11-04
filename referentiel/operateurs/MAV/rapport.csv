@@ -1,0 +1,51 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN2232030;1:002232030;Kyiv-Pas.;Kyiv-Pas.;gtfs;;;Kiev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2237000;1:002237000;Lviv;Lviv;gtfs;;;Lviv;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2238000;1:002238000;Mukachevo;Mukachevo;gtfs;;;Moukatchevo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2238010;1:002238010;Chop;Chop;gtfs;;;Tchop;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2238100;1:002238100;Uzhhorod;Uzhhorod;gtfs;;;Oujhorod;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5321705;1:005321705;Radna;Radna;gtfs;;;Lipova;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5330550;1:005330550;Azuga;Azuga;uic;0.004;Azuga;Azuga;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN5331217;1:005331217;Sighişoara;Sighişoara;gtfs;;;Sighișoara;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5340256;1:005340256;Băile Tuşnad;Băile Tuşnad;gtfs;;;Băile Tușnad;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500700;1:005500700;Szeged vasútállomás;Szeged vasútállomás;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500701;1:005500701;Szeged, Galamb utca;Szeged, Galamb utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500702;1:005500702;Szeged, Bécsi körút;Szeged, Bécsi körút;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500703;1:005500703;Szeged, Aradi vértanúk tere;Szeged, Aradi vértanúk tere;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500704;1:005500704;Szeged, Somogyi utca;Szeged, Somogyi utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500705;1:005500705;Szeged, Széchenyi tér;Szeged, Széchenyi tér;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500706;1:005500706;Szeged, Anna-kút;Szeged, Anna-kút;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500707;1:005500707;Szeged, Rókusi templom;Szeged, Rókusi templom;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500708;1:005500708;Szeged, Tavasz utca;Szeged, Tavasz utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500709;1:005500709;Szeged, Damjanich utca;Szeged, Damjanich utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500710;1:005500710;Szeged, Vásárhelyi Pál utca;Szeged, Vásárhelyi Pál utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500711;1:005500711;Szeged, Pulz utca;Szeged, Pulz utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500712;1:005500712;Szeged, Rókus vasútállomás;Szeged, Rókus vasútállomás;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500713;1:005500713;Szeged, Bem utca;Szeged, Bem utca;gtfs;;;Szeged;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5507740;1:005507740;Hodos Gr.;Hodos Gr.;gtfs;;;Hodos;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518800;1:005518800;Hódmezővásárhelyi Népkert vasútállomás;Hódmezővásárhelyi Népkert vasútállomás;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518802;1:005518802;Hódmezővásárhely, Strandfürdő;Hódmezővásárhely, Strandfürdő;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518804;1:005518804;Hódmezővásárhely, Hősök tere;Hódmezővásárhely, Hősök tere;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518806;1:005518806;Hódmezővásárhely, Kossuth tér;Hódmezővásárhely, Kossuth tér;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518808;1:005518808;Hódmezővásárhely, Kálvin János tér;Hódmezővásárhely, Kálvin János tér;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5518810;1:005518810;Hódmezővásárhely vasútállomás;Hódmezővásárhely vasútállomás;gtfs;;;Hódmezővásárhely;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7223305;1:007223305;Vrbas Nova;Vrbas Nova;gtfs;;;Vrbas;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7223404;1:007223404;Backa Topola;Backa Topola;gtfs;;;Bačka Topola;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7223702;1:007223702;Bački Vinogradi;Bački Vinogradi;gtfs;;;Subotica;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7223703;1:007223703;Hajdukovo;Hajdukovo;gtfs;;;Subotica;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7223706;1:007223706;Subotica Javna Skladišta;Subotica Javna Skladišta;gtfs;;;Subotica;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7943777;1:007943777;Hodoš;Hodos;nom;0.027;Hodoš / Hodos;Hodos;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7943778;1:007943778;Hodos(Gr);Hodos(Gr);gtfs;;;Hodos;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102964;1:008102964;Lanzendorf-Rannersdf;Lanzendorf-Rannersdf;gtfs;;;Lanzendorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102969;1:008102969;Götzendorf;Götzendorf/Leitha;nom;0.015;Götzendorf an der Leitha;Götzendorf an der Leitha;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8102974;1:008102974;Bruck/Leitha;Bruck/Leitha;gtfs;;;Bruckneudorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8102975;1:008102975;Parndorf Ort;Parndorf Ort;nom;0.068;Parndorf Ort / Pandrof mjesto;Parndorf;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103185;1:008103185;Spielfeld-Strass;Spielfeld-Straß;nom;0.009;Spielfeld-Straß;Straß in Steiermark;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8103217;1:008103217;Sopron (ÖBB);Sopron (ÖBB);gtfs;;;Sopron;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103491;1:008103491;Graz Ostbf;Graz Ostbf;gtfs;;;Graz;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103495;1:008103495;Lassnitzhöhe;Lassnitzhöhe;gtfs;;;Laßnitzhöhe;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103496;1:008103496;Lassnitzthal;Lassnitzthal;gtfs;;;Gleisdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103498;1:008103498;Takern-St.Margareth.;Takern-St.Margareth.;gtfs;;;Sankt Margarethen an der Raab;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103501;1:008103501;Rohr Haltestelle;Rohr Haltestelle;gtfs;;;Edelsbach bei Feldbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8103507;1:008103507;Hohenbrugg A.D.Raab;Hohenbrugg A.D.Raab;gtfs;;;Fehring;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8133212;1:008133212;Neufeld A.D.Leitha;Neufeld A.D.Leitha;gtfs;;;Neufeld an der Leitha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

@@ -44,6 +44,9 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Pologne (PKP Intercity, PolRegio...) | `poland` | PKP (désactivé : référentiel des gares à construire) |
 | GTFS · Slovaquie (ZSSK, RegioJet, Leo Express) | `slovakia` | ZSSK (désactivé : référentiel des gares à construire) |
 | GTFS · Hongrie (MÁV, GYSEV) | `hungary` | MAV (désactivé : référentiel des gares à construire) |
+| GTFS · Irlande (Irish Rail, Enterprise) | `ireland` | IRISH_RAIL (désactivé : référentiel des gares à construire) |
+| GTFS · Irlande du Nord (NI Railways) | `northern_ireland` | NI_RAILWAYS (TransXChange converti ; désactivé : référentiel des gares à construire) |
+| GTFS · Ferries (Brittany Ferries, Transmanche) | `ferries` | BRITTANY_FERRIES, TRANSMANCHE (désactivés : référentiel des ports à construire) |
 
 ## Contrôles (fiabilité)
 

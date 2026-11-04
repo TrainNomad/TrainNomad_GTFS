@@ -1,6 +1,6 @@
 id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
-TN2200010;gare;Chop;Chop;Chop;2200010;;48.433651;22.206478;UA;Europe/Kyiv;Q104869815;R|RJ;;gtfs;;;;;2200010;Chop
-TN2200033;gare;Mukatschewo;Mukatschewo;Mukatschewo;2200033;;48.430191;22.711817;UA;Europe/Kyiv;Q97195034;R;;gtfs;;;;;2200033;Mukatschewo
+TN2200010;gare;Chop;Chop;Chop;2200010;;48.433651;22.206478;UA;Europe/Kyiv;Q219193;R|RJ;;gtfs;;;;;2200010;Chop
+TN2200033;gare;Mukatschewo;Mukatschewo;Mukatschewo;2200033;;48.430191;22.711817;UA;Europe/Kyiv;Q146456;R;;gtfs;;;;;2200033;Mukatschewo
 TN5100020;gare;Katowice Osobowa;Katowice;Katowice;5100020;;50.257607;19.017146;PL;Europe/Warsaw;Q588;EC|IC;;uic;3246621282;Q800992;;XPKA;5100020;Katowice
 TN5100065;gare;Dworzec Centralny im. Stanisława Moniuszki;Warsaw Central;Warszawa Centralna;5100065;;52.228821;21.00316;PL;Europe/Warsaw;Q270;EC|IC;;uic;9814916146;Q693034;;XPWC;5100065;Warszawa Centralna
 TN5100066;gare;Warszawa Wschodnia Osobowa;Warsaw East;Warszawa Wschodnia;5100066;;52.251589;21.052368;PL;Europe/Warsaw;Q270;EC|IC;;uic;33210583;Q3270196;;XPWW;5100066;Warszawa Wschodnia
@@ -151,7 +151,7 @@ TN5613153;gare;Bartošova Lehôtka;Bartošova Lehôtka;Bartošova Lehôtka;56131
 TN5613161;gare;Kráľova Lehota;Kráľova Lehota;Kráľova Lehota;5613161;;49.025644;19.786514;SK;Europe/Bratislava;Q290920;Os;;uic;848478071;Q65194533;;;5613161;Kráľova Lehota
 TN5613163;gare;Jastrabá;Jastrabá;Jastrabá;5613163;;48.644025;18.924376;SK;Europe/Bratislava;Q779854;Os;;uic;276558270;Q111701764;;;5613163;Jastrabá
 TN5613166;gare;Bratislava-Lamač;Bratislava-Lamač;Bratislava-Lamač;5613166;;48.184637;17.051061;SK;Europe/Bratislava;Q1780;Os;;uic;8223326625;Q4180549;;;5613166;Bratislava-Lamač
-TN5613171;gare;Východná;Východná;Východná;5613171;;49.050408;19.916756;SK;Europe/Bratislava;VTN5613171;Os;;uic;5236504031;Q63440089;;;5613171;Východná
+TN5613171;gare;Východná;Východná;Východná;5613171;;49.050408;19.916756;SK;Europe/Bratislava;Q1091679;Os;;uic;5236504031;Q63440089;;;5613171;Východná
 TN5613176;gare;Bratislava-Železná studienka;Bratislava-Železná studienka;Bratislava-Železná studienka;5613176;;48.174597;17.072783;SK;Europe/Bratislava;Q1780;Os;;uic;3350963364;Q4178862;;;5613176;Bratislava-Železná studienka
 TN5613181;gare;Liptovské Vlachy;Liptovské Vlachy;Liptovské Vlachy;5613181;;49.087864;19.474477;SK;Europe/Bratislava;Q240903;Os;;uic;257763988;Q65192715;;;5613181;Liptovské Vlachy
 TN5613183;gare;Hronská Dúbrava;Hronská Dúbrava;Hronská Dúbrava;5613183;;48.576267;18.989919;SK;Europe/Bratislava;Q999068;Os|R;;uic;246660165;Q28597439;;;5613183;Hronská Dúbrava
@@ -545,7 +545,7 @@ TN5615306;gare;Nitra;Nitra;Nitra;5615306;;48.301521;18.07922;SK;Europe/Bratislav
 TN5615313;gare;Kociha;Kociha;Kociha;5615313;;48.485225;19.951804;SK;Europe/Bratislava;Q687133;Os;;uic;81260305;Q111701687;;;5615313;Kociha
 TN5615316;gare;Nitra zastávka;Nitra zastávka;Nitra zastávka;5615316;;48.311707;18.056871;SK;Europe/Bratislava;Q26397;Os;;uic;1678847922;;;;5615316;Nitra zast.
 TN5615320;gare;Valaliky;Valaliky;Valaliky;5615320;;48.646833;21.287655;SK;Europe/Bratislava;Q1073263;Os;;uic;619336611;;;;5615320;Valaliky
-TN5615321;gare;Valaliky terminál;Valaliky terminál;Valaliky terminál;5615321;;0.0;0.0;SK;Europe/Bratislava;VTN5615321;Os;;gtfs;;;;;5615321;Valaliky terminál
+TN5615321;gare;Valaliky terminál;Valaliky terminál;Valaliky terminál;5615321;;48.633092;21.294193;SK;Europe/Bratislava;Q1073263;Os;;nom;14203903070;;;;5615321;Valaliky terminál
 TN5615323;gare;Hrachovo;Hrachovo;Hrachovo;5615323;;48.464798;19.960212;SK;Europe/Bratislava;Q1042880;Os;;uic;81252754;Q111702049;;;5615323;Hrachovo
 TN5615326;gare;Mlynárce;Mlynárce;Mlynárce;5615326;;48.325196;18.039832;SK;Europe/Bratislava;Q26397;Os;;uic;10186163186;Q111697853;;;5615326;Mlynárce
 TN5615330;gare;Čaňa;Čaňa;Čaňa;5615330;;48.609551;21.309786;SK;Europe/Bratislava;Q337978;Os;;uic;272305921;;;;5615330;Čaňa

@@ -1,0 +1,55 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TNNI_RAILWAYS-9000ad;gare;Adelaide;Adelaide;Adelaide;;;54.578428;-5.955001;GB;Europe/London;Q10686;NI Railways;;gtfs;;;;;9000AD;Adelaide
+TNNI_RAILWAYS-9000ch;gare;City Hospital;City Hospital;City Hospital;;;54.588555;-5.939568;GB;Europe/London;Q10686;NI Railways;;gtfs;;;;;9000CH;City Hospital
+TNNI_RAILWAYS-9000mo;gare;Marino;Marino;Marino;;;54.646862;-5.817741;GB;Europe/London;Q1625366;NI Railways;;gtfs;;;;;9000MO;Marino
+TNNI_RAILWAYS-9000uv;gare;University;University;University;;;55.150255;-6.668352;GB;Europe/London;Q1108185;NI Railways;;gtfs;;;;;9000UV;University
+TNOSM10799582352;gare;Lurgan;Lurgan;Lurgan;;;54.467224;-6.33812;GB;Europe/London;Q1702713;NI Railways;;nom;10799582352;Q3970001;;;9000LU;Lurgan
+TNOSM10799582354;gare;Botanic;Botanic;Botanic;;;54.588382;-5.932647;GB;Europe/London;Q10686;NI Railways;;nom;10799582354;Q2911648;;;9000BT;Botanic
+TNOSM12248421687;gare;Belfast Grand Central;Belfast Grand Central;Belfast Grand Central;;;54.595151;-5.939731;GB;Europe/London;Q10686;NI Railways;;nom;12248421687;Q48817446;;;70009000GCP;Belfast Grand Central
+TNOSM1526616965;gare;Cullybackey;Cullybackey;Cullybackey;;;54.888129;-6.344525;GB;Europe/London;VGB-cullybackey;NI Railways;;nom;1526616965;Q3969505;;;9000CY;Cullybackey
+TNOSM1654332115;gare;Coleraine;Coleraine;Coleraine;;;55.133956;-6.662666;GB;Europe/London;Q1108185;NI Railways;;nom;1654332115;Q3969452;;;9000CE;Coleraine
+TNOSM270477340;gare;Castlerock;Castlerock;Castlerock;;;55.165303;-6.787353;GB;Europe/London;Q619264;NI Railways;;nom;270477340;Q588868;;;9000CK;Castlerock
+TNOSM270477496;gare;Ballymoney;Ballymoney;Ballymoney;;;55.066495;-6.513881;GB;Europe/London;Q805450;NI Railways;;nom;270477496;Q3968962;;;9000BY;Ballymoney
+TNOSM270477714;gare;Ballymena;Ballymena;Ballymena;;;54.86407;-6.284635;GB;Europe/London;Q805451;NI Railways;;nom;270477714;Q3968964;;;9000BA;Ballymena
+TNOSM270477798;gare;Antrim;Antrim;Antrim;;;54.718097;-6.211476;GB;Europe/London;Q609235;NI Railways;;nom;270477798;Q3968882;;;9000AN;Antrim
+TNOSM4006549889;gare;Mossley West;Mossley West;Mossley West;;;54.696818;-5.951075;GB;Europe/London;Q918947;NI Railways;;nom;4006549889;Q3970237;;;9000MW;Mossley West
+TNOSM4033022869;gare;York Street;York Street;York Street;;;54.610227;-5.922217;GB;Europe/London;Q10686;NI Railways;;nom;4033022869;Q125704020;;;9000YS;York Street
+TNOSM4033059328;gare;Belfast Lanyon Place;Belfast Lanyon Place;Belfast Lanyon Place;;;54.595151;-5.91729;GB;Europe/London;Q10686;NI Railways;;nom;4033059328;Q2704810;;;9000CL;Belfast Lanyon Place
+TNOSM4038479296;gare;Bangor;Bangor;Bangor;;;54.658651;-5.671841;GB;Europe/London;Q234178;NI Railways;;nom;4038479296;Q2225233;;;9000BR;Bangor
+TNOSM4038479297;gare;Carnalea;Carnalea;Carnalea;;;54.666069;-5.705626;GB;Europe/London;Q234178;NI Railways;;nom;4038479297;Q3969230;;;9000CA;Carnalea
+TNOSM4038479305;gare;Helen's Bay;Helen's Bay;Helen's Bay;;;54.666193;-5.740311;GB;Europe/London;VGB-helen-s-bay;NI Railways;;nom;4038479305;Q3969782;;;9000HB;Helen's Bay
+TNOSM4038479310;gare;Bangor West;Bangor West;Bangor West;;;54.659554;-5.692931;GB;Europe/London;Q234178;NI Railways;;nom;4038479310;Q3968969;;;9000BW;Bangor West
+TNOSM4038479312;gare;Seahill;Seahill;Seahill;;;54.660812;-5.768229;GB;Europe/London;Q234178;NI Railways;;nom;4038479312;Q373039;;;9000SL;Seahill
+TNOSM4038479314;gare;Cultra;Cultra;Cultra;;;54.652313;-5.804981;GB;Europe/London;Q1625366;NI Railways;;nom;4038479314;Q776320;;;9000CT;Cultra
+TNOSM4038479316;gare;Holywood;Holywood;Holywood;;;54.640988;-5.839814;GB;Europe/London;Q1625366;NI Railways;;nom;4038479316;Q389962;;;9000HW;Holywood
+TNOSM4038479317;gare;Sydenham;Sydenham;Sydenham;;;54.609315;-5.877311;GB;Europe/London;Q10686;NI Railways;;nom;4038479317;Q3971066;;;9000SY;Sydenham
+TNOSM4038479318;gare;Titanic Quarter;Titanic Quarter;Titanic Quarter;;;54.601893;-5.906497;GB;Europe/London;Q10686;NI Railways;;nom;4038479318;Q936393;;;9000BE;Titanic Quarter
+TNOSM4060626756;gare;Whiteabbey;Whiteabbey;Whiteabbey;;;54.672155;-5.904521;GB;Europe/London;Q918947;NI Railways;;nom;4060626756;Q3971359;;;9000WY;Whiteabbey
+TNOSM4060626758;gare;Jordanstown;Jordanstown;Jordanstown;;;54.686973;-5.895295;GB;Europe/London;Q918947;NI Railways;;nom;4060626758;Q3969841;;;9000JN;Jordanstown
+TNOSM4060626760;gare;Greenisland;Greenisland;Greenisland;;;54.700277;-5.87291;GB;Europe/London;VGB-greenisland;NI Railways;;nom;4060626760;Q3969756;;;9000GD;Greenisland
+TNOSM4060626765;gare;Trooperslane;Trooperslane;Trooperslane;;;54.710275;-5.849073;GB;Europe/London;VGB-trooperslane;NI Railways;;nom;4060626765;Q367361;;;9000TE;Trooperslane
+TNOSM4060626766;gare;Clipperstown;Clipperstown;Clipperstown;;;54.717537;-5.818391;GB;Europe/London;Q1020354;NI Railways;;nom;4060626766;Q3969437;;;9000CP;Clipperstown
+TNOSM4060626767;gare;Carrickfergus;Carrickfergus;Carrickfergus;;;54.717537;-5.809591;GB;Europe/London;Q1020354;NI Railways;;nom;4060626767;Q3969244;;;9000CS;Carrickfergus
+TNOSM4060626914;gare;Downshire;Downshire;Downshire;;;54.720997;-5.790392;GB;Europe/London;Q1020354;NI Railways;;nom;4060626914;Q924814;;;9000DP;Downshire
+TNOSM4060626915;gare;Whitehead;Whitehead;Whitehead;;;54.752181;-5.709467;GB;Europe/London;VGB-whitehead;NI Railways;;nom;4060626915;Q3971360;;;9000WD;Whitehead
+TNOSM4060626916;gare;Magheramorne;Magheramorne;Magheramorne;;;54.815367;-5.766788;GB;Europe/London;VGB-craigstown-meadow;NI Railways;;nom;4060626916;Q3970016;;;9000MM;Magheramorne
+TNOSM4060626917;gare;Glynn;Glynn;Glynn;;;54.827144;-5.807088;GB;Europe/London;VGB-glynn;NI Railways;;nom;4060626917;Q3969738;;;9000GN;Glynn
+TNOSM4060626918;gare;Larne;Larne Town;Larne Town;;;54.849989;-5.813805;GB;Europe/London;Q935686;NI Railways;;nom;4060626918;Q3969922;;;9000LN;Larne
+TNOSM4060626936;gare;Larne Harbour;Larne Harbour;Larne Harbour;;;54.847842;-5.798655;GB;Europe/London;Q935686;NI Railways;;nom;4060626936;Q3969921;;;9000LR;Larne Harbour
+TNOSM4060630434;gare;Ballycarry;Ballycarry;Ballycarry;;;54.77722;-5.725639;GB;Europe/London;VGB-islandmagee;NI Railways;;nom;4060630434;Q3968956;;;9000BC;Ballycarry
+TNOSM4061490621;gare;Lisburn;Lisburn;Lisburn;;;54.51391;-6.045322;GB;Europe/London;Q1828035;NI Railways;;nom;4061490621;Q3969969;;;9000LB;Lisburn
+TNOSM4061608585;gare;Newry;Newry;Newry;;;54.188735;-6.362835;GB;Europe/London;Q269980;NI Railways;;nom;4061608585;Q2057783;;;9000NY;Newry
+TNOSM4061608586;gare;Poyntzpass;Poyntzpass;Poyntzpass;;;54.293047;-6.371967;GB;Europe/London;Q170529;NI Railways;;nom;4061608586;Q3970596;;;9000PS;Poyntzpass
+TNOSM4061608587;gare;Scarva;Scarva;Scarva;;;54.331633;-6.366565;GB;Europe/London;VGB-scarva;NI Railways;;nom;4061608587;Q975519;;;9000SV;Scarva
+TNOSM4061608588;gare;Portadown;Portadown;Portadown;;;54.425083;-6.44544;GB;Europe/London;Q768714;NI Railways;;nom;4061608588;Q3970561;;;9000PD;Portadown
+TNOSM4061608690;gare;Moira;Moira;Moira;;;54.492107;-6.21415;GB;Europe/London;Q2022663;NI Railways;;nom;4061608690;Q3970165;;;9000MR;Moira
+TNOSM4061608691;gare;Hilden;Hilden;Hilden;;;54.522297;-6.029385;GB;Europe/London;Q1828035;NI Railways;;nom;4061608691;Q3969788;;;9000HD;Hilden
+TNOSM4061608692;gare;Derriaghy;Derriaghy;Derriaghy;;;54.542392;-6.017688;GB;Europe/London;Q1828035;NI Railways;;nom;4061608692;Q3969522;;;9000DH;Derriaghy
+TNOSM4061608693;gare;Dunmurry;Dunmurry;Dunmurry;;;54.553126;-6.003208;GB;Europe/London;Q10686;NI Railways;;nom;4061608693;Q3969554;;;9000DM;Dunmurry
+TNOSM4061608694;gare;Finaghy;Finaghy;Finaghy;;;54.564041;-5.985824;GB;Europe/London;Q10686;NI Railways;;nom;4061608694;Q3969609;;;9000FY;Finaghy
+TNOSM4061608695;gare;Balmoral;Balmoral;Balmoral;;;54.56863;-5.968587;GB;Europe/London;Q10686;NI Railways;;nom;4061608695;Q568784;;;9000BL;Balmoral
+TNOSM4061608697;gare;Lambeg;Lambeg;Lambeg;;;54.529659;-6.029626;GB;Europe/London;Q1828035;NI Railways;;nom;4061608697;Q3969911;;;9000LG;Lambeg
+TNOSM4065126562;gare;Bellarena;Bellarena;Bellarena;;;55.127033;-6.951065;GB;Europe/London;Q619165;NI Railways;;nom;4065126562;Q3969014;;;9000BN;Bellarena
+TNOSM5525053199;gare;Derry~Londonderry;Derry~Londonderry;Derry~Londonderry;;;54.993087;-7.312817;GB;Europe/London;Q163584;NI Railways;;nom;5525053199;Q3969982;;;9000LY;Derry~Londonderry
+TNOSM688891375;gare;Portrush;Portrush;Portrush;;;55.203115;-6.653386;GB;Europe/London;Q1027679;NI Railways;;nom;688891375;Q3970584;;;9000PH;Portrush
+TNOSM688904769;gare;Dhu Varren;Dhu Varren;Dhu Varren;;;55.196224;-6.661189;GB;Europe/London;Q1027679;NI Railways;;nom;688904769;Q3969528;;;9000DV;Dhu Varren

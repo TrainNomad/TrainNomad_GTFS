@@ -26,7 +26,9 @@ Sorties (traces/sortie/<OP>/, hors de git) :
 
 Les tracés déjà calculés sont conservés d'un lancement à l'autre (--refaire pour tout recalculer).
 Les cars ne sont pas tracés (route_type 3 et 700 à 799, arrêts « Car » de la SNCF, bus de remplacement « NAD »
-du flux slovaque).
+du flux slovaque). Les ferries (route_type 4 et 1000 à 1299 : Holyhead - Dublin du flux National Rail, Brittany
+Ferries...) ne suivent pas les rails : ils sont tracés sur les lignes route=ferry d'OpenStreetMap (cache dans
+traces/cache/osm_ferry/), variante « unique » ; sans ligne ferry entre les deux ports, trait droit sur le site.
 
 Usage :
     python traces/build_traces.py                           (toutes les compagnies activées, puis publier.py --release et globe.py)
@@ -84,6 +86,14 @@ SKIPPED_SERVICES = {"yard", "spur"}   # voies de dépôt et embranchements priv�
 HEURISTIC_SPEED = 320.0     # vitesse d'un minorant sûr du temps restant (A*)
 MAX_SETTLED = 400_000       # garde-fou : nœuds explorés par recherche
 SIMPLIFY_M = 15.0           # tolérance de simplification des tracés
+# Ferries : lignes route=ferry d'OpenStreetMap. Le terminal est souvent à quelques centaines de mètres du bout de
+# la ligne, et un port en a plusieurs (Portsmouth : Caen, Cherbourg, Le Havre, Ryde...) : le port est accroché à
+# toutes les lignes ferry à moins de FERRY_SNAP_KM, la recherche choisit celle qui mène à l'autre port.
+FERRY_SNAP_KM = 3.0
+FERRY_SNAP_MAX_NODES = 400
+FERRY_SPEED = 50.0          # km/h, vitesse « théorique » d'un ferry (temps minimal affiché avec le tracé)
+FERRY_MARGIN_DEG = 0.5      # lignes ferry cherchées dans le rectangle des deux ports + cette marge
+FERRY_MIN_RATIO = 0.8       # tracé ferry refusé s'il est plus court que 80 % de la distance à vol d'oiseau
 SCHEDULE_TOLERANCE = 1.02   # un horaire arrondi à la minute peut être 2 % sous le temps théorique
 # Un train ne tient jamais le temps théorique à vitesse maximale (accélérations, freinages, marges) :
 # une variante n'est réalisable que si l'horaire lui laisse au moins 15 % de plus. Sans cela, un IC
@@ -99,25 +109,37 @@ def feed_path(op: dict) -> str:
     return os.path.join(GTFS_DIR, op["gtfs_path"]) if op.get("gtfs_path") else os.path.join(FEEDS_DIR, f"{op['id']}.zip")
 
 
-def load_pairs(op: dict, ref: Referentiel) -> dict:
-    """{(gare a, gare b): durées en minutes (triées) des trains allant de a à b sans arrêt intermédiaire}."""
+def load_pairs(op: dict, ref: Referentiel, ferries: bool = False) -> dict:
+    """{(gare a, gare b): durées en minutes (triées) des trains allant de a à b sans arrêt intermédiaire}.
+    ferries=True : les traversées en ferry seulement, au lieu des trains."""
     path = feed_path(op)
     if not os.path.exists(path):
         sys.exit(f"❌ {path} absent : compiler ou télécharger d'abord le GTFS de {op['id']}")
     z = zipfile.ZipFile(path)
     routes = read_gtfs(z, "routes.txt")
     trips = read_gtfs(z, "trips.txt")
-    # cars et bus de remplacement : route_type 3, ou 700 à 799 (Hongrie : 714) ; Slovaquie : trains « NAD »
+    # cars et bus de remplacement : route_type 3, ou 700 à 799 (Hongrie : 714) ; Slovaquie : trains « NAD ».
+    # Ferries : route_type 4, ou 1000 à 1299 (types étendus « water transport », « ferry ») : tracés à part, sur
+    # les lignes route=ferry d'OSM (trace_ferries)
     rt = pd.to_numeric(routes["route_type"], errors="coerce") if "route_type" in routes else pd.Series(dtype=float)
     is_bus = (rt == 3) | rt.between(700, 799)
     if "route_long_name" in routes:
         is_bus |= routes["route_long_name"] == "NAD"
-    bus_routes = set(routes.loc[is_bus, "route_id"]) if "route_type" in routes else set()
-    bus_trips = set(trips.loc[trips["route_id"].isin(bus_routes), "trip_id"])
+    is_ferry = (rt == 4) | rt.between(1000, 1299)
+    if "route_type" in routes:
+        bus_trips = set(trips.loc[trips["route_id"].isin(set(routes.loc[is_bus, "route_id"])), "trip_id"])
+        ferry_trips = set(trips.loc[trips["route_id"].isin(set(routes.loc[is_ferry, "route_id"])), "trip_id"])
+    else:
+        bus_trips, ferry_trips = set(), set()
 
     st = read_gtfs(z, "stop_times.txt")
-    st = st[~st["trip_id"].isin(bus_trips)]
-    st = st[~st["stop_id"].str.contains("OCECar", regex=False)]   # cars SNCF (TER, à réservation)
+    if ferries:
+        st = st[st["trip_id"].isin(ferry_trips)]
+    else:
+        st = st[~st["trip_id"].isin(bus_trips | ferry_trips)]
+        st = st[~st["stop_id"].str.contains("OCECar", regex=False)]   # cars SNCF (TER, à réservation)
+    if st.empty:
+        return {}  # compagnie sans train (ferries seulement) ou sans ferry
     st["seq"] = st["stop_sequence"].astype(int)
     st = st.sort_values(["trip_id", "seq"], kind="stable")
     gare = {s: ref.match(op["id"], s) for s in st["stop_id"].unique()}
@@ -159,13 +181,23 @@ def cells_for(pairs, gares) -> list:
 
 def fetch_cell(lat: int, lon: int, offline: bool):
     """Voies railway=rail du carreau (identifiants des nœuds, étiquettes, géométrie) ; None si indisponible."""
-    path = os.path.join(CACHE_DIR, "osm", f"{lat}_{lon}.json.gz")
+    query = f'[out:json][timeout:170];way["railway"="rail"]({lat},{lon},{lat + 1},{lon + 1});out body geom;'
+    return overpass(query, os.path.join(CACHE_DIR, "osm", f"{lat}_{lon}.json.gz"), offline)
+
+
+def fetch_ferries(s: int, w: int, n: int, e: int, offline: bool):
+    """Lignes route=ferry du rectangle (degrés entiers, pour partager le cache) ; None si indisponible."""
+    query = f'[out:json][timeout:170];way["route"="ferry"]({s},{w},{n},{e});out body geom;'
+    return overpass(query, os.path.join(CACHE_DIR, "osm_ferry", f"{s}_{w}_{n}_{e}.json.gz"), offline)
+
+
+def overpass(query: str, path: str, offline: bool):
+    """Réponse Overpass (éléments), en cache dans path ; None si indisponible."""
     if os.path.exists(path):
         with gzip.open(path, "rt", encoding="utf-8") as f:
             return json.load(f)
     if offline:
         return None
-    query = f'[out:json][timeout:170];way["railway"="rail"]({lat},{lon},{lat + 1},{lon + 1});out body geom;'
     body = urllib.parse.urlencode({"data": query}).encode()
     for attempt in range(6):
         url = OVERPASS_URLS[attempt % len(OVERPASS_URLS)]
@@ -173,9 +205,14 @@ def fetch_cell(lat: int, lon: int, offline: bool):
             req = urllib.request.Request(url, data=body, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=200) as r:
                 raw = r.read()
-            elements = json.loads(raw)["elements"]   # une page d'erreur HTML lève ValueError
+            data = json.loads(raw)                   # une page d'erreur HTML lève ValueError
+            elements = data["elements"]
+            # Overpass interrompu (délai, mémoire) : réponse 200 tronquée, signalée seulement par "remark".
+            # Mise en cache, elle priverait le carreau de lignes entières (ligne 311 Jelenia Góra - Szklarska Poręba)
+            if "remark" in data:
+                raise ValueError(f"réponse partielle ({data['remark'][:120]})")
         except (OSError, ValueError, KeyError, http.client.HTTPException) as e:   # HTTPException : réponse coupée (IncompleteRead)
-            logging.warning(f"   carreau {lat},{lon} : {type(e).__name__} sur {url.split('/')[2]}, nouvel essai")
+            logging.warning(f"   {os.path.basename(path)} : {type(e).__name__} sur {url.split('/')[2]}, nouvel essai")
             time.sleep(10 * (attempt + 1))
             continue
         os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -216,7 +253,8 @@ class RailGraph:
         self.way_nodes, self.way_xy, self.way_speed, self.way_hs = [], [], [], []
         self.seen = set()
 
-    def add_cell(self, elements):
+    def add_cell(self, elements, speed: float | None = None):
+        """speed : vitesse imposée à toutes les voies (ferries, sans maxspeed dans OSM)."""
         for w in elements:
             if w["id"] in self.seen or len(w.get("nodes", ())) < 2:
                 continue
@@ -224,24 +262,25 @@ class RailGraph:
             if tags.get("service") in SKIPPED_SERVICES:
                 continue
             self.seen.add(w["id"])
-            v, hs = way_speed(tags)
+            v, hs = (speed, False) if speed else way_speed(tags)
             self.way_nodes.append(np.asarray(w["nodes"], np.int64))
             self.way_xy.append(np.asarray([(p["lat"], p["lon"]) for p in w["geometry"]], np.float64))
             self.way_speed.append(v)
             self.way_hs.append(hs)
 
-    def build(self, stations: dict):
-        """stations : {id de gare: (lat, lon)}. Accroche chaque gare au nœud de voie le plus proche."""
+    def build(self, stations: dict, snap_max_km: float = SNAP_MAX_KM, snap_radius_km: float = SNAP_RADIUS_KM,
+              snap_max_nodes: int = SNAP_MAX_NODES):
+        """stations : {id de gare: (lat, lon)}. Accroche chaque gare aux nœuds de voie proches."""
         all_nodes = np.concatenate(self.way_nodes)
         all_xy = np.concatenate(self.way_xy)
         km_per_deg = np.array([111.2, 111.2 * math.cos(math.radians(float(all_xy[:, 0].mean())))])
         tree = cKDTree(all_xy * km_per_deg)
         self.snap = {}   # gare -> nœuds de voie proches
         for gid, (lat, lon) in stations.items():
-            dist, idx = tree.query(np.array([lat, lon]) * km_per_deg, k=SNAP_MAX_NODES, distance_upper_bound=SNAP_MAX_KM)
+            dist, idx = tree.query(np.array([lat, lon]) * km_per_deg, k=snap_max_nodes, distance_upper_bound=snap_max_km)
             # Aucune voie à portée (carreau indisponible…) : distances infinies, indices hors tableau
             near = [int(all_nodes[i]) for d, i in zip(dist, idx)
-                    if np.isfinite(d) and d <= max(SNAP_RADIUS_KM, dist[0] + 0.05)]
+                    if np.isfinite(d) and d <= max(snap_radius_km, dist[0] + 0.05)]
             if near:
                 self.snap[gid] = sorted(set(near))
         del tree
@@ -274,7 +313,7 @@ class RailGraph:
         logging.info(f"   graphe : {len(self.pos)} sommets, {sum(len(e) for e in self.adj.values()) // 2} arêtes, "
                      f"{len(self.snap)}/{len(stations)} gares accrochées aux voies")
 
-    def route(self, sources: list, targets: list, allow_hs: bool):
+    def route(self, sources: list, targets: list, allow_hs: bool, slack_km: float = SNAP_RADIUS_KM):
         """A* sur le temps de parcours à vitesse maximale, d'un des nœuds de départ à un des nœuds
         d'arrivée : (minutes, km, km LGV, points) ou None."""
         goal = set(targets) - set(sources)
@@ -282,7 +321,7 @@ class RailGraph:
             return None
         tlat, tlon = np.mean([self.pos[n] for n in goal], axis=0)
         cos = math.cos(math.radians(tlat))
-        slack = SNAP_RADIUS_KM + 0.1   # les nœuds d'arrivée sont autour de ce point : minorant gardé sûr
+        slack = slack_km + 0.1   # les nœuds d'arrivée sont autour de ce point : minorant gardé sûr
 
         def h(n):
             p = self.pos[n]
@@ -323,6 +362,51 @@ class RailGraph:
             hs_total += hs_km
         pts = np.concatenate([p if i == 0 else p[1:] for i, p in enumerate(parts[::-1])])
         return best[b], km, hs_total, pts
+
+
+def trace_ferries(pairs: list, gares: dict, offline: bool) -> tuple[dict, set]:
+    """Tracés des traversées en ferry sur les lignes route=ferry d'OSM : ({paire: variantes}, paires sans
+    données OSM, à refaire). Paire sans ligne ferry entre les deux ports : aucune variante (trait droit)."""
+    out, failed, graphs, unavailable = {}, set(), {}, set()
+    ports = {g for p in pairs for g in p}
+    for a, b in pairs:
+        ga, gb = gares[a], gares[b]
+        box = (math.floor(min(ga["lat"], gb["lat"]) - FERRY_MARGIN_DEG),
+               math.floor(min(ga["lon"], gb["lon"]) - FERRY_MARGIN_DEG),
+               math.ceil(max(ga["lat"], gb["lat"]) + FERRY_MARGIN_DEG),
+               math.ceil(max(ga["lon"], gb["lon"]) + FERRY_MARGIN_DEG))
+        if box not in graphs:
+            elements = fetch_ferries(*box, offline)
+            graphs[box] = None
+            if elements is None:
+                unavailable.add(box)
+            elif elements:
+                g = RailGraph()
+                g.add_cell(elements, speed=FERRY_SPEED)
+                if g.seen:
+                    inside = {k: (gares[k]["lat"], gares[k]["lon"]) for k in ports
+                              if box[0] <= gares[k]["lat"] <= box[2] and box[1] <= gares[k]["lon"] <= box[3]}
+                    g.build(inside, FERRY_SNAP_KM, FERRY_SNAP_KM, FERRY_SNAP_MAX_NODES)
+                    graphs[box] = g
+        if box in unavailable:
+            failed.add((a, b))  # Overpass indisponible : recalculée au prochain lancement
+            continue
+        g = graphs[box]
+        variantes = {}
+        if g and a in g.snap and b in g.snap:
+            r = g.route(g.snap[a], g.snap[b], True, slack_km=FERRY_SNAP_KM)
+            straight = float(seg_km(np.array([[ga["lat"], ga["lon"]], [gb["lat"], gb["lon"]]]))[0])
+            # plus court que la distance à vol d'oiseau : les deux ports accrochés au même bout de ligne (Lymington -
+            # Yarmouth, 7 km, rendu en 0,6 km), tracé refusé
+            if r and FERRY_MIN_RATIO * straight <= r[1] <= DETOUR_MAX * straight + 5:
+                # la ligne ferry commence au quai : le tracé part du port et y arrive
+                pts = np.vstack([[ga["lat"], ga["lon"]], r[3], [gb["lat"], gb["lon"]]])
+                variantes = {"unique": {"km": round(r[1], 1), "km_lgv": 0.0, "min": round(r[0], 1),
+                                        "pts": encode_polyline(simplify(pts))}}
+        out[(a, b)] = variantes
+        logging.info(f"   ⛴️  {ga['name']} - {gb['name']} : "
+                     + (f"{variantes['unique']['km']} km" if variantes else "pas de ligne ferry dans OSM (trait droit)"))
+    return out, failed
 
 
 # ---------------------------------------------------------------------------
@@ -478,6 +562,12 @@ def main():
         directed = {k: v for k, v in directed.items() if (min(k), max(k)) in set(pairs)}
     if args.max_paires:
         pairs = pairs[:args.max_paires]
+    # traversées en ferry : tracées sur les lignes ferry d'OSM, pas sur les rails
+    directed_ferry = load_pairs(op, ref, ferries=True)
+    ferry_pairs = sorted({(min(a, b), max(a, b)) for a, b in directed_ferry if a in gares and b in gares} - set(pairs))
+    if args.pays:
+        ferry_pairs = [(a, b) for a, b in ferry_pairs if gares[a]["country"] in pays and gares[b]["country"] in pays]
+    directed.update({k: v for k, v in directed_ferry.items() if (min(k), max(k)) in set(ferry_pairs)})
     done = {} if args.refaire else load_existing(out_dir)
     # Paires calculées alors qu'il manquait des carreaux de voies : le tracé a pu contourner le trou
     # (Madrid -> Séville par Mérida). Elles sont recalculées au lancement suivant.
@@ -489,6 +579,9 @@ def main():
     done = {p: v for p, v in done.items() if p not in doubt}
     todo = [p for p in pairs if p not in done]
     logging.info(f"   {len(pairs)} paires, {len(todo)} à calculer")
+    ferry_todo = [p for p in ferry_pairs if p not in done]
+    if ferry_pairs:
+        logging.info(f"   {len(ferry_pairs)} traversées en ferry, {len(ferry_todo)} à calculer")
 
     if todo:
         cells = cells_for(todo, gares)
@@ -532,6 +625,13 @@ def main():
             done[(a, b)] = variantes
             if i % 500 == 0:
                 logging.info(f"   {i}/{len(todo)} paires ({time.time() - t0:.0f} s)")
+
+    if ferry_todo:
+        logging.info("⛴️  Tracés des ferries (lignes route=ferry d'OpenStreetMap)")
+        traced, failed = trace_ferries(ferry_todo, gares, args.offline)
+        done.update({p: v for p, v in traced.items() if p not in failed})
+        doubt = (doubt - set(ferry_todo)) | failed
+    pairs = sorted(set(pairs) | set(ferry_pairs))
 
     # écriture : un fichier par gare de départ, paires.csv, sans_trace.csv
     os.makedirs(os.path.join(out_dir, "gares"), exist_ok=True)

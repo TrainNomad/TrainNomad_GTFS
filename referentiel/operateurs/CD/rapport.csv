@@ -1,89 +1,87 @@
 id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
-TNCD-sr70s-at-02669;-SR70S-AT-02669;Unterretzbach z;Unterretzbach z;gtfs;;;Retzbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5430025;-SR70S-CZ-30025;Bohumín-Vrbice st.hr;Bohumín-Vrbice st.hr;gtfs;;;Bohumín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-at-02669;-SR70S-AT-02669;Unterretzbach z;Unterretzbach z;gtfs;;Unterretzbach z;Retzbach;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5430025;-SR70S-CZ-30025;Bohumín-Vrbice st.hr;Bohumín-Vrbice st.hr;gtfs;;Bohumín-Vrbice st.hr;Bohumín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5433114;-SR70S-CZ-33114;Hrádek;Hrádek;nom;0.003;Hrádek (Gródek);Hrádek;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5433135;-SR70S-CZ-33135;Křenovice dol.n.;Křenovice dol.n.;gtfs;;;Křenovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433135;-SR70S-CZ-33135;Křenovice dol.n.;Křenovice dol.n.;gtfs;;Křenovice dol.n.;Křenovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5433254;-SR70S-CZ-33254;Ropice zastávka;Ropice zastávka;nom;0.007;Ropice zastávka (Ropica przystanek);Ropice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5433324;-SR70S-CZ-33324;Frenštát p.R. město;Frenštát p.R. město;gtfs;;;Frenštát pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433324;-SR70S-CZ-33324;Frenštát p.R. město;Frenštát p.R. město;gtfs;;Frenštát p.R. město;Frenštát pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5433634;-SR70S-CZ-33634;Bocanovice;Bocanovice;nom;0.022;Bocanovice (Boconowice);Bocanovice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5434057;-SR70S-CZ-34057;Nectava;Nectava;gtfs;;;Březinky;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434272;-SR70S-CZ-34272;Nové Heřminovy z;Nové Heřminovy z;gtfs;;;Nové Heřminovy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434404;-SR70S-CZ-34404;Ostrava-Hrušov;Ostrava-Hrušov;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434405;-SR70S-CZ-34405;Zdětín u Prostějova;Zdětín u Prostějova;gtfs;;;Zdětín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434057;-SR70S-CZ-34057;Nectava;Nectava;gtfs;;Nectava;Březinky;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434272;-SR70S-CZ-34272;Nové Heřminovy z;Nové Heřminovy z;gtfs;;Nové Heřminovy z;Nové Heřminovy;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434404;-SR70S-CZ-34404;Ostrava-Hrušov;Ostrava-Hrušov;gtfs;;Ostrava-Hrušov;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434405;-SR70S-CZ-34405;Zdětín u Prostějova;Zdětín u Prostějova;gtfs;;Zdětín u Prostějova;Zdětín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5434584;-SR70S-CZ-34584;Ropice;Ropice;nom;0.006;Ropice (Ropica);Ropice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN5434594;-SR70S-CZ-34594;Ropice-Zálesí (Ropica-Zalesie);Ropice-Zálesí (Ropica-Zalesie);nom;0.05;Ropice-Zálesí;Střítež;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5434665;-SR70S-CZ-34665;Česká;Česká;gtfs;;;Česká;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434922;-SR70S-CZ-34922;Petrov n.Des.zast. z;Petrov n.Des.zast. z;gtfs;;;Petrov nad Desnou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434665;-SR70S-CZ-34665;Česká;Česká;gtfs;;Česká;Česká;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434922;-SR70S-CZ-34922;Petrov n.Des.zast. z;Petrov n.Des.zast. z;gtfs;;Petrov n.Des.zast. z;Petrov nad Desnou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5434944;-SR70S-CZ-34944;Třinec centrum;Třinec centrum;nom;0.048;Třinec centrum (Trzyniec Centrum);Třinec;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5434982;-SR70S-CZ-34982;Vikýřovice z;Vikýřovice z;gtfs;;;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435382;-SR70S-CZ-35382;Pocheň z;Pocheň z;gtfs;;;Široká Niva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435392;-SR70S-CZ-35392;Skrbovice z;Skrbovice z;gtfs;;;Široká Niva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435412;-SR70S-CZ-35412;Vrbno p.Prad.zast. z;Vrbno p.Prad.zast. z;gtfs;;;Vrbno pod Pradědem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435422;-SR70S-CZ-35422;Karlovice zast. z;Karlovice zast. z;gtfs;;;Karlovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434982;-SR70S-CZ-34982;Vikýřovice z;Vikýřovice z;gtfs;;Vikýřovice z;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435382;-SR70S-CZ-35382;Pocheň z;Pocheň z;gtfs;;Pocheň z;Široká Niva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435392;-SR70S-CZ-35392;Skrbovice z;Skrbovice z;gtfs;;Skrbovice z;Široká Niva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435412;-SR70S-CZ-35412;Vrbno p.Prad.zast. z;Vrbno p.Prad.zast. z;gtfs;;Vrbno p.Prad.zast. z;Vrbno pod Pradědem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435422;-SR70S-CZ-35422;Karlovice zast. z;Karlovice zast. z;gtfs;;Karlovice zast. z;Karlovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5435895;-SR70S-CZ-35895;Rohatec kolonie;Rohatec kolonie;nom;0.015;Rohatec kolonie (zast);Rohatec;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5435972;-SR70S-CZ-35972;Vikýřovice-Lesní z;Vikýřovice-Lesní z;gtfs;;;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435982;-SR70S-CZ-35982;Vikýřovice u penz. z;Vikýřovice u penz. z;gtfs;;;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5438394;-SR70S-CZ-38394;Bohumín-Vrbice S618a;Bohumín-Vrbice S618a;gtfs;;;Bohumín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453221;-SR70S-CZ-53221;Pha-Rajská zahrada z;Pha-Rajská zahrada z;gtfs;;;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453297;-SR70S-CZ-53297;Dobříčany;Dobříčany;gtfs;;;Liběšice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453786;-SR70S-CZ-53786;Kmetiněves;Kmetiněves;gtfs;;;Kmetiněves;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454120;-SR70S-CZ-54120;Rychnov n.K. zast.;Rychnov n.K. zast.;gtfs;;;Rychnov nad Kněžnou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454177;-SR70S-CZ-54177;Martiněves u Libochovic;Martiněves u Libochovic;gtfs;;;Martiněves;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454297;-SR70S-CZ-54297;Záluží;Záluží;gtfs;;;Záluží;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454431;-SR70S-CZ-54431;Lítkovice;Lítkovice;nom;0.002;Lítkovice;Chlumín, Lítkovice;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
-TN5455112;-SR70S-CZ-55112;Jablonec n.N. dol.n.;Jablonec n.N. dol.n.;gtfs;;;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5455316;-SR70S-CZ-55316;Dobříčkov;Dobříčkov;nom;0.005;Dobříčkov;Dobříčkov;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN5435972;-SR70S-CZ-35972;Vikýřovice-Lesní z;Vikýřovice-Lesní z;gtfs;;Vikýřovice-Lesní z;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435982;-SR70S-CZ-35982;Vikýřovice u penz. z;Vikýřovice u penz. z;gtfs;;Vikýřovice u penz. z;Vikýřovice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5438394;-SR70S-CZ-38394;Bohumín-Vrbice S618a;Bohumín-Vrbice S618a;gtfs;;Bohumín-Vrbice S618a;Bohumín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453221;-SR70S-CZ-53221;Pha-Rajská zahrada z;Pha-Rajská zahrada z;gtfs;;Pha-Rajská zahrada z;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453297;-SR70S-CZ-53297;Dobříčany;Dobříčany;gtfs;;Dobříčany;Liběšice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454120;-SR70S-CZ-54120;Rychnov n.K. zast.;Rychnov n.K. zast.;gtfs;;Rychnov n.K. zast.;Rychnov nad Kněžnou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454177;-SR70S-CZ-54177;Martiněves u Libochovic;Martiněves u Libochovic;gtfs;;Martiněves u Libochovic;Martiněves;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454297;-SR70S-CZ-54297;Záluží;Záluží;gtfs;;Záluží;Záluží;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5455112;-SR70S-CZ-55112;Jablonec n.N. dol.n.;Jablonec n.N. dol.n.;gtfs;;Jablonec n.N. dol.n.;Jablonec nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5456356;-SR70S-CZ-56356;Poličany;Poličany;nom;0.006;Kutná Hora-Poličany;Kutná Hora;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5456366;-SR70S-CZ-56366;Kutná Hora předměstí;Kutná Hora předměstí;gtfs;;;Kutná Hora;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5457230;-SR70S-CZ-57230;Mladé Buky z;Mladé Buky z;gtfs;;;Mladé Buky;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5457250;-SR70S-CZ-57250;Trutnov-Staré m. z;Trutnov-Staré m. z;gtfs;;;Trutnov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5457290;-SR70S-CZ-57290;Trutnov-Zel. Louka z;Trutnov-Zel. Louka z;gtfs;;;Trutnov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5473222;-SR70S-CZ-73222;Rojice;Rojice;nom;0.002;Rojice;Rojice;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
-TN5473262;-SR70S-CZ-73262;Domanice;Domanice;nom;0.005;Domanice;Domanice;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
-TN5473634;-SR70S-CZ-73634;Tábor-Měšice;Tábor-Měšice;gtfs;;;Tábor;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5475830;-SR70S-CZ-75830;Dolní Cerekev;Dolní Cerekev;gtfs;;;Dolní Cerekev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5456366;-SR70S-CZ-56366;Kutná Hora předměstí;Kutná Hora předměstí;gtfs;;Kutná Hora předměstí;Kutná Hora;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5457230;-SR70S-CZ-57230;Mladé Buky z;Mladé Buky z;gtfs;;Mladé Buky z;Mladé Buky;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5457250;-SR70S-CZ-57250;Trutnov-Staré m. z;Trutnov-Staré m. z;gtfs;;Trutnov-Staré m. z;Trutnov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5457290;-SR70S-CZ-57290;Trutnov-Zel. Louka z;Trutnov-Zel. Louka z;gtfs;;Trutnov-Zel. Louka z;Trutnov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5473634;-SR70S-CZ-73634;Tábor-Měšice;Tábor-Měšice;gtfs;;Tábor-Měšice;Tábor;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5475830;-SR70S-CZ-75830;Dolní Cerekev;Dolní Cerekev;gtfs;;Dolní Cerekev;Dolní Cerekev;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8006438;-SR70S-DE-10632;Bärenstein;Bärenstein (Kr Annaberg);nom;0.0;Bärenstein (Annaberg);Bärenstein;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNCD-sr70s-de-15906;-SR70S-DE-15906;Krippen Hp;Krippen Hp;gtfs;;;Bad Schandau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-de-17068;-SR70S-DE-17068;Mittelherwigsdorf/S.;Mittelherwigsdorf/S.;gtfs;;;Mittelherwigsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-de-18456;-SR70S-DE-18456;Porschdorf(Pirna);Porschdorf(Pirna);gtfs;;;Bad Schandau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-de-18662;-SR70S-DE-18662;Rathmannsdorf(Pirna);Rathmannsdorf(Pirna);gtfs;;;Rathmannsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-pl-05619;-SR70S-PL-05619;Szkl. Poręba Huta;Szkl. Poręba Huta;gtfs;;;Szklarska Poręba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-sk-14386;-SR70S-SK-14386;Brestovec z;Brestovec z;gtfs;;;Brestovec (district de Myjava);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-sk-16446;-SR70S-SK-16446;Vrbovce zastávka z;Vrbovce zastávka z;gtfs;;;Vrbovce;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70s-sk-18175;-SR70S-SK-18175;Svrčinovec zast. z;Svrčinovec zast. z;gtfs;;;Svrčinovec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5400701;-SR70ST-CZ-00701;Jindř.Hradec JHMD;Jindř.Hradec JHMD;gtfs;;;Jindřichův Hradec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-de-15906;-SR70S-DE-15906;Krippen Hp;Krippen Hp;gtfs;;Krippen Hp;Bad Schandau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-de-17068;-SR70S-DE-17068;Mittelherwigsdorf/S.;Mittelherwigsdorf/S.;gtfs;;Mittelherwigsdorf/S.;Mittelherwigsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-de-18456;-SR70S-DE-18456;Porschdorf(Pirna);Porschdorf(Pirna);gtfs;;Porschdorf(Pirna);Bad Schandau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-de-18662;-SR70S-DE-18662;Rathmannsdorf(Pirna);Rathmannsdorf(Pirna);gtfs;;Rathmannsdorf(Pirna);Rathmannsdorf;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-pl-05619;-SR70S-PL-05619;Szkl. Poręba Huta;Szkl. Poręba Huta;gtfs;;Szkl. Poręba Huta;Szklarska Poręba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-sk-14386;-SR70S-SK-14386;Brestovec z;Brestovec z;gtfs;;Brestovec z;Brestovec (district de Myjava);wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-sk-16446;-SR70S-SK-16446;Vrbovce zastávka z;Vrbovce zastávka z;gtfs;;Vrbovce zastávka z;Vrbovce;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70s-sk-18175;-SR70S-SK-18175;Svrčinovec zast. z;Svrčinovec zast. z;gtfs;;Svrčinovec zast. z;Svrčinovec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5400701;-SR70ST-CZ-00701;Jindř.Hradec JHMD;Jindř.Hradec JHMD;gtfs;;Jindř.Hradec JHMD;Jindřichův Hradec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5433104;-SR70ST-CZ-33104;Bystřice;Bystřice;nom;0.048;Bystřice (Bystrzyca);Bystřice;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN5433234;-SR70ST-CZ-33234;Český Těšín;Český Těšín;nom;0.013;Český Těšín (Czeski Cieszyn);Český Těšín;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5433334;-SR70ST-CZ-33334;Frenštát p.R.;Frenštát p.R.;gtfs;;;Frenštát pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5433437;-SR70ST-CZ-33437;Březová n. Svit.;Březová n. Svit.;gtfs;;;Březová nad Svitavou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433334;-SR70ST-CZ-33334;Frenštát p.R.;Frenštát p.R.;gtfs;;Frenštát p.R.;Frenštát pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433437;-SR70ST-CZ-33437;Březová n. Svit.;Březová n. Svit.;gtfs;;Březová n. Svit.;Březová nad Svitavou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5433624;-SR70ST-CZ-33624;Návsí;Návsí;nom;0.07;Návsí (Nawsie);Návsí;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5433674;-SR70ST-CZ-33674;Karviná hl. n.;Karviná hl. n.;gtfs;;;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5433862;-SR70ST-CZ-33862;Javorník ve Sl.;Javorník ve Sl.;gtfs;;;Javorník;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434037;-SR70ST-CZ-34037;Chornice;Chornice;gtfs;;;Chornice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433674;-SR70ST-CZ-33674;Karviná hl. n.;Karviná hl. n.;gtfs;;Karviná hl. n.;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433862;-SR70ST-CZ-33862;Javorník ve Sl.;Javorník ve Sl.;gtfs;;Javorník ve Sl.;Javorník;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434037;-SR70ST-CZ-34037;Chornice;Chornice;gtfs;;Chornice;Chornice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5434104;-SR70ST-CZ-34104;Mosty u Jablunkova;Mosty u Jablunkova;nom;0.029;Mosty u Jablunkova (Mosty koło Jabłonkowa);Mosty u Jablunkova;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5434353;-SR70ST-CZ-34353;N. Malín dřevosklad;N. Malín dřevosklad;gtfs;;;Nový Malín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434364;-SR70ST-CZ-34364;Ostrava hl. n.;Ostrava hl. n.;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434782;-SR70ST-CZ-34782;Rožnov p.R.;Rožnov p.R.;gtfs;;;Rožnov pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434353;-SR70ST-CZ-34353;N. Malín dřevosklad;N. Malín dřevosklad;gtfs;;N. Malín dřevosklad;Nový Malín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434364;-SR70ST-CZ-34364;Ostrava hl. n.;Ostrava hl. n.;gtfs;;Ostrava hl. n.;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434782;-SR70ST-CZ-34782;Rožnov p.R.;Rožnov p.R.;gtfs;;Rožnov p.R.;Rožnov pod Radhoštěm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5434924;-SR70ST-CZ-34924;Třinec;Třinec;nom;0.068;Třinec (Trzyniec);Třinec;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5435385;-SR70ST-CZ-35385;N. Město na M.;N. Město na M.;gtfs;;;Nové Město na Moravě;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5435775;-SR70ST-CZ-35775;Ptení;Ptení;gtfs;;;Ptení;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5438006;-SR70ST-CZ-38006;Třemešná ve Sl. ú.r.;Třemešná ve Sl. ú.r.;gtfs;;;Třemešná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5438034;-SR70ST-CZ-38034;Ostrava hl.n.;Ostrava hl.n.;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453214;-SR70ST-CZ-53214;Nymburk hl. n.;Nymburk hl. n.;gtfs;;;Nymburk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453483;-SR70ST-CZ-53483;Řečany n.L.;Řečany n.L.;gtfs;;;Řečany nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453613;-SR70ST-CZ-53613;Pardubice hl. n.;Pardubice hl. n.;gtfs;;;Pardubice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453890;-SR70ST-CZ-53890;N. Město n. Met.;N. Město n. Met.;gtfs;;;Nové Město nad Metují;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454232;-SR70ST-CZ-54232;Rychnov u Jabl.n.N.;Rychnov u Jabl.n.N.;gtfs;;;Rychnov u Jablonce nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454826;-SR70ST-CZ-54826;P.-Hor. Počernice;P.-Hor. Počernice;gtfs;;;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454853;-SR70ST-CZ-54853;Hlinsko v Č.;Hlinsko v Č.;gtfs;;;Hlinsko;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5454903;-SR70ST-CZ-54903;Ždírec n.D.;Ždírec n.D.;gtfs;;;Ždírec nad Doubravou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5456800;-SR70ST-CZ-56800;Smiřice;Smiřice;gtfs;;;Smiřice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5458000;-SR70ST-CZ-58000;Čáslav;Čáslav;gtfs;;;Čáslav;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5458083;-SR70ST-CZ-58083;Nymburk předjízd.n.;Nymburk předjízd.n.;gtfs;;;Nymburk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5458366;-SR70ST-CZ-58366;Praha-Vyšehrad výhybna;Praha-Vyšehrad výhybna;gtfs;;;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5474945;-SR70ST-CZ-74945;Planá u M.L.;Planá u M.L.;gtfs;;;Planá;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5475645;-SR70ST-CZ-75645;Staré Sedliště;Staré Sedliště;gtfs;;;Staré Sedliště;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5477025;-SR70ST-CZ-77025;Ž. Ruda-Alžbětín;Ž. Ruda-Alžbětín;gtfs;;;Železná Ruda;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TNCD-sr70st-de-14106;-SR70ST-DE-14106;Grossschönau/S.;Grossschönau/S.;gtfs;;;Großschönau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435385;-SR70ST-CZ-35385;N. Město na M.;N. Město na M.;gtfs;;N. Město na M.;Nové Město na Moravě;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5435775;-SR70ST-CZ-35775;Ptení;Ptení;gtfs;;Ptení;Ptení;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5438006;-SR70ST-CZ-38006;Třemešná ve Sl. ú.r.;Třemešná ve Sl. ú.r.;gtfs;;Třemešná ve Sl. ú.r.;Třemešná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5438034;-SR70ST-CZ-38034;Ostrava hl.n.;Ostrava hl.n.;gtfs;;Ostrava hl.n.;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453214;-SR70ST-CZ-53214;Nymburk hl. n.;Nymburk hl. n.;gtfs;;Nymburk hl. n.;Nymburk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453483;-SR70ST-CZ-53483;Řečany n.L.;Řečany n.L.;gtfs;;Řečany n.L.;Řečany nad Labem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453613;-SR70ST-CZ-53613;Pardubice hl. n.;Pardubice hl. n.;gtfs;;Pardubice hl. n.;Pardubice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453890;-SR70ST-CZ-53890;N. Město n. Met.;N. Město n. Met.;gtfs;;N. Město n. Met.;Nové Město nad Metují;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454232;-SR70ST-CZ-54232;Rychnov u Jabl.n.N.;Rychnov u Jabl.n.N.;gtfs;;Rychnov u Jabl.n.N.;Rychnov u Jablonce nad Nisou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454826;-SR70ST-CZ-54826;P.-Hor. Počernice;P.-Hor. Počernice;gtfs;;P.-Hor. Počernice;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454853;-SR70ST-CZ-54853;Hlinsko v Č.;Hlinsko v Č.;gtfs;;Hlinsko v Č.;Hlinsko;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5454903;-SR70ST-CZ-54903;Ždírec n.D.;Ždírec n.D.;gtfs;;Ždírec n.D.;Ždírec nad Doubravou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5456800;-SR70ST-CZ-56800;Smiřice;Smiřice;gtfs;;Smiřice;Smiřice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5458000;-SR70ST-CZ-58000;Čáslav;Čáslav;gtfs;;Čáslav;Čáslav;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5458083;-SR70ST-CZ-58083;Nymburk předjízd.n.;Nymburk předjízd.n.;gtfs;;Nymburk předjízd.n.;Nymburk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5458366;-SR70ST-CZ-58366;Praha-Vyšehrad výhybna;Praha-Vyšehrad výhybna;gtfs;;Praha-Vyšehrad výhybna;Prague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5474945;-SR70ST-CZ-74945;Planá u M.L.;Planá u M.L.;gtfs;;Planá u M.L.;Planá;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5475645;-SR70ST-CZ-75645;Staré Sedliště;Staré Sedliště;gtfs;;Staré Sedliště;Staré Sedliště;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5477025;-SR70ST-CZ-77025;Ž. Ruda-Alžbětín;Ž. Ruda-Alžbětín;gtfs;;Ž. Ruda-Alžbětín;Železná Ruda;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70st-de-14106;-SR70ST-DE-14106;Grossschönau/S.;Grossschönau/S.;gtfs;;Grossschönau/S.;Großschönau;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8006062;-SR70ST-DE-19626;Sebnitz(Sachs);Sebnitz (Sachs);nom;0.0;Sebnitz;Sebnitz;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TNCD-sr70st-pl-05618;-SR70ST-PL-05618;Szkl. Poręba Górna;Szkl. Poręba Górna;gtfs;;;Szklarska Poręba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNCD-sr70st-pl-05618;-SR70ST-PL-05618;Szkl. Poręba Górna;Szkl. Poręba Górna;gtfs;;Szkl. Poręba Górna;Szklarska Poręba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5455316;-SR70S-CZ-55316;Dobříčkov;Dobříčkov;nom;0.005;Dobříčkov;Dobříčkov;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN5473222;-SR70S-CZ-73222;Rojice;Rojice;nom;0.002;Rojice;Rojice;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN5473262;-SR70S-CZ-73262;Domanice;Domanice;nom;0.005;Domanice;Domanice;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent

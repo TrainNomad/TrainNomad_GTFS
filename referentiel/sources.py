@@ -130,12 +130,14 @@ class Wikidata:
         self.cache = JsonCache("wikidata.json")
         self.requests = 0
 
-    def get_many(self, qids, station: bool = False) -> dict:
+    def get_many(self, qids, station: bool = False, need: str = "") -> dict:
         """station=True : il faut aussi les codes de gare (uic = P722, ibnr = P954, le numéro EVA de la
-        Deutsche Bahn) ; les entrées mises en cache avant leur ajout sont relues une fois."""
+        Deutsche Bahn) ; les entrées mises en cache avant leur ajout sont relues une fois.
+        need="p36" : idem pour une propriété ajoutée plus tard au cache (chef-lieu, P36)."""
         qids = [q for q in dict.fromkeys(qids) if q and q.startswith("Q")]
         missing = [] if OFFLINE else [q for q in qids if self.cache.get(q) is None
-                                      or (station and self.cache.get(q) and "uic" not in self.cache.get(q))]
+                                      or (station and self.cache.get(q) and "uic" not in self.cache.get(q))
+                                      or (need and self.cache.get(q) and need not in self.cache.get(q))]
         for i in range(0, len(missing), 50):
             batch = missing[i:i + 50]
             url = WIKIDATA_URL + "?" + urllib.parse.urlencode({
@@ -151,7 +153,7 @@ class Wikidata:
                 self.cache.set(q, {
                     "fr": labels.get("fr", {}).get("value", ""), "en": labels.get("en", {}).get("value", ""),
                     "p31": _claim_ids(e, "P31"), "p131": _claim_ids(e, "P131"), "p17": _claim_ids(e, "P17"),
-                    "p279": _claim_ids(e, "P279"),
+                    "p279": _claim_ids(e, "P279"), "p36": _claim_ids(e, "P36"),
                     "uic": _claim_texts(e, "P722"), "ibnr": _claim_texts(e, "P954"),
                     "coord": _coord(e),
                 })

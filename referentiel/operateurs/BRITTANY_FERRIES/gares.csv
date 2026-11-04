@@ -1,0 +1,13 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TNBRITTANY_FERRIES-es-bio;port;Bilbao (Santurtzi);Bilbao Santurtzi;Bilbao (Santurtzi);;;43.35378;-3.07035;ES;Europe/Madrid;Q1542223;;FERRY;gtfs;;;;;ES BIO;Bilbao (Santurtzi)
+TNBRITTANY_FERRIES-es-sdr;port;Santander (port);Santander Port;Santander (port);;;43.459083;-3.806087;ES;Europe/Madrid;Q12233;;FERRY;gtfs;;;;;ES SDR;Santander (port)
+TNBRITTANY_FERRIES-fr-cer;port;Cherbourg (port);Cherbourg Port;Cherbourg (port);;;49.64485;-1.611565;FR;Europe/Paris;Q21008210;;FERRY;gtfs;;;;;FR CER;Cherbourg (port)
+TNBRITTANY_FERRIES-fr-leh;port;Le Havre (terminal transmanche);Le Havre Ferry Terminal;Le Havre (terminal transmanche);;;49.485412;0.114563;FR;Europe/Paris;Q42810;;FERRY;gtfs;;;;;FR LEH;Le Havre (terminal transmanche)
+TNBRITTANY_FERRIES-fr-oui;port;Caen - Ouistreham (port);Caen Ouistreham Port;Caen - Ouistreham (port);;;49.284013;-0.249698;FR;Europe/Paris;Q274825;;FERRY;gtfs;;;;;FR OUI;Caen - Ouistreham (port)
+TNBRITTANY_FERRIES-fr-ros;port;Roscoff (port du Bloscon);Roscoff Bloscon;Roscoff (port du Bloscon);;;48.721784;-3.967001;FR;Europe/Paris;Q245297;;FERRY;gtfs;;;;;FR ROS;Roscoff (port du Bloscon)
+TNBRITTANY_FERRIES-fr-sml;port;Saint-Malo (terminal du Naye);Saint-Malo Ferry Terminal;Saint-Malo (terminal du Naye);;;48.642572;-2.024215;FR;Europe/Paris;Q163108;;FERRY;gtfs;;;;;FR SML;Saint-Malo (terminal du Naye)
+TNBRITTANY_FERRIES-gb-ply;port;Plymouth (Millbay);Plymouth Millbay;Plymouth Millbay;;;50.364711;-4.158544;GB;Europe/London;Q43382;;FERRY;gtfs;;;;;GB PLY;Plymouth (Millbay)
+TNBRITTANY_FERRIES-gb-pme;port;Portsmouth (port international);Portsmouth International Port;Portsmouth International Port;;;50.811823;-1.088367;GB;Europe/London;Q72259;;FERRY;gtfs;;;;;GB PME;Portsmouth (port international)
+TNBRITTANY_FERRIES-gb-poo;port;Poole (port);Poole Port;Poole Port;;;50.70945;-1.993272;GB;Europe/London;Q54366459;;FERRY;gtfs;;;;;GB POO;Poole (port)
+TNBRITTANY_FERRIES-ie-ork;port;Cork (Ringaskiddy);Cork Ringaskiddy;Cork Ringaskiddy;;;51.832449;-8.323345;IE;Europe/Dublin;Q27;;FERRY;gtfs;;;;;IE ORK;Cork (Ringaskiddy)
+TNBRITTANY_FERRIES-ie-roe;port;Rosslare Europort;Rosslare Europort;Rosslare Europort;;;52.2542;-6.3478;IE;Europe/Dublin;Q27;;FERRY;gtfs;;;;;IE ROE;Rosslare Europort

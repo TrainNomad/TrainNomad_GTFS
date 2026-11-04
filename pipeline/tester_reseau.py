@@ -34,6 +34,8 @@ RELATIONS = [
     ("Warszawa", "Kraków", "PKP"),
     ("Bratislava", "Košice", "ZSSK"),
     ("Budapest", "Debrecen", "MAV"),
+    ("Dublin", "Cork", "IRISH_RAIL"),
+    ("Belfast", "Coleraine", "NI_RAILWAYS"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 OPERATORS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "operators.json")

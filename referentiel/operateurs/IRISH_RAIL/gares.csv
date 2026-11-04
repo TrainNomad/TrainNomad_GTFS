@@ -1,0 +1,153 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN6070002;gare;Attymon;Attymon;Attymon;6070002;;53.321277;-8.606274;IE;Europe/Dublin;Q169923;InterCity;;nom;3627881984;Q3968932;;;8470IR0047;Attymon
+TN6070018;gare;Park West and Cherry Orchard;Park West and Cherry Orchard;Park West and Cherry Orchard;6070018;;53.334035;-6.378639;IE;Europe/Dublin;Q1761;Commuter|InterCity;;nom;281197288;Q3969396;;;8220IR0129;Park West and Cherry Orchard
+TN6070025;gare;Dublin Connolly;Dublin Connolly;Dublin Connolly;6070025;;53.352725;-6.247136;IE;Europe/Dublin;Q1761;Commuter|DART|Enterprise|InterCity;;nom;7198337980;Q2543742;;;8220IR0007;Dublin Connolly
+TN6070040;gare;Dublin Heuston;Dublin Heuston;Dublin Heuston;6070040;;53.346502;-6.292968;IE;Europe/Dublin;Q1761;Commuter|InterCity;;nom;6854406241;Q2377845;;;8220IR0132;Dublin Heuston
+TN6070063;gare;Portmarnock;Portmarnock;Portmarnock;6070063;;53.417658;-6.151317;IE;Europe/Dublin;Q520000;Commuter|DART;;nom;5519221177;Q3970569;;;8240IR0138;Portmarnock
+TN6080606;gare;Athy;Athy;Athy;6080606;;52.992288;-6.976476;IE;Europe/Dublin;Q54376810;InterCity;;nom;8403563822;Q3968931;;;8260IR0055;Athy
+TNIRISH_RAIL-8210ir0001;gare;Bagenalstown;Bagenalstown;Bagenalstown;;;52.69918;-6.952653;IE;Europe/Dublin;Q54376643;InterCity;;gtfs;;;;;8210IR0001;Bagenalstown
+TNIRISH_RAIL-8220ir0137;gare;Docklands;Docklands;Docklands;;;53.350876;-6.239286;IE;Europe/Dublin;Q1761;Commuter;;gtfs;;;;;8220IR0137;Docklands
+TNIRISH_RAIL-8240ir0130;gare;Rush and Lusk;Rush and Lusk;Rush and Lusk;;;53.520782;-6.143644;IE;Europe/Dublin;Q520000;Commuter;;gtfs;;;;;8240IR0130;Rush and Lusk
+TNIRISH_RAIL-8380ir0125;gare;Little Island;Little Island;Little Island;;;51.907701;-8.355584;IE;Europe/Dublin;Q54376689;Commuter;;gtfs;;;;;8380IR0125;Little Island
+TNIRISH_RAIL-8420ir0095;gare;Nenagh;Nenagh;Nenagh;;;52.860593;-8.195742;IE;Europe/Dublin;Q54376957;InterCity;;gtfs;;;;;8420IR0095;Nenagh
+TNOSM10799582352;gare;Lurgan;Lurgan;Lurgan;;;54.467224;-6.33812;GB;Europe/London;Q4792580;Enterprise;;nom;10799582352;Q3970001;;;7040IR0090;Lurgan
+TNOSM10800545157;gare;Drumcondra;Drumcondra;Drumcondra;;;53.363086;-6.258745;IE;Europe/Dublin;Q1761;Commuter|InterCity;;nom;10800545157;Q634947;;;8220IR0027;Drumcondra
+TNOSM10803352579;gare;Tara Street;Tara Street;Tara Street;;;53.347129;-6.254307;IE;Europe/Dublin;Q1761;Commuter|DART|InterCity;;nom;10803352579;Q2004945;;;8220IR0025;Tara Street
+TNOSM10803390567;gare;Dalkey;Dalkey;Dalkey;;;53.275721;-6.103395;IE;Europe/Dublin;Q538417;DART;;nom;10803390567;Q3969514;;;8250IR0014;Dalkey
+TNOSM12248421687;gare;Belfast Grand Central;Belfast Grand Central;Belfast Grand Central;;;54.595151;-5.939731;GB;Europe/London;VGB-county-borough-of-belfast;Commuter|Enterprise;;nom;12248421687;Q48817446;;;7020IR2162;Belfast Grand Central
+TNOSM126217380;gare;Athlone;Athlone;Athlone;;;53.4269;-7.935762;IE;Europe/Dublin;Q54377006;Commuter|InterCity;;nom;126217380;Q3968929;;;8330IR0107;Athlone
+TNOSM126229314;gare;Roscommon;Roscommon;Roscommon;;;53.624361;-8.196287;IE;Europe/Dublin;Q54376920;InterCity;;nom;126229314;Q3970723;;;8500IR0089;Roscommon
+TNOSM126237800;gare;Castlerea;Castlerea;Castlerea;;;53.761565;-8.485796;IE;Europe/Dublin;Q54376920;InterCity;;nom;126237800;Q3969331;;;8500IR0091;Castlerea
+TNOSM13062324067;gare;Woodbrook;Woodbrook;Woodbrook;;;53.221762;-6.110842;IE;Europe/Dublin;Q538417;DART;;nom;13062324067;Q85848056;;;8220WBROK;Woodbrook
+TNOSM1317135921;gare;Westport;Westport;Westport;;;53.796142;-9.510055;IE;Europe/Dublin;Q54376885;InterCity;;nom;1317135921;Q3971356;;;8490IR0078;Westport
+TNOSM1353952884;gare;Ballina;Ballina;Ballina;;;54.10899;-9.160735;IE;Europe/Dublin;Q54376880;InterCity;;nom;1353952884;Q2060415;;;8490IR0076;Ballina
+TNOSM1353952886;gare;Foxford;Foxford;Foxford;;;53.982865;-9.136439;IE;Europe/Dublin;Q54376883;InterCity;;nom;1353952886;Q3969652;;;8490IR0080;Foxford
+TNOSM1415190101;gare;Farranfore;Farranfore;Farranfore;;;52.173776;-9.552078;IE;Europe/Dublin;Q54376809;InterCity;;nom;1415190101;Q3969587;;;8390IR0053;Farranfore
+TNOSM1415548181;gare;Carrigaloe;Carrigaloe;Carrigaloe;;;51.868882;-8.324367;IE;Europe/Dublin;Q54376689;Commuter;;nom;1415548181;Q3969247;;;8380IR0007;Carrigaloe
+TNOSM1446941609;gare;Roscrea;Roscrea;Roscrea;;;52.960746;-7.794346;IE;Europe/Dublin;Q54376961;InterCity;;nom;1446941609;Q3970722;;;8420IR0096;Roscrea
+TNOSM1498432272;gare;Ardrahan;Ardrahan;Ardrahan;;;53.157255;-8.814661;IE;Europe/Dublin;Q169923;InterCity;;nom;1498432272;Q3968900;;;8470IR0042;Ardrahan
+TNOSM1524124078;gare;Carrick-on-Suir;Carrick-on-Suir;Carrick-on-Suir;;;52.349053;-7.404561;IE;Europe/Dublin;Q54376949;InterCity;;nom;1524124078;Q3969246;;;8430IR0103;Carrick-on-Suir
+TNOSM1777118650;gare;Gort;Gort;Gort;;;53.067168;-8.814182;IE;Europe/Dublin;Q169923;InterCity;;nom;1777118650;Q3969741;;;8470IR0045;Gort
+TNOSM1965606288;gare;Woodlawn;Woodlawn;Woodlawn;;;53.343148;-8.471668;IE;Europe/Dublin;Q54376792;InterCity;;nom;1965606288;Q3971364;;;8470IR0048;Woodlawn
+TNOSM21522430;gare;Banteer;Banteer;Banteer;;;52.128941;-8.899087;IE;Europe/Dublin;Q54376685;InterCity;;nom;21522430;Q3968971;;;8380IR0011;Banteer
+TNOSM21522841;gare;Millstreet;Millstreet;Millstreet;;;52.077397;-9.070116;IE;Europe/Dublin;Q54376700;InterCity;;nom;21522841;Q6860056;;;8380IR0010;Millstreet
+TNOSM21540238;gare;Sallins and Naas;Sallins and Naas;Sallins and Naas;;;53.246787;-6.664867;IE;Europe/Dublin;Q54376815;Commuter|InterCity;;nom;21540238;Q3970772;;;8260IR0060;Sallins and Naas
+TNOSM2359046743;gare;Sixmilebridge;Sixmilebridge;Sixmilebridge;;;52.738098;-8.785773;IE;Europe/Dublin;Q54376665;InterCity;;nom;2359046743;Q3971009;;;8360IR0010;Sixmilebridge
+TNOSM2420790215;gare;Cloughjordan;Cloughjordan;Cloughjordan;;;52.936417;-8.024487;IE;Europe/Dublin;Q54376957;InterCity;;nom;2420790215;Q3969445;;;8420IR0104;Cloughjordan
+TNOSM252819378;gare;Kildare;Kildare;Kildare;;;53.162806;-6.908048;IE;Europe/Dublin;Q54376813;Commuter|InterCity;;nom;252819378;Q3969864;;;8260IR0057;Kildare
+TNOSM252821911;gare;Adamstown;Adamstown;Adamstown;;;53.336002;-6.469232;IE;Europe/Dublin;Q822865;Commuter|InterCity;;nom;252821911;Q3968830;;;8230IR0128;Adamstown
+TNOSM254506816;gare;Newbridge;Newbridge;Newbridge;;;53.18526;-6.808743;IE;Europe/Dublin;Q54376813;Commuter|InterCity;;nom;254506816;Q3970293;;;8260IR0054;Newbridge
+TNOSM262318894;gare;Monasterevin;Monasterevin;Monasterevin;;;53.14548;-7.063754;IE;Europe/Dublin;Q54376813;Commuter|InterCity;;nom;262318894;Q4301386;;;8260IR0059;Monasterevin
+TNOSM263038001;gare;Ballinasloe;Ballinasloe;Ballinasloe;;;53.336428;-8.239865;IE;Europe/Dublin;Q54376792;Commuter|InterCity;;nom;263038001;Q3968957;;;8470IR0046;Ballinasloe
+TNOSM268486769;gare;Castlebar;Castlebar;Castlebar;;;53.847385;-9.288141;IE;Europe/Dublin;Q54376881;InterCity;;nom;268486769;Q2059129;;;8490IR0081;Castlebar
+TNOSM268486847;gare;Manulla Junction;Manulla Junction;Manulla Junction;;;53.827775;-9.192497;IE;Europe/Dublin;Q54376881;InterCity;;nom;268486847;;;;8490IR0077;Manulla Junction
+TNOSM2697052587;gare;Cahir;Cahir;Cahir;;;52.377947;-7.922583;IE;Europe/Dublin;Q54376966;InterCity;;nom;2697052587;Q3969154;;;8430IR0102;Cahir
+TNOSM277617459;gare;Wexford O'Hanrahan;Wexford O'Hanrahan;Wexford O'Hanrahan;;;52.343257;-6.464299;IE;Europe/Dublin;Q54377031;InterCity;;nom;277617459;Q3971361;;;8340IR0112;Wexford O'Hanrahan
+TNOSM277617734;gare;Rosslare Europort;Rosslare Europort;Rosslare Europort;;;52.251194;-6.337538;IE;Europe/Dublin;Q54377031;InterCity;;nom;277617734;Q3970729;;;8340IR0113;Rosslare Europort
+TNOSM280883969;gare;Ennis;Ennis;Ennis;;;52.839156;-8.975303;IE;Europe/Dublin;Q54376660;InterCity;;nom;280883969;Q3969565;;;8360IR0003;Ennis
+TNOSM2829159704;gare;Craughwell;Craughwell;Craughwell;;;53.225131;-8.73583;IE;Europe/Dublin;Q169923;InterCity;;nom;2829159704;Q3969502;;;8470IR0049;Craughwell
+TNOSM290440267;gare;Drogheda MacBride;Drogheda MacBride;Drogheda MacBride;;;53.712017;-6.335641;IE;Europe/Dublin;Q54376871;Commuter|Enterprise;;nom;290440267;Q3969549;;;8300IR0074;Drogheda MacBride
+TNOSM3010372440;gare;Castleconnell;Castleconnell;Castleconnell;;;52.713057;-8.497928;IE;Europe/Dublin;Q133315;InterCity;;nom;3010372440;Q3969335;;;8410IR0071;Castleconnell
+TNOSM3051527215;gare;Rosslare Strand;Rosslare Strand;Rosslare Strand;;;52.271838;-6.391522;IE;Europe/Dublin;Q54377031;InterCity;;nom;3051527215;Q3970730;;;8340IR0111;Rosslare Strand
+TNOSM306202271;gare;Enniscorthy;Enniscorthy;Enniscorthy;;;52.504608;-6.566286;IE;Europe/Dublin;Q54377023;InterCity;;nom;306202271;Q3969570;;;8340IR0109;Enniscorthy
+TNOSM306211966;gare;Rathdrum;Rathdrum;Rathdrum;;;52.930477;-6.226103;IE;Europe/Dublin;Q54377035;InterCity;;nom;306211966;Q3970643;;;8350IR0119;Rathdrum
+TNOSM306229332;gare;Kilcoole;Kilcoole;Kilcoole;;;53.106866;-6.041013;IE;Europe/Dublin;Q54377050;InterCity;;nom;306229332;Q3969862;;;8350IR0121;Kilcoole
+TNOSM306234311;gare;Wicklow;Wicklow;Wicklow;;;52.988155;-6.052589;IE;Europe/Dublin;Q54377061;InterCity;;nom;306234311;Q3971362;;;8350IR0120;Wicklow
+TNOSM306234312;gare;Arklow;Arklow;Arklow;;;52.793923;-6.159707;IE;Europe/Dublin;Q54377035;InterCity;;nom;306234312;Q3968908;;;8350IR0118;Arklow
+TNOSM306234776;gare;Gorey;Gorey;Gorey;;;52.671217;-6.29201;IE;Europe/Dublin;Q54377018;InterCity;;nom;306234776;Q3969740;;;8340IR0110;Gorey
+TNOSM310182680;gare;Clondalkin & Fonthill;Clondalkin & Fonthill;Clondalkin & Fonthill;;;53.33335;-6.4064;IE;Europe/Dublin;Q822865;Commuter|InterCity;;nom;310182680;Q3969438;;;8230IR0036;Clondalkin Fonthill
+TNOSM3106031146;gare;Charleville;Charleville;Charleville;;;52.347228;-8.653579;IE;Europe/Dublin;Q54376685;Commuter|InterCity;;nom;3106031146;Q3969394;;;8380IR0006;Charleville
+TNOSM3106107177;gare;Ballybrophy;Ballybrophy;Ballybrophy;;;52.900156;-7.602535;IE;Europe/Dublin;Q54376839;InterCity;;nom;3106107177;Q3968958;;;8280IR0066;Ballybrophy
+TNOSM3106107180;gare;Mallow;Mallow;Mallow;;;52.138912;-8.65511;IE;Europe/Dublin;Q54376685;Commuter|InterCity;;nom;3106107180;Q3970020;;;8380IR0004;Mallow
+TNOSM3106107185;gare;Templemore;Templemore;Templemore;;;52.787915;-7.82246;IE;Europe/Dublin;Q54376961;InterCity;;nom;3106107185;Q928449;;;8420IR0097;Templemore
+TNOSM3307721254;gare;Killarney;Killarney;Killarney;;;52.059155;-9.502319;IE;Europe/Dublin;Q54376803;InterCity;;nom;3307721254;Q3969865;;;8390IR0050;Killarney
+TNOSM333385901;gare;Carrick-on-Shannon;Carrick-on-Shannon;Carrick-on-Shannon;;;53.938396;-8.10686;IE;Europe/Dublin;Q54376918;InterCity;;nom;333385901;Q579503;;;8480IR0070;Carrick-on-Shannon
+TNOSM339007130;gare;Fota;Fota;Fota;;;51.896273;-8.318075;IE;Europe/Dublin;Q54376689;Commuter;;nom;339007130;Q3969651;;;8380IR0009;Fota
+TNOSM339010879;gare;Rushbrooke;Rushbrooke;Rushbrooke;;;51.849596;-8.322686;IE;Europe/Dublin;Q54376689;Commuter;;nom;339010879;Q3970751;;;8380IR0005;Rushbrooke
+TNOSM339010895;gare;Glounthaune;Glounthaune;Glounthaune;;;51.91129;-8.325112;IE;Europe/Dublin;Q54376689;Commuter;;nom;339010895;Q6679189;;;8380IR0008;Glounthaune
+TNOSM3402132490;gare;Dundalk Clarke;Dundalk Clarke;Dundalk Clarke;;;54.001133;-6.412512;IE;Europe/Dublin;Q54376872;Commuter|Enterprise;;nom;3402132490;Q664711;;;8300IR0075;Dundalk Clarke
+TNOSM354050180;gare;Birdhill;Birdhill;Birdhill;;;52.765656;-8.442285;IE;Europe/Dublin;Q54376957;InterCity;;nom;354050180;Q3969048;;;8420IR0101;Birdhill
+TNOSM3581474993;gare;M3 Parkway;M3 Parkway;M3 Parkway;;;53.434529;-6.468889;IE;Europe/Dublin;Q54376891;Commuter;;nom;3581474993;Q3970000;;;8310IR0083;M3 Parkway
+TNOSM3622824746;gare;Midleton;Midleton;Midleton;;;51.921195;-8.175698;IE;Europe/Dublin;Q129491676;Commuter;;nom;3622824746;Q3970107;;;8380IR0142;Midleton
+TNOSM3627845010;gare;Portlaoise;Portlaoise;Portlaoise;;;53.037012;-7.301314;IE;Europe/Dublin;Q54376841;Commuter|InterCity;;nom;3627845010;Q3970567;;;8280IR0068;Portlaoise
+TNOSM3640069842;gare;Thurles;Thurles;Thurles;;;52.676694;-7.821906;IE;Europe/Dublin;Q54376961;InterCity;;nom;3640069842;Q3971114;;;8420IR0098;Thurles
+TNOSM3740185419;gare;Longford;Longford;Longford;;;53.724275;-7.796149;IE;Europe/Dublin;Q54376869;Commuter|InterCity;;nom;3740185419;Q2090385;;;8290IR0072;Longford
+TNOSM3760590275;gare;Tralee Casement;Tralee Casement;Tralee Casement;;;52.271023;-9.699155;IE;Europe/Dublin;Q54376809;InterCity;;nom;3760590275;Q546313;;;8390IR0052;Tralee Casement
+TNOSM3908808660;gare;Tipperary;Tipperary;Tipperary;;;52.470165;-8.161612;IE;Europe/Dublin;Q54376966;InterCity;;nom;3908808660;Q3971116;;;8430IR0099;Tipperary
+TNOSM3969371847;gare;Cobh;Cobh;Cobh;;;51.848837;-8.300253;IE;Europe/Dublin;Q54376689;Commuter;;nom;3969371847;Q3969447;;;8380IR0012;Cobh
+TNOSM4061490621;gare;Lisburn;Lisburn;Lisburn;;;54.51391;-6.045322;GB;Europe/London;Q1828035;Enterprise;;nom;4061490621;Q3969969;;;7020IR0037;Lisburn
+TNOSM4061608585;gare;Newry;Newry;Newry;;;54.188735;-6.362835;GB;Europe/London;Q269980;Commuter|Enterprise;;nom;4061608585;Q2057783;;;7040IR0042;Newry
+TNOSM4061608588;gare;Portadown;Portadown;Portadown;;;54.425083;-6.44544;GB;Europe/London;Q4792580;Commuter|Enterprise;;nom;4061608588;Q3970561;;;7040IR0045;Portadown
+TNOSM4109805560;gare;Leixlip Confey;Leixlip Confey;Leixlip Confey;;;53.3742;-6.485816;IE;Europe/Dublin;Q54376819;Commuter;;nom;4109805560;Q3969941;;;8260IR0062;Leixlip Confey
+TNOSM467765442;gare;Carrigtwohill;Carrigtwohill;Carrigtwohill;;;51.91627;-8.263368;IE;Europe/Dublin;Q54376689;Commuter;;nom;467765442;Q3969250;;;8380IR0016;Carrigtwohill
+TNOSM5154958536;gare;Claremorris;Claremorris;Claremorris;;;53.720684;-9.002221;IE;Europe/Dublin;Q54376883;InterCity;;nom;5154958536;Q3969436;;;8490IR0082;Claremorris
+TNOSM5355217228;gare;Clonmel;Clonmel;Clonmel;;;52.361082;-7.699124;IE;Europe/Dublin;Q54376954;InterCity;;nom;5355217228;Q1124923;;;8430IR0105;Clonmel
+TNOSM5355226792;gare;Cork Kent;Cork Kent;Cork Kent;;;51.901631;-8.458217;IE;Europe/Dublin;Q36647;Commuter|InterCity;;nom;5355226792;Q3969483;;;8370IR0126;Cork Kent
+TNOSM5403835845;gare;Bayside;Bayside;Bayside;;;53.391538;-6.136787;IE;Europe/Dublin;Q520000;DART;;nom;5403835845;Q3969012;;;8240IR0140;Bayside
+TNOSM5403839993;gare;Bray Daly;Bray Daly;Bray Daly;;;53.204415;-6.100561;IE;Europe/Dublin;Q54377045;Commuter|DART|InterCity;;nom;5403839993;Q2924155;;;8350IR0123;Bray Daly
+TNOSM5403851242;gare;Clongriffin;Clongriffin;Clongriffin;;;53.4027;-6.148949;IE;Europe/Dublin;Q520000;Commuter|DART;;nom;5403851242;Q3969439;;;8220IR0139;Clongriffin
+TNOSM5403851296;gare;Clontarf Road;Clontarf Road;Clontarf Road;;;53.363067;-6.226863;IE;Europe/Dublin;Q1761;DART;;nom;5403851296;;;;8220IR0032;Clontarf Road
+TNOSM5403886243;gare;Dunboyne;Dunboyne;Dunboyne;;;53.417269;-6.464797;IE;Europe/Dublin;Q54376891;Commuter;;nom;5403886243;Q3969551;;;8310IR0084;Dunboyne
+TNOSM5403904825;gare;Harmonstown;Harmonstown;Harmonstown;;;53.378362;-6.192401;IE;Europe/Dublin;Q1761;DART;;nom;5403904825;Q3127545;;;8220IR0131;Harmonstown
+TNOSM5519210321;gare;Raheny;Raheny;Raheny;;;53.381606;-6.176127;IE;Europe/Dublin;Q1761;DART;;nom;5519210321;Q3417567;;;8220IR0035;Raheny
+TNOSM5519213828;gare;Kilbarrack;Kilbarrack;Kilbarrack;;;53.38728;-6.16148;IE;Europe/Dublin;Q1761;DART;;nom;5519213828;Q2003583;;;8220IR0141;Kilbarrack
+TNOSM5519218141;gare;Howth;Howth;Howth;;;53.389113;-6.074374;IE;Europe/Dublin;Q520000;DART;;nom;5519218141;Q3969798;;;8240IR0017;Howth
+TNOSM614241268;gare;Hansfield;Hansfield;Hansfield;;;53.387005;-6.442055;IE;Europe/Dublin;Q520000;Commuter;;nom;614241268;Q3969773;;;8240IR0030;Hansfield
+TNOSM663920250;gare;Boyle;Boyle;Boyle;;;53.967628;-8.304706;IE;Europe/Dublin;Q54376918;InterCity;;nom;663920250;Q3969113;;;8500IR0090;Boyle
+TNOSM667718433;gare;Ballyhaunis;Ballyhaunis;Ballyhaunis;;;53.761669;-8.75854;IE;Europe/Dublin;Q54376883;InterCity;;nom;667718433;Q3968961;;;8490IR0079;Ballyhaunis
+TNOSM6740364330;gare;Limerick Colbert;Limerick Colbert;Limerick Colbert;;;52.658878;-8.624685;IE;Europe/Dublin;Q133315;InterCity;;nom;6740364330;Q3969965;;;8400IR0127;Limerick Colbert
+TNOSM6740507736;gare;Limerick Junction;Limerick Junction;Limerick Junction;;;52.501987;-8.198865;IE;Europe/Dublin;Q54376966;InterCity;;nom;6740507736;Q2059829;;;8430IR0100;Limerick Junction
+TNOSM6852246817;gare;Waterford Plunkett;Waterford Plunkett;Waterford Plunkett;;;52.266376;-7.117805;IE;Europe/Dublin;Q54376970;Commuter|InterCity;;nom;6852246817;Q3971355;;;8440IR0106;Waterford Plunkett
+TNOSM6852298568;gare;Kilkenny MacDonagh;Kilkenny MacDonagh;Kilkenny MacDonagh;;;52.654458;-7.243566;IE;Europe/Dublin;Q54376831;InterCity;;nom;6852298568;Q2058784;;;8270IR0064;Kilkenny MacDonagh
+TNOSM6852302249;gare;Thomastown;Thomastown;Thomastown;;;52.523165;-7.148896;IE;Europe/Dublin;Q72741099;InterCity;;nom;6852302249;Q3971112;;;8270IR0065;Thomastown
+TNOSM6852317057;gare;Carlow;Carlow;Carlow;;;52.841059;-6.922106;IE;Europe/Dublin;Q54376637;InterCity;;nom;6852317057;Q3969232;;;8210IR0002;Carlow
+TNOSM6854415949;gare;Galway Ceannt;Galway Ceannt;Galway Ceannt;;;53.273444;-9.046762;IE;Europe/Dublin;Q129610;Commuter|InterCity;;nom;6854415949;Q2086351;;;8460IR0044;Galway Ceannt
+TNOSM6856262797;gare;Athenry;Athenry;Athenry;;;53.301501;-8.748556;IE;Europe/Dublin;Q169923;Commuter|InterCity;;nom;6856262797;Q967355;;;8470IR0043;Athenry
+TNOSM7176421917;gare;Salthill and Monkstown;Salthill and Monkstown;Salthill and Monkstown;;;53.29539;-6.152424;IE;Europe/Dublin;Q538417;DART;;nom;7176421917;Q3970774;;;8250IR0042;Salthill and Monkstown
+TNOSM7176421918;gare;Sandymount;Sandymount;Sandymount;;;53.327928;-6.22105;IE;Europe/Dublin;Q1761;DART;;nom;7176421918;Q3970859;;;8220IR0028;Sandymount
+TNOSM7176421919;gare;Killester;Killester;Killester;;;53.3728;-6.204916;IE;Europe/Dublin;Q1761;DART;;nom;7176421919;Q3196643;;;8220IR3881;Killester
+TNOSM7176421920;gare;Dublin Pearse;Dublin Pearse;Dublin Pearse;;;53.343335;-6.248463;IE;Europe/Dublin;Q1761;Commuter|DART|InterCity;;nom;7176421920;Q2658249;;;8220IR0134;Dublin Pearse
+TNOSM7176421921;gare;Lansdowne Road;Lansdowne Road;Lansdowne Road;;;53.333771;-6.228711;IE;Europe/Dublin;Q1761;Commuter|DART|InterCity;;nom;7176421921;Q2003842;;;8220IR0133;Lansdowne Road
+TNOSM7176421922;gare;Sydney Parade;Sydney Parade;Sydney Parade;;;53.320787;-6.211552;IE;Europe/Dublin;Q1761;Commuter|DART;;nom;7176421922;Q2397711;;;8220IR0034;Sydney Parade
+TNOSM7176421923;gare;Booterstown;Booterstown;Booterstown;;;53.309985;-6.195196;IE;Europe/Dublin;Q538417;DART;;nom;7176421923;Q3969079;;;8250IR0039;Booterstown
+TNOSM7176421924;gare;Blackrock;Blackrock;Blackrock;;;53.302838;-6.178698;IE;Europe/Dublin;Q538417;Commuter|DART|InterCity;;nom;7176421924;Q3969060;;;8250IR0030;Blackrock
+TNOSM7176421925;gare;Seapoint;Seapoint;Seapoint;;;53.299157;-6.165208;IE;Europe/Dublin;Q538417;DART;;nom;7176421925;Q3970937;;;8250IR0029;Seapoint
+TNOSM7176421926;gare;Sandycove and Glasthule;Sandycove and Glasthule;Sandycove and Glasthule;;;53.288002;-6.127158;IE;Europe/Dublin;Q538417;DART;;nom;7176421926;Q3970858;;;8250IR0111;Sandycove and Glasthule
+TNOSM7176421927;gare;Greystones;Greystones;Greystones;;;53.144033;-6.060999;IE;Europe/Dublin;Q54377050;DART|InterCity;;nom;7176421927;Q1991212;;;8350IR0122;Greystones
+TNOSM7176421928;gare;Sutton;Sutton;Sutton;;;53.392011;-6.116084;IE;Europe/Dublin;Q520000;DART;;nom;7176421928;Q3971065;;;8240IR0024;Sutton
+TNOSM7176421929;gare;Malahide;Malahide;Malahide;;;53.450697;-6.156591;IE;Europe/Dublin;Q520000;Commuter|DART;;nom;7176421929;Q2459346;;;8240IR0020;Malahide
+TNOSM7176421930;gare;Howth Junction and Donaghmede;Howth Junction and Donaghmede;Howth Junction and Donaghmede;;;53.391309;-6.155819;IE;Europe/Dublin;Q520000;Commuter|DART;;nom;7176421930;Q3969804;;;8240IR0025;Howth Junction and Donaghmede
+TNOSM7184996489;gare;Dún Laoghaire Mallin;Dún Laoghaire Mallin;Dún Laoghaire Mallin;;;53.294998;-6.13474;IE;Europe/Dublin;Q538417;Commuter|DART|InterCity;;nom;7184996489;Q3969552;;;8250IR0124;Dún Laoghaire Mallin
+TNOSM7184996490;gare;Killiney;Killiney;Killiney;;;53.255384;-6.11304;IE;Europe/Dublin;Q538417;DART;;nom;7184996490;Q3969866;;;8250IR0021;Killiney
+TNOSM7184996491;gare;Shankill;Shankill;Shankill;;;53.236697;-6.117044;IE;Europe/Dublin;Q538417;DART;;nom;7184996491;Q252906;;;8250IR0022;Shankill
+TNOSM7184996492;gare;Glenageary;Glenageary;Glenageary;;;53.281238;-6.123108;IE;Europe/Dublin;Q538417;DART;;nom;7184996492;Q3969737;;;8250IR0037;Glenageary
+TNOSM7184996494;gare;Grand Canal Dock;Grand Canal Dock;Grand Canal Dock;;;53.339819;-6.238188;IE;Europe/Dublin;Q1761;Commuter|DART|InterCity;;nom;7184996494;Q3113542;;;8220IR0135;Grand Canal Dock
+TNOSM7185160548;gare;Skerries;Skerries;Skerries;;;53.573989;-6.119175;IE;Europe/Dublin;Q520000;Commuter;;nom;7185160548;Q3971011;;;8240IR0023;Skerries
+TNOSM7185160551;gare;Gormanston;Gormanston;Gormanston;;;53.637833;-6.217053;IE;Europe/Dublin;Q54376888;Commuter;;nom;7185160551;Q3969744;;;8310IR0019;Gormanston
+TNOSM7185160555;gare;Laytown;Laytown;Laytown;;;53.679528;-6.242754;IE;Europe/Dublin;Q54376897;Commuter;;nom;7185160555;Q3969937;;;8310IR0086;Laytown
+TNOSM7185160557;gare;Donabate;Donabate;Donabate;;;53.485748;-6.151294;IE;Europe/Dublin;Q520000;Commuter;;nom;7185160557;Q3969543;;;8240IR0016;Donabate
+TNOSM7185160559;gare;Balbriggan;Balbriggan;Balbriggan;;;53.611877;-6.182328;IE;Europe/Dublin;Q520000;Commuter;;nom;7185160559;Q941586;;;8240IR0018;Balbriggan
+TNOSM7198243013;gare;Broombridge;Broombridge;Broombridge;;;53.372622;-6.298818;IE;Europe/Dublin;Q1761;Commuter|InterCity;;nom;7198243013;Q3969133;;;8220IR0026;Broombridge
+TNOSM7198261238;gare;Navan Road Parkway;Navan Road Parkway;Navan Road Parkway;;;53.377553;-6.345429;IE;Europe/Dublin;Q520000;Commuter;;nom;7198261238;Q3970288;;;8240IR0015;Navan Road Parkway
+TNOSM7198309240;gare;Clonsilla;Clonsilla;Clonsilla;;;53.382943;-6.423187;IE;Europe/Dublin;Q520000;Commuter;;nom;7198309240;Q3969440;;;8240IR0041;Clonsilla
+TNOSM7198310083;gare;Leixlip Louisa Bridge;Leixlip Louisa Bridge;Leixlip Louisa Bridge;;;53.370298;-6.506241;IE;Europe/Dublin;Q54376819;Commuter|InterCity;;nom;7198310083;Q3969943;;;8260IR0061;Leixlip Louisa Bridge
+TNOSM7198317688;gare;Kilcock;Kilcock;Kilcock;;;53.399043;-6.668858;IE;Europe/Dublin;Q54376822;Commuter|InterCity;;nom;7198317688;Q3969863;;;8260IR0056;Kilcock
+TNOSM7198335545;gare;Ashtown;Ashtown;Ashtown;;;53.375406;-6.331814;IE;Europe/Dublin;Q1761;Commuter;;nom;7198335545;Q3968919;;;8220IR0013;Ashtown
+TNOSM7198337979;gare;Castleknock;Castleknock;Castleknock;;;53.381528;-6.371424;IE;Europe/Dublin;Q520000;Commuter;;nom;7198337979;Q3969330;;;8240IR0031;Castleknock
+TNOSM7198349811;gare;Coolmine;Coolmine;Coolmine;;;53.377693;-6.390647;IE;Europe/Dublin;Q520000;Commuter;;nom;7198349811;Q3969479;;;8240IR0040;Coolmine
+TNOSM7198349812;gare;Maynooth;Maynooth;Maynooth;;;53.378055;-6.590636;IE;Europe/Dublin;Q54376822;Commuter|InterCity;;nom;7198349812;Q3970077;;;8260IR0058;Maynooth
+TNOSM7198369363;gare;Edgeworthstown;Edgeworthstown;Edgeworthstown;;;53.688762;-7.603114;IE;Europe/Dublin;Q54376864;Commuter|InterCity;;nom;7198369363;Q3969559;;ZIET;8290IR0073;Edgeworthstown
+TNOSM7198398740;gare;Enfield;Enfield;Enfield;;;53.416182;-6.834169;IE;Europe/Dublin;Q54376900;Commuter|InterCity;;nom;7198398740;Q3969562;;;8310IR0085;Enfield
+TNOSM7198405505;gare;Mullingar;Mullingar;Mullingar;;;53.522906;-7.345688;IE;Europe/Dublin;Q54377015;Commuter|InterCity;;nom;7198405505;Q3970250;;;8330IR0108;Mullingar
+TNOSM728407301;gare;Collooney;Collooney;Collooney;;;54.1865;-8.494951;IE;Europe/Dublin;Q54376924;InterCity;;nom;728407301;Q3969465;;;8510IR0094;Collooney
+TNOSM728439163;gare;Ballymote;Ballymote;Ballymote;;;54.08818;-8.520731;IE;Europe/Dublin;Q54376925;InterCity;;nom;728439163;Q3968966;;;8510IR0093;Ballymote
+TNOSM731104792;gare;Dromod;Dromod;Dromod;;;53.859096;-7.916372;IE;Europe/Dublin;Q54376844;InterCity;;nom;731104792;Q3969548;;;8480IR0069;Dromod
+TNOSM827777186;gare;Kishoge;Kishoge;Kishoge;;;53.334433;-6.430218;IE;Europe/Dublin;Q822865;Commuter|InterCity;;nom;827777186;Q3969868;;;8220KISHO;Kishoge
+TNOSM8436500717;gare;Hazelhatch and Celbridge;Hazelhatch and Celbridge;Hazelhatch and Celbridge;;;53.322413;-6.524165;IE;Europe/Dublin;Q54376819;Commuter|InterCity;;nom;8436500717;Q3969778;;;8260IR0063;Hazelhatch and Celbridge
+TNOSM8436515317;gare;Clara;Clara;Clara;;;53.339816;-7.616368;IE;Europe/Dublin;Q54376909;InterCity;;nom;8436515317;Q3969435;;;8320IR0088;Clara
+TNOSM8436522718;gare;Tullamore;Tullamore;Tullamore;;;53.270408;-7.499925;IE;Europe/Dublin;Q54376909;Commuter|InterCity;;nom;8436522718;Q3971209;;;8320IR0087;Tullamore
+TNOSM907116924;gare;Rathmore;Rathmore;Rathmore;;;52.08525;-9.217969;IE;Europe/Dublin;Q54376803;InterCity;;nom;907116924;Q3970647;;;8390IR0051;Rathmore
+TNOSM9123967004;gare;Pelletstown;Pelletstown;Pelletstown;;;53.375205;-6.314283;IE;Europe/Dublin;Q1761;Commuter;;nom;9123967004;Q85792690;;;8220IR0014;Pelletstown
+TNOSM9770125621;gare;Oranmore;Oranmore;Oranmore;;;53.275488;-8.94727;IE;Europe/Dublin;Q169923;Commuter|InterCity;;nom;9770125621;Q7099891;;;8470IR050;Oranmore
+TNOSM9884548669;gare;Sligo Mac Diarmada;Sligo Mac Diarmada;Sligo Mac Diarmada;;;54.272042;-8.481987;IE;Europe/Dublin;Q54376924;InterCity;;nom;9884548669;Q2059721;;;8510IR0092;Sligo MacDiarmada
+TNOSM9909469455;gare;Portarlington;Portarlington;Portarlington;;;53.145987;-7.181196;IE;Europe/Dublin;Q54376838;Commuter|InterCity;;nom;9909469455;Q3970565;;;8280IR0067;Portarlington

@@ -4,7 +4,7 @@ TN8001134;gare;Hamburg-Harburg;Hamburg-Harburg;Hamburg-Harburg;8001134;;53.45572
 TN8002140;gare;Augsburg Hbf;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;8002140;;48.365491;10.885691;DE;Europe/Berlin;Q2749;ICE|NIGHTJET;;uic;1058668074;Q682505;de:09761:100;MA;ma;Augsburg Hbf
 TN8003025;gare;Berlin-Spandau;Berlin-Spandau;Berlin-Spandau;8003025;;52.534769;13.195629;DE;Europe/Berlin;Q64;GOVOLTA|ICE;;uic;3101920259;Q654980;;BSPD;bspd;Berlin-Spandau
 TN8005365;gare;Kassel-Wilhelmshöhe;Kassel-Wilhelmshöhe;Kassel-Wilhelmshöhe;8005365;;51.311388;9.447705;DE;Europe/Berlin;Q2865;NIGHTJET;;code;260716557;Q563272;;FKW;fkw;Kassel-Wilhelmshöhe
-TN8007799;gare;Berlin-Gesundbrunnen;Berlin Gesundbrunnen;Berlin Gesundbrunnen;8007799;;52.548645;13.390217;DE;Europe/Berlin;Q64;GOVOLTA|ICE;;uic;459277140;Q678286;;BGS;gsb;Berlin Gesundbrunnen
+TN8007799;gare;Berlin-Gesundbrunnen;Berlin Gesundbrunnen;Berlin Gesundbrunnen;8007799;;52.548645;13.390217;DE;Europe/Berlin;Q64;GOVOLTA;;uic;459277140;Q678286;;BGS;gsb;Berlin Gesundbrunnen
 TN8008016;gare;Schwerte (Ruhr);Schwerte (Ruhr);Schwerte (Ruhr);8008016;;51.442589;7.559208;DE;Europe/Berlin;Q6863;SNELTREIN;;code;2397237606;Q4360740;de:05978:63583;ESRT;esrt;Schwerte (Ruhr)
 TN8008073;gare;Hagen Hbf;Hagen Hbf;Hagen Hbf;8008073;;51.36296;7.460606;DE;Europe/Berlin;Q2871;SNELTREIN;;nom;2397306450;Q529644;de:05914:2007;EHG;hagen;Hagen Hbf
 TN8008082;gare;Wuppertal-Vohwinkel;Wuppertal-Vohwinkel;Wuppertal-Vohwinkel;8008082;;51.233949;7.071831;DE;Europe/Berlin;Q2107;SNELTREIN;;nom;3452207597;Q322814;;KWV;wuppv;Wuppertal-Vohwinkel
@@ -15,24 +15,34 @@ TN8008136;gare;Schwelm;Schwelm;Schwelm;8008136;;51.290543;7.289655;DE;Europe/Ber
 TN8008138;gare;Wuppertal-Oberbarmen;Wuppertal-Oberbarmen;Wuppertal-Oberbarmen;8008138;;51.27389;7.221255;DE;Europe/Berlin;Q2107;SNELTREIN;;code;2983201162;Q181338;;KWO;kwo;Wuppertal-Oberbarmen
 TN8008142;gare;Wuppertal-Barmen;Wuppertal-Barmen;Wuppertal-Barmen;8008142;;51.266971;7.194942;DE;Europe/Berlin;Q2107;SNELTREIN;;code;3895873503;Q801637;;KWBA;kwba;Wuppertal-Barmen
 TN8008143;gare;Wuppertal Hbf;Wuppertal Hauptbahnhof;Wuppertal Hauptbahnhof;8008143;;51.254578;7.150053;DE;Europe/Berlin;Q2107;SNELTREIN;;uic;3862773818;Q541041;;KW;wupph;Wuppertal Hbf
-TN8010002;gare;Hamm (Westf) Pbf;Hamm (Westf) Hbf;Hamm (Westf) Hbf;8010002;;51.678575;7.807713;DE;Europe/Berlin;Q2880;ICE|NIGHTJET|SNELTREIN;;nom;2146217850;Q528204;de:05915:7756;EHM;hamm;Hamm (Westf.)
-TN8010053;gare;Dortmund Hbf;Dortmund Hbf;Dortmund Hbf;8010053;;51.517893;7.459283;DE;Europe/Berlin;Q1295;ICE|NIGHTJET|STOPTREIN;;uic;1458488633;Q704394;de:05913:131;EDO;edo;Dortmund Hbf
+TN8010002;gare;Hamm (Westf) Pbf;Hamm (Westf) Hbf;Hamm (Westf) Hbf;8010002;;51.678575;7.807713;DE;Europe/Berlin;Q2880;NIGHTJET|SNELTREIN;;nom;2146217850;Q528204;de:05915:7756;EHM;hamm;Hamm (Westf.)
+TN8010053;gare;Dortmund Hbf;Dortmund Hbf;Dortmund Hbf;8010053;;51.517893;7.459283;DE;Europe/Berlin;Q1295;NIGHTJET|STOPTREIN;;uic;1458488633;Q704394;de:05913:131;EDO;edo;Dortmund Hbf
 TN8010098;gare;Lünen Hbf;Lünen Hbf;Lünen Hbf;8010098;;51.617058;7.529423;DE;Europe/Berlin;Q3822;STOPTREIN;;uic;1293240517;Q323004;de:05978:16135;ELUE;elue;Lünen Hbf
 TN8010100;gare;Lünen Preußen;Preußen;Preußen;8010100;;51.588304;7.539672;DE;Europe/Berlin;Q3822;STOPTREIN;;code;3007217223;Q116018233;de:05978:11213;EPRN;eprn;Preussen
 TN8010101;gare;Dortmund-Derne;Dortmund-Derne;Dortmund-Derne;8010101;;51.567337;7.528608;DE;Europe/Berlin;Q1295;STOPTREIN;;code;672373389;Q302712;;EDD;edd;Dortmund-Derne
 TN8010102;gare;Dortmund-Kirchderne;Dortmund-Kirchderne;Dortmund-Kirchderne;8010102;;51.547076;7.510225;DE;Europe/Berlin;Q1295;STOPTREIN;;code;672320237;Q55609910;;EDKD;edkd;Dortmund-Kirchderne
-TN8010184;gare;Essen Hauptbahnhof;Essen Hauptbahnhof;Essen Hauptbahnhof;8010184;;51.451477;7.014468;DE;Europe/Berlin;Q2066;ICE;;code;3010827615;Q135607;;EE;ee;Essen Hbf
 TN8010263;gare;Oberhausen Hbf;Oberhausen Hbf;Oberhausen Hbf;8010263;;51.474906;6.851681;DE;Europe/Berlin;Q2838;ICE|NIGHTJET|STOPTREIN;;nom;449582627;Q472955;;EOB;oberh;Oberhausen Hbf
 TN8010266;gare;Oberhausen-Sterkrade;Oberhausen-Sterkrade;Oberhausen-Sterkrade;8010266;;51.512084;6.843595;DE;Europe/Berlin;Q2838;STOPTREIN;;nom;3214194322;Q801279;;EOSD;oberhs;Oberhausen-Sterkrade
+TN8010268;gare;Oberhausen-Holten;Oberhausen-Holten;Oberhausen-Holten;8010268;;51.534446;6.810676;DE;Europe/Berlin;Q2838;STOPTREIN;;code;1185106576;Q801274;;EOHT;eoht;Oberhausen-Holten
+TN8010269;gare;Dinslaken;Dinslaken;Dinslaken;8010269;;51.567542;6.738124;DE;Europe/Berlin;Q3939;STOPTREIN;;code;978701451;Q5278719;;EDIN;edin;Dinslaken
+TN8010272;gare;Voerde (Niederrhein);Voerde (Niederrhein);Voerde (Niederrhein);8010272;;51.597019;6.689678;DE;Europe/Berlin;Q14903;STOPTREIN;;code;1047743116;Q7939360;;EVD;evd;Voerde (Niederrhein)
+TN8010273;gare;Friedrichsfeld (Niederrhein);Friedrichsfeld (Niederrhein);Friedrichsfeld (Niederrhein);8010273;;51.621298;6.651549;DE;Europe/Berlin;Q14903;STOPTREIN;;uic;305754384;Q5503978;de:5170:36447;EFFD;effd;Friedrichsfeld (Niederrh)
 TN8010275;gare;Wesel;Wesel;Wesel;8010275;;51.656163;6.627172;DE;Europe/Berlin;Q4011;STOPTREIN;;nom;36050314;Q2309749;;EWES;wesel;Wesel
+TN8010281;gare;Millingen (Kr Rees);Millingen (bei Rees);Millingen (bei Rees);8010281;;51.809472;6.399981;DE;Europe/Berlin;Q243474;STOPTREIN;;code;1396323672;Q6859661;;EMIL;emil;Millingen (bei Rees)
+TN8010283;gare;Mehrhoog;Mehrhoog;Mehrhoog;8010283;;51.73901;6.518085;DE;Europe/Berlin;Q162717;STOPTREIN;;code;4538614393;Q6809842;;EMHO;emho;Mehrhoog
+TN8010284;gare;Haldern (Rheinl);Haldern (Rheinland);Haldern (Rheinland);8010284;;51.773136;6.454906;DE;Europe/Berlin;Q243474;STOPTREIN;;code;410954398;Q5641258;;EHAD;ehad;Haldern (Rheinl)
+TN8010285;gare;Empel-Rees;Empel-Rees;Empel-Rees;8010285;;51.798701;6.41628;DE;Europe/Berlin;Q243474;STOPTREIN;;uic;410954399;Q5373848;de:5154:40024;EEMP;eemp;Empel-Rees
 TN8010286;gare;Praest;Praest;Praest;8010286;;51.821841;6.345598;DE;Europe/Berlin;Q57006;STOPTREIN;;code;3851435109;Q7237552;;EPRA;epra;Praest
-TN8010288;gare;Emmerich;Emmerich;Emmerich;8010288;;51.834261;6.25562;DE;Europe/Berlin;Q57006;ICE|STOPTREIN;;nom;4314773596;Q2016811;;EEM;em;Emmerich
+TN8010288;gare;Emmerich;Emmerich;Emmerich;8010288;;51.834261;6.25562;DE;Europe/Berlin;Q57006;STOPTREIN;;nom;4314773596;Q2016811;;EEM;em;Emmerich
+TN8010297;gare;Wesel-Feldmark;Wesel-Feldmark;Wesel-Feldmark;8010297;;51.676665;6.616251;DE;Europe/Berlin;Q4011;STOPTREIN;;code;1988128010;Q7983801;;EWFK;ewfk;Wesel Feldmark
 TN8010316;gare;Duisburg Hauptbahnhof;Duisburg Hauptbahnhof;Duisburg Hauptbahnhof;8010316;;51.42967;6.776177;DE;Europe/Berlin;Q2100;ICE|NIGHTJET|STOPTREIN;;uic;2970328245;Q567024;;EDG;duisb;Duisburg Hbf
 TN8010382;gare;Unna;Unna;Unna;8010382;;51.539021;7.692223;DE;Europe/Berlin;Q3949;SNELTREIN;;code;3559626193;Q323922;;EUN;eun;Unna
 TN8010384;gare;Holzwickede;Holzwickede;Holzwickede;8010384;;51.504816;7.619292;DE;Europe/Berlin;Q10941;SNELTREIN;;code;2469225742;Q17091808;de:05978:11179;EHZW;ehzw;Holzwickede
 TN8010385;gare;Bönen;Bönen;Bönen;8010385;;51.598041;7.757288;DE;Europe/Berlin;Q10938;SNELTREIN;;code;3890625596;;;EBEO;ebeo;Bönen
 TN8011068;gare;Frankfurt(Main)Hbf;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;8011068;;50.106654;8.662581;DE;Europe/Berlin;Q1794;ICE|NIGHTJET;;uic;205364328;Q165368;de:6412:10:1;FF;fffm;Frankfurt (M) Hbf
 TN8013552;gare;Hannover Hbf;Hanover Central Station;Hannover Hauptbahnhof;8013552;;52.37695;9.741653;DE;Europe/Berlin;Q1715;GOVOLTA|ICE;;nom;3059639307;Q703918;;HH;hann;Hannover Hbf
+TN8013593;gare;Herford;Herford;Herford;8013593;;52.119639;8.663775;DE;Europe/Berlin;Q3971;STOPTREIN;;code;3735046925;Q320668;de:5758:1380;EHFD;ehfd;Herford
+TN8013596;gare;Brake (b Bielefeld) Hp;Brake (b Bielefeld);Brake (b Bielefeld);8013596;;52.069642;8.605171;DE;Europe/Berlin;Q2112;STOPTREIN;;nom;1874497571;Q4956029;;"EBRAH;EBRA";ebra;Brake (b Bielefeld)
 TN8013597;gare;Bielefeld Hauptbahnhof;Bielefeld Main Station;Bielefeld Hauptbahnhof;8013597;;52.029332;8.532713;DE;Europe/Berlin;Q2112;STOPTREIN;;nom;1874501382;Q564750;;EBIL;bielef;Bielefeld Hbf
 TN8013751;gare;Bremen Hbf;Bremen Hauptbahnhof;Bremen Hauptbahnhof;8013751;;53.083297;8.813758;DE;Europe/Berlin;Q24879;GOVOLTA;;nom;8041901931;Q631094;de:04011:13927;HB;bremen;Bremen Hbf
 TN8014008;gare;Mannheim Hauptbahnhof;Mannheim Hauptbahnhof;Mannheim Hauptbahnhof;8014008;;49.479236;8.469411;DE;Europe/Berlin;Q2119;ICE|NIGHTJET;;uic;25439439;Q706994;de:08222:2417;RM;mannhe;Mannheim Hbf
@@ -50,11 +60,9 @@ TN8015149;gare;Neuss Hbf;Neuss Hbf;Neuss Hbf;8015149;;51.204438;6.684671;DE;Euro
 TN8015165;gare;Mönchengladbach Hbf;Mönchengladbach Hbf;Mönchengladbach Hbf;8015165;;51.19672;6.446273;DE;Europe/Berlin;Q2758;ICE|SNELTREIN;;nom;2631683231;Q547338;;KM;mcgb;Mönchengladbach Hbf
 TN8015190;gare;Herzogenrath;Herzogenrath;Herzogenrath;8015190;;50.871433;6.094601;DE;Europe/Berlin;Q6916;SNELTREIN;;nom;36492131;Q800917;;KHEZ;hz;Herzogenrath
 TN8015199;gare;Aachen West;Aachen West;Aachen West;8015199;;50.780717;6.069606;DE;Europe/Berlin;Q1017;SNELTREIN;;nom;4040109073;Q320563;;KAW;aw;Aachen West
-TN8015321;gare;Köln-Ehrenfeld;Köln-Ehrenfeld;Köln-Ehrenfeld;8015321;;50.951502;6.916529;DE;Europe/Berlin;Q365;NIGHTJET;;nom;4551541317;Q3131028;;KKER;kkerp;Köln-Ehrenfeld
 TN8015345;gare;Aachen Hbf;Aachen Central Train Station;Aachen Hauptbahnhof;8015345;;50.767766;6.091382;DE;Europe/Berlin;Q1017;SNELTREIN;;uic;3070631211;Q300706;de:05334:1008;KA;ahbf;Aachen Hbf
 TN8015458;gare;Köln Hbf;Köln Hauptbahnhof;Köln Hauptbahnhof;8015458;;50.942784;6.95907;DE;Europe/Berlin;Q365;ICE|NIGHTJET;;uic;2399559029;Q1954;;KK;koln;Köln Hbf
 TN8015485;gare;Bonn Hbf;Bonn Hauptbahnhof;Bonn Hauptbahnhof;8015485;;50.732044;7.096765;DE;Europe/Berlin;Q586;NIGHTJET;;uic;2713060210;Q55423;;KB;bonn;Bonn Hbf
-TN8015577;gare;Bonn-Beuel;Bonn-Beuel;Bonn-Beuel;8015577;;50.738523;7.127682;DE;Europe/Berlin;Q586;NIGHTJET;;code;1271017705;Q800550;;KBB;kbb;Bonn-Beuel
 TN8015588;gare;Siegburg/Bonn;Siegburg/Bonn;Siegburg/Bonn;8015588;;50.794026;7.202658;DE;Europe/Berlin;Q14870;ICE;;nom;35879657;Q316905;;KSIB;ksb;Siegburg/Bonn
 TN8019023;gare;Koblenz Hbf;Koblenz Hbf;Koblenz Hbf;8019023;;50.350823;7.589264;DE;Europe/Berlin;Q3104;NIGHTJET;;code;3524305897;Q469682;;KKO;kko;Koblenz Hbf
 TN8019051;gare;Mainz Hauptbahnhof;Mainz Hauptbahnhof;Mainz Hauptbahnhof;8019051;;50.001113;8.258723;DE;Europe/Berlin;Q1720;NIGHTJET;;code;7141879068;Q636700;;FMZ;fmz;Mainz Hbf
@@ -62,11 +70,12 @@ TN8020174;gare;Rosenheim;Rosenheim;Rosenheim;8020174;;47.850348;12.119504;DE;Eur
 TN8020234;gare;München Ost;Munich East;München Ost;8020234;;48.127721;11.605519;DE;Europe/Berlin;Q1726;NIGHTJET;;code;2465304880;Q801228;de:09162:5;MOP;mop;München Ost
 TN8020347;gare;München Hbf;Munich Central Station;München Hauptbahnhof;8020347;;48.140725;11.556943;DE;Europe/Berlin;Q1726;ICE|NIGHTJET;;uic;2470201868;Q254647;;MH;munchh;München Hbf
 TN8021005;gare;Dülmen;Dülmen;Dülmen;8021005;;51.827701;7.294943;DE;Europe/Berlin;Q6910;STOPTREIN;;nom;4168147466;Q800696;de:05558:15351;EDUL;edulh;Dülmen
-TN8021011;gare;Münster (Westf) Hbf;Münster (Westf) Hauptbahnhof;Münster (Westf) Hauptbahnhof;8021011;;51.956405;7.635792;DE;Europe/Berlin;Q2742;ICE|NIGHTJET|STOPTREIN;;nom;3374898279;Q564761;de:05515:41000;EMST;munst;Münster (Westf) Hbf
+TN8021011;gare;Münster (Westf) Hbf;Münster (Westf) Hauptbahnhof;Münster (Westf) Hauptbahnhof;8021011;;51.956405;7.635792;DE;Europe/Berlin;Q2742;NIGHTJET|STOPTREIN;;nom;3374898279;Q564761;de:05515:41000;EMST;munst;Münster (Westf) Hbf
 TN8021025;gare;Osnabrück Hauptbahnhof;Osnabrück Hauptbahnhof;Osnabrück Hauptbahnhof;8021025;;52.272906;8.061566;DE;Europe/Berlin;Q2916;GOVOLTA|ICE|STOPTREIN;;nom;268894281;Q464355;;HO;osnh;Osnabrück Hbf
 TN8021031;gare;Osnabrück Altstadt;Osnabrück Altstadt;Osnabrück Altstadt;8021031;;52.280802;8.046024;DE;Europe/Berlin;Q2916;ICE|STOPTREIN;;code;4072012965;Q7107273;;HOHT;hoht;Osnabrück Altstadt
 TN8021067;gare;Rheine;Rheine;Rheine;8021067;;52.27617;7.434019;DE;Europe/Berlin;Q3890;ICE|STOPTREIN;;nom;3451020543;Q277743;de:05566:60846;HR;rheine;Rheine
-TN8021091;gare;Leer (Ostfriesland);Leer (Ostfriesland);Leer (Ostfriesland);8021091;;53.231389;7.465159;DE;Europe/Berlin;Q15984;SNELTREIN;;nom;4530820003;Q325154;;HLEE;leer;Leer (Ostfriesl)
+TN8021071;gare;Salzbergen;Salzbergen;Salzbergen;8021071;;52.322878;7.350959;DE;Europe/Berlin;Q512612;STOPTREIN;;code;288916670;Q7406984;;HSAL;hsal;Salzbergen
+TN8021091;gare;Leer (Ostfriesland);Leer (Ostfriesland);Leer (Ostfriesland);8021091;;53.231389;7.465159;DE;Europe/Berlin;Q15984;SNELTREIN;;nom;4530820003;Q325154;;HLEE;leer;Leer(Ostfriesl)
 TN8021111;gare;Bork (Westf);Bork (Westf);Bork (Westf);8021111;;51.669136;7.456325;DE;Europe/Berlin;Q10935;STOPTREIN;;code;371230571;Q116019484;de:05978:21696;EBOK;ebok;Bork (Westf)
 TN8021112;gare;Selm;Selm;Selm;8021112;;51.707092;7.45342;DE;Europe/Berlin;Q10935;STOPTREIN;;code;289236621;Q116018712;de:05978:16093;ESEM;esem;Selm
 TN8021113;gare;Lüdinghausen;Lüdinghausen;Lüdinghausen;8021113;;51.762483;7.431247;DE;Europe/Berlin;Q14934;STOPTREIN;;code;4200869897;Q56755049;de:05558:15617:91;ELDH;eldh;Lüdinghausen
@@ -86,7 +95,17 @@ TN8021150;gare;Steinfurt-Borghorst;Steinfurt-Borghorst;Steinfurt-Borghorst;80211
 TN8021151;gare;Metelen (Land);Metelen (Land);Metelen (Land);8021151;;52.162441;7.25403;DE;Europe/Berlin;Q182054;STOPTREIN;;code;4173506718;Q1311788;de:05566:12977;EMTE;emte;Metelen Land
 TN8021152;gare;Ochtrup;Ochtrup;Ochtrup;8021152;;52.201638;7.184425;DE;Europe/Berlin;Q181673;STOPTREIN;;code;4173506719;Q15944825;de:05566:31053;EOP;eop;Ochtrup
 TN8021156;gare;Bad Bentheim;Bad Bentheim;Bad Bentheim;8021156;;52.309733;7.158289;DE;Europe/Berlin;Q574332;GOVOLTA|ICE|STOPTREIN;;nom;4530820008;Q2028380;;HBTH;bh;Bad Bentheim
+TN8021157;gare;Schüttorf;Schüttorf;Schüttorf;8021157;;52.317056;7.222262;DE;Europe/Berlin;Q515046;STOPTREIN;;code;427530099;Q7433366;;HSTT;hstt;Schüttorf
+TN8021159;gare;Hörstel;Hörstel;Hörstel;8021159;;52.29572;7.591738;DE;Europe/Berlin;Q181504;STOPTREIN;;code;427530098;Q5964715;de:05566:60000;HHTL;hhtl;Hörstel
+TN8021160;gare;Ibbenbüren-Esch;Ibbenbüren-Esch;Ibbenbüren-Esch;8021160;;52.29971;7.656187;DE;Europe/Berlin;Q4175;STOPTREIN;;code;3067887863;Q800939;de:05566:13311;HESH;hesh;Ibbenbüren-Esch
+TN8021162;gare;Ibbenbüren;Ibbenbüren;Ibbenbüren;8021162;;52.27689;7.721452;DE;Europe/Berlin;Q4175;STOPTREIN;;nom;510601695;Q322526;de:05566:14317;HI;ibbenb;Ibbenbüren
+TN8021163;gare;Ibbenbüren-Laggenbeck;Ibbenbüren-Laggenbeck;Ibbenbüren-Laggenbeck;8021163;;52.264787;7.781259;DE;Europe/Berlin;Q4175;STOPTREIN;;code;4147508389;Q800940;de:05566:60007;HLGG;hlgg;Ibbenbüren-Laggenbeck
+TN8021167;gare;Wissingen;Wissingen;Wissingen;8021167;;52.258537;8.203978;DE;Europe/Berlin;Q569596;STOPTREIN;;code;21301567;Q8027730;;HWIS;hwis;Wissingen
+TN8021168;gare;Westerhausen;Westerhausen;Westerhausen;8021168;;52.236163;8.279116;DE;Europe/Berlin;Q6954;STOPTREIN;;code;21303961;Q12072740;;HWTH;hwth;Westerhausen
+TN8021169;gare;Melle;Melle;Melle;8021169;;52.20939;8.342403;DE;Europe/Berlin;Q6954;STOPTREIN;;code;3567121864;Q6813060;;HMEL;hmel;Melle
+TN8021170;gare;Bruchmühlen;Bruchmühlen;Bruchmühlen;8021170;;52.204465;8.448793;DE;Europe/Berlin;Q6954;STOPTREIN;;code;2548558424;Q12053729;;HBUE;hbue;Bruchmühlen
 TN8021173;gare;Bünde (Westf);Bünde (Westf);Bünde (Westf);8021173;;52.202246;8.574333;DE;Europe/Berlin;Q7021;ICE|STOPTREIN;;nom;21303996;Q317151;de:05758:1120;HBDE;buende;Bünde (Westf)
+TN8021175;gare;Kirchlengern;Kirchlengern;Kirchlengern;8021175;;52.196726;8.643968;DE;Europe/Berlin;Q53911;STOPTREIN;;code;21304009;Q6415024;de:05758:1695;HKLG;hklg;Kirchlengern
 TN8021239;gare;Weener;Weener;Weener;8021239;;53.163412;7.342888;DE;Europe/Berlin;Q504533;SNELTREIN;;nom;192449079;Q2578409;;HWEE;wr;Weener
 TN8022193;gare;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;8022193;;49.445199;11.082309;DE;Europe/Berlin;Q2090;NIGHTJET;;nom;4543919208;Q682583;;NN;nurnb;Nürnberg Hbf
 TN8022534;gare;Würzburg Hauptbahnhof;Würzburg Hauptbahnhof;Würzburg Hauptbahnhof;8022534;;49.802155;9.935891;DE;Europe/Berlin;Q118464900;NIGHTJET;;nom;27453687;Q682609;;NWH;wurzb;Würzburg Hbf
@@ -100,6 +119,7 @@ TN8033452;gare;Berlin Hauptbahnhof-Lehrter Bf (Stadtb);Berlin Central Station;Be
 TN8039904;gare;Düsseldorf Flughafen;Düsseldorf Flughafen;Düsseldorf Flughafen;8039904;;51.291572;6.786956;DE;Europe/Berlin;Q1718;STOPTREIN;;uic;3421260019;Q800701;;KDFF;kdffh;Düsseldorf Flughafen
 TN8061676;gare;Frankfurt Flughafen Fernb;Frankfurt Flughafen Fernb;Frankfurt Flughafen Fernb;8061676;;50.053196;8.57014;DE;Europe/Berlin;Q1794;ICE|NIGHTJET;;gtfs;;;;;fnaf;Frankfurt Flughafen Fernb
 TN8065971;gare;Berlin Südkreuz;Berlin Südkreuz;Berlin Südkreuz;8065971;;52.476572;13.36604;DE;Europe/Berlin;Q64;ICE;;code;267379240;Q376589;;BPAF;bpaf;Berlin Südkreuz
+TN8069148;gare;Hiddenhausen-Schweicheln;Hiddenhausen-Schweicheln;Hiddenhausen-Schweicheln;8069148;;52.158536;8.668297;DE;Europe/Berlin;Q53908;STOPTREIN;;code;1248816490;Q15223865;de:05758:1538:91:91;HHIS;hhis;Hiddenhausen-Schweicheln
 TN8071069;gare;Steinfurt-Grottenkamp;Steinfurt-Grottenkamp;Steinfurt-Grottenkamp;8071069;;52.123244;7.375432;DE;Europe/Berlin;Q16018;STOPTREIN;;code;4173557797;Q15944838;de:05566:63782;EGRK;egrk;Steinfurt-Grottenkamp
 TN8101003;gare;Wien Hbf;Vienna Central Station;Wien Hauptbahnhof;8101003;;48.184988;16.377939;AT;Europe/Vienna;Q1741;NIGHTJET;;uic;1839787470;Q697300;;XAWIE;wbf;Wien Hbf
 TN8101032;gare;St. Pölten Hbf;St. Pölten Hauptbahnhof;St. Pölten Hauptbahnhof;8101032;;48.20828;15.624681;AT;Europe/Vienna;Q82500;NIGHTJET;;uic;2465563392;Q662913;;;polten;St.Pölten Hbf
@@ -119,25 +139,25 @@ TN8400052;gare;Alkmaar Noord;Alkmaar Noord;Alkmaar Noord;8400052;;52.643765;4.76
 TN8400053;gare;Alphen a/d Rijn;Alphen aan den Rijn;Alphen aan den Rijn;8400053;;52.124806;4.657105;NL;Europe/Amsterdam;Q15156199;SPRINTER;;code;1962328712;Q474716;;;apn;Alphen a/d Rijn
 TN8400054;gare;Amersfoort Schothorst;Amersfoort Schothorst;Amersfoort Schothorst;8400054;;52.17486;5.403859;NL;Europe/Amsterdam;Q33421377;INTERCITY|INTERCITY DIRECT|SPRINTER;;code;7606617874;Q49866;;;amfs;Amersfoort Schothorst
 TN8400055;gare;Amersfoort Centraal;Amersfoort Centraal;Amersfoort Centraal;8400055;;52.153898;5.374098;NL;Europe/Amsterdam;Q33421377;GOVOLTA|ICE|INTERCITY|INTERCITY DIRECT|NIGHTJET|SPRINTER;;uic;45489203;Q49854;;;amf;Amersfoort Centraal
-TN8400056;gare;Amsterdam RAI;Amsterdam RAI;Amsterdam RAI;8400056;;52.337035;4.890229;NL;Europe/Amsterdam;Q727;INTERCITY|SPRINTER;;code;4046323545;Q512214;;;rai;Amsterdam RAI
+TN8400056;gare;Amsterdam RAI;Amsterdam RAI;Amsterdam RAI;8400056;;52.337035;4.890229;NL;Europe/Amsterdam;Q727;SPRINTER;;code;4046323545;Q512214;;;rai;Amsterdam RAI
 TN8400057;gare;Amsterdam Amstel;Amsterdam Amstel;Amsterdam Amstel;8400057;;52.346466;4.917557;NL;Europe/Amsterdam;Q727;INTERCITY|SPRINTER;;code;4040491812;Q50720;;;asa;Amsterdam Amstel
 TN8400058;gare;Amsterdam Centraal;Amsterdam Central Station;Amsterdam Centraal;8400058;;52.378901;4.900581;NL;Europe/Amsterdam;Q727;EUROCITY DIRECT|GOVOLTA|ICE|INTERCITY|INTERCITY DIRECT|NACHTTREIN|NIGHTJET|SPRINTER;;uic;4290854847;Q50719;;XNAC;asd;Amsterdam Centraal
 TN8400059;gare;Amsterdam Sloterdijk;Amsterdam Sloterdijk;Amsterdam Sloterdijk;8400059;;52.389032;4.838106;NL;Europe/Amsterdam;Q727;INTERCITY|SPRINTER;;code;3938547498;Q50721;;;ass;Amsterdam Sloterdijk
-TN8400060;gare;Amsterdam Muiderpoort;Amsterdam Muiderpoort;Amsterdam Muiderpoort;8400060;;52.360725;4.931248;NL;Europe/Amsterdam;Q727;GOVOLTA|SPRINTER;;code;2827632045;Q50724;;;asdm;Amsterdam Muiderpoort
+TN8400060;gare;Amsterdam Muiderpoort;Amsterdam Muiderpoort;Amsterdam Muiderpoort;8400060;;52.360725;4.931248;NL;Europe/Amsterdam;Q727;SPRINTER;;code;2827632045;Q50724;;;asdm;Amsterdam Muiderpoort
 TN8400061;gare;Amsterdam Zuid;Amsterdam Zuid;Amsterdam Zuid;8400061;;52.338807;4.873191;NL;Europe/Amsterdam;Q727;EUROCITY DIRECT|INTERCITY|INTERCITY DIRECT|SPRINTER;;code;5252944882;Q49872;;;asdz;Amsterdam Zuid
 TN8400065;gare;Anna Paulowna;Anna Paulowna;Anna Paulowna;8400065;;52.867721;4.811522;NL;Europe/Amsterdam;Q562876;INTERCITY;;code;2746493059;Q2198127;;;ana;Anna Paulowna
 TN8400066;gare;Apeldoorn;Apeldoorn;Apeldoorn;8400066;;52.209278;5.968973;NL;Europe/Amsterdam;Q3018561;ICE|INTERCITY|SNELTREIN|SPRINTER|STOPTREIN;;uic;4530820009;Q800395;;;apd;Apeldoorn
 TN8400067;gare;Appingedam;Appingedam;Appingedam;8400067;;53.325768;6.862006;NL;Europe/Amsterdam;Q995;STOPTREIN;;code;48387592;Q970342;;;apg;Appingedam
 TN8400068;gare;Arkel;Arkel;Arkel;8400068;;51.87212;4.992772;NL;Europe/Amsterdam;Q1165364;STOPTREIN;;code;4346546237;Q2388194;;;akl;Arkel
 TN8400069;gare;Arnemuiden;Arnemuiden;Arnemuiden;8400069;;51.501532;3.669543;NL;Europe/Amsterdam;Q81183;INTERCITY;;code;7515245056;Q800400;;;arn;Arnemuiden
-TN8400071;gare;Arnhem Centraal;Arnhem Centraal;Arnhem Centraal;8400071;;51.985069;5.899977;NL;Europe/Amsterdam;Q1310;GOVOLTA|ICE|INTERCITY|NIGHTJET|SPRINTER|STOPTREIN;;uic;14119771339;Q800399;;;ah;Arnhem Centraal
+TN8400071;gare;Arnhem Centraal;Arnhem Centraal;Arnhem Centraal;8400071;;51.985069;5.899977;NL;Europe/Amsterdam;Q1310;ICE|INTERCITY|NIGHTJET|SPRINTER|STOPTREIN;;uic;14119771339;Q800399;;;ah;Arnhem Centraal
 TN8400072;gare;Arnhem Velperpoort;Arnhem Velperpoort;Arnhem Velperpoort;8400072;;51.985124;5.919903;NL;Europe/Amsterdam;Q1310;SPRINTER|STOPTREIN;;code;44731315;Q4794759;;;ahp;Arnhem Velperpoort
-TN8400073;gare;Assen;Assen;Assen;8400073;;52.992265;6.571245;NL;Europe/Amsterdam;Q798;INTERCITY|NACHTTREIN|SNELTREIN|SPRINTER;;code;7606786768;Q47326;;;asn;Assen
-TN8400074;gare;Amsterdam Bijlmer ArenA;Amsterdam Bijlmer ArenA;Amsterdam Bijlmer ArenA;8400074;;52.312245;4.947088;NL;Europe/Amsterdam;Q727;GOVOLTA|INTERCITY|NACHTTREIN|SPRINTER;;uic;4005961975;Q50723;;;asb;Amsterdam Bijlmer ArenA
+TN8400073;gare;Assen;Assen;Assen;8400073;;52.992265;6.571245;NL;Europe/Amsterdam;Q798;INTERCITY|NACHTTREIN|SPRINTER;;code;7606786768;Q47326;;;asn;Assen
+TN8400074;gare;Amsterdam Bijlmer ArenA;Amsterdam Bijlmer ArenA;Amsterdam Bijlmer ArenA;8400074;;52.312245;4.947088;NL;Europe/Amsterdam;Q727;INTERCITY|INTERCITY DIRECT|NACHTTREIN|SPRINTER;;uic;4005961975;Q50723;;;asb;Amsterdam Bijlmer ArenA
 TN8400075;gare;Arnhem Presikhaaf;Arnhem Presikhaaf;Arnhem Presikhaaf;8400075;;51.9876;5.942919;NL;Europe/Amsterdam;Q1310;SPRINTER;;code;7606517383;Q2356392;;;ahpr;Arnhem Presikhaaf
 TN8400079;gare;Amsterdam Lelylaan;Amsterdam Lelylaan;Amsterdam Lelylaan;8400079;;52.357837;4.834027;NL;Europe/Amsterdam;Q727;INTERCITY|SPRINTER;;code;4076017504;Q50722;;;asdl;Amsterdam Lelylaan
 TN8400080;gare;Almere Centrum;Almere Centrum;Almere Centrum;8400080;;52.375273;5.219327;NL;Europe/Amsterdam;Q83178;EUROCITY DIRECT|INTERCITY|INTERCITY DIRECT|NACHTTREIN|SPRINTER;;uic;4555468696;Q594100;;;alm;Almere Centrum
-TN8400081;gare;Almere Buiten;Almere Buiten;Almere Buiten;8400081;;52.394191;5.277958;NL;Europe/Amsterdam;Q83178;EUROCITY DIRECT|INTERCITY DIRECT|SPRINTER;;code;46487439;Q800373;;;almb;Almere Buiten
+TN8400081;gare;Almere Buiten;Almere Buiten;Almere Buiten;8400081;;52.394191;5.277958;NL;Europe/Amsterdam;Q83178;EUROCITY DIRECT|INTERCITY|INTERCITY DIRECT|SPRINTER;;code;46487439;Q800373;;;almb;Almere Buiten
 TN8400082;gare;Almere Muziekwijk;Almere Muziekwijk;Almere Muziekwijk;8400082;;52.367558;5.190341;NL;Europe/Amsterdam;Q83178;SPRINTER;;code;7606648990;Q568207;;;almm;Almere Muziekwijk
 TN8400086;gare;Baarn;Baarn;Baarn;8400086;;52.208087;5.281723;NL;Europe/Amsterdam;Q33423050;SPRINTER;;code;7606656814;Q2045233;;;brn;Baarn
 TN8400089;gare;Baflo;Baflo;Baflo;8400089;;53.361054;6.518846;NL;Europe/Amsterdam;Q799792;STOPTREIN;;code;7414217648;Q17960;;;bf;Baflo
@@ -154,7 +174,7 @@ TN8400112;gare;Best;Best;Best;8400112;;51.509816;5.389221;NL;Europe/Amsterdam;Q9
 TN8400113;gare;Beverwijk;Beverwijk;Beverwijk;8400113;;52.478536;4.656619;NL;Europe/Amsterdam;Q33424724;INTERCITY|SPRINTER;;code;7606596765;Q4899645;;;bv;Beverwijk
 TN8400114;gare;Bilthoven;Bilthoven;Bilthoven;8400114;;52.130188;5.204684;NL;Europe/Amsterdam;Q1075656;SPRINTER;;code;7606645164;Q3057588;;;bhv;Bilthoven
 TN8400115;gare;Barneveld Zuid;Barneveld Zuid;Barneveld Zuid;8400115;;52.128078;5.603094;NL;Europe/Amsterdam;Q2001429;SPRINTER;;code;3672421920;Q2291521;;;bnz;Barneveld Zuid
-TN8400117;gare;Blerick;Blerick;Blerick;8400117;;51.372416;6.155296;NL;Europe/Amsterdam;Q3322237;INTERCITY|SPRINTER|STOPTREIN;;code;4555433905;Q2395063;;;br;Blerick
+TN8400117;gare;Blerick;Blerick;Blerick;8400117;;51.372416;6.155296;NL;Europe/Amsterdam;Q3322237;INTERCITY|STOPTREIN;;code;4555433905;Q2395063;;;br;Blerick
 TN8400118;gare;Bloemendaal;Bloemendaal;Bloemendaal;8400118;;52.404348;4.627663;NL;Europe/Amsterdam;Q33425149;SPRINTER;;code;7606581800;Q2260872;;;bll;Bloemendaal
 TN8400121;gare;Bodegraven;Bodegraven;Bodegraven;8400121;;52.081454;4.74625;NL;Europe/Amsterdam;Q832938;SPRINTER;;code;7606551863;Q2755644;;;bdg;Bodegraven
 TN8400124;gare;Borne;Borne;Borne;8400124;;52.298613;6.748451;NL;Europe/Amsterdam;Q9997;SPRINTER;;code;7606761911;Q2678539;;;bn;Borne
@@ -163,10 +183,10 @@ TN8400126;gare;Boskoop Snijdelwijk;Boskoop Snijdelwijk;Boskoop Snijdelwijk;84001
 TN8400127;gare;Bovenkarspel-Grootebroek;Bovenkarspel-Grootebroek;Bovenkarspel-Grootebroek;8400127;;52.695072;5.236318;NL;Europe/Amsterdam;Q674395;INTERCITY|SPRINTER;;code;47217829;Q605481;;XNBG;bkg;Bovenkarspel-Grootebroek
 TN8400128;gare;Boxmeer;Boxmeer;Boxmeer;8400128;;51.64445;5.93949;NL;Europe/Amsterdam;Q12012490;STOPTREIN;;code;43346790;Q2660660;;;bmr;Boxmeer
 TN8400129;gare;Boxtel;Boxtel;Boxtel;8400129;;51.584443;5.31903;NL;Europe/Amsterdam;Q13443096;SPRINTER;;code;4041505713;Q2481512;;;btl;Boxtel
-TN8400131;gare;Breda;Breda;Breda;8400131;;51.595143;4.780023;NL;Europe/Amsterdam;Q40844;EUROCITY|INTERCITY|INTERCITY DIRECT|SPRINTER;;uic;43174364;Q800561;;;bd;Breda
+TN8400131;gare;Breda;Breda;Breda;8400131;;51.595143;4.780023;NL;Europe/Amsterdam;Q40844;EUROCITY|EUROCITY DIRECT|INTERCITY|INTERCITY DIRECT|SPRINTER;;uic;43174364;Q800561;;;bd;Breda
 TN8400132;gare;Breda-Prinsenbeek;Breda-Prinsenbeek;Breda-Prinsenbeek;8400132;;51.605719;4.721422;NL;Europe/Amsterdam;Q40844;INTERCITY|SPRINTER;;code;7515233170;Q3084420;;;bdpb;Breda-Prinsenbeek
 TN8400133;gare;Breukelen;Breukelen;Breukelen;8400133;;52.170829;4.990622;NL;Europe/Amsterdam;Q615732;SPRINTER;;code;4144571678;Q2643642;;;bkl;Breukelen
-TN8400135;gare;Lansingerland-Zoetermeer;Lansingerland-Zoetermeer;Lansingerland-Zoetermeer;8400135;;52.040963;4.518924;NL;Europe/Amsterdam;Q883690;SPRINTER;;code;5410560059;Q2740322;;;llzm;Lansingerland-Zoetermeer
+TN8400135;gare;Lansingerland-Zoetermeer;Lansingerland-Zoetermeer;Lansingerland-Zoetermeer;8400135;;52.040963;4.518924;NL;Europe/Amsterdam;Q883690;INTERCITY|SPRINTER;;code;5410560059;Q2740322;;;llzm;Lansingerland-Zoetermeer
 TN8400136;gare;Brummen;Brummen;Brummen;8400136;;52.090748;6.147059;NL;Europe/Amsterdam;Q16069702;SPRINTER;;code;45204707;Q1882571;;;bmn;Brummen
 TN8400139;gare;Buitenpost;Buitenpost;Buitenpost;8400139;;53.256299;6.144388;NL;Europe/Amsterdam;Q181500;SNELTREIN|STOPTREIN;;gtfs;;;;;bp;Buitenpost
 TN8400140;gare;Bunde;Bunde;Bunde;8400140;;50.896776;5.736644;NL;Europe/Amsterdam;Q1005360;STOPTREIN;;code;7537897482;Q1947123;;;bde;Bunde
@@ -182,7 +202,7 @@ TN8400161;gare;Dalen;Dalen;Dalen;8400161;;52.694689;6.75852;NL;Europe/Amsterdam;
 TN8400163;gare;Diemen Zuid;Diemen Zuid;Diemen Zuid;8400163;;52.330332;4.955742;NL;Europe/Amsterdam;Q9913;SPRINTER;;code;46199966;Q800664;;;dmnz;Diemen Zuid
 TN8400164;gare;Daarlerveen;Daarlerveen;Daarlerveen;8400164;;52.441257;6.576054;NL;Europe/Amsterdam;Q1811218;STOPTREIN;;code;7606819558;Q1872251;;;da;Daarlerveen
 TN8400165;gare;Diemen;Diemen;Diemen;8400165;;52.345207;4.967465;NL;Europe/Amsterdam;Q9913;SPRINTER;;code;7606698742;Q2692686;;;dmn;Diemen
-TN8400166;gare;Delft Campus;Delft Campus;Delft Campus;8400166;;51.991104;4.364687;NL;Europe/Amsterdam;Q690;SPRINTER;;code;6943877176;Q2096609;;;dtcp;Delft Campus
+TN8400166;gare;Delft Campus;Delft Campus;Delft Campus;8400166;;51.991104;4.364687;NL;Europe/Amsterdam;Q690;INTERCITY|SPRINTER;;code;6943877176;Q2096609;;;dtcp;Delft Campus
 TN8400167;gare;Dalfsen;Dalfsen;Dalfsen;8400167;;52.498228;6.259489;NL;Europe/Amsterdam;Q15644904;SNELTREIN|STOPTREIN;;code;7606786655;Q4572982;;;dl;Dalfsen
 TN8400168;gare;Deinum;Deinum;Deinum;8400168;;53.188758;5.728059;NL;Europe/Amsterdam;Q2179327;STOPTREIN;;code;7606818529;Q2779850;;;dei;Deinum
 TN8400169;gare;Delden;Delden;Delden;8400169;;52.260084;6.715146;NL;Europe/Amsterdam;Q1007172;STOPTREIN;;code;7606761910;Q2226484;;;ddn;Delden
@@ -202,7 +222,7 @@ TN8400183;gare;Driehuis;Driehuis;Driehuis;8400183;;52.442741;4.638714;NL;Europe/
 TN8400184;gare;Doetinchem De Huet;Doetinchem De Huet;Doetinchem De Huet;8400184;;51.95918;6.260031;NL;Europe/Amsterdam;Q16068685;STOPTREIN;;code;5669443996;Q2597197;;;dtch;Doetinchem De Huet
 TN8400185;gare;Deventer Colmschate;Deventer Colmschate;Deventer Colmschate;8400185;;52.25035;6.215679;NL;Europe/Amsterdam;Q26296883;SPRINTER;;code;7606549519;Q5266879;;;dvc;Deventer Colmschate
 TN8400186;gare;Dordrecht Stadspolders;Dordrecht Stadspolders;Dordrecht Stadspolders;8400186;;51.801972;4.716209;NL;Europe/Amsterdam;Q26421;STOPTREIN;;code;7606436209;Q2231426;;;ddrs;Dordrecht Stadspolders
-TN8400188;gare;De Vink;De Vink;De Vink;8400188;;52.147182;4.456302;NL;Europe/Amsterdam;Q43631;INTERCITY|SPRINTER;;code;7606551861;Q5244819;;;dvnk;De Vink
+TN8400188;gare;De Vink;De Vink;De Vink;8400188;;52.147182;4.456302;NL;Europe/Amsterdam;Q43631;SPRINTER;;code;7606551861;Q5244819;;;dvnk;De Vink
 TN8400192;gare;Dronryp;Dronryp;Dronryp;8400192;;53.177718;5.634768;NL;Europe/Amsterdam;Q578267;STOPTREIN;;code;7606818528;Q1960877;;;drp;Dronryp
 TN8400193;gare;Duiven;Duiven;Duiven;8400193;;51.943445;6.014453;NL;Europe/Amsterdam;Q2416369;STOPTREIN;;uic;44520232;Q2330822;;;dvn;Duiven
 TN8400194;gare;Duivendrecht;Duivendrecht;Duivendrecht;8400194;;52.323579;4.936527;NL;Europe/Amsterdam;Q2385069;INTERCITY|INTERCITY DIRECT|SPRINTER;;code;4041666291;Q49870;;;dvd;Duivendrecht
@@ -222,10 +242,10 @@ TN8400217;gare;Enschede De Eschmarke;Enschede De Eschmarke;Enschede De Eschmarke
 TN8400218;gare;Etten-Leur;Etten-Leur;Etten-Leur;8400218;;51.575213;4.63648;NL;Europe/Amsterdam;Q9833;INTERCITY;;code;3093842602;Q800746;;;etn;Etten-Leur
 TN8400219;gare;Eijsden;Eijsden;Eijsden;8400219;;50.772045;5.710079;NL;Europe/Amsterdam;Q1007134;SNELTREIN;;uic;7072277768;Q2508625;;;edn;Eijsden
 TN8400221;gare;Enschede Kennispark;Enschede Kennispark;Enschede Kennispark;8400221;;52.237419;6.838794;NL;Europe/Amsterdam;Q10002;INTERCITY|SPRINTER;;code;45836125;Q2678217;;;esk;Enschede Kennispark
-TN8400226;gare;Almere Oostvaarders;Almere Oostvaarders;Almere Oostvaarders;8400226;;52.40328;5.300602;NL;Europe/Amsterdam;Q83178;GOVOLTA|SPRINTER;;code;563874508;Q510622;;;almo;Almere Oostvaarders
+TN8400226;gare;Almere Oostvaarders;Almere Oostvaarders;Almere Oostvaarders;8400226;;52.40328;5.300602;NL;Europe/Amsterdam;Q83178;SPRINTER;;code;563874508;Q510622;;;almo;Almere Oostvaarders
 TN8400227;gare;Arnhem Zuid;Arnhem Zuid;Arnhem Zuid;8400227;;51.954494;5.851949;NL;Europe/Amsterdam;Q1310;INTERCITY|SPRINTER;;code;320494336;Q2527357;;;ahz;Arnhem Zuid
-TN8400228;gare;Amersfoort Vathorst;Amersfoort Vathorst;Amersfoort Vathorst;8400228;;52.192551;5.433613;NL;Europe/Amsterdam;Q33421377;INTERCITY|SPRINTER;;code;7606617875;Q49856;;;avat;Amersfoort Vathorst
-TN8400229;gare;Apeldoorn Osseveld;Apeldoorn Osseveld;Apeldoorn Osseveld;8400229;;52.215732;6.006105;NL;Europe/Amsterdam;Q3018561;INTERCITY|SPRINTER;;code;7606517379;Q2442194;;;apdo;Apeldoorn Osseveld
+TN8400228;gare;Amersfoort Vathorst;Amersfoort Vathorst;Amersfoort Vathorst;8400228;;52.192551;5.433613;NL;Europe/Amsterdam;Q33421377;SPRINTER;;code;7606617875;Q49856;;;avat;Amersfoort Vathorst
+TN8400229;gare;Apeldoorn Osseveld;Apeldoorn Osseveld;Apeldoorn Osseveld;8400229;;52.215732;6.006105;NL;Europe/Amsterdam;Q3018561;SPRINTER;;code;7606517379;Q2442194;;;apdo;Apeldoorn Osseveld
 TN8400230;gare;Bovenkarspel Flora;Bovenkarspel Flora;Bovenkarspel Flora;8400230;;52.696111;5.253343;NL;Europe/Amsterdam;Q674395;INTERCITY|SPRINTER;;code;7606607358;Q2206086;;XNBF;bkf;Bovenkarspel Flora
 TN8400231;gare;Amsterdam Holendrecht;Amsterdam Holendrecht;Amsterdam Holendrecht;8400231;;52.297989;4.960171;NL;Europe/Amsterdam;Q727;SPRINTER;;code;250233810;Q800381;;;ashd;Amsterdam Holendrecht
 TN8400232;gare;Franeker;Franeker;Franeker;8400232;;53.182401;5.549851;NL;Europe/Amsterdam;Q41974;STOPTREIN;;code;7606818527;Q17934;;;fn;Franeker
@@ -235,7 +255,7 @@ TN8400235;gare;Amsterdam Science Park;Amsterdam Science Park;Amsterdam Science P
 TN8400236;gare;Boven Hardinxveld;Boven Hardinxveld;Boven Hardinxveld;8400236;;51.832351;4.878527;NL;Europe/Amsterdam;Q953012;STOPTREIN;;code;7606436205;Q641454;;;bhdv;Boven-Hardinxveld
 TN8400238;gare;Groningen Europapark;Groningen Europapark;Groningen Europapark;8400238;;53.204706;6.585821;NL;Europe/Amsterdam;Q749;INTERCITY|SNELTREIN|SPRINTER|STOPTREIN;;code;5252617525;Q17939;;;gerp;Groningen Europapark
 TN8400241;gare;Gaanderen;Gaanderen;Gaanderen;8400241;;51.930854;6.348367;NL;Europe/Amsterdam;Q171272;STOPTREIN;;code;7606543794;Q4977551;;;gdr;Gaanderen
-TN8400242;gare;Helmond Brandevoort;Helmond Brandevoort;Helmond Brandevoort;8400242;;51.462463;5.608839;NL;Europe/Amsterdam;Q9844;INTERCITY|SPRINTER;;code;4154223955;Q2694671;;;hmbv;Helmond Brandevoort
+TN8400242;gare;Helmond Brandevoort;Helmond Brandevoort;Helmond Brandevoort;8400242;;51.462463;5.608839;NL;Europe/Amsterdam;Q9844;SPRINTER;;code;4154223955;Q2694671;;;hmbv;Helmond Brandevoort
 TN8400244;gare;Geldermalsen;Geldermalsen;Geldermalsen;8400244;;51.882558;5.271479;NL;Europe/Amsterdam;Q2216836;SPRINTER|STOPTREIN;;code;4041579851;Q3096535;;XNGM;gdm;Geldermalsen
 TN8400245;gare;Geldrop;Geldrop;Geldrop;8400245;;51.420289;5.550202;NL;Europe/Amsterdam;Q2636411;SPRINTER;;code;693085424;Q2685303;;;gp;Geldrop
 TN8400246;gare;Geleen Oost;Geleen Oost;Geleen Oost;8400246;;50.967058;5.843164;NL;Europe/Amsterdam;Q73570;STOPTREIN;;code;7537874944;Q2677839;;;gln;Geleen Oost
@@ -253,20 +273,20 @@ TN8400264;gare;Groningen Noord;Groningen Noord;Groningen Noord;8400264;;53.23012
 TN8400266;gare;Grou-Jirnsum;Grou-Jirnsum;Grou-Jirnsum;8400266;;53.089883;5.82229;NL;Europe/Amsterdam;Q1547681;INTERCITY|SPRINTER;;code;7606802768;Q2490738;;;gw;Grou-Jirnsum
 TN8400267;gare;Grijpskerk;Grijpskerk;Grijpskerk;8400267;;53.255786;6.309886;NL;Europe/Amsterdam;Q2218565;STOPTREIN;;code;7606763156;Q2331363;;;gk;Grijpskerk
 TN8400270;gare;Haarlem Spaarnwoude;Haarlem Spaarnwoude;Haarlem Spaarnwoude;8400270;;52.382848;4.671354;NL;Europe/Amsterdam;Q9920;SPRINTER;;code;7606551882;Q2780339;;;hlms;Haarlem Spaarnwoude
-TN8400278;gare;Den Haag Mariahoeve;Den Haag Mariahoeve;Den Haag Mariahoeve;8400278;;52.090998;4.370069;NL;Europe/Amsterdam;Q36600;INTERCITY|SPRINTER;;code;3505712905;Q3018599;;;gvm;Den Haag Mariahoeve
+TN8400278;gare;Den Haag Mariahoeve;Den Haag Mariahoeve;Den Haag Mariahoeve;8400278;;52.090998;4.370069;NL;Europe/Amsterdam;Q36600;SPRINTER;;code;3505712905;Q3018599;;;gvm;Den Haag Mariahoeve
 TN8400279;gare;Den Haag Moerwijk;Den Haag Moerwijk;Den Haag Moerwijk;8400279;;52.054519;4.308545;NL;Europe/Amsterdam;Q36600;SPRINTER;;code;3501464156;Q3093239;;;gvmw;Den Haag Moerwijk
 TN8400280;gare;Den Haag HS;Den Haag HS;Den Haag HS;8400280;;52.070137;4.322276;NL;Europe/Amsterdam;Q36600;INTERCITY|SPRINTER;;uic;3497550450;Q800657;;;gv;Den Haag HS
 TN8400282;gare;Den Haag Centraal;Den Haag Centraal;Den Haag Centraal;8400282;;52.080844;4.324549;NL;Europe/Amsterdam;Q36600;INTERCITY|SPRINTER;;code;3479331097;Q200704;;;gvc;Den Haag Centraal
 TN8400285;gare;Haarlem;Haarlem;Haarlem;8400285;;52.388078;4.638579;NL;Europe/Amsterdam;Q9920;INTERCITY|SPRINTER;;code;5252716645;Q800863;;;hlm;Haarlem
 TN8400292;gare;Hurdegaryp;Hurdegaryp;Hurdegaryp;8400292;;53.218884;5.934424;NL;Europe/Amsterdam;Q1025097;STOPTREIN;;code;7606825349;Q2569972;;;hdg;Hurdegaryp
 TN8400293;gare;Hardenberg;Hardenberg;Hardenberg;8400293;;52.572338;6.627603;NL;Europe/Amsterdam;Q10013;SNELTREIN|STOPTREIN;;code;3752165187;Q1934190;;;hdb;Hardenberg
-TN8400294;gare;Harderwijk;Harderwijk;Harderwijk;8400294;;52.3378;5.619996;NL;Europe/Amsterdam;Q58931;SPRINTER;;code;2854696578;Q1951271;;;hd;Harderwijk
+TN8400294;gare;Harderwijk;Harderwijk;Harderwijk;8400294;;52.3378;5.619996;NL;Europe/Amsterdam;Q58931;INTERCITY|SPRINTER;;code;2854696578;Q1951271;;;hd;Harderwijk
 TN8400295;gare;Hardinxveld-Giessendam;Hardinxveld-Giessendam;Hardinxveld-Giessendam;8400295;;51.830352;4.835596;NL;Europe/Amsterdam;Q953012;STOPTREIN;;code;4347209276;Q773289;;;gnd;Hardinxveld-Giessendam
 TN8400296;gare;Harlingen;Harlingen;Harlingen;8400296;;53.170392;5.425209;NL;Europe/Amsterdam;Q60475;STOPTREIN;;code;7606818526;Q800889;;;hlg;Harlingen
 TN8400297;gare;Haren;Haren;Haren;8400297;;53.174863;6.618087;NL;Europe/Amsterdam;Q33443174;INTERCITY|SPRINTER;;code;2812863011;Q47317;;;hrn;Haren
 TN8400298;gare;Harlingen Haven;Harlingen Haven;Harlingen Haven;8400298;;53.174616;5.411496;NL;Europe/Amsterdam;Q60475;STOPTREIN;;code;7606818525;Q2194466;;;hlgh;Harlingen Haven
 TN8400299;gare;Helmond Brouwhuis;Helmond Brouwhuis;Helmond Brouwhuis;8400299;;51.470623;5.70137;NL;Europe/Amsterdam;Q9844;SPRINTER;;code;42715031;Q3405204;;;hmbh;Helmond Brouwhuis
-TN8400300;gare;Helmond 't Hout;Helmond 't Hout;Helmond 't Hout;8400300;;51.46811;5.631202;NL;Europe/Amsterdam;Q9844;INTERCITY|SPRINTER;;code;2901800432;Q2570647;;;hmh;Helmond 't Hout
+TN8400300;gare;Helmond 't Hout;Helmond 't Hout;Helmond 't Hout;8400300;;51.46811;5.631202;NL;Europe/Amsterdam;Q9844;SPRINTER;;code;2901800432;Q2570647;;;hmh;Helmond 't Hout
 TN8400302;gare;Heemstede-Aerdenhout;Heemstede-Aerdenhout;Heemstede-Aerdenhout;8400302;;52.359505;4.606786;NL;Europe/Amsterdam;Q9928;INTERCITY|SPRINTER;;code;7606551879;Q800897;;;had;Heemstede-Aerdenhout
 TN8400303;gare;Den Helder Zuid;Den Helder Zuid;Den Helder Zuid;8400303;;52.932618;4.764153;NL;Europe/Amsterdam;Q33432868;INTERCITY;;code;4555498838;Q1869640;;;hdrz;Den Helder Zuid
 TN8400305;gare;Heerenveen;Heerenveen;Heerenveen;8400305;;52.960703;5.915347;NL;Europe/Amsterdam;Q1061677;INTERCITY|SPRINTER;;code;7606802766;Q800899;;;hr;Heerenveen
@@ -280,8 +300,8 @@ TN8400312;gare;Hengelo Oost;Hengelo Oost;Hengelo Oost;8400312;;52.268908;6.81948
 TN8400313;gare;Helmond;Helmond;Helmond;8400313;;51.475566;5.661671;NL;Europe/Amsterdam;Q9844;INTERCITY|SPRINTER;;code;2902916310;Q2581822;;;hm;Helmond
 TN8400315;gare;Hemmen-Dodewaard;Hemmen-Dodewaard;Hemmen-Dodewaard;8400315;;51.922413;5.673622;NL;Europe/Amsterdam;Q1614071;STOPTREIN;;code;44408869;Q18769871;;;hmn;Hemmen-Dodewaard
 TN8400316;gare;Hengelo;Hengelo;Hengelo;8400316;;52.261775;6.794909;NL;Europe/Amsterdam;Q10006;GOVOLTA|ICE|INTERCITY|SPRINTER|STOPTREIN;;uic;45931397;Q800910;;;hgl;Hengelo
-TN8400317;gare;Heemskerk;Heemskerk;Heemskerk;8400317;;52.494635;4.686126;NL;Europe/Amsterdam;Q9926;INTERCITY|SPRINTER;;code;7606596764;Q3148455;;;hk;Heemskerk
-TN8400319;gare;'s-Hertogenbosch;'s-Hertogenbosch;'s-Hertogenbosch;8400319;;51.690516;5.293709;NL;Europe/Amsterdam;Q2766547;ICE|INTERCITY|NACHTTREIN|SPRINTER;;code;4085675596;Q801698;;;ht;'s-Hertogenbosch
+TN8400317;gare;Heemskerk;Heemskerk;Heemskerk;8400317;;52.494635;4.686126;NL;Europe/Amsterdam;Q9926;SPRINTER;;code;7606596764;Q3148455;;;hk;Heemskerk
+TN8400319;gare;'s-Hertogenbosch;'s-Hertogenbosch;'s-Hertogenbosch;8400319;;51.690516;5.293709;NL;Europe/Amsterdam;Q2766547;EUROCITY DIRECT|ICE|INTERCITY|NACHTTREIN|SPRINTER;;code;4085675596;Q801698;;;ht;'s-Hertogenbosch
 TN8400320;gare;'s-Hertogenbosch Oost;'s-Hertogenbosch Oost;'s-Hertogenbosch Oost;8400320;;51.700554;5.319116;NL;Europe/Amsterdam;Q2766547;SPRINTER;;code;7606555863;Q4540583;;;hto;'s-Hertogenbosch Oost
 TN8400322;gare;Hilversum;Hilversum;Hilversum;8400322;;52.226534;5.181297;NL;Europe/Amsterdam;Q9934;ICE|INTERCITY|INTERCITY DIRECT|SPRINTER;;uic;7606656811;Q49868;;;hvs;Hilversum
 TN8400323;gare;Hindeloopen;Hindeloopen;Hindeloopen;8400323;;52.946454;5.423131;NL;Europe/Amsterdam;Q73049;STOPTREIN;;code;7606839823;Q5765960;;;hnp;Hindeloopen
@@ -289,16 +309,16 @@ TN8400324;gare;Hilversum Media Park;Hilversum Media Park;Hilversum Media Park;84
 TN8400326;gare;Hoensbroek;Hoensbroek;Hoensbroek;8400326;;50.905574;5.930257;NL;Europe/Amsterdam;Q9799;STOPTREIN;;code;7047065519;Q5876484;;;hb;Hoensbroek
 TN8400327;gare;Hollandsche Rading;Hollandsche Rading;Hollandsche Rading;8400327;;52.178079;5.179316;NL;Europe/Amsterdam;Q2455732;SPRINTER;;code;7606656813;Q5881185;;;hor;Hollandsche Rading
 TN8400328;gare;Holten;Holten;Holten;8400328;;52.284079;6.421168;NL;Europe/Amsterdam;Q3112138;SPRINTER;;code;7606549518;Q1809377;;;hon;Holten
-TN8400329;gare;Hillegom;Hillegom;Hillegom;8400329;;52.30314;4.566075;NL;Europe/Amsterdam;Q932116;INTERCITY|SPRINTER;;code;7606551878;Q2257741;;;hil;Hillegom
-TN8400330;gare;Hoogeveen;Hoogeveen;Hoogeveen;8400330;;52.733503;6.472967;NL;Europe/Amsterdam;Q18691547;INTERCITY|SNELTREIN|SPRINTER;;code;4061881142;Q47337;;;hgv;Hoogeveen
+TN8400329;gare;Hillegom;Hillegom;Hillegom;8400329;;52.30314;4.566075;NL;Europe/Amsterdam;Q932116;SPRINTER;;code;7606551878;Q2257741;;;hil;Hillegom
+TN8400330;gare;Hoogeveen;Hoogeveen;Hoogeveen;8400330;;52.733503;6.472967;NL;Europe/Amsterdam;Q18691547;INTERCITY|SPRINTER;;code;4061881142;Q47337;;;hgv;Hoogeveen
 TN8400331;gare;Hoogezand-Sappemeer;Hoogezand-Sappemeer;Hoogezand-Sappemeer;8400331;;53.159795;6.770918;NL;Europe/Amsterdam;Q1627411;STOPTREIN;;code;7414300382;Q47260;;;hgz;Hoogezand-Sappemeer
-TN8400332;gare;Hoofddorp;Hoofddorp;Hoofddorp;8400332;;52.292867;4.69887;NL;Europe/Amsterdam;Q995911;SPRINTER;;code;4519026692;Q800931;;;hfd;Hoofddorp
+TN8400332;gare;Hoofddorp;Hoofddorp;Hoofddorp;8400332;;52.292867;4.69887;NL;Europe/Amsterdam;Q995911;INTERCITY|SPRINTER;;code;4519026692;Q800931;;;hfd;Hoofddorp
 TN8400334;gare;Hoogkarspel;Hoogkarspel;Hoogkarspel;8400334;;52.690467;5.18251;NL;Europe/Amsterdam;Q2149594;INTERCITY|SPRINTER;;code;2803572197;Q2566825;;XNHGK;hks;Hoogkarspel
 TN8400335;gare;Houten Castellum;Houten Castellum;Houten Castellum;8400335;;52.016861;5.179473;NL;Europe/Amsterdam;Q33446293;SPRINTER;;code;1268704948;Q1914597;;;htnc;Houten Castellum
 TN8400336;gare;Hoorn Kersenboogerd;Hoorn Kersenboogerd;Hoorn Kersenboogerd;8400336;;52.653335;5.084912;NL;Europe/Amsterdam;Q33445973;INTERCITY|SPRINTER;;code;47098594;Q2375196;;XNHOK;hnk;Hoorn Kersenboogerd
 TN8400337;gare;Hoorn;Hoorn;Hoorn;8400337;;52.645089;5.054646;NL;Europe/Amsterdam;Q33445973;INTERCITY|SPRINTER;;code;47077880;Q800935;;XNHOR;hn;Hoorn
 TN8400338;gare;Eygelshoven;Eygelshoven;Eygelshoven;8400338;;50.890112;6.045602;NL;Europe/Amsterdam;Q28914824;STOPTREIN;;code;5687009081;Q2533036;;;egh;Eygelshoven
-TN8400339;gare;Horst-Sevenum;Horst-Sevenum;Horst-Sevenum;8400339;;51.427093;6.041325;NL;Europe/Amsterdam;Q1976164;INTERCITY|SPRINTER;;code;4555433907;Q2803291;;;hrt;Horst-Sevenum
+TN8400339;gare;Horst-Sevenum;Horst-Sevenum;Horst-Sevenum;8400339;;51.427093;6.041325;NL;Europe/Amsterdam;Q1976164;INTERCITY;;code;4555433907;Q2803291;;;hrt;Horst-Sevenum
 TN8400340;gare;Houten;Houten;Houten;8400340;;52.034008;5.168134;NL;Europe/Amsterdam;Q33446293;SPRINTER;;code;2983733524;Q800938;;;htn;Houten
 TN8400341;gare;Houthem-Sint Gerlach;Houthem-Sint Gerlach;Houthem-Sint Gerlach;8400341;;50.873387;5.796626;NL;Europe/Amsterdam;Q100076;STOPTREIN;;uic;7537897483;Q511637;;;sgl;Houthem-St. Gerlach
 TN8400353;gare;Kampen;Kampen;Kampen;8400353;;52.559788;5.92163;NL;Europe/Amsterdam;Q10014;SPRINTER;;code;7606648989;Q428512;;;kpn;Kampen
@@ -342,14 +362,14 @@ TN8400430;gare;Martenshoek;Martenshoek;Martenshoek;8400430;;53.16081;6.740509;NL
 TN8400432;gare;Maarheeze;Maarheeze;Maarheeze;8400432;;51.304231;5.630383;NL;Europe/Amsterdam;Q1025087;SPRINTER;;code;7515219803;Q2599924;;;mz;Maarheeze
 TN8400433;gare;Hengelo Gezondheidspark;Hengelo Gezondheidspark;Hengelo Gezondheidspark;8400433;;52.261692;6.767949;NL;Europe/Amsterdam;Q10006;STOPTREIN;;code;7606758007;Q4705208;;;hglg;Hengelo Gezondheidspark
 TN8400434;gare;Meerssen;Meerssen;Meerssen;8400434;;50.882607;5.750129;NL;Europe/Amsterdam;Q2452442;SNELTREIN|STOPTREIN;;uic;11208806839;Q3539623;;;mes;Meerssen
-TN8400435;gare;Meppel;Meppel;Meppel;8400435;;52.691905;6.197938;NL;Europe/Amsterdam;Q33461897;INTERCITY|SNELTREIN|SPRINTER;;code;7606793099;Q47343;;;mp;Meppel
+TN8400435;gare;Meppel;Meppel;Meppel;8400435;;52.691905;6.197938;NL;Europe/Amsterdam;Q33461897;INTERCITY|SPRINTER;;code;7606793099;Q47343;;;mp;Meppel
 TN8400436;gare;Middelburg;Middelburg;Middelburg;8400436;;51.495246;3.618124;NL;Europe/Amsterdam;Q52101;INTERCITY;;code;7515245055;Q801182;;;mdb;Middelburg
 TN8400438;gare;Hardinxveld Blauwe Zoom;Hardinxveld Blauwe Zoom;Hardinxveld Blauwe Zoom;8400438;;51.82958;4.815754;NL;Europe/Amsterdam;Q953012;STOPTREIN;;code;7606436206;Q2173319;;;hbzm;Hardinxveld Blauwe Zoom
 TN8400446;gare;Mook-Molenhoek;Mook-Molenhoek;Mook-Molenhoek;8400446;;51.766542;5.878975;NL;Europe/Amsterdam;Q2462610;STOPTREIN;;code;7537808627;Q2702631;;;mmlh;Mook-Molenhoek
 TN8400449;gare;Maastricht Noord;Maastricht Noord;Maastricht Noord;8400449;;50.870519;5.71755;NL;Europe/Amsterdam;Q1309;STOPTREIN;;uic;7537897481;Q2024081;;;mtn;Maastricht Noord
-TN8400450;gare;Almere Poort;Almere Poort;Almere Poort;8400450;;52.342947;5.152252;NL;Europe/Amsterdam;Q83178;INTERCITY|SPRINTER;;code;2132785146;Q1962194;;;ampo;Almere Poort
+TN8400450;gare;Almere Poort;Almere Poort;Almere Poort;8400450;;52.342947;5.152252;NL;Europe/Amsterdam;Q83178;SPRINTER;;code;2132785146;Q1962194;;;ampo;Almere Poort
 TN8400451;gare;Nijmegen Lent;Nijmegen Lent;Nijmegen Lent;8400451;;51.862468;5.859687;NL;Europe/Amsterdam;Q47887;INTERCITY|SPRINTER;;code;4154223957;Q2351088;;;nml;Nijmegen Lent
-TN8400452;gare;Naarden-Bussum;Naarden-Bussum;Naarden-Bussum;8400452;;52.280646;5.157156;NL;Europe/Amsterdam;Q9909;INTERCITY|SPRINTER;;code;7045108268;Q575616;;;ndb;Naarden-Bussum
+TN8400452;gare;Naarden-Bussum;Naarden-Bussum;Naarden-Bussum;8400452;;52.280646;5.157156;NL;Europe/Amsterdam;Q9909;SPRINTER;;code;7045108268;Q575616;;;ndb;Naarden-Bussum
 TN8400454;gare;Nieuw Amsterdam;Nieuw Amsterdam;Nieuw Amsterdam;8400454;;52.718366;6.848801;NL;Europe/Amsterdam;Q2409225;SNELTREIN|STOPTREIN;;code;4331043170;Q2386384;;;na;Nieuw Amsterdam
 TN8400455;gare;Nieuwerkerk a/d IJssel;Nieuwerkerk aan den IJssel;Nieuwerkerk aan den IJssel;8400455;;51.965304;4.616879;NL;Europe/Amsterdam;Q588544;SPRINTER;;code;7606556446;Q1966697;;;nwk;Nieuwerkerk a/d IJssel
 TN8400457;gare;Bad Nieuweschans;Bad Nieuweschans;Bad Nieuweschans;8400457;;53.18477;7.200525;NL;Europe/Amsterdam;Q1890680;SNELTREIN|STOPTREIN;;code;7414363761;Q47303;;;nsch;Bad Nieuweschans
@@ -362,10 +382,10 @@ TN8400470;gare;Nijmegen;Nijmegen;Nijmegen;8400470;;51.843136;5.853091;NL;Europe/
 TN8400472;gare;Nijverdal;Nijverdal;Nijverdal;8400472;;52.366378;6.462421;NL;Europe/Amsterdam;Q1850290;INTERCITY|SPRINTER;;code;7606761913;Q2152454;;;nvd;Nijverdal
 TN8400475;gare;Nijmegen Dukenburg;Nijmegen Dukenburg;Nijmegen Dukenburg;8400475;;51.823942;5.794239;NL;Europe/Amsterdam;Q13188714;SPRINTER;;code;4154223956;Q7034574;;;nmd;Nijmegen Dukenburg
 TN8400477;gare;Nijmegen Goffert;Nijmegen Goffert;Nijmegen Goffert;8400477;;51.827297;5.822475;NL;Europe/Amsterdam;Q13188714;SPRINTER;;code;3234513661;Q2282156;;;nmgo;Nijmegen Goffert
-TN8400480;gare;Obdam;Obdam;Obdam;8400480;;52.678045;4.909218;NL;Europe/Amsterdam;Q649748;INTERCITY|SPRINTER;;code;3578080067;Q4844380;;;obd;Obdam
+TN8400480;gare;Obdam;Obdam;Obdam;8400480;;52.678045;4.909218;NL;Europe/Amsterdam;Q649748;SPRINTER;;code;3578080067;Q4844380;;;obd;Obdam
 TN8400482;gare;Oisterwijk;Oisterwijk;Oisterwijk;8400482;;51.582144;5.193898;NL;Europe/Amsterdam;Q3299324;SPRINTER;;code;7515240586;Q2491009;;;ot;Oisterwijk
 TN8400483;gare;Oldenzaal;Oldenzaal;Oldenzaal;8400483;;52.306244;6.934035;NL;Europe/Amsterdam;Q13188727;STOPTREIN;;uic;46108981;Q599851;;;odz;Oldenzaal
-TN8400486;gare;Olst;Olst;Olst;8400486;;52.335438;6.11342;NL;Europe/Amsterdam;Q3032495;INTERCITY|SPRINTER;;code;4154223958;Q2521252;;;ost;Olst
+TN8400486;gare;Olst;Olst;Olst;8400486;;52.335438;6.11342;NL;Europe/Amsterdam;Q3032495;INTERCITY;;code;4154223958;Q2521252;;;ost;Olst
 TN8400487;gare;Ommen;Ommen;Ommen;8400487;;52.509701;6.417221;NL;Europe/Amsterdam;Q11731607;SNELTREIN|STOPTREIN;;code;7606786656;Q2066308;;;omn;Ommen
 TN8400489;gare;Oosterbeek;Oosterbeek;Oosterbeek;8400489;;51.994783;5.840487;NL;Europe/Amsterdam;Q2218481;SPRINTER;;code;7606516674;Q1831078;;;otb;Oosterbeek
 TN8400490;gare;Hoevelaken;Hoevelaken;Hoevelaken;8400490;;52.166432;5.457956;NL;Europe/Amsterdam;Q992;SPRINTER;;code;7279230075;Q2302483;;;hvl;Hoevelaken
@@ -380,7 +400,7 @@ TN8400505;gare;Rijswijk;Rijswijk;Rijswijk;8400505;;52.03755;4.322039;NL;Europe/A
 TN8400506;gare;Purmerend Overwhere;Purmerend Overwhere;Purmerend Overwhere;8400506;;52.511222;4.967088;NL;Europe/Amsterdam;Q9954;INTERCITY|SPRINTER;;code;7606663918;Q2477996;;;pmo;Purmerend Overwhere
 TN8400507;gare;Rotterdam Alexander;Rotterdam Alexander;Rotterdam Alexander;8400507;;51.951716;4.552483;NL;Europe/Amsterdam;Q34370;INTERCITY|SPRINTER;;code;4048801964;Q801382;;;rta;Rotterdam Alexander
 TN8400508;gare;Purmerend;Purmerend;Purmerend;8400508;;52.503952;4.954412;NL;Europe/Amsterdam;Q9954;INTERCITY|SPRINTER;;code;7606663919;Q2566695;;;pmr;Purmerend
-TN8400509;gare;Putten;Putten;Putten;8400509;;52.265498;5.575877;NL;Europe/Amsterdam;Q15881071;INTERCITY|SPRINTER;;code;7606617877;Q1990436;;;pt;Putten
+TN8400509;gare;Putten;Putten;Putten;8400509;;52.265498;5.575877;NL;Europe/Amsterdam;Q15881071;SPRINTER;;code;7606617877;Q1990436;;;pt;Putten
 TN8400513;gare;Raalte;Raalte;Raalte;8400513;;52.391778;6.277624;NL;Europe/Amsterdam;Q18012068;INTERCITY|SPRINTER;;code;7606761915;Q2268215;;;rat;Raalte
 TN8400515;gare;Ravenstein;Ravenstein;Ravenstein;8400515;;51.794791;5.637704;NL;Europe/Amsterdam;Q589056;SPRINTER;;code;43861273;Q2788131;;;rvs;Ravenstein
 TN8400517;gare;Rhenen;Rhenen;Rhenen;8400517;;51.957907;5.578308;NL;Europe/Amsterdam;Q33475264;SPRINTER;;code;7606735798;Q2128695;;;rhn;Rhenen
@@ -389,9 +409,9 @@ TN8400519;gare;Rheden;Rheden;Rheden;8400519;;52.009998;6.030736;NL;Europe/Amster
 TN8400520;gare;Almelo de Riet;Almelo de Riet;Almelo de Riet;8400520;;52.342099;6.666647;NL;Europe/Amsterdam;Q33421017;SPRINTER;;code;7606761912;Q3363550;;;amri;Almelo de Riet
 TN8400521;gare;Rilland-Bath;Rilland-Bath;Rilland-Bath;8400521;;51.42262;4.160792;NL;Europe/Amsterdam;Q1815745;INTERCITY;;code;7515262036;Q3097420;;;rb;Rilland-Bath
 TN8400523;gare;Roermond;Roermond;Roermond;8400523;;51.192566;5.993851;NL;Europe/Amsterdam;Q9783;INTERCITY|NACHTTREIN|STOPTREIN;;code;4085675602;Q636749;;XNRM;rm;Roermond
-TN8400524;gare;Rosmalen;Rosmalen;Rosmalen;8400524;;51.715152;5.369582;NL;Europe/Amsterdam;Q2001490;SPRINTER;;code;1027174221;Q608962;;;rs;Rosmalen
+TN8400524;gare;Rosmalen;Rosmalen;Rosmalen;8400524;;51.715152;5.369582;NL;Europe/Amsterdam;Q2001490;INTERCITY|SPRINTER;;code;1027174221;Q608962;;;rs;Rosmalen
 TN8400525;gare;Roodeschool;Roodeschool;Roodeschool;8400525;;53.421016;6.758377;NL;Europe/Amsterdam;Q2974509;STOPTREIN;;code;7414205076;Q47219;;;rd;Roodeschool
-TN8400526;gare;Roosendaal;Roosendaal;Roosendaal;8400526;;51.540329;4.45847;NL;Europe/Amsterdam;Q6903267;INTERCITY|SPRINTER|STOPTREIN;;uic;42966392;Q801378;;;rsd;Roosendaal
+TN8400526;gare;Roosendaal;Roosendaal;Roosendaal;8400526;;51.540329;4.45847;NL;Europe/Amsterdam;Q6903267;EUROCITY|INTERCITY|SPRINTER|STOPTREIN;;uic;42966392;Q801378;;;rsd;Roosendaal
 TN8400529;gare;Rotterdam Blaak;Rotterdam Blaak;Rotterdam Blaak;8400529;;51.920072;4.489074;NL;Europe/Amsterdam;Q34370;INTERCITY|SPRINTER;;code;4048801966;Q7370661;;;rtb;Rotterdam Blaak
 TN8400530;gare;Rotterdam Centraal;Rotterdam Centraal;Rotterdam Centraal;8400530;;51.925057;4.469229;NL;Europe/Amsterdam;Q34370;EUROCITY|EUROCITY DIRECT|INTERCITY|INTERCITY DIRECT|SPRINTER;;uic;4048801967;Q801388;;;rtd;Rotterdam Centraal
 TN8400531;gare;Rotterdam Noord;Rotterdam Noord;Rotterdam Noord;8400531;;51.942262;4.481581;NL;Europe/Amsterdam;Q34370;SPRINTER;;code;7606556448;Q7370665;;;rtn;Rotterdam Noord
@@ -400,7 +420,7 @@ TN8400534;gare;Rotterdam Stadion;Rotterdam Stadion;Rotterdam Stadion;8400534;;51
 TN8400537;gare;Ruurlo;Ruurlo;Ruurlo;8400537;;52.080757;6.449921;NL;Europe/Amsterdam;Q1025683;SNELTREIN|STOPTREIN;;code;7606470021;Q2770993;;;rl;Ruurlo
 TN8400538;gare;Rijssen;Rijssen;Rijssen;8400538;;52.311749;6.519217;NL;Europe/Amsterdam;Q494359;SPRINTER;;code;7046834617;Q3019791;;;rsn;Rijssen
 TN8400542;gare;Rotterdam Lombardijen;Rotterdam Lombardijen;Rotterdam Lombardijen;8400542;;51.88036;4.531053;NL;Europe/Amsterdam;Q34370;SPRINTER;;code;7606556450;Q7370662;;;rlb;Rotterdam Lombardijen
-TN8400543;gare;Santpoort Noord;Santpoort Noord;Santpoort Noord;8400543;;52.433844;4.632818;NL;Europe/Amsterdam;Q20011950;INTERCITY|SPRINTER;;code;7606581798;Q2064790;;;sptn;Santpoort Noord
+TN8400543;gare;Santpoort Noord;Santpoort Noord;Santpoort Noord;8400543;;52.433844;4.632818;NL;Europe/Amsterdam;Q20011950;SPRINTER;;code;7606581798;Q2064790;;;sptn;Santpoort Noord
 TN8400544;gare;Santpoort Zuid;Santpoort Zuid;Santpoort Zuid;8400544;;52.419349;4.631418;NL;Europe/Amsterdam;Q2224572;SPRINTER;;code;7606581799;Q2644166;;;sptz;Santpoort Zuid
 TN8400547;gare;Sauwerd;Sauwerd;Sauwerd;8400547;;53.291565;6.540409;NL;Europe/Amsterdam;Q2361678;STOPTREIN;;code;7413715348;Q2409365;;;swd;Sauwerd
 TN8400548;gare;Landgraaf;Landgraaf;Landgraaf;8400548;;50.896491;6.019686;NL;Europe/Amsterdam;Q9795;SNELTREIN|STOPTREIN;;uic;5316997912;Q2522892;;;lg;Landgraaf
@@ -430,7 +450,7 @@ TN8400594;gare;Tilburg Universiteit;Tilburg Universiteit;Tilburg Universiteit;84
 TN8400596;gare;Tiel;Tiel;Tiel;8400596;;51.889675;5.423213;NL;Europe/Amsterdam;Q33506500;SPRINTER|STOPTREIN;;code;560140743;Q3097879;;;tl;Tiel
 TN8400597;gare;Tilburg;Tilburg;Tilburg;8400597;;51.560646;5.083796;NL;Europe/Amsterdam;Q9871;INTERCITY|INTERCITY DIRECT|SPRINTER;;code;4041466061;Q801519;;;tb;Tilburg
 TN8400598;gare;Tilburg Reeshof;Tilburg Reeshof;Tilburg Reeshof;8400598;;51.573665;4.993493;NL;Europe/Amsterdam;Q9871;SPRINTER;;code;2336169715;Q2693229;;;tbr;Tilburg Reeshof
-TN8400599;gare;Twello;Twello;Twello;8400599;;52.238323;6.100701;NL;Europe/Amsterdam;Q2840627;INTERCITY|SPRINTER;;code;7606517378;Q3922575;;;twl;Twello
+TN8400599;gare;Twello;Twello;Twello;8400599;;52.238323;6.100701;NL;Europe/Amsterdam;Q2840627;SPRINTER;;code;7606517378;Q3922575;;;twl;Twello
 TN8400600;gare;Tiel Passewaaij;Tiel Passewaaij;Tiel Passewaaij;8400600;;51.873672;5.391889;NL;Europe/Amsterdam;Q73221;SPRINTER;;code;230040193;Q2746253;;;tpsw;Tiel Passewaaij
 TN8400603;gare;Sassenheim;Sassenheim;Sassenheim;8400603;;52.214957;4.516235;NL;Europe/Amsterdam;Q1615421;SPRINTER;;code;1563570846;Q2186815;;;ssh;Sassenheim
 TN8400606;gare;Utrecht Vaartsche Rijn;Utrecht Vaartsche Rijn;Utrecht Vaartsche Rijn;8400606;;52.078757;5.121878;NL;Europe/Amsterdam;Q39297398;SPRINTER;;code;1233812055;Q3397831;;;utvr;Utrecht Vaartsche Rijn
@@ -441,8 +461,8 @@ TN8400615;gare;Uitgeest;Uitgeest;Uitgeest;8400615;;52.521431;4.70259;NL;Europe/A
 TN8400617;gare;Uithuizen;Uithuizen;Uithuizen;8400617;;53.409629;6.674683;NL;Europe/Amsterdam;Q2223679;STOPTREIN;;code;7414249859;Q1922139;;;uhz;Uithuizen
 TN8400618;gare;Uithuizermeeden;Uithuizermeeden;Uithuizermeeden;8400618;;53.413946;6.720253;NL;Europe/Amsterdam;Q3101185;STOPTREIN;;code;7414263308;Q2149192;;;uhm;Uithuizermeeden
 TN8400619;gare;Usquert;Usquert;Usquert;8400619;;53.400964;6.609518;NL;Europe/Amsterdam;Q1889562;STOPTREIN;;code;7414170256;Q685978;;;ust;Usquert
-TN8400620;gare;Utrecht Overvecht;Utrecht Overvecht;Utrecht Overvecht;8400620;;52.110121;5.125762;NL;Europe/Amsterdam;Q39297398;INTERCITY|SPRINTER;;code;7606645163;Q2542171;;;uto;Utrecht Overvecht
-TN8400621;gare;Utrecht Centraal;Utrecht Centraal;Utrecht Centraal;8400621;;52.089392;5.109821;NL;Europe/Amsterdam;Q39297398;GOVOLTA|ICE|INTERCITY|NACHTTREIN|NIGHTJET|SPRINTER;;uic;45198301;Q575655;;;ut;Utrecht Centraal
+TN8400620;gare;Utrecht Overvecht;Utrecht Overvecht;Utrecht Overvecht;8400620;;52.110121;5.125762;NL;Europe/Amsterdam;Q39297398;SPRINTER;;code;7606645163;Q2542171;;;uto;Utrecht Overvecht
+TN8400621;gare;Utrecht Centraal;Utrecht Centraal;Utrecht Centraal;8400621;;52.089392;5.109821;NL;Europe/Amsterdam;Q39297398;EUROCITY DIRECT|ICE|INTERCITY|NACHTTREIN|NIGHTJET|SPRINTER;;uic;45198301;Q575655;;;ut;Utrecht Centraal
 TN8400623;gare;Utrecht Lunetten;Utrecht Lunetten;Utrecht Lunetten;8400623;;52.066408;5.143262;NL;Europe/Amsterdam;Q39297398;SPRINTER;;code;45095869;Q2987782;;;utln;Utrecht Lunetten
 TN8400624;gare;Utrecht Maliebaan;Utrecht Maliebaan;Utrecht Maliebaan;8400624;;52.087942;5.131166;NL;Europe/Amsterdam;Q39297398;SPRINTER;;code;1673444987;Q2632448;;;utm;Utrecht Maliebaan
 TN8400627;gare;Veenendaal Centrum;Veenendaal Centrum;Veenendaal Centrum;8400627;;52.020004;5.549098;NL;Europe/Amsterdam;Q1840;SPRINTER;;code;4309432493;Q259354;;;vndc;Veenendaal Centrum
@@ -453,16 +473,16 @@ TN8400636;gare;Veendam;Veendam;Veendam;8400636;;53.104996;6.886269;NL;Europe/Ams
 TN8400637;gare;Veenendaal-De Klomp;Veenendaal-De Klomp;Veenendaal-De Klomp;8400637;;52.045953;5.573927;NL;Europe/Amsterdam;Q1809734;INTERCITY;;code;4213072668;Q1944118;;;klp;Veenendaal-De Klomp
 TN8400638;gare;Feanwâlden;Feanwâlden;Feanwâlden;8400638;;53.235054;5.989732;NL;Europe/Amsterdam;Q3030099;SNELTREIN|STOPTREIN;;code;7606825350;Q426233;;;fwd;Feanwâlden
 TN8400640;gare;Velp;Velp;Velp;8400640;;51.99501;5.980986;NL;Europe/Amsterdam;Q2375289;SPRINTER;;code;7606517384;Q2451811;;;vp;Velp
-TN8400644;gare;Venlo;Venlo;Venlo;8400644;;51.36505;6.171433;NL;Europe/Amsterdam;Q3322237;ICE|INTERCITY|SNELTREIN|SPRINTER|STOPTREIN;;uic;4555433902;Q632470;;XNVL;vl;Venlo
+TN8400644;gare;Venlo;Venlo;Venlo;8400644;;51.36505;6.171433;NL;Europe/Amsterdam;Q3322237;ICE|INTERCITY|SNELTREIN|STOPTREIN;;uic;4555433902;Q632470;;XNVL;vl;Venlo
 TN8400646;gare;Venray;Venray;Venray;8400646;;51.526454;6.014255;NL;Europe/Amsterdam;Q2529760;STOPTREIN;;code;3598701583;Q2515711;;;vry;Venray
 TN8400647;gare;Vierlingsbeek;Vierlingsbeek;Vierlingsbeek;8400647;;51.592022;5.997096;NL;Europe/Amsterdam;Q608813;STOPTREIN;;code;43160670;Q2799890;;;vlb;Vierlingsbeek
 TN8400651;gare;Vleuten;Vleuten;Vleuten;8400651;;52.102973;5.007619;NL;Europe/Amsterdam;Q803;SPRINTER;;code;232079045;Q2222369;;;vtn;Vleuten
 TN8400652;gare;Vlissingen;Vlissingen;Vlissingen;8400652;;51.444053;3.595722;NL;Europe/Amsterdam;Q33512335;INTERCITY;;code;42641724;Q508613;;;vs;Vlissingen
 TN8400653;gare;Vlissingen Souburg;Vlissingen Souburg;Vlissingen Souburg;8400653;;51.464714;3.595086;NL;Europe/Amsterdam;Q10084;INTERCITY;;code;7515245054;Q801569;;;vss;Vlissingen Souburg
-TN8400655;gare;Voorhout;Voorhout;Voorhout;8400655;;52.225357;4.484053;NL;Europe/Amsterdam;Q923574;INTERCITY|SPRINTER;;code;7606551877;Q4989687;;;vh;Voorhout
+TN8400655;gare;Voorhout;Voorhout;Voorhout;8400655;;52.225357;4.484053;NL;Europe/Amsterdam;Q923574;SPRINTER;;code;7606551877;Q4989687;;;vh;Voorhout
 TN8400656;gare;Voerendaal;Voerendaal;Voerendaal;8400656;;50.886841;5.929417;NL;Europe/Amsterdam;Q14515958;STOPTREIN;;code;7537897484;Q2090962;;;vdl;Voerendaal
 TN8400658;gare;Voorburg;Voorburg;Voorburg;8400658;;52.066588;4.359564;NL;Europe/Amsterdam;Q809821;SPRINTER;;code;3507247429;Q7941701;;;vb;Voorburg
-TN8400659;gare;Voorschoten;Voorschoten;Voorschoten;8400659;;52.126233;4.43368;NL;Europe/Amsterdam;Q848324;INTERCITY|SPRINTER;;code;7606551860;Q2734929;;;vst;Voorschoten
+TN8400659;gare;Voorschoten;Voorschoten;Voorschoten;8400659;;52.126233;4.43368;NL;Europe/Amsterdam;Q848324;SPRINTER;;code;7606551860;Q2734929;;;vst;Voorschoten
 TN8400661;gare;Vorden;Vorden;Vorden;8400661;;52.107311;6.317153;NL;Europe/Amsterdam;Q1615554;SNELTREIN|STOPTREIN;;code;4205279190;Q2805117;;;vd;Vorden
 TN8400664;gare;Vriezenveen;Vriezenveen;Vriezenveen;8400664;;52.402092;6.600454;NL;Europe/Amsterdam;Q3120872;STOPTREIN;;code;7606786657;Q2256575;;;vz;Vriezenveen
 TN8400666;gare;Vroomshoop;Vroomshoop;Vroomshoop;8400666;;52.457312;6.569627;NL;Europe/Amsterdam;Q2544104;STOPTREIN;;code;7046802197;Q2124986;;;vhp;Vroomshoop
@@ -482,13 +502,13 @@ TN8400696;gare;Winschoten;Winschoten;Winschoten;8400696;;53.139151;7.03561;NL;Eu
 TN8400697;gare;Winsum;Winsum;Winsum;8400697;;53.330093;6.520306;NL;Europe/Amsterdam;Q9385034;STOPTREIN;;code;7414169084;Q17961;;;wsm;Winsum
 TN8400698;gare;Winterswijk;Winterswijk;Winterswijk;8400698;;51.968013;6.714777;NL;Europe/Amsterdam;Q15910469;SNELTREIN|STOPTREIN;;code;7606470023;Q173829;;;ww;Winterswijk
 TN8400700;gare;Winterswijk West;Winterswijk West;Winterswijk West;8400700;;51.974594;6.704028;NL;Europe/Amsterdam;Q15910469;SNELTREIN|STOPTREIN;;code;7606470022;Q2107527;;;www;Winterswijk West
-TN8400702;gare;Woerden;Woerden;Woerden;8400702;;52.085088;4.892487;NL;Europe/Amsterdam;Q33518339;INTERCITY|SPRINTER;;code;4203968191;Q801625;;;wd;Woerden
+TN8400702;gare;Woerden;Woerden;Woerden;8400702;;52.085088;4.892487;NL;Europe/Amsterdam;Q33518339;ICE|SPRINTER;;code;4203968191;Q801625;;;wd;Woerden
 TN8400704;gare;Wolfheze;Wolfheze;Wolfheze;8400704;;52.005672;5.792394;NL;Europe/Amsterdam;Q3027084;SPRINTER;;code;44822867;Q32848;;;wf;Wolfheze
 TN8400705;gare;Wolvega;Wolvega;Wolvega;8400705;;52.880242;6.004767;NL;Europe/Amsterdam;Q644366;INTERCITY|SPRINTER;;code;7606802765;Q8030461;;;wv;Wolvega
 TN8400706;gare;Workum;Workum;Workum;8400706;;52.972055;5.456513;NL;Europe/Amsterdam;Q73405;STOPTREIN;;code;7606839824;Q4902663;;;wk;Workum
 TN8400707;gare;Wormerveer;Wormerveer;Wormerveer;8400707;;52.489277;4.793628;NL;Europe/Amsterdam;Q1164598;INTERCITY|SPRINTER;;code;4185358283;Q2656844;;;wm;Wormerveer
-TN8400710;gare;Wijchen;Wijchen;Wijchen;8400710;;51.811219;5.729755;NL;Europe/Amsterdam;Q15981302;SPRINTER;;code;564177425;Q1931309;;;wc;Wijchen
-TN8400711;gare;Wijhe;Wijhe;Wijhe;8400711;;52.390996;6.141045;NL;Europe/Amsterdam;Q3164650;INTERCITY|SPRINTER;;code;46475255;Q2520883;;;wh;Wijhe
+TN8400710;gare;Wijchen;Wijchen;Wijchen;8400710;;51.811219;5.729755;NL;Europe/Amsterdam;Q15981302;INTERCITY|SPRINTER;;code;564177425;Q1931309;;;wc;Wijchen
+TN8400711;gare;Wijhe;Wijhe;Wijhe;8400711;;52.390996;6.141045;NL;Europe/Amsterdam;Q3164650;INTERCITY;;code;46475255;Q2520883;;;wh;Wijhe
 TN8400722;gare;IJlst;IJlst;IJlst;8400722;;53.014742;5.616132;NL;Europe/Amsterdam;Q73348;STOPTREIN;;code;7606839825;Q2431423;;;ijt;IJlst
 TN8400728;gare;Zaandam Kogerveld;Zaandam Kogerveld;Zaandam Kogerveld;8400728;;52.456755;4.819193;NL;Europe/Amsterdam;Q211260;INTERCITY|SPRINTER;;code;7606663921;Q2113315;;;zdk;Zaandam Kogerveld
 TN8400731;gare;Zaandam;Zaandam;Zaandam;8400731;;52.438249;4.813742;NL;Europe/Amsterdam;Q211260;INTERCITY|SPRINTER;;code;4085675604;Q801653;;;zd;Zaandam
@@ -505,10 +525,9 @@ TN8400744;gare;Zutphen;Zutphen;Zutphen;8400744;;52.144629;6.194265;NL;Europe/Ams
 TN8400745;gare;De Westereen;De Westereen;De Westereen;8400745;;53.248286;6.035484;NL;Europe/Amsterdam;Q1907265;STOPTREIN;;code;7606825351;Q2652530;;;dwe;De Westereen
 TN8400746;gare;Zwolle Stadshagen;Zwolle Stadshagen;Zwolle Stadshagen;8400746;;52.527864;6.051289;NL;Europe/Amsterdam;Q793;SPRINTER;;code;5977673549;Q16547929;;;zlsh;Zwolle Stadshagen
 TN8400747;gare;Zwolle;Zwolle;Zwolle;8400747;;52.505009;6.091237;NL;Europe/Amsterdam;Q793;INTERCITY|NACHTTREIN|SNELTREIN|SPRINTER|STOPTREIN;;code;4487554970;Q47350;;;zl;Zwolle
-TN8400752;gare;Zwijndrecht;Zwijndrecht;Zwijndrecht;8400752;;51.815274;4.641182;NL;Europe/Amsterdam;Q33528808;SPRINTER;;uic;3827196189;Q5450665;;;zwd;Zwijndrecht
+TN8400752;gare;Zwijndrecht;Zwijndrecht;Zwijndrecht;8400752;;51.815274;4.641182;NL;Europe/Amsterdam;Q33528808;INTERCITY|SPRINTER;;uic;3827196189;Q5450665;;;zwd;Zwijndrecht
 TN8500010;gare;Basel SBB;Basel SBB;Basel SBB;8500010;;47.547623;7.589642;CH;Europe/Zurich;Q78;NIGHTJET;;uic;3080746011;Q667201;;XSB;basels;Basel SBB
 TN8503000;gare;Zürich HB;Zürich Hauptbahnhof;Zürich Hauptbahnhof;8503000;;47.378101;8.539364;CH;Europe/Zurich;Q72;NIGHTJET;;uic;1236383343;Q224494;;;zue;Zürich HB
-TN8503504;gare;Baden;Baden;Baden;8503504;;47.476408;8.307776;CH;Europe/Zurich;Q63939;NIGHTJET;;uic;3080695733;Q800441;;;badenz;Baden (CH)
 TN8812005;gare;Bruxelles-Nord - Brussel-Noord;Brussels-North;Bruxelles-Nord - Brussel-Noord;8812005;;50.860145;4.36149;BE;Europe/Brussels;Q239;EUROCITY;;uic;66180313;Q660792;;;brusn;Brussel-Noord
 TN8813003;gare;Bruxelles-Central - Brussel-Centraal;Brussels-Central;Bruxelles-Central - Brussel-Centraal;8813003;;50.845464;4.356987;BE;Europe/Brussels;Q239;EUROCITY;;uic;3266203405;Q800588;;;brusc;Brussel-Centraal
 TN8814001;gare;Bruxelles-Midi - Brussel-Zuid;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;;50.835775;4.336054;BE;Europe/Brussels;Q239;EUROCITY|EUROCITY DIRECT;;uic;17401552;Q800587;;XBB;brusz;Brussel-Zuid
@@ -537,6 +556,6 @@ TN8824232;gare;Schelle;Schelle;Schelle;8824232;;51.125525;4.340249;BE;Europe/Bru
 TN8824240;gare;Niel;Niel;Niel;8824240;;51.111059;4.339895;BE;Europe/Brussels;Q912054;STOPTREIN;;uic;7394315746;Q5058460;;;lni;Niel
 TN8841004;gare;Liège-Guillemins;Liège-Guillemins;Liège-Guillemins;8841004;;50.624728;5.567065;BE;Europe/Brussels;Q3992;SNELTREIN;;uic;5307127700;Q801116;;;luik;Liège-Guillemins
 TN8843901;gare;Bressoux;Bressoux;Bressoux;8843901;;50.644451;5.61314;BE;Europe/Brussels;Q3992;SNELTREIN;;uic;5368442765;Q2229337;;;bressx;Bressoux
-TN8846201;gare;Visé;Visé;Visé;8846201;;50.739208;5.692254;BE;Europe/Brussels;Q49743;SNELTREIN;;uic;2365928002;Q2354611;;;fvs;Visé
-TNNS-bunde;gare;Bunde(Ostfriesl);Bunde(Ostfriesl);Bunde(Ostfriesl);;;53.18883;7.22807;DE;Europe/Berlin;Q504541;SNELTREIN;;gtfs;;;;;bunde;Bunde(Ostfriesl)
+TN8846201;gare;Visé;Visé;Visé;8846201;;50.739208;5.692254;BE;Europe/Brussels;Q49743;SNELTREIN;;uic;2365928002;Q2354611;;;fvs;Vise
+TNNS-bunde;gare;Bunde(Ostfriesl);Bunde(Ostfriesl);Bunde(Ostfriesl);;;53.18883;7.22807;DE;Europe/Berlin;Q504541;SNELTREIN;;gtfs;;;;;bunde;Bunde (D)
 TNOSM14085693828;gare;Ihrhove;Ihrhove;Ihrhove;;;53.170689;7.451038;DE;Europe/Berlin;Q559595;SNELTREIN;;nom;14085693828;;;HIHP;ihr;Ihrhove

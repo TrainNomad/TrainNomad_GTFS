@@ -153,7 +153,7 @@
   },
   {
     "id": "CD",
-    "name": "Tchéquie (ČD, RegioJet, Leo Express, Arriva...)",
+    "name": "České dráhy (ČD)",
     "enabled": false,
     "gtfs_path": "./CZECH/cz_gtfs.zip",
     "script_path": "./CZECH/ingest_cz_gtfs.py",
@@ -174,7 +174,7 @@
   },
   {
     "id": "PKP",
-    "name": "Pologne (PKP Intercity, PolRegio, Koleje...)",
+    "name": "PKP Intercity",
     "enabled": false,
     "gtfs_path": "./POLAND/pl_gtfs.zip",
     "script_path": "./POLAND/ingest_pl_gtfs.py",
@@ -194,7 +194,7 @@
   },
   {
     "id": "ZSSK",
-    "name": "Slovaquie (ZSSK, RegioJet, Leo Express)",
+    "name": "ZSSK",
     "enabled": false,
     "gtfs_path": "./SLOVAKIA/sk_gtfs.zip",
     "script_path": "./SLOVAKIA/ingest_sk_gtfs.py",
@@ -212,7 +212,7 @@
   },
   {
     "id": "MAV",
-    "name": "Hongrie (MÁV, GYSEV)",
+    "name": "MÁV",
     "enabled": false,
     "gtfs_path": "./HUNGARY/hu_gtfs.zip",
     "script_path": "./HUNGARY/ingest_hu_gtfs.py",
@@ -319,5 +319,56 @@
       "RegioExpress",
       "Malpensa Express"
     ]
+  },
+  {
+    "id": "IRISH_RAIL",
+    "name": "Iarnród Éireann / Irish Rail",
+    "enabled": false,
+    "gtfs_path": "./IRELAND/ie_gtfs.zip",
+    "script_path": "./IRELAND/ingest_ie_gtfs.py",
+    "gtfs_url": "https://www.transportforireland.ie/transitData/Data/GTFS_Irish_Rail.zip",
+    "transport_types": [
+      "Enterprise",
+      "InterCity",
+      "Commuter",
+      "DART"
+    ],
+    "note": "Flux officiel de la National Transport Authority (Transport for Ireland), environ six semaines d'horaires. Contient l'Enterprise Dublin - Belfast (Irish Rail + Translink) jusqu'à Belfast (Grand Central) ; les autres trains d'Irlande du Nord (NI Railways) ne sont publiés qu'en TransXChange. Copie de secours : Mobility Database mdb-2637. Pas de UIC dans le flux : gares rapprochées par referentiel/build_gares_irish_rail.py."
+  },
+  {
+    "id": "NI_RAILWAYS",
+    "name": "NI Railways (Translink)",
+    "enabled": false,
+    "gtfs_path": "./NORTHERN_IRELAND/nir_gtfs.zip",
+    "script_path": "./NORTHERN_IRELAND/ingest_nir_txc.py",
+    "gtfs_url": "https://admin.opendatani.gov.uk/dataset/nir20160126v2",
+    "transport_types": [
+      "NI Railways"
+    ],
+    "note": "Irlande du Nord (Bangor, Larne, Derry~Londonderry / Portrush, Portadown / Newry). Translink ne publie que du TransXChange (OpenDataNI, licence OGL) : converti en GTFS par le script, sans numéro de train (non publié). L'Enterprise du même fichier est écarté : il est dans IRISH_RAIL avec ses numéros. Horaire publié pour une période (jusqu'au prochain changement de service) : le flux expire si Translink tarde à publier le suivant. gtfs_url indicative : le script demande l'adresse du ZIP à l'API CKAN d'OpenDataNI."
+  },
+  {
+    "id": "BRITTANY_FERRIES",
+    "name": "Brittany Ferries",
+    "enabled": false,
+    "gtfs_path": "./FERRIES/brittany_ferries_gtfs.zip",
+    "script_path": "./FERRIES/ingest_ferries.py",
+    "gtfs_url": "https://transport.data.gouv.fr/resources/83427/download",
+    "transport_types": [
+      "Brittany Ferries"
+    ],
+    "note": "Ferries Royaume-Uni / Irlande <-> France / Espagne (Portsmouth, Poole, Plymouth, Rosslare, Cork <-> Caen, Cherbourg, Le Havre, Saint-Malo, Roscoff, Bilbao, Santander). GTFS publié sur transport.data.gouv.fr, environ un an d'horaires, heures dans le fuseau de l'agence (Europe/Paris) comme le veut la norme. Ports : referentiel/build_gares_brittany_ferries.py."
+  },
+  {
+    "id": "TRANSMANCHE",
+    "name": "Transmanche Ferries (DFDS)",
+    "enabled": false,
+    "gtfs_path": "./FERRIES/transmanche_gtfs.zip",
+    "script_path": "./FERRIES/ingest_ferries.py",
+    "gtfs_url": "https://transport.data.gouv.fr/resources/83981/download",
+    "transport_types": [
+      "DFDS"
+    ],
+    "note": "Dieppe <-> Newhaven, exploité par DFDS pour le syndicat mixte Transmanche. Le flux écrit les heures de Newhaven en heure anglaise (non conforme) : FERRIES/ingest_ferries.py le détecte et les ramène à l'heure de Paris. Ports : referentiel/build_gares_transmanche.py."
   }
 ]

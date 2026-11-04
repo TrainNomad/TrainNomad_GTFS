@@ -410,6 +410,17 @@ HU_CATEGORIES = {
 }
 HU_BRANDS = {"MÁV Személyszállítási Zrt.": "MÁV", "GYSEV Zrt.": "GYSEV"}
 
+# GTFS irlandais (IRELAND/ingest_ie_gtfs.py) : trip_short_name = code du train Irish Rail ("A101", "E215"),
+# catégorie dans route_desc. L'Enterprise Dublin - Belfast (Irish Rail + Translink) garde son nom seul.
+IE_TYPES = {"Enterprise": "Enterprise", "InterCity": "Irish Rail InterCity", "Commuter": "Irish Rail Commuter",
+            "DART": "Irish Rail DART"}
+
+# Ferries entre les îles Britanniques et le continent (FERRIES/ingest_ferries.py) : type affiché par compagnie.
+# Les passagers à pied doivent être enregistrés avant le départ (environ 45 minutes chez Brittany Ferries et
+# DFDS) : comme l'enregistrement Eurostar, le moteur ne propose pas d'arriver au port après.
+FERRY_TYPES = {"BRITTANY_FERRIES": "Brittany Ferries", "TRANSMANCHE": "DFDS"}
+FERRY_CHECKIN_MIN = 45
+
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
 SNCB_TYPES = {
@@ -1400,6 +1411,19 @@ class NetworkBuilder:
             number = meta.get("trip_short_name", "")  # "IC 950", "Gy 822"
             brand = HU_BRANDS.get(self.agency_names.get(route.get("agency_id", ""), ""), "MÁV")
             ttype = f"{brand} {HU_CATEGORIES.get(meta.get('route_desc', ''), 'Vonat')}"
+        elif op_id == "IRISH_RAIL":
+            number = meta.get("trip_short_name", "")  # "A101"
+            ttype = IE_TYPES.get(meta.get("route_desc", ""), "Irish Rail Train")
+        elif op_id in FERRY_TYPES:
+            # ferries (FERRIES/ingest_ferries.py) : pas de numéro de traversée publié ; enregistrement des
+            # passagers à pied clos avant le départ
+            number = ""
+            ttype = FERRY_TYPES[op_id]
+            checkin = FERRY_CHECKIN_MIN
+        elif op_id == "NI_RAILWAYS":
+            # TransXChange converti (NORTHERN_IRELAND/ingest_nir_txc.py) : aucun numéro de train publié
+            number = ""
+            ttype = "NI Railways"
         elif op_id == "FLIXTRAIN":
             number = meta.get("trip_short_name", "") or route.get("route_id", "")  # ligne FLX10...
             ttype = "FlixTrain"

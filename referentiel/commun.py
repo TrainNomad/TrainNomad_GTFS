@@ -64,7 +64,7 @@ NAME_CONTAINS_MAX_KM = 1.0  # nom OSM seulement contenu dans celui du GTFS (ou l
 UIC_COUNTRY = {"87": "FR", "80": "DE", "85": "CH", "88": "BE", "82": "LU", "83": "IT", "71": "ES",
                "84": "NL", "81": "AT", "70": "GB", "94": "PT", "51": "PL", "54": "CZ", "55": "HU",
                "56": "SK", "79": "SI", "78": "HR", "86": "DK", "74": "SE", "76": "NO",
-               "53": "RO", "72": "RS", "22": "UA", "24": "LT", "21": "BY"}
+               "53": "RO", "72": "RS", "22": "UA", "24": "LT", "21": "BY", "60": "IE"}
 WIKIDATA_COUNTRY = {"Q142": "FR", "Q183": "DE", "Q39": "CH", "Q31": "BE", "Q32": "LU", "Q38": "IT",
                     "Q29": "ES", "Q55": "NL", "Q40": "AT", "Q145": "GB", "Q45": "PT", "Q235": "MC",
                     "Q347": "LI", "Q228": "AD", "Q36": "PL", "Q213": "CZ", "Q28": "HU", "Q214": "SK",
@@ -218,6 +218,8 @@ def default_names(gtfs_name: str, f: dict | None, country: str, op_country: str)
              gares étrangères -> nom officiel local d'OSM.
     nom_en : name:en d'OSM, sinon le nom local officiel ("Antwerpen-Centraal" plutôt que "Anvers-Central") :
              pas de traduction inventée."""
+    if f:  # valeurs multiples d'OSM ("Timisoara Nord;Temeswar Nord;Temeschburg Nord") : la première
+        f = {k: v.split(";")[0].strip() if isinstance(v, str) and "name" in k else v for k, v in f.items()}
     local = (f or {}).get("name") or gtfs_name
     if country == op_country or not f:
         nom_fr = local if f and (fold(local) == fold(gtfs_name) or "." in gtfs_name) else gtfs_name
@@ -244,12 +246,22 @@ SUB_COMMUNE_TYPES = {
     "Q56046844",   # ancienne freguesia portugaise
     "Q2785216",    # section de commune (Belgique)
 }
+HROMADA_TYPES = {
+    "Q104841013",  # hromada urbaine (Ukraine)
+    "Q4291381",    # hromada (communauté territoriale ukrainienne)
+}
 
 
 def commune_of(wd: Wikidata, qid: str) -> str:
     """Remonte d'une paroisse ou d'une section à sa commune par Wikidata ("situé dans", P131) :
     Freguesia de Águeda -> Águeda, Ermesinde -> Valongo, Poulseur -> Comblain-au-Pont.
-    Ne change rien si l'élément est déjà une commune ou si aucune commune connue ne le contient."""
+    Une hromada ukrainienne ("communauté municipale de Lviv", "Chop urban hromada") donne sa ville chef-lieu
+    (P36). Ne change rien si l'élément est déjà une commune ou si aucune commune connue ne le contient."""
+    e = wd.get_many([qid]).get(qid) or {}
+    if set(e.get("p31", [])) & HROMADA_TYPES:
+        center = (wd.get_many([qid], need="p36").get(qid) or {}).get("p36") or []
+        if center:
+            return center[0]
     for _ in range(2):  # paroisse -> (union de paroisses) -> commune
         e = wd.get_many([qid]).get(qid) or {}
         if set(e.get("p31", [])) & COMMUNE_TYPES:

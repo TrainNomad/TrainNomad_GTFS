@@ -1,34 +1,32 @@
 id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
-TN5433014;5433014;Albrechtice u Č.Těš.;Albrechtice u Č.Těš.;gtfs;;;Albrechtice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433014;5433014;Albrechtice u Č.Těš.;Albrechtice u Č.Těš.;gtfs;;Albrechtice u Č.Těš.;Albrechtice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8100216;8100216;Baumgarten;Baumgarten-Schattendorf;nom;0.095;Baumgarten-Schattendorf;Baumgarten;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5437125;5437125;Blatnice p.Sv.Antonínkem;Blatnice p.Sv.Antonínkem;gtfs;;;Blatnice pod Svatým Antonínkem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5437125;5437125;Blatnice p.Sv.Antonínkem;Blatnice p.Sv.Antonínkem;gtfs;;Blatnice p.Sv.Antonínkem;Blatnice pod Svatým Antonínkem;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5500003;5500003;Budapest-Keleti pu;Budapest-Keleti;nom;0.201;Budapest-Keleti;Budapest;wikidata;vérifier que la gare OSM est la bonne (nom différent)
 TN5500728;5500728;Budapest-Nyugati pu;Budapest-Nyugati;nom;0.226;Budapest-Nyugati;Budapest;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN2200010;2200010;Chop;Chop;gtfs;;;Chop urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5437175;5437175;Javorník n.Veličkou zast.;Javorník n.Veličkou zast.;gtfs;;;Velká nad Veličkou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5433674;5433674;Karviná hl.n.;Karviná hl.n.;gtfs;;;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5433984;5433984;Louky n.Olší;Louky n.Olší;gtfs;;;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5613390;5613390;Markušovce;Markušovce;gtfs;;;Matejovce nad Hornádom;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5613400;5613400;Matejovce n.Hornádom;Matejovce n.Hornádom;gtfs;;;Markušovce;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5500018;5500018;Miskolc Tiszai pu;Miskolc Tiszai pu;gtfs;;;Miskolc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434104;5434104;Mosty u Jablunkova (Mosty kolo Jabl.);Mosty u Jablunkova (Mosty kolo Jabl.);gtfs;;;Mosty u Jablunkova;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434114;5434114;Mosty u Jablunkova z. (Mosty kolo J.pr.);Mosty u Jablunkova z. (Mosty kolo J.pr.);gtfs;;;Mosty u Jablunkova;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN2200033;2200033;Mukatschewo;Mukatschewo;gtfs;;;Mukachevo urban hromada;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100495;8100495;Neufeld/Leitha;Neufeld/Leitha;gtfs;;;Neufeld an der Leitha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5104744;5104744;Opoczno Poludnie;Opoczno Poludnie;gtfs;;;Opoczno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434364;5434364;Ostrava hl.n.;Ostrava hl.n.;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434384;5434384;Ostrava-Mar.Hory;Ostrava-Mar.Hory;gtfs;;;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5453613;5453613;Pardubice hl.n.;Pardubice hl.n.;gtfs;;;Pardubice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2200010;2200010;Chop;Chop;gtfs;;Chop;Tchop;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5437175;5437175;Javorník n.Veličkou zast.;Javorník n.Veličkou zast.;gtfs;;Javorník n.Veličkou zast.;Velká nad Veličkou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433674;5433674;Karviná hl.n.;Karviná hl.n.;gtfs;;Karviná hl.n.;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433984;5433984;Louky n.Olší;Louky n.Olší;gtfs;;Louky n.Olší;Karviná;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5613390;5613390;Markušovce;Markušovce;gtfs;;Markušovce;Matejovce nad Hornádom;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5613400;5613400;Matejovce n.Hornádom;Matejovce n.Hornádom;gtfs;;Matejovce n.Hornádom;Markušovce;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5500018;5500018;Miskolc Tiszai pu;Miskolc Tiszai pu;gtfs;;Miskolc Tiszai pu;Miskolc;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434104;5434104;Mosty u Jablunkova (Mosty kolo Jabl.);Mosty u Jablunkova (Mosty kolo Jabl.);gtfs;;Mosty u Jablunkova (Mosty kolo Jabl.);Mosty u Jablunkova;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434114;5434114;Mosty u Jablunkova z. (Mosty kolo J.pr.);Mosty u Jablunkova z. (Mosty kolo J.pr.);gtfs;;Mosty u Jablunkova z. (Mosty kolo J.pr.);Mosty u Jablunkova;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN2200033;2200033;Mukatschewo;Mukatschewo;gtfs;;Mukatschewo;Moukatchevo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100495;8100495;Neufeld/Leitha;Neufeld/Leitha;gtfs;;Neufeld/Leitha;Neufeld an der Leitha;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5104744;5104744;Opoczno Poludnie;Opoczno Poludnie;gtfs;;Opoczno Poludnie;Opoczno;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434364;5434364;Ostrava hl.n.;Ostrava hl.n.;gtfs;;Ostrava hl.n.;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434384;5434384;Ostrava-Mar.Hory;Ostrava-Mar.Hory;gtfs;;Ostrava-Mar.Hory;Ostrava;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5453613;5453613;Pardubice hl.n.;Pardubice hl.n.;gtfs;;Pardubice hl.n.;Pardubice;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5435895;5435895;Rohatec kolonie;Rohatec kolonie (zast);nom;0.104;Rohatec kolonie (zast);Rohatec;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5435885;5435885;Rohatec zast.;Rohatec zast.;gtfs;;;Rohatec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5433254;5433254;Ropice zast. (Ropica przystanek);Ropice zast. (Ropica przystanek);gtfs;;;Český Těšín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8100008;8100008;St.Pölten Hbf;St.Pölten Hbf;gtfs;;;Sankt Pölten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5434804;5434804;Suchdol n.Odrou;Suchdol n.Odrou;gtfs;;;Suchdol nad Odrou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5618175;5618175;Svrčinovec zast.;Svrčinovec zast.;gtfs;;;Svrčinovec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5613220;5613220;Štrba zast.;Štrba zast.;gtfs;;;Štrba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5615321;5615321;Valaliky terminál;Valaliky terminál;gtfs;;;Valaliky terminál;gare;"gare absente d'OpenRailwayMap : relancer avec --avec-overpass ; ville sans Wikidata : vérifier ou renseigner ville_parent"
-TN5437145;5437145;Velká n.Veličkou;Velká n.Veličkou;gtfs;;;Velká nad Veličkou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5437205;5437205;Veselí n.Mor.-Zarazice;Veselí n.Mor.-Zarazice;gtfs;;;Veselí nad Moravou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN5613171;5613171;Východná;Východná;uic;0.073;Východná;Východná;gare;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN5435885;5435885;Rohatec zast.;Rohatec zast.;gtfs;;Rohatec zast.;Rohatec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5433254;5433254;Ropice zast. (Ropica przystanek);Ropice zast. (Ropica przystanek);gtfs;;Ropice zast. (Ropica przystanek);Český Těšín;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8100008;8100008;St.Pölten Hbf;St.Pölten Hbf;gtfs;;St.Pölten Hbf;Sankt Pölten;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5434804;5434804;Suchdol n.Odrou;Suchdol n.Odrou;gtfs;;Suchdol n.Odrou;Suchdol nad Odrou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5618175;5618175;Svrčinovec zast.;Svrčinovec zast.;gtfs;;Svrčinovec zast.;Svrčinovec;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5613220;5613220;Štrba zast.;Štrba zast.;gtfs;;Štrba zast.;Štrba;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5437145;5437145;Velká n.Veličkou;Velká n.Veličkou;gtfs;;Velká n.Veličkou;Velká nad Veličkou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5437205;5437205;Veselí n.Mor.-Zarazice;Veselí n.Mor.-Zarazice;gtfs;;Veselí n.Mor.-Zarazice;Veselí nad Moravou;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN5104398;5104398;Zwardon(PL);Zwardoń;nom;0.118;Zwardoń;Rajcza;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN5614123;5614123;Žiar n.Hronom;Žiar n.Hronom;gtfs;;;Ladomerská Vieska;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN5614123;5614123;Žiar n.Hronom;Žiar n.Hronom;gtfs;;Žiar n.Hronom;Ladomerská Vieska;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

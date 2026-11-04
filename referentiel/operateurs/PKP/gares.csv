@@ -1,5 +1,5 @@
 id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
-TN2200170;gare;Козятин 1;Kazatin 1;Козятин 1;2200170;;49.705072;28.829927;UA;Europe/Kyiv;Q107254680;IC+|MP;;nom;338798236;Q12111465;;;125072;Koziatyn 1
+TN2200170;gare;Козятин 1;Kazatin 1;Козятин 1;2200170;;49.705072;28.829927;UA;Europe/Kyiv;Q369383;IC+|MP;;nom;338798236;Q12111465;;;125072;Koziatyn 1
 TN2400000;gare;Vilnius;Vilnius;Vilnius;2400000;;54.669877;25.284758;LT;Europe/Vilnius;Q216;IC;;nom;6624987344;Q453936;;;126254;Vilnius
 TN2400366;gare;Žasliai;Žasliai;Žasliai;2400366;;54.836394;24.588743;LT;Europe/Vilnius;Q16452423;IC;;nom;55338381;Q108602987;;;252803;Žasliai
 TN2400416;gare;Kaišiadorys;Kaišiadorys;Kaišiadorys;2400416;;54.863211;24.460719;LT;Europe/Vilnius;Q614855;IC;;nom;3200258905;Q800976;;;221068;Kaišiadorys
@@ -3042,22 +3042,22 @@ TNOSM9994755948;gare;Dąbrówka Zabłotnia;Dąbrówka Zabłotnia;Dąbrówka Zab�
 TNPKP-10751;gare;Kolonia;Kolonia;Kolonia;;;53.56727;21.272291;PL;Europe/Warsaw;Q554721;R;;gtfs;;;;;10751;Kolonia
 TNPKP-124876;gare;Darnytsia;Darnytsia;Darnytsia;;;50.431725;30.646437;UA;Europe/Kyiv;Q1899;MP;;gtfs;;;;;124876;Darnytsia
 TNPKP-124879;gare;Kyiv-Pasazhyrsky;Kyiv-Pasazhyrsky;Kyiv-Pasazhyrsky;;;50.439967;30.488552;UA;Europe/Kyiv;Q1899;IC|IC+|MP;;gtfs;;;;;124879;Kyiv-Pasazhyrsky
-TNPKP-124974;gare;Volochysk;Volochysk;Volochysk;;;49.53235;26.208079;UA;Europe/Kyiv;Q20861607;MP;;gtfs;;;;;124974;Volochysk
+TNPKP-124974;gare;Volochysk;Volochysk;Volochysk;;;49.53235;26.208079;UA;Europe/Kyiv;Q219762;MP;;gtfs;;;;;124974;Volochysk
 TNPKP-124979;gare;Khmelnytskyi;Khmelnytskyi;Khmelnytskyi;;;49.416149;27.009587;UA;Europe/Kyiv;Q156717;IC+|MP;;gtfs;;;;;124979;Khmelnytskyi
-TNPKP-125013;gare;Vinnytsia;Vinnytsia;Vinnytsia;;;49.23924;28.511061;UA;Europe/Kyiv;Q96146228;IC+|MP;;gtfs;;;;;125013;Vinnytsia
-TNPKP-125070;gare;Berdychiv;Berdychiv;Berdychiv;;;49.88934;28.613516;UA;Europe/Kyiv;Q103515203;MP;;gtfs;;;;;125070;Berdychiv
-TNPKP-125159;gare;Kovel;Kovel;Kovel;;;51.221333;24.712383;UA;Europe/Kyiv;Q107255327;IC|MP;;gtfs;;;;;125159;Kovel
+TNPKP-125013;gare;Vinnytsia;Vinnytsia;Vinnytsia;;;49.23924;28.511061;UA;Europe/Kyiv;Q157144;IC+|MP;;gtfs;;;;;125013;Vinnytsia
+TNPKP-125070;gare;Berdychiv;Berdychiv;Berdychiv;;;49.88934;28.613516;UA;Europe/Kyiv;Q158799;MP;;gtfs;;;;;125070;Berdychiv
+TNPKP-125159;gare;Kovel;Kovel;Kovel;;;51.221333;24.712383;UA;Europe/Kyiv;Q156704;IC|MP;;gtfs;;;;;125159;Kovel
 TNPKP-125182;gare;Rivne;Rivne;Rivne;;;50.627966;26.239321;UA;Europe/Kyiv;Q156739;MP;;gtfs;;;;;125182;Rivne
-TNPKP-125200;gare;Kivertsi;Kivertsi;Kivertsi;;;50.830403;25.462245;UA;Europe/Kyiv;Q63645577;MP;;gtfs;;;;;125200;Kivertsi
-TNPKP-125205;gare;Ternopil;Ternopil;Ternopil;;;49.553893;25.60102;UA;Europe/Kyiv;Q60178914;IC+|MP;;gtfs;;;;;125205;Ternopil
-TNPKP-125266;gare;Lviv-Holovnyi;Lviv-Holovnyi;Lviv-Holovnyi;;;49.840176;23.993765;UA;Europe/Kyiv;Q105061345;IC+|MP;;gtfs;;;;;125266;Lviv-Holovnyi
-TNPKP-125585;gare;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;;;49.20231;31.897269;UA;Europe/Kyiv;Q107363010;MP;;gtfs;;;;;125585;imeni Tarasa Shevchenka
+TNPKP-125200;gare;Kivertsi;Kivertsi;Kivertsi;;;50.830403;25.462245;UA;Europe/Kyiv;Q148890;MP;;gtfs;;;;;125200;Kivertsi
+TNPKP-125205;gare;Ternopil;Ternopil;Ternopil;;;49.553893;25.60102;UA;Europe/Kyiv;Q156743;IC+|MP;;gtfs;;;;;125205;Ternopil
+TNPKP-125266;gare;Lviv-Holovnyi;Lviv-Holovnyi;Lviv-Holovnyi;;;49.840176;23.993765;UA;Europe/Kyiv;Q36036;IC+|MP;;gtfs;;;;;125266;Lviv-Holovnyi
+TNPKP-125585;gare;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;;;49.20231;31.897269;UA;Europe/Kyiv;Q219595;MP;;gtfs;;;;;125585;imeni Tarasa Shevchenka
 TNPKP-125634;gare;Kremenchuk;Kremenchuk;Kremenchuk;;;49.067547;33.427974;UA;Europe/Kyiv;Q156724;MP;;gtfs;;;;;125634;Kremenchuk
-TNPKP-125653;gare;Romodan;Romodan;Romodan;;;49.992919;33.322316;UA;Europe/Kyiv;Q67547006;MP;;gtfs;;;;;125653;Romodan
-TNPKP-125662;gare;Hrebinka;Hrebinka;Hrebinka;;;50.121796;32.432553;UA;Europe/Kyiv;Q42309586;MP;;gtfs;;;;;125662;Hrebinka
-TNPKP-125672;gare;Lubny;Lubny;Lubny;;;50.020442;32.974938;UA;Europe/Kyiv;Q107300686;MP;;gtfs;;;;;125672;Lubny
+TNPKP-125653;gare;Romodan;Romodan;Romodan;;;49.992919;33.322316;UA;Europe/Kyiv;Q997325;MP;;gtfs;;;;;125653;Romodan
+TNPKP-125662;gare;Hrebinka;Hrebinka;Hrebinka;;;50.121796;32.432553;UA;Europe/Kyiv;Q268814;MP;;gtfs;;;;;125662;Hrebinka
+TNPKP-125672;gare;Lubny;Lubny;Lubny;;;50.020442;32.974938;UA;Europe/Kyiv;Q269517;MP;;gtfs;;;;;125672;Lubny
 TNPKP-125711;gare;Kharkiv-Pasazhyrskyi;Kharkiv-Pasazhyrskyi;Kharkiv-Pasazhyrskyi;;;49.989477;36.203352;UA;Europe/Kyiv;Q42308;MP;;gtfs;;;;;125711;Kharkiv-Pasazhyrskyi
-TNPKP-125780;gare;Myrhorod;Myrhorod;Myrhorod;;;49.949246;33.629767;UA;Europe/Kyiv;Q106314905;MP;;gtfs;;;;;125780;Myrhorod
+TNPKP-125780;gare;Myrhorod;Myrhorod;Myrhorod;;;49.949246;33.629767;UA;Europe/Kyiv;Q161961;MP;;gtfs;;;;;125780;Myrhorod
 TNPKP-125787;gare;Poltava-Kyivska;Poltava-Kyivska;Poltava-Kyivska;;;49.60341;34.525416;UA;Europe/Kyiv;Q156747;MP;;gtfs;;;;;125787;Poltava-Kyivska
 TNPKP-125797;gare;Liubotyn;Liubotyn;Liubotyn;;;49.941478;35.926967;UA;Europe/Kyiv;Q889542;MP;;gtfs;;;;;125797;Liubotyn
 TNPKP-125806;gare;Dnipro-Holovnyi;Dnipro-Holovnyi;Dnipro-Holovnyi;;;48.478163;35.014919;UA;Europe/Kyiv;Q48256;MP;;gtfs;;;;;125806;Dnipro-Holovnyi
@@ -3065,10 +3065,10 @@ TNPKP-126260;gare;Kalvariia;Kalvariia;Kalvariia;;;54.442957;23.252875;LT;Europe/
 TNPKP-141249;gare;Dresden Hauptbahnhof;Dresden Hauptbahnhof;Dresden Hauptbahnhof;;;51.040169;13.732401;DE;Europe/Berlin;Q1731;Os;;gtfs;;;;;141249;Dresden Hauptbahnhof
 TNPKP-141286;gare;Gersdorf (bei Görlitz);Gersdorf (bei Görlitz);Gersdorf (bei Görlitz);;;51.125213;14.854293;DE;Europe/Berlin;Q506123;Os;;gtfs;;;;;141286;Gersdorf (bei Görlitz)
 TNPKP-179214;gare;Küstrien-Kietz;Küstrien-Kietz;Küstrien-Kietz;;;52.568508;14.607728;DE;Europe/Berlin;Q258017;Os|R;;gtfs;;;;;179214;Küstrien-Kietz
-TNPKP-190042;gare;Rava-Ruska;Rava-Ruska;Rava-Ruska;;;50.232846;23.637074;UA;Europe/Kyiv;Q106778881;TLK;;gtfs;;;;;190042;Rava-Ruska
+TNPKP-190042;gare;Rava-Ruska;Rava-Ruska;Rava-Ruska;;;50.232846;23.637074;UA;Europe/Kyiv;Q997343;TLK;;gtfs;;;;;190042;Rava-Ruska
 TNPKP-19588;gare;Huta;Huta;Huta;;;51.270108;18.963352;PL;Europe/Warsaw;Q5950220;R|Ł;;gtfs;;;;;19588;Huta
-TNPKP-209839;gare;Znamianka-Pasazhyrska;Znamianka-Pasazhyrska;Znamianka-Pasazhyrska;;;48.710376;32.689776;UA;Europe/Kyiv;Q107406441;MP;;gtfs;;;;;209839;Znamianka-Pasazhyrska
-TNPKP-209910;gare;Kamianske-Pasazhyrske;Kamianske-Pasazhyrske;Kamianske-Pasazhyrske;;;48.497284;34.604064;UA;Europe/Kyiv;Q104704415;MP;;gtfs;;;;;209910;Kamianske-Pasazhyrske
+TNPKP-209839;gare;Znamianka-Pasazhyrska;Znamianka-Pasazhyrska;Znamianka-Pasazhyrska;;;48.710376;32.689776;UA;Europe/Kyiv;Q592145;MP;;gtfs;;;;;209839;Znamianka-Pasazhyrska
+TNPKP-209910;gare;Kamianske-Pasazhyrske;Kamianske-Pasazhyrske;Kamianske-Pasazhyrske;;;48.497284;34.604064;UA;Europe/Kyiv;Q156719;MP;;gtfs;;;;;209910;Kamianske-Pasazhyrske
 TNPKP-24182;gare;Ruda;Ruda;Ruda;;;53.589362;22.520602;PL;Europe/Warsaw;Q5754720;R;;gtfs;;;;;24182;Ruda
 TNPKP-59626;gare;Solniki Wielkie;Solniki Wielkie;Solniki Wielkie;;;51.154154;17.493462;PL;Europe/Warsaw;Q7558405;Os|R;;gtfs;;;;;59626;Solniki Wielkie
 TNPKP-64352;gare;Klimontów;Klimontów;Klimontów;;;50.525263;20.03007;PL;Europe/Warsaw;Q6420930;K2|K22|SKA2;;gtfs;;;;;64352;Klimontów

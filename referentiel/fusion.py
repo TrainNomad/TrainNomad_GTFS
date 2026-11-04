@@ -101,6 +101,35 @@ def split_far_ids(gares, codes) -> int:
     return n
 
 
+PORT_CITY_NAMED_KM = 25.0   # port rattaché à la ville d'une gare dont le nom ouvre le sien (« Cork (Ringaskiddy) »)
+PORT_CITY_NEAR_KM = 2.0     # sinon à la ville de la gare la plus proche, à distance de marche : au-delà, le port
+                            # d'une île passerait sur la côte d'en face (Yarmouth -> Lymington, Rothesay -> Wemyss Bay)
+
+
+def attach_ports(merged: list, villes_d: dict) -> int:
+    """Un port (ferry seulement) prend la ville d'une gare voisine : dans la recherche, il est rangé avec les
+    trains de sa ville (Cherbourg (port) avec la gare de Cherbourg, Rosslare Harbour avec Rosslare Europort) et
+    la correspondance port - gare passe par la ville. Ville préférée : celle d'une gare à moins de
+    PORT_CITY_NAMED_KM dont le nom ouvre celui du port (Cork pour « Cork (Ringaskiddy) », plutôt que Cobh,
+    plus proche) ; sinon celle de la gare la plus proche à moins de PORT_CITY_NEAR_KM ; sinon inchangée."""
+    rail = [g for g in merged if g["type"] == "gare" and g["ville_id"] and g["lat"] and g["lon"]]
+    moved = 0
+    for p in merged:
+        if p["type"] != "port" or not p["lat"] or not p["lon"]:
+            continue
+        lat, lon = float(p["lat"]), float(p["lon"])
+        near = sorted((km(lat, lon, float(g["lat"]), float(g["lon"])), g["ville_id"]) for g in rail
+                      if abs(float(g["lat"]) - lat) < 0.3 and abs(float(g["lon"]) - lon) < 0.5)
+        name = slug(p["nom_fr"])  # "cork-ringaskiddy" : mots séparés, contrairement à fold
+        named = [(d, v) for d, v in near if d <= PORT_CITY_NAMED_KM
+                 and (city := slug(villes_d.get(v, {}).get("nom_fr", ""))) and (name == city or name.startswith(city + "-"))]
+        best = named[0] if named else next(((d, v) for d, v in near if d <= PORT_CITY_NEAR_KM), None)
+        if best and best[1] != p["ville_id"]:
+            p["ville_id"] = best[1]
+            moved += 1
+    return moved
+
+
 def main():
     ops = sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(OPERATEURS_DIR, "*", "gares.csv")))
     if not ops:
@@ -195,6 +224,7 @@ def main():
         if v["id"] not in villes_d or (v["lat"] and not villes_d[v["id"]]["lat"]):
             villes_d[v["id"]] = v
     merge_cities(merged, villes_d)
+    logging.info(f"   {attach_ports(merged, villes_d)} ports rattachés à la ville de leur gare")
 
     # colonnes saisies à la main : conservées d'une fusion à l'autre
     manual_g = previous_manual(GARES_CSV, MANUAL_GARES)

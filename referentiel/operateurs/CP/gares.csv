@@ -1,24 +1,14 @@
 id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
 TN7137606;gare;Badajoz;Badajoz;Badajoz;7137606;;38.890733;-6.981616;ES;Europe/Madrid;Q15679;R;;uic;2962633346;Q3095891;;;71_37606;Badajoz
-TN9401008;gare;Porto - São Bento;Porto - São Bento;Porto - São Bento;9401008;;41.145491;-8.609515;PT;Europe/Lisbon;Q36433;IR|R|U;;nom;10783341021;Q579250;;;94_1008;Porto Sao Bento
-TN9402006;gare;Porto - Campanhã;Porto - Campanhã;Porto - Campanhã;9402006;;41.149192;-8.58471;PT;Europe/Lisbon;Q36433;AP|IC|IR|R|U;;nom;10783341023;Q801328;;;94_2006;Porto Campanha
-TN9403004;gare;Contumil;Contumil;Contumil;9403004;;41.168829;-8.574718;PT;Europe/Lisbon;Q36433;IR|R|U;;nom;2107060086;Q5847535;;;94_3004;Contumil
-TN9403038;gare;Rio Tinto;Rio Tinto;Rio Tinto;9403038;;41.184539;-8.557154;PT;Europe/Lisbon;Q983483;R|U;;nom;4811556865;Q10275788;;;94_3038;Rio Tinto
-TN9403046;gare;Aguas Santas - Palmilheira;Aguas Santas - Palmilheira;Aguas Santas - Palmilheira;9403046;;41.20173;-8.55674;PT;Europe/Lisbon;Q990403;U;;gtfs;;;;;94_3046;Aguas Santas - Palmilheira
-TN9404002;gare;Ermesinde;Ermesinde;Ermesinde;9404002;;41.217125;-8.554151;PT;Europe/Lisbon;Q604262;IR|R|U;;nom;4811425340;Q8779728;;;94_4002;Ermesinde
-TN9404010;gare;Travagem;Travagem;Travagem;9404010;;41.229059;-8.551747;PT;Europe/Lisbon;Q604262;U;;nom;1273275915;Q16492848;;;94_4010;Travagem
-TN9404036;gare;Leandro;Leandro;Leandro;9404036;;41.243832;-8.556776;PT;Europe/Lisbon;Q990403;U;;nom;1194800321;Q8840916;;;94_4036;Leandro
-TN9404051;gare;São Frutuoso;São Frutuoso;São Frutuoso;9404051;;41.258406;-8.55816;PT;Europe/Lisbon;Q990403;U;;nom;4808581729;Q19702770;;;94_4051;Sao Frutuoso
-TN9404077;gare;São Romão;São Romão;São Romão;9404077;;41.277958;-8.553594;PT;Europe/Lisbon;Q987964;U;;nom;4808299043;Q8842010;;;94_4077;Sao Romao
-TN9404101;gare;Portela;Portela;Portela;9404101;;41.300857;-8.548745;PT;Europe/Lisbon;Q987964;U;;nom;4808228752;Q18483219;;;94_4101;Portela
-TN9404630;gare;Trofa;Trofa;Trofa;9404630;;41.337372;-8.547646;PT;Europe/Lisbon;Q987964;IC|IR|R|U;;nom;4796000046;Q8842090;;;94_4630;Trofa
-TN9405009;gare;Lousado;Lousado;Lousado;9405009;;41.350946;-8.526487;PT;Europe/Lisbon;Q551658;R|U;;nom;4795435047;Q8840987;;;94_5009;Lousado
-TN9405033;gare;Esmeriz;Esmeriz;Esmeriz;9405033;;41.379458;-8.521563;PT;Europe/Lisbon;Q551658;U;;nom;4795357724;Q18482803;;;94_5033;Esmeriz
-TN9405058;gare;Barrimau;Barrimau;Barrimau;9405058;;41.38981;-8.526176;PT;Europe/Lisbon;Q551658;U;;nom;4794315992;Q16497001;;;94_5058;Barrimau
-TN9405074;gare;Famalicão;Famalicão;Famalicão;9405074;;41.405565;-8.529425;PT;Europe/Lisbon;Q551658;AP|IC|IR|R|U;;nom;4794303756;Q8779770;;;94_5074;Famalicao
-TN9405108;gare;Mouquim;Mouquim;Mouquim;9405108;;41.428973;-8.522083;PT;Europe/Lisbon;Q551658;U;;nom;4794303771;Q18483090;;;94_5108;Mouquim
-TN9405116;gare;Louro;Louro;Louro;9405116;;41.436927;-8.538213;PT;Europe/Lisbon;Q551658;U;;nom;1274087896;Q18483000;;;94_5116;Louro
-TN9406007;gare;Nine;Nine;Nine;9406007;;41.454737;-8.544285;PT;Europe/Lisbon;Q551658;AP|IC|IR|R|U;;nom;10783341024;Q8841121;;;94_6007;Nine
+TN9401008;gare;Porto - São Bento;Porto - São Bento;Porto - São Bento;9401008;;41.145491;-8.609515;PT;Europe/Lisbon;Q36433;IR|R;;nom;10783341021;Q579250;;;94_1008;Porto Sao Bento
+TN9402006;gare;Porto - Campanhã;Porto - Campanhã;Porto - Campanhã;9402006;;41.149192;-8.58471;PT;Europe/Lisbon;Q36433;AP|IC|IR|R;;nom;10783341023;Q801328;;;94_2006;Porto Campanha
+TN9403004;gare;Contumil;Contumil;Contumil;9403004;;41.168829;-8.574718;PT;Europe/Lisbon;Q36433;IR|R;;nom;2107060086;Q5847535;;;94_3004;Contumil
+TN9403038;gare;Rio Tinto;Rio Tinto;Rio Tinto;9403038;;41.184539;-8.557154;PT;Europe/Lisbon;Q983483;R;;nom;4811556865;Q10275788;;;94_3038;Rio Tinto
+TN9404002;gare;Ermesinde;Ermesinde;Ermesinde;9404002;;41.217125;-8.554151;PT;Europe/Lisbon;Q604262;IR|R;;nom;4811425340;Q8779728;;;94_4002;Ermesinde
+TN9404630;gare;Trofa;Trofa;Trofa;9404630;;41.337372;-8.547646;PT;Europe/Lisbon;Q987964;IC|IR|R;;nom;4796000046;Q8842090;;;94_4630;Trofa
+TN9405009;gare;Lousado;Lousado;Lousado;9405009;;41.350946;-8.526487;PT;Europe/Lisbon;Q551658;R;;nom;4795435047;Q8840987;;;94_5009;Lousado
+TN9405074;gare;Famalicão;Famalicão;Famalicão;9405074;;41.405565;-8.529425;PT;Europe/Lisbon;Q551658;AP|IC|IR|R;;nom;4794303756;Q8779770;;;94_5074;Famalicao
+TN9406007;gare;Nine;Nine;Nine;9406007;;41.454737;-8.544285;PT;Europe/Lisbon;Q551658;AP|IC|IR|R;;nom;10783341024;Q8841121;;;94_6007;Nine
 TN9406056;gare;Carreira;Carreira;Carreira;9406056;;41.486928;-8.56411;PT;Europe/Lisbon;Q213242;IR|R;;nom;2486610365;Q16492793;;;94_6056;Carreira
 TN9406080;gare;Midões;Midões;Midões;9406080;;41.508211;-8.581904;PT;Europe/Lisbon;Q213242;IR|R;;nom;2486606006;Q8841050;;;94_6080;Midoes
 TN9406122;gare;Barcelos;Barcelos;Barcelos;9406122;;41.536782;-8.608996;PT;Europe/Lisbon;Q213242;IC|IR|R;;nom;4217899591;Q2893868;;;94_6122;Barcelos
@@ -32,38 +22,27 @@ TN9406338;gare;Alvarães;Alvarães;Alvarães;9406338;;41.648426;-8.739618;PT;Eur
 TN9406387;gare;Darque;Darque;Darque;9406387;;41.68023;-8.781954;PT;Europe/Lisbon;Q208158;R;;nom;4211151192;Q8779691;;;94_6387;Darque
 TN9406395;gare;Areia - Darque;Areia - Darque;Areia - Darque;9406395;;41.684107;-8.799321;PT;Europe/Lisbon;Q208158;IR|R;;nom;2486532602;Q16493424;;;94_6395;Areia - Darque
 TN9407005;gare;Valença;Valença;Valença;9407005;;42.024704;-8.639295;PT;Europe/Lisbon;Q492475;IC|IR|R;;nom;3301687461;Q7610745;;;94_7005;Valenca
-TN9408029;gare;Cabeda;Cabeda;Cabeda;9408029;;41.22056;-8.535696;PT;Europe/Lisbon;Q604262;U;;nom;1194792584;Q5042671;;;94_8029;Cabeda
-TN9408060;gare;Suzão;Suzão;Suzão;9408060;;41.197115;-8.502002;PT;Europe/Lisbon;Q604262;R|U;;nom;3990863186;Q8202408;;;94_8060;Suzao
-TN9408086;gare;Valongo;Valongo;Valongo;9408086;;41.188246;-8.487274;PT;Europe/Lisbon;Q604262;R|U;;nom;10783321243;Q10275799;;;94_8086;Valongo
-TN9408102;gare;São Martinho do Campo;São Martinho do Campo;São Martinho do Campo;9408102;;41.169768;-8.467777;PT;Europe/Lisbon;Q604262;U;;nom;1385418417;Q13541966;;;94_8102;Sao Martinho do Campo
-TN9408136;gare;Terronhas;Terronhas;Terronhas;9408136;;41.163766;-8.437935;PT;Europe/Lisbon;Q631788;U;;nom;1390093271;Q8202411;;;94_8136;Terronhas
-TN9408151;gare;Trancoso;Trancoso;Trancoso;9408151;;41.161262;-8.418939;PT;Europe/Lisbon;Q631788;U;;nom;1385949214;Q14494675;;;94_8151;Trancoso
-TN9408177;gare;Recarei-Sobreira;Recarei-Sobreira;Recarei-Sobreira;9408177;;41.153819;-8.3992;PT;Europe/Lisbon;Q631788;R|U;;nom;10738245883;Q8841579;;;94_8177;Recarei - Sobreira
-TN9408201;gare;Parada;Parada;Parada;9408201;;41.160095;-8.372971;PT;Europe/Lisbon;Q631788;U;;nom;25452599;Q14493176;;;94_8201;Parada
-TN9408227;gare;Cête;Cête;Cête;9408227;;41.171511;-8.355427;PT;Europe/Lisbon;Q631788;R|U;;nom;10975517566;Q8779688;;;94_8227;Cete
-TN9408243;gare;Irivo;Irivo;Irivo;9408243;;41.181215;-8.342175;PT;Europe/Lisbon;Q984656;U;;nom;1385418436;Q13541967;;;94_8243;Irivo
-TN9408250;gare;Oleiros;Oleiros;Oleiros;9408250;;41.192926;-8.337694;PT;Europe/Lisbon;Q984656;U;;nom;10738245887;Q13541963;;;94_8250;Oleiros
-TN9408276;gare;Paredes;Paredes;Paredes;9408276;;41.204364;-8.323532;PT;Europe/Lisbon;Q631788;IR|R|U;;nom;10975517601;Q14493175;;;94_8276;Paredes
-TN9408318;gare;Penafiel;Penafiel;Penafiel;9408318;;41.217656;-8.294944;PT;Europe/Lisbon;Q984656;IR|R|U;;nom;10783321244;Q10275784;;;94_8318;Penafiel
-TN9408334;gare;Bustelo;Bustelo;Bustelo;9408334;;41.235269;-8.274224;PT;Europe/Lisbon;Q984656;U;;nom;1385418422;Q13534625;;;94_8334;Bustelo
-TN9408359;gare;Meinedo;Meinedo;Meinedo;9408359;;41.248918;-8.258111;PT;Europe/Lisbon;Q986741;U;;nom;10975517663;Q13541965;;;94_8359;Meinedo
-TN9408383;gare;Caíde;Caíde;Caíde;9408383;;41.252861;-8.227167;PT;Europe/Lisbon;Q986741;IR|R|U;;nom;10783321245;Q8779552;;;94_8383;Caide
-TN9408409;gare;Oliveira;Oliveira;Oliveira;9408409;;41.257334;-8.198969;PT;Europe/Lisbon;Q454875;U;;nom;5577329249;Q13541962;;;94_8409;Oliveira
-TN9408433;gare;Vila Meã;Vila Meã;Vila Meã;9408433;;41.246095;-8.184833;PT;Europe/Lisbon;Q454875;R|U;;nom;7926344758;Q10276326;;;94_8433;Vila Mea
-TN9408441;gare;Recesinhos;Recesinhos;Recesinhos;9408441;;41.231565;-8.175231;PT;Europe/Lisbon;Q984656;U;;nom;10977240993;Q14493172;;;94_8441;Recesinhos
-TN9408474;gare;Livração;Livração;Livração;9408474;;41.216847;-8.155676;PT;Europe/Lisbon;Q188050;IR|R|U;;nom;10977251689;Q8840946;;;94_8474;Livracao
-TN9409001;gare;Marco de Canaveses;Marco de Canaveses;Marco de Canaveses;9409001;;41.180972;-8.136801;PT;Europe/Lisbon;Q188050;IR|R|U;;nom;10977251841;Q8841023;;;94_9001;Marco de Canaveses
-TN9409050;gare;Juncal;Juncal;Juncal;9409050;;41.140672;-8.119419;PT;Europe/Lisbon;Q188050;R;;nom;10977407823;Q10275775;;;94_9050;Juncal
-TN9409100;gare;Pala;Pala;Pala;9409100;;41.103567;-8.090874;PT;Europe/Lisbon;Q804064;R;;nom;10977407894;Q14492683;;;94_9100;Pala
+TN9408060;gare;Suzão;Suzão;Suzão;9408060;;41.197115;-8.502002;PT;Europe/Lisbon;Q604262;R;;nom;3990863186;Q8202408;;;94_8060;Suzao
+TN9408086;gare;Valongo;Valongo;Valongo;9408086;;41.188246;-8.487274;PT;Europe/Lisbon;Q604262;R;;nom;10783321243;Q10275799;;;94_8086;Valongo
+TN9408177;gare;Recarei-Sobreira;Recarei-Sobreira;Recarei-Sobreira;9408177;;41.153819;-8.3992;PT;Europe/Lisbon;Q631788;R;;nom;10738245883;Q8841579;;;94_8177;Recarei - Sobreira
+TN9408227;gare;Cête;Cête;Cête;9408227;;41.171511;-8.355427;PT;Europe/Lisbon;Q631788;R;;nom;10975517566;Q8779688;;;94_8227;Cete
+TN9408276;gare;Paredes;Paredes;Paredes;9408276;;41.204364;-8.323532;PT;Europe/Lisbon;Q631788;IR|R;;nom;10975517601;Q14493175;;;94_8276;Paredes
+TN9408318;gare;Penafiel;Penafiel;Penafiel;9408318;;41.217656;-8.294944;PT;Europe/Lisbon;Q984656;IR|R;;nom;10783321244;Q10275784;;;94_8318;Penafiel
+TN9408383;gare;Caíde;Caíde;Caíde;9408383;;41.252861;-8.227167;PT;Europe/Lisbon;Q986741;IR|R;;nom;10783321245;Q8779552;;;94_8383;Caide
+TN9408433;gare;Vila Meã;Vila Meã;Vila Meã;9408433;;41.246095;-8.184833;PT;Europe/Lisbon;Q454875;R;;nom;7926344758;Q10276326;;;94_8433;Vila Mea
+TN9408474;gare;Livração;Livração;Livração;9408474;;41.216847;-8.155676;PT;Europe/Lisbon;Q188050;IR|R;;nom;10977251689;Q8840946;;;94_8474;Livracao
+TN9409001;gare;Marco de Canaveses;Marco de Canaveses;Marco de Canaveses;9409001;;41.180972;-8.136801;PT;Europe/Lisbon;Q188050;IR|R;;nom;10977251841;Q8841023;;;94_9001;Marco de Canaveses
+TN9409050;gare;Juncal;Juncal;Juncal;9409050;;41.140672;-8.119419;PT;Europe/Lisbon;Q188050;IR|R;;nom;10977407823;Q10275775;;;94_9050;Juncal
+TN9409100;gare;Pala;Pala;Pala;9409100;;41.103567;-8.090874;PT;Europe/Lisbon;Q804064;IR|R;;nom;10977407894;Q14492683;;;94_9100;Pala
 TN9409134;gare;Mosteirô;Mosteirô;Mosteirô;9409134;;41.094619;-8.069196;PT;Europe/Lisbon;Q804064;IR|R;;nom;10979219123;Q8841105;;;94_9134;Mosteiro
 TN9409191;gare;Aregos;Aregos;Aregos;9409191;;41.106399;-8.007411;PT;Europe/Lisbon;Q804064;IR|R;;nom;10979201586;Q10275764;;;94_9191;Aregos
-TN9409225;gare;Mirão;Mirão;Mirão;9409225;;41.117587;-7.972524;PT;Europe/Lisbon;Q804064;R;;nom;10977858050;Q13541964;;;94_9225;Mirao
+TN9409225;gare;Mirão;Mirão;Mirão;9409225;;41.117587;-7.972524;PT;Europe/Lisbon;Q804064;IR|R;;nom;10977858050;Q13541964;;;94_9225;Mirao
 TN9409258;gare;Ermida;Ermida;Ermida;9409258;;41.124275;-7.950901;PT;Europe/Lisbon;Q804064;IR|R;;nom;10977858025;Q8779731;;;94_9258;Ermida
-TN9409282;gare;Porto Rei;Porto Rei;Porto Rei;9409282;;41.12188;-7.910714;PT;Europe/Lisbon;Q1006385;R;;gtfs;;;;;94_9282;Porto Rei
-TN9409324;gare;Barqueiros;Barqueiros;Barqueiros;9409324;;41.140528;-7.887456;PT;Europe/Lisbon;Q1006385;R;;nom;10977857985;Q518118;;;94_9324;Barqueiros
+TN9409282;gare;Porto Rei;Porto Rei;Porto Rei;9409282;;41.12188;-7.910714;PT;Europe/Lisbon;Q1006385;IR|R;;gtfs;;;;;94_9282;Porto Rei
+TN9409324;gare;Barqueiros;Barqueiros;Barqueiros;9409324;;41.140528;-7.887456;PT;Europe/Lisbon;Q1006385;IR|R;;nom;10977857985;Q518118;;;94_9324;Barqueiros
 TN9409357;gare;Rede;Rede;Rede;9409357;;41.160745;-7.866535;PT;Europe/Lisbon;Q1006385;IR|R;;nom;10977857958;Q8841586;;;94_9357;Rede
-TN9409399;gare;Caldas de Moledo;Caldas de Moledo;Caldas de Moledo;9409399;;41.152898;-7.82667;PT;Europe/Lisbon;Q757858;R;;nom;10977857944;Q8202362;;;94_9399;Caldas de Moledo
-TN9409423;gare;Godim;Godim;Godim;9409423;;41.166235;-7.799117;PT;Europe/Lisbon;Q757858;R;;nom;10977857906;Q5481515;;;94_9423;Godim
+TN9409399;gare;Caldas de Moledo;Caldas de Moledo;Caldas de Moledo;9409399;;41.152898;-7.82667;PT;Europe/Lisbon;Q757858;IR|R;;nom;10977857944;Q8202362;;;94_9399;Caldas de Moledo
+TN9409423;gare;Godim;Godim;Godim;9409423;;41.166235;-7.799117;PT;Europe/Lisbon;Q757858;IR|R;;nom;10977857906;Q5481515;;;94_9423;Godim
 TN9410009;gare;Régua;Régua;Régua;9410009;;41.158567;-7.783632;PT;Europe/Lisbon;Q757858;IR|R;;nom;10759815354;Q66815327;;;94_10009;Regua
 TN9410090;gare;Covelinhas;Covelinhas;Covelinhas;9410090;;41.152371;-7.688072;PT;Europe/Lisbon;Q757858;IR|R;;nom;10781812087;Q8779669;;;94_10090;Covelinhas
 TN9410165;gare;Ferrão;Ferrão;Ferrão;9410165;;41.161881;-7.611246;PT;Europe/Lisbon;Q1006389;IR|R;;nom;1145662482;Q13534596;;;94_10165;Ferrao
@@ -90,45 +69,25 @@ TN9418325;gare;Gondarém;Gondarém;Gondarém;9418325;;41.919995;-8.763146;PT;Eur
 TN9418341;gare;Vila Nova de Cerveira;Vila Nova de Cerveira;Vila Nova de Cerveira;9418341;;41.935973;-8.748321;PT;Europe/Lisbon;Q164434;IC|IR|R;;nom;3317657068;Q10275802;;;94_18341;Vila Nova de Cerveira
 TN9418416;gare;Carvalha;Carvalha-A;Carvalha-A;9418416;;41.97984;-8.702663;PT;Europe/Lisbon;Q164434;R;;nom;2486432663;Q18482650;;;94_18416;Carvalha
 TN9418440;gare;São Pedro da Torre;São Pedro da Torre;São Pedro da Torre;9418440;;41.993614;-8.666368;PT;Europe/Lisbon;Q492475;R;;nom;2486430193;Q8842002;;;94_18440;Sao Pedro da Torre
-TN9421006;gare;São Gemil;São Gemil;São Gemil;9421006;;41.197143;-8.579213;PT;Europe/Lisbon;Q990403;U;;nom;4814385700;Q576130;;;94_21006;Sao Gemil
-TN9421030;gare;Hospital São João;Hospital São João;Hospital São João;9421030;;41.185114;-8.598406;PT;Europe/Lisbon;Q841299;U;;nom;12142375580;Q574787;;;94_21030;Hospital Sao Joao
-TN9421048;gare;São Mamede de Infesta;São Mamede de Infesta;São Mamede de Infesta;9421048;;41.190314;-8.613309;PT;Europe/Lisbon;Q841299;U;;nom;9340734055;Q576134;;;94_21048;Sao Mamede de Infesta
-TN9421055;gare;Arroteia;Arroteia;Arroteia;9421055;;41.19674;-8.630636;PT;Europe/Lisbon;Q841299;U;;nom;10974518318;Q574763;;;94_21055;Arroteia
-TN9421071;gare;Leça do Balio;Leça do Balio;Leça do Balio;9421071;;41.208411;-8.629535;PT;Europe/Lisbon;Q841299;U;;nom;9340734056;Q549321;;;94_21071;Leca do Balio
-TN9424000;gare;Guimarães;Guimarães;Guimarães;9424000;;41.435127;-8.294296;PT;Europe/Lisbon;Q170903;IC|U;;nom;3941781457;Q8779877;;;94_24000;Guimaraes
-TN9428068;gare;Santo Tirso;Santo Tirso;Santo Tirso;9428068;;41.35107;-8.47341;PT;Europe/Lisbon;Q917330;IC|U;;nom;10802552387;Q8841907;;;94_28068;Santo Tirso
-TN9428100;gare;Caniços;Caniços;Caniços;9428100;;41.363683;-8.437651;PT;Europe/Lisbon;Q551658;U;;nom;10802552388;Q8779490;;;94_28100;Canicos
-TN9428134;gare;Vila das Aves;Vila das Aves;Vila das Aves;9428134;;41.357442;-8.406244;PT;Europe/Lisbon;Q917330;U;;nom;10802552389;Q5400404;;;94_28134;Vila das Aves
-TN9428159;gare;Giesteira;Giesteira;Giesteira;9428159;;41.36456;-8.388758;PT;Europe/Lisbon;Q170903;U;;nom;10802552390;Q16483793;;;94_28159;Giesteira
-TN9428191;gare;Lordelo;Lordelo;Lordelo;9428191;;41.365601;-8.363488;PT;Europe/Lisbon;Q170903;U;;nom;10802552391;Q8840964;;;94_28191;Lordelo
-TN9428209;gare;Cuca;Cuca;Cuca;9428209;;41.376474;-8.341908;PT;Europe/Lisbon;Q170903;U;;nom;10802552401;Q17621396;;;94_28209;Cuca
-TN9428217;gare;Pereirinhas;Pereirinhas;Pereirinhas;9428217;;41.3774;-8.324102;PT;Europe/Lisbon;Q170903;U;;nom;10802552402;Q16531622;;;94_28217;Pereirinhas
-TN9428233;gare;Vizela;Vizela;Vizela;9428233;;41.379087;-8.312367;PT;Europe/Lisbon;Q551955;IC|U;;nom;10802552403;Q10275806;;;94_28233;Vizela
-TN9428266;gare;Nespereira;Nespereira;Nespereira;9428266;;41.403195;-8.319566;PT;Europe/Lisbon;Q170903;U;;nom;10802552404;Q16531603;;;94_28266;Nespereira
-TN9428290;gare;Covas;Covas;Covas;9428290;;41.421506;-8.300847;PT;Europe/Lisbon;Q170903;U;;nom;10802571605;Q16531542;;;94_28290;Covas
-TN9429033;gare;Couto de Cambeses;Couto de Cambeses;Couto de Cambeses;9429033;;41.48172;-8.528764;PT;Europe/Lisbon;Q213242;U;;nom;2713384321;Q3180147;;;94_29033;Couto de Cambeses
-TN9429066;gare;Arentim;Arentim;Arentim;9429066;;41.489987;-8.508877;PT;Europe/Lisbon;Q83247;U;;nom;10799652530;Q5692501;;;94_29066;Arentim
-TN9429074;gare;Ruilhe;Ruilhe;Ruilhe;9429074;;41.497637;-8.496284;PT;Europe/Lisbon;Q83247;U;;nom;1274091477;Q13534639;;;94_29074;Ruilhe
-TN9429090;gare;Tadim;Tadim;Tadim;9429090;;41.509182;-8.482985;PT;Europe/Lisbon;Q83247;U;;nom;10799652531;Q8842018;;;94_29090;Tadim
-TN9429108;gare;Aveleda;Aveleda;Aveleda;9429108;;41.520141;-8.468343;PT;Europe/Lisbon;Q83247;U;;nom;1224443020;Q13534642;;;94_29108;Aveleda
-TN9429116;gare;Mazagão;Mazagão;Mazagão;9429116;;41.526895;-8.458376;PT;Europe/Lisbon;Q83247;U;;nom;1224443039;Q13534640;;;94_29116;Mazagao
-TN9429132;gare;Ferreiros;Ferreiros;Ferreiros;9429132;;41.530807;-8.441485;PT;Europe/Lisbon;Q83247;U;;nom;1274092899;Q13534641;;;94_29132;Ferreiros
-TN9429157;gare;Braga;Braga;Braga;9429157;;41.548046;-8.434464;PT;Europe/Lisbon;Q83247;AP|IC|U;;nom;10783341036;Q10275766;;;94_29157;Braga
-TN9430007;gare;Lisboa - Santa Apolónia;Lisboa - Santa Apolónia;Lisboa - Santa Apolónia;9430007;;38.71463;-9.122042;PT;Europe/Lisbon;Q597;AP|IC|IR|R|U;;nom;10783341025;Q531789;;;94_30007;Lisboa Santa Apolonia
-TN9431005;gare;Braço de Prata;Braço de Prata;Braço de Prata;9431005;;38.747091;-9.1028;PT;Europe/Lisbon;Q597;R|U;;nom;10735817069;Q253357;;;94_31005;Braco de Prata
-TN9431039;gare;Lisboa - Oriente;Lisboa - Oriente;Lisboa - Oriente;9431039;;38.767821;-9.099073;PT;Europe/Lisbon;Q597;AP|IC|IR|R|U;;nom;6297158592;Q801115;;;94_31039;Lisboa Oriente
-TN9431047;gare;Moscavide;Moscavide;Moscavide;9431047;;38.777654;-9.099487;PT;Europe/Lisbon;Q597;R|U;;nom;4697719976;Q10275779;;;94_31047;Moscavide
-TN9431062;gare;Sacavém;Sacavém;Sacavém;9431062;;38.79497;-9.099799;PT;Europe/Lisbon;Q597;R|U;;nom;7794947004;Q8841670;;;94_31062;Sacavem
-TN9431070;gare;Bobadela;Bobadela;Bobadela;9431070;;38.806846;-9.094679;PT;Europe/Lisbon;Q917535;R|U;;nom;11946454474;Q8779396;;;94_31070;Bobadela
-TN9431112;gare;Santa Iria;Santa Iria;Santa Iria;9431112;;38.841039;-9.080111;PT;Europe/Lisbon;Q917535;R|U;;nom;11946454475;Q8842291;;;94_31112;Santa Iria
-TN9431146;gare;Póvoa;Póvoa;Póvoa;9431146;;38.859289;-9.064198;PT;Europe/Lisbon;Q917326;R|U;;nom;5509116840;Q10275760;;;94_31146;Povoa
-TN9431187;gare;Alverca;Alverca;Alverca;9431187;;38.88988;-9.03411;PT;Europe/Lisbon;Q917326;R|U;;nom;10783341026;Q8779267;;;94_31187;Alverca
-TN9431237;gare;Alhandra;Alhandra;Alhandra;9431237;;38.923934;-9.011412;PT;Europe/Lisbon;Q917326;R|U;;nom;11946454516;Q8779251;;;94_31237;Alhandra
-TN9431278;gare;Vila Franca de Xira;Vila Franca de Xira;Vila Franca de Xira;9431278;;38.955299;-8.986229;PT;Europe/Lisbon;Q917326;IC|IR|R|U;;nom;11946454523;Q8842405;;;94_31278;Vila Franca de Xira
-TN9431310;gare;Castanheira do Ribatejo;Castanheira do Ribatejo;Castanheira do Ribatejo;9431310;;38.989068;-8.965362;PT;Europe/Lisbon;Q917326;R|U;;nom;11946454534;Q576850;;;94_31310;Castanheira do Ribatejo
-TN9431336;gare;Carregado;Carregado;Carregado;9431336;;39.005522;-8.95373;PT;Europe/Lisbon;Q917326;R|U;;nom;11946454553;Q202942;;;94_31336;Carregado
-TN9431377;gare;Vila Nova da Rainha;Vila Nova da Rainha;Vila Nova da Rainha;9431377;;39.036465;-8.928033;PT;Europe/Lisbon;Q634164;R|U;;nom;1518857867;Q577706;;;94_31377;Vila Nova da Rainha
-TN9431401;gare;Espadanal da Azambuja;Espadanal da Azambuja;Espadanal da Azambuja;9431401;;39.050766;-8.902518;PT;Europe/Lisbon;Q634164;R|U;;nom;1675137189;Q577716;;;94_31401;Espadanal da Azambuja
+TN9424000;gare;Guimarães;Guimarães;Guimarães;9424000;;41.435127;-8.294296;PT;Europe/Lisbon;Q170903;IC;;nom;3941781457;Q8779877;;;94_24000;Guimaraes
+TN9428068;gare;Santo Tirso;Santo Tirso;Santo Tirso;9428068;;41.35107;-8.47341;PT;Europe/Lisbon;Q917330;IC;;nom;10802552387;Q8841907;;;94_28068;Santo Tirso
+TN9428233;gare;Vizela;Vizela;Vizela;9428233;;41.379087;-8.312367;PT;Europe/Lisbon;Q551955;IC;;nom;10802552403;Q10275806;;;94_28233;Vizela
+TN9429157;gare;Braga;Braga;Braga;9429157;;41.548046;-8.434464;PT;Europe/Lisbon;Q83247;AP|IC;;nom;10783341036;Q10275766;;;94_29157;Braga
+TN9430007;gare;Lisboa - Santa Apolónia;Lisboa - Santa Apolónia;Lisboa - Santa Apolónia;9430007;;38.71463;-9.122042;PT;Europe/Lisbon;Q597;AP|IC|IR|R;;nom;10783341025;Q531789;;;94_30007;Lisboa Santa Apolonia
+TN9431005;gare;Braço de Prata;Braço de Prata;Braço de Prata;9431005;;38.747091;-9.1028;PT;Europe/Lisbon;Q597;R;;nom;10735817069;Q253357;;;94_31005;Braco de Prata
+TN9431039;gare;Lisboa - Oriente;Lisboa - Oriente;Lisboa - Oriente;9431039;;38.767821;-9.099073;PT;Europe/Lisbon;Q597;AP|IC|IR|R;;nom;6297158592;Q801115;;;94_31039;Lisboa Oriente
+TN9431047;gare;Moscavide;Moscavide;Moscavide;9431047;;38.777654;-9.099487;PT;Europe/Lisbon;Q597;R;;nom;4697719976;Q10275779;;;94_31047;Moscavide
+TN9431062;gare;Sacavém;Sacavém;Sacavém;9431062;;38.79497;-9.099799;PT;Europe/Lisbon;Q597;R;;nom;7794947004;Q8841670;;;94_31062;Sacavem
+TN9431070;gare;Bobadela;Bobadela;Bobadela;9431070;;38.806846;-9.094679;PT;Europe/Lisbon;Q917535;R;;nom;11946454474;Q8779396;;;94_31070;Bobadela
+TN9431112;gare;Santa Iria;Santa Iria;Santa Iria;9431112;;38.841039;-9.080111;PT;Europe/Lisbon;Q917535;R;;nom;11946454475;Q8842291;;;94_31112;Santa Iria
+TN9431146;gare;Póvoa;Póvoa;Póvoa;9431146;;38.859289;-9.064198;PT;Europe/Lisbon;Q917326;R;;nom;5509116840;Q10275760;;;94_31146;Povoa
+TN9431187;gare;Alverca;Alverca;Alverca;9431187;;38.88988;-9.03411;PT;Europe/Lisbon;Q917326;R;;nom;10783341026;Q8779267;;;94_31187;Alverca
+TN9431237;gare;Alhandra;Alhandra;Alhandra;9431237;;38.923934;-9.011412;PT;Europe/Lisbon;Q917326;R;;nom;11946454516;Q8779251;;;94_31237;Alhandra
+TN9431278;gare;Vila Franca de Xira;Vila Franca de Xira;Vila Franca de Xira;9431278;;38.955299;-8.986229;PT;Europe/Lisbon;Q917326;IC|IR|R;;nom;11946454523;Q8842405;;;94_31278;Vila Franca de Xira
+TN9431310;gare;Castanheira do Ribatejo;Castanheira do Ribatejo;Castanheira do Ribatejo;9431310;;38.989068;-8.965362;PT;Europe/Lisbon;Q917326;R;;nom;11946454534;Q576850;;;94_31310;Castanheira do Ribatejo
+TN9431336;gare;Carregado;Carregado;Carregado;9431336;;39.005522;-8.95373;PT;Europe/Lisbon;Q917326;R;;nom;11946454553;Q202942;;;94_31336;Carregado
+TN9431377;gare;Vila Nova da Rainha;Vila Nova da Rainha;Vila Nova da Rainha;9431377;;39.036465;-8.928033;PT;Europe/Lisbon;Q634164;R;;nom;1518857867;Q577706;;;94_31377;Vila Nova da Rainha
+TN9431401;gare;Espadanal da Azambuja;Espadanal da Azambuja;Espadanal da Azambuja;9431401;;39.050766;-8.902518;PT;Europe/Lisbon;Q634164;R;;nom;1675137189;Q577716;;;94_31401;Espadanal da Azambuja
 TN9432003;gare;Setil;Setil;Setil;9432003;;39.113589;-8.777857;PT;Europe/Lisbon;Q841304;R;;nom;11946454555;Q8841950;;;94_32003;Setil
 TN9432045;gare;Santana-Cartaxo;Santana-Cartaxo;Santana-Cartaxo;9432045;;39.144162;-8.7589;PT;Europe/Lisbon;Q841304;R;;nom;1673699452;Q10275792;;;94_32045;Santana - Cartaxo
 TN9432102;gare;Vale de Santarém;Vale de Santarém;Vale de Santarém;9432102;;39.188406;-8.723841;PT;Europe/Lisbon;Q273877;R;;nom;1809483245;Q8842151;;;94_32102;Vale de Santarem
@@ -136,7 +95,7 @@ TN9432185;gare;Santarém;Santarém;Santarém;9432185;;39.242123;-8.675086;PT;Eur
 TN9432284;gare;Vale de Figueira;Vale de Figueira;Vale de Figueira;9432284;;39.313733;-8.629977;PT;Europe/Lisbon;Q273877;R;;nom;1728511121;Q8842145;;;94_32284;Vale de Figueira
 TN9432383;gare;Mato de Miranda;Mato de Miranda;Mato de Miranda;9432383;;39.368481;-8.554351;PT;Europe/Lisbon;Q1012522;R;;gtfs;;;;;94_32383;Mato de Miranda
 TN9432466;gare;Riachos - Torres Novas - Golegã;Riachos - Torres Novas - Golegã;Riachos - Torres Novas - Golegã;9432466;;39.432196;-8.504549;PT;Europe/Lisbon;Q81139;R;;nom;12122582710;Q8841603;;;94_32466;Riachos - Torres Novas - Golega
-TN9433001;gare;Azambuja;Azambuja;Azambuja;9433001;;39.068443;-8.866375;PT;Europe/Lisbon;Q634164;R|U;;nom;2525484700;Q8779323;;;94_33001;Azambuja
+TN9433001;gare;Azambuja;Azambuja;Azambuja;9433001;;39.068443;-8.866375;PT;Europe/Lisbon;Q634164;R;;nom;2525484700;Q8779323;;;94_33001;Azambuja
 TN9433043;gare;Virtudes;Virtudes;Virtudes;9433043;;39.086584;-8.827872;PT;Europe/Lisbon;Q634164;R;;nom;1674361528;Q8842302;;;94_33043;Virtudes
 TN9433084;gare;Reguengo - Vale da Pedra;Reguengo - Vale da Pedra - Pontével;Reguengo - Vale da Pedra - Pontével;9433084;;39.099514;-8.793532;PT;Europe/Lisbon;Q841304;IR|R;;nom;1674361527;Q8841596;;;94_33084;Reguengo - Vale da Pedra
 TN9434009;gare;Entroncamento;Entroncamento;Entroncamento;9434009;;39.46165;-8.47375;PT;Europe/Lisbon;Q990422;AP|IC|IR|R;;nom;10783341028;Q9254161;;;94_34009;Entroncamento
@@ -154,16 +113,13 @@ TN9434702;gare;Pelariga;Pelariga;Pelariga;9434702;;39.967774;-8.633263;PT;Europe
 TN9434744;gare;Simões;Simões;Simões;9434744;;40.010899;-8.633538;PT;Europe/Lisbon;Q543993;R;;nom;1662820054;Q18483409;;;94_34744;Simoes
 TN9434801;gare;Soure;Soure;Soure;9434801;;40.055016;-8.639486;PT;Europe/Lisbon;Q543993;R;;nom;12000965457;Q8841981;;;94_34801;Soure
 TN9434868;gare;Vila Nova de Anços;Vila Nova de Anços;Vila Nova de Anços;9434868;;40.107755;-8.637885;PT;Europe/Lisbon;Q543993;R;;nom;1662820056;Q18483520;;;94_34868;Vila Nova de Ancos
-TN9435006;gare;Granja do Ulmeiro - Alfarelos;Granja do Ulmeiro - Alfarelos;Granja do Ulmeiro - Alfarelos;9435006;;40.164905;-8.63471;PT;Europe/Lisbon;Q543993;IC|IR|R|U;;nom;12000965456;Q8779242;;;94_35006;Granja do Ulmeiro - Alfarelos
-TN9435030;gare;Formoselha - Santo Varão;Formoselha - Santo Varão;Formoselha - Santo Varão;9435030;;40.179476;-8.607076;PT;Europe/Lisbon;Q45815;R|U;;nom;12000965455;Q18482889;;;94_35030;Formoselha - Santo Varao
-TN9435055;gare;Pereira;Pereira;Pereira;9435055;;40.18636;-8.584953;PT;Europe/Lisbon;Q45815;R|U;;nom;1657224026;Q18483183;;;94_35055;Pereira
-TN9435097;gare;Ameal;Ameal;Ameal;9435097;;40.192339;-8.544118;PT;Europe/Lisbon;Q45412;U;;nom;1657224010;Q16492782;;;94_35097;Ameal
-TN9435105;gare;Vila Pouca do Campo;Vila Pouca do Campo;Vila Pouca do Campo;9435105;;40.192951;-8.525001;PT;Europe/Lisbon;Q45412;U;;nom;1657223997;Q16492843;;;94_35105;Vila Pouca do Campo
-TN9435139;gare;Taveiro;Taveiro;Taveiro;9435139;;40.205922;-8.500278;PT;Europe/Lisbon;Q45412;R|U;;nom;11184648305;Q8842044;;;94_35139;Taveiro
-TN9435147;gare;Casais;Casais;Casais;9435147;;40.204772;-8.48388;PT;Europe/Lisbon;Q45412;U;;nom;1657224013;Q18001795;;;94_35147;Casais
-TN9435162;gare;Espadaneira;Espadaneira;Espadaneira;9435162;;40.209065;-8.470772;PT;Europe/Lisbon;Q45412;R|U;;nom;1657224011;Q18001798;;;94_35162;Espadaneira
-TN9435170;gare;Bencanta;Bencanta;Bencanta;9435170;;40.214512;-8.456107;PT;Europe/Lisbon;Q45412;R|U;;nom;1657224012;Q16497696;;;94_35170;Bencanta
-TN9436004;gare;Coimbra-B;Coimbra-B;Coimbra-B;9436004;;40.224728;-8.440477;PT;Europe/Lisbon;Q45412;AP|IC|IR|R|U;;nom;10783341029;Q800632;;;94_36004;Coimbra-B
+TN9435006;gare;Granja do Ulmeiro - Alfarelos;Granja do Ulmeiro - Alfarelos;Granja do Ulmeiro - Alfarelos;9435006;;40.164905;-8.63471;PT;Europe/Lisbon;Q543993;IC|IR|R;;nom;12000965456;Q8779242;;;94_35006;Granja do Ulmeiro - Alfarelos
+TN9435030;gare;Formoselha - Santo Varão;Formoselha - Santo Varão;Formoselha - Santo Varão;9435030;;40.179476;-8.607076;PT;Europe/Lisbon;Q45815;R;;nom;12000965455;Q18482889;;;94_35030;Formoselha - Santo Varao
+TN9435055;gare;Pereira;Pereira;Pereira;9435055;;40.18636;-8.584953;PT;Europe/Lisbon;Q45815;R;;nom;1657224026;Q18483183;;;94_35055;Pereira
+TN9435139;gare;Taveiro;Taveiro;Taveiro;9435139;;40.205922;-8.500278;PT;Europe/Lisbon;Q45412;R;;nom;11184648305;Q8842044;;;94_35139;Taveiro
+TN9435162;gare;Espadaneira;Espadaneira;Espadaneira;9435162;;40.209065;-8.470772;PT;Europe/Lisbon;Q45412;R;;nom;1657224011;Q18001798;;;94_35162;Espadaneira
+TN9435170;gare;Bencanta;Bencanta;Bencanta;9435170;;40.214512;-8.456107;PT;Europe/Lisbon;Q45412;R;;nom;1657224012;Q16497696;;;94_35170;Bencanta
+TN9436004;gare;Coimbra-B;Coimbra-B;Coimbra-B;9436004;;40.224728;-8.440477;PT;Europe/Lisbon;Q45412;AP|IC|IR|R;;nom;10783341029;Q800632;;;94_36004;Coimbra-B
 TN9436046;gare;Adémia;Adémia;Adémia;9436046;;40.251341;-8.450223;PT;Europe/Lisbon;Q45412;R;;nom;1655345062;Q16492777;;;94_36046;Ademia
 TN9436053;gare;Vilela - Fornos;Vilela - Fornos;Vilela - Fornos;9436053;;40.263243;-8.441358;PT;Europe/Lisbon;Q45412;R;;nom;1655345063;Q16492846;;;94_36053;Vilela - Fornos
 TN9436087;gare;Souselas;Souselas;Souselas;9436087;;40.286239;-8.425646;PT;Europe/Lisbon;Q45412;R;;nom;12000965454;Q8841988;;;94_36087;Souselas
@@ -176,29 +132,23 @@ TN9437184;gare;Paraimo - Sangalhos;Paraimo;Paraimo;9437184;;40.481204;-8.480145;
 TN9437218;gare;Oliveira do Bairro;Oliveira do Bairro;Oliveira do Bairro;9437218;;40.510159;-8.498744;PT;Europe/Lisbon;Q405241;IR|R;;nom;12000965448;Q8841322;;;94_37218;Oliveira do Bairro
 TN9437275;gare;Oiã;Oiã;Oiã;9437275;;40.543549;-8.549914;PT;Europe/Lisbon;Q405241;R;;nom;12000965447;Q8841325;;;94_37275;Oia
 TN9437358;gare;Quintans;Quintans;Quintans;9437358;;40.591037;-8.61269;PT;Europe/Lisbon;Q485581;R;;nom;12000965446;Q8202404;;;94_37358;Quintans
-TN9438000;gare;Aveiro;Aveiro;Aveiro;9438000;;40.643387;-8.640455;PT;Europe/Lisbon;Q485581;AP|IC|IR|R|U;;nom;10783341030;Q800417;;;94_38000;Aveiro
-TN9438075;gare;Cacia;Cacia;Cacia;9438075;;40.684786;-8.598172;PT;Europe/Lisbon;Q485581;R|U;;nom;12000965445;Q10275768;;;94_38075;Cacia
-TN9438117;gare;Canelas;Canelas;Canelas;9438117;;40.716364;-8.564004;PT;Europe/Lisbon;Q381337;U;;nom;2388563651;Q8202363;;;94_38117;Canelas
-TN9438125;gare;Salreu;Salreu;Salreu;9438125;;40.728861;-8.564873;PT;Europe/Lisbon;Q381337;U;;nom;2388561028;Q16492821;;;94_38125;Salreu
-TN9438158;gare;Estarreja;Estarreja;Estarreja;9438158;;40.751148;-8.575477;PT;Europe/Lisbon;Q381337;IC|IR|R|U;;nom;10783341031;Q8779744;;;94_38158;Estarreja
-TN9438216;gare;Avanca;Avanca;Avanca;9438216;;40.808416;-8.585402;PT;Europe/Lisbon;Q381337;R|U;;nom;2388558784;Q16492787;;;94_38216;Avanca
-TN9438240;gare;Válega;Válega;Válega;9438240;;40.834197;-8.601501;PT;Europe/Lisbon;Q404261;U;;nom;1647271728;Q8202415;;;94_38240;Valega
-TN9438299;gare;Ovar;Ovar;Ovar;9438299;;40.864042;-8.616675;PT;Europe/Lisbon;Q404261;IC|IR|R|U;;nom;10783341032;Q8841397;;;94_38299;Ovar
-TN9438356;gare;Carvalheira - Maceda;Carvalheira - Maceda;Carvalheira - Maceda;9438356;;40.925112;-8.626167;PT;Europe/Lisbon;Q404261;U;;nom;2388518973;Q18482672;;;94_38356;Carvalheira - Maceda
-TN9438372;gare;Cortegaça;Cortegaça;Cortegaça;9438372;;40.940648;-8.630246;PT;Europe/Lisbon;Q404261;U;;nom;1848098891;Q18482707;;;94_38372;Cortegaca
-TN9438406;gare;Esmoriz;Esmoriz;Esmoriz;9438406;;40.96277;-8.635499;PT;Europe/Lisbon;Q404261;IR|R|U;;nom;12000965444;Q523028;;;94_38406;Esmoriz
-TN9438414;gare;Paramos;Paramos;Paramos;9438414;;40.975695;-8.636906;PT;Europe/Lisbon;Q13225053;R|U;;nom;2388504645;Q8202402;;;94_38414;Paramos
-TN9438422;gare;Silvalde;Silvalde;Silvalde;9438422;;40.990344;-8.640736;PT;Europe/Lisbon;Q13225053;U;;nom;2388503744;Q9624753;;;94_38422;Silvalde
-TN9439008;gare;Espinho;Espinho;Espinho;9439008;;41.006287;-8.644395;PT;Europe/Lisbon;Q13225053;AP|IC|IR|R|U;;nom;3939554563;Q8779739;;XXE;94_39008;Espinho
-TN9439040;gare;Granja;Granja;Granja;9439040;;41.038534;-8.647129;PT;Europe/Lisbon;Q191135;R|U;;nom;11186801826;Q10275772;;;94_39040;Granja
-TN9439057;gare;Aguda;Aguda;Aguda;9439057;;41.050513;-8.651162;PT;Europe/Lisbon;Q191135;R|U;;nom;2388495727;Q8202327;;;94_39057;Aguda
-TN9439073;gare;Miramar;Miramar;Miramar;9439073;;41.067165;-8.649861;PT;Europe/Lisbon;Q191135;R|U;;nom;2388425551;Q976927;;;94_39073;Miramar
-TN9439081;gare;Francelos;Francelos;Francelos;9439081;;41.081567;-8.647481;PT;Europe/Lisbon;Q191135;R|U;;nom;2388425550;Q8202378;;;94_39081;Francelos
-TN9439115;gare;Valadares;Valadares;Valadares;9439115;;41.099018;-8.632061;PT;Europe/Lisbon;Q191135;R|U;;nom;12000965443;Q8842137;;;94_39115;Valadares
-TN9439123;gare;Madalena;Madalena;Madalena;9439123;;41.111487;-8.637766;PT;Europe/Lisbon;Q191135;R|U;;nom;1643655286;Q8202390;;;94_39123;Madalena
-TN9439149;gare;Coimbrões;Coimbrões;Coimbrões;9439149;;41.12437;-8.634084;PT;Europe/Lisbon;Q191135;R|U;;nom;1643655285;Q2919834;;;94_39149;Coimbroes
-TN9439164;gare;Vila Nova de Gaia - Devesas;Gaia;Gaia;9439164;;41.129759;-8.620282;PT;Europe/Lisbon;Q191135;AP|IC|IR|R|U;;nom;10783341033;Q643642;;;94_39164;Vila Nova de Gaia - Devesas
-TN9439172;gare;General Torres;General Torres;General Torres;9439172;;41.133188;-8.608679;PT;Europe/Lisbon;Q191135;R|U;;nom;3939844857;Q5576787;;;94_39172;General Torres
+TN9438000;gare;Aveiro;Aveiro;Aveiro;9438000;;40.643387;-8.640455;PT;Europe/Lisbon;Q485581;AP|IC|IR|R;;nom;10783341030;Q800417;;;94_38000;Aveiro
+TN9438075;gare;Cacia;Cacia;Cacia;9438075;;40.684786;-8.598172;PT;Europe/Lisbon;Q485581;R;;nom;12000965445;Q10275768;;;94_38075;Cacia
+TN9438158;gare;Estarreja;Estarreja;Estarreja;9438158;;40.751148;-8.575477;PT;Europe/Lisbon;Q381337;IC|IR|R;;nom;10783341031;Q8779744;;;94_38158;Estarreja
+TN9438216;gare;Avanca;Avanca;Avanca;9438216;;40.808416;-8.585402;PT;Europe/Lisbon;Q381337;R;;nom;2388558784;Q16492787;;;94_38216;Avanca
+TN9438299;gare;Ovar;Ovar;Ovar;9438299;;40.864042;-8.616675;PT;Europe/Lisbon;Q404261;IC|IR|R;;nom;10783341032;Q8841397;;;94_38299;Ovar
+TN9438406;gare;Esmoriz;Esmoriz;Esmoriz;9438406;;40.96277;-8.635499;PT;Europe/Lisbon;Q404261;IR|R;;nom;12000965444;Q523028;;;94_38406;Esmoriz
+TN9438414;gare;Paramos;Paramos;Paramos;9438414;;40.975695;-8.636906;PT;Europe/Lisbon;Q13225053;R;;nom;2388504645;Q8202402;;;94_38414;Paramos
+TN9439008;gare;Espinho;Espinho;Espinho;9439008;;41.006287;-8.644395;PT;Europe/Lisbon;Q13225053;AP|IC|IR|R;;nom;3939554563;Q8779739;;XXE;94_39008;Espinho
+TN9439040;gare;Granja;Granja;Granja;9439040;;41.038534;-8.647129;PT;Europe/Lisbon;Q191135;R;;nom;11186801826;Q10275772;;;94_39040;Granja
+TN9439057;gare;Aguda;Aguda;Aguda;9439057;;41.050513;-8.651162;PT;Europe/Lisbon;Q191135;R;;nom;2388495727;Q8202327;;;94_39057;Aguda
+TN9439073;gare;Miramar;Miramar;Miramar;9439073;;41.067165;-8.649861;PT;Europe/Lisbon;Q191135;R;;nom;2388425551;Q976927;;;94_39073;Miramar
+TN9439081;gare;Francelos;Francelos;Francelos;9439081;;41.081567;-8.647481;PT;Europe/Lisbon;Q191135;R;;nom;2388425550;Q8202378;;;94_39081;Francelos
+TN9439115;gare;Valadares;Valadares;Valadares;9439115;;41.099018;-8.632061;PT;Europe/Lisbon;Q191135;R;;nom;12000965443;Q8842137;;;94_39115;Valadares
+TN9439123;gare;Madalena;Madalena;Madalena;9439123;;41.111487;-8.637766;PT;Europe/Lisbon;Q191135;R;;nom;1643655286;Q8202390;;;94_39123;Madalena
+TN9439149;gare;Coimbrões;Coimbrões;Coimbrões;9439149;;41.12437;-8.634084;PT;Europe/Lisbon;Q191135;R;;nom;1643655285;Q2919834;;;94_39149;Coimbroes
+TN9439164;gare;Vila Nova de Gaia - Devesas;Gaia;Gaia;9439164;;41.129759;-8.620282;PT;Europe/Lisbon;Q191135;AP|IC|IR|R;;nom;10783341033;Q643642;;;94_39164;Vila Nova de Gaia - Devesas
+TN9439172;gare;General Torres;General Torres;General Torres;9439172;;41.133188;-8.608679;PT;Europe/Lisbon;Q191135;R;;nom;3939844857;Q5576787;;;94_39172;General Torres
 TN9440014;gare;Soudos - Vila Nova;Soudos - Vila Nova;Soudos - Vila Nova;9440014;;39.542867;-8.471628;PT;Europe/Lisbon;Q622817;R;;nom;5520767131;Q19702787;;;94_40014;Soudos - Vila Nova
 TN9440030;gare;Carrascal - Delongo;Carrascal - Delongo;Carrascal - Delongo;9440030;;39.548587;-8.462835;PT;Europe/Lisbon;Q622817;R;;nom;5520767130;Q19702719;;;94_40030;Carrascal - Delongo
 TN9440063;gare;Curvaceiras;Curvaceiras;Curvaceiras;9440063;;39.547933;-8.429793;PT;Europe/Lisbon;Q622817;R;;nom;5520767125;Q19702737;;;94_40063;Curvaceiras
@@ -317,22 +267,8 @@ TN9457117;gare;Assumar;Assumar;Assumar;9457117;;39.138877;-7.382279;PT;Europe/Li
 TN9457174;gare;Arronches;Arronches;Arronches;9457174;;39.096845;-7.333348;PT;Europe/Lisbon;Q700311;R;;nom;5517652860;Q16492785;;;94_57174;Arronches
 TN9457315;gare;Santa Eulália-A;Santa Eulália-A;Santa Eulália-A;9457315;;39.006055;-7.253388;PT;Europe/Lisbon;Q243849;R;;nom;5517652859;Q16483811;;;94_57315;Santa Eulalia-A
 TN9457497;gare;Elvas;Elvas;Elvas;9457497;;38.895542;-7.142277;PT;Europe/Lisbon;Q243849;R;;nom;10784532230;Q8779717;;;94_57497;Elvas
-TN9459006;gare;Lisboa - Rossio;Lisboa - Rossio;Lisboa - Rossio;9459006;;38.714591;-9.141841;PT;Europe/Lisbon;Q597;U;;nom;10784361759;Q431458;;;94_59006;Lisboa Rossio
-TN9460004;gare;Campolide;Campolide;Campolide;9460004;;38.732509;-9.16774;PT;Europe/Lisbon;Q597;U;;nom;10784361784;Q801108;;;94_60004;Campolide
-TN9460038;gare;Santa Cruz - Damaia;Santa Cruz - Damaia;Santa Cruz - Damaia;9460038;;38.746954;-9.213229;PT;Europe/Lisbon;Q189166;U;;nom;13889885812;Q4120786;;;94_60038;Santa Cruz - Damaia
-TN9460046;gare;Benfica;Benfica;Benfica;9460046;;38.74437;-9.199621;PT;Europe/Lisbon;Q597;U;;nom;13889826599;Q3383447;;;94_60046;Benfica
-TN9460087;gare;Amadora;Amadora;Amadora;9460087;;38.759833;-9.236028;PT;Europe/Lisbon;Q189166;U;;gtfs;;;;;94_60087;Amadora
-TN9460095;gare;Reboleira;Reboleira;Reboleira;9460095;;38.750959;-9.222956;PT;Europe/Lisbon;Q189166;U;;nom;13277737723;Q801351;;;94_60095;Reboleira
-TN9460103;gare;Queluz - Belas;Queluz - Belas;Queluz - Belas;9460103;;38.758815;-9.257027;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_60103;Queluz - Belas
-TN9460111;gare;Monte Abraao;Monte Abraao;Monte Abraao;9460111;;38.755426;-9.265351;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_60111;Monte Abraao
-TN9460137;gare;Massama - Barcarena;Massama - Barcarena;Massama - Barcarena;9460137;;38.751506;-9.283588;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_60137;Massama - Barcarena
-TN9461002;gare;Agualva-Cacém;Agualva-Cacém;Agualva-Cacém;9461002;;38.766517;-9.298468;PT;Europe/Lisbon;Q190187;IR|R|U;;nom;13811317509;Q248226;;;94_61002;Agualva - Cacem
-TN9461044;gare;Rio de Mouro;Rio de Mouro;Rio de Mouro;9461044;;38.78449;-9.321619;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_61044;Rio de Mouro
-TN9461051;gare;Merces;Merces;Merces;9461051;;38.793293;-9.330818;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_61051;Merces
-TN9461069;gare;Algueirao - Mem Martins;Algueirao - Mem Martins;Algueirao - Mem Martins;9461069;;38.797712;-9.340985;PT;Europe/Lisbon;Q190187;U;;gtfs;;;;;94_61069;Algueirao - Mem Martins
-TN9461093;gare;Portela de Sintra;Portela de Sintra;Portela de Sintra;9461093;;38.802246;-9.376373;PT;Europe/Lisbon;Q190187;U;;nom;13277700528;Q4120785;;;94_61093;Portela de Sintra
-TN9461101;gare;Sintra;Sintra;Sintra;9461101;;38.799261;-9.385358;PT;Europe/Lisbon;Q190187;U;;nom;13277700527;Q801446;;;94_61101;Sintra
-TN9462042;gare;Mira Sintra-Meleças;Mira Sintra-Meleças;Mira Sintra-Meleças;9462042;;38.789574;-9.312642;PT;Europe/Lisbon;Q190187;IR|R|U;;nom;12187965105;Q8841053;;;94_62042;Mira Sintra - Melecas
+TN9461002;gare;Agualva-Cacém;Agualva-Cacém;Agualva-Cacém;9461002;;38.766517;-9.298468;PT;Europe/Lisbon;Q190187;IR|R;;nom;13811317509;Q248226;;;94_61002;Agualva - Cacem
+TN9462042;gare;Mira Sintra-Meleças;Mira Sintra-Meleças;Mira Sintra-Meleças;9462042;;38.789574;-9.312642;PT;Europe/Lisbon;Q190187;IR|R;;nom;12187965105;Q8841053;;;94_62042;Mira Sintra - Melecas
 TN9462091;gare;Sabugo;Sabugo;Sabugo;9462091;;38.830557;-9.300013;PT;Europe/Lisbon;Q190187;IR|R;;nom;12187339953;Q10275790;;;94_62091;Sabugo
 TN9462133;gare;Pedra Furada;Pedra Furada;Pedra Furada;9462133;;38.870558;-9.29547;PT;Europe/Lisbon;Q190187;R;;nom;12187368702;Q16781965;;;94_62133;Pedra Furada
 TN9462166;gare;Mafra;Mafra;Mafra;9462166;;38.897435;-9.291355;PT;Europe/Lisbon;Q986419;IR|R;;nom;12187368703;Q10275776;;;94_62166;Mafra
@@ -348,6 +284,9 @@ TN9462471;gare;Torres Vedras;Torres Vedras;Torres Vedras;9462471;;39.092709;-9.2
 TN9462547;gare;Ramalhal;Ramalhal;Ramalhal;9462547;;39.139518;-9.215977;PT;Europe/Lisbon;Q917319;IR|R;;nom;12188047022;Q8841573;;;94_62547;Ramalhal
 TN9462612;gare;Outeiro;Outeiro;Outeiro;9462612;;39.191231;-9.177168;PT;Europe/Lisbon;Q917319;IR|R;;nom;12188047024;Q8841387;;;94_62612;Outeiro
 TN9462703;gare;Bombarral;Bombarral;Bombarral;9462703;;39.265091;-9.153332;PT;Europe/Lisbon;Q891820;IR|R;;nom;12188047032;Q8779401;;;94_62703;Bombarral
+TN9462745;gare;Paul;Paul;Paul;9462745;;39.294201;-9.162669;PT;Europe/Lisbon;Q891820;R;;gtfs;;;;;94_62745;Paul
+TN9462786;gare;São Mamede;São Mamede;São Mamede;9462786;;39.322024;-9.179447;PT;Europe/Lisbon;Q891820;R;;nom;12188047035;Q18483456;;;94_62786;Sao Mamede
+TN9462802;gare;Dagorda - Peniche;Dagorda - Peniche;Dagorda - Peniche;9462802;;39.344501;-9.172402;PT;Europe/Lisbon;Q275862;R;;nom;2946724570;Q18482763;;;94_62802;Dagorda - Peniche
 TN9462836;gare;Óbidos;Óbidos;Óbidos;9462836;;39.364895;-9.159024;PT;Europe/Lisbon;Q275862;IR|R;;nom;12188047050;Q17000336;;;94_62836;Obidos
 TN9463008;gare;Caldas da Rainha;Caldas da Rainha;Caldas da Rainha;9463008;;39.406747;-9.140259;PT;Europe/Lisbon;Q275689;IR|R;;nom;10784532235;Q587866;;;94_63008;Caldas da Rainha
 TN9463107;gare;Salir do Porto;Salir do Porto;Salir do Porto;9463107;;39.492421;-9.147284;PT;Europe/Lisbon;Q275689;IR|R;;nom;12455911356;Q18483298;;;94_63107;Salir do Porto
@@ -362,42 +301,12 @@ TN9463685;gare;Monte Real;Monte Real;Monte Real;9463685;;39.85599;-8.847774;PT;E
 TN9463735;gare;Monte Redondo;Monte Redondo;Monte Redondo;9463735;;39.900328;-8.834416;PT;Europe/Lisbon;Q206933;IR|R;;nom;12455911366;Q19702819;;;94_63735;Monte Redondo
 TN9463800;gare;Guia;Guia;Guia;9463800;;39.948163;-8.801778;PT;Europe/Lisbon;Q966825;IR|R;;nom;12455911381;Q18482932;;;94_63800;Guia
 TN9463875;gare;Louriçal;Louriçal;Louriçal;9463875;;40.016256;-8.815497;PT;Europe/Lisbon;Q966825;IR|R;;nom;12455911383;Q8840980;;;94_63875;Lourical
-TN9464022;gare;Bifurcação de Lares;Bifurcação de Lares;Bifurcação de Lares;9464022;;40.122362;-8.764569;PT;Europe/Lisbon;Q45815;IR|R|U;;nom;12455941141;Q557982;;;94_64022;Bifurcacao de Lares
-TN9464055;gare;Lares;Lares;Lares;9464055;;40.129548;-8.78751;PT;Europe/Lisbon;Q428459;U;;nom;7859778358;Q18482975;;;94_64055;Lares
-TN9464089;gare;Fontela;Fontela;Fontela;9464089;;40.141907;-8.813791;PT;Europe/Lisbon;Q428459;U;;nom;12455941156;Q8779793;;;94_64089;Fontela
-TN9464097;gare;Fontela-A;Fontela-A;Fontela-A;9464097;;40.146326;-8.8249;PT;Europe/Lisbon;Q428459;U;;nom;7859778357;Q18482882;;;94_64097;Fontela-A
-TN9464113;gare;Figueira da Foz;Figueira da Foz;Figueira da Foz;9464113;;40.148485;-8.846896;PT;Europe/Lisbon;Q428459;IR|R|U;;nom;10783341034;Q800752;;;94_64113;Figueira da Foz
-TN9465029;gare;Montemor;Montemor;Montemor;9465029;;40.160075;-8.654094;PT;Europe/Lisbon;Q543993;U;;nom;7859778354;Q558030;;;94_65029;Montemor
-TN9465052;gare;Marujal;Marujal;Marujal;9465052;;40.140377;-8.67629;PT;Europe/Lisbon;Q45815;U;;nom;7859778355;Q557999;;;94_65052;Marujal
-TN9465086;gare;Verride;Verride;Verride;9465086;;40.139659;-8.703462;PT;Europe/Lisbon;Q45815;IR|R|U;;nom;7924191757;Q10275801;;;94_65086;Verride
-TN9465128;gare;Reveles;Reveles;Reveles;9465128;;40.130683;-8.745354;PT;Europe/Lisbon;Q45815;U;;nom;7859778356;Q556974;;;94_65128;Reveles
-TN9466019;gare;Marvila;Marvila;Marvila;9466019;;38.739031;-9.108757;PT;Europe/Lisbon;Q597;U;;nom;9172458005;Q48855300;;;94_66019;Marvila
-TN9466035;gare;Roma-Areeiro;Roma-Areeiro;Roma-Areeiro;9466035;;38.745686;-9.135507;PT;Europe/Lisbon;Q597;U;;nom;10783321234;Q801111;;;94_66035;Roma - Areeiro
-TN9466050;gare;Entrecampos;Entrecampos;Entrecampos;9466050;;38.74457;-9.148592;PT;Europe/Lisbon;Q597;AP|IC|IR|R|U;;nom;10783321233;Q801109;;;94_66050;Entrecampos
-TN9466076;gare;Sete Rios;Sete Rios;Sete Rios;9466076;;38.74024;-9.166666;PT;Europe/Lisbon;Q597;IC|IR|R|U;;nom;7246133245;Q801112;;;94_66076;Sete Rios
-TN9467025;gare;Alcântara-Terra;Alcântara-Terra;Alcântara-Terra;9467025;;38.707408;-9.173264;PT;Europe/Lisbon;Q597;U;;nom;10783321232;Q801106;;;94_67025;Alcantara - Terra
-TN9468007;gare;Pinhal Novo;Pinhal Novo;Pinhal Novo;9468007;;38.630116;-8.912832;PT;Europe/Lisbon;Q850855;AP|IC|U;;nom;10784532217;Q801319;;;94_68007;Pinhal Novo
-TN9468049;gare;Venda do Alcaide;Venda do Alcaide;Venda do Alcaide;9468049;;38.606238;-8.888619;PT;Europe/Lisbon;Q850855;U;;nom;12271411938;Q18475342;;;94_68049;Venda do Alcaide
-TN9468080;gare;Palmela;Palmela-A;Palmela-A;9468080;;38.571578;-8.872754;PT;Europe/Lisbon;Q850855;U;;nom;12623959327;Q18475471;;;94_68080;Palmela
-TN9468122;gare;Setúbal;Setúbal;Setúbal;9468122;;38.531203;-8.884547;PT;Europe/Lisbon;Q173699;U;;nom;10784532229;Q8841939;;;94_68122;Setubal
-TN9468130;gare;Praça do Quebedo;Praça do Quebedo;Praça do Quebedo;9468130;;38.524932;-8.886522;PT;Europe/Lisbon;Q173699;U;;nom;12195033251;Q18200540;;;94_68130;Praca do Quebedo
-TN9469005;gare;Cais do Sodré;Cais do Sodré;Cais do Sodré;9469005;;38.705979;-9.145737;PT;Europe/Lisbon;Q597;U;;nom;10783321226;Q389608;;;94_69005;Cais do Sodre
-TN9469013;gare;Santos;Santos;Santos;9469013;;38.706166;-9.155282;PT;Europe/Lisbon;Q597;U;;nom;13873469080;Q5552867;;;94_69013;Santos
-TN9469039;gare;Alcântara-Mar;Alcântara-Mar;Alcântara-Mar;9469039;;38.702355;-9.174024;PT;Europe/Lisbon;Q597;U;;nom;10783321227;Q801104;;;94_69039;Alcantara - Mar
-TN9469054;gare;Belém;Belém;Belém;9469054;;38.696178;-9.197587;PT;Europe/Lisbon;Q597;U;;nom;6295314772;Q801107;;;94_69054;Belem
-TN9469088;gare;Algés;Algés;Algés;9469088;;38.69838;-9.229387;PT;Europe/Lisbon;Q926700;U;;nom;10783321228;Q594294;;;94_69088;Alges
-TN9469104;gare;Cruz Quebrada;Cruz Quebrada;Cruz Quebrada;9469104;;38.699796;-9.252204;PT;Europe/Lisbon;Q926700;U;;nom;4359035912;Q8779679;;;94_69104;Cruz Quebrada
-TN9469120;gare;Caxias;Caxias;Caxias;9469120;;38.698749;-9.274392;PT;Europe/Lisbon;Q926700;U;;nom;12271411917;Q8779547;;;94_69120;Caxias
-TN9469146;gare;Paço de Arcos;Paço de Arcos;Paço de Arcos;9469146;;38.697106;-9.290535;PT;Europe/Lisbon;Q926700;U;;nom;12271411918;Q8841431;;;94_69146;Paco de Arcos
-TN9469161;gare;Santo Amaro;Santo Amaro;Santo Amaro;9469161;;38.687033;-9.312549;PT;Europe/Lisbon;Q926700;U;;nom;12271411919;Q8841904;;;94_69161;Santo Amaro
-TN9469179;gare;Oeiras;Oeiras;Oeiras;9469179;;38.688479;-9.318917;PT;Europe/Lisbon;Q926700;U;;nom;6295314767;Q801287;;;94_69179;Oeiras
-TN9469187;gare;Carcavelos;Carcavelos;Carcavelos;9469187;;38.687829;-9.337319;PT;Europe/Lisbon;Q273059;U;;nom;10783321229;Q8779503;;;94_69187;Carcavelos
-TN9469203;gare;Parede;Parede;Parede;9469203;;38.689741;-9.356402;PT;Europe/Lisbon;Q273059;U;;nom;12271411924;Q8841419;;;94_69203;Parede
-TN9469229;gare;São Pedro do Estoril;São Pedro do Estoril;São Pedro do Estoril;9469229;;38.695372;-9.371697;PT;Europe/Lisbon;Q273059;U;;nom;6295314764;Q8842004;;;94_69229;Sao Pedro do Estoril
-TN9469237;gare;São João do Estoril;São João do Estoril;São João do Estoril;9469237;;38.701059;-9.385468;PT;Europe/Lisbon;Q273059;U;;nom;6295314763;Q8841991;;;94_69237;Sao Joao do Estoril
-TN9469245;gare;Estoril;Estoril;Estoril;9469245;;38.703251;-9.398725;PT;Europe/Lisbon;Q273059;U;;nom;10783321230;Q800741;;;94_69245;Estoril
-TN9469252;gare;Monte Estoril;Monte Estoril;Monte Estoril;9469252;;38.703601;-9.406441;PT;Europe/Lisbon;Q273059;U;;nom;12271411929;Q8841082;;;94_69252;Monte Estoril
-TN9469260;gare;Cascais;Cascais;Cascais;9469260;;38.700875;-9.417913;PT;Europe/Lisbon;Q273059;U;;nom;10783321231;Q800613;;;94_69260;Cascais
+TN9464022;gare;Bifurcação de Lares;Bifurcação de Lares;Bifurcação de Lares;9464022;;40.122362;-8.764569;PT;Europe/Lisbon;Q45815;IR|R;;nom;12455941141;Q557982;;;94_64022;Bifurcacao de Lares
+TN9464113;gare;Figueira da Foz;Figueira da Foz;Figueira da Foz;9464113;;40.148485;-8.846896;PT;Europe/Lisbon;Q428459;IR|R;;nom;10783341034;Q800752;;;94_64113;Figueira da Foz
+TN9465086;gare;Verride;Verride;Verride;9465086;;40.139659;-8.703462;PT;Europe/Lisbon;Q45815;IR|R;;nom;7924191757;Q10275801;;;94_65086;Verride
+TN9466050;gare;Entrecampos;Entrecampos;Entrecampos;9466050;;38.74457;-9.148592;PT;Europe/Lisbon;Q597;AP|IC|IR|R;;nom;10783321233;Q801109;;;94_66050;Entrecampos
+TN9466076;gare;Sete Rios;Sete Rios;Sete Rios;9466076;;38.74024;-9.166666;PT;Europe/Lisbon;Q597;IC|IR|R;;nom;7246133245;Q801112;;;94_66076;Sete Rios
+TN9468007;gare;Pinhal Novo;Pinhal Novo;Pinhal Novo;9468007;;38.630116;-8.912832;PT;Europe/Lisbon;Q850855;AP|IC;;nom;10784532217;Q801319;;;94_68007;Pinhal Novo
 TN9471001;gare;Poceirão;Poceirão;Poceirão;9471001;;38.634394;-8.743367;PT;Europe/Lisbon;Q850855;IC;;nom;12009916738;Q8841496;;;94_71001;Poceirao
 TN9471050;gare;Fernando Pó;Fernando Pó;Fernando Pó;9471050;;38.63643;-8.691539;PT;Europe/Lisbon;Q850855;IC;;nom;5369198008;Q5788390;;;94_71050;Fernando Po
 TN9471126;gare;Pegões;Pegões;Pegões;9471126;;38.662233;-8.619402;PT;Europe/Lisbon;Q826511;IC;;nom;9827329936;Q8841440;;;94_71126;Pegoes
@@ -444,13 +353,5 @@ TN9490290;gare;Portimão;Portimão;Portimão;9490290;;37.144649;-8.537489;PT;Eur
 TN9490381;gare;Mexilhoeira Grande;Mexilhoeira Grande;Mexilhoeira Grande;9490381;;37.15416;-8.609664;PT;Europe/Lisbon;Q543542;R;;nom;4142370952;Q9287903;;;94_90381;Mexilhoeira Grande
 TN9490431;gare;Meia Praia;Meia Praia;Meia Praia;9490431;;37.118581;-8.647467;PT;Europe/Lisbon;Q732548;R;;nom;12271413949;Q8202394;;;94_90431;Meia Praia
 TN9490464;gare;Lagos;Lagos Train Station;Lagos;9490464;;37.108331;-8.671295;PT;Europe/Lisbon;Q732548;IR|R;;nom;4561570123;Q8780001;;;94_90464;Lagos
-TN9491058;gare;Praias do Sado-A;Praias do Sado-A;Praias do Sado-A;9491058;;38.517956;-8.83812;PT;Europe/Lisbon;Q173699;U;;gtfs;;;;;94_91058;Praias do Sado-A
 TN9492577;gare;Grândola;Grândola;Grândola;9492577;;38.181787;-8.554532;PT;Europe/Lisbon;Q986019;AP|IC;;nom;12025516950;Q8779870;;;94_92577;Grandola
 TN9493005;gare;Ermidas-Sado;Ermidas-Sado;Ermidas-Sado;9493005;;38.002774;-8.413982;PT;Europe/Lisbon;Q990433;AP|IC;;nom;1473511443;Q8779732;;;94_93005;Ermidas - Sado
-TN9495000;gare;Barreiro;Barreiro;Barreiro;9495000;;38.652901;-9.079272;PT;Europe/Lisbon;Q217394;U;;nom;10783321225;Q800450;;;94_95000;Barreiro
-TN9495026;gare;Barreiro-A;Barreiro-A;Barreiro-A;9495026;;38.659773;-9.071578;PT;Europe/Lisbon;Q217394;U;;nom;12623959431;Q8202346;;;94_95026;Barreiro-A
-TN9495042;gare;Lavradio;Lavradio;Lavradio;9495042;;38.661825;-9.058312;PT;Europe/Lisbon;Q217394;U;;nom;12009916740;Q5860044;;;94_95042;Lavradio
-TN9495059;gare;Baixa da Banheira;Baixa da Banheira;Baixa da Banheira;9495059;;38.659581;-9.044337;PT;Europe/Lisbon;Q933912;U;;nom;12623959430;Q8202343;;;94_95059;Baixa da Banheira
-TN9495075;gare;Alhos Vedros;Alhos Vedros;Alhos Vedros;9495075;;38.651804;-9.026538;PT;Europe/Lisbon;Q933912;U;;nom;12623959380;Q8202324;;;94_95075;Alhos Vedros
-TN9495109;gare;Moita;Moita;Moita;9495109;;38.644648;-8.995788;PT;Europe/Lisbon;Q933912;U;;nom;12009916739;Q8841062;;;94_95109;Moita
-TN9495125;gare;Penteado;Penteado;Penteado;9495125;;38.638162;-8.956258;PT;Europe/Lisbon;Q933912;U;;nom;7689353963;Q8202403;;;94_95125;Penteado

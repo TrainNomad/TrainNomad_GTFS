@@ -15,14 +15,13 @@ TN8301307;gare;Como San Giovanni;Como San Giovanni;Como San Giovanni;8301307;;45
 TN8301645;gare;Milano Porta Garibaldi (superficie);Milano Porta Garibaldi railway station;Milano Porta Garibaldi (superficie);8301645;;45.484561;9.187344;IT;Europe/Rome;Q490;EUROPEAN SLEEPER;;uic;11635678177;Q801187;;;8301645;Milano Porta Garibaldi
 TN8400055;gare;Amersfoort Centraal;Amersfoort Centraal;Amersfoort Centraal;8400055;;52.153898;5.374098;NL;Europe/Amsterdam;Q33421377;EUROPEAN SLEEPER;;uic;45489203;Q49854;;;8400055;Amersfoort Centraal
 TN8400058;gare;Amsterdam Centraal;Amsterdam Central Station;Amsterdam Centraal;8400058;;52.378901;4.900581;NL;Europe/Amsterdam;Q727;EUROPEAN SLEEPER;;uic;4290854847;Q50719;;XNAC;8400058;Amsterdam Centraal
-TN8400071;gare;Arnhem Centraal;Arnhem Centraal;Arnhem Centraal;8400071;;51.985069;5.899977;NL;Europe/Amsterdam;Q1310;EUROPEAN SLEEPER;;uic;14119771339;Q800399;;;8400071;Arnhem Centraal
 TN8400131;gare;Breda;Breda;Breda;8400131;;51.595143;4.780023;NL;Europe/Amsterdam;Q40844;EUROPEAN SLEEPER;;uic;43174364;Q800561;;;8400131;Breda
 TN8400173;gare;Deventer;Deventer;Deventer;8400173;;52.257293;6.161105;NL;Europe/Amsterdam;Q26296883;EUROPEAN SLEEPER;;uic;4530820007;Q17461651;;;8400173;Deventer
 TN8400206;gare;Eindhoven Centraal;Eindhoven Centraal;Eindhoven Centraal;8400206;;51.442962;5.479527;NL;Europe/Amsterdam;Q9832;EUROPEAN SLEEPER;;uic;7510315998;Q689942;;;8400206;Eindhoven Centraal
 TN8400280;gare;Den Haag HS;Den Haag HS;Den Haag HS;8400280;;52.070137;4.322276;NL;Europe/Amsterdam;Q36600;EUROPEAN SLEEPER;;uic;3497550450;Q800657;;;8400280;Den Haag HS
+TN8400424;gare;Maastricht;Maastricht;Maastricht;8400424;;50.850178;5.70525;NL;Europe/Amsterdam;Q1309;EUROPEAN SLEEPER;;uic;5311118145;Q689931;;;8400424;Maastricht
 TN8400526;gare;Roosendaal;Roosendaal;Roosendaal;8400526;;51.540329;4.45847;NL;Europe/Amsterdam;Q6903267;EUROPEAN SLEEPER;;uic;42966392;Q801378;;;8400526;Roosendaal
 TN8400530;gare;Rotterdam Centraal;Rotterdam Centraal;Rotterdam Centraal;8400530;;51.925057;4.469229;NL;Europe/Amsterdam;Q34370;EUROPEAN SLEEPER;;uic;4048801967;Q801388;;;8400530;Rotterdam Centraal
-TN8400621;gare;Utrecht Centraal;Utrecht Centraal;Utrecht Centraal;8400621;;52.089392;5.109821;NL;Europe/Amsterdam;Q39297398;EUROPEAN SLEEPER;;uic;45198301;Q575655;;;8400621;Utrecht Centraal
 TN8502113;gare;Aarau;Aarau;Aarau;8502113;;47.391456;8.051307;CH;Europe/Zurich;Q14274;EUROPEAN SLEEPER;;uic;3080746008;Q682274;;;8502113;Aarau
 TN8502215;gare;Muri AG;Muri;Muri;8502215;;47.276508;8.339857;CH;Europe/Zurich;Q69011;EUROPEAN SLEEPER;;uic;3080695752;Q15964190;;;8502215;Muri
 TN8503505;gare;Wettingen;Wettingen;Wettingen;8503505;;47.459683;8.316054;CH;Europe/Zurich;Q27576;EUROPEAN SLEEPER;;uic;3080695762;Q801598;;;8503505;Wettingen
@@ -30,12 +29,17 @@ TN8505004;gare;Arth-Goldau;Arth-Goldau;Arth-Goldau;8505004;;47.049131;8.549645;C
 TN8505119;gare;Göschenen;Göschenen;Göschenen;8505119;;46.665801;8.588714;CH;Europe/Zurich;Q69639;EUROPEAN SLEEPER;;uic;3074774942;Q684298;;;8505119;Göschenen
 TN8505213;gare;Bellinzona;Bellinzona;Bellinzona;8505213;;46.195124;9.029023;CH;Europe/Zurich;Q64044;EUROPEAN SLEEPER;;uic;3080372078;Q662556;;;8505213;Bellinzona
 TN8505300;gare;Lugano;Lugano;Lugano;8505300;;46.005499;8.946849;CH;Europe/Zurich;Q7024;EUROPEAN SLEEPER;;uic;2460241310;Q174946;;;8505300;Lugano
-TN8727100;gare;Paris Gare du Nord;Paris Gare du Nord;Paris Gare du Nord;8727100;;48.8804;2.354973;FR;Europe/Paris;Q90;EUROPEAN SLEEPER;;uic;3090733718;Q745942;;XFPN;8727100;Paris Gare du Nord
+TN8727103;gare;Paris Gare du Nord Surface Banlieue;Paris Gare du Nord;Paris Gare du Nord;8727103;;48.880988;2.356978;FR;Europe/Paris;Q90;EUROPEAN SLEEPER;;uic;13394733636;;;;8727103;Paris Gare du Nord
 TN8729560;gare;Aulnoye-Aymeries;Aulnoye-Aymeries;Aulnoye-Aymeries;8729560;;50.197407;3.843385;FR;Europe/Paris;Q43411;EUROPEAN SLEEPER;;uic;11053172919;Q2868344;;;8729560;Aulnoye-Aymeries
 TN8729600;gare;Saint-Quentin;Saint-Quentin;Saint-Quentin;8729600;;49.839979;3.297036;FR;Europe/Paris;Q182744;EUROPEAN SLEEPER;;uic;3486467305;Q2031679;;;8729600;Saint-Quentin
+TN8811007;gare;Schaerbeek - Schaarbeek;Schaerbeek - Schaarbeek;Schaerbeek - Schaarbeek;8811007;;50.878395;4.378458;BE;Europe/Brussels;Q239;EUROPEAN SLEEPER;;uic;3833189777;Q801418;;;8811007;Schaerbeek - Schaarbeek
+TN8811304;gare;Bruxelles-Luxembourg - Brussel-Luxemburg;Brussels-Luxembourg;Bruxelles-Luxembourg - Brussel-Luxemburg;8811304;;50.838199;4.373654;BE;Europe/Brussels;Q239;EUROPEAN SLEEPER;;uic;3887847332;Q800583;;;8811304;Bruxelles-Luxembourg - Brussel-Luxemburg
 TN8814001;gare;Bruxelles-Midi - Brussel-Zuid;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;;50.835775;4.336054;BE;Europe/Brussels;Q239;EUROPEAN SLEEPER;;uic;17401552;Q800587;;XBB;8814001;Bruxelles-Midi - Brussel-Zuid
 TN8821006;gare;Antwerpen-Centraal;Antwerpen-Centraal;Antwerpen-Centraal;8821006;;51.215995;4.421101;BE;Europe/Brussels;Q12892;EUROPEAN SLEEPER;;uic;348421822;Q800398;;XBAC;8821006;Antwerpen-Centraal
+TN8821121;gare;Antwerpen-Berchem;Antwerpen-Berchem;Antwerpen-Berchem;8821121;;51.199701;4.432335;BE;Europe/Brussels;Q12892;EUROPEAN SLEEPER;;uic;7272811038;Q800387;;;8821121;Antwerpen-Berchem
+TN8822004;gare;Mechelen;Mechelen;Mechelen;8822004;;51.017713;4.483742;BE;Europe/Brussels;Q162022;EUROPEAN SLEEPER;;uic;256563112;Q770919;;;8822004;Mechelen
+TN8833001;gare;Leuven;Leuven;Leuven;8833001;;50.881361;4.716388;BE;Europe/Brussels;Q118958;EUROPEAN SLEEPER;;uic;5467988372;Q801090;;;8833001;Leuven
 TN8841004;gare;Liège-Guillemins;Liège-Guillemins;Liège-Guillemins;8841004;;50.624728;5.567065;BE;Europe/Brussels;Q3992;EUROPEAN SLEEPER;;uic;5307127700;Q801116;;;8841004;Liège-Guillemins
-TN8844057;gare;Verviers-Palais;Verviers-Palais;Verviers-Palais;8844057;;50.590802;5.864286;BE;Europe/Brussels;Q202954;EUROPEAN SLEEPER;;uic;2981565079;Q1824615;;;8844057;Verviers-Palais
+TN8844008;gare;Verviers-Central;Verviers-Central;Verviers-Central;8844008;;50.588326;5.855102;BE;Europe/Brussels;Q202954;EUROPEAN SLEEPER;;uic;26446051;Q2234830;;;8844008;Verviers-Central
 TN8844503;gare;Welkenraedt;Welkenraedt;Welkenraedt;8844503;;50.659657;5.97549;BE;Europe/Brussels;Q152743;EUROPEAN SLEEPER;;uic;2540120495;Q2614479;;;8844503;Welkenraedt
 TN8881000;gare;Mons;Mons;Mons;8881000;;50.454044;3.941965;BE;Europe/Brussels;Q83407;EUROPEAN SLEEPER;;uic;6360374596;Q3097068;;;8881000;Mons

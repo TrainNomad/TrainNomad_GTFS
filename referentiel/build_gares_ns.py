@@ -35,7 +35,14 @@ from commun import BASE_DIR, GTFS_DIR, run  # noqa: E402
 NL_ZIP = os.path.join(GTFS_DIR, "NETHERLANDS", "nl_gtfs.zip")
 STATIONS_NL = os.path.join(BASE_DIR, "sources_officielles", "stations_nl.csv")
 # Gares que le flux place au point 0,0 et que la liste ne connaît pas : code -> (UIC, lat, lon)
-COMPLEMENTS = {"mop": ("8020234", 48.127721, 11.605519)}  # München Ost
+COMPLEMENTS = {
+    "mop": ("8020234", 48.127721, 11.605519),     # München Ost
+    "ebra": ("8013596", 52.069722, 8.603889),     # Brake (b Bielefeld), Wikidata Q4956029
+    "ibbenb": ("8021162", 52.27689, 7.721452),    # Ibbenbüren (DS100 "HI", pas le code du flux)
+}
+# Gares allemandes du flux à 0,0 : leur code est le DS100 en minuscules (hwis = Wissingen),
+# retrouvé dans le référentiel DB déjà construit.
+DB_GARES = [os.path.join(BASE_DIR, "operateurs", op, "gares.csv") for op in ("DB", "DB_REGIO")]
 STATIONS_NL_URL = "https://opendata.rijdendetreinen.nl/public/stations/stations-2023-09.csv"
 
 
@@ -54,7 +61,20 @@ def station_list(path: str = STATIONS_NL) -> dict:
     s = pd.read_csv(path, dtype=str, keep_default_na=False)
     out = {r.code.lower(): (r.uic if re.fullmatch(r"\d{7}", r.uic) else "", float(r.geo_lat), float(r.geo_lng))
            for r in s.itertuples(index=False)}
-    return {**out, **COMPLEMENTS}
+    return {**db_by_ds100(), **out, **COMPLEMENTS}  # la liste NS prime sur un code DS100 homonyme
+
+
+def db_by_ds100() -> dict:
+    """{ds100 en minuscules: (UIC, lat, lon)} des gares du référentiel DB."""
+    out = {}
+    for path in DB_GARES:
+        if not os.path.exists(path):
+            continue
+        g = pd.read_csv(path, sep=";", dtype=str, keep_default_na=False)
+        for r in g.itertuples(index=False):
+            if r.code_db and re.fullmatch(r"\d{7}", r.uic) and float(r.lat or 0) != 0:
+                out.setdefault(r.code_db.lower(), (r.uic, float(r.lat), float(r.lon)))
+    return out
 
 
 def search_names(st) -> list:

@@ -1,0 +1,3 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TNTRANSMANCHE-fr-0-ze-newhaven-atoumod0118;port;Newhaven (terminal ferry);Newhaven Ferry Terminal;Newhaven Ferry Terminal;;;50.788425;0.055537;GB;Europe/London;Q1254688;;FERRY;gtfs;;;;;FR:0:ZE:NEWHAVEN:ATOUMOD0118;Newhaven (terminal ferry)
+TNTRANSMANCHE-fr-76217-ze-dieppe-atoumod0118;port;Dieppe (terminal transmanche);Dieppe Ferry Terminal;Dieppe (terminal transmanche);;;49.933623;1.088164;FR;Europe/Paris;Q183557;;FERRY;gtfs;;;;;FR:76217:ZE:DIEPPE:ATOUMOD0118;Dieppe (terminal transmanche)

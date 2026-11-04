@@ -1,0 +1,7 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNIRISH_RAIL-8210ir0001;8210IR0001;Bagenalstown;Bagenalstown;gtfs;;;Muine Bheag;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNIRISH_RAIL-8220ir0137;8220IR0137;Docklands;Docklands;gtfs;;;Dublin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNIRISH_RAIL-8420ir0095;8420IR0095;Nenagh;Nenagh;gtfs;;;Nenagh;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM12248421687;7020IR2162;Belfast Grand Central;Belfast Grand Central;nom;0.052;Belfast Grand Central;County Borough of Belfast;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNIRISH_RAIL-8380ir0125;8380IR0125;Little Island;Little Island;gtfs;;;Cobh;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNIRISH_RAIL-8240ir0130;8240IR0130;Rush and Lusk;Rush and Lusk;gtfs;;;Fingal;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

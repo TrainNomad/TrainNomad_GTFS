@@ -1,0 +1,15 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNNI_RAILWAYS-9000ad;9000AD;Adelaide;Adelaide;gtfs;;;Belfast;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM4060630434;9000BC;Ballycarry;Ballycarry;nom;0.011;Ballycarry;Islandmagee;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNI_RAILWAYS-9000ch;9000CH;City Hospital;City Hospital;gtfs;;;Belfast;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM1526616965;9000CY;Cullybackey;Cullybackey;nom;0.022;Cullybackey;Cullybackey;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4060626760;9000GD;Greenisland;Greenisland;nom;0.021;Greenisland;Greenisland;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4060626917;9000GN;Glynn;Glynn;nom;0.03;Glynn;Glynn;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4038479305;9000HB;Helen's Bay;Helen's Bay;nom;0.022;Helen's Bay;Helen's Bay;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4060626918;9000LN;Larne;Larne;nom;0.014;Larne Town;Larne;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM4060626916;9000MM;Magheramorne;Magheramorne;nom;0.009;Magheramorne;Craigstown Meadow;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNI_RAILWAYS-9000mo;9000MO;Marino;Marino;gtfs;;;Holywood;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM4061608587;9000SV;Scarva;Scarva;nom;0.021;Scarva;Scarva;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNOSM4060626765;9000TE;Trooperslane;Trooperslane;nom;0.013;Trooperslane;Trooperslane;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNNI_RAILWAYS-9000uv;9000UV;University;University;gtfs;;;Coleraine;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM4060626915;9000WD;Whitehead;Whitehead;nom;0.005;Whitehead;Whitehead;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
