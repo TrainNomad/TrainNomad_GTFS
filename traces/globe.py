@@ -110,16 +110,9 @@ def route(adj, sources, targets):
     return None
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--front", default=FRONT_DIR, help="dossier du front (trainnomad-react)")
-    args = parser.parse_args()
-    if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8")
-    lib = os.path.join(args.front, "src", "lib")
-    with open(os.path.join(lib, "globeNetwork.json"), encoding="utf-8") as f:
-        network = json.load(f)
-
+def graphe():
+    """Graphe des tracés prêt pour route() : (adj, coords des gares), avec les passages d'une gare à sa voisine
+    dans la même ville (HUB_KM) et les traversées sans tracé (FERRIES)."""
     adj = load_graph()
     coords = {}
     with open(os.path.join(REFERENTIEL_DIR, "gares.csv"), encoding="utf-8") as f:
@@ -130,16 +123,32 @@ def main():
     # une gare tracée mais sortie du référentiel depuis (identifiant changé) : ses tronçons sont ignorés
     adj = {u: {v: e for v, e in vs.items() if v in coords} for u, vs in adj.items() if u in coords}
 
-    ids = list(coords)
+    ids = sorted(coords, key=lambda g: coords[g][0])   # par latitude : on ne compare que les gares à moins de 0,02°
     for i, a in enumerate(ids):
         for b in ids[i + 1:]:
-            if abs(coords[a][0] - coords[b][0]) < 0.02 and b not in adj[a] and km(coords[a], coords[b]) <= HUB_KM:
+            if coords[b][0] - coords[a][0] >= 0.02:
+                break
+            if b not in adj[a] and km(coords[a], coords[b]) <= HUB_KM:
                 adj[a][b] = adj[b][a] = (HUB_MINUTES, a, encode_polyline(np.array([coords[a], coords[b]])))
     for a, b, minutes in FERRIES:
         if a in coords and b in coords:
             adj[a][b] = adj[b][a] = (minutes, a, encode_polyline(np.array([coords[a], coords[b]])))
         else:
             print(f"   ⚠️ ferry {a} - {b} : gare absente des tracés, traversée ignorée")
+    return adj, coords
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--front", default=FRONT_DIR, help="dossier du front (trainnomad-react)")
+    args = parser.parse_args()
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    lib = os.path.join(args.front, "src", "lib")
+    with open(os.path.join(lib, "globeNetwork.json"), encoding="utf-8") as f:
+        network = json.load(f)
+
+    adj, coords = graphe()
 
     def stations(city):
         c = (city["lat"], city["lng"])
