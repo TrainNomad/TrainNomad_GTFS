@@ -32,6 +32,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 import zipfile
@@ -48,7 +49,14 @@ RELEASE_TAG = "gtfs-latest"
 RELEASE_URL = f"https://github.com/{REPO}/releases/download/{RELEASE_TAG}"
 
 REQUIRED_FILES = ["agency.txt", "stops.txt", "routes.txt", "trips.txt", "stop_times.txt"]
-BAISSE_MAX_SOURCE = 0.5   # un GTFS qui perd plus de 50 % de ses trajets n'est pas publié (sauf --forcer)
+# Baisse du nombre de trains qui circulent par jour (médiane des JOURS_CONTROLE prochains jours) par rapport à la
+# version publiée : au-delà de BAISSE_ALERTE, simple avertissement ; au-delà de BAISSE_MAX_SOURCE, pas de publication
+# (sauf --forcer). On compare les trains qui roulent, pas les lignes de trips.txt : une compagnie qui réécrit son GTFS
+# (un trajet avec son calendrier au lieu d'un trajet par jour, comme la SNCB en novembre 2026) ne déclenche plus rien.
+BAISSE_MAX_SOURCE = 0.3
+BAISSE_ALERTE = 0.15
+JOURS_CONTROLE = 14
+BAISSE_ALERTE_RESEAU_OP = 0.5  # contrôle du réseau : avertissement si une compagnie perd plus de la moitié de ses trajets
 BAISSE_MAX_RESEAU = 0.3   # un réseau qui perd plus de 30 % de ses trajets n'est pas publié (sauf --forcer)
 DISPARITION_MIN = 20      # une compagnie de moins de 20 trajets qui disparaît est signalée sans bloquer
 AGE_MAX_JOURS = 8         # au-delà, l'assemblage signale un GTFS non mis à jour (mise à jour hebdomadaire)
@@ -94,18 +102,31 @@ def sources(ops: list[dict]) -> dict[str, dict]:
     return out
 
 
-def http_get(url: str, timeout: int = 120) -> bytes | None:
-    """Contenu de l'URL, None si absente (404)."""
+def http_get(url: str, timeout: int = 120, attempts: int = 4) -> bytes | None:
+    """Contenu de l'URL, None si absente (404).
+    Les pannes passagères (5xx, coupure réseau) sont réessayées : GitHub répond parfois 504 au lieu de 404
+    pour un fichier de Release qui n'existe pas encore (première publication d'un opérateur)."""
     headers = {"User-Agent": "TrainNomad-pipeline"}
     if os.environ.get("GITHUB_TOKEN") and "api.github.com" in url:
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=timeout) as r:
-            return r.read()
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None
-        raise
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            if e.code < 500 or attempt == attempts:
+                raise
+            reason = f"HTTP {e.code}"
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if attempt == attempts:
+                raise
+            reason = str(getattr(e, "reason", e))
+        wait = 15 * attempt
+        warn(f"{url} : {reason}, nouvel essai dans {wait} s ({attempt}/{attempts - 1})")
+        time.sleep(wait)
+    return None
 
 
 def fmt(n) -> str:
@@ -156,6 +177,47 @@ def service_dates(z: zipfile.ZipFile, files: dict) -> tuple[str, str]:
     return first or "", last or ""
 
 
+def trains_per_day(z: zipfile.ZipFile, files: dict, start: date, days: int = JOURS_CONTROLE) -> int:
+    """Nombre médian de trains (trajets) qui circulent par jour sur `days` jours à partir de `start`.
+    Indépendant de la façon dont le GTFS est écrit (un trajet par jour ou un trajet avec son calendrier)."""
+    window = [date.fromordinal(start.toordinal() + i) for i in range(days)]
+    keys = {d.strftime("%Y%m%d") for d in window}
+
+    per_service: dict[str, int] = {}
+    with z.open(files["trips.txt"]) as f:
+        for row in csv.DictReader(io.TextIOWrapper(f, "utf-8-sig")):
+            s = (row.get("service_id") or "").strip()
+            per_service[s] = per_service.get(s, 0) + 1
+
+    weekly = []  # (service, début, fin, jours de la semaine)
+    if "calendar.txt" in files:
+        names = ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
+        with z.open(files["calendar.txt"]) as f:
+            for row in csv.DictReader(io.TextIOWrapper(f, "utf-8-sig")):
+                s = (row.get("service_id") or "").strip()
+                if s in per_service:
+                    weekly.append((s, (row.get("start_date") or "").strip(), (row.get("end_date") or "").strip(),
+                                   [(row.get(n) or "").strip() == "1" for n in names]))
+    added: dict[str, set] = {k: set() for k in keys}
+    removed: dict[str, set] = {k: set() for k in keys}
+    if "calendar_dates.txt" in files:
+        with z.open(files["calendar_dates.txt"]) as f:
+            for row in csv.DictReader(io.TextIOWrapper(f, "utf-8-sig")):
+                d = (row.get("date") or "").strip()
+                if d in keys:
+                    kind = (row.get("exception_type") or "").strip()
+                    (added if kind == "1" else removed if kind == "2" else {}).get(d, set()).add((row.get("service_id") or "").strip())
+
+    counts = []
+    for d in window:
+        k = d.strftime("%Y%m%d")
+        active = {s for s, a, b, wd in weekly if a <= k <= b and wd[d.weekday()]}
+        active = (active - removed[k]) | added[k]
+        counts.append(sum(per_service.get(s, 0) for s in active))
+    counts.sort()
+    return counts[len(counts) // 2]
+
+
 def check_gtfs(path: str) -> dict:
     """Statistiques du GTFS ; lève ValueError s'il est inutilisable."""
     try:
@@ -176,6 +238,7 @@ def check_gtfs(path: str) -> dict:
         if stats["trips"] == 0 or stats["stop_times"] == 0:
             raise ValueError("aucun trajet")
         stats["date_debut"], stats["date_fin"] = service_dates(z, files)
+        stats["trains_par_jour"] = trains_per_day(z, files, date.today())
     if stats["date_fin"] and stats["date_fin"] < date.today().strftime("%Y%m%d"):
         raise ValueError(f"horaires expirés (dernier jour de circulation : {stats['date_fin']})")
     return stats
@@ -206,6 +269,28 @@ def produce(src_name: str, src: dict) -> dict[str, str]:
     return paths
 
 
+def previous_trains_per_day(op_id: str, prev: dict, new_tpd: int) -> int | None:
+    """Trains par jour de la version publiée. La valeur de sa fiche (calculée lors de sa publication, sur d'autres
+    jours) suffit tant que l'écart est faible ; en cas de baisse suspecte, ou pour une fiche plus ancienne que ce
+    contrôle, le GTFS publié est retéléchargé et recompté sur les mêmes jours que le nouveau."""
+    stored = prev.get("trains_par_jour")
+    if stored and new_tpd >= stored * (1 - BAISSE_ALERTE):
+        return stored
+    logging.info(f"   {op_id} : trains par jour de la version publiée recomptés sur les mêmes jours")
+    try:
+        data = http_get(f"{RELEASE_URL}/{op_id}.zip", timeout=600)
+    except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        warn(f"{op_id} : version publiée illisible ({e}), comparaison avec sa fiche")
+        return stored
+    if data is None:
+        return stored
+    with zipfile.ZipFile(io.BytesIO(data)) as z:
+        files = {os.path.basename(n): n for n in z.namelist() if n.endswith(".txt")}
+        if "trips.txt" not in files:
+            return stored
+        return trains_per_day(z, files, date.today())
+
+
 def cmd_preparer(name: str, forcer: bool) -> int:
     all_sources = sources(load_operators())
     if name not in all_sources:
@@ -218,7 +303,7 @@ def cmd_preparer(name: str, forcer: bool) -> int:
     paths = produce(name, src)
 
     os.makedirs(SORTIE_DIR, exist_ok=True)
-    rows = ["| Opérateur | Trajets | Horaires | Circulation | Statut |", "|---|---|---|---|---|"]
+    rows = ["| Opérateur | Trains/jour | Trajets | Horaires | Circulation | Statut |", "|---|---|---|---|---|---|"]
     failed = 0
     for op_id, path in paths.items():
         try:
@@ -227,11 +312,22 @@ def cmd_preparer(name: str, forcer: bool) -> int:
             stats = check_gtfs(path)
             prev_raw = http_get(f"{RELEASE_URL}/{op_id}.json")
             prev = json.loads(prev_raw) if prev_raw else None
-            if prev and prev.get("trips") and stats["trips"] < prev["trips"] * (1 - BAISSE_MAX_SOURCE):
-                msg = f"{stats['trips']} trajets contre {prev['trips']} publiés le {prev.get('built_at', '?')[:10]}"
-                if not forcer:
-                    raise ValueError(f"baisse anormale : {msg} (relancer avec « forcer » si c'est voulu)")
-                warn(f"{op_id} : {msg}, publié quand même (forcer)")
+            status = "✅ prêt à publier"
+            if prev:
+                new_tpd = stats["trains_par_jour"]
+                old_tpd = previous_trains_per_day(op_id, prev, new_tpd)
+                if old_tpd:
+                    drop = 1 - new_tpd / old_tpd
+                    msg = (f"{fmt(new_tpd)} trains par jour contre {fmt(old_tpd)} dans la version publiée le "
+                           f"{prev.get('built_at', '?')[:10]} ({-drop:+.0%})")
+                    if drop > BAISSE_MAX_SOURCE:
+                        if not forcer:
+                            raise ValueError(f"baisse anormale : {msg} (relancer avec « forcer » si c'est voulu)")
+                        warn(f"{op_id} : {msg}, publié quand même (forcer)")
+                        status = f"⚠️ forcé ({-drop:+.0%} trains/jour)"
+                    elif drop > BAISSE_ALERTE:
+                        warn(f"{op_id} : {msg}")
+                        status = f"⚠️ {-drop:+.0%} trains/jour, publié"
             meta = {
                 "operator": op_id,
                 "source": name,
@@ -244,17 +340,16 @@ def cmd_preparer(name: str, forcer: bool) -> int:
             shutil.copyfile(path, os.path.join(SORTIE_DIR, f"{op_id}.zip"))
             with open(os.path.join(SORTIE_DIR, f"{op_id}.json"), "w", encoding="utf-8") as f:
                 json.dump(meta, f, indent=2, ensure_ascii=False)
-            status = "✅ prêt à publier"
             soon = date.fromordinal(date.today().toordinal() + 7).strftime("%Y%m%d")
             if stats["date_fin"] and stats["date_fin"] < soon:
                 warn(f"{op_id} : horaires valables seulement jusqu'au {stats['date_fin']}")
                 status = "⚠️ expire bientôt"
-            rows.append(f"| {op_id} | {fmt(stats['trips'])} | {fmt(stats['stop_times'])} | "
+            rows.append(f"| {op_id} | {fmt(stats['trains_par_jour'])} | {fmt(stats['trips'])} | {fmt(stats['stop_times'])} | "
                         f"{stats['date_debut']} → {stats['date_fin']} | {status} |")
         except ValueError as e:
             failed += 1
             error(f"{op_id} : {e} — la version déjà publiée est conservée")
-            rows.append(f"| {op_id} | | | | ❌ {e} |")
+            rows.append(f"| {op_id} | | | | | ❌ {e} |")
     summary([f"### GTFS {name}", "", *rows])
     return 1 if failed else 0
 
@@ -357,7 +452,7 @@ def cmd_verifier(ancien: str, nouveau: str, forcer: bool) -> int:
         elif a and not b:
             warn(f"{op} : disparu ({a} trajets auparavant)")
             evo = "⚠️ disparu"
-        elif a and b < a * (1 - BAISSE_MAX_SOURCE):
+        elif a and b < a * (1 - BAISSE_ALERTE_RESEAU_OP):
             warn(f"{op} : {b} trajets contre {a} ({evo})")
             evo = f"⚠️ {evo}"
         rows.append(f"| {op} | {fmt(a)} | {fmt(b)} | {evo} |")

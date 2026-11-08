@@ -54,8 +54,10 @@ Rien de cassé n'est publié : en cas de refus, la version précédente reste en
 (notification GitHub par e-mail).
 
 - **GTFS d'une compagnie** : ZIP lisible, fichiers obligatoires présents, au moins un trajet, horaires non
-  expirés, et pas plus de 50 % de trajets en moins que la version publiée. Avertissement si les horaires
-  expirent dans moins de 7 jours.
+  expirés, et pas plus de 30 % de **trains par jour** en moins que la version publiée (médiane des 14 prochains
+  jours ; avertissement au-delà de 15 %). On compte les trains qui circulent, pas les lignes du fichier : une
+  compagnie qui réécrit son GTFS sans changer son offre (SNCB, novembre 2026) passe sans « forcer ». Avertissement
+  si les horaires expirent dans moins de 7 jours.
 - **Assemblage** : avertissement si le GTFS d'une compagnie a plus de 8 jours (son workflow échoue).
 - **Réseau** : testé avec le vrai moteur Europe (dépôt TrainNomad_SQL) sur une relation par pays ; refusé si
   une relation ne trouve plus de trajet, si un opérateur disparaît ou si le réseau perd plus de 30 % de ses
@@ -77,6 +79,26 @@ Le résumé de chaque run (page du run sur GitHub) affiche les tableaux de ces c
   python build_network.py
   ```
 - **Préparer une compagnie en local** : `python pipeline/gtfs_source.py preparer cp` (résultat dans `pipeline/sortie/`).
+
+## Temps réel (retards, suppressions)
+
+`temps_reel/` lit les flux temps réel des compagnies (GTFS-RT) et donne l'état de chaque train, désigné
+par **numéro + date de circulation** : la même clé que `train_number` / `departure` des trajets de l'API Europe.
+
+| Compagnie | Module | Source |
+|---|---|---|
+| SNCF | `temps_reel/sncf.py` | transport.data.gouv.fr : `sncf-gtfs-rt-trip-updates` (retards, trains supprimés) et `sncf-gtfs-rt-service-alerts` (messages), sans clé |
+
+```sh
+pip install requests gtfs-realtime-bindings
+python temps_reel/sncf.py                                   # résumé : retards et suppressions en cours
+python temps_reel/sncf.py 6193                              # un train, arrêt par arrêt
+python temps_reel/sncf.py 6193 --de Paris --a Avignon       # le trajet d'un voyageur (montée / descente)
+```
+
+En Python : `TempsReelSNCF().actualiser()` (toutes les 30 à 60 s), puis `.train(numero, date)` ou
+`.trajet(numero, date, depart, arrivee)`. Les gares de montée et de descente se donnent par code UIC, par
+nom ou par heure prévue `"HH:MM"`. Le flux ne contient que les trains du jour : un train absent est `inconnu`.
 
 ## Référentiel des gares
 
