@@ -376,7 +376,7 @@
   {
     "id": "BRITTANY_FERRIES",
     "name": "Brittany Ferries",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./FERRIES/brittany_ferries_gtfs.zip",
     "script_path": "./FERRIES/ingest_ferries.py",
     "gtfs_url": "https://transport.data.gouv.fr/resources/83427/download",
