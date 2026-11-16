@@ -1,0 +1,14 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNSZ-1122799;1122799;Jevnica;Jevnica;gtfs;;;Litija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM263250212;1122819;Litostroj;Litostroj;nom;0.063;Ljubljana Litostroj;municipalité de Ljubljana;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNSZ-1122831;1122831;Homec pri Kamniku;Homec pri Kamniku;gtfs;;;Municipality of Domžale;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNSZ-1122835;1122835;Trzin ind. cona;Trzin ind. cona;gtfs;;;Trzin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNSZ-1122851;1122851;Ponikve na Dolenjskem;Ponikve na Dolenjskem;gtfs;;;Municipalité de Trebnje;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNSZ-1122854;1122854;Štefan;Štefan;gtfs;;;Municipalité de Trebnje;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNOSM6127683208;1152016;Ljubljana Dolgi most(Železniški);Ljubljana Dolgi most(Železniški);nom;0.04;Ljubljana Dolgi most;municipalité de Ljubljana;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM6127111840;1152017;Lavrica(Železniški);Lavrica(Železniški);nom;0.08;Lavrica;Škofljica;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNSZ-1122945;1122945;Pavlovci;Pavlovci;gtfs;;;Ormož;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7900279;1122962;Hodoš;Hodoš;nom;0.018;Hodoš / Hodos;Hodos;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNSZ-1122985;1122985;Šoštanj;Šoštanj;gtfs;;;Šoštanj;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7944352;1123012;Koper;Koper;nom;0.041;Koper / Capodistria;City Municipality of Koper;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNSZ-1123033;1123033;Solkan;Solkan;gtfs;;;Nova Gorica;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

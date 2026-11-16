@@ -1,0 +1,16 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNHZPP-i-o657;i-o657;Vukovje;Vukovje;gtfs;;;Vukovije;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7873308;i-o616;Žabjak;Žabjak;nom;0.028;Žabjak;Žabjak;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TNHZPP-i-o552;i-o552;Stari Slatnik;Stari Slatnik;gtfs;;;Stari Slatinik;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNHZPP-i-o1006;i-o1006;Metković;Metković;gtfs;;;Metković;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7873309;i-o617;Hrsovo;Hrsovo;nom;0.027;Hrsovo;Hrsovo;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7873325;i-o625;Paulovac;Paulovac;nom;0.032;Paulovac;Paulovac;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7874606;i-o751;Đurmanec;Đurmanec;nom;0.01;Đurmanec;Ravninsko;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7875107;i-o800;Donje Dubrave;Donje Dubrave;nom;0.001;Donje Dubrave;Donje Dubrave;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7873409;i-o639;Knežci;Knežci;nom;0.001;Knežci;Knežci;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7873109;i-o602;Gradec;Gradec;nom;0.288;Gradec Stajalište;Gradec;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TNOSM694856206;i-o494;Cerovljani;Cerovljani;nom;0.006;Cerovljani;Cerovljani;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7874410;i-o734;Podrute;Podrute;nom;0.003;Podrute;Podrute;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7871807;i-o467;Viškovci;Viškovci;nom;0.005;Viškovci;Kuševac;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent
+TN7871201;i-o414;Nuštar Stajalište;Nuštar Stajalište;nom;0.072;Nuštar;Nuštar;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7873304;i-o612;Cirkvena;Cirkvena;nom;0.022;Cirkvena;Kuštani;nominatim;ville sans Wikidata : vérifier ou renseigner ville_parent

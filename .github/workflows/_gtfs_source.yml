@@ -44,6 +44,9 @@ jobs:
     - name: Préparer et vérifier le GTFS
       id: preparer
       env:
+        # lecture de la version publiée (Release gtfs-latest) par l'API GitHub authentifiée :
+        # les requêtes anonymes sont parfois ralenties jusqu'à échouer
+        GITHUB_TOKEN: ${{ github.token }}
         # chaque secret n'est transmis qu'à la source qui en a besoin
         NR_EMAIL: ${{ inputs.source == 'uk' && secrets.NR_EMAIL || '' }}
         NR_PASSWORD: ${{ inputs.source == 'uk' && secrets.NR_PASSWORD || '' }}

@@ -34,6 +34,8 @@ RELATIONS = [
     ("Warszawa", "Kraków", "PKP"),
     ("Bratislava", "Košice", "ZSSK"),
     ("Budapest", "Debrecen", "MAV"),
+    ("Zagreb", "Split", "HZPP"),
+    ("Ljubljana", "Maribor", "SZ"),
     ("Dublin", "Cork", "IRISH_RAIL"),
     ("Belfast", "Coleraine", "NI_RAILWAYS"),
 ]

@@ -75,8 +75,10 @@ NO_DROPOFF = 2
 # Pologne : trains Prague - Cracovie / Varsovie et Leo Express, RegioJet déjà dans le flux tchèque.
 # Slovaquie : trains vers Prague, Vienne, Budapest et la Pologne déjà dans les flux tchèque, ÖBB et polonais.
 # Hongrie : trains vers Vienne, Bratislava et Prague déjà dans les flux ÖBB et slovaque (coupés à la frontière).
+# Croatie, Slovénie : flux nationaux sans les gares étrangères ; la partie croate ou slovène des trains
+# internationaux (Zagreb - Ljubljana, Budapest, Villach, Graz), publiés en entier par ÖBB et MÁV, est écartée.
 # Les numéros sont comparés sur leurs chiffres : "EC 163" (flux suisse et autrichien) = "163" (flux néerlandais).
-DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD", "PKP", "ZSSK", "MAV"}
+DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD", "PKP", "ZSSK", "MAV", "HZPP", "SZ"}
 # Flux sans numéro de train (Allemagne) : même dédoublonnage, mais en comparant gares et horaires
 # (à TIME_TOLERANCE minutes près). Le numéro du trajet déjà connu est repris.
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
@@ -412,6 +414,11 @@ HU_BRANDS = {"MÁV Személyszállítási Zrt.": "MÁV", "GYSEV Zrt.": "GYSEV"}
 
 # GTFS irlandais (IRELAND/ingest_ie_gtfs.py) : trip_short_name = code du train Irish Rail ("A101", "E215"),
 # catégorie dans route_desc. L'Enterprise Dublin - Belfast (Irish Rail + Translink) garde son nom seul.
+# GTFS croate (CROATIA/ingest_hr_gtfs.py) et slovène (SLOVENIA/ingest_si_gtfs.py) : numéro du train seul,
+# sans catégorie (IC, regional...) ; type affiché = marque + "Vlak", ou "Bus" pour un bus de remplacement
+# (route_type 3).
+BALKAN_BRANDS = {"HZPP": "HŽPP", "SZ": "SŽ"}
+
 IE_TYPES = {"Enterprise": "Enterprise", "InterCity": "Irish Rail InterCity", "Commuter": "Irish Rail Commuter",
             "DART": "Irish Rail DART"}
 
@@ -738,6 +745,11 @@ class StationRef:
             m = re.match(r"1:00(\d{7})(?:_|$)", stop_id or "")
             if m:
                 rid = self.by_uic.get(m.group(1))
+        elif op in ("HZPP", "SZ"):
+            # Croatie (stop_id interne "i-o523") et Slovénie (stop_id national à 7 chiffres, "1122804" =
+            # Ljubljana, qui n'est PAS un UIC) : gares rapprochées seulement par codes.csv
+            # (referentiel/build_gares_hzpp.py, build_gares_sz.py), jamais par un faux UIC
+            rid = None
         elif op in ("DB", "DB_REGIO", "FLIXTRAIN", "OBB"):
             # Allemagne / FlixTrain / Autriche : pas d'UIC dans les flux ; GERMANY/ingest_de_gtfs.py,
             # FLIXTRAIN/ingest_flixtrain_gtfs.py et AUSTRIA/ingest_at_gtfs.py ont rapproché chaque gare de
@@ -1411,6 +1423,10 @@ class NetworkBuilder:
             number = meta.get("trip_short_name", "")  # "IC 950", "Gy 822"
             brand = HU_BRANDS.get(self.agency_names.get(route.get("agency_id", ""), ""), "MÁV")
             ttype = f"{brand} {HU_CATEGORIES.get(meta.get('route_desc', ''), 'Vonat')}"
+        elif op_id in BALKAN_BRANDS:
+            number = meta.get("trip_short_name", "")  # "1840" ; vide pour un bus de remplacement
+            label = "Bus" if route.get("route_type") == "3" else "Vlak"
+            ttype = f"{BALKAN_BRANDS[op_id]} {label}"
         elif op_id == "IRISH_RAIL":
             number = meta.get("trip_short_name", "")  # "A101"
             ttype = IE_TYPES.get(meta.get("route_desc", ""), "Irish Rail Train")

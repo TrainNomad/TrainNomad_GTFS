@@ -135,14 +135,24 @@ def patch_gtfs(input_zip: str, output_zip: str) -> bool:
             if last["stop_id"] != ELVAS_ID:
                 print(f"   ⚠️ {train} ({trip_id}) ne s'arrête pas à Elvas en dernier, ignoré")
                 continue
-            t = pdf_time if pdf_time is not None else to_seconds(last["departure_time"]) + RUN_TO_BADAJOZ_MIN * 60
+            elvas = to_seconds(last["departure_time"])
+            if pdf_time is not None and not 5 * 60 <= pdf_time - elvas <= 45 * 60:
+                print(f"   ⚠️ {train} : heure du PDF incohérente avec Elvas {last['departure_time'][:5]} "
+                      "(horaire CP changé ?), temps de parcours estimé")
+                pdf_time = None
+            t = pdf_time if pdf_time is not None else elvas + RUN_TO_BADAJOZ_MIN * 60
             seq = int(last["stop_sequence"]) + 1
         else:
             first = rows[0]
             if first["stop_id"] != ELVAS_ID:
                 print(f"   ⚠️ {train} ({trip_id}) ne part pas d'Elvas, ignoré")
                 continue
-            t = pdf_time if pdf_time is not None else to_seconds(first["arrival_time"]) - RUN_FROM_BADAJOZ_MIN * 60
+            elvas = to_seconds(first["arrival_time"])
+            if pdf_time is not None and not 5 * 60 <= elvas - pdf_time <= 45 * 60:
+                print(f"   ⚠️ {train} : heure du PDF incohérente avec Elvas {first['arrival_time'][:5]} "
+                      "(horaire CP changé ?), temps de parcours estimé")
+                pdf_time = None
+            t = pdf_time if pdf_time is not None else elvas - RUN_FROM_BADAJOZ_MIN * 60
             seq = int(first["stop_sequence"]) - 1
             if seq < 0:  # renumérote le trip pour garder des stop_sequence positives
                 for r in rows:

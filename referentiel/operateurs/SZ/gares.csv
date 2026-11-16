@@ -1,0 +1,272 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN7900015;gare;Bohinjska Bistrica;Bohinjska Bistrica;Bohinjska Bistrica;7900015;;46.274266;13.959165;SI;Europe/Ljubljana;Q3661628;Vlak;;nom;471562298;Q4938152;;;1123043;Bohinjska Bistrica
+TN7900020;gare;Most na Soči;Most na Soči;Most na Soči;7900020;;46.146408;13.759252;SI;Europe/Ljubljana;Q15924;Vlak;;nom;811465751;Q13365129;;;1123038;Most na Soči
+TN7900026;gare;Ormož;Ormož;Ormož;7900026;;46.402748;16.15664;SI;Europe/Ljubljana;Q15900;Vlak;;nom;1836805689;Q7103472;;;1122943;Ormož
+TN7900053;gare;Vuhred;Vuhred;Vuhred;7900053;;46.596528;15.235969;SI;Europe/Ljubljana;Q1005364;Vlak;;nom;1304777206;Q12807530;;;1122923;Vuhred
+TN7900056;gare;Anhovo;Anhovo;Anhovo;7900056;;46.058069;13.617161;SI;Europe/Ljubljana;Q3435496;Vlak;;nom;838627770;Q4764369;;;1123035;Anhovo
+TN7900062;gare;Stranje;Stranje;Stranje;7900062;;46.217424;15.5602;SI;Europe/Ljubljana;Q392173;Vlak;;nom;1867191959;Q19938300;;;1122963;Stranje
+TN7900065;gare;Ljutomer;Ljutomer;Ljutomer;7900065;;46.528652;16.189215;SI;Europe/Ljubljana;Q15892;Vlak;;nom;3663762936;Q6661022;;;1122952;Ljutomer
+TN7900066;gare;Središče;Središče;Središče;7900066;;46.389112;16.277099;SI;Europe/Ljubljana;Q3441796;Vlak;;nom;1867221185;Q19938299;;;1122950;Središče
+TN7900068;gare;Rogaška Slatina;Rogaška Slatina;Rogaška Slatina;7900068;;46.231867;15.638483;SI;Europe/Ljubljana;Q15913;Vlak;;nom;1867198379;Q12807523;;;1122966;Rogaška Slatina
+TN7900072;gare;Atomske Toplice hotel;Atomske Toplice hotel;Atomske Toplice hotel;7900072;;46.158167;15.608583;SI;Europe/Ljubljana;Q999540;Vlak;;nom;1036292904;Q12807572;;;1122978;Atomske Toplice hotel
+TN7900073;gare;Avče;Avče;Avče;7900073;;46.108041;13.684435;SI;Europe/Ljubljana;Q3435496;Vlak;;nom;838615399;Q19938317;;;1123037;Avče
+TN7900079;gare;Bohinjska Bela;Bohinjska Bela;Bohinjska Bela;7900079;;46.338491;14.060431;SI;Europe/Ljubljana;Q647572;Vlak;;nom;930818699;Q12807574;;;1123045;Bohinjska Bela
+TN7900092;gare;Dobovec;Dobovec;Dobovec;7900092;;46.220764;15.751242;SI;Europe/Ljubljana;Q1027245;Vlak;;nom;1867202131;Q19938331;;;1122968;Dobovec
+TN7900096;gare;Dolga Gora;Dolga Gora;Dolga Gora;7900096;;46.277221;15.498034;SI;Europe/Ljubljana;Q13378384;Vlak;;nom;12435542285;;;;1122893;Dolga Gora
+TN7900101;gare;Florjan;Florjan;Florjan;7900101;;46.381136;15.029837;SI;Europe/Ljubljana;Q15923;Vlak;;nom;1867181680;Q19938338;;;1122989;Florjan
+TN7900102;gare;Frankovci;Frankovci;Frankovci;7900102;;46.393829;16.203577;SI;Europe/Ljubljana;Q15900;Vlak;;nom;422472910;Q19938341;;;1168304;Frankovci
+TN7900108;gare;Grahovo;Grahovo;Grahovo;7900108;;46.15144;13.856968;SI;Europe/Ljubljana;Q15924;Vlak;;nom;838588271;;;;1123040;Grahovo
+TN7900111;gare;Maribor Sokolska;Maribor Sokolska;Maribor Sokolska;7900111;;46.556542;15.624694;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;1845618942;Q12807596;;;1122932;Maribor Sokolska
+TN7900116;gare;Hudajužna;Hudajužna;Hudajužna;7900116;;46.17977;13.919791;SI;Europe/Ljubljana;Q15924;Vlak;;nom;829057138;Q12807586;;;1123041;Hudajužna
+TN7900126;gare;Kanal;Kanal;Kanal;7900126;;46.083729;13.631623;SI;Europe/Ljubljana;Q3435496;Vlak;;nom;449384674;Q19938354;;;1123036;Kanal
+TN7900130;gare;Kočna;Kočna;Kočna;7900130;;46.423847;14.078594;SI;Europe/Ljubljana;Q15881;Vlak;;nom;4007610850;Q19938361;;;1123049;Kočna
+TN7900139;gare;Limbuš;Limbuš;Limbuš;7900139;;46.558802;15.582825;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;399559996;Q12807591;;;1122915;Limbuš
+TN7900144;gare;Ljutomer mesto;Ljutomer mesto;Ljutomer mesto;7900144;;46.520995;16.199739;SI;Europe/Ljubljana;Q15892;Vlak;;nom;1754872708;Q12807600;;;1122948;Ljutomer mesto
+TN7900149;gare;Marles;Marles;Marles;7900149;;46.558823;15.596746;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;395504563;Q12807602;;;1122927;Marles
+TN7900151;gare;Mestinje;Mestinje;Mestinje;7900151;;46.234999;15.564421;SI;Europe/Ljubljana;Q392173;Vlak;;nom;1867197340;Q12807603;;;1122964;Mestinje
+TN7900158;gare;Nomenj;Nomenj;Nomenj;7900158;;46.28903;14.002677;SI;Europe/Ljubljana;Q3661628;Vlak;;nom;786599091;Q12807605;;;1123044;Nomenj
+TN7900167;gare;Ožbalt;Ožbalt;Ožbalt;7900167;;46.57485;15.406405;SI;Europe/Ljubljana;Q25110;Vlak;;nom;760489805;;;;1122920;Ožbalt
+TN7900172;gare;Petrovče;Petrovče;Petrovče;7900172;;46.246129;15.189672;SI;Europe/Ljubljana;Q15931;Vlak;;nom;949513697;Q12807620;;;1122979;Petrovče
+TN7900175;gare;Plave;Plave;Plave;7900175;;46.046216;13.589768;SI;Europe/Ljubljana;Q3435496;Vlak;;nom;838627738;Q12807613;;;1123034;Plave
+TN7900176;gare;Podbrdo;Podbrdo;Podbrdo;7900176;;46.209297;13.96706;SI;Europe/Ljubljana;Q15924;Vlak;;nom;829057113;Q3970482;;;1123042;Podbrdo
+TN7900177;gare;Podčetrtek;Podčetrtek;Podčetrtek;7900177;;46.150345;15.5996;SI;Europe/Ljubljana;Q999540;Vlak;;nom;1867192743;Q12807617;;;1122975;Podčetrtek
+TN7900180;gare;Podhom;Podhom;Podhom;7900180;;46.387491;14.094283;SI;Europe/Ljubljana;Q1027062;Vlak;;nom;829850840;Q19938380;;;1123047;Podhom
+TN7900183;gare;Podplat;Podplat;Podplat;7900183;;46.244001;15.572833;SI;Europe/Ljubljana;Q15913;Vlak;;nom;1867197342;Q19938384;;;1122965;Podplat
+TN7900186;gare;Polzela;Polzela;Polzela;7900186;;46.28269;15.065902;SI;Europe/Ljubljana;Q938443;Vlak;;nom;5684829489;Q12807515;;;1122982;Polzela
+TN7900194;gare;Pristava;Pristava;Pristava;7900194;;46.198748;15.581747;SI;Europe/Ljubljana;Q392173;Vlak;;nom;275046289;Q19938386;;;1122973;Pristava
+TN7900208;gare;Sava;Sava;Sava;7900208;;46.088824;14.898714;SI;Europe/Ljubljana;Q15891;Vlak;;nom;12304875295;Q20523775;;;1122796;Sava
+TN7900209;gare;Sodna vas;Sodna vas;Sodna vas;7900209;;46.176052;15.602005;SI;Europe/Ljubljana;Q999540;Vlak;;nom;275046304;Q12807627;;;1122974;Sodna vas
+TN7900214;gare;Sveti Rok ob Sotli;Sveti Rok ob Sotli;Sveti Rok ob Sotli;7900214;;46.208765;15.760013;SI;Europe/Ljubljana;Q1027245;Vlak;;nom;1867202152;Q19938397;;;1122969;Sveti Rok ob Sotli
+TN7900232;gare;Tekačevo;Tekačevo;Tekačevo;7900232;;46.239891;15.618086;SI;Europe/Ljubljana;Q15913;Vlak;;nom;1867197225;Q19938398;;;1122970;Tekačevo
+TN7900233;gare;Maribor Tabor;Maribor Tabor;Maribor Tabor;7900233;;46.551626;15.645778;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;1845618952;Q12807601;;;1122926;Maribor Tabor
+TN7900246;gare;Vintgar;Vintgar;Vintgar;7900246;;46.410238;14.098783;SI;Europe/Ljubljana;Q15881;Vlak;;nom;472725357;Q12807633;;;1123048;Vintgar
+TN7900250;gare;Vuhred elektrarna;Vuhred elektrarna;Vuhred elektrarna;7900250;;46.586501;15.279861;SI;Europe/Ljubljana;Q1016800;Vlak;;nom;403272403;Q111722953;;;1122922;Vuhred elektrarna
+TN7900251;gare;Vuzenica;Vuzenica;Vuzenica;7900251;;46.593654;15.158445;SI;Europe/Ljubljana;Q370390;Vlak;;nom;1304776878;Q12807534;;;1122924;Vuzenica
+TN7900274;gare;Velenje Pesje;Velenje Pesje;Velenje Pesje;7900274;;46.368137;15.081273;SI;Europe/Ljubljana;Q3441849;Vlak;;nom;1867182562;Q19938402;;;1122986;Velenje Pesje
+TN7900275;gare;Šentvid pri Grobelnem;Šentvid pri Grobelnem;Šentvid pri Grobelnem;7900275;;46.227416;15.470284;SI;Europe/Ljubljana;Q392173;Vlak;;nom;275046235;Q12807636;;;1122897;Šentvid pri Grobelnem
+TN7900279;gare;Hodoš;Hodoš / Hodos;Hodoš / Hodos;7900279;;46.820166;16.32913;SI;Europe/Ljubljana;Q13365904;Vlak;;nom;7351254917;Q5876307;;;1122962;Hodoš
+TN7900281;gare;Puconci;Puconci;Puconci;7900281;;46.703325;16.153624;SI;Europe/Ljubljana;Q921092;Vlak;;nom;1867239041;Q111722643;;;1122957;Puconci
+TN7942001;gare;Dobova;Dobova;Dobova;7942001;;45.898486;15.655353;SI;Europe/Ljubljana;Q906879;Vlak;;nom;5226766123;Q5286654;;;1122782;Dobova
+TN7942200;gare;Zidani Most;Zidani Most;Zidani Most;7942200;;46.085452;15.170286;SI;Europe/Ljubljana;Q15887;Vlak;;nom;12925781205;Q8071482;;;1122792;Zidani Most
+TN7942204;gare;Zagorje;Zagorje;Zagorje;7942204;;46.120598;14.991236;SI;Europe/Ljubljana;Q13378328;Vlak;;nom;617483689;Q19937418;;;1122795;Zagorje
+TN7942212;gare;Ljubljana Polje;Ljubljana Polje;Ljubljana Polje;7942212;;46.059555;14.582183;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1867166628;Q12807592;;;1122801;Ljubljana Polje
+TN7942222;gare;Ljubljana Zalog;Ljubljana Zalog;Ljubljana Zalog;7942222;;46.059505;14.614898;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1867167114;Q12807501;;;1122803;Ljubljana Zalog
+TN7942300;gare;Ljubljana;Ljubljana;Ljubljana;7942300;;46.058171;14.510278;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;617483683;Q1817806;;XZL;1122804;Ljubljana
+TN7942302;gare;Ljubljana Vižmarje;Ljubljana Vižmarje;Ljubljana Vižmarje;7942302;;46.100768;14.464356;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;4875950200;Q12807498;;;1122806;Ljubljana Vižmarje
+TN7942307;gare;Kranj;Kranj;Kranj;7942307;;46.238955;14.348247;SI;Europe/Ljubljana;Q3441893;Vlak;;nom;50002957;Q6436087;;;1122811;Kranj
+TN7942313;gare;Lesce-Bled;Lesce-Bled;Lesce-Bled;7942313;;46.360369;14.157919;SI;Europe/Ljubljana;Q15910;Vlak;;nom;5685260194;Q11198952;;;1122816;Lesce-Bled
+TN7942315;gare;Slovenski Javornik;Slovenski Javornik;Slovenski Javornik;7942315;;46.427212;14.088572;SI;Europe/Ljubljana;Q15881;Vlak;;nom;5685276171;Q19938396;;;1122818;Slovenski Javornik
+TN7942354;gare;Kamnik;Kamnik;Kamnik;7942354;;46.220881;14.603711;SI;Europe/Ljubljana;Q3503153;Vlak;;nom;588851356;Q12807493;;;1122824;Kamnik
+TN7942355;gare;Kamnik mesto;Kamnik mesto;Kamnik mesto;7942355;;46.224914;14.609312;SI;Europe/Ljubljana;Q3503153;Vlak;;nom;596494516;Q18562670;;;1122825;Kamnik mesto
+TN7942356;gare;Kamnik Graben;Kamnik Graben;Kamnik Graben;7942356;;46.228829;14.609559;SI;Europe/Ljubljana;Q3503153;Vlak;;nom;4862148129;Q20523847;;;1122826;Kamnik Graben
+TN7942400;gare;Jesenice;Jesenice;Jesenice;7942400;;46.436183;14.054821;SI;Europe/Ljubljana;Q15881;Vlak;;nom;9165200969;Q6962376;;;1122836;Jesenice
+TN7942502;gare;Metlika;Metlika;Metlika;7942502;;45.64243;15.323099;SI;Europe/Ljubljana;Q3441856;Vlak;;nom;6281711279;Q12807506;;;1122838;Metlika
+TN7943002;gare;Laško;Laško;Laško;7943002;;46.154804;15.23192;SI;Europe/Ljubljana;Q15887;Vlak;;nom;5613487430;Q19938274;;;1122887;Laško
+TN7943100;gare;Celje;Celje;Celje;7943100;;46.228531;15.268233;SI;Europe/Ljubljana;Q3441823;Vlak;;nom;8550748250;Q5058125;;;1122888;Celje
+TN7943300;gare;Pragersko;Pragersko;Pragersko;7943300;;46.395062;15.661704;SI;Europe/Ljubljana;Q11211457;Vlak;;nom;441907436;Q7237627;;;1122899;Pragersko
+TN7943304;gare;Maribor Tezno;Maribor Tezno;Maribor Tezno;7943304;;46.538989;15.651139;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;5610972924;Q12807505;;;1123054;Maribor Tezno
+TN7943400;gare;Maribor;Maribor;Maribor;7943400;;46.561951;15.658112;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;5610972932;Q6762546;;;1122913;Maribor
+TN7943401;gare;Maribor Studenci;Maribor Studenci;Maribor Studenci;7943401;;46.554199;15.634815;SI;Europe/Ljubljana;Q3435104;Vlak;;nom;5610972933;Q12807503;;;1122914;Maribor Studenci
+TN7943704;gare;Murska Sobota;Murska Sobota;Murska Sobota;7943704;;46.659431;16.171904;SI;Europe/Ljubljana;Q9273677;Vlak;;nom;1867237282;Q6939694;;;1122956;Murska Sobota
+TN7943775;gare;Gornji Petrovci;Gornji Petrovci;Gornji Petrovci;7943775;;46.800703;16.218397;SI;Europe/Ljubljana;Q3435689;Vlak;;nom;1867242142;Q20523837;;;1122960;Gornji Petrovci
+TN7943776;gare;Šalovci;Šalovci;Šalovci;7943776;;46.821129;16.282133;SI;Europe/Ljubljana;Q13378373;Vlak;;nom;618919194;Q22116016;;;1122961;Šalovci
+TN7943809;gare;Vidina;Vidina;Vidina;7943809;;46.21671;15.729604;SI;Europe/Ljubljana;Q1027245;Vlak;;nom;1867202145;Q12807631;;;1122972;Vidina
+TN7943853;gare;Podčetrtek Toplice;Podčetrtek Toplice;Podčetrtek Toplice;7943853;;46.165906;15.604705;SI;Europe/Ljubljana;Q999540;Vlak;;nom;275046312;Q12807619;;;1122977;Podčetrtek Toplice
+TN7943854;gare;Imeno;Imeno;Imeno;7943854;;46.126999;15.601214;SI;Europe/Ljubljana;Q999540;Vlak;;nom;1867193384;Q12807488;;;1122976;Imeno
+TN7944009;gare;Postojna;Postojna;Postojna;7944009;;45.773184;14.221673;SI;Europe/Ljubljana;Q2242799;Vlak;;nom;270129111;Q2002906;;;1122998;Postojna
+TN7944100;gare;Pivka;Pivka;Pivka;7944100;;45.675287;14.191218;SI;Europe/Ljubljana;Q252154;Vlak;;nom;275384043;Q2002456;;;1123001;Pivka
+TN7944200;gare;Divača;Divača;Divača;7944200;;45.681351;13.965478;SI;Europe/Ljubljana;Q557216;Vlak;;nom;275403880;Q3969538;;;1123004;Divača
+TN7944352;gare;Koper;Koper / Capodistria;Koper / Capodistria;7944352;;45.539184;13.738969;SI;Europe/Ljubljana;Q556203;Vlak;;nom;1837570219;Q6431071;;;1123012;Koper
+TN7944500;gare;Sežana;Sežana;Sežana;7944500;;45.704026;13.863362;SI;Europe/Ljubljana;Q554854;Vlak;;nom;275403778;Q1983700;;;1123015;Sežana
+TN7944700;gare;Nova Gorica;Nova Gorica;Nova Gorica;7944700;;45.95523;13.63528;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;13908278283;Q3970319;;;1123032;Nova Gorica
+TN7944716;gare;Bled Jezero;Bled Jezero;Bled Jezero;7944716;;46.368298;14.0823;SI;Europe/Ljubljana;Q647572;Vlak;;nom;283207146;Q4925834;;;1123046;Bled Jezero
+TN7944800;gare;Dutovlje;Dutovlje;Dutovlje;7944800;;45.764884;13.826157;SI;Europe/Ljubljana;Q554854;Vlak;;nom;1867264632;Q12807582;;;1123050;Dutovlje
+TN7944901;gare;Narin;Narin;Narin;7944901;;45.641268;14.198176;SI;Europe/Ljubljana;Q252154;Vlak;;nom;1867247743;Q19938371;;;1123051;Narin
+TN7944902;gare;Kilovče;Kilovče;Kilovče;7944902;;45.615586;14.185962;SI;Europe/Ljubljana;Q13377784;Vlak;;nom;12010320198;Q19938357;;;1123052;Kilovče
+TN7944903;gare;Ilirska Bistrica;Ilirska Bistrica;Ilirska Bistrica;7944903;;45.569265;14.235981;SI;Europe/Ljubljana;Q13377784;Vlak;;nom;1867249142;Q5998405;;;1123053;Ilirska Bistrica
+TNOSM10051065333;gare;Novo mesto;Novo Mesto;Novo mesto;;;45.810704;15.155803;SI;Europe/Ljubljana;Q398116;Vlak;;nom;10051065333;Q11046913;;;1122849;Novo mesto
+TNOSM1007207713;gare;Holmec;Holmec;Holmec;;;46.566386;14.84139;SI;Europe/Ljubljana;Q650009;Vlak;;nom;1007207713;Q15727405;;;1122940;Holmec
+TNOSM10083852855;gare;Cirkovce;Cirkovce;Cirkovce;;;46.40088;15.731156;SI;Europe/Ljubljana;Q776770;Vlak;;nom;10083852855;Q12807580;;;1122903;Cirkovce
+TNOSM10195858627;gare;Cirknica;Cirknica;Cirknica;;;46.644891;15.663549;SI;Europe/Ljubljana;Q391446;Vlak;;nom;10195858627;Q12807578;;;1122934;Cirknica
+TNOSM1020365685;gare;Novo mesto Center;Novo mesto Center;Novo mesto Center;;;45.804601;15.162069;SI;Europe/Ljubljana;Q398116;Vlak;;nom;1020365685;Q12807609;;;1122848;Novo mesto center
+TNOSM10988953191;gare;Novo mesto Šmihel;Novo mesto Šmihel;Novo mesto Šmihel;;;45.795848;15.161614;SI;Europe/Ljubljana;Q398116;Vlak;;nom;10988953191;Q56153204;;;1152010;Novo mesto Šmihel
+TNOSM11174781801;gare;Žalna;Žalna;Žalna;;;45.939616;14.707628;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;11174781801;Q12807640;;;1122863;Žalna
+TNOSM11175232974;gare;Trebnje;Trebnje;Trebnje;;;45.906719;15.008683;SI;Europe/Ljubljana;Q13378243;Vlak;;nom;11175232974;Q9361433;;;1122853;Trebnje
+TNOSM11383908840;gare;Ljubljana Šiška;Ljubljana Šiška;Ljubljana Šiška;;;46.060707;14.500909;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;11383908840;Q12807502;;;1167093;Ljubljana Šiška
+TNOSM11638938129;gare;Krško;Krško;Krško;;;45.956224;15.493329;SI;Europe/Ljubljana;Q3484655;Vlak;;nom;11638938129;Q12807494;;;1122785;Krško
+TNOSM11638988216;gare;Poljčane;Poljčane;Poljčane;;;46.313456;15.576501;SI;Europe/Ljubljana;Q594852;Vlak;;nom;11638988216;Q12807516;;;1122894;Poljčane
+TNOSM12134496997;gare;Ponikva;Ponikva;Ponikva;;;46.247895;15.430607;SI;Europe/Ljubljana;Q13378384;Vlak;;nom;12134496997;Q12807518;;;1122892;Ponikva
+TNOSM12304885515;gare;Hrastnik;Hrastnik;Hrastnik;;;46.122574;15.093453;SI;Europe/Ljubljana;Q13377780;Vlak;;nom;12304885515;Q18552417;;;1122793;Hrastnik
+TNOSM1249794844;gare;Šmarje-Sap;Šmarje-Sap;Šmarje-Sap;;;45.975136;14.617583;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;1249794844;Q12807638;;;1122866;Šmarje-Sap
+TNOSM1249902344;gare;Novo mesto Kandija;Novo mesto Kandija;Novo mesto Kandija;;;45.799828;15.16059;SI;Europe/Ljubljana;Q398116;Vlak;;nom;1249902344;Q12807611;;;1122847;Novo mesto Kandija
+TNOSM12728668676;gare;Šmartno ob Paki;Šmartno ob Paki;Šmartno ob Paki;;;46.328154;15.037704;SI;Europe/Ljubljana;Q392188;Vlak;;nom;12728668676;Q12807538;;;1122983;Šmartno ob Paki
+TNOSM12942357377;gare;Breg;Breg;Breg;;;46.041637;15.235787;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;12942357377;Q4960372;;;1122789;Breg
+TNOSM1304776933;gare;Trbonjsko jezero;Trbonjsko jezero;Trbonjsko jezero;;;46.593901;15.125984;SI;Europe/Ljubljana;Q3503123;Vlak;;nom;1304776933;Q111722921;;;1122929;Trbonjsko jezero
+TNOSM1304777277;gare;Sveti Vid;Sveti Vid;Sveti Vid;;;46.608178;15.191376;SI;Europe/Ljubljana;Q370390;Vlak;;nom;1304777277;Q111722900;;;1122931;Sveti Vid
+TNOSM1304777453;gare;Sveti Danijel;Sveti Danijel;Sveti Danijel;;;46.603228;15.065035;SI;Europe/Ljubljana;Q3503123;Vlak;;nom;1304777453;Q111722721;;;1122930;Sveti Danijel
+TNOSM13250286705;gare;Hrpelje-Kozina;Hrpelje-Kozina;Hrpelje-Kozina;;;45.603721;13.935162;SI;Europe/Ljubljana;Q556206;Vlak;;nom;13250286705;Q5923902;;;1123006;Hrpelje-Kozina
+TNOSM1575226330;gare;Brestanica;Brestanica;Brestanica;;;45.987553;15.469604;SI;Europe/Ljubljana;Q3484655;Vlak;;nom;1575226330;Q4961894;;;1122786;Brestanica
+TNOSM1575226341;gare;Blanca;Blanca;Blanca;;;45.989929;15.395697;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;1575226341;Q4924777;;;1122787;Blanca
+TNOSM1575226351;gare;Brežice;Brežice;Brežice;;;45.923787;15.589994;SI;Europe/Ljubljana;Q906879;Vlak;;nom;1575226351;Q4962883;;;1122783;Brežice
+TNOSM1644402998;gare;Ljubljana Stegne;Ljubljana Stegne;Ljubljana Stegne;;;46.087032;14.479703;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1644402998;Q12807598;;;1122820;Ljubljana Stegne
+TNOSM1666515768;gare;Spodnja Slivnica;Spodnja Slivnica;Spodnja Slivnica;;;45.934185;14.655365;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;1666515768;Q111722666;;;1120963;Spodnja Slivnica
+TNOSM1715035599;gare;Ruta;Ruta;Ruta;;;46.563052;15.431659;SI;Europe/Ljubljana;Q25110;Vlak;;nom;1715035599;Q19938294;;;1122919;Ruta
+TNOSM1761384950;gare;Žalec;Žalec;Žalec;;;46.249502;15.166211;SI;Europe/Ljubljana;Q15931;Vlak;;nom;1761384950;Q12807541;;;1122980;Žalec
+TNOSM1761384954;gare;Šempeter v Savinjski dolini;Šempeter v Savinjski dolini;Šempeter v Savinjski dolini;;;46.260612;15.112209;SI;Europe/Ljubljana;Q15931;Vlak;;nom;1761384954;Q12807635;;;1122981;Šempeter v Savinjski dolini
+TNOSM1762243737;gare;Okroglica;Okroglica;Okroglica;;;45.899089;13.690228;SI;Europe/Ljubljana;Q612216;Vlak;;nom;1762243737;Q12807606;;;1123023;Okroglica
+TNOSM1762243738;gare;Šempeter pri Gorici;Šempeter pri Gorici;Šempeter pri Gorici;;;45.928224;13.646868;SI;Europe/Ljubljana;Q391428;Vlak;;nom;1762243738;Q12807634;;;1123025;Šempeter pri Gorici
+TNOSM1762243740;gare;Volčja Draga;Volčja Draga;Volčja Draga;;;45.905843;13.675643;SI;Europe/Ljubljana;Q612216;Vlak;;nom;1762243740;Q12807531;;;1123024;Volčja Draga
+TNOSM1762243741;gare;Dornberk;Dornberk;Dornberk;;;45.88576;13.7343;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;1762243741;Q19938334;;;1123021;Dornberk
+TNOSM1762284285;gare;Branik;Branik;Branik;;;45.85589;13.784228;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;1762284285;Q19938327;;;1123019;Branik
+TNOSM1764223119;gare;Šmarca;Šmarca;Šmarca;;;46.193118;14.588564;SI;Europe/Ljubljana;Q3503153;Vlak;;nom;1764223119;Q19938406;;;1122832;Šmarca
+TNOSM1764223124;gare;Jarše-Mengeš;Jarše-Mengeš;Jarše-Mengeš;;;46.165657;14.593808;SI;Europe/Ljubljana;Q13377763;Vlak;;nom;1764223124;;;;1122823;Jarše-Mengeš
+TNOSM1764223127;gare;Duplica-Bakovnik;Duplica-Bakovnik;Duplica-Bakovnik;;;46.206517;14.59439;SI;Europe/Ljubljana;Q3503153;Vlak;;nom;1764223127;Q12807583;;;1122833;Duplica-Bakovnik
+TNOSM1764223131;gare;Rodica;Rodica;Rodica;;;46.148992;14.59245;SI;Europe/Ljubljana;Q13377763;Vlak;;nom;1764223131;Q19938390;;;1122830;Rodica
+TNOSM1764223725;gare;Ljubljana Brinje;Ljubljana Brinje;Ljubljana Brinje;;;46.076199;14.502956;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1764223725;Q12807594;;;1122827;Ljubljana Brinje
+TNOSM1764223728;gare;Ljubljana Ježica;Ljubljana Ježica;Ljubljana Ježica;;;46.089621;14.507275;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1764223728;Q12807593;;;1122834;Ljubljana Ježica
+TNOSM1829597764;gare;Ljubljana Vodmat;Ljubljana Vodmat;Ljubljana Vodmat;;;46.056145;14.528803;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;1829597764;Q12807599;;;1122869;Ljubljana Vodmat
+TNOSM1836797103;gare;Ptuj;Ptuj;Ptuj;;;46.422319;15.878862;SI;Europe/Ljubljana;Q3441808;Vlak;;nom;1836797103;Q11042692;;;1122907;Ptuj
+TNOSM1845623865;gare;Šikole;Šikole;Šikole;;;46.400983;15.696952;SI;Europe/Ljubljana;Q776770;Vlak;;nom;1845623865;Q88785911;;;1122912;Šikole
+TNOSM1845630122;gare;Hajdina;Hajdina;Hajdina;;;46.403157;15.85505;SI;Europe/Ljubljana;Q3441808;Vlak;;nom;1845630122;Q70374469;;;1122906;Hajdina
+TNOSM1867167882;gare;Radeče;Radeče;Radeče;;;46.064334;15.192546;SI;Europe/Ljubljana;Q13377986;Vlak;;nom;1867167882;Q12807622;;;1122791;Radeče
+TNOSM1867169972;gare;Loka;Loka;Loka;;;46.053599;15.205472;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;1867169972;Q12807504;;;1122790;Loka
+TNOSM1867171038;gare;Libna;Libna;Libna;;;45.945379;15.540309;SI;Europe/Ljubljana;Q3484655;Vlak;;nom;1867171038;Q12807590;;;1122784;Libna
+TNOSM1867180033;gare;Paška vas;Paška vas;Paška vas;;;46.341487;15.01964;SI;Europe/Ljubljana;Q392188;Vlak;;nom;1867180033;;;;1122984;Paška vas
+TNOSM1867183527;gare;Velenje;Velenje;Velenje;;;46.363455;15.104206;SI;Europe/Ljubljana;Q3441849;Vlak;;nom;1867183527;Q12807529;;;1122987;Velenje
+TNOSM1867190513;gare;Šmarje pri Jelšah;Šmarje pri Jelšah;Šmarje pri Jelšah;;;46.230624;15.516886;SI;Europe/Ljubljana;Q392173;Vlak;;nom;1867190513;Q12807542;;;1122898;Šmarje pri Jelšah
+TNOSM1867198352;gare;Rjavica;Rjavica;Rjavica;;;46.219801;15.652597;SI;Europe/Ljubljana;Q15913;Vlak;;nom;1867198352;Q12807624;;;1122971;Rjavica
+TNOSM1867206085;gare;Ruše tovarna;Ruše tovarna;Ruše tovarna;;;46.544911;15.514508;SI;Europe/Ljubljana;Q3346841;Vlak;;nom;1867206085;Q19938395;;;1122928;Ruše tovarna
+TNOSM1867207528;gare;Podklanc;Podklanc;Podklanc;;;46.573595;15.020858;SI;Europe/Ljubljana;Q3503123;Vlak;;nom;1867207528;Q111722613;;;1122941;Podklanc
+TNOSM1867208269;gare;Dobrije;Dobrije;Dobrije;;;46.55044;14.98597;SI;Europe/Ljubljana;Q13378051;Vlak;;nom;1867208269;Q12807579;;;1122942;Dobrije
+TNOSM1867208821;gare;Ravne na Koroškem;Ravne na Koroškem;Ravne na Koroškem;;;46.547113;14.963588;SI;Europe/Ljubljana;Q13378051;Vlak;;nom;1867208821;Q12807623;;;1122938;Ravne na Koroškem
+TNOSM1867216158;gare;Zamušani;Zamušani;Zamušani;;;46.421362;16.017096;SI;Europe/Ljubljana;Q632998;Vlak;;nom;1867216158;Q88798917;;;1122911;Zamušani
+TNOSM1867216570;gare;Osluševci;Osluševci;Osluševci;;;46.419465;16.049324;SI;Europe/Ljubljana;Q15900;Vlak;;nom;1867216570;Q88799074;;;1122909;Osluševci
+TNOSM1867218815;gare;Velika Nedelja;Velika Nedelja;Velika Nedelja;;;46.415069;16.1054;SI;Europe/Ljubljana;Q15900;Vlak;;nom;1867218815;Q88799395;;;1122910;Velika Nedelja
+TNOSM1867220563;gare;Obrež;Obrež;Obrež;;;46.391051;16.225593;SI;Europe/Ljubljana;Q3441796;Vlak;;nom;1867220563;Q70379755;;;1122949;Obrež
+TNOSM1867222533;gare;Pušenci;Pušenci;Pušenci;;;46.409541;16.176111;SI;Europe/Ljubljana;Q15900;Vlak;;nom;1867222533;Q88803732;;;1122944;Pušenci
+TNOSM1867224261;gare;Ivanjkovci;Ivanjkovci;Ivanjkovci;;;46.458798;16.156649;SI;Europe/Ljubljana;Q15900;Vlak;;nom;1867224261;Q88803710;;;1122946;Ivanjkovci
+TNOSM1867225284;gare;Mekotnjak;Mekotnjak;Mekotnjak;;;46.5008;16.155305;SI;Europe/Ljubljana;Q15892;Vlak;;nom;1867225284;Q88802723;;;1122947;Mekotnjak
+TNOSM1867231871;gare;Veržej;Veržej;Veržej;;;46.574071;16.182008;SI;Europe/Ljubljana;Q1008086;Vlak;;nom;1867231871;Q88804776;;;1122953;Veržej
+TNOSM1867250085;gare;Košana;Košana;Košana;;;45.670421;14.10558;SI;Europe/Ljubljana;Q252154;Vlak;;nom;1867250085;Q19938363;;;1123002;Košana
+TNOSM1867251390;gare;Povir;Povir;Povir;;;45.699386;13.930413;SI;Europe/Ljubljana;Q554854;Vlak;;nom;1867251390;Q12807616;;;1123007;Povir
+TNOSM1867258110;gare;Rakitovec;Rakitovec;Rakitovec;;;45.466014;13.955286;SI;Europe/Ljubljana;Q556203;Vlak;;nom;1867258110;Q16868398;;;1123011;Rakitovec
+TNOSM1867262492;gare;Steske;Steske;Steske;;;45.875991;13.757509;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;1867262492;Q12807626;;;1123020;Steske
+TNOSM1867314760;gare;Polževo;Polževo;Polževo;;;45.940775;14.779117;SI;Europe/Ljubljana;Q1008048;Vlak;;nom;1867314760;Q12807615;;;1122861;Polževo
+TNOSM1867319064;gare;Gaber;Gaber;Gaber;;;45.940533;14.909106;SI;Europe/Ljubljana;Q13378243;Vlak;;nom;1867319064;Q19938343;;;1122857;Gaber
+TNOSM1867321482;gare;Velika Loka;Velika Loka;Velika Loka;;;45.932124;14.969261;SI;Europe/Ljubljana;Q13378243;Vlak;;nom;1867321482;Q12807632;;;1122855;Velika Loka
+TNOSM1867321486;gare;Šentlovrenc;Šentlovrenc;Šentlovrenc;;;45.938122;14.941208;SI;Europe/Ljubljana;Q13378243;Vlak;;nom;1867321486;Q19938403;;;1122856;Šentlovrenc
+TNOSM1867325580;gare;Mirna Peč;Mirna Peč;Mirna Peč;;;45.86679;15.09143;SI;Europe/Ljubljana;Q1016805;Vlak;;nom;1867325580;Q12807509;;;1122850;Mirna Peč
+TNOSM1867325613;gare;Hudo;Hudo;Hudo;;;45.83398;15.135967;SI;Europe/Ljubljana;Q398116;Vlak;;nom;1867325613;Q19938350;;;1122852;Hudo
+TNOSM1867337166;gare;Birčna Vas;Birčna Vas;Birčna Vas;;;45.75803;15.148241;SI;Europe/Ljubljana;Q398116;Vlak;;nom;1867337166;Q19938321;;;1122846;Birčna vas
+TNOSM1867339434;gare;Rožni Dol;Rožni Dol;Rožni Dol;;;45.681958;15.148264;SI;Europe/Ljubljana;Q1587704;Vlak;;nom;1867339434;Q12807625;;;1122844;Rožni Dol
+TNOSM1867340561;gare;Semič;Semič;Semič;;;45.643067;15.161739;SI;Europe/Ljubljana;Q1587704;Vlak;;nom;1867340561;Q12807525;;;1122843;Semič
+TNOSM1867349249;gare;Dobravice;Dobravice;Dobravice;;;45.632279;15.269811;SI;Europe/Ljubljana;Q3441856;Vlak;;nom;1867349249;Q12807576;;;1122839;Dobravice
+TNOSM1867349741;gare;Rosalnice;Rosalnice;Rosalnice;;;45.648804;15.336178;SI;Europe/Ljubljana;Q3441856;Vlak;;nom;1867349741;Q19938392;;;1122837;Rosalnice
+TNOSM1867350778;gare;Jelovec;Jelovec;Jelovec;;;45.989158;15.239839;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;1867350778;Q12807588;;;1122878;Jelovec
+TNOSM1867351373;gare;Tržišče;Tržišče;Tržišče;;;45.966512;15.191044;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;1867351373;Q12807528;;;1122879;Tržišče
+TNOSM1867351456;gare;Pijavice;Pijavice;Pijavice;;;45.968318;15.163303;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;1867351456;;;;1122880;Pijavice
+TNOSM1867351990;gare;Šentrupert;Šentrupert;Šentrupert;;;45.959473;15.087707;SI;Europe/Ljubljana;Q3487128;Vlak;;nom;1867351990;Q19938404;;;1122882;Šentrupert
+TNOSM1867352427;gare;Gomila;Gomila;Gomila;;;45.93474;15.044982;SI;Europe/Ljubljana;Q1515842;Vlak;;nom;1867352427;;;;1122884;Gomila
+TNOSM1867353306;gare;Trebnje Kamna Gora;Trebnje Kamna Gora;Trebnje Kamna Gora;;;45.906039;15.024328;SI;Europe/Ljubljana;Q13378243;Vlak;;nom;1867353306;Q19938399;;;1122885;Trebnje Kamna Gora
+TNOSM2373003636;gare;Stara Cerkev;Stara Cerkev;Stara Cerkev;;;45.669482;14.837785;SI;Europe/Ljubljana;Q15884;Vlak;;nom;2373003636;Q111722694;;;1122874;Stara Cerkev
+TNOSM2373004562;gare;Kočevje;Kočevje;Kočevje;;;45.646329;14.857007;SI;Europe/Ljubljana;Q15884;Vlak;;nom;2373004562;Q19938268;;;1122875;Kočevje
+TNOSM2373056648;gare;Velike Lašče;Velike Lašče;Velike Lašče;;;45.841707;14.645349;SI;Europe/Ljubljana;Q13378281;Vlak;;nom;2373056648;Q111722936;;;1122871;Velike Lašče
+TNOSM2402012860;gare;Grlava;Grlava;Grlava;;;46.557275;16.174239;SI;Europe/Ljubljana;Q15892;Vlak;;nom;2402012860;Q88804767;;;1122954;Grlava
+TNOSM2443074793;gare;Mlačevo;Mlačevo;Mlačevo;;;45.940361;14.685121;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;2443074793;Q19938369;;;1122864;Mlačevo
+TNOSM259629505;gare;Ostrožno;Ostrožno;Ostrožno;;;46.264061;15.472746;SI;Europe/Ljubljana;Q13378384;Vlak;;nom;259629505;Q12807607;;;1122896;Ostrožno
+TNOSM259631722;gare;Rače;Rače;Rače;;;46.45333;15.66383;SI;Europe/Ljubljana;Q731093;Vlak;;nom;259631722;Q12807520;;;1122900;Rače
+TNOSM263250212;gare;Litostroj;Ljubljana Litostroj;Ljubljana Litostroj;;;46.076858;14.490205;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;263250212;Q12807595;;;1122819;Litostroj
+TNOSM2667778535;gare;Rogatec;Rogatec;Rogatec;;;46.224452;15.697876;SI;Europe/Ljubljana;Q1027245;Vlak;;nom;2667778535;Q20523770;;;1122967;Rogatec
+TNOSM269260478;gare;Rakek;Rakek;Rakek;;;45.815331;14.313134;SI;Europe/Ljubljana;Q13107298;Vlak;;nom;269260478;;;;1122997;Rakek
+TNOSM3009139742;gare;Podgorje;Podgorje;Podgorje;;;45.534395;13.942787;SI;Europe/Ljubljana;Q556203;Vlak;;nom;3009139742;Q12807514;;;1123009;Podgorje
+TNOSM3558276958;gare;Prevalje;Prevalje;Prevalje;;;46.549998;14.921739;SI;Europe/Ljubljana;Q650009;Vlak;;nom;3558276958;Q15727400;;;1122939;Prevalje
+TNOSM364926662;gare;Lipovci;Lipovci;Lipovci;;;46.623338;16.211378;SI;Europe/Ljubljana;Q778542;Vlak;;nom;364926662;Q12807496;;;1122955;Lipovci
+TNOSM385808108;gare;Podvelka;Podvelka;Podvelka;;;46.590389;15.33007;SI;Europe/Ljubljana;Q1016800;Vlak;;nom;385808108;Q12807513;;;1122921;Podvelka
+TNOSM399559311;gare;Bistrica ob Dravi;Bistrica ob Dravi;Bistrica ob Dravi;;;46.55772;15.554101;SI;Europe/Ljubljana;Q3346841;Vlak;;nom;399559311;Q18562668;;;1122916;Bistrica ob Dravi
+TNOSM4190638970;gare;Logatec;Logatec;Logatec;;;45.917736;14.235846;SI;Europe/Ljubljana;Q15893;Vlak;;nom;4190638970;;;;1122995;Logatec
+TNOSM4327529257;gare;Šentvid pri Stični;Šentvid pri Stični;Šentvid pri Stični;;;45.940768;14.849953;SI;Europe/Ljubljana;Q1008048;Vlak;;nom;4327529257;Q19938405;;;1122859;Šentvid pri Stični
+TNOSM43512621;gare;Orehova vas;Orehova vas;Orehova vas;;;46.473085;15.663466;SI;Europe/Ljubljana;Q1008102;Vlak;;nom;43512621;Q12807608;;;1122901;Orehova vas
+TNOSM4393645533;gare;Ajdovščina;Ajdovščina;Ajdovščina;;;45.885891;13.900015;SI;Europe/Ljubljana;Q331701;Vlak;;nom;4393645533;Q4699696;;;1123027;Ajdovščina
+TNOSM4462627088;gare;Kopriva;Kopriva;Kopriva;;;45.784874;13.831702;SI;Europe/Ljubljana;Q554854;Vlak;;nom;4462627088;Q19938359;;;1123017;Kopriva
+TNOSM457597570;gare;Fala;Fala;Fala;;;46.548004;15.451638;SI;Europe/Ljubljana;Q3346841;Vlak;;nom;457597570;Q19938336;;;1122918;Fala
+TNOSM45990737;gare;Ljubljana Tivoli;Ljubljana Tivoli;Ljubljana Tivoli;;;46.050187;14.494026;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;45990737;Q12807597;;;1123000;Ljubljana Tivoli
+TNOSM46350571;gare;Trzin;Trzin;Trzin;;;46.132752;14.567637;SI;Europe/Ljubljana;Q773160;Vlak;;nom;46350571;Q19938400;;;1122829;Trzin
+TNOSM46526600;gare;Medvode;Medvode;Medvode;;;46.137915;14.412179;SI;Europe/Ljubljana;Q15894;Vlak;;nom;46526600;Q19938277;;;1122808;Medvode
+TNOSM46713856;gare;Škofja Loka;Škofja Loka;Škofja Loka;;;46.174401;14.33558;SI;Europe/Ljubljana;Q2318898;Vlak;;nom;46713856;Q12807537;;;1122810;Škofja Loka
+TNOSM46840397;gare;Notranje Gorice;Notranje Gorice;Notranje Gorice;;;45.987553;14.402553;SI;Europe/Ljubljana;Q849320;Vlak;;nom;46840397;Q12807604;;;1122991;Notranje Gorice
+TNOSM46844136;gare;Preserje;Preserje;Preserje;;;45.965407;14.395813;SI;Europe/Ljubljana;Q849320;Vlak;;nom;46844136;Q12807517;;;1122992;Preserje
+TNOSM4902195499;gare;Borovnica;Borovnica;Borovnica;;;45.921416;14.368104;SI;Europe/Ljubljana;Q13377747;Vlak;;nom;4902195499;Q11029837;;;1122993;Borovnica
+TNOSM4905868416;gare;Gornje Ležeče;Gornje Ležeče;Gornje Ležeče;;;45.666413;14.072282;SI;Europe/Ljubljana;Q557216;Vlak;;nom;4905868416;Q19938258;;;1123003;Gornje Ležeče
+TNOSM4910575921;gare;Brezovica;Brezovica;Brezovica;;;46.02136;14.426551;SI;Europe/Ljubljana;Q849320;Vlak;;nom;4910575921;Q4962864;;;1122990;Brezovica
+TNOSM50009756;gare;Globoko;Globoko;Globoko;;;46.323318;14.20845;SI;Europe/Ljubljana;Q15910;Vlak;;nom;50009756;Q19938345;;;1122814;Globoko
+TNOSM50011396;gare;Otoče;Otoče;Otoče;;;46.311041;14.232446;SI;Europe/Ljubljana;Q15910;Vlak;;nom;50011396;Q19938373;;;1122813;Otoče
+TNOSM50736008;gare;Škofljica;Škofljica;Škofljica;;;45.984372;14.572711;SI;Europe/Ljubljana;Q392103;Vlak;;nom;50736008;Q19938306;;;1122867;Škofljica
+TNOSM5614990298;gare;Štore;Štore;Štore;;;46.221574;15.321278;SI;Europe/Ljubljana;Q392468;Vlak;;nom;5614990298;Q12807639;;;1122889;Štore
+TNOSM5615333224;gare;Grosuplje;Grosuplje;Grosuplje;;;45.955503;14.652556;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;5615333224;Q19938262;;;1122865;Grosuplje
+TNOSM5619179563;gare;Prestranek;Prestranek;Prestranek;;;45.728535;14.185597;SI;Europe/Ljubljana;Q2242799;Vlak;;nom;5619179563;Q12807519;;;1122999;Prestranek
+TNOSM56530806;gare;Trzin Mlake;Trzin Mlake;Trzin Mlake;;;46.12859;14.559674;SI;Europe/Ljubljana;Q773160;Vlak;;nom;56530806;Q12807629;;;1122828;Trzin Mlake
+TNOSM5658320713;gare;Dravograd;Dravograd;Dravograd;;;46.587082;15.027083;SI;Europe/Ljubljana;Q3503123;Vlak;;nom;5658320713;Q5305970;;;1122937;Dravograd
+TNOSM56690650;gare;Domžale;Domžale;Domžale;;;46.140233;14.592426;SI;Europe/Ljubljana;Q13377763;Vlak;;nom;56690650;Q5291407;;;1122822;Domžale
+TNOSM5672615480;gare;Litija;Litija;Litija;;;46.058226;14.8252;SI;Europe/Ljubljana;Q15891;Vlak;;nom;5672615480;Q11033150;;;1122797;Litija
+TNOSM5682608008;gare;Moškanjci;Moškanjci;Moškanjci;;;46.423357;15.98368;SI;Europe/Ljubljana;Q632998;Vlak;;nom;5682608008;Q12807508;;;1122908;Moškanjci
+TNOSM5682616370;gare;Kidričevo;Kidričevo;Kidričevo;;;46.400659;15.800313;SI;Europe/Ljubljana;Q776770;Vlak;;nom;5682616370;Q12807492;;;1122905;Kidričevo
+TNOSM5682625137;gare;Ruše;Ruše;Ruše;;;46.540945;15.503829;SI;Europe/Ljubljana;Q3346841;Vlak;;nom;5682625137;Q19938295;;;1122917;Ruše
+TNOSM5682631227;gare;Pesnica;Pesnica;Pesnica;;;46.609439;15.680572;SI;Europe/Ljubljana;Q995048;Vlak;;nom;5682631227;Q19938281;;;1122933;Pesnica
+TNOSM5682644396;gare;Šentilj;Šentilj;Šentilj;;;46.675111;15.656944;SI;Europe/Ljubljana;Q391446;Vlak;;nom;5682644396;Q12807536;;;1122935;Šentilj
+TNOSM5682658562;gare;Hoče;Hoče;Hoče;;;46.500798;15.662899;SI;Europe/Ljubljana;Q1008102;Vlak;;nom;5682658562;Q19938264;;;1122902;Hoče
+TNOSM5684850880;gare;Šentjur;Šentjur;Šentjur;;;46.213017;15.396007;SI;Europe/Ljubljana;Q13378384;Vlak;;nom;5684850880;Q18752050;;;1122890;Šentjur
+TNOSM5684864292;gare;Sevnica;Sevnica;Sevnica;;;46.009475;15.301171;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;5684864292;Q9335716;;;1122788;Sevnica
+TNOSM5685028547;gare;Kresnice;Kresnice;Kresnice;;;46.102895;14.791722;SI;Europe/Ljubljana;Q15891;Vlak;;nom;5685028547;Q19938270;;;1122798;Kresnice
+TNOSM5685083801;gare;Radohova vas;Radohova vas;Radohova vas;;;45.94331;14.873299;SI;Europe/Ljubljana;Q1008048;Vlak;;nom;5685083801;Q19938287;;;1122858;Radohova vas
+TNOSM5685085087;gare;Višnja Gora;Višnja Gora;Višnja Gora;;;45.958118;14.742406;SI;Europe/Ljubljana;Q1008048;Vlak;;nom;5685085087;Q12807532;;;1122862;Višnja Gora
+TNOSM5685102239;gare;Ljubljana Rakovnik;Ljubljana Rakovnik;Ljubljana Rakovnik;;;46.036925;14.518828;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;5685102239;Q12807499;;;1122868;Ljubljana Rakovnik
+TNOSM5685107691;gare;Laze;Laze;Laze;;;46.088292;14.687677;SI;Europe/Ljubljana;Q998557;Vlak;;nom;5685107691;Q19938272;;;1122800;Laze
+TNOSM5685226833;gare;Ljubljana Črnuče;Ljubljana Črnuče;Ljubljana Črnuče;;;46.101053;14.528043;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;5685226833;Q12807500;;;1122821;Ljubljana Črnuče
+TNOSM5699758621;gare;Slovenska Bistrica;Slovenska Bistrica;Slovenska Bistrica;;;46.363192;15.598049;SI;Europe/Ljubljana;Q11211457;Vlak;;nom;5699758621;Q15442617;;;1122895;Slovenska Bistrica
+TNOSM5854905459;gare;Mokronog;Mokronog;Mokronog;;;45.958274;15.122084;SI;Europe/Ljubljana;Q1027078;Vlak;;nom;5854905459;Q19938279;;;1122881;Mokronog
+TNOSM5943429519;gare;Strnišče;Strnišče;Strnišče;;;46.400751;15.770515;SI;Europe/Ljubljana;Q776770;Vlak;;nom;5943429519;Q88783642;;;1122904;Strnišče
+TNOSM611328944;gare;Rimske Toplice;Rimske Toplice;Rimske Toplice;;;46.123666;15.203051;SI;Europe/Ljubljana;Q15887;Vlak;;nom;611328944;Q19938291;;;1122886;Rimske Toplice
+TNOSM6125616440;gare;Uršna sela;Uršna sela;Uršna sela;;;45.714431;15.12787;SI;Europe/Ljubljana;Q398116;Vlak;;nom;6125616440;;;;1122845;Uršna sela
+TNOSM6127111840;gare;Lavrica(Železniški);Lavrica;Lavrica;;;45.999738;14.554044;SI;Europe/Ljubljana;Q392103;Vlak;;nom;6127111840;;;;1152017;Lavrica(Železniški)
+TNOSM6127683208;gare;Ljubljana Dolgi most(Železniški);Ljubljana Dolgi most;Ljubljana Dolgi most;;;46.037514;14.464373;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;6127683208;Q111722556;;;1152016;Ljubljana Dolgi most(Železniški)
+TNOSM617483690;gare;Trbovlje;Trbovlje;Trbovlje;;;46.126295;15.036839;SI;Europe/Ljubljana;Q15925;Vlak;;nom;617483690;Q18606035;;;1122794;Trbovlje
+TNOSM620742882;gare;Mačkovci;Mačkovci;Mačkovci;;;46.783195;16.164704;SI;Europe/Ljubljana;Q921092;Vlak;;nom;620742882;Q111722573;;;1122959;Mačkovci
+TNOSM6329604075;gare;Gradac;Gradac;Gradac;;;45.614351;15.241299;SI;Europe/Ljubljana;Q3441856;Vlak;;nom;6329604075;Q12807585;;;1122840;Gradac
+TNOSM6389634381;gare;Črnomelj;Črnomelj;Črnomelj;;;45.579784;15.190021;SI;Europe/Ljubljana;Q3482211;Vlak;;nom;6389634381;Q19938304;;;1122841;Črnomelj
+TNOSM711463844;gare;Štanjel;Štanjel;Štanjel;;;45.817873;13.848247;SI;Europe/Ljubljana;Q15283322;Vlak;;nom;711463844;Q12807539;;;1123018;Štanjel
+TNOSM7243268333;gare;Grobelno;Grobelno;Grobelno;;;46.212912;15.43959;SI;Europe/Ljubljana;Q13378384;Vlak;;nom;7243268333;Q19938260;;;1122891;Grobelno
+TNOSM7417574422;gare;Ribnica;Ribnica;Ribnica;;;45.743685;14.730249;SI;Europe/Ljubljana;Q15912;Vlak;;nom;7417574422;;;;1122873;Ribnica
+TNOSM7526714187;gare;Ivančna Gorica;Ivančna Gorica;Ivančna Gorica;;;45.937974;14.803074;SI;Europe/Ljubljana;Q1008048;Vlak;;nom;7526714187;Q19938266;;;1122860;Ivančna Gorica
+TNOSM7590603374;gare;Mirna;Mirna;Mirna;;;45.949293;15.063079;SI;Europe/Ljubljana;Q1515842;Vlak;;nom;7590603374;;;;1122883;Mirna
+TNOSM7643291861;gare;Žlebič;Žlebič;Žlebič;;;45.767882;14.692422;SI;Europe/Ljubljana;Q15912;Vlak;;nom;7643291861;Q111723133;;;1122876;Žlebič
+TNOSM7643291862;gare;Ortnek;Ortnek;Ortnek;;;45.790134;14.680371;SI;Europe/Ljubljana;Q15912;Vlak;;nom;7643291862;Q12807512;;;1122872;Ortnek
+TNOSM7658813459;gare;Otovec;Otovec;Otovec;;;45.598811;15.161586;SI;Europe/Ljubljana;Q3482211;Vlak;;nom;7658813459;Q12807610;;;1122842;Otovec
+TNOSM768869329;gare;Žirovnica;Žirovnica;Žirovnica;;;46.401937;14.1356;SI;Europe/Ljubljana;Q394103;Vlak;;nom;768869329;Q12807641;;;1122817;Žirovnica
+TNOSM768924356;gare;Radovljica;Radovljica;Radovljica;;;46.340818;14.173005;SI;Europe/Ljubljana;Q15910;Vlak;;nom;768924356;Q11833529;;;1122815;Radovljica
+TNOSM834660508;gare;Podnart;Podnart;Podnart;;;46.294056;14.258344;SI;Europe/Ljubljana;Q15910;Vlak;;nom;834660508;Q12807612;;;1122812;Podnart
+TNOSM834662103;gare;Reteče;Reteče;Reteče;;;46.156541;14.371142;SI;Europe/Ljubljana;Q2318898;Vlak;;nom;834662103;Q19938388;;;1122809;Reteče
+TNOSM834672569;gare;Medno;Medno;Medno;;;46.1222;14.439074;SI;Europe/Ljubljana;Q3434113;Vlak;;nom;834672569;Q19938367;;;1122807;Medno
+TNOSM838588247;gare;Podmelec;Podmelec;Podmelec;;;46.15939;13.813853;SI;Europe/Ljubljana;Q15924;Vlak;;nom;838588247;Q19938382;;;1123039;Podmelec
+TNOSM8424927519;gare;Dobrepolje;Dobrepolje;Dobrepolje;;;45.858563;14.682082;SI;Europe/Ljubljana;Q1009409;Vlak;;nom;8424927519;Q5286711;;;1122870;Dobrepolje
+TNOSM8424940117;gare;Čušperk;Čušperk;Čušperk;;;45.890926;14.698215;SI;Europe/Ljubljana;Q13377778;Vlak;;nom;8424940117;Q111722498;;;1120967;Čušperk
+TNOSM860117543;gare;Prvačina;Prvačina;Prvačina;;;45.887497;13.722818;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;860117543;Q19938285;;;1123022;Prvačina
+TNOSM860150930;gare;Kreplje;Kreplje;Kreplje;;;45.742154;13.827317;SI;Europe/Ljubljana;Q554854;Vlak;;nom;860150930;Q19938365;;;1123016;Kreplje
+TNOSM861343682;gare;Dornberk vas;Dornberk vas;Dornberk vas;;;45.890054;13.736206;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;861343682;Q12807584;;;1123028;Dornberk vas
+TNOSM861343900;gare;Dobravlje;Dobravlje;Dobravlje;;;45.882476;13.84504;SI;Europe/Ljubljana;Q331701;Vlak;;nom;861343900;Q12807577;;;1123030;Dobravlje
+TNOSM861343968;gare;Cesta;Cesta;Cesta;;;45.886835;13.865287;SI;Europe/Ljubljana;Q331701;Vlak;;nom;861343968;Q12807573;;;1123031;Cesta
+TNOSM939949697;gare;Celje Lava;Celje Lava;Celje Lava;;;46.236701;15.255854;SI;Europe/Ljubljana;Q3441823;Vlak;;nom;939949697;Q12807575;;;1122988;Celje Lava
+TNOSM975989846;gare;Boštanj;Boštanj;Boštanj;;;46.0074;15.290067;SI;Europe/Ljubljana;Q11214302;Vlak;;nom;975989846;Q19938325;;;1122877;Boštanj
+TNOSM979608956;gare;Trbonje;Trbonje;Trbonje;;;46.605356;15.110471;SI;Europe/Ljubljana;Q3503123;Vlak;;nom;979608956;Q111722904;;;1122925;Trbonje
+TNOSM9907002126;gare;Solkan;Solkan;Solkan;;;45.97507;13.647963;SI;Europe/Ljubljana;Q3435478;Vlak;;nom;9907002126;Q12807628;;;1168303;Solkan
+TNSZ-1122799;gare;Jevnica;Jevnica;Jevnica;;;46.084161;14.736713;SI;Europe/Ljubljana;Q15891;Vlak;;gtfs;;;;;1122799;Jevnica
+TNSZ-1122831;gare;Homec pri Kamniku;Homec pri Kamniku;Homec pri Kamniku;;;46.179834;14.59063;SI;Europe/Ljubljana;Q13377763;Vlak;;gtfs;;;;;1122831;Homec pri Kamniku
+TNSZ-1122835;gare;Trzin ind. cona;Trzin ind. cona;Trzin ind. cona;;;46.118868;14.551007;SI;Europe/Ljubljana;Q773160;Vlak;;gtfs;;;;;1122835;Trzin ind. cona
+TNSZ-1122851;gare;Ponikve na Dolenjskem;Ponikve na Dolenjskem;Ponikve na Dolenjskem;;;45.897783;15.042766;SI;Europe/Ljubljana;Q13378243;Vlak;;gtfs;;;;;1122851;Ponikve na Dolenjskem
+TNSZ-1122854;gare;Štefan;Štefan;Štefan;;;45.912713;14.980418;SI;Europe/Ljubljana;Q13378243;Vlak;;gtfs;;;;;1122854;Štefan
+TNSZ-1122945;gare;Pavlovci;Pavlovci;Pavlovci;;;46.426394;16.179275;SI;Europe/Ljubljana;Q15900;Vlak;;gtfs;;;;;1122945;Pavlovci
+TNSZ-1122985;gare;Šoštanj;Šoštanj;Šoštanj;;;46.376794;15.049738;SI;Europe/Ljubljana;Q15923;Vlak;;gtfs;;;;;1122985;Šoštanj
+TNSZ-1123005;arret_car;Rodik;Rodik;Rodik;;;45.627132;13.975277;SI;Europe/Ljubljana;Q556206;;BUS;gtfs;;;;;1123005;Rodik
+TNSZ-1123008;arret_car;Prešnica;Prešnica;Prešnica;;;45.570471;13.941199;SI;Europe/Ljubljana;Q556206;;BUS;gtfs;;;;;1123008;Prešnica
+TNSZ-1123013;arret_car;Črnotiče;Črnotiče;Črnotiče;;;45.551934;13.891554;SI;Europe/Ljubljana;Q556203;;BUS;gtfs;;;;;1123013;Črnotiče
+TNSZ-1123014;arret_car;Hrastovlje;Hrastovlje;Hrastovlje;;;45.501058;13.90938;SI;Europe/Ljubljana;Q556203;;BUS;gtfs;;;;;1123014;Hrastovlje
+TNSZ-1123033;gare;Solkan;Solkan;Solkan;;;45.972604;13.646294;SI;Europe/Ljubljana;Q3435478;Vlak;;gtfs;;;;;1123033;Solkan

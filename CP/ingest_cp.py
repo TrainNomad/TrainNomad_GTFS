@@ -15,6 +15,7 @@ import csv
 import io
 import os
 import shutil
+import sys
 import tempfile
 import zipfile
 
@@ -102,21 +103,31 @@ def main():
     from patch_elvas_badajoz import patch_gtfs
 
     print("\n🔧 Prolongement des trains Elvas -> Badajoz...")
-    success = patch_gtfs(tmp_gtfs, OUTPUT_ZIP)
-
-    # Nettoyer le fichier temporaire
-    if os.path.exists(tmp_gtfs):
+    if patch_gtfs(tmp_gtfs, OUTPUT_ZIP):
         os.remove(tmp_gtfs)
-
-    if success:
-        print(f"\n✅ GTFS CP prêt : {OUTPUT_ZIP}")
-        print(f"   Taille : {os.path.getsize(OUTPUT_ZIP) / 1024 / 1024:.1f} Mo")
     else:
-        # En cas d'échec du patch, utiliser le GTFS non patché
-        print("\n⚠️ Patch échoué, utilisation du GTFS original")
+        # rien ajouté : GTFS tel quel (correct si CP dessert déjà Badajoz lui-même, vérifié juste après)
         shutil.move(tmp_gtfs, OUTPUT_ZIP)
 
+    # 4. Garde-fou : sans Badajoz, on ne publie pas. Le pipeline garde alors la version déjà publiée
+    #    (qui, elle, va jusqu'à Badajoz) et le workflow s'affiche en échec pour qu'on adapte le patch.
+    n = badajoz_trains(OUTPUT_ZIP)
+    if n == 0:
+        print("\n❌ Aucun train ne dessert Badajoz dans le GTFS CP : le patch ne s'applique plus "
+              "(nouveau format CP ?). Version publiée conservée ; adapter CP/patch_elvas_badajoz.py.")
+        sys.exit(1)
+    print(f"\n✅ GTFS CP prêt : {OUTPUT_ZIP} ({n} trajets jusqu'à Badajoz)")
+    print(f"   Taille : {os.path.getsize(OUTPUT_ZIP) / 1024 / 1024:.1f} Mo")
     print("\n✅ Terminé !")
+
+
+def badajoz_trains(path: str) -> int:
+    """Nombre de trajets qui desservent Badajoz."""
+    from patch_elvas_badajoz import BADAJOZ_ID
+
+    with zipfile.ZipFile(path) as z:
+        rows = csv.DictReader(io.TextIOWrapper(z.open("stop_times.txt"), encoding="utf-8-sig"))
+        return len({r["trip_id"] for r in rows if r["stop_id"] == BADAJOZ_ID})
 
 
 if __name__ == "__main__":

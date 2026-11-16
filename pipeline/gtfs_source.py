@@ -31,9 +31,11 @@ import logging
 import os
 import shutil
 import subprocess
+import http.client
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import zipfile
 from datetime import date, datetime, timezone
@@ -102,16 +104,32 @@ def sources(ops: list[dict]) -> dict[str, dict]:
     return out
 
 
-def http_get(url: str, timeout: int = 120, attempts: int = 4) -> bytes | None:
-    """Contenu de l'URL, None si absente (404).
-    Les pannes passagères (5xx, coupure réseau) sont réessayées : GitHub répond parfois 504 au lieu de 404
-    pour un fichier de Release qui n'existe pas encore (première publication d'un opérateur)."""
+class _DropAuthOnRedirect(urllib.request.HTTPRedirectHandler):
+    """Le jeton GitHub n'est jamais transmis à un autre site : un fichier de Release redirige vers une adresse
+    signée (release-assets.githubusercontent.com) qui refuse les requêtes portant aussi un jeton."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None and urllib.parse.urlsplit(newurl).hostname != urllib.parse.urlsplit(req.full_url).hostname:
+            new.remove_header("Authorization")
+        return new
+
+
+_opener = urllib.request.build_opener(_DropAuthOnRedirect)
+
+
+def http_get(url: str, timeout: int = 120, attempts: int = 4, accept: str | None = None) -> bytes | None:
+    """Contenu de l'URL, None si absente (404). Les appels à l'API GitHub sont authentifiés avec GITHUB_TOKEN
+    (jeton du workflow) : GitHub ralentit parfois les requêtes anonymes jusqu'à les faire échouer.
+    Les pannes passagères (5xx, délai dépassé, réponse coupée) sont réessayées."""
     headers = {"User-Agent": "TrainNomad-pipeline"}
-    if os.environ.get("GITHUB_TOKEN") and "api.github.com" in url:
+    if accept:
+        headers["Accept"] = accept
+    if os.environ.get("GITHUB_TOKEN") and urllib.parse.urlsplit(url).hostname == "api.github.com":
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
     for attempt in range(1, attempts + 1):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=timeout) as r:
+            with _opener.open(urllib.request.Request(url, headers=headers), timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -119,14 +137,34 @@ def http_get(url: str, timeout: int = 120, attempts: int = 4) -> bytes | None:
             if e.code < 500 or attempt == attempts:
                 raise
             reason = f"HTTP {e.code}"
-        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        except (OSError, http.client.HTTPException) as e:  # coupure, délai dépassé, réponse incomplète
             if attempt == attempts:
                 raise
-            reason = str(getattr(e, "reason", e))
+            reason = str(getattr(e, "reason", None) or e) or type(e).__name__
         wait = 15 * attempt
         warn(f"{url} : {reason}, nouvel essai dans {wait} s ({attempt}/{attempts - 1})")
         time.sleep(wait)
     return None
+
+
+_release_assets: dict[str, dict] | None = None
+
+
+def release_assets() -> dict[str, dict]:
+    """Fichiers de la Release gtfs-latest, par nom (lus une fois par exécution, via l'API authentifiée)."""
+    global _release_assets
+    if _release_assets is None:
+        raw = http_get(f"https://api.github.com/repos/{REPO}/releases/tags/{RELEASE_TAG}", timeout=60)
+        _release_assets = {a["name"]: a for a in json.loads(raw).get("assets", [])} if raw else {}
+    return _release_assets
+
+
+def release_file(name: str, timeout: int = 120) -> bytes | None:
+    """Contenu d'un fichier de la Release gtfs-latest ; None s'il n'y est pas (opérateur jamais publié)."""
+    asset = release_assets().get(name)
+    if asset is None:
+        return None
+    return http_get(asset["url"], timeout=timeout, accept="application/octet-stream")
 
 
 def fmt(n) -> str:
@@ -278,8 +316,8 @@ def previous_trains_per_day(op_id: str, prev: dict, new_tpd: int) -> int | None:
         return stored
     logging.info(f"   {op_id} : trains par jour de la version publiée recomptés sur les mêmes jours")
     try:
-        data = http_get(f"{RELEASE_URL}/{op_id}.zip", timeout=600)
-    except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        data = release_file(f"{op_id}.zip", timeout=600)
+    except (OSError, http.client.HTTPException) as e:
         warn(f"{op_id} : version publiée illisible ({e}), comparaison avec sa fiche")
         return stored
     if data is None:
@@ -310,7 +348,7 @@ def cmd_preparer(name: str, forcer: bool) -> int:
             if not os.path.exists(path):
                 raise ValueError(f"{os.path.relpath(path, BASE_DIR)} absent après le script")
             stats = check_gtfs(path)
-            prev_raw = http_get(f"{RELEASE_URL}/{op_id}.json")
+            prev_raw = release_file(f"{op_id}.json")
             prev = json.loads(prev_raw) if prev_raw else None
             status = "✅ prêt à publier"
             if prev:
@@ -366,7 +404,7 @@ def download_release(dest: str):
         warn(f"Release {RELEASE_TAG} introuvable : aucun GTFS publié pour l'instant")
         return
     for asset in json.loads(raw).get("assets", []):
-        data = http_get(asset["browser_download_url"], timeout=600)
+        data = http_get(asset["url"], timeout=600, accept="application/octet-stream")  # API authentifiée
         if data is None:
             warn(f"{asset['name']} : téléchargement impossible")
             continue

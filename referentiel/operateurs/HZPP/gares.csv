@@ -1,0 +1,461 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN7800015;gare;Slavonski Brod;Slavonski Brod;Slavonski Brod;7800015;;45.163544;18.011185;HR;Europe/Zagreb;Q4686;Vlak;;nom;10068642643;Q38251733;;;i-o564;Slavonski Brod
+TN7800024;gare;Vinkovci;Vinkovci;Vinkovci;7800024;;45.300355;18.802625;HR;Europe/Zagreb;Q221495;Vlak;;nom;9026904301;Q17485357;;;i-o412;Vinkovci
+TN7800107;gare;Sušak-Pećine;Sušak-Pećine;Sušak-Pećine;7800107;;45.32087;14.463808;HR;Europe/Zagreb;Q1647;Vlak;;nom;11056859761;Q60381277;;;i-o859;Sušak-Pećine
+TN7800116;gare;Škrljevo;Škrljevo;Škrljevo;7800116;;45.324546;14.539007;HR;Europe/Zagreb;Q3443449;Vlak;;nom;1119343289;;;;i-o857;Škrljevo
+TN7800385;gare;Meja;Meja;Meja;7800385;;45.306564;14.595743;HR;Europe/Zagreb;Q3401331;Vlak;;nom;636141909;;;;i-o856;Meja
+TN7800572;gare;Zlobin;Zlobin;Zlobin;7800572;;45.288311;14.65069;HR;Europe/Zagreb;Q3511348;Vlak;;nom;1400446234;;;;i-o853;Zlobin
+TN7871102;gare;Vođinci;Vođinci;Vođinci;7871102;;45.269662;18.613737;HR;Europe/Zagreb;Q1293864;Vlak;;nom;1871071573;Q116009093;;;i-o408;Vođinci
+TN7871201;gare;Nuštar Stajalište;Nuštar;Nuštar;7871201;;45.335997;18.840581;HR;Europe/Zagreb;Q568433;Vlak;;nom;7423782670;Q116008940;;;i-o414;Nuštar Stajalište
+TN7871203;gare;Bršadin-Lipovača;Bršadin-Lipovača;Bršadin-Lipovača;7871203;;45.367545;18.915584;HR;Europe/Zagreb;Q2488905;Vlak;;nom;1871091923;Q116008734;;;i-o416;Bršadin-Lipovača
+TN7871207;gare;Dalj;Dalj;Dalj;7871207;;45.500483;18.967345;HR;Europe/Zagreb;Q912341;Vlak;;nom;10180853503;Q116008761;;;i-o420;Dalj
+TN7871302;gare;Privlaka;Privlaka;Privlaka;7871302;;45.198322;18.848487;HR;Europe/Zagreb;Q1018714;Vlak;;nom;10186963702;Q116008993;;;i-o425;Privlaka
+TN7871303;gare;Otok;Otok;Otok;7871303;;45.145636;18.87194;HR;Europe/Zagreb;Q994223;Vlak;;nom;10186963714;Q116008952;;;i-o426;Otok
+TN7871304;gare;Spačva;Spačva;Spačva;7871304;;45.041255;18.904156;HR;Europe/Zagreb;Q1073850;Vlak;;nom;10186967132;Q116009030;;;i-o427;Spačva
+TN7871305;gare;Vrbanja;Vrbanja;Vrbanja;7871305;;44.982516;18.885149;HR;Europe/Zagreb;Q1073850;Vlak;;nom;1871095154;Q116009102;;;i-o428;Vrbanja
+TN7871307;gare;Gunja;Gunja;Gunja;7871307;;44.882809;18.844329;HR;Europe/Zagreb;Q1277200;Vlak;;nom;4497688780;Q116008831;;;i-o430;Gunja
+TN7871401;gare;Vinkovačko Novo Selo;Vinkovačko Novo Selo;Vinkovačko Novo Selo;7871401;;45.290044;18.781478;HR;Europe/Zagreb;Q221495;Vlak;;nom;3673522294;Q116009082;;;i-o433;Vinkovačko Novo Selo
+TN7871402;gare;Andrijaševci;Andrijaševci;Andrijaševci;7871402;;45.229849;18.730547;HR;Europe/Zagreb;Q1277314;Vlak;;nom;1871097300;Q116008709;;;i-o434;Andrijaševci
+TN7871403;gare;Cerna;Cerna;Cerna;7871403;;45.194263;18.699082;HR;Europe/Zagreb;Q523570;Vlak;;nom;1871098388;Q116008751;;;i-o435;Cerna
+TN7871404;gare;Gradište;Gradište;Gradište;7871404;;45.144092;18.7;HR;Europe/Zagreb;Q427898;Vlak;;nom;1871099807;Q116008827;;;i-o436;Gradište
+TN7871405;gare;Županja;Županja;Županja;7871405;;45.081722;18.696374;HR;Europe/Zagreb;Q394310;Vlak;;nom;1175083256;Q116009127;;;i-o437;Županja
+TN7871406;gare;Rokovci;Rokovci;Rokovci;7871406;;45.241345;18.731607;HR;Europe/Zagreb;Q3445210;Vlak;;nom;1871097297;Q116009005;;;i-o438;Rokovci
+TN7871601;gare;Bijelo Brdo;Bijelo Brdo;Bijelo Brdo;7871601;;45.513197;18.858859;HR;Europe/Zagreb;Q794862;Vlak;;nom;1760402216;Q116008716;;;i-o448;Bijelo Brdo
+TN7871602;gare;Sarvaš;Sarvaš;Sarvaš;7871602;;45.520857;18.834283;HR;Europe/Zagreb;Q3139003;Vlak;;nom;13205091542;Q116009010;;;i-o449;Sarvaš
+TN7871603;gare;Osijek Donji Grad;Osijek Donji Grad;Osijek Donji Grad;7871603;;45.552232;18.721276;HR;Europe/Zagreb;Q1640;Vlak;;nom;10024491901;Q116008944;;;i-o450;Osijek Donji grad
+TN7871605;gare;Osijek OLT;Osijek OLT;Osijek OLT;7871605;;45.554142;18.705447;HR;Europe/Zagreb;Q1640;Vlak;;nom;5627328392;Q116008947;;;i-o452;Osijek OLT
+TN7871606;gare;Standard;Standard;Standard;7871606;;45.545287;18.742207;HR;Europe/Zagreb;Q1640;Vlak;;nom;496303260;Q116009033;;;i-o453;Standard
+TN7871607;gare;Osijek Luka;Osijek Luka;Osijek Luka;7871607;;45.536686;18.767611;HR;Europe/Zagreb;Q1640;Vlak;;nom;4196847403;Q116008946;;;i-o454;Osijek Luka
+TN7871701;gare;Osijek Dravski Most;Osijek Dravski Most;Osijek Dravski Most;7871701;;45.558707;18.703621;HR;Europe/Zagreb;Q1640;Vlak;;nom;489415915;Q116008945;;;i-o455;Osijek Dravski Most
+TN7871703;gare;Darda;Darda;Darda;7871703;;45.633939;18.699222;HR;Europe/Zagreb;Q912592;Vlak;;nom;10180954833;Q116008762;;;i-o456;Darda
+TN7871704;gare;Čeminac;Čeminac;Čeminac;7871704;;45.685404;18.655697;HR;Europe/Zagreb;Q537594;Vlak;;nom;6135964685;Q116008747;;;i-o457;Čeminac
+TN7871705;gare;Beli Manastir;Beli Manastir;Beli Manastir;7871705;;45.765736;18.596175;HR;Europe/Zagreb;Q397645;Vlak;;nom;10180954876;Q54914144;;;i-o458;Beli Manastir
+TN7871802;gare;Čepin;Čepin;Čepin;7871802;;45.520586;18.577918;HR;Europe/Zagreb;Q338684;Vlak;;nom;1744592417;Q116008748;;;i-o462;Čepin
+TN7871803;gare;Vladislavci;Vladislavci;Vladislavci;7871803;;45.47549;18.558697;HR;Europe/Zagreb;Q1284718;Vlak;;nom;7932597865;Q116009092;;;i-o463;Vladislavci
+TN7871804;gare;Dopsin;Dopsin;Dopsin;7871804;;45.463089;18.55029;HR;Europe/Zagreb;Q12787753;Vlak;;nom;1871086241;Q116008777;;;i-o464;Dopsin
+TN7871805;gare;Hrastovac Vučki;Hrastovac Vučki;Hrastovac Vučki;7871805;;45.443291;18.539928;HR;Europe/Zagreb;Q1284798;Vlak;;nom;1744643144;Q116008837;;;i-o465;Hrastovac Vučki
+TN7871807;gare;Viškovci;Viškovci;Viškovci;7871807;;45.346347;18.426541;HR;Europe/Zagreb;VHR-kusevac;Vlak;;nom;1871089127;Q116009089;;;i-o467;Viškovci
+TN7871808;gare;Đakovo;Đakovo;Đakovo;7871808;;45.3137;18.421759;HR;Europe/Zagreb;Q318961;Vlak;;nom;10212764853;Q116008760;;;i-o468;Đakovo
+TN7871809;gare;Budrovci;Budrovci;Budrovci;7871809;;45.260905;18.420774;HR;Europe/Zagreb;Q3504303;Vlak;;nom;1744583668;Q116008737;;;i-o469;Budrovci
+TN7871810;gare;Lipovac-Koritna;Lipovac-Koritna;Lipovac-Koritna;7871810;;45.421543;18.523669;HR;Europe/Zagreb;Q1284798;Vlak;;nom;1744642099;Q116008899;;;i-o470;Lipovac-Koritna
+TN7871902;gare;Samatovci;Samatovci;Samatovci;7871902;;45.590843;18.502325;HR;Europe/Zagreb;Q3513047;Vlak;;nom;478553437;Q116009009;;;i-o472;Samatovci
+TN7871903;gare;Bizovac;Bizovac;Bizovac;7871903;;45.587155;18.453047;HR;Europe/Zagreb;Q1293830;Vlak;;nom;10226363993;Q116008717;;;i-o473;Bizovac
+TN7871904;gare;Cret;Cret;Cret;7871904;;45.573563;18.409685;HR;Europe/Zagreb;Q1258179;Vlak;;nom;4196846137;Q116008756;;;i-o474;Cret
+TN7871905;gare;Normanci;Normanci;Normanci;7871905;;45.55731;18.366483;HR;Europe/Zagreb;Q7053008;Vlak;;nom;677514171;Q116008930;;;i-o475;Normanci
+TN7871906;gare;Koška;Koška;Koška;7871906;;45.541506;18.295364;HR;Europe/Zagreb;Q1284843;Vlak;;nom;677514168;Q116008870;;;i-o476;Koška
+TN7871907;gare;Niza;Niza;Niza;7871907;;45.542813;18.234566;HR;Europe/Zagreb;Q6959517;Vlak;;nom;677514083;Q116008929;;;i-o477;Niza
+TN7871908;gare;Našička Breznica;Našička Breznica;Našička Breznica;7871908;;45.53153;18.190987;HR;Europe/Zagreb;Q3433603;Vlak;;nom;677514081;Q116008928;;;i-o478;Našička Breznica
+TN7871909;gare;Jelisavac;Jelisavac;Jelisavac;7871909;;45.523442;18.154925;HR;Europe/Zagreb;Q397652;Vlak;;nom;677514075;Q116008851;;;i-o479;Jelisavac
+TN7871910;gare;Višnjevac;Višnjevac;Višnjevac;7871910;;45.56147;18.619756;HR;Europe/Zagreb;Q2393687;Vlak;;nom;6019205474;Q116009090;;;i-o480;Višnjevac
+TN7871960;gare;Osijek;Osijek;Osijek;7871960;;45.552735;18.683477;HR;Europe/Zagreb;Q1640;Vlak;;nom;10024491875;Q7106792;;;i-o485;Osijek
+TN7872001;gare;Jasenovac;Jasenovac;Jasenovac;7872001;;45.276103;16.910628;HR;Europe/Zagreb;Q605889;Vlak;;nom;1743041423;Q116008849;;;i-o487;Jasenovac
+TN7872002;gare;Višnjica;Višnjica;Višnjica;7872002;;45.25641;16.880222;HR;Europe/Zagreb;Q15229372;Vlak;;nom;1871106451;Q116009091;;;i-o488;Višnjica
+TN7872003;gare;Hrvatska Dubica;Hrvatska Dubica;Hrvatska Dubica;7872003;;45.221626;16.806242;HR;Europe/Zagreb;Q1632538;Vlak;;nom;1743038144;Q116008841;;;i-o489;Hrvatska Dubica
+TN7872004;gare;Živaja;Živaja;Živaja;7872004;;45.246933;16.727727;HR;Europe/Zagreb;Q394146;Vlak;;nom;910796842;Q116009121;;;i-o490;Živaja
+TN7872005;gare;Šaš;Šaš;Šaš;7872005;;45.284969;16.668484;HR;Europe/Zagreb;Q2625049;Vlak;;nom;1871105262;Q116009011;;;i-o491;Šaš
+TN7872006;gare;Papići;Papići;Papići;7872006;;45.307935;16.634431;HR;Europe/Zagreb;Q1091348;Vlak;;nom;1871104051;Q116008962;;;i-o492;Papići
+TN7872007;gare;Staza;Staza;Staza;7872007;;45.328577;16.603747;HR;Europe/Zagreb;Q1091348;Vlak;;nom;1871102945;Q116009038;;;i-o493;Staza
+TN7872060;gare;Sunja;Sunja;Sunja;7872060;;45.3555;16.550574;HR;Europe/Zagreb;Q1091348;Vlak;;nom;10976815015;Q116009045;;;i-o495;Sunja
+TN7872101;gare;Brđani Krajiški;Brđani Krajiški;Brđani Krajiški;7872101;;45.38322;16.494375;HR;Europe/Zagreb;Q1091348;Vlak;;nom;1767498324;Q116008723;;;i-o496;Brđani Krajiški
+TN7872102;gare;Blinjski Kut;Blinjski Kut;Blinjski Kut;7872102;;45.415717;16.457694;HR;Europe/Zagreb;Q192119;Vlak;;nom;1767496294;Q116008720;;;i-o497;Blinjski Kut
+TN7872103;gare;Sisak Caprag;Sisak Caprag;Sisak Caprag;7872103;;45.458156;16.390543;HR;Europe/Zagreb;Q192119;Vlak;;nom;10976882198;Q116155605;;;i-o498;Sisak Caprag
+TN7872201;gare;Hrastovac;Hrastovac;Hrastovac;7872201;;45.311441;16.546547;HR;Europe/Zagreb;Q3440686;Vlak;;nom;1767501191;Q116008838;;;i-o499;Hrastovac
+TN7872202;gare;Graboštani;Graboštani;Graboštani;7872202;;45.280446;16.541529;HR;Europe/Zagreb;Q2271296;Vlak;;nom;1767502487;Q116008809;;;i-o500;Graboštani
+TN7872203;gare;Majur;Majur;Majur;7872203;;45.257367;16.527996;HR;Europe/Zagreb;Q2575783;Vlak;;nom;1767503411;Q116008909;;;i-o501;Majur
+TN7872204;gare;Hrvatska Kostajnica;Hrvatska Kostajnica;Hrvatska Kostajnica;7872204;;45.235243;16.527477;HR;Europe/Zagreb;Q396575;Vlak;;nom;2434547226;Q116008842;;;i-o502;Hrvatska Kostajnica
+TN7872205;gare;Volinja;Volinja;Volinja;7872205;;45.202322;16.486142;HR;Europe/Zagreb;Q2279264;Vlak;;nom;2435052832;Q116009098;;;i-o503;Volinja
+TN7872401;gare;Sesvetski Kraljevec;Sesvetski Kraljevec;Sesvetski Kraljevec;7872401;;45.81069;16.168915;HR;Europe/Zagreb;Q1435;Vlak;;nom;5783733389;Q116009015;;;i-o513;Sesvetski Kraljevec
+TN7872402;gare;Sesvete;Sesvete;Sesvete;7872402;;45.824934;16.110031;HR;Europe/Zagreb;Q1435;Vlak;;nom;5661201720;Q116009014;;;i-o514;Sesvete
+TN7872403;gare;Čulinec;Čulinec;Čulinec;7872403;;45.820768;16.06335;HR;Europe/Zagreb;Q1435;Vlak;;nom;2607889081;Q116008758;;;i-o515;Čulinec
+TN7872405;gare;Maksimir;Maksimir;Maksimir;7872405;;45.814118;16.024295;HR;Europe/Zagreb;Q1435;Vlak;;nom;2607875292;Q116008911;;;i-o517;Maksimir
+TN7872408;gare;Sesvetska Sopnica;Sesvetska Sopnica;Sesvetska Sopnica;7872408;;45.824561;16.085788;HR;Europe/Zagreb;Q1435;Vlak;;nom;10557043666;;;;i-o519;Sesvetska Sopnica
+TN7872480;gare;Zagreb Glavni kolodvor;Zagreb Central Railway Station;Zagreb Glavni kolodvor;7872480;;45.804446;15.978833;HR;Europe/Zagreb;Q1435;Vlak;;nom;5627130425;Q140377;;;i-o523;Zagreb Glavni kolodvor
+TN7872501;gare;Stara Subocka;Stara Subocka;Stara Subocka;7872501;;45.364144;16.911508;HR;Europe/Zagreb;Q397639;Vlak;;nom;5554955397;Q116009034;;;i-o524;Stara Subocka
+TN7872504;gare;Ilova;Ilova;Ilova;7872504;;45.450675;16.834641;HR;Europe/Zagreb;Q396536;Vlak;;nom;601848766;Q116008846;;;i-o527;Ilova
+TN7872506;gare;Repušnica;Repušnica;Repušnica;7872506;;45.489126;16.729317;HR;Europe/Zagreb;Q396536;Vlak;;nom;3326230008;Q116009001;;;i-o529;Repušnica
+TN7872507;gare;Moslavačka Gračenica;Moslavačka Gračenica;Moslavačka Gračenica;7872507;;45.51373;16.689598;HR;Europe/Zagreb;Q2056085;Vlak;;nom;10606324585;Q116008922;;;i-o530;Moslavačka Gračenica
+TN7872508;gare;Voloder;Voloder;Voloder;7872508;;45.537721;16.657715;HR;Europe/Zagreb;Q2056085;Vlak;;nom;5554947864;Q116009099;;;i-o531;Voloder
+TN7872509;gare;Popovača;Popovača;Popovača;7872509;;45.559205;16.623549;HR;Europe/Zagreb;Q2056085;Vlak;;nom;10698008478;Q116008982;;;i-o532;Popovača
+TN7872510;gare;Ludina;Ludina;Ludina;7872510;;45.600513;16.569472;HR;Europe/Zagreb;Q1293840;Vlak;;nom;601848767;Q116008904;;;i-o533;Ludina
+TN7872511;gare;Novoselec;Novoselec;Novoselec;7872511;;45.649224;16.52996;HR;Europe/Zagreb;Q916485;Vlak;;nom;601848769;Q116008938;;;i-o534;Novoselec
+TN7872512;gare;Širinec;Širinec;Širinec;7872512;;45.671347;16.490923;HR;Europe/Zagreb;Q263195;Vlak;;nom;5554942549;Q116009019;;;i-o535;Širinec
+TN7872513;gare;Deanovec;Deanovec;Deanovec;7872513;;45.68949;16.459928;HR;Europe/Zagreb;Q848203;Vlak;;nom;11735140330;Q116008763;;;i-o536;Deanovec
+TN7872514;gare;Ivanić Grad;Ivanić Grad;Ivanić Grad;7872514;;45.707309;16.397973;HR;Europe/Zagreb;Q385706;Vlak;;nom;10698018158;Q116008847;;;i-o537;Ivanić Grad
+TN7872515;gare;Prečec stajalište;Prečec stajalište;Prečec stajalište;7872515;;45.759733;16.350593;HR;Europe/Zagreb;Q821382;Vlak;;nom;614392351;Q116008986;;;i-o538;Prečec stajalište
+TN7872516;gare;Ostrna;Ostrna;Ostrna;7872516;;45.794114;16.271112;HR;Europe/Zagreb;Q400041;Vlak;;nom;690826754;Q116008950;;;i-o539;Ostrna
+TN7872517;gare;Dugo Selo;Dugo Selo;Dugo Selo;7872517;;45.801372;16.234757;HR;Europe/Zagreb;Q400041;Vlak;;nom;5660705256;Q16116634;;;i-o540;Dugo Selo
+TN7872601;gare;Vrbova;Vrbova;Vrbova;7872601;;45.209549;17.583464;HR;Europe/Zagreb;Q1272621;Vlak;;nom;10248897338;Q116009103;;;i-o542;Vrbova
+TN7872603;gare;Zapolje;Zapolje;Zapolje;7872603;;45.235583;17.462789;HR;Europe/Zagreb;Q1269809;Vlak;;nom;1871061224;Q116009113;;;i-o544;Zapolje
+TN7872608;gare;Rajić;Rajić;Rajić;7872608;;45.295882;17.10276;HR;Europe/Zagreb;Q397639;Vlak;;nom;10012391194;Q116008994;;;i-o549;Rajić
+TN7872701;gare;Slobodnica;Slobodnica;Slobodnica;7872701;;45.176852;17.927856;HR;Europe/Zagreb;Q746680;Vlak;;nom;6396975612;Q116009027;;;i-o550;Slobodnica
+TN7872704;gare;Kuti;Kuti;Kuti;7872704;;45.163588;17.812895;HR;Europe/Zagreb;Q925524;Vlak;;nom;10239206208;Q116008884;;;i-o553;Kuti
+TN7872705;gare;Brodski Stupnik;Brodski Stupnik;Brodski Stupnik;7872705;;45.160506;17.794863;HR;Europe/Zagreb;Q925524;Vlak;;nom;10239206209;Q116008732;;;i-o554;Brodski Stupnik
+TN7872707;gare;Lužani-Malino;Lužani-Malino;Lužani-Malino;7872707;;45.170536;17.716741;HR;Europe/Zagreb;Q1272312;Vlak;;nom;10239206234;Q116008906;;;i-o556;Lužani-Malino
+TN7872801;gare;Perkovci;Perkovci;Perkovci;7872801;;45.208471;18.349397;HR;Europe/Zagreb;Q1284383;Vlak;;nom;10239203535;Q116008966;;;i-o558;Perkovci
+TN7872803;gare;Staro Topolje;Staro Topolje;Staro Topolje;7872803;;45.182815;18.247073;HR;Europe/Zagreb;Q1275641;Vlak;;nom;10239203553;Q116009036;;;i-o560;Staro Topolje
+TN7872805;gare;Zadubravlje;Zadubravlje;Zadubravlje;7872805;;45.168397;18.152815;HR;Europe/Zagreb;Q1277306;Vlak;;nom;10239206040;Q116009110;;;i-o562;Zadubravlje
+TN7872806;gare;Donja Vrba;Donja Vrba;Donja Vrba;7872806;;45.163577;18.121525;HR;Europe/Zagreb;Q1284418;Vlak;;nom;10239206134;Q116008770;;;i-o563;Donja Vrba
+TN7872901;gare;Sisak;Sisak;Sisak;7872901;;45.49203;16.373403;HR;Europe/Zagreb;Q192119;Vlak;;nom;10981099108;Q116155606;;;i-o566;Sisak
+TN7872902;gare;Stupno;Stupno;Stupno;7872902;;45.50203;16.332278;HR;Europe/Zagreb;Q192119;Vlak;;nom;7857545795;Q116009042;;;i-o567;Stupno
+TN7872903;gare;Greda;Greda;Greda;7872903;;45.530567;16.293099;HR;Europe/Zagreb;Q192119;Vlak;;nom;10981099129;Q116008828;;;i-o568;Greda
+TN7872904;gare;Lekenik;Lekenik;Lekenik;7872904;;45.584407;16.218842;HR;Europe/Zagreb;Q1269884;Vlak;;nom;10981099138;Q116155600;;;i-o569;Lekenik
+TN7872905;gare;Pešćenica;Pešćenica;Pešćenica;7872905;;45.614981;16.176599;HR;Europe/Zagreb;Q2740391;Vlak;;nom;7689172920;Q116008969;;;i-o570;Pešćenica
+TN7872906;gare;Turopolje;Turopolje;Turopolje;7872906;;45.647739;16.131299;HR;Europe/Zagreb;Q331141;Vlak;;nom;690584655;Q116009072;;;i-o571;Turopolje
+TN7872907;gare;Mraclin;Mraclin;Mraclin;7872907;;45.668625;16.102325;HR;Europe/Zagreb;Q331141;Vlak;;nom;7442890836;Q116008923;;;i-o572;Mraclin
+TN7872908;gare;Velika Gorica;Velika Gorica;Velika Gorica;7872908;;45.708589;16.046904;HR;Europe/Zagreb;Q331141;Vlak;;nom;5661204727;Q116009074;;;i-o573;Velika Gorica
+TN7872921;gare;Odra;Odra;Odra;7872921;;45.735459;16.009497;HR;Europe/Zagreb;Q1435;Vlak;;nom;1575712958;Q116008941;;;i-o574;Odra
+TN7872922;gare;Zagreb Klara;Zagreb Klara;Zagreb Klara;7872922;;45.755751;15.98128;HR;Europe/Zagreb;Q1435;Vlak;;nom;2071569172;Q116009111;;;i-o575;Zagreb Klara
+TN7872933;gare;Buzin;Buzin;Buzin;7872933;;45.743219;15.998699;HR;Europe/Zagreb;Q1435;Vlak;;nom;3978724057;Q116008739;;;i-o576;Buzin
+TN7873001;gare;Pčelić;Pčelić;Pčelić;7873001;;45.78017;17.525115;HR;Europe/Zagreb;Q1010342;Vlak;;nom;320254701;Q116008964;;;i-o577;Pčelić
+TN7873002;gare;Suhopolje;Suhopolje;Suhopolje;7873002;;45.794032;17.486907;HR;Europe/Zagreb;Q1010342;Vlak;;nom;320254898;Q116009043;;;i-o578;Suhopolje
+TN7873003;gare;Virovitica;Virovitica;Virovitica;7873003;;45.825138;17.398625;HR;Europe/Zagreb;Q266168;Vlak;;nom;10656377012;Q116009088;;;i-o579;Virovitica
+TN7873004;gare;Virovitica Grad;Virovitica Grad;Virovitica Grad;7873004;;45.826847;17.38573;HR;Europe/Zagreb;Q266168;Vlak;;nom;9445918173;Q116009086;;;i-o580;Virovitica grad
+TN7873005;gare;Špišić Bukovica;Špišić Bukovica;Špišić Bukovica;7873005;;45.84582;17.298767;HR;Europe/Zagreb;Q789100;Vlak;;nom;320266976;Q116009032;;;i-o581;Špišić Bukovica
+TN7873006;gare;Vukosavljevica;Vukosavljevica;Vukosavljevica;7873006;;45.874923;17.253818;HR;Europe/Zagreb;Q789100;Vlak;;nom;320267164;Q116009107;;;i-o582;Vukosavljevica
+TN7873007;gare;Pitomača;Pitomača;Pitomača;7873007;;45.94253;17.229696;HR;Europe/Zagreb;Q1027699;Vlak;;nom;7352125554;Q116008970;;;i-o583;Pitomača
+TN7873008;gare;Kloštar;Kloštar;Kloštar;7873008;;45.981472;17.139183;HR;Europe/Zagreb;Q248865;Vlak;;nom;10889876877;Q116155597;;;i-o584;Kloštar
+TN7873009;gare;Kalinovac;Kalinovac;Kalinovac;7873009;;46.012946;17.095788;HR;Europe/Zagreb;Q1103518;Vlak;;nom;7529486142;Q116008856;;;i-o585;Kalinovac
+TN7873011;gare;Virje;Virje;Virje;7873011;;46.068575;17.004398;HR;Europe/Zagreb;Q947792;Vlak;;nom;1763300753;Q116009084;;;i-o587;Virje
+TN7873012;gare;Novigrad Podravski;Novigrad Podravski;Novigrad Podravski;7873012;;46.08456;16.954964;HR;Europe/Zagreb;Q927041;Vlak;;nom;320274726;Q116008936;;;i-o588;Novigrad Podravski
+TN7873014;gare;Bregi;Bregi;Bregi;7873014;;46.126725;16.891923;HR;Europe/Zagreb;Q654948;Vlak;;nom;1763300754;Q116008726;;;i-o589;Bregi
+TN7873101;gare;Mučna Reka;Mučna Reka;Mučna Reka;7873101;;46.123126;16.760467;HR;Europe/Zagreb;Q5640;Vlak;;nom;10905967818;Q116008925;;;i-o590;Mučna Reka
+TN7873103;gare;Lepavina;Lepavina;Lepavina;7873103;;46.097886;16.685077;HR;Europe/Zagreb;Q1068176;Vlak;;nom;1763298836;Q116008891;;;i-o592;Lepavina
+TN7873104;gare;Carevdar;Carevdar;Carevdar;7873104;;46.065805;16.647278;HR;Europe/Zagreb;Q5718;Vlak;;nom;13063729448;Q116008745;;;i-o593;Carevdar
+TN7873105;gare;Vojakovački Kloštar;Vojakovački Kloštar;Vojakovački Kloštar;7873105;;46.049152;16.621229;HR;Europe/Zagreb;Q5718;Vlak;;nom;13050814826;Q116009096;;;i-o594;Vojakovački Kloštar
+TN7873106;gare;Majurec;Majurec;Majurec;7873106;;46.02656;16.589859;HR;Europe/Zagreb;Q5718;Vlak;;nom;13050814811;Q116008910;;;i-o595;Majurec
+TN7873107;gare;Križevci;Križevci;Križevci;7873107;;46.006495;16.543548;HR;Europe/Zagreb;Q5718;Vlak;;nom;306286451;Q116008875;;;i-o596;Križevci
+TN7873108;gare;Repinec;Repinec;Repinec;7873108;;45.949391;16.505082;HR;Europe/Zagreb;Q10993628;Vlak;;nom;6996853947;Q116009000;;;i-o597;Repinec
+TN7873109;gare;Gradec;Gradec Stajalište;Gradec Stajalište;7873109;;45.912038;16.484095;HR;Europe/Zagreb;Q10993628;Vlak;;nom;2386480363;Q116008811;;;i-o602;Gradec
+TN7873110;gare;Vrbovec;Vrbovec;Vrbovec;7873110;;45.873549;16.410726;HR;Europe/Zagreb;Q754781;Vlak;;nom;10931722483;Q116009104;;;i-o599;Vrbovec
+TN7873112;gare;Božjakovina;Božjakovina;Božjakovina;7873112;;45.822202;16.307027;HR;Europe/Zagreb;Q529741;Vlak;;nom;513154013;Q116008722;;;i-o601;Božjakovina
+TN7873160;gare;Koprivnica;Koprivnica;Koprivnica;7873160;;46.1654;16.816889;HR;Europe/Zagreb;Q5640;Vlak;;nom;10891428315;Q116210469;;;i-o603;Koprivnica
+TN7873301;gare;Poljanka;Poljanka;Poljanka;7873301;;45.974544;16.544635;HR;Europe/Zagreb;Q5718;Vlak;;nom;598717767;Q116008981;;;i-o609;Poljanka
+TN7873302;gare;Brezovljani;Brezovljani;Brezovljani;7873302;;45.951117;16.567885;HR;Europe/Zagreb;Q849571;Vlak;;nom;598717736;Q116008728;;;i-o610;Brezovljani
+TN7873303;gare;Sveti Ivan Žabno;Sveti Ivan Žabno;Sveti Ivan Žabno;7873303;;45.944944;16.620287;HR;Europe/Zagreb;Q578697;Vlak;;nom;598717750;Q116009049;;;i-o611;Sveti Ivan Žabno
+TN7873304;gare;Cirkvena;Cirkvena;Cirkvena;7873304;;45.940232;16.659411;HR;Europe/Zagreb;VHR-kustani;Vlak;;nom;598717759;Q116008755;;;i-o612;Cirkvena
+TN7873305;gare;Rovišće;Rovišće;Rovišće;7873305;;45.932067;16.718421;HR;Europe/Zagreb;Q1287435;Vlak;;nom;598717797;Q116009006;;;i-o613;Rovišće
+TN7873306;gare;Klokočevac;Klokočevac;Klokočevac;7873306;;45.910132;16.77514;HR;Europe/Zagreb;Q5707;Vlak;;nom;598717793;Q116008863;;;i-o614;Klokočevac
+TN7873307;gare;Bjelovar;Bjelovar;Bjelovar;7873307;;45.894089;16.844677;HR;Europe/Zagreb;Q5707;Vlak;;nom;10949055932;Q116008718;;;i-o615;Bjelovar
+TN7873308;gare;Žabjak;Žabjak;Žabjak;7873308;;45.927072;16.731716;HR;Europe/Zagreb;VHR-zabjak;Vlak;;nom;598717799;Q116009108;;;i-o616;Žabjak
+TN7873309;gare;Hrsovo;Hrsovo;Hrsovo;7873309;;45.93631;16.687513;HR;Europe/Zagreb;VHR-hrsovo;Vlak;;nom;598717761;Q116008840;;;i-o617;Hrsovo
+TN7873310;gare;Škrinjari;Škrinjari;Škrinjari;7873310;;45.937074;16.59335;HR;Europe/Zagreb;Q954180;Vlak;;nom;598846316;Q116009024;;;i-o618;Škrinjari
+TN7873311;gare;Stare Plavnice;Stare Plavnice;Stare Plavnice;7873311;;45.899404;16.80995;HR;Europe/Zagreb;Q5707;Vlak;;nom;598717808;Q116009035;;;i-o619;Stare Plavnice
+TN7873321;gare;Grginac;Grginac;Grginac;7873321;;45.909367;16.893133;HR;Europe/Zagreb;Q2207571;Vlak;;nom;1871053856;Q116008830;;;i-o621;Grginac
+TN7873322;gare;Grginac Novi;Grginac Novi;Grginac Novi;7873322;;45.913856;16.908347;HR;Europe/Zagreb;Q2207571;Vlak;;nom;677407955;Q116008829;;;i-o622;Grginac Novi
+TN7873323;gare;Veliko Trojstvo;Veliko Trojstvo;Veliko Trojstvo;7873323;;45.932235;16.925153;HR;Europe/Zagreb;Q283356;Vlak;;nom;677407975;Q116009079;;;i-o623;Veliko Trojstvo
+TN7873324;gare;Mišulinovac;Mišulinovac;Mišulinovac;7873324;;45.934731;16.94494;HR;Europe/Zagreb;Q283356;Vlak;;nom;677407988;Q116008921;;;i-o624;Mišulinovac
+TN7873325;gare;Paulovac;Paulovac;Paulovac;7873325;;45.93837;16.974778;HR;Europe/Zagreb;VHR-paulovac;Vlak;;nom;677408007;Q116008963;;;i-o625;Paulovac
+TN7873327;gare;Sirova Katalena;Sirova Katalena;Sirova Katalena;7873327;;45.959408;17.068494;HR;Europe/Zagreb;Q249554;Vlak;;nom;7824300381;Q116009020;;;i-o627;Sirova Katalena
+TN7873401;gare;Našice Grad;Našice Grad;Našice Grad;7873401;;45.487453;18.088481;HR;Europe/Zagreb;Q397652;Vlak;;nom;6100443253;Q116008926;;;i-o631;Našice Grad
+TN7873405;gare;Čaglin;Čaglin;Čaglin;7873405;;45.348288;17.989882;HR;Europe/Zagreb;Q337471;Vlak;;nom;10238215839;Q116008744;;;i-o635;Čaglin
+TN7873406;gare;Latinovac;Latinovac;Latinovac;7873406;;45.33714;17.957314;HR;Europe/Zagreb;Q3442194;Vlak;;nom;148612168;Q116008889;;;i-o636;Latinovac
+TN7873407;gare;Ciglenik;Ciglenik;Ciglenik;7873407;;45.334112;17.917157;HR;Europe/Zagreb;Q398139;Vlak;;nom;3887743886;Q116008754;;;i-o637;Ciglenik
+TN7873408;gare;Zarilac;Zarilac;Zarilac;7873408;;45.334198;17.87618;HR;Europe/Zagreb;Q610804;Vlak;;nom;3887743505;Q116009115;;;i-o638;Zarilac
+TN7873409;gare;Knežci;Knežci;Knežci;7873409;;45.336827;17.897887;HR;Europe/Zagreb;VHR-knezci;Vlak;;nom;3887743917;Q116008864;;;i-o639;Knežci
+TN7873501;gare;Blacko-Jakšić;Blacko-Jakšić;Blacko-Jakšić;7873501;;45.335675;17.757273;HR;Europe/Zagreb;Q1272324;Vlak;;nom;10238215908;Q116008719;;;i-o640;Blacko-Jakšić
+TN7873502;gare;Požega;Požega;Požega;7873502;;45.337503;17.683262;HR;Europe/Zagreb;Q273114;Vlak;;nom;10238215917;Q116008984;;;i-o641;Požega
+TN7873503;gare;Mihaljevci;Mihaljevci;Mihaljevci;7873503;;45.379367;17.672063;HR;Europe/Zagreb;Q273114;Vlak;;nom;1871085046;Q116155602;;;i-o642;Mihaljevci
+TN7873504;gare;Trenkovo;Trenkovo;Trenkovo;7873504;;45.400917;17.662619;HR;Europe/Zagreb;Q3509458;Vlak;;nom;1871085110;Q116009054;;;i-o643;Trenkovo
+TN7873505;gare;Velika;Velika;Velika;7873505;;45.438945;17.665416;HR;Europe/Zagreb;Q1092424;Vlak;;nom;10238866866;Q116009076;;;i-o644;Velika
+TN7873506;gare;Novoselci;Novoselci;Novoselci;7873506;;45.324013;17.77953;HR;Europe/Zagreb;Q2453422;Vlak;;nom;1871084271;Q116008937;;;i-o645;Novoselci
+TN7873601;gare;Pleternica;Pleternica;Pleternica;7873601;;45.286817;17.809835;HR;Europe/Zagreb;Q397633;Vlak;;nom;10238215894;Q116008976;;;i-o646;Pleternica
+TN7873602;gare;Sulkovci;Sulkovci;Sulkovci;7873602;;45.259006;17.775978;HR;Europe/Zagreb;Q1842321;Vlak;;nom;5555037636;Q116009044;;;i-o647;Sulkovci
+TN7873603;gare;Ratkovica;Ratkovica;Ratkovica;7873603;;45.230537;17.731468;HR;Europe/Zagreb;Q1986088;Vlak;;nom;1871078498;Q116008996;;;i-o648;Ratkovica
+TN7873604;gare;Dragovci;Dragovci;Dragovci;7873604;;45.214512;17.706356;HR;Europe/Zagreb;Q1864848;Vlak;;nom;5555027228;Q116008779;;;i-o649;Dragovci
+TN7873605;gare;Bučje-Koprivnica;Bučje-Koprivnica;Bučje-Koprivnica;7873605;;45.247253;17.75765;HR;Europe/Zagreb;Q2201490;Vlak;;nom;5555032825;Q116008735;;;i-o650;Bučje-Koprivnica
+TN7873701;gare;Pepelana;Pepelana;Pepelana;7873701;;45.739452;17.491417;HR;Europe/Zagreb;Q2523996;Vlak;;nom;1023310683;Q116008965;;;i-o651;Pepelana
+TN7873702;gare;Pivnica;Pivnica;Pivnica;7873702;;45.708122;17.483205;HR;Europe/Zagreb;Q2255659;Vlak;;nom;1124826516;Q116008971;;;i-o652;Pivnica
+TN7873703;gare;Đulovac;Đulovac;Đulovac;7873703;;45.664349;17.431151;HR;Europe/Zagreb;Q1277251;Vlak;;nom;9690244971;Q116008794;;;i-o653;Đulovac
+TN7873704;gare;Koreničani;Koreničani;Koreničani;7873704;;45.654189;17.358099;HR;Europe/Zagreb;Q2089323;Vlak;;nom;9972626895;Q116008868;;;i-o654;Koreničani
+TN7873705;gare;Maslenjača;Maslenjača;Maslenjača;7873705;;45.642526;17.296057;HR;Europe/Zagreb;Q1885043;Vlak;;nom;9972626687;Q116155601;;;i-o655;Maslenjača
+TN7873706;gare;Donja Vrijeska;Donja Vrijeska;Donja Vrijeska;7873706;;45.646432;17.272427;HR;Europe/Zagreb;Q1277251;Vlak;;nom;7419390634;Q116008771;;;i-o656;Donja Vrijeska
+TN7873708;gare;Daruvar;Daruvar;Daruvar;7873708;;45.588866;17.226434;HR;Europe/Zagreb;Q399430;Vlak;;nom;10887010055;Q116152392;;;i-o658;Daruvar
+TN7873709;gare;Bijela;Bijela;Bijela;7873709;;45.573609;17.260528;HR;Europe/Zagreb;Q2277393;Vlak;;nom;599298679;Q116008715;;;i-o659;Bijela
+TN7873711;gare;Badljevina;Badljevina;Badljevina;7873711;;45.502856;17.208362;HR;Europe/Zagreb;Q398115;Vlak;;nom;599298629;Q116008711;;;i-o661;Badljevina
+TN7873713;gare;Pakrac Grad;Pakrac Grad;Pakrac Grad;7873713;;45.437169;17.188807;HR;Europe/Zagreb;Q398115;Vlak;;nom;599298869;Q116008954;;;i-o663;Pakrac Grad
+TN7873714;gare;Lipik;Lipik;Lipik;7873714;;45.409568;17.160021;HR;Europe/Zagreb;Q396595;Vlak;;nom;10887634330;Q116008898;;;i-o664;Lipik
+TN7873716;gare;Kukunjevac;Kukunjevac;Kukunjevac;7873716;;45.434806;17.083623;HR;Europe/Zagreb;Q396595;Vlak;;nom;599298816;Q116008879;;;i-o666;Kukunjevac
+TN7873717;gare;Brezine-Bujavica;Brezine-Bujavica;Brezine-Bujavica;7873717;;45.444796;17.03424;HR;Europe/Zagreb;Q396595;Vlak;;nom;599298716;Q116008727;;;i-o667;Brezine-Bujavica
+TN7873718;gare;Poljana;Poljana;Poljana;7873718;;45.463051;16.978977;HR;Europe/Zagreb;Q396595;Vlak;;nom;5593325964;Q116008980;;;i-o668;Poljana
+TN7873719;gare;Međurić;Međurić;Međurić;7873719;;45.445474;16.911139;HR;Europe/Zagreb;Q396536;Vlak;;nom;599298879;Q116008917;;;i-o669;Međurić
+TN7873720;gare;Potočani-Katinac;Potočani-Katinac;Potočani-Katinac;7873720;;45.650067;17.392902;HR;Europe/Zagreb;Q1277251;Vlak;;nom;1127746585;Q116008983;;;i-o670;Potočani-Katinac
+TN7873721;gare;Škodinovac;Škodinovac;Škodinovac;7873721;;45.634877;17.317178;HR;Europe/Zagreb;Q1420798;Vlak;;nom;7837129175;Q116009022;;;i-o671;Škodinovac
+TN7873801;gare;Kunovec-Subotica;Kunovec-Subotica;Kunovec-Subotica;7873801;;46.193709;16.756645;HR;Europe/Zagreb;Q5640;Vlak;;nom;1871039345;Q116008881;;;i-o672;Kunovec-Subotica
+TN7873802;gare;Rasinja;Rasinja;Rasinja;7873802;;46.205871;16.720713;HR;Europe/Zagreb;Q264607;Vlak;;nom;1763309993;Q116008995;;;i-o673;Rasinja
+TN7873803;gare;Čukovec;Čukovec;Čukovec;7873803;;46.23582;16.666326;HR;Europe/Zagreb;Q517561;Vlak;;nom;1763309990;Q116008757;;;i-o674;Čukovec
+TN7873804;gare;Ludbreg;Ludbreg;Ludbreg;7873804;;46.25625;16.612046;HR;Europe/Zagreb;Q396474;Vlak;;nom;495811108;Q116008903;;;i-o675;Ludbreg
+TN7873805;gare;Martijanec;Martijanec;Martijanec;7873805;;46.261427;16.532595;HR;Europe/Zagreb;Q546238;Vlak;;nom;1763309996;Q116008915;;;i-o676;Martijanec
+TN7873806;gare;Jalžabet;Jalžabet;Jalžabet;7873806;;46.268453;16.471773;HR;Europe/Zagreb;Q610221;Vlak;;nom;1763309994;Q116008848;;;i-o677;Jalžabet
+TN7873807;gare;Zbelava;Zbelava;Zbelava;7873807;;46.281424;16.398951;HR;Europe/Zagreb;Q5420;Vlak;;nom;3907195617;Q116009116;;;i-o678;Zbelava
+TN7873808;gare;Novakovec;Novakovec;Novakovec;7873808;;46.264223;16.496739;HR;Europe/Zagreb;Q610221;Vlak;;nom;1763309997;Q116008933;;;i-o679;Novakovec
+TN7873901;gare;Našice;Našice;Našice;7873901;;45.496384;18.124333;HR;Europe/Zagreb;Q397652;Vlak;;nom;10238158064;Q116008927;;;i-o680;Našice
+TN7873902;gare;Velimirovac;Velimirovac;Velimirovac;7873902;;45.512486;18.095135;HR;Europe/Zagreb;Q397652;Vlak;;nom;7924270088;Q116009080;;;i-o681;Velimirovac
+TN7873903;gare;Đurđenovac;Đurđenovac;Đurđenovac;7873903;;45.537397;18.037758;HR;Europe/Zagreb;Q1284447;Vlak;;nom;10886674033;Q116152394;;;i-o682;Đurđenovac
+TN7873904;gare;Feričanci;Feričanci;Feričanci;7873904;;45.53819;17.980931;HR;Europe/Zagreb;Q654011;Vlak;;nom;1342304897;Q116008798;;;i-o683;Feričanci
+TN7873905;gare;Zdenci-Orahovica;Zdenci-Orahovica;Zdenci-Orahovica;7873905;;45.568611;17.929178;HR;Europe/Zagreb;Q1270346;Vlak;;nom;677514070;Q116009117;;;i-o684;Zdenci-Orahovica
+TN7873906;gare;Čačinci;Čačinci;Čačinci;7873906;;45.598634;17.868934;HR;Europe/Zagreb;Q2288126;Vlak;;nom;677514071;Q116008743;;;i-o685;Čačinci
+TN7873907;gare;Mikleuš;Mikleuš;Mikleuš;7873907;;45.616792;17.812289;HR;Europe/Zagreb;Q1277222;Vlak;;nom;677514072;Q116008920;;;i-o686;Mikleuš
+TN7873908;gare;Nova Bukovica;Nova Bukovica;Nova Bukovica;7873908;;45.66256;17.777341;HR;Europe/Zagreb;Q1277435;Vlak;;nom;677514074;Q116008931;;;i-o687;Nova Bukovica
+TN7873909;gare;Slatina;Slatina;Slatina;7873909;;45.705538;17.706235;HR;Europe/Zagreb;Q991263;Vlak;;nom;320253317;Q116009026;;;i-o688;Slatina
+TN7873910;gare;Sladojevci;Sladojevci;Sladojevci;7873910;;45.726872;17.638863;HR;Europe/Zagreb;Q991263;Vlak;;nom;677514165;Q116009025;;;i-o689;Sladojevci
+TN7873911;gare;Podravska Bistrica;Podravska Bistrica;Podravska Bistrica;7873911;;45.742764;17.608939;HR;Europe/Zagreb;Q991263;Vlak;;nom;1794934538;Q116008977;;;i-o690;Podravska Bistrica
+TN7873912;gare;Cabuna;Cabuna;Cabuna;7873912;;45.758171;17.581322;HR;Europe/Zagreb;Q2277169;Vlak;;nom;677514166;Q116008742;;;i-o691;Cabuna
+TN7874001;gare;Vrapče;Vrapče;Vrapče;7874001;;45.812275;15.896774;HR;Europe/Zagreb;Q1435;Vlak;;nom;10881941165;Q116009100;;;i-o692;Vrapče
+TN7874003;gare;Podsused Stajalište;Podsused Stajalište;Podsused Stajalište;7874003;;45.815553;15.836395;HR;Europe/Zagreb;Q1435;Vlak;;nom;10881941195;Q116155604;;;i-o694;Podsused Stajalište
+TN7874005;gare;Kustošija;Kustošija;Kustošija;7874005;;45.810604;15.927251;HR;Europe/Zagreb;Q1435;Vlak;;nom;2607852922;Q116008883;;;i-o696;Kustošija
+TN7874006;gare;Gajnice;Gajnice;Gajnice;7874006;;45.813564;15.87291;HR;Europe/Zagreb;Q1435;Vlak;;nom;2388523169;Q116008801;;;i-o697;Gajnice
+TN7874007;gare;Zaprešić-Savska;Zaprešić-Savska;Zaprešić-Savska;7874007;;45.854943;15.794893;HR;Europe/Zagreb;Q5408;Vlak;;nom;1905561276;Q115253015;;;i-o698;Zaprešić Savska
+TN7874060;gare;Zagreb Zapadni kolodvor;Zagreb Zapadni kolodvor;Zagreb Zapadni kolodvor;7874060;;45.809113;15.954226;HR;Europe/Zagreb;Q1435;Vlak;;nom;5627130421;Q12645488;;;i-o700;Zagreb Zapadni Kolodvor
+TN7874101;gare;Brdovec;Brdovec;Brdovec;7874101;;45.863591;15.767122;HR;Europe/Zagreb;Q748841;Vlak;;nom;1366256999;Q116008725;;;i-o701;Brdovec
+TN7874104;gare;Laduč;Laduč;Laduč;7874104;;45.87865;15.719005;HR;Europe/Zagreb;Q850499;Vlak;;nom;4689372083;Q116008886;;;i-o704;Laduč
+TN7874201;gare;Sutla;Sutla;Sutla;7874201;;45.886139;15.694944;HR;Europe/Zagreb;Q850444;Vlak;;nom;1350773205;Q116009047;;;i-o705;Sutla
+TN7874212;gare;Harmica;Harmica;Harmica;7874212;;45.891486;15.685769;HR;Europe/Zagreb;Q597825;Vlak;;nom;1583402024;Q116008833;;;i-o716;Harmica
+TN7874301;gare;Novi Dvori;Novi Dvori;Novi Dvori;7874301;;45.879486;15.813116;HR;Europe/Zagreb;Q5408;Vlak;;nom;10983740973;Q116008934;;;i-o718;Novi Dvori
+TN7874302;gare;Pojatno;Pojatno;Pojatno;7874302;;45.909176;15.808136;HR;Europe/Zagreb;Q5408;Vlak;;nom;497571124;Q116008979;;;i-o719;Pojatno
+TN7874303;gare;Kupljenovo;Kupljenovo;Kupljenovo;7874303;;45.932508;15.816324;HR;Europe/Zagreb;Q5408;Vlak;;nom;9155848711;Q116155599;;;i-o720;Kupljenovo
+TN7874304;gare;Luka;Luka;Luka;7874304;;45.954298;15.821681;HR;Europe/Zagreb;Q1068221;Vlak;;nom;10983779977;Q116008905;;;i-o721;Luka
+TN7874305;gare;Žeinci;Žeinci;Žeinci;7874305;;45.976589;15.844892;HR;Europe/Zagreb;Q225070;Vlak;;nom;497580130;Q116155608;;;i-o722;Žeinci
+TN7874306;gare;Veliko Trgovišće;Veliko Trgovišće;Veliko Trgovišće;7874306;;45.99426;15.846676;HR;Europe/Zagreb;Q225070;Vlak;;nom;5555175939;Q116009077;;;i-o723;Veliko Trgovišće
+TN7874401;gare;Hum Lug;Hum Lug;Hum Lug;7874401;;46.021129;15.92593;HR;Europe/Zagreb;Q139018;Vlak;;nom;11181901255;Q116008845;;;i-o725;Hum-Lug
+TN7874402;gare;Dubrava Zabočka;Dubrava Zabočka;Dubrava Zabočka;7874402;;46.020973;15.952807;HR;Europe/Zagreb;Q139018;Vlak;;nom;497580125;Q116008783;;;i-o726;Dubrava Zabočka
+TN7874403;gare;Bedekovčina;Bedekovčina;Bedekovčina;7874403;;46.041559;15.997895;HR;Europe/Zagreb;Q791827;Vlak;;nom;434382217;Q116008713;;;i-o727;Bedekovčina
+TN7874404;gare;Poznanovec;Poznanovec;Poznanovec;7874404;;46.049813;16.030345;HR;Europe/Zagreb;Q914417;Vlak;;nom;2613455257;Q116008985;;;i-o728;Poznanovec
+TN7874405;gare;Zlatar Bistrica;Zlatar Bistrica;Zlatar Bistrica;7874405;;46.044152;16.08151;HR;Europe/Zagreb;Q1194688;Vlak;;nom;497552670;Q116009122;;;i-o729;Zlatar Bistrica
+TN7874406;gare;Donji Lipovec;Donji Lipovec;Donji Lipovec;7874406;;46.047913;16.135092;HR;Europe/Zagreb;Q425670;Vlak;;nom;497552669;Q116008775;;;i-o730;Donji Lipovec
+TN7874407;gare;Konjščina;Konjščina;Konjščina;7874407;;46.050561;16.178998;HR;Europe/Zagreb;Q1092467;Vlak;;nom;497552668;Q116008865;;;i-o731;Konjšćina
+TN7874408;gare;Hrašćina Trgovišće;Hrašćina Trgovišće;Hrašćina Trgovišće;7874408;;46.105836;16.199717;HR;Europe/Zagreb;Q851448;Vlak;;nom;497552665;Q116008836;;;i-o732;Hrašćina-Trgovišće
+TN7874409;gare;Budinšćina;Budinšćina;Budinšćina;7874409;;46.128195;16.213776;HR;Europe/Zagreb;Q755300;Vlak;;nom;497552664;Q116008736;;;i-o733;Budinšćina
+TN7874410;gare;Podrute;Podrute;Podrute;7874410;;46.148683;16.262626;HR;Europe/Zagreb;VHR-podrute;Vlak;;nom;11181901258;Q116008978;;;i-o734;Podrute
+TN7874411;gare;Mađarevo;Mađarevo;Mađarevo;7874411;;46.169571;16.310636;HR;Europe/Zagreb;Q589777;Vlak;;nom;11181901259;Q116008907;;;i-o735;Mađarevo
+TN7874412;gare;Novi Marof;Novi Marof;Novi Marof;7874412;;46.176928;16.338409;HR;Europe/Zagreb;Q741239;Vlak;;nom;5376798402;Q116008935;;;i-o736;Novi Marof
+TN7874413;gare;Krušljevec;Krušljevec;Krušljevec;7874413;;46.224963;16.321488;HR;Europe/Zagreb;Q665177;Vlak;;nom;497552659;Q116008877;;;i-o737;Krušljevec
+TN7874414;gare;Turčin;Turčin;Turčin;7874414;;46.254062;16.358797;HR;Europe/Zagreb;Q844175;Vlak;;nom;3903618529;Q116009071;;;i-o738;Turčin
+TN7874415;gare;Špičkovina;Špičkovina;Špičkovina;7874415;;46.031711;15.970373;HR;Europe/Zagreb;Q139018;Vlak;;nom;497580126;Q116009031;;;i-o739;Špičkovina
+TN7874501;gare;Oroslavje;Oroslavje;Oroslavje;7874501;;46.001874;15.929014;HR;Europe/Zagreb;Q126365;Vlak;;nom;5555190667;Q116008943;;;i-o742;Oroslavje
+TN7874502;gare;Stubičke Toplice;Stubičke Toplice;Stubičke Toplice;7874502;;45.974819;15.941599;HR;Europe/Zagreb;Q921726;Vlak;;nom;5555191655;Q116009041;;;i-o743;Stubičke Toplice
+TN7874503;gare;Donja Stubica;Donja Stubica;Donja Stubica;7874503;;45.982858;15.965901;HR;Europe/Zagreb;Q745088;Vlak;;nom;5555179053;Q116008769;;;i-o744;Donja Stubica
+TN7874504;gare;Gornja Stubica;Gornja Stubica;Gornja Stubica;7874504;;45.983272;16.004169;HR;Europe/Zagreb;Q943801;Vlak;;nom;10983780042;Q116008805;;;i-o745;Gornja Stubica
+TN7874601;gare;Štrucljevo;Štrucljevo;Štrucljevo;7874601;;46.056895;15.91189;HR;Europe/Zagreb;Q608957;Vlak;;nom;1763295534;Q116009040;;;i-o746;Štrucljevo
+TN7874602;gare;Sveti Križ Začretje;Sveti Križ Začretje;Sveti Križ Začretje;7874602;;46.076865;15.903237;HR;Europe/Zagreb;Q1194723;Vlak;;nom;10997685586;Q116009050;;;i-o747;Sveti Križ Začretje
+TN7874603;gare;Velika Ves;Velika Ves;Velika Ves;7874603;;46.115319;15.887533;HR;Europe/Zagreb;Q664010;Vlak;;nom;1763295535;Q116009075;;;i-o748;Velika Ves
+TN7874604;gare;Krapina;Krapina;Krapina;7874604;;46.159512;15.872085;HR;Europe/Zagreb;Q221189;Vlak;;nom;10062553888;Q116008874;;;i-o749;Krapina
+TN7874605;gare;Žutnica;Žutnica;Žutnica;7874605;;46.18211;15.853661;HR;Europe/Zagreb;Q372563;Vlak;;nom;1763288873;Q116009128;;;i-o750;Žutnica
+TN7874606;gare;Đurmanec;Đurmanec;Đurmanec;7874606;;46.193701;15.843239;HR;Europe/Zagreb;VHR-ravninsko;Vlak;;nom;10995043763;Q116008795;;;i-o751;Đurmanec
+TN7874607;gare;Hromec;Hromec;Hromec;7874607;;46.206631;15.80853;HR;Europe/Zagreb;Q576441;Vlak;;nom;3228704372;Q116008839;;;i-o752;Hromec
+TN7874608;gare;Dukovec;Dukovec;Dukovec;7874608;;46.095992;15.896016;HR;Europe/Zagreb;Q252653;Vlak;;nom;1763295536;Q116008784;;;i-o753;Dukovec
+TN7874610;gare;Doliće;Doliće;Doliće;7874610;;46.171816;15.863298;HR;Europe/Zagreb;Q221189;Vlak;;nom;1763288872;Q116008767;;;i-o755;Doliće
+TN7874701;gare;Vidovec;Vidovec;Vidovec;7874701;;46.264735;16.2517;HR;Europe/Zagreb;Q753456;Vlak;;nom;1120101241;Q116009081;;;i-o757;Vidovec
+TN7874702;gare;Cerje Tužno;Cerje Tužno;Cerje Tužno;7874702;;46.259705;16.218744;HR;Europe/Zagreb;Q326970;Vlak;;nom;10963911222;Q116008750;;;i-o758;Cerje Tužno
+TN7874703;gare;Stažnjevec;Stažnjevec;Stažnjevec;7874703;;46.241473;16.17372;HR;Europe/Zagreb;Q326970;Vlak;;nom;2612939231;Q116009039;;;i-o759;Stažnjevec
+TN7874704;gare;Ivanec;Ivanec;Ivanec;7874704;;46.231409;16.124595;HR;Europe/Zagreb;Q326970;Vlak;;nom;10965419396;Q116155596;;;i-o760;Ivanec
+TN7874706;gare;Kuljevčica;Kuljevčica;Kuljevčica;7874706;;46.22808;16.093709;HR;Europe/Zagreb;Q326970;Vlak;;nom;1871037530;Q116008880;;;i-o761;Kuljevčica
+TN7874707;gare;Lepoglava;Lepoglava;Lepoglava;7874707;;46.213118;16.043447;HR;Europe/Zagreb;Q326949;Vlak;;nom;10965419415;Q116008892;;;i-o762;Lepoglava
+TN7874804;gare;Mala Subotica;Mala Subotica;Mala Subotica;7874804;;46.377276;16.534837;HR;Europe/Zagreb;Q774000;Vlak;;nom;1951096340;Q116008912;;;i-o768;Mala Subotica
+TN7874805;gare;Čehovec;Čehovec;Čehovec;7874805;;46.370243;16.617164;HR;Europe/Zagreb;Q839783;Vlak;;nom;1951097095;Q116008746;;;i-o769;Čehovec
+TN7874806;gare;Donji Kraljevec;Donji Kraljevec;Donji Kraljevec;7874806;;46.367832;16.645202;HR;Europe/Zagreb;Q746303;Vlak;;nom;1216569390;Q116008774;;;i-o770;Donji Kraljevec
+TN7874808;gare;Kotoriba;Kotoriba;Kotoriba;7874808;;46.353771;16.808411;HR;Europe/Zagreb;Q1088573;Vlak;;nom;10069157395;Q116008872;;;i-o772;Kotoriba
+TN7875001;gare;Remetinec;Remetinec;Remetinec;7875001;;45.766392;15.945659;HR;Europe/Zagreb;Q1435;Vlak;;nom;21427845;Q116008999;;;i-o782;Remetinec
+TN7875002;gare;Hrvatski Leskovac;Hrvatski Leskovac;Hrvatski Leskovac;7875002;;45.744382;15.892103;HR;Europe/Zagreb;Q1435;Vlak;;nom;11032351706;Q116008843;;;i-o783;Hrvatski Leskovac
+TN7875003;gare;Horvati;Horvati;Horvati;7875003;;45.713714;15.817513;HR;Europe/Zagreb;Q1435;Vlak;;nom;11032351724;Q116008835;;;i-o784;Horvati
+TN7875004;gare;Zdenčina;Zdenčina;Zdenčina;7875004;;45.683732;15.750132;HR;Europe/Zagreb;Q849677;Vlak;;nom;11032351732;Q116009118;;;i-o785;Zdenčina
+TN7875005;gare;Desinec;Desinec;Desinec;7875005;;45.672823;15.708103;HR;Europe/Zagreb;Q747530;Vlak;;nom;869880208;Q116008765;;;i-o786;Desinec
+TN7875006;gare;Jastrebarsko;Jastrebarsko;Jastrebarsko;7875006;;45.657202;15.647746;HR;Europe/Zagreb;Q396491;Vlak;;nom;11037319808;Q116008850;;;i-o787;Jastrebarsko
+TN7875008;gare;Lazina;Lazina;Lazina;7875008;;45.606456;15.625256;HR;Europe/Zagreb;Q83000;Vlak;;nom;869881047;Q116008890;;;i-o789;Lazina
+TN7875009;gare;Draganići;Draganići;Draganići;7875009;;45.569447;15.609415;HR;Europe/Zagreb;Q83000;Vlak;;nom;11037319838;Q116152393;;;i-o790;Draganići
+TN7875010;gare;Mavračići;Mavračići;Mavračići;7875010;;45.697319;15.798445;HR;Europe/Zagreb;Q1435;Vlak;;nom;869880202;Q116008916;;;i-o791;Mavračići
+TN7875060;gare;Karlovac;Karlovac;Karlovac;7875060;;45.500148;15.544961;HR;Europe/Zagreb;Q3617;Vlak;;nom;11037319841;Q800984;;;i-o793;Karlovac
+TN7875101;gare;Mrzlo Polje;Mrzlo Polje;Mrzlo Polje;7875101;;45.466419;15.535935;HR;Europe/Zagreb;Q3617;Vlak;;nom;11039917918;Q116008924;;;i-o794;Mrzlo Polje
+TN7875103;gare;Belavići;Belavići;Belavići;7875103;;45.422278;15.479188;HR;Europe/Zagreb;Q3441568;Vlak;;nom;869887427;Q116008714;;;i-o796;Belavići
+TN7875104;gare;Zvečaj;Zvečaj;Zvečaj;7875104;;45.395757;15.43095;HR;Europe/Zagreb;Q851729;Vlak;;nom;2522224831;Q116009129;;;i-o797;Zvečaj
+TN7875105;gare;Gornji Zvečaj;Gornji Zvečaj;Gornji Zvečaj;7875105;;45.375997;15.412404;HR;Europe/Zagreb;Q851737;Vlak;;nom;1871109154;Q116008807;;;i-o798;Gornji Zvečaj
+TN7875106;gare;Generalski Stol;Generalski Stol;Generalski Stol;7875106;;45.343389;15.376561;HR;Europe/Zagreb;Q221086;Vlak;;nom;11042660949;Q116008802;;;i-o799;Generalski Stol
+TN7875107;gare;Donje Dubrave;Donje Dubrave;Donje Dubrave;7875107;;45.311976;15.362605;HR;Europe/Zagreb;VHR-donje-dubrave;Vlak;;nom;1871110056;Q116008772;;;i-o800;Donje Dubrave
+TN7875108;gare;Gornje Dubrave;Gornje Dubrave;Gornje Dubrave;7875108;;45.278969;15.307528;HR;Europe/Zagreb;Q2031458;Vlak;;nom;1421307951;Q116008806;;;i-o801;Gornje Dubrave
+TN7875109;gare;Tounj;Tounj;Tounj;7875109;;45.250619;15.320246;HR;Europe/Zagreb;Q1284376;Vlak;;nom;1735311577;Q116009053;;;i-o802;Tounj
+TN7875110;gare;Kukača;Kukača;Kukača;7875110;;45.234001;15.33331;HR;Europe/Zagreb;Q1582555;Vlak;;nom;1871110517;Q116008878;;;i-o803;Kukača
+TN7875112;gare;Košare;Košare;Košare;7875112;;45.220586;15.328775;HR;Europe/Zagreb;Q1582555;Vlak;;nom;419252847;Q116008869;;;i-o805;Košare
+TN7875402;gare;Ogulinski Hreljin;Ogulinski Hreljin;Ogulinski Hreljin;7875402;;45.296047;15.178133;HR;Europe/Zagreb;Q2109740;Vlak;;nom;1401111915;Q116008942;;;i-o837;Ogulinski Hreljin
+TN7875404;gare;Gomirje;Gomirje;Gomirje;7875404;;45.34279;15.128166;HR;Europe/Zagreb;Q3110371;Vlak;;nom;1400977846;Q116008804;;;i-o839;Gomirje
+TN7875405;gare;Vrbovsko;Vrbovsko;Vrbovsko;7875405;;45.372702;15.071524;HR;Europe/Zagreb;Q396637;Vlak;;nom;11047894715;Q116009105;;;i-o840;Vrbovsko
+TN7875407;gare;Brod Moravice;Brod Moravice;Brod Moravice;7875407;;45.464956;14.961249;HR;Europe/Zagreb;Q924110;Vlak;;nom;1399741462;Q116008731;;;i-o842;Brod Moravice
+TN7875408;gare;Žrnovac;Žrnovac;Žrnovac;7875408;;45.449829;14.936873;HR;Europe/Zagreb;Q4168477;Vlak;;nom;1399863165;Q116009126;;;i-o843;Žrnovac
+TN7875409;gare;Skrad;Skrad;Skrad;7875409;;45.425392;14.902883;HR;Europe/Zagreb;Q1184846;Vlak;;nom;1399875169;Q116009023;;;i-o844;Skrad
+TN7875410;gare;Kupjak;Kupjak;Kupjak;7875410;;45.40017;14.890561;HR;Europe/Zagreb;Q4363440;Vlak;;nom;419132988;Q116008882;;;i-o845;Kupjak
+TN7875411;gare;Zalesina;Zalesina;Zalesina;7875411;;45.398029;14.857788;HR;Europe/Zagreb;Q3574688;Vlak;;nom;11047894843;Q116009112;;;i-o846;Zalesina
+TN7875412;gare;Delnice;Delnice;Delnice;7875412;;45.391508;14.797453;HR;Europe/Zagreb;Q397508;Vlak;;nom;1399954341;Q116008764;;XRDN;i-o847;Delnice
+TN7875413;gare;Lokve;Lokve;Lokve;7875413;;45.356645;14.772196;HR;Europe/Zagreb;Q3490802;Vlak;;nom;1400349545;Q116008901;;;i-o848;Lokve
+TN7875414;gare;Vrata;Vrata;Vrata;7875414;;45.317653;14.732096;HR;Europe/Zagreb;Q3563571;Vlak;;nom;1400436219;Q116009101;;;i-o849;Vrata
+TN7875415;gare;Fužine;Fužine;Fužine;7875415;;45.300361;14.71735;HR;Europe/Zagreb;Q915795;Vlak;;nom;1400401005;Q116008799;;;i-o850;Fužine
+TN7875416;gare;Lič;Lič;Lič;7875416;;45.281639;14.715028;HR;Europe/Zagreb;Q3257410;Vlak;;nom;7306790859;Q116008895;;;i-o851;Lič
+TN7875417;gare;Drivenik;Drivenik;Drivenik;7875417;;45.267223;14.691316;HR;Europe/Zagreb;Q2643092;Vlak;;nom;419129650;Q116008781;;;i-o852;Drivenik
+TN7875419;gare;Plase;Plase;Plase;7875419;;45.283531;14.629072;HR;Europe/Zagreb;Q1021770;Vlak;;nom;419129705;Q116008974;;;i-o854;Plase
+TN7875560;gare;Rijeka;Rijeka railway station;Rijeka;7875560;;45.330004;14.430289;HR;Europe/Zagreb;Q1647;Vlak;;nom;10880998201;Q801362;;;i-o860;Rijeka
+TN7875608;gare;Jurdani;Jurdani;Jurdani;7875608;;45.392369;14.308675;HR;Europe/Zagreb;Q6315002;Vlak;;nom;1802538309;Q116160107;;;i-o868;Jurdani
+TN7875610;gare;Rukavac;Rukavac;Rukavac;7875610;;45.369794;14.30402;HR;Europe/Zagreb;Q6419528;Vlak;;nom;4568916303;Q116009007;;;i-o870;Rukavac
+TN7875612;gare;Krnjevo;Krnjevo;Krnjevo;7875612;;45.33825;14.399169;HR;Europe/Zagreb;Q1647;Vlak;;nom;1827529595;Q116008876;;;i-o872;Krnjevo
+TN7876001;gare;Oštarije Ravnice;Oštarije Ravnice;Oštarije Ravnice;7876001;;45.218848;15.277452;HR;Europe/Zagreb;Q2118642;Vlak;;nom;1871115491;Q116008949;;;i-o873;Oštarije-Ravnice
+TN7876002;gare;Josipdol;Josipdol;Josipdol;7876002;;45.19732;15.289081;HR;Europe/Zagreb;Q12633808;Vlak;;nom;11081470480;Q116008852;;;i-o874;Josipdol
+TN7876004;gare;Latin;Latin;Latin;7876004;;45.112146;15.362382;HR;Europe/Zagreb;Q1852675;Vlak;;nom;1401148278;Q116008888;;;i-o876;Latin
+TN7876011;gare;Vrhovine;Vrhovine;Vrhovine;7876011;;44.848896;15.427089;HR;Europe/Zagreb;Q1269848;Vlak;;nom;1404490638;Q116009106;;;i-o883;Vrhovine
+TN7876012;gare;Šušnjevo Selo;Šušnjevo Selo;Šušnjevo Selo;7876012;;45.210491;15.282994;HR;Europe/Zagreb;Q2118642;Vlak;;nom;1401139717;Q116009046;;;i-o884;Šušnjevo Selo
+TN7876013;gare;Lički Podhum;Lički Podhum;Lički Podhum;7876013;;45.132722;15.354411;HR;Europe/Zagreb;Q2685503;Vlak;;nom;464735808;Q116008896;;;i-o885;Lički Podhum
+TN7876103;gare;Ličko Lešće;Ličko Lešće;Ličko Lešće;7876103;;44.773149;15.358779;HR;Europe/Zagreb;Q3436291;Vlak;;nom;1404809717;Q116008897;;;i-o889;Ličko Lešće
+TN7876106;gare;Perušić;Perušić;Perušić;7876106;;44.648014;15.388751;HR;Europe/Zagreb;Q1008121;Vlak;;nom;1404864926;Q116008968;;;i-o892;Perušić
+TN7876108;gare;Gospić;Gospić;Gospić;7876108;;44.536085;15.393782;HR;Europe/Zagreb;Q137919304;Vlak;;nom;464716607;Q116008808;;;i-o894;Gospić
+TN7876117;gare;Gračac;Gračac;Gračac;7876117;;44.300323;15.822204;HR;Europe/Zagreb;Q995077;Vlak;;nom;11091637609;Q116008810;;;i-o903;Gračac
+TN7876260;gare;Knin;Knin;Knin;7876260;;44.036667;16.198393;HR;Europe/Zagreb;Q208514;Vlak;;nom;8044291766;Q82794943;;;i-o913;Knin
+TN7876401;gare;Kaldrma;Kaldrma;Kaldrma;7876401;;43.9726;16.205949;HR;Europe/Zagreb;Q3418503;Vlak;;nom;1871140815;Q116008855;;;i-o935;Kaldrma
+TN7876402;gare;Kosovo;Kosovo;Kosovo;7876402;;43.949677;16.209652;HR;Europe/Zagreb;Q3065771;Vlak;;nom;11102691969;Q116008871;;;i-o936;Kosovo
+TN7876403;gare;Tepljuh;Tepljuh;Tepljuh;7876403;;43.893415;16.210358;HR;Europe/Zagreb;Q12643455;Vlak;;nom;1871137946;Q116009052;;;i-o937;Tepljuh
+TN7876404;gare;Siverić;Siverić;Siverić;7876404;;43.874412;16.196977;HR;Europe/Zagreb;Q2469250;Vlak;;nom;1440222604;Q116009021;;;i-o938;Siverić
+TN7876405;gare;Drniš;Drniš;Drniš;7876405;;43.863754;16.18185;HR;Europe/Zagreb;Q4845774;Vlak;;nom;11102692004;Q116008782;;;i-o939;Drniš
+TN7876406;gare;Žitnić;Žitnić;Žitnić;7876406;;43.831875;16.145817;HR;Europe/Zagreb;Q6961394;Vlak;;nom;1112948178;Q116009120;;;i-o940;Žitnić
+TN7876407;gare;Sedramić;Sedramić;Sedramić;7876407;;43.795163;16.158793;HR;Europe/Zagreb;Q3504378;Vlak;;nom;1871137572;Q116009013;;;i-o941;Sedramić
+TN7876408;gare;Planjane;Planjane;Planjane;7876408;;43.766854;16.183357;HR;Europe/Zagreb;Q13426351;Vlak;;nom;1871137208;Q116008973;;;i-o942;Planjane
+TN7876409;gare;Unešić;Unešić;Unešić;7876409;;43.7415;16.181513;HR;Europe/Zagreb;Q1277205;Vlak;;nom;11162694667;Q116009073;;;i-o943;Unešić
+TN7876410;gare;Cera;Cera;Cera;7876410;;43.704809;16.176935;HR;Europe/Zagreb;Q6958965;Vlak;;nom;1871136464;Q116008749;;;i-o944;Cera
+TN7876411;gare;Koprno;Koprno;Koprno;7876411;;43.689803;16.14847;HR;Europe/Zagreb;Q3549;Vlak;;nom;7542362666;Q116008867;;;i-o945;Koprno
+TN7876501;gare;Primorski Dolac;Primorski Dolac;Primorski Dolac;7876501;;43.636691;16.158841;HR;Europe/Zagreb;Q597683;Vlak;;nom;11162864913;Q116008989;;;i-o947;Primorski Dolac
+TN7876502;gare;Bakovići;Bakovići;Bakovići;7876502;;43.641576;16.188628;HR;Europe/Zagreb;Q597683;Vlak;;nom;319825048;Q116008712;;;i-o948;Bakovići
+TN7876504;gare;Preslo;Preslo;Preslo;7876504;;43.629503;16.214067;HR;Europe/Zagreb;Q597683;Vlak;;nom;319824993;Q116008987;;;i-o950;Preslo
+TN7876505;gare;Prgomet;Prgomet;Prgomet;7876505;;43.61028;16.226161;HR;Europe/Zagreb;Q1277264;Vlak;;nom;4841749358;Q116008988;;;i-o951;Prgomet
+TN7876506;gare;Labin Dalmatinski;Labin Dalmatinski;Labin Dalmatinski;7876506;;43.583812;16.233131;HR;Europe/Zagreb;Q3512416;Vlak;;nom;11641124019;Q116008885;;;i-o952;Labin Dalmatinski
+TN7876507;gare;Sadine;Sadine;Sadine;7876507;;43.563462;16.298691;HR;Europe/Zagreb;Q396579;Vlak;;nom;278679231;Q116009008;;;i-o953;Sadine
+TN7876509;gare;Kaštel Sućurac;Kaštel Sućurac;Kaštel Sućurac;7876509;;43.548942;16.430299;HR;Europe/Zagreb;Q396579;Vlak;;nom;11162962235;Q116008862;;;i-o955;Kaštel Sućurac
+TN7876512;gare;Donji Dolac;Donji Dolac;Donji Dolac;7876512;;43.651815;16.126405;HR;Europe/Zagreb;Q3549;Vlak;;nom;1871134671;Q116008773;;;i-o958;Donji Dolac
+TN7876660;gare;Split;Split;Split;7876660;;43.504815;16.443044;HR;Europe/Zagreb;Q1663;Vlak;;nom;10025673666;Q2281143;;;i-o964;Split
+TN7876701;gare;Ripište;Ripište;Ripište;7876701;;43.669551;16.051856;HR;Europe/Zagreb;Q3549;Vlak;;nom;1871168481;Q116009002;;;i-o967;Ripište
+TN7876702;gare;Dabar;Dabar;Dabar;7876702;;43.672729;16.010692;HR;Europe/Zagreb;Q3549;Vlak;;nom;1871168177;Q116008759;;;i-o968;Dabar
+TN7876703;gare;Primorsko Vrpolje;Primorsko Vrpolje;Primorsko Vrpolje;7876703;;43.678455;15.982002;HR;Europe/Zagreb;Q3549;Vlak;;nom;2518878167;Q116008991;;;i-o969;Primorsko Vrpolje
+TN7876704;gare;Primorski Sveti Juraj;Primorski Sveti Juraj;Primorski Sveti Juraj;7876704;;43.696338;15.946805;HR;Europe/Zagreb;Q3549;Vlak;;nom;2518878168;Q116008990;;;i-o970;Primorski Sveti Juraj
+TN7876705;gare;Mandalina;Mandalina;Mandalina;7876705;;43.720057;15.906934;HR;Europe/Zagreb;Q3549;Vlak;;nom;1871165339;Q116008913;;;i-o971;Mandalina
+TN7876762;gare;Ražine;Ražine;Ražine;7876762;;43.705409;15.923159;HR;Europe/Zagreb;Q3549;Vlak;;nom;11163023466;Q116008997;;;i-o974;Ražine
+TN7877401;gare;Hum u Istri;Hum u Istri;Hum u Istri;7877401;;45.343963;14.073106;HR;Europe/Zagreb;Q695767;Vlak;;nom;5668784532;Q116008844;;;i-o976;Hum u Istri
+TN7877402;gare;Borut;Borut;Borut;7877402;;45.304404;14.052366;HR;Europe/Zagreb;Q2640031;Vlak;;nom;11073101045;Q116008721;;;i-o977;Borut
+TN7877403;gare;Cerovlje;Cerovlje;Cerovlje;7877403;;45.27661;14.013771;HR;Europe/Zagreb;Q19704398;Vlak;;nom;11073101039;Q116008753;;;i-o978;Cerovlje
+TN7877404;gare;Novaki;Novaki;Novaki;7877404;;45.258914;13.989384;HR;Europe/Zagreb;Q1864688;Vlak;;nom;6017526790;Q116008932;;;i-o979;Novaki
+TN7877407;gare;Heki Stajalište;Heki Stajalište;Heki Stajalište;7877407;;45.215479;13.887164;HR;Europe/Zagreb;Q211968;Vlak;;nom;565616912;Q116008834;;;i-o981;Heki stajalište
+TN7877408;gare;Sveti Petar u Šumi;Sveti Petar u Šumi;Sveti Petar u Šumi;7877408;;45.185039;13.867281;HR;Europe/Zagreb;Q737437;Vlak;;nom;11073100955;Q116009051;;;i-o982;Sveti Petar u šumi
+TN7877409;gare;Žminj;Žminj;Žminj;7877409;;45.146282;13.855584;HR;Europe/Zagreb;Q2493905;Vlak;;nom;1812332216;Q116009124;;;i-o983;Žminj
+TN7877411;gare;Smoljanci;Smoljanci;Smoljanci;7877411;;45.091868;13.844447;HR;Europe/Zagreb;Q1812556;Vlak;;nom;1802608927;Q116009028;;;i-o985;Smoljanci
+TN7877412;gare;Savičenta;Savičenta;Savičenta;7877412;;45.065878;13.858712;HR;Europe/Zagreb;Q2876585;Vlak;;nom;1802608926;Q116009012;;;i-o986;Savićenta
+TN7877413;gare;Čabrunići;Čabrunići;Čabrunići;7877413;;45.041543;13.865993;HR;Europe/Zagreb;Q943816;Vlak;;nom;1802619318;Q116008741;;;i-o987;Čabrunići
+TN7877414;gare;Juršići;Juršići;Juršići;7877414;;45.024739;13.865183;HR;Europe/Zagreb;Q3007073;Vlak;;nom;1802608930;Q116008854;;;i-o988;Juršići
+TN7877415;gare;Vodnjan;Vodnjan;Vodnjan;7877415;;44.966726;13.856052;HR;Europe/Zagreb;Q396683;Vlak;;nom;5668823913;Q116009095;;;i-o989;Vodnjan
+TN7877418;gare;Šijana;Šijana;Šijana;7877418;;44.88849;13.866059;HR;Europe/Zagreb;Q4656;Vlak;;nom;1802651807;Q116009016;;;i-o992;Šijana
+TN7877419;gare;Krajcar Brijeg;Krajcar Brijeg;Krajcar Brijeg;7877419;;45.160017;13.862525;HR;Europe/Zagreb;Q3199554;Vlak;;nom;565612735;Q116008873;;;i-o993;Krajcar Brijeg
+TN7877421;gare;Vodnjan stajalište;Vodnjan stajalište;Vodnjan stajalište;7877421;;44.960757;13.855782;HR;Europe/Zagreb;Q396683;Vlak;;nom;565602661;Q116009094;;;i-o995;Vodnjan stajalište
+TN7877422;gare;Čabrunići Selo;Čabrunići Selo;Čabrunići Selo;7877422;;45.030772;13.864869;HR;Europe/Zagreb;Q943816;Vlak;;nom;1802608936;Q116008740;;;i-o996;Čabrunići Selo
+TN7877426;gare;Roč;Roč;Roč;7877426;;45.400344;14.038946;HR;Europe/Zagreb;Q695767;Vlak;;nom;11063321830;Q116009003;;;i-o999;Roč
+TN7877427;gare;Ročko Polje;Ročko Polje;Ročko Polje;7877427;;45.373856;14.0799;HR;Europe/Zagreb;Q695767;Vlak;;nom;1802659106;Q116009004;;;i-o1000;Ročko polje
+TN7877428;gare;Nugla;Nugla;Nugla;7877428;;45.412295;14.024351;HR;Europe/Zagreb;Q695767;Vlak;;nom;1802660308;Q116008939;;;i-o1001;Nugla
+TN7891301;gare;Vinkovci Bolnica;Vinkovci Bolnica;Vinkovci Bolnica;7891301;;45.292206;18.822649;HR;Europe/Zagreb;Q221495;Vlak;;nom;4196871138;Q116009083;;;i-o432;Vinkovci Bolnica
+TN7895060;gare;Karlovac Centar;Karlovac Centar;Karlovac Centar;7895060;;45.488092;15.549252;HR;Europe/Zagreb;Q3617;Vlak;;nom;2269769400;Q116008859;;;i-o792;Karlovac Centar
+TNHZPP-i-o1006;gare;Metković;Metković;Metković;;;43.056684;17.64688;HR;Europe/Zagreb;Q390588;Vlak;;gtfs;;;;;i-o1006;Metković
+TNHZPP-i-o552;gare;Stari Slatnik;Stari Slatnik;Stari Slatnik;;;45.17025;17.842035;HR;Europe/Zagreb;Q3514077;Vlak;;gtfs;;;;;i-o552;Stari Slatnik
+TNHZPP-i-o657;gare;Vukovje;Vukovje;Vukovje;;;45.619686;17.272265;HR;Europe/Zagreb;Q1866263;Vlak;;gtfs;;;;;i-o657;Vukovje
+TNHZPP-i-o829;arret_car;Mahično;Mahično;Mahično;;;45.553002;15.531325;HR;Europe/Zagreb;Q828166;;BUS;gtfs;;;;;i-o829;Mahično
+TNHZPP-i-o830;arret_car;Zorkovac;Zorkovac;Zorkovac;;;45.59124;15.5302;HR;Europe/Zagreb;Q396518;;BUS;gtfs;;;;;i-o830;Zorkovac
+TNHZPP-i-o831;arret_car;Ozalj;Ozalj;Ozalj;;;45.611989;15.482346;HR;Europe/Zagreb;Q396518;;BUS;gtfs;;;;;i-o831;Ozalj
+TNHZPP-i-o832;arret_car;Zaluka;Zaluka;Zaluka;;;45.624672;15.463327;HR;Europe/Zagreb;Q396518;;BUS;gtfs;;;;;i-o832;Zaluka
+TNHZPP-i-o833;arret_car;Kamanje;Kamanje;Kamanje;;;45.645329;15.408439;HR;Europe/Zagreb;Q390277;;BUS;gtfs;;;;;i-o833;Kamanje
+TNHZPP-i-o834;arret_car;Brlog Grad;Brlog Grad;Brlog Grad;;;45.638039;15.383165;HR;Europe/Zagreb;Q829885;;BUS;gtfs;;;;;i-o834;Brlog Grad
+TNHZPP-i-o835;arret_car;Bubnjarci;Bubnjarci;Bubnjarci;;;45.644233;15.351314;HR;Europe/Zagreb;Q850578;;BUS;gtfs;;;;;i-o835;Bubnjarci
+TNOSM10064943779;gare;Novska;Novska;Novska;;;45.326778;16.977091;HR;Europe/Zagreb;Q397639;Vlak;;nom;10064943779;Q19913675;;;i-o541;Novska
+TNOSM10083331209;gare;Čakovec-Buzovec;Čakovec-Buzovec;Čakovec-Buzovec;;;46.383787;16.445661;HR;Europe/Zagreb;Q167839;Vlak;;nom;10083331209;Q88680640;;;i-o767;Čakovec-Buzovec
+TNOSM10090386982;gare;Duga Resa;Duga Resa;Duga Resa;;;45.448951;15.498547;HR;Europe/Zagreb;Q396482;Vlak;;nom;10090386982;Q110372351;;;i-o795;Duga Resa
+TNOSM10180853497;gare;Erdut;Erdut;Erdut;;;45.50734;19.049163;HR;Europe/Zagreb;Q220669;Vlak;;nom;10180853497;Q116008796;;;i-o421;Erdut
+TNOSM10184477714;gare;Vukovar-Borovo Naselje;Vukovar-Borovo Naselje;Vukovar-Borovo Naselje;;;45.373583;18.956181;HR;Europe/Zagreb;Q5867;Vlak;;nom;10184477714;Q96414108;;;i-o417;Vukovar-Borovo naselje
+TNOSM10186967137;gare;Drenovci;Drenovci;Drenovci;;;44.919816;18.858972;HR;Europe/Zagreb;Q1265472;Vlak;;nom;10186967137;Q116008780;;;i-o429;Drenovci
+TNOSM10207381816;gare;Strizivojna-Vrpolje;Strizivojna-Vrpolje;Strizivojna-Vrpolje;;;45.227173;18.413548;HR;Europe/Zagreb;Q1280666;Vlak;;nom;10207381816;Q38251728;;;i-o410;Strizivojna-Vrpolje
+TNOSM10207430955;gare;Ivankovo;Ivankovo;Ivankovo;;;45.278396;18.667448;HR;Europe/Zagreb;Q1271809;Vlak;;nom;10207430955;Q30626946;;;i-o407;Ivankovo
+TNOSM10226363983;gare;Josipovac;Josipovac;Josipovac;;;45.574198;18.590086;HR;Europe/Zagreb;Q3044301;Vlak;;nom;10226363983;Q110175233;;;i-o471;Josipovac
+TNOSM10239203540;gare;Andrijevci;Andrijevci;Andrijevci;;;45.190714;18.292818;HR;Europe/Zagreb;Q1241594;Vlak;;nom;10239203540;Q38251730;;;i-o559;Andrijevci
+TNOSM10239203594;gare;Garčin;Garčin;Garčin;;;45.173423;18.186076;HR;Europe/Zagreb;Q1277306;Vlak;;nom;10239203594;Q38251731;;;i-o561;Garčin
+TNOSM10239206256;gare;Nova Kapela-Batrina;Nova Kapela-Batrina;Nova Kapela-Batrina;;;45.189818;17.650295;HR;Europe/Zagreb;Q367223;Vlak;;nom;10239206256;Q38251845;;;i-o557;Nova Kapela-Batrina
+TNOSM10248897365;gare;Nova Gradiška;Nova Gradiška;Nova Gradiška;;;45.25334;17.379288;HR;Europe/Zagreb;Q58342;Vlak;;nom;10248897365;Q38251849;;;i-o545;Nova Gradiška
+TNOSM10248916275;gare;Okučani;Okučani;Okučani;;;45.252345;17.206311;HR;Europe/Zagreb;Q73123;Vlak;;nom;10248916275;Q38251850;;;i-o547;Okučani
+TNOSM10694714450;gare;Split Predgrađe;Split Predgrađe;Split Predgrađe;;;43.522086;16.455564;HR;Europe/Zagreb;Q1663;Vlak;;nom;10694714450;Q98791501;;;i-o965;Split Predgrađe
+TNOSM10802041480;gare;Ploče;Ploče;Ploče;;;43.04838;17.434021;HR;Europe/Zagreb;Q115117;Vlak;;nom;10802041480;Q30118909;;;i-o1014;Ploče
+TNOSM10880884575;gare;Savski Marof;Savski Marof;Savski Marof;;;45.872056;15.7401;HR;Europe/Zagreb;Q850507;Vlak;;nom;10880884575;Q17485351;;;i-o702;Savski Marof
+TNOSM10881907782;gare;Zaprešić;Zaprešić;Zaprešić;;;45.844403;15.813168;HR;Europe/Zagreb;Q5408;Vlak;;nom;10881907782;Q17356490;;;i-o695;Zaprešić
+TNOSM10887546122;gare;Sirač;Sirač;Sirač;;;45.529932;17.241064;HR;Europe/Zagreb;Q1184841;Vlak;;nom;10887546122;Q116009018;;;i-o660;Sirač
+TNOSM10889876902;gare;Đurđevac;Đurđevac;Đurđevac;;;46.026745;17.06604;HR;Europe/Zagreb;Q342186;Vlak;;nom;10889876902;;;;i-o586;Đurđevac
+TNOSM10963888062;gare;Varaždin;Varaždin;Varaždin;;;46.305638;16.346788;HR;Europe/Zagreb;Q5420;Vlak;;nom;10963888062;Q10712896;;;i-o741;Varaždin
+TNOSM10965419421;gare;Golubovec;Golubovec;Golubovec;;;46.173634;15.983552;HR;Europe/Zagreb;Q1194692;Vlak;;nom;10965419421;;;;i-o763;Golubovec
+TNOSM10983779940;gare;Zabok;Zabok;Zabok;;;46.02393;15.902127;HR;Europe/Zagreb;Q139018;Vlak;;nom;10983779940;Q10724030;;;i-o724;Zabok
+TNOSM11042661084;gare;Oštarije;Oštarije;Oštarije;;;45.234375;15.296359;HR;Europe/Zagreb;Q2118642;Vlak;;nom;11042661084;;;;i-o804;Oštarije
+TNOSM11042661108;gare;Ogulin;Ogulin;Ogulin;;;45.266027;15.231556;HR;Europe/Zagreb;Q25291701;Vlak;;nom;11042661108;;;;i-o858;Ogulin
+TNOSM11056859784;gare;Opatija-Matulji;Opatija-Matulji;Opatija-Matulji;;;45.364617;14.320992;HR;Europe/Zagreb;Q518871;Vlak;;nom;11056859784;Q3968807;;;i-o871;Opatija-Matulji
+TNOSM11056914741;gare;Šapjane;Šapjane;Šapjane;;;45.47664;14.244383;HR;Europe/Zagreb;Q6641288;Vlak;;nom;11056914741;Q70471610;;;i-o865;Šapjane
+TNOSM11063274670;gare;Buzet;Buzet;Buzet;;;45.426255;13.985194;HR;Europe/Zagreb;Q695767;Vlak;;nom;11063274670;Q88889008;;;i-o998;Buzet
+TNOSM11073100916;gare;Kanfanar;Kanfanar;Kanfanar;;;45.117148;13.836706;HR;Europe/Zagreb;Q174235;Vlak;;nom;11073100916;Q56345891;;;i-o984;Kanfanar
+TNOSM11073101019;gare;Pazin;Pazin;Pazin;;;45.239713;13.946066;HR;Europe/Zagreb;Q211968;Vlak;;nom;11073101019;Q108663976;;;i-o980;Pazin
+TNOSM11091637580;gare;Lovinac;Lovinac;Lovinac;;;44.376073;15.663819;HR;Europe/Zagreb;Q1018629;Vlak;;nom;11091637580;Q116104730;;;i-o899;Lovinac
+TNOSM11162733080;gare;Perković;Perković;Perković;;;43.675621;16.117796;HR;Europe/Zagreb;Q3549;Vlak;;nom;11162733080;Q114663479;;;i-o946;Perković
+TNOSM11162962216;gare;Kaštel Stari;Kaštel Stari;Kaštel Stari;;;43.567349;16.344921;HR;Europe/Zagreb;Q396579;Vlak;;nom;11162962216;Q110372339;;;i-o954;Kaštel Stari
+TNOSM11162962247;gare;Solin;Solin;Solin;;;43.537155;16.471042;HR;Europe/Zagreb;Q642828;Vlak;;nom;11162962247;Q98801414;;;i-o956;Solin
+TNOSM11162962272;gare;Dujmovača;Dujmovača;Dujmovača;;;43.527938;16.484059;HR;Europe/Zagreb;Q1663;Vlak;;nom;11162962272;Q125858843;;;i-o966;Dujmovača
+TNOSM11163023472;gare;Šibenik;Šibenik;Šibenik;;;43.730154;15.897717;HR;Europe/Zagreb;Q3549;Vlak;;nom;11163023472;Q18435056;;;i-o972;Šibenik
+TNOSM1216557118;gare;Donji Mihaljevec;Donji Mihaljevec;Donji Mihaljevec;;;46.361092;16.723873;HR;Europe/Zagreb;Q678495;Vlak;;nom;1216557118;;;;i-o771;Donji Mihaljevec
+TNOSM13063729502;gare;Sokolovac;Sokolovac;Sokolovac;;;46.101563;16.7135;HR;Europe/Zagreb;Q1068176;Vlak;;nom;13063729502;;;;i-o591;Sokolovac
+TNOSM13133895466;gare;Lupoglav;Lupoglav;Lupoglav;;;45.355522;14.105488;HR;Europe/Zagreb;Q1269916;Vlak;;nom;13133895466;Q108664138;;;i-o975;Lupoglav
+TNOSM1318770101;gare;Ernestinovo;Ernestinovo;Ernestinovo;;;45.445111;18.667647;HR;Europe/Zagreb;Q978701;Vlak;;nom;1318770101;Q116008797;;;i-o445;Ernestinovo
+TNOSM1400235298;gare;Vojnovac;Vojnovac;Vojnovac;;;45.150038;15.334169;HR;Europe/Zagreb;Q2651109;Vlak;;nom;1400235298;;;;i-o875;Vojnovac
+TNOSM1401160723;gare;Plaški;Plaški;Plaški;;;45.078318;15.368084;HR;Europe/Zagreb;Q1852675;Vlak;;nom;1401160723;;;;i-o877;Plaški
+TNOSM1744578570;gare;Kopanica-Beravci;Kopanica-Beravci;Kopanica-Beravci;;;45.149013;18.414559;HR;Europe/Zagreb;Q569016;Vlak;;nom;1744578570;;;;i-o1015;Kopanica-Beravci
+TNOSM1744579923;gare;Sikirevci;Sikirevci;Sikirevci;;;45.127092;18.426126;HR;Europe/Zagreb;Q569016;Vlak;;nom;1744579923;;;;i-o1016;Sikirevci
+TNOSM1760396896;gare;Antunovac;Antunovac;Antunovac;;;45.483727;18.670137;HR;Europe/Zagreb;Q1277283;Vlak;;nom;1760396896;Q116008710;;;i-o446;Antunovac
+TNOSM1760396897;gare;Brijest;Brijest;Brijest;;;45.517048;18.672087;HR;Europe/Zagreb;Q772586;Vlak;;nom;1760396897;Q116008729;;;i-o447;Brijest
+TNOSM1763280325;gare;Gaboš;Gaboš;Gaboš;;;45.354033;18.743184;HR;Europe/Zagreb;Q2143468;Vlak;;nom;1763280325;Q116008800;;;i-o442;Gaboš
+TNOSM1763280333;gare;Ostrovo;Ostrovo;Ostrovo;;;45.335717;18.777392;HR;Europe/Zagreb;Q3132387;Vlak;;nom;1763280333;Q116008951;;;i-o441;Ostrovo
+TNOSM1763286257;gare;Oriovac;Oriovac;Oriovac;;;45.161264;17.753742;HR;Europe/Zagreb;Q1272312;Vlak;;nom;1763286257;Q38251844;;;i-o555;Oriovac
+TNOSM1812332823;gare;Heki;Heki;Heki;;;45.22515;13.894341;HR;Europe/Zagreb;Q211968;Vlak;;nom;1812332823;;;;i-o994;Heki
+TNOSM1815013071;gare;Đeletovci stajalište;Đeletovci stajalište;Đeletovci stajalište;;;45.193957;19.019246;HR;Europe/Zagreb;Q2620670;Vlak;;nom;1815013071;Q132829933;;;i-o1030;Đeletovci stajalište
+TNOSM1871041147;gare;Dunjkovec;Dunjkovec;Dunjkovec;;;46.386099;16.3708;HR;Europe/Zagreb;Q386276;Vlak;;nom;1871041147;Q72371820;;;i-o766;Dunjkovec
+TNOSM1871042007;gare;Macinec;Macinec;Macinec;;;46.387537;16.325601;HR;Europe/Zagreb;Q570627;Vlak;;nom;1871042007;Q70466640;;;i-o765;Macinec
+TNOSM1871043030;gare;Novo Selo Rok;Novo Selo Rok;Novo Selo Rok;;;46.429729;16.456492;HR;Europe/Zagreb;Q167839;Vlak;;nom;1871043030;Q88685026;;;i-o777;Novo Selo Rok
+TNOSM1871061075;gare;Dragalić;Dragalić;Dragalić;;;45.252555;17.28881;HR;Europe/Zagreb;Q1026591;Vlak;;nom;1871061075;;;;i-o546;Dragalić
+TNOSM1871072621;gare;Mirkovci;Mirkovci;Mirkovci;;;45.278838;18.856071;HR;Europe/Zagreb;Q221495;Vlak;;nom;1871072621;Q96393440;;;i-o405;Mirkovci
+TNOSM1871073186;gare;Sremske Laze;Sremske Laze;Sremske Laze;;;45.227363;18.927564;HR;Europe/Zagreb;Q1994132;Vlak;;nom;1871073186;Q96406293;;;i-o403;Sremske Laze
+TNOSM1871073971;gare;Slakovci;Slakovci;Slakovci;;;45.215214;18.946027;HR;Europe/Zagreb;Q1903636;Vlak;;nom;1871073971;Q96405828;;;i-o402;Slakovci
+TNOSM1871074280;gare;Orolik;Orolik;Orolik;;;45.206493;18.976007;HR;Europe/Zagreb;Q2620670;Vlak;;nom;1871074280;Q96397745;;;i-o401;Orolik
+TNOSM1871074918;gare;Vinkovački Banovci;Vinkovački Banovci;Vinkovački Banovci;;;45.185798;19.047162;HR;Europe/Zagreb;Q3131346;Vlak;;nom;1871074918;Q96414024;;;i-o399;Vinkovački Banovci
+TNOSM1871075035;gare;Šidski Banovci;Šidski Banovci;Šidski Banovci;;;45.179977;19.067061;HR;Europe/Zagreb;Q193763;Vlak;;nom;1871075035;Q96416184;;;i-o398;Šidski Banovci
+TNOSM1871089957;gare;Markušica-Antin;Markušica-Antin;Markušica-Antin;;;45.380943;18.733705;HR;Europe/Zagreb;Q3511604;Vlak;;nom;1871089957;Q116008914;;;i-o443;Markušica-Antin
+TNOSM1871175077;gare;Jušići;Jušići;Jušići;;;45.380172;14.316862;HR;Europe/Zagreb;Q6581344;Vlak;;nom;1871175077;;;;i-o869;Jušići
+TNOSM1871175483;gare;Permani;Permani;Permani;;;45.411972;14.303247;HR;Europe/Zagreb;Q6581075;Vlak;;nom;1871175483;Q116008967;;;i-o867;Permani
+TNOSM2445033209;gare;Vukovar;Vukovar;Vukovar;;;45.362206;18.987327;HR;Europe/Zagreb;Q5867;Vlak;;nom;2445033209;Q132685852;;;i-o439;Vukovar
+TNOSM2593763523;gare;Doljan;Doljan;Doljan;;;46.244295;16.336352;HR;Europe/Zagreb;Q665177;Vlak;;nom;2593763523;;;;i-o740;Doljan
+TNOSM2604971313;gare;Dobrovac;Dobrovac;Dobrovac;;;45.418642;17.125951;HR;Europe/Zagreb;Q396595;Vlak;;nom;2604971313;;;;i-o665;Dobrovac
+TNOSM2607887519;gare;Trnava;Trnava;Trnava;;;45.818345;16.048911;HR;Europe/Zagreb;Q1435;Vlak;;nom;2607887519;Q25425990;;;i-o516;Trnava
+TNOSM278677595;gare;Kaštel Gomilica;Kaštel Gomilica;Kaštel Gomilica;;;43.553505;16.40013;HR;Europe/Zagreb;Q396579;Vlak;;nom;278677595;Q116008860;;;i-o960;Kaštel Gomilica
+TNOSM313240926;gare;Novi Jankovci;Novi Jankovci;Novi Jankovci;;;45.246383;18.901025;HR;Europe/Zagreb;Q3435574;Vlak;;nom;313240926;Q132830134;;;i-o1031;Novi Jankovci
+TNOSM313240935;gare;Kutina;Kutina;Kutina;;;45.475274;16.773726;HR;Europe/Zagreb;Q396536;Vlak;;nom;313240935;Q110372175;;;i-o528;Kutina
+TNOSM320626381;gare;Moravice;Moravice;Moravice;;;45.422942;15.016489;HR;Europe/Zagreb;Q387519;Vlak;;nom;320626381;;;;i-o841;Moravice
+TNOSM324151682;gare;Lipovljani;Lipovljani;Lipovljani;;;45.386777;16.882428;HR;Europe/Zagreb;Q2455431;Vlak;;nom;324151682;Q38251856;;;i-o525;Lipovljani
+TNOSM3671459717;gare;Kaštel Kambelovac;Kaštel Kambelovac;Kaštel Kambelovac;;;43.555503;16.385586;HR;Europe/Zagreb;Q396579;Vlak;;nom;3671459717;Q116008861;;;i-o959;Kaštel Kambelovac
+TNOSM3717635961;gare;Haganj;Haganj;Haganj;;;45.926705;16.586511;HR;Europe/Zagreb;Q1413655;Vlak;;nom;3717635961;Q116008832;;;i-o630;Haganj
+TNOSM3717635962;gare;Lubena;Lubena;Lubena;;;45.923607;16.514185;HR;Europe/Zagreb;Q10993628;Vlak;;nom;3717635962;Q116008902;;;i-o628;Lubena
+TNOSM3717635963;gare;Remetinec Križevački;Remetinec Križevački;Remetinec Križevački;;;45.923938;16.538556;HR;Europe/Zagreb;Q10993628;Vlak;;nom;3717635963;Q116008998;;;i-o629;Remetinec Križevački
+TNOSM3898533466;gare;Vratišinec;Vratišinec;Vratišinec;;;46.47301;16.453638;HR;Europe/Zagreb;Q266531;Vlak;;nom;3898533466;Q88685448;;;i-o778;Vratišinec
+TNOSM3898930258;gare;Čakovec;Čakovec;Čakovec;;;46.384367;16.420519;HR;Europe/Zagreb;Q167839;Vlak;;nom;3898930258;Q72372265;;;i-o775;Čakovec
+TNOSM4196829016;gare;Pristava Krapinska;Pristava Krapinska;Pristava Krapinska;;;46.137193;15.877588;HR;Europe/Zagreb;Q753974;Vlak;;nom;4196829016;Q116008992;;;i-o756;Pristava Krapinska
+TNOSM4563241399;gare;Ilača;Ilača;Ilača;;;45.173441;19.089517;HR;Europe/Zagreb;Q2574081;Vlak;;nom;4563241399;Q96381956;;;i-o397;Ilača
+TNOSM5554981303;gare;Staro Petrovo Selo;Staro Petrovo Selo;Staro Petrovo Selo;;;45.222097;17.525957;HR;Europe/Zagreb;Q1272621;Vlak;;nom;5554981303;Q38251848;;;i-o543;Staro Petrovo Selo
+TNOSM5555067128;gare;Sibinj;Sibinj;Sibinj;;;45.180908;17.904605;HR;Europe/Zagreb;Q1271750;Vlak;;nom;5555067128;Q38251735;;;i-o551;Sibinj
+TNOSM565615392;gare;Galižana;Galižana;Galižana;;;44.933804;13.871365;HR;Europe/Zagreb;Q763761;Vlak;;nom;565615392;Q121819652;;;i-o990;Galižana
+TNOSM5666635940;gare;Stari Mikanovci;Stari Mikanovci;Stari Mikanovci;;;45.266576;18.539661;HR;Europe/Zagreb;Q1284329;Vlak;;nom;5666635940;Q30626953;;;i-o409;Stari Mikanovci
+TNOSM5668463169;gare;Banova Jaruga;Banova Jaruga;Banova Jaruga;;;45.44564;16.876306;HR;Europe/Zagreb;Q396536;Vlak;;nom;5668463169;Q38251859;;;i-o526;Banova Jaruga
+TNOSM5668860678;gare;Pula;Pula;Pula;;;44.879786;13.847144;HR;Europe/Zagreb;Q4656;Vlak;;nom;5668860678;Q3446718;;;i-o991;Pula
+TNOSM5703028925;gare;Laslovo-Korođ;Laslovo-Korođ;Laslovo-Korođ;;;45.414351;18.707479;HR;Europe/Zagreb;Q943541;Vlak;;nom;5703028925;Q116008887;;;i-o444;Laslovo-Korođ
+TNOSM599298889;gare;Pakrac;Pakrac;Pakrac;;;45.44722;17.195414;HR;Europe/Zagreb;Q398115;Vlak;;nom;599298889;;;;i-o662;Pakrac
+TNOSM6386177172;gare;Mursko Središće;Mursko Središće;Mursko Središće;;;46.508309;16.446414;HR;Europe/Zagreb;Q326952;Vlak;;nom;6386177172;Q56345908;;;i-o779;Mursko Središće
+TNOSM677514173;gare;Višnjevac IPK;Višnjevac IPK;Višnjevac IPK;;;45.566371;18.606634;HR;Europe/Zagreb;Q2393687;Vlak;;nom;677514173;Q110176044;;;i-o481;Višnjevac IPK
+TNOSM677514174;gare;Frigis - Osijek;Frigis - Osijek;Frigis - Osijek;;;45.558439;18.635801;HR;Europe/Zagreb;Q1640;Vlak;;nom;677514174;Q110184455;;;i-o482;Frigis - Osijek
+TNOSM677514175;gare;Petrove Gore;Petrove Gore;Petrove Gore;;;45.555665;18.650562;HR;Europe/Zagreb;Q1640;Vlak;;nom;677514175;Q110184549;;;i-o483;Petrove Gore
+TNOSM694856206;gare;Cerovljani;Cerovljani;Cerovljani;;;45.222577;16.773057;HR;Europe/Zagreb;VHR-cerovljani;Vlak;;nom;694856206;Q116008752;;;i-o494;Cerovljani
+TNOSM7837597652;gare;Slavonski Šamac;Slavonski Šamac;Slavonski Šamac;;;45.074502;18.473181;HR;Europe/Zagreb;Q7245667;Vlak;;nom;7837597652;;;;i-o1017;Slavonski Šamac
+TNOSM869880322;gare;Domagović;Domagović;Domagović;;;45.633301;15.632608;HR;Europe/Zagreb;Q822527;Vlak;;nom;869880322;;;;i-o788;Domagović
+TNOSM9597731107;gare;Tovarnik;Tovarnik;Tovarnik;;;45.155447;19.148556;HR;Europe/Zagreb;Q1277958;Vlak;;nom;9597731107;Q25425984;;;i-o396;Tovarnik
+TNOSM972954523;gare;Vodovod;Vodovod;Vodovod;;;45.552357;18.668167;HR;Europe/Zagreb;Q1640;Vlak;;nom;972954523;Q110184633;;;i-o484;Vodovod
