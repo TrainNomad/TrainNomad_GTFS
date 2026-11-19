@@ -1,0 +1,11 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN8400058;gare;Amsterdam Centraal;Amsterdam Central Station;Amsterdam Centraal;8400058;;52.378901;4.900581;NL;Europe/Amsterdam;Q727;TRAVELSKI NIGHT EXPRESS;;uic;4290854847;Q50719;;XNAC;AMS;Amsterdam Centraal
+TN8400530;gare;Rotterdam Centraal;Rotterdam Centraal;Rotterdam Centraal;8400530;;51.925057;4.469229;NL;Europe/Amsterdam;Q34370;TRAVELSKI NIGHT EXPRESS;;uic;4048801967;Q801388;;;RTM;Rotterdam Centraal
+TN8754700;gare;Gare d'Austerlitz;Gare d'Austerlitz;Gare d'Austerlitz;8754700;;48.842401;2.36499;FR;Europe/Paris;Q90;TRAVELSKI NIGHT EXPRESS;;uic;3493828793;Q1494179;;;PAZ;Paris Gare d'Austerlitz
+TN8774164;gare;Albertville;Albertville;Albertville;8774164;;45.673192;6.383243;FR;Europe/Paris;Q159469;TRAVELSKI NIGHT EXPRESS;;uic;3080728368;Q2905334;;;XAV;Albertville
+TN8774172;gare;Moûtiers - Salins - Brides-les-Bains;Moûtiers-Salins-Brides-les-Bains;Moûtiers-Salins-Brides-les-Bains;8774172;;45.486711;6.531432;FR;Europe/Paris;Q818032;TRAVELSKI NIGHT EXPRESS;;uic;9911451819;Q3097131;;;XMO;Moûtiers-Salins-Brides-les-Bains
+TN8774176;gare;Aime - La Plagne;Aime - La Plagne;Aime - La Plagne;8774176;;45.554265;6.648892;FR;Europe/Paris;Q21979674;TRAVELSKI NIGHT EXPRESS;;uic;9911451821;Q2653180;;;XAP;Aime-La Plagne
+TN8774177;gare;Landry;Landry;Landry;8774177;;45.574244;6.733589;FR;Europe/Paris;Q591860;TRAVELSKI NIGHT EXPRESS;;uic;9911451822;Q2783838;;;XHPG;Landry
+TN8774179;gare;Bourg-Saint-Maurice;Bourg-Saint-Maurice;Bourg-Saint-Maurice;8774179;;45.618805;6.771617;FR;Europe/Paris;Q238039;TRAVELSKI NIGHT EXPRESS;;uic;3080728371;Q2003411;;;XBM;Bourg-Saint-Maurice
+TN8814001;gare;Bruxelles-Midi - Brussel-Zuid;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;;50.835775;4.336054;BE;Europe/Brussels;Q239;TRAVELSKI NIGHT EXPRESS;;uic;17401552;Q800587;;XBB;BRU;Bruxelles-Midi
+TN8821006;gare;Antwerpen-Centraal;Antwerpen-Centraal;Antwerpen-Centraal;8821006;;51.215995;4.421101;BE;Europe/Brussels;Q12892;TRAVELSKI NIGHT EXPRESS;;uic;348421822;Q800398;;XBAC;ANR;Anvers-Central

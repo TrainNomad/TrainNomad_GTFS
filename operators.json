@@ -51,6 +51,26 @@
     ]
   },
   {
+    "id": "TRAVELSKI",
+    "name": "Travelski Night Express",
+    "enabled": true,
+    "gtfs_url": "https://www.data.gouv.fr/api/1/datasets/r/e47bd5d4-dcb2-46f6-8178-b6f245b52963",
+    "transport_types": [
+      "Travelski Night Express"
+    ],
+    "note": "Train de nuit des vendredis d'hiver (Paris-Austerlitz et Amsterdam / Rotterdam / Anvers / Bruxelles -> Albertville, Moûtiers, Aime, Landry, Bourg-Saint-Maurice ; retour le samedi soir), exploité par Pegasus Trains, vendu par Travelski. GTFS communautaire publié sur data.gouv.fr (github.com/deryclem/travelski-ne-gtfs), arrêts avec leur UIC dans stop_code. Saisonnier : hors saison (après le 28/03/2027) le contrôle « horaires expirés » refuse le flux, la dernière version reste publiée ; repasser enabled à false ou attendre le flux de la saison suivante."
+  },
+  {
+    "id": "ZOU",
+    "name": "ZOU ! Intermétropole (Transdev)",
+    "enabled": true,
+    "gtfs_url": "https://www.data.gouv.fr/api/1/datasets/r/764d6d5b-d04e-4aa7-94b7-f8b2274d2964",
+    "transport_types": [
+      "ZOU! Intermétropole"
+    ],
+    "note": "Trains Marseille - Toulon - Nice de la Région Sud exploités par Transdev Rail Sud Intermétropole (une trentaine par jour, numéros 17xxx), absents du flux SNCF depuis le changement d'exploitant. GTFS officiel de Transdev sur transport.data.gouv.fr (jeu « zou »), trains seuls, gares en UIC à 8 chiffres dans stop_id. Les autres TER ZOU ! (exploités par la SNCF) sont dans le flux SNCF ; les bus ZOU ! ne sont pas repris."
+  },
+  {
     "id": "NATIONAL_RAIL",
     "name": "National Rail",
     "enabled": true,
@@ -233,7 +253,7 @@
   {
     "id": "HZPP",
     "name": "HŽPP",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./CROATIA/hr_gtfs.zip",
     "script_path": "./CROATIA/ingest_hr_gtfs.py",
     "gtfs_url": "https://www.hzpp.hr/GTFS_files.zip",
@@ -246,7 +266,7 @@
   {
     "id": "SZ",
     "name": "SŽ",
-    "enabled": false,
+    "enabled": true,
     "gtfs_path": "./SLOVENIA/si_gtfs.zip",
     "script_path": "./SLOVENIA/ingest_si_gtfs.py",
     "gtfs_url": "https://dujpp.si/gtfs/dujpp-ijpp.zip",
@@ -255,6 +275,25 @@
       "Bus"
     ],
     "note": "Après OBB, MAV et HZPP, avant DB : la partie slovène des trains internationaux, déjà publiés en entier par ÖBB et MÁV, est écartée. GTFS national IJPP publié par DUJPP sur nap.si (CC BY-SA 4.0), agence SŽ - Potniški promet seule, sans catégorie de train (numéro seul). stop_id nationaux à 7 chiffres qui ne sont pas des UIC : gares rapprochées par referentiel/build_gares_sz.py. Copie de secours si_brut.zip dans la Release sources-latest."
+  },
+  {
+    "id": "DSB",
+    "name": "DSB (Danemark)",
+    "enabled": false,
+    "gtfs_path": "./DENMARK/dk_gtfs.zip",
+    "script_path": "./DENMARK/ingest_dk_gtfs.py",
+    "gtfs_url": "https://www.rejseplanen.info/labs/GTFS.zip",
+    "transport_types": [
+      "DSB InterCity",
+      "DSB InterCityLyn",
+      "DSB Regionaltog",
+      "DSB EuroCity-Express",
+      "DSB Railjet",
+      "Lokaltog",
+      "Öresundståg",
+      "Snälltåget"
+    ],
+    "note": "GTFS national Rejseplanen (ouvert), trains seuls : DSB, DSB Vores Tog, chemins de fer locaux, Öresundståg (Copenhague - Malmö - Göteborg / Kalmar / Karlskrona, opérateur SKANETRAFIKEN) et Snälltåget de nuit (Stockholm - Hambourg / Berlin, opérateur SNALLTAGET). Sans S-tog de Copenhague (banlieue). Après CD (son Railjet Copenhague - Prague, complet ici, remplace le morceau tchèque), avant SNCB et DB : la DB écarte les trains déjà publiés (EuroCity-Express Hambourg - Copenhague)."
   },
   {
     "id": "SNCB",
@@ -396,5 +435,16 @@
       "DFDS"
     ],
     "note": "Dieppe <-> Newhaven, exploité par DFDS pour le syndicat mixte Transmanche. Le flux écrit les heures de Newhaven en heure anglaise (non conforme) : FERRIES/ingest_ferries.py le détecte et les ramène à l'heure de Paris. Ports : referentiel/build_gares_transmanche.py."
+  },
+  {
+    "id": "IRISH_FERRIES",
+    "name": "Irish Ferries",
+    "enabled": true,
+    "gtfs_path": "./FERRIES/irish_ferries_gtfs.zip",
+    "script_path": "./FERRIES/ingest_ferries.py",
+    "transport_types": [
+      "Irish Ferries"
+    ],
+    "note": "Dublin <-> Cherbourg (W.B. Yeats, Isle of Inisheer). Aucun GTFS ni NeTEx publié : FERRIES/irish_ferries_pdf.py transcrit les PDF d'horaires de la compagnie dans FERRIES/irish_ferries_traversees.csv (versionné), à relancer à chaque nouveau PDF ; FERRIES/ingest_ferries.py en fait le GTFS (heures dans le fuseau Europe/Dublin). Ports : referentiel/build_gares_irish_ferries.py."
   }
 ]

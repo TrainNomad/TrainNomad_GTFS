@@ -400,7 +400,7 @@ TN7115401;gare;Calzada de Asturias;Calzada de Asturias;Calzada de Asturias;71154
 TN7115410;gare;Gijón-Sanz Crespo;Gijón-Sanz Crespo;Gijón-Sanz Crespo;7115410;;43.537733;-5.675809;ES;Europe/Madrid;Q12273;ALVIA|AVE|AVLO|MD|REGIONAL;;gtfs;;;;;15410;Gijón-Sanz Crespo
 TN7116403;gare;Avilés;Avilés;Avilés;7116403;;43.561475;-5.922956;ES;Europe/Madrid;Q14649;ALVIA;;nom;30546837;Q5845745;;;16403;Avilés
 TN7117000;gare;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;Madrid-Chamartín-Clara Campoamor;7117000;;40.472057;-3.682262;ES;Europe/Madrid;Q2807;ALVIA|AVANT|AVE|AVLO|INTERCITY|MD|REG.EXP.|REGIONAL;;uic;9821007500;;;;17000;Madrid-Chamartín-Clara Campoamor
-TN7118000;gare;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;7118000;;40.406619;-3.689439;ES;Europe/Madrid;Q2807;ALVIA|INTERCITY|MD|PROXIMDAD|REG.EXP.|REGIONAL;;gtfs;;;;;18000;Madrid-Atocha Cercanías
+TN7118000;gare;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;Madrid-Atocha Cercanías;7118000;;40.406619;-3.689439;ES;Europe/Madrid;Q2807;ALVIA|AVANT|INTERCITY|MD|PROXIMDAD|REG.EXP.|REGIONAL;;gtfs;;;;;18000;Madrid-Atocha Cercanías
 TN7118001;gare;Madrid-Recoletos;Recoletos;Recoletos;7118001;;40.422496;-3.691704;ES;Europe/Madrid;Q2807;REGIONAL;;nom;4999319356;Q8841582;;;18001;Madrid-Recoletos
 TN7118002;gare;Madrid-Nuevos Ministerios;Nuevos Ministerios;Nuevos Ministerios;7118002;;40.445842;-3.691699;ES;Europe/Madrid;Q2807;REG.EXP.|REGIONAL;;nom;4998670036;Q2705508;;;18002;Madrid-Nuevos Ministerios
 TN7120002;gare;Quintana-Raneros;Quintana-Raneros;Quintana-Raneros;7120002;;42.550092;-5.637936;ES;Europe/Madrid;Q1605919;REG.EXP.;;uic;7538542562;Q5847019;;;20002;Quintana-Raneros
@@ -990,18 +990,18 @@ TN7199117;gare;Ourense Turístico;Ourense Turístico;Ourense Turístico;7199117;
 TN7199143;gare;A Coruña-Turístico;A Coruña;A Coruña;7199143;;43.350443;-8.412061;ES;Europe/Madrid;Q8757;AVANT|MD;;nom;way/1325270999;;;;99143;A Coruña-Turístico
 TN7199159;gare;Santiago-Turístico;Santiago-Turístico;Santiago-Turístico;7199159;;42.870842;-8.544697;ES;Europe/Madrid;Q14314;AVANT|MD|REGIONAL;;gtfs;;;;;99159;Santiago-Turístico
 TN7199161;gare;Pontevedra-Turístico;Pontevedra-Turístico;Pontevedra-Turístico;7199161;;42.421969;-8.635546;ES;Europe/Madrid;Q12411;MD;;gtfs;;;;;99161;Pontevedra-Turístico
-TNOSM10783341023;gare;Estação Ferroviária de Porto - Campanhã;Porto - Campanhã;Porto - Campanhã;;;41.149192;-8.58471;PT;Europe/Lisbon;Q36433;TRENCELTA;;nom;10783341023;Q801328;;;94346;Porto Campanha - O Porto Campaña
-TNOSM10783341024;gare;Estação Ferroviária de Nine;Nine;Nine;;;41.454737;-8.544285;PT;Europe/Lisbon;Q551658;TRENCELTA;;nom;10783341024;Q8841121;;;94021;Nine
-TNOSM10933998114;gare;Nîmes;Nîmes Centre;Nîmes Centre;;;43.832374;4.366255;FR;Europe/Paris;Q42807;AVE INT;;nom;10933998114;Q2360563;;;87302;Nimes
-TNOSM10940370468;gare;Cerbère;Cerbère;Cerbère;;;42.44156;3.163515;FR;Europe/Paris;Q6667;REGIONAL;;nom;10940370468;Q977356;;;79316;Cerbère
-TNOSM1721162711;gare;Montpellier Saint-Roch;Montpellier Saint-Roch;Montpellier Saint-Roch;;;43.604246;3.880322;FR;Europe/Paris;Q6441;AVE INT;;nom;1721162711;Q801197;;;87173;Montpellier Saint-Roch
-TNOSM2861321998;gare;Estação Ferroviária de Viana do Castelo;Viana do Castelo;Viana do Castelo;;;41.695208;-8.831558;PT;Europe/Lisbon;Q208158;TRENCELTA;;nom;2861321998;Q8842196;;;94033;Viana do Castelo
-TNOSM3301687461;gare;Estação Ferroviária de Valença;Valença;Valença;;;42.024704;-8.639295;PT;Europe/Lisbon;Q492475;TRENCELTA;;nom;3301687461;Q7610745;;;22402;Valença do Minho
-TNOSM4217899591;gare;Estação Ferroviária de Barcelos;Barcelos;Barcelos;;;41.536782;-8.608996;PT;Europe/Lisbon;Q213242;TRENCELTA;;nom;4217899591;Q2893868;;;96122;Barcelos
-TNOSM4290854845;gare;Aix-en-Provence TGV;Aix-en-Provence TGV;Aix-en-Provence TGV;;;43.455145;5.317287;FR;Europe/Paris;Q47465;AVE INT;;nom;4290854845;Q800366;;XFAX;87912;Aix en Provence TGV
-TNOSM4290857016;gare;Lyon Part-Dieu;Lyon Part-Dieu;Lyon Part-Dieu;;;45.760573;4.860163;FR;Europe/Paris;Q456;AVE INT;;nom;4290857016;Q2008;;XFLPD;87303;Lyon Part Dieu
-TNOSM4290857022;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;;;43.303263;5.381193;FR;Europe/Paris;Q23482;AVE INT;;nom;4290857022;Q371217;;XFM;87089;Marseille St Charles
-TNOSM448465221;gare;Perpignan;Gare de Perpignan;Gare de Perpignan;;;42.696244;2.879693;FR;Europe/Paris;Q6730;AVE INT;;nom;448465221;Q2283118;;;87374;Perpignan
-TNOSM4907034453;gare;Avignon TGV;Avignon TGV;Avignon TGV;;;43.921783;4.786072;FR;Europe/Paris;Q6397;AVE INT;;nom;4907034453;Q174845;;;87814;Avignon TGV
-TNOSM8077757623;gare;Narbonne;Narbonne;Narbonne;;;43.190629;3.00562;FR;Europe/Paris;Q6555;AVE INT;;nom;8077757623;Q2591311;;;87088;Narbonne
-TNOSM9909081028;gare;Valence TGV Rhône-Alpes Sud;Valence TGV Sud Rhône-Alpes;Valence TGV Sud Rhône-Alpes;;;44.991932;4.978434;FR;Europe/Paris;Q326786;AVE INT;;nom;9909081028;Q2052261;;;87810;Valence TGV
+TN8731896;gare;Avignon TGV;Avignon TGV;Avignon TGV;8731896;;43.921783;4.786072;FR;Europe/Paris;Q6397;AVE INT;;nom;4907034453;Q174845;;;87814;Avignon TGV
+TN8731901;gare;Aix-en-Provence TGV;Aix-en-Provence TGV;Aix-en-Provence TGV;8731901;;43.455145;5.317287;FR;Europe/Paris;Q47465;AVE INT;;nom;4290854845;Q800366;;XFAX;87912;Aix en Provence TGV
+TN8772319;gare;Lyon Part-Dieu;Lyon Part-Dieu;Lyon Part-Dieu;8772319;;45.760573;4.860163;FR;Europe/Paris;Q456;AVE INT;;nom;4290857016;Q2008;;XFLPD;87303;Lyon Part Dieu
+TN8775100;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;8775100;;43.303263;5.381193;FR;Europe/Paris;Q23482;AVE INT;;nom;4290857022;Q371217;;XFM;87089;Marseille St Charles
+TN8776302;gare;Valence TGV Rhône-Alpes Sud;Valence TGV Sud Rhône-Alpes;Valence TGV Sud Rhône-Alpes;8776302;;44.991932;4.978434;FR;Europe/Paris;Q326786;AVE INT;;nom;9909081028;Q2052261;;;87810;Valence TGV
+TN8777300;gare;Montpellier Saint-Roch;Montpellier Saint-Roch;Montpellier Saint-Roch;8777300;;43.604246;3.880322;FR;Europe/Paris;Q6441;AVE INT;;nom;1721162711;Q801197;;;87173;Montpellier Saint-Roch
+TN8777500;gare;Nîmes;Nîmes Centre;Nîmes Centre;8777500;;43.832374;4.366255;FR;Europe/Paris;Q42807;AVE INT;;nom;10933998114;Q2360563;;;87302;Nimes
+TN8778110;gare;Narbonne;Narbonne;Narbonne;8778110;;43.190629;3.00562;FR;Europe/Paris;Q6555;AVE INT;;nom;8077757623;Q2591311;;;87088;Narbonne
+TN8778400;gare;Perpignan;Gare de Perpignan;Gare de Perpignan;8778400;;42.696244;2.879693;FR;Europe/Paris;Q6730;AVE INT;;nom;448465221;Q2283118;;;87374;Perpignan
+TN8778500;gare;Cerbère;Cerbère;Cerbère;8778500;;42.44156;3.163515;FR;Europe/Paris;Q6667;REGIONAL;;nom;10940370468;Q977356;;;79316;Cerbère
+TN9402006;gare;Estação Ferroviária de Porto - Campanhã;Porto - Campanhã;Porto - Campanhã;9402006;;41.149192;-8.58471;PT;Europe/Lisbon;Q36433;TRENCELTA;;nom;10783341023;Q801328;;;94346;Porto Campanha - O Porto Campaña
+TN9406007;gare;Estação Ferroviária de Nine;Nine;Nine;9406007;;41.454737;-8.544285;PT;Europe/Lisbon;Q551658;TRENCELTA;;nom;10783341024;Q8841121;;;94021;Nine
+TN9406122;gare;Estação Ferroviária de Barcelos;Barcelos;Barcelos;9406122;;41.536782;-8.608996;PT;Europe/Lisbon;Q213242;TRENCELTA;;nom;4217899591;Q2893868;;;96122;Barcelos
+TN9407005;gare;Estação Ferroviária de Valença;Valença;Valença;9407005;;42.024704;-8.639295;PT;Europe/Lisbon;Q492475;TRENCELTA;;nom;3301687461;Q7610745;;;22402;Valença do Minho
+TN9418002;gare;Estação Ferroviária de Viana do Castelo;Viana do Castelo;Viana do Castelo;9418002;;41.695208;-8.831558;PT;Europe/Lisbon;Q208158;TRENCELTA;;nom;2861321998;Q8842196;;;94033;Viana do Castelo

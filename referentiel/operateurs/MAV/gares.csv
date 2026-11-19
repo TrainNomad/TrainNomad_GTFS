@@ -62,7 +62,7 @@ TN5331827;gare;Câmpia Turzii;Câmpia Turzii;Câmpia Turzii;5331827;;46.547189;2
 TN5332015;gare;Cluj Napoca;Cluj-Napoca;Cluj Napoca;5332015;;46.784625;23.586169;RO;Europe/Bucharest;Q100188;IC;;nom;258987961;Q59615300;;;1:005332015;Cluj Napoca
 TN5332663;gare;Oradea;Oradea;Oradea;5332663;;47.070056;21.936182;RO;Europe/Bucharest;Q16898113;Sz;;uic;2498606016;;;;1:005332663;Oradea
 TN5332742;gare;Episcopia Bihor;Episcopia Bihor;Episcopia Bihor;5332742;;47.099597;21.876351;RO;Europe/Bucharest;Q16898113;Sz;;uic;3122349954;Q59688255;;;1:005332742;Episcopia Bihor
-TN5335407;gare;Salonta;Salonta;Salonta;5335407;;46.809537;21.642059;RO;Europe/Bucharest;Q754730;Bus|Sz;;uic;2029420901;;;;1:005335407;Salonta
+TN5335407;gare;Salonta;Salonta;Salonta;5335407;;46.809537;21.642059;RO;Europe/Bucharest;Q754730;Sz;;uic;2029420901;;;;1:005335407;Salonta
 TN5340139;gare;Sfântu Gheorghe;Sfântu Gheorghe;Sfântu Gheorghe;5340139;;45.863259;25.810505;RO;Europe/Bucharest;Q202362;IC;;uic;13263545488;Q60808967;;;1:005340139;Sfântu Gheorghe
 TN5340256;gare;Băile Tuşnad;Băile Tuşnad;Băile Tuşnad;5340256;;46.150833;25.860556;RO;Europe/Bucharest;Q837968;IC;;gtfs;;;;;1:005340256;Băile Tuşnad
 TN5340373;gare;Miercurea Ciuc;Miercurea Ciuc;Miercurea Ciuc;5340373;;46.359559;25.793445;RO;Europe/Bucharest;Q16898293;IC;;uic;12585336788;;;;1:005340373;Miercurea Ciuc
@@ -94,6 +94,7 @@ TN5345373;gare;General Gheorghe Avramescu;General Gheorghe Avramescu;General Ghe
 TN5345397;gare;Sătmărel;Sătmărel;Sătmărel;5345397;;47.741798;22.795634;RO;Europe/Bucharest;Q185332;Sz;;uic;3149666062;;;;1:005345397;Satmarel
 TN5345438;gare;Satu Mare Sud;Satu Mare Sud;Satu Mare Sud;5345438;;47.772034;22.870128;RO;Europe/Bucharest;Q185332;Sz;;uic;306563335;;;;1:005345438;Satu Mare Sud
 TN5345452;gare;Satu Mare;Satu Mare;Satu Mare;5345452;;47.795223;22.893128;RO;Europe/Bucharest;Q185332;EC|Sz;;uic;9555790979;;;;1:005345452;Satu Mare
+TN5434362;gare;Olomouc hlavní nádraží;Olomouc hlavní nádraží;Olomouc hlavní nádraží;5434362;;49.592844;17.278345;CZ;Europe/Prague;Q81137;különvonat;;uic;2506544888;Q11798083;;;1:005434362;Olomouc hl. n.
 TN5500700;gare;Szeged vasútállomás;Szeged vasútállomás;Szeged vasútállomás;5500700;;46.239789;20.142561;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500700;Szeged vasútállomás
 TN5500701;gare;Szeged, Galamb utca;Szeged, Galamb utca;Szeged, Galamb utca;5500701;;46.24153;20.142297;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500701;Szeged, Galamb utca
 TN5500702;gare;Szeged, Bécsi körút;Szeged, Bécsi körút;Szeged, Bécsi körút;5500702;;46.243459;20.143809;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500702;Szeged, Bécsi körút
@@ -108,8 +109,8 @@ TN5500710;gare;Szeged, Vásárhelyi Pál utca;Szeged, Vásárhelyi Pál utca;Sze
 TN5500711;gare;Szeged, Pulz utca;Szeged, Pulz utca;Szeged, Pulz utca;5500711;;46.264452;20.126061;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500711;Szeged, Pulz utca
 TN5500712;gare;Szeged, Rókus vasútállomás;Szeged, Rókus vasútállomás;Szeged, Rókus vasútállomás;5500712;;46.266107;20.125686;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500712;Szeged, Rókus vasútállomás
 TN5500713;gare;Szeged, Bem utca;Szeged, Bem utca;Szeged, Bem utca;5500713;;46.240198;20.141247;HU;Europe/Budapest;Q81581;TT;;gtfs;;;;;1:005500713;Szeged, Bem utca
-TN5501016;gare;Budapest-Déli;Budapest-Déli;Budapest-Déli;5501016;;47.499479;19.024876;HU;Europe/Budapest;Q1781;Ex|Gy|IC|IR|S|Sz;;uic;748766808;Q764685;;XMBD;1:005501016;Budapest-Déli
-TN5501024;gare;Budapest-Kelenföld;Budapest-Kelenföld;Budapest-Kelenföld;5501024;;47.464299;19.020615;HU;Europe/Budapest;Q1781;EC|EN|Ex|Gy|IC|IR|RJX|S|Sz;;uic;2894347408;Q800998;;XMBL;1:005501024;Budapest-Kelenföld
+TN5501016;gare;Budapest-Déli;Budapest-Déli;Budapest-Déli;5501016;;47.499479;19.024876;HU;Europe/Budapest;Q1781;Ex|Gy|IC|IR|S|Sz|különvonat;;uic;748766808;Q764685;;XMBD;1:005501016;Budapest-Déli
+TN5501024;gare;Budapest-Kelenföld;Budapest-Kelenföld;Budapest-Kelenföld;5501024;;47.464299;19.020615;HU;Europe/Budapest;Q1781;EC|EN|Ex|Gy|IC|IR|RJX|S|Sz|különvonat;;uic;2894347408;Q800998;;XMBL;1:005501024;Budapest-Kelenföld
 TN5501032;gare;Budaörs;Budaörs;Budaörs;5501032;;47.447547;18.964955;HU;Europe/Budapest;Q755691;Sz;;uic;1547493571;Q21876888;;;1:005501032;Budaörs
 TN5501057;gare;Biatorbágy;Biatorbágy;Biatorbágy;5501057;;47.480229;18.834525;HU;Europe/Budapest;Q736635;Sz;;uic;8434994836;Q21876893;;;1:005501057;Biatorbágy
 TN5501065;gare;Herceghalom;Herceghalom;Herceghalom;5501065;;47.493681;18.745793;HU;Europe/Budapest;Q965190;Sz;;uic;7208885506;Q21876896;;;1:005501065;Herceghalom
@@ -117,26 +118,26 @@ TN5501081;gare;Bicske;Bicske;Bicske;5501081;;47.48431;18.618453;HU;Europe/Budape
 TN5501099;gare;Szár;Szár;Szár;5501099;;47.484917;18.527954;HU;Europe/Budapest;Q1186590;Sz;;uic;3543646161;Q21876900;;;1:005501099;Szár
 TN5501107;gare;Szárliget;Szárliget;Szárliget;5501107;;47.519103;18.495248;HU;Europe/Budapest;Q1186590;Sz;;uic;3543646163;Q21876903;;;1:005501107;Szárliget
 TN5501123;gare;Alsógalla;Alsógalla;Alsógalla;5501123;;47.563345;18.424328;HU;Europe/Budapest;Q187821;S|Sz;;uic;8893475090;Q21876905;;;1:005501123;Alsógalla
-TN5501131;gare;Tatabánya;Tatabánya;Tatabánya;5501131;;47.585443;18.392896;HU;Europe/Budapest;Q187821;EC|EN|Gy|IC|IR|RJX|S|Sz;;uic;344319183;Q12816463;;XMBT;1:005501131;Tatabánya
+TN5501131;gare;Tatabánya;Tatabánya;Tatabánya;5501131;;47.585443;18.392896;HU;Europe/Budapest;Q187821;EC|EN|Gy|IC|IR|RJX|S|Sz|különvonat;;uic;344319183;Q12816463;;XMBT;1:005501131;Tatabánya
 TN5501149;gare;Vértesszőlős;Vértesszőlős;Vértesszőlős;5501149;;47.619183;18.375357;HU;Europe/Budapest;Q247360;S|Sz;;uic;9212499234;Q21876911;;;1:005501149;Vértesszőlős
 TN5501156;gare;Tóvároskert;Tóvároskert;Tóvároskert;5501156;;47.646592;18.348186;HU;Europe/Budapest;Q329768;S|Sz;;uic;9212499235;Q21876913;;;1:005501156;Tóvároskert
 TN5501164;gare;Tata;Tata;Tata;5501164;;47.663953;18.327876;HU;Europe/Budapest;Q329768;IC|IR|S|Sz;;uic;4057764613;Q15122554;;;1:005501164;Tata
 TN5501172;gare;Almásfüzitő;Almásfüzitő;Almásfüzitő;5501172;;47.725246;18.2618;HU;Europe/Budapest;Q658286;S|Sz;;uic;8434997975;Q21876917;;;1:005501172;Almásfüzitő
 TN5501180;gare;Almásfüzitő felső;Almásfüzitő felső;Almásfüzitő felső;5501180;;47.731327;18.216557;HU;Europe/Budapest;Q658286;S|Sz;;uic;8434997976;Q21876919;;;1:005501180;Almásfüzitő felső
 TN5501198;gare;Szőny;Szőny;Szőny;5501198;;47.735703;18.177121;HU;Europe/Budapest;Q625154;S|Sz;;uic;8435054099;Q21876922;;;1:005501198;Szőny
-TN5501222;gare;Komárom;Komárom;Komárom;5501222;;47.749582;18.113889;HU;Europe/Budapest;Q625154;IC|IR|S|Sz;;uic;5535569567;Q15122963;;;1:005501222;Komárom
+TN5501222;gare;Komárom;Komárom;Komárom;5501222;;47.749582;18.113889;HU;Europe/Budapest;Q625154;IC|IR|S|Sz|különvonat;;uic;5535569567;Q15122963;;;1:005501222;Komárom
 TN5501230;gare;Ács;Ács;Ács;5501230;;47.717033;18.004426;HU;Europe/Budapest;Q649647;S|Sz;;uic;5351981911;Q15123893;;;1:005501230;Ács
 TN5501248;gare;Nagyszentjános;Nagyszentjános;Nagyszentjános;5501248;;47.705544;17.87202;HU;Europe/Budapest;Q612379;S|Sz;;uic;7011625957;Q21876927;;;1:005501248;Nagyszentjános
 TN5501255;gare;Győrszentiván;Győrszentiván;Győrszentiván;5501255;;47.688646;17.746048;HU;Europe/Budapest;Q134494;S|Sz;;uic;6842660421;Q21876929;;;1:005501255;Győrszentiván
 TN5501263;gare;Győr-Gyárváros;Győr-Gyárváros;Győr-Gyárváros;5501263;;47.684439;17.663623;HU;Europe/Budapest;Q134494;IR|S|Sz;;uic;6906616674;Q21876804;;;1:005501263;Győr-Gyárváros
-TN5501289;gare;Győr;Győr;Győr;5501289;;47.682085;17.634827;HU;Europe/Budapest;Q134494;EC|EN|ER|Gy|IC|IR|RJX|S|Sz;;uic;91687004;Q3096600;;XMG;1:005501289;Győr
+TN5501289;gare;Győr;Győr;Győr;5501289;;47.682085;17.634827;HU;Europe/Budapest;Q134494;EC|EN|ER|Gy|IC|IR|RJX|S|Sz|különvonat;;uic;91687004;Q3096600;;XMG;1:005501289;Győr
 TN5501305;gare;Abda;Abda;Abda;5501305;;47.690642;17.540621;HU;Europe/Budapest;Q479596;ER|S|Sz;;uic;91711529;Q21891724;;;1:005501305;Abda
 TN5501313;gare;Öttevény;Öttevény;Öttevény;5501313;;47.719567;17.489403;HU;Europe/Budapest;Q1089740;ER|S|Sz;;uic;2883269382;Q21891725;;;1:005501313;Öttevény
 TN5501321;gare;Lébény-Mosonszentmiklós;Lébény-Mosonszentmiklós;Lébény-Mosonszentmiklós;5501321;;47.755886;17.425438;HU;Europe/Budapest;Q922488;ER|S|Sz;;uic;91711539;Q21891726;;;1:005501321;Lébény-Mosonszentmiklós
 TN5501339;gare;Kimle-Károlyháza;Kimle-Károlyháza;Kimle-Károlyháza;5501339;;47.804441;17.342166;HU;Europe/Budapest;Q1089634;ER|S|Sz;;uic;12471822632;Q21891727;;;1:005501339;Kimle-Károlyháza
 TN5501347;gare;Mosonmagyaróvár;Mosonmagyaróvár;Mosonmagyaróvár;5501347;;47.849425;17.267592;HU;Europe/Budapest;Q207406;EC|EN|ER|Gy|RJX|S|Sz;;uic;91711522;Q21891728;;;1:005501347;Mosonmagyaróvár
 TN5501354;gare;Levél;Levél;Levél;5501354;;47.88975;17.192116;HU;Europe/Budapest;Q1129643;ER|S|Sz;;uic;91711593;Q21891721;;;1:005501354;Levél
-TN5501362;gare;Hegyeshalom;Hegyeshalom;Hegyeshalom;5501362;;47.91321;17.146734;HU;Europe/Budapest;Q1012768;EC|EN|ER|Gy|RJX|S|Sz;;uic;11878737947;Q553145;;;1:005501362;Hegyeshalom
+TN5501362;gare;Hegyeshalom;Hegyeshalom;Hegyeshalom;5501362;;47.91321;17.146734;HU;Europe/Budapest;Q1012768;EC|EN|ER|Gy|RJX|S|Sz|különvonat;;uic;11878737947;Q553145;;;1:005501362;Hegyeshalom
 TN5501404;gare;Óbuda;Óbuda;Óbuda;5501404;;47.56912;19.032713;HU;Europe/Budapest;Q1781;Sz;;uic;6137205675;Q3095884;;;1:005501404;Óbuda
 TN5501408;gare;Aranyvölgy;Aranyvölgy railway station;Aranyvölgy;5501408;;47.573674;19.017752;HU;Europe/Budapest;Q1781;Sz;;uic;6137205676;Q19570095;;;1:005501408;Aranyvölgy
 TN5501412;gare;Üröm;Üröm;Üröm;5501412;;47.580424;19.002618;HU;Europe/Budapest;Q1781;Sz;;uic;6350552857;Q3096086;;;1:005501412;Üröm
@@ -164,8 +165,8 @@ TN5501628;gare;Tokod;Tokod;Tokod;5501628;;47.734734;18.674624;HU;Europe/Budapest
 TN5501743;gare;Környe;Környe;Környe;5501743;;47.542882;18.33336;HU;Europe/Budapest;Q1089239;Sz;;uic;8440432942;Q21877376;;;1:005501743;Környe
 TN5501750;gare;Kecskéd alsó;Kecskéd alsó;Kecskéd alsó;5501750;;47.520423;18.316765;HU;Europe/Budapest;Q656250;Sz;;uic;8440432943;Q21877377;;;1:005501750;Kecskéd alsó
 TN5501768;gare;Oroszlány;Oroszlány;Oroszlány;5501768;;47.486949;18.309;HU;Europe/Budapest;Q843028;Sz;;uic;8440432956;Q21877364;;;1:005501768;Oroszlány
-TN5501974;gare;Rajka;Rajka;Rajka;5501974;;47.994353;17.192919;HU;Europe/Budapest;Q1009081;Sz;;nom;11876769768;Q12815768;;;1:004301974;Rajka
-TN5502022;gare;Győrszabadhegy;Győrszabadhegy;Győrszabadhegy;5502022;;47.663116;17.648081;HU;Europe/Budapest;Q134494;IR|S|Sz;;uic;445818141;Q21876805;;;1:005502022;Győrszabadhegy
+TN5501974;gare;Rajka;Rajka;Rajka;5501974;;47.994353;17.192919;HU;Europe/Budapest;Q1009081;Sz|különvonat;;nom;11876769768;Q12815768;;;1:004301974;Rajka
+TN5502022;gare;Győrszabadhegy;Győrszabadhegy;Győrszabadhegy;5502022;;47.663116;17.648081;HU;Europe/Budapest;Q134494;IR|Sz;;uic;445818141;Q21876805;;;1:005502022;Győrszabadhegy
 TN5502030;gare;Ménfőcsanak felső;Ménfőcsanak felső;Ménfőcsanak felső;5502030;;47.637686;17.614149;HU;Europe/Budapest;Q134494;Sz;;uic;276515721;Q22093493;;;1:005502030;Ménfőcsanak felső
 TN5502071;gare;Gyömöre-Tét;Gyömöre-Tét;Gyömöre-Tét;5502071;;47.501681;17.559605;HU;Europe/Budapest;Q1030257;IR|Sz;;uic;1350118932;;;;1:005502071;Gyömöre-Tét
 TN5502097;gare;Szerecseny;Szerecseny;Szerecseny;5502097;;47.469227;17.547438;HU;Europe/Budapest;Q1089380;IR|Sz;;uic;276516261;Q22093501;;;1:005502097;Szerecseny
@@ -180,10 +181,10 @@ TN5502170;gare;Celldömölk;Celldömölk;Celldömölk;5502170;;47.261457;17.1522
 TN5502188;gare;Kemenesmihályfa;Kemenesmihályfa;Kemenesmihályfa;5502188;;47.278967;17.109082;HU;Europe/Budapest;Q1106660;Sz;;uic;1065129664;Q22093514;;;1:005502188;Kemenesmihályfa
 TN5502196;gare;Nagysimonyi;Nagysimonyi;Nagysimonyi;5502196;;47.265695;17.057468;HU;Europe/Budapest;Q615205;Sz;;uic;268196123;Q22093515;;;1:005502196;Nagysimonyi
 TN5502204;gare;Ostffyasszonyfa;Ostffyasszonyfa;Ostffyasszonyfa;5502204;;47.284033;17.024333;HU;Europe/Budapest;Q843043;Sz;;uic;268196140;Q22093516;;;1:005502204;Ostffyasszonyfa
-TN5502212;gare;Sárvár;Sárvár;Sárvár;5502212;;47.258968;16.929516;HU;Europe/Budapest;Q843043;IC|IR|S|Sz;;uic;780946519;Q21876827;;;1:005502212;Sárvár
+TN5502212;gare;Sárvár;Sárvár;Sárvár;5502212;;47.258968;16.929516;HU;Europe/Budapest;Q843043;IC|IR|Sz;;uic;780946519;Q21876827;;;1:005502212;Sárvár
 TN5502220;gare;Porpác;Porpác;Porpác;5502220;;47.23891;16.833177;HU;Europe/Budapest;Q855015;Sz;;uic;93800951;Q21876837;;;1:005502220;Porpác
 TN5502238;gare;Vép;Vép;Vép;5502238;;47.235745;16.727114;HU;Europe/Budapest;Q1183686;Sz;;nom;93548712;Q21888797;;;1:004302238;Vép
-TN5502246;gare;Szombathely;Szombathely;Szombathely;5502246;;47.237351;16.632762;HU;Europe/Budapest;Q42007;IC|IR|S|Sz;;nom;93800956;Q21872202;;;1:004302246;Szombathely
+TN5502246;gare;Szombathely;Szombathely;Szombathely;5502246;;47.237351;16.632762;HU;Europe/Budapest;Q42007;IC|IR|Sz;;nom;93800956;Q21872202;;;1:004302246;Szombathely
 TN5502253;gare;Szombathely-Szőlős;Szombathely-Szőlős;Szombathely-Szőlős;5502253;;47.206411;16.641721;HU;Europe/Budapest;Q42007;IC|Sz;;nom;1065130541;Q21888103;;;1:004302253;Szombathely-Szőlős
 TN5502261;gare;Ják-Balogunyom;Ják-Balogunyom;Ják-Balogunyom;5502261;;47.161306;16.63026;HU;Europe/Budapest;Q789725;IC|Sz;;nom;1065129602;Q21888104;;;1:004302261;Ják-Balogunyom
 TN5502279;gare;Egyházasrádóc;Egyházasrádóc;Egyházasrádóc;5502279;;47.090845;16.619735;HU;Europe/Budapest;Q534675;IC|Sz;;nom;268196808;Q21888105;;;1:004302279;Egyházasrádóc
@@ -225,13 +226,13 @@ TN5502709;gare;Fertőboz;Fertőboz;Fertőboz;5502709;;47.624724;16.691988;HU;Eur
 TN5502725;gare;Sopron;Sopron;Sopron;5502725;;47.677649;16.586891;HU;Europe/Budapest;Q168648;IC|Sz;;nom;9481803762;Q1007116;;;1:004302725;Sopron
 TN5502857;gare;Fertőszéplak-Fertőd;Fertőszéplak-Fertőd;Fertőszéplak-Fertőd;5502857;;47.61773;16.850706;HU;Europe/Budapest;Q1000810;Sz;;nom;1212434077;Q21890523;;;1:004302857;Fertőszéplak-Fertőd
 TN5502915;gare;Nyúl;Nyúl;Nyúl;5502915;;47.587641;17.698187;HU;Europe/Budapest;Q935309;Sz;;uic;321886064;Q21876806;;;1:005502915;Nyúl
-TN5502931;gare;Pannonhalma;Pannonhalma;Pannonhalma;5502931;;47.547519;17.740703;HU;Europe/Budapest;Q650015;S|Sz;;uic;321886026;Q21876807;;;1:005502931;Pannonhalma
+TN5502931;gare;Pannonhalma;Pannonhalma;Pannonhalma;5502931;;47.547519;17.740703;HU;Europe/Budapest;Q650015;Sz;;uic;321886026;Q21876807;;;1:005502931;Pannonhalma
 TN5502949;gare;Tarjánpuszta;Tarjánpuszta;Tarjánpuszta;5502949;;47.504688;17.788777;HU;Europe/Budapest;Q675967;Sz;;uic;321885953;Q21886089;;;1:005502949;Tarjánpuszta
 TN5502956;gare;Győrasszonyfa;Győrasszonyfa;Győrasszonyfa;5502956;;47.494165;17.798778;HU;Europe/Budapest;Q250262;Sz;;uic;321885935;Q21886090;;;1:005502956;Győrasszonyfa
 TN5502964;gare;Veszprémvarsány;Veszprémvarsány;Veszprémvarsány;5502964;;47.443302;17.818526;HU;Europe/Budapest;Q1089276;Sz;;uic;321885895;Q21876802;;;1:005502964;Veszprémvarsány
-TN5502972;gare;Bakonyszentlászló;Bakonyszentlászló;Bakonyszentlászló;5502972;;47.396001;17.817603;HU;Europe/Budapest;Q789029;S|Sz;;uic;321886673;Q21876810;;;1:005502972;Bakonyszentlászló
-TN5502980;gare;Porva-Csesznek;Porva-Csesznek;Porva-Csesznek;5502980;;47.326979;17.841437;HU;Europe/Budapest;Q152389;S|Sz;;uic;3350644827;Q21876814;;;1:005502980;Porva-Csesznek
-TN5502998;gare;Zirc;Zirc;Zirc;5502998;;47.266699;17.878147;HU;Europe/Budapest;Q205607;S|Sz;;uic;445818143;Q21876803;;;1:005502998;Zirc
+TN5502972;gare;Bakonyszentlászló;Bakonyszentlászló;Bakonyszentlászló;5502972;;47.396001;17.817603;HU;Europe/Budapest;Q789029;Sz;;uic;321886673;Q21876810;;;1:005502972;Bakonyszentlászló
+TN5502980;gare;Porva-Csesznek;Porva-Csesznek;Porva-Csesznek;5502980;;47.326979;17.841437;HU;Europe/Budapest;Q152389;Sz;;uic;3350644827;Q21876814;;;1:005502980;Porva-Csesznek
+TN5502998;gare;Zirc;Zirc;Zirc;5502998;;47.266699;17.878147;HU;Europe/Budapest;Q205607;Sz;;uic;445818143;Q21876803;;;1:005502998;Zirc
 TN5503038;gare;Eplény;Eplény;Eplény;5503038;;47.192692;17.9216;HU;Europe/Budapest;Q146317;Sz;;uic;3730862340;Q21876816;;;1:005503038;Eplény
 TN5503061;gare;Marcaltő;Marcaltő;Marcaltő;5503061;;47.427734;17.348877;HU;Europe/Budapest;Q988182;Sz;;uic;500911415;Q22093549;;;1:005503061;Marcaltő
 TN5503079;gare;Szany-Rábaszentandrás;Szany-Rábaszentandrás;Szany-Rábaszentandrás;5503079;;47.460541;17.315189;HU;Europe/Budapest;Q1184662;Sz;;uic;1065130111;Q22093548;;;1:005503079;Szany-Rábaszentandrás
@@ -252,29 +253,29 @@ TN5503210;gare;Velence;Velence;Velence;5503210;;47.22625;18.662657;HU;Europe/Bud
 TN5503228;gare;Velencefürdő;Velencefürdő;Velencefürdő;5503228;;47.21847;18.647939;HU;Europe/Budapest;Q1065977;IR|Sz;;uic;8880621971;Q21876954;;;1:005503228;Velencefürdő
 TN5503236;gare;Gárdony;Gárdony;Gárdony;5503236;;47.206068;18.624735;HU;Europe/Budapest;Q642031;IR|S|Sz;;uic;8880625559;Q21876957;;;1:005503236;Gárdony
 TN5503244;gare;Agárd;Agárd;Agárd;5503244;;47.197462;18.604438;HU;Europe/Budapest;Q642031;IR|Sz;;uic;8880619122;Q21876959;;;1:005503244;Agárd
-TN5503269;gare;Székesfehérvár;Székesfehérvár;Székesfehérvár;5503269;;47.183017;18.424995;HU;Europe/Budapest;Q130212;Gy|IC|IR|S|Sz;;uic;7575662350;Q11086563;;;1:005503269;Székesfehérvár
-TN5503285;gare;Szabadbattyán;Szabadbattyán;Szabadbattyán;5503285;;47.105399;18.388241;HU;Europe/Budapest;Q1095006;IR|S|Sz;;uic;2753681384;Q21876874;;;1:005503285;Szabadbattyán
-TN5503293;gare;Kiscséripuszta;Kiscséripuszta;Kiscséripuszta;5503293;;47.047986;18.354958;HU;Europe/Budapest;Q932806;IR|S|Sz;;uic;8517780137;Q22119576;;;1:005503293;Kiscséripuszta
+TN5503269;gare;Székesfehérvár;Székesfehérvár;Székesfehérvár;5503269;;47.183017;18.424995;HU;Europe/Budapest;Q130212;Gy|IC|IR|S|Sz|különvonat;;uic;7575662350;Q11086563;;;1:005503269;Székesfehérvár
+TN5503285;gare;Szabadbattyán;Szabadbattyán;Szabadbattyán;5503285;;47.105399;18.388241;HU;Europe/Budapest;Q1095006;S|Sz;;uic;2753681384;Q21876874;;;1:005503285;Szabadbattyán
+TN5503293;gare;Kiscséripuszta;Kiscséripuszta;Kiscséripuszta;5503293;;47.047986;18.354958;HU;Europe/Budapest;Q932806;S|Sz;;uic;8517780137;Q22119576;;;1:005503293;Kiscséripuszta
 TN5503301;gare;Lepsény;Lepsény;Lepsény;5503301;;46.987257;18.247566;HU;Europe/Budapest;Q370974;Gy|IC|IR|S|Sz;;uic;8517780135;Q22119578;;;1:005503301;Lepsény
 TN5503319;gare;Balatonaliga;Balatonaliga;Balatonaliga;5503319;;46.984275;18.170741;HU;Europe/Budapest;Q789326;IC|IR|S|Sz;;uic;8371157148;Q21877030;;;1:005503319;Balatonaliga
 TN5503327;gare;Balatonvilágos;Balatonvilágos;Balatonvilágos;5503327;;46.965087;18.158592;HU;Europe/Budapest;Q789326;IR|S|Sz;;uic;8458031544;Q22119579;;;1:005503327;Balatonvilágos
 TN5503335;gare;Szabadisóstó;Szabadisóstó;Szabadisóstó;5503335;;46.934897;18.120213;HU;Europe/Budapest;Q245126;IR|S|Sz;;uic;6365361929;Q22119574;;;1:005503335;Szabadisóstó
 TN5503343;gare;Szabadifürdő;Szabadifürdő;Szabadifürdő;5503343;;46.92451;18.100342;HU;Europe/Budapest;Q245126;IR|S|Sz;;uic;9480463720;Q22119575;;;1:005503343;Szabadifürdő
-TN5503350;gare;Siófok;Siófok;Siófok;5503350;;46.907819;18.05406;HU;Europe/Budapest;Q245126;Gy|IC|IR|S|Sz;;uic;8410326621;Q21876867;;;1:005503350;Siófok
-TN5503368;gare;Balatonszéplak felső;Balatonszéplak felső;Balatonszéplak felső;5503368;;46.897848;18.017849;HU;Europe/Budapest;Q245126;IR|S|Sz;;uic;6354450614;Q21877034;;;1:005503368;Balatonszéplak felső
-TN5503376;gare;Balatonszéplak alsó;Balatonszéplak alsó;Balatonszéplak alsó;5503376;;46.891751;17.993043;HU;Europe/Budapest;Q146033;IR|S|Sz;;uic;6354445897;Q21877035;;;1:005503376;Balatonszéplak alsó
-TN5503384;gare;Zamárdi felső;Zamárdi felső;Zamárdi felső;5503384;;46.886537;17.971877;HU;Europe/Budapest;Q146033;IR|S;;uic;6365349744;Q21877036;;;1:005503384;Zamárdi felső
-TN5503392;gare;Zamárdi;Zamárdi;Zamárdi;5503392;;46.879905;17.944838;HU;Europe/Budapest;Q146033;Gy|IC|IR|S|Sz;;uic;33123779;Q21877037;;;1:005503392;Zamárdi
-TN5503400;gare;Szántód;Szántód;Szántód;5503400;;46.86239;17.899573;HU;Europe/Budapest;Q1089334;IR|S|Sz;;uic;6365328784;Q21877038;;;1:005503400;Szántód
-TN5503418;gare;Balatonföldvár;Balatonföldvár;Balatonföldvár;5503418;;46.853362;17.879934;HU;Europe/Budapest;Q789282;Gy|IC|IR|S|Sz;;uic;8458047132;Q21877039;;;1:005503418;Balatonföldvár
-TN5503426;gare;Balatonszárszó;Balatonszárszó;Balatonszárszó;5503426;;46.83211;17.830414;HU;Europe/Budapest;Q789316;Gy|IC|IR|S|Sz;;uic;7041664258;Q21877040;;;1:005503426;Balatonszárszó
-TN5503434;gare;Balatonszemes;Balatonszemes;Balatonszemes;5503434;;46.812026;17.776505;HU;Europe/Budapest;Q789310;Gy|IC|IR|S|Sz;;uic;7041674499;Q21877041;;;1:005503434;Balatonszemes
-TN5503442;gare;Balatonlelle felső;Balatonlelle felső;Balatonlelle felső;5503442;;46.794733;17.720173;HU;Europe/Budapest;Q789299;IR|S;;uic;8458047285;Q21877042;;;1:005503442;Balatonlelle felső
-TN5503459;gare;Balatonlelle;Balatonlelle;Balatonlelle;5503459;;46.787341;17.694007;HU;Europe/Budapest;Q789299;Gy|IC|IR|S|Sz;;uic;8458047286;Q21877043;;;1:005503459;Balatonlelle
-TN5503467;gare;Fonyódliget;Fonyódliget;Fonyódliget;5503467;;46.759158;17.592201;HU;Europe/Budapest;Q588606;IR|S;;uic;8458084206;Q21877045;;;1:005503467;Fonyódliget
-TN5503475;gare;Balatonboglár;Balatonboglár;Balatonboglár;5503475;;46.776058;17.646964;HU;Europe/Budapest;Q789261;Gy|IC|IR|S|Sz;;uic;8458075882;Q21877044;;;1:005503475;Balatonboglár
+TN5503350;gare;Siófok;Siófok;Siófok;5503350;;46.907819;18.05406;HU;Europe/Budapest;Q245126;Gy|IC|IR|S|Sz|különvonat;;uic;8410326621;Q21876867;;;1:005503350;Siófok
+TN5503368;gare;Balatonszéplak felső;Balatonszéplak felső;Balatonszéplak felső;5503368;;46.897848;18.017849;HU;Europe/Budapest;Q245126;S|Sz;;uic;6354450614;Q21877034;;;1:005503368;Balatonszéplak felső
+TN5503376;gare;Balatonszéplak alsó;Balatonszéplak alsó;Balatonszéplak alsó;5503376;;46.891751;17.993043;HU;Europe/Budapest;Q146033;S|Sz;;uic;6354445897;Q21877035;;;1:005503376;Balatonszéplak alsó
+TN5503384;gare;Zamárdi felső;Zamárdi felső;Zamárdi felső;5503384;;46.886537;17.971877;HU;Europe/Budapest;Q146033;S;;uic;6365349744;Q21877036;;;1:005503384;Zamárdi felső
+TN5503392;gare;Zamárdi;Zamárdi;Zamárdi;5503392;;46.879905;17.944838;HU;Europe/Budapest;Q146033;Gy|IC|S|Sz;;uic;33123779;Q21877037;;;1:005503392;Zamárdi
+TN5503400;gare;Szántód;Szántód;Szántód;5503400;;46.86239;17.899573;HU;Europe/Budapest;Q1089334;Gy|IC|S|Sz;;uic;6365328784;Q21877038;;;1:005503400;Szántód
+TN5503418;gare;Balatonföldvár;Balatonföldvár;Balatonföldvár;5503418;;46.853362;17.879934;HU;Europe/Budapest;Q789282;Gy|IC|S|Sz;;uic;8458047132;Q21877039;;;1:005503418;Balatonföldvár
+TN5503426;gare;Balatonszárszó;Balatonszárszó;Balatonszárszó;5503426;;46.83211;17.830414;HU;Europe/Budapest;Q789316;Gy|IC|S|Sz;;uic;7041664258;Q21877040;;;1:005503426;Balatonszárszó
+TN5503434;gare;Balatonszemes;Balatonszemes;Balatonszemes;5503434;;46.812026;17.776505;HU;Europe/Budapest;Q789310;Gy|IC|S|Sz;;uic;7041674499;Q21877041;;;1:005503434;Balatonszemes
+TN5503442;gare;Balatonlelle felső;Balatonlelle felső;Balatonlelle felső;5503442;;46.794733;17.720173;HU;Europe/Budapest;Q789299;S;;uic;8458047285;Q21877042;;;1:005503442;Balatonlelle felső
+TN5503459;gare;Balatonlelle;Balatonlelle;Balatonlelle;5503459;;46.787341;17.694007;HU;Europe/Budapest;Q789299;Gy|IC|S|Sz;;uic;8458047286;Q21877043;;;1:005503459;Balatonlelle
+TN5503467;gare;Fonyódliget;Fonyódliget;Fonyódliget;5503467;;46.759158;17.592201;HU;Europe/Budapest;Q588606;S;;uic;8458084206;Q21877045;;;1:005503467;Fonyódliget
+TN5503475;gare;Balatonboglár;Balatonboglár;Balatonboglár;5503475;;46.776058;17.646964;HU;Europe/Budapest;Q789261;Gy|IC|S|Sz;;uic;8458075882;Q21877044;;;1:005503475;Balatonboglár
 TN5503483;gare;Balatonfenyves alsó;Balatonfenyves alsó;Balatonfenyves alsó;5503483;;46.708251;17.45385;HU;Europe/Budapest;Q789265;S|Sz;;uic;10223546805;Q21877049;;;1:005503483;Balatonfenyves alsó
-TN5503491;gare;Fonyód;Fonyód;Fonyód;5503491;;46.750096;17.557815;HU;Europe/Budapest;Q588606;Gy|IC|IR|S|Sz;;uic;33123162;Q21876865;;;1:005503491;Fonyód
+TN5503491;gare;Fonyód;Fonyód;Fonyód;5503491;;46.750096;17.557815;HU;Europe/Budapest;Q588606;Gy|IC|IR|S|Sz|különvonat;;uic;33123162;Q21876865;;;1:005503491;Fonyód
 TN5503509;gare;Bélatelep;Bélatelep;Bélatelep;5503509;;46.7374;17.534728;HU;Europe/Budapest;Q588606;S|Sz;;uic;10224100946;Q21877046;;;1:005503509;Bélatelep
 TN5503517;gare;Alsóbélatelep;Alsóbélatelep;Alsóbélatelep;5503517;;46.724279;17.51643;HU;Europe/Budapest;Q588606;S|Sz;;uic;10223586995;Q21877047;;;1:005503517;Alsóbélatelep
 TN5503525;gare;Balatonfenyves;Balatonfenyves;Balatonfenyves;5503525;;46.71348;17.482901;HU;Europe/Budapest;Q789265;Gy|IC|S|Sz;;uic;8403327556;Q21877048;;;1:005503525;Balatonfenyves
@@ -282,10 +283,10 @@ TN5503533;gare;Máriahullámtelep;Máriahullámtelep;Máriahullámtelep;5503533;
 TN5503534;gare;Máriaszőlőtelep;Máriaszőlőtelep;Máriaszőlőtelep;5503534;;46.702484;17.409029;HU;Europe/Budapest;Q789298;S|Sz;;uic;6908568699;Q49477991;;;1:005503534;Máriaszőlőtelep
 TN5503541;gare;Balatonmáriafürdő;Balatonmáriafürdő;Balatonmáriafürdő;5503541;;46.704214;17.375554;HU;Europe/Budapest;Q789298;Gy|IC|S|Sz;;uic;8371157147;Q21877051;;;1:005503541;Balatonmáriafürdő
 TN5503558;gare;Balatonberény;Balatonberény;Balatonberény;5503558;;46.713889;17.316944;HU;Europe/Budapest;Q789252;IC|S|Sz;;uic;10171476866;Q21877052;;;1:005503558;Balatonberény
-TN5503566;gare;Balatonszentgyörgy;Balatonszentgyörgy;Balatonszentgyörgy;5503566;;46.692558;17.288882;HU;Europe/Budapest;Q789311;Gy|IC|IR|S|Sz;;uic;8960203485;Q21876861;;;1:005503566;Balatonszentgyörgy
+TN5503566;gare;Balatonszentgyörgy;Balatonszentgyörgy;Balatonszentgyörgy;5503566;;46.692558;17.288882;HU;Europe/Budapest;Q789311;Gy|IC|IR|S|Sz|különvonat;;uic;8960203485;Q21876861;;;1:005503566;Balatonszentgyörgy
 TN5503574;gare;Vörs;Vörs;Vörs;5503574;;46.663338;17.259835;HU;Europe/Budapest;Q933248;Gy|IC|Sz;;uic;467097186;Q22117283;;;1:005503574;Vörs
 TN5503608;gare;Zalaszentjakab;Zalaszentjakab;Zalaszentjakab;5503608;;46.491409;17.135144;HU;Europe/Budapest;Q962436;Gy|IC|Sz;;uic;467097188;Q22117276;;;1:005503608;Zalaszentjakab
-TN5503624;gare;Nagykanizsa;Nagykanizsa;Nagykanizsa;5503624;;46.440694;16.986961;HU;Europe/Budapest;Q14424;Gy|IC|IR|Sz;;uic;94290630;Q21876856;;;1:005503624;Nagykanizsa
+TN5503624;gare;Nagykanizsa;Nagykanizsa;Nagykanizsa;5503624;;46.440694;16.986961;HU;Europe/Budapest;Q14424;Gy|IC|IR|Sz|különvonat;;uic;94290630;Q21876856;;;1:005503624;Nagykanizsa
 TN5503640;gare;Murakeresztúr;Murakeresztúr;Murakeresztúr;5503640;;46.363832;16.876665;HU;Europe/Budapest;Q1179923;IR|Sz;;uic;344909742;Q22121264;;;1:005503640;Murakeresztúr
 TN5503657;gare;Zalakomár;Zalakomár;Zalakomár;5503657;;46.52988;17.187909;HU;Europe/Budapest;Q1186373;Gy|IC|Sz;;uic;94939411;Q22117275;;;1:005503657;Zalakomár
 TN5503665;gare;Szárazrét;Szárazrét;Szárazrét;5503665;;47.200913;18.381036;HU;Europe/Budapest;Q130212;Sz;;uic;8437526244;Q102143778;;;1:005503665;Szárazrét
@@ -300,9 +301,6 @@ TN5503871;gare;Várpalota;Várpalota;Várpalota;5503871;;47.194577;18.148897;HU;
 TN5503921;gare;Pétfürdő;Pétfürdő;Pétfürdő;5503921;;47.167302;18.122242;HU;Europe/Budapest;Q515474;Gy|IC|S|Sz;;uic;80231925;Q22115140;;;1:005503921;Pétfürdő
 TN5503939;gare;Hajmáskér;Hajmáskér;Hajmáskér;5503939;;47.140998;18.009086;HU;Europe/Budapest;Q602736;IC|S|Sz;;uic;80231932;Q22115172;;;1:005503939;Hajmáskér
 TN5503947;gare;Veszprém;Veszprém;Veszprém;5503947;;47.118965;17.911404;HU;Europe/Budapest;Q146317;Gy|IC|S|Sz;;uic;71481373;Q21872088;;;1:005503947;Veszprém
-TN5503954;gare;Herend;Herend;Herend;5503954;;47.136773;17.76044;HU;Europe/Budapest;Q385982;Sz;;uic;1065129534;Q22116493;;;1:005503954;Herend
-TN5503970;gare;Városlőd;Városlőd;Városlőd;5503970;;47.144084;17.652946;HU;Europe/Budapest;Q1089829;Sz;;uic;1065130222;Q22116495;;;1:005503970;Városlőd
-TN5503988;gare;Városlőd-Kislőd;Városlőd-Kislőd;Városlőd-Kislőd;5503988;;47.134384;17.631806;HU;Europe/Budapest;Q660522;Sz;;uic;71526160;Q22116496;;;1:005503988;Városlőd-Kislőd
 TN5503996;gare;Ajka;Ajka;Ajka;5503996;;47.10594;17.572862;HU;Europe/Budapest;Q206872;Gy|IC|S|Sz;;uic;71526236;Q21876831;;;1:005503996;Ajka
 TN5504010;gare;Ajka-Gyártelep;Ajka-Gyártelep;Ajka-Gyártelep;5504010;;47.096771;17.555187;HU;Europe/Budapest;Q206872;S|Sz;;uic;71526268;Q22116497;;;1:005504010;Ajka-Gyártelep
 TN5504044;gare;Devecser;Devecser;Devecser;5504044;;47.112158;17.435875;HU;Europe/Budapest;Q853744;IC|S|Sz;;uic;80231939;Q22116498;;;1:005504044;Devecser
@@ -351,9 +349,9 @@ TN5504598;gare;Tapolca;Tapolca;Tapolca;5504598;;46.876991;17.428788;HU;Europe/Bu
 TN5504622;gare;Uzsabánya alsó;Uzsabánya alsó;Uzsabánya alsó;5504622;;46.898245;17.345359;HU;Europe/Budapest;Q1184784;Sz;;uic;73838831;Q22117136;;;1:005504622;Uzsabánya alsó
 TN5504630;gare;Uzsa;Uzsa;Uzsa;5504630;;46.920302;17.331635;HU;Europe/Budapest;Q1184784;Sz;;uic;73838803;Q22117135;;;1:005504630;Uzsa
 TN5504655;gare;Sümegi Bazaltbánya;Sümegi Bazaltbánya;Sümegi Bazaltbánya;5504655;;46.952311;17.292559;HU;Europe/Budapest;Q680656;Sz;;uic;73838764;Q22117137;;;1:005504655;Sümegi Bazaltbánya
-TN5504663;gare;Sümeg;Sümeg;Sümeg;5504663;;46.980978;17.270838;HU;Europe/Budapest;Q680656;IR|S|Sz;;uic;73838746;Q22117134;;;1:005504663;Sümeg
+TN5504663;gare;Sümeg;Sümeg;Sümeg;5504663;;46.980978;17.270838;HU;Europe/Budapest;Q680656;IR|Sz;;uic;73838746;Q22117134;;;1:005504663;Sümeg
 TN5504671;gare;Gógánfa;Gógánfa;Gógánfa;5504671;;47.020955;17.207714;HU;Europe/Budapest;Q1031427;Sz;;uic;73838697;Q22117131;;;1:005504671;Gógánfa
-TN5504689;gare;Ukk;Ukk;Ukk;5504689;;47.04076;17.196486;HU;Europe/Budapest;Q1031427;Gy|IC|S|Sz;;uic;73838664;Q21872939;;;1:005504689;Ukk
+TN5504689;gare;Ukk;Ukk;Ukk;5504689;;47.04076;17.196486;HU;Europe/Budapest;Q1031427;Gy|IC|Sz;;uic;73838664;Q21872939;;;1:005504689;Ukk
 TN5504697;gare;Nemeskeresztúr;Nemeskeresztúr;Nemeskeresztúr;5504697;;47.093629;17.183715;HU;Europe/Budapest;Q636352;Sz;;uic;73838548;Q22115394;;;1:005504697;Nemeskeresztúr
 TN5504705;gare;Jánosháza;Jánosháza;Jánosháza;5504705;;47.11546;17.171642;HU;Europe/Budapest;Q1070861;Gy|IC|IR|Sz;;uic;73838931;Q22115393;;;1:005504705;Jánosháza
 TN5504747;gare;Keszthely;Keszthely;Keszthely;5504747;;46.757916;17.247481;HU;Europe/Budapest;Q526335;IC|IR|S|Sz;;uic;92752136;Q21876859;;;1:005504747;Keszthely
@@ -438,7 +436,7 @@ TN5505769;gare;Szentdénes;Szentdénes;Szentdénes;5505769;;46.036585;17.927072;
 TN5505785;gare;Háros;Háros;Háros;5505785;;47.412223;19.035126;HU;Europe/Budapest;Q1781;Sz;;uic;6486121484;Q3096084;;;1:005505785;Háros
 TN5505793;gare;Nagytétény-Diósd;Nagytétény-Diósd;Nagytétény-Diósd;5505793;;47.398261;18.972334;HU;Europe/Budapest;Q1781;Sz;;uic;8530038203;Q3097159;;;1:005505793;Nagytétény-Diósd
 TN5505801;gare;Érdliget;Érdliget;Érdliget;5505801;;47.3902;18.937958;HU;Europe/Budapest;Q193050;Sz;;uic;8560083768;Q21876963;;;1:005505801;Érdliget
-TN5505819;gare;Érd felső;Érd felső;Érd felső;5505819;;47.381199;18.922183;HU;Europe/Budapest;Q193050;Sz;;uic;8529977510;Q21876966;;;1:005505819;Érd felső
+TN5505819;gare;Érd felső;Érd felső;Érd felső;5505819;;47.381199;18.922183;HU;Europe/Budapest;Q193050;Sz|különvonat;;uic;8529977510;Q21876966;;;1:005505819;Érd felső
 TN5505827;gare;Érd;Érd;Érd;5505827;;47.369701;18.900852;HU;Europe/Budapest;Q193050;Sz;;uic;198841762;Q21876968;;;1:005505827;Érd
 TN5505835;gare;Százhalombatta;Százhalombatta;Százhalombatta;5505835;;47.322579;18.899312;HU;Europe/Budapest;Q773203;Sz;;uic;7862504631;Q21876970;;;1:005505835;Százhalombatta
 TN5505843;gare;Dunai Finomító;Dunai Finomító;Dunai Finomító;5505843;;47.294295;18.879081;HU;Europe/Budapest;Q773203;Sz;;uic;619127277;Q21876973;;;1:005505843;Dunai Finomító
@@ -463,10 +461,10 @@ TN5506155;gare;Csibrák;Csibrák;Csibrák;5506155;;46.466152;18.33531;HU;Europe/
 TN5506163;gare;Kurd;Kurd;Kurd;5506163;;46.450309;18.318489;HU;Europe/Budapest;Q1122153;Sz;;uic;619127253;Q22002093;;;1:005506163;Kurd
 TN5506171;gare;Döbrököz;Döbrököz;Döbrököz;5506171;;46.415911;18.25272;HU;Europe/Budapest;Q937317;Sz;;uic;619127249;Q22002094;;;1:005506171;Döbrököz
 TN5506189;gare;Dombóvár;Dombóvár;Dombóvár;5506189;;46.369924;18.149531;HU;Europe/Budapest;Q633789;Ex|IC|Sz;;uic;9216425257;Q19953491;;;1:005506189;Dombóvár
-TN5506197;gare;Dombóvár alsó;Dombóvár alsó;Dombóvár alsó;5506197;;46.363663;18.13406;HU;Europe/Budapest;Q633789;S|Sz;;uic;336099929;Q22222633;;;1:005506197;Dombóvár alsó
+TN5506197;gare;Dombóvár alsó;Dombóvár alsó;Dombóvár alsó;5506197;;46.363663;18.13406;HU;Europe/Budapest;Q633789;S|Sz|különvonat;;uic;336099929;Q22222633;;;1:005506197;Dombóvár alsó
 TN5506239;gare;Nagyberki;Nagyberki;Nagyberki;5506239;;46.356201;18.007787;HU;Europe/Budapest;Q367239;Sz;;uic;1065130352;Q22222637;;;1:005506239;Nagyberki
 TN5506270;gare;Kaposszentjakab;Kaposszentjakab;Kaposszentjakab;5506270;;46.356779;17.820351;HU;Europe/Budapest;Q184998;Sz;;uic;94743618;Q22121934;;;1:005506270;Kaposszentjakab
-TN5506288;gare;Kaposvár;Kaposvár;Kaposvár;5506288;;46.352676;17.794893;HU;Europe/Budapest;Q184998;IC|IR|S|Sz;;uic;94528727;Q12814852;;;1:005506288;Kaposvár
+TN5506288;gare;Kaposvár;Kaposvár;Kaposvár;5506288;;46.352676;17.794893;HU;Europe/Budapest;Q184998;IC|IR|S|Sz|különvonat;;uic;94528727;Q12814852;;;1:005506288;Kaposvár
 TN5506296;gare;Kaposújlak;Kaposújlak;Kaposújlak;5506296;;46.366973;17.724021;HU;Europe/Budapest;Q515188;Sz;;uic;94743508;Q22222660;;;1:005506296;Kaposújlak
 TN5506304;gare;Kaposmérő;Kaposmérő;Kaposmérő;5506304;;46.365494;17.699493;HU;Europe/Budapest;Q1104312;Sz;;uic;94528674;Q22222661;;;1:005506304;Kaposmérő
 TN5506312;gare;Kaposfő;Kaposfő;Kaposfő;5506312;;46.364165;17.660548;HU;Europe/Budapest;Q1104291;Sz;;uic;94743554;Q22222662;;;1:005506312;Kaposfő
@@ -475,12 +473,12 @@ TN5506338;gare;Jákó-Nagybajom;Jákó-Nagybajom;Jákó-Nagybajom;5506338;;46.34
 TN5506346;gare;Kutas;Kutas;Kutas;5506346;;46.326063;17.453409;HU;Europe/Budapest;Q629719;IC|Sz;;uic;94743578;Q22222665;;;1:005506346;Kutas
 TN5506353;gare;Beleg;Beleg;Beleg;5506353;;46.316784;17.420655;HU;Europe/Budapest;Q792239;IC|Sz;;uic;94743620;Q22222666;;;1:005506353;Beleg
 TN5506361;gare;Ötvöskónyi;Ötvöskónyi;Ötvöskónyi;5506361;;46.292598;17.357681;HU;Europe/Budapest;Q426810;IC|Sz;;uic;94743588;Q22222667;;;1:005506361;Ötvöskónyi
-TN5506379;gare;Somogyszob;Somogyszob;Somogyszob;5506379;;46.289119;17.306793;HU;Europe/Budapest;Q1016270;IC|Sz;;uic;94743595;Q21877082;;;1:005506379;Somogyszob
+TN5506379;gare;Somogyszob;Somogyszob;Somogyszob;5506379;;46.289119;17.306793;HU;Europe/Budapest;Q1016270;IC|Sz|különvonat;;uic;94743595;Q21877082;;;1:005506379;Somogyszob
 TN5506387;gare;Bolhás;Bolhás;Bolhás;5506387;;46.282132;17.275239;HU;Europe/Budapest;Q539373;IC|Sz;;uic;94743599;Q22222671;;;1:005506387;Bolhás
 TN5506395;gare;Szenta;Szenta;Szenta;5506395;;46.273692;17.180826;HU;Europe/Budapest;Q47565;Sz;;uic;94743602;Q22222669;;;1:005506395;Szenta
 TN5506403;gare;Zrínyitelep;Zrínyitelep;Zrínyitelep;5506403;;46.275111;17.141037;HU;Europe/Budapest;Q855016;Sz;;uic;94743605;Q22222672;;;1:005506403;Zrínyitelep
 TN5506411;gare;Csurgó;Csurgó;Csurgó;5506411;;46.261176;17.091783;HU;Europe/Budapest;Q855016;IC|Sz;;uic;94743609;Q22222673;;;1:005506411;Csurgó
-TN5506437;gare;Gyékényes;Gyékényes;Gyékényes;5506437;;46.249164;16.956013;HU;Europe/Budapest;Q920265;Gy|IC|IR|Sz;;uic;94301821;Q19862682;;;1:005506437;Gyékényes
+TN5506437;gare;Gyékényes;Gyékényes;Gyékényes;5506437;;46.249164;16.956013;HU;Europe/Budapest;Q920265;Gy|IC|IR|Sz|különvonat;;uic;94301821;Q19862682;;;1:005506437;Gyékényes
 TN5506452;gare;Adony;Adony;Adony;5506452;;47.106152;18.847821;HU;Europe/Budapest;Q366220;Sz;;uic;618346250;Q21997269;;;1:005506452;Adony
 TN5506478;gare;Kulcs;Kulcs;Kulcs;5506478;;47.051093;18.897747;HU;Europe/Budapest;Q1121754;Sz;;uic;7546242705;Q21997272;;;1:005506478;Kulcs
 TN5506486;gare;Rácalmás;Rácalmás;Rácalmás;5506486;;47.024233;18.910103;HU;Europe/Budapest;Q1075327;Sz;;uic;269706702;Q21997273;;;1:005506486;Rácalmás
@@ -520,10 +518,10 @@ TN5507229;gare;Abaliget;Abaliget;Abaliget;5507229;;46.152688;18.075315;HU;Europe
 TN5507237;gare;Hetvehely;Hetvehely;Hetvehely;5507237;;46.128268;18.045089;HU;Europe/Budapest;Q1035976;Sz;;uic;3331471226;;;;1:005507237;Hetvehely
 TN5507245;gare;Bükkösd;Bükkösd;Bükkösd;5507245;;46.113073;17.99968;HU;Europe/Budapest;Q731304;Sz;;uic;343658483;Q21998913;;;1:005507245;Bükkösd
 TN5507252;gare;Cserdi-Helesfa;Cserdi-Helesfa;Cserdi-Helesfa;5507252;;46.085542;17.987539;HU;Europe/Budapest;Q268117;Sz;;uic;347610445;Q21998912;;;1:005507252;Cserdi-Helesfa
-TN5507260;gare;Szentlőrinc;Szentlőrinc;Szentlőrinc;5507260;;46.033111;17.99076;HU;Europe/Budapest;Q578343;Ex|IC|IR|S|Sz;;uic;335404400;Q21877083;;;1:005507260;Szentlőrinc
+TN5507260;gare;Szentlőrinc;Szentlőrinc;Szentlőrinc;5507260;;46.033111;17.99076;HU;Europe/Budapest;Q578343;Ex|IC|IR|S|Sz|különvonat;;uic;335404400;Q21877083;;;1:005507260;Szentlőrinc
 TN5507278;gare;Bicsérd;Bicsérd;Bicsérd;5507278;;46.041013;18.053902;HU;Europe/Budapest;Q794652;Sz;;uic;342155899;Q21998914;;;1:005507278;Bicsérd
 TN5507286;gare;Mecsekalja-Cserkút;Mecsekalja-Cserkút;Mecsekalja-Cserkút;5507286;;46.060203;18.151935;HU;Europe/Budapest;Q45779;Sz;;uic;342152127;Q21998917;;;1:005507286;Mecsekalja-Cserkút
-TN5507294;gare;Pécs;Pécs;Pécs;5507294;;46.066366;18.225331;HU;Europe/Budapest;Q45779;Ex|IC|IR|S|Sz;;uic;25546152;Q16902715;;;1:005507294;Pécs
+TN5507294;gare;Pécs;Pécs;Pécs;5507294;;46.066366;18.225331;HU;Europe/Budapest;Q45779;Ex|IC|IR|S|Sz|különvonat;;uic;25546152;Q16902715;;;1:005507294;Pécs
 TN5507377;gare;Pécs-Külváros;Pécs-Külváros;Pécs-Külváros;5507377;;46.07177;18.240286;HU;Europe/Budapest;Q45779;Sz;;uic;340413312;Q22002359;;;1:005507377;Pécs-Külváros
 TN5507385;gare;Pécsbánya-Rendező;Pécsbánya-Rendező;Pécsbánya-Rendező;5507385;;46.063475;18.270216;HU;Europe/Budapest;Q45779;Sz;;uic;4340981717;Q22002362;;;1:005507385;Pécsbánya-Rendező
 TN5507393;gare;Pécsudvard;Pécsudvard;Pécsudvard;5507393;;46.009248;18.275472;HU;Europe/Budapest;Q780078;Sz;;uic;3794242057;Q22002366;;;1:005507393;Pécsudvard
@@ -585,9 +583,9 @@ TN5510090;gare;Zugló;Zugló;Zugló;5510090;;47.511608;19.100917;HU;Europe/Budap
 TN5510124;gare;Angyalföld;Angyalföld;Angyalföld;5510124;;47.550222;19.08951;HU;Europe/Budapest;Q1781;Sz;;uic;7214776436;Q3095635;;;1:005510124;Angyalföld
 TN5510132;gare;Istvántelek;Istvántelek;Istvántelek;5510132;;47.550343;19.106325;HU;Europe/Budapest;Q1781;Sz;;uic;10010044998;Q3095805;;;1:005510132;Istvántelek
 TN5510140;gare;Rákospalota-Újpest;Rákospalota-Újpest;Rákospalota-Újpest;5510140;;47.565671;19.112126;HU;Europe/Budapest;Q1781;Sz;;uic;9481153350;Q3097464;;;1:005510140;Rákospalota-Újpest
-TN5510157;gare;Kőbánya alsó;Kőbánya alsó;Kőbánya alsó;5510157;;47.483143;19.127148;HU;Europe/Budapest;Q1781;IC|S|Sz;;uic;8388835004;Q18005403;;;1:005510157;Kőbánya alsó
+TN5510157;gare;Kőbánya alsó;Kőbánya alsó;Kőbánya alsó;5510157;;47.483143;19.127148;HU;Europe/Budapest;Q1781;Ex|IC|IR|S|Sz;;uic;8388835004;Q18005403;;;1:005510157;Kőbánya alsó
 TN5510173;gare;Kőbánya-Kispest;Kőbánya-Kispest;Kőbánya-Kispest;5510173;;47.463649;19.149674;HU;Europe/Budapest;Q1781;EC|Ex|Gy|IC|IR|S|Sz;;uic;9483069313;Q3096714;;;1:005510173;Kőbánya-Kispest
-TN5510181;gare;Pestszentlőrinc;Pestszentlőrinc;Pestszentlőrinc;5510181;;47.454844;19.182762;HU;Europe/Budapest;Q1781;IC|Sz;;uic;8406757171;Q18005416;;;1:005510181;Pestszentlőrinc
+TN5510181;gare;Pestszentlőrinc;Pestszentlőrinc;Pestszentlőrinc;5510181;;47.454844;19.182762;HU;Europe/Budapest;Q1781;S|Sz;;uic;8406757171;Q18005416;;;1:005510181;Pestszentlőrinc
 TN5510199;gare;Kispest;Kispest;Kispest;5510199;;47.447517;19.156976;HU;Europe/Budapest;Q1781;Sz;;uic;8388835005;Q3096689;;;1:005510199;Kispest
 TN5510207;gare;Újpest;Újpest;Újpest;5510207;;47.558647;19.079707;HU;Europe/Budapest;Q1781;Sz;;uic;6361294640;Q3095885;;;1:005510207;Újpest
 TN5510233;gare;Újpalota;Újpalota;Újpalota;5510233;;47.531616;19.126113;HU;Europe/Budapest;Q1781;Sz;;uic;7203890765;Q84844308;;;1:005510233;Újpalota
@@ -768,7 +766,7 @@ TN5512963;gare;Szendrő;Szendrő;Szendrő;5512963;;48.400686;20.721311;HU;Europe
 TN5512971;gare;Szendrő felső;Szendrő felső;Szendrő felső;5512971;;48.409897;20.72011;HU;Europe/Budapest;Q590583;Sz;;uic;1212434344;Q22073980;;;1:005512971;Szendrő felső
 TN5512989;gare;Szalonna;Szalonna;Szalonna;5512989;;48.448871;20.72228;HU;Europe/Budapest;Q1184497;Sz;;uic;370613863;Q22073981;;;1:005512989;Szalonna
 TN5512997;gare;Perkupa;Perkupa;Perkupa;5512997;;48.471513;20.691166;HU;Europe/Budapest;Q1016496;Sz;;uic;448139760;Q22073982;;;1:005512997;Perkupa
-TN5513003;gare;Szemeretelep;Szemeretelep;Szemeretelep;5513003;;47.443038;19.214107;HU;Europe/Budapest;Q1781;IC|Sz;;uic;4769718767;Q18005431;;;1:005513003;Szemeretelep
+TN5513003;gare;Szemeretelep;Szemeretelep;Szemeretelep;5513003;;47.443038;19.214107;HU;Europe/Budapest;Q1781;S|Sz;;uic;4769718767;Q18005431;;;1:005513003;Szemeretelep
 TN5513011;gare;Jósvafő-Aggtelek;Jósvafő-Aggtelek;Jósvafő-Aggtelek;5513011;;48.489729;20.693872;HU;Europe/Budapest;Q1016496;Sz;;uic;1065130423;Q22073983;;;1:005513011;Jósvafő-Aggtelek
 TN5513029;gare;Bódvaszilas;Bódvaszilas;Bódvaszilas;5513029;;48.53745;20.737981;HU;Europe/Budapest;Q376157;Sz;;uic;1259198903;Q22073984;;;1:005513029;Bódvaszilas
 TN5513037;gare;Komjáti;Komjáti;Komjáti;5513037;;48.546157;20.756479;HU;Europe/Budapest;Q531097;Sz;;uic;1259198897;Q22073985;;;1:005513037;Komjáti
@@ -799,14 +797,14 @@ TN5513458;gare;Bodrogolaszi;Bodrogolaszi;Bodrogolaszi;5513458;;48.285485;21.5122
 TN5513466;gare;Sárospatak;Sárospatak;Sárospatak;5513466;;48.325869;21.566131;HU;Europe/Budapest;Q668318;IC|Sz;;uic;1165044679;Q22074890;;;1:005513466;Sárospatak
 TN5513482;gare;Sátoraljaújhely;Sátoraljaújhely;Sátoraljaújhely;5513482;;48.385822;21.657582;HU;Europe/Budapest;Q116417;IC|Sz;;uic;8371157153;Q22074891;;;1:005513482;Sátoraljaújhely
 TN5513615;gare;Ferihegy;Ferihegy;Ferihegy;5513615;;47.437214;19.223851;HU;Europe/Budapest;Q1781;EC|Gy|IC|IR|S|Sz;;uic;8518620737;Q3096424;;;1:005513615;Ferihegy
-TN5513623;gare;Vecsés;Vecsés;Vecsés;5513623;;47.408657;19.256074;HU;Europe/Budapest;Q36063;IC|Sz;;uic;7070334610;Q21921431;;;1:005513623;Vecsés
-TN5513631;gare;Vecsés-Kertekalja;Vecsés-Kertekalja;Vecsés-Kertekalja;5513631;;47.403231;19.270256;HU;Europe/Budapest;Q36063;IC|Sz;;uic;10223586985;Q21921432;;;1:005513631;Vecsés-Kertekalja
+TN5513623;gare;Vecsés;Vecsés;Vecsés;5513623;;47.408657;19.256074;HU;Europe/Budapest;Q36063;S|Sz;;uic;7070334610;Q21921431;;;1:005513623;Vecsés
+TN5513631;gare;Vecsés-Kertekalja;Vecsés-Kertekalja;Vecsés-Kertekalja;5513631;;47.403231;19.270256;HU;Europe/Budapest;Q36063;S|Sz;;uic;10223586985;Q21921432;;;1:005513631;Vecsés-Kertekalja
 TN5513649;gare;Üllő;Üllő;Üllő;5513649;;47.390786;19.350755;HU;Europe/Budapest;Q933467;IC|IR|S|Sz;;uic;8518689658;Q21921434;;;1:005513649;Üllő
 TN5513664;gare;Monor;Monor;Monor;5513664;;47.345398;19.437017;HU;Europe/Budapest;Q749320;IC|IR|S|Sz;;uic;10173828073;Q21921437;;;1:005513664;Monor
 TN5513680;gare;Pilis;Pilis;Pilis;5513680;;47.27958;19.537054;HU;Europe/Budapest;Q845575;IC|IR|S|Sz;;uic;8518689659;Q21921441;;;1:005513680;Pilis
 TN5513698;gare;Albertirsa;Albertirsa;Albertirsa;5513698;;47.24034;19.606651;HU;Europe/Budapest;Q578823;IC|IR|S|Sz;;uic;8518689660;Q21921442;;;1:005513698;Albertirsa
-TN5513714;gare;Ceglédbercel-Cserő;Ceglédbercel-Cserő;Ceglédbercel-Cserő;5513714;;47.210688;19.686075;HU;Europe/Budapest;Q519585;IC|S|Sz;;uic;1065130090;Q21921446;;;1:005513714;Ceglédbercel-Cserő
-TN5513722;gare;Cegléd;Cegléd;Cegléd;5513722;;47.18247;19.807436;HU;Europe/Budapest;Q214948;EC|Ex|Gy|IC|IR|S|Sz;;uic;4253452672;Q4746650;;;1:005513722;Cegléd
+TN5513714;gare;Ceglédbercel-Cserő;Ceglédbercel-Cserő;Ceglédbercel-Cserő;5513714;;47.210688;19.686075;HU;Europe/Budapest;Q519585;S|Sz;;uic;1065130090;Q21921446;;;1:005513714;Ceglédbercel-Cserő
+TN5513722;gare;Cegléd;Cegléd;Cegléd;5513722;;47.18247;19.807436;HU;Europe/Budapest;Q214948;EC|Gy|IC|IR|S|Sz;;uic;4253452672;Q4746650;;;1:005513722;Cegléd
 TN5513730;gare;Abony;Abony;Abony;5513730;;47.173212;20.017487;HU;Europe/Budapest;Q480421;IC|IR|Sz;;uic;9442125849;Q21921450;;;1:005513730;Abony
 TN5513748;gare;Szolnok;Szolnok;Szolnok;5513748;;47.17924;20.175329;HU;Europe/Budapest;Q181276;EC|Ex|Gy|IC|IR|S|Sz;;uic;10225137894;Q12816327;;;1:005513748;Szolnok
 TN5513771;gare;Szajol;Szajol;Szajol;5513771;;47.17037;20.295197;HU;Europe/Budapest;Q1185433;IC|IR|S|Sz;;uic;352686557;Q21921719;;;1:005513771;Szajol
@@ -818,7 +816,7 @@ TN5513862;gare;Püspökladány;Püspökladány;Püspökladány;5513862;;47.32792
 TN5513870;gare;Kaba;Kaba;Kaba;5513870;;47.368961;21.259544;HU;Europe/Budapest;Q247387;IC|IR|Sz;;uic;3412605384;Q22053990;;;1:005513870;Kaba
 TN5513888;gare;Hajdúszoboszló;Hajdúszoboszló;Hajdúszoboszló;5513888;;47.429264;21.407169;HU;Europe/Budapest;Q830404;EC|IC|IR|Sz;;uic;268203181;Q22053991;;;1:005513888;Hajdúszoboszló
 TN5513896;gare;Ebes;Ebes;Ebes;5513896;;47.462531;21.488649;HU;Europe/Budapest;Q743124;IC|IR|Sz;;uic;1063783640;Q22053992;;;1:005513896;Ebes
-TN5513912;gare;Debrecen;Debrecen;Debrecen;5513912;;47.519886;21.628763;HU;Europe/Budapest;Q79880;EC|Ex|Gy|IC|IR|S|Sz;;uic;3669062535;Q1215247;;;1:005513912;Debrecen
+TN5513912;gare;Debrecen;Debrecen;Debrecen;5513912;;47.519886;21.628763;HU;Europe/Budapest;Q79880;EC|Ex|Gy|IC|IR|Sz;;uic;3669062535;Q1215247;;;1:005513912;Debrecen
 TN5513920;gare;Debrecen-Csapókert;Debrecen-Csapókert;Debrecen-Csapókert;5513920;;47.540588;21.648121;HU;Europe/Budapest;Q79880;Ex|IC|IR|Sz;;uic;1065130681;Q22054773;;;1:005513920;Debrecen-Csapókert
 TN5513938;gare;Apafa;Apafa;Apafa;5513938;;47.584084;21.655872;HU;Europe/Budapest;Q79880;Ex|IR|Sz;;uic;497138634;Q22054780;;;1:005513938;Apafa
 TN5513946;gare;Bocskaikert;Bocskaikert;Bocskaikert;5513946;;47.640657;21.666095;HU;Europe/Budapest;Q832845;Ex|IR|Sz;;uic;3669125660;Q22054782;;;1:005513946;Bocskaikert
@@ -853,18 +851,18 @@ TN5514415;gare;Sáp;Sáp;Sáp;5514415;;47.259708;21.360864;HU;Europe/Budapest;Q9
 TN5514423;gare;Berettyóújfalu;Berettyóújfalu;Berettyóújfalu;5514423;;47.212195;21.532285;HU;Europe/Budapest;Q793405;Sz;;uic;628589425;Q21898143;;;1:005514423;Berettyóújfalu
 TN5514431;gare;Mezőpeterd;Mezőpeterd;Mezőpeterd;5514431;;47.176076;21.625931;HU;Europe/Budapest;Q966102;Sz;;uic;1212434089;Q21898144;;;1:005514431;Mezőpeterd
 TN5514449;gare;Biharkeresztes;Biharkeresztes;Biharkeresztes;5514449;;47.135463;21.721915;HU;Europe/Budapest;Q177042;Sz;;uic;628589426;Q21877073;;;1:005514449;Biharkeresztes
-TN5514456;gare;Tócóvölgy;Tócóvölgy;Tócóvölgy;5514456;;47.529386;21.588432;HU;Europe/Budapest;Q79880;S|Sz;;uic;549344791;Q22075964;;;1:005514456;Tócóvölgy
-TN5514464;gare;Kismacs;Kismacs;Kismacs;5514464;;47.550667;21.543644;HU;Europe/Budapest;Q79880;S|Sz;;uic;12248634282;Q116978662;;;1:005514464;Kismacs
-TN5514466;gare;Látókép;Látókép;Látókép;5514466;;47.558203;21.524186;HU;Europe/Budapest;Q79880;S|Sz;;uic;11076206948;Q118125501;;;1:005514466;Látókép
+TN5514456;gare;Tócóvölgy;Tócóvölgy;Tócóvölgy;5514456;;47.529386;21.588432;HU;Europe/Budapest;Q79880;Sz;;uic;549344791;Q22075964;;;1:005514456;Tócóvölgy
+TN5514464;gare;Kismacs;Kismacs;Kismacs;5514464;;47.550667;21.543644;HU;Europe/Budapest;Q79880;Sz;;uic;12248634282;Q116978662;;;1:005514464;Kismacs
+TN5514466;gare;Látókép;Látókép;Látókép;5514466;;47.558203;21.524186;HU;Europe/Budapest;Q79880;Sz;;uic;11076206948;Q118125501;;;1:005514466;Látókép
 TN5514498;gare;Nagyhát;Nagyhát;Nagyhát;5514498;;47.582081;21.443394;HU;Europe/Budapest;Q789510;Sz;;uic;1065129651;Q22076178;;;1:005514498;Nagyhát
-TN5514506;gare;Balmazújváros;Balmazújváros;Balmazújváros;5514506;;47.613862;21.347952;HU;Europe/Budapest;Q789510;S|Sz;;uic;10177776723;Q22076180;;;1:005514506;Balmazújváros
-TN5514514;gare;Kónya;Kónya;Kónya;5514514;;47.600687;21.237647;HU;Europe/Budapest;Q789510;S|Sz;;uic;1065130141;Q22076181;;;1:005514514;Kónya
-TN5514522;gare;Hortobágy;Hortobágy;Hortobágy;5514522;;47.58607;21.154505;HU;Europe/Budapest;Q515772;S|Sz;;uic;619723925;Q22076182;;;1:005514522;Hortobágy
-TN5514530;gare;Hortobágyi Halastó;Hortobágyi Halastó;Hortobágyi Halastó;5514530;;47.603938;21.07415;HU;Europe/Budapest;Q515772;S|Sz;;uic;1065130662;Q22076183;;;1:005514530;Hortobágyi Halastó
-TN5514548;gare;Ohat-Pusztakócs;Ohat-Pusztakócs;Ohat-Pusztakócs;5514548;;47.623378;20.951052;HU;Europe/Budapest;Q944327;S|Sz;;uic;507098100;Q22076184;;;1:005514548;Ohat-Pusztakócs
-TN5514555;gare;Egyek;Egyek;Egyek;5514555;;47.616632;20.883924;HU;Europe/Budapest;Q944327;S|Sz;;uic;628589424;Q22076185;;;1:005514555;Egyek
-TN5514563;gare;Tiszafüred;Tiszafüred;Tiszafüred;5514563;;47.627872;20.756001;HU;Europe/Budapest;Q903177;S|Sz;;uic;415485997;Q22047650;;;1:005514563;Tiszafüred
-TN5514571;gare;Poroszló;Poroszló;Poroszló;5514571;;47.65797;20.654117;HU;Europe/Budapest;Q780264;S|Sz;;uic;367073676;Q22076221;;;1:005514571;Poroszló
+TN5514506;gare;Balmazújváros;Balmazújváros;Balmazújváros;5514506;;47.613862;21.347952;HU;Europe/Budapest;Q789510;Sz;;uic;10177776723;Q22076180;;;1:005514506;Balmazújváros
+TN5514514;gare;Kónya;Kónya;Kónya;5514514;;47.600687;21.237647;HU;Europe/Budapest;Q789510;Sz;;uic;1065130141;Q22076181;;;1:005514514;Kónya
+TN5514522;gare;Hortobágy;Hortobágy;Hortobágy;5514522;;47.58607;21.154505;HU;Europe/Budapest;Q515772;Sz;;uic;619723925;Q22076182;;;1:005514522;Hortobágy
+TN5514530;gare;Hortobágyi Halastó;Hortobágyi Halastó;Hortobágyi Halastó;5514530;;47.603938;21.07415;HU;Europe/Budapest;Q515772;Sz;;uic;1065130662;Q22076183;;;1:005514530;Hortobágyi Halastó
+TN5514548;gare;Ohat-Pusztakócs;Ohat-Pusztakócs;Ohat-Pusztakócs;5514548;;47.623378;20.951052;HU;Europe/Budapest;Q944327;Sz;;uic;507098100;Q22076184;;;1:005514548;Ohat-Pusztakócs
+TN5514555;gare;Egyek;Egyek;Egyek;5514555;;47.616632;20.883924;HU;Europe/Budapest;Q944327;Sz;;uic;628589424;Q22076185;;;1:005514555;Egyek
+TN5514563;gare;Tiszafüred;Tiszafüred;Tiszafüred;5514563;;47.627872;20.756001;HU;Europe/Budapest;Q903177;Sz;;uic;415485997;Q22047650;;;1:005514563;Tiszafüred
+TN5514571;gare;Poroszló;Poroszló;Poroszló;5514571;;47.65797;20.654117;HU;Europe/Budapest;Q780264;Sz;;uic;367073676;Q22076221;;;1:005514571;Poroszló
 TN5514589;gare;Kétútköz;Kétútköz;Kétútköz;5514589;;47.69449;20.564103;HU;Europe/Budapest;Q987838;Sz;;uic;367073668;Q22076222;;;1:005514589;Kétútköz
 TN5514597;gare;Egerfarmos;Egerfarmos;Egerfarmos;5514597;;47.71149;20.522365;HU;Europe/Budapest;Q987838;Sz;;uic;367073664;Q22076223;;;1:005514597;Egerfarmos
 TN5514605;gare;Mezőtárkány;Mezőtárkány;Mezőtárkány;5514605;;47.725007;20.480548;HU;Europe/Budapest;Q1176591;Sz;;uic;1259198894;Q22076224;;;1:005514605;Mezőtárkány
@@ -1103,14 +1101,13 @@ TN5541012;gare;Máriaudvar;Máriaudvar;Máriaudvar;5541012;;47.752108;19.164749;
 TN5541087;gare;Rudnaykert;Rudnaykert;Rudnaykert;5541087;;47.717463;19.2581;HU;Europe/Budapest;Q763969;Sz;;nom;249188838;Q21869599;;;1:005541087;Rudnaykert
 TN5541095;gare;Maroshegy;Maroshegy;Maroshegy;5541095;;47.160216;18.406467;HU;Europe/Budapest;Q130212;IR|S|Sz;;uic;9480463719;Q21877028;;;1:005541095;Maroshegy
 TN5541129;gare;Bánhida;Bánhida;Bánhida;5541129;;47.574048;18.372225;HU;Europe/Budapest;Q187821;Sz;;uic;8440432930;Q21877375;;;1:005541129;Bánhida
-TN5541145;gare;Vasútmúzeum;Vasútmúzeum;Vasútmúzeum;5541145;;47.54377;19.099081;HU;Europe/Budapest;Q1781;Sz;;uic;6150716889;Q19569795;;;1:005541145;Vasútmúzeum
 TN5541186;gare;Magyarkút;Magyarkút;Magyarkút;5541186;;47.848941;19.046747;HU;Europe/Budapest;Q1047624;Sz;;uic;287638746;Q22023359;;;1:005541186;Magyarkút
 TN5541202;gare;Váckisújfalu;Váckisújfalu;Váckisújfalu;5541202;;47.70518;19.340418;HU;Europe/Budapest;Q594734;Sz;;uic;6509753635;Q23283208;;;1:005541202;Váckisújfalu
 TN5541244;gare;Becske alsó;Becske alsó;Becske alsó;5541244;;47.895638;19.367091;HU;Europe/Budapest;Q791789;Sz;;uic;7278436823;Q22025884;;;1:005541244;Becske alsó
-TN5541269;gare;Hosszúberek-Péteri;Hosszúberek-Péteri;Hosszúberek-Péteri;5541269;;47.371063;19.388924;HU;Europe/Budapest;Q933467;IC|Sz;;uic;3303405518;Q21921435;;;1:005541269;Hosszúberek-Péteri
-TN5541277;gare;Monorierdő;Monorierdő;Monorierdő;5541277;;47.309242;19.498871;HU;Europe/Budapest;Q1049396;IC|S|Sz;;uic;3317579918;Q21921440;;;1:005541277;Monorierdő
-TN5541384;gare;Ceglédbercel;Ceglédbercel;Ceglédbercel;5541384;;47.216494;19.657192;HU;Europe/Budapest;Q519585;IC|S|Sz;;uic;8518689662;Q21921444;;;1:005541384;Ceglédbercel
-TN5541418;gare;Budai út;Budai út;Budai út;5541418;;47.208403;19.731581;HU;Europe/Budapest;Q214948;IC|S|Sz;;uic;8518689663;Q21921447;;;1:005541418;Budai út
+TN5541269;gare;Hosszúberek-Péteri;Hosszúberek-Péteri;Hosszúberek-Péteri;5541269;;47.371063;19.388924;HU;Europe/Budapest;Q933467;S|Sz;;uic;3303405518;Q21921435;;;1:005541269;Hosszúberek-Péteri
+TN5541277;gare;Monorierdő;Monorierdő;Monorierdő;5541277;;47.309242;19.498871;HU;Europe/Budapest;Q1049396;S|Sz;;uic;3317579918;Q21921440;;;1:005541277;Monorierdő
+TN5541384;gare;Ceglédbercel;Ceglédbercel;Ceglédbercel;5541384;;47.216494;19.657192;HU;Europe/Budapest;Q519585;S|Sz;;uic;8518689662;Q21921444;;;1:005541384;Ceglédbercel
+TN5541418;gare;Budai út;Budai út;Budai út;5541418;;47.208403;19.731581;HU;Europe/Budapest;Q214948;S|Sz;;uic;8518689663;Q21921447;;;1:005541418;Budai út
 TN5541517;gare;Büdöskútpuszta;Büdöskútpuszta;Büdöskútpuszta;5541517;;48.373948;20.725593;HU;Europe/Budapest;Q590583;Sz;;uic;1065130805;Q22073978;;;1:005541517;Büdöskútpuszta
 TN5541558;gare;Bánrévei Vízmű;Bánrévei Vízmű;Bánrévei Vízmű;5541558;;48.284006;20.36802;HU;Europe/Budapest;Q656432;Sz;;uic;1212434948;Q22072965;;;1:005541558;Bánrévei Vízmű
 TN5541640;gare;Rákoskert;Rákoskert;Rákoskert;5541640;;47.456661;19.295553;HU;Europe/Budapest;Q1781;Sz;;uic;10225069410;Q19569975;;;1:005541640;Rákoskert
@@ -1176,8 +1173,7 @@ TN5544826;gare;Nyárlőrinci szőlők;Nyárlőrinci szőlők;Nyárlőrinci szől
 TN5544834;gare;Nyárlőrinc alsó;Nyárlőrinc alsó;Nyárlőrinc alsó;5544834;;46.864015;19.878478;HU;Europe/Budapest;Q1051493;Sz;;uic;1065130118;Q22059270;;;1:005544834;Nyárlőrinc alsó
 TN5544925;gare;Dónát;Dónát;Dónát;5544925;;46.669895;20.368209;HU;Europe/Budapest;Q377834;Sz;;uic;1065129402;Q22045695;;;1:005544925;Dónát
 TN5544933;gare;Pusztatemplom;Pusztatemplom;Pusztatemplom;5544933;;46.676513;20.407584;HU;Europe/Budapest;Q1004527;Sz;;uic;343493892;Q22045696;;;1:005544933;Pusztatemplom
-TN5544990;gare;Előhát;Előhát;Előhát;5544990;;47.363237;20.654141;HU;Europe/Budapest;Q933645;Sz;;uic;503340160;Q22047686;;;1:005544990;Előhát
-TN5545369;gare;Polgárdi-Tekerespuszta;Polgárdi-Tekerespuszta;Polgárdi-Tekerespuszta;5545369;;47.018877;18.300415;HU;Europe/Budapest;Q932806;IR|S|Sz;;uic;8517780136;Q22119577;;;1:005545369;Polgárdi-Tekerespuszta
+TN5545369;gare;Polgárdi-Tekerespuszta;Polgárdi-Tekerespuszta;Polgárdi-Tekerespuszta;5545369;;47.018877;18.300415;HU;Europe/Budapest;Q932806;S|Sz;;uic;8517780136;Q22119577;;;1:005545369;Polgárdi-Tekerespuszta
 TN5545401;gare;Szatina-Kishajmás;Szatina-Kishajmás;Szatina-Kishajmás;5545401;;46.201766;18.083454;HU;Europe/Budapest;Q617541;Sz;;uic;25925507;Q21998902;;;1:005545401;Szatina-Kishajmás
 TN5545435;gare;Márok;Márok;Márok;5545435;;45.88669;18.499071;HU;Europe/Budapest;Q775555;Sz;;uic;410458056;Q22002387;;;1:005545435;Márok
 TN5545443;gare;Nagynyárád;Nagynyárád;Nagynyárád;5545443;;45.953373;18.564828;HU;Europe/Budapest;Q575562;Sz;;uic;408945236;Q22002389;;;1:005545443;Nagynyárád
@@ -1188,11 +1184,10 @@ TN5545658;gare;Horvátnádalja;Horvátnádalja;Horvátnádalja;5545658;;47.00566
 TN5545666;gare;Hanságliget;Hanságliget;Hanságliget;5545666;;47.720068;17.215594;HU;Europe/Budapest;Q911550;Sz;;nom;93800921;Q22138761;;;1:004345666;Hanságliget
 TN5545674;gare;Vica;Vica;Vica;5545674;;47.477769;17.111728;HU;Europe/Budapest;Q792243;Sz;;nom;93800930;Q22138357;;;1:004345674;Vica
 TN5545716;gare;Bakonygyirót;Bakonygyirót;Bakonygyirót;5545716;;47.416047;17.811764;HU;Europe/Budapest;Q788994;Sz;;uic;3802782193;Q21876818;;;1:005545716;Bakonygyirót
-TN5545724;gare;Vinye;Vinye;Vinye;5545724;;47.360275;17.819658;HU;Europe/Budapest;Q789029;S|Sz;;uic;382602287;Q21876812;;;1:005545724;Vinye
+TN5545724;gare;Vinye;Vinye;Vinye;5545724;;47.360275;17.819658;HU;Europe/Budapest;Q789029;Sz;;uic;382602287;Q21876812;;;1:005545724;Vinye
 TN5545732;gare;Nemesgörzsöny;Nemesgörzsöny;Nemesgörzsöny;5545732;;47.402913;17.376404;HU;Europe/Budapest;Q969849;Sz;;uic;500911411;Q22093550;;;1:005545732;Nemesgörzsöny
 TN5545740;gare;Rábahíd;Rábahíd;Rábahíd;5545740;;47.438703;17.337414;HU;Europe/Budapest;Q1184737;Sz;;uic;1065130505;Q22093553;;;1:005545740;Rábahíd
 TN5545757;gare;Öskü;Öskü;Öskü;5545757;;47.159827;18.074689;HU;Europe/Budapest;Q1184804;IC|S|Sz;;uic;71481181;Q22115171;;;1:005545757;Öskü
-TN5545781;gare;Márkó;Márkó;Márkó;5545781;;47.126929;17.810807;HU;Europe/Budapest;Q955853;Sz;;uic;1065130543;Q22116492;;;1:005545781;Márkó
 TN5545807;gare;Nemeskocs;Nemeskocs;Nemeskocs;5545807;;47.203857;17.188644;HU;Europe/Budapest;Q772521;S|Sz;;uic;1065130168;Q22093538;;;1:005545807;Nemeskocs
 TN5545856;gare;Zalagyömörő;Zalagyömörő;Zalagyömörő;5545856;;47.011017;17.220832;HU;Europe/Budapest;Q1184790;Sz;;uic;73838925;Q22117132;;;1:005545856;Zalagyömörő
 TN5545864;gare;Rigács;Rigács;Rigács;5545864;;47.060389;17.199309;HU;Europe/Budapest;Q1185358;Sz;;uic;73838600;Q22115396;;;1:005545864;Rigács
@@ -1211,7 +1206,7 @@ TN5546029;gare;Belecska;Belecska;Belecska;5546029;;46.639682;18.411432;HU;Europe
 TN5546052;gare;Szabadságliget;Szabadságliget;Szabadságliget;5546052;;47.626095;18.893495;HU;Europe/Budapest;Q530634;Sz;;uic;8420247258;Q19960378;;;1:005546052;Szabadságliget
 TN5546060;gare;Almár;Almár;Almár;5546060;;47.95593;20.357119;HU;Europe/Budapest;Q167109;Sz;;uic;9819657204;Q22040989;;;1:005546060;Almár
 TN5546169;gare;Gyöngyöshermán;Gyöngyöshermán;Gyöngyöshermán;5546169;;47.203166;16.656861;HU;Europe/Budapest;Q42007;IR|Sz;;nom;2388839256;Q22140083;;;1:004346169;Gyöngyöshermán
-TN5546193;gare;Raposka;Raposka;Raposka;5546193;;46.850726;17.412215;HU;Europe/Budapest;Q1089894;S|Sz;;uic;92752446;Q22117171;;;1:005546193;Raposka
+TN5546193;gare;Raposka;Raposka;Raposka;5546193;;46.850726;17.412215;HU;Europe/Budapest;Q1089894;Sz;;uic;92752446;Q22117171;;;1:005546193;Raposka
 TN5546326;gare;Ivacs;Ivacs;Ivacs;5546326;;47.641841;19.274052;HU;Europe/Budapest;Q843039;Sz;;uic;10160028434;Q21869583;;;1:005546326;Ivacs
 TN5546367;gare;Szorgalmatos;Szorgalmatos;Szorgalmatos;5546367;;47.987318;21.366781;HU;Europe/Budapest;Q1186275;Sz;;uic;1060125536;Q22075994;;;1:005546367;Szorgalmatos
 TN5546375;gare;Haris;Haris;Haris;5546375;;46.964655;16.282642;HU;Europe/Budapest;Q604516;IC|Sz;;nom;2449235103;Q21888110;;;1:004346375;Haris
@@ -1233,7 +1228,7 @@ TN5549445;gare;Imremajor;Imremajor;Imremajor;5549445;;46.680395;17.499784;HU;Eur
 TN5549452;gare;Balatonfenyves GV;Balatonfenyves GV;Balatonfenyves GV;5549452;;46.712508;17.479299;HU;Europe/Budapest;Q789265;Sz;;uic;477828393;Q22222762;;;1:005549452;Balatonfenyves GV
 TN5613526;gare;Štúrovo;Štúrovo;Štúrovo;5613526;;47.799903;18.67911;SK;Europe/Bratislava;Q781089;EC|EN|RJ;;uic;1078549756;Q12781949;;;1:005613526;Štúrovo
 TN5613600;gare;Košice;Košice;Košice;5613600;;48.72202;21.269212;SK;Europe/Bratislava;Q25409;Bus|IC;;uic;7316507989;Q801037;;;1:005613600;Kosice
-TN5614586;gare;Rusovce;Rusovce;Rusovce;5614586;;48.046766;17.150783;SK;Europe/Bratislava;Q1780;Sz;;uic;5279185356;Q9324128;;;1:005614586;Rusovce
+TN5614586;gare;Rusovce;Rusovce;Rusovce;5614586;;48.046766;17.150783;SK;Europe/Bratislava;Q1780;Bus|Sz;;uic;5279185356;Q9324128;;;1:005614586;Rusovce
 TN7216052;gare;Beograd;Belgrade Center;Београд центар;7216052;;44.79363;20.453128;RS;Europe/Belgrade;Q3711;EC;;uic;6140811391;Q115753;;;1:007216052;Beograd Centar
 TN7216808;gare;Нови Сад;Нови Сад;Нови Сад;7216808;;45.265835;19.829117;RS;Europe/Belgrade;Q16084152;EC;;uic;2966093688;Q3107262;;;1:007216808;Novi Sad
 TN7223305;gare;Vrbas Nova;Vrbas Nova;Vrbas Nova;7223305;;45.554444;19.628889;RS;Europe/Belgrade;Q855687;EC;;gtfs;;;;;1:007223305;Vrbas Nova
@@ -1251,7 +1246,7 @@ TN7872403;gare;Čulinec;Čulinec;Čulinec;7872403;;45.820768;16.06335;HR;Europe/
 TN7872404;gare;Trnava;Trnava;Trnava;7872404;;45.818345;16.048911;HR;Europe/Zagreb;Q1435;IC;;nom;2607887519;Q25425990;;;1:007872404;Trnava
 TN7872405;gare;Maksimir;Maksimir;Maksimir;7872405;;45.814118;16.024295;HR;Europe/Zagreb;Q1435;IC;;nom;2607875292;Q116008911;;;1:007872405;Maksimir
 TN7872408;gare;Sesvetska Sopnica;Sesvetska Sopnica;Sesvetska Sopnica;7872408;;45.824561;16.085788;HR;Europe/Zagreb;Q1435;IC;;uic;10557043666;;;;1:007872408;Sesvetska Sopnica
-TN7872480;gare;Zagreb Glavni kolodvor;Zagreb Central Railway Station;Zagreb Glavni kolodvor;7872480;;45.804446;15.978833;HR;Europe/Zagreb;Q1435;IC;;uic;5627130425;Q140377;;;1:007872480;Zagreb Glavni Kol.
+TN7872480;gare;Zagreb Glavni kolodvor;Zagreb Central Railway Station;Zagreb Glavni kolodvor;7872480;;45.804446;15.978833;HR;Europe/Zagreb;Q1435;IC|különvonat;;uic;5627130425;Q140377;;;1:007872480;Zagreb Glavni Kol.
 TN7872517;gare;Dugo Selo;Dugo Selo;Dugo Selo;7872517;;45.801372;16.234757;HR;Europe/Zagreb;Q400041;IC;;nom;5660705256;Q16116634;;;1:007872517;Dugo Selo
 TN7873101;gare;Mučna Reka;Mučna Reka;Mučna Reka;7873101;;46.123126;16.760467;HR;Europe/Zagreb;Q5640;IC;;nom;10905967818;Q116008925;;;1:007873101;Mucna Reka
 TN7873102;gare;Sokolovac;Sokolovac;Sokolovac;7873102;;46.101563;16.7135;HR;Europe/Zagreb;Q1068176;IC;;nom;13063729502;;;;1:007873102;Sokolovac
@@ -1335,68 +1330,60 @@ TN8133028;gare;Pamhagen;Pamhagen;Pamhagen;8133028;;47.704085;16.903457;AT;Europe
 TN8133212;gare;Neufeld A.D.Leitha;Neufeld A.D.Leitha;Neufeld A.D.Leitha;8133212;;47.868333;16.381389;AT;Europe/Vienna;Q259859;Sz;;gtfs;;;;;1:008133212;Neufeld A.D.Leitha
 TN8133214;gare;Wulkaprodersdorf;Wulkaprodersdorf;Wulkaprodersdorf;8133214;;47.789053;16.490548;AT;Europe/Vienna;Q571503;Sz;;nom;3373657840;;;;1:008133214;Wulkaprodersdorf
 TN8133216;gare;Baumgarten-Schattendorf;Baumgarten-Schattendorf;Baumgarten-Schattendorf;8133216;;47.72781;16.517666;AT;Europe/Vienna;Q661709;Sz;;uic;310507988;;;;1:008133216;Baumgarten
+TNMAV-1-v-004301974;arret_car;Rajka/vá.;Rajka/vá.;Rajka/vá.;;;47.994126;17.193456;HU;Europe/Budapest;Q1009081;;BUS;gtfs;;;;;1:v.004301974;Rajka/vá.
+TNMAV-1-v-004302287;arret_car;Körmend/autóbusz-állomás, 1. kocsiá;Körmend/autóbusz-állomás, 1. kocsiá;Körmend/autóbusz-állomás, 1. kocsiá;;;47.016389;16.599167;HU;Europe/Budapest;Q830411;;BUS;gtfs;;;;;1:v.004302287;Körmend/autóbusz-állomás, 1. kocsiá
+TNMAV-1-v-004302295;arret_car;Csákánydoroszló/vá.;Csákánydoroszló/vá.;Csákánydoroszló/vá.;;;46.978333;16.499722;HU;Europe/Budapest;Q691876;;BUS;gtfs;;;;;1:v.004302295;Csákánydoroszló/vá.
+TNMAV-1-v-004302303;arret_car;Rátót/vá.;Rátót/vá.;Rátót/vá.;;;46.9675;16.433056;HU;Europe/Budapest;Q740809;;BUS;gtfs;;;;;1:v.004302303;Rátót/vá.
+TNMAV-1-v-004302311;arret_car;Alsórönök/vá.;Alsórönök/vá.;Alsórönök/vá.;;;46.964167;16.379444;HU;Europe/Budapest;Q283996;;BUS;gtfs;;;;;1:v.004302311;Alsórönök/vá.
+TNMAV-1-v-004302329;arret_car;Szentgotthárd/autóbusz-állomás 1. k;Szentgotthárd/autóbusz-állomás 1. k;Szentgotthárd/autóbusz-állomás 1. k;;;46.957222;16.263056;HU;Europe/Budapest;Q604516;;BUS;gtfs;;;;;1:v.004302329;Szentgotthárd/autóbusz-állomás 1. k
 TNMAV-1-v-004305355;arret_car;Egervár-Vasboldogasszony/vá.;Egervár-Vasboldogasszony/vá.;Egervár-Vasboldogasszony/vá.;;;46.942222;16.862222;HU;Europe/Budapest;Q690878;;BUS;gtfs;;;;;1:v.004305355;Egervár-Vasboldogasszony/vá.
 TNMAV-1-v-004305363;arret_car;Zalaszentlőrinc/autóbusz-váróterem;Zalaszentlőrinc/autóbusz-váróterem;Zalaszentlőrinc/autóbusz-váróterem;;;46.913889;16.8775;HU;Europe/Budapest;Q1077861;;BUS;gtfs;;;;;1:v.004305363;Zalaszentlőrinc/autóbusz-váróterem
+TNMAV-1-v-004345658;arret_car;Horvátnádalja/vá.;Horvátnádalja/vá.;Horvátnádalja/vá.;;;47.005278;16.544444;HU;Europe/Budapest;Q830411;;BUS;gtfs;;;;;1:v.004345658;Horvátnádalja/vá.
+TNMAV-1-v-004346375;arret_car;Haris/Szentgotthárd, Opel;Haris/Szentgotthárd, Opel;Haris/Szentgotthárd, Opel;;;46.964722;16.2825;HU;Europe/Budapest;Q604516;;BUS;gtfs;;;;;1:v.004346375;Haris/Szentgotthárd, Opel
 TNMAV-1-v-005500700;arret_car;Szeged vasútállomás/Indóház tér;Szeged vasútállomás/Indóház tér;Szeged vasútállomás/Indóház tér;;;46.239789;20.142561;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005500700;Szeged vasútállomás/Indóház tér
-TNMAV-1-v-005500707;arret_car;Szeged, Rókusi templom/Mars tér (Na;Szeged, Rókusi templom/Mars tér (Na;Szeged, Rókusi templom/Mars tér (Na;;;46.259255;20.141771;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005500707;Szeged, Rókusi templom/Mars tér (Na
-TNMAV-1-v-005500712;arret_car;Szeged, Rókus vasútállomás/Plaza;Szeged, Rókus vasútállomás/Plaza;Szeged, Rókus vasútállomás/Plaza;;;46.266107;20.125686;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005500712;Szeged, Rókus vasútállomás/Plaza
-TNMAV-1-v-005501172;arret_car;Almásfüzitő/Vasútállomás;Almásfüzitő/Vasútállomás;Almásfüzitő/Vasútállomás;;;47.72522;18.26327;HU;Europe/Budapest;Q658286;;BUS;gtfs;;;;;1:v.005501172;Almásfüzitő/Vasútállomás
-TNMAV-1-v-005501222;arret_car;Komárom/aut-áll.;Komárom/aut-áll.;Komárom/aut-áll.;;;47.747368;18.114288;HU;Europe/Budapest;Q625154;;BUS;gtfs;;;;;1:v.005501222;Komárom/aut-áll.
-TNMAV-1-v-005501263;arret_car;Győr-Gyárváros/vmh. amh.;Győr-Gyárváros/vmh. amh.;Győr-Gyárváros/vmh. amh.;;;47.684987;17.663951;HU;Europe/Budapest;Q134494;;BUS;gtfs;;;;;1:v.005501263;Győr-Gyárváros/vmh. amh.
-TNMAV-1-v-005501289;arret_car;Győr/vá.;Győr/vá.;Győr/vá.;;;47.68205;17.633384;HU;Europe/Budapest;Q134494;;BUS;gtfs;;;;;1:v.005501289;Győr/vá.
-TNMAV-1-v-005501503;arret_car;Esztergom-Kertváros/Kertváros;Esztergom-Kertváros/Kertváros;Esztergom-Kertváros/Kertváros;;;47.737623;18.725541;HU;Europe/Budapest;Q171353;;BUS;gtfs;;;;;1:v.005501503;Esztergom-Kertváros/Kertváros
-TNMAV-1-v-005501511;arret_car;Esztergom/Vasútállomás;Esztergom/Vasútállomás;Esztergom/Vasútállomás;;;47.7788;18.7433;HU;Europe/Budapest;Q171353;;BUS;gtfs;;;;;1:v.005501511;Esztergom/Vasútállomás
-TNMAV-1-v-005501537;arret_car;Dunaalmás/Községháza;Dunaalmás/Községháza;Dunaalmás/Községháza;;;47.733056;18.326389;HU;Europe/Budapest;Q911249;;BUS;gtfs;;;;;1:v.005501537;Dunaalmás/Községháza
-TNMAV-1-v-005501545;arret_car;Neszmély/Rózsa u.;Neszmély/Rózsa u.;Neszmély/Rózsa u.;;;47.734444;18.345278;HU;Europe/Budapest;Q630060;;BUS;gtfs;;;;;1:v.005501545;Neszmély/Rózsa u.
-TNMAV-1-v-005501552;arret_car;Süttő/Újtelep;Süttő/Újtelep;Süttő/Újtelep;;;47.761111;18.455;HU;Europe/Budapest;Q953690;;BUS;gtfs;;;;;1:v.005501552;Süttő/Újtelep
-TNMAV-1-v-005501560;arret_car;Piszke/Lábatlan, Piszkei lakótelep;Piszke/Lábatlan, Piszkei lakótelep;Piszke/Lábatlan, Piszkei lakótelep;;;47.75307;18.478017;HU;Europe/Budapest;Q934949;;BUS;gtfs;;;;;1:v.005501560;Piszke/Lábatlan, Piszkei lakótelep
-TNMAV-1-v-005501578;arret_car;Lábatlan/Betonipari Művek;Lábatlan/Betonipari Művek;Lábatlan/Betonipari Művek;;;47.751944;18.513333;HU;Europe/Budapest;Q934949;;BUS;gtfs;;;;;1:v.005501578;Lábatlan/Betonipari Művek
-TNMAV-1-v-005501586;arret_car;Eternitgyár/Nyergesújfalu Eternitgy;Eternitgyár/Nyergesújfalu Eternitgy;Eternitgyár/Nyergesújfalu Eternitgy;;;47.755544;18.530014;HU;Europe/Budapest;Q854949;;BUS;gtfs;;;;;1:v.005501586;Eternitgyár/Nyergesújfalu Eternitgy
-TNMAV-1-v-005501594;arret_car;Nyergesújfalu felső/Rendőrség;Nyergesújfalu felső/Rendőrség;Nyergesújfalu felső/Rendőrség;;;47.762222;18.540556;HU;Europe/Budapest;Q854949;;BUS;gtfs;;;;;1:v.005501594;Nyergesújfalu felső/Rendőrség
+TNMAV-1-v-005500707;arret_car;Szeged, Rókusi templom/Szeged, Mars;Szeged, Rókusi templom/Szeged, Mars;Szeged, Rókusi templom/Szeged, Mars;;;46.256886;20.141548;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005500707;Szeged, Rókusi templom/Szeged, Mars
+TNMAV-1-v-005500712;arret_car;Szeged, Rókus vasútállomás/Szeged,;Szeged, Rókus vasútállomás/Szeged,;Szeged, Rókus vasútállomás/Szeged,;;;46.266203;20.127791;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005500712;Szeged, Rókus vasútállomás/Szeged,
+TNMAV-1-v-005501172;arret_car;Almásfüzitő/Vasútállomás;Almásfüzitő/Vasútállomás;Almásfüzitő/Vasútállomás;;;47.725219;18.263269;HU;Europe/Budapest;Q658286;;BUS;gtfs;;;;;1:v.005501172;Almásfüzitő/Vasútállomás
+TNMAV-1-v-005501503;arret_car;Esztergom-Kertváros/Kertváros;Esztergom-Kertváros/Kertváros;Esztergom-Kertváros/Kertváros;;;47.737525;18.72584;HU;Europe/Budapest;Q171353;;BUS;gtfs;;;;;1:v.005501503;Esztergom-Kertváros/Kertváros
+TNMAV-1-v-005501511;arret_car;Esztergom/Vasútállomás;Esztergom/Vasútállomás;Esztergom/Vasútállomás;;;47.77927;18.743316;HU;Europe/Budapest;Q171353;;BUS;gtfs;;;;;1:v.005501511;Esztergom/Vasútállomás
+TNMAV-1-v-005501537;arret_car;Dunaalmás/Községháza;Dunaalmás/Községháza;Dunaalmás/Községháza;;;47.733886;18.334211;HU;Europe/Budapest;Q911249;;BUS;gtfs;;;;;1:v.005501537;Dunaalmás/Községháza
+TNMAV-1-v-005501545;arret_car;Neszmély/Rózsa u.;Neszmély/Rózsa u.;Neszmély/Rózsa u.;;;47.734354;18.352678;HU;Europe/Budapest;Q630060;;BUS;gtfs;;;;;1:v.005501545;Neszmély/Rózsa u.
+TNMAV-1-v-005501552;arret_car;Süttő/Újtelep;Süttő/Újtelep;Süttő/Újtelep;;;47.75703;18.453648;HU;Europe/Budapest;Q953690;;BUS;gtfs;;;;;1:v.005501552;Süttő/Újtelep
+TNMAV-1-v-005501560;arret_car;Piszke/Lábatlan, Piszkei lakótelep;Piszke/Lábatlan, Piszkei lakótelep;Piszke/Lábatlan, Piszkei lakótelep;;;47.753866;18.469399;HU;Europe/Budapest;Q934949;;BUS;gtfs;;;;;1:v.005501560;Piszke/Lábatlan, Piszkei lakótelep
+TNMAV-1-v-005501578;arret_car;Lábatlan/Betonipari Művek;Lábatlan/Betonipari Művek;Lábatlan/Betonipari Művek;;;47.752104;18.518964;HU;Europe/Budapest;Q934949;;BUS;gtfs;;;;;1:v.005501578;Lábatlan/Betonipari Művek
+TNMAV-1-v-005501586;arret_car;Eternitgyár/Nyergesújfalu Eternitgy;Eternitgyár/Nyergesújfalu Eternitgy;Eternitgyár/Nyergesújfalu Eternitgy;;;47.755257;18.530043;HU;Europe/Budapest;Q854949;;BUS;gtfs;;;;;1:v.005501586;Eternitgyár/Nyergesújfalu Eternitgy
+TNMAV-1-v-005501594;arret_car;Nyergesújfalu felső/Rendőrség;Nyergesújfalu felső/Rendőrség;Nyergesújfalu felső/Rendőrség;;;47.761173;18.540776;HU;Europe/Budapest;Q854949;;BUS;gtfs;;;;;1:v.005501594;Nyergesújfalu felső/Rendőrség
 TNMAV-1-v-005501602;arret_car;Nyergesújfalu/Bajóti elágazás;Nyergesújfalu/Bajóti elágazás;Nyergesújfalu/Bajóti elágazás;;;47.759884;18.55938;HU;Europe/Budapest;Q854949;;BUS;gtfs;;;;;1:v.005501602;Nyergesújfalu/Bajóti elágazás
-TNMAV-1-v-005501628;arret_car;Tokod/József Attila u.;Tokod/József Attila u.;Tokod/József Attila u.;;;47.735;18.675;HU;Europe/Budapest;Q1072301;;BUS;gtfs;;;;;1:v.005501628;Tokod/József Attila u.
-TNMAV-1-v-005502022;arret_car;Győrszabadhegy/vá.;Győrszabadhegy/vá.;Győrszabadhegy/vá.;;;47.663056;17.648056;HU;Europe/Budapest;Q134494;;BUS;gtfs;;;;;1:v.005502022;Győrszabadhegy/vá.
-TNMAV-1-v-005502030;arret_car;Ménfőcsanak felső/Királyszéki út am;Ménfőcsanak felső/Királyszéki út am;Ménfőcsanak felső/Királyszéki út am;;;47.638333;17.615;HU;Europe/Budapest;Q134494;;BUS;gtfs;;;;;1:v.005502030;Ménfőcsanak felső/Királyszéki út am
-TNMAV-1-v-005502071;arret_car;Gyömöre-Tét/vmh. amh.;Gyömöre-Tét/vmh. amh.;Gyömöre-Tét/vmh. amh.;;;47.501672;17.559596;HU;Europe/Budapest;Q1030257;;BUS;gtfs;;;;;1:v.005502071;Gyömöre-Tét/vmh. amh.
-TNMAV-1-v-005502097;arret_car;Szerecseny/autóbusz-forduló amh.;Szerecseny/autóbusz-forduló amh.;Szerecseny/autóbusz-forduló amh.;;;47.469167;17.5475;HU;Europe/Budapest;Q1089380;;BUS;gtfs;;;;;1:v.005502097;Szerecseny/autóbusz-forduló amh.
-TNMAV-1-v-005502105;arret_car;Gecse-Gyarmat/vá. bejárati út amh.;Gecse-Gyarmat/vá. bejárati út amh.;Gecse-Gyarmat/vá. bejárati út amh.;;;47.456111;17.515;HU;Europe/Budapest;Q944136;;BUS;gtfs;;;;;1:v.005502105;Gecse-Gyarmat/vá. bejárati út amh.
-TNMAV-1-v-005502113;arret_car;Vaszar/Vasút út amh.;Vaszar/Vasút út amh.;Vaszar/Vasút út amh.;;;47.4025;17.496389;HU;Europe/Budapest;Q1184770;;BUS;gtfs;;;;;1:v.005502113;Vaszar/Vasút út amh.
-TNMAV-1-v-005502121;arret_car;Pápa/vá.;Pápa/vá.;Pápa/vá.;;;47.340556;17.458889;HU;Europe/Budapest;Q214945;;BUS;gtfs;;;;;1:v.005502121;Pápa/vá.
-TNMAV-1-v-005503269;arret_car;Székesfehérvár/vá.;Székesfehérvár/vá.;Székesfehérvár/vá.;;;47.183975;18.42528;HU;Europe/Budapest;Q130212;;BUS;gtfs;;;;;1:v.005503269;Székesfehérvár/vá.
+TNMAV-1-v-005501628;arret_car;Tokod/József Attila u.;Tokod/József Attila u.;Tokod/József Attila u.;;;47.736273;18.670891;HU;Europe/Budapest;Q1072301;;BUS;gtfs;;;;;1:v.005501628;Tokod/József Attila u.
+TNMAV-1-v-005503350;arret_car;Siófok/vá. / aut. áll.;Siófok/vá. / aut. áll.;Siófok/vá. / aut. áll.;;;46.907812;18.055228;HU;Europe/Budapest;Q245126;;BUS;gtfs;;;;;1:v.005503350;Siófok/vá. / aut. áll.
+TNMAV-1-v-005503368;arret_car;Balatonszéplak felső/vmh. amh.;Balatonszéplak felső/vmh. amh.;Balatonszéplak felső/vmh. amh.;;;46.897475;18.018498;HU;Europe/Budapest;Q245126;;BUS;gtfs;;;;;1:v.005503368;Balatonszéplak felső/vmh. amh.
+TNMAV-1-v-005503376;arret_car;Balatonszéplak alsó/vmh. amh.;Balatonszéplak alsó/vmh. amh.;Balatonszéplak alsó/vmh. amh.;;;46.89194;17.99366;HU;Europe/Budapest;Q245126;;BUS;gtfs;;;;;1:v.005503376;Balatonszéplak alsó/vmh. amh.
+TNMAV-1-v-005503384;arret_car;Zamárdi felső/vá. amh.;Zamárdi felső/vá. amh.;Zamárdi felső/vá. amh.;;;46.885567;17.96863;HU;Europe/Budapest;Q146033;;BUS;gtfs;;;;;1:v.005503384;Zamárdi felső/vá. amh.
+TNMAV-1-v-005503392;arret_car;Zamárdi/vmh. amh.;Zamárdi/vmh. amh.;Zamárdi/vmh. amh.;;;46.879749;17.945227;HU;Europe/Budapest;Q146033;;BUS;gtfs;;;;;1:v.005503392;Zamárdi/vmh. amh.
+TNMAV-1-v-005503400;arret_car;Szántód/vá.;Szántód/vá.;Szántód/vá.;;;46.858715;17.898478;HU;Europe/Budapest;Q789282;;BUS;gtfs;;;;;1:v.005503400;Szántód/vá.
 TNMAV-1-v-005503566;arret_car;Balatonszentgyörgy/vá.;Balatonszentgyörgy/vá.;Balatonszentgyörgy/vá.;;;46.69298;17.28854;HU;Europe/Budapest;Q789311;;BUS;gtfs;;;;;1:v.005503566;Balatonszentgyörgy/vá.
 TNMAV-1-v-005503574;arret_car;Vörs/Templom;Vörs/Templom;Vörs/Templom;;;46.66506;17.26915;HU;Europe/Budapest;Q933248;;BUS;gtfs;;;;;1:v.005503574;Vörs/Templom
 TNMAV-1-v-005503608;arret_car;Zalaszentjakab/Petőfi utca 27.;Zalaszentjakab/Petőfi utca 27.;Zalaszentjakab/Petőfi utca 27.;;;46.48938;17.12895;HU;Europe/Budapest;Q962436;;BUS;gtfs;;;;;1:v.005503608;Zalaszentjakab/Petőfi utca 27.
 TNMAV-1-v-005503624;arret_car;Nagykanizsa/vá.;Nagykanizsa/vá.;Nagykanizsa/vá.;;;46.44076;16.98648;HU;Europe/Budapest;Q14424;;BUS;gtfs;;;;;1:v.005503624;Nagykanizsa/vá.
 TNMAV-1-v-005503657;arret_car;Zalakomár/vá.;Zalakomár/vá.;Zalakomár/vá.;;;46.53031;17.18789;HU;Europe/Budapest;Q1186373;;BUS;gtfs;;;;;1:v.005503657;Zalakomár/vá.
-TNMAV-1-v-005503665;arret_car;Szárazrét/Hármashíd;Szárazrét/Hármashíd;Szárazrét/Hármashíd;;;47.200833;18.381111;HU;Europe/Budapest;Q130212;;BUS;gtfs;;;;;1:v.005503665;Szárazrét/Hármashíd
-TNMAV-1-v-005503707;arret_car;Bodajk/vá. bejárati út;Bodajk/vá. bejárati út;Bodajk/vá. bejárati út;;;47.318333;18.251944;HU;Europe/Budapest;Q263626;;BUS;gtfs;;;;;1:v.005503707;Bodajk/vá. bejárati út
-TNMAV-1-v-005503723;arret_car;Csókakő/vmh.;Csókakő/vmh.;Csókakő/vmh.;;;47.3275;18.240556;HU;Europe/Budapest;Q263626;;BUS;gtfs;;;;;1:v.005503723;Csókakő/vmh.
-TNMAV-1-v-005503731;arret_car;Mór/vá. bejárati út;Mór/vá. bejárati út;Mór/vá. bejárati út;;;47.369167;18.189167;HU;Europe/Budapest;Q680963;;BUS;gtfs;;;;;1:v.005503731;Mór/vá. bejárati út
-TNMAV-1-v-005503756;arret_car;Bakonysárkány/autóbusz-forduló;Bakonysárkány/autóbusz-forduló;Bakonysárkány/autóbusz-forduló;;;47.443611;18.103611;HU;Europe/Budapest;Q789039;;BUS;gtfs;;;;;1:v.005503756;Bakonysárkány/autóbusz-forduló
-TNMAV-1-v-005503764;arret_car;Kisbér/autóbusz-állomás;Kisbér/autóbusz-állomás;Kisbér/autóbusz-állomás;;;47.494167;18.024722;HU;Europe/Budapest;Q427769;;BUS;gtfs;;;;;1:v.005503764;Kisbér/autóbusz-állomás
-TNMAV-1-v-005503798;arret_car;Nagyigmánd-Bábolna/autóbusz-váróter;Nagyigmánd-Bábolna/autóbusz-váróter;Nagyigmánd-Bábolna/autóbusz-váróter;;;47.630556;18.050833;HU;Europe/Budapest;Q225867;;BUS;gtfs;;;;;1:v.005503798;Nagyigmánd-Bábolna/autóbusz-váróter
+TNMAV-1-v-005504747;arret_car;Keszthely/Autóbusz-állomás;Keszthely/Autóbusz-állomás;Keszthely/Autóbusz-állomás;;;46.75787;17.24642;HU;Europe/Budapest;Q526335;;BUS;gtfs;;;;;1:v.005504747;Keszthely/Autóbusz-állomás
 TNMAV-1-v-005504895;arret_car;Zalaegerszeg/vá.;Zalaegerszeg/vá.;Zalaegerszeg/vá.;;;46.833056;16.848333;HU;Europe/Budapest;Q60037;;BUS;gtfs;;;;;1:v.005504895;Zalaegerszeg/vá.
 TNMAV-1-v-005505371;arret_car;Zalaszentiván/vá.;Zalaszentiván/vá.;Zalaszentiván/vá.;;;46.8875;16.909444;HU;Europe/Budapest;Q568479;;BUS;gtfs;;;;;1:v.005505371;Zalaszentiván/vá.
-TNMAV-1-v-005505694;arret_car;Darány/vasúti átjáró;Darány/vasúti átjáró;Darány/vasúti átjáró;;;45.990772;17.595371;HU;Europe/Budapest;Q902348;;BUS;gtfs;;;;;1:v.005505694;Darány/vasúti átjáró
-TNMAV-1-v-005505702;arret_car;Kisdobsza/Fő utca;Kisdobsza/Fő utca;Kisdobsza/Fő utca;;;46.03059;17.65362;HU;Europe/Budapest;Q220631;;BUS;gtfs;;;;;1:v.005505702;Kisdobsza/Fő utca
-TNMAV-1-v-005505710;arret_car;Nemeske/vasúti átjáró;Nemeske/vasúti átjáró;Nemeske/vasúti átjáró;;;46.203303;17.707694;HU;Europe/Budapest;Q1186446;;BUS;gtfs;;;;;1:v.005505710;Nemeske/vasúti átjáró
-TNMAV-1-v-005505728;arret_car;Molvány/vmh. átjáró id. mh.;Molvány/vmh. átjáró id. mh.;Molvány/vmh. átjáró id. mh.;;;46.035036;17.747866;HU;Europe/Budapest;Q498608;;BUS;gtfs;;;;;1:v.005505728;Molvány/vmh. átjáró id. mh.
-TNMAV-1-v-005505736;arret_car;Szigetvár/aut. áll.;Szigetvár/aut. áll.;Szigetvár/aut. áll.;;;46.044201;17.802496;HU;Europe/Budapest;Q373542;;BUS;gtfs;;;;;1:v.005505736;Szigetvár/aut. áll.
-TNMAV-1-v-005506189;arret_car;Dombóvár/aut. áll.;Dombóvár/aut. áll.;Dombóvár/aut. áll.;;;46.36972;18.148762;HU;Europe/Budapest;Q633789;;BUS;gtfs;;;;;1:v.005506189;Dombóvár/aut. áll.
+TNMAV-1-v-005506189;arret_car;Dombóvár/vá. / aut. áll.;Dombóvár/vá. / aut. áll.;Dombóvár/vá. / aut. áll.;;;46.36972;18.148762;HU;Europe/Budapest;Q633789;;BUS;gtfs;;;;;1:v.005506189;Dombóvár/vá. / aut. áll.
 TNMAV-1-v-005506379;arret_car;Somogyszob/vá. id. mh.;Somogyszob/vá. id. mh.;Somogyszob/vá. id. mh.;;;46.289167;17.305556;HU;Europe/Budapest;Q1016270;;BUS;gtfs;;;;;1:v.005506379;Somogyszob/vá. id. mh.
 TNMAV-1-v-005507187;arret_car;Kaposszekcső/sásdi útelágazás;Kaposszekcső/sásdi útelágazás;Kaposszekcső/sásdi útelágazás;;;46.330556;18.143056;HU;Europe/Budapest;Q1071627;;BUS;gtfs;;;;;1:v.005507187;Kaposszekcső/sásdi útelágazás
 TNMAV-1-v-005507195;arret_car;Vásárosdombó/kisvaszari elágazás;Vásárosdombó/kisvaszari elágazás;Vásárosdombó/kisvaszari elágazás;;;46.310556;18.138889;HU;Europe/Budapest;Q1051909;;BUS;gtfs;;;;;1:v.005507195;Vásárosdombó/kisvaszari elágazás
-TNMAV-1-v-005507203;arret_car;Sásd/kaposvári útelágazás / vá.;Sásd/kaposvári útelágazás / vá.;Sásd/kaposvári útelágazás / vá.;;;46.255584;18.105914;HU;Europe/Budapest;Q154540;;BUS;gtfs;;;;;1:v.005507203;Sásd/kaposvári útelágazás / vá.
-TNMAV-1-v-005507211;arret_car;Godisa/vá.;Godisa/vá.;Godisa/vá.;;;46.223333;18.104722;HU;Europe/Budapest;Q653597;;BUS;gtfs;;;;;1:v.005507211;Godisa/vá.
-TNMAV-1-v-005507229;arret_car;Abaliget/vá.;Abaliget/vá.;Abaliget/vá.;;;46.152778;18.073611;HU;Europe/Budapest;Q305294;;BUS;gtfs;;;;;1:v.005507229;Abaliget/vá.
-TNMAV-1-v-005507237;arret_car;Hetvehely/vmh. útelágazás (ideiglen;Hetvehely/vmh. útelágazás (ideiglen;Hetvehely/vmh. útelágazás (ideiglen;;;46.128333;18.045;HU;Europe/Budapest;Q1035976;;BUS;gtfs;;;;;1:v.005507237;Hetvehely/vmh. útelágazás (ideiglen
+TNMAV-1-v-005507203;arret_car;Sásd/vá. (ideiglenes);Sásd/vá. (ideiglenes);Sásd/vá. (ideiglenes);;;46.255584;18.105914;HU;Europe/Budapest;Q154540;;BUS;gtfs;;;;;1:v.005507203;Sásd/vá. (ideiglenes)
 TNMAV-1-v-005507245;arret_car;Bükkösd/vá. id.mh.;Bükkösd/vá. id.mh.;Bükkösd/vá. id.mh.;;;46.113056;17.999444;HU;Europe/Budapest;Q731304;;BUS;gtfs;;;;;1:v.005507245;Bükkösd/vá. id.mh.
 TNMAV-1-v-005507252;arret_car;Cserdi-Helesfa/vmh. (ideiglenes);Cserdi-Helesfa/vmh. (ideiglenes);Cserdi-Helesfa/vmh. (ideiglenes);;;46.086667;17.987778;HU;Europe/Budapest;Q1035105;;BUS;gtfs;;;;;1:v.005507252;Cserdi-Helesfa/vmh. (ideiglenes)
 TNMAV-1-v-005507260;arret_car;Szentlőrinc/vá.;Szentlőrinc/vá.;Szentlőrinc/vá.;;;46.03334;17.990496;HU;Europe/Budapest;Q578343;;BUS;gtfs;;;;;1:v.005507260;Szentlőrinc/vá.
-TNMAV-1-v-005507492;arret_car;Magyarhertelend/Kossuth u. amh.;Magyarhertelend/Kossuth u. amh.;Magyarhertelend/Kossuth u. amh.;;;46.193056;18.156667;HU;Europe/Budapest;Q1075207;;BUS;gtfs;;;;;1:v.005507492;Magyarhertelend/Kossuth u. amh.
-TNMAV-1-v-005507500;arret_car;Magyarszék/vasúti átjáró amh.;Magyarszék/vasúti átjáró amh.;Magyarszék/vasúti átjáró amh.;;;46.210278;18.188056;HU;Europe/Budapest;Q1075454;;BUS;gtfs;;;;;1:v.005507500;Magyarszék/vasúti átjáró amh.
-TNMAV-1-v-005507518;arret_car;Mecsekpölöske/községháza amh.;Mecsekpölöske/községháza amh.;Mecsekpölöske/községháza amh.;;;46.224167;18.213056;HU;Europe/Budapest;Q747959;;BUS;gtfs;;;;;1:v.005507518;Mecsekpölöske/községháza amh.
-TNMAV-1-v-005507526;arret_car;Mecsekjánosi/vá. amh.;Mecsekjánosi/vá. amh.;Mecsekjánosi/vá. amh.;;;46.215278;18.241944;HU;Europe/Budapest;Q430207;;BUS;gtfs;;;;;1:v.005507526;Mecsekjánosi/vá. amh.
+TNMAV-1-v-005507278;arret_car;Bicsérd/Bodai elág.;Bicsérd/Bodai elág.;Bicsérd/Bodai elág.;;;46.048945;18.058747;HU;Europe/Budapest;Q794652;;BUS;gtfs;;;;;1:v.005507278;Bicsérd/Bodai elág.
+TNMAV-1-v-005507286;arret_car;Mecsekalja-Cserkút/Pécs, Pellérdi e;Mecsekalja-Cserkút/Pécs, Pellérdi e;Mecsekalja-Cserkút/Pécs, Pellérdi e;;;46.063382;18.153654;HU;Europe/Budapest;Q45779;;BUS;gtfs;;;;;1:v.005507286;Mecsekalja-Cserkút/Pécs, Pellérdi e
+TNMAV-1-v-005507294;arret_car;Pécs/vá.;Pécs/vá.;Pécs/vá.;;;46.066262;18.222732;HU;Europe/Budapest;Q45779;;BUS;gtfs;;;;;1:v.005507294;Pécs/vá.
+TNMAV-1-v-005507492;arret_car;Magyarhertelend/Kossuth u.;Magyarhertelend/Kossuth u.;Magyarhertelend/Kossuth u.;;;46.193056;18.156667;HU;Europe/Budapest;Q1075207;;BUS;gtfs;;;;;1:v.005507492;Magyarhertelend/Kossuth u.
+TNMAV-1-v-005507500;arret_car;Magyarszék/vasúti átjáró;Magyarszék/vasúti átjáró;Magyarszék/vasúti átjáró;;;46.210278;18.188056;HU;Europe/Budapest;Q1075454;;BUS;gtfs;;;;;1:v.005507500;Magyarszék/vasúti átjáró
+TNMAV-1-v-005507518;arret_car;Mecsekpölöske/községháza;Mecsekpölöske/községháza;Mecsekpölöske/községháza;;;46.224167;18.213056;HU;Europe/Budapest;Q747959;;BUS;gtfs;;;;;1:v.005507518;Mecsekpölöske/községháza
+TNMAV-1-v-005507526;arret_car;Mecsekjánosi/vá.;Mecsekjánosi/vá.;Mecsekjánosi/vá.;;;46.215278;18.241944;HU;Europe/Budapest;Q430207;;BUS;gtfs;;;;;1:v.005507526;Mecsekjánosi/vá.
 TNMAV-1-v-005507542;arret_car;Komló/autóbusz-állomás;Komló/autóbusz-állomás;Komló/autóbusz-állomás;;;46.189167;18.265278;HU;Europe/Budapest;Q430207;;BUS;gtfs;;;;;1:v.005507542;Komló/autóbusz-állomás
 TNMAV-1-v-005508631;arret_car;Nagyatád/autóbusz-állomás;Nagyatád/autóbusz-állomás;Nagyatád/autóbusz-állomás;;;46.228611;17.354167;HU;Europe/Budapest;Q295367;;BUS;gtfs;;;;;1:v.005508631;Nagyatád/autóbusz-állomás
 TNMAV-1-v-005510967;arret_car;Balassagyarmat/vá.;Balassagyarmat/vá.;Balassagyarmat/vá.;;;48.071251;19.292922;HU;Europe/Budapest;Q789233;;BUS;gtfs;;;;;1:v.005510967;Balassagyarmat/vá.
@@ -1448,13 +1435,6 @@ TNMAV-1-v-005515537;arret_car;Győrtelek alsó/orvosi rendelő amh.;Győrtelek a
 TNMAV-1-v-005515545;arret_car;Ököritófülpös/mozi amh.;Ököritófülpös/mozi amh.;Ököritófülpös/mozi amh.;;;47.911389;22.495;HU;Europe/Budapest;Q1089699;;BUS;gtfs;;;;;1:v.005515545;Ököritófülpös/mozi amh.
 TNMAV-1-v-005515552;arret_car;Porcsalma-Tyukod/vá. bejárati út am;Porcsalma-Tyukod/vá. bejárati út am;Porcsalma-Tyukod/vá. bejárati út am;;;47.868056;22.568333;HU;Europe/Budapest;Q544303;;BUS;gtfs;;;;;1:v.005515552;Porcsalma-Tyukod/vá. bejárati út am
 TNMAV-1-v-005515578;arret_car;Csenger/vá. bejárati út amh.;Csenger/vá. bejárati út amh.;Csenger/vá. bejárati út amh.;;;47.826111;22.666389;HU;Europe/Budapest;Q855082;;BUS;gtfs;;;;;1:v.005515578;Csenger/vá. bejárati út amh.
-TNMAV-1-v-005516840;arret_car;Dabas/vá.;Dabas/vá.;Dabas/vá.;;;47.194722;19.328889;HU;Europe/Budapest;Q854940;;BUS;gtfs;;;;;1:v.005516840;Dabas/vá.
-TNMAV-1-v-005516857;arret_car;Gyón/Dabas, Gyón vmh.;Gyón/Dabas, Gyón vmh.;Gyón/Dabas, Gyón vmh.;;;47.178333;19.355556;HU;Europe/Budapest;Q854940;;BUS;gtfs;;;;;1:v.005516857;Gyón/Dabas, Gyón vmh.
-TNMAV-1-v-005516865;arret_car;Hernád/Óvoda;Hernád/Óvoda;Hernád/Óvoda;;;47.161389;19.4025;HU;Europe/Budapest;Q856693;;BUS;gtfs;;;;;1:v.005516865;Hernád/Óvoda
-TNMAV-1-v-005516873;arret_car;Örkény/vá. bejárati út;Örkény/vá. bejárati út;Örkény/vá. bejárati út;;;47.132778;19.447222;HU;Europe/Budapest;Q727143;;BUS;gtfs;;;;;1:v.005516873;Örkény/vá. bejárati út
-TNMAV-1-v-005516881;arret_car;Táborfalva/vasúti kereszteződés;Táborfalva/vasúti kereszteződés;Táborfalva/vasúti kereszteződés;;;47.098545;19.479318;HU;Europe/Budapest;Q1186452;;BUS;gtfs;;;;;1:v.005516881;Táborfalva/vasúti kereszteződés
-TNMAV-1-v-005516899;arret_car;Felsőlajos/vmh.;Felsőlajos/vmh.;Felsőlajos/vmh.;;;47.068834;19.498415;HU;Europe/Budapest;Q285122;;BUS;gtfs;;;;;1:v.005516899;Felsőlajos/vmh.
-TNMAV-1-v-005516915;arret_car;Lajosmizse/vá.;Lajosmizse/vá.;Lajosmizse/vá.;;;47.028333;19.542778;HU;Europe/Budapest;Q843025;;BUS;gtfs;;;;;1:v.005516915;Lajosmizse/vá.
 TNMAV-1-v-005517137;arret_car;Kiskunfélegyháza/vá.;Kiskunfélegyháza/vá.;Kiskunfélegyháza/vá.;;;46.7067;19.83474;HU;Europe/Budapest;Q478038;;BUS;gtfs;;;;;1:v.005517137;Kiskunfélegyháza/vá.
 TNMAV-1-v-005517228;arret_car;Szeged/vá.(Indóház tér);Szeged/vá.(Indóház tér);Szeged/vá.(Indóház tér);;;46.239722;20.143056;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005517228;Szeged/vá.(Indóház tér)
 TNMAV-1-v-005517285;arret_car;Lakitelek/vá.;Lakitelek/vá.;Lakitelek/vá.;;;46.873056;20.003611;HU;Europe/Budapest;Q277798;;BUS;gtfs;;;;;1:v.005517285;Lakitelek/vá.
@@ -1465,17 +1445,8 @@ TNMAV-1-v-005517392;arret_car;Szelevény/autóbusz-forduló;Szelevény/autóbusz
 TNMAV-1-v-005517418;arret_car;Gátér/Községháza;Gátér/Községháza;Gátér/Községháza;;;46.683533;19.95717;HU;Europe/Budapest;Q784678;;BUS;gtfs;;;;;1:v.005517418;Gátér/Községháza
 TNMAV-1-v-005517426;arret_car;Kónyaszék/Csongrád, Parkoló;Kónyaszék/Csongrád, Parkoló;Kónyaszék/Csongrád, Parkoló;;;46.704907;20.046162;HU;Europe/Budapest;Q649214;;BUS;gtfs;;;;;1:v.005517426;Kónyaszék/Csongrád, Parkoló
 TNMAV-1-v-005517434;arret_car;Csongrád/vá. bej. út;Csongrád/vá. bej. út;Csongrád/vá. bej. út;;;46.704929;20.141781;HU;Europe/Budapest;Q649214;;BUS;gtfs;;;;;1:v.005517434;Csongrád/vá. bej. út
-TNMAV-1-v-005517442;arret_car;Hékéd/Szentes, Szalai u.;Hékéd/Szentes, Szalai u.;Hékéd/Szentes, Szalai u.;;;46.675;20.266667;HU;Europe/Budapest;Q377834;;BUS;gtfs;;;;;1:v.005517442;Hékéd/Szentes, Szalai u.
-TNMAV-1-v-005517806;arret_car;Tiszatenyő/vá. id.;Tiszatenyő/vá. id.;Tiszatenyő/vá. id.;;;47.134167;20.3725;HU;Europe/Budapest;Q1185228;;BUS;gtfs;;;;;1:v.005517806;Tiszatenyő/vá. id.
 TNMAV-1-v-005517863;arret_car;Gyoma/vasútállomás;Gyoma/vasútállomás;Gyoma/vasútállomás;;;46.925833;20.821667;HU;Europe/Budapest;Q732300;;BUS;gtfs;;;;;1:v.005517863;Gyoma/vasútállomás
-TNMAV-1-v-005518077;arret_car;Kengyel/Dózsa Tsz elágazás;Kengyel/Dózsa Tsz elágazás;Kengyel/Dózsa Tsz elágazás;;;47.089722;20.339722;HU;Europe/Budapest;Q1106960;;BUS;gtfs;;;;;1:v.005518077;Kengyel/Dózsa Tsz elágazás
-TNMAV-1-v-005518085;arret_car;Bagimajor/Bagimajor;Bagimajor/Bagimajor;Bagimajor/Bagimajor;;;47.061111;20.316667;HU;Europe/Budapest;Q1106960;;BUS;gtfs;;;;;1:v.005518085;Bagimajor/Bagimajor
-TNMAV-1-v-005518093;arret_car;Martfű/vá.;Martfű/vá.;Martfű/vá.;;;47.019444;20.291667;HU;Europe/Budapest;Q262661;;BUS;gtfs;;;;;1:v.005518093;Martfű/vá.
-TNMAV-1-v-005518101;arret_car;Tiszaföldvár/vá. (Mártírok út);Tiszaföldvár/vá. (Mártírok út);Tiszaföldvár/vá. (Mártírok út);;;46.975556;20.276389;HU;Europe/Budapest;Q541550;;BUS;gtfs;;;;;1:v.005518101;Tiszaföldvár/vá. (Mártírok út)
-TNMAV-1-v-005518119;arret_car;Homok/vá. (Döbrei út);Homok/vá. (Döbrei út);Homok/vá. (Döbrei út);;;46.9475;20.270278;HU;Europe/Budapest;Q541550;;BUS;gtfs;;;;;1:v.005518119;Homok/vá. (Döbrei út)
-TNMAV-1-v-005518127;arret_car;Kungyalu/Központ;Kungyalu/Központ;Kungyalu/Központ;;;46.910833;20.2675;HU;Europe/Budapest;Q379160;;BUS;gtfs;;;;;1:v.005518127;Kungyalu/Központ
 TNMAV-1-v-005518135;arret_car;Kunszentmárton/vá. id.;Kunszentmárton/vá. id.;Kunszentmárton/vá. id.;;;46.848333;20.293333;HU;Europe/Budapest;Q379160;;BUS;gtfs;;;;;1:v.005518135;Kunszentmárton/vá. id.
-TNMAV-1-v-005518150;arret_car;Nagytőke/Rákóczi u.;Nagytőke/Rákóczi u.;Nagytőke/Rákóczi u.;;;46.763333;20.291667;HU;Europe/Budapest;Q1184294;;BUS;gtfs;;;;;1:v.005518150;Nagytőke/Rákóczi u.
 TNMAV-1-v-005518184;arret_car;Szentes/vá.;Szentes/vá.;Szentes/vá.;;;46.657778;20.2725;HU;Europe/Budapest;Q377834;;BUS;gtfs;;;;;1:v.005518184;Szentes/vá.
 TNMAV-1-v-005518200;arret_car;Szegvár/aut-vt.;Szegvár/aut-vt.;Szegvár/aut-vt.;;;46.588611;20.249444;HU;Europe/Budapest;Q594757;;BUS;gtfs;;;;;1:v.005518200;Szegvár/aut-vt.
 TNMAV-1-v-005518218;arret_car;Mindszent/Stop Büfé;Mindszent/Stop Büfé;Mindszent/Stop Büfé;;;46.524167;20.194167;HU;Europe/Budapest;Q933424;;BUS;gtfs;;;;;1:v.005518218;Mindszent/Stop Büfé
@@ -1487,16 +1458,15 @@ TNMAV-1-v-005518424;arret_car;Dévaványa/vá. id.;Dévaványa/vá. id.;Dévavá
 TNMAV-1-v-005518440;arret_car;Körösladány/vá. bej. út;Körösladány/vá. bej. út;Körösladány/vá. bej. út;;;46.97;21.085833;HU;Europe/Budapest;Q911620;;BUS;gtfs;;;;;1:v.005518440;Körösladány/vá. bej. út
 TNMAV-1-v-005518457;arret_car;Szeghalom/vasútállomás;Szeghalom/vasútállomás;Szeghalom/vasútállomás;;;47.015278;21.148333;HU;Europe/Budapest;Q780731;;BUS;gtfs;;;;;1:v.005518457;Szeghalom/vasútállomás
 TNMAV-1-v-005518465;arret_car;Vésztő/vasútállomás;Vésztő/vasútállomás;Vésztő/vasútállomás;;;46.938889;21.263611;HU;Europe/Budapest;Q855066;;BUS;gtfs;;;;;1:v.005518465;Vésztő/vasútállomás
-TNMAV-1-v-005518549;arret_car;Algyő/vá. bej. út;Algyő/vá. bej. út;Algyő/vá. bej. út;;;46.335556;20.196111;HU;Europe/Budapest;Q646699;;BUS;gtfs;;;;;1:v.005518549;Algyő/vá. bej. út
-TNMAV-1-v-005518564;arret_car;Hódmezővásárhelyi Népkert/vá. bej.;Hódmezővásárhelyi Népkert/vá. bej.;Hódmezővásárhelyi Népkert/vá. bej.;;;46.403333;20.312778;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518564;Hódmezővásárhelyi Népkert/vá. bej.
+TNMAV-1-v-005518549;arret_car;Algyő/vá. bej. út;Algyő/vá. bej. út;Algyő/vá. bej. út;;;46.336662;20.199871;HU;Europe/Budapest;Q646699;;BUS;gtfs;;;;;1:v.005518549;Algyő/vá. bej. út
+TNMAV-1-v-005518564;arret_car;Hódmezővásárhelyi Népkert/vá. bej.;Hódmezővásárhelyi Népkert/vá. bej.;Hódmezővásárhelyi Népkert/vá. bej.;;;46.404598;20.314667;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518564;Hódmezővásárhelyi Népkert/vá. bej.
 TNMAV-1-v-005518572;arret_car;Hódmezővásárhely/vá.;Hódmezővásárhely/vá.;Hódmezővásárhely/vá.;;;46.413333;20.34;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518572;Hódmezővásárhely/vá.
 TNMAV-1-v-005518614;arret_car;Orosháza/vá. (id.);Orosháza/vá. (id.);Orosháza/vá. (id.);;;46.566111;20.664722;HU;Europe/Budapest;Q390796;;BUS;gtfs;;;;;1:v.005518614;Orosháza/vá. (id.)
-TNMAV-1-v-005518747;arret_car;Kötegyán/Kötegyán vá. (id.);Kötegyán/Kötegyán vá. (id.);Kötegyán/Kötegyán vá. (id.);;;46.758333;21.479722;HU;Europe/Budapest;Q1075877;;BUS;gtfs;;;;;1:v.005518747;Kötegyán/Kötegyán vá. (id.)
 TNMAV-1-v-005518800;arret_car;Hódmezővásárhelyi Népkert vasútállo;Hódmezővásárhelyi Népkert vasútállo;Hódmezővásárhelyi Népkert vasútállo;;;46.403733;20.312986;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518800;Hódmezővásárhelyi Népkert vasútállo
 TNMAV-1-v-005518802;arret_car;Hódmezővásárhely, Strandfürdő/Stran;Hódmezővásárhely, Strandfürdő/Stran;Hódmezővásárhely, Strandfürdő/Stran;;;46.409147;20.315671;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518802;Hódmezővásárhely, Strandfürdő/Stran
 TNMAV-1-v-005518804;arret_car;Hódmezővásárhely, Hősök tere/Hősök;Hódmezővásárhely, Hősök tere/Hősök;Hódmezővásárhely, Hősök tere/Hősök;;;46.412183;20.31759;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518804;Hódmezővásárhely, Hősök tere/Hősök
-TNMAV-1-v-005518806;arret_car;Hódmezővásárhely, Kossuth tér/Emlék;Hódmezővásárhely, Kossuth tér/Emlék;Hódmezővásárhely, Kossuth tér/Emlék;;;46.41465;20.319727;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518806;Hódmezővásárhely, Kossuth tér/Emlék
-TNMAV-1-v-005518808;arret_car;Hódmezővásárhely, Kálvin János tér/;Hódmezővásárhely, Kálvin János tér/;Hódmezővásárhely, Kálvin János tér/;;;46.416677;20.328532;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518808;Hódmezővásárhely, Kálvin János tér/
+TNMAV-1-v-005518806;arret_car;Hódmezővásárhely, Kossuth tér/Könyv;Hódmezővásárhely, Kossuth tér/Könyv;Hódmezővásárhely, Kossuth tér/Könyv;;;46.414755;20.325239;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518806;Hódmezővásárhely, Kossuth tér/Könyv
+TNMAV-1-v-005518808;arret_car;Hódmezővásárhely, Kálvin János tér/;Hódmezővásárhely, Kálvin János tér/;Hódmezővásárhely, Kálvin János tér/;;;46.417085;20.329172;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518808;Hódmezővásárhely, Kálvin János tér/
 TNMAV-1-v-005518810;arret_car;Hódmezővásárhely vasútállomás/vá.;Hódmezővásárhely vasútállomás/vá.;Hódmezővásárhely vasútállomás/vá.;;;46.413242;20.338701;HU;Europe/Budapest;Q124375;;BUS;gtfs;;;;;1:v.005518810;Hódmezővásárhely vasútállomás/vá.
 TNMAV-1-v-005518945;arret_car;Újszeged/Sportcsarnok;Újszeged/Sportcsarnok;Újszeged/Sportcsarnok;;;46.242222;20.16;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005518945;Újszeged/Sportcsarnok
 TNMAV-1-v-005518952;arret_car;Szőreg/Takarékszövetkezet;Szőreg/Takarékszövetkezet;Szőreg/Takarékszövetkezet;;;46.211389;20.183056;HU;Europe/Budapest;Q81581;;BUS;gtfs;;;;;1:v.005518952;Szőreg/Takarékszövetkezet
@@ -1512,9 +1482,9 @@ TNMAV-1-v-005519158;arret_car;Csanádpalota/Községháza;Csanádpalota/Község
 TNMAV-1-v-005519166;arret_car;Mezőhegyes/vá.;Mezőhegyes/vá.;Mezőhegyes/vá.;;;46.310833;20.815556;HU;Europe/Budapest;Q509923;;BUS;gtfs;;;;;1:v.005519166;Mezőhegyes/vá.
 TNMAV-1-v-005519307;arret_car;Belsőperegpuszta/57-es major közpon;Belsőperegpuszta/57-es major közpon;Belsőperegpuszta/57-es major közpon;;;46.321111;20.916667;HU;Europe/Budapest;Q509923;;BUS;gtfs;;;;;1:v.005519307;Belsőperegpuszta/57-es major közpon
 TNMAV-1-v-005519323;arret_car;Battonya/autóbusz váróterem;Battonya/autóbusz váróterem;Battonya/autóbusz váróterem;;;46.282222;21.003889;HU;Europe/Budapest;Q791458;;BUS;gtfs;;;;;1:v.005519323;Battonya/autóbusz váróterem
-TNMAV-1-v-005540279;arret_car;Tát/Posta;Tát/Posta;Tát/Posta;;;47.741201;18.64783;HU;Europe/Budapest;Q1072168;;BUS;gtfs;;;;;1:v.005540279;Tát/Posta
-TNMAV-1-v-005540295;arret_car;Süttő felső/Süttő Kultúrotthon;Süttő felső/Süttő Kultúrotthon;Süttő felső/Süttő Kultúrotthon;;;47.756667;18.437222;HU;Europe/Budapest;Q953690;;BUS;gtfs;;;;;1:v.005540295;Süttő felső/Süttő Kultúrotthon
-TNMAV-1-v-005540899;arret_car;Várhegyalja/Neszmély Művelődési ház;Várhegyalja/Neszmély Művelődési ház;Várhegyalja/Neszmély Művelődési ház;;;47.737778;18.366667;HU;Europe/Budapest;Q630060;;BUS;gtfs;;;;;1:v.005540899;Várhegyalja/Neszmély Művelődési ház
+TNMAV-1-v-005540279;arret_car;Tát/Posta;Tát/Posta;Tát/Posta;;;47.742948;18.648226;HU;Europe/Budapest;Q1072168;;BUS;gtfs;;;;;1:v.005540279;Tát/Posta
+TNMAV-1-v-005540295;arret_car;Süttő felső/Süttő Kultúrotthon;Süttő felső/Süttő Kultúrotthon;Süttő felső/Süttő Kultúrotthon;;;47.757441;18.44329;HU;Europe/Budapest;Q953690;;BUS;gtfs;;;;;1:v.005540295;Süttő felső/Süttő Kultúrotthon
+TNMAV-1-v-005540899;arret_car;Várhegyalja/Neszmély Művelődési ház;Várhegyalja/Neszmély Művelődési ház;Várhegyalja/Neszmély Művelődési ház;;;47.735929;18.359172;HU;Europe/Budapest;Q630060;;BUS;gtfs;;;;;1:v.005540899;Várhegyalja/Neszmély Művelődési ház
 TNMAV-1-v-005541384;arret_car;Ceglédbercel/Községháza;Ceglédbercel/Községháza;Ceglédbercel/Községháza;;;47.215833;19.658611;HU;Europe/Budapest;Q519585;;BUS;gtfs;;;;;1:v.005541384;Ceglédbercel/Községháza
 TNMAV-1-v-005541418;arret_car;Budai út/iskola;Budai út/iskola;Budai út/iskola;;;47.208333;19.731389;HU;Europe/Budapest;Q214948;;BUS;gtfs;;;;;1:v.005541418;Budai út/iskola
 TNMAV-1-v-005542903;arret_car;Városi park/Transelektro GM;Városi park/Transelektro GM;Városi park/Transelektro GM;;;46.69685;19.867146;HU;Europe/Budapest;Q478038;;BUS;gtfs;;;;;1:v.005542903;Városi park/Transelektro GM
@@ -1530,4 +1500,3 @@ TNMAV-1-v-005544859;arret_car;Tiszaug-Tiszahídfő/elágazás;Tiszaug-Tiszahídf
 TNMAV-1-v-005544875;arret_car;Csongrádi úti tanyák/Gátér, Baromfi;Csongrádi úti tanyák/Gátér, Baromfi;Csongrádi úti tanyák/Gátér, Baromfi;;;46.691422;19.938375;HU;Europe/Budapest;Q478038;;BUS;gtfs;;;;;1:v.005544875;Csongrádi úti tanyák/Gátér, Baromfi
 TNMAV-1-v-005544883;arret_car;Kettőshalom/Gátér Tangazdaság;Kettőshalom/Gátér Tangazdaság;Kettőshalom/Gátér Tangazdaság;;;46.694489;20.014631;HU;Europe/Budapest;Q649214;;BUS;gtfs;;;;;1:v.005544883;Kettőshalom/Gátér Tangazdaság
 TNMAV-1-v-005544891;arret_car;Csongrád alsó/Széchenyi iskola;Csongrád alsó/Széchenyi iskola;Csongrád alsó/Széchenyi iskola;;;46.714565;20.128897;HU;Europe/Budapest;Q649214;;BUS;gtfs;;;;;1:v.005544891;Csongrád alsó/Széchenyi iskola
-TNMAV-1-v-005545401;arret_car;Szatina-Kishajmás/vmh. (ideiglenes);Szatina-Kishajmás/vmh. (ideiglenes);Szatina-Kishajmás/vmh. (ideiglenes);;;46.202778;18.083611;HU;Europe/Budapest;Q617541;;BUS;gtfs;;;;;1:v.005545401;Szatina-Kishajmás/vmh. (ideiglenes)

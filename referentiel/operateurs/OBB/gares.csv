@@ -9,7 +9,7 @@ TN5341638;gare;Baia Mare;Baia Mare;Baia Mare;5341638;;47.647061;23.552123;RO;Eur
 TN5345452;gare;Satu Mare;Satu Mare;Satu Mare;5345452;;47.795223;22.893128;RO;Europe/Bucharest;Q185332;EC;;nom;9555790979;;;;ro:53090:1:1;Satu Mare
 TN5433295;gare;Brno hlavní nádraží;Brno hlavní nádraží;Brno hlavní nádraží;5433295;;49.190666;16.613257;CZ;Europe/Prague;Q14960;NJ|RJ;;code;3325029085;Q921772;;;cz:0:5433295:0:7;Brno hl.n.
 TN5433425;gare;Břeclav;Břeclav;Břeclav;5433425;;48.753971;16.893266;CZ;Europe/Prague;Q581478;EC|EN|IC|NJ|REX|RJ|RJX;;code;3315724401;Q5005700;;;cz:0:5433425:0:1;Břeclav
-TN5434124;gare;Bohumín osobní nádraží;Bohumín;Bohumín;5434124;;49.900749;18.359597;CZ;Europe/Prague;Q890949;EC|EN|IC;;nom;3271358589;Q4189414;;XTBO;cz:55803:NVBW_CSD_5:0:1;Bohumín
+TN5434124;gare;Bohumín osobní nádraží;Bohumín;Bohumín;5434124;;49.900749;18.359597;CZ;Europe/Prague;Q890949;EC|IC;;nom;3271358589;Q4189414;;XTBO;cz:55803:NVBW_CSD_5:0:1;Bohumín
 TN5436955;gare;Znojmo;Znojmo;Znojmo;5436955;;48.852703;16.059077;CZ;Europe/Prague;Q214956;OS;;code;3405914909;Q18180625;;;cz:1:5436955:0:1;Znojmo
 TN5455659;gare;Decin hl.n.;Děčín hlavní nádraží;Děčín hlavní nádraží;5455659;;50.773478;14.201296;CZ;Europe/Prague;Q146307;NJ|RJ|RJX;;code;5062517821;Q15735008;;XTD;cz:0:5455659:1:1;Děčín hl.n.
 TN5457076;gare;Praha hlavní nádraží;Prague Main Station;Praha hlavní nádraží;5457076;;50.082963;14.436094;CZ;Europe/Prague;Q1085;EC|NJ|RJ|RR;;code;3134751791;Q751174;;;cz:0:5457076:0:1;Praha hl.n.
@@ -34,7 +34,6 @@ TN5613136;gare;Devinska Nova Ves;Devínska Nová Ves;Devínska Nová Ves;5613136
 TN5613206;gare;Bratislava hl.st.;Bratislava main station;Bratislava hlavná stanica;5613206;;48.15903;17.106468;SK;Europe/Bratislava;Q1780;OS|REX|RJX;;code;3350963359;Q899662;;;Psk:56:1;Bratislava hl.st.
 TN5614576;gare;Bratislava-Petrzalka;Bratislava-Petržalka;Bratislava-Petržalka;5614576;;48.121482;17.099466;SK;Europe/Bratislava;Q1780;REX|RJX;;nom;30073060;Q800563;;;sk:56:2:0:1;Bratislava-Petržalka
 TN7872480;gare;Zagreb Glavni kolodvor;Zagreb Central Railway Station;Zagreb Glavni kolodvor;7872480;;45.804446;15.978833;HR;Europe/Zagreb;Q1435;D|EC|EN;;nom;5627130425;Q140377;;;hr:62:80:0:1;Zagreb Glavni kolodvor
-TN7875560;gare;Rijeka;Rijeka railway station;Rijeka;7875560;;45.330004;14.430289;HR;Europe/Zagreb;Q1647;EN;;nom;10880998201;Q801362;;;hr:62:56:1;Rijeka
 TN7876660;gare;Split;Split;Split;7876660;;43.504815;16.443044;HR;Europe/Zagreb;Q1663;EN;;nom;10025673666;Q2281143;;;hr:62:65:0:1;Split
 TN7942300;gare;Ljubljana;Ljubljana;Ljubljana;7942300;;46.058171;14.510278;SI;Europe/Ljubljana;Q3434113;D|EC|EN|IC|IR;;code;617483683;Q1817806;;XZL;si:63:311:0:3;Ljubljana
 TN7942400;gare;Jesenice (SL);Jesenice;Jesenice;7942400;;46.436183;14.054821;SI;Europe/Ljubljana;Q15881;D|EC|EN|REX;;nom;9165200969;Q6962376;;;si:63:5948:0:1;Jesenice
@@ -48,8 +47,8 @@ TN8001134;gare;Hamburg Harburg Bahnhof;Hamburg Harburg Bahnhof;Hamburg Harburg B
 TN8002084;gare;Günzburg Bahnhof;Günzburg Bahnhof;Günzburg Bahnhof;8002084;;48.460521;10.27926;DE;Europe/Berlin;Q489685;ICE|WB;;gtfs;;;;;de:09774:2600:2:2;Günzburg Bahnhof
 TN8002140;gare;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;8002140;;48.365674;10.885892;DE;Europe/Berlin;Q2749;EN|ICE|NJ|WB;;gtfs;;;;;de:09761:100:11:1;Augsburg Hauptbahnhof
 TN8002371;gare;Lindau-Insel;Lindau-Insel;Lindau-Insel;8002371;;47.545387;9.680793;DE;Europe/Berlin;Q153969;R|REX;;gtfs;;;;;de:09776:1546:1:1;Lindau-Insel
-TN8008094;gare;Düsseldorf Hbf;Düsseldorf Central Station;Düsseldorf Hauptbahnhof;8008094;;51.219734;6.794302;DE;Europe/Berlin;Q1718;ICE;;code;1880180223;Q255951;;KD;de:05111:18235:93:15;Düsseldorf Hauptbahnhof
-TN8010053;gare;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;8010053;;51.517723;7.458775;DE;Europe/Berlin;Q1295;ICE|NJ;;gtfs;;;;;de:05913:131:90:10;Dortmund Hauptbahnhof
+TN8008094;gare;Düsseldorf Hauptbahnhof;Düsseldorf Hauptbahnhof;Düsseldorf Hauptbahnhof;8008094;;51.220226;6.793599;DE;Europe/Berlin;Q1718;ICE;;gtfs;;;;;de:05111:18235:90:4;Düsseldorf Hauptbahnhof
+TN8010053;gare;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;Dortmund Hauptbahnhof;8010053;;51.517723;7.458775;DE;Europe/Berlin;Q1295;NJ;;gtfs;;;;;de:05913:131:90:10;Dortmund Hauptbahnhof
 TN8011068;gare;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hauptbahnhof;8011068;;50.106291;8.66196;DE;Europe/Berlin;Q1794;ICE;;gtfs;;;;;de:06412:10:16:16;Frankfurt (Main) Hauptbahnhof
 TN8014228;gare;Karlsruhe Hauptbahnhof;Karlsruhe Hauptbahnhof;Karlsruhe Hauptbahnhof;8014228;;48.993616;8.402052;DE;Europe/Berlin;Q1040;ICE;;code;2574283615;Q688541;de:08212:90;RK;de:08212:90:2:1;Karlsruhe Hauptbahnhof
 TN8015458;gare;Köln Hbf;Köln Hauptbahnhof;Köln Hauptbahnhof;8015458;;50.942784;6.95907;DE;Europe/Berlin;Q365;NJ;;code;2399559029;Q1954;;KK;de:05315:11201:7:72;Köln Hauptbahnhof
@@ -65,7 +64,7 @@ TN8020347;gare;München Hauptbahnhof;München Hauptbahnhof;München Hauptbahnhof
 TN8021011;gare;Münster (Westf) Hbf;Münster (Westf) Hbf;Münster (Westf) Hbf;8021011;;51.957049;7.635249;DE;Europe/Berlin;Q2742;NJ;;gtfs;;;;;de:05515:41000:91:2;Münster (Westf) Hbf
 TN8022193;gare;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;Nürnberg Hauptbahnhof;8022193;;49.445825;11.082138;DE;Europe/Berlin;Q2090;ICE;;gtfs;;;;;de:09564:510:1;Nürnberg Hauptbahnhof
 TN8026506;gare;Passau Hauptbahnhof;Passau Hauptbahnhof;Passau Hauptbahnhof;8026506;;48.573811;13.450304;DE;Europe/Berlin;Q4190;R|REX;;gtfs;;;;;de:09262:156:2:2;Passau Hauptbahnhof
-TN8029034;gare;Stuttgart Hbf (oben);Stuttgart Main Station;Stuttgart Hauptbahnhof;8029034;;48.78561;9.183396;DE;Europe/Berlin;Q1022;EN|ICE;;code;1635698272;Q613766;de:08111:6115;TS;de:08111:6115:1:1;Stuttgart Hauptbahnhof
+TN8029034;gare;Stuttgart Hbf (oben);Stuttgart Main Station;Stuttgart Hauptbahnhof;8029034;;48.78561;9.183396;DE;Europe/Berlin;Q1022;EN|ICE|NJ;;code;1635698272;Q613766;de:08111:6115;TS;de:08111:6115:1:1;Stuttgart Hauptbahnhof
 TN8029103;gare;Ulm Hauptbahnhof;Ulm Hauptbahnhof;Ulm Hauptbahnhof;8029103;;48.399347;9.982933;DE;Europe/Berlin;Q3012;EN|ICE|NJ|WB;;gtfs;;;;;de:08421:1008:31:1;Ulm Hauptbahnhof
 TN8033452;gare;Berlin Hauptbahnhof-Lehrter Bf (Stadtb);Berlin Central Station;Berlin Hauptbahnhof;8033452;;52.524945;13.369661;DE;Europe/Berlin;Q64;ICE|NJ|RJ;;code;3856100103;Q1097;;BLS;de:11000:900003200:3:55;Berlin Hauptbahnhof
 TN8065969;gare;Berlin Hauptbahnhof;Berlin Hauptbahnhof;Berlin Hauptbahnhof;8065969;;52.52498;13.369114;DE;Europe/Berlin;Q64;RJ;;gtfs;;;;;de:11000:900003200:1:51;Berlin Hauptbahnhof
@@ -78,7 +77,7 @@ TN8100035;gare;Leibnitz Bahnhof;Leibnitz;Leibnitz;8100035;;46.779919;15.547346;A
 TN8100045;gare;Lend Bahnhof;Lend;Lend;8100045;;47.297514;13.055341;AT;Europe/Vienna;Q265953;D|IR|R|WB;;nom;3508434066;;;;Pat:45:52191;Lend Bahnhof
 TN8100072;gare;Knittelfeld Bahnhof;Knittelfeld;Knittelfeld;8100072;;47.215262;14.83763;AT;Europe/Vienna;Q494621;D|IC|IR|REX|RJ|RJX;;nom;3594217058;;;;Pat:46:7466;Knittelfeld Bahnhof
 TN8100077;gare;Launsdorf-Hochosterwitz Bahnhof;Launsdorf-Hochosterwitz;Launsdorf-Hochosterwitz;8100077;;46.76884;14.455425;AT;Europe/Vienna;Q664135;IR|R;;nom;3221038767;;;;Pat:42:3631;Launsdorf-Hochosterwitz Bahnhof
-TN8100082;gare;Spielfeld-Straß Bahnhof;Spielfeld-Straß;Spielfeld-Straß;8100082;;46.709517;15.629116;AT;Europe/Vienna;Q690920;EN|IR|R|REX;;nom;1371548682;;at:46:1839:1:zug;;at:46:1839:0:3;Spielfeld-Straß Bahnhof
+TN8100082;gare;Spielfeld-Straß Bahnhof;Spielfeld-Straß;Spielfeld-Straß;8100082;;46.709517;15.629116;AT;Europe/Vienna;Q690920;IR|R|REX;;nom;1371548682;;at:46:1839:1:zug;;at:46:1839:0:3;Spielfeld-Straß Bahnhof
 TN8100083;gare;Rosenbach Bahnhst;Rosenbach;Rosenbach;8100083;;46.530538;14.035092;AT;Europe/Vienna;Q662392;REX;;nom;5844914040;Q19938283;;;Pat:42:2143;Rosenbach Bahnhst
 TN8100096;gare;Treibach-Althofen Bahnhof;Treibach-Althofen;Treibach-Althofen;8100096;;46.868552;14.46553;AT;Europe/Vienna;Q441016;D|IC|IR|R|REX;;nom;3221096052;;;;Pat:42:3627;Treibach-Althofen Bahnhof
 TN8100126;gare;Kalwang Bahnhof;Kalwang;Kalwang;8100126;;47.423638;14.746515;AT;Europe/Vienna;Q695616;R|REX;;nom;29056188;;;;Pat:46:7432;Kalwang Bahnhof
@@ -190,7 +189,7 @@ TN8100962;gare;Höbersdorf Bahnhof;Höbersdorf;Höbersdorf;8100962;;48.448428;16
 TN8100970;gare;Hörersdorf Bahnhof;Hörersdorf;Hörersdorf;8100970;;48.620062;16.516664;AT;Europe/Vienna;Q660428;REX;;nom;267218630;;;;Pat:43:3806;Hörersdorf Bahnhof
 TN8100980;gare;Hausruck Bahnhof;Hausruck;Hausruck;8100980;;48.129607;13.571585;AT;Europe/Vienna;Q684966;R;;nom;926504361;;;;Pat:44:48310;Hausruck Bahnhof
 TN8100999;gare;Iglmühle Bahnhst;Iglmühle;Iglmühle;8100999;;48.520543;14.036414;AT;Europe/Vienna;Q693673;R|REX;;nom;282338355;;;;Pat:44:45680;Iglmühle Bahnhst
-TN8101001;gare;Wien Westbahnhof;Wien Westbahnhof;Wien Westbahnhof;8101001;;48.196544;16.336282;AT;Europe/Vienna;Q1741;CJX|D|EC|EN|IC|REX|RJ|WB;;code;60093107;Q698145;;XAWW;Pat:49:1468;Wien Westbahnhof
+TN8101001;gare;Wien Westbahnhof;Wien Westbahnhof;Wien Westbahnhof;8101001;;48.196544;16.336282;AT;Europe/Vienna;Q1741;CJX|D|EC|IC|REX|RJ|WB;;code;60093107;Q698145;;XAWW;Pat:49:1468;Wien Westbahnhof
 TN8101003;gare;Wien Hauptbahnhof;Vienna Central Station;Wien Hauptbahnhof;8101003;;48.184988;16.377939;AT;Europe/Vienna;Q1741;CJX|D|EC|EN|IC|ICE|NJ|R|REX|RJ|RJX|WB;;code;1839787470;Q697300;;XAWIE;Pat:49:1349;Wien Hauptbahnhof
 TN8101008;gare;Wien Hütteldorf;Wien Hütteldorf;Wien Hütteldorf;8101008;;48.197328;16.261274;AT;Europe/Vienna;Q1741;CJX|D|IC|REX|RJ|WB;;code;321330275;Q801605;;XAWH;Pat:49:560;Wien Hütteldorf
 TN8101012;gare;Jedenspeigen Bahnhof;Jedenspeigen;Jedenspeigen;8101012;;48.494931;16.878221;AT;Europe/Vienna;Q678192;REX;;nom;3315681745;;;;Pat:43:3830;Jedenspeigen Bahnhof
@@ -409,7 +408,6 @@ TN8101671;gare;Neuhaus-Niederwaldkirchen Bahnhst;Neuhaus-Niederwaldkirchen;Neuha
 TN8101672;gare;Kleinzell im Mühlkreis Bahnhst;Kleinzell im Mühlkreis;Kleinzell im Mühlkreis;8101672;;48.45817;14.032049;AT;Europe/Vienna;Q693687;R|REX;;nom;282331806;Q111167744;;;Pat:44:45765;Kleinzell im Mühlkreis Bahnhst
 TN8101673;gare;Neufelden Bahnhof;Neufelden;Neufelden;8101673;;48.48387;14.005114;AT;Europe/Vienna;Q693606;R|REX;;nom;282332919;Q111167727;;;Pat:44:45750;Neufelden Bahnhof
 TN8101674;gare;Traunkirchen Ort Bahnhof;Traunkirchen Ort;Traunkirchen Ort;8101674;;47.842767;13.787145;AT;Europe/Vienna;Q259710;R|REX;;nom;522228799;;;;Pat:44:46430;Traunkirchen Ort Bahnhof
-TN8101676;gare;Töschling Bahnhst;Töschling;Töschling;8101676;;46.633161;14.111156;AT;Europe/Vienna;Q664869;R;;nom;1372004361;;;;Pat:42:3649;Töschling Bahnhst
 TN8101677;gare;Rohrbach-Berg Bahnhof;Rohrbach-Berg;Rohrbach-Berg;8101677;;48.58185;13.987006;AT;Europe/Vienna;Q19848342;R|REX;;nom;9455738127;Q111167724;;;Pat:44:45500;Rohrbach-Berg Bahnhof
 TN8101678;gare;Oepping Bahnhst;Oepping;Oepping;8101678;;48.59979;13.960532;AT;Europe/Vienna;Q693620;R|REX;;nom;282348652;Q111167464;;;Pat:44:45530;Oepping Bahnhst
 TN8101679;gare;Schlägl Bahnhst;Schlägl;Schlägl;8101679;;48.636563;13.975431;AT;Europe/Vienna;Q404241;R|REX;;nom;282348962;Q111267187;;;Pat:44:49841;Schlägl Bahnhst
@@ -683,12 +681,10 @@ TN8103618;gare;Unzmarkt Bahnhof;Unzmarkt;Unzmarkt;8103618;;47.20091;14.442035;AT
 TN8103625;gare;Friesach Bahnhof;Friesach;Friesach;8103625;;46.953558;14.410517;AT;Europe/Vienna;Q871601;D|IC|IR|R|REX;;nom;2815582286;;;;Pat:42:3625;Friesach Bahnhof
 TN8103626;gare;Micheldorf-Hirt Bahnhst;Micheldorf-Hirt;Micheldorf-Hirt;8103626;;46.913961;14.431629;AT;Europe/Vienna;Q663674;IR|R;;nom;3221068604;Q111167805;;;Pat:42:3626;Micheldorf-Hirt Bahnhst
 TN8103633;gare;St.Veit/Glan Bahnhof;St.Veit/Glan Bahnhof;St.Veit/Glan Bahnhof;8103633;;46.770642;14.36672;AT;Europe/Vienna;Q494604;D|IC|IR|R|REX|RJX;;gtfs;;;;;Pat:42:3633;St.Veit/Glan Bahnhof
-TN8103642;gare;Klagenfurt Hauptbahnhof;Klagenfurt Hauptbahnhof;Klagenfurt Hauptbahnhof;8103642;;46.615686;14.313703;AT;Europe/Vienna;Q41753;EC|IC|ICE|IR|NJ|R|REX|RJ|RJX|WB;;code;3225806984;Q700931;;;Pat:42:3642;Klagenfurt Hauptbahnhof
-TN8103645;gare;Klagenfurt Lend Bahnhst;Klagenfurt Lend;Klagenfurt Lend;8103645;;46.621549;14.283916;AT;Europe/Vienna;Q41753;R;;nom;3238848462;Q111167790;;;Pat:42:3645;Klagenfurt Lend Bahnhst
-TN8103646;gare;Krumpendorf/Wörthersee Bahnhof;Krumpendorf/Wörthersee Bahnhof;Krumpendorf/Wörthersee Bahnhof;8103646;;46.626574;14.221813;AT;Europe/Vienna;Q662440;IC|R|REX;;gtfs;;;;;Pat:42:3646;Krumpendorf/Wörthersee Bahnhof
-TN8103647;gare;Pritschitz Bahnhst;Pritschitz;Pritschitz;8103647;;46.627953;14.170841;AT;Europe/Vienna;Q875805;R;;nom;10612845214;Q111267459;;;at:42:3647:0:2;Pritschitz Bahnhst
-TN8103648;gare;Pörtschach/Wörthersee Bahnhof;Pörtschach/Wörthersee Bahnhof;Pörtschach/Wörthersee Bahnhof;8103648;;46.636012;14.146292;AT;Europe/Vienna;Q875805;EC|IC|ICE|NJ|R|REX|RJ|RJX|WB;;gtfs;;;;;Pat:42:3648;Pörtschach/Wörthersee Bahnhof
-TN8103650;gare;Velden/Wörthersee Bahnhof;Velden/Wörthersee Bahnhof;Velden/Wörthersee Bahnhof;8103650;;46.619892;14.044836;AT;Europe/Vienna;Q660687;EC|IC|ICE|NJ|R|REX|RJ|RJX;;gtfs;;;;;Pat:42:3650;Velden/Wörthersee Bahnhof
+TN8103642;gare;Klagenfurt Hauptbahnhof;Klagenfurt Hauptbahnhof;Klagenfurt Hauptbahnhof;8103642;;46.615686;14.313703;AT;Europe/Vienna;Q41753;EC|IC|ICE|IR|NJ|REX|RJ|RJX|WB;;code;3225806984;Q700931;;;Pat:42:3642;Klagenfurt Hauptbahnhof
+TN8103646;gare;Krumpendorf/Wörthersee Bahnhof;Krumpendorf/Wörthersee Bahnhof;Krumpendorf/Wörthersee Bahnhof;8103646;;46.626574;14.221813;AT;Europe/Vienna;Q662440;IC|REX;;gtfs;;;;;Pat:42:3646;Krumpendorf/Wörthersee Bahnhof
+TN8103648;gare;Pörtschach/Wörthersee Bahnhof;Pörtschach/Wörthersee Bahnhof;Pörtschach/Wörthersee Bahnhof;8103648;;46.636012;14.146292;AT;Europe/Vienna;Q875805;EC|IC|ICE|NJ|REX|RJ|RJX|WB;;gtfs;;;;;Pat:42:3648;Pörtschach/Wörthersee Bahnhof
+TN8103650;gare;Velden/Wörthersee Bahnhof;Velden/Wörthersee Bahnhof;Velden/Wörthersee Bahnhof;8103650;;46.619892;14.044836;AT;Europe/Vienna;Q660687;EC|IC|ICE|NJ|REX|RJ|RJX;;gtfs;;;;;Pat:42:3650;Velden/Wörthersee Bahnhof
 TN8103652;gare;Föderlach Bahnhof;Föderlach;Föderlach;8103652;;46.602082;13.959229;AT;Europe/Vienna;Q664548;REX;;nom;5844914042;Q111167462;;;Pat:42:3652;Föderlach Bahnhof
 TN8103654;gare;Villach Hauptbahnhof;Villach Hauptbahnhof;Villach Hauptbahnhof;8103654;;46.618618;13.848444;AT;Europe/Vienna;Q483522;D|EC|EN|IC|ICE|NJ|REX|RJ|RJX|WB;;code;2507246162;Q699533;;;Pat:42:3654;Villach Hauptbahnhof
 TN8103656;gare;Villach Westbahnhof;Villach Westbahnhof;Villach Westbahnhof;8103656;;46.609189;13.840592;AT;Europe/Vienna;Q483522;D|REX;;nom;253636715;Q106834455;;;Pat:42:3656;Villach Westbahnhof
@@ -756,7 +752,7 @@ TNOBB-at-43-3449-0-2;gare;Frättingsdorf Bahnhof;Frättingsdorf Bahnhof;Frättin
 TNOBB-at-43-3580-0-3;gare;Großweikersdorf Bahnhof;Großweikersdorf Bahnhof;Großweikersdorf Bahnhof;;;48.46998;15.975657;AT;Europe/Vienna;Q674215;REX;;gtfs;;;;;at:43:3580:0:3;Großweikersdorf Bahnhof
 TNOBB-at-43-3681-0-1;gare;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;;;48.144594;16.931698;AT;Europe/Vienna;Q752107;REX;;gtfs;;;;;at:43:3681:0:1;Hainburg/Donau Kulturfabrik Bhf.
 TNOBB-at-43-3681-0-2;gare;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;Hainburg/Donau Kulturfabrik Bhf.;;;48.144624;16.931662;AT;Europe/Vienna;Q752107;REX;;gtfs;;;;;at:43:3681:0:2;Hainburg/Donau Kulturfabrik Bhf.
-TNOBB-at-43-3784-0-1;gare;Horn Bahnhof;Horn Bahnhof;Horn Bahnhof;;;48.665855;15.672664;AT;Europe/Vienna;Q659918;R|REX;;gtfs;;;;;at:43:3784:0:1;Horn Bahnhof
+TNOBB-at-43-3784-0-1;gare;Horn Bahnhof;Horn Bahnhof;Horn Bahnhof;;;48.665855;15.672664;AT;Europe/Vienna;Q659918;R;;gtfs;;;;;at:43:3784:0:1;Horn Bahnhof
 TNOBB-at-43-4015-0-1;gare;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;;;48.72413;16.402429;AT;Europe/Vienna;Q661283;REX;;gtfs;;;;;at:43:4015:0:1;Laa/Thaya Bahnhof
 TNOBB-at-43-4015-0-4;gare;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;Laa/Thaya Bahnhof;;;48.724148;16.402518;AT;Europe/Vienna;Q661283;REX;;gtfs;;;;;at:43:4015:0:4;Laa/Thaya Bahnhof
 TNOBB-at-43-4083-0-2;gare;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf-Burg Kreuzenstein Bhf.;Leobendorf-Burg Kreuzenstein Bhf.;;;48.364564;16.302051;AT;Europe/Vienna;Q162982;R;;gtfs;;;;;at:43:4083:0:2;Leobendorf-Burg Kreuzenstein Bhf.
@@ -1011,7 +1007,7 @@ TNOSM1353606655;gare;Nendeln;Nendeln;Nendeln;;;47.200406;9.541605;LI;Europe/Vadu
 TNOSM1372327605;gare;Thörl-Maglern Bahnhst;Thörl-Maglern;Thörl-Maglern;;;46.540334;13.648356;AT;Europe/Vienna;Q660716;D;;nom;1372327605;Q117768544;;;Pat:42:3663;Thörl-Maglern Bahnhst
 TNOSM1398940888;gare;Schauboden Bahnhof;Schauboden;Schauboden;;;48.078918;15.136961;AT;Europe/Vienna;Q665366;R|REX;;nom;1398940888;;;;at:43:7446:0:1;Schauboden Bahnhof
 TNOSM1887823668;gare;Forst Hilti;Forst Hilti;Forst Hilti;;;47.181384;9.521119;LI;Europe/Vaduz;Q49657;R;;nom;1887823668;;;;fl:21:4145:0:3;Schaan Forst Hilti Bahnhof
-TNOSM206270914;gare;Kraków Płaszów;Kraków Płaszów;Kraków Płaszów;;;50.035021;19.974785;PL;Europe/Warsaw;Q31487;EC|EN|IC;;nom;206270914;Q3077203;;;pl:5100240:0:1;Kraków Płaszów
+TNOSM206270914;gare;Kraków Płaszów;Kraków Płaszów;Kraków Płaszów;;;50.035021;19.974785;PL;Europe/Warsaw;Q31487;EN|IC;;nom;206270914;Q3077203;;;pl:5100240:0:1;Kraków Płaszów
 TNOSM2413308670;gare;Pichl bei Schladming Bahnhof;Pichl bei Schladming;Pichl bei Schladming;;;47.38832;13.612679;AT;Europe/Vienna;Q254221;IR|R|REX;;nom;2413308670;;;;Pat:46:7447;Pichl bei Schladming Bahnhof
 TNOSM254073098;gare;Gols Bahnhof;Gols;Gols;;;47.891696;16.905041;AT;Europe/Vienna;Q670770;REX;;nom;254073098;;;;at:41:3531:0:1;Gols Bahnhof
 TNOSM2588815473;gare;Straßwalchen West;Straßwalchen West;Straßwalchen West;;;47.976384;13.245246;AT;Europe/Vienna;Q259019;R|REX;;nom;2588815473;;;;at:45:56483:0:1;Straßwalchen West
@@ -1029,7 +1025,7 @@ TNOSM304177046;gare;St. Andrä am Zicksee;St. Andrä am Zicksee;St. Andrä
 TNOSM310508282;gare;Müllendorf Bahnhof;Müllendorf;Müllendorf;;;47.834709;16.459103;AT;Europe/Vienna;Q660992;REX;;nom;310508282;;;;at:41:4227:0:4;Müllendorf Bahnhof
 TNOSM3137411203;gare;Paternion-Feistritz Bahnhst;Paternion-Feistritz;Paternion-Feistritz;;;46.70679;13.674696;AT;Europe/Vienna;Q689409;REX;;nom;3137411203;;;;Pat:42:2133;Paternion-Feistritz Bahnhst
 TNOSM315111042;gare;Frauenkirchen Bahnhof;Frauenkirchen;Frauenkirchen;;;47.839865;16.915812;AT;Europe/Vienna;Q660728;REX;;nom;315111042;;;;at:41:3443:0:1;Frauenkirchen Bahnhof
-TNOSM3238848466;gare;Klagenfurt West Bahnhst;Klagenfurt West;Klagenfurt West;;;46.622941;14.266849;AT;Europe/Vienna;Q41753;R|REX;;nom;3238848466;Q56859441;;;Pat:42:3643;Klagenfurt West Bahnhst
+TNOSM3238848466;gare;Klagenfurt West Bahnhst;Klagenfurt West;Klagenfurt West;;;46.622941;14.266849;AT;Europe/Vienna;Q41753;REX;;nom;3238848466;Q56859441;;;Pat:42:3643;Klagenfurt West Bahnhst
 TNOSM324966395;gare;Kammer-Schörfling Bahnhst;Kammer-Schörfling;Kammer-Schörfling;;;47.948517;13.595876;AT;Europe/Vienna;Q678823;R|REX;;nom;324966395;;;;Pat:44:47301;Kammer-Schörfling Bahnhst
 TNOSM325063058;gare;Ottnang-Wolfsegg Bahnhof;Ottnang-Wolfsegg;Ottnang-Wolfsegg;;;48.09213;13.664913;AT;Europe/Vienna;Q611218;R;;nom;325063058;;;;Pat:44:47120;Ottnang-Wolfsegg Bahnhof
 TNOSM3324474926;gare;Wien Handelskai;Wien Handelskai;Wien Handelskai;;;48.241945;16.385231;AT;Europe/Vienna;Q1741;R|REX;;nom;3324474926;Q85848026;;;Pat:49:1705;Wien Handelskai
@@ -1050,6 +1046,7 @@ TNOSM3982397740;gare;Pottenbrunn Bahnhof;Pottenbrunn;Pottenbrunn;;;48.223661;15.
 TNOSM4116313089;gare;Wieselburg Bahnhof;Wieselburg;Wieselburg;;;48.132221;15.142512;AT;Europe/Vienna;Q661734;R;;nom;4116313089;Q111703247;;;at:43:7443:0:1;Wieselburg Bahnhof
 TNOSM423384345;gare;Schlüßlberg Bahnhof;Schlüßlberg;Schlüßlberg;;;48.223885;13.868226;AT;Europe/Vienna;Q876354;R|REX;;nom;423384345;;;;Pat:44:47511;Schlüßlberg Bahnhof
 TNOSM4601909639;gare;Traxenbichl Bahnhst;Traxenbichl;Traxenbichl;;;47.876998;13.938437;AT;Europe/Vienna;Q668095;R;;nom;4601909639;;;;Pat:44:46323;Traxenbichl Bahnhst
+TNOSM5682631227;gare;Pesnica;Pesnica;Pesnica;;;46.609439;15.680572;SI;Europe/Ljubljana;Q995048;R;;nom;5682631227;Q19938281;;;si:63:104:0:1;Pesnica
 TNOSM5682644396;gare;Sentilj;Šentilj;Šentilj;;;46.675111;15.656944;SI;Europe/Ljubljana;Q391446;EC|IR|R;;nom;5682644396;Q12807536;;;si:63:102:0:1;Šentilj
 TNOSM5882660569;gare;Mistelbach Bahnhof;Mistelbach;Mistelbach;;;48.565393;16.56291;AT;Europe/Vienna;Q660428;REX;;nom;5882660569;;;;Pat:43:4202;Mistelbach Bahnhof
 TNOSM593857725;gare;Oberthalheim-Timelkam Bahnhst;Oberthalheim-Timelkam;Oberthalheim-Timelkam;;;48.001823;13.623764;AT;Europe/Vienna;Q542915;R;;nom;593857725;;;;Pat:44:47060;Oberthalheim-Timelkam Bahnhst

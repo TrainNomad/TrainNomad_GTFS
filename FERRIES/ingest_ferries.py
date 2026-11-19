@@ -3,10 +3,14 @@ Télécharge et prépare les GTFS des ferries qui relient les îles Britanniques
   - BRITTANY_FERRIES : Portsmouth / Poole / Plymouth <-> Caen, Cherbourg, Le Havre, Saint-Malo, Roscoff ;
     Rosslare <-> Cherbourg, Cork <-> Roscoff ; Portsmouth / Plymouth / Rosslare <-> Bilbao, Santander
   - TRANSMANCHE : Dieppe <-> Newhaven (DFDS pour le syndicat mixte Transmanche)
+  - IRISH_FERRIES : Dublin <-> Cherbourg
 Les traversées Holyhead / Fishguard <-> Irlande, Cairnryan <-> Belfast, Harwich <-> Hoek van Holland et vers
 l'île de Man sont déjà dans le flux National Rail (UK/ingest_uk_gtfs.py).
 
 Sources : transport.data.gouv.fr (point d'accès national français), adresses de téléchargement stables.
+Irish Ferries ne publie ni GTFS ni NeTEx : FERRIES/irish_ferries_pdf.py transcrit ses PDF d'horaires dans
+FERRIES/irish_ferries_traversees.csv (versionné), dont ce script fait le GTFS. Pas de téléchargement : le CSV
+est à régénérer à la main quand un nouveau PDF paraît (fin des horaires connus affichée à chaque passage).
 
 Fuseau des horaires : la norme GTFS veut toutes les heures dans le fuseau de l'agence (Europe/Paris ici).
 Brittany Ferries la respecte ; Transmanche écrit chaque heure dans le fuseau du port (Newhaven en heure
@@ -24,13 +28,14 @@ Usage :
     python FERRIES/ingest_ferries.py --input-brittany bf.zip --input-transmanche tm.zip
 """
 import argparse
+import csv
 import io
 import logging
 import os
 import statistics
 import sys
 import zipfile
-from datetime import datetime
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 import pandas as pd
@@ -55,7 +60,24 @@ FEEDS = {
         "stop_tz": {"FR:0:ZE:NEWHAVEN:ATOUMOD0118": "Europe/London",
                     "FR:76217:ZE:DIEPPE:ATOUMOD0118": "Europe/Paris"},
     },
+    "irish": {
+        # pas de GTFS publié : construit depuis le CSV tiré des PDF (FERRIES/irish_ferries_pdf.py)
+        "csv": os.path.join(BASE_DIR, "irish_ferries_traversees.csv"),
+        "out": os.path.join(BASE_DIR, "irish_ferries_gtfs.zip"),
+        "stop_tz": {},
+        "heures_agence": True,  # make_irish_gtfs écrit déjà tout dans le fuseau de l'agence
+    },
 }
+
+# Irish Ferries : Dublin Port, terminal 1 (Alexandra Road) ; Cherbourg, gare maritime (même terminal et même
+# code que Brittany Ferries, « FR CER »)
+IF_AGENCY_TZ = "Europe/Dublin"
+IF_STOPS = {
+    "IE DUB": ("Dublin Port (Terminal 1)", 53.34659, -6.19805, "Europe/Dublin"),  # OSM
+    "FR CER": ("Cherbourg", 49.64485, -1.611565, "Europe/Paris"),
+}
+IF_DIRECTIONS = {"DUB-CER": ("IE DUB", "FR CER", 0), "CER-DUB": ("FR CER", "IE DUB", 1)}
+IF_SHIPS = {"WBY": "W.B. Yeats", "IIS": "Isle of Inisheer", "JJ": "James Joyce"}
 DROPPED = {"shapes.txt", "transfers.txt"}
 
 
@@ -102,6 +124,54 @@ def local_time_score(st: pd.DataFrame, tz_of: dict, agency_tz: str) -> tuple[flo
     return (statistics.median(scores) if scores else None), detail
 
 
+def make_irish_gtfs(csv_path: str, dest: str) -> None:
+    """CSV des traversées (date, sens, navire, départ et arrivée le lendemain, en heure locale de chaque port)
+    -> GTFS brut, heures dans le fuseau de l'agence (Europe/Dublin). Un service par combinaison sens / navire /
+    horaires, ses jours dans calendar_dates."""
+    with open(csv_path, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    if not rows:
+        raise ValueError(f"{csv_path} vide")
+    last = max(r["date"] for r in rows)
+    if last < date.today().isoformat():
+        raise ValueError(f"{csv_path} : horaires terminés le {last} : relancer FERRIES/irish_ferries_pdf.py")
+    logging.info(f"   [irish] horaires connus jusqu'au {last}")
+
+    def to_agency(hhmm: str, stop: str, next_day: bool) -> str:
+        shift = utc_offset(IF_AGENCY_TZ) - utc_offset(IF_STOPS[stop][3])  # Cherbourg : -60
+        return hms(minutes(hhmm) + shift + (24 * 60 if next_day else 0))
+
+    services: dict[tuple, list[str]] = {}
+    for r in rows:
+        services.setdefault((r["sens"], r["navire"], r["depart"], r["arrivee"]), []).append(r["date"].replace("-", ""))
+    trips, stop_times, cal = [], [], []
+    for (sens, ship, dep, arr), dates in sorted(services.items()):
+        a, b, direction = IF_DIRECTIONS[sens]
+        sid = f"{sens}_{ship}_{dep.replace(':', '')}_{arr.replace(':', '')}"
+        trips.append({"route_id": "DUB-CER", "service_id": sid, "trip_id": sid, "direction_id": direction,
+                      "trip_headsign": IF_STOPS[b][0], "trip_short_name": IF_SHIPS.get(ship, ship)})
+        t_dep, t_arr = to_agency(dep, a, False), to_agency(arr, b, True)
+        stop_times += [{"trip_id": sid, "arrival_time": t_dep, "departure_time": t_dep, "stop_id": a,
+                        "stop_sequence": 1},
+                       {"trip_id": sid, "arrival_time": t_arr, "departure_time": t_arr, "stop_id": b,
+                        "stop_sequence": 2}]
+        cal += [{"service_id": sid, "date": d, "exception_type": 1} for d in sorted(dates)]
+    tables = {
+        "agency.txt": [{"agency_id": "IF", "agency_name": "Irish Ferries", "agency_url": "https://www.irishferries.com",
+                        "agency_timezone": IF_AGENCY_TZ, "agency_lang": "en"}],
+        "stops.txt": [{"stop_id": k, "stop_name": n, "location_type": 0, "stop_lat": lat, "stop_lon": lon,
+                       "stop_timezone": tz} for k, (n, lat, lon, tz) in IF_STOPS.items()],
+        "routes.txt": [{"route_id": "DUB-CER", "agency_id": "IF", "route_short_name": "IE DUB-FR CER",
+                        "route_long_name": "DUBLIN-CHERBOURG", "route_type": 4}],
+        "trips.txt": trips, "stop_times.txt": stop_times, "calendar_dates.txt": cal,
+    }
+    with zipfile.ZipFile(dest, "w", zipfile.ZIP_DEFLATED) as zo:
+        for n, recs in tables.items():
+            buf = io.StringIO()
+            pd.DataFrame(recs).to_csv(buf, index=False, lineterminator="\n")
+            zo.writestr(n, buf.getvalue())
+
+
 def build(name: str, cfg: dict, src: str) -> dict:
     stats = {}
     with zipfile.ZipFile(src) as z:
@@ -114,7 +184,7 @@ def build(name: str, cfg: dict, src: str) -> dict:
     if "stop_desc" in stops:
         stops["stop_desc"] = ""
 
-    score, detail = local_time_score(st, tz_of, agency_tz)
+    score, detail = (None, []) if cfg.get("heures_agence") else local_time_score(st, tz_of, agency_tz)
     for line in detail:
         logging.info(f"   {line}")
     stats["score_heures_locales"] = None if score is None else round(score, 2)
@@ -149,14 +219,16 @@ def main():
     ap.add_argument("--input-transmanche", help="GTFS Transmanche déjà téléchargé")
     args = ap.parse_args()
     print("=" * 60)
-    print("⛴️  Ingestion GTFS ferries (Brittany Ferries, Transmanche)")
+    print("⛴️  Ingestion GTFS ferries (Brittany Ferries, Transmanche, Irish Ferries)")
     print("=" * 60)
-    given = {"brittany": args.input_brittany, "transmanche": args.input_transmanche}
+    given = {"brittany": args.input_brittany, "transmanche": args.input_transmanche, "irish": None}
     failed = []
     for name, cfg in FEEDS.items():
         raw = given[name] or cfg["out"] + ".raw"
         try:
-            if not given[name]:
+            if "csv" in cfg:
+                make_irish_gtfs(cfg["csv"], raw)
+            elif not given[name]:
                 download(cfg["url"], raw)
             for k, v in build(name, cfg, raw).items():
                 logging.info(f"   [{name}] {k} : {v}")

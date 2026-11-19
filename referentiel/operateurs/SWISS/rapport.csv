@@ -1,7 +1,4 @@
 id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
-TN8501691;8501691;Riffelalp;Riffelalp;gtfs;;Riffelalp;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8501694;8501694;Gornergrat;Gornergrat;gtfs;;Gornergrat;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8506036;8506036;Reutlingen;Reutlingen;gtfs;;Reutlingen;Winterthour;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8506036;8506036;Reutlingen;Reutlingen;gtfs;;;Winterthour;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
 TN8507069;8507069;Ittigen bei Bern;Ittigen bei Bern;nom;0.02;Ittigen;Ittigen;wikidata;vérifier que la gare OSM est la bonne (nom différent)
-TN8509197;8509197;Bergün/Bravuogn;Bergün/Bravuogn;gtfs;;Bergün/Bravuogn;Bergün Filisur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
-TN8530858;8530858;Zermatt Ferienhaus legendär;Zermatt Ferienhaus legendär;gtfs;;Zermatt Ferienhaus legendär;Zermatt;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8509197;8509197;Bergün/Bravuogn;Bergün/Bravuogn;gtfs;;;Bergün Filisur;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass

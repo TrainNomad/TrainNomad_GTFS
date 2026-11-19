@@ -51,6 +51,9 @@ REPORT_PATH = os.path.join(BASE_DIR, "harmonization_report.json")
 
 FORMAT_VERSION = 1
 BORDER_JOIN_MAX_MIN = 15    # train coupé entre deux flux : arrêt à la frontière (changement de locomotive...)
+OVERLAP_JOIN_TOL_MIN = 3     # train publié en morceaux qui se chevauchent : mêmes gares à 3 minutes près
+OVERLAP_JOIN_MIN_STOPS = 2   # ... sur au moins deux gares consécutives
+RECOLLAGES_PATH = os.path.join(BASE_DIR, "recollages_report.json")
 NDAYS = 128                 # jours couverts par les bitsets (2 mots de 64 bits)
 DAYS_BEFORE = 1             # la fenêtre commence la veille (trains de nuit en cours)
 FEED_MAX_AGE_H = 6          # réutilise un GTFS téléchargé depuis moins de 6 h
@@ -312,8 +315,11 @@ SK_AGENCY_OPERATOR = {
 }
 # Flux hongrois (HUNGARY/ingest_hu_gtfs.py) : MÁV reste dans le flux MAV
 HU_AGENCY_OPERATOR = {"GYSEV Zrt.": "GYSEV"}
+# Flux danois (DENMARK/ingest_dk_gtfs.py) : les trains suédois qui y passent vendent leurs propres billets
+DK_AGENCY_OPERATOR = {"Skånetrafiken": "SKANETRAFIKEN", "Snälltåget AB": "SNALLTAGET"}
 AGENCY_OPERATOR = {"DB": DE_AGENCY_OPERATOR, "DB_REGIO": DE_AGENCY_OPERATOR, "CD": CZ_AGENCY_OPERATOR,
-                   "PKP": PL_AGENCY_OPERATOR, "ZSSK": SK_AGENCY_OPERATOR, "MAV": HU_AGENCY_OPERATOR}
+                   "PKP": PL_AGENCY_OPERATOR, "ZSSK": SK_AGENCY_OPERATOR, "MAV": HU_AGENCY_OPERATOR,
+                   "DSB": DK_AGENCY_OPERATOR}
 # Opérateurs sans GTFS propre, ajoutés au réseau dès qu'un de leurs trains y entre (nom affiché par l'API)
 EXTRA_OPERATORS = {
     "OBB": "ÖBB", "PKP": "PKP", "CD": "ČD",
@@ -325,6 +331,7 @@ EXTRA_OPERATORS = {
     "KOLEJE_DOLNOSLASKIE": "Koleje Dolnośląskie", "KOLEJE_WIELKOPOLSKIE": "Koleje Wielkopolskie",
     "KOLEJE_MALOPOLSKIE": "Koleje Małopolskie", "LKA": "ŁKA", "ARRIVA_PL": "Arriva",
     "GYSEV": "GYSEV",
+    "SKANETRAFIKEN": "Skånetrafiken", "SNALLTAGET": "Snälltåget",
 }
 # Marque affichée devant le type des trains régionaux allemands ("HLB Regionalbahn") : le logo en dépend.
 # Les autres compagnies gardent leur nom, sans forme juridique ("NordWestBahn", "metronom").
@@ -425,8 +432,13 @@ IE_TYPES = {"Enterprise": "Enterprise", "InterCity": "Irish Rail InterCity", "Co
 # Ferries entre les îles Britanniques et le continent (FERRIES/ingest_ferries.py) : type affiché par compagnie.
 # Les passagers à pied doivent être enregistrés avant le départ (environ 45 minutes chez Brittany Ferries et
 # DFDS) : comme l'enregistrement Eurostar, le moteur ne propose pas d'arriver au port après.
-FERRY_TYPES = {"BRITTANY_FERRIES": "Brittany Ferries", "TRANSMANCHE": "DFDS"}
+FERRY_TYPES = {"BRITTANY_FERRIES": "Brittany Ferries", "TRANSMANCHE": "DFDS", "IRISH_FERRIES": "Irish Ferries"}
 FERRY_CHECKIN_MIN = 45
+
+# type d'arrêt (colonne « type » du référentiel) -> section stop.kind de network.bin ; le serveur l'expose
+# (« kind »: "port") pour que le front affiche un bateau au lieu d'un train. 0 = gare, et tout arrêt hors
+# référentiel. Section facultative pour le serveur : un network.bin plus ancien se charge sans.
+STOP_KINDS = {"port": 1}
 
 # route_short_name du GTFS SNCB/NMBS (Belgique) -> type affiché
 # (catégories normalisées par SNCB/ingest_sncb_gtfs.py ; S1..S64 sont regroupés sous "S")
@@ -745,6 +757,12 @@ class StationRef:
             m = re.match(r"1:00(\d{7})(?:_|$)", stop_id or "")
             if m:
                 rid = self.by_uic.get(m.group(1))
+        elif op == "DSB":
+            # Danemark : stop_id = UIC à 7 chiffres précédé de zéros ("000008600626" = København H), gares
+            # étrangères comprises (Malmö C 7400003, Hamburg Hbf 8002549)
+            m = re.fullmatch(r"0*(\d{7})", stop_id or "")
+            if m:
+                rid = self.by_uic.get(m.group(1))
         elif op in ("HZPP", "SZ"):
             # Croatie (stop_id interne "i-o523") et Slovénie (stop_id national à 7 chiffres, "1122804" =
             # Ljubljana, qui n'est PAS un UIC) : gares rapprochées seulement par codes.csv
@@ -805,6 +823,7 @@ class Referentiel:
                 "id": g["id"], "name": g.get("nom_force") or g["nom_fr"], "uic": g["uic"],
                 "lat": to_float(g["lat"]), "lon": to_float(g["lon"]), "country": g["pays"], "tz": g["fuseau"],
                 "city": self.top_city(g["ville_id"], g["pays"]),
+                "kind": STOP_KINDS.get(g["type"], 0),
             }
             if g["uic"]:
                 self.by_uic[g["uic"]] = g["id"]
@@ -835,6 +854,33 @@ class Referentiel:
     def match(self, op_id: str, stop_id: str):
         op = op_id.upper()
         return self.by_code.get((op, stop_id)) or self.by_code.get((self.CODE_SOURCES.get(op), stop_id))
+
+    # mots trop courants pour dire que deux noms désignent la même gare
+    GENERIC_WORDS = {"bahnhof", "bf", "hbf", "hauptbahnhof", "gare", "station", "stazione", "estacion", "centraal",
+                     "centrale", "central", "hl", "n", "st", "de", "la", "le", "am", "an", "der", "di", "del", "sur"}
+
+    def near(self, lat, lon, name: str, max_km: float = 0.5):
+        """Gare de la base à moins de max_km de cette position, avec un mot de son nom en commun (hors mots
+        courants) : « Basel Badischer Bahnhof » de stations.csv (sans UIC) = « Basel Bad Bf » de la base."""
+        if lat is None or lon is None:
+            return None
+        if not hasattr(self, "_grid"):
+            self._grid = defaultdict(list)
+            for g in self.gares.values():
+                if g["lat"] is not None and g["lon"] is not None:
+                    self._grid[(int(g["lat"] * 50), int(g["lon"] * 50))].append(g)
+        words = set(normalize_name(name).split()) - self.GENERIC_WORDS
+        if not words:
+            return None
+        ci, cj = int(lat * 50), int(lon * 50)
+        best, best_km = None, max_km
+        for di in (-1, 0, 1):
+            for dj in (-1, 0, 1):
+                for g in self._grid.get((ci + di, cj + dj), ()):
+                    km = haversine_km(lat, lon, g["lat"], g["lon"])
+                    if km <= best_km and words & set(normalize_name(g["name"]).split()):
+                        best, best_km = g["id"], km
+        return best
 
     def named(self, name: str, hint=None, max_km: float = 80.0):
         """Gare de la base reconnue à son seul nom, pour un arrêt publié sans position. hint : position d'un
@@ -966,6 +1012,15 @@ class NetworkBuilder:
                 # même UIC qu'une autre gare de la base (Klaus in Vorarlberg -> Frankenmarkt) : stations.csv seul
                 self.stats["stops_uic_rejected"] += 1
                 gid = None
+            if not gid:
+                # gare de stations.csv sans UIC (ou UIC inconnu de la base) : la gare de la base au même endroit et
+                # de même nom, sinon deux gares au même endroit (Basel Bad Bf des flux suisse et allemand) et
+                # les trains qui y passent d'un flux à l'autre ne se recollent pas
+                row = self.ref.rows[rid]
+                gid = self.gares.near(row["lat"], row["lon"], row["name"]) or \
+                    self.gares.near(*raw_coords(raw), raw.get("stop_name", ""))
+                if gid:
+                    self.stats["stops_matched_near"] += 1
         if not gid and not rid and raw_coords(raw)[0] is None:
             # arrêt publié sans position (gare étrangère à 0,0) : la gare de la base qui porte ce nom
             gid = self.gares.named(raw.get("stop_name", ""), raw.get("_hint"))
@@ -998,6 +1053,7 @@ class NetworkBuilder:
             s = {
                 "id": g["uic"] or gid, "name": g["name"], "lat": lat, "lon": lon,
                 "tz": g["tz"] or raw.get("stop_timezone") or agency_tz, "country": g["country"],
+                "kind": g["kind"],
             }
             city = self.gares.villes.get(g["city"])
             if city:
@@ -1103,7 +1159,11 @@ class NetworkBuilder:
 
         agency = read_gtfs(z, "agency.txt")
         agency_tz = agency["agency_timezone"].iloc[0]
-        self.agency_names = dict(zip(agency["agency_id"], agency["agency_name"])) if "agency_id" in agency.columns else {}
+        # code de contrat de gtfs.de devant le nom ("800759 DB Regio AG Bayern") : retiré aussi ici, pour les GTFS
+        # allemands publiés avant la correction de GERMANY/ingest_de_gtfs.py
+        self.agency_names = ({a: re.sub(r"^(?=[0-9A-Z]{0,5}\d)[0-9A-Z]{6}\s+", "", str(n))
+                              for a, n in zip(agency["agency_id"], agency["agency_name"])}
+                             if "agency_id" in agency.columns else {})
         tz_idx = self.intern(self.timezones, agency_tz)
         logging.info(f"  [{op_id}] fuseau agence : {agency_tz}")
 
@@ -1241,12 +1301,16 @@ class NetworkBuilder:
             if not days:
                 self.stats[f"trips_{op_id}_duplicates"] += 1
                 continue
+            # numline : le « numéro » n'est que la ligne (flux allemands sans numéros de train : "12N", "RE73"),
+            # il ne peut pas servir à reconnaître le même train dans un autre flux
+            numline = op_id == "DB_REGIO"
             if op_id == "DB" and not number:
                 # gtfs.de ne publie pas les numéros de train : sans numéro repris d'un autre flux, la ligne
                 # ("ICE 82", "IC 55"), comme pour le régional ("RE73"). Une catégorie seule ("EC") n'apprend rien.
                 line = route.get("route_short_name", "").strip()
                 if re.search(r"\d", line):
                     number = line
+                    numline = True
                     self.stats["trips_DB_line_as_number"] += 1
             type_idx = self.intern(self.types, ttype)
             key = (trip_op, tuple(seq_stops), tuple(seq_flags), tuple(seq_arr), tuple(seq_dep), number, type_idx, checkin)
@@ -1255,7 +1319,7 @@ class NetworkBuilder:
                 self.trips[key] = {
                     "op": trip_op, "tz": tz_idx, "stops": seq_stops, "flags": seq_flags,
                     "arr": seq_arr, "dep": seq_dep, "number": number, "type": type_idx,
-                    "checkin": checkin, "days": days, "feed": op_idx,
+                    "checkin": checkin, "days": days, "feed": op_idx, "numline": numline,
                 }
             else:
                 t["days"] |= days
@@ -1330,6 +1394,14 @@ class NetworkBuilder:
             m = re.match(r"ES-(\d+)", meta["trip_id"]) or re.match(r"ES-(\d+)", meta["route_id"])
             number = m.group(1) if m else meta["trip_id"]
             ttype = "European Sleeper"
+        elif op_id == "TRAVELSKI":
+            # GTFS communautaire : pas de numéro de train publié (trip_id "TNE-PAZ-OUT-v1")
+            number = meta.get("trip_short_name", "")
+            ttype = "Travelski Night Express"
+        elif op_id == "ZOU":
+            # Transdev Rail Sud Intermétropole (Marseille - Toulon - Nice) : trip_short_name = numéro du train
+            number = meta.get("trip_short_name", "")
+            ttype = "ZOU! Intermétropole"
         elif op_id == "TRENITALIA":
             # trip_short_name = numéro commercial (ServiceJourney.Name), catégorie = PublicCode de la Line
             number = meta.get("trip_short_name", "")
@@ -1427,6 +1499,10 @@ class NetworkBuilder:
             number = meta.get("trip_short_name", "")  # "1840" ; vide pour un bus de remplacement
             label = "Bus" if route.get("route_type") == "3" else "Vlak"
             ttype = f"{BALKAN_BRANDS[op_id]} {label}"
+        elif op_id == "DSB":
+            # DENMARK/ingest_dk_gtfs.py : type dans route_desc ("DSB InterCity", "Öresundståg"), numéro sans zéros
+            number = meta.get("trip_short_name", "")
+            ttype = meta.get("route_desc", "") or route.get("route_desc", "") or "DSB Train"
         elif op_id == "IRISH_RAIL":
             number = meta.get("trip_short_name", "")  # "A101"
             ttype = IE_TYPES.get(meta.get("route_desc", ""), "Irish Rail Train")
@@ -1513,6 +1589,156 @@ class NetworkBuilder:
         self.stats["trips_joined_at_border"] = joined
         logging.info(f"🔗 {joined} trains recollés à la frontière entre deux flux")
 
+    def join_overlapping_trips(self):
+        """Recolle un train publié en morceaux qui se chevauchent dans deux flux. Le Zurich - Prague de nuit est
+        « EC 459 » Zürich HB -> Basel Bad Bf dans le flux suisse, la ligne « 12N » Basel SBB -> Děčín (sans numéro)
+        dans le flux allemand, puis « EC 459 » Bad Schandau -> Praha dans le flux tchèque : les morceaux ne se
+        touchent pas à une gare, ils partagent les dernières gares de l'un et les premières de l'autre.
+
+        A (un flux) et B (un autre flux) sont le même train quand les OVERLAP_JOIN_MIN_STOPS dernières gares de A
+        ou plus sont les premières de B, aux mêmes heures à OVERLAP_JOIN_TOL_MIN près, et que B continue au-delà de
+        A (sans demi-tour). Deux vrais numéros différents (EC 459, ICE 1001) : deux trains distincts, pas de
+        recollage ; une ligne allemande ("12N", numline) ne compte pas comme numéro. Un morceau peut se recoller
+        à plusieurs suites (voitures directes d'un train de nuit vers deux destinations).
+        Le chevauchement doit se trouver à une frontière (un flux s'arrête peu après la sienne) : les gares
+        communes, la gare de A juste avant et celle de B juste après sont dans au moins deux pays. Sans cela, deux
+        trains qui se suivent en ville (RE Kiel -> Hamburg Hbf et ICE Hamburg -> Praha, mêmes minutes à Hamburg
+        Dammtor puis Hamburg Hbf) seraient recollés à tort.
+        Le trajet recollé prend la compagnie et le type du plus long morceau, le premier vrai numéro des deux."""
+        tol = OVERLAP_JOIN_TOL_MIN
+        joined, samples = 0, []
+        done = set()                 # paires (A, B) déjà recollées
+        consumed = defaultdict(int)  # id(trajet) -> jours repris dans un trajet recollé
+        pieces = {}                  # id(trajet) -> trajet
+        for _ in range(3):
+            starts = defaultdict(list)  # (1re gare, 2e gare) -> trajets
+            for t in self.trips.values():
+                if t["days"] and len(t["stops"]) > OVERLAP_JOIN_MIN_STOPS:
+                    starts[(t["stops"][0], t["stops"][1])].append(t)
+            new = []
+            for a in list(self.trips.values()):
+                n = len(a["stops"])
+                if not a["days"] or n <= OVERLAP_JOIN_MIN_STOPS:
+                    continue
+                for k in range(min(n - 1, 12), OVERLAP_JOIN_MIN_STOPS - 1, -1):
+                    i0 = n - k
+                    for b in starts.get((a["stops"][i0], a["stops"][i0 + 1]), ()):
+                        if b is a or b["feed"] == a["feed"] or not b["days"] or len(b["stops"]) <= k:
+                            continue
+                        if (id(a), id(b)) in done:
+                            continue
+                        if b["stops"][:k] != a["stops"][i0:]:
+                            continue
+                        if b["stops"][k] in a["stops"]:
+                            continue  # demi-tour ou boucle : pas la suite de A
+                        zone = a["stops"][i0 - 1:] + [b["stops"][k]]
+                        if len({self.stops[s]["country"] for s in zone} - {"", None}) < 2:
+                            continue  # pas à une frontière
+                        na = "" if a.get("numline") else a["number"]
+                        nb = "" if b.get("numline") else b["number"]
+                        if na and nb and number_key(na) != number_key(nb):
+                            continue
+                        if a["tz"] != b["tz"] and not self.same_offsets(self.timezones[a["tz"]], self.timezones[b["tz"]]):
+                            continue
+                        # B part le même jour que A passe à la 1re gare commune, ou le lendemain (après minuit)
+                        d = max(0, round((a["dep"][i0] - b["dep"][0]) / 1440))
+                        shift = 1440 * d
+                        if any(abs(a["dep"][i0 + j] - (b["dep"][j] + shift)) > tol and
+                               abs(a["arr"][i0 + j] - (b["arr"][j] + shift)) > tol for j in range(k)):
+                            continue
+                        common = a["days"] & (b["days"] >> d)
+                        if not common:
+                            continue
+                        done.add((id(a), id(b)))
+                        main = a if n >= len(b["stops"]) else b
+                        flags = a["flags"][:i0] + [a["flags"][i0 + j] & b["flags"][j] for j in range(k)] + b["flags"][k:]
+                        flags[-1] |= NO_PICKUP
+                        arr = a["arr"] + [x + shift for x in b["arr"][k:]]
+                        dep = a["dep"][:i0] + [max(a["arr"][i0 + j], b["dep"][j] + shift) for j in range(k)] + \
+                            [x + shift for x in b["dep"][k:]]
+                        new.append({**main, "days": common, "stops": a["stops"] + b["stops"][k:], "flags": flags,
+                                    "arr": arr, "dep": dep, "tz": a["tz"], "number": na or nb or main["number"],
+                                    "numline": not (na or nb), "feed": a["feed"]})
+                        consumed[id(a)] |= common
+                        consumed[id(b)] |= common << d
+                        pieces[id(a)], pieces[id(b)] = a, b
+                        joined += 1
+                        if len(samples) < 400:
+                            samples.append({
+                                "depart": self.stops[a["stops"][0]]["name"],
+                                "arrivee": self.stops[b["stops"][-1]]["name"],
+                                "a": f'{self.types[a["type"]]} {a["number"]}'.strip(),
+                                "b": f'{self.types[b["type"]]} {b["number"]}'.strip(),
+                                "gares_communes": [self.stops[s]["name"] for s in b["stops"][:k]],
+                                "jours": bin(common).count("1"),
+                            })
+            if not new:
+                break
+            for t in new:
+                key = (t["op"], tuple(t["stops"]), tuple(t["flags"]), tuple(t["arr"]), tuple(t["dep"]), t["number"],
+                       t["type"], t["checkin"])
+                if key in self.trips:
+                    self.trips[key]["days"] |= t["days"]
+                else:
+                    self.trips[key] = t
+        # morceaux repris dans un trajet recollé : retirés ces jours-là (un morceau recollé lui-même recollé à
+        # un passage suivant disparaît aussi, seul le trajet complet reste)
+        for i, days in consumed.items():
+            pieces[i]["days"] &= ~days
+        self.trips = {k: t for k, t in self.trips.items() if t["days"]}
+        self.stats["trips_joined_overlap"] = joined
+        self.recollages = samples
+        logging.info(f"🔗 {joined} trains recollés sur des gares communes entre deux flux")
+
+    def report_suspect_cuts(self, limit: int = 300):
+        """Trains peut-être encore coupés entre deux flux (recollages_report.json, à vérifier à la main) : un
+        trajet A finit à une gare d'où repart, 0 à 5 minutes plus tard, un trajet B d'un autre flux qui continue
+        dans la même direction, la frontière passée à cette gare (gare de A juste avant et de B juste après dans
+        deux pays), chacun sur au moins 50 km, sans que les numéros permettent de les recoller."""
+        starts = defaultdict(list)
+        for t in self.trips.values():
+            if t["days"]:
+                starts[t["stops"][0]].append(t)
+        out = []
+        for a in self.trips.values():
+            if not a["days"] or len(a["stops"]) < 3:
+                continue
+            end = a["stops"][-1]
+            for b in starts.get(end, ()):
+                if b["feed"] == a["feed"] or len(b["stops"]) < 3 or b["stops"][1] in a["stops"]:
+                    continue
+                d = max(0, round((a["arr"][-1] - b["dep"][0]) / 1440))
+                gap = b["dep"][0] + 1440 * d - a["arr"][-1]
+                if not 0 <= gap <= 5 or not a["days"] & (b["days"] >> d):
+                    continue
+                s0, s1 = self.stops[a["stops"][0]], self.stops[b["stops"][-1]]
+                if self.stops[a["stops"][-2]]["country"] == self.stops[b["stops"][1]]["country"]:
+                    continue  # la coupure n'est pas à une frontière : vraie correspondance
+                se = self.stops[end]
+                if min(haversine_km(s0["lat"] or 0, s0["lon"] or 0, se["lat"] or 0, se["lon"] or 0),
+                       haversine_km(se["lat"] or 0, se["lon"] or 0, s1["lat"] or 0, s1["lon"] or 0)) < 50:
+                    continue  # train de proximité d'un côté ou de l'autre
+                km = haversine_km(s0["lat"] or 0, s0["lon"] or 0, s1["lat"] or 0, s1["lon"] or 0)
+                out.append({
+                    "km": round(km), "gare": self.stops[end]["name"], "attente_min": gap,
+                    "a": f'{self.types[a["type"]]} {a["number"]}'.strip() + f' ({s0["name"]} ->)',
+                    "b": f'{self.types[b["type"]]} {b["number"]}'.strip() + f' (-> {s1["name"]})',
+                })
+        seen, uniq = set(), []
+        for x in sorted(out, key=lambda x: -x["km"]):
+            k = (x["a"], x["b"], x["gare"])
+            if k not in seen:
+                seen.add(k)
+                uniq.append(x)
+        self.stats["suspect_cuts"] = len(uniq)
+        try:
+            with open(RECOLLAGES_PATH, "w", encoding="utf-8") as f:
+                json.dump({"recolles_sur_gares_communes": getattr(self, "recollages", []),
+                           "a_verifier": uniq[:limit]}, f, ensure_ascii=False, indent=1)
+            logging.info(f"🔎 {len(uniq)} trains peut-être encore coupés entre deux flux : {RECOLLAGES_PATH}")
+        except OSError as e:
+            logging.warning(f"⚠️ {RECOLLAGES_PATH} non écrit ({e})")
+
     def build_routes(self):
         """Regroupe les trajets par (suite d'arrêts, règles montée/descente, fuseau, enregistrement)
         puis découpe chaque groupe pour qu'aucun trajet n'en dépasse un autre (condition RAPTOR)."""
@@ -1591,6 +1817,9 @@ class NetworkBuilder:
 
     def build(self):
         self.join_border_trips()
+        self.join_overlapping_trips()
+        self.join_border_trips()  # un morceau recollé peut finir là où repart un autre (même numéro)
+        self.report_suspect_cuts()
         routes = self.build_routes()
 
         # seules les gares desservies sont exportées
@@ -1721,6 +1950,7 @@ class NetworkBuilder:
         w.add("stop.city", stop_city)
         w.add("stop.change", np.array(change, np.uint16))
         w.add("stop.weight", np.array([weight[o] for o in old], np.float32))
+        w.add("stop.kind", np.array([self.stops[o].get("kind", 0) for o in old], np.uint8))
         meta["timezones"] = self.timezones  # stop.tz a pu en ajouter
         w.replace_json("meta", meta)
 

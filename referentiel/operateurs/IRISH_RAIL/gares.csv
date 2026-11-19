@@ -95,8 +95,8 @@ TNOSM5519218141;gare;Howth;Howth;Howth;;;53.389113;-6.074374;IE;Europe/Dublin;Q5
 TNOSM614241268;gare;Hansfield;Hansfield;Hansfield;;;53.387005;-6.442055;IE;Europe/Dublin;Q520000;Commuter;;nom;614241268;Q3969773;;;8240IR0030;Hansfield
 TNOSM663920250;gare;Boyle;Boyle;Boyle;;;53.967628;-8.304706;IE;Europe/Dublin;Q54376918;InterCity;;nom;663920250;Q3969113;;;8500IR0090;Boyle
 TNOSM667718433;gare;Ballyhaunis;Ballyhaunis;Ballyhaunis;;;53.761669;-8.75854;IE;Europe/Dublin;Q54376883;InterCity;;nom;667718433;Q3968961;;;8490IR0079;Ballyhaunis
-TNOSM6740364330;gare;Limerick Colbert;Limerick Colbert;Limerick Colbert;;;52.658878;-8.624685;IE;Europe/Dublin;Q133315;InterCity;;nom;6740364330;Q3969965;;;8400IR0127;Limerick Colbert
-TNOSM6740507736;gare;Limerick Junction;Limerick Junction;Limerick Junction;;;52.501987;-8.198865;IE;Europe/Dublin;Q54376966;InterCity;;nom;6740507736;Q2059829;;;8430IR0100;Limerick Junction
+TNOSM6740364330;gare;Limerick Colbert;Limerick Colbert;Limerick Colbert;;;52.658878;-8.624685;IE;Europe/Dublin;Q133315;Commuter|InterCity;;nom;6740364330;Q3969965;;;8400IR0127;Limerick Colbert
+TNOSM6740507736;gare;Limerick Junction;Limerick Junction;Limerick Junction;;;52.501987;-8.198865;IE;Europe/Dublin;Q54376966;Commuter|InterCity;;nom;6740507736;Q2059829;;;8430IR0100;Limerick Junction
 TNOSM6852246817;gare;Waterford Plunkett;Waterford Plunkett;Waterford Plunkett;;;52.266376;-7.117805;IE;Europe/Dublin;Q54376970;Commuter|InterCity;;nom;6852246817;Q3971355;;;8440IR0106;Waterford Plunkett
 TNOSM6852298568;gare;Kilkenny MacDonagh;Kilkenny MacDonagh;Kilkenny MacDonagh;;;52.654458;-7.243566;IE;Europe/Dublin;Q54376831;InterCity;;nom;6852298568;Q2058784;;;8270IR0064;Kilkenny MacDonagh
 TNOSM6852302249;gare;Thomastown;Thomastown;Thomastown;;;52.523165;-7.148896;IE;Europe/Dublin;Q72741099;InterCity;;nom;6852302249;Q3971112;;;8270IR0065;Thomastown

@@ -1,0 +1,3 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TNIRISH_FERRIES-fr-cer;port;Cherbourg (port);Cherbourg Port;Cherbourg (port);;;49.64485;-1.611565;FR;Europe/Paris;Q21008210;;FERRY;gtfs;;;;;FR CER;Cherbourg (port)
+TNIRISH_FERRIES-ie-dub;port;Dublin Port (terminal 1);Dublin Port Terminal 1;Dublin Port Terminal 1;;;53.34659;-6.19805;IE;Europe/Dublin;Q1761;;FERRY;gtfs;;;;;IE DUB;Dublin Port (terminal 1)

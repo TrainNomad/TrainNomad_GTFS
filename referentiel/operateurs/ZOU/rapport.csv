@@ -1,0 +1,2 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN8775625;87756254;Nice-St-Augustin;Nice-St-Augustin;en_attente;;;Nice-St-Augustin;à compléter;"pas encore cherchée (hors ligne) : relancer sans --offline ; ville sans Wikidata : vérifier ou renseigner ville_parent"

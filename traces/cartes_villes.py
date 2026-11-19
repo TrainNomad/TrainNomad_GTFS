@@ -52,6 +52,9 @@ from globe import DETOUR_MAX, FRONT_DIR, decode_polyline, graphe, km, route  # n
 
 W, H = 1600, 1200
 PAD = 70                 # marge autour des lignes (px)
+# fond dessiné au-delà du cadre : une destination hors des villes du site (train de nuit Budapest -> Kiev) reste
+# sur le fond quand la page élargit la carte pour l'afficher
+MARGE = 300
 GAP = 4.6                # écart entre deux lignes côte à côte (px)
 LINE_W = 3.4
 NEAR_PX = 4.5            # deux lignes à moins de 4,5 px l'une de l'autre partagent les voies
@@ -64,6 +67,8 @@ FERRY_OPERATORS = {"BRITTANY_FERRIES", "DFDS", "TRANSMANCHE", "IRISH_FERRIES", "
 
 BG = "#0e1a2b"
 MINT = "#34d399"
+# frontières des pays : visibles sans concurrencer les lignes de train
+FRONTIERES = 'stroke="#b4c6e0" stroke-opacity=".3" stroke-width="1" stroke-linejoin="round"'
 OPERATORS = {            # couleur, nom affiché
     "SNCF": ("#f4a259", "SNCF"),
     "EUROSTAR": ("#f7d046", "Eurostar"),
@@ -74,6 +79,11 @@ OPERATORS = {            # couleur, nom affiché
     "DB": ("#ff5d6c", "DB"),
     "DB_REGIO": ("#ff9aa8", "DB Regio"),
     "EUROPEAN_SLEEPER": ("#7fa8ff", "European Sleeper"),
+    "TRAVELSKI": ("#93c5fd", "Travelski Night Express"),
+    "ZOU": ("#facc15", "ZOU ! Intermétropole"),
+    "DSB": ("#fb7185", "DSB"),
+    "SKANETRAFIKEN": ("#f472b6", "Öresundståg"),
+    "SNALLTAGET": ("#a78bfa", "Snälltåget"),
     "NATIONAL_RAIL": ("#9fe26a", "National Rail"),
     "CP": ("#ff8a4c", "CP"),
     "SWISS": ("#ff4545", "CFF"),
@@ -83,6 +93,13 @@ OPERATORS = {            # couleur, nom affiché
     "OBB": ("#e8505b", "ÖBB"),
     "CD": ("#4cc9f0", "České dráhy"),
     "TRENORD": ("#57d68d", "Trenord"),
+    "MAV": ("#c084fc", "MÁV"),
+    "PKP": ("#f87171", "PKP Intercity"),
+    "ZSSK": ("#60a5fa", "ZSSK"),
+    "IRISH_RAIL": ("#4ade80", "Irish Rail"),
+    "NI_RAILWAYS": ("#2dd4bf", "NI Railways"),
+    "HZPP": ("#38bdf8", "HŽPP"),
+    "SZ": ("#a3e635", "SŽ"),
     "FERRY": ("#9fd8ff", "Bateau"),
 }
 FALLBACK = ["#f4a259", "#3cc9b4", "#b38cff", "#ff5d6c", "#7fa8ff", "#9fe26a", "#5cc8ff"]
@@ -407,10 +424,11 @@ def rings(geom):
             yield ring
 
 
-def path_d(xy, closed):
-    """Tracé SVG au pixel près ; les points hors de l'image sont ramenés juste au bord (le contour de l'Eurasie
-    ne pèse plus rien), les points à moins de 2 px du précédent sont sautés."""
-    xy = np.round(np.stack([np.clip(xy[:, 0], -4, W + 4), np.clip(xy[:, 1], -4, H + 4)], axis=1)).astype(int)
+def path_d(xy, closed, marge=0):
+    """Tracé SVG au pixel près ; les points hors de l'image (et de sa marge) sont ramenés juste au bord (le contour
+    de l'Eurasie ne pèse plus rien), les points à moins de 2 px du précédent sont sautés."""
+    b = marge + 4
+    xy = np.round(np.stack([np.clip(xy[:, 0], -b, W + b), np.clip(xy[:, 1], -b, H + b)], axis=1)).astype(int)
     keep = [xy[0]]
     for p in xy[1:]:
         if abs(p[0] - keep[-1][0]) + abs(p[1] - keep[-1][1]) >= 2:
@@ -425,7 +443,8 @@ def visible(xy, margin=200):
                 or xy[:, 1].max() < -margin or xy[:, 1].min() > H + margin)
 
 
-def basemap(front, proj):
+def basemap(front, proj, marge=0):
+    """Terres et frontières du cadre W x H, et de `marge` px tout autour (fond de la carte interactive)."""
     atlas = os.path.join(front, "node_modules", "world-atlas")
     with open(os.path.join(atlas, "land-50m.json"), encoding="utf-8") as f:
         land = json.load(f)
@@ -437,8 +456,8 @@ def basemap(front, proj):
             if pts[:, 1].min() > 60 or pts[:, 1].max() < -40 or pts[:, 0].max() < 20:
                 continue  # hors d'Europe : inutile (et loin du centre de la projection)
             xy = proj(pts[:, 0], pts[:, 1])
-            if visible(xy):
-                land_d.append(path_d(xy, True))
+            if visible(xy, marge + 200):
+                land_d.append(path_d(xy, True, marge))
 
     with open(os.path.join(atlas, "countries-50m.json"), encoding="utf-8") as f:
         countries = json.load(f)
@@ -453,8 +472,8 @@ def basemap(front, proj):
         if n < 2 or pts[:, 1].min() > 60 or pts[:, 1].max() < -40 or pts[:, 0].max() < 20:
             continue
         xy = proj(pts[:, 0], pts[:, 1])
-        if visible(xy, 0):
-            border_d.append(path_d(xy, False))
+        if visible(xy, marge):
+            border_d.append(path_d(xy, False, marge))
     return "".join(land_d), "".join(border_d)
 
 
@@ -548,13 +567,16 @@ def settings_cities(front, known, log):
         names += group
     for pair in cfg.get("liaisons", []):
         names += pair
+    names += cfg.get("carteVilles", [])   # villes de la carte seulement, sans page de liaison
     out = {}
     for name in dict.fromkeys(names):
         if name in known:
             continue
         res = api("/stations", q=name, limit=10).get("results", [])
+        # la ville, sinon une gare de la ville, sinon la gare du même nom (Ljubljana : pas de ville dans l'API)
         hit = next((r for r in res if r["type"] == "city" and norm(r["name"]) == norm(name)), None) \
-            or next((r for r in res if norm(r.get("city") or "") == norm(name)), None)
+            or next((r for r in res if norm(r.get("city") or "") == norm(name)), None) \
+            or next((r for r in res if r["type"] == "station" and norm(r["name"]) == norm(name)), None)
         if hit:
             out[name] = {"name": name, "id": hit["id"], "lat": hit["lat"], "lon": hit["lon"]}
         else:
@@ -765,7 +787,7 @@ def render(city, mode, ctx, collected):
                f'<stop offset="1" stop-color="{MINT}" stop-opacity="0"/></radialGradient></defs>')
     out.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
     out.append(f'<path d="{land_d}" fill="url(#dots)" stroke="#9fb3cf" stroke-opacity=".16" stroke-width=".8" fill-rule="nonzero"/>')
-    out.append(f'<path d="{border_d}" fill="none" stroke="#9fb3cf" stroke-opacity=".14" stroke-width=".8"/>')
+    out.append(f'<path d="{border_d}" fill="none" {FRONTIERES}/>')
     out.append(f'<circle cx="{ox:.1f}" cy="{oy:.1f}" r="90" fill="url(#glow)"/>')
 
     def pl(xy):
@@ -942,14 +964,16 @@ def main():
     # signature du cadrage : une ville ajoutée au site recadre la carte ; les lignes calculées avant ne tombent plus
     # sur le fond, la page ne les affiche pas tant qu'elles n'ont pas la même signature que l'index
     proj_sig = f"{gproj.k:.3f}/{gproj.tx:.1f}/{gproj.ty:.1f}"
-    land_d, border_d = basemap(args.front, gproj)
+    land_d, border_d = basemap(args.front, gproj, MARGE)
     with open(os.path.join(out_dir, "europe.svg"), "w", encoding="utf-8") as f:
-        f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">'
+        # le cadre (0 0 W H) et MARGE de fond tout autour : la page place l'image en -MARGE, -MARGE
+        fw, fh = W + 2 * MARGE, H + 2 * MARGE
+        f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{fw}" height="{fh}" viewBox="{-MARGE} {-MARGE} {fw} {fh}">'
                 '<defs><pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">'
                 '<circle cx="3.5" cy="3.5" r="1.15" fill="#c9d6ea" fill-opacity=".5"/></pattern></defs>'
-                f'<rect width="{W}" height="{H}" fill="{BG}"/>'
+                f'<rect x="{-MARGE}" y="{-MARGE}" width="{fw}" height="{fh}" fill="{BG}"/>'
                 f'<path d="{land_d}" fill="url(#dots)" stroke="#9fb3cf" stroke-opacity=".16" stroke-width=".8"/>'
-                f'<path d="{border_d}" fill="none" stroke="#9fb3cf" stroke-opacity=".14" stroke-width=".8"/></svg>')
+                f'<path d="{border_d}" fill="none" {FRONTIERES}/></svg>')
 
     # villes sur la carte de départ : un point chacune, le nom là où il tient (les autres au survol)
     index = {"cities": []}
@@ -975,10 +999,14 @@ def main():
 
     def save_index():
         index.update({"built_at": datetime.now().isoformat(timespec="seconds"), "width": W, "height": H,
-                      "proj": proj_sig,
+                      "margin": MARGE, "proj": proj_sig,
                       "cities": sorted(base.values(), key=lambda c: -weight[c["name"]])})
         with open(index_path, "w", encoding="utf-8") as f:
             json.dump(index, f, ensure_ascii=False, indent=1)
+
+    # tout de suite : les positions des villes suivent le fond qui vient d'être réécrit (sinon, pendant le calcul,
+    # la page montre les anciennes positions sur le nouveau fond)
+    save_index()
 
     fonts = font_face(args.front)
     if args.manquantes:

@@ -32,6 +32,8 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Espagne (Ouigo España) | `ouigo_es` | OUIGO_ES (secret `OUIGO_ES_API_KEY`) |
 | GTFS · Eurostar | `eurostar` | EUROSTAR |
 | GTFS · European Sleeper | `european_sleeper` | EUROPEAN_SLEEPER |
+| GTFS · ZOU ! Intermétropole (Transdev) | `zou` | ZOU (trains Marseille - Toulon - Nice de Transdev, absents du flux SNCF) |
+| GTFS · Travelski Night Express | `travelski` | TRAVELSKI (GTFS communautaire data.gouv.fr ; trains de nuit d'hiver vers la Tarentaise) |
 | GTFS · Portugal (CP) | `cp` | CP (+ prolongement Elvas → Badajoz) |
 | GTFS · Belgique (SNCB) | `sncb` | SNCB |
 | GTFS · Suisse | `swiss` | SWISS |
@@ -46,6 +48,7 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Hongrie (MÁV, GYSEV) | `hungary` | MAV (désactivé : référentiel des gares à construire) |
 | GTFS · Croatie (HŽPP) | `croatia` | HZPP (désactivé : référentiel des gares à construire) |
 | GTFS · Slovénie (SŽ) | `slovenia` | SZ (GTFS national DUJPP, agence SŽ seule ; désactivé : référentiel des gares à construire) |
+| GTFS · Danemark (DSB, Öresundståg, Snälltåget) | `denmark` | DSB (GTFS national Rejseplanen, trains seuls ; Öresundståg et Snälltåget en opérateurs SKANETRAFIKEN et SNALLTAGET) |
 | GTFS · Irlande (Irish Rail, Enterprise) | `ireland` | IRISH_RAIL (désactivé : référentiel des gares à construire) |
 | GTFS · Irlande du Nord (NI Railways) | `northern_ireland` | NI_RAILWAYS (TransXChange converti ; désactivé : référentiel des gares à construire) |
 | GTFS · Ferries (Brittany Ferries, Transmanche) | `ferries` | BRITTANY_FERRIES, TRANSMANCHE (désactivés : référentiel des ports à construire) |

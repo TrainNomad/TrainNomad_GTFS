@@ -1,9 +1,10 @@
-name: GTFS · Ferries (Brittany Ferries, Transmanche)
+name: GTFS · Ferries (Brittany Ferries, Transmanche, Irish Ferries)
 
 # Met à jour le GTFS de cette compagnie dans la Release gtfs-latest, sans toucher aux autres.
 # Le dimanche, l'assemblage du réseau (reseau.yml, 04:00 UTC) reprend tous les GTFS publiés.
 # Lancé à la main, il reconstruit aussi le réseau global juste après (case « assembler »).
-# Sans effet tant que BRITTANY_FERRIES et TRANSMANCHE sont désactivés dans operators.json.
+# Sans effet tant que BRITTANY_FERRIES, TRANSMANCHE et IRISH_FERRIES sont désactivés dans operators.json.
+# Irish Ferries : rien à télécharger, GTFS construit depuis FERRIES/irish_ferries_traversees.csv (versionné).
 
 on:
   schedule:

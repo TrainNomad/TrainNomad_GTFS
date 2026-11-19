@@ -158,7 +158,7 @@ TN8501097;gare;Pampigny-Sévery;Pampigny-Sévery;Pampigny-Sévery;8501097;;46.57
 TN8501098;gare;Montricher;Montricher;Montricher;8501098;;46.596417;6.393061;CH;Europe/Zurich;Q68626;R;;uic;3019483999;Q33442520;;;8501098;Montricher
 TN8501099;gare;L'Isle;L'Isle;L'Isle;8501099;;46.617269;6.411182;CH;Europe/Zurich;Q68387;R;;uic;983788188;Q3098113;;;8501099;L'Isle
 TN8501100;gare;Le Pont;Le Pont;Le Pont;8501100;;46.668688;6.324789;CH;Europe/Zurich;Q69520;R;;uic;2770485920;Q33443007;;;8501100;Le Pont
-TN8501103;gare;Vallorbe;Vallorbe;Vallorbe;8501103;;46.712286;6.370641;CH;Europe/Zurich;Q68587;R|SN|TGV;;uic;52208883;Q3097934;;;8501103;Vallorbe
+TN8501103;gare;Vallorbe;Vallorbe;Vallorbe;8501103;;46.712286;6.370641;CH;Europe/Zurich;Q68587;R|SN|TER|TGV;;uic;52208883;Q3097934;;;8501103;Vallorbe
 TN8501104;gare;Le Day;Le Day;Le Day;8501104;;46.719942;6.399152;CH;Europe/Zurich;Q68587;R|SN;;uic;9743235642;;;;8501104;Le Day
 TN8501105;gare;Bretonnières;Bretonnières;Bretonnières;8501105;;46.715042;6.474728;CH;Europe/Zurich;Q52289;R|SN;;uic;2732142802;Q15964082;;;8501105;Bretonnières
 TN8501106;gare;Croy-Romainmôtier;Croy-Romainmôtier;Croy-Romainmôtier;8501106;;46.696672;6.47809;CH;Europe/Zurich;Q70671;R|SN;;uic;2732142816;Q15964103;;;8501106;Croy-Romainmôtier
@@ -218,7 +218,7 @@ TN8501229;gare;Monthey-En Place;Monthey-En Place;Monthey-En Place;8501229;;46.25
 TN8501300;gare;Montreux;Montreux;Montreux;8501300;;46.43586;6.910369;CH;Europe/Zurich;Q69354;EC|IR|PE|R|RE|SN;;uic;2793870896;Q680986;;;8501300;Montreux
 TN8501301;gare;Territet;Territet;Territet;8501301;;46.426415;6.922733;CH;Europe/Zurich;Q69354;R|SN;;uic;2797706069;Q10952194;;;8501301;Territet
 TN8501302;gare;Veytaux-Chillon;Veytaux-Chillon;Veytaux-Chillon;8501302;;46.417611;6.927739;CH;Europe/Zurich;Q68071;R|SN;;uic;2809386072;Q10952911;;;8501302;Veytaux-Chillon
-TN8501303;gare;Villeneuve VD;Villeneuve VD;Villeneuve VD;8501303;;46.39838;6.926911;CH;Europe/Zurich;Q69972;EC|IR|R|RE|SN;;uic;2809386073;Q3098005;;XSVL;8501303;Villeneuve VD
+TN8501303;gare;Villeneuve VD;Villeneuve VD;Villeneuve VD;8501303;;46.39838;6.926911;CH;Europe/Zurich;Q69972;IR|R|RE|SN;;uic;2809386073;Q3098005;;XSVL;8501303;Villeneuve VD
 TN8501304;gare;Roche VD;Roche VD;Roche VD;8501304;;46.358742;6.927144;CH;Europe/Zurich;Q70224;R|SN;;uic;2893378527;Q31444516;;;8501304;Roche VD
 TN8501374;gare;Fontanivent;Fontanivent;Fontanivent;8501374;;46.452799;6.902256;CH;Europe/Zurich;Q69354;PE|R;;uic;2797768526;Q33445928;;;8501374;Fontanivent
 TN8501375;gare;Chernex;Chernex;Chernex;8501375;;46.446367;6.909559;CH;Europe/Zurich;Q69354;PE|R;;uic;2797750712;Q33445951;;;8501375;Chernex
@@ -246,7 +246,7 @@ TN8501397;gare;Rougemont;Rougemont;Rougemont;8501397;;46.488391;7.208906;CH;Euro
 TN8501398;gare;Saanen;Saanen;Saanen;8501398;;46.488604;7.260502;CH;Europe/Zurich;Q66629;PE|R;;uic;3877871123;Q33446550;;;8501398;Saanen
 TN8501399;gare;Gstaad;Gstaad;Gstaad;8501399;;46.475091;7.284139;CH;Europe/Zurich;Q66629;PE|R;;uic;6314721997;Q33446580;;;8501399;Gstaad
 TN8501400;gare;Aigle;Aigle;Aigle;8501400;;46.316842;6.96377;CH;Europe/Zurich;Q43195;EC|IR|R|RE|SN;;uic;2893316867;Q5845601;;;8501400;Aigle
-TN8501402;gare;Bex;Bex;Bex;8501402;;46.251448;7.00072;CH;Europe/Zurich;Q52261;EC|IR|R|RE|SN;;uic;2892181159;Q12174783;;;8501402;Bex
+TN8501402;gare;Bex;Bex;Bex;8501402;;46.251448;7.00072;CH;Europe/Zurich;Q52261;IR|R|RE|SN;;uic;2892181159;Q12174783;;;8501402;Bex
 TN8501403;gare;Saint-Maurice;Saint-Maurice;Saint-Maurice;8501403;;46.216366;7.00215;CH;Europe/Zurich;Q69545;EC|IR|R|RE|SN;;uic;9905350128;Q10951368;;;8501403;St-Maurice
 TN8501404;gare;Evionnaz;Evionnaz;Evionnaz;8501404;;46.169122;7.025544;CH;Europe/Zurich;Q70163;R;;uic;2888990902;Q10948282;;;8501404;Evionnaz
 TN8501405;gare;Vernayaz;Vernayaz;Vernayaz;8501405;;46.138455;7.038325;CH;Europe/Zurich;Q68713;R;;uic;2888950257;Q10952886;;;8501405;Vernayaz
@@ -322,14 +322,6 @@ TN8501604;gare;Raron;Raron;Raron;8501604;;46.30622;7.801522;CH;Europe/Zurich;Q69
 TN8501605;gare;Visp;Visp;Visp;8501605;;46.29402;7.881488;CH;Europe/Zurich;Q64147;EC|IC|ICE|IR|R;;uic;3080728390;Q801563;;;8501605;Visp
 TN8501609;gare;Brig;Brig;Brig;8501609;;46.319319;7.988264;CH;Europe/Zurich;Q15583;EC|IC|ICE|IR|R|RE;;uic;3080728372;Q2082964;;;8501609;Brig
 TN8501632;gare;Avry-Matran;Avry-Matran;Avry-Matran;8501632;;46.785895;7.080284;CH;Europe/Zurich;Q67073;RE|S|SN;;uic;13333876465;;;;8501632;Avry-Matran
-TN8501679;gare;Findelbach;Findelbach;Findelbach;8501679;;46.009619;7.748849;CH;Europe/Zurich;Q27494;CC;;uic;3110648194;Q17076013;;;8501679;Findelbach
-TN8501688;gare;Täsch;Täsch;Täsch;8501688;;46.067175;7.77454;CH;Europe/Zurich;Q69305;R;;uic;240052843;Q7862167;;;8501688;Täsch
-TN8501689;gare;Zermatt;Zermatt;Zermatt;8501689;;46.024573;7.748129;CH;Europe/Zurich;Q27494;R;;uic;240052938;Q8069422;;;8501689;Zermatt
-TN8501690;gare;Zermatt GGB;Zermatt GGB;Zermatt GGB;8501690;;46.023935;7.748621;CH;Europe/Zurich;Q27494;CC;;nom;13306669016;;;;8501690;Zermatt GGB
-TN8501691;gare;Riffelalp;Riffelalp;Riffelalp;8501691;;46.004897;7.754346;CH;Europe/Zurich;Q27494;CC;;gtfs;;;;;8501691;Riffelalp
-TN8501692;gare;Riffelberg;Riffelberg;Riffelberg;8501692;;45.992945;7.755083;CH;Europe/Zurich;Q27494;CC;;uic;3110648198;Q17100114;;;8501692;Riffelberg
-TN8501693;gare;Rotenboden;Rotenboden;Rotenboden;8501693;;45.984514;7.765238;CH;Europe/Zurich;Q27494;CC;;uic;3110648199;Q15144803;;;8501693;Rotenboden
-TN8501694;gare;Gornergrat;Gornergrat;Gornergrat;8501694;;45.983313;7.782193;CH;Europe/Zurich;Q27494;CC;;gtfs;;;;;8501694;Gornergrat
 TN8501725;gare;Versmont;Versmont;Versmont;8501725;;46.341553;7.007029;CH;Europe/Zurich;Q69610;R;;uic;334362413;Q33450952;;;8501725;Versmont
 TN8501726;gare;Corbier;Corbier;Corbier;8501726;;46.272365;6.952074;CH;Europe/Zurich;Q70165;R;;uic;9556969367;Q33450977;;;8501726;Corbier
 TN8501727;gare;La Clairière;La Clairière;La Clairière;8501727;;46.28831;7.0679;CH;Europe/Zurich;Q70115;R;;uic;983835807;Q33451003;;;8501727;La Clairière
@@ -381,16 +373,16 @@ TN8502112;gare;Schönenwerd SO;Schönenwerd;Schönenwerd;8502112;;47.371326;8.00
 TN8502113;gare;Aarau;Aarau;Aarau;8502113;;47.391456;8.051307;CH;Europe/Zurich;Q14274;IC|IR|RE|S|SN;;uic;3080746008;Q682274;;;8502113;Aarau
 TN8502114;gare;Rupperswil;Rupperswil;Rupperswil;8502114;;47.403224;8.127111;CH;Europe/Zurich;Q65306;S|SN;;uic;3080695756;Q15964233;;;8502114;Rupperswil
 TN8502115;gare;Wildegg;Wildegg;Wildegg;8502115;;47.415534;8.163104;CH;Europe/Zurich;Q65227;RE|S|SN;;uic;3080695763;Q15964286;;;8502115;Wildegg
-TN8502116;gare;Schinznach Bad;Schinznach Bad;Schinznach Bad;8502116;;47.451773;8.166881;CH;Europe/Zurich;Q64099;RE|S|SN;;uic;2090657942;Q15964258;;;8502116;Schinznach Bad
+TN8502116;gare;Schinznach Bad;Schinznach Bad;Schinznach Bad;8502116;;47.451773;8.166881;CH;Europe/Zurich;Q64099;S|SN;;uic;2090657942;Q15964258;;;8502116;Schinznach Bad
 TN8502119;gare;Lenzburg;Lenzburg;Lenzburg;8502119;;47.391141;8.170298;CH;Europe/Zurich;Q69433;IC|IR|RE|S|SN;;uic;3080695749;Q801081;;;8502119;Lenzburg
 TN8502120;gare;Küngoldingen;Küngoldingen;Küngoldingen;8502120;;47.302276;7.941858;CH;Europe/Zurich;Q68220;S;;uic;3893349035;;;;8502120;Küngoldingen
 TN8502121;gare;Walterswil-Striegel;Walterswil-Striegel;Walterswil-Striegel;8502121;;47.319912;7.963222;CH;Europe/Zurich;Q68220;S;;uic;6601485806;Q15964290;;;8502121;Walterswil-Striegel
 TN8502122;gare;Kölliken Oberdorf;Kölliken Oberdorf;Kölliken Oberdorf;8502122;;47.324585;8.018605;CH;Europe/Zurich;Q68106;S;;uic;984024177;Q15964167;;;8502122;Kölliken Oberdorf
-TN8502128;gare;Holderbank AG;Holderbank AG;Holderbank AG;8502128;;47.428662;8.166612;CH;Europe/Zurich;Q65627;RE|S|SN;;uic;2090662658;Q15964142;;;8502128;Holderbank AG
-TN8502200;gare;Ebikon;Ebikon;Ebikon;8502200;;47.08422;8.342394;CH;Europe/Zurich;Q14566;IR|RE|S;;uic;1388516085;Q15964121;;;8502200;Ebikon
-TN8502201;gare;Gisikon-Root;Gisikon-Root;Gisikon-Root;8502201;;47.121182;8.394718;CH;Europe/Zurich;Q14575;IR|RE|S;;uic;1398679344;Q15964146;;;8502201;Gisikon-Root
+TN8502128;gare;Holderbank AG;Holderbank AG;Holderbank AG;8502128;;47.428662;8.166612;CH;Europe/Zurich;Q65627;S|SN;;uic;2090662658;Q15964142;;;8502128;Holderbank AG
+TN8502200;gare;Ebikon;Ebikon;Ebikon;8502200;;47.08422;8.342394;CH;Europe/Zurich;Q14566;IR|S;;uic;1388516085;Q15964121;;;8502200;Ebikon
+TN8502201;gare;Gisikon-Root;Gisikon-Root;Gisikon-Root;8502201;;47.121182;8.394718;CH;Europe/Zurich;Q14575;IR|S;;uic;1398679344;Q15964146;;;8502201;Gisikon-Root
 TN8502202;gare;Rotkreuz;Rotkreuz;Rotkreuz;8502202;;47.141702;8.430553;CH;Europe/Zurich;Q66604;IC|IR|RE|S;;uic;3080372096;Q801379;;;8502202;Rotkreuz
-TN8502203;gare;Cham;Cham;Cham;8502203;;47.178271;8.457477;CH;Europe/Zurich;Q69235;IR|RE|S;;uic;3080372083;Q15964094;;;8502203;Cham
+TN8502203;gare;Cham;Cham;Cham;8502203;;47.178271;8.457477;CH;Europe/Zurich;Q69235;IR|S;;uic;3080372083;Q15964094;;;8502203;Cham
 TN8502204;gare;Zug;Zug;Zug;8502204;;47.173782;8.515133;CH;Europe/Zurich;Q68144;EC|EXT|IC|IR|RE|S;;uic;1280652702;Q178444;;;8502204;Zug
 TN8502205;gare;Walchwil;Walchwil;Walchwil;8502205;;47.0987;8.516848;CH;Europe/Zurich;Q66298;S;;uic;3080372102;Q15964289;;;8502205;Walchwil
 TN8502206;gare;Baar;Baar;Baar;8502206;;47.195166;8.522875;CH;Europe/Zurich;Q64087;IR|RE|S;;uic;3080372077;Q576514;;;8502206;Baar
@@ -515,31 +507,31 @@ TN8503237;gare;Diesbach-Betschwanden;Diesbach-Betschwanden;Diesbach-Betschwanden
 TN8503238;gare;Rüti GL;Rüti;Rüti;8503238;;46.934503;9.012901;CH;Europe/Zurich;Q70695;S;;uic;5349482077;Q5847086;;;8503238;Rüti GL
 TN8503239;gare;Linthal;Linthal;Linthal;8503239;;46.925542;8.997856;CH;Europe/Zurich;Q70695;S;;uic;2421944630;Q5846603;;;8503239;Linthal
 TN8503240;gare;Linthal Braunwaldbahn;Linthal Braunwaldbahn;Linthal Braunwaldbahn;8503240;;46.928101;9.002388;CH;Europe/Zurich;Q70695;S;;uic;7366890425;Q5846605;;;8503240;Linthal Braunwaldbahn
-TN8503280;gare;Steinerberg;Steinerberg;Steinerberg;8503280;;47.052253;8.585244;CH;Europe/Zurich;Q66900;IR|S;;uic;285656003;Q15964254;;;8503280;Steinerberg
+TN8503280;gare;Steinerberg;Steinerberg;Steinerberg;8503280;;47.052253;8.585244;CH;Europe/Zurich;Q66900;S;;uic;285656003;Q15964254;;;8503280;Steinerberg
 TN8503282;gare;Rothenthurm;Rothenthurm;Rothenthurm;8503282;;47.105666;8.67465;CH;Europe/Zurich;Q66962;IR|S;;uic;2255957890;Q15964226;;;8503282;Rothenthurm
 TN8503283;gare;Einsiedeln;Einsiedeln;Einsiedeln;8503283;;47.12808;8.744151;CH;Europe/Zurich;Q68950;RE|S;;uic;1741399260;Q800712;;;8503283;Einsiedeln
 TN8503284;gare;Biberbrugg;Biberbrugg;Biberbrugg;8503284;;47.156592;8.722703;CH;Europe/Zurich;Q69654;IR|RE|S;;uic;1370216560;Q800523;;;8503284;Biberbrugg
-TN8503285;gare;Schindellegi-Feusisberg;Schindellegi-Feusisberg;Schindellegi-Feusisberg;8503285;;47.176432;8.709422;CH;Europe/Zurich;Q69654;IR|RE|S;;uic;1370020172;Q5847203;;;8503285;Schindellegi-Feusisberg
+TN8503285;gare;Schindellegi-Feusisberg;Schindellegi-Feusisberg;Schindellegi-Feusisberg;8503285;;47.176432;8.709422;CH;Europe/Zurich;Q69654;RE|S;;uic;1370020172;Q5847203;;;8503285;Schindellegi-Feusisberg
 TN8503286;gare;Samstagern;Samstagern;Samstagern;8503286;;47.191602;8.686008;CH;Europe/Zurich;Q68227;IR|RE|S;;uic;3074774947;Q5493882;;;8503286;Samstagern
 TN8503287;gare;Burghalden;Burghalden;Burghalden;8503287;;47.208666;8.692848;CH;Europe/Zurich;Q68227;RE|S;;uic;3080372082;Q2157443;;;8503287;Burghalden
-TN8503288;gare;Wollerau;Wollerau;Wollerau;8503288;;47.19553;8.724886;CH;Europe/Zurich;Q69780;IR|S;;uic;1363420493;Q15964299;;;8503288;Wollerau
-TN8503289;gare;Freienbach SOB;Freienbach SOB;Freienbach SOB;8503289;;47.204104;8.759232;CH;Europe/Zurich;Q69780;IR|S;;uic;1363390558;Q15089963;;;8503289;Freienbach SOB
-TN8503290;gare;Biberegg;Biberegg;Biberegg;8503290;;47.093642;8.669392;CH;Europe/Zurich;Q66962;IR|S;;uic;984740011;Q15964054;;;8503290;Biberegg
-TN8503292;gare;Altmatt;Altmatt;Altmatt;8503292;;47.131652;8.696193;CH;Europe/Zurich;Q66962;IR|S;;uic;2255957882;Q15964053;;;8503292;Altmatt
+TN8503288;gare;Wollerau;Wollerau;Wollerau;8503288;;47.19553;8.724886;CH;Europe/Zurich;Q69780;S;;uic;1363420493;Q15964299;;;8503288;Wollerau
+TN8503289;gare;Freienbach SOB;Freienbach SOB;Freienbach SOB;8503289;;47.204104;8.759232;CH;Europe/Zurich;Q69780;S;;uic;1363390558;Q15089963;;;8503289;Freienbach SOB
+TN8503290;gare;Biberegg;Biberegg;Biberegg;8503290;;47.093642;8.669392;CH;Europe/Zurich;Q66962;S;;uic;984740011;Q15964054;;;8503290;Biberegg
+TN8503292;gare;Altmatt;Altmatt;Altmatt;8503292;;47.131652;8.696193;CH;Europe/Zurich;Q66962;S;;uic;2255957882;Q15964053;;;8503292;Altmatt
 TN8503293;gare;Grüenfeld;Grüenfeld;Grüenfeld;8503293;;47.198334;8.687396;CH;Europe/Zurich;Q68227;S;;uic;4575686445;Q5846327;;;8503293;Grüenfeld
-TN8503294;gare;Riedmatt SZ;Riedmatt;Riedmatt;8503294;;47.196721;8.712106;CH;Europe/Zurich;Q69647;IR|S;;uic;2218798340;Q15272547;;;8503294;Riedmatt SZ
-TN8503295;gare;Wilen bei Wollerau;Wilen;Wilen;8503295;;47.197562;8.734371;CH;Europe/Zurich;Q69780;IR|S;;uic;1856416198;Q15964272;;;8503295;Wilen bei Wollerau
+TN8503294;gare;Riedmatt SZ;Riedmatt;Riedmatt;8503294;;47.196721;8.712106;CH;Europe/Zurich;Q69647;S;;uic;2218798340;Q15272547;;;8503294;Riedmatt SZ
+TN8503295;gare;Wilen bei Wollerau;Wilen;Wilen;8503295;;47.197562;8.734371;CH;Europe/Zurich;Q69780;S;;uic;1856416198;Q15964272;;;8503295;Wilen bei Wollerau
 TN8503299;gare;Hurden;Hurden;Hurden;8503299;;47.214127;8.800746;CH;Europe/Zurich;Q69780;S|SN;;uic;1346684212;Q15089954;;;8503299;Hurden
 TN8503300;gare;Kempten;Kempten;Kempten;8503300;;47.332031;8.804772;CH;Europe/Zurich;Q68305;S;;uic;1247149601;Q6387141;;;8503300;Kempten
 TN8503301;gare;Pfäffikon ZH;Pfäffikon ZH;Pfäffikon ZH;8503301;;47.3671;8.784707;CH;Europe/Zurich;Q68269;S|SN;;uic;1247061685;Q15082377;;;8503301;Pfäffikon ZH
 TN8503302;gare;Fehraltorf;Fehraltorf;Fehraltorf;8503302;;47.385153;8.750031;CH;Europe/Zurich;Q70369;S|SN;;uic;1246927285;Q15082526;;;8503302;Fehraltorf
 TN8503303;gare;Illnau;Illnau;Illnau;8503303;;47.408885;8.722707;CH;Europe/Zurich;Q64873;S|SN;;uic;1246649935;Q6000178;;;8503303;Illnau
-TN8503304;gare;Kemptthal;Kemptthal;Kemptthal;8503304;;47.452852;8.705807;CH;Europe/Zurich;Q65759;S|SN;;uic;1241075021;Q15083538;;;8503304;Kemptthal
+TN8503304;gare;Kemptthal;Kemptthal;Kemptthal;8503304;;47.452852;8.705807;CH;Europe/Zurich;Q65759;S;;uic;1241075021;Q15083538;;;8503304;Kemptthal
 TN8503305;gare;Effretikon;Effretikon;Effretikon;8503305;;47.425747;8.687009;CH;Europe/Zurich;Q64873;S|SN;;uic;1241005663;Q5347522;;;8503305;Effretikon
 TN8503306;gare;Dietlikon;Dietlikon;Dietlikon;8503306;;47.420184;8.619198;CH;Europe/Zurich;Q65164;S|SN;;uic;1240354282;Q1960552;;;8503306;Dietlikon
-TN8503307;gare;Bassersdorf;Bassersdorf;Bassersdorf;8503307;;47.438596;8.626439;CH;Europe/Zurich;Q69734;S|SN;;uic;1240277150;Q15088450;;;8503307;Bassersdorf
-TN8503308;gare;Kloten;Kloten;Kloten;8503308;;47.448658;8.583768;CH;Europe/Zurich;Q68165;S|SN;;uic;1240269753;Q1771183;;;8503308;Kloten
-TN8503309;gare;Kloten Balsberg;Kloten Balsberg;Kloten Balsberg;8503309;;47.442302;8.570709;CH;Europe/Zurich;Q68165;S|SN;;uic;2292713288;Q6421405;;;8503309;Kloten Balsberg
+TN8503307;gare;Bassersdorf;Bassersdorf;Bassersdorf;8503307;;47.438596;8.626439;CH;Europe/Zurich;Q69734;S;;uic;1240277150;Q15088450;;;8503307;Bassersdorf
+TN8503308;gare;Kloten;Kloten;Kloten;8503308;;47.448658;8.583768;CH;Europe/Zurich;Q68165;S;;uic;1240269753;Q1771183;;;8503308;Kloten
+TN8503309;gare;Kloten Balsberg;Kloten Balsberg;Kloten Balsberg;8503309;;47.442302;8.570709;CH;Europe/Zurich;Q68165;S;;uic;2292713288;Q6421405;;;8503309;Kloten Balsberg
 TN8503310;gare;Glattbrugg;Glattbrugg;Glattbrugg;8503310;;47.430853;8.558929;CH;Europe/Zurich;Q64224;S|SN;;uic;1321496221;Q5567244;;;8503310;Glattbrugg
 TN8503311;gare;Rümlang;Rümlang;Rümlang;8503311;;47.454068;8.532678;CH;Europe/Zurich;Q67894;S|SN;;uic;1321840643;Q15108737;;;8503311;Rümlang
 TN8503312;gare;Oberglatt ZH;Oberglatt;Oberglatt;8503312;;47.470417;8.510537;CH;Europe/Zurich;Q70022;S|SN;;uic;1327631013;Q15094361;;;8503312;Oberglatt ZH
@@ -550,7 +542,7 @@ TN8503316;gare;Steinmaur;Steinmaur;Steinmaur;8503316;;47.490055;8.447209;CH;Euro
 TN8503317;gare;Schöfflisdorf-Oberweningen;Schöfflisdorf-Oberweningen;Schöfflisdorf-Oberweningen;8503317;;47.497895;8.412109;CH;Europe/Zurich;Q70295;S;;uic;2422703739;Q7433314;;;8503317;Schöfflisdorf-Oberweningen
 TN8503318;gare;Niederweningen Dorf;Niederweningen Dorf;Niederweningen Dorf;8503318;;47.506195;8.380037;CH;Europe/Zurich;Q66411;S;;uic;2422703738;Q7031187;;;8503318;Niederweningen Dorf
 TN8503319;gare;Niederweningen;Niederweningen;Niederweningen;8503319;;47.511346;8.369423;CH;Europe/Zurich;Q66411;S;;uic;1328512534;Q7031189;;;8503319;Niederweningen
-TN8503340;gare;Opfikon;Opfikon;Opfikon;8503340;;47.429951;8.561813;CH;Europe/Zurich;Q64224;S|SN;;uic;1240254898;Q1771424;;;8503340;Opfikon
+TN8503340;gare;Opfikon;Opfikon;Opfikon;8503340;;47.429951;8.561813;CH;Europe/Zurich;Q64224;S;;uic;1240254898;Q1771424;;;8503340;Opfikon
 TN8503400;gare;Bülach;Bülach;Bülach;8503400;;47.523773;8.536555;CH;Europe/Zurich;Q9093;RE|S|SN;;uic;1329773238;Q1097222;;;8503400;Bülach
 TN8503401;gare;Glattfelden;Glattfelden;Glattfelden;8503401;;47.549117;8.523961;CH;Europe/Zurich;Q9093;S|SN;;uic;1353867068;Q5567247;;;8503401;Glattfelden
 TN8503402;gare;Eglisau;Eglisau;Eglisau;8503402;;47.572436;8.516526;CH;Europe/Zurich;Q69175;S|SN;;uic;1353944373;Q5348085;;;8503402;Eglisau
@@ -610,9 +602,9 @@ TN8504020;gare;Oron;Oron;Oron;8504020;;46.572578;6.837054;CH;Europe/Zurich;Q7073
 TN8504021;gare;Vauderens;Vauderens;Vauderens;8504021;;46.621493;6.849958;CH;Europe/Zurich;Q70452;S|SN;;uic;983848011;Q15964278;;;8504021;Vauderens
 TN8504023;gare;Romont FR;Romont;Romont;8504023;;46.693544;6.91205;CH;Europe/Zurich;Q67103;IR|R|RE|S|SN;;uic;206936372;Q5847067;;;8504023;Romont FR
 TN8504024;gare;Villaz-St-Pierre;Villaz-St-Pierre;Villaz-St-Pierre;8504024;;46.720655;6.960477;CH;Europe/Zurich;Q59925980;RE|S|SN;;uic;2390026176;;;;8504024;Villaz-St-Pierre
-TN8504025;gare;Chénens;Chénens;Chénens;8504025;;46.748974;7.000339;CH;Europe/Zurich;Q67079;RE|S|SN;;uic;2822261468;Q15964086;;;8504025;Chénens
-TN8504026;gare;Cottens FR;Cottens;Cottens;8504026;;46.751173;7.034876;CH;Europe/Zurich;Q67714;RE|S|SN;;uic;2390023783;;;;8504026;Cottens FR
-TN8504027;gare;Neyruz FR;Neyruz;Neyruz;8504027;;46.766061;7.064982;CH;Europe/Zurich;Q66466;RE|S|SN;;uic;2390023802;Q15964206;;;8504027;Neyruz FR
+TN8504025;gare;Chénens;Chénens;Chénens;8504025;;46.748974;7.000339;CH;Europe/Zurich;Q67079;S|SN;;uic;2822261468;Q15964086;;;8504025;Chénens
+TN8504026;gare;Cottens FR;Cottens;Cottens;8504026;;46.751173;7.034876;CH;Europe/Zurich;Q67714;S|SN;;uic;2390023783;;;;8504026;Cottens FR
+TN8504027;gare;Neyruz FR;Neyruz;Neyruz;8504027;;46.766061;7.064982;CH;Europe/Zurich;Q66466;S|SN;;uic;2390023802;Q15964206;;;8504027;Neyruz FR
 TN8504030;gare;Villars-sur-Glâne;Villars-sur-Glâne;Villars-sur-Glâne;8504030;;46.789728;7.116301;CH;Europe/Zurich;Q69760;RE|S|SN;;uic;2390026173;;;;8504030;Villars-sur-Glâne
 TN8504040;gare;Corseaux-Cornalles;Corseaux-Cornalles;Corseaux-Cornalles;8504040;;46.470711;6.824199;CH;Europe/Zurich;Q57108;R;;uic;2793245889;Q10948087;;;8504040;Corseaux-Cornalles
 TN8504060;gare;Bossonnens;Bossonnens;Bossonnens;8504060;;46.525612;6.853614;CH;Europe/Zurich;Q68429;S;;nom;13192207806;;;;8504060;Bossonnens
@@ -750,7 +742,7 @@ TN8504487;gare;Rosshäusern;Rosshäusern;Rosshäusern;8504487;;46.934336;7.29682
 TN8504488;gare;Bern Riedbach;Riedbach;Riedbach;8504488;;46.94114;7.334196;CH;Europe/Zurich;Q70;S;;uic;1870460759;Q33466805;;;8504488;Bern Riedbach
 TN8504489;gare;Bern Bümpliz Nord;Bern Bümpliz Nord;Bern Bümpliz Nord;8504489;;46.945852;7.390002;CH;Europe/Zurich;Q70;S;;uic;3081154355;Q33466824;;;8504489;Bern Bümpliz Nord
 TN8504490;gare;Zihlbrücke;Zihlbrücke;Zihlbrücke;8504490;;47.009267;7.030564;CH;Europe/Zurich;Q67387;S;;uic;11808339007;Q33466842;;;8504490;Zihlbrücke
-TN8505000;gare;Luzern;Luzern;Luzern;8505000;;47.050236;8.310297;CH;Europe/Zurich;Q4191;EC|IC|IR|PE|RE|S|SN;;uic;2051794005;Q455450;;;8505000;Luzern
+TN8505000;gare;Luzern;Luzern;Luzern;8505000;;47.050236;8.310297;CH;Europe/Zurich;Q4191;EC|IC|IR|PE|RE|S;;uic;2051794005;Q455450;;;8505000;Luzern
 TN8505001;gare;Meggen;Meggen;Meggen;8505001;;47.05015;8.383052;CH;Europe/Zurich;Q14573;S;;uic;1398833212;Q12174812;;;8505001;Meggen
 TN8505002;gare;Küssnacht am Rigi;Küssnacht am Rigi;Küssnacht am Rigi;8505002;;47.083562;8.433578;CH;Europe/Zurich;Q64183;IR|S;;uic;2074359564;Q801051;;;8505002;Küssnacht am Rigi
 TN8505003;gare;Immensee;Immensee;Immensee;8505003;;47.091528;8.462768;CH;Europe/Zurich;Q64183;S;;uic;3080372091;Q800950;;;8505003;Immensee
@@ -783,8 +775,8 @@ TN8505205;gare;Lavorgo;Lavorgo;Lavorgo;8505205;;46.440961;8.839775;CH;Europe/Zur
 TN8505207;gare;Bodio TI;Bodio;Bodio;8505207;;46.380455;8.906345;CH;Europe/Zurich;Q67763;EXT|IR|S;;uic;3074774937;Q4936630;;;8505207;Bodio TI
 TN8505209;gare;Biasca;Biasca;Biasca;8505209;;46.352076;8.97412;CH;Europe/Zurich;Q67523;EXT|IC|IR|S;;uic;3080372079;Q800520;;;8505209;Biasca
 TN8505212;gare;Castione-Arbedo;Castione-Arbedo;Castione-Arbedo;8505212;;46.2243;9.041624;CH;Europe/Zurich;Q69788;EXT|IR|S;;uic;2266207797;Q5049962;;;8505212;Castione-Arbedo
-TN8505213;gare;Bellinzona;Bellinzona;Bellinzona;8505213;;46.195124;9.029023;CH;Europe/Zurich;Q64044;EC|EXT|IC|IR|RE|S;;uic;3080372078;Q662556;;;8505213;Bellinzona
-TN8505214;gare;Giubiasco;Giubiasco;Giubiasco;8505214;;46.173788;9.003637;CH;Europe/Zurich;Q64044;IC|IR|RE|S;;uic;3080372088;Q5565186;;;8505214;Giubiasco
+TN8505213;gare;Bellinzona;Bellinzona;Bellinzona;8505213;;46.195124;9.029023;CH;Europe/Zurich;Q64044;EC|EXT|IC|IR|S;;uic;3080372078;Q662556;;;8505213;Bellinzona
+TN8505214;gare;Giubiasco;Giubiasco;Giubiasco;8505214;;46.173788;9.003637;CH;Europe/Zurich;Q64044;IC|IR|S;;uic;3080372088;Q5565186;;;8505214;Giubiasco
 TN8505216;gare;Rivera-Bironico;Rivera-Bironico;Rivera-Bironico;8505216;;46.12409;8.924964;CH;Europe/Zurich;Q70633;S;;uic;274374392;Q3970685;;;8505216;Rivera-Bironico
 TN8505217;gare;Mezzovico;Mezzovico;Mezzovico;8505217;;46.094319;8.928553;CH;Europe/Zurich;Q70124;S;;uic;2458547741;Q3970104;;;8505217;Mezzovico
 TN8505218;gare;Taverne-Torricella;Taverne-Torricella;Taverne-Torricella;8505218;;46.056639;8.930384;CH;Europe/Zurich;Q68001;S;;uic;2458507606;Q3971091;;;8505218;Taverne-Torricella
@@ -798,7 +790,7 @@ TN8505304;gare;Capolago-Riva San Vitale;Capolago-Riva San Vitale;Capolago-Riva S
 TN8505305;gare;Mendrisio;Mendrisio;Mendrisio;8505305;;45.86906;8.978634;CH;Europe/Zurich;Q69041;IC|RE|S;;uic;1846603347;Q3970088;;;8505305;Mendrisio
 TN8505306;gare;Balerna;Balerna;Balerna;8505306;;45.846763;9.005113;CH;Europe/Zurich;Q70141;RE|S;;uic;3142358425;Q3968955;;;8505306;Balerna
 TN8505307;gare;Chiasso;Chiasso;Chiasso;8505307;;45.83223;9.031415;CH;Europe/Zurich;Q68111;EC|IC|RE|S;;uic;3092179807;Q683236;;;8505307;Chiasso
-TN8505350;gare;Sattel;Sattel;Sattel;8505350;;47.08159;8.633934;CH;Europe/Zurich;Q65465;IR|S;;uic;11383511039;Q124053863;;;8505350;Sattel
+TN8505350;gare;Sattel;Sattel;Sattel;8505350;;47.08159;8.633934;CH;Europe/Zurich;Q65465;S;;uic;11383511039;Q124053863;;;8505350;Sattel
 TN8505390;gare;Serocca;Serocca;Serocca;8505390;;46.008823;8.905134;CH;Europe/Zurich;Q67109;S;;uic;273490211;Q7455018;;;8505390;Serocca
 TN8505391;gare;Lugano FLP;Lugano FLP;Lugano FLP;8505391;;46.004441;8.947647;CH;Europe/Zurich;Q7024;S;;uic;2472559165;Q17637344;;;8505391;Lugano FLP
 TN8505392;gare;Magliaso Paese;Magliaso Paese;Magliaso Paese;8505392;;45.98326;8.890508;CH;Europe/Zurich;Q70159;S;;uic;273490187;Q6731197;;;8505392;Magliaso Paese
@@ -943,22 +935,22 @@ TN8506196;gare;Lengwil;Lengwil;Lengwil;8506196;;47.626326;9.189651;CH;Europe/Zur
 TN8506197;gare;Kreuzlingen Bernrain;Bernrain;Bernrain;8506197;;47.642404;9.162391;CH;Europe/Zurich;Q63905;S|SN;;uic;263825515;Q33505655;;;8506197;Kreuzlingen Bernrain
 TN8506198;gare;Tägerwilen Dorf;Tägerwilen Dorf;Tägerwilen Dorf;8506198;;47.653532;9.139474;CH;Europe/Zurich;Q66188;S|SN;;uic;2486660801;Q33505670;;;8506198;Tägerwilen Dorf
 TN8506200;gare;Wattwil;Wattwil;Wattwil;8506200;;47.299497;9.086547;CH;Europe/Zurich;Q66601;IR|S;;uic;243717707;Q5847525;;;8506200;Wattwil
-TN8506201;gare;Lichtensteig;Lichtensteig;Lichtensteig;8506201;;47.319592;9.083188;CH;Europe/Zurich;Q66601;IR|S;;uic;243717690;Q33505684;;;8506201;Lichtensteig
+TN8506201;gare;Lichtensteig;Lichtensteig;Lichtensteig;8506201;;47.319592;9.083188;CH;Europe/Zurich;Q66601;S;;uic;243717690;Q33505684;;;8506201;Lichtensteig
 TN8506202;gare;Dietfurt;Dietfurt;Dietfurt;8506202;;47.344553;9.078296;CH;Europe/Zurich;Q1021823;S;;uic;1825303888;Q31454180;;;8506202;Dietfurt
 TN8506203;gare;Bütschwil;Bütschwil;Bütschwil;8506203;;47.359627;9.075085;CH;Europe/Zurich;Q1021823;S;;uic;1825303887;Q31454185;;;8506203;Bütschwil
 TN8506204;gare;Lütisburg;Lütisburg;Lütisburg;8506204;;47.385196;9.07133;CH;Europe/Zurich;Q66857;S;;uic;2502523894;Q31454191;;;8506204;Lütisburg
 TN8506205;gare;Bazenheid;Bazenheid;Bazenheid;8506205;;47.410034;9.069029;CH;Europe/Zurich;Q64860;S;;uic;1825303886;Q31454211;;;8506205;Bazenheid
-TN8506206;gare;Wil SG;Wil SG;Wil SG;8506206;;47.462467;9.04095;CH;Europe/Zurich;Q64077;EXT|IC|IR|S|SN;;uic;19485633;Q5847532;;;8506206;Wil SG
-TN8506208;gare;Uzwil;Uzwil;Uzwil;8506208;;47.43646;9.130932;CH;Europe/Zurich;Q64171;EXT|IC|IR|S|SN;;uic;2489918542;Q5847390;;;8506208;Uzwil
-TN8506209;gare;Flawil;Flawil;Flawil;8506209;;47.415393;9.189333;CH;Europe/Zurich;Q65506;EXT|IC|IR|S|SN;;uic;1317682772;Q5695569;;;8506209;Flawil
-TN8506210;gare;Gossau SG;Gossau;Gossau;8506210;;47.411855;9.253082;CH;Europe/Zurich;Q69777;EXT|IC|IR|S|SN;;uic;1350137496;Q5846308;;;8506210;Gossau SG
+TN8506206;gare;Wil SG;Wil SG;Wil SG;8506206;;47.462467;9.04095;CH;Europe/Zurich;Q64077;EXT|IC|IR|RE|S|SN;;uic;19485633;Q5847532;;;8506206;Wil SG
+TN8506208;gare;Uzwil;Uzwil;Uzwil;8506208;;47.43646;9.130932;CH;Europe/Zurich;Q64171;EXT|IC|IR|RE|S|SN;;uic;2489918542;Q5847390;;;8506208;Uzwil
+TN8506209;gare;Flawil;Flawil;Flawil;8506209;;47.415393;9.189333;CH;Europe/Zurich;Q65506;EXT|IC|IR|RE|S|SN;;uic;1317682772;Q5695569;;;8506209;Flawil
+TN8506210;gare;Gossau SG;Gossau;Gossau;8506210;;47.411855;9.253082;CH;Europe/Zurich;Q69777;EXT|IC|IR|RE|S|SN;;uic;1350137496;Q5846308;;;8506210;Gossau SG
 TN8506211;gare;Arnegg;Arnegg;Arnegg;8506211;;47.442057;9.25206;CH;Europe/Zurich;Q69777;S;;uic;338474121;Q5845723;;;8506211;Arnegg
 TN8506212;gare;Hauptwil;Hauptwil;Hauptwil;8506212;;47.476901;9.251599;CH;Europe/Zurich;Q66307;S;;uic;338474122;Q5846358;;;8506212;Hauptwil
 TN8506213;gare;Bischofszell Stadt;Bischofszell Stadt;Bischofszell Stadt;8506213;;47.492047;9.241564;CH;Europe/Zurich;Q64865;S;;uic;273414949;Q5845838;;;8506213;Bischofszell Stadt
 TN8506214;gare;Sitterdorf;Sitterdorf;Sitterdorf;8506214;;47.505213;9.248959;CH;Europe/Zurich;Q65443;S;;uic;2509540325;Q5847263;;;8506214;Sitterdorf
 TN8506215;gare;Bischofszell Nord;Bischofszell Nord;Bischofszell Nord;8506215;;47.500936;9.234466;CH;Europe/Zurich;Q64865;S;;uic;273415547;Q5845836;;;8506215;Bischofszell Nord
 TN8506216;gare;Kradolf;Kradolf;Kradolf;8506216;;47.524567;9.201739;CH;Europe/Zurich;Q65830;S;;uic;2509529986;Q5846448;;;8506216;Kradolf
-TN8506217;gare;Sulgen;Sulgen;Sulgen;8506217;;47.538853;9.183625;CH;Europe/Zurich;Q65971;IC|RE|S|SN;;uic;108092258;Q801492;;;8506217;Sulgen
+TN8506217;gare;Sulgen;Sulgen;Sulgen;8506217;;47.538853;9.183625;CH;Europe/Zurich;Q65971;RE|S|SN;;uic;108092258;Q801492;;;8506217;Sulgen
 TN8506270;gare;Marktplatz;Marktplatz;Marktplatz;8506270;;47.426417;9.376939;CH;Europe/Zurich;Q25607;S;;uic;2338312976;;;;8506270;St. Gallen Marktplatz
 TN8506271;gare;Gontenbad;Gontenbad;Gontenbad;8506271;;47.331665;9.372338;CH;Europe/Zurich;Q64604;S;;uic;291432639;Q33506110;;;8506271;Gontenbad
 TN8506275;gare;Steinegg;Steinegg;Steinegg;8506275;;47.320647;9.430287;CH;Europe/Zurich;Q107342348;S;;uic;5352651570;;;;8506275;Steinegg
@@ -975,10 +967,10 @@ TN8506286;gare;Appenzell;Appenzell;Appenzell;8506286;;47.328578;9.409523;CH;Euro
 TN8506288;gare;Weissbad;Weissbad;Weissbad;8506288;;47.310446;9.43566;CH;Europe/Zurich;Q107342348;S;;uic;2040544557;Q33506291;;;8506288;Weissbad
 TN8506289;gare;Wasserauen;Wasserauen;Wasserauen;8506289;;47.285706;9.42869;CH;Europe/Zurich;Q107342348;S;;uic;2040794201;Q33506307;;;8506289;Wasserauen
 TN8506290;gare;Herisau;Herisau;Herisau;8506290;;47.390061;9.276773;CH;Europe/Zurich;Q63970;IR|RE|S;;uic;1351166985;Q15964151;;;8506290;Herisau
-TN8506291;gare;Schachen (Herisau);Schachen;Schachen;8506291;;47.384989;9.24294;CH;Europe/Zurich;Q63970;IR|S;;uic;294976499;Q33506338;;;8506291;Schachen (Herisau)
+TN8506291;gare;Schachen (Herisau);Schachen;Schachen;8506291;;47.384989;9.24294;CH;Europe/Zurich;Q63970;S;;uic;294976499;Q33506338;;;8506291;Schachen (Herisau)
 TN8506292;gare;Degersheim;Degersheim;Degersheim;8506292;;47.372655;9.200119;CH;Europe/Zurich;Q64974;IR|S;;uic;1888488782;Q33506347;;;8506292;Degersheim
-TN8506293;gare;Mogelsberg;Mogelsberg;Mogelsberg;8506293;;47.363696;9.141996;CH;Europe/Zurich;Q68864;IR|S;;uic;294976331;Q33506355;;;8506293;Mogelsberg
-TN8506294;gare;Brunnadern-Neckertal;Brunnadern-Neckertal;Brunnadern-Neckertal;8506294;;47.337684;9.130419;CH;Europe/Zurich;Q68864;IR|S;;uic;984734050;Q33506366;;;8506294;Brunnadern-Neckertal
+TN8506293;gare;Mogelsberg;Mogelsberg;Mogelsberg;8506293;;47.363696;9.141996;CH;Europe/Zurich;Q68864;S;;uic;294976331;Q33506355;;;8506293;Mogelsberg
+TN8506294;gare;Brunnadern-Neckertal;Brunnadern-Neckertal;Brunnadern-Neckertal;8506294;;47.337684;9.130419;CH;Europe/Zurich;Q68864;S;;uic;984734050;Q33506366;;;8506294;Brunnadern-Neckertal
 TN8506297;gare;Ebnat-Kappel;Ebnat-Kappel;Ebnat-Kappel;8506297;;47.263692;9.121014;CH;Europe/Zurich;Q66237;S;;uic;984733167;Q33506377;;;8506297;Ebnat-Kappel
 TN8506298;gare;Krummenau;Krummenau;Krummenau;8506298;;47.248883;9.168218;CH;Europe/Zurich;Q70720;S;;uic;1825319424;Q33506386;;;8506298;Krummenau
 TN8506299;gare;Nesslau-Neu St. Johann;Nesslau-Neu St. Johann;Nesslau-Neu St. Johann;8506299;;47.226823;9.197686;CH;Europe/Zurich;Q70720;S;;uic;1825319428;Q15214446;;;8506299;Nesslau-Neu St. Johann
@@ -1034,7 +1026,7 @@ TN8506386;gare;Stoss AR;Stoss;Stoss;8506386;;47.360787;9.495099;CH;Europe/Zurich
 TN8506387;gare;Kreuzstrasse;Kreuzstrasse;Kreuzstrasse;8506387;;47.365647;9.505253;CH;Europe/Zurich;Q68281;S;;uic;7370690895;Q33506993;;;8506387;Kreuzstrasse
 TN8506388;gare;Warmesberg;Warmesberg;Warmesberg;8506388;;47.365336;9.513154;CH;Europe/Zurich;Q68281;S;;uic;7370690894;Q33507002;;;8506388;Warmesberg
 TN8506389;gare;Alter Zoll;Alter Zoll;Alter Zoll;8506389;;47.368511;9.521835;CH;Europe/Zurich;Q68281;S;;uic;2036280057;Q33507013;;;8506389;Alter Zoll
-TN8506392;gare;St. Gallen Haggen;St. Gallen Haggen;St. Gallen Haggen;8506392;;47.407707;9.338174;CH;Europe/Zurich;Q25607;IR|S;;uic;1349112911;Q15964245;;;8506392;St. Gallen Haggen
+TN8506392;gare;St. Gallen Haggen;St. Gallen Haggen;St. Gallen Haggen;8506392;;47.407707;9.338174;CH;Europe/Zurich;Q25607;S;;uic;1349112911;Q15964245;;;8506392;St. Gallen Haggen
 TN8506393;gare;Wittenbach;Wittenbach;Wittenbach;8506393;;47.462842;9.388466;CH;Europe/Zurich;Q66056;S;;uic;1354868350;Q15964309;;;8506393;Wittenbach
 TN8506394;gare;Roggwil-Berg;Roggwil-Berg;Roggwil-Berg;8506394;;47.485607;9.392077;CH;Europe/Zurich;Q65577;S;;uic;1354868348;Q33507037;;;8506394;Roggwil-Berg
 TN8506395;gare;Häggenschwil-Winden;Häggenschwil-Winden;Häggenschwil-Winden;8506395;;47.503865;9.35861;CH;Europe/Zurich;Q65029;S;;uic;25522992;Q33507046;;;8506395;Häggenschwil-Winden
@@ -1043,7 +1035,7 @@ TN8506397;gare;Steinebrunn;Steinebrunn;Steinebrunn;8506397;;47.531581;9.349891;C
 TN8506398;gare;Neukirch-Egnach;Neukirch-Egnach;Neukirch-Egnach;8506398;;47.538777;9.375796;CH;Europe/Zurich;Q65029;S;;uic;5352729692;Q33507079;;;8506398;Neukirch-Egnach
 TN8506400;gare;Sandbüchel;Sandbüchel;Sandbüchel;8506400;;47.475358;9.521706;CH;Europe/Zurich;Q66269;S;;uic;2498640503;Q33507091;;;8506400;Sandbüchel
 TN8506470;gare;Teufen AR Stofel;Stofel;Stofel;8506470;;47.390996;9.379976;CH;Europe/Zurich;Q67209;S;;uic;7169758974;Q33507107;;;8506470;Teufen AR Stofel
-TN8507000;gare;Bern;Bern;Bern;8507000;;46.948909;7.439955;CH;Europe/Zurich;Q70;EC|IC|ICE|IR|RE|S;;uic;3081154349;Q28870;;XSBE;8507000;Bern
+TN8507000;gare;Bern;Bern;Bern;8507000;;46.948909;7.439955;CH;Europe/Zurich;Q70;EC|EXT|IC|ICE|IR|RE|S;;uic;3081154349;Q28870;;XSBE;8507000;Bern
 TN8507002;gare;Ostermundigen;Ostermundigen;Ostermundigen;8507002;;46.956776;7.481438;CH;Europe/Zurich;Q69682;IC|S;;uic;3081154418;Q31454228;;;8507002;Ostermundigen
 TN8507003;gare;Gümligen;Gümligen;Gümligen;8507003;;46.934357;7.505533;CH;Europe/Zurich;Q69765;IC|RE|S;;uic;3081154381;Q31454242;;;8507003;Gümligen
 TN8507005;gare;Rubigen;Rubigen;Rubigen;8507005;;46.899198;7.545318;CH;Europe/Zurich;Q67821;S;;uic;3081154426;Q31454278;;;8507005;Rubigen
@@ -1129,7 +1121,7 @@ TN8507478;gare;Frutigen;Frutigen;Frutigen;8507478;;46.588931;7.651295;CH;Europe/
 TN8507480;gare;Reichenbach im Kandertal;Reichenbach;Reichenbach;8507480;;46.625144;7.689868;CH;Europe/Zurich;Q66378;R|RE;;uic;3080728388;Q15272265;;;8507480;Reichenbach im Kandertal
 TN8507481;gare;Mülenen;Mülenen;Mülenen;8507481;;46.638031;7.691262;CH;Europe/Zurich;Q66378;R|RE;;uic;3080728385;Q15260581;;;8507481;Mülenen
 TN8507483;gare;Spiez;Spiez;Spiez;8507483;;46.686585;7.680035;CH;Europe/Zurich;Q69484;EC|IC|ICE|PE|R|RE;;uic;3080728389;Q1709253;;;8507483;Spiez
-TN8507492;gare;Interlaken Ost;Interlaken Ost;Interlaken Ost;8507492;;46.690448;7.868996;CH;Europe/Zurich;Q68103;IC|ICE|IR|PE|R|RE;;uic;3114762827;Q672006;;;8507492;Interlaken Ost
+TN8507492;gare;Interlaken Ost;Interlaken Ost;Interlaken Ost;8507492;;46.690448;7.868996;CH;Europe/Zurich;Q68103;IC|ICE|PE|R|RE;;uic;3114762827;Q672006;;;8507492;Interlaken Ost
 TN8507493;gare;Interlaken West;Interlaken West;Interlaken West;8507493;;46.682791;7.851602;CH;Europe/Zurich;Q68103;IC|ICE|PE|RE;;uic;3080372092;Q663794;;;8507493;Interlaken West
 TN8507550;gare;Allmend;Allmend;Allmend;8507550;;46.594347;7.932255;CH;Europe/Zurich;Q64011;CC;;uic;5292629070;Q4732953;;;8507550;Allmend
 TN8507552;gare;Brandegg;Brandegg;Brandegg;8507552;;46.6089;8.011215;CH;Europe/Zurich;Q64004;CC;;uic;4377500956;Q4956623;;;8507552;Brandegg
@@ -1221,13 +1213,13 @@ TN8508293;gare;Zell LU;Zell LU;Zell LU;8508293;;47.136791;7.926295;CH;Europe/Zur
 TN8508294;gare;Gettnau;Gettnau;Gettnau;8508294;;47.140134;7.970145;CH;Europe/Zurich;Q14627;S;;uic;3081128598;Q33510164;;;8508294;Gettnau
 TN8508295;gare;Willisau;Willisau;Willisau;8508295;;47.122609;7.996772;CH;Europe/Zurich;Q14627;S;;uic;3081128639;Q33510180;;;8508295;Willisau
 TN8508297;gare;Menznau;Menznau;Menznau;8508297;;47.083436;8.041075;CH;Europe/Zurich;Q14607;S;;uic;3081128616;Q33510199;;;8508297;Menznau
-TN8508301;gare;Ringgenberg;Ringgenberg;Ringgenberg;8508301;;46.703808;7.899933;CH;Europe/Zurich;Q66582;R;;uic;8131633128;Q7334867;;;8508301;Ringgenberg
-TN8508302;gare;Niederried;Niederried;Niederried;8508302;;46.71636;7.928747;CH;Europe/Zurich;Q66134;R;;uic;6034006570;Q7031161;;;8508302;Niederried
-TN8508303;gare;Oberried am Brienzersee;Oberried;Oberried;8508303;;46.736559;7.958859;CH;Europe/Zurich;Q66000;R;;uic;6034006571;Q10640342;;;8508303;Oberried am Brienzersee
-TN8508304;gare;Ebligen;Ebligen, Bahnhof;Ebligen, Bahnhof;8508304;;46.752632;7.990008;CH;Europe/Zurich;Q66000;R;;uic;6034006572;Q10640344;;;8508304;Ebligen
-TN8508305;gare;Brienz;Brienz;Brienz;8508305;;46.754875;8.038836;CH;Europe/Zurich;Q65268;IR|PE|R;;uic;6034007293;;;;8508305;Brienz
-TN8508306;gare;Brienzwiler;Brienzwiler;Brienzwiler;8508306;;46.745671;8.090633;CH;Europe/Zurich;Q65211;R;;uic;6034007290;Q4967056;;;8508306;Brienzwiler
-TN8508308;gare;Meiringen;Meiringen;Meiringen;8508308;;46.727359;8.184271;CH;Europe/Zurich;Q64123;IR|PE|R;;uic;5007055738;Q5544215;;;8508308;Meiringen
+TN8508301;gare;Ringgenberg;Ringgenberg;Ringgenberg;8508301;;46.703808;7.899933;CH;Europe/Zurich;Q66582;PE|R;;uic;8131633128;Q7334867;;;8508301;Ringgenberg
+TN8508302;gare;Niederried;Niederried;Niederried;8508302;;46.71636;7.928747;CH;Europe/Zurich;Q66134;PE|R;;uic;6034006570;Q7031161;;;8508302;Niederried
+TN8508303;gare;Oberried am Brienzersee;Oberried;Oberried;8508303;;46.736559;7.958859;CH;Europe/Zurich;Q66000;PE|R;;uic;6034006571;Q10640342;;;8508303;Oberried am Brienzersee
+TN8508304;gare;Ebligen;Ebligen, Bahnhof;Ebligen, Bahnhof;8508304;;46.752632;7.990008;CH;Europe/Zurich;Q66000;PE|R;;uic;6034006572;Q10640344;;;8508304;Ebligen
+TN8508305;gare;Brienz;Brienz;Brienz;8508305;;46.754875;8.038836;CH;Europe/Zurich;Q65268;PE|R;;uic;6034007293;;;;8508305;Brienz
+TN8508306;gare;Brienzwiler;Brienzwiler;Brienzwiler;8508306;;46.745671;8.090633;CH;Europe/Zurich;Q65211;PE|R;;uic;6034007290;Q4967056;;;8508306;Brienzwiler
+TN8508308;gare;Meiringen;Meiringen;Meiringen;8508308;;46.727359;8.184271;CH;Europe/Zurich;Q64123;PE|R;;uic;5007055738;Q5544215;;;8508308;Meiringen
 TN8508309;gare;Brünig-Hasliberg;Brünig-Hasliberg;Brünig-Hasliberg;8508309;;46.757789;8.138672;CH;Europe/Zurich;Q64123;PE;;uic;6034007289;Q4981938;;;8508309;Brünig-Hasliberg
 TN8508310;gare;Lungern;Lungern;Lungern;8508310;;46.786347;8.163492;CH;Europe/Zurich;Q64292;PE;;uic;6034007288;Q6704319;;;8508310;Lungern
 TN8508311;gare;Kaiserstuhl OW;Kaiserstuhl;Kaiserstuhl;8508311;;46.814372;8.17556;CH;Europe/Zurich;Q64292;PE;;uic;6034007287;Q6348526;;;8508311;Kaiserstuhl OW
@@ -1242,9 +1234,9 @@ TN8508320;gare;Hergiswil Matt;Hergiswil Matt;Hergiswil Matt;8508320;;46.993721;8
 TN8508321;gare;Luzern Allmend/Messe;Luzern Allmend/Messe;Luzern Allmend/Messe;8508321;;47.035109;8.303277;CH;Europe/Zurich;Q4191;S;;uic;2055934582;Q10640348;;;8508321;Luzern Allmend/Messe
 TN8508323;gare;Sarnen Nord;Sarnen Nord;Sarnen Nord;8508323;;46.900472;8.249407;CH;Europe/Zurich;Q63964;S;;uic;4562293489;Q33510439;;;8508323;Sarnen Nord
 TN8508327;gare;Ewil Maxon;Ewil Maxon;Ewil Maxon;8508327;;46.860657;8.218661;CH;Europe/Zurich;Q64614;S;;uic;3103763722;Q5419036;;;8508327;Ewil Maxon
-TN8508329;gare;Brienz West;Brienz West;Brienz West;8508329;;46.757302;8.020366;CH;Europe/Zurich;Q65268;R;;uic;13474642114;Q4967054;;;8508329;Brienz West
+TN8508329;gare;Brienz West;Brienz West;Brienz West;8508329;;46.757302;8.020366;CH;Europe/Zurich;Q65268;PE|R;;uic;13474642114;Q4967054;;;8508329;Brienz West
 TN8508359;gare;Innertkirchen Kraftwerk (Bahn);Innertkirchen Kraftwerk;Innertkirchen Kraftwerk;8508359;;46.702307;8.232538;CH;Europe/Zurich;Q69231;R;;uic;4920624335;Q33510803;;;8508359;Innertkirchen Kraftwerk (Bahn)
-TN8508384;gare;Niederrickenbach Station;Niederrickenbach Station;Niederrickenbach Station;8508384;;46.928124;8.395924;CH;Europe/Zurich;Q64351;IR|S;;uic;3096963295;Q7031159;;;8508384;Niederrickenbach Station
+TN8508384;gare;Niederrickenbach Station;Niederrickenbach Station;Niederrickenbach Station;8508384;;46.928124;8.395924;CH;Europe/Zurich;Q64351;IR;;uic;3096963295;Q7031159;;;8508384;Niederrickenbach Station
 TN8508390;gare;Stansstad;Stansstad;Stansstad;8508390;;46.976305;8.336692;CH;Europe/Zurich;Q64285;IR|S;;uic;3095850718;Q7600185;;;8508390;Stansstad
 TN8508391;gare;Stans;Stans;Stans;8508391;;46.958459;8.366564;CH;Europe/Zurich;Q63931;IR|S;;uic;3096774485;Q7600170;;;8508391;Stans
 TN8508392;gare;Dallenwil;Dallenwil;Dallenwil;8508392;;46.933667;8.392034;CH;Europe/Zurich;Q64575;IR|S;;uic;3096963294;Q5211468;;;8508392;Dallenwil
@@ -1351,9 +1343,9 @@ TN8509373;gare;Bernina Lagalb;Bernina Lagalb;Bernina Lagalb;8509373;;46.436339;9
 TN8509400;gare;Oberriet SG;Oberriet SG;Oberriet SG;8509400;;47.323491;9.571298;CH;Europe/Zurich;Q65263;S;;uic;1367639353;Q15964221;;;8509400;Oberriet SG
 TN8509401;gare;Rüthi SG;Rüthi;Rüthi;8509401;;47.286748;9.536031;CH;Europe/Zurich;Q66890;S;;uic;2514357667;Q15964241;;;8509401;Rüthi SG
 TN8509402;gare;Salez-Sennwald;Salez-Sennwald;Salez-Sennwald;8509402;;47.241475;9.502283;CH;Europe/Zurich;Q69393;S;;uic;1343271671;Q15964240;;;8509402;Salez-Sennwald
-TN8509404;gare;Buchs SG;Buchs SG;Buchs SG;8509404;;47.168712;9.478766;CH;Europe/Zurich;Q68277;EC|IR|NJ|RE|RJX|S;;uic;1339769454;Q15964098;;;8509404;Buchs SG
+TN8509404;gare;Buchs SG;Buchs SG;Buchs SG;8509404;;47.168712;9.478766;CH;Europe/Zurich;Q68277;IR|NJ|RE|RJX|S;;uic;1339769454;Q15964098;;;8509404;Buchs SG
 TN8509406;gare;Sevelen;Sevelen;Sevelen;8509406;;47.125366;9.493773;CH;Europe/Zurich;Q69612;RE|S;;uic;1338388633;Q15964263;;;8509406;Sevelen
-TN8509411;gare;Sargans;Sargans;Sargans;8509411;;47.045386;9.445369;CH;Europe/Zurich;Q64571;EC|IC|ICE|IR|NJ|RE|RJX|S;;uic;1333665650;Q605247;;;8509411;Sargans
+TN8509411;gare;Sargans;Sargans;Sargans;8509411;;47.045386;9.445369;CH;Europe/Zurich;Q64571;IC|ICE|IR|NJ|RE|RJX|S;;uic;1333665650;Q605247;;;8509411;Sargans
 TN8509412;gare;Mels;Mels;Mels;8509412;;47.05373;9.417718;CH;Europe/Zurich;Q67027;IR|S;;uic;1344340307;Q15964184;;;8509412;Mels
 TN8509413;gare;Flums;Flums;Flums;8509413;;47.096556;9.347927;CH;Europe/Zurich;Q69954;IR|S;;uic;2042234574;Q15964105;;;8509413;Flums
 TN8509414;gare;Walenstadt;Walenstadt;Walenstadt;8509414;;47.119913;9.312967;CH;Europe/Zurich;Q64191;IR|S;;uic;2048248456;Q15964276;;;8509414;Walenstadt
@@ -1425,8 +1417,6 @@ TN8530789;gare;Bioggio Molinazzo;Bioggio Molinazzo;Bioggio Molinazzo;8530789;;46
 TN8530790;gare;Sorengo Laghetto;Sorengo Laghetto;Sorengo Laghetto;8530790;;45.997046;8.933621;CH;Europe/Zurich;Q69995;S;;uic;273490207;Q7563427;;;8530790;Sorengo Laghetto
 TN8530799;gare;Meiringen Alpbach;Alpbach MIB;Alpbach MIB;8530799;;46.723133;8.190044;CH;Europe/Zurich;Q64123;R;;uic;6034006576;Q33512566;;;8530799;Meiringen Alpbach
 TN8530800;gare;Innertkirchen Unterwasser;Unterwasser;Unterwasser;8530800;;46.708378;8.225915;CH;Europe/Zurich;Q69231;R;;uic;6034006574;Q33512574;;;8530800;Innertkirchen Unterwasser
-TN8530801;gare;Aareschlucht Ost (Bahn);Aareschlucht Ost;Aareschlucht Ost;8530801;;46.712008;8.21789;CH;Europe/Zurich;Q69231;R;;uic;292275663;Q33512582;;;8530801;Aareschlucht Ost (Bahn)
-TN8530858;gare;Zermatt Ferienhaus legendär;Zermatt Ferienhaus legendär;Zermatt Ferienhaus legendär;8530858;;46.016434;7.750123;CH;Europe/Zurich;Q27494;CC;;gtfs;;;;;8530858;Zermatt Ferienhaus legendär
 TN8587727;gare;Les Ripes;Les Ripes;Les Ripes;8587727;;46.592716;6.60827;CH;Europe/Zurich;Q68739;R;;uic;3223613357;Q3126223;;;8587727;Les Ripes
 TN8588122;gare;Landschlacht;Landschlacht;Landschlacht;8588122;;47.628896;9.246956;CH;Europe/Zurich;Q69233;S|SN;;uic;678571598;Q31454036;;;8588122;Landschlacht
 TN8588193;gare;Gryon Bois-Gentil;Gryon Bois-Gentil;Gryon Bois-Gentil;8588193;;46.277718;7.067548;CH;Europe/Zurich;Q69522;R;;uic;983834950;Q33515933;;;8588193;Gryon Bois-Gentil

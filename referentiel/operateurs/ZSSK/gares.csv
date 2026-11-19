@@ -590,7 +590,7 @@ TN5615730;gare;Kendice;Kendice;Kendice;5615730;;48.926717;21.247468;SK;Europe/Br
 TN5615736;gare;Tlmače;Tlmače;Tlmače;5615736;;48.290338;18.540821;SK;Europe/Bratislava;Q239637;Os;;uic;563298344;Q111691825;;;5615736;Tlmače
 TN5615740;gare;Obišovce;Obišovce;Obišovce;5615740;;48.862192;21.238663;SK;Europe/Bratislava;Q480446;Os;;uic;27177016;Q86666666;;;5615740;Obišovce
 TN5615746;gare;Hronské Kľačany;Hronské Kľačany;Hronské Kľačany;5615746;;48.246824;18.582223;SK;Europe/Bratislava;Q1008190;Os;;uic;563298589;Q111702082;;;5615746;Hronské Kľačany
-TN5615750;gare;Prešov;Prešov;Prešov;5615750;;48.983176;21.248984;SK;Europe/Bratislava;Q26119;EC|Ex|LE|Os|REX;;uic;346420319;Q54328697;;;5615750;Prešov
+TN5615750;gare;Prešov;Prešov;Prešov;5615750;;48.983176;21.248984;SK;Europe/Bratislava;Q26119;EC|LE|Os|REX;;uic;346420319;Q54328697;;;5615750;Prešov
 TN5615756;gare;Kozárovce;Kozárovce;Kozárovce;5615756;;48.310722;18.536187;SK;Europe/Bratislava;Q667721;Os|R;;uic;563298349;Q55281184;;;5615756;Kozárovce
 TN5615760;gare;Prešov mesto;Prešov mesto;Prešov mesto;5615760;;48.994256;21.234043;SK;Europe/Bratislava;Q26119;Os|REX;;uic;1180654064;Q86666641;;;5615760;Prešov mesto
 TN5615770;gare;Haniska pri Prešove;Haniska pri Prešove;Haniska pri Prešove;5615770;;48.956599;21.240924;SK;Europe/Bratislava;Q990017;Os;;uic;410288699;Q86666657;;;5615770;Haniska pri Prešove

@@ -45,7 +45,7 @@ TN7009920;gare;Caldercruix;Caldercruix;Caldercruix;7009920;;55.888048;-3.888718;
 TN7009960;gare;Reading Green Park;Reading Green Park;Reading Green Park;7009960;;51.426594;-1.001364;GB;Europe/London;Q1473780;Great Western Railway;BUS;code;8757895760;Q7300513;;;RGP;Reading Green Park
 TN7010030;gare;Bescot Stadium;Bescot Stadium;Bescot Stadium;7010030;;52.563032;-1.99108;GB;Europe/London;Q2571235;West Midlands Trains;BUS;code;21257422;Q4896204;;;BSC;Bescot Stadium
 TN7010040;gare;Aston;Aston;Aston;7010040;;52.50442;-1.872038;GB;Europe/London;Q20986424;West Midlands Trains;BUS;code;5920221964;Q1978485;;;AST;Aston
-TN7010060;gare;Birmingham Snow Hill;Birmingham Snow Hill;Birmingham Snow Hill;7010060;;52.483798;-1.899659;GB;Europe/London;Q20986424;Chiltern Railways|West Midlands Trains;;code;20984433;Q3280363;;;BSW;Birmingham Snow Hill
+TN7010060;gare;Birmingham Snow Hill;Birmingham Snow Hill;Birmingham Snow Hill;7010060;;52.483798;-1.899659;GB;Europe/London;Q20986424;Chiltern Railways|West Midlands Trains;BUS;code;20984433;Q3280363;;;BSW;Birmingham Snow Hill
 TN7010100;gare;Tame Bridge Parkway;Tame Bridge Parkway;Tame Bridge Parkway;7010100;;52.552285;-1.976025;GB;Europe/London;Q212826;West Midlands Trains;BUS;code;21257431;Q1881868;;;TAB;Tame Bridge Parkway
 TN7010110;gare;Witton;Witton;Witton;7010110;;52.512194;-1.883933;GB;Europe/London;Q20986424;West Midlands Trains;BUS;code;7790315845;Q2791793;;;WTT;Witton
 TN7010160;gare;Cannock;Cannock;Cannock;7010160;;52.686097;-2.022351;GB;Europe/London;Q992665;West Midlands Trains;BUS;code;7656865229;Q4016379;;;CAO;Cannock
@@ -116,7 +116,7 @@ TN7012290;gare;Kidsgrove;Kidsgrove;Kidsgrove;7012290;;53.086421;-2.244923;GB;Eur
 TN7012430;gare;Crewe;Crewe;Crewe;7012430;;53.088963;-2.432636;GB;Europe/London;Q648810;Avanti West Coast|Caledonian Sleeper|CrossCountry|East Midlands Railway|Lumo|Northern|Transport for Wales|West Midlands Trains;BUS;code;6004512801;Q3397336;;;CRE;Crewe
 TN7012470;gare;Nantwich;Nantwich;Nantwich;7012470;;53.063548;-2.518731;GB;Europe/London;Q1077003;Transport for Wales;BUS;code;1080583474;Q2082695;;;NAN;Nantwich
 TN7012610;gare;Sandbach;Sandbach;Sandbach;7012610;;53.150245;-2.393714;GB;Europe/London;Q2321266;Northern;BUS;code;6416944409;Q1829957;;;SDB;Sandbach
-TN7012683;gare;Stafford;Stafford;Stafford;7012683;;52.803581;-2.122626;GB;Europe/London;Q826782;Avanti West Coast|CrossCountry|Lumo|West Midlands Trains;BUS;code;7140221666;Q2393603;;;STA;Stafford
+TN7012683;gare;Stafford;Stafford;Stafford;7012683;;52.803581;-2.122626;GB;Europe/London;Q826782;Avanti West Coast|CrossCountry|West Midlands Trains;BUS;code;7140221666;Q2393603;;;STA;Stafford
 TN7012820;gare;Blythe Bridge;Blythe Bridge;Blythe Bridge;7012820;;52.96783;-2.066925;GB;Europe/London;Q5470588;East Midlands Railway;;code;58978505;Q2525068;;;BYB;Blythe Bridge
 TN7012910;gare;Lichfield Trent Valley;Lichfield Trent Valley;Lichfield Trent Valley;7012910;;52.686826;-1.799826;GB;Europe/London;Q207371;Avanti West Coast|West Midlands Trains;BUS;code;6082898473;Q2633539;;;LTV;Lichfield Trent Valley
 TN7013000;arret_car;Stow On Wold Bus;Stow On Wold Bus;Stow On Wold Bus;7013000;;51.92949;-1.723631;GB;Europe/London;Q1026648;;BUS;gtfs;;;;;SWW;Stow On Wold Bus
@@ -196,7 +196,7 @@ TN7015970;arret_car;Chipping Norton Bus;Chipping Norton Bus;Chipping Norton Bus;
 TN7016240;gare;Attenborough;Attenborough;Attenborough;7016240;;52.906413;-1.231152;GB;Europe/London;Q3296578;CrossCountry|East Midlands Railway;BUS;code;6415345182;Q2098552;;;ATB;Attenborough
 TN7016250;gare;Beeston;Beeston;Beeston;7016250;;52.920794;-1.207507;GB;Europe/London;Q1791022;CrossCountry|East Midlands Railway;BUS;code;4292892169;Q3299120;;;BEE;Beeston
 TN7016550;gare;Kelvindale;Kelvindale;Kelvindale;7016550;;55.893482;-4.31008;GB;Europe/London;Q4093;ScotRail;;code;7209254484;Q2382085;;;KVD;Kelvindale
-TN7016580;gare;Burton-on-Trent;Burton-on-Trent;Burton-on-Trent;7016580;;52.805873;-1.642499;GB;Europe/London;Q1000597;CrossCountry;;code;6646199708;Q2011595;;;BUT;Burton-On-Trent
+TN7016580;gare;Burton-on-Trent;Burton-on-Trent;Burton-on-Trent;7016580;;52.805873;-1.642499;GB;Europe/London;Q1000597;CrossCountry;BUS;code;6646199708;Q2011595;;;BUT;Burton-On-Trent
 TN7016631;gare;Pye Corner;Pye Corner;Pye Corner;7016631;;51.581304;-3.041223;GB;Europe/London;Q101254;Transport for Wales;BUS;code;8493342417;Q7262951;;;PYE;Pye Corner
 TN7016780;gare;Ambergate;Ambergate;Ambergate;7016780;;53.060419;-1.480865;GB;Europe/London;Q2067964;East Midlands Railway;BUS;code;2126330319;Q2100978;;;AMB;Ambergate
 TN7016790;gare;Belper;Belper;Belper;7016790;;53.024273;-1.482563;GB;Europe/London;Q2080375;East Midlands Railway;BUS;code;6415346590;Q3148981;;;BLP;Belper
@@ -610,7 +610,7 @@ TN7030990;gare;Drayton Green;Drayton Green;Drayton Green;7030990;;51.516385;-0.3
 TN7031040;gare;Bicester Village;Bicester Village;Bicester Village;7031040;;51.892413;-1.149376;GB;Europe/London;Q1070481;Chiltern Railways;BUS;code;14731037;Q1873632;;;BIT;Bicester Village
 TN7031070;gare;Culham;Culham;Culham;7031070;;51.653892;-1.236576;GB;Europe/London;Q2682566;Great Western Railway;BUS;code;9768081;Q2740729;;;CUM;Culham
 TN7031090;gare;Appleford;Appleford;Appleford;7031090;;51.639488;-1.242474;GB;Europe/London;Q321381;Great Western Railway;BUS;code;9768084;Q2550440;;;APF;Appleford
-TN7031100;gare;Islip;Islip;Islip;7031100;;51.826163;-1.237647;GB;Europe/London;Q1070481;Chiltern Railways;;code;14724359;Q1847555;;;ISP;Islip
+TN7031100;gare;Islip;Islip;Islip;7031100;;51.826163;-1.237647;GB;Europe/London;Q1070481;Chiltern Railways;BUS;code;14724359;Q1847555;;;ISP;Islip
 TN7031150;gare;Oxford;Oxford;Oxford;7031150;;51.753451;-1.269954;GB;Europe/London;Q34217;Chiltern Railways|CrossCountry|Great Western Railway;BUS;code;6481707942;Q1880536;;;OXF;Oxford
 TN7031180;gare;Radley;Radley;Radley;7031180;;51.685623;-1.240257;GB;Europe/London;Q321381;Great Western Railway;BUS;code;21623338;Q4386081;;;RAD;Radley
 TN7031210;gare;Oxford Parkway;Oxford Parkway;Oxford Parkway;7031210;;51.803747;-1.275093;GB;Europe/London;Q5646278;Chiltern Railways;BUS;code;3824689657;Q7973289;;;OXP;Oxford Parkway
@@ -659,7 +659,7 @@ TN7032310;gare;Bristol Temple Meads;Bristol Temple Meads;Bristol Temple Meads;70
 TN7032340;arret_car;Heathrow Terminal 5 Bus;Heathrow Terminal 5 Bus;Heathrow Terminal 5 Bus;7032340;;51.47;-0.48;GB;Europe/London;Q84;;BUS;gtfs;;;;;HWX;Heathrow Terminal 5 Bus
 TN7032350;gare;Filton Abbey Wood;Filton Abbey Wood;Filton Abbey Wood;7032350;;51.503393;-2.563826;GB;Europe/London;Q537692;Great Western Railway|Transport for Wales;BUS;code;278435766;Q2311503;;;FIT;Filton Abbey Wood
 TN7032370;gare;Keynsham;Keynsham;Keynsham;7032370;;51.418071;-2.49588;GB;Europe/London;Q691761;Great Western Railway;BUS;code;26152727;Q2658052;;;KYN;Keynsham
-TN7032380;gare;Cam & Dursley;Cam and Dursley;Cam and Dursley;7032380;;51.71764;-2.35917;GB;Europe/London;Q281749;Great Western Railway;BUS;code;253872552;Q2359933;;;CDU;Cam & Dursley
+TN7032380;gare;Cam & Dursley;Cam and Dursley;Cam and Dursley;7032380;;51.71764;-2.35917;GB;Europe/London;Q281749;Great Western Railway;;code;253872552;Q2359933;;;CDU;Cam & Dursley
 TN7032450;gare;Bedminster;Bedminster;Bedminster;7032450;;51.440606;-2.593629;GB;Europe/London;Q23154;Great Western Railway;BUS;code;27225052;Q4879315;;;BMT;Bedminster
 TN7032460;gare;Parson Street;Parson Street;Parson Street;7032460;;51.432994;-2.608537;GB;Europe/London;Q23154;Great Western Railway;BUS;code;27225053;Q2492432;;;PSN;Parson Street
 TN7032470;gare;Redland;Redland;Redland;7032470;;51.468378;-2.598909;GB;Europe/London;Q23154;Great Western Railway;;code;40683212;Q603576;;;RDA;Redland
@@ -677,7 +677,7 @@ TN7033410;gare;Bradford-on-Avon;Bradford-on-Avon;Bradford-on-Avon;7033410;;51.34
 TN7033440;gare;Freshford;Freshford;Freshford;7033440;;51.34177;-2.300589;GB;Europe/London;Q2042618;Great Western Railway;BUS;code;26949699;Q1915042;;;FFD;Freshford
 TN7033460;gare;Melksham;Melksham;Melksham;7033460;;51.380172;-2.144607;GB;Europe/London;Q1235894;Great Western Railway;BUS;code;35714035;Q2264906;;;MKM;Melksham
 TN7033480;gare;Trowbridge;Trowbridge;Trowbridge;7033480;;51.320005;-2.214331;GB;Europe/London;Q265647;Great Western Railway;BUS;code;17773687;Q2974092;;;TRO;Trowbridge
-TN7033800;gare;Yate;Yate;Yate;7033800;;51.541399;-2.432173;GB;Europe/London;Q1025095;Great Western Railway;BUS;code;17207692;Q3900748;;;YAE;Yate
+TN7033800;gare;Yate;Yate;Yate;7033800;;51.541399;-2.432173;GB;Europe/London;Q1025095;Great Western Railway;;code;17207692;Q3900748;;;YAE;Yate
 TN7033880;gare;Weston Milton;Weston Milton;Weston Milton;7033880;;51.348402;-2.942888;GB;Europe/London;Q845623;Great Western Railway;BUS;code;21277557;Q2432877;;;WNM;Weston Milton
 TN7033890;gare;Nailsea & Backwell;Nailsea and Backwell;Nailsea and Backwell;7033890;;51.419672;-2.74969;GB;Europe/London;Q2269865;Great Western Railway;BUS;code;492098581;Q6959642;;;NLS;Nailsea & Backwell
 TN7033900;gare;Worle;Worle;Worle;7033900;;51.35785;-2.909323;GB;Europe/London;Q845623;Great Western Railway;BUS;code;253893851;Q2416797;;;WOR;Worle
@@ -952,7 +952,7 @@ TN7045200;gare;Earlswood (West Midlands);Earlswood;Earlswood;7045200;;52.366599;
 TN7045210;gare;Hall Green;Hall Green;Hall Green;7045210;;52.436984;-1.84557;GB;Europe/London;Q20986424;West Midlands Trains;;code;8367463939;Q3543527;;;HLG;Hall Green
 TN7045230;gare;The Hawthorns;The Hawthorns;The Hawthorns;7045230;;52.505672;-1.965042;GB;Europe/London;Q1018565;Chiltern Railways|West Midlands Trains;;code;295718082;Q2130925;;;THW;The Hawthorns
 TN7045240;gare;Henley-in-Arden;Henley-in-Arden;Henley-in-Arden;7045240;;52.291455;-1.783999;GB;Europe/London;Q2734845;West Midlands Trains;;code;31554771;Q2185706;;;HNL;Henley-In-Arden
-TN7045250;gare;Dorridge;Dorridge;Dorridge;7045250;;52.371854;-1.752856;GB;Europe/London;Q3714394;Chiltern Railways|West Midlands Trains;;code;20983011;Q2512506;;;DDG;Dorridge
+TN7045250;gare;Dorridge;Dorridge;Dorridge;7045250;;52.371854;-1.752856;GB;Europe/London;Q3714394;Chiltern Railways|West Midlands Trains;BUS;code;20983011;Q2512506;;;DDG;Dorridge
 TN7045260;gare;Shirley;Shirley;Shirley;7045260;;52.403574;-1.845196;GB;Europe/London;VGB-haslucks-green;West Midlands Trains;;code;8485791831;Q1815915;;;SRL;Shirley
 TN7045270;gare;Solihull;Solihull;Solihull;7045270;;52.414629;-1.788867;GB;Europe/London;Q397343;Chiltern Railways|West Midlands Trains;;code;20984161;Q7558107;;;SOL;Solihull
 TN7045280;gare;Widney Manor;Widney Manor;Widney Manor;7045280;;52.396028;-1.774243;GB;Europe/London;Q397343;West Midlands Trains;;code;20983015;Q2079928;;;WMR;Widney Manor
@@ -964,7 +964,7 @@ TN7045350;gare;Spring Road;Spring Road;Spring Road;7045350;;52.444262;-1.836259;
 TN7045360;gare;Wood End;Wood End;Wood End;7045360;;52.344276;-1.844423;GB;Europe/London;Q189288;West Midlands Trains;;code;31554729;Q2519103;;;WDE;Wood End
 TN7045370;gare;Yardley Wood;Yardley Wood;Yardley Wood;7045370;;52.421023;-1.85456;GB;Europe/London;Q20986424;West Midlands Trains;;code;9529770468;Q2248035;;;YRD;Yardley Wood
 TN7045380;gare;The Lakes;The Lakes;The Lakes;7045380;;52.359097;-1.844654;GB;Europe/London;Q189288;West Midlands Trains;;code;7805862446;Q2683977;;;TLK;The Lakes
-TN7045390;gare;Whitlocks End;Whitlocks End;Whitlocks End;7045390;;52.391906;-1.851436;GB;Europe/London;Q7800812;West Midlands Trains;;code;31554745;Q2133242;;;WTE;Whitlocks End
+TN7045390;gare;Whitlocks End;Whitlocks End;Whitlocks End;7045390;;52.391906;-1.851436;GB;Europe/London;Q7800812;West Midlands Trains;BUS;code;31554745;Q2133242;;;WTE;Whitlocks End
 TN7045400;gare;Wootton Wawen;Wootton Wawen;Wootton Wawen;7045400;;52.265837;-1.7846;GB;Europe/London;Q2734845;West Midlands Trains;;code;8362730190;Q4350946;;;WWW;Wootton Wawen
 TN7045580;gare;Stratford-upon-Avon;Stratford-upon-Avon;Stratford-upon-Avon;7045580;;52.194945;-1.716304;GB;Europe/London;Q189288;Chiltern Railways|West Midlands Trains;BUS;code;31554736;Q1941516;;;SAV;Stratford-Upon-Avon
 TN7045680;gare;Wilmcote;Wilmcote;Wilmcote;7045680;;52.222564;-1.755791;GB;Europe/London;Q189288;Chiltern Railways|West Midlands Trains;;code;9221660483;Q1966621;;;WMC;Wilmcote
@@ -992,7 +992,7 @@ TN7046460;gare;Stourbridge Junction;Stourbridge Junction;Stourbridge Junction;70
 TN7046890;gare;Oakengates;Oakengates;Oakengates;7046890;;52.693091;-2.450188;GB;Europe/London;Q2183778;Transport for Wales|West Midlands Trains;;code;3711941420;Q2384836;;;OKN;Oakengates
 TN7046900;gare;Wellington (Shropshire);Wellington;Wellington;7046900;;52.701436;-2.516719;GB;Europe/London;Q1026685;Transport for Wales|West Midlands Trains;;code;3711424258;Q1851350;;;WLN;Wellington (Shropshire)
 TN7046910;gare;Telford Central;Telford Central;Telford Central;7046910;;52.681113;-2.441178;GB;Europe/London;Q576938;Transport for Wales|West Midlands Trains;;code;3711941422;Q3401880;;;TFC;Telford Central
-TN7047000;gare;Ashchurch for Tewkesbury;Ashchurch for Tewkesbury;Ashchurch for Tewkesbury;7047000;;51.999025;-2.10873;GB;Europe/London;Q1000717;CrossCountry|Great Western Railway;;code;5520072621;Q1886947;;;ASC;Ashchurch for Tewkesbury
+TN7047000;gare;Ashchurch for Tewkesbury;Ashchurch for Tewkesbury;Ashchurch for Tewkesbury;7047000;;51.999025;-2.10873;GB;Europe/London;Q1000717;CrossCountry|Great Western Railway;BUS;code;5520072621;Q1886947;;;ASC;Ashchurch for Tewkesbury
 TN7047150;gare;Bromsgrove;Bromsgrove;Bromsgrove;7047150;;52.320158;-2.049979;GB;Europe/London;Q1190876;West Midlands Trains;BUS;code;1523190627;Q1978141;;;BMV;Bromsgrove
 TN7047310;gare;Cheltenham Spa;Cheltenham Spa;Cheltenham Spa;7047310;;51.896988;-2.100122;GB;Europe/London;Q206988;CrossCountry|Great Western Railway|Transport for Wales;BUS;code;7154294070;Q1845519;;;CNM;Cheltenham Spa
 TN7047400;gare;Evesham;Evesham;Evesham;7047400;;52.098497;-1.947286;GB;Europe/London;Q585963;Great Western Railway;BUS;code;6609023832;Q2416634;;;EVE;Evesham
@@ -1196,7 +1196,7 @@ TN7052400;gare;Stonegate;Stonegate;Stonegate;7052400;;51.02014;0.363387;GB;Europ
 TN7052410;gare;Wateringbury;Wateringbury;Wateringbury;7052410;;51.24966;0.422299;GB;Europe/London;Q5376100;Southeastern;BUS;code;6688355478;;;;WTR;Wateringbury
 TN7052420;gare;West St Leonards;West St Leonards;West St Leonards;7052420;;50.853206;0.539964;GB;Europe/London;Q3495335;Southeastern;BUS;code;3157623929;Q2335526;;;WLD;West St Leonards
 TN7052460;gare;Elephant & Castle;Elephant & Castle;Elephant & Castle;7052460;;51.494043;-0.098717;GB;Europe/London;Q84;Southeastern|Thameslink;BUS;code;3660623412;Q13583357;;;EPH;Elephant & Castle
-TN7052470;gare;Soham;Soham;Soham;7052470;;52.334953;0.328096;GB;Europe/London;Q2148571;Greater Anglia;BUS;code;1997286727;Q7554647;;;SOJ;Soham
+TN7052470;gare;Soham;Soham;Soham;7052470;;52.334953;0.328096;GB;Europe/London;Q2148571;Greater Anglia;;code;1997286727;Q7554647;;;SOJ;Soham
 TN7052480;gare;Stone Crossing-Horns Cross;Stone Crossing;Stone Crossing;7052480;;51.451416;0.263442;GB;Europe/London;Q858775;Southeastern|Thameslink;BUS;code;6779166274;Q3341228;;;SCG;Stone Crossing-Horns Cross
 TN7052490;gare;Swale;Swale;Swale;7052490;;51.388965;0.746849;GB;Europe/London;Q7380805;Southeastern;BUS;code;855651597;Q2191551;;;SWL;Swale
 TN7052500;gare;Amberley;Amberley;Amberley;7052500;;50.896416;-0.54203;GB;Europe/London;Q177544;Southern;BUS;code;5870536785;Q2173107;;;AMY;Amberley
@@ -1740,12 +1740,12 @@ TN7066150;gare;Chesterfield;Chesterfield;Chesterfield;7066150;;53.238224;-1.4197
 TN7066160;gare;Dronfield;Dronfield;Dronfield;7066160;;53.3014;-1.469253;GB;Europe/London;Q2499345;East Midlands Railway|Northern;BUS;code;370186628;Q2161199;;;DRO;Dronfield
 TN7066340;gare;Penistone;Penistone;Penistone;7066340;;53.525632;-1.622676;GB;Europe/London;Q2010576;Northern;BUS;code;21625499;Q2001260;;;PNS;Penistone
 TN7066630;gare;Meadowhall;Meadowhall Interchange;Meadowhall Interchange;7066630;;53.417112;-1.41413;GB;Europe/London;Q42448;Northern|TransPennine Express;BUS;code;7149987542;Q2467647;;;MHS;Meadowhall
-TN7066640;gare;Chapeltown;Chapeltown;Chapeltown;7066640;;53.462501;-1.466438;GB;Europe/London;Q42448;Northern;;code;246698205;Q2967180;;;CLN;Chapeltown
-TN7066670;gare;Elsecar;Elsecar;Elsecar;7066670;;53.498683;-1.427499;GB;Europe/London;Q1857382;Northern;;code;419191;Q3287228;;;ELR;Elsecar
+TN7066640;gare;Chapeltown;Chapeltown;Chapeltown;7066640;;53.462501;-1.466438;GB;Europe/London;Q42448;Northern;BUS;code;246698205;Q2967180;;;CLN;Chapeltown
+TN7066670;gare;Elsecar;Elsecar;Elsecar;7066670;;53.498683;-1.427499;GB;Europe/London;Q1857382;Northern;BUS;code;419191;Q3287228;;;ELR;Elsecar
 TN7066760;gare;Rotherham Central;Rotherham Central;Rotherham Central;7066760;;53.431699;-1.361046;GB;Europe/London;Q3930610;Northern|TransPennine Express;BUS;code;3204155746;Q2025773;;;RMC;Rotherham Central
 TN7066800;gare;Fishguard & Goodwick;Fishguard and Goodwick;Fishguard and Goodwick;7066800;;52.003969;-4.995073;GB;Europe/London;Q1770495;Transport for Wales;BUS;code;1752948061;Q5454980;;;FGW;Fishguard & Goodwick
 TN7066860;gare;Swinton (South Yorkshire);Swinton (South Yorkshire);Swinton (South Yorkshire);7066860;;53.485598;-1.305621;GB;Europe/London;Q2379443;Northern;BUS;code;3204141646;Q2253025;;;SWN;Swinton (South Yorkshire)
-TN7066880;gare;Wombwell;Wombwell;Wombwell;7066880;;53.517447;-1.416302;GB;Europe/London;Q1857382;Northern;;code;7252312656;Q2701036;;;WOM;Wombwell
+TN7066880;gare;Wombwell;Wombwell;Wombwell;7066880;;53.517447;-1.416302;GB;Europe/London;Q1857382;Northern;BUS;code;7252312656;Q2701036;;;WOM;Wombwell
 TN7066900;gare;Dore & Totley;Dore and Totley;Dore and Totley;7066900;;53.327571;-1.515316;GB;Europe/London;Q42448;East Midlands Railway|Northern|TransPennine Express;BUS;code;4195983684;Q2552687;;;DOR;Dore & Totley
 TN7066910;gare;Sheffield;Sheffield;Sheffield;7066910;;53.378371;-1.462138;GB;Europe/London;Q42448;CrossCountry|East Midlands Railway|Northern|TransPennine Express;BUS;code;5784212748;Q1862179;;XKSH;SHF;Sheffield
 TN7067070;gare;Mexborough;Mexborough;Mexborough;7067070;;53.490831;-1.288525;GB;Europe/London;Q284348;Northern;BUS;code;3198828652;Q3983146;;;MEX;Mexborough
@@ -1851,32 +1851,32 @@ TN7070980;gare;Sudbury Suffolk;Sudbury Suffolk;Sudbury Suffolk;7070980;;52.03559
 TN7071130;arret_car;Kings Lynn Coach;Kings Lynn Coach;Kings Lynn Coach;7071130;;52.754228;0.399003;GB;Europe/London;Q157341;;BUS;gtfs;;;;;KLB;Kings Lynn Coach
 TN7071140;arret_car;Hunstanton Bus;Hunstanton Bus;Hunstanton Bus;7071140;;52.936756;0.486477;GB;Europe/London;Q617188;;BUS;gtfs;;;;;HUS;Hunstanton Bus
 TN7071150;gare;Kings Lynn;Kings Lynn;Kings Lynn;7071150;;52.754108;0.403475;GB;Europe/London;Q157341;Great Northern;BUS;gtfs;;;;;KLN;Kings Lynn
-TN7071650;gare;Manea;Manea;Manea;7071650;;52.497813;0.177806;GB;Europe/London;Q2292266;CrossCountry|Greater Anglia;BUS;code;43401074;Q2486636;;;MNE;Manea
-TN7071660;gare;March;March;March;7071660;;52.560085;0.091319;GB;Europe/London;Q2569076;CrossCountry|East Midlands Railway|Greater Anglia;BUS;code;6900241774;Q2023178;;;MCH;March
-TN7071870;gare;Whittlesea;Whittlesea;Whittlesea;7071870;;52.549577;-0.118087;GB;Europe/London;Q2335054;CrossCountry|East Midlands Railway|Greater Anglia;BUS;code;98001419;Q2123705;;;WLE;Whittlesea
+TN7071650;gare;Manea;Manea;Manea;7071650;;52.497813;0.177806;GB;Europe/London;Q2292266;CrossCountry|Greater Anglia;;code;43401074;Q2486636;;;MNE;Manea
+TN7071660;gare;March;March;March;7071660;;52.560085;0.091319;GB;Europe/London;Q2569076;CrossCountry|East Midlands Railway|Greater Anglia;;code;6900241774;Q2023178;;;MCH;March
+TN7071870;gare;Whittlesea;Whittlesea;Whittlesea;7071870;;52.549577;-0.118087;GB;Europe/London;Q2335054;CrossCountry|East Midlands Railway|Greater Anglia;;code;98001419;Q2123705;;;WLE;Whittlesea
 TN7071880;arret_car;Wisbech (Coach);Wisbech (Coach);Wisbech (Coach);7071880;;52.665332;0.158978;GB;Europe/London;Q1012031;;BUS;gtfs;;;;;WIS;Wisbech (Coach)
 TN7072000;gare;Brandon;Brandon;Brandon;7072000;;52.453878;0.624439;GB;Europe/London;Q2335721;East Midlands Railway|Greater Anglia;BUS;code;6723726878;Q2501282;;;BND;Brandon
 TN7072010;gare;Lakenheath;Lakenheath;Lakenheath;7072010;;52.447433;0.534438;GB;Europe/London;Q1828371;Greater Anglia;;code;49247569;Q2579323;;;LAK;Lakenheath
 TN7072030;gare;Thetford;Thetford;Thetford;7072030;;52.419156;0.745283;GB;Europe/London;Q237250;East Midlands Railway|Greater Anglia;BUS;code;6723726879;Q2691707;;;TTF;Thetford
-TN7072110;gare;Darsham;Darsham;Darsham;7072110;;52.273207;1.523599;GB;Europe/London;Q2281750;Greater Anglia;BUS;code;252754155;Q2998721;;;DSM;Darsham
+TN7072110;gare;Darsham;Darsham;Darsham;7072110;;52.273207;1.523599;GB;Europe/London;Q2281750;Greater Anglia;;code;252754155;Q2998721;;;DSM;Darsham
 TN7072120;gare;Derby Road;Derby Road;Derby Road;7072120;;52.050518;1.182695;GB;Europe/London;Q184775;Greater Anglia;;code;25685792;Q2353885;;;DBR;Derby Road
 TN7072140;gare;Felixstowe;Felixstowe;Felixstowe;7072140;;51.967017;1.349814;GB;Europe/London;Q1000656;Greater Anglia;;code;25685821;Q3247616;;;FLX;Felixstowe
 TN7072170;gare;Ipswich;Ipswich;Ipswich;7072170;;52.050419;1.144788;GB;Europe/London;Q184775;Greater Anglia;BUS;code;2370148643;Q2003305;;;IPS;Ipswich
-TN7072210;gare;Melton;Melton;Melton;7072210;;52.104351;1.338153;GB;Europe/London;Q1853349;Greater Anglia;BUS;code;256876989;Q3246752;;;MES;Melton
+TN7072210;gare;Melton;Melton;Melton;7072210;;52.104351;1.338153;GB;Europe/London;Q1853349;Greater Anglia;;code;256876989;Q3246752;;;MES;Melton
 TN7072220;gare;Stratford International;Stratford International;Stratford International;7072220;;51.544795;-0.008749;GB;Europe/London;Q84;Southeastern;BUS;code;6758674587;Q801472;;;SFA;Stratford International
-TN7072240;gare;Saxmundham;Saxmundham;Saxmundham;7072240;;52.215224;1.490272;GB;Europe/London;Q2450421;Greater Anglia;BUS;code;310588000;Q763638;;;SAX;Saxmundham
+TN7072240;gare;Saxmundham;Saxmundham;Saxmundham;7072240;;52.215224;1.490272;GB;Europe/London;Q2450421;Greater Anglia;;code;310588000;Q763638;;;SAX;Saxmundham
 TN7072250;gare;Trimley;Trimley;Trimley;7072250;;51.976652;1.319415;GB;Europe/London;Q2176949;Greater Anglia;;code;30132562;Q2889017;;;TRM;Trimley
 TN7072260;gare;Westerfield;Westerfield;Westerfield;7072260;;52.081097;1.166243;GB;Europe/London;Q2232624;Greater Anglia;;code;25685939;Q1815407;;;WFI;Westerfield
-TN7072270;gare;Wickham Market;Wickham Market;Wickham Market;7072270;;52.151034;1.398627;GB;Europe/London;Q1878048;Greater Anglia;BUS;code;7829844207;Q3043489;;;WCM;Wickham Market
-TN7072280;gare;Woodbridge;Woodbridge;Woodbridge;7072280;;52.090296;1.317886;GB;Europe/London;Q1021350;Greater Anglia;BUS;code;8070385747;Q3246749;;;WDB;Woodbridge
+TN7072270;gare;Wickham Market;Wickham Market;Wickham Market;7072270;;52.151034;1.398627;GB;Europe/London;Q1878048;Greater Anglia;;code;7829844207;Q3043489;;;WCM;Wickham Market
+TN7072280;gare;Woodbridge;Woodbridge;Woodbridge;7072280;;52.090296;1.317886;GB;Europe/London;Q1021350;Greater Anglia;;code;8070385747;Q3246749;;;WDB;Woodbridge
 TN7072580;gare;Beccles;Beccles;Beccles;7072580;;52.458826;1.569631;GB;Europe/London;Q813574;Greater Anglia;BUS;code;252746160;Q2659206;;;BCC;Beccles
 TN7072590;gare;Brampton (Suffolk);Brampton;Brampton;7072590;;52.395508;1.543821;GB;Europe/London;Q54554266;Greater Anglia;;code;256709377;Q2599812;;;BRP;Brampton (Suffolk)
-TN7072660;gare;Halesworth;Halesworth;Halesworth;7072660;;52.346959;1.505745;GB;Europe/London;Q1570884;Greater Anglia;BUS;code;1080701323;Q2406246;;;HAS;Halesworth
+TN7072660;gare;Halesworth;Halesworth;Halesworth;7072660;;52.346959;1.505745;GB;Europe/London;Q1570884;Greater Anglia;;code;1080701323;Q2406246;;;HAS;Halesworth
 TN7072680;gare;Lowestoft;Lowestoft;Lowestoft;7072680;;52.47424;1.749987;GB;Europe/London;Q986007;Greater Anglia;BUS;code;252753813;Q2008297;;;LWT;Lowestoft
 TN7072730;gare;Oulton Broad North;Oulton Broad North;Oulton Broad North;7072730;;52.477729;1.716176;GB;Europe/London;Q7110475;Greater Anglia;BUS;code;252745593;Q2854239;;;OUN;Oulton Broad North
 TN7072740;gare;Oulton Broad South;Oulton Broad South;Oulton Broad South;7072740;;52.469587;1.707489;GB;Europe/London;Q7110475;Greater Anglia;BUS;code;263373872;Q1870239;;;OUS;Oulton Broad South
-TN7072860;gare;Acle;Acle;Acle;7072860;;52.634676;1.543977;GB;Europe/London;Q341938;Greater Anglia;;code;253006518;Q281169;;;ACL;Acle
-TN7072890;gare;Brundall;Brundall;Brundall;7072890;;52.619537;1.438957;GB;Europe/London;Q2926580;Greater Anglia;BUS;code;26524106;Q282288;;;BDA;Brundall
+TN7072860;gare;Acle;Acle;Acle;7072860;;52.634676;1.543977;GB;Europe/London;Q341938;Greater Anglia;BUS;code;253006518;Q281169;;;ACL;Acle
+TN7072890;gare;Brundall;Brundall;Brundall;7072890;;52.619537;1.438957;GB;Europe/London;Q2926580;Greater Anglia;;code;26524106;Q282288;;;BDA;Brundall
 TN7072900;gare;Buckenham;Buckenham;Buckenham;7072900;;52.597696;1.47021;GB;Europe/London;Q2908915;Greater Anglia;;code;253006650;Q2064742;;;BUC;Buckenham
 TN7072920;gare;Cantley;Cantley;Cantley;7072920;;52.578721;1.513627;GB;Europe/London;Q927910;Greater Anglia;BUS;code;283317149;Q2149282;;;CNY;Cantley
 TN7072950;gare;Cromer;Cromer;Cromer;7072950;;52.930054;1.291648;GB;Europe/London;Q208296;Greater Anglia;;code;82605869;Q1950073;;;CMR;Cromer
@@ -1892,7 +1892,7 @@ TN7073190;gare;Sheringham;Sheringham;Sheringham;7073190;;52.941367;1.21079;GB;Eu
 TN7073200;gare;Somerleyton;Somerleyton;Somerleyton;7073200;;52.510152;1.652251;GB;Europe/London;Q2322168;Greater Anglia;BUS;code;263373156;Q1920909;;;SYT;Somerleyton
 TN7073260;gare;Worstead;Worstead;Worstead;7073260;;52.777353;1.404073;GB;Europe/London;Q2227805;Greater Anglia;;code;36150862;Q248736;;;WRT;Worstead
 TN7073270;gare;Hoveton & Wroxham;Hoveton and Wroxham;Hoveton and Wroxham;7073270;;52.715535;1.408079;GB;Europe/London;Q2548710;Greater Anglia;;code;204069482;Q281183;;;HXM;Hoveton & Wroxham
-TN7073280;gare;Great Yarmouth;Great Yarmouth;Great Yarmouth;7073280;;52.611921;1.720688;GB;Europe/London;Q237253;Greater Anglia;BUS;code;1699243929;Q280999;;;GYM;Great Yarmouth
+TN7073280;gare;Great Yarmouth;Great Yarmouth;Great Yarmouth;7073280;;52.611921;1.720688;GB;Europe/London;Q237253;Greater Anglia;;code;1699243929;Q280999;;;GYM;Great Yarmouth
 TN7073290;gare;West Runton;West Runton;West Runton;7073290;;52.935549;1.245795;GB;Europe/London;Q2748757;Greater Anglia;;code;82605847;Q217353;;;WRN;West Runton
 TN7073300;gare;Berney Arms;Berney Arms;Berney Arms;7073300;;52.590258;1.631071;GB;Europe/London;Q1780228;Greater Anglia;;code;253006594;Q281175;;;BYA;Berney Arms
 TN7073480;gare;Diss;Diss;Diss;7073480;;52.373616;1.123541;GB;Europe/London;Q1229288;Greater Anglia;BUS;code;7362947493;Q2716714;;;DIS;Diss
@@ -1902,10 +1902,10 @@ TN7073550;gare;Stowmarket;Stowmarket;Stowmarket;7073550;;52.189799;1.000257;GB;E
 TN7073560;gare;Thurston;Thurston;Thurston;7073560;;52.249911;0.808691;GB;Europe/London;Q2751552;Greater Anglia;BUS;code;3788853380;Q2384368;;;TRS;Thurston
 TN7073670;gare;Attleborough;Attleborough;Attleborough;7073670;;52.51443;1.022207;GB;Europe/London;Q1975526;East Midlands Railway|Greater Anglia;BUS;code;6723726881;Q2093675;;;ATL;Attleborough
 TN7073680;arret_car;Swaffham (Coach);Swaffham (Coach);Swaffham (Coach);7073680;;52.648194;0.68888;GB;Europe/London;Q1527491;;BUS;gtfs;;;;;SWB;Swaffham (Coach)
-TN7073700;gare;Eccles Road;Eccles Road;Eccles Road;7073700;;52.471295;0.969994;GB;Europe/London;Q488142;Greater Anglia;;code;6723726880;Q2037638;;;ECS;Eccles Road
+TN7073700;gare;Eccles Road;Eccles Road;Eccles Road;7073700;;52.471295;0.969994;GB;Europe/London;Q488142;Greater Anglia;BUS;code;6723726880;Q2037638;;;ECS;Eccles Road
 TN7073710;arret_car;Dereham Market Place;Dereham Market Place;Dereham Market Place;7073710;;52.684896;0.945983;GB;Europe/London;Q302893;;BUS;gtfs;;;;;DEB;Dereham Market Place
-TN7073740;gare;Harling Road;Harling Road;Harling Road;7073740;;52.453858;0.909311;GB;Europe/London;Q2687567;Greater Anglia;;code;3727506861;Q2746601;;;HRD;Harling Road
-TN7073790;gare;Spooner Row;Spooner Row;Spooner Row;7073790;;52.534921;1.086;GB;Europe/London;Q7579168;Greater Anglia;;code;3727506862;Q2476140;;;SPN;Spooner Row
+TN7073740;gare;Harling Road;Harling Road;Harling Road;7073740;;52.453858;0.909311;GB;Europe/London;Q2687567;Greater Anglia;BUS;code;3727506861;Q2746601;;;HRD;Harling Road
+TN7073790;gare;Spooner Row;Spooner Row;Spooner Row;7073790;;52.534921;1.086;GB;Europe/London;Q7579168;Greater Anglia;BUS;code;3727506862;Q2476140;;;SPN;Spooner Row
 TN7073830;gare;Wymondham;Wymondham;Wymondham;7073830;;52.565351;1.118135;GB;Europe/London;Q1787230;East Midlands Railway|Greater Anglia;BUS;code;6723726882;Q2411114;;;WMD;Wymondham
 TN7074160;gare;Coventry Arena;Coventry Arena;Coventry Arena;7074160;;52.446956;-1.494799;GB;Europe/London;Q6225;West Midlands Trains;BUS;code;2003007164;Q5179044;;;CAA;Coventry Arena
 TN7074190;gare;Prittlewell;Prittlewell;Prittlewell;7074190;;51.550593;0.710649;GB;Europe/London;Q203995;Greater Anglia;BUS;code;314994462;Q1880808;;;PRL;Prittlewell
@@ -2016,35 +2016,36 @@ TN7079750;gare;Stockton;Stockton;Stockton;7079750;;54.569883;-1.318223;GB;Europe
 TN7079760;gare;Thornaby;Thornaby;Thornaby;7079760;;54.559189;-1.301696;GB;Europe/London;Q652078;LNER|Northern|TransPennine Express;BUS;code;7170524815;Q2795880;;;TBY;Thornaby
 TN7079780;gare;Longbeck;Longbeck;Longbeck;7079780;;54.589337;-1.030993;GB;Europe/London;Q1655185;Northern;;code;1582447288;Q2337724;;;LGK;Longbeck
 TN7079850;gare;Kenilworth;Kenilworth;Kenilworth;7079850;;52.342843;-1.572458;GB;Europe/London;Q2281103;West Midlands Trains;;code;6083152748;Q6389304;;;KNW;Kenilworth
+TN7079940;arret_car;Southease Church (By Bus);Southease Church (By Bus);Southease Church (By Bus);7079940;;50.8307;0.0306;GB;Europe/London;Q246884;;BUS;gtfs;;;;;SEZ;Southease Church (By Bus)
 TN7079960;gare;Northallerton;Northallerton;Northallerton;7079960;;54.332473;-1.441378;GB;Europe/London;Q21241814;Grand Central|LNER|TransPennine Express;BUS;code;6760741486;Q2537832;;;NTR;Northallerton
 TN7080010;gare;Cambridge North;Cambridge North;Cambridge North;7080010;;52.224651;0.15877;GB;Europe/London;Q605450;Great Northern|Greater Anglia;BUS;code;1993437425;Q5025527;;;CMB;Cambridge North
 TN7080070;gare;Seaton Carew;Seaton Carew;Seaton Carew;7080070;;54.658207;-1.200477;GB;Europe/London;Q7442007;Northern;;code;3696748722;Q2068534;;;SEC;Seaton Carew
 TN7080090;gare;Hartlepool;Hartlepool;Hartlepool;7080090;;54.686826;-1.207832;GB;Europe/London;Q215752;Grand Central|Northern;BUS;code;6661375389;Q4046880;;;HPL;Hartlepool
 TN7080250;gare;Goole;Goole;Goole;7080250;;53.704968;-0.874258;GB;Europe/London;Q1000740;Northern;BUS;code;7452935121;Q2354168;;;GOO;Goole
-TN7080310;gare;Rawcliffe;Rawcliffe;Rawcliffe;7080310;;53.688943;-0.961271;GB;Europe/London;Q2339390;Northern;;code;157599125;Q2080885;;;RWC;Rawcliffe
+TN7080310;gare;Rawcliffe;Rawcliffe;Rawcliffe;7080310;;53.688943;-0.961271;GB;Europe/London;Q2339390;Northern;BUS;code;157599125;Q2080885;;;RWC;Rawcliffe
 TN7080330;gare;Saltmarshe;Saltmarshe;Saltmarshe;7080330;;53.722066;-0.809166;GB;Europe/London;Q2777788;Northern;;code;3711902058;Q2553697;;;SAM;Saltmarshe
-TN7080360;gare;Snaith;Snaith;Snaith;7080360;;53.693167;-1.02794;GB;Europe/London;Q681806;Northern;;code;7452565703;Q2522426;;;SNI;Snaith
+TN7080360;gare;Snaith;Snaith;Snaith;7080360;;53.693167;-1.02794;GB;Europe/London;Q681806;Northern;BUS;code;7452565703;Q2522426;;;SNI;Snaith
 TN7080450;gare;Arram;Arram;Arram;7080450;;53.88433;-0.426545;GB;Europe/London;Q851718;Northern;;code;3711894538;Q662135;;;ARR;Arram
 TN7080470;gare;Bempton;Bempton;Bempton;7080470;;54.127791;-0.180715;GB;Europe/London;Q527391;Northern;BUS;code;2520782503;Q2653960;;;BEM;Bempton
 TN7080480;gare;Beverley;Beverley;Beverley;7080480;;53.842161;-0.422899;GB;Europe/London;Q851718;Hull Trains|Northern;BUS;code;3711894539;Q522656;;;BEV;Beverley
 TN7080490;gare;Bridlington;Bridlington;Bridlington;7080490;;54.084065;-0.200369;GB;Europe/London;Q527391;Northern;BUS;code;3711894540;Q2684620;;;BDT;Bridlington
 TN7080500;gare;Broomfleet;Broomfleet;Broomfleet;7080500;;53.740367;-0.673009;GB;Europe/London;Q2762400;Northern;;code;6012608672;Q2675002;;;BMF;Broomfleet
 TN7080510;gare;Brough;Brough;Brough;7080510;;53.726933;-0.578149;GB;Europe/London;Q2926314;Hull Trains|LNER|Northern|TransPennine Express;BUS;code;4267662228;Q1827064;;;BUH;Brough
-TN7080560;gare;Cottingham;Cottingham;Cottingham;7080560;;53.781315;-0.406219;GB;Europe/London;Q1003286;Hull Trains|Northern;;code;3711894541;Q5175629;;;CGM;Cottingham
+TN7080560;gare;Cottingham;Cottingham;Cottingham;7080560;;53.781315;-0.406219;GB;Europe/London;Q1003286;Hull Trains|Northern;BUS;code;3711894541;Q5175629;;;CGM;Cottingham
 TN7080570;gare;Driffield;Driffield;Driffield;7080570;;54.001451;-0.43456;GB;Europe/London;Q611046;Northern;BUS;code;3711894542;Q2183871;;;DRF;Driffield
 TN7080610;gare;Ferriby;Ferriby;Ferriby;7080610;;53.717051;-0.507729;GB;Europe/London;Q2160639;Northern;BUS;code;6012608673;Q2342222;;;FRY;Ferriby
 TN7080620;gare;Filey;Filey;Filey;7080620;;54.209808;-0.29386;GB;Europe/London;Q82334;Northern;BUS;code;3711894543;Q2297337;;;FIL;Filey
 TN7080670;gare;Hessle;Hessle;Hessle;7080670;;53.717369;-0.442101;GB;Europe/London;Q1616042;Northern;BUS;code;6012608674;Q2498524;;;HES;Hessle
 TN7080710;gare;Howden;Howden;Howden;7080710;;53.764757;-0.860641;GB;Europe/London;Q1365059;Hull Trains|Northern|TransPennine Express;;code;6012608659;Q978543;;;HOW;Howden
 TN7080980;gare;Hunmanby;Hunmanby;Hunmanby;7080980;;54.173988;-0.314574;GB;Europe/London;Q82334;Northern;BUS;code;34179099;Q4722128;;;HUB;Hunmanby
-TN7080990;gare;Hutton Cranswick;Hutton Cranswick;Hutton Cranswick;7080990;;53.956185;-0.433838;GB;Europe/London;Q960950;Northern;;code;3711894544;Q2118467;;;HUT;Hutton Cranswick
+TN7080990;gare;Hutton Cranswick;Hutton Cranswick;Hutton Cranswick;7080990;;53.956185;-0.433838;GB;Europe/London;Q960950;Northern;BUS;code;3711894544;Q2118467;;;HUT;Hutton Cranswick
 TN7081070;gare;Nafferton;Nafferton;Nafferton;7081070;;54.011343;-0.385624;GB;Europe/London;Q611046;Northern;BUS;code;3711894545;Q2149712;;;NFN;Nafferton
 TN7081140;gare;Eastrington;Eastrington;Eastrington;7081140;;53.755235;-0.787077;GB;Europe/London;Q2141941;Northern;;code;6012826245;Q2094123;;;EGN;Eastrington
 TN7081170;gare;Gilberdyke;Gilberdyke;Gilberdyke;7081170;;53.748023;-0.73161;GB;Europe/London;Q2200856;Northern|TransPennine Express;BUS;code;3711902057;Q2370908;;;GBD;Gilberdyke
 TN7081230;gare;Wressle;Wressle;Wressle;7081230;;53.772826;-0.923672;GB;Europe/London;Q2648868;Northern;;code;6012608657;Q2057572;;;WRS;Wressle
 TN7081260;gare;Hull;Hull Paragon Interchange;Hull Paragon Interchange;7081260;;53.743835;-0.347598;GB;Europe/London;Q128147;Hull Trains|LNER|Northern|TransPennine Express;BUS;code;6012826246;Q9294886;;;HUL;Hull
-TN7081290;gare;Hensall;Hensall;Hensall;7081290;;53.698487;-1.114662;GB;Europe/London;Q2484893;Northern;;code;157586175;Q2785836;;;HEL;Hensall
-TN7081300;gare;Whitley Bridge;Whitley Bridge;Whitley Bridge;7081300;;53.699129;-1.15889;GB;Europe/London;Q2627257;Northern;;code;7452565704;Q2379493;;;WBD;Whitley Bridge
+TN7081290;gare;Hensall;Hensall;Hensall;7081290;;53.698487;-1.114662;GB;Europe/London;Q2484893;Northern;BUS;code;157586175;Q2785836;;;HEL;Hensall
+TN7081300;gare;Whitley Bridge;Whitley Bridge;Whitley Bridge;7081300;;53.699129;-1.15889;GB;Europe/London;Q2627257;Northern;BUS;code;7452565704;Q2379493;;;WBD;Whitley Bridge
 TN7081420;gare;South Milford;South Milford;South Milford;7081420;;53.782382;-1.251129;GB;Europe/London;Q761259;Northern|TransPennine Express;BUS;code;5320865996;Q2408723;;;SOM;South Milford
 TN7081550;gare;Grosmont;Grosmont;Grosmont;7081550;;54.436456;-0.725357;GB;Europe/London;Q5610458;Northern;;code;2246553747;Q5610456;;;GMT;Grosmont
 TN7081640;gare;Malton;Malton;Malton;7081640;;54.131857;-0.797729;GB;Europe/London;Q2054729;TransPennine Express;BUS;code;7209217468;Q2065298;;;MLT;Malton
@@ -2063,7 +2064,7 @@ TN7082320;gare;Cattal;Cattal;Cattal;7082320;;53.997418;-1.320196;GB;Europe/Londo
 TN7082330;gare;Church Fenton;Church Fenton;Church Fenton;7082330;;53.82701;-1.227213;GB;Europe/London;Q4412125;Northern|TransPennine Express;BUS;code;21390340;Q3489838;;;CHF;Church Fenton
 TN7082410;gare;Hammerton;Hammerton;Hammerton;7082410;;53.996331;-1.284069;GB;Europe/London;Q2298016;Northern;BUS;code;3715250485;Q2660162;;;HMM;Hammerton
 TN7082540;gare;Poppleton;Poppleton;Poppleton;7082540;;53.97596;-1.148407;GB;Europe/London;Q7898869;Northern;BUS;code;3715250496;Q7229551;;;POP;Poppleton
-TN7082570;gare;Sherburn-in-Elmet;Sherburn-in-Elmet;Sherburn-in-Elmet;7082570;;53.797509;-1.232902;GB;Europe/London;Q761259;Northern;BUS;code;83595559;Q1881964;;;SIE;Sherburn-In-Elmet
+TN7082570;gare;Sherburn-in-Elmet;Sherburn-in-Elmet;Sherburn-in-Elmet;7082570;;53.797509;-1.232902;GB;Europe/London;Q761259;Northern;;code;83595559;Q1881964;;;SIE;Sherburn-In-Elmet
 TN7082610;gare;Ulleskelf;Ulleskelf;Ulleskelf;7082610;;53.853331;-1.214378;GB;Europe/London;Q5175043;Northern;BUS;code;417521;Q951589;;;ULL;Ulleskelf
 TN7082630;gare;York;York;York;7082630;;53.957704;-1.09373;GB;Europe/London;Q42462;CrossCountry|Grand Central|LNER|Northern|TransPennine Express;BUS;code;5758644802;Q2269429;;;YRK;York
 TN7082820;gare;Thurnscoe;Thurnscoe;Thurnscoe;7082820;;53.545537;-1.308386;GB;Europe/London;Q1618033;Northern;;code;7452565687;Q2012147;;;THC;Thurnscoe
@@ -2121,8 +2122,8 @@ TN7085270;gare;Sowerby Bridge;Sowerby Bridge;Sowerby Bridge;7085270;;53.707848;-
 TN7085280;gare;Normanton;Normanton;Normanton;7085280;;53.7004;-1.423507;GB;Europe/London;Q1027131;Northern|TransPennine Express;BUS;code;7452565689;Q2384576;;;NOR;Normanton
 TN7085300;gare;Warwick Parkway;Warwick Parkway;Warwick Parkway;7085300;;52.286014;-1.612273;GB;Europe/London;Q549761;Chiltern Railways|West Midlands Trains;;code;6129181314;Q372014;;;WRP;Warwick Parkway
 TN7085360;gare;Bolton-On-Dearne;Bolton-upon-Dearne;Bolton-upon-Dearne;7085360;;53.518815;-1.311486;GB;Europe/London;Q1857382;Northern;;code;7452565685;Q2001245;;;BTD;Bolton-On-Dearne
-TN7085390;gare;Moorthorpe;Moorthorpe;Moorthorpe;7085390;;53.594894;-1.304812;GB;Europe/London;Q763171;Northern;BUS;code;7452565688;Q2386115;;;MRP;Moorthorpe
-TN7085400;gare;Pontefract Baghill;Pontefract Baghill;Pontefract Baghill;7085400;;53.691736;-1.303403;GB;Europe/London;Q1009235;Northern;BUS;code;5383468496;Q4301181;;;PFR;Pontefract Baghill
+TN7085390;gare;Moorthorpe;Moorthorpe;Moorthorpe;7085390;;53.594894;-1.304812;GB;Europe/London;Q763171;Northern;;code;7452565688;Q2386115;;;MRP;Moorthorpe
+TN7085400;gare;Pontefract Baghill;Pontefract Baghill;Pontefract Baghill;7085400;;53.691736;-1.303403;GB;Europe/London;Q1009235;Northern;;code;5383468496;Q4301181;;;PFR;Pontefract Baghill
 TN7085410;gare;Pontefract Tanshelf;Pontefract Tanshelf;Pontefract Tanshelf;7085410;;53.694003;-1.318904;GB;Europe/London;Q1009235;Northern;BUS;code;158530806;Q3043294;;;POT;Pontefract Tanshelf
 TN7085430;gare;Streethouse;Streethouse;Streethouse;7085430;;53.676189;-1.399474;GB;Europe/London;Q2125254;Northern;BUS;code;443775670;Q2065164;;;SHC;Streethouse
 TN7085440;gare;Featherstone;Featherstone;Featherstone;7085440;;53.679099;-1.358285;GB;Europe/London;Q2125254;Northern;BUS;code;764706200;Q5439656;;;FEA;Featherstone
@@ -2228,7 +2229,7 @@ TN7088750;gare;West Brompton;West Brompton;West Brompton;7088750;;51.486976;-0.1
 TN7088770;gare;Beauly;Beauly;Beauly;7088770;;57.478302;-4.469935;GB;Europe/London;Q523335;ScotRail;BUS;code;21302317;Q2190506;;;BEL;Beauly
 TN7088790;arret_car;Catterick Garrison Bus;Catterick Garrison Bus;Catterick Garrison Bus;7088790;;54.374491;-1.724419;GB;Europe/London;Q386087;;BUS;gtfs;;;;;CGT;Catterick Garrison Bus
 TN7089050;gare;Dyce;Dyce;Dyce;7089050;;57.205707;-2.192692;GB;Europe/London;Q36405;ScotRail;;code;21499747;Q2647470;;;DYC;Dyce
-TN7089210;gare;Huntly;Huntly;Huntly;7089210;;57.444508;-2.775731;GB;Europe/London;Q1016931;Caledonian Sleeper|ScotRail;;code;21532918;Q2432464;;;HNT;Huntly
+TN7089210;gare;Huntly;Huntly;Huntly;7089210;;57.444508;-2.775731;GB;Europe/London;Q1016931;ScotRail;;code;21532918;Q2432464;;;HNT;Huntly
 TN7089220;gare;Insch;Insch;Insch;7089220;;57.337374;-2.616918;GB;Europe/London;Q987782;ScotRail;;code;21532915;Q2023520;;;INS;Insch
 TN7089240;gare;Inverurie;Inverurie;Inverurie;7089240;;57.286407;-2.373485;GB;Europe/London;Q1017537;ScotRail;;code;21531324;Q2171269;;;INR;Inverurie
 TN7089250;gare;Keith;Keith;Keith;7089250;;57.551381;-2.954006;GB;Europe/London;Q1235112;ScotRail;;code;21532919;Q1961219;;;KEH;Keith

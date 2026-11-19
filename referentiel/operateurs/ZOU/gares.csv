@@ -1,0 +1,10 @@
+id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;cars;statut;osm_id;wikidata;ifopt;code_db;cle;nom_gtfs
+TN8775100;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;8775100;;43.303264;5.381193;FR;Europe/Paris;Q23482;ZOU! INTERMETROPOLE;;uic;4290857022;Q371217;;XFM;87751008;Marseille-St-Charles
+TN8775500;gare;Toulon;Toulon;Toulon;8775500;;43.128642;5.929521;FR;Europe/Paris;Q44160;ZOU! INTERMETROPOLE;;uic;3489660893;Q2683553;;;87755009;Toulon
+TN8775537;gare;Carnoules;Carnoules;Carnoules;8775537;;43.297473;6.1864;FR;Europe/Paris;Q696746;ZOU! INTERMETROPOLE;;uic;249290787;Q2684008;;;87755371;Carnoules
+TN8775544;gare;Les Arcs - Draguignan;Les Arcs - Draguignan;Les Arcs - Draguignan;8775544;;43.455656;6.482511;FR;Europe/Paris;Q636734;ZOU! INTERMETROPOLE;;uic;8018589177;Q3098144;;;87755447;Les Arcs-Draguignan
+TN8775605;gare;Nice-Ville;Nice-Ville;Nice-Ville;8775605;;43.704745;7.261598;FR;Europe/Paris;Q33959;ZOU! INTERMETROPOLE;;uic;33017158;Q738970;;;87756056;Nice-Ville
+TN8775625;gare;Nice-St-Augustin;Nice-St-Augustin;Nice-St-Augustin;8775625;;43.670727;7.216199;FR;Europe/Paris;VTN8775625;ZOU! INTERMETROPOLE;;en_attente;;;;;87756254;Nice-St-Augustin
+TN8775752;gare;Saint-Raphaël-Valescure;Saint-Raphaël-Valescure;Saint-Raphaël-Valescure;8775752;;43.422784;6.770226;FR;Europe/Paris;Q234281;ZOU! INTERMETROPOLE;;uic;829527258;Q1871873;;;87757526;St-Raphaël-Valescure
+TN8775762;gare;Cannes;Cannes;Cannes;8775762;;43.554156;7.019954;FR;Europe/Paris;Q39984;ZOU! INTERMETROPOLE;;uic;8312564191;Q2186722;;;87757625;Cannes
+TN8775767;gare;Antibes;Antibes;Antibes;8775767;;43.585769;7.119269;FR;Europe/Paris;Q126898;ZOU! INTERMETROPOLE;;uic;1376794642;Q800390;;;87757674;Antibes

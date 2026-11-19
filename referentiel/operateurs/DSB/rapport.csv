@@ -1,0 +1,40 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TN7400003;000007400003;Malmö C;Malmö central;nom;0.036;Malmö central;Malmö;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8601627;000008601627;Skibstrup;Skibstrup St;nom;0.027;Skibstrup St;Helsingør;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8603525;000008603525;Højby Sj;Højby Sj;gtfs;;;Odsherred;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600502;000008600502;Kauslunde;Kauslunde;gtfs;;;Middelfart;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601045;000008601045;St. Heddinge;St. Heddinge;gtfs;;;Stevns;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600428;000008600428;Døstrup St. (Sønderjylland);Døstrup St. (Sønderjylland);gtfs;;;Tønder;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600626;000008600626;København H;København H;gtfs;;;Copenhague;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601606;000008601606;Grønnehave St. (Helsingør);Grønnehave St. (Helsingør);gtfs;;;Helsingør;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601603;000008601603;Firhøj St. (Gilleleje);Firhøj St. (Gilleleje);gtfs;;;Gribskov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600054;000008600054;Viby Jylland;Viby Jylland;nom;0.082;Viby J;Aarhus;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8603555;000008603555;Sommerland Sj.;Sommerland Sj.;gtfs;;;Odsherred;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8604719;000008604719;Lunde J;Lunde J;gtfs;;;Varde;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8602519;000008602519;St. Merløse;St. Merløse;gtfs;;;Holbæk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8603547;000008603547;Nr. Asmindrup;Nr. Asmindrup;gtfs;;;Odsherred;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8602505;000008602505;Kr. Eskilstrup;Kr. Eskilstrup;gtfs;;;Holbæk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601631;000008601631;Søborg St. (Gilleleje);Søborg St. (Gilleleje);gtfs;;;Gribskov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600858;000008600858;CPH Lufthavn;CPH Lufthavn;gtfs;;;Tårnby;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601427;000008601427;Mårum (Græsted-Gilleleje);Mårum (Græsted-Gilleleje);gtfs;;;Gribskov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8601421;000008601421;Kagerup St. (Hillerød);Kagerup St. (Hillerød);gtfs;;;Gribskov;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600560;000008600560;Højby Fyn;Højby Fyn;gtfs;;;Odense;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600023;000008600023;Svenstrup St. (Jylland);Svenstrup St. (Jylland);gtfs;;;Aalborg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8600906;000008600906;Li.Linde;Li.Linde;gtfs;;;Stevns;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8024313;000008024313;Flensburg;Flensburg;nom;0.026;Flensburg / Flensborg;Flensbourg;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7400002;000007400002;Göteborg C;Göteborg C;gtfs;;;Göteborg;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400006;000007400006;Hässleholm C;Hässleholm C;gtfs;;;Hässleholm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400080;000007400080;Halmstad Centralstation;Halmstad Centralstation;gtfs;;;Halmstad;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400120;000007400120;Lund C;Lund centralstation;nom;0.149;Lund centralstation;Lund;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7400200;000007400200;Kristiansstad C;Kristiansstad C;gtfs;;;Kristianstad;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400250;000007400250;Växjö C;Växjö C;gtfs;;;Växjö;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7401554;000007401554;Landskrona;Landskrona;gtfs;;;Landskrona;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7415362;000007415362;Kalmar S;Kalmar S;gtfs;;;Kalmar;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400001;000007400001;Stockholm C;Stockholm Central;nom;0.023;Stockholm Central;Stockholm;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN8603541;000008603541;Mårsø;Mårsø;gtfs;;;Holbæk;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7401441;000007401441;Ballingslöv station;Ballingslöv station;nom;0.063;Ballingslöv;Hässleholm;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7401605;000007401605;Killeberg station;Killeberg station;nom;0.058;Killeberg;Osby;wikidata;vérifier que la gare OSM est la bonne (nom différent)
+TN7464282;000007464282;Hästveda station;Hästveda station;gtfs;;;Hässleholm;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN8031922;000008031922;Berlin Hbf;Berlin Hbf;gtfs;;;Berlin;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7400191;000007400191;Trollhättan Centralstation;Trollhättan Centralstation;gtfs;;;Trollhättan;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TN7401590;000007401590;Gamlestaden station;Gamlestaden station;nom;0.171;Gamlestaden;Göteborg;wikidata;vérifier que la gare OSM est la bonne (nom différent)

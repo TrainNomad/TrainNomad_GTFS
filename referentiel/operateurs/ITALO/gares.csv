@@ -13,6 +13,7 @@ TN8302084;gare;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;Desenza
 TN8302088;gare;Peschiera del Garda;Peschiera del Garda station;Peschiera del Garda;8302088;;45.438575;10.702309;IT;Europe/Rome;Q47649;ITALO;;nom;3324817342;Q3970454;;;PSY;Peschiera
 TN8302430;gare;Verona Porta Nuova;Verona Porta Nuova;Verona Porta Nuova;8302430;;45.429182;10.982371;IT;Europe/Rome;Q2028;ITALO;;uic;3738591149;Q908640;;;VPN;Verona Porta Nuova
 TN8302446;gare;Vicenza;Vicenza;Vicenza;8302446;;45.541481;11.540764;IT;Europe/Rome;Q6537;ITALO;;nom;6061881431;Q3971299;;;VIC;Vicenza
+TN8302556;gare;Longarone-Zoldo;Longarone-Zoldo;Longarone-Zoldo;8302556;;46.26754;12.301848;IT;Europe/Rome;Q40161;ITALO;;nom;2490877773;Q3969979;;;LGZ;Longarone-Zoldo
 TN8302581;gare;Padova;Padova;Padova;8302581;;45.417742;11.880497;IT;Europe/Rome;Q617;ITALO;;uic;6063641896;Q1150874;;;PD_;Padua
 TN8302589;gare;Venezia Mestre;Venezia Mestre;Venezia Mestre;8302589;;45.482462;12.231702;IT;Europe/Rome;Q641;ITALO;;nom;6063641892;Q520844;;;VEM;Venezia Mestre
 TN8302593;gare;Venezia S.Lucia;Venezia S.Lucia;Venezia S.Lucia;8302593;;45.441574;12.320878;IT;Europe/Rome;Q641;ITALO;;gtfs;;;;;VSL;Venezia S.Lucia
@@ -57,9 +58,7 @@ TN8311765;gare;Rosarno;Rosarno;Rosarno;8311765;;38.488699;15.970102;IT;Europe/Ro
 TN8311781;gare;Reggio di Calabria Centrale;Reggio di Calabria Centrale;Reggio di Calabria Centrale;8311781;;38.103811;15.635938;IT;Europe/Rome;Q8471;ITALO;;uic;5371459402;Q3970657;;;RCE;Reggio Calabria
 TN8311789;gare;Vibo Valentia-Pizzo;Vibo Valentia-Pizzo;Vibo Valentia-Pizzo;8311789;;38.714668;16.13989;IT;Europe/Rome;Q13625;ITALO;;uic;7932212641;Q3971290;;;VIP;Vibo-Pizzo
 TN8313835;arret_car;Cortina D'Ampezzo;Cortina D'Ampezzo;Cortina D'Ampezzo;8313835;;46.539175;12.138057;IT;Europe/Rome;Q41158;;BUS;gtfs;;;;;CDZ;Cortina D'Ampezzo
-TNITALO-lux;arret_car;Lucca Comics and Games;Lucca Comics and Games;Lucca Comics and Games;;;43.842287;10.515195;IT;Europe/Rome;Q13373;;BUS;gtfs;;;;;LUX;Lucca Comics and Games
 TNITALO-sdx;arret_car;San Vito di Cadore;San Vito di Cadore;San Vito di Cadore;;;46.463986;12.204753;IT;Europe/Rome;Q41024;;BUS;gtfs;;;;;SDX;San Vito di Cadore
 TNITALO-sgm;gare;Villa San Giovanni Marittima;Villa San Giovanni Marittima;Villa San Giovanni Marittima;;;38.210042;15.635136;IT;Europe/Rome;Q54689;ITALO;;gtfs;;;;;SGM;Villa San Giovanni Marittima
 TNITALO-tdx;arret_car;Tai di Cadore;Tai di Cadore;Tai di Cadore;;;46.422488;12.359924;IT;Europe/Rome;Q41065;;BUS;gtfs;;;;;TDX;Tai di Cadore
 TNITALO-trx;arret_car;Treviso;Treviso;Treviso;;;45.65219;12.306419;IT;Europe/Rome;Q47046;;BUS;gtfs;;;;;TRX;Treviso
-TNOSM2490877773;gare;Longarone-Zoldo;Longarone-Zoldo;Longarone-Zoldo;;;46.26754;12.301848;IT;Europe/Rome;Q40161;ITALO;;nom;2490877773;Q3969979;;;LGZ;Longarone-Zoldo

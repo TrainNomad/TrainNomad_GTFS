@@ -54,10 +54,10 @@ TN8300038;gare;Sartirana;Sartirana;Sartirana;8300038;;45.111713;8.67018;IT;Europ
 TN8300039;gare;Torreberetti;Torreberetti;Torreberetti;8300039;;45.0605;8.660586;IT;Europe/Rome;Q40923;0083_REG;;nom;3791925628;Q3971154;;;830000039;Torreberetti
 TN8300041;gare;Valenza;Valenza;Valenza;8300041;;45.023513;8.626044;IT;Europe/Rome;Q17689;0083_REG;;nom;12291596710;Q3971232;;;830000041;Valenza
 TN8300042;gare;Valmadonna;Valmadonna;Valmadonna;8300042;;44.972608;8.610728;IT;Europe/Rome;Q6088;0083_REG;;nom;3296803207;Q3971237;;;830000042;Valmadonna
-TN8300053;gare;Rovasenda;Rovasenda;Rovasenda;8300053;;45.537305;8.317383;IT;Europe/Rome;Q25196;0083_REG;BUS;nom;4529258232;Q3970731;;;830000053;Rovasenda
+TN8300053;gare;Rovasenda;Rovasenda;Rovasenda;8300053;;45.537305;8.317383;IT;Europe/Rome;Q25196;0083_REG;;nom;4529258232;Q3970731;;;830000053;Rovasenda
 TN8300059;gare;Grugliasco;Grugliasco;Grugliasco;8300059;;45.068137;7.599344;IT;Europe/Rome;Q9398;0083_SFM;;nom;1588214515;Q3969762;;;830000059;Grugliasco
 TN8300060;gare;Torino Reb.Foss.;Torino Reb.Foss.;Torino Reb.Foss.;8300060;;45.098367;7.685623;IT;Europe/Rome;Q495;0083_REG|0083_SFM;;gtfs;;;;;830000060;Torino Reb.Foss.
-TN8300070;gare;Biella S.Paolo;Biella S.Paolo;Biella S.Paolo;8300070;;45.557336;8.067551;IT;Europe/Rome;Q18021;0083_REG;BUS;gtfs;;;;;830000070;Biella S.Paolo
+TN8300070;gare;Biella S.Paolo;Biella S.Paolo;Biella S.Paolo;8300070;;45.557336;8.067551;IT;Europe/Rome;Q18021;0083_REG;;gtfs;;;;;830000070;Biella S.Paolo
 TN8300071;gare;Candelo;Candelo;Candelo;8300071;;45.547378;8.100136;IT;Europe/Rome;Q18040;0083_REG;;nom;473766707;Q16608927;;;830000071;Candelo
 TN8300074;gare;Salussola;Salussola;Salussola;8300074;;45.445157;8.114783;IT;Europe/Rome;Q18159;0083_REG;;nom;800473435;Q3970770;;;830000074;Salussola
 TN8300075;gare;Agognate;Agognate;Agognate;8300075;;45.472243;8.579514;IT;Europe/Rome;Q6046;0083_REG;;nom;10929802131;Q115120804;;;830000075;Agognate
@@ -171,7 +171,7 @@ TN8300513;gare;None;None;None;8300513;;44.937967;7.54004;IT;Europe/Rome;Q9512;00
 TN8300514;gare;Airasca;Airasca;Airasca;8300514;;44.928031;7.483329;IT;Europe/Rome;Q8973;0083_SFM;;nom;7693044739;Q15178626;;;830000514;Airasca
 TN8300515;gare;Piscina di Pinerolo;Piscina di Pinerolo;Piscina di Pinerolo;8300515;;44.921812;7.425598;IT;Europe/Rome;Q10192;0083_SFM;;nom;7693044745;Q15266808;;;830000515;Piscina di Pinerolo
 TN8300517;gare;Pinerolo;Pinerolo;Pinerolo;8300517;;44.887766;7.337536;IT;Europe/Rome;Q9573;0083_SFM;;nom;7693044748;Q3970490;;;830000517;Pinerolo
-TN8300600;gare;Villastellone;Villastellone;Villastellone;8300600;;44.920535;7.749505;IT;Europe/Rome;Q10360;0083_SFM;;nom;2043486548;Q15948815;;;830000600;Villastellone
+TN8300600;gare;Villastellone;Villastellone;Villastellone;8300600;;44.920535;7.749505;IT;Europe/Rome;Q10360;0083_RV|0083_SFM;;nom;2043486548;Q15948815;;;830000600;Villastellone
 TN8300601;gare;Carmagnola;Carmagnola;Carmagnola;8300601;;44.847046;7.727808;IT;Europe/Rome;Q9187;0083_RV|0083_SFM;;nom;2043486335;Q3969228;;;830000601;Carmagnola
 TN8300602;gare;Racconigi;Racconigi;Racconigi;8300602;;44.771209;7.685515;IT;Europe/Rome;Q20376;0083_RV|0083_SFM;;nom;2043486359;Q3970631;;;830000602;Racconigi
 TN8300603;gare;Cavallermaggiore;Cavallermaggiore;Cavallermaggiore;8300603;;44.708195;7.691811;IT;Europe/Rome;Q19927;0083_RV|0083_SFM;BUS;nom;2043486341;Q3969352;;;830000603;Cavallermaggiore
@@ -232,9 +232,9 @@ TN8300951;gare;Magliano Crava-Morozzo;Magliano Crava-Morozzo;Magliano Crava-Moro
 TN8300952;gare;Mondovì;Mondovì;Mondovì;8300952;;44.398353;7.816147;IT;Europe/Rome;Q20188;0083_REG|0083_RV;;nom;247367163;Q3970175;;;830000952;Mondovi'
 TN8300953;gare;Vicoforte S.Michele;Vicoforte S.Michele;Vicoforte S.Michele;8300953;;44.374046;7.894688;IT;Europe/Rome;Q20555;0083_REG|0083_RV;;gtfs;;;;;830000953;Vicoforte S.Michele
 TN8300954;gare;Lesegno;Lesegno;Lesegno;8300954;;44.385868;7.942776;IT;Europe/Rome;Q20115;0083_REG|0083_RV;;nom;1344840004;Q16609340;;;830000954;Lesegno
-TN8300971;gare;Carpignano Sesia;Carpignano Sesia;Carpignano Sesia;8300971;;45.528944;8.422894;IT;Europe/Rome;Q22135;0083_REG;BUS;nom;2104372965;Q16608960;;;830000971;Carpignano Sesia
+TN8300971;gare;Carpignano Sesia;Carpignano Sesia;Carpignano Sesia;8300971;;45.528944;8.422894;IT;Europe/Rome;Q22135;0083_REG;;nom;2104372965;Q16608960;;;830000971;Carpignano Sesia
 TN8300972;gare;Casaleggio;Casaleggio;Casaleggio;8300972;;45.491308;8.490326;IT;Europe/Rome;Q22145;0083_REG;;nom;1639364538;Q16608966;;;830000972;Casaleggio
-TN8300973;gare;Cossato;Cossato;Cossato;8300973;;45.564222;8.176014;IT;Europe/Rome;Q18055;0083_REG;BUS;nom;1502797359;Q3969493;;;830000973;Cossato
+TN8300973;gare;Cossato;Cossato;Cossato;8300973;;45.564222;8.176014;IT;Europe/Rome;Q18055;0083_REG;;nom;1502797359;Q3969493;;;830000973;Cossato
 TN8300976;gare;Nibbia;Nibbia;Nibbia;8300976;;45.481404;8.558056;IT;Europe/Rome;Q22618;0083_REG;;nom;266648931;Q16609488;;;830000976;Nibbia
 TN8300980;gare;Dormelletto Paese;Dormelletto Paese;Dormelletto Paese;8300980;;45.730056;8.574373;IT;Europe/Rome;Q22216;0083_REG;;nom;3706521475;Q3969542;;;830000980;Dormelletto Paese
 TN8300981;gare;Borgo Ticino;Borgo Ticino;Borgo Ticino;8300981;;45.691938;8.602523;IT;Europe/Rome;Q22098;0083_REG;;nom;8365784985;Q3969087;;;830000981;Borgo Ticino
@@ -242,9 +242,9 @@ TN8300982;gare;Varallo Pombia;Varallo Pombia;Varallo Pombia;8300982;;45.670019;8
 TN8300983;gare;Marano Ticino;Marano Ticino;Marano Ticino;8300983;;45.629549;8.626302;IT;Europe/Rome;Q22490;0083_REG;;nom;11992328821;Q3970039;;;830000983;Marano Ticino
 TN8300984;gare;Oleggio;Oleggio;Oleggio;8300984;;45.598054;8.63272;IT;Europe/Rome;Q22529;0083_REG;;nom;8365774156;Q3970337;;;830000984;Oleggio
 TN8300985;gare;Bellinzago;Bellinzago;Bellinzago;8300985;;45.566749;8.627656;IT;Europe/Rome;Q22070;0083_REG;;nom;2326261018;Q3969013;;;830000985;Bellinzago
-TN8301003;gare;Domodossola;Domodossola;Domodossola;8301003;;46.115422;8.296402;IT;Europe/Rome;Q23325;0083_EC|0083_REG;BUS;nom;2837216238;Q3969541;;;830001003;Domodossola
-TN8301008;gare;Vogogna Ossola;Vogogna Ossola;Vogogna Ossola;8301008;;46.005808;8.294562;IT;Europe/Rome;Q23735;0083_REG;BUS;nom;902667361;Q16610090;;;830001008;Vogogna Ossola
-TN8301009;gare;Premosello-Chiovenda;Premosello-Chiovenda;Premosello-Chiovenda;8301009;;46.002326;8.32708;IT;Europe/Rome;Q23683;0083_REG;BUS;nom;1071824657;;;;830001009;Premosello Chiovenda
+TN8301003;gare;Domodossola;Domodossola;Domodossola;8301003;;46.115422;8.296402;IT;Europe/Rome;Q23325;0083_EC|0083_REG;;nom;2837216238;Q3969541;;;830001003;Domodossola
+TN8301008;gare;Vogogna Ossola;Vogogna Ossola;Vogogna Ossola;8301008;;46.005808;8.294562;IT;Europe/Rome;Q23735;0083_REG;;nom;902667361;Q16610090;;;830001008;Vogogna Ossola
+TN8301009;gare;Premosello-Chiovenda;Premosello-Chiovenda;Premosello-Chiovenda;8301009;;46.002326;8.32708;IT;Europe/Rome;Q23683;0083_REG;;nom;1071824657;;;;830001009;Premosello Chiovenda
 TN8301010;gare;Cuzzago;Cuzzago;Cuzzago;8301010;;45.993116;8.373964;IT;Europe/Rome;Q23683;0083_REG;;nom;1071709975;Q16609132;;;830001010;CUZZAGO (Domo-Novara)
 TN8301012;gare;Mergozzo;Mergozzo;Mergozzo;8301012;;45.961354;8.440993;IT;Europe/Rome;Q23636;0083_REG;;nom;616839998;Q16609418;;;830001012;Mergozzo
 TN8301013;gare;Verbania-Pallanza;Verbania-Pallanza;Verbania-Pallanza;8301013;;45.943808;8.472314;IT;Europe/Rome;Q3639;0083_REG;;nom;1077876401;Q3971269;;;830001013;Verbania-Pallanza
@@ -273,8 +273,7 @@ TN8301492;gare;Milano Forlanini;Milano Forlanini;Milano Forlanini;8301492;;45.46
 TN8301645;gare;Milano Porta Garibaldi (superficie);Milano Porta Garibaldi railway station;Milano Porta Garibaldi (superficie);8301645;;45.484561;9.187344;IT;Europe/Rome;Q490;0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;;uic;11635678177;Q801187;;;830001645;Milano Porta Garibaldi
 TN8301700;gare;Milano Centrale;Milano Centrale;Milano Centrale;8301700;;45.485879;9.204262;IT;Europe/Rome;Q490;0083_EC|0083_FB|0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;6067258870;Q801193;;;830001700;Milano Centrale
 TN8301701;gare;Milano Lambrate;Milano Lambrate;Milano Lambrate;8301701;;45.485475;9.237686;IT;Europe/Rome;Q490;0083_EC|0083_IC|0083_ICN|0083_REG|0083_RV;;nom;169701311;Q801184;;;830001701;Milano Lambrate
-TN8301714;gare;Rovato;Rovato;Rovato;8301714;;45.552072;10.001285;IT;Europe/Rome;Q111639;0083_IC;;uic;295581270;Q3970733;;;830001714;Rovato
-TN8301717;gare;Brescia;Brescia;Brescia;8301717;;45.532334;10.21284;IT;Europe/Rome;Q6221;0083_EC|0083_FR|0083_REG|0083_RV;BUS;uic;4553822557;Q727319;;;830001717;Brescia
+TN8301717;gare;Brescia;Brescia;Brescia;8301717;;45.532334;10.21284;IT;Europe/Rome;Q6221;0083_EC|0083_FR|0083_REG|0083_RV;;uic;4553822557;Q727319;;;830001717;Brescia
 TN8301807;gare;Voghera;Voghera;Voghera;8301807;;44.997866;9.008722;IT;Europe/Rome;Q39981;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;nom;197428492;Q801568;;;830001807;Voghera
 TN8301809;gare;Pontecurone;Pontecurone;Pontecurone;8301809;;44.962018;8.929888;IT;Europe/Rome;Q17640;0083_REG;;nom;3344424734;;;;830001809;Pontecurone
 TN8301810;gare;Tortona;Tortona;Tortona;8301810;;44.900152;8.861795;IT;Europe/Rome;Q17686;0083_EC|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;nom;1890584863;Q57247406;;;830001810;Tortona
@@ -283,7 +282,7 @@ TN8301822;gare;Melegnano;Melegnano;Melegnano;8301822;;45.356516;9.319371;IT;Euro
 TN8301825;gare;Lodi;Lodi;Lodi;8301825;;45.309211;9.497695;IT;Europe/Rome;Q6244;0083_IC|0083_REG;BUS;nom;7785834104;Q571342;;;830001825;Lodi
 TN8301827;gare;Casalpusterlengo;Casalpusterlengo;Casalpusterlengo;8301827;;45.182389;9.65361;IT;Europe/Rome;Q42294;0083_REG;;nom;12351344286;Q3969264;;;830001827;Casalpusterlengo
 TN8301828;gare;Codogno;Codogno;Codogno;8301828;;45.154891;9.701387;IT;Europe/Rome;Q42298;0083_REG;;nom;1436479313;Q3969442;;;830001828;Codogno
-TN8301860;gare;Pavia;Pavia;Pavia;8301860;;45.188796;9.144903;IT;Europe/Rome;Q6259;0083_EC|0083_FB|0083_FR|0083_IC|0083_REG|0083_RV;;nom;211030020;Q179302;;;830001860;Pavia
+TN8301860;gare;Pavia;Pavia;Pavia;8301860;;45.188796;9.144903;IT;Europe/Rome;Q6259;0083_EC|0083_FB|0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;;nom;211030020;Q179302;;;830001860;Pavia
 TN8301940;gare;Spinetta;Spinetta;Spinetta;8301940;;44.882373;8.683166;IT;Europe/Rome;Q6088;0083_REG;;nom;2139474783;Q3971034;;;830001940;Spinetta
 TN8301941;gare;San Giuliano Piemonte;San Giuliano Piemonte;San Giuliano Piemonte;8301941;;44.890497;8.760965;IT;Europe/Rome;Q6088;0083_REG;;nom;3344422597;Q3970810;;;830001941;S.Giuliano Piemonte
 TN8302001;gare;Brennero/Brenner;Brenner - Brennero;Brenner - Brennero;8302001;;47.002409;11.505536;IT;Europe/Rome;Q375769;0083_REG|0083_RV;BUS;nom;941776925;Q373503;;XIBN;830002001;Brennero
@@ -320,11 +319,11 @@ TN8302053;gare;Pc Dolce';Pc Dolce';Pc Dolce';8302053;;45.601504;10.850599;IT;Eur
 TN8302055;gare;Domegliara - Sant'Ambrogio;Domegliara - Sant'Ambrogio;Domegliara - Sant'Ambrogio;8302055;;45.522398;10.820461;IT;Europe/Rome;Q47513;0083_REG|0083_RV;;nom;1764381715;Q3969537;;;830002055;Domegliara
 TN8302059;gare;Bolzano Casanova;Bolzano Casanova;Bolzano Casanova;8302059;;46.480103;11.315188;IT;Europe/Rome;Q6526;0083_REG;;gtfs;;;;;830002059;Bolzano Casanova
 TN8302060;gare;Bruneck Nord - Brunico Nord;Bruneck Nord - Brunico Nord;Bruneck Nord - Brunico Nord;8302060;;46.800527;11.936385;IT;Europe/Rome;Q256765;0083_REG;BUS;uic;7435118508;Q16608866;;;830002060;Brunico Nord
-TN8302082;gare;Ponte S.Marco-Calcinato;Ponte S.Marco-Calcinato;Ponte S.Marco-Calcinato;8302082;;45.473787;10.409023;IT;Europe/Rome;Q103709;0083_REG|0083_RV;BUS;gtfs;;;;;830002082;Ponte S.Marco-Calcinato
-TN8302083;gare;Lonato;Lonato;Lonato;8302083;;45.457311;10.486747;IT;Europe/Rome;Q105039;0083_REG|0083_RV;BUS;nom;3324865280;Q16609359;;;830002083;Lonato
-TN8302084;gare;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;8302084;;45.462749;10.536538;IT;Europe/Rome;Q104577;0083_FR|0083_REG|0083_RV;BUS;nom;3324839623;Q3969525;;;830002084;Desenzano
-TN8302088;gare;Peschiera del Garda;Peschiera del Garda station;Peschiera del Garda;8302088;;45.438575;10.702309;IT;Europe/Rome;Q47649;0083_EC|0083_FR|0083_REG|0083_RV;BUS;nom;3324817342;Q3970454;;;830002088;Peschiera del Garda
-TN8302093;gare;Castelnuovo del Garda;Castelnuovo del Garda station;Castelnuovo del Garda;8302093;;45.430962;10.758373;IT;Europe/Rome;Q46722;0083_REG|0083_RV;BUS;nom;6817528980;Q16608998;;;830002093;Castelnuovo del Garda
+TN8302082;gare;Ponte S.Marco-Calcinato;Ponte S.Marco-Calcinato;Ponte S.Marco-Calcinato;8302082;;45.473787;10.409023;IT;Europe/Rome;Q103709;0083_REG|0083_RV;;gtfs;;;;;830002082;Ponte S.Marco-Calcinato
+TN8302083;gare;Lonato;Lonato;Lonato;8302083;;45.457311;10.486747;IT;Europe/Rome;Q105039;0083_REG|0083_RV;;nom;3324865280;Q16609359;;;830002083;Lonato
+TN8302084;gare;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;Desenzano del Garda-Sirmione;8302084;;45.462749;10.536538;IT;Europe/Rome;Q104577;0083_FR|0083_REG|0083_RV;;nom;3324839623;Q3969525;;;830002084;Desenzano
+TN8302088;gare;Peschiera del Garda;Peschiera del Garda station;Peschiera del Garda;8302088;;45.438575;10.702309;IT;Europe/Rome;Q47649;0083_EC|0083_FR|0083_REG|0083_RV;;nom;3324817342;Q3970454;;;830002088;Peschiera del Garda
+TN8302093;gare;Castelnuovo del Garda;Castelnuovo del Garda station;Castelnuovo del Garda;8302093;;45.430962;10.758373;IT;Europe/Rome;Q46722;0083_REG|0083_RV;;nom;6817528980;Q16608998;;;830002093;Castelnuovo del Garda
 TN8302102;gare;Rio di Pusteria/Mühlbach;Mühlbach - Rio di Pusteria;Mühlbach - Rio di Pusteria;8302102;;46.797145;11.669977;IT;Europe/Rome;Q474670;0083_REG;BUS;nom;5943496650;Q16609723;;;830002102;Rio di Pusteria
 TN8302103;gare;Vandoies/Vintl;Vintl - Vandoies;Vintl - Vandoies;8302103;;46.814835;11.723008;IT;Europe/Rome;Q282382;0083_REG;BUS;uic;5943496649;Q3971243;;;830002103;Vandoies
 TN8302105;gare;Casteldarne/Ehrenburg;Ehrenburg - Casteldarne;Ehrenburg - Casteldarne;8302105;;46.797652;11.844202;IT;Europe/Rome;Q377751;0083_REG;BUS;nom;5943496648;Q3969300;;;830002105;Casteldarne
@@ -551,7 +550,7 @@ TN8304101;gare;Prasco Cremolino;Prasco Cremolino;Prasco Cremolino;8304101;;44.64
 TN8304102;gare;Molare;Molare;Molare;8304102;;44.621985;8.609905;IT;Europe/Rome;Q17629;0083_REG;BUS;nom;315478559;Q3970163;;;830004102;Molare
 TN8304103;gare;Ovada;Ovada;Ovada;8304103;;44.630398;8.63243;IT;Europe/Rome;Q17629;0083_REG;BUS;nom;315478600;Q2641951;;;830004103;Ovada
 TN8304104;gare;Rossiglione;Rossiglione;Rossiglione;8304104;;44.567728;8.667874;IT;Europe/Rome;Q265325;0083_REG;BUS;nom;317405389;Q3970724;;;830004104;Rossiglione
-TN8304105;gare;Campoligure Masone;Campoligure Masone;Campoligure Masone;8304105;;44.530916;8.700888;IT;Europe/Rome;Q265298;0083_REG;BUS;gtfs;;;;;830004105;Campoligure Masone
+TN8304105;gare;Campoligure Masone;Campoligure Masone;Campoligure Masone;8304105;;44.530935;8.700931;IT;Europe/Rome;Q265298;0083_REG;BUS;gtfs;;;;;830004105;Campoligure Masone
 TN8304106;gare;Mele;Mele;Mele;8304106;;44.47275;8.733937;IT;Europe/Rome;Q265284;0083_REG;;nom;169477145;Q2460876;;;830004106;Mele
 TN8304107;gare;Genova Acquasanta;Genova Acquasanta;Genova Acquasanta;8304107;;44.458694;8.773078;IT;Europe/Rome;Q1449;0083_REG;;nom;11868648628;Q3969698;;;830004107;Genova Acquasanta
 TN8304108;gare;Genova Granara;Genova Granara;Genova Granara;8304108;;44.442052;8.823472;IT;Europe/Rome;Q1449;0083_REG;;nom;280873083;Q3969703;;;830004108;Genova Granara
@@ -572,7 +571,7 @@ TN8304217;gare;Genova Pontedecimo;Genova Pontedecimo;Genova Pontedecimo;8304217;
 TN8304218;gare;Genova Bolzaneto;Genova Bolzaneto;Genova Bolzaneto;8304218;;44.459212;8.900321;IT;Europe/Rome;Q1449;0083_REG;BUS;nom;11868681072;Q3969702;;;830004218;Genova Bolzaneto
 TN8304219;gare;Genova Rivarolo;Genova Rivarolo;Genova Rivarolo;8304219;;44.436143;8.89104;IT;Europe/Rome;Q1449;0083_REG;BUS;nom;913563023;Q3969713;;;830004219;Genova Rivarolo
 TN8304220;gare;Genova Sampierdarena;Genova Sampierdarena;Genova Sampierdarena;8304220;;44.413035;8.887035;IT;Europe/Rome;Q1449;0083_REG|0083_RV;BUS;nom;38929465;Q951386;;;830004220;Genova Sampierdarena
-TN8304222;gare;Genova S.Biagio;Genova S.Biagio;Genova S.Biagio;8304222;;44.482619;8.899823;IT;Europe/Rome;Q1449;0083_REG;BUS;gtfs;;;;;830004222;Genova S.Biagio
+TN8304222;gare;Genova S.Biagio;Genova S.Biagio;Genova S.Biagio;8304222;;44.482828;8.89972;IT;Europe/Rome;Q1449;0083_REG;BUS;gtfs;;;;;830004222;Genova S.Biagio
 TN8304480;gare;Olivetta S.Michele;Olivetta S.Michele;Olivetta S.Michele;8304480;;43.878346;7.535069;IT;Europe/Rome;Q269440;0083_REG;;gtfs;;;;;830004480;Olivetta S.Michele
 TN8304481;gare;Airole;Airole;Airole;8304481;;43.87052;7.552992;IT;Europe/Rome;Q264583;0083_REG;;nom;332111642;Q3095596;;;830004481;Airole
 TN8304482;gare;Bevera;Bevera;Bevera;8304482;;43.825224;7.579147;IT;Europe/Rome;Q191759;0083_REG;;nom;8400652212;Q3095986;;;830004482;Bevera
@@ -617,7 +616,7 @@ TN8304711;gare;Pieve Ligure;Pieve Ligure;Pieve Ligure;8304711;;44.372555;9.09090
 TN8304712;gare;Sori;Sori;Sori;8304712;;44.369697;9.105985;IT;Europe/Rome;Q266630;0083_REG|0083_RV;BUS;nom;4350090825;Q3971021;;;830004712;Sori
 TN8304713;gare;Mulinetti;Mulinetti;Mulinetti;8304713;;44.362244;9.130304;IT;Europe/Rome;Q266648;0083_REG;;nom;96082187;Q3970246;;;830004713;Mulinetti
 TN8304714;gare;Recco;Recco;Recco;8304714;;44.361106;9.146763;IT;Europe/Rome;Q266648;0083_REG|0083_RV;BUS;nom;47137986;Q3970645;;;830004714;Recco
-TN8304716;gare;Camogli S.Fruttuoso;Camogli S.Fruttuoso;Camogli S.Fruttuoso;8304716;;44.34817;9.156753;IT;Europe/Rome;Q266604;0083_IC|0083_REG|0083_RV;BUS;gtfs;;;;;830004716;Camogli S.Fruttuoso
+TN8304716;gare;Camogli S.Fruttuoso;Camogli S.Fruttuoso;Camogli S.Fruttuoso;8304716;;44.348098;9.156703;IT;Europe/Rome;Q266604;0083_IC|0083_REG|0083_RV;BUS;gtfs;;;;;830004716;Camogli S.Fruttuoso
 TN8304718;gare;Santa Margherita Ligure - Portofino;Santa Margherita Ligure - Portofino;Santa Margherita Ligure - Portofino;8304718;;44.336637;9.216862;IT;Europe/Rome;Q266975;0083_EC|0083_IC|0083_REG|0083_RV;BUS;nom;5704453372;Q3970884;;;830004718;S.Margherita Ligure Portofino
 TN8304720;gare;Rapallo;Rapallo;Rapallo;8304720;;44.351272;9.231348;IT;Europe/Rome;Q210098;0083_EC|0083_FB|0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;nom;82739131;Q3970646;;;830004720;Rapallo
 TN8304721;gare;Zoagli;Zoagli;Zoagli;8304721;;44.335377;9.269207;IT;Europe/Rome;Q218027;0083_REG|0083_RV;BUS;nom;130004035;Q3971385;;;830004721;Zoagli
@@ -634,8 +633,8 @@ TN8304731;gare;Levanto;Levanto;Levanto;8304731;;44.174191;9.616065;IT;Europe/Rom
 TN8304732;gare;Monterosso;Monterosso;Monterosso;8304732;;44.14589;9.648988;IT;Europe/Rome;Q270217;0083_EC|0083_IC|0083_REG|0083_RV;;nom;7472143593;Q3970216;;;830004732;Monterosso
 TN8304733;gare;Vernazza;Vernazza;Vernazza;8304733;;44.13503;9.684545;IT;Europe/Rome;Q270328;0083_REG|0083_RV;;nom;7472143603;Q3971270;;;830004733;Vernazza
 TN8304734;gare;Corniglia;Corniglia;Corniglia;8304734;;44.11854;9.716306;IT;Europe/Rome;Q270328;0083_REG|0083_RV;;nom;7472159376;Q3969484;;;830004734;Corniglia
-TN8304735;gare;Manarola;Manarola;Manarola;8304735;;44.104922;9.729205;IT;Europe/Rome;Q270295;0083_REG|0083_RV;;nom;305994253;Q3970025;;;830004735;Manarola
-TN8304736;gare;Riomaggiore;Riomaggiore;Riomaggiore;8304736;;44.100617;9.736142;IT;Europe/Rome;Q270295;0083_REG|0083_RV;;nom;7472186134;Q3097415;;;830004736;Riomaggiore
+TN8304735;gare;Manarola;Manarola;Manarola;8304735;;44.104922;9.729205;IT;Europe/Rome;Q270295;0083_REG|0083_RV;BUS;nom;305994253;Q3970025;;;830004735;Manarola
+TN8304736;gare;Riomaggiore;Riomaggiore;Riomaggiore;8304736;;44.100617;9.736142;IT;Europe/Rome;Q270295;0083_REG|0083_RV;BUS;nom;7472186134;Q3097415;;;830004736;Riomaggiore
 TN8304801;gare;Savona;Savona;Savona;8304801;;44.306981;8.471087;IT;Europe/Rome;Q13320;0083_IC|0083_REG|0083_RV;BUS;nom;12299676794;Q3970921;;;830004801;Savona
 TN8304802;gare;Santuario;Santuario;Santuario;8304802;;44.34601;8.435759;IT;Europe/Rome;Q13320;0083_REG;;nom;12291596713;Q3970900;;;830004802;Santuario
 TN8304803;gare;Bragno;Bragno;Bragno;8304803;;44.371906;8.304747;IT;Europe/Rome;Q270564;0083_REG|0083_RV;;nom;8449622892;Q3969111;;;830004803;Bragno
@@ -678,7 +677,7 @@ TN8305131;gare;Pianoro;Pianoro;Pianoro;8305131;;44.380597;11.340739;IT;Europe/Ro
 TN8305132;gare;Monzuno-Vado;Monzuno-Vado;Monzuno-Vado;8305132;;44.322224;11.262205;IT;Europe/Rome;Q94972;0083_REG;;uic;14017742087;Q3970227;;;830005132;Monzuno
 TN8305133;gare;Grizzana;Grizzana;Grizzana;8305133;;44.258278;11.181246;IT;Europe/Rome;Q94898;0083_REG;;uic;3509147559;Q3969754;;;830005133;Grizzana
 TN8305134;gare;San Benedetto Sambro-Castiglione Pepoli;San Benedetto Sambro-Castiglione Pepoli;San Benedetto Sambro-Castiglione Pepoli;8305134;;44.216214;11.189606;IT;Europe/Rome;Q94987;0083_REG;;uic;1960448766;Q3970780;;;830005134;S.Benedetto Sambro-Castiglione-P.
-TN8305135;gare;Vernio-Montepiano-Cantagallo;Vernio-Montepiano-Cantagallo;Vernio-Montepiano-Cantagallo;8305135;;44.043998;11.152337;IT;Europe/Rome;Q20397;0083_DIR|0083_REG;;uic;1397268062;Q3971272;;;830005135;Vernio Montepiano Cantagallo
+TN8305135;gare;Vernio-Montepiano-Cantagallo;Vernio-Montepiano-Cantagallo;Vernio-Montepiano-Cantagallo;8305135;;44.043998;11.152337;IT;Europe/Rome;Q20397;0083_REG;;uic;1397268062;Q3971272;;;830005135;Vernio Montepiano Cantagallo
 TN8305136;gare;Vaiano;Vaiano;Vaiano;8305136;;43.961841;11.130767;IT;Europe/Rome;Q20392;0083_REG;;uic;9393917679;Q3971226;;;830005136;Vaiano
 TN8305138;gare;Rastignano;Rastignano;Rastignano;8305138;;44.44322;11.357442;IT;Europe/Rome;Q94979;0083_REG;;uic;14014886153;Q3970641;;;830005138;Rastignano
 TN8305139;gare;Musiano-Pian di Macina;Musiano-Pian di Macina;Musiano-Pian di Macina;8305139;;44.400917;11.343952;IT;Europe/Rome;Q94979;0083_REG;;uic;14017640512;Q15714379;;;830005139;Musiano-Pian di Macina
@@ -761,7 +760,7 @@ TN8306038;gare;Montepescali;Montepescali;Montepescali;8306038;;42.869552;11.0688
 TN8306039;gare;Grosseto;Grosseto;Grosseto;8306039;;42.767323;11.10675;IT;Europe/Rome;Q6716;0083_FB|0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;755794829;Q3969767;;;830006039;Grosseto
 TN8306040;gare;Viareggio;Viareggio;Viareggio;8306040;;43.873893;10.252625;IT;Europe/Rome;Q221377;0083_FB|0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;249169073;Q3971295;;;830006040;Viareggio
 TN8306043;gare;Camaiore Lido-Capezzano;Camaiore Lido-Capezzano;Camaiore Lido-Capezzano;8306043;;43.911807;10.247717;IT;Europe/Rome;Q216853;0083_REG|0083_RV;;uic;1431727205;Q3969166;;;830006043;Camaiore Lido Capezzano
-TN8306044;gare;Ca' di Boschetti;Ca' di Boschetti;Ca' di Boschetti;8306044;;44.117924;9.857458;IT;Europe/Rome;Q8611;0083_REG;BUS;gtfs;;;;;830006044;Ca' di Boschetti
+TN8306044;gare;Ca' di Boschetti;Ca' di Boschetti;Ca' di Boschetti;8306044;;44.118273;9.864079;IT;Europe/Rome;Q8611;0083_REG;BUS;gtfs;;;;;830006044;Ca' di Boschetti
 TN8306072;gare;Pratovecchio;Pratovecchio;Pratovecchio;8306072;;43.787823;11.723049;IT;Europe/Rome;Q3909967;0083_REG;;nom;674448311;Q119643905;;;830006072;Pratovecchio
 TN8306077;gare;Bibbiena Corsalone;Bibbiena Corsalone;Bibbiena Corsalone;8306077;;43.686101;11.825713;IT;Europe/Rome;Q52066;0083_REG;;nom;1393720598;Q119642809;;;830006077;Bibbiena Corsalone
 TN8306079;gare;Santa Mama;Santa Mama;Santa Mama;8306079;;43.62805;11.853842;IT;Europe/Rome;Q52102;0083_REG;;nom;12206690552;Q119642008;;;830006079;S. Mama
@@ -818,10 +817,10 @@ TN8306409;gare;Pescia;Pescia;Pescia;8306409;;43.88687;10.686076;IT;Europe/Rome;Q
 TN8306410;gare;Borgo a Buggiano;Borgo a Buggiano;Borgo a Buggiano;8306410;;43.88078;10.730104;IT;Europe/Rome;Q102566;0083_REG;;uic;494529278;Q3969091;;;830006410;Borgo a Buggiano
 TN8306411;gare;Montecatini Terme-Monsummano;Montecatini Terme-Monsummano;Montecatini Terme-Monsummano;8306411;;43.879297;10.780721;IT;Europe/Rome;Q49605;0083_REG|0083_RV;BUS;uic;587959193;Q3970199;;;830006411;Montecatini Terme
 TN8306412;gare;Montecatini Centro;Montecatini Centro;Montecatini Centro;8306412;;43.881401;10.770411;IT;Europe/Rome;Q49605;0083_REG;;uic;12294243029;Q3970198;;;830006412;Montecatini Centro
-TN8306413;gare;Serravalle Pistoiese;Serravalle Pistoiese;Serravalle Pistoiese;8306413;;43.908146;10.851638;IT;Europe/Rome;Q102780;0083_REG|0083_RV;BUS;uic;344649004;Q3970951;;;830006413;Serravalle Pistoiese
+TN8306413;gare;Serravalle Pistoiese;Serravalle Pistoiese;Serravalle Pistoiese;8306413;;43.908146;10.851638;IT;Europe/Rome;Q102780;0083_REG;BUS;uic;344649004;Q3970951;;;830006413;Serravalle Pistoiese
 TN8306414;gare;Pistoia;Pistoia;Pistoia;8306414;;43.926693;10.914492;IT;Europe/Rome;Q13376;0083_REG|0083_RV;BUS;uic;2356000621;Q765790;;;830006414;Pistoia
 TN8306415;gare;Montale-Agliana;Montale-Agliana;Montale-Agliana;8306415;;43.912878;11.00841;IT;Europe/Rome;Q102652;0083_REG;BUS;uic;291192149;Q3970188;;;830006415;Montale Agliana
-TN8306416;gare;Prato Centrale;Prato Centrale;Prato Centrale;8306416;;43.878832;11.109297;IT;Europe/Rome;Q13377;0083_DIR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;3330084746;Q3970613;;;830006416;Prato Centrale
+TN8306416;gare;Prato Centrale;Prato Centrale;Prato Centrale;8306416;;43.878832;11.109297;IT;Europe/Rome;Q13377;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;3330084746;Q3970613;;;830006416;Prato Centrale
 TN8306417;gare;Calenzano;Calenzano;Calenzano;8306417;;43.856435;11.145143;IT;Europe/Rome;Q82635;0083_REG;;uic;250994397;Q3969160;;;830006417;Calenzano
 TN8306418;gare;Sesto Fiorentino;Sesto Fiorentino;Sesto Fiorentino;8306418;;43.833424;11.191934;IT;Europe/Rome;Q82865;0083_REG|0083_RV;;uic;279373455;Q3970958;;;830006418;Sesto Fiorentino
 TN8306419;gare;Firenze Castello;Firenze Castello;Firenze Castello;8306419;;43.819855;11.218724;IT;Europe/Rome;Q2044;0083_IC|0083_ICN|0083_REG;BUS;uic;279371582;Q3969616;;;830006419;Firenze Castello
@@ -871,10 +870,10 @@ TN8306727;gare;Antignano;Antignano;Antignano;8306727;;43.495432;10.329227;IT;Eur
 TN8306728;gare;Quercianella-Sonnino;Quercianella-Sonnino;Quercianella-Sonnino;8306728;;43.454915;10.372645;IT;Europe/Rome;Q6761;0083_REG|0083_RV;;uic;4130826430;Q3970624;;;830006728;Quercianella
 TN8306729;gare;Castiglioncello;Castiglioncello;Castiglioncello;8306729;;43.404638;10.414375;IT;Europe/Rome;Q157871;0083_REG|0083_RV;;uic;4130767754;Q3969325;;;830006729;Castiglioncello
 TN8306730;gare;Rosignano;Rosignano;Rosignano;8306730;;43.387918;10.438113;IT;Europe/Rome;Q157871;0083_REG|0083_RV;;uic;4130399789;Q3970721;;;830006730;Rosignano
-TN8306750;gare;Riparbella;Riparbella;Riparbella;8306750;;43.339468;10.582199;IT;Europe/Rome;Q103228;0083_REG;BUS;uic;4127801807;Q21751060;;;830006750;Riparbella
+TN8306750;arret_car;Riparbella;Riparbella;Riparbella;8306750;;43.339468;10.582199;IT;Europe/Rome;Q103228;;BUS;uic;4127801807;Q21751060;;;830006750;Riparbella
 TN8306751;arret_car;Casino di Terra;Casino di Terra;Casino di Terra;8306751;;43.328511;10.662923;IT;Europe/Rome;Q103095;;BUS;uic;3080995711;Q21751184;;;830006751;Casino di Terra
 TN8306752;arret_car;Ponteginori;Ponteginori;Ponteginori;8306752;;43.335092;10.74235;IT;Europe/Rome;Q103127;;BUS;uic;1960586114;Q21751542;;;830006752;Ponte Ginori
-TN8306753;gare;Volterra-Saline-Pomarance;Volterra-Saline-Pomarance;Volterra-Saline-Pomarance;8306753;;43.360001;10.809581;IT;Europe/Rome;Q103305;0083_REG;BUS;uic;12294243043;Q21751546;;;830006753;Volterra Saline-Pomarance
+TN8306753;arret_car;Volterra-Saline-Pomarance;Volterra-Saline-Pomarance;Volterra-Saline-Pomarance;8306753;;43.360001;10.809581;IT;Europe/Rome;Q103305;;BUS;uic;12294243043;Q21751546;;;830006753;Volterra Saline-Pomarance
 TN8306770;gare;Piombino;Piombino;Piombino;8306770;;42.924867;10.531386;IT;Europe/Rome;Q157824;0083_REG|0083_RV;;uic;3660300624;Q3970491;;;830006770;Piombino
 TN8306773;gare;Populonia;Populonia;Populonia;8306773;;42.996481;10.540524;IT;Europe/Rome;Q157824;0083_REG|0083_RV;;uic;4818907097;Q3970554;;;830006773;Populonia
 TN8306775;gare;Piombino Marittima;Piombino Marittima;Piombino Marittima;8306775;;42.928563;10.544478;IT;Europe/Rome;Q157824;0083_REG|0083_RV;;uic;12294243042;Q3970495;;;830006775;Piombino Marittima
@@ -1060,7 +1059,7 @@ TN8307707;gare;Scafa-San Valentino-Caramanico Terme;Scafa-San Valentino-Caramani
 TN8307708;gare;Alanno;Alanno;Alanno;8307708;;42.287143;14.019567;IT;Europe/Rome;Q51346;0083_REG;BUS;uic;282550536;Q19819465;;;830007708;Alanno
 TN8307710;gare;Manoppello;Manoppello;Manoppello;8307710;;42.305866;14.061118;IT;Europe/Rome;Q51370;0083_REG;BUS;uic;282550565;Q19819464;;;830007710;Manoppello
 TN8307712;gare;Chieti;Chieti;Chieti;8307712;;42.356876;14.138115;IT;Europe/Rome;Q13138;0083_REG|0083_RV;BUS;uic;282550602;Q3969405;;;830007712;Chieti
-TN8307714;gare;Piano d'Orta Bolognano;Piano d'Orta Bolognano;Piano d'Orta Bolognano;8307714;;42.254354;13.951565;IT;Europe/Rome;Q51397;0083_REG;BUS;uic;282505281;Q16609593;;;830007714;Piano d'Orta Bolognano
+TN8307714;gare;Piano d'Orta Bolognano;Piano d'Orta Bolognano;Piano d'Orta Bolognano;8307714;;42.254354;13.951565;IT;Europe/Rome;Q51397;0083_REG;;uic;282505281;Q16609593;;;830007714;Piano d'Orta Bolognano
 TN8307800;gare;Alba Adriatica-Nereto-Controguerra;Alba Adriatica-Nereto-Controguerra;Alba Adriatica-Nereto-Controguerra;8307800;;42.834385;13.917188;IT;Europe/Rome;Q51417;0083_REG;;uic;787150923;Q3968842;;;830007800;Alba Adriatica-Nereto-Controguerra
 TN8307801;gare;Tortoreto Lido;Tortoreto Lido;Tortoreto Lido;8307801;;42.805237;13.93872;IT;Europe/Rome;Q51470;0083_REG;;nom;12294127308;Q3971159;;;830007801;Tortoreto Lido
 TN8307802;gare;Giulianova;Giulianova;Giulianova;8307802;;42.751692;13.965667;IT;Europe/Rome;Q51450;0083_FR|0083_IC|0083_REG|0083_RV;;uic;12103826176;Q3394780;;;830007802;Giulianova
@@ -1070,8 +1069,8 @@ TN8307806;gare;Pineto-Atri;Pineto-Atri;Pineto-Atri;8307806;;42.607745;14.068983;
 TN8307807;gare;Silvi;Silvi;Silvi;8307807;;42.559064;14.110305;IT;Europe/Rome;Q51467;0083_REG;;uic;7800169577;Q3971004;;;830007807;Silvi
 TN8307808;gare;Montesilvano;Montesilvano;Montesilvano;8307808;;42.516458;14.151357;IT;Europe/Rome;Q51372;0083_REG;;uic;84446902;Q3970218;;;830007808;Montesilvano
 TN8307810;gare;Pescara Centrale;Pescara Centrale;Pescara Centrale;8307810;;42.468623;14.203958;IT;Europe/Rome;Q2704;0083_FR|0083_IC|0083_ICN|0083_REG|0083_RV;BUS;nom;267591085;Q3970451;;;830007810;Pescara
-TN8307811;gare;Pescara Porta Nuova;Pescara Porta Nuova;Pescara Porta Nuova;8307811;;42.457441;14.212384;IT;Europe/Rome;Q2704;0083_REG|0083_RV;BUS;uic;225904104;Q3970445;;;830007811;Pescara Porta Nuova
-TN8307812;gare;Pescara San Marco;Pescara San Marco;Pescara San Marco;8307812;;42.444498;14.20794;IT;Europe/Rome;Q2704;0083_REG;BUS;nom;3404718468;Q3970446;;;830007812;Pescara S.Marco
+TN8307811;gare;Pescara Porta Nuova;Pescara Porta Nuova;Pescara Porta Nuova;8307811;;42.457441;14.212384;IT;Europe/Rome;Q2704;0083_REG|0083_RV;;uic;225904104;Q3970445;;;830007811;Pescara Porta Nuova
+TN8307812;gare;Pescara San Marco;Pescara San Marco;Pescara San Marco;8307812;;42.444498;14.20794;IT;Europe/Rome;Q2704;0083_REG;;nom;3404718468;Q3970446;;;830007812;Pescara S.Marco
 TN8307813;gare;Francavilla al Mare;Francavilla al Mare;Francavilla al Mare;8307813;;42.421265;14.287949;IT;Europe/Rome;Q51225;0083_REG;;uic;443615295;Q20009402;;;830007813;Francavilla al Mare
 TN8307814;gare;Tollo-Canosa Sannita;Tollo-Canosa Sannita;Tollo-Canosa Sannita;8307814;;42.394096;14.339981;IT;Europe/Rome;Q51256;0083_REG;;uic;3213091806;Q20009827;;;830007814;Tollo Canosa Sannita
 TN8307815;gare;Ortona;Ortona;Ortona;8307815;;42.353825;14.407682;IT;Europe/Rome;Q51256;0083_REG;;uic;1814555622;Q3970357;;;830007815;Ortona
@@ -1088,7 +1087,7 @@ TN8307903;gare;Notaresco;Notaresco;Notaresco;8307903;;42.706562;13.876336;IT;Eur
 TN8307904;gare;Mosciano Sant'Angelo;Mosciano Sant'Angelo;Mosciano Sant'Angelo;8307904;;42.710361;13.908671;IT;Europe/Rome;Q51456;0083_REG;;uic;1127918723;Q17146401;;;830007904;Mosciano S.Angelo
 TN8308002;gare;Talamone;Talamone;Talamone;8308002;;42.564612;11.164579;IT;Europe/Rome;Q214849;0083_REG|0083_RV;BUS;uic;4963015114;Q3971079;;;830008002;Talamone
 TN8308003;gare;Albinia;Albinia;Albinia;8308003;;42.502311;11.211274;IT;Europe/Rome;Q214849;0083_REG|0083_RV;BUS;uic;4953888786;Q3968847;;;830008003;Albinia
-TN8308004;gare;Orbetello-Monte Argentario;Orbetello-Monte Argentario;Orbetello-Monte Argentario;8308004;;42.450689;11.248966;IT;Europe/Rome;Q214849;0083_FR|0083_IC|0083_REG|0083_RV;BUS;uic;5047007042;Q1109480;;;830008004;Orbetello
+TN8308004;gare;Orbetello-Monte Argentario;Orbetello-Monte Argentario;Orbetello-Monte Argentario;8308004;;42.450689;11.248966;IT;Europe/Rome;Q214849;0083_IC|0083_REG|0083_RV;BUS;uic;5047007042;Q1109480;;;830008004;Orbetello
 TN8308005;gare;Quattro Venti;Quattro Venti;Quattro Venti;8308005;;41.878672;12.45859;IT;Europe/Rome;Q220;0083_REG|0083_RV;;uic;13261254983;Q3970627;;;830008005;Quattro Venti
 TN8308006;gare;Capalbio;Capalbio;Capalbio;8308006;;42.408067;11.370995;IT;Europe/Rome;Q188490;0083_REG|0083_RV;BUS;uic;5056511932;Q3969208;;;830008006;Capalbio
 TN8308008;gare;Montalto di Castro;Montalto di Castro;Montalto di Castro;8308008;;42.334616;11.595139;IT;Europe/Rome;Q175956;0083_REG|0083_RV;BUS;uic;6817378846;Q3970185;;;830008008;Montalto di Castro
@@ -1109,7 +1108,7 @@ TN8308110;arret_car;Caprarola;Caprarola;Caprarola;8308110;;42.303719;12.258245;I
 TN8308111;arret_car;Fabrica di Roma;Fabrica di Roma;Fabrica di Roma;8308111;;42.334309;12.307473;IT;Europe/Rome;Q160967;;BUS;gtfs;;;;;830008111;Fabrica di Roma
 TN8308112;arret_car;Corchiano;Corchiano;Corchiano;8308112;;42.361245;12.341857;IT;Europe/Rome;Q160963;;BUS;gtfs;;;;;830008112;Corchiano
 TN8308113;arret_car;Gallese Bassanello;Gallese Bassanello;Gallese Bassanello;8308113;;42.379684;12.372003;IT;Europe/Rome;Q161685;;BUS;gtfs;;;;;830008113;Gallese Bassanello
-TN8308201;gare;Fabro-Ficulle;Fabro-Ficulle;Fabro-Ficulle;8308201;;42.874812;12.041362;IT;Europe/Rome;Q8711;0083_REG|0083_RV;BUS;uic;444581300;Q21185009;;;830008201;Fabro-Ficulle
+TN8308201;gare;Fabro-Ficulle;Fabro-Ficulle;Fabro-Ficulle;8308201;;42.874812;12.041362;IT;Europe/Rome;Q8711;0083_REG|0083_RV;;uic;444581300;Q21185009;;;830008201;Fabro-Ficulle
 TN8308202;gare;Allerona-Castel Viscardo;Allerona-Castel Viscardo;Allerona-Castel Viscardo;8308202;;42.784813;12.035762;IT;Europe/Rome;Q6052;0083_REG|0083_RV;;nom;8033523299;Q3968861;;;830008202;Allerona-Castel Viscardo
 TN8308203;gare;Orvieto;Orvieto;Orvieto;8308203;;42.723996;12.12669;IT;Europe/Rome;Q541;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;8033523288;Q2608652;;;830008203;Orvieto
 TN8308206;gare;Alviano;Alviano;Alviano;8308206;;42.591923;12.25964;IT;Europe/Rome;Q6067;0083_REG|0083_RV;BUS;uic;8033523297;Q18495061;;;830008206;Alviano
@@ -1298,7 +1297,7 @@ TN8309008;gare;Frattamaggiore-Grumo;Frattamaggiore-Grumo;Frattamaggiore-Grumo;83
 TN8309009;gare;Casoria-Afragola;Casoria-Afragola;Casoria-Afragola;8309009;;40.90775;14.298688;IT;Europe/Rome;Q72009;0083_REG;BUS;uic;7169124096;Q3969278;;;830009009;Casoria-Afragola
 TN8309036;gare;Valle di Maddaloni (nuova stazione);Valle di Maddaloni (nuova stazione);Valle di Maddaloni (nuova stazione);8309036;;41.05889;14.400802;IT;Europe/Rome;Q58925;0083_REG;BUS;gtfs;;;;;830009036;Valle di Maddaloni (nuova stazione)
 TN8309042;gare;Acerra;Acerra;Acerra;8309042;;40.940671;14.391911;IT;Europe/Rome;Q71603;0083_MET|0083_REG;;nom;13927406883;Q139929073;;;830009042;Acerra (nuova stazione)
-TN8309043;gare;Casalnuovo(new);Casalnuovo(new);Casalnuovo(new);8309043;;40.909803;14.328165;IT;Europe/Rome;Q71610;0083_MET|0083_REG;;gtfs;;;;;830009043;Casalnuovo(new)
+TN8309043;gare;Casalnuovo(new);Casalnuovo(new);Casalnuovo(new);8309043;;40.544494;14.193842;IT;Europe/Rome;Q38;0083_MET|0083_REG;;gtfs;;;;;830009043;Casalnuovo(new)
 TN8309050;gare;Carpinone;Carpinone;Carpinone;8309050;;41.588084;14.326886;IT;Europe/Rome;Q278931;0083_REG;;uic;13752998873;Q3969239;;;830009050;Carpinone
 TN8309053;gare;Isernia;Isernia;Isernia;8309053;;41.597034;14.235599;IT;Europe/Rome;Q13450;0083_REG;BUS;uic;9234059034;Q3969824;;;830009053;Isernia
 TN8309058;gare;Roccaravindola;Roccaravindola;Roccaravindola;8309058;;41.521024;14.122954;IT;Europe/Rome;Q279294;0083_REG;BUS;uic;7472936413;Q24939268;;;830009058;Rocca Ravindola
@@ -1437,7 +1436,7 @@ TN8309909;arret_car;Montesano-Buonabitacolo;Montesano-Buonabitacolo;Montesano-Bu
 TN8309910;arret_car;Casalbuono;Casalbuono;Casalbuono;8309910;;40.214444;15.686167;IT;Europe/Rome;Q80753;;BUS;gtfs;;;;;830009910;Casalbuono
 TN8309911;arret_car;Lagonegro;Lagonegro;Lagonegro;8309911;;40.12012;15.7623;IT;Europe/Rome;Q52586;;BUS;gtfs;;;;;830009911;Lagonegro
 TN8309913;arret_car;Casaletto;Casaletto;Casaletto;8309913;;40.168515;15.718896;IT;Europe/Rome;Q52586;;BUS;gtfs;;;;;830009913;Casaletto
-TN8309988;gare;Napoli Afragola;Napoli Afragola;Napoli Afragola;8309988;;40.931823;14.331566;IT;Europe/Rome;Q71610;0083_FR|0083_IC|0083_MET|0083_REG;;uic;4905758798;Q3970269;;;830009988;Napoli Afragola
+TN8309988;gare;Napoli Afragola;Napoli Afragola;Napoli Afragola;8309988;;40.931823;14.331566;IT;Europe/Rome;Q71610;0083_FR|0083_IC|0083_MET|0083_REG;;uic;4905758798;Q3970269;;;830009988;NA Afragola PES
 TN8311001;gare;Potenza Università;Potenza Università;Potenza Università;8311001;;40.643228;15.811714;IT;Europe/Rome;Q3543;0083_REG;;uic;13717781109;Q18420521;;;830011001;Potenza Univ.
 TN8311003;gare;Bari Villaggio del Lavoratore;Bari Villaggio del Lavoratore;Bari Villaggio del Lavoratore;8311003;;41.104152;16.822734;IT;Europe/Rome;Q3519;0083_REG;;uic;7055640618;;;;830011003;Villaggio Lav.
 TN8311004;gare;Bari Torre Quetta;Bari Torre Quetta;Bari Torre Quetta;8311004;;41.111568;16.915913;IT;Europe/Rome;Q3519;0083_REG|0083_RV;;nom;12816454772;Q27104344;;;830011004;Bari Torre Quetta
@@ -1657,43 +1656,44 @@ TN8312001;gare;Fiumara Gazzi;Fiumara Gazzi;Fiumara Gazzi;8312001;;38.160962;15.5
 TN8312002;gare;Palermo Centrale;Palermo Centrale;Palermo Centrale;8312002;;38.109257;13.36748;IT;Europe/Rome;Q2656;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;418376059;Q801315;;;830012002;Palermo Centrale
 TN8312003;gare;Mili Marina;Mili Marina;Mili Marina;8312003;;38.124367;15.518101;IT;Europe/Rome;Q13666;0083_REG;;uic;7526450831;Q16609427;;;830012003;Mili Marina
 TN8312005;gare;Ponte Santo Stefano;Ponte Santo Stefano;Ponte Santo Stefano;8312005;;38.096097;15.502806;IT;Europe/Rome;Q13666;0083_REG;;uic;7526450833;;;;830012005;Ponte S.Stefano
-TN8312008;gare;Bagheria;Bagheria;Bagheria;8312008;;38.089805;13.507343;IT;Europe/Rome;Q27000;0083_REG|0083_RV;;uic;1746597322;Q3968947;;;830012008;Bagheria
-TN8312009;gare;Santa Flavia-Solunto-Porticello;Santa Flavia-Solunto-Porticello;Santa Flavia-Solunto-Porticello;8312009;;38.082498;13.530713;IT;Europe/Rome;Q490801;0083_REG;;uic;9102223416;Q3970878;;;830012009;S.Flavia
+TN8312008;gare;Bagheria;Bagheria;Bagheria;8312008;;38.089805;13.507343;IT;Europe/Rome;Q27000;0083_REG|0083_RV;BUS;uic;1746597322;Q3968947;;;830012008;Bagheria
+TN8312009;gare;Santa Flavia-Solunto-Porticello;Santa Flavia-Solunto-Porticello;Santa Flavia-Solunto-Porticello;8312009;;38.082498;13.530713;IT;Europe/Rome;Q490801;0083_REG;BUS;uic;9102223416;Q3970878;;;830012009;S.Flavia
 TN8312010;gare;Casteldaccia;Casteldaccia;Casteldaccia;8312010;;38.060346;13.537093;IT;Europe/Rome;Q496859;0083_REG;;uic;9102223415;Q3969299;;;830012010;Casteldaccia
 TN8312011;gare;Altavilla Milicia;Altavilla Milicia;Altavilla Milicia;8312011;;38.048389;13.554288;IT;Europe/Rome;Q434792;0083_REG;;uic;9102223413;Q3968867;;;830012011;Altavilla Milicia
-TN8312012;gare;San Nicola Tonnara;San Nicola Tonnara;San Nicola Tonnara;8312012;;38.015721;13.612727;IT;Europe/Rome;Q490857;0083_REG;;uic;9102223411;Q3970836;;;830012012;S.Nicola Tonnara
-TN8312013;gare;Trabia;Trabia;Trabia;8312013;;37.996425;13.655606;IT;Europe/Rome;Q490857;0083_REG;;uic;9102223409;Q3971170;;;830012013;Trabia
-TN8312014;gare;Termini Imerese;Termini Imerese;Termini Imerese;8312014;;37.979858;13.704115;IT;Europe/Rome;Q490851;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;9051834174;Q3971098;;;830012014;Termini Imerese
-TN8312017;gare;Campofelice;Campofelice;Campofelice;8312017;;37.992723;13.877229;IT;Europe/Rome;Q496823;0083_REG|0083_RV;;uic;9062977724;Q16608918;;;830012017;Campofelice
-TN8312018;gare;Lascari;Lascari;Lascari;8312018;;38.0101;13.925094;IT;Europe/Rome;Q491410;0083_REG;;nom;9062977729;Q28670488;;;830012018;Lascari
-TN8312019;gare;Cefalù;Cefalù;Cefalù;8312019;;38.032803;14.019557;IT;Europe/Rome;Q235163;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;603353943;Q16609014;;;830012019;Cefalu'
+TN8312012;gare;San Nicola Tonnara;San Nicola Tonnara;San Nicola Tonnara;8312012;;38.015721;13.612727;IT;Europe/Rome;Q490857;0083_REG;BUS;uic;9102223411;Q3970836;;;830012012;S.Nicola Tonnara
+TN8312013;gare;Trabia;Trabia;Trabia;8312013;;37.996425;13.655606;IT;Europe/Rome;Q490857;0083_REG;BUS;uic;9102223409;Q3971170;;;830012013;Trabia
+TN8312014;gare;Termini Imerese;Termini Imerese;Termini Imerese;8312014;;37.979858;13.704115;IT;Europe/Rome;Q490851;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;9051834174;Q3971098;;;830012014;Termini Imerese
+TN8312017;gare;Campofelice;Campofelice;Campofelice;8312017;;37.992723;13.877229;IT;Europe/Rome;Q496823;0083_REG|0083_RV;BUS;uic;9062977724;Q16608918;;;830012017;Campofelice
+TN8312018;gare;Lascari;Lascari;Lascari;8312018;;38.0101;13.925094;IT;Europe/Rome;Q491410;0083_REG;BUS;nom;9062977729;Q28670488;;;830012018;Lascari
+TN8312019;gare;Cefalù;Cefalù;Cefalù;8312019;;38.032803;14.019557;IT;Europe/Rome;Q235163;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;603353943;Q16609014;;;830012019;Cefalu'
 TN8312021;gare;Pollina-San Mauro Castelverde;Pollina-San Mauro Castelverde;Pollina-San Mauro Castelverde;8312021;;38.018033;14.176152;IT;Europe/Rome;Q496920;0083_ICN|0083_REG;;uic;604277890;Q22324805;;;830012021;Pollina
-TN8312022;gare;Tusa;Tusa;Tusa;8312022;;38.007871;14.256772;IT;Europe/Rome;Q493486;0083_REG|0083_RV;;uic;603354324;Q22324816;;;830012022;Tusa
-TN8312024;gare;Santo Stefano di Camastra-Mistretta;Santo Stefano di Camastra-Mistretta;Santo Stefano di Camastra-Mistretta;8312024;;38.017491;14.351838;IT;Europe/Rome;Q494809;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;9062977752;Q20009825;;;830012024;S.Stefano di Camastra
-TN8312025;gare;Caronia;Caronia;Caronia;8312025;;38.034415;14.443802;IT;Europe/Rome;Q495936;0083_REG|0083_RV;;uic;9062977753;Q3969231;;;830012025;Caronia
-TN8312026;gare;Acquedolci -San Fratello;Acquedolci -San Fratello;Acquedolci -San Fratello;8312026;;38.058378;14.587648;IT;Europe/Rome;Q342514;0083_REG;;uic;1699196895;Q21154252;;;830012026;Acquedolci-S.Fratello
-TN8312027;gare;Sant'Agata di Militello;Sant'Agata di Militello;Sant'Agata di Militello;8312027;;38.073668;14.640913;IT;Europe/Rome;Q491724;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;1274172585;Q21154151;;;830012027;S.Agata di Militello
+TN8312022;gare;Tusa;Tusa;Tusa;8312022;;38.007871;14.256772;IT;Europe/Rome;Q493486;0083_REG|0083_RV;BUS;uic;603354324;Q22324816;;;830012022;Tusa
+TN8312024;gare;Santo Stefano di Camastra-Mistretta;Santo Stefano di Camastra-Mistretta;Santo Stefano di Camastra-Mistretta;8312024;;38.017491;14.351838;IT;Europe/Rome;Q494809;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;9062977752;Q20009825;;;830012024;S.Stefano di Camastra
+TN8312025;gare;Caronia;Caronia;Caronia;8312025;;38.034415;14.443802;IT;Europe/Rome;Q495936;0083_REG|0083_RV;BUS;uic;9062977753;Q3969231;;;830012025;Caronia
+TN8312026;gare;Acquedolci -San Fratello;Acquedolci -San Fratello;Acquedolci -San Fratello;8312026;;38.058378;14.587648;IT;Europe/Rome;Q342514;0083_REG;BUS;uic;1699196895;Q21154252;;;830012026;Acquedolci-S.Fratello
+TN8312027;gare;Sant'Agata di Militello;Sant'Agata di Militello;Sant'Agata di Militello;8312027;;38.073668;14.640913;IT;Europe/Rome;Q491724;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;1274172585;Q21154151;;;830012027;S.Agata di Militello
 TN8312028;gare;San Marco d'Alunzio-Torrenova;San Marco d'Alunzio-Torrenova;San Marco d'Alunzio-Torrenova;8312028;;38.094146;14.676091;IT;Europe/Rome;Q493433;0083_REG;;uic;2005650456;Q3970826;;;830012028;S.Marco d'Alunzio-Torrenova
 TN8312029;gare;Zappulla;Zappulla;Zappulla;8312029;;38.11696;14.703115;IT;Europe/Rome;Q493433;0083_REG;;uic;13351827968;Q3971381;;;830012029;Zappulla
-TN8312030;gare;Capo d'Orlando-Naso;Capo d'Orlando-Naso;Capo d'Orlando-Naso;8312030;;38.157931;14.744882;IT;Europe/Rome;Q51176;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;9062988237;Q3969211;;;830012030;Capo d'Orlando-Naso
-TN8312031;gare;Brolo-Ficarra;Brolo-Ficarra;Brolo-Ficarra;8312031;;38.159201;14.830205;IT;Europe/Rome;Q495798;0083_REG;;uic;9062988239;Q1115937;;;830012031;Brolo Ficarra
-TN8312032;gare;Palermo Roccella;Palermo Roccella;Palermo Roccella;8312032;;38.087311;13.407696;IT;Europe/Rome;Q2656;0083_REG;;uic;3242834461;Q18785619;;;830012032;Palermo Roccella
+TN8312030;gare;Capo d'Orlando-Naso;Capo d'Orlando-Naso;Capo d'Orlando-Naso;8312030;;38.157931;14.744882;IT;Europe/Rome;Q51176;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;9062988237;Q3969211;;;830012030;Capo d'Orlando-Naso
+TN8312031;gare;Brolo-Ficarra;Brolo-Ficarra;Brolo-Ficarra;8312031;;38.159201;14.830205;IT;Europe/Rome;Q495798;0083_REG;BUS;uic;9062988239;Q1115937;;;830012031;Brolo Ficarra
+TN8312032;gare;Palermo Roccella;Palermo Roccella;Palermo Roccella;8312032;;38.087311;13.407696;IT;Europe/Rome;Q2656;0083_REG;BUS;uic;3242834461;Q18785619;;;830012032;Palermo Roccella
 TN8312033;gare;Gioiosa Marea;Gioiosa Marea;Gioiosa Marea;8312033;;38.175095;14.895003;IT;Europe/Rome;Q492966;0083_REG;;uic;1958594419;Q3969732;;;830012033;Giojosa Marea
 TN8312034;gare;San Giorgio;San Giorgio;San Giorgio;8312034;;38.173936;14.944047;IT;Europe/Rome;Q492966;0083_REG;;uic;2005650455;Q3970797;;;830012034;S.Giorgio
-TN8312035;gare;Ficarazzi;Ficarazzi;Ficarazzi;8312035;;38.086545;13.463238;IT;Europe/Rome;Q497078;0083_REG;;uic;1537471779;Q3969597;;;830012035;Ficarazzi
-TN8312036;gare;Patti-San Piero Patti;Patti-San Piero Patti;Patti-San Piero Patti;8312036;;38.146984;14.975358;IT;Europe/Rome;Q489948;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;6820217122;Q3970426;;;830012036;Patti-S.Piero Patti
+TN8312035;gare;Ficarazzi;Ficarazzi;Ficarazzi;8312035;;38.086545;13.463238;IT;Europe/Rome;Q497078;0083_REG;BUS;uic;1537471779;Q3969597;;;830012035;Ficarazzi
+TN8312036;gare;Patti-San Piero Patti;Patti-San Piero Patti;Patti-San Piero Patti;8312036;;38.146984;14.975358;IT;Europe/Rome;Q489948;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;6820217122;Q3970426;;;830012036;Patti-S.Piero Patti
 TN8312037;gare;Oliveri-Tindari;Oliveri-Tindari;Oliveri-Tindari;8312037;;38.128386;15.056586;IT;Europe/Rome;Q497168;0083_REG;;uic;6820159424;Q3970341;;;830012037;Oliveri Tindari
 TN8312038;gare;Falcone;Falcone;Falcone;8312038;;38.119552;15.08046;IT;Europe/Rome;Q496026;0083_REG;;uic;6983445159;Q3969579;;;830012038;Falcone
 TN8312039;gare;Novara-Montalbano-Furnari;Novara-Montalbano-Furnari;Novara-Montalbano-Furnari;8312039;;38.121584;15.130681;IT;Europe/Rome;Q491867;0083_REG;;uic;7042610820;Q3970316;;;830012039;Novara-Montalbano-Furnari
 TN8312040;gare;Terme Vigliatore;Terme Vigliatore;Terme Vigliatore;8312040;;38.137245;15.170085;IT;Europe/Rome;Q491867;0083_REG;;uic;6820246292;Q3971096;;;830012040;Terme Vigliatore
-TN8312041;gare;Barcellona-Castroreale;Barcellona-Castroreale;Barcellona-Castroreale;8312041;;38.154009;15.19946;IT;Europe/Rome;Q42495;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;7240847861;Q3968974;;;830012041;Barcellona
-TN8312042;gare;Milazzo;Milazzo;Milazzo;8312042;;38.197855;15.258117;IT;Europe/Rome;Q487929;0083_IC|0083_ICN|0083_REG|0083_RV;;uic;7042610811;Q22324821;;;830012042;Milazzo
+TN8312041;gare;Barcellona-Castroreale;Barcellona-Castroreale;Barcellona-Castroreale;8312041;;38.154009;15.19946;IT;Europe/Rome;Q42495;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;7240847861;Q3968974;;;830012041;Barcellona
+TN8312042;gare;Milazzo;Milazzo;Milazzo;8312042;;38.197855;15.258117;IT;Europe/Rome;Q487929;0083_IC|0083_ICN|0083_REG|0083_RV;BUS;uic;7042610811;Q22324821;;;830012042;Milazzo
 TN8312045;gare;Pace del Mela;Pace del Mela;Pace del Mela;8312045;;38.20249;15.312727;IT;Europe/Rome;Q497371;0083_REG;;uic;7042610810;Q22324826;;;830012045;Pace del Mela
 TN8312048;gare;Spadafora;Spadafora;Spadafora;8312048;;38.219478;15.383607;IT;Europe/Rome;Q493451;0083_REG;;nom;7237356065;Q22324837;;;830012048;Spadafora
 TN8312049;gare;Rometta Messinese;Rometta Messinese;Rometta Messinese;8312049;;38.228398;15.406001;IT;Europe/Rome;Q139826;0083_REG;;uic;7237300994;Q3970713;;;830012049;Rometta Messinese
 TN8312050;gare;Villafranca Tirrena-Saponara;Villafranca Tirrena-Saponara;Villafranca Tirrena-Saponara;8312050;;38.233631;15.429413;IT;Europe/Rome;Q491821;0083_REG;;uic;6298055110;Q22324845;;;830012050;Villafranca Tirrena
+TN8312053;gare;Torre del Lauro;Torre del Lauro;Torre del Lauro;8312053;;38.040195;14.521183;IT;Europe/Rome;Q495936;0083_REG;;gtfs;;;;;830012053;Torre del Lauro
 TN8312054;gare;Fontane Bianche;Fontane Bianche;Fontane Bianche;8312054;;36.969098;15.211392;IT;Europe/Rome;Q13670;0083_REG;;nom;7525922371;Q16609200;;;830012054;Fontane Bianche
-TN8312055;gare;Palermo Brancaccio;Palermo Brancaccio;Palermo Brancaccio;8312055;;38.093018;13.392569;IT;Europe/Rome;Q2656;0083_REG;;uic;9063329766;Q3970406;;;830012055;Palermo Brancaccio
+TN8312055;gare;Palermo Brancaccio;Palermo Brancaccio;Palermo Brancaccio;8312055;;38.093018;13.392569;IT;Europe/Rome;Q2656;0083_REG;BUS;uic;9063329766;Q3970406;;;830012055;Palermo Brancaccio
 TN8312059;gare;San Paolo;San Paolo;San Paolo;8312059;;38.071148;15.488251;IT;Europe/Rome;Q13666;0083_REG;;uic;7526450835;Q16609817;;;830012059;San Paolo
 TN8312060;gare;Ponte Schiavo;Ponte Schiavo;Ponte Schiavo;8312060;;38.080994;15.494371;IT;Europe/Rome;Q13666;0083_REG;;uic;7526450834;Q16609654;;;830012060;Ponte Schiavo
 TN8312061;gare;Torregrotta;Torregrotta;Torregrotta;8312061;;38.206695;15.35157;IT;Europe/Rome;Q494798;0083_REG;;uic;7237356039;Q3971157;;;830012061;Torregrotta
@@ -1773,13 +1773,13 @@ TN8312314;gare;Santa Teresa di Riva;Santa Teresa di Riva;Santa Teresa di Riva;83
 TN8312315;gare;Sant'Alessio Siculo - Forza d'Agrò;Sant'Alessio Siculo - Forza d'Agrò;Sant'Alessio Siculo - Forza d'Agrò;8312315;;37.923989;15.347391;IT;Europe/Rome;Q491719;0083_REG;BUS;uic;7526450844;Q18590150;;;830012315;S.Alessio Siculo Forza d'Agro'
 TN8312316;gare;Letojanni;Letojanni;Letojanni;8312316;;37.877455;15.303279;IT;Europe/Rome;Q496343;0083_REG|0083_RV;BUS;uic;7039277004;Q3969949;;;830012316;Letojanni
 TN8312317;gare;Taormina-Giardini;Taormina-Giardini;Taormina-Giardini;8312317;;37.8454;15.28273;IT;Europe/Rome;Q199952;0083_ICN|0083_REG|0083_RV;BUS;uic;7039268138;Q3971081;;;830012317;Taormina
-TN8312320;gare;Alcantara;Alcantara;Alcantara;8312320;;37.821356;15.251174;IT;Europe/Rome;Q490422;0083_REG|0083_RV;BUS;uic;3397475807;Q3968855;;;830012320;Alcantara
-TN8312321;gare;Calatabiano;Calatabiano;Calatabiano;8312321;;37.814742;15.226592;IT;Europe/Rome;Q478246;0083_REG;BUS;uic;7526450846;Q3969156;;;830012321;Calatabiano
-TN8312322;gare;Fiumefreddo di Sicilia;Fiumefreddo di Sicilia;Fiumefreddo di Sicilia;8312322;;37.795222;15.205707;IT;Europe/Rome;Q478314;0083_REG|0083_RV;BUS;uic;7526450847;Q3969622;;;830012322;Fiumefreddo di Sicilia
-TN8312323;gare;Mascali;Mascali;Mascali;8312323;;37.755104;15.190133;IT;Europe/Rome;Q478378;0083_REG;BUS;uic;7526450849;Q3970059;;;830012323;Mascali
+TN8312320;gare;Alcantara;Alcantara;Alcantara;8312320;;37.821356;15.251174;IT;Europe/Rome;Q490422;0083_REG|0083_RV;;uic;3397475807;Q3968855;;;830012320;Alcantara
+TN8312321;gare;Calatabiano;Calatabiano;Calatabiano;8312321;;37.814742;15.226592;IT;Europe/Rome;Q478246;0083_REG;;uic;7526450846;Q3969156;;;830012321;Calatabiano
+TN8312322;gare;Fiumefreddo di Sicilia;Fiumefreddo di Sicilia;Fiumefreddo di Sicilia;8312322;;37.795222;15.205707;IT;Europe/Rome;Q478314;0083_REG|0083_RV;;uic;7526450847;Q3969622;;;830012322;Fiumefreddo di Sicilia
+TN8312323;gare;Mascali;Mascali;Mascali;8312323;;37.755104;15.190133;IT;Europe/Rome;Q478378;0083_REG;;uic;7526450849;Q3970059;;;830012323;Mascali
 TN8312324;gare;Giarre-Riposto;Giarre-Riposto;Giarre-Riposto;8312324;;37.730257;15.193646;IT;Europe/Rome;Q478322;0083_ICN|0083_REG|0083_RV;BUS;uic;7042610812;Q3969728;;;830012324;Giarre Riposto
-TN8312326;gare;Carruba;Carruba;Carruba;8312326;;37.6888;15.191487;IT;Europe/Rome;Q478782;0083_REG;BUS;uic;1956455745;Q18420506;;;830012326;Carruba
-TN8312327;gare;Guardia-Mangano-Santa Venerina;Guardia-Mangano-Santa Venerina;Guardia-Mangano-Santa Venerina;8312327;;37.661776;15.169466;IT;Europe/Rome;Q19319;0083_REG;BUS;uic;2460659383;Q18844700;;;830012327;Guardia Mangano S.Venerina
+TN8312326;gare;Carruba;Carruba;Carruba;8312326;;37.6888;15.191487;IT;Europe/Rome;Q478782;0083_REG;;uic;1956455745;Q18420506;;;830012326;Carruba
+TN8312327;gare;Guardia-Mangano-Santa Venerina;Guardia-Mangano-Santa Venerina;Guardia-Mangano-Santa Venerina;8312327;;37.661776;15.169466;IT;Europe/Rome;Q19319;0083_REG;;uic;2460659383;Q18844700;;;830012327;Guardia Mangano S.Venerina
 TN8312328;gare;Acireale;Acireale;Acireale;8312328;;37.595706;15.161757;IT;Europe/Rome;Q19319;0083_ICN|0083_REG|0083_RV;BUS;uic;5324492776;Q3968813;;;830012328;Acireale
 TN8312330;gare;Cannizzaro;Cannizzaro;Cannizzaro;8312330;;37.547112;15.129683;IT;Europe/Rome;Q341293;0083_REG;;uic;7525884231;Q3969199;;;830012330;Cannizzaro
 TN8312332;gare;Catania Centrale;Catania Centrale;Catania Centrale;8312332;;37.506464;15.099996;IT;Europe/Rome;Q1903;0083_ICN|0083_REG|0083_RV;BUS;uic;6993798056;Q1093710;;;830012332;Catania Centrale
@@ -1788,11 +1788,11 @@ TN8312334;gare;Catania Picanello;Catania Picanello;Catania Picanello;8312334;;37
 TN8312335;gare;Catania Europa;Catania Europa;Catania Europa;8312335;;37.515949;15.105574;IT;Europe/Rome;Q1903;0083_REG;;nom;7525884234;Q28966211;;;830012335;Catania Europa
 TN8312336;gare;Catania Aeroporto-Fontanarossa;Catania Aeroporto-Fontanarossa;Catania Aeroporto-Fontanarossa;8312336;;37.4756;15.061628;IT;Europe/Rome;Q1903;0083_REG|0083_RV;BUS;uic;8251178135;Q104195396;;;830012336;Catania Aer.Font
 TN8312341;arret_car;Lentini;Lentini;Lentini;8312341;;37.301238;14.997035;IT;Europe/Rome;Q488240;;BUS;uic;7525884237;Q3969942;;;830012341;Lentini
-TN8312345;arret_car;Augusta;Augusta;Augusta;8312345;;37.243348;15.218586;IT;Europe/Rome;Q194005;;BUS;nom;7525884238;Q3968930;;;830012345;Augusta
+TN8312345;arret_car;Augusta;Augusta;Augusta;8312345;;37.241962;15.218638;IT;Europe/Rome;Q194005;;BUS;gtfs;;;;;830012345;Augusta
 TN8312347;arret_car;Priolo-Melilli;Priolo-Melilli;Priolo-Melilli;8312347;;37.157892;15.197195;IT;Europe/Rome;Q490412;;BUS;uic;7525884239;Q3970615;;;830012347;Priolo Melilli
 TN8312349;gare;Siracusa;Siracusa;Siracusa;8312349;;37.069091;15.280743;IT;Europe/Rome;Q13670;0083_REG;BUS;uic;7525922372;Q1158776;;;830012349;Siracusa
 TN8312353;arret_car;Targia;Targia;Targia;8312353;;37.109629;15.245956;IT;Europe/Rome;Q13670;;BUS;uic;7525884240;Q3971084;;;830012353;Targia
-TN8312355;gare;Contesse;Contesse;Contesse;8312355;;38.150128;15.535172;IT;Europe/Rome;Q13666;0083_REG;;uic;7526450829;Q16609084;;;830012355;Contesse
+TN8312355;gare;Contesse;Contesse;Contesse;8312355;;38.160237;15.544724;IT;Europe/Rome;Q13666;0083_REG;;gtfs;;;;;830012355;Contesse
 TN8312370;gare;Aragona Caldare;Aragona Caldare;Aragona Caldare;8312370;;37.381098;13.636528;IT;Europe/Rome;Q323231;0083_REG;;uic;9130235390;Q3968885;;;830012370;Aragona Caldare
 TN8312372;gare;Grotte;Grotte;Grotte;8312372;;37.409827;13.702711;IT;Europe/Rome;Q431568;0083_REG;;uic;611596618;Q24939188;;;830012372;Grotte
 TN8312373;gare;Racalmuto;Racalmuto;Racalmuto;8312373;;37.40607;13.727557;IT;Europe/Rome;Q432337;0083_REG;;uic;611596749;Q24939189;;;830012373;Racalmuto
@@ -1800,9 +1800,9 @@ TN8312375;gare;Canicattì;Canicattì;Canicattì;8312375;;37.360033;13.855601;IT;
 TN8312380;gare;Caltanissetta Xirbi;Caltanissetta Xirbi;Caltanissetta Xirbi;8312380;;37.536253;14.056983;IT;Europe/Rome;Q13680;0083_REG|0083_RV;;uic;9041963775;Q3969163;;;830012380;Caltanissetta Xirbi
 TN8312381;gare;Caltanissetta Centrale;Caltanissetta Centrale;Caltanissetta Centrale;8312381;;37.488518;14.057499;IT;Europe/Rome;Q13680;0083_REG|0083_RV;;uic;9041963776;Q800607;;;830012381;Caltanissetta Centrale
 TN8312383;gare;Serradifalco;Serradifalco;Serradifalco;8312383;;37.431737;13.883242;IT;Europe/Rome;Q13680;0083_REG;;uic;9041963771;Q29919060;;;830012383;Serradifalco
-TN8312385;gare;Campobello-Ravanusa;Campobello-Ravanusa;Campobello-Ravanusa;8312385;;37.265814;13.946314;IT;Europe/Rome;Q431300;0083_RV;;uic;7525922354;Q16608915;;;830012385;Campobello Ravanusa
+TN8312385;gare;Campobello-Ravanusa;Campobello-Ravanusa;Campobello-Ravanusa;8312385;;37.265814;13.946314;IT;Europe/Rome;Q431300;0083_REG|0083_RV;;uic;7525922354;Q16608915;;;830012385;Campobello Ravanusa
 TN8312392;arret_car;Niscemi;Niscemi;Niscemi;8312392;;37.144222;14.40348;IT;Europe/Rome;Q477609;;BUS;gtfs;;;;;830012392;Niscemi
-TN8312400;gare;Licata;Licata;Licata;8312400;;37.106045;13.938115;IT;Europe/Rome;Q431760;0083_RV;;uic;7525922355;Q3969955;;;830012400;Licata
+TN8312400;gare;Licata;Licata;Licata;8312400;;37.106045;13.938115;IT;Europe/Rome;Q431760;0083_REG|0083_RV;;uic;7525922355;Q3969955;;;830012400;Licata
 TN8312407;gare;Gela;Gela;Gela;8312407;;37.072887;14.259572;IT;Europe/Rome;Q39971;0083_REG|0083_RV;BUS;uic;7525922356;Q615283;;;830012407;Gela
 TN8312409;gare;Acate;Acate;Acate;8312409;;36.996597;14.425408;IT;Europe/Rome;Q34058;0083_REG;;uic;7525922358;Q16608713;;;830012409;Acate
 TN8312410;gare;Vittoria;Vittoria;Vittoria;8312410;;36.958922;14.524865;IT;Europe/Rome;Q34130;0083_REG|0083_RV;;uic;7525922359;Q16610085;;;830012410;Vittoria
@@ -1819,7 +1819,7 @@ TN8312424;gare;Noto;Noto;Noto;8312424;;36.882394;15.074537;IT;Europe/Rome;Q48717
 TN8312426;gare;Avola;Avola;Avola;8312426;;36.907501;15.12583;IT;Europe/Rome;Q489929;0083_REG;BUS;uic;7525922370;Q16608770;;;830012426;Avola
 TN8312799;gare;Carini Torre Ciachea;Carini Torre Ciachea;Carini Torre Ciachea;8312799;;38.163498;13.218192;IT;Europe/Rome;Q490793;0083_REG;BUS;uic;9063329689;Q3969227;;;830012799;Carini Torre Ciachea
 TN8312802;gare;Porto Torres;Porto Torres;Porto Torres;8312802;;40.833003;8.396589;IT;Europe/Rome;Q391316;0083_REG;;uic;793607327;Q3970571;;;830012802;Porto Torres
-TN8312807;gare;Sassari;Sassari;Sassari;8312807;;40.729562;8.554141;IT;Europe/Rome;Q13629;0083_REG;;uic;5326031838;Q3970916;;;830012807;Sassari
+TN8312807;gare;Sassari;Sassari;Sassari;8312807;;40.729562;8.554141;IT;Europe/Rome;Q13629;0083_REG;BUS;uic;5326031838;Q3970916;;;830012807;Sassari
 TN8312808;gare;Assemini Santa Lucia;Assemini Santa Lucia;Assemini Santa Lucia;8312808;;39.291021;8.989369;IT;Europe/Rome;Q283609;0083_REG;;uic;8157505407;Q3968922;;;830012808;Assemini S. Lucia
 TN8312809;gare;Assemini Carmine;Assemini Carmine;Assemini Carmine;8312809;;39.281722;9.014047;IT;Europe/Rome;Q283609;0083_REG;;uic;8157606171;Q3968921;;;830012809;Assemini Carmine
 TN8312810;gare;Cagliari Santa Gilla;Cagliari Santa Gilla;Cagliari Santa Gilla;8312810;;39.226389;9.097579;IT;Europe/Rome;Q1897;0083_REG;BUS;uic;8157398677;Q3969149;;;830012810;Cagliari S.Gilla
@@ -1833,15 +1833,15 @@ TN8312855;gare;Olbia;Olbia;Olbia;8312855;;40.924639;9.498348;IT;Europe/Rome;Q136
 TN8312857;gare;Monti-Telti;Monti-Telti;Monti-Telti;8312857;;40.829661;9.322788;IT;Europe/Rome;Q340920;0083_REG;;uic;1323955165;Q3970220;;;830012857;Monti Telti
 TN8312859;gare;Berchidda;Berchidda;Berchidda;8312859;;40.772065;9.181381;IT;Europe/Rome;Q340658;0083_REG;;uic;1323945585;Q3969025;;;830012859;Berchidda
 TN8312860;gare;Oschiri;Oschiri;Oschiri;8312860;;40.713241;9.107802;IT;Europe/Rome;Q340961;0083_REG;;uic;1323937077;Q3970359;;;830012860;Oschiri
-TN8312862;gare;Ozieri-Chilivani;Ozieri-Chilivani;Ozieri-Chilivani;8312862;;40.609543;8.933731;IT;Europe/Rome;Q391167;0083_REG;;uic;9310483028;Q3970379;;;830012862;Ozieri Chilivani
+TN8312862;gare;Ozieri-Chilivani;Ozieri-Chilivani;Ozieri-Chilivani;8312862;;40.609543;8.933731;IT;Europe/Rome;Q391167;0083_REG;BUS;uic;9310483028;Q3970379;;;830012862;Ozieri Chilivani
 TN8312866;gare;Giave;Giave;Giave;8312866;;40.456441;8.729864;IT;Europe/Rome;Q390837;0083_REG;;uic;13235377504;Q19689915;;;830012866;Giave
 TN8312867;gare;Bonorva;Bonorva;Bonorva;8312867;;40.417768;8.760694;IT;Europe/Rome;Q390280;0083_REG;;uic;13235359168;Q19857172;;;830012867;Bonorva
-TN8312869;gare;Macomer;Macomer;Macomer;8312869;;40.267786;8.772211;IT;Europe/Rome;Q295248;0083_REG;;uic;13235350282;Q3970003;;;830012869;Macomer
+TN8312869;gare;Macomer;Macomer;Macomer;8312869;;40.267786;8.772211;IT;Europe/Rome;Q295248;0083_REG;BUS;uic;13235350282;Q3970003;;;830012869;Macomer
 TN8312872;gare;Borore;Borore;Borore;8312872;;40.218949;8.809526;IT;Europe/Rome;Q294752;0083_REG;;uic;13235332711;Q20009907;;;830012872;Borore
-TN8312873;gare;Abbasanta;Abbasanta;Abbasanta;8312873;;40.126753;8.816012;IT;Europe/Rome;Q305994;0083_REG;;uic;13235319756;Q3968806;;;830012873;Abbasanta
+TN8312873;gare;Abbasanta;Abbasanta;Abbasanta;8312873;;40.126753;8.816012;IT;Europe/Rome;Q305994;0083_REG;BUS;uic;13235319756;Q3968806;;;830012873;Abbasanta
 TN8312874;gare;Paulilatino;Paulilatino;Paulilatino;8312874;;40.077272;8.775799;IT;Europe/Rome;Q387222;0083_REG;;uic;13235312527;Q20010001;;;830012874;Paulilatino
 TN8312876;gare;Solarussa;Solarussa;Solarussa;8312876;;39.952491;8.679831;IT;Europe/Rome;Q388616;0083_REG;;uic;13235292926;Q20010037;;;830012876;Solarussa
-TN8312878;gare;Oristano;Oristano;Oristano;8312878;;39.902097;8.603954;IT;Europe/Rome;Q13652;0083_REG;;uic;13235279955;Q3970353;;;830012878;Oristano
+TN8312878;gare;Oristano;Oristano;Oristano;8312878;;39.902097;8.603954;IT;Europe/Rome;Q13652;0083_REG;BUS;uic;13235279955;Q3970353;;;830012878;Oristano
 TN8312879;gare;Marrubiu-Terralba-Arborea;Marrubiu - Terralba - Arborea;Marrubiu - Terralba - Arborea;8312879;;39.753036;8.641073;IT;Europe/Rome;Q386323;0083_REG;;uic;1322521224;Q3970058;;;830012879;Marrubiu-Terralba-Arborea
 TN8312880;gare;Uras-Mogoro;Uras-Mogoro;Uras-Mogoro;8312880;;39.692584;8.696408;IT;Europe/Rome;Q389339;0083_REG;;uic;1322509389;Q20010067;;;830012880;Uras Mogoro
 TN8312882;gare;San Gavino;San Gavino;San Gavino;8312882;;39.557867;8.800896;IT;Europe/Rome;Q287986;0083_REG;;nom;9310474726;Q3970794;;;830012882;S.Gavino
@@ -1855,17 +1855,17 @@ TN8312891;gare;Cagliari;Cagliari;Cagliari;8312891;;39.216328;9.10766;IT;Europe/R
 TN8312895;gare;Rudalza;Rudalza;Rudalza;8312895;;40.99413;9.53116;IT;Europe/Rome;Q340731;0083_REG;;uic;259430501;Q20009335;;;830012895;Rudalza
 TN8312896;gare;Su Canale;Su Canale;Su Canale;8312896;;40.837784;9.403686;IT;Europe/Rome;Q340920;0083_REG;;uic;4687652334;Q19886018;;;830012896;Su Canale
 TN8312902;gare;Olbia Terranova;Olbia Terranova;Olbia Terranova;8312902;;40.922027;9.493835;IT;Europe/Rome;Q13630;0083_REG;;uic;259744281;Q110148544;;;830012902;Olbia Terranova
-TN8312950;gare;Iglesias;Iglesias;Iglesias;8312950;;39.310538;8.539744;IT;Europe/Rome;Q13661;0083_REG;BUS;uic;13226837704;Q3969809;;;830012950;Iglesias
+TN8312950;arret_car;Iglesias;Iglesias;Iglesias;8312950;;39.310538;8.539744;IT;Europe/Rome;Q13661;;BUS;uic;13226837704;Q3969809;;;830012950;Iglesias
 TN8312952;gare;Villamassargia-Domusnovas;Villamassargia-Domusnovas;Villamassargia-Domusnovas;8312952;;39.294758;8.642373;IT;Europe/Rome;Q286768;0083_REG;BUS;uic;9308316058;Q3971329;;;830012952;Villamassargia Domusnovas
 TN8312954;gare;Siliqua;Siliqua;Siliqua;8312954;;39.296998;8.813158;IT;Europe/Rome;Q285124;0083_REG;BUS;uic;13226811900;Q3971001;;;830012954;Siliqua
 TN8312956;gare;Villaspeciosa-Uta;Villaspeciosa-Uta;Villaspeciosa-Uta;8312956;;39.304191;8.940537;IT;Europe/Rome;Q285631;0083_REG;;uic;564953937;Q3971338;;;830012956;Villaspeciosa Uta
 TN8313551;gare;Salerno Mercatello;Salerno Mercatello;Salerno Mercatello;8313551;;40.661792;14.803026;IT;Europe/Rome;Q1083;0083_REG;;gtfs;;;;;830013551;Salerno Mercatello
 TN8313552;gare;Salerno Arbostella;Salerno Arbostella;Salerno Arbostella;8313552;;40.652155;14.811158;IT;Europe/Rome;Q1083;0083_REG;;gtfs;;;;;830013552;Salerno Arbostella
-TN8313703;gare;Carbonia Serbariu;Carbonia Serbariu;Carbonia Serbariu;8313703;;39.163526;8.513212;IT;Europe/Rome;Q13660;0083_REG;BUS;gtfs;;;;;830013703;Carbonia Serbariu
+TN8313703;gare;Carbonia Serbariu;Carbonia Serbariu;Carbonia Serbariu;8313703;;39.164128;8.512929;IT;Europe/Rome;Q13660;0083_REG;BUS;nom;1370551309;Q3969221;;;830013703;Carbonia Serbariu
 TN8313704;gare;Reggio di Calabria Aeroporto;Reggio di Calabria Aeroporto;Reggio di Calabria Aeroporto;8313704;;38.067623;15.651507;IT;Europe/Rome;Q8471;0083_REG;;uic;9136332890;Q20009442;;;830013704;Reggio di Calabria Aeroporto
 TN8313705;gare;Ponte di Nona;Ponte di Nona;Ponte di Nona;8313705;;41.918806;12.654363;IT;Europe/Rome;Q220;0083_REG;;uic;13026968184;Q23026044;;;830013705;Ponte di Nona
 TN8313708;gare;Brindisi Ricerca;Brindisi Ricerca;Brindisi Ricerca;8313708;;40.588976;17.84777;IT;Europe/Rome;Q13496;0083_REG;;gtfs;;;;;830013708;Brindisi Ricerca
-TN8314570;gare;Vigna Clara PES;Vigna Clara PES;Vigna Clara PES;8314570;;41.9676;12.4094;IT;Europe/Rome;Q220;0083_REG;;gtfs;;;;;830014570;Vigna Clara PES
+TN8314570;gare;Vigna Clara PES;Vigna Clara PES;Vigna Clara PES;8314570;;41.94936;12.47097;IT;Europe/Rome;Q220;0083_REG;;gtfs;;;;;830014570;Vigna Clara PES
 TN8314916;gare;Venezia Mestre Binario 1 Giardino;Venezia Mestre Binario 1 Giardino;Venezia Mestre Binario 1 Giardino;8314916;;45.482967;12.229582;IT;Europe/Rome;Q641;0083_REG;;gtfs;;;;;830014916;Venezia Mestre Binario 1 Giardino
 TN8320064;arret_car;Summaga;Summaga;Summaga;8320064;;45.773865;12.806136;IT;Europe/Rome;Q47143;;BUS;gtfs;;;;;830020064;Summaga
 TN8334101;gare;Giovi;Giovi;Giovi;8334101;;43.526888;11.864532;IT;Europe/Rome;Q13378;0083_REG;;nom;749874598;Q28668056;;;830034101;Giovi
@@ -1881,7 +1881,6 @@ TN8360060;arret_car;Lanzago;Lanzago;Lanzago;8360060;;45.66163;12.290908;IT;Europ
 TN8360062;arret_car;Meduna di Livenza;Meduna di Livenza;Meduna di Livenza;8360062;;45.806509;12.612579;IT;Europe/Rome;Q46189;;BUS;gtfs;;;;;830060062;Meduna di Livenza
 TN8360063;arret_car;Pradipozzo;Pradipozzo;Pradipozzo;8360063;;45.784565;12.760197;IT;Europe/Rome;Q47143;;BUS;gtfs;;;;;830060063;Pradipozzo
 TN8360912;arret_car;Levada LAMARCA;Levada LAMARCA;Levada LAMARCA;8360912;;45.74145;12.476844;IT;Europe/Rome;Q48087;;BUS;gtfs;;;;;830060912;Levada LAMARCA
-TN8390295;gare;Pm Cameri;Pm Cameri;Pm Cameri;8390295;;45.555591;8.625681;IT;Europe/Rome;Q22070;0083_RV;;gtfs;;;;;830090295;Pm Cameri
 TN8390441;arret_car;Belfiore;Belfiore;Belfiore;8390441;;45.78517;12.7284;IT;Europe/Rome;Q47147;;BUS;gtfs;;;;;830090441;Belfiore
 TN8500010;gare;Basel SBB;Basel SBB;Basel SBB;8500010;;47.547623;7.589642;CH;Europe/Zurich;Q78;0083_EC;;uic;3080746011;Q667201;;XSB;850000010;Basel Sbb
 TN8500023;gare;Liestal;Liestal;Liestal;8500023;;47.484517;7.731379;CH;Europe/Zurich;Q68972;0083_EC;;uic;3080746017;Q3096881;;;850000023;Liestal
@@ -1906,7 +1905,6 @@ TN8505000;gare;Luzern;Luzern;Luzern;8505000;;47.050236;8.310297;CH;Europe/Zurich
 TN8505004;gare;Arth-Goldau;Arth-Goldau;Arth-Goldau;8505004;;47.049131;8.549645;CH;Europe/Zurich;Q69742;0083_EC;;uic;1356798952;Q365122;;;850005004;Arth-Goldau
 TN8505213;gare;Bellinzona;Bellinzona;Bellinzona;8505213;;46.195124;9.029023;CH;Europe/Zurich;Q64044;0083_EC;;uic;3080372078;Q662556;;;850005213;Bellinzona
 TN8505300;gare;Lugano;Lugano;Lugano;8505300;;46.005499;8.946849;CH;Europe/Zurich;Q7024;0083_EC;;uic;2460241310;Q174946;;;850005300;Lugano
-TN8505307;gare;Chiasso;Chiasso;Chiasso;8505307;;45.83223;9.031415;CH;Europe/Zurich;Q68111;0083_EC;;nom;3092179807;Q683236;;;830001301;Chiasso
 TN8507000;gare;Bern;Bern;Bern;8507000;;46.948909;7.439955;CH;Europe/Zurich;Q70;0083_EC;;uic;3081154349;Q28870;;XSBE;850007000;Bern
 TN8507100;gare;Thun;Thun;Thun;8507100;;46.754945;7.629617;CH;Europe/Zurich;Q68978;0083_EC;;uic;3081154442;Q801516;;;850007100;Thun
 TN8507483;gare;Spiez;Spiez;Spiez;8507483;;46.686585;7.680035;CH;Europe/Zurich;Q69484;0083_EC;;uic;3080728389;Q1709253;;;850007483;Spiez
@@ -1926,3 +1924,4 @@ TN8775687;gare;La Brigue;La Brigue;La Brigue;8775687;;44.062567;7.605624;FR;Euro
 TN8775688;gare;Tende;Tende;Tende;8775688;;44.090001;7.594082;FR;Europe/Paris;Q236609;0083_REG;;nom;1030666081;Q2637328;;;830014957;Tende
 TN8775689;gare;Viévola;Vievola;Vievola;8775689;;44.112521;7.562881;FR;Europe/Paris;Q236609;0083_REG;;nom;1407557399;Q3098032;;;830014956;Vievola
 TN8776290;gare;Lyon Saint-Exupéry TGV;Lyon-Saint-Exupéry TGV;Lyon-Saint-Exupéry TGV;8776290;;45.721029;5.075805;FR;Europe/Paris;Q752476;0083_FR;;uic;9908985728;Q801144;;;870076290;Lyon-Saint Exupery Tgv
+TNOSM3092179807;gare;Chiasso;Chiasso;Chiasso;;;45.83223;9.031415;CH;Europe/Zurich;Q68111;0083_EC;;nom;3092179807;Q683236;;;830001301;Chiasso

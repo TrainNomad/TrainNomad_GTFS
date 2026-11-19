@@ -2,7 +2,7 @@ id;type;nom_fr;nom_en;nom_local;uic;uic8;lat;lon;pays;fuseau;ville_id;trains;car
 TN7104307;gare;Figueres Vilafant;Figueres Vilafant;Figueres Vilafant;7104307;71043075;42.264695;2.942684;ES;Europe/Madrid;Q12153;TGV INOUI;;uic;1914054304;Q2783545;;;71043075;FIGUERES-VILAFANT
 TN7171801;gare;Barcelona - Sants;Barcelona - Sants;Barcelona - Sants;7171801;71718010;41.379007;2.140004;ES;Europe/Madrid;Q1492;TGV INOUI;;uic;2158044594;;;;71718010;Barcelone-Sants
 TN7179300;gare;Girona;Girona;Girona;7179300;71793000;41.979166;2.816286;ES;Europe/Madrid;Q7038;TGV INOUI;;uic;7490586752;Q3088107;;;71793000;GIRONA
-TN7179315;gare;Portbou;Portbou;Portbou;7179315;71793150;42.424798;3.158012;ES;Europe/Madrid;Q7165;Train TER;Car TER;nom;5418197107;Q979452;;XEPB;71793150;Portbou
+TN7179315;gare;Portbou;Portbou;Portbou;7179315;71793150;42.424798;3.158012;ES;Europe/Madrid;Q7165;Train TER;;nom;5418197107;Q979452;;XEPB;71793150;Portbou
 TN8002140;gare;Augsburg Hbf;Augsburg Hauptbahnhof;Augsburg Hauptbahnhof;8002140;80021402;48.365491;10.885691;DE;Europe/Berlin;Q2749;ICE;;uic;1058668074;Q682505;de:09761:100;MA;80021402;Augsburg Hbf
 TN8003004;gare;Berlin Ostbahnhof;Berlin Eastern Station;Berlin Ostbahnhof;8003004;80030049;52.510382;13.434911;DE;Europe/Berlin;Q64;ICE;;uic;3419894993;Q683239;;BHF;80030049;Berlin Ostbahnhof
 TN8003025;gare;Berlin-Spandau;Berlin-Spandau;Berlin-Spandau;8003025;80030254;52.534769;13.195629;DE;Europe/Berlin;Q64;ICE;;uic;3101920259;Q654980;;BSPD;80030254;Berlin-Spandau
@@ -62,8 +62,6 @@ TN8200714;gare;Dippach secteur Reckange;Dippach secteur Reckange;Dippach secteur
 TN8200718;gare;Bascharage secteur Sanem;Bascharage secteur Sanem;Bascharage secteur Sanem;8200718;82007187;49.5585;5.9249;LU;Europe/Luxembourg;Q776642;Train TER;Car TER;gtfs;;;;;82007187;Bascharage secteur Sanem
 TN8200930;gare;Pétange;Pétange;Pétange;8200930;82009300;49.554378;5.879223;LU;Europe/Luxembourg;Q602441;Train TER;Car TER;uic;3721698933;Q801342;;;82009300;Petange
 TN8200940;gare;Rodange;Rodange;Rodange;8200940;82009407;49.551381;5.845186;LU;Europe/Luxembourg;Q602441;Train TER;Car TER;uic;704409331;Q2805202;;XLRD;82009407;Rodange
-TN8226001;arret_car;Bettembourg Gare;Bettembourg Gare;Bettembourg Gare;8226001;82260018;49.516389;6.102222;LU;Europe/Luxembourg;Q832342;;Car TER;gtfs;;;;;82260018;Bettembourg Gare
-TN8291601;arret_car;Luxembourg Gare;Luxembourg Gare;Luxembourg Gare;8291601;82916015;49.598611;6.133056;LU;Europe/Luxembourg;Q1842;;Car TER;gtfs;;;;;82916015;Luxembourg Gare
 TN8300035;gare;Torino Porta Susa;Torino Porta Susa;Torino Porta Susa;8300035;83000356;45.071577;7.665855;IT;Europe/Rome;Q495;TGV INOUI;;uic;11592793752;Q782123;;;83000356;Turin Porta Susa
 TN8300204;gare;Oulx - Cesana - Claviere - Sestriere;Oulx - Cesana - Claviere - Sestriere;Oulx - Cesana - Claviere - Sestriere;8300204;83002048;45.038731;6.831411;IT;Europe/Rome;Q9527;TGV INOUI;;uic;256630618;Q3095843;;;83002048;OULX CESANA CLAVIERE SESTRIERE
 TN8300219;gare;Torino Porta Nuova;Torino Porta Nuova;Torino Porta Nuova;8300219;83002196;45.061203;7.6778;IT;Europe/Rome;Q495;TGV INOUI;;uic;3395226356;Q801523;;;83002196;TORINO PORTA NUOVA
@@ -108,7 +106,7 @@ TN8501563;gare;Les Marécottes;Les Marécottes;Les Marécottes;8501563;85015636;
 TN8501564;gare;Le Trétien;Le Trétien;Le Trétien;8501564;85015644;46.102299;6.997806;CH;Europe/Zurich;Q68912;Train TER;;uic;9543468694;Q33449726;;;85015644;Le Trétien
 TN8501565;gare;Finhaut;Finhaut;Finhaut;8501565;85015651;46.082478;6.976185;CH;Europe/Zurich;Q68877;Train TER;;uic;9543468699;;;;85015651;Finhaut
 TN8501566;gare;Le Châtelard VS;Le Châtelard Village;Le Châtelard Village;8501566;85015669;46.060286;6.957874;CH;Europe/Zurich;Q68877;Train TER;;uic;9543468696;;;;85015669;Le Chatelard VS
-TN8501568;gare;Le Châtelard-Frontière;Le Châtelard-Frontière;Le Châtelard-Frontière;8501568;85015685;46.053287;6.950232;CH;Europe/Zurich;Q68877;Train TER;Car TER;uic;9544898516;Q33449805;;;85015685;Le Châtelard Frontière
+TN8501568;gare;Le Châtelard-Frontière;Le Châtelard-Frontière;Le Châtelard-Frontière;8501568;85015685;46.053287;6.950232;CH;Europe/Zurich;Q68877;Train TER;;uic;9544898516;Q33449805;;;85015685;Le Châtelard Frontière
 TN8503000;gare;Zürich HB;Zürich Hauptbahnhof;Zürich Hauptbahnhof;8503000;85030007;47.378101;8.539364;CH;Europe/Zurich;Q72;Lyria;;uic;1236383343;Q224494;;;85030007;Zuerich HB
 TN8504215;gare;Travers;Travers;Travers;8504215;85042150;46.94243;6.67623;CH;Europe/Zurich;Q70526;Train TER;;uic;1944846875;Q31451724;;;85042150;Travers
 TN8504221;gare;Neuchâtel;Neuchâtel;Neuchâtel;8504221;85042218;46.996578;6.935828;CH;Europe/Zurich;Q69345;Train TER;;uic;3081154414;Q972299;;;85042218;Neuchatel
@@ -189,7 +187,7 @@ TN8713990;arret_car;Coursan-en-Othe RN;Coursan-en-Othe RN;Coursan-en-Othe RN;871
 TN8714100;gare;Nancy;Nancy;Nancy;8714100;87141002;48.689726;6.173777;FR;Europe/Paris;Q40898;INTERCITES|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;4290857032;Q2178663;;XFN;87141002;Nancy
 TN8714101;gare;Jarville-la-Malgrange;Jarville-la-Malgrange;Jarville-la-Malgrange;8714101;87141010;48.670003;6.20255;FR;Europe/Paris;Q954562;Train TER;Car TER;uic;5275245001;Q3096650;;;87141010;Jarville-la-Malgrange
 TN8714103;gare;Foug;Foug;Foug;8714103;87141036;48.679249;5.791278;FR;Europe/Paris;Q1000360;Train TER;;uic;14029685691;Q3096461;;;87141036;Foug
-TN8714104;gare;Toul;Toul;Toul;8714104;87141044;48.679028;5.880603;FR;Europe/Paris;Q154728;INTERCITES|Train TER;Car TER;uic;4508377772;Q2897368;;;87141044;Toul
+TN8714104;gare;Toul;Toul;Toul;8714104;87141044;48.679028;5.880603;FR;Europe/Paris;Q154728;INTERCITES|Train TER;Car TER|Car à réservation;uic;4508377772;Q2897368;;;87141044;Toul
 TN8714105;gare;Fontenoy-sur-Moselle;Fontenoy-sur-Moselle;Fontenoy-sur-Moselle;8714105;87141051;48.711495;5.980061;FR;Europe/Paris;Q209949;Train TER;;uic;5250940092;Q3096449;;;87141051;Fontenoy-sur-Moselle
 TN8714106;gare;Liverdun;Liverdun;Liverdun;8714106;87141069;48.749327;6.061678;FR;Europe/Paris;Q903665;Train TER;;uic;5250940079;Q3096893;;;87141069;Liverdun
 TN8714107;gare;Frouard;Frouard;Frouard;8714107;87141077;48.755314;6.144338;FR;Europe/Paris;Q195098;Train TER;Car TER;uic;12205300259;Q2142149;;;87141077;Frouard
@@ -204,13 +202,13 @@ TN8714115;gare;Lunéville;Lunéville;Lunéville;8714115;87141150;48.587777;6.497
 TN8714120;gare;Einvaux;Einvaux;Einvaux;8714120;87141200;48.503558;6.393322;FR;Europe/Paris;Q1060518;Train TER;Car TER;uic;5404991022;Q3095726;;;87141200;Einvaux
 TN8714121;gare;Bayon;Bayon;Bayon;8714121;87141218;48.467971;6.322922;FR;Europe/Paris;Q627024;Train TER;Car TER;uic;8515452790;Q3095925;;;87141218;Bayon
 TN8714125;arret_car;Soulosse Route Nationale;Soulosse Route Nationale;Soulosse Route Nationale;8714125;87141259;48.401785;5.731773;FR;Europe/Paris;Q781372;;Car TER;gtfs;;;;;87141259;Soulosse Route Nationale
-TN8714129;gare;Neufchâteau;Neufchâteau;Neufchâteau;8714129;87141291;48.358218;5.690377;FR;Europe/Paris;Q131581675;INTERCITES|Train TER;Car TER;uic;9913129477;Q2389073;;;87141291;Neufchâteau
+TN8714129;gare;Neufchâteau;Neufchâteau;Neufchâteau;8714129;87141291;48.358218;5.690377;FR;Europe/Paris;Q131581675;INTERCITES|Train TER;Car TER|Car à réservation;uic;9913129477;Q2389073;;;87141291;Neufchâteau
 TN8714137;gare;Saint-Clément - Laronxe;Saint-Clément - Laronxe;Saint-Clément - Laronxe;8714137;87141374;48.531161;6.608356;FR;Europe/Paris;Q209943;Train TER;Car TER;uic;4398588293;Q2661330;;;87141374;Saint-Clément - Laronxe
 TN8714138;gare;Chenevières;Chenevières;Chenevières;8714138;87141382;48.5195;6.632552;FR;Europe/Paris;Q966579;Train TER;;uic;13397392267;;;;87141382;Chenevières
 TN8714139;gare;Ménil Flin;Ménil Flin;Ménil Flin;8714139;87141390;48.504935;6.65952;FR;Europe/Paris;Q1101374;Train TER;;uic;10751360394;Q1928764;;;87141390;Ménil - Flin
-TN8714140;gare;Azerailles;Azerailles;Azerailles;8714140;87141408;48.491155;6.69616;FR;Europe/Paris;Q208728;Train TER;Car TER;uic;4398540068;Q1947085;;;87141408;Azerailles
+TN8714140;gare;Azerailles;Azerailles;Azerailles;8714140;87141408;48.491155;6.69616;FR;Europe/Paris;Q208728;Train TER;;uic;4398540068;Q1947085;;;87141408;Azerailles
 TN8714141;gare;Baccarat;Baccarat;Baccarat;8714141;87141416;48.452175;6.744148;FR;Europe/Paris;Q319282;Train TER;Car TER;uic;4398588069;Q430790;;;87141416;Baccarat
-TN8714142;gare;Bertrichamps;Bertrichamps;Bertrichamps;8714142;87141424;48.428298;6.791255;FR;Europe/Paris;Q990896;Train TER;Car TER;uic;8320790157;Q3095975;;;87141424;Bertrichamps
+TN8714142;gare;Bertrichamps;Bertrichamps;Bertrichamps;8714142;87141424;48.428298;6.791255;FR;Europe/Paris;Q990896;Train TER;;uic;8320790157;Q3095975;;;87141424;Bertrichamps
 TN8714143;gare;Thiaville;Thiaville;Thiaville;8714143;87141432;48.413964;6.810255;FR;Europe/Paris;Q213295;Train TER;;uic;8321814583;Q3097855;;;87141432;Thiaville
 TN8714147;gare;Houdemont;Houdemont;Houdemont;8714147;87141473;48.645468;6.179747;FR;Europe/Paris;Q213305;Train TER;;uic;5250940072;Q3095770;;;87141473;Houdemont
 TN8714148;gare;Ludres;Ludres;Ludres;8714148;87141481;48.621941;6.170927;FR;Europe/Paris;Q829617;Train TER;;uic;5250940075;Q3096918;;;87141481;Ludres
@@ -228,7 +226,7 @@ TN8714182;gare;Pont-à-Mousson;Pont-à-Mousson;Pont-à-Mousson;8714182;87141820;
 TN8714200;gare;Chaumont;Chaumont;Chaumont;8714200;87142000;48.109531;5.133971;FR;Europe/Paris;Q193880;Train TER;Car TER;uic;2516923022;Q1825470;;XFCHM;87142000;Chaumont
 TN8714209;gare;Langres;Langres;Langres;8714209;87142091;47.876964;5.344422;FR;Europe/Paris;Q203293;Train TER;Car TER;uic;2516923028;Q2268586;;;87142091;Langres
 TN8714210;gare;Lorraine TGV;Lorraine TGV;Lorraine TGV;8714210;87142109;48.947743;6.169795;FR;Europe/Paris;Q21936;TGV INOUI;Car à réservation;uic;4043327190;Q801121;;XFLR;87142109;Lorraine TGV
-TN8714212;gare;Culmont - Chalindrey;Culmont - Chalindrey;Culmont - Chalindrey;8714212;87142125;47.81009;5.443222;FR;Europe/Paris;Q1101976;INTERCITES|Train TER;Car TER;uic;2524749187;Q2805667;;;87142125;Culmont - Chalindrey
+TN8714212;gare;Culmont - Chalindrey;Culmont - Chalindrey;Culmont - Chalindrey;8714212;87142125;47.81009;5.443222;FR;Europe/Paris;Q1101976;INTERCITES|Train TER;Car TER|Car à réservation;uic;2524749187;Q2805667;;;87142125;Culmont - Chalindrey
 TN8714222;gare;Bologne;Bologne;Bologne;8714222;87142224;48.198677;5.134291;FR;Europe/Paris;Q665760;Train TER;Car TER;uic;5274855098;Q962874;;;87142224;Bologne
 TN8714223;gare;Vignory;Vignory;Vignory;8714223;87142232;48.270137;5.124159;FR;Europe/Paris;Q829280;Train TER;Car TER;uic;3469862793;Q3097983;;;87142232;Vignory
 TN8714224;gare;Froncles;Froncles;Froncles;8714224;87142240;48.296342;5.141794;FR;Europe/Paris;Q1331651;Train TER;Car TER;uic;3469862393;Q3096489;;;87142240;Froncles
@@ -252,15 +250,15 @@ TN8714428;gare;Contrexéville;Contrexéville;Contrexéville;8714428;87144287;48.
 TN8714429;arret_car;Martigny-les-Bains Gare;Martigny-les-Bains Gare;Martigny-les-Bains Gare;8714429;87144295;48.108552;5.825703;FR;Europe/Paris;Q1157405;;Car TER;gtfs;;;;;87144295;Martigny-les-Bains Gare
 TN8714430;arret_car;Lamarche;Lamarche;Lamarche;8714430;87144303;48.09013;5.760439;FR;Europe/Paris;Q208768;;Car TER;gtfs;;;;;87144303;Lamarche
 TN8714431;arret_car;Rozières-sur-Mouzon;Rozières-sur-Mouzon;Rozières-sur-Mouzon;8714431;87144311;48.120926;5.705391;FR;Europe/Paris;Q1410265;;Car TER;gtfs;;;;;87144311;Rozières-sur-Mouzon
-TN8714434;gare;Provenchères-sur-Fave;Provenchères-sur-Fave;Provenchères-sur-Fave;8714434;87144345;48.304678;7.085479;FR;Europe/Paris;Q21979637;Train TER;;uic;10039004571;Q3097349;;;87144345;Provenchères-sur-Fave
+TN8714434;gare;Provenchères-sur-Fave;Provenchères-sur-Fave;Provenchères-sur-Fave;8714434;87144345;48.304678;7.085479;FR;Europe/Paris;Q21979637;Train TER;Car TER;uic;10039004571;Q3097349;;;87144345;Provenchères-sur-Fave
 TN8714441;gare;Arches;Arches;Arches;8714441;87144410;48.119926;6.528246;FR;Europe/Paris;Q632848;Train TER;Car TER;uic;9409599581;Q2401925;;;87144410;Arches
-TN8714442;gare;Pouxeux;Pouxeux;Pouxeux;8714442;87144428;48.108776;6.569481;FR;Europe/Paris;Q201758;Train TER;Car TER;uic;8171965480;Q1938345;;;87144428;Pouxeux
-TN8714443;gare;Éloyes;Éloyes;Éloyes;8714443;87144436;48.087066;6.600134;FR;Europe/Paris;Q274801;Train TER;Car TER;uic;8507358866;Q1946266;;;87144436;Éloyes
-TN8714445;gare;Remiremont;Remiremont;Remiremont;8714445;87144451;48.016342;6.598879;FR;Europe/Paris;Q504853;TGV INOUI|Train TER;Car TER;gtfs;;;;;87144451;Remiremont
+TN8714442;gare;Pouxeux;Pouxeux;Pouxeux;8714442;87144428;48.108776;6.569481;FR;Europe/Paris;Q201758;Train TER;;uic;8171965480;Q1938345;;;87144428;Pouxeux
+TN8714443;gare;Éloyes;Éloyes;Éloyes;8714443;87144436;48.087066;6.600134;FR;Europe/Paris;Q274801;Train TER;;uic;8507358866;Q1946266;;;87144436;Éloyes
+TN8714445;gare;Remiremont;Remiremont;Remiremont;8714445;87144451;48.016342;6.598879;FR;Europe/Paris;Q504853;TGV INOUI|Train TER;;gtfs;;;;;87144451;Remiremont
 TN8714462;gare;Raon-l'Étape;Raon-l'Étape;Raon-l'Étape;8714462;87144626;48.403789;6.836945;FR;Europe/Paris;Q676966;Train TER;Car TER;uic;4398588292;Q2448545;;;87144626;Raon-l'Étape
 TN8714464;gare;Étival-Clairefontaine;Étival-Clairefontaine;Étival-Clairefontaine;8714464;87144642;48.367221;6.876935;FR;Europe/Paris;Q211843;Train TER;Car TER;uic;4368036806;Q1977745;;;87144642;Étival-Clairefontaine
 TN8714468;gare;St-Michel-sur-Meurthe;St-Michel-sur-Meurthe;St-Michel-sur-Meurthe;8714468;87144683;48.326979;6.888243;FR;Europe/Paris;Q1162289;Train TER;;uic;12953590106;Q2747695;;;87144683;Saint-Michel-sur-Meurthe
-TN8714621;gare;Saint-Nabord;Saint-Nabord;Saint-Nabord;8714621;87146217;48.045807;6.581564;FR;Europe/Paris;Q186880;Train TER;Car TER;uic;8272156103;Q2051806;;;87146217;Saint-Nabord
+TN8714621;gare;Saint-Nabord;Saint-Nabord;Saint-Nabord;8714621;87146217;48.045807;6.581564;FR;Europe/Paris;Q186880;Train TER;;uic;8272156103;Q2051806;;;87146217;Saint-Nabord
 TN8714647;arret_car;Montrozier Gages Pont;Montrozier Gages Pont;Montrozier Gages Pont;8714647;87146472;44.393434;2.705914;FR;Europe/Paris;Q963118;;Car TER;gtfs;;;;;87146472;Montrozier Gages Pont
 TN8714732;gare;Meuse TGV;Meuse TGV;Meuse TGV;8714732;87147322;48.978715;5.27091;FR;Europe/Paris;Q839114;TGV INOUI;Car à réservation;uic;4043327191;Q801181;;XFMU;87147322;Meuse TGV
 TN8715241;arret_car;Maussac Place de la Poste;Maussac Place de la Poste;Maussac Place de la Poste;8715241;87152413;45.471329;2.140202;FR;Europe/Paris;Q626081;;Car TER;gtfs;;;;;87152413;Maussac Place de la Poste
@@ -439,7 +437,7 @@ TN8719109;gare;Walygator Parc;Walygator Parc;Walygator Parc;8719109;87191098;49.
 TN8719110;gare;Maizières-lès-Metz;Maizières-lès-Metz;Maizières-lès-Metz;8719110;87191106;49.215221;6.158308;FR;Europe/Paris;Q21843;Train TER;Car TER;uic;5275060530;Q3096957;;;87191106;Maizières-lès-Metz
 TN8719111;gare;Hagondange;Hagondange;Hagondange;8719111;87191114;49.25356;6.16448;FR;Europe/Paris;Q21913;Train TER;Car TER;gtfs;;;;;87191114;Hagondange
 TN8719113;gare;Uckange;Uckange;Uckange;8719113;87191130;49.303459;6.156266;FR;Europe/Paris;Q21925;Train TER;Car TER;uic;5275067766;Q519961;;;87191130;Uckange
-TN8719116;gare;Hettange-Grande;Hettange-Grande;Hettange-Grande;8719116;87191163;49.40776;6.156776;FR;Europe/Paris;Q22739;Train TER;Car TER;uic;3869262562;Q2487372;;;87191163;Hettange-Grande
+TN8719116;gare;Hettange-Grande;Hettange-Grande;Hettange-Grande;8719116;87191163;49.40776;6.156776;FR;Europe/Paris;Q22739;Train TER;;uic;3869262562;Q2487372;;;87191163;Hettange-Grande
 TN8719123;gare;Hayange;Hayange;Hayange;8719123;87191239;49.330512;6.073197;FR;Europe/Paris;Q21872;Train TER;Car TER;uic;3892210605;Q2800482;;;87191239;Hayange
 TN8719129;arret_car;Metzeresche Fontaine;Metzeresche Fontaine;Metzeresche Fontaine;8719129;87191296;49.299185;6.304945;FR;Europe/Paris;Q21984;;Car TER;gtfs;;;;;87191296;Metzeresche Fontaine
 TN8719130;arret_car;Yutz Poitiers;Yutz Poitiers;Yutz Poitiers;8719130;87191304;49.361354;6.209395;FR;Europe/Paris;Q21983;;Car TER;gtfs;;;;;87191304;Yutz Poitiers
@@ -600,12 +598,12 @@ TN8721421;gare;Dambach-la-Ville;Dambach-la-Ville;Dambach-la-Ville;8721421;872142
 TN8721422;gare;Epfig;Epfig;Epfig;8721422;87214221;48.363803;7.450407;FR;Europe/Paris;Q21320;Train TER;;uic;304088411;Q3095742;;;87214221;Epfig
 TN8721423;gare;Eichhoffen;Eichhoffen;Eichhoffen;8721423;87214239;48.382429;7.449439;FR;Europe/Paris;Q21429;Train TER;;uic;10064510450;Q2424815;;;87214239;Eichhoffen
 TN8721424;gare;Barr;Barr;Barr;8721424;87214247;48.403306;7.456954;FR;Europe/Paris;Q22758;Train TER;Car TER;uic;4398533304;Q3095905;;;87214247;Barr
-TN8721425;gare;Gertwiller;Gertwiller;Gertwiller;8721425;87214254;48.413397;7.466292;FR;Europe/Paris;Q21280;Train TER;;uic;10068347815;Q761462;;;87214254;Gertwiller
-TN8721427;gare;Goxwiller;Goxwiller;Goxwiller;8721427;87214270;48.43272;7.478759;FR;Europe/Paris;Q22496;Train TER;;uic;10067062710;Q3096559;;;87214270;Goxwiller
+TN8721425;gare;Gertwiller;Gertwiller;Gertwiller;8721425;87214254;48.413397;7.466292;FR;Europe/Paris;Q21280;Train TER;Car TER;uic;10068347815;Q761462;;;87214254;Gertwiller
+TN8721427;gare;Goxwiller;Goxwiller;Goxwiller;8721427;87214270;48.43272;7.478759;FR;Europe/Paris;Q22496;Train TER;Car TER;uic;10067062710;Q3096559;;;87214270;Goxwiller
 TN8721428;gare;Obernai;Obernai;Obernai;8721428;87214288;48.462052;7.489007;FR;Europe/Paris;Q22727;Train TER;;uic;2509120285;Q2092112;;;87214288;Obernai
-TN8721429;gare;Bischoffsheim;Bischoffsheim;Bischoffsheim;8721429;87214296;48.487013;7.497816;FR;Europe/Paris;Q22764;Train TER;;uic;10067175592;Q3095992;;;87214296;Bischoffsheim
+TN8721429;gare;Bischoffsheim;Bischoffsheim;Bischoffsheim;8721429;87214296;48.487013;7.497816;FR;Europe/Paris;Q22764;Train TER;Car TER;uic;10067175592;Q3095992;;;87214296;Bischoffsheim
 TN8721432;gare;Rosheim;Rosheim;Rosheim;8721432;87214320;48.50527;7.491271;FR;Europe/Paris;Q22990;Train TER;Car TER;uic;3768687486;Q3097445;;;87214320;Rosheim
-TN8721433;gare;Dorlisheim;Dorlisheim;Dorlisheim;8721433;87214338;48.525003;7.493138;FR;Europe/Paris;Q22810;Train TER;;uic;10067175585;Q3096390;;;87214338;Dorlisheim
+TN8721433;gare;Dorlisheim;Dorlisheim;Dorlisheim;8721433;87214338;48.525003;7.493138;FR;Europe/Paris;Q22810;Train TER;Car TER;uic;10067175585;Q3096390;;;87214338;Dorlisheim
 TN8721450;gare;Lingolsheim;Lingolsheim;Lingolsheim;8721450;87214502;48.559454;7.678246;FR;Europe/Paris;Q21388;Train TER;;uic;3454850393;Q2116031;;;87214502;Lingolsheim
 TN8721452;gare;Entzheim Aéroport;Entzheim Aéroport;Entzheim Aéroport;8721452;87214528;48.546973;7.627944;FR;Europe/Paris;Q22438;Train TER;Car TER;uic;3454676195;Q3004905;;;87214528;Entzheim Aéroport
 TN8721453;gare;Duppigheim;Duppigheim;Duppigheim;8721453;87214536;48.543967;7.586809;FR;Europe/Paris;Q22779;Train TER;;uic;3454675093;;;;87214536;Duppigheim
@@ -623,9 +621,9 @@ TN8721468;gare;Russ - Hersbach;Russ - Hersbach;Russ - Hersbach;8721468;87214684;
 TN8721469;gare;Schirmeck - La Broque;Schirmeck - La Broque;Schirmeck - La Broque;8721469;87214692;48.480051;7.215869;FR;Europe/Paris;Q22509;Train TER;Car TER;uic;4398502607;Q1926234;;;87214692;Schirmeck - La Broque
 TN8721472;gare;Rothau;Rothau;Rothau;8721472;87214726;48.45932;7.2075;FR;Europe/Paris;Q21455;Train TER;Car TER;uic;3502657503;Q3097449;;;87214726;Rothau
 TN8721473;gare;Fouday;Fouday;Fouday;8721473;87214734;48.425109;7.187506;FR;Europe/Paris;Q21287;Train TER;;uic;731520866;Q2306456;;;87214734;Fouday
-TN8721474;gare;Saint-Blaise-la-Roche;Saint-Blaise-la-Roche;Saint-Blaise-la-Roche;8721474;87214742;48.407553;7.165312;FR;Europe/Paris;Q21397;Train TER;;uic;9154298564;Q2074825;;;87214742;Saint-Blaise-la-Roche
+TN8721474;gare;Saint-Blaise-la-Roche;Saint-Blaise-la-Roche;Saint-Blaise-la-Roche;8721474;87214742;48.407553;7.165312;FR;Europe/Paris;Q21397;Train TER;Car TER;uic;9154298564;Q2074825;;;87214742;Saint-Blaise-la-Roche
 TN8721477;gare;Bourg-Bruche;Bourg-Bruche;Bourg-Bruche;8721477;87214775;48.360096;7.137393;FR;Europe/Paris;Q21253;Train TER;;uic;3502661057;Q2412987;;;87214775;Bourg-Bruche
-TN8721478;gare;Saâles;Saâles;Saâles;8721478;87214783;48.347047;7.110771;FR;Europe/Paris;Q22421;Train TER;;uic;3502662794;Q2446921;;;87214783;Saales
+TN8721478;gare;Saâles;Saâles;Saâles;8721478;87214783;48.347047;7.110771;FR;Europe/Paris;Q22421;Train TER;Car TER;uic;3502662794;Q2446921;;;87214783;Saales
 TN8721485;arret_car;Sainte-Marie-aux-Mines Cité Scolaire;Sainte-Marie-aux-Mines Cité Scolaire;Sainte-Marie-aux-Mines Cité Scolaire;8721485;87214858;48.236929;7.170264;FR;Europe/Paris;Q500400;;Car TER;gtfs;;;;;87214858;Sainte-Marie-aux-Mines Cité Scolaire
 TN8721501;gare;Sarrebourg;Sarrebourg;Sarrebourg;8721501;87215012;48.738089;7.052828;FR;Europe/Paris;Q22544;TGV INOUI|Train TER;Car TER;uic;4041487536;Q1968912;;;87215012;Sarrebourg
 TN8721507;gare;Réding;Réding;Réding;8721507;87215079;48.742449;7.096737;FR;Europe/Paris;Q22146;Train TER;;uic;4449635200;Q2202248;;;87215079;Réding
@@ -658,7 +656,7 @@ TN8727157;gare;Nanteuil-le-Haudouin;Nanteuil-le-Haudouin;Nanteuil-le-Haudouin;87
 TN8727159;gare;Crépy-en-Valois;Crépy-en-Valois;Crépy-en-Valois;8727159;87271593;49.231092;2.88655;FR;Europe/Paris;Q182287;Train TER;Car TER;uic;3486493501;Q3096338;;;87271593;Crépy-en-Valois
 TN8727160;gare;Vaumoise;Vaumoise;Vaumoise;8727160;87271601;49.233941;2.988568;FR;Europe/Paris;Q849618;Train TER;;uic;316883977;Q3097940;;;87271601;Vaumoise
 TN8727173;gare;Villers-Cotterêts;Villers-Cotterêts;Villers-Cotterêts;8727173;87271734;49.250125;3.093851;FR;Europe/Paris;Q213883;Train TER;Car TER;uic;9805769321;Q2234195;;;87271734;Villers-Cotterêts
-TN8727177;gare;Longpont;Longpont;Longpont;8727177;87271775;49.272593;3.229987;FR;Europe/Paris;Q473977;Train TER;;uic;9805769319;Q2027393;;;87271775;Longpont
+TN8727177;gare;Longpont;Longpont;Longpont;8727177;87271775;49.272593;3.229987;FR;Europe/Paris;Q473977;Train TER;Car TER;uic;9805769319;Q2027393;;;87271775;Longpont
 TN8727178;gare;Vierzy;Vierzy;Vierzy;8727178;87271783;49.291057;3.277558;FR;Europe/Paris;Q868917;Train TER;;uic;9805769318;Q2282895;;;87271783;Vierzy
 TN8727181;gare;Soissons;Soissons;Soissons;8727181;87271817;49.369148;3.338173;FR;Europe/Paris;Q167152;Train TER;Car TER;uic;3486466902;Q935169;;;87271817;Soissons
 TN8727187;gare;Crouy;Crouy;Crouy;8727187;87271874;49.403674;3.357031;FR;Europe/Paris;Q847293;Train TER;;uic;2277221434;Q2831424;;;87271874;Crouy
@@ -667,7 +665,7 @@ TN8727201;gare;Jaux;Jaux;Jaux;8727201;87272013;49.386824;2.777329;FR;Europe/Pari
 TN8727209;gare;Esches;Esches;Esches;8727209;87272096;49.212513;2.170818;FR;Europe/Paris;Q511910;Train TER;;uic;2279594708;Q2007719;;;87272096;Esches
 TN8727219;gare;Longueil-Annel;Longueil-Annel;Longueil-Annel;8727219;87272195;49.467101;2.863151;FR;Europe/Paris;Q1338650;Train TER;Car TER;uic;1564543358;Q2545798;;;87272195;Longueil-Annel
 TN8727228;gare;Corcy;Corcy;Corcy;8727228;87272286;49.255149;3.215811;FR;Europe/Paris;Q32839;Train TER;;uic;9805769320;Q2653635;;;87272286;Corcy
-TN8727600;gare;Creil;Creil;Creil;8727600;87276006;49.26396;2.468682;FR;Europe/Paris;Q331087;Train|Train TER;Car TER;uic;3486467908;Q664142;;;87276006;Creil
+TN8727600;gare;Creil;Creil;Creil;8727600;87276006;49.26396;2.468682;FR;Europe/Paris;Q331087;Train TER;Car TER;uic;3486467908;Q664142;;;87276006;Creil
 TN8727611;gare;Chantilly – Gouvieux;Chantilly – Gouvieux;Chantilly – Gouvieux;8727611;87276113;49.187238;2.459527;FR;Europe/Paris;Q126675;Train TER;;uic;331938645;Q800617;;;87276113;Chantilly - Gouvieux
 TN8727620;gare;Laigneville;Laigneville;Laigneville;8727620;87276204;49.292639;2.449293;FR;Europe/Paris;Q1337308;Train TER;Car TER;uic;8330296218;Q1861624;;;87276204;Laigneville
 TN8727621;gare;Liancourt - Rantigny;Liancourt - Rantigny;Liancourt - Rantigny;8727621;87276212;49.324814;2.445518;FR;Europe/Paris;Q1331982;Train TER;Car TER;uic;8330295264;Q2274967;;;87276212;Liancourt - Rantigny
@@ -689,16 +687,16 @@ TN8727677;gare;Ourscamps;Ourscamps;Ourscamps;8727677;87276774;49.534062;2.954272
 TN8727678;gare;Noyon;Noyon;Noyon;8727678;87276782;49.577103;3.006453;FR;Europe/Paris;Q49831;Train TER;Car TER;uic;11475878840;Q1826892;;;87276782;Noyon
 TN8727825;gare;Mérignac Arlac;Mérignac Arlac;Mérignac Arlac;8727825;87278259;44.826779;-0.626173;FR;Europe/Paris;Q205551;Train TER;Car TER;uic;648505624;Q2071984;;;87278259;Mérignac Arlac
 TN8727986;arret_car;Vouécourt;Vouécourt;Vouécourt;8727986;87279869;48.267006;5.13587;FR;Europe/Paris;Q1329471;;Car TER;gtfs;;;;;87279869;Vouécourt
-TN8728100;gare;Dunkerque;Dunkirk;Dunkerque;8728100;87281006;51.030416;2.368547;FR;Europe/Paris;Q45797;TGV INOUI|Train TER;Car TER;uic;312805118;Q2474563;;;87281006;Dunkerque
+TN8728100;gare;Dunkerque;Dunkerque;Dunkerque;8728100;87281006;51.030416;2.368547;FR;Europe/Paris;Q45797;TGV INOUI|Train TER;Car TER;uic;312805118;Q2474563;;;87281006;Dunkerque
 TN8728105;gare;Croix l'Allumette;Croix l'Allumette;Croix l'Allumette;8728105;87281055;50.686893;3.151245;FR;Europe/Paris;Q239091;Train TER;;uic;7042284669;Q3096324;;;87281055;Croix l'Allumette
 TN8728107;gare;Calais - Fréthun;Calais - Fréthun;Calais - Fréthun;8728107;87281071;50.901912;1.81144;FR;Europe/Paris;Q1031443;TGV INOUI|Train TER;Car TER;uic;8019855985;Q800609;;;87281071;Calais - Fréthun
 TN8728110;gare;Bergues;Bergues;Bergues;8728110;87281105;50.968972;2.425645;FR;Europe/Paris;Q244934;Train TER;;uic;9803287580;Q616824;;;87281105;Bergues
 TN8728111;gare;Esquelbecq;Esquelbecq;Esquelbecq;8728111;87281113;50.889811;2.412141;FR;Europe/Paris;Q624890;Train TER;;uic;2058859737;Q2321493;;;87281113;Esquelbecq
 TN8728112;gare;Arnèke;Arnèke;Arnèke;8728112;87281121;50.831507;2.408287;FR;Europe/Paris;Q598283;Train TER;;uic;2058834954;Q2651595;;;87281121;Arnèke
 TN8728113;gare;Cassel;Cassel;Cassel;8728113;87281139;50.787622;2.459893;FR;Europe/Paris;Q1046929;Train TER;;uic;2058823678;Q1875256;;;87281139;Cassel
-TN8728124;gare;Gravelines;Gravelines;Gravelines;8728124;87281246;50.978746;2.123398;FR;Europe/Paris;Q323399;Train TER;;uic;2058924203;Q2346103;;;87281246;Gravelines
+TN8728124;gare;Gravelines;Gravelines;Gravelines;8728124;87281246;50.978746;2.123398;FR;Europe/Paris;Q323399;Train TER;Car TER;uic;2058924203;Q2346103;;;87281246;Gravelines
 TN8728127;gare;Bourbourg;Bourbourg;Bourbourg;8728127;87281279;50.9524;2.194364;FR;Europe/Paris;Q632822;Train TER;Car TER;uic;9803287581;Q2243517;;;87281279;Bourbourg
-TN8728131;gare;Grande-Synthe;Grande-Synthe;Grande-Synthe;8728131;87281311;51.002362;2.312059;FR;Europe/Paris;Q769160;Train TER;;uic;8164736357;Q1973992;;;87281311;Grande-Synthe
+TN8728131;gare;Grande-Synthe;Grande-Synthe;Grande-Synthe;8728131;87281311;51.002362;2.312059;FR;Europe/Paris;Q769160;Train TER;Car TER;uic;8164736357;Q1973992;;;87281311;Grande-Synthe
 TN8728140;gare;Coudekerque-Branche;Coudekerque-Branche;Coudekerque-Branche;8728140;87281402;51.017519;2.375133;FR;Europe/Paris;Q243851;Train TER;;uic;2058887903;Q2426973;;;87281402;Coudekerque-Branche
 TN8728141;gare;Pont d'Ardres;Pont d'Ardres;Pont d'Ardres;8728141;87281410;50.892033;1.971409;FR;Europe/Paris;Q262456;Train TER;;uic;9634381767;Q2215433;;;87281410;Pont d'Ardres
 TN8728142;gare;Audruicq;Audruicq;Audruicq;8728142;87281428;50.875569;2.076328;FR;Europe/Paris;Q853600;Train TER;Car TER;uic;8457410497;Q2192636;;;87281428;Audruicq
@@ -712,9 +710,9 @@ TN8728600;gare;Lille-Flandres;Lille-Flandres station;Lille-Flandres;8728600;8728
 TN8728606;gare;Hellemmes;Hellemmes;Hellemmes;8728606;87286062;50.622747;3.115337;FR;Europe/Paris;Q648;Train TER;;uic;3483925793;Q1969332;;;87286062;Hellemmes
 TN8728609;gare;Haubourdin;Haubourdin;Haubourdin;8728609;87286096;50.606967;2.990041;FR;Europe/Paris;Q473892;Train TER;;uic;8346106956;Q2202492;;;87286096;Haubourdin
 TN8728611;gare;Loos-lez-Lille;Loos-lez-Lille;Loos-lez-Lille;8728611;87286112;50.612785;3.016915;FR;Europe/Paris;Q274325;Train TER;;uic;1222251915;Q3096906;;;87286112;Loos lez Lille
-TN8728614;gare;Armentières;Armentières;Armentières;8728614;87286146;50.680786;2.877613;FR;Europe/Paris;Q193925;Train TER;;uic;11054336625;Q2456935;;;87286146;Armentières
+TN8728614;gare;Armentières;Armentières;Armentières;8728614;87286146;50.680786;2.877613;FR;Europe/Paris;Q193925;Train TER;Car TER;uic;11054336625;Q2456935;;;87286146;Armentières
 TN8728616;gare;Steenwerck;Steenwerck;Steenwerck;8728616;87286161;50.71302;2.786691;FR;Europe/Paris;Q332310;Train TER;;uic;1642406683;Q2175070;;;87286161;Steenwerck
-TN8728617;gare;Bailleul;Bailleul;Bailleul;8728617;87286179;50.728971;2.734894;FR;Europe/Paris;Q332310;Train TER;;uic;11054308263;Q3095894;;;87286179;Bailleul
+TN8728617;gare;Bailleul;Bailleul;Bailleul;8728617;87286179;50.728971;2.734894;FR;Europe/Paris;Q332310;Train TER;Car TER;uic;11054308263;Q3095894;;;87286179;Bailleul
 TN8728618;gare;La Madeleine;La Madeleine;La Madeleine;8728618;87286187;50.660774;3.072674;FR;Europe/Paris;Q842003;Train TER;;uic;932744268;Q2406603;;XFLMA;87286187;La Madeleine
 TN8728619;gare;Saint-André;Saint-André;Saint-André;8728619;87286195;50.654481;3.047538;FR;Europe/Paris;Q728517;Train TER;;uic;314066672;Q3097492;;;87286195;Saint-André
 TN8728620;gare;Strazeele;Strazeele;Strazeele;8728620;87286203;50.713499;2.631065;FR;Europe/Paris;Q1160742;Train TER;;uic;9797994098;Q2604865;;;87286203;Strazeele
@@ -873,14 +871,14 @@ TN8731659;arret_car;Sainte-Segrée;Sainte-Segrée;Sainte-Segrée;8731659;8731659
 TN8731660;gare;Aubin-Saint-Vaast;Aubin-Saint-Vaast;Aubin-Saint-Vaast;8731660;87316604;50.394588;1.970478;FR;Europe/Paris;Q540085;Train TER;;uic;10169392394;Q2022268;;;87316604;Aubin-Saint-Vaast
 TN8731667;gare;Pihen;Pihen;Pihen;8731667;87316679;50.873013;1.785265;FR;Europe/Paris;Q1027419;Train TER;;uic;9780135528;Q2195668;;;87316679;Pihen
 TN8731668;gare;Le Haut Banc;Le Haut Banc;Le Haut Banc;8731668;87316687;50.816338;1.772197;FR;Europe/Paris;Q587192;Train TER;;uic;9782200425;Q2844853;;;87316687;Le Haut Banc
-TN8731701;gare;Boulogne - Tintelleries;Boulogne - Tintelleries;Boulogne - Tintelleries;8731701;87317016;50.727339;1.609293;FR;Europe/Paris;Q81997;Train TER;;uic;9797994564;Q2111474;;;87317016;Boulogne - Tintelleries
+TN8731701;gare;Boulogne - Tintelleries;Boulogne - Tintelleries;Boulogne - Tintelleries;8731701;87317016;50.727339;1.609293;FR;Europe/Paris;Q81997;Train TER;Car TER;uic;9797994564;Q2111474;;;87317016;Boulogne - Tintelleries
 TN8731705;gare;Rang-du-Fliers - Verton - Berck;Rang-du-Fliers - Verton - Berck;Rang-du-Fliers - Verton - Berck;8731705;87317057;50.41575;1.648162;FR;Europe/Paris;Q877726;TGV INOUI|Train TER;Car TER;uic;8869974525;Q540880;;;87317057;Rang-du-Fliers - Verton - Berck
 TN8731706;gare;Étaples - Le Touquet;Étaples - Le Touquet;Étaples - Le Touquet;8731706;87317065;50.51688;1.642372;FR;Europe/Paris;Q273522;TGV INOUI|Train TER;Car TER;uic;8756081197;Q2140131;;;87317065;Étaples - Le Touquet
 TN8731708;gare;Dannes - Camiers;Dannes - Camiers;Dannes - Camiers;8731708;87317081;50.575925;1.61464;FR;Europe/Paris;Q874676;Train TER;Car TER;uic;2060697978;Q2515351;;;87317081;Dannes - Camiers
 TN8731709;gare;Neufchâtel-Hardelot;Neufchâtel-Hardelot;Neufchâtel-Hardelot;8731709;87317099;50.62359;1.643253;FR;Europe/Paris;Q1025285;Train TER;Car TER;uic;8330295303;Q3097187;;;87317099;Neufchâtel-Hardelot
 TN8731710;gare;Hesdigneul;Hesdigneul;Hesdigneul;8731710;87317107;50.661027;1.667107;FR;Europe/Paris;Q1029808;Train TER;Car TER;uic;2060688728;Q1889111;;;87317107;Hesdigneul
 TN8731711;gare;Pont de Briques;Pont de Briques;Pont de Briques;8731711;87317115;50.682754;1.626884;FR;Europe/Paris;Q874139;Train TER;;uic;9980338118;Q2372306;;;87317115;Pont de Briques
-TN8731712;gare;Wimille – Wimereux;Wimille – Wimereux;Wimille – Wimereux;8731712;87317123;50.764381;1.613641;FR;Europe/Paris;Q874994;Train TER;;uic;1027453809;Q2557064;;;87317123;Wimille - Wimereux
+TN8731712;gare;Wimille – Wimereux;Wimille – Wimereux;Wimille – Wimereux;8731712;87317123;50.764381;1.613641;FR;Europe/Paris;Q874994;Train TER;Car TER;uic;1027453809;Q2557064;;;87317123;Wimille - Wimereux
 TN8731716;gare;Montreuil-sur-Mer;Montreuil-sur-Mer;Montreuil-sur-Mer;8731716;87317164;50.466369;1.769004;FR;Europe/Paris;Q213344;Train TER;;uic;9421097968;Q2993733;;;87317164;Montreuil sur Mer
 TN8731718;gare;Brimeux;Brimeux;Brimeux;8731718;87317180;50.447086;1.831467;FR;Europe/Paris;Q322980;Train TER;;uic;10169392401;Q3096072;;;87317180;Brimeux
 TN8731719;gare;Beaurainville;Beaurainville;Beaurainville;8731719;87317198;50.422868;1.895411;FR;Europe/Paris;Q37719;Train TER;;uic;9428906806;Q3095935;;;87317198;Beaurainville
@@ -892,16 +890,16 @@ TN8731725;gare;Anvin;Anvin;Anvin;8731725;87317255;50.446947;2.254993;FR;Europe/P
 TN8731726;gare;Calais-Ville;Calais-Ville;Calais-Ville;8731726;87317263;50.953378;1.850365;FR;Europe/Paris;Q6454;Train TER;Car TER;uic;9183304884;Q2107509;;;87317263;Calais Ville
 TN8731730;gare;Les Fontinettes;Les Fontinettes;Les Fontinettes;8731730;87317305;50.940761;1.849707;FR;Europe/Paris;Q6454;Train TER;Car TER;uic;299164114;Q2729495;;;87317305;Les Fontinettes
 TN8731732;gare;Caffiers;Caffiers;Caffiers;8731732;87317321;50.849691;1.812162;FR;Europe/Paris;Q867055;Train TER;;uic;9796955622;Q577420;;;87317321;Caffiers
-TN8731733;gare;Marquise - Rinxent;Marquise - Rinxent;Marquise - Rinxent;8731733;87317339;50.80563;1.72987;FR;Europe/Paris;Q1022917;Train TER;;uic;1056971794;Q2352497;;XFMRX;87317339;Marquise - Rinxent
+TN8731733;gare;Marquise - Rinxent;Marquise - Rinxent;Marquise - Rinxent;8731733;87317339;50.80563;1.72987;FR;Europe/Paris;Q1022917;Train TER;Car TER;uic;1056971794;Q2352497;;XFMRX;87317339;Marquise - Rinxent
 TN8731736;gare;Abbeville;Abbeville;Abbeville;8731736;87317362;50.102147;1.824377;FR;Europe/Paris;Q28520;Train TER;Car TER;uic;7034430300;Q2182519;;;87317362;Abbeville
 TN8731739;gare;Noyelles-sur-Mer;Noyelles-sur-Mer;Noyelles-sur-Mer;8731739;87317396;50.187432;1.704585;FR;Europe/Paris;Q489451;Train TER;Car TER;uic;1904436769;Q3097234;;;87317396;Noyelles-sur-Mer
 TN8731740;gare;Rue;Rue;Rue;8731740;87317404;50.273115;1.67579;FR;Europe/Paris;Q629405;Train TER;Car TER;uic;2166732263;Q2792559;;;87317404;Rue
 TN8731752;gare;Le Tréport – Mers-les-Bains;Le Tréport – Mers-les-Bains;Le Tréport – Mers-les-Bains;8731752;87317529;50.062841;1.376127;FR;Europe/Paris;Q473875;Train TER;Car TER;uic;369676606;Q2307231;;;87317529;Le Tréport - Mers-les-Bains
 TN8731753;gare;Eu;Eu;Eu;8731753;87317537;50.054323;1.416847;FR;Europe/Paris;Q211593;Train TER;Car TER;uic;9973429213;Q2443663;;;87317537;Eu
 TN8731758;gare;Boulogne sur Mer;Boulogne Ville;Boulogne Ville;8731758;87317586;50.715542;1.610136;FR;Europe/Paris;Q81997;TGV INOUI|Train TER;Car TER;uic;8213648712;Q2289209;;;87317586;Boulogne sur Mer
-TN8731761;gare;Beau Marais;Beau Marais;Beau Marais;8731761;87317610;50.945464;1.898818;FR;Europe/Paris;Q6454;Train TER;;uic;8164736359;Q2109280;;;87317610;Beau Marais
-TN8731896;gare;Avignon TGV;Avignon TGV;Avignon TGV;8731896;87318964;43.921783;4.786072;FR;Europe/Paris;Q6397;ICE|Lyria|OUIGO|TGV INOUI|Train TER;;nom;4907034453;Q174845;;;87318964;Avignon TGV
-TN8731901;gare;Aix-en-Provence TGV;Aix-en-Provence TGV;Aix-en-Provence TGV;8731901;87319012;43.455145;5.317287;FR;Europe/Paris;Q47465;ICE|Lyria|OUIGO|TGV INOUI;;uic;4290854845;Q800366;;XFAX;87319012;Aix-en-Provence TGV
+TN8731761;gare;Beau Marais;Beau Marais;Beau Marais;8731761;87317610;50.945464;1.898818;FR;Europe/Paris;Q6454;Train TER;Car TER;uic;8164736359;Q2109280;;;87317610;Beau Marais
+TN8731896;gare;Avignon TGV;Avignon TGV;Avignon TGV;8731896;87318964;43.921783;4.786072;FR;Europe/Paris;Q6397;ICE|OUIGO|TGV INOUI|Train TER;;nom;4907034453;Q174845;;;87318964;Avignon TGV
+TN8731901;gare;Aix-en-Provence TGV;Aix-en-Provence TGV;Aix-en-Provence TGV;8731901;87319012;43.455145;5.317287;FR;Europe/Paris;Q47465;ICE|OUIGO|TGV INOUI;;uic;4290854845;Q800366;;XFAX;87319012;Aix-en-Provence TGV
 TN8731975;arret_car;Viéville;Viéville;Viéville;8731975;87319756;48.239342;5.135045;FR;Europe/Paris;Q1329383;;Car TER;gtfs;;;;;87319756;Viéville
 TN8732174;gare;Penhoët;Penhoët;Penhoët;8732174;87321745;47.29049;-2.200846;FR;Europe/Paris;Q152027;Train TER;;uic;3486338300;Q2805583;;;87321745;Penhoët
 TN8732199;arret_car;Le Mont-Saint-Michel;Le Mont-Saint-Michel;Le Mont-Saint-Michel;8732199;87321992;48.552761;-1.505646;FR;Europe/Paris;Q28464310;;Car TER;gtfs;;;;;87321992;Le Mont-Saint-Michel
@@ -939,10 +937,10 @@ TN8734206;gare;Courcelles-le-Comte;Courcelles-le-Comte;Courcelles-le-Comte;87342
 TN8734207;gare;Boisleux;Boisleux;Boisleux;8734207;87342071;50.210623;2.771575;FR;Europe/Paris;Q874630;Train TER;;uic;6551378558;Q3096020;;;87342071;Boisleux
 TN8734208;gare;Roeux;Rœux;Rœux;8734208;87342089;50.303578;2.894984;FR;Europe/Paris;Q1024519;Train TER;;uic;4290859608;Q2286546;;XFRUX;87342089;Roeux
 TN8734209;gare;Biache-Saint-Vaast;Biache-Saint-Vaast;Biache-Saint-Vaast;8734209;87342097;50.316314;2.941019;FR;Europe/Paris;Q850668;Train TER;;uic;10560384421;Q2064695;;;87342097;Biache-Saint-Vaast
-TN8734210;gare;Bully - Grenay;Bully - Grenay;Bully - Grenay;8734210;87342105;50.448553;2.733338;FR;Europe/Paris;Q991982;Train TER;;uic;2275623825;Q3096091;;;87342105;Bully - Grenay
+TN8734210;gare;Bully - Grenay;Bully - Grenay;Bully - Grenay;8734210;87342105;50.448553;2.733338;FR;Europe/Paris;Q991982;Train TER;Car TER;uic;2275623825;Q3096091;;;87342105;Bully - Grenay
 TN8734211;gare;Vitry-en-Artois;Vitry-en-Artois;Vitry-en-Artois;8734211;87342113;50.327272;2.980823;FR;Europe/Paris;Q323593;Train TER;;uic;1332394597;Q2952359;;;87342113;Vitry-en-Artois
 TN8734212;gare;Mazingarbe;Mazingarbe;Mazingarbe;8734212;87342121;50.460647;2.701191;FR;Europe/Paris;Q381476;Train TER;;uic;11982917078;Q3097006;;;87342121;Mazingarbe
-TN8734213;gare;Noeux-Les-Mines;Nœux-les-Mines;Nœux-les-Mines;8734213;87342139;50.483109;2.674417;FR;Europe/Paris;Q161950;Train TER;;uic;8118649363;Q3097237;;;87342139;Noeux-Les-Mines
+TN8734213;gare;Noeux-Les-Mines;Nœux-les-Mines;Nœux-les-Mines;8734213;87342139;50.483109;2.674417;FR;Europe/Paris;Q161950;Train TER;Car TER;uic;8118649363;Q3097237;;;87342139;Noeux-Les-Mines
 TN8734218;gare;Maroeuil;Marœuil;Marœuil;8734218;87342188;50.322534;2.698333;FR;Europe/Paris;Q673090;Train TER;Car TER;uic;6466754874;Q3096993;;;87342188;Maroeuil
 TN8734220;gare;Fouquereuil;Fouquereuil;Fouquereuil;8734220;87342204;50.52552;2.607381;FR;Europe/Paris;Q852269;Train TER;;uic;2275685060;Q2767322;;;87342204;Fouquereuil
 TN8734221;gare;Frévin-Capelle;Frévin-Capelle;Frévin-Capelle;8734221;87342212;50.347323;2.633805;FR;Europe/Paris;Q991102;Train TER;Car TER;uic;2307579757;Q3096497;;;87342212;Frévin-Capelle
@@ -965,32 +963,32 @@ TN8734252;gare;Farbus;Farbus;Farbus;8734252;87342527;50.357578;2.831115;FR;Europ
 TN8734253;gare;Vis à Marles;Vis à Marles;Vis à Marles;8734253;87342535;50.504941;2.517135;FR;Europe/Paris;Q876642;Train TER;Car TER;uic;10844693630;Q2100158;;;87342535;Vis à Marles
 TN8734254;gare;Calonne-Ricouart;Calonne-Ricouart;Calonne-Ricouart;8734254;87342543;50.482772;2.481102;FR;Europe/Paris;Q856488;Train TER;Car TER;uic;10844693682;Q500540;;;87342543;Calonne-Ricouart
 TN8734255;gare;Pernes - Camblain;Pernes - Camblain;Pernes - Camblain;8734255;87342550;50.480315;2.431097;FR;Europe/Paris;Q58064;Train TER;Car TER;uic;914792090;Q1869616;;;87342550;Pernes - Camblain
-TN8734257;gare;Vimy;Vimy;Vimy;8734257;87342576;50.373236;2.822976;FR;Europe/Paris;Q318759;Train TER;;uic;8714573297;Q3098013;;;87342576;Vimy
-TN8734258;gare;Avion;Avion;Avion;8734258;87342584;50.407164;2.833988;FR;Europe/Paris;Q331624;Train TER;;uic;7598633347;Q3095708;;;87342584;Avion
+TN8734257;gare;Vimy;Vimy;Vimy;8734257;87342576;50.373236;2.822976;FR;Europe/Paris;Q318759;Train TER;Car TER;uic;8714573297;Q3098013;;;87342576;Vimy
+TN8734258;gare;Avion;Avion;Avion;8734258;87342584;50.407164;2.833988;FR;Europe/Paris;Q331624;Train TER;Car TER;uic;7598633347;Q3095708;;;87342584;Avion
 TN8734259;gare;Bailleul-Sir-Berthoult;Bailleul-Sir-Berthoult;Bailleul-Sir-Berthoult;8734259;87342592;50.335122;2.841005;FR;Europe/Paris;Q873844;Train TER;;uic;9797955745;Q15865337;;;87342592;Bailleul-Sir-Berthoult
 TN8734300;gare;Valenciennes;Valenciennes;Valenciennes;8734300;87343004;50.363464;3.516698;FR;Europe/Paris;Q163795;TGV INOUI|Train TER;Car TER;uic;1648968005;Q1887294;;;87343004;Valenciennes
 TN8734310;gare;Saint-Amand-les-Eaux;Saint-Amand-les-Eaux;Saint-Amand-les-Eaux;8734310;87343103;50.443203;3.41878;FR;Europe/Paris;Q626309;Train TER;;uic;921105055;Q2258921;;;87343103;Saint-Amand-les-Eaux
-TN8734316;gare;Beuvrages;Beuvrages;Beuvrages;8734316;87343160;50.389422;3.506609;FR;Europe/Paris;Q748806;Train TER;;uic;2084195352;Q2336942;;;87343160;Beuvrages
+TN8734316;gare;Beuvrages;Beuvrages;Beuvrages;8734316;87343160;50.389422;3.506609;FR;Europe/Paris;Q748806;Train TER;Car TER;uic;2084195352;Q2336942;;;87343160;Beuvrages
 TN8734321;gare;Le Poirier Université;Le Poirier Université;Le Poirier Université;8734321;87343210;50.330091;3.502526;FR;Europe/Paris;Q1101255;Train TER;Car TER;uic;2054095909;Q2189705;;;87343210;Le Poirier Université
-TN8734330;gare;Wallers;Wallers;Wallers;8734330;87343301;50.384611;3.393745;FR;Europe/Paris;Q473417;Train TER;;uic;907704250;Q1660435;;;87343301;Wallers
-TN8734331;gare;Raismes;Raismes;Raismes;8734331;87343319;50.39006;3.478754;FR;Europe/Paris;Q664934;Train TER;;uic;9983369534;Q2913331;;;87343319;Raismes
-TN8734340;gare;Trith-Saint-Léger;Trith-Saint-Léger;Trith-Saint-Léger;8734340;87343400;50.331756;3.489256;FR;Europe/Paris;Q1101255;Train TER;;uic;1199952566;Q2031918;;XFTSL;87343400;Trith-Saint-Léger
-TN8734341;gare;Prouvy - Thiant;Prouvy - Thiant;Prouvy - Thiant;8734341;87343418;50.316763;3.46103;FR;Europe/Paris;Q1165063;Train TER;;uic;2096059137;Q3097348;;;87343418;Prouvy - Thiant
-TN8734345;gare;Denain;Denain;Denain;8734345;87343459;50.334676;3.388651;FR;Europe/Paris;Q212959;Train TER;;uic;11053183532;Q2186917;;;87343459;Denain
-TN8734347;gare;Lourches;Lourches;Lourches;8734347;87343475;50.310352;3.34354;FR;Europe/Paris;Q431065;Train TER;;uic;2275685064;Q1845098;;;87343475;Lourches
+TN8734330;gare;Wallers;Wallers;Wallers;8734330;87343301;50.384611;3.393745;FR;Europe/Paris;Q473417;Train TER;Car TER;uic;907704250;Q1660435;;;87343301;Wallers
+TN8734331;gare;Raismes;Raismes;Raismes;8734331;87343319;50.39006;3.478754;FR;Europe/Paris;Q664934;Train TER;Car TER;uic;9983369534;Q2913331;;;87343319;Raismes
+TN8734340;gare;Trith-Saint-Léger;Trith-Saint-Léger;Trith-Saint-Léger;8734340;87343400;50.331756;3.489256;FR;Europe/Paris;Q1101255;Train TER;Car TER;uic;1199952566;Q2031918;;XFTSL;87343400;Trith-Saint-Léger
+TN8734341;gare;Prouvy - Thiant;Prouvy - Thiant;Prouvy - Thiant;8734341;87343418;50.316763;3.46103;FR;Europe/Paris;Q1165063;Train TER;Car TER;uic;2096059137;Q3097348;;;87343418;Prouvy - Thiant
+TN8734345;gare;Denain;Denain;Denain;8734345;87343459;50.334676;3.388651;FR;Europe/Paris;Q212959;Train TER;Car TER;uic;11053183532;Q2186917;;;87343459;Denain
+TN8734347;gare;Lourches;Lourches;Lourches;8734347;87343475;50.310352;3.34354;FR;Europe/Paris;Q431065;Train TER;Car TER;uic;2275685064;Q1845098;;;87343475;Lourches
 TN8734444;arret_car;Sainte-Gemme;Sainte-Gemme;Sainte-Gemme;8734444;87344440;46.901683;-0.28775;FR;Europe/Paris;Q1348756;;Car TER;gtfs;;;;;87344440;Sainte-Gemme
 TN8734459;arret_car;Saint-Angel;Saint-Angel;Saint-Angel;8734459;87344598;45.503952;2.231627;FR;Europe/Paris;Q626116;;Car TER;gtfs;;;;;87344598;Saint-Angel
 TN8734500;gare;Douai;Douai;Douai;8734500;87345009;50.371876;3.090751;FR;Europe/Paris;Q193826;TGV INOUI|Train TER;Car TER;uic;11556100824;Q2228617;;;87345009;Douai
-TN8734502;gare;Lens;Lens;Lens;8734502;87345025;50.426535;2.8279;FR;Europe/Paris;Q165271;TGV INOUI|Train TER;;nom;14105621464;Q3096875;;;87345025;Lens
+TN8734502;gare;Lens;Lens;Lens;8734502;87345025;50.426535;2.8279;FR;Europe/Paris;Q165271;TGV INOUI|Train TER;Car TER;nom;14105621464;Q3096875;;;87345025;Lens
 TN8734503;gare;Loos-en-Gohelle;Loos-en-Gohelle;Loos-en-Gohelle;8734503;87345033;50.437882;2.793058;FR;Europe/Paris;Q165271;Train TER;;uic;1889529783;Q3096902;;;87345033;Loos-en-Gohelle
-TN8734504;gare;Liévin;Liévin;Liévin;8734504;87345041;50.434133;2.771799;FR;Europe/Paris;Q217841;Train TER;;uic;1186303821;Q2624678;;;87345041;Liévin
+TN8734504;gare;Liévin;Liévin;Liévin;8734504;87345041;50.434133;2.771799;FR;Europe/Paris;Q217841;Train TER;Car TER;uic;1186303821;Q2624678;;;87345041;Liévin
 TN8734510;gare;Brebières Sud;Brebières Sud;Brebières Sud;8734510;87345108;50.33624;3.01414;FR;Europe/Paris;Q850917;Train TER;;uic;8319316795;Q509289;;;87345108;Brebières Sud
 TN8734511;gare;Corbehem;Corbehem;Corbehem;8734511;87345116;50.342854;3.040494;FR;Europe/Paris;Q613137;Train TER;;uic;9654244721;Q536595;;;87345116;Corbehem
 TN8734512;gare;Pont de Sallaumines;Pont de Sallaumines;Pont de Sallaumines;8734512;87345124;50.415858;2.863201;FR;Europe/Paris;Q453707;Train TER;;uic;2275685074;Q3097301;;;87345124;Pont de Sallaumines
 TN8734513;gare;Coron de Méricourt;Corons de Méricourt;Corons de Méricourt;8734513;87345132;50.415004;2.885441;FR;Europe/Paris;Q876751;Train TER;;uic;2275683987;Q3096295;;;87345132;Coron de Méricourt
 TN8734514;gare;Billy-Montigny;Billy-Montigny;Billy-Montigny;8734514;87345140;50.415243;2.910141;FR;Europe/Paris;Q772803;Train TER;;uic;11290899848;Q591802;;;87345140;Billy-Montigny
-TN8734515;gare;Hénin-Beaumont;Hénin-Beaumont;Hénin-Beaumont;8734515;87345157;50.417001;2.952221;FR;Europe/Paris;Q240858;Train TER;;uic;11559168293;Q2466148;;;87345157;Hénin-Beaumont
-TN8734516;gare;Dourges;Dourges;Dourges;8734516;87345165;50.432187;2.986959;FR;Europe/Paris;Q841275;Train TER;;uic;11559199631;Q3096395;;;87345165;Dourges
+TN8734515;gare;Hénin-Beaumont;Hénin-Beaumont;Hénin-Beaumont;8734515;87345157;50.417001;2.952221;FR;Europe/Paris;Q240858;Train TER;Car TER;uic;11559168293;Q2466148;;;87345157;Hénin-Beaumont
+TN8734516;gare;Dourges;Dourges;Dourges;8734516;87345165;50.432187;2.986959;FR;Europe/Paris;Q841275;Train TER;Car TER;uic;11559199631;Q3096395;;;87345165;Dourges
 TN8734520;gare;Pont-de-la-Deûle;Pont-de-la-Deûle;Pont-de-la-Deûle;8734520;87345207;50.397898;3.084822;FR;Europe/Paris;Q640042;Train TER;;uic;8857468569;;;;87345207;Pont de la Deûle
 TN8734521;gare;Sallaumines;Sallaumines;Sallaumines;8734521;87345215;50.422306;2.855624;FR;Europe/Paris;Q453707;Train TER;;uic;2275683991;Q3097654;;;87345215;Sallaumines
 TN8734522;gare;Leforest;Leforest;Leforest;8734522;87345223;50.427619;3.059566;FR;Europe/Paris;Q607550;Train TER;;uic;5792383084;Q2406258;;;87345223;Leforest
@@ -1000,10 +998,10 @@ TN8734525;gare;Libercourt;Libercourt;Libercourt;8734525;87345256;50.480187;3.008
 TN8734526;gare;Pont-à-Vendin;Pont-à-Vendin;Pont-à-Vendin;8734526;87345264;50.471406;2.875208;FR;Europe/Paris;Q852562;Train TER;;uic;917150916;Q3097306;;;87345264;Pont-à-Vendin
 TN8734527;gare;Meurchin;Meurchin;Meurchin;8734527;87345272;50.497718;2.893413;FR;Europe/Paris;Q1025125;Train TER;;uic;917150527;Q3097035;;;87345272;Meurchin
 TN8734528;gare;Bauvin – Provin;Bauvin – Provin;Bauvin – Provin;8734528;87345280;50.511738;2.905186;FR;Europe/Paris;Q630871;Train TER;;uic;8346046107;Q3095922;;;87345280;Bauvin - Provin
-TN8734530;gare;Montigny-en-Ostrevent;Montigny-en-Ostrevent;Montigny-en-Ostrevent;8734530;87345306;50.361377;3.188754;FR;Europe/Paris;Q665525;Train TER;;uic;8851515707;Q2913951;;;87345306;Montigny-en-Ostrevent
+TN8734530;gare;Montigny-en-Ostrevent;Montigny-en-Ostrevent;Montigny-en-Ostrevent;8734530;87345306;50.361377;3.188754;FR;Europe/Paris;Q665525;Train TER;Car TER;uic;8851515707;Q2913951;;;87345306;Montigny-en-Ostrevent
 TN8734531;gare;Somain;Somain;Somain;8734531;87345314;50.355474;3.27769;FR;Europe/Paris;Q626382;Train TER;Car TER;uic;752842530;Q3097764;;;87345314;Somain
-TN8734538;gare;Bouchain;Bouchain;Bouchain;8734538;87345389;50.278109;3.331901;FR;Europe/Paris;Q632348;Train TER;;uic;2108906492;Q130013;;;87345389;Bouchain
-TN8734539;gare;Iwuy;Iwuy;Iwuy;8734539;87345397;50.225501;3.329863;FR;Europe/Paris;Q468666;Train TER;;uic;2090123993;Q2142874;;;87345397;Iwuy
+TN8734538;gare;Bouchain;Bouchain;Bouchain;8734538;87345389;50.278109;3.331901;FR;Europe/Paris;Q632348;Train TER;Car TER;uic;2108906492;Q130013;;;87345389;Bouchain
+TN8734539;gare;Iwuy;Iwuy;Iwuy;8734539;87345397;50.225501;3.329863;FR;Europe/Paris;Q468666;Train TER;Car TER;uic;2090123993;Q2142874;;;87345397;Iwuy
 TN8734540;gare;Sin-le-Noble;Sin-le-Noble;Sin-le-Noble;8734540;87345405;50.356516;3.112707;FR;Europe/Paris;Q48543;Train TER;;uic;8809971617;;;;87345405;Sin-le-Noble
 TN8734541;gare;Cantin;Cantin;Cantin;8734541;87345413;50.312548;3.122067;FR;Europe/Paris;Q672549;Train TER;;uic;8947433029;Q614171;;;87345413;Cantin
 TN8734542;gare;Arleux;Arleux;Arleux;8734542;87345421;50.286338;3.120656;FR;Europe/Paris;Q61573;Train TER;;uic;1314634130;Q2454325;;;87345421;Arleux
@@ -1048,20 +1046,20 @@ TN8739357;gare;Massy-Palaiseau;Massy-Palaiseau;Massy-Palaiseau;8739357;87393579;
 TN8739359;gare;Verneuil-sur-Avre;Verneuil-sur-Avre;Verneuil-sur-Avre;8739359;87393595;48.742737;0.929184;FR;Europe/Paris;Q26276612;Train TER;;uic;8863210696;Q3097967;;;87393595;Verneuil-sur-Avre
 TN8739370;gare;Massy-TGV;Massy-TGV;Massy-TGV;8739370;87393702;48.725842;2.261344;FR;Europe/Paris;Q274249;OUIGO|TGV INOUI;;uic;3530841971;Q801170;;;87393702;Massy TGV
 TN8739384;gare;Saint-Quentin-en-Yvelines;Saint-Quentin-en-Yvelines;Saint-Quentin-en-Yvelines;8739384;87393843;48.787452;2.044525;FR;Europe/Paris;Q240798;Train TER;;uic;3530910105;Q3097620;;;87393843;Saint-Quentin en Yvelines
-TN8739400;gare;Chartres;Chartres;Chartres;8739400;87394007;48.448436;1.480857;FR;Europe/Paris;Q130272;OUIGO|Train TER;Car TER;uic;8303862255;Q2087872;;;87394007;Chartres
+TN8739400;gare;Chartres;Chartres;Chartres;8739400;87394007;48.448436;1.480857;FR;Europe/Paris;Q130272;OUIGO|Train TER;;uic;8303862255;Q2087872;;;87394007;Chartres
 TN8739401;gare;Lucé;Lucé;Lucé;8739401;87394015;48.436711;1.453048;FR;Europe/Paris;Q1072289;Train TER;;uic;10751726526;Q2145386;;XFLCJ;87394015;Lucé
 TN8739411;gare;Épernon;Épernon;Épernon;8739411;87394114;48.605204;1.681364;FR;Europe/Paris;Q287148;Train TER;;gtfs;;;;;87394114;Épernon
 TN8739413;gare;Maintenon;Maintenon;Maintenon;8739413;87394130;48.585567;1.592534;FR;Europe/Paris;Q653559;Train TER;;uic;252615085;Q665887;;;87394130;Maintenon
 TN8739414;gare;Saint-Piat;Saint-Piat;Saint-Piat;8739414;87394148;48.542875;1.590202;FR;Europe/Paris;Q204142;Train TER;;uic;5400818213;Q2545316;;;87394148;Saint-Piat
 TN8739415;gare;Jouy;Jouy;Jouy;8739415;87394155;48.510079;1.55765;FR;Europe/Paris;Q1345116;Train TER;;uic;5400816538;Q3096665;;;87394155;Jouy
 TN8739417;gare;La Villette - Saint-Prest;La Villette - Saint-Prest;La Villette - Saint-Prest;8739417;87394171;48.482706;1.523087;FR;Europe/Paris;Q1362102;Train TER;;uic;1879436732;Q2594740;;;87394171;La Villette Saint-Prest
-TN8739420;gare;Amilly Ouerray;Amilly Ouerray;Amilly Ouerray;8739420;87394205;48.438259;1.389331;FR;Europe/Paris;Q1075377;Train TER;Car TER;uic;11367479991;Q2040993;;;87394205;Amilly - Ouerray
-TN8739421;gare;Saint-Aubin - Saint-Luperce;Saint-Aubin - Saint-Luperce;Saint-Aubin - Saint-Luperce;8739421;87394213;48.447636;1.331852;FR;Europe/Paris;Q1139366;Train TER;Car TER;uic;385361577;Q3097495;;XFSBP;87394213;Saint-Aubin - Saint-Luperce
-TN8739422;gare;Courville-sur-Eure;Courville-sur-Eure;Courville-sur-Eure;8739422;87394221;48.451432;1.234834;FR;Europe/Paris;Q1072386;Train TER;Car TER;uic;4213061795;Q3096314;;XFCVB;87394221;Courville-sur-Eure
-TN8739424;gare;Pontgouin;Pontgouin;Pontgouin;8739424;87394247;48.47797;1.141501;FR;Europe/Paris;Q1139444;Train TER;Car TER;uic;11008724629;Q1828187;;;87394247;Pontgouin
-TN8739425;gare;La Loupe;La Loupe;La Loupe;8739425;87394254;48.473888;1.010865;FR;Europe/Paris;Q514185;Train TER;Car TER;uic;4214034220;Q2101016;;;87394254;La Loupe
-TN8739427;gare;Bretoncelles;Bretoncelles;Bretoncelles;8739427;87394270;48.432632;0.89233;FR;Europe/Paris;Q690788;Train TER;Car TER;uic;9819205721;Q2723066;;;87394270;Bretoncelles
-TN8739428;gare;Condé-sur-Huisne;Condé-sur-Huisne;Condé-sur-Huisne;8739428;87394288;48.383534;0.848777;FR;Europe/Paris;Q21619546;Train TER;Car TER;uic;4215299314;Q2971091;;;87394288;Condé-sur-Huisne
+TN8739420;gare;Amilly Ouerray;Amilly Ouerray;Amilly Ouerray;8739420;87394205;48.438259;1.389331;FR;Europe/Paris;Q1075377;Train TER;;uic;11367479991;Q2040993;;;87394205;Amilly - Ouerray
+TN8739421;gare;Saint-Aubin - Saint-Luperce;Saint-Aubin - Saint-Luperce;Saint-Aubin - Saint-Luperce;8739421;87394213;48.447636;1.331852;FR;Europe/Paris;Q1139366;Train TER;;uic;385361577;Q3097495;;XFSBP;87394213;Saint-Aubin - Saint-Luperce
+TN8739422;gare;Courville-sur-Eure;Courville-sur-Eure;Courville-sur-Eure;8739422;87394221;48.451432;1.234834;FR;Europe/Paris;Q1072386;Train TER;;uic;4213061795;Q3096314;;XFCVB;87394221;Courville-sur-Eure
+TN8739424;gare;Pontgouin;Pontgouin;Pontgouin;8739424;87394247;48.47797;1.141501;FR;Europe/Paris;Q1139444;Train TER;;uic;11008724629;Q1828187;;;87394247;Pontgouin
+TN8739425;gare;La Loupe;La Loupe;La Loupe;8739425;87394254;48.473888;1.010865;FR;Europe/Paris;Q514185;Train TER;;uic;4214034220;Q2101016;;;87394254;La Loupe
+TN8739427;gare;Bretoncelles;Bretoncelles;Bretoncelles;8739427;87394270;48.432632;0.89233;FR;Europe/Paris;Q690788;Train TER;;uic;9819205721;Q2723066;;;87394270;Bretoncelles
+TN8739428;gare;Condé-sur-Huisne;Condé-sur-Huisne;Condé-sur-Huisne;8739428;87394288;48.383534;0.848777;FR;Europe/Paris;Q21619546;Train TER;;uic;4215299314;Q2971091;;;87394288;Condé-sur-Huisne
 TN8739429;gare;Nogent-le-Rotrou;Nogent-le-Rotrou;Nogent-le-Rotrou;8739429;87394296;48.32578;0.810274;FR;Europe/Paris;Q214432;Train TER;Car TER;uic;4215299316;Q2192067;;;87394296;Nogent-le-Rotrou
 TN8739440;gare;La Taye;La Taye;La Taye;8739440;87394403;48.40774;1.373502;FR;Europe/Paris;Q610856;Train TER;;uic;1704175678;Q3096814;;;87394403;La Taye
 TN8739441;gare;Bailleau-le-pin;Bailleau-le-pin;Bailleau-le-pin;8739441;87394411;48.366928;1.325333;FR;Europe/Paris;Q1075279;Train TER;;gtfs;;;;;87394411;Bailleau-le-pin
@@ -1082,27 +1080,27 @@ TN8739604;gare;Montbizot;Montbizot;Montbizot;8739604;87396044;48.151513;0.190861
 TN8739605;gare;Teillé;Teillé;Teillé;8739605;87396051;48.181104;0.191338;FR;Europe/Paris;Q1226578;Train TER;;uic;14142635050;;;;87396051;Teillé
 TN8739607;gare;Vivoin - Beaumont;Vivoin - Beaumont;Vivoin - Beaumont;8739607;87396077;48.229975;0.14506;FR;Europe/Paris;Q1234008;Train TER;;uic;11025735310;Q3098027;;;87396077;Vivoin - Beaumont
 TN8739609;gare;La Hutte - Coulombiers;La Hutte - Coulombiers;La Hutte - Coulombiers;8739609;87396093;48.303473;0.105632;FR;Europe/Paris;Q60589068;Train TER;;uic;1935425733;Q3096791;;;87396093;La Hutte Coulombiers
-TN8739620;gare;Domfront;Domfront;Domfront;8739620;87396200;48.107709;0.026236;FR;Europe/Paris;Q1228266;Train TER;Car TER;uic;4224368144;Q3096379;;;87396200;Domfront
-TN8739621;gare;Conlie;Conlie;Conlie;8739621;87396218;48.127269;-0.011348;FR;Europe/Paris;Q833363;Train TER;Car TER;uic;1720987532;Q2610924;;;87396218;Conlie
-TN8739623;gare;Sillé-le-Guillaume;Sillé-le-Guillaume;Sillé-le-Guillaume;8739623;87396234;48.18166;-0.128837;FR;Europe/Paris;Q1234103;Train TER;Car TER;uic;4336905212;Q579466;;;87396234;Sillé-le-Guillaume
-TN8739627;gare;Champagné;Champagné;Champagné;8739627;87396275;48.019697;0.335203;FR;Europe/Paris;Q636699;Train TER;Car TER;uic;4337043080;Q1934692;;;87396275;Champagné
-TN8739628;gare;Saint-Mars-la-Brière;Saint-Mars-la-Brière;Saint-Mars-la-Brière;8739628;87396283;48.028558;0.365655;FR;Europe/Paris;Q737130;Train TER;Car TER;uic;3486337798;Q2797166;;;87396283;Saint-Mars-la-Brière
-TN8739629;gare;Montfort-le-Gesnois;Montfort-le-Gesnois;Montfort-le-Gesnois;8739629;87396291;48.040539;0.406404;FR;Europe/Paris;Q900283;Train TER;Car TER;uic;4220110114;Q2789698;;;87396291;Montfort-le-Gesnois
-TN8739630;gare;Connerré Beillé;Connerré Beillé;Connerré Beillé;8739630;87396309;48.07376;0.486948;FR;Europe/Paris;Q1222934;Train TER;Car TER;uic;4217319781;Q2747705;;XFCOB;87396309;Connerré - Beillé
-TN8739631;gare;Sceaux - Boëssé;Sceaux - Boëssé;Sceaux - Boëssé;8739631;87396317;48.12215;0.572409;FR;Europe/Paris;Q644807;Train TER;Car TER;uic;9819196164;Q2346854;;;87396317;Sceaux - Boëssé
+TN8739620;gare;Domfront;Domfront;Domfront;8739620;87396200;48.107709;0.026236;FR;Europe/Paris;Q1228266;Train TER;;uic;4224368144;Q3096379;;;87396200;Domfront
+TN8739621;gare;Conlie;Conlie;Conlie;8739621;87396218;48.127269;-0.011348;FR;Europe/Paris;Q833363;Train TER;;uic;1720987532;Q2610924;;;87396218;Conlie
+TN8739623;gare;Sillé-le-Guillaume;Sillé-le-Guillaume;Sillé-le-Guillaume;8739623;87396234;48.18166;-0.128837;FR;Europe/Paris;Q1234103;Train TER;;uic;4336905212;Q579466;;;87396234;Sillé-le-Guillaume
+TN8739627;gare;Champagné;Champagné;Champagné;8739627;87396275;48.019697;0.335203;FR;Europe/Paris;Q636699;Train TER;;uic;4337043080;Q1934692;;;87396275;Champagné
+TN8739628;gare;Saint-Mars-la-Brière;Saint-Mars-la-Brière;Saint-Mars-la-Brière;8739628;87396283;48.028558;0.365655;FR;Europe/Paris;Q737130;Train TER;;uic;3486337798;Q2797166;;;87396283;Saint-Mars-la-Brière
+TN8739629;gare;Montfort-le-Gesnois;Montfort-le-Gesnois;Montfort-le-Gesnois;8739629;87396291;48.040539;0.406404;FR;Europe/Paris;Q900283;Train TER;;uic;4220110114;Q2789698;;;87396291;Montfort-le-Gesnois
+TN8739630;gare;Connerré Beillé;Connerré Beillé;Connerré Beillé;8739630;87396309;48.07376;0.486948;FR;Europe/Paris;Q1222934;Train TER;;uic;4217319781;Q2747705;;XFCOB;87396309;Connerré - Beillé
+TN8739631;gare;Sceaux - Boëssé;Sceaux - Boëssé;Sceaux - Boëssé;8739631;87396317;48.12215;0.572409;FR;Europe/Paris;Q644807;Train TER;;uic;9819196164;Q2346854;;;87396317;Sceaux - Boëssé
 TN8739632;gare;La Ferté-Bernard;La Ferté-Bernard;La Ferté-Bernard;8739632;87396325;48.186546;0.639331;FR;Europe/Paris;Q749860;Train TER;Car TER;uic;4216222898;Q2468105;;;87396325;La Ferté-Bernard
-TN8739633;gare;Le Theil - La Rouge;Le Theil - La Rouge;Le Theil - La Rouge;8739633;87396333;48.267295;0.694394;FR;Europe/Paris;Q21634354;Train TER;Car TER;uic;1935227788;Q2453056;;;87396333;Le Theil - La Rouge
+TN8739633;gare;Le Theil - La Rouge;Le Theil - La Rouge;Le Theil - La Rouge;8739633;87396333;48.267295;0.694394;FR;Europe/Paris;Q21634354;Train TER;;uic;1935227788;Q2453056;;;87396333;Le Theil - La Rouge
 TN8739635;gare;Voivres;Voivres;Voivres;8739635;87396358;47.930423;0.085389;FR;Europe/Paris;Q1234773;Train TER;;uic;206134843;Q3098033;;;87396358;Voivres
 TN8739636;gare;La Suze;La Suze;La Suze;8739636;87396366;47.89222;0.026584;FR;Europe/Paris;Q903827;Train TER;;uic;2009352116;Q3096812;;;87396366;La Suze
 TN8739637;gare;Noyen;Noyen;Noyen;8739637;87396374;47.874458;-0.098194;FR;Europe/Paris;Q640794;Train TER;;uic;1437113213;Q3097229;;;87396374;Noyen
 TN8739640;gare;Sablé-sur-Sarthe;Sablé-sur-Sarthe;Sablé-sur-Sarthe;8739640;87396408;47.841825;-0.342081;FR;Europe/Paris;Q828635;TGV INOUI|Train TER;;uic;7947787377;Q1928274;;;87396408;Sablé-sur-Sarthe
-TN8739654;gare;Arnage;Arnage;Arnage;8739654;87396549;47.928578;0.190013;FR;Europe/Paris;Q731594;Train TER;Car TER;uic;4290854853;Q3095667;;XFAAG;87396549;Arnage
-TN8739655;gare;Laigné - Saint-Gervais;Laigné - Saint-Gervais;Laigné - Saint-Gervais;8739655;87396556;47.874079;0.216947;FR;Europe/Paris;Q130550851;Train TER;Car TER;uic;3486338299;Q3096830;;XFLSG;87396556;Laigné - Saint-Gervais
-TN8739656;gare;Écommoy;Écommoy;Écommoy;8739656;87396564;47.824466;0.268999;FR;Europe/Paris;Q273670;Train TER;Car TER;uic;269444864;Q3095866;;;87396564;Écommoy
-TN8739657;gare;Aubigné-Racan;Aubigné-Racan;Aubigné-Racan;8739657;87396572;47.686946;0.265755;FR;Europe/Paris;Q1171493;Train TER;Car TER;uic;1252235078;Q3095688;;;87396572;Aubigné-Racan
-TN8739658;gare;Mayet;Mayet;Mayet;8739658;87396580;47.760262;0.265935;FR;Europe/Paris;Q1224297;Train TER;Car TER;uic;4330810265;Q3097004;;;87396580;Mayet
-TN8739659;gare;Vaas;Vaas;Vaas;8739659;87396598;47.670789;0.316499;FR;Europe/Paris;Q1222904;Train TER;Car TER;uic;10982114735;Q3097913;;;87396598;Vaas
-TN8739660;gare;Château-du-Loir;Château-du-Loir;Château-du-Loir;8739660;87396606;47.683227;0.41499;FR;Europe/Paris;Q27044250;Train TER;Car TER;uic;3486338295;Q3096232;;;87396606;Château-du-Loir
+TN8739654;gare;Arnage;Arnage;Arnage;8739654;87396549;47.928578;0.190013;FR;Europe/Paris;Q731594;Train TER;;uic;4290854853;Q3095667;;XFAAG;87396549;Arnage
+TN8739655;gare;Laigné - Saint-Gervais;Laigné - Saint-Gervais;Laigné - Saint-Gervais;8739655;87396556;47.874079;0.216947;FR;Europe/Paris;Q130550851;Train TER;;uic;3486338299;Q3096830;;XFLSG;87396556;Laigné - Saint-Gervais
+TN8739656;gare;Écommoy;Écommoy;Écommoy;8739656;87396564;47.824466;0.268999;FR;Europe/Paris;Q273670;Train TER;;uic;269444864;Q3095866;;;87396564;Écommoy
+TN8739657;gare;Aubigné-Racan;Aubigné-Racan;Aubigné-Racan;8739657;87396572;47.686946;0.265755;FR;Europe/Paris;Q1171493;Train TER;;uic;1252235078;Q3095688;;;87396572;Aubigné-Racan
+TN8739658;gare;Mayet;Mayet;Mayet;8739658;87396580;47.760262;0.265935;FR;Europe/Paris;Q1224297;Train TER;;uic;4330810265;Q3097004;;;87396580;Mayet
+TN8739659;gare;Vaas;Vaas;Vaas;8739659;87396598;47.670789;0.316499;FR;Europe/Paris;Q1222904;Train TER;;uic;10982114735;Q3097913;;;87396598;Vaas
+TN8739660;gare;Château-du-Loir;Château-du-Loir;Château-du-Loir;8739660;87396606;47.683227;0.41499;FR;Europe/Paris;Q27044250;Train TER;;uic;3486338295;Q3096232;;;87396606;Château-du-Loir
 TN8739689;gare;Clermont-La Rotonde;Clermont-La Rotonde;Clermont-La Rotonde;8739689;87396895;45.768095;3.09097;FR;Europe/Paris;Q42168;Train TER;;uic;3527310689;Q2189379;;;87396895;Clermont la Rotonde
 TN8740098;gare;Magneux - Courlandon;Magneux - Courlandon;Magneux - Courlandon;8740098;87400986;49.309963;3.733501;FR;Europe/Paris;Q969820;Train TER;Car TER;uic;10137310136;Q3096953;;;87400986;Magneux - Courlandon
 TN8740132;gare;Mouans-Sartoux;Mouans-Sartoux;Mouans-Sartoux;8740132;87401323;43.620455;6.974252;FR;Europe/Paris;Q322723;Train TER;;uic;29805512;Q3097118;;;87401323;Mouans-Sartoux
@@ -1202,7 +1200,7 @@ TN8741146;gare;Sommery;Sommery;Sommery;8741146;87411462;49.629486;1.435736;FR;Eu
 TN8741147;gare;Serqueux;Serqueux;Serqueux;8741147;87411470;49.631587;1.539293;FR;Europe/Paris;Q751793;Train TER;;uic;928289051;Q2608959;;XFSEQ;87411470;Serqueux
 TN8741180;gare;Montville;Montville;Montville;8741180;87411801;49.551136;1.069838;FR;Europe/Paris;Q1166810;Train TER;;uic;2181820157;Q2166681;;;87411801;Montville
 TN8741181;gare;Clères;Clères;Clères;8741181;87411819;49.599083;1.106248;FR;Europe/Paris;Q1057646;Train TER;;uic;2150318128;Q3096260;;;87411819;Clères
-TN8741301;gare;Le Havre;Le Havre;Le Havre;8741301;87413013;49.492703;0.125609;FR;Europe/Paris;Q42810;TGV INOUI|Train TER;Car TER;uic;847701543;Q3098218;;XFHV;87413013;Le Havre
+TN8741301;gare;Le Havre;Le Havre;Le Havre;8741301;87413013;49.492703;0.125609;FR;Europe/Paris;Q42810;TGV INOUI|Train TER;;uic;847701543;Q3098218;;XFHV;87413013;Le Havre
 TN8741330;gare;Harfleur;Harfleur;Harfleur;8741330;87413302;49.513635;0.199011;FR;Europe/Paris;Q623363;Train TER;;uic;13006299716;;;;87413302;Harfleur
 TN8741331;gare;Saint-Laurent - Gainneville;Saint-Laurent - Gainneville;Saint-Laurent - Gainneville;8741331;87413310;49.52856;0.252304;FR;Europe/Paris;Q1164666;Train TER;;uic;6269679532;Q24425;;;87413310;Saint-Laurent - Gainneville
 TN8741332;gare;Étainhus-Saint-Romain;Étainhus-Saint-Romain;Étainhus-Saint-Romain;8741332;87413328;49.560705;0.330453;FR;Europe/Paris;Q593653;Train TER;;uic;6269679531;Q1870462;;;87413328;Étainhus - Saint-Romain
@@ -1231,7 +1229,6 @@ TN8741786;arret_car;Eyrein;Eyrein;Eyrein;8741786;87417865;45.341936;1.932601;FR;
 TN8741788;arret_car;Maussac le Poteau;Maussac le Poteau;Maussac le Poteau;8741788;87417881;45.468338;2.143238;FR;Europe/Paris;Q626081;;Car TER;gtfs;;;;;87417881;Maussac le Poteau
 TN8741790;arret_car;Ussel Place Henri Queuille;Ussel Place Henri Queuille;Ussel Place Henri Queuille;8741790;87417907;45.549738;2.307346;FR;Europe/Paris;Q18101;;Car TER;gtfs;;;;;87417907;Ussel Place Henri Queuille
 TN8742083;arret_car;Alba-la-Romaine Ruines Romaines;Alba-la-Romaine Ruines Romaines;Alba-la-Romaine Ruines Romaines;8742083;87420836;44.562774;4.595211;FR;Europe/Paris;Q273021;;Car TER;gtfs;;;;;87420836;Alba-la-Romaine Ruines Romaines
-TN8742739;arret_car;Monnaie Jean-Baptiste Moreau;Monnaie Jean-Baptiste Moreau;Monnaie Jean-Baptiste Moreau;8742739;87427393;47.502397;0.79079;FR;Europe/Paris;Q1172014;;Car TER;gtfs;;;;;87427393;Monnaie Jean-Baptiste Moreau
 TN8742976;arret_car;Auxon Route Nationale;Auxon Route Nationale;Auxon Route Nationale;8742976;87429761;48.109256;3.915937;FR;Europe/Paris;Q1085418;;Car TER;gtfs;;;;;87429761;Auxon Route Nationale
 TN8743078;arret_car;Goderville;Goderville;Goderville;8743078;87430785;49.645581;0.367785;FR;Europe/Paris;Q1110763;;Car TER;gtfs;;;;;87430785;Goderville
 TN8743779;gare;La Rochelle - Porte Dauphine;La Rochelle - Porte Dauphine;La Rochelle - Porte Dauphine;8743779;87437798;46.167556;-1.151869;FR;Europe/Paris;Q82185;Train TER;Car TER;uic;467359367;Q2458976;;;87437798;La Rochelle Porte Dauphine
@@ -1319,9 +1316,9 @@ TN8747135;gare;Retiers;Retiers;Retiers;8747135;87471359;47.913356;-1.389746;FR;E
 TN8747136;gare;Martigné-Ferchaud;Martigné-Ferchaud;Martigné-Ferchaud;8747136;87471367;47.832071;-1.313827;FR;Europe/Paris;Q1074547;Train TER;;uic;4332184928;Q2191724;;;87471367;Martigné-Ferchaud
 TN8747139;gare;Pontchaillou;Pontchaillou;Pontchaillou;8747139;87471391;48.118935;-1.69092;FR;Europe/Paris;Q647;Train TER;;uic;3385636901;Q3126252;;;87471391;Pontchaillou
 TN8747145;gare;Chevaigné;Chevaigné;Chevaigné;8747145;87471458;48.208931;-1.630781;FR;Europe/Paris;Q1011045;Train TER;;uic;946524812;Q2686580;;;87471458;Chevaigné
-TN8747150;gare;Vitré;Vitré;Vitré;8747150;87471508;48.122497;-1.212077;FR;Europe/Paris;Q234704;TGV INOUI|Train TER;Car TER;uic;4290859697;Q2330319;;XFVTE;87471508;Vitré
+TN8747150;gare;Vitré;Vitré;Vitré;8747150;87471508;48.122497;-1.212077;FR;Europe/Paris;Q234704;TGV INOUI|Train TER;;uic;4290859697;Q2330319;;XFVTE;87471508;Vitré
 TN8747151;gare;Les Lacs;Les Lacs;Les Lacs;8747151;87471516;48.109417;-1.320891;FR;Europe/Paris;Q222962;Train TER;;uic;2486683860;Q2213900;;;87471516;Les Lacs
-TN8747152;gare;Châteaubourg;Châteaubourg;Châteaubourg;8747152;87471524;48.106189;-1.40512;FR;Europe/Paris;Q456809;Train TER;Car TER;uic;9554649082;Q3096234;;;87471524;Châteaubourg
+TN8747152;gare;Châteaubourg;Châteaubourg;Châteaubourg;8747152;87471524;48.106189;-1.40512;FR;Europe/Paris;Q456809;Train TER;;uic;9554649082;Q3096234;;;87471524;Châteaubourg
 TN8747153;gare;Servon;Servon;Servon;8747153;87471532;48.112216;-1.466739;FR;Europe/Paris;Q1070460;Train TER;;uic;2486683556;Q2913679;;;87471532;Servon
 TN8747154;gare;Noyal - Acigné;Noyal - Acigné;Noyal - Acigné;8747154;87471540;48.118766;-1.527991;FR;Europe/Paris;Q545801;Train TER;;uic;522070666;Q736002;;;87471540;Noyal - Acigné
 TN8747260;gare;Thann Centre;Thann Centre;Thann Centre;8747260;87472605;47.810024;7.101056;FR;Europe/Paris;Q207570;Train TER|TramTrain;;uic;4396506776;Q3097850;;;87472605;Thann Centre
@@ -1366,7 +1363,7 @@ TN8747401;gare;Dirinon;Dirinon-Loperhet;Dirinon-Loperhet;8747401;87474015;48.392
 TN8747405;gare;Pont-de-Buis;Pont-de-Buis;Pont-de-Buis;8747405;87474056;48.254282;-4.086341;FR;Europe/Paris;Q602550;Train TER;Car TER;uic;2544582427;Q2105624;;;87474056;Pont-de-Buis
 TN8747406;gare;Châteaulin;Châteaulin;Châteaulin;8747406;87474064;48.20183;-4.094183;FR;Europe/Paris;Q202374;Train TER;Car TER;uic;4329628157;Q2644205;;;87474064;Châteaulin
 TN8747409;gare;Quimper;Quimper;Quimper;8747409;87474098;47.994698;-4.092211;FR;Europe/Paris;Q342;OUIGO|TGV INOUI|Train TER;Car TER;uic;4986753876;Q2191696;;;87474098;Quimper
-TN8747415;gare;Rosporden;Rosporden;Rosporden;8747415;87474155;47.960446;-3.832686;FR;Europe/Paris;Q328771;TGV INOUI|Train TER;Car TER;uic;4332170806;Q2739444;;;87474155;Rosporden
+TN8747415;gare;Rosporden;Rosporden;Rosporden;8747415;87474155;47.960446;-3.832686;FR;Europe/Paris;Q328771;TGV INOUI|Train TER;;uic;4332170806;Q2739444;;;87474155;Rosporden
 TN8747418;gare;Bannalec;Bannalec;Bannalec;8747418;87474189;47.92662;-3.70633;FR;Europe/Paris;Q318227;Train TER;;uic;13092312917;Q2445023;;;87474189;Bannalec
 TN8747421;gare;Kerhuon;Kerhuon;Kerhuon;8747421;87474213;48.409615;-4.388172;FR;Europe/Paris;Q475519;Train TER;Car TER;uic;4317319449;Q1963578;;;87474213;Kerhuon
 TN8747422;gare;La Forest-Landerneau;La Forest-Landerneau;La Forest-Landerneau;8747422;87474221;48.426377;-4.307263;FR;Europe/Paris;Q383345;Train TER;Car TER;uic;4316740708;Q2340141;;;87474221;La Forest-Landerneau
@@ -1378,14 +1375,14 @@ TN8747431;gare;Saint-Thégonnec;Saint-Thégonnec;Saint-Thégonnec;8747431;874743
 TN8747432;gare;Pleyber-Christ;Pleyber-Christ;Pleyber-Christ;8747432;87474320;48.507814;-3.882546;FR;Europe/Paris;Q475828;Train TER;;uic;4337102790;Q1907723;;;87474320;Pleyber-Christ
 TN8747433;gare;Morlaix;Morlaix;Morlaix;8747433;87474338;48.578071;-3.832853;FR;Europe/Paris;Q202368;OUIGO|TGV INOUI|Train TER;Car TER;uic;4301927151;Q2125764;;;87474338;Morlaix
 TN8747441;gare;Plouigneau;Plouigneau;Plouigneau;8747441;87474411;48.564714;-3.710228;FR;Europe/Paris;Q60649712;Train TER;;uic;4337102791;Q954921;;;87474411;Plouigneau
-TN8747600;gare;Lorient;Lorient;Lorient;8747600;87476002;47.755113;-3.36695;FR;Europe/Paris;Q71724;OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;10940619366;Q3096910;;;87476002;Lorient
+TN8747600;gare;Lorient;Lorient;Lorient;8747600;87476002;47.755113;-3.36695;FR;Europe/Paris;Q71724;OUIGO|TGV INOUI|Train TER;Car à réservation;uic;10940619366;Q3096910;;;87476002;Lorient
 TN8747620;gare;Auray;Auray;Auray;8747620;87476200;47.680434;-3.001243;FR;Europe/Paris;Q62958;OUIGO|TGV INOUI|Train TER;Car à réservation;uic;13092312918;Q3095699;;;87476200;Auray
 TN8747622;gare;Landaul - Mendon;Landaul - Mendon;Landaul - Mendon;8747622;87476226;47.735733;-3.085744;FR;Europe/Paris;Q71048;Train TER;;uic;3467892707;Q3096845;;;87476226;Landaul - Mendon
 TN8747623;gare;Landévant;Landévant;Landévant;8747623;87476234;47.759578;-3.125131;FR;Europe/Paris;Q71573;Train TER;;uic;3467899508;Q3096850;;;87476234;Landévant
 TN8747624;gare;Brandérion;Brandérion;Brandérion;8747624;87476242;47.782209;-3.194181;FR;Europe/Paris;Q62863;Train TER;;uic;3467894401;Q1891517;;;87476242;Brandérion
 TN8747625;gare;Hennebont;Hennebont;Hennebont;8747625;87476259;47.799163;-3.285803;FR;Europe/Paris;Q71503;Train TER;;uic;6530431419;Q2689206;;;87476259;Hennebont
 TN8747630;gare;Gestel;Gestel;Gestel;8747630;87476309;47.802964;-3.443161;FR;Europe/Paris;Q69555;Train TER;;uic;10831754682;Q3096537;;;87476309;Gestel
-TN8747631;gare;Quimperlé;Quimperlé;Quimperlé;8747631;87476317;47.86947;-3.553014;FR;Europe/Paris;Q235382;TGV INOUI|Train TER;Car TER;uic;9466606340;Q2461360;;;87476317;Quimperlé
+TN8747631;gare;Quimperlé;Quimperlé;Quimperlé;8747631;87476317;47.86947;-3.553014;FR;Europe/Paris;Q235382;TGV INOUI|Train TER;;uic;9466606340;Q2461360;;;87476317;Quimperlé
 TN8747660;gare;Vannes;Vannes;Vannes;8747660;87476606;47.665299;-2.75259;FR;Europe/Paris;Q6593;OUIGO|TGV INOUI|Train TER;Car à réservation;uic;394710073;Q1867341;;XFVAN;87476606;Vannes
 TN8747664;gare;Sainte-Anne;Sainte-Anne;Sainte-Anne;8747664;87476648;47.678493;-2.960444;FR;Europe/Paris;Q128997;Train TER;;nom;13861049373;;;;87476648;Sainte-Anne
 TN8747667;gare;Questembert;Questembert;Questembert;8747667;87476671;47.683021;-2.449621;FR;Europe/Paris;Q127808;Train TER;;gtfs;;;;;87476671;Questembert
@@ -1425,11 +1422,11 @@ TN8747815;gare;La Hisse;La Hisse;La Hisse;8747815;87478156;48.496104;-2.004214;F
 TN8747816;gare;Dinan;Dinan;Dinan;8747816;87478164;48.456895;-2.053537;FR;Europe/Paris;Q201311;Train TER;;uic;9554706318;Q2381874;;;87478164;Dinan
 TN8747818;gare;Corseul - Languenan;Corseul - Languenan;Corseul - Languenan;8747818;87478180;48.496057;-2.141433;FR;Europe/Paris;Q193467;Train TER;;uic;1773504918;Q2389957;;;87478180;Corseul - Languenan
 TN8747826;gare;Pontorson - Mont-Saint-Michel;Pontorson - Mont-Saint-Michel;Pontorson - Mont-Saint-Michel;8747826;87478263;48.552729;-1.504931;FR;Europe/Paris;Q28464310;Train TER;Car TER;gtfs;;;;;87478263;Pontorson - Mont-Saint-Michel
-TN8747840;gare;Laval;Laval;Laval;8747840;87478404;48.076368;-0.76089;FR;Europe/Paris;Q184154;OUIGO|TGV INOUI|Train TER;Car TER;uic;4290857006;Q3096443;;XFLAL;87478404;Laval
-TN8747853;gare;Montsûrs;Montsûrs;Montsûrs;8747853;87478537;48.141164;-0.551613;FR;Europe/Paris;Q625486;Train TER;Car TER;uic;4336905210;;;;87478537;Montsûrs
-TN8747854;gare;Neau;Neau;Neau;8747854;87478545;48.15744;-0.476784;FR;Europe/Paris;Q1100692;Train TER;Car TER;uic;9476473327;Q2235793;;;87478545;Neau
-TN8747855;gare;Évron;Évron;Évron;8747855;87478552;48.155591;-0.39699;FR;Europe/Paris;Q61058282;Train TER;Car TER;uic;4336905211;Q2727830;;;87478552;Évron
-TN8747856;gare;Voutré;Voutré;Voutré;8747856;87478560;48.133994;-0.292118;FR;Europe/Paris;Q1100144;Train TER;Car TER;uic;852734443;Q2182950;;XFVOU;87478560;Voutré
+TN8747840;gare;Laval;Laval;Laval;8747840;87478404;48.076368;-0.76089;FR;Europe/Paris;Q184154;OUIGO|TGV INOUI|Train TER;;uic;4290857006;Q3096443;;XFLAL;87478404;Laval
+TN8747853;gare;Montsûrs;Montsûrs;Montsûrs;8747853;87478537;48.141164;-0.551613;FR;Europe/Paris;Q625486;Train TER;;uic;4336905210;;;;87478537;Montsûrs
+TN8747854;gare;Neau;Neau;Neau;8747854;87478545;48.15744;-0.476784;FR;Europe/Paris;Q1100692;Train TER;;uic;9476473327;Q2235793;;;87478545;Neau
+TN8747855;gare;Évron;Évron;Évron;8747855;87478552;48.155591;-0.39699;FR;Europe/Paris;Q61058282;Train TER;;uic;4336905211;Q2727830;;;87478552;Évron
+TN8747856;gare;Voutré;Voutré;Voutré;8747856;87478560;48.133994;-0.292118;FR;Europe/Paris;Q1100144;Train TER;;uic;852734443;Q2182950;;XFVOU;87478560;Voutré
 TN8747869;arret_car;Digoin Lycée;Digoin Lycée;Digoin Lycée;8747869;87478693;46.477068;3.991903;FR;Europe/Paris;Q475418;;Car TER;gtfs;;;;;87478693;Digoin Lycée
 TN8747874;gare;Le Genest;Le Genest;Le Genest;8747874;87478743;48.096744;-0.885797;FR;Europe/Paris;Q589845;Train TER;;uic;8986658386;Q2580610;;;87478743;Le Genest
 TN8747875;gare;Port-Brillet;Port-Brillet;Port-Brillet;8747875;87478750;48.110707;-0.974047;FR;Europe/Paris;Q742451;Train TER;;gtfs;;;;;87478750;Port-Brillet
@@ -1514,12 +1511,12 @@ TN8748532;gare;Fors;Fors;Fors;8748532;87485326;46.23452;-0.406945;FR;Europe/Pari
 TN8748533;gare;Marigny;Marigny;Marigny;8748533;87485334;46.199117;-0.42841;FR;Europe/Paris;Q750709;Train TER;Car TER;uic;2379060527;Q3096978;;;87485334;Marigny
 TN8748534;gare;Beauvoir-sur-Niort;Beauvoir-sur-Niort;Beauvoir-sur-Niort;8748534;87485342;46.176721;-0.468857;FR;Europe/Paris;Q1058535;Train TER;Car TER;uic;8339147357;Q3095939;;;87485342;Beauvoir-sur-Niort
 TN8748535;gare;Prissé-la-Charrière;Prissé-la-Charrière;Prissé-la-Charrière;8748535;87485359;46.152832;-0.49354;FR;Europe/Paris;Q44012281;Train TER;Car TER;uic;2839676866;Q2182068;;;87485359;Prissé-la-Charrière
-TN8748547;gare;La Crèche;La Crèche;La Crèche;8748547;87485474;46.360423;-0.296206;FR;Europe/Paris;Q1111084;Train TER;Car TER;uic;2839676862;Q1808439;;;87485474;La Crèche
-TN8748549;gare;Saint-Maixent-l'École;Saint-Maixent-l'École;Saint-Maixent-l'École;8748549;87485490;46.406436;-0.20112;FR;Europe/Paris;Q638680;TGV INOUI|Train TER;Car TER;uic;2718046618;Q2320420;;;87485490;Saint-Maixent-L'École
-TN8748550;gare;La Mothe-Saint-Héray;La Mothe-Saint-Héray;La Mothe-Saint-Héray;8748550;87485508;46.380756;-0.129832;FR;Europe/Paris;Q684013;Train TER;Car TER;uic;4290857002;Q3036487;;XFLHY;87485508;La Mothe-Saint-Héray
-TN8748552;gare;Pamproux;Pamproux;Pamproux;8748552;87485524;46.39965;-0.051922;FR;Europe/Paris;Q766139;Train TER;Car TER;uic;8285066750;Q2497266;;;87485524;Pamproux
-TN8748553;gare;Rouillé;Rouillé;Rouillé;8748553;87485532;46.418884;0.041859;FR;Europe/Paris;Q1437611;Train TER;Car TER;uic;8282168088;Q2871831;;;87485532;Rouillé
-TN8748554;gare;Lusignan;Lusignan;Lusignan;8748554;87485540;46.435637;0.11657;FR;Europe/Paris;Q628226;Train TER;Car TER;uic;8285219967;Q2188462;;;87485540;Lusignan
+TN8748547;gare;La Crèche;La Crèche;La Crèche;8748547;87485474;46.360423;-0.296206;FR;Europe/Paris;Q1111084;Train TER;;uic;2839676862;Q1808439;;;87485474;La Crèche
+TN8748549;gare;Saint-Maixent-l'École;Saint-Maixent-l'École;Saint-Maixent-l'École;8748549;87485490;46.406436;-0.20112;FR;Europe/Paris;Q638680;TGV INOUI|Train TER;;uic;2718046618;Q2320420;;;87485490;Saint-Maixent-L'École
+TN8748550;gare;La Mothe-Saint-Héray;La Mothe-Saint-Héray;La Mothe-Saint-Héray;8748550;87485508;46.380756;-0.129832;FR;Europe/Paris;Q684013;Train TER;;uic;4290857002;Q3036487;;XFLHY;87485508;La Mothe-Saint-Héray
+TN8748552;gare;Pamproux;Pamproux;Pamproux;8748552;87485524;46.39965;-0.051922;FR;Europe/Paris;Q766139;Train TER;;uic;8285066750;Q2497266;;;87485524;Pamproux
+TN8748553;gare;Rouillé;Rouillé;Rouillé;8748553;87485532;46.418884;0.041859;FR;Europe/Paris;Q1437611;Train TER;;uic;8282168088;Q2871831;;;87485532;Rouillé
+TN8748554;gare;Lusignan;Lusignan;Lusignan;8748554;87485540;46.435637;0.11657;FR;Europe/Paris;Q628226;Train TER;;uic;8285219967;Q2188462;;;87485540;Lusignan
 TN8748601;gare;La Roche-sur-Yon;La Roche-sur-Yon;La Roche-sur-Yon;8748601;87486019;46.672148;-1.435972;FR;Europe/Paris;Q190118;INTERCITES|TGV INOUI|Train TER;Car TER;uic;236936915;Q2481560;;;87486019;La Roche-sur-Yon
 TN8748612;gare;L'Herbergement - Les Brouzils;L'Herbergement - Les Brouzils;L'Herbergement - Les Brouzils;8748612;87486126;46.906975;-1.371347;FR;Europe/Paris;Q1104396;Train TER;Car TER;uic;3918806885;Q3096724;;;87486126;L'Herbergement - Les Brouzils
 TN8748614;gare;Belleville-Vendée;Belleville-sur-Vie;Belleville-sur-Vie;8748614;87486142;46.788311;-1.434643;FR;Europe/Paris;Q21619405;Train TER;Car TER;uic;452936230;Q3095948;;;87486142;Belleville-Vendée
@@ -1629,11 +1626,11 @@ TN8754573;gare;Bonneval;Bonneval;Bonneval;8754573;87545731;48.186282;1.386289;FR
 TN8754575;gare;Châteaudun;Châteaudun;Châteaudun;8754575;87545756;48.073417;1.338388;FR;Europe/Paris;Q181886;Train TER;;uic;9769689298;Q2782753;;;87545756;Châteaudun
 TN8754700;gare;Paris Austerlitz;Gare d'Austerlitz;Gare d'Austerlitz;8754700;87547000;48.842401;2.36499;FR;Europe/Paris;Q90;INTERCITES|INTERCITES de nuit|OUIGO|Train TER;Car à réservation;uic;3493828793;Q1494179;;;87547000;Paris Austerlitz
 TN8755214;arret_car;Ribeauville Gare Routière;Ribeauville Gare Routière;Ribeauville Gare Routière;8755214;87552141;48.19223;7.325821;FR;Europe/Paris;Q148483;;Car TER;gtfs;;;;;87552141;Ribeauville Gare Routière
-TN8755650;arret_car;Valence Gare Routière;Valence Gare Routière;Valence Gare Routière;8755650;87556506;44.927222;4.892222;FR;Europe/Paris;Q8848;;Car TER;gtfs;;;;;87556506;Valence Gare Routière
+TN8755650;arret_car;Valence Gare Routière;Valence Gare Routière;Valence Gare Routière;8755650;87556506;44.9268;4.89258;FR;Europe/Paris;Q8848;;Car TER;gtfs;;;;;87556506;Valence Gare Routière
 TN8755652;arret_car;Montelimar Gare Routière;Montelimar Gare Routière;Montelimar Gare Routière;8755652;87556522;44.559439;4.745107;FR;Europe/Paris;Q234270;;Car TER;gtfs;;;;;87556522;Montelimar Gare Routière
 TN8755907;gare;Nevers-le-Banlay;Nevers-le-Banlay;Nevers-le-Banlay;8755907;87559070;47.006938;3.163533;FR;Europe/Paris;Q890000;Train TER;Car TER;uic;8307951299;;;;87559070;Nevers le Banlay
 TN8756242;gare;Aulnat Aéroport;Aulnat Aéroport;Aulnat Aéroport;8756242;87562421;45.79205;3.161434;FR;Europe/Paris;Q775445;Train TER;Car TER;uic;541423177;Q2383561;;;87562421;Aulnat Aéroport
-TN8756514;gare;Halte de Fontanil - Lycée de Drap;Halte de Fontanil - Lycée de Drap;Halte de Fontanil - Lycée de Drap;8756514;87565143;43.76422;7.338873;FR;Europe/Paris;Q1089758;Train TER;;uic;35731049;Q21619066;;;87565143;Halte de Fontanil - Lycée de Drap
+TN8756514;gare;Halte de Fontanil - Lycée de Drap;Halte de Fontanil - Lycée de Drap;Halte de Fontanil - Lycée de Drap;8756514;87565143;43.76422;7.338873;FR;Europe/Paris;Q1089758;Train TER;Car TER;uic;35731049;Q21619066;;;87565143;Halte de Fontanil - Lycée de Drap
 TN8756691;gare;Lentilly Charpenay;Lentilly Charpenay;Lentilly Charpenay;8756691;87566919;45.816519;4.682375;FR;Europe/Paris;Q654273;Train TER;Car TER;gtfs;;;;;87566919;Lentilly Charpenay
 TN8757100;gare;Tours;Tours;Tours;8757100;87571000;47.389432;0.693929;FR;Europe/Paris;Q288;Navette|TGV INOUI|Train TER;Car TER;uic;4550029282;Q1876295;;;87571000;Tours
 TN8757121;gare;Vendôme - Villiers-sur-Loir;Vendôme - Villiers-sur-Loir;Vendôme - Villiers-sur-Loir;8757121;87571216;47.821937;1.021143;FR;Europe/Paris;Q1111803;TGV INOUI;;gtfs;;;;;87571216;Vendôme - Villiers-sur-Loir
@@ -1652,11 +1649,11 @@ TN8757151;gare;La Membrolle-sur-Choisille;La Membrolle-sur-Choisille;La Membroll
 TN8757153;gare;Saint-Antoine-du-Rocher;Saint-Antoine-du-Rocher;Saint-Antoine-du-Rocher;8757153;87571539;47.503683;0.616591;FR;Europe/Paris;Q1170798;Train TER;;uic;4052518450;Q3097489;;;87571539;Saint-Antoine-du-Rocher
 TN8757154;gare;Neuillé-Pont-Pierre;Neuillé-Pont-Pierre;Neuillé-Pont-Pierre;8757154;87571547;47.55805;0.564817;FR;Europe/Paris;Q1072145;Train TER;;uic;4052518445;Q3097190;;XFNPP;87571547;Neuillé-Pont-Pierre
 TN8757155;gare;Saint-Paterne;Saint-Paterne;Saint-Paterne;8757155;87571554;47.603942;0.478311;FR;Europe/Paris;Q1171988;Train TER;;uic;3468358894;Q3097584;;;87571554;Saint-Paterne
-TN8757160;arret_car;Ballan;Ballan;Ballan;8757160;87571604;47.336776;0.617989;FR;Europe/Paris;Q632428;;Car TER;uic;3670576334;Q3095896;;;87571604;Ballan
-TN8757161;arret_car;Druye;Druye;Druye;8757161;87571612;47.306814;0.535317;FR;Europe/Paris;Q1171292;;Car TER;uic;10876011509;Q3096403;;;87571612;Druye
-TN8757163;arret_car;Azay-le-Rideau;Azay-le-Rideau;Azay-le-Rideau;8757163;87571638;47.266349;0.447506;FR;Europe/Paris;Q243032;;Car TER;uic;3992478157;Q3095715;;;87571638;Azay-le-Rideau
-TN8757165;arret_car;Rivarennes;Rivarennes;Rivarennes;8757165;87571653;47.267956;0.361861;FR;Europe/Paris;Q954622;;Car TER;gtfs;;;;;87571653;Rivarennes
-TN8757168;arret_car;Chinon;Chinon;Chinon;8757168;87571687;47.163073;0.251645;FR;Europe/Paris;Q194138;;Car TER;gtfs;;;;;87571687;Chinon
+TN8757160;gare;Ballan;Ballan;Ballan;8757160;87571604;47.336776;0.617989;FR;Europe/Paris;Q632428;Train TER;Car TER;uic;3670576334;Q3095896;;;87571604;Ballan
+TN8757161;gare;Druye;Druye;Druye;8757161;87571612;47.306814;0.535317;FR;Europe/Paris;Q1171292;Train TER;Car TER;uic;10876011509;Q3096403;;;87571612;Druye
+TN8757163;gare;Azay-le-Rideau;Azay-le-Rideau;Azay-le-Rideau;8757163;87571638;47.266349;0.447506;FR;Europe/Paris;Q243032;Train TER;Car TER;uic;3992478157;Q3095715;;;87571638;Azay-le-Rideau
+TN8757165;gare;Rivarennes;Rivarennes;Rivarennes;8757165;87571653;47.267956;0.361861;FR;Europe/Paris;Q954622;Train TER;Car TER;gtfs;;;;;87571653;Rivarennes
+TN8757168;gare;Chinon;Chinon;Chinon;8757168;87571687;47.163073;0.251645;FR;Europe/Paris;Q194138;Train TER;Car TER;gtfs;;;;;87571687;Chinon
 TN8757179;gare;Port-Boulet;Port-Boulet;Port-Boulet;8757179;87571794;47.248776;0.155585;FR;Europe/Paris;Q681259;Train TER;;uic;3947264481;Q3097321;;;87571794;Port Boulet
 TN8757180;gare;La Chapelle-sur-Loire;La Chapelle-sur-Loire;La Chapelle-sur-Loire;8757180;87571802;47.251274;0.218616;FR;Europe/Paris;Q977486;Train TER;;uic;9633273942;Q3096766;;;87571802;La Chapelle-sur-Loire
 TN8757181;gare;Saint-Patrice;Saint-Patrice;Saint-Patrice;8757181;87571810;47.285567;0.309811;FR;Europe/Paris;Q28009455;Train TER;;uic;4055238302;Q3097590;;;87571810;Saint-Patrice
@@ -1689,9 +1686,9 @@ TN8757449;gare;Chenonceaux;Chenonceaux;Chenonceaux;8757449;87574491;47.330737;1.
 TN8757450;gare;Cloyes;Cloyes-sur-le-Loir;Cloyes-sur-le-Loir;8757450;87574509;47.992127;1.243425;FR;Europe/Paris;Q24938139;Train TER;;uic;9769769876;Q3096255;;;87574509;Cloyes
 TN8757453;gare;Fréteval - Morée;Fréteval;Fréteval;8757453;87574533;47.891926;1.211818;FR;Europe/Paris;Q681308;Train TER;;uic;2189076736;Q3096495;;;87574533;Fréteval - Morée
 TN8757454;gare;Pezou;Pezou;Pezou;8757454;87574541;47.86728;1.140926;FR;Europe/Paris;Q1170291;Train TER;;uic;50635656;Q3097269;;XFPEZ;87574541;Pezou
-TN8757455;gare;Vendôme;Vendôme;Vendôme;8757455;87574558;47.802052;1.067735;FR;Europe/Paris;Q214575;Train TER;Car TER;uic;50640075;Q3097951;;XFVDM;87574558;Vendôme
-TN8757464;gare;Saint-Amand de Vendôme;Saint-Amand de Vendôme;Saint-Amand de Vendôme;8757464;87574640;47.693085;1.012083;FR;Europe/Paris;Q1424723;Train TER;Car TER;uic;842089194;Q3097480;;;87574640;Saint-Amand de Vendôme
-TN8757466;gare;Château-Renault;Château-Renault;Château-Renault;8757466;87574665;47.587796;0.901524;FR;Europe/Paris;Q476900;Train TER;Car TER;uic;2400741079;Q3096228;;XFCTR;87574665;Château-Renault
+TN8757455;gare;Vendôme;Vendôme;Vendôme;8757455;87574558;47.802052;1.067735;FR;Europe/Paris;Q214575;Train TER;;uic;50640075;Q3097951;;XFVDM;87574558;Vendôme
+TN8757464;gare;Saint-Amand de Vendôme;Saint-Amand de Vendôme;Saint-Amand de Vendôme;8757464;87574640;47.693085;1.012083;FR;Europe/Paris;Q1424723;Train TER;;uic;842089194;Q3097480;;;87574640;Saint-Amand de Vendôme
+TN8757466;gare;Château-Renault;Château-Renault;Château-Renault;8757466;87574665;47.587796;0.901524;FR;Europe/Paris;Q476900;Train TER;;uic;2400741079;Q3096228;;XFCTR;87574665;Château-Renault
 TN8757468;gare;Monnaie;Monnaie;Monnaie;8757468;87574681;47.498773;0.793238;FR;Europe/Paris;Q1172014;Train TER;;uic;11014727242;Q3097060;;;87574681;Monnaie
 TN8757469;gare;Notre-Dame-d'Oé;Notre-Dame-d'Oé;Notre-Dame-d'Oé;8757469;87574699;47.459661;0.706996;FR;Europe/Paris;Q737461;Train TER;;uic;11138964494;Q3097220;;;87574699;Notre-Dame-d'Oé
 TN8757484;gare;Chissay-en-Touraine;Chissay-en-Touraine;Chissay-en-Touraine;8757484;87574848;47.334778;1.13341;FR;Europe/Paris;Q965163;Train TER;;uic;2110395538;Q3096220;;;87574848;Chissay-en-Touraine
@@ -1834,9 +1831,9 @@ TN8758471;gare;Vayres;Vayres;Vayres;8758471;87584714;44.897163;-0.316858;FR;Euro
 TN8758472;gare;Saint-Sulpice - Izon;Saint-Sulpice - Izon;Saint-Sulpice - Izon;8758472;87584722;44.914284;-0.392132;FR;Europe/Paris;Q501807;Train TER;;uic;1673655173;Q2866001;;;87584722;Saint-Sulpice - Izon
 TN8758473;gare;Saint-Loubès;Saint-Loubès;Saint-Loubès;8758473;87584730;44.92239;-0.433224;FR;Europe/Paris;Q201784;Train TER;;uic;546635829;Q3097562;;XFSIT;87584730;Saint-Loubès
 TN8758475;gare;La Gorp;La Gorp;La Gorp;8758475;87584755;44.928935;-0.496412;FR;Europe/Paris;Q243586;Train TER;;uic;9319497419;Q675874;;;87584755;La Gorp
-TN8758600;gare;Agen;Agen;Agen;8758600;87586008;44.208355;0.620978;FR;Europe/Paris;Q6625;INTERCITES|OUIGO|TGV INOUI|Train TER;Car TER;uic;13290560063;Q2244575;;;87586008;Agen
+TN8758600;gare;Agen;Agen;Agen;8758600;87586008;44.208355;0.620978;FR;Europe/Paris;Q6625;INTERCITES|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;13290560063;Q2244575;;;87586008;Agen
 TN8758610;gare;Port-Sainte-Marie;Port-Sainte-Marie;Port-Sainte-Marie;8758610;87586107;44.250486;0.390562;FR;Europe/Paris;Q1164132;Train TER;Car TER;uic;11135889820;Q3097329;;;87586107;Port-Sainte-Marie
-TN8758626;arret_car;Lectoure;Lectoure;Lectoure;8758626;87586263;43.931311;0.615682;FR;Europe/Paris;Q473919;;Car TER;gtfs;;;;;87586263;Lectoure
+TN8758626;arret_car;Lectoure;Lectoure;Lectoure;8758626;87586263;43.933793;0.627358;FR;Europe/Paris;Q473919;;Car TER;gtfs;;;;;87586263;Lectoure
 TN8758630;arret_car;Layrac;Layrac;Layrac;8758630;87586305;44.132927;0.660435;FR;Europe/Paris;Q1104341;;Car TER;gtfs;;;;;87586305;Layrac
 TN8758631;arret_car;Goulens;Goulens;Goulens;8758631;87586313;44.096539;0.654979;FR;Europe/Paris;Q1104341;;Car TER;gtfs;;;;;87586313;Goulens
 TN8758632;arret_car;Astaffort;Astaffort;Astaffort;8758632;87586321;44.066944;0.651155;FR;Europe/Paris;Q514622;;Car TER;gtfs;;;;;87586321;Astaffort
@@ -1858,7 +1855,7 @@ TN8758957;arret_car;Gannat Lycee Ste Procule;Gannat Lycee Ste Procule;Gannat Lyc
 TN8758958;arret_car;La Ville Gozet Square H. Duna;La Ville Gozet Square H. Duna;La Ville Gozet Square H. Duna;8758958;87589580;46.347927;2.593626;FR;Europe/Paris;Q193256;;Car TER;gtfs;;;;;87589580;La Ville Gozet Square H. Duna
 TN8758959;arret_car;Le Puy En Velay Hôpital E.Roux;Le Puy En Velay Hôpital E.Roux;Le Puy En Velay Hôpital E.Roux;8758959;87589598;45.049219;3.8772;FR;Europe/Paris;Q1018522;;Car TER;gtfs;;;;;87589598;Le Puy En Velay Hôpital E.Roux
 TN8758980;arret_car;Reugny Rue De La Bascul;Reugny Rue De La Bascul;Reugny Rue De La Bascul;8758980;87589804;46.462807;2.61546;FR;Europe/Paris;Q272440;;Car TER;gtfs;;;;;87589804;Reugny Rue De La Bascul
-TN8759029;gare;Nice Pont Michel;Nice Pont Michel;Nice Pont Michel;8759029;87590299;43.722266;7.291424;FR;Europe/Paris;Q33959;Train TER;;uic;5284203138;Q18749562;;;87590299;Nice Pont Michel
+TN8759029;gare;Nice Pont Michel;Nice Pont Michel;Nice Pont Michel;8759029;87590299;43.722266;7.291424;FR;Europe/Paris;Q33959;Train TER;Car TER;uic;5284203138;Q18749562;;;87590299;Nice Pont Michel
 TN8759033;gare;Haluchère Batignolles Beaujoire;Haluchère Batignolles Beaujoire;Haluchère Batignolles Beaujoire;8759033;87590331;47.249196;-1.522475;FR;Europe/Paris;Q12191;TramTrain;;gtfs;;;;;87590331;Haluchère Batignolles Beaujoire
 TN8759034;gare;Babinière;Babinière;Babinière;8759034;87590349;47.258844;-1.544972;FR;Europe/Paris;Q681819;TramTrain;;uic;3486338294;Q3095887;;;87590349;Babinière
 TN8759035;gare;Erdre Active;Erdre Active;Erdre Active;8759035;87590356;47.283028;-1.544677;FR;Europe/Paris;Q681819;TramTrain;;uic;3486338296;Q3095744;;;87590356;Erdre-Active
@@ -1982,7 +1979,7 @@ TN8759774;gare;Lavaufranche;Lavaufranche;Lavaufranche;8759774;87597740;46.321287
 TN8759821;gare;Le Locle-Col-des-Roches;Le Locle-Col-des-Roches;Le Locle-Col-des-Roches;8759821;87598219;47.049932;6.72611;CH;Europe/Zurich;Q64093;Train TER;Car TER;nom;3081154398;Q3098207;;;87598219;Le Locle Col des Roches
 TN8759875;gare;Limoux-Flassian;Limoux-Flassian;Limoux-Flassian;8759875;87598755;43.068487;2.21818;FR;Europe/Paris;Q192744;Train TER;Car TER;uic;12951387370;Q2781632;;;87598755;Limoux - Flassian
 TN8759975;arret_car;Nevers Petit Canal;Nevers Petit Canal;Nevers Petit Canal;8759975;87599753;46.989408;3.187316;FR;Europe/Paris;Q166997;;Car TER;gtfs;;;;;87599753;Nevers Petit Canal
-TN8761100;gare;Toulouse-Matabiau;Toulouse-Matabiau;Toulouse-Matabiau;8761100;87611004;43.611431;1.45421;FR;Europe/Paris;Q7880;INTERCITES|INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;6132514816;Q373449;;;87611004;Toulouse Matabiau
+TN8761100;gare;Toulouse-Matabiau;Toulouse-Matabiau;Toulouse-Matabiau;8761100;87611004;43.611431;1.45421;FR;Europe/Paris;Q7880;INTERCITES|INTERCITES de nuit|Navette|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;6132514816;Q373449;;;87611004;Toulouse Matabiau
 TN8761103;gare;Muret;Muret;Muret;8761103;87611038;43.464839;1.324406;FR;Europe/Paris;Q207593;Train TER;Car TER;uic;6121931085;Q2611740;;;87611038;Muret
 TN8761104;gare;Le Fauga;Le Fauga;Le Fauga;8761104;87611046;43.404338;1.282661;FR;Europe/Paris;Q1419129;Train TER;Car TER;uic;8519451212;Q3064563;;;87611046;Le Fauga
 TN8761105;gare;Longages - Noé;Longages - Noé;Longages - Noé;8761105;87611053;43.35645;1.252015;FR;Europe/Paris;Q1431501;Train TER;Car TER;uic;8519451213;Q1831134;;;87611053;Longages - Noé
@@ -2011,7 +2008,7 @@ TN8761139;gare;Venerque-Le-Vernet;Venerque-Le-Vernet;Venerque-Le-Vernet;8761139;
 TN8761140;gare;Portet Saint-Simon;Portet Saint-Simon;Portet Saint-Simon;8761140;87611400;43.527995;1.389104;FR;Europe/Paris;Q1371171;Train TER;Car TER;uic;6121942357;Q2047423;;;87611400;Portet Saint-Simon
 TN8761143;gare;Lacourtensourt;Lacourtensourt;Lacourtensourt;8761143;87611434;43.663885;1.413844;FR;Europe/Paris;Q7880;Train TER;;uic;1099956456;Q2484686;;;87611434;Lacourtensourt
 TN8761145;gare;La Ville-Dieu;La Ville-Dieu;La Ville-Dieu;8761145;87611459;44.035519;1.21484;FR;Europe/Paris;Q1624284;Train TER;Car TER;uic;9608338562;Q3096823;;;87611459;Lavilledieu
-TN8761146;gare;Colomiers;Colomiers;Colomiers;8761146;87611467;43.603557;1.333887;FR;Europe/Paris;Q318071;Train TER;;uic;6123311121;Q3096269;;;87611467;Colomiers
+TN8761146;gare;Colomiers;Colomiers;Colomiers;8761146;87611467;43.603557;1.333887;FR;Europe/Paris;Q318071;Train TER;Car TER;uic;6123311121;Q3096269;;;87611467;Colomiers
 TN8761147;arret_car;Larrazet;Larrazet;Larrazet;8761147;87611475;43.931944;1.082778;FR;Europe/Paris;Q532667;;Car TER;gtfs;;;;;87611475;Larrazet
 TN8761148;gare;Latour-de-Carol - Enveitg;Latour-de-Carol - Enveitg;Latour-de-Carol - Enveitg;8761148;87611483;42.459037;1.904486;FR;Europe/Paris;Q752263;INTERCITES de nuit|Train TER;Car TER;uic;7524054413;Q2158378;;;87611483;Latour-de-Carol - Enveitg
 TN8761150;gare;Porté-Puymorens;Porté-Puymorens;Porté-Puymorens;8761150;87611509;42.53914;1.824895;FR;Europe/Paris;Q198196;INTERCITES de nuit|Train TER;Car TER;uic;2322460957;Q2533987;;;87611509;Porté-Puymorens
@@ -2035,18 +2032,18 @@ TN8761170;gare;Escalquens;Escalquens;Escalquens;8761170;87611707;43.517076;1.542
 TN8761171;arret_car;Antignac Village;Antignac Village;Antignac Village;8761171;87611715;42.825917;0.600018;FR;Europe/Paris;Q1088660;;Car TER;gtfs;;;;;87611715;Antignac Village
 TN8761172;gare;Baziège;Baziège;Baziège;8761172;87611723;43.453466;1.620662;FR;Europe/Paris;Q736117;Train TER;Car TER;uic;6131000048;Q3095928;;;87611723;Baziège
 TN8761174;gare;Auch;Auch;Auch;8761174;87611749;43.64729;0.596931;FR;Europe/Paris;Q181725;Train TER;Car TER;uic;4197199099;Q2200917;;;87611749;Auch
-TN8761176;gare;Aubiet;Aubiet;Aubiet;8761176;87611764;43.650014;0.789119;FR;Europe/Paris;Q1143441;Train TER;;uic;354538814;Q2676863;;;87611764;Aubiet
-TN8761177;gare;Gimont Cahuzac;Gimont Cahuzac;Gimont Cahuzac;8761177;87611772;43.633194;0.867711;FR;Europe/Paris;Q322406;Train TER;;gtfs;;;;;87611772;Gimont Cahuzac
-TN8761180;gare;L'Isle-Jourdain;L'Isle-Jourdain;L'Isle-Jourdain;8761180;87611806;43.617361;1.090136;FR;Europe/Paris;Q735931;Train TER;;uic;10680984420;Q2016061;;;87611806;L'Isle-Jourdain
-TN8761181;gare;Mérenvielle;Mérenvielle;Mérenvielle;8761181;87611814;43.636688;1.150598;FR;Europe/Paris;Q955242;Train TER;;uic;338505772;Q3097148;;;87611814;Mérenvielle
-TN8761182;gare;Brax-Léguevin;Brax-Léguevin;Brax-Léguevin;8761182;87611822;43.614928;1.236529;FR;Europe/Paris;Q1616394;Train TER;;uic;6123197047;Q2628524;;;87611822;Brax - Léguevin
-TN8761183;gare;Pibrac;Pibrac;Pibrac;8761183;87611830;43.621509;1.289448;FR;Europe/Paris;Q733833;Train TER;;uic;6123232668;Q2227003;;;87611830;Pibrac
+TN8761176;gare;Aubiet;Aubiet;Aubiet;8761176;87611764;43.650014;0.789119;FR;Europe/Paris;Q1143441;Train TER;Car TER;uic;354538814;Q2676863;;;87611764;Aubiet
+TN8761177;gare;Gimont Cahuzac;Gimont Cahuzac;Gimont Cahuzac;8761177;87611772;43.633194;0.867711;FR;Europe/Paris;Q322406;Train TER;Car TER;gtfs;;;;;87611772;Gimont Cahuzac
+TN8761180;gare;L'Isle-Jourdain;L'Isle-Jourdain;L'Isle-Jourdain;8761180;87611806;43.617361;1.090136;FR;Europe/Paris;Q735931;Train TER;Car TER;uic;10680984420;Q2016061;;;87611806;L'Isle-Jourdain
+TN8761181;gare;Mérenvielle;Mérenvielle;Mérenvielle;8761181;87611814;43.636688;1.150598;FR;Europe/Paris;Q955242;Train TER;Car TER;uic;338505772;Q3097148;;;87611814;Mérenvielle
+TN8761182;gare;Brax-Léguevin;Brax-Léguevin;Brax-Léguevin;8761182;87611822;43.614928;1.236529;FR;Europe/Paris;Q1616394;Train TER;Car TER;uic;6123197047;Q2628524;;;87611822;Brax - Léguevin
+TN8761183;gare;Pibrac;Pibrac;Pibrac;8761183;87611830;43.621509;1.289448;FR;Europe/Paris;Q733833;Train TER;Car TER;uic;6123232668;Q2227003;;;87611830;Pibrac
 TN8761184;gare;Montrabé;Montrabé;Montrabé;8761184;87611848;43.645035;1.523996;FR;Europe/Paris;Q1428657;Train TER;Car TER;uic;6133025899;Q5522709;;;87611848;Montrabé
 TN8761185;gare;Lamagistère;Lamagistère;Lamagistère;8761185;87611855;44.12681;0.825573;FR;Europe/Paris;Q1425635;Train TER;Car TER;uic;6594374383;Q2245601;;;87611855;Lamagistère
 TN8761186;gare;Valence d'Agen;Valence d'Agen;Valence d'Agen;8761186;87611863;44.11179;0.891645;FR;Europe/Paris;Q1467944;Train TER;Car TER;uic;13289730198;Q2684440;;;87611863;Valence d'Agen
 TN8761188;gare;Moissac;Moissac;Moissac;8761188;87611889;44.102418;1.077352;FR;Europe/Paris;Q383089;Train TER;Car TER;uic;2181909239;Q2796494;;;87611889;Moissac
 TN8761189;gare;Castelsarrasin;Castelsarrasin;Castelsarrasin;8761189;87611897;44.040365;1.114347;FR;Europe/Paris;Q213285;Train TER;Car TER;uic;8413103333;Q667139;;;87611897;Castelsarrasin
-TN8761192;gare;Colomiers-Lycée International;Colomiers-Lycée International;Colomiers-Lycée International;8761192;87611921;43.616352;1.314087;FR;Europe/Paris;Q318071;Train TER;;uic;6123256779;Q2804370;;;87611921;Colomiers Lycée International
+TN8761192;gare;Colomiers-Lycée International;Colomiers-Lycée International;Colomiers-Lycée International;8761192;87611921;43.616352;1.314087;FR;Europe/Paris;Q318071;Train TER;Car TER;uic;6123256779;Q2804370;;;87611921;Colomiers Lycée International
 TN8761193;gare;Lardenne;Lardenne;Lardenne;8761193;87611939;43.596618;1.384052;FR;Europe/Paris;Q7880;Train TER;;uic;6128768628;Q1931292;;;87611939;Lardenne
 TN8761197;arret_car;Guran Artigueplan;Guran Artigueplan;Guran Artigueplan;8761197;87611970;42.884874;0.616732;FR;Europe/Paris;Q1616409;;Car TER;gtfs;;;;;87611970;Guran Artigueplan
 TN8761200;gare;Labège-Innopole;Labège-Innopole;Labège-Innopole;8761200;87612002;43.5475;1.51281;FR;Europe/Paris;Q1467149;Train TER;Car TER;uic;6132447177;Q3096827;;;87612002;Labège Innopole
@@ -2279,6 +2276,8 @@ TN8766057;arret_car;Mutzig Porte Centre;Mutzig Porte Centre;Mutzig Porte Centre;
 TN8766058;arret_car;Gresswiller Abri;Gresswiller Abri;Gresswiller Abri;8766058;87660589;48.535956;7.42571;FR;Europe/Paris;Q22515;;Car TER;gtfs;;;;;87660589;Gresswiller Abri
 TN8766060;arret_car;Lutzelhouse Abri Église;Lutzelhouse Abri Église;Lutzelhouse Abri Église;8766060;87660605;48.519287;7.287589;FR;Europe/Paris;Q21536;;Car TER;gtfs;;;;;87660605;Lutzelhouse Abri Église
 TN8766068;arret_car;Wisches Église;Wisches Église;Wisches Église;8766068;87660688;48.508635;7.268896;FR;Europe/Paris;Q21341;;Car TER;gtfs;;;;;87660688;Wisches Église
+TN8766079;arret_car;Devant Fouday Abri RN 420;Devant Fouday Abri RN 420;Devant Fouday Abri RN 420;8766079;87660795;48.4214;7.183419;FR;Europe/Paris;Q22916;;Car TER;gtfs;;;;;87660795;Devant Fouday Abri RN 420
+TN8766088;arret_car;Bourg-Bruche Église;Bourg-Bruche Église;Bourg-Bruche Église;8766088;87660886;48.359044;7.135169;FR;Europe/Paris;Q21253;;Car TER;gtfs;;;;;87660886;Bourg-Bruche Église
 TN8766091;arret_car;Obernai Freppel - Gare;Obernai Freppel - Gare;Obernai Freppel - Gare;8766091;87660910;48.460966;7.489308;FR;Europe/Paris;Q22727;;Car TER;gtfs;;;;;87660910;Obernai Freppel - Gare
 TN8766093;arret_car;Eichhoffen Carrefour Gare;Eichhoffen Carrefour Gare;Eichhoffen Carrefour Gare;8766093;87660936;48.382701;7.448245;FR;Europe/Paris;Q21429;;Car TER;gtfs;;;;;87660936;Eichhoffen Carrefour Gare
 TN8766097;arret_car;Epfig Croisement Église - RN;Epfig Croisement Église - RN;Epfig Croisement Église - RN;8766097;87660977;48.359279;7.465738;FR;Europe/Paris;Q21320;;Car TER;gtfs;;;;;87660977;Epfig Croisement Église - RN
@@ -2306,22 +2305,22 @@ TN8766815;arret_car;Éguelshardt Abri;Éguelshardt Abri;Éguelshardt Abri;876681
 TN8766837;arret_car;Séverac d'Aveyron Embrachement le Massegros;Séverac d'Aveyron Embrachement le Massegros;Séverac d'Aveyron Embrachement le Massegros;8766837;87668376;44.320164;3.074734;FR;Europe/Paris;Q21619554;;Car TER;gtfs;;;;;87668376;Séverac d'Aveyron Embrachement le Massegros
 TN8766838;arret_car;Verrieres Engayresque;Verrieres Engayresque;Verrieres Engayresque;8766838;87668384;44.254859;3.055451;FR;Europe/Paris;Q751295;;Car TER;gtfs;;;;;87668384;Verrieres Engayresque
 TN8766845;arret_car;Auch Allée Baylac;Auch Allée Baylac;Auch Allée Baylac;8766845;87668459;43.648288;0.582806;FR;Europe/Paris;Q181725;;Car TER;gtfs;;;;;87668459;Auch Allée Baylac
-TN8767100;gare;Tarbes;Tarbes;Tarbes;8767100;87671008;43.240216;0.069356;FR;Europe/Paris;Q184023;INTERCITES|INTERCITES de nuit|TGV INOUI|Train TER;Car TER;uic;13234944526;Q2446168;;;87671008;Tarbes
+TN8767100;gare;Tarbes;Tarbes;Tarbes;8767100;87671008;43.240216;0.069356;FR;Europe/Paris;Q184023;INTERCITES|INTERCITES de nuit|Navette|TGV INOUI|Train TER;Car TER;uic;13234944526;Q2446168;;;87671008;Tarbes
 TN8767101;gare;Mont-de-Marsan;Mont-de-Marsan;Mont-de-Marsan;8767101;87671016;43.884898;-0.50466;FR;Europe/Paris;Q188033;Train TER;Car TER;gtfs;;;;;87671016;Mont-de-Marsan
 TN8767112;gare;Lannemezan;Lannemezan;Lannemezan;8767112;87671123;43.114251;0.387266;FR;Europe/Paris;Q383402;INTERCITES|Train TER;Car TER;uic;8519453917;Q1830641;;;87671123;Lannemezan
 TN8767115;gare;Capvern;Capvern;Capvern;8767115;87671156;43.103345;0.329639;FR;Europe/Paris;Q1094400;Train TER;Car TER;gtfs;;;;;87671156;Capvern
 TN8767117;gare;Tournay;Tournay;Tournay;8767117;87671172;43.183625;0.23892;FR;Europe/Paris;Q1099874;Train TER;Car TER;uic;13251300722;Q2673014;;;87671172;Tournay
-TN8767133;gare;Lourdes;Lourdes;Lourdes;8767133;87671339;43.100451;-0.042173;FR;Europe/Paris;Q3327;INTERCITES|INTERCITES de nuit|TGV INOUI|Train TER;Car TER;uic;10931191994;Q968875;;;87671339;Lourdes
+TN8767133;gare;Lourdes;Lourdes;Lourdes;8767133;87671339;43.100451;-0.042173;FR;Europe/Paris;Q3327;INTERCITES|INTERCITES de nuit|Navette|TGV INOUI|Train TER;Car TER;uic;10931191994;Q968875;;;87671339;Lourdes
 TN8767136;gare;Saint-Pé-de-Bigorre;Saint-Pé-de-Bigorre;Saint-Pé-de-Bigorre;8767136;87671362;43.101577;-0.162027;FR;Europe/Paris;Q1323215;Train TER;;uic;8519451215;Q367161;;;87671362;Saint-Pé-de-Bigorre
 TN8767147;gare;Arengosse;Arengosse;Arengosse;8767147;87671479;44.007002;-0.809296;FR;Europe/Paris;Q652312;Train TER;Car TER;uic;1541262753;Q2744968;;;87671479;Arengosse
 TN8767148;gare;Ygos;Ygos;Ygos;8767148;87671487;43.978247;-0.736186;FR;Europe/Paris;Q31201;Train TER;Car TER;uic;1905400219;Q2562620;;;87671487;Ygos
 TN8767149;gare;Saint-Martin-d'Oney;Saint-Martin-d'Oney;Saint-Martin-d'Oney;8767149;87671495;43.930059;-0.651531;FR;Europe/Paris;Q40875;Train TER;Car TER;uic;3438988636;Q2685729;;;87671495;Saint-Martin-d'Oney
-TN8767200;gare;Pau;Pau;Pau;8767200;87672006;43.29147;-0.369754;FR;Europe/Paris;Q132671;INTERCITES|INTERCITES de nuit|TGV INOUI|Train TER;Car TER;uic;8519451211;Q2260577;;;87672006;Pau
+TN8767200;gare;Pau;Pau;Pau;8767200;87672006;43.29147;-0.369754;FR;Europe/Paris;Q132671;INTERCITES|INTERCITES de nuit|Navette|TGV INOUI|Train TER;Car TER;uic;8519451211;Q2260577;;;87672006;Pau
 TN8767211;gare;Montaut-Bétharram;Montaut-Bétharram;Montaut-Bétharram;8767211;87672113;43.126979;-0.198264;FR;Europe/Paris;Q671281;Train TER;;uic;2334814665;Q3097074;;;87672113;Montaut Bétharram
 TN8767213;gare;Coarraze - Nay;Coarraze - Nay;Coarraze - Nay;8767213;87672139;43.181844;-0.241623;FR;Europe/Paris;Q174462;Train TER;Car TER;uic;8519451208;Q2100756;;;87672139;Coarraze - Nay
 TN8767216;gare;Assat;Assat;Assat;8767216;87672162;43.254432;-0.295018;FR;Europe/Paris;Q179787;Train TER;;uic;2334690134;Q3095681;;;87672162;Assat
 TN8767221;gare;Artix;Artix;Artix;8767221;87672212;43.393195;-0.570108;FR;Europe/Paris;Q842695;Train TER;Car TER;uic;371761248;Q3095676;;;87672212;Artix
-TN8767225;gare;Orthez;Orthez;Orthez;8767225;87672253;43.484215;-0.767645;FR;Europe/Paris;Q244248;INTERCITES|INTERCITES de nuit|TGV INOUI|Train TER;Car TER;uic;369774790;Q2219205;;;87672253;Orthez
+TN8767225;gare;Orthez;Orthez;Orthez;8767225;87672253;43.484215;-0.767645;FR;Europe/Paris;Q244248;INTERCITES|INTERCITES de nuit|Navette|TGV INOUI|Train TER;Car TER;uic;369774790;Q2219205;;;87672253;Orthez
 TN8767227;gare;Puyoô;Puyoô;Puyoô;8767227;87672279;43.524653;-0.910819;FR;Europe/Paris;Q174508;Train TER;Car TER;uic;10688332562;Q1846734;;;87672279;Puyoô
 TN8767233;gare;Peyrehorade;Peyrehorade;Peyrehorade;8767233;87672337;43.546836;-1.115724;FR;Europe/Paris;Q664928;Train TER;Car TER;uic;13267627043;Q2342837;;;87672337;Peyrehorade
 TN8767238;gare;Urt;Urt;Urt;8767238;87672386;43.499349;-1.30054;FR;Europe/Paris;Q842706;Train TER;Car TER;uic;8708986021;Q2099440;;;87672386;Urt
@@ -2333,7 +2332,7 @@ TN8767272;gare;Oloron-Sainte-Marie;Oloron-Sainte-Marie;Oloron-Sainte-Marie;87672
 TN8767274;gare;Lurbe Saint-Christau;Lurbe Saint-Christau;Lurbe Saint-Christau;8767274;87672741;43.120505;-0.605233;FR;Europe/Paris;Q636054;Train TER;Car TER;uic;4352127161;Q16638575;;;87672741;Lurbe-Saint-Christau
 TN8767276;gare;Sarrance;Sarrance;Sarrance;8767276;87672766;43.049685;-0.599612;FR;Europe/Paris;Q845063;Train TER;Car TER;uic;4352121707;Q24053005;;;87672766;Sarrance
 TN8767277;gare;Bedous;Bedous;Bedous;8767277;87672774;42.995222;-0.603744;FR;Europe/Paris;Q188595;Train TER;Car TER;uic;3747542481;Q3095940;;;87672774;Bedous
-TN8767300;gare;Bayonne;Bayonne;Bayonne;8767300;87673004;43.497002;-1.470361;FR;Europe/Paris;Q134674;INTERCITES|INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;8312617455;Q3095942;;;87673004;Bayonne
+TN8767300;gare;Bayonne;Bayonne;Bayonne;8767300;87673004;43.497002;-1.470361;FR;Europe/Paris;Q134674;INTERCITES|INTERCITES de nuit|Navette|OUIGO|TGV INOUI|Train TER;Car TER;uic;8312617455;Q3095942;;;87673004;Bayonne
 TN8767309;gare;Boucau;Boucau;Boucau;8767309;87673095;43.523426;-1.490633;FR;Europe/Paris;Q320282;Train TER;Car TER;uic;8705508208;Q2365336;;;87673095;Boucau
 TN8767310;gare;Morcenx;Morcenx;Morcenx;8767310;87673103;44.033542;-0.908512;FR;Europe/Paris;Q59342721;Train TER;Car TER;uic;2903069291;Q2218069;;XFMCX;87673103;Morcenx
 TN8767320;gare;Dax;Dax;Dax;8767320;87673202;43.720604;-1.050308;FR;Europe/Paris;Q188878;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;3466186493;Q2167270;;;87673202;Dax
@@ -2409,12 +2408,12 @@ TN8768384;gare;Mailly-la-Ville;Mailly-la-Ville;Mailly-la-Ville;8768384;87683847;
 TN8768400;gare;Montargis;Montargis;Montargis;8768400;87684001;48.006948;2.743219;FR;Europe/Paris;Q212352;Train TER;;uic;252820585;Q961102;;;87684001;Montargis
 TN8768412;gare;Nemours - Saint-Pierre;Nemours - Saint-Pierre;Nemours - Saint-Pierre;8768412;87684126;48.267841;2.685564;FR;Europe/Paris;Q378966;Train TER;;uic;251307982;Q963843;;;87684126;Nemours - Saint-Pierre
 TN8768427;gare;Nogent-sur-Vernisson;Nogent-sur-Vernisson;Nogent-sur-Vernisson;8768427;87684274;47.852777;2.7376;FR;Europe/Paris;Q1391514;Train TER;;uic;629026637;Q2653378;;XFNGI;87684274;Nogent-sur-Vernisson
-TN8768429;gare;Gien;Gien;Gien;8768429;87684290;47.69916;2.636503;FR;Europe/Paris;Q475599;Train TER;Car TER;uic;820664041;Q2456461;;XFGIE;87684290;Gien
+TN8768429;gare;Gien;Gien;Gien;8768429;87684290;47.69916;2.636503;FR;Europe/Paris;Q475599;Train TER;;uic;820664041;Q2456461;;XFGIE;87684290;Gien
 TN8768577;arret_car;Rémilly Le Charnay Pont Bulvin;Rémilly Le Charnay Pont Bulvin;Rémilly Le Charnay Pont Bulvin;8768577;87685776;46.805342;3.806645;FR;Europe/Paris;Q41730;;Car TER;gtfs;;;;;87685776;Rémilly Le Charnay Pont Bulvin
 TN8768578;arret_car;Les Tavins;Les Tavins;Les Tavins;8768578;87685784;46.741493;6.372939;FR;Europe/Paris;Q923421;;Car TER;gtfs;;;;;87685784;Les Tavins
 TN8768600;gare;Paris Gare de Lyon;Gare de Lyon;Gare de Lyon;8768600;87686006;48.844683;2.373774;FR;Europe/Paris;Q90;INTERCITES|Lyria|OUIGO|TGV INOUI|Train TER;;uic;26824135;Q747541;;XFPG;87686006;Paris Gare de Lyon
 TN8768636;arret_car;Lemberg Grand-Rue;Lemberg Grand-Rue;Lemberg Grand-Rue;8768636;87686360;49.00072;7.3801;FR;Europe/Paris;Q22394;;Car TER;gtfs;;;;;87686360;Lemberg Grand-Rue
-TN8768666;gare;Paris-Bercy - Bourgogne-Pays d'Auvergne;Paris-Bercy - Bourgogne-Pays d'Auvergne;Paris-Bercy - Bourgogne-Pays d'Auvergne;8768666;87686667;48.839196;2.382849;FR;Europe/Paris;Q90;INTERCITES|INTERCITES de nuit|Train TER;Car à réservation;uic;1823210835;Q261320;;;87686667;Paris Bercy Bourg. Pays d'Auv.
+TN8768666;gare;Paris-Bercy - Bourgogne-Pays d'Auvergne;Paris-Bercy - Bourgogne-Pays d'Auvergne;Paris-Bercy - Bourgogne-Pays d'Auvergne;8768666;87686667;48.839196;2.382849;FR;Europe/Paris;Q90;INTERCITES|Train TER;;uic;1823210835;Q261320;;;87686667;Paris Bercy Bourg. Pays d'Auv.
 TN8768740;arret_car;Coubladour Rond-Point;Coubladour Rond-Point;Coubladour Rond-Point;8768740;87687400;45.115378;3.743527;FR;Europe/Paris;Q264778;;Car TER;gtfs;;;;;87687400;Coubladour Rond-Point
 TN8768888;gare;Montpellier-Sud-de-France;Montpellier-Sud-de-France;Montpellier-Sud-de-France;8768888;87688887;43.595115;3.923964;FR;Europe/Paris;Q6441;OUIGO|TGV INOUI;;uic;8096578751;Q3097089;;;87688887;Montpellier Sud de France
 TN8769016;arret_car;Chinon-LEP-Cugnot;Chinon-LEP-Cugnot;Chinon-LEP-Cugnot;8769016;87690164;47.171536;0.259182;FR;Europe/Paris;Q194138;;Car TER;gtfs;;;;;87690164;Chinon-LEP-Cugnot
@@ -2426,8 +2425,6 @@ TN8769160;gare;Les Perrières;Nevers-les-Perrières;Nevers-les-Perrières;876916
 TN8769167;arret_car;Verneuil;Verneuil;Verneuil;8769167;87691675;46.861119;3.557435;FR;Europe/Paris;Q27664;;Car TER;gtfs;;;;;87691675;Verneuil
 TN8769172;arret_car;Avrée;Avrée;Avrée;8769172;87691725;46.82338;3.880148;FR;Europe/Paris;Q890728;;Car TER;gtfs;;;;;87691725;Avrée
 TN8769194;gare;Bidos;Bidos;Bidos;8769194;87691949;43.178984;-0.606899;FR;Europe/Paris;Q188600;Train TER;Car TER;uic;6345711633;Q16638563;;;87691949;Bidos
-TN8769332;arret_car;Honfleur-Normandie;Honfleur-Normandie;Honfleur-Normandie;8769332;87693325;49.418557;0.238615;FR;Europe/Paris;Q231720;;Car TER;gtfs;;;;;87693325;Honfleur-Normandie
-TN8769334;arret_car;Etretat-Normandie;Etretat-Normandie;Etretat-Normandie;8769334;87693341;49.707383;0.205801;FR;Europe/Paris;Q290936;;Car TER;gtfs;;;;;87693341;Etretat-Normandie
 TN8769339;arret_car;Egletons-ville;Egletons-ville;Egletons-ville;8769339;87693390;45.403678;2.046053;FR;Europe/Paris;Q274525;;Car TER;gtfs;;;;;87693390;Egletons-ville
 TN8769400;gare;Le Creusot;Le Creusot-Ville;Le Creusot-Ville;8769400;87694000;46.807837;4.430446;FR;Europe/Paris;Q329664;Train TER;;uic;2465939605;Q3098193;;;87694000;Le Creusot
 TN8769410;gare;Le Creusot-TGV;Le Creusot TGV (Montceau - Montchanin);Le Creusot TGV (Montceau - Montchanin);8769410;87694109;46.765315;4.499502;FR;Europe/Paris;Q1454782;TGV INOUI;;uic;2470629064;Q801071;;;87694109;Le Creusot-TGV
@@ -2462,9 +2459,9 @@ TN8769596;arret_car;Ambronay-Priay RD 1075;Ambronay-Priay RD 1075;Ambronay-Priay
 TN8769597;arret_car;Bellignat - Lycée-Arbez-Carme;Bellignat - Lycée-Arbez-Carme;Bellignat - Lycée-Arbez-Carme;8769597;87695973;46.248547;5.63221;FR;Europe/Paris;Q210917;;Car TER;gtfs;;;;;87695973;Bellignat - Lycée-Arbez-Carme
 TN8769598;arret_car;Bellignat-Mairie;Bellignat-Mairie;Bellignat-Mairie;8769598;87695981;46.24246;5.629689;FR;Europe/Paris;Q210917;;Car TER;gtfs;;;;;87695981;Bellignat-Mairie
 TN8769599;arret_car;Bourg-en-Bresse Archives;Bourg-en-Bresse Archives;Bourg-en-Bresse Archives;8769599;87695999;46.195328;5.226676;FR;Europe/Paris;Q133069;;Car TER;gtfs;;;;;87695999;Bourg-en-Bresse Archives
-TN8769600;gare;Nevers;Nevers;Nevers;8769600;87696005;46.987297;3.150722;FR;Europe/Paris;Q166997;INTERCITES|Train TER;Car TER|Car à réservation;uic;415753583;Q2749439;;;87696005;Nevers
+TN8769600;gare;Nevers;Nevers;Nevers;8769600;87696005;46.987297;3.150722;FR;Europe/Paris;Q166997;INTERCITES|Train TER;Car TER;uic;415753583;Q2749439;;;87696005;Nevers
 TN8769601;arret_car;Bourg-en-Bresse Gare Routière;Bourg-en-Bresse Gare Routière;Bourg-en-Bresse Gare Routière;8769601;87696013;46.199498;5.215381;FR;Europe/Paris;Q133069;;Car TER;gtfs;;;;;87696013;Bourg-en-Bresse Gare Routière
-TN8769608;gare;Briare;Briare;Briare;8769608;87696088;47.646455;2.733713;FR;Europe/Paris;Q818443;Train TER;Car TER;uic;13250279411;Q545754;;;87696088;Briare
+TN8769608;gare;Briare;Briare;Briare;8769608;87696088;47.646455;2.733713;FR;Europe/Paris;Q818443;Train TER;;uic;13250279411;Q545754;;;87696088;Briare
 TN8769614;gare;Cosne-sur-Loire;Cosne-sur-Loire;Cosne-sur-Loire;8769614;87696146;47.413965;2.931944;FR;Europe/Paris;Q476253;Train TER;Car TER;uic;8309308998;Q663055;;;87696146;Cosne-sur-Loire
 TN8769616;gare;Tracy - Sancerre;Tracy - Sancerre;Tracy - Sancerre;8769616;87696161;47.337408;2.880358;FR;Europe/Paris;Q27647;Train TER;Car TER;uic;920809925;Q634761;;;87696161;Tracy Sancerre
 TN8769617;gare;Pouilly-sur-Loire;Pouilly-sur-Loire;Pouilly-sur-Loire;8769617;87696179;47.282785;2.964069;FR;Europe/Paris;Q46529;Train TER;Car TER;uic;628964965;Q3097338;;;87696179;Pouilly-sur-Loire
@@ -2477,7 +2474,7 @@ TN8769626;gare;Saincaize;Saincaize;Saincaize;8769626;87696260;46.931421;3.071712
 TN8769629;gare;Saint-Pierre-le-Moûtier;Saint-Pierre-le-Moûtier;Saint-Pierre-le-Moûtier;8769629;87696294;46.793209;3.11169;FR;Europe/Paris;Q37176;Train TER;Car TER;uic;13249955459;Q3097600;;;87696294;Saint-Pierre-le-Moûtier
 TN8769630;gare;Chantenay-Saint-Imbert;Chantenay-Saint-Imbert;Chantenay-Saint-Imbert;8769630;87696302;46.728403;3.171741;FR;Europe/Paris;Q890033;Train TER;Car TER;uic;2189113730;Q3096185;;;87696302;Chantenay-Saint-Imbert
 TN8769631;gare;Villeneuve-sur-Allier;Villeneuve-sur-Allier;Villeneuve-sur-Allier;8769631;87696310;46.659137;3.246846;FR;Europe/Paris;Q261404;Train TER;;uic;9990780380;Q3097998;;;87696310;Villeneuve-sur-Allier
-TN8769632;gare;Moulins-sur-Allier;Moulins-sur-Allier;Moulins-sur-Allier;8769632;87696328;46.561595;3.339368;FR;Europe/Paris;Q184883;INTERCITES|Train TER;Car TER|Car à réservation;uic;1446199586;Q2570673;;;87696328;Moulins sur Allier
+TN8769632;gare;Moulins-sur-Allier;Moulins-sur-Allier;Moulins-sur-Allier;8769632;87696328;46.561595;3.339368;FR;Europe/Paris;Q184883;INTERCITES|Train TER;Car TER;uic;1446199586;Q2570673;;;87696328;Moulins sur Allier
 TN8769633;gare;Bessay;Bessay-sur-Allier;Bessay-sur-Allier;8769633;87696336;46.443615;3.360514;FR;Europe/Paris;Q853434;Train TER;Car TER;uic;298540544;Q3095977;;;87696336;Bessay
 TN8769635;gare;Varennes-sur-Allier;Varennes-sur-Allier;Varennes-sur-Allier;8769635;87696351;46.315491;3.394179;FR;Europe/Paris;Q512351;Train TER;Car TER;uic;9901390176;Q510695;;;87696351;Varennes-sur-Allier
 TN8769638;arret_car;Les Abrets - Rue-Italie;Les Abrets - Rue-Italie;Les Abrets - Rue-Italie;8769638;87696385;45.537332;5.584531;FR;Europe/Paris;Q21979666;;Car TER;gtfs;;;;;87696385;Les Abrets - Rue-Italie
@@ -2640,7 +2637,6 @@ TN8771383;gare;Saint-Julien - Clénay;Saint-Julien - Clénay;Saint-Julien - Clé
 TN8771384;gare;Gemeaux;Gemeaux;Gemeaux;8771384;87713842;47.478542;5.129274;FR;Europe/Paris;Q55346;Train TER;Car TER;uic;1513288865;Q27915639;;;87713842;Gemeaux
 TN8771385;gare;Is-sur-Tille;Is-sur-Tille;Is-sur-Tille;8771385;87713859;47.520302;5.129704;FR;Europe/Paris;Q55343;Train TER;Car TER;uic;2503365447;Q3095794;;;87713859;Is-sur-Tille
 TN8771416;arret_car;Damblain Église;Damblain Église;Damblain Église;8771416;87714162;48.097929;5.652857;FR;Europe/Paris;Q1463820;;Car TER;gtfs;;;;;87714162;Damblain Église
-TN8771420;arret_car;Saxon-Sion Basilique;Saxon-Sion Basilique;Saxon-Sion Basilique;8771420;87714204;48.428594;6.084929;FR;Europe/Paris;Q224357;;Car TER;gtfs;;;;;87714204;Saxon-Sion Basilique
 TN8771499;arret_car;Rémoncourt Route Principale;Rémoncourt Route Principale;Rémoncourt Route Principale;8771499;87714998;48.2252;6.048286;FR;Europe/Paris;Q1455570;;Car TER;gtfs;;;;;87714998;Rémoncourt Route Principale
 TN8771500;gare;Pontarlier;Pontarlier;Pontarlier;8771500;87715003;46.900888;6.35338;FR;Europe/Paris;Q214540;Train TER;Car TER;uic;4236961491;Q2317658;;;87715003;Pontarlier
 TN8771510;gare;Andelot;Andelot;Andelot;8771510;87715102;46.8594;5.923661;FR;Europe/Paris;Q490191;Train TER;Car TER;uic;4236588896;Q1886762;;;87715102;Andelot
@@ -2747,7 +2743,7 @@ TN8772156;gare;Fleurieux-sur-l'Arbresle;Fleurieux-sur-l'Arbresle;Fleurieux-sur-l
 TN8772160;gare;Sain-Bel;Sain-Bel;Sain-Bel;8772160;87721605;45.811543;4.601708;FR;Europe/Paris;Q1388866;Train TER;Car TER;uic;12825750662;Q2037932;;;87721605;Sain-Bel
 TN8772169;arret_car;Jumeaux;Jumeaux;Jumeaux;8772169;87721696;45.430201;3.339211;FR;Europe/Paris;Q271542;;Car TER;gtfs;;;;;87721696;Jumeaux
 TN8772170;gare;Les Flachères;Les Flachères;Les Flachères;8772170;87721704;45.777405;4.754124;FR;Europe/Paris;Q817685;Train TER;;uic;25313126;Q3098153;;;87721704;Les Flachères
-TN8772173;gare;Dommartin - Lissieu;Dommartin - Lissieu;Dommartin - Lissieu;8772173;87721738;45.84785;4.732157;FR;Europe/Paris;Q1364733;Train TER;;gtfs;;;;;87721738;Dommartin - Lissieu
+TN8772173;gare;Dommartin - Lissieu;Dommartin - Lissieu;Dommartin - Lissieu;8772173;87721738;45.839782;4.734477;FR;Europe/Paris;Q1364733;Train TER;;gtfs;;;;;87721738;Dommartin - Lissieu
 TN8772174;gare;Civrieux d'Azergues;Civrieux d'Azergues;Civrieux d'Azergues;8772174;87721746;45.859259;4.718381;FR;Europe/Paris;Q1363949;Train TER;;uic;9682268241;Q3096247;;;87721746;Civrieux-d'Azergues
 TN8772175;gare;Châtillon d'Azergues;Châtillon d'Azergues;Châtillon d'Azergues;8772175;87721753;45.875216;4.645199;FR;Europe/Paris;Q534664;Train TER;Car TER;uic;2930596534;Q3096237;;;87721753;Châtillon d'Azergues
 TN8772176;gare;Chessy;Chessy;Chessy;8772176;87721761;45.885499;4.62246;FR;Europe/Paris;Q929575;Train TER;Car TER;uic;2930596535;Q3096219;;;87721761;Chessy
@@ -2779,7 +2775,7 @@ TN8772270;gare;Francheville;Francheville;Francheville;8772270;87722702;45.73371;
 TN8772271;gare;Chaponost;Chaponost;Chaponost;8772271;87722710;45.698463;4.7643;FR;Europe/Paris;Q1151735;Train TER;;nom;14228169114;;;;87722710;Chaponost
 TN8772272;gare;Brignais;Brignais;Brignais;8772272;87722728;45.673538;4.76352;FR;Europe/Paris;Q582184;Train TER;;gtfs;;;;;87722728;Brignais
 TN8772274;gare;Alaï;Alaï;Alaï;8772274;87722744;45.752316;4.771858;FR;Europe/Paris;Q1647506;Train TER;;uic;6855693760;Q3095600;;;87722744;Alaï
-TN8772319;gare;Lyon Part-Dieu;Lyon Part-Dieu;Lyon Part-Dieu;8772319;87723197;45.760573;4.860163;FR;Europe/Paris;Q456;ICE|INTERCITES|Lyria|OUIGO|TGV INOUI|Train TER;;uic;4290857016;Q2008;;XFLPD;87723197;Lyon Part Dieu
+TN8772319;gare;Lyon Part-Dieu;Lyon Part-Dieu;Lyon Part-Dieu;8772319;87723197;45.760573;4.860163;FR;Europe/Paris;Q456;ICE|INTERCITES|OUIGO|TGV INOUI|Train TER;;uic;4290857016;Q2008;;XFLPD;87723197;Lyon Part Dieu
 TN8772332;gare;Vénissieux;Vénissieux;Vénissieux;8772332;87723320;45.705055;4.888303;FR;Europe/Paris;Q13598;Train TER;Car TER;uic;13208794098;Q2736094;;;87723320;Vénissieux
 TN8772335;gare;Saint-Priest;Saint-Priest;Saint-Priest;8772335;87723353;45.686372;4.934496;FR;Europe/Paris;Q331083;Train TER;Car TER;uic;9924526220;Q2460346;;;87723353;Saint-Priest
 TN8772336;arret_car;Saint-Pierre-de-Chandieu Ronin;Saint-Pierre-de-Chandieu Ronin;Saint-Pierre-de-Chandieu Ronin;8772336;87723361;45.647632;5.011816;FR;Europe/Paris;Q910158;;Car TER;gtfs;;;;;87723361;Saint-Pierre-de-Chandieu Ronin
@@ -2867,12 +2863,12 @@ TN8773160;arret_car;Celles-sur-Durolle Arrêt des Cars;Celles-sur-Durolle Arrêt
 TN8773180;arret_car;Saint-Georges-d'Aurac Bourg;Saint-Georges-d'Aurac Bourg;Saint-Georges-d'Aurac Bourg;8773180;87731802;45.156213;3.54073;FR;Europe/Paris;Q264379;;Car TER;gtfs;;;;;87731802;Saint-Georges-d'Aurac Bourg
 TN8773182;gare;Lachaud-Curmilhac;Lachaud-Curmilhac;Lachaud-Curmilhac;8773182;87731828;45.122835;3.610419;FR;Europe/Paris;Q930271;Train TER;;uic;9636982368;Q3096828;;;87731828;Lachaud-Curmilhac
 TN8773188;gare;Alleyras;Alleyras;Alleyras;8773188;87731885;44.918996;3.67331;FR;Europe/Paris;Q624148;Train TER;Car TER;uic;10019620426;Q3095616;;;87731885;Alleyras
-TN8773200;gare;Vichy;Vichy;Vichy;8773200;87732008;46.126903;3.430822;FR;Europe/Paris;Q93351;INTERCITES|Train TER;Car TER|Car à réservation;uic;300441313;Q2578951;;;87732008;Vichy
+TN8773200;gare;Vichy;Vichy;Vichy;8773200;87732008;46.126903;3.430822;FR;Europe/Paris;Q93351;INTERCITES|Train TER;Car TER;uic;300441313;Q2578951;;;87732008;Vichy
 TN8773220;gare;Saint-Germain-des-Fossés;Saint-Germain-des-Fossés;Saint-Germain-des-Fossés;8773220;87732206;46.209052;3.430426;FR;Europe/Paris;Q462647;INTERCITES|Train TER;Car TER;uic;1906980049;Q1875757;;;87732206;Saint-Germain-des-Fossés
 TN8773240;gare;Gannat;Gannat;Gannat;8773240;87732404;46.09759;3.204852;FR;Europe/Paris;Q272347;Train TER;Car TER;uic;9954651283;Q2154970;;;87732404;Gannat
 TN8773269;arret_car;Chenimenil Filature;Chenimenil Filature;Chenimenil Filature;8773269;87732693;48.133949;6.600507;FR;Europe/Paris;Q740154;;Car TER;gtfs;;;;;87732693;Chenimenil Filature
 TN8773373;arret_car;Lucay-le-Mâle Champ de Foire;Lucay-le-Mâle Champ de Foire;Lucay-le-Mâle Champ de Foire;8773373;87733733;47.123286;1.438125;FR;Europe/Paris;Q1137585;;Car TER;gtfs;;;;;87733733;Lucay-le-Mâle Champ de Foire
-TN8773400;gare;Clermont-Ferrand;Clermont-Ferrand;Clermont-Ferrand;8773400;87734004;45.778585;3.100933;FR;Europe/Paris;Q42168;INTERCITES|Train TER;Car TER|Car à réservation;uic;10936459654;Q2167884;;;87734004;Clermont-Ferrand
+TN8773400;gare;Clermont-Ferrand;Clermont-Ferrand;Clermont-Ferrand;8773400;87734004;45.778585;3.100933;FR;Europe/Paris;Q42168;INTERCITES|Train TER;Car TER;uic;10936459654;Q2167884;;;87734004;Clermont-Ferrand
 TN8773403;gare;Royat - Chamalières;Royat - Chamalières;Royat - Chamalières;8773403;87734038;45.767739;3.061624;FR;Europe/Paris;Q623487;Train TER;;uic;5050398921;Q2578159;;;87734038;Royat - Chamalières
 TN8773404;gare;Gerzat;Gerzat;Gerzat;8773404;87734046;45.833352;3.143066;FR;Europe/Paris;Q1059614;Train TER;;uic;856807207;Q3096533;;XFGEZ;87734046;Gerzat
 TN8773405;gare;Riom - Châtel-Guyon;Riom - Châtel-Guyon;Riom - Châtel-Guyon;8773405;87734053;45.889987;3.120735;FR;Europe/Paris;Q207575;INTERCITES|Train TER;Car TER;uic;12144555005;Q521237;;;87734053;Riom - Châtel-Guyon
@@ -3031,17 +3027,17 @@ TN8774676;gare;Les Bossons;Les Bossons;Les Bossons;8774676;87746768;45.9068;6.83
 TN8774677;gare;Les Pélerins;Les Pélerins;Les Pélerins;8774677;87746776;45.912498;6.847224;FR;Europe/Paris;Q83236;Train TER;Car TER;gtfs;;;;;87746776;Les Pélerins
 TN8774678;gare;Chamonix-Mont-Blanc;Chamonix-Mont-Blanc;Chamonix-Mont-Blanc;8774678;87746784;45.92277;6.87363;FR;Europe/Paris;Q83236;Train TER;Car TER;gtfs;;;;;87746784;Chamonix-Mont-Blanc
 TN8774681;gare;Les Moussoux;Les Moussoux;Les Moussoux;8774681;87746818;45.916637;6.858991;FR;Europe/Paris;Q83236;Train TER;Car TER;uic;246119381;;;;87746818;Les Moussoux
-TN8774682;gare;Les Praz-de-Chamonix;Les Praz-de-Chamonix;Les Praz-de-Chamonix;8774682;87746826;45.93946;6.88874;FR;Europe/Paris;Q83236;Train TER;Car TER;uic;275367386;Q2189243;;;87746826;Les Praz de Chamonix
-TN8774683;gare;Les Tines;Les Tines;Les Tines;8774683;87746834;45.95053;6.899362;FR;Europe/Paris;Q83236;Train TER;Car TER;gtfs;;;;;87746834;Les Tines
+TN8774682;gare;Les Praz-de-Chamonix;Les Praz-de-Chamonix;Les Praz-de-Chamonix;8774682;87746826;45.93946;6.88874;FR;Europe/Paris;Q83236;Train TER;;uic;275367386;Q2189243;;;87746826;Les Praz de Chamonix
+TN8774683;gare;Les Tines;Les Tines;Les Tines;8774683;87746834;45.95053;6.899362;FR;Europe/Paris;Q83236;Train TER;;gtfs;;;;;87746834;Les Tines
 TN8774684;gare;La Joux;La Joux;La Joux;8774684;87746842;45.965708;6.910179;FR;Europe/Paris;Q83236;Train TER;;uic;1398912476;;;;87746842;La Joux
-TN8774685;gare;Argentière;Argentière;Argentière;8774685;87746859;45.981944;6.926484;FR;Europe/Paris;Q83236;Train TER;Car TER;gtfs;;;;;87746859;Argentière
+TN8774685;gare;Argentière;Argentière;Argentière;8774685;87746859;45.981944;6.926484;FR;Europe/Paris;Q83236;Train TER;;gtfs;;;;;87746859;Argentière
 TN8774686;gare;Montroc le Planet;Montroc le Planet;Montroc le Planet;8774686;87746867;45.996459;6.934548;FR;Europe/Paris;Q83236;Train TER;;gtfs;;;;;87746867;Montroc le Planet
-TN8774687;gare;Vallorcine;Vallorcine;Vallorcine;8774687;87746875;46.032476;6.932667;FR;Europe/Paris;Q912354;Train TER;Car TER;uic;9543361428;Q1916822;;;87746875;Vallorcine
-TN8774688;gare;Le Buet;Le Buet;Le Buet;8774688;87746883;46.019171;6.920406;FR;Europe/Paris;Q912354;Train TER;Car TER;uic;11764702632;Q2046458;;;87746883;Le Buet
+TN8774687;gare;Vallorcine;Vallorcine;Vallorcine;8774687;87746875;46.032476;6.932667;FR;Europe/Paris;Q912354;Train TER;;uic;9543361428;Q1916822;;;87746875;Vallorcine
+TN8774688;gare;Le Buet;Le Buet;Le Buet;8774688;87746883;46.019171;6.920406;FR;Europe/Paris;Q912354;Train TER;;uic;11764702632;Q2046458;;;87746883;Le Buet
 TN8774700;gare;Grenoble;Grenoble;Grenoble;8774700;87747006;45.191307;5.714102;FR;Europe/Paris;Q1289;OUIGO|TGV INOUI|Train TER;;uic;5070332503;Q2545346;;;87747006;Grenoble
 TN8774712;arret_car;Troyes Québec;Troyes Québec;Troyes Québec;8774712;87747121;48.269985;4.082472;FR;Europe/Paris;Q5489;;Car TER;gtfs;;;;;87747121;Troyes Québec
 TN8774714;arret_car;Troyes Hôpital Simone Veil;Troyes Hôpital Simone Veil;Troyes Hôpital Simone Veil;8774714;87747147;48.2798;4.0682;FR;Europe/Paris;Q688404;;Car TER;gtfs;;;;;87747147;Troyes Hôpital Simone Veil
-TN8774717;arret_car;Pont-Sainte-Marie Arcis Magasins;Pont-Sainte-Marie Arcis Magasins;Pont-Sainte-Marie Arcis Magasins;8774717;87747170;48.3281;4.0998;FR;Europe/Paris;Q1366500;;Car TER;gtfs;;;;;87747170;Lavau Dames Blanches Magasins d'usine
+TN8774717;arret_car;Lavau Dames Blanches Magasins d'usine;Lavau Dames Blanches Magasins d'usine;Lavau Dames Blanches Magasins d'usine;8774717;87747170;48.332566;4.100741;FR;Europe/Paris;Q1104874;;Car TER;gtfs;;;;;87747170;Lavau Dames Blanches Magasins d'usine
 TN8774718;arret_car;Voué Mairie;Voué Mairie;Voué Mairie;8774718;87747188;48.4576;4.123027;FR;Europe/Paris;Q937133;;Car TER;gtfs;;;;;87747188;Voué Mairie
 TN8774719;arret_car;Arcis-sur-Aube Rue de Châlons;Arcis-sur-Aube Rue de Châlons;Arcis-sur-Aube Rue de Châlons;8774719;87747196;48.5376;4.1418;FR;Europe/Paris;Q269401;;Car TER;gtfs;;;;;87747196;Arcis-sur-Aube Rue de Châlons
 TN8774720;gare;Virieu-sur-Bourbre;Virieu-sur-Bourbre;Virieu-sur-Bourbre;8774720;87747204;45.491876;5.472263;FR;Europe/Paris;Q57695189;Train TER;Car TER;uic;12951759554;Q2362554;;;87747204;Virieu sur Bourbre
@@ -3078,7 +3074,7 @@ TN8774852;arret_car;La Pelletière Crépieux-la-Pape (arrêt Tcl);La Pelletière
 TN8774872;arret_car;Epinal Lycée Lapicque;Epinal Lycée Lapicque;Epinal Lycée Lapicque;8774872;87748723;48.176947;6.440636;FR;Europe/Paris;Q173695;;Car TER;gtfs;;;;;87748723;Epinal Lycée Lapicque
 TN8774873;arret_car;Poussay Rue de Mirecourt;Poussay Rue de Mirecourt;Poussay Rue de Mirecourt;8774873;87748731;48.315946;6.125975;FR;Europe/Paris;Q224274;;Car TER;gtfs;;;;;87748731;Poussay Rue de Mirecourt
 TN8774874;arret_car;Rorschwihr Cimetière;Rorschwihr Cimetière;Rorschwihr Cimetière;8774874;87748749;48.218332;7.362414;FR;Europe/Paris;Q148548;;Car TER;gtfs;;;;;87748749;Rorschwihr Cimetière
-TN8775100;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;8775100;87751008;43.303264;5.381193;FR;Europe/Paris;Q23482;ICE|INTERCITES|Lyria|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;4290857022;Q371217;;XFM;87751008;Marseille Saint-Charles
+TN8775100;gare;Marseille Saint-Charles;Marseille Saint-Charles;Marseille Saint-Charles;8775100;87751008;43.303264;5.381193;FR;Europe/Paris;Q23482;ICE|INTERCITES|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;4290857022;Q371217;;XFM;87751008;Marseille Saint-Charles
 TN8775108;gare;Marseille-Blancarde;Marseille-Blancarde;Marseille-Blancarde;8775108;87751081;43.296502;5.406749;FR;Europe/Paris;Q23482;INTERCITES de nuit|Train TER;;uic;4290857021;Q1835221;;XFMBL;87751081;Marseille Blancarde
 TN8775120;gare;Sisteron;Sisteron;Sisteron;8775120;87751206;44.190224;5.946726;FR;Europe/Paris;Q271085;Train TER;;uic;13695345689;Q3097754;;;87751206;Sisteron
 TN8775123;gare;Château-Arnoux-Saint-Auban;Château-Arnoux-Saint-Auban;Château-Arnoux-Saint-Auban;8775123;87751230;44.061482;5.997502;FR;Europe/Paris;Q320205;Train TER;;uic;10940373631;Q3063125;;;87751230;Château-Arnoux-Saint-Auban
@@ -3089,7 +3085,7 @@ TN8775137;gare;Meyrargues;Meyrargues;Meyrargues;8775137;87751370;43.644114;5.539
 TN8775140;gare;Aix-en-Provence;Aix-en-Provence;Aix-en-Provence;8775140;87751404;43.522729;5.445115;FR;Europe/Paris;Q47465;Train TER;;uic;4290854846;Q2783816;;XFAXP;87751404;Aix-en-Provence
 TN8775142;gare;Gardanne;Gardanne;Gardanne;8775142;87751420;43.456267;5.462772;FR;Europe/Paris;Q318085;Train TER;;uic;4232057510;Q2362882;;XFGA;87751420;Gardanne
 TN8775143;gare;Simiane;Simiane;Simiane;8775143;87751438;43.434942;5.426144;FR;Europe/Paris;Q640934;Train TER;;uic;9954867883;Q3097749;;;87751438;Simiane
-TN8775152;gare;L'Ariane - La Trinité;L'Ariane - La Trinité;L'Ariane - La Trinité;8775152;87751529;43.734415;7.302615;FR;Europe/Paris;Q383475;Train TER;;uic;2277046620;Q15188509;;;87751529;L'Ariane La Trinité
+TN8775152;gare;L'Ariane - La Trinité;L'Ariane - La Trinité;L'Ariane - La Trinité;8775152;87751529;43.734415;7.302615;FR;Europe/Paris;Q383475;Train TER;Car TER;uic;2277046620;Q15188509;;;87751529;L'Ariane La Trinité
 TN8775160;gare;L'Estaque;L'Estaque;L'Estaque;8775160;87751602;43.363738;5.321384;FR;Europe/Paris;Q23482;Train TER;;uic;4290856998;Q1908789;;XFLES;87751602;L'Estaque
 TN8775170;gare;Saint-Marcel;Saint-Marcel;Saint-Marcel;8775170;87751701;43.288422;5.466578;FR;Europe/Paris;Q23482;Train TER;;uic;10942969680;Q2569951;;;87751701;Saint-Marcel
 TN8775171;gare;La Pomme;La Pomme;La Pomme;8775171;87751719;43.290545;5.441141;FR;Europe/Paris;Q23482;Train TER;;uic;3257868013;Q2027721;;;87751719;La Pomme
@@ -3116,15 +3112,15 @@ TN8775309;arret_car;Beaumont-de-Lomagne L.e.p;Beaumont-de-Lomagne L.e.p;Beaumont
 TN8775320;gare;Saint-Chamas;Saint-Chamas;Saint-Chamas;8775320;87753202;43.551105;5.040104;FR;Europe/Paris;Q640829;Train TER;Car TER;uic;9788837500;Q2476213;;;87753202;Saint-Chamas
 TN8775325;gare;Rognac;Rognac;Rognac;8775325;87753251;43.486643;5.230848;FR;Europe/Paris;Q675965;Train TER;Car TER;uic;4290859609;Q3097434;;XFPGC;87753251;Rognac
 TN8775328;gare;Pas-des-Lanciers;Pas-des-Lanciers;Pas-des-Lanciers;8775328;87753285;43.409663;5.253991;FR;Europe/Paris;Q243317;Train TER;Car TER;uic;4290857034;Q2471508;;XFPDL;87753285;Pas des Lanciers
-TN8775341;gare;Istres;Gare d'Istres;Gare d'Istres;8775341;87753418;43.515405;4.980263;FR;Europe/Paris;Q203759;Train TER;;uic;13173235072;Q2130806;;;87753418;Istres
+TN8775341;gare;Istres;Gare d'Istres;Gare d'Istres;8775341;87753418;43.515405;4.980263;FR;Europe/Paris;Q203759;Train TER;Car TER;uic;13173235072;Q2130806;;;87753418;Istres
 TN8775342;gare;Rassuen;Rassuen;Rassuen;8775342;87753426;43.496661;4.973105;FR;Europe/Paris;Q203759;Train TER;;gtfs;;;;;87753426;Rassuen
 TN8775344;gare;Fos-sur-Mer;Fos-sur-Mer;Fos-sur-Mer;8775344;87753442;43.42807;4.974578;FR;Europe/Paris;Q675925;Train TER;;gtfs;;;;;87753442;Fos-sur-Mer
-TN8775345;gare;Port-de-Bouc;Port-de-Bouc;Port-de-Bouc;8775345;87753459;43.407312;4.984617;FR;Europe/Paris;Q675925;Train TER;;uic;13173291643;Q3097326;;;87753459;Port-de-Bouc
+TN8775345;gare;Port-de-Bouc;Port-de-Bouc;Port-de-Bouc;8775345;87753459;43.407312;4.984617;FR;Europe/Paris;Q675925;Train TER;Car TER;uic;13173291643;Q3097326;;;87753459;Port-de-Bouc
 TN8775349;gare;Croix Sainte;Croix Sainte;Croix Sainte;8775349;87753491;43.408898;5.019669;FR;Europe/Paris;Q237516;Train TER;;uic;11194795885;Q3096325;;;87753491;Croix Sainte
-TN8775350;gare;Martigues;Martigues;Martigues;8775350;87753509;43.392944;5.02563;FR;Europe/Paris;Q237516;Train TER;;uic;11225690169;Q2203403;;;87753509;Martigues
+TN8775350;gare;Martigues;Martigues;Martigues;8775350;87753509;43.392944;5.02563;FR;Europe/Paris;Q237516;Train TER;Car TER;uic;11225690169;Q2203403;;;87753509;Martigues
 TN8775354;gare;La Couronne Carro;La Couronne Carro;La Couronne Carro;8775354;87753541;43.339942;5.051719;FR;Europe/Paris;Q237516;Train TER;;uic;12293895081;Q2438242;;;87753541;La Couronne Carro
-TN8775355;gare;Sausset-Les-Pins;Sausset-Les-Pins;Sausset-Les-Pins;8775355;87753558;43.332983;5.110068;FR;Europe/Paris;Q498204;Train TER;;uic;12001643894;Q2346591;;;87753558;Sausset-les-Pins
-TN8775356;gare;Carry-le-Rouet;Carry-le-Rouet;Carry-le-Rouet;8775356;87753566;43.336677;5.153598;FR;Europe/Paris;Q239631;Train TER;;uic;11099856257;Q3096137;;;87753566;Carry-le-Rouet
+TN8775355;gare;Sausset-Les-Pins;Sausset-Les-Pins;Sausset-Les-Pins;8775355;87753558;43.332983;5.110068;FR;Europe/Paris;Q498204;Train TER;Car TER;uic;12001643894;Q2346591;;;87753558;Sausset-les-Pins
+TN8775356;gare;Carry-le-Rouet;Carry-le-Rouet;Carry-le-Rouet;8775356;87753566;43.336677;5.153598;FR;Europe/Paris;Q239631;Train TER;Car TER;uic;11099856257;Q3096137;;;87753566;Carry-le-Rouet
 TN8775357;gare;La Redonne Ensuès;La Redonne Ensuès;La Redonne Ensuès;8775357;87753574;43.334358;5.197559;FR;Europe/Paris;Q498224;Train TER;;uic;11063027483;Q2574034;;;87753574;La Redonne Ensuès
 TN8775358;gare;Niolon;Niolon;Niolon;8775358;87753582;43.340136;5.257024;FR;Europe/Paris;Q640736;Train TER;;uic;9789082324;Q1838017;;;87753582;Niolon
 TN8775365;gare;Arles;Arles;Arles;8775365;87753657;43.684899;4.632233;FR;Europe/Paris;Q48292;INTERCITES|TGV INOUI|Train TER;Car TER;uic;10933963119;Q1897505;;;87753657;Arles
@@ -3156,7 +3152,7 @@ TN8775542;gare;Vidauban;Vidauban;Vidauban;8775542;87755421;43.430918;6.433857;FR
 TN8775544;gare;Les Arcs - Draguignan;Les Arcs - Draguignan;Les Arcs - Draguignan;8775544;87755447;43.455656;6.482511;FR;Europe/Paris;Q636734;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;8018589177;Q3098144;;;87755447;Les Arcs - Draguignan
 TN8775561;gare;La Crau;La Crau;La Crau;8775561;87755611;43.144998;6.068628;FR;Europe/Paris;Q636893;Train TER;;uic;10933962221;Q2110920;;;87755611;La Crau
 TN8775562;gare;Hyères;Hyères;Hyères;8775562;87755629;43.108762;6.124109;FR;Europe/Paris;Q192574;TGV INOUI|Train TER;;uic;10555546116;Q2542662;;;87755629;Hyères
-TN8775605;gare;Nice-Ville;Nice-Ville;Nice-Ville;8775605;87756056;43.704745;7.261598;FR;Europe/Paris;Q33959;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;;uic;33017158;Q738970;;;87756056;Nice-Ville
+TN8775605;gare;Nice-Ville;Nice-Ville;Nice-Ville;8775605;87756056;43.704745;7.261598;FR;Europe/Paris;Q33959;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;33017158;Q738970;;;87756056;Nice-Ville
 TN8775625;gare;Nice Saint-Augustin;Nice Saint-Augustin;Nice Saint-Augustin;8775625;87756254;43.668496;7.210612;FR;Europe/Paris;Q33959;Train TER;;nom;27333931;Q3097206;;;87756254;Nice Saint-Augustin
 TN8775630;gare;Villeneuve-Loubet-Plage;Villeneuve-Loubet;Villeneuve-Loubet;8775630;87756304;43.629244;7.134056;FR;Europe/Paris;Q320197;Train TER;;uic;459470900;Q15199232;;;87756304;Villeneuve-Loubet-Plage
 TN8775632;gare;Cagnes-sur-Mer;Cagnes-sur-Mer;Cagnes-sur-Mer;8775632;87756320;43.657728;7.148427;FR;Europe/Paris;Q193832;Train TER;;uic;8093626803;Q3096110;;;87756320;Cagnes-sur-Mer
@@ -3168,18 +3164,18 @@ TN8775637;gare;Beaulieu-sur-Mer;Beaulieu-sur-Mer;Beaulieu-sur-Mer;8775637;877563
 TN8775638;gare;Èze;Èze-sur-Mer;Èze-sur-Mer;8775638;87756387;43.7222;7.356881;FR;Europe/Paris;Q242617;Train TER;;uic;33016223;Q2267208;;;87756387;Èze
 TN8775639;gare;Cap d'Ail;Cap d'Ail;Cap d'Ail;8775639;87756395;43.720528;7.394338;FR;Europe/Paris;Q274193;Train TER;;uic;33015605;Q2326438;;;87756395;Cap-d'Ail
 TN8775640;gare;Monaco-Monte-Carlo;Monaco - Monte Carlo;Monaco - Monte Carlo;8775640;87756403;43.738262;7.419498;MC;Europe/Monaco;Q55115;Train TER;Car TER;uic;9952646938;Q801195;;;87756403;Monaco-Monte-Carlo
-TN8775646;gare;Roquebrune-Cap-Martin;Roquebrune-Cap-Martin;Roquebrune-Cap-Martin;8775646;87756460;43.760605;7.457349;FR;Europe/Paris;Q220668;Train TER;Car TER;uic;642466130;Q1917107;;;87756460;Roquebrune-Cap-Martin
-TN8775647;gare;Carnolès;Carnolès;Carnolès;8775647;87756478;43.76196;7.481526;FR;Europe/Paris;Q220668;Train TER;Car TER;uic;642522545;Q2388773;;;87756478;Carnoles
-TN8775648;gare;Menton;Menton;Menton;8775648;87756486;43.774703;7.493116;FR;Europe/Paris;Q180083;Train TER;Car TER;uic;642423112;Q1999123;;;87756486;Menton
+TN8775646;gare;Roquebrune-Cap-Martin;Roquebrune-Cap-Martin;Roquebrune-Cap-Martin;8775646;87756460;43.760605;7.457349;FR;Europe/Paris;Q220668;Train TER;;uic;642466130;Q1917107;;;87756460;Roquebrune-Cap-Martin
+TN8775647;gare;Carnolès;Carnolès;Carnolès;8775647;87756478;43.76196;7.481526;FR;Europe/Paris;Q220668;Train TER;;uic;642522545;Q2388773;;;87756478;Carnoles
+TN8775648;gare;Menton;Menton;Menton;8775648;87756486;43.774703;7.493116;FR;Europe/Paris;Q180083;Train TER;;uic;642423112;Q1999123;;;87756486;Menton
 TN8775649;gare;Menton - Garavan;Menton - Garavan;Menton - Garavan;8775649;87756494;43.78528;7.517236;FR;Europe/Paris;Q180083;Train TER;;uic;1697333877;Q3097023;;;87756494;Menton Garavan
-TN8775676;gare;La Trinité-Victor;La Trinité-Victor;La Trinité-Victor;8775676;87756767;43.74277;7.311501;FR;Europe/Paris;Q383475;Train TER;;uic;35727528;Q3096816;;;87756767;La Trinité Victor
-TN8775677;gare;Drap - Cantaron;Drap - Cantaron;Drap - Cantaron;8775677;87756775;43.759993;7.316915;FR;Europe/Paris;Q845711;Train TER;;uic;1011304028;Q2608753;;;87756775;Drap - Cantaron
-TN8775678;gare;Peillon Sainte-Thècle;Peillon Sainte-Thècle;Peillon Sainte-Thècle;8775678;87756783;43.767924;7.366866;FR;Europe/Paris;Q327669;Train TER;;uic;10933427079;Q3097260;;;87756783;Peillon - Sainte-Thècle
-TN8775679;gare;Peille;Peille;Peille;8775679;87756791;43.791995;7.380066;FR;Europe/Paris;Q866754;Train TER;;uic;249625998;Q3097259;;;87756791;Peille
-TN8775680;gare;L´Escarène;L´Escarène;L´Escarène;8775680;87756809;43.839774;7.351922;FR;Europe/Paris;Q1002059;Train TER;;uic;3219013230;Q3096722;;;87756809;L'Escarène
-TN8775681;gare;Touët-de-l'Escarène;Touët-de-l'Escarène;Touët-de-l'Escarène;8775681;87756817;43.847002;7.364266;FR;Europe/Paris;Q569135;Train TER;;uic;10933399841;Q3097895;;;87756817;Touët-de-l'Escarène
-TN8775682;gare;Sospel;Sospel;Sospel;8775682;87756825;43.87642;7.453619;FR;Europe/Paris;Q467020;Train TER;;uic;10933411937;Q3097766;;;87756825;Sospel
-TN8775683;gare;Breil sur Roya;Breil sur Roya;Breil sur Roya;8775683;87756833;43.944053;7.516319;FR;Europe/Paris;Q321111;Train TER;;uic;1407569289;Q1922511;;;87756833;Breil-sur-Roya
+TN8775676;gare;La Trinité-Victor;La Trinité-Victor;La Trinité-Victor;8775676;87756767;43.74277;7.311501;FR;Europe/Paris;Q383475;Train TER;Car TER;uic;35727528;Q3096816;;;87756767;La Trinité Victor
+TN8775677;gare;Drap - Cantaron;Drap - Cantaron;Drap - Cantaron;8775677;87756775;43.759993;7.316915;FR;Europe/Paris;Q845711;Train TER;Car TER;uic;1011304028;Q2608753;;;87756775;Drap - Cantaron
+TN8775678;gare;Peillon Sainte-Thècle;Peillon Sainte-Thècle;Peillon Sainte-Thècle;8775678;87756783;43.767924;7.366866;FR;Europe/Paris;Q327669;Train TER;Car TER;uic;10933427079;Q3097260;;;87756783;Peillon - Sainte-Thècle
+TN8775679;gare;Peille;Peille;Peille;8775679;87756791;43.791995;7.380066;FR;Europe/Paris;Q866754;Train TER;Car TER;uic;249625998;Q3097259;;;87756791;Peille
+TN8775680;gare;L´Escarène;L´Escarène;L´Escarène;8775680;87756809;43.839774;7.351922;FR;Europe/Paris;Q1002059;Train TER;Car TER;uic;3219013230;Q3096722;;;87756809;L'Escarène
+TN8775681;gare;Touët-de-l'Escarène;Touët-de-l'Escarène;Touët-de-l'Escarène;8775681;87756817;43.847002;7.364266;FR;Europe/Paris;Q569135;Train TER;Car TER;uic;10933399841;Q3097895;;;87756817;Touët-de-l'Escarène
+TN8775682;gare;Sospel;Sospel;Sospel;8775682;87756825;43.87642;7.453619;FR;Europe/Paris;Q467020;Train TER;Car TER;uic;10933411937;Q3097766;;;87756825;Sospel
+TN8775683;gare;Breil sur Roya;Breil sur Roya;Breil sur Roya;8775683;87756833;43.944053;7.516319;FR;Europe/Paris;Q321111;Train TER;Car TER;uic;1407569289;Q1922511;;;87756833;Breil-sur-Roya
 TN8775685;gare;Fontan - Saorge;Fontan - Saorge;Fontan - Saorge;8775685;87756858;43.996705;7.551606;FR;Europe/Paris;Q846521;Train TER;;uic;1030666588;Q3096450;;;87756858;Fontan - Saorge
 TN8775686;gare;Saint-Dalmas-de-Tende;Saint-Dalmas-de-Tende;Saint-Dalmas-de-Tende;8775686;87756866;44.055874;7.584006;FR;Europe/Paris;Q236609;Train TER;;uic;11292675871;Q920420;;;87756866;Saint-Dalmas de Tende
 TN8775687;gare;La Brigue;La Brigue;La Brigue;8775687;87756874;44.062567;7.605624;FR;Europe/Paris;Q387498;Train TER;;uic;1022553570;Q3096761;;;87756874;La Brigue
@@ -3206,7 +3202,7 @@ TN8775774;gare;La Frayère;La Frayère;La Frayère;8775774;87757740;43.558097;6.
 TN8775775;gare;Le Bosquet;Le Bosquet;Le Bosquet;8775775;87757757;43.551065;6.981968;FR;Europe/Paris;Q39984;Train TER;;uic;8196293190;Q1958124;;;87757757;Le Bosquet
 TN8775929;gare;Picon Busserine;Picon Busserine;Picon Busserine;8775929;87759290;43.331082;5.393064;FR;Europe/Paris;Q23482;Train TER;;uic;13192277158;Q2308570;;;87759290;Picon Busserine
 TN8775931;gare;Saint-Joseph-le-Castellas;Saint-Joseph-le-Castellas;Saint-Joseph-le-Castellas;8775931;87759316;43.352005;5.377114;FR;Europe/Paris;Q23482;Train TER;;uic;13191454096;Q938931;;;87759316;Saint-Joseph le Castellas
-TN8776100;gare;Valence-Ville;Valence-Ville;Valence-Ville;8776100;87761007;44.927829;4.893471;FR;Europe/Paris;Q8848;TGV INOUI|Train TER;Car TER;uic;10935384072;Q3097931;;;87761007;Valence Ville
+TN8776100;gare;Valence-Ville;Valence-Ville;Valence-Ville;8776100;87761007;44.927829;4.893471;FR;Europe/Paris;Q8848;INTERCITES de nuit|TGV INOUI|Train TER;Car TER;uic;10935384072;Q3097931;;;87761007;Valence Ville
 TN8776105;arret_car;Oingt Route de Saint-Laurent;Oingt Route de Saint-Laurent;Oingt Route de Saint-Laurent;8776105;87761056;45.946037;4.581479;FR;Europe/Paris;Q27838602;;Car TER;gtfs;;;;;87761056;Oingt Route de Saint-Laurent
 TN8776106;arret_car;Val-d'Oingt - Saint-Laurent-d'Oingt Bourg;Val-d'Oingt - Saint-Laurent-d'Oingt Bourg;Val-d'Oingt - Saint-Laurent-d'Oingt Bourg;8776106;87761064;45.945156;4.563591;FR;Europe/Paris;Q27838602;;Car TER;gtfs;;;;;87761064;Val-d'Oingt - Saint-Laurent-d'Oingt Bourg
 TN8776107;arret_car;Val-d'Oingt - Saint-Laurent-d'Oingt Gare;Val-d'Oingt - Saint-Laurent-d'Oingt Gare;Val-d'Oingt - Saint-Laurent-d'Oingt Gare;8776107;87761072;45.932289;4.551666;FR;Europe/Paris;Q27838602;;Car TER;gtfs;;;;;87761072;Val-d'Oingt - Saint-Laurent-d'Oingt Gare
@@ -3248,10 +3244,10 @@ TN8776400;gare;Montélimar;Montélimar;Montélimar;8776400;87764001;44.559014;4.
 TN8776429;gare;Donzère;Donzère;Donzère;8776429;87764290;44.443339;4.704479;FR;Europe/Paris;Q817843;Train TER;;uic;10940383486;Q2161382;;;87764290;Donzère
 TN8776430;gare;Pierrelatte;Pierrelatte;Pierrelatte;8776430;87764308;44.374704;4.704055;FR;Europe/Paris;Q324027;Train TER;Car TER;uic;10940381731;Q1873503;;;87764308;Pierrelatte
 TN8776435;gare;Bollène - La Croisière;Bollène - La Croisière;Bollène - La Croisière;8776435;87764357;44.271569;4.708125;FR;Europe/Paris;Q331579;Train TER;;uic;4348387689;Q3096014;;;87764357;Bollène la Croisière
-TN8776440;arret_car;Le Pouzin Place Maréchal Leclerc;Le Pouzin Place Maréchal Leclerc;Le Pouzin Place Maréchal Leclerc;8776440;87764407;44.756135;4.747765;FR;Europe/Paris;Q625492;;Car TER;gtfs;;;;;87764407;Le Pouzin Place Maréchal Leclerc
+TN8776440;arret_car;Le Pouzin Place Maréchal Leclerc;Le Pouzin Place Maréchal Leclerc;Le Pouzin Place Maréchal Leclerc;8776440;87764407;44.757365;4.750097;FR;Europe/Paris;Q625492;;Car TER;gtfs;;;;;87764407;Le Pouzin Place Maréchal Leclerc
 TN8776447;gare;Le Teil;Le Teil;Le Teil;8776447;87764472;44.552452;4.686184;FR;Europe/Paris;Q384423;Train TER;;uic;4290857008;Q3098232;;XFLTE;87764472;Le Teil
-TN8776455;gare;Pont-Saint-Esprit;Pont-Saint-Esprit;Pont-Saint-Esprit;8776455;87764555;44.253506;4.643134;FR;Europe/Paris;Q243074;Train TER;;uic;10940388948;Q3096014;;;87764555;Pont-Saint-Esprit
-TN8776457;gare;Bagnols-sur-Cèze;Bagnols-sur-Cèze;Bagnols-sur-Cèze;8776457;87764571;44.161658;4.626965;FR;Europe/Paris;Q274183;Train TER;;uic;10940381916;Q113573952;;;87764571;Bagnols-sur-Cèze
+TN8776455;gare;Pont-Saint-Esprit;Pont-Saint-Esprit;Pont-Saint-Esprit;8776455;87764555;44.253506;4.643134;FR;Europe/Paris;Q243074;Train TER;Car TER;uic;10940388948;Q3096014;;;87764555;Pont-Saint-Esprit
+TN8776457;gare;Bagnols-sur-Cèze;Bagnols-sur-Cèze;Bagnols-sur-Cèze;8776457;87764571;44.161658;4.626965;FR;Europe/Paris;Q274183;Train TER;Car TER;uic;10940381916;Q113573952;;;87764571;Bagnols-sur-Cèze
 TN8776471;arret_car;Saint-Jean-le-Centenier Centre;Saint-Jean-le-Centenier Centre;Saint-Jean-le-Centenier Centre;8776471;87764712;44.58959;4.536514;FR;Europe/Paris;Q380211;;Car TER;gtfs;;;;;87764712;Saint-Jean-le-Centenier Centre
 TN8776472;arret_car;Villeneuve-de-Berg-Centre;Villeneuve-de-Berg-Centre;Villeneuve-de-Berg-Centre;8776472;87764720;44.554919;4.498102;FR;Europe/Paris;Q325169;;Car TER;gtfs;;;;;87764720;Villeneuve-de-Berg-Centre
 TN8776500;gare;Avignon-Centre;Avignon-Centre;Avignon-Centre;8776500;87765008;43.941688;4.805278;FR;Europe/Paris;Q6397;TGV INOUI|Train TER;Car TER;uic;3805976209;Q2553804;;;87765008;Avignon Centre
@@ -3276,7 +3272,6 @@ TN8776594;arret_car;Saint-Florentin Gare routière;Saint-Florentin Gare routièr
 TN8776599;arret_car;Vallon-en-Sully Marché couvert;Vallon-en-Sully Marché couvert;Vallon-en-Sully Marché couvert;8776599;87765990;46.535873;2.607845;FR;Europe/Paris;Q993870;;Car TER;gtfs;;;;;87765990;Vallon-en-Sully Marché couvert
 TN8776682;arret_car;Valençay Collège Alain Fournier;Valençay Collège Alain Fournier;Valençay Collège Alain Fournier;8776682;87766824;47.164462;1.564392;FR;Europe/Paris;Q474503;;Car TER;gtfs;;;;;87766824;Valençay Collège Alain Fournier
 TN8776683;arret_car;Le Teil Rond-point Bénistant;Le Teil Rond-point Bénistant;Le Teil Rond-point Bénistant;8776683;87766832;44.554241;4.688876;FR;Europe/Paris;Q384423;;Car TER;gtfs;;;;;87766832;Le Teil Rond-point Bénistant
-TN8776685;arret_car;Les Iles Grassonet;Les Iles Grassonet;Les Iles Grassonet;8776685;87766857;45.97043;6.91658;FR;Europe/Paris;Q83236;;Car TER;gtfs;;;;;87766857;Les Iles Grassonet
 TN8776726;arret_car;Nances Maison du Lac;Nances Maison du Lac;Nances Maison du Lac;8776726;87767269;45.57481;5.80134;FR;Europe/Paris;Q430205;;Car TER;gtfs;;;;;87767269;Nances Maison du Lac
 TN8776780;arret_car;Lusse-tunnel Maurice Lemaire;Lusse-tunnel Maurice Lemaire;Lusse-tunnel Maurice Lemaire;8776780;87767806;48.289812;7.109162;FR;Europe/Paris;Q1102819;;Car TER;gtfs;;;;;87767806;Lusse-tunnel Maurice Lemaire
 TN8776896;arret_car;Contrexéville Centre;Contrexéville Centre;Contrexéville Centre;8776896;87768960;48.184181;5.894705;FR;Europe/Paris;Q633628;;Car TER;gtfs;;;;;87768960;Contrexéville Centre
@@ -3287,7 +3282,7 @@ TN8777300;gare;Montpellier Saint-Roch;Montpellier Saint-Roch;Montpellier Saint-R
 TN8777301;arret_car;Ausson Rue des Serres;Ausson Rue des Serres;Ausson Rue des Serres;8777301;87773010;43.092603;0.585003;FR;Europe/Paris;Q1148546;;Car TER;gtfs;;;;;87773010;Ausson Rue des Serres
 TN8777309;arret_car;Villeneuve-de-Rivière Comminges;Villeneuve-de-Rivière Comminges;Villeneuve-de-Rivière Comminges;8777309;87773093;43.117384;0.666257;FR;Europe/Paris;Q1143525;;Car TER;gtfs;;;;;87773093;Villeneuve-de-Rivière Comminges
 TN8777320;gare;Sète;Sète;Sète;8777320;87773200;43.412844;3.69653;FR;Europe/Paris;Q191141;INTERCITES|INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;10931296312;Q2202002;;;87773200;Sète
-TN8777340;gare;Lunel;Lunel;Lunel;8777340;87773408;43.679598;4.130984;FR;Europe/Paris;Q318082;Train TER;;uic;8512974532;Q2277923;;;87773408;Lunel
+TN8777340;gare;Lunel;Lunel;Lunel;8777340;87773408;43.679598;4.130984;FR;Europe/Paris;Q318082;Train TER;Car TER;uic;8512974532;Q2277923;;;87773408;Lunel
 TN8777342;gare;Lunel-Viel;Lunel-Viel;Lunel-Viel;8777342;87773424;43.681147;4.09358;FR;Europe/Paris;Q204505;Train TER;;uic;5077322497;Q3096922;;;87773424;Lunel-Viel
 TN8777343;gare;Valergues - Lansargues;Valergues - Lansargues;Valergues - Lansargues;8777343;87773432;43.6727;4.060162;FR;Europe/Paris;Q173507;Train TER;;uic;8661786874;Q3097921;;;87773432;Valergues - Lansargues
 TN8777345;gare;Baillargues;Baillargues;Baillargues;8777345;87773457;43.653764;4.00836;FR;Europe/Paris;Q1073102;Train TER;;uic;4255936001;Q3095890;;;87773457;Baillargues
@@ -3317,7 +3312,7 @@ TN8777525;gare;Grand-Combe-la-Pise;Grand-Combe-la-Pise;Grand-Combe-la-Pise;87775
 TN8777528;gare;Alès;Alès;Alès;8777528;87775288;44.127864;4.084933;FR;Europe/Paris;Q193183;Train TER;Car TER;uic;3947473630;Q3095618;;;87775288;Alès
 TN8777534;gare;Boucoiran;Boucoiran;Boucoiran;8777534;87775346;43.992694;4.187634;FR;Europe/Paris;Q636753;Train TER;;gtfs;;;;;87775346;Boucoiran
 TN8777535;gare;Nozières - Brignon;Nozières - Brignon;Nozières - Brignon;8777535;87775353;43.975941;4.207202;FR;Europe/Paris;Q636753;Train TER;;uic;9587553242;Q3097231;;;87775353;Nozières - Brignon
-TN8777536;gare;Saint-Geniès-de-Malgoirès;Saint-Geniès-de-Malgoirès;Saint-Geniès-de-Malgoirès;8777536;87775361;43.95018;4.214805;FR;Europe/Paris;Q245721;Train TER;;uic;7270748259;Q3097537;;;87775361;Saint-Geniès-de-Malgoirès
+TN8777536;gare;Saint-Geniès-de-Malgoirès;Saint-Geniès-de-Malgoirès;Saint-Geniès-de-Malgoirès;8777536;87775361;43.95018;4.214805;FR;Europe/Paris;Q245721;Train TER;Car TER;uic;7270748259;Q3097537;;;87775361;Saint-Geniès-de-Malgoirès
 TN8777537;gare;Fons-St-Mamert;Fons-St-Mamert;Fons-St-Mamert;8777537;87775379;43.907319;4.206659;FR;Europe/Paris;Q1009356;Train TER;;uic;10217275491;Q3096441;;;87775379;Fons - Saint-Mamert
 TN8777579;gare;Générac;Générac;Générac;8777579;87775791;43.732341;4.343345;FR;Europe/Paris;Q477780;Train TER;;uic;415592704;Q3096603;;;87775791;Générac
 TN8777580;gare;Beauvoisin;Beauvoisin;Beauvoisin;8777580;87775809;43.724549;4.321378;FR;Europe/Paris;Q274333;Train TER;;uic;415592608;Q3095936;;;87775809;Beauvoisin
@@ -3328,13 +3323,13 @@ TN8777584;gare;Saint-Laurent-d'Aigouze;Saint-Laurent-d'Aigouze;Saint-Laurent-d'A
 TN8777585;gare;Aigues-Mortes;Aigues-Mortes;Aigues-Mortes;8777585;87775858;43.570917;4.191026;FR;Europe/Paris;Q193809;Train TER;;uic;847948799;Q3095590;;;87775858;Aigues-Mortes
 TN8777586;gare;Le Grau-du-Roi;Le Grau-du-Roi;Le Grau-du-Roi;8777586;87775866;43.537013;4.140348;FR;Europe/Paris;Q328427;Train TER;;uic;7270769393;Q3098203;;;87775866;Le Grau-du-Roi
 TN8778100;gare;Béziers;Béziers;Béziers;8778100;87781005;43.336099;3.218776;FR;Europe/Paris;Q174019;INTERCITES|INTERCITES de nuit|Navette|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;10933961551;Q2801649;;;87781005;Béziers
-TN8778106;gare;Port-la-Nouvelle;Port-la-Nouvelle;Port-la-Nouvelle;8778106;87781062;43.019949;3.038785;FR;Europe/Paris;Q626282;Train TER;Car TER;uic;10935389113;Q2460968;;;87781062;Port-la-Nouvelle
-TN8778108;gare;Leucate-La Franqui;Leucate-La Franqui;Leucate-La Franqui;8778108;87781088;42.932773;3.01287;FR;Europe/Paris;Q459673;Train TER;Car TER;uic;8312594831;Q2062228;;;87781088;Leucate la Franqui
+TN8778106;gare;Port-la-Nouvelle;Port-la-Nouvelle;Port-la-Nouvelle;8778106;87781062;43.019949;3.038785;FR;Europe/Paris;Q626282;Train TER;;uic;10935389113;Q2460968;;;87781062;Port-la-Nouvelle
+TN8778108;gare;Leucate-La Franqui;Leucate-La Franqui;Leucate-La Franqui;8778108;87781088;42.932773;3.01287;FR;Europe/Paris;Q459673;Train TER;;uic;8312594831;Q2062228;;;87781088;Leucate la Franqui
 TN8778110;gare;Narbonne;Narbonne;Narbonne;8778110;87781104;43.190629;3.00562;FR;Europe/Paris;Q6555;INTERCITES|INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER|Car à réservation;uic;8077757623;Q2591311;;;87781104;Narbonne
-TN8778116;gare;Coursan;Coursan;Coursan;8778116;87781161;43.233743;3.050913;FR;Europe/Paris;Q379490;Train TER;;uic;10935382415;Q3096305;;;87781161;Coursan
-TN8778126;gare;Vias;Vias;Vias;8778126;87781260;43.315758;3.425362;FR;Europe/Paris;Q815683;Train TER;;uic;1314291681;Q3097969;;;87781260;Vias
+TN8778116;gare;Coursan;Coursan;Coursan;8778116;87781161;43.233743;3.050913;FR;Europe/Paris;Q379490;Train TER;Car TER;uic;10935382415;Q3096305;;;87781161;Coursan
+TN8778126;gare;Vias;Vias;Vias;8778126;87781260;43.315758;3.425362;FR;Europe/Paris;Q815683;Train TER;Car TER;uic;1314291681;Q3097969;;;87781260;Vias
 TN8778127;gare;Agde;Agde;Agde;8778127;87781278;43.317453;3.466103;FR;Europe/Paris;Q191396;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;6219752308;Q2028453;;;87781278;Agde
-TN8778129;gare;Marseillan-Plage;Marseillan-Plage;Marseillan-Plage;8778129;87781294;43.318181;3.535529;FR;Europe/Paris;Q694955;Train TER;;uic;10931276738;Q2125963;;;87781294;Marseillan Plage
+TN8778129;gare;Marseillan-Plage;Marseillan-Plage;Marseillan-Plage;8778129;87781294;43.318181;3.535529;FR;Europe/Paris;Q694955;Train TER;Car TER;uic;10931276738;Q2125963;;;87781294;Marseillan Plage
 TN8778153;gare;Montpaon;Montpaon;Montpaon;8778153;87781534;43.868534;3.109709;FR;Europe/Paris;Q1374013;Train TER;;uic;11134203425;Q3097085;;;87781534;Montpaon
 TN8778154;gare;Ceilhes - Roqueredonde;Ceilhes - Roqueredonde;Ceilhes - Roqueredonde;8778154;87781542;43.812358;3.155196;FR;Europe/Paris;Q198864;INTERCITES|Train TER;;uic;444383654;Q3096153;;;87781542;Ceilhes - Roqueredonde
 TN8778155;gare;Les Cabrils;Les Cabrils;Les Cabrils;8778155;87781559;43.779993;3.186025;FR;Europe/Paris;Q198864;Train TER;;uic;444383478;Q3098145;;;87781559;Les Cabrils
@@ -3354,7 +3349,7 @@ TN8778332;gare;Banassac - La Canourgue;Banassac - La Canourgue;Banassac - La Can
 TN8778334;gare;Campagnac - Saint-Geniez;Campagnac - Saint-Geniez;Campagnac - Saint-Geniez;8778334;87783340;44.422;3.066396;FR;Europe/Paris;Q1152945;INTERCITES|Train TER;;uic;1027947109;Q3096117;;;87783340;Campagnac - Saint-Geniez
 TN8778336;gare;Sévérac-le-Château;Sévérac-le-Château;Sévérac-le-Château;8778336;87783365;44.324634;3.056986;FR;Europe/Paris;Q21619554;INTERCITES|Train TER;Car TER;uic;11134203424;Q2191151;;;87783365;Sévérac-le-Château
 TN8778339;arret_car;Aguessac Avenue de Causses;Aguessac Avenue de Causses;Aguessac Avenue de Causses;8778339;87783399;44.153724;3.097892;FR;Europe/Paris;Q1082230;;Car TER;gtfs;;;;;87783399;Aguessac Avenue de Causses
-TN8778342;gare;Saint-Georges-de-Luzençon;Saint-Georges-de-Luzençon;Saint-Georges-de-Luzençon;8778342;87783423;44.066553;2.983784;FR;Europe/Paris;Q630849;INTERCITES|Train TER;;gtfs;;;;;87783423;Saint-Georges-de-Luzençon
+TN8778342;gare;Saint-Georges-de-Luzençon;Saint-Georges-de-Luzençon;Saint-Georges-de-Luzençon;8778342;87783423;44.065786;2.98367;FR;Europe/Paris;Q630849;INTERCITES|Train TER;;gtfs;;;;;87783423;Saint-Georges-de-Luzençon
 TN8778343;gare;Saint-Rome-de-Cernon;Saint-Rome-de-Cernon;Saint-Rome-de-Cernon;8778343;87783431;44.013991;2.967359;FR;Europe/Paris;Q932526;INTERCITES|Train TER;;uic;348356697;Q3097612;;;87783431;Saint-Rome-de-Cernon
 TN8778345;gare;Tournemire - Roquefort;Tournemire - Roquefort;Tournemire - Roquefort;8778345;87783456;43.970018;3.016644;FR;Europe/Paris;Q932009;INTERCITES|Train TER;;uic;9689376063;Q3097889;;;87783456;Tournemire - Roquefort
 TN8778351;gare;Les Salelles;Les Salelles;Les Salelles;8778351;87783514;44.483246;3.280276;FR;Europe/Paris;Q670001;Train TER;;uic;543749218;Q3126261;;;87783514;Les Salelles
@@ -3368,22 +3363,22 @@ TN8778367;gare;Belvezet;Belvezet;Belvezet;8778367;87783670;44.561797;3.751892;FR
 TN8778375;arret_car;Bertholène Centre;Bertholène Centre;Bertholène Centre;8778375;87783753;44.393806;2.776709;FR;Europe/Paris;Q1020455;;Car TER;gtfs;;;;;87783753;Bertholène Centre
 TN8778379;arret_car;Severac-D-Aveyron Recoules;Severac-D-Aveyron Recoules;Severac-D-Aveyron Recoules;8778379;87783795;44.341035;2.96732;FR;Europe/Paris;Q21619554;;Car TER;gtfs;;;;;87783795;Severac-D-Aveyron Recoules
 TN8778400;gare;Perpignan;Gare de Perpignan;Gare de Perpignan;8778400;87784009;42.696244;2.879693;FR;Europe/Paris;Q6730;INTERCITES de nuit|OUIGO|TGV INOUI|Train TER;Car TER;uic;448465221;Q2283118;;;87784009;Perpignan
-TN8778415;gare;Salses;Salses;Salses;8778415;87784157;42.835596;2.917463;FR;Europe/Paris;Q821246;Train TER;Car TER;uic;10935389112;Q2054027;;;87784157;Salses
-TN8778417;gare;Rivesaltes;Rivesaltes;Rivesaltes;8778417;87784173;42.76639;2.867744;FR;Europe/Paris;Q689466;Train TER;Car TER;uic;10935387511;;;;87784173;Rivesaltes
-TN8778420;gare;Elne;Elne;Elne;8778420;87784207;42.597123;2.963437;FR;Europe/Paris;Q23073;INTERCITES de nuit|Train TER;Car TER;uic;5669434151;Q2016019;;;87784207;Elne
-TN8778423;gare;Argelès-sur-Mer;Argelès-sur-Mer;Argelès-sur-Mer;8778423;87784231;42.543775;3.022118;FR;Europe/Paris;Q644728;INTERCITES de nuit|Train TER;Car TER;uic;1356834411;Q3033406;;;87784231;Argelès-sur-Mer
-TN8778425;gare;Collioure;Collioure;Collioure;8778425;87784256;42.526883;3.078101;FR;Europe/Paris;Q254829;INTERCITES de nuit|Train TER;Car TER;uic;10940364804;Q2315101;;;87784256;Collioure
-TN8778426;gare;Port-Vendres;Port-Vendres;Port-Vendres;8778426;87784264;42.513461;3.102606;FR;Europe/Paris;Q204648;INTERCITES de nuit|Train TER;Car TER;uic;5669448842;Q2212891;;;87784264;Port-Vendres
-TN8778429;gare;Banyuls-sur-Mer;Banyuls-sur-Mer;Banyuls-sur-Mer;8778429;87784298;42.483018;3.124881;FR;Europe/Paris;Q6753;INTERCITES de nuit|Train TER;Car TER;uic;11611812802;Q2243839;;;87784298;Banyuls-sur-Mer
+TN8778415;gare;Salses;Salses;Salses;8778415;87784157;42.835596;2.917463;FR;Europe/Paris;Q821246;Train TER;;uic;10935389112;Q2054027;;;87784157;Salses
+TN8778417;gare;Rivesaltes;Rivesaltes;Rivesaltes;8778417;87784173;42.76639;2.867744;FR;Europe/Paris;Q689466;Train TER;;uic;10935387511;;;;87784173;Rivesaltes
+TN8778420;gare;Elne;Elne;Elne;8778420;87784207;42.597123;2.963437;FR;Europe/Paris;Q23073;INTERCITES de nuit|Train TER;;uic;5669434151;Q2016019;;;87784207;Elne
+TN8778423;gare;Argelès-sur-Mer;Argelès-sur-Mer;Argelès-sur-Mer;8778423;87784231;42.543775;3.022118;FR;Europe/Paris;Q644728;INTERCITES de nuit|Train TER;;uic;1356834411;Q3033406;;;87784231;Argelès-sur-Mer
+TN8778425;gare;Collioure;Collioure;Collioure;8778425;87784256;42.526883;3.078101;FR;Europe/Paris;Q254829;INTERCITES de nuit|Train TER;;uic;10940364804;Q2315101;;;87784256;Collioure
+TN8778426;gare;Port-Vendres;Port-Vendres;Port-Vendres;8778426;87784264;42.513461;3.102606;FR;Europe/Paris;Q204648;INTERCITES de nuit|Train TER;;uic;5669448842;Q2212891;;;87784264;Port-Vendres
+TN8778429;gare;Banyuls-sur-Mer;Banyuls-sur-Mer;Banyuls-sur-Mer;8778429;87784298;42.483018;3.124881;FR;Europe/Paris;Q6753;INTERCITES de nuit|Train TER;;uic;11611812802;Q2243839;;;87784298;Banyuls-sur-Mer
 TN8778451;gare;Le Soler;Le Soler;Le Soler;8778451;87784512;42.679024;2.795188;FR;Europe/Paris;Q1163139;Train TER;Car TER;uic;9289429275;Q3098237;;;87784512;Le Soler
 TN8778452;gare;Saint-Féliu-d'Avall;Saint-Féliu-d'Avall;Saint-Féliu-d'Avall;8778452;87784520;42.677318;2.737829;FR;Europe/Paris;Q191008;Train TER;Car TER;uic;9288070933;Q1937209;;;87784520;Saint-Féliu-d'Avall
 TN8778454;gare;Millas;Millas;Millas;8778454;87784546;42.68895;2.693772;FR;Europe/Paris;Q1369210;Train TER;Car TER;uic;9286224580;Q2609571;;;87784546;Millas
 TN8778456;gare;Ille-sur-Têt;Ille-sur-Têt;Ille-sur-Têt;8778456;87784561;42.668226;2.624337;FR;Europe/Paris;Q689461;Train TER;Car TER;uic;13246593429;Q3095787;;;87784561;Ille-sur-Têt
-TN8778461;gare;Vinça;Vinça;Vinça;8778461;87784611;42.648153;2.527607;FR;Europe/Paris;Q1113972;Train TER;Car TER;uic;9737457187;Q3098022;;;87784611;Vinça
-TN8778462;gare;Marquixanes;Marquixanes;Marquixanes;8778462;87784629;42.642772;2.485829;FR;Europe/Paris;Q199734;Train TER;Car TER;uic;9737372885;Q2437638;;;87784629;Marquixanes
-TN8778463;gare;Prades - Molitg-les-Bains;Prades - Molitg-les-Bains;Prades - Molitg-les-Bains;8778463;87784637;42.617085;2.429486;FR;Europe/Paris;Q212450;Train TER;Car TER;gtfs;;;;;87784637;Prades - Molitg-les-Bains
-TN8778466;gare;Ria;Ria;Ria;8778466;87784660;42.603408;2.390749;FR;Europe/Paris;Q752117;Train TER;Car TER;gtfs;;;;;87784660;Ria
-TN8778468;gare;Villefranche - Vernet-les-Bains;Villefranche - Vernet-les-Bains;Villefranche - Vernet-les-Bains;8778468;87784686;42.5917;2.370354;FR;Europe/Paris;Q379442;Train TER;Car TER;gtfs;;;;;87784686;Villefranche - Vernet-les-Bains
+TN8778461;gare;Vinça;Vinça;Vinça;8778461;87784611;42.648153;2.527607;FR;Europe/Paris;Q1113972;Train TER;;uic;9737457187;Q3098022;;;87784611;Vinça
+TN8778462;gare;Marquixanes;Marquixanes;Marquixanes;8778462;87784629;42.642772;2.485829;FR;Europe/Paris;Q199734;Train TER;;uic;9737372885;Q2437638;;;87784629;Marquixanes
+TN8778463;gare;Prades - Molitg-les-Bains;Prades - Molitg-les-Bains;Prades - Molitg-les-Bains;8778463;87784637;42.617085;2.429486;FR;Europe/Paris;Q212450;Train TER;;gtfs;;;;;87784637;Prades - Molitg-les-Bains
+TN8778466;gare;Ria;Ria;Ria;8778466;87784660;42.603408;2.390749;FR;Europe/Paris;Q752117;Train TER;;gtfs;;;;;87784660;Ria
+TN8778468;gare;Villefranche - Vernet-les-Bains;Villefranche - Vernet-les-Bains;Villefranche - Vernet-les-Bains;8778468;87784686;42.5917;2.370354;FR;Europe/Paris;Q379442;Train TER;;gtfs;;;;;87784686;Villefranche - Vernet-les-Bains
 TN8778470;gare;Serdinya;Serdinya;Serdinya;8778470;87784702;42.566993;2.32298;FR;Europe/Paris;Q943165;Train TER;;uic;297607149;Q430759;;;87784702;Serdinya
 TN8778471;gare;Joncet;Joncet;Joncet;8778471;87784710;42.561548;2.31112;FR;Europe/Paris;Q943165;Train TER;;uic;349306741;Q2913010;;;87784710;Joncet
 TN8778472;gare;Olette - Canaveilles-les-Bains;Olette - Canaveilles-les-Bains;Olette - Canaveilles-les-Bains;8778472;87784728;42.55469;2.271943;FR;Europe/Paris;Q752260;Train TER;;uic;11142252692;Q2999397;;;87784728;Olette - Canaveilles les Bains
@@ -3404,7 +3399,7 @@ TN8778486;gare;Osséja;Osséja;Osséja;8778486;87784868;42.419967;1.977117;FR;Eu
 TN8778487;gare;Bourg-Madame;Bourg-Madame;Bourg-Madame;8778487;87784876;42.432494;1.948633;FR;Europe/Paris;Q329276;Train TER;;uic;345645681;Q2182626;;;87784876;Bourg-Madame
 TN8778488;gare;Ur-les-Escaldes;Ur-les-Escaldes;Ur-les-Escaldes;8778488;87784884;42.457477;1.940466;FR;Europe/Paris;Q632044;Train TER;;uic;341968236;Q1822149;;;87784884;Ur les Escaldes
 TN8778489;gare;Béna-Fanès;Béna-Fanès;Béna-Fanès;8778489;87784892;42.458077;1.916719;FR;Europe/Paris;Q752263;Train TER;;uic;2989645245;Q3096108;;;87784892;Bena Fanes
-TN8778500;gare;Cerbère;Cerbère;Cerbère;8778500;87785006;42.44156;3.163515;FR;Europe/Paris;Q6667;INTERCITES de nuit|Train TER;Car TER;uic;10940370468;Q977356;;;87785006;Cerbère
+TN8778500;gare;Cerbère;Cerbère;Cerbère;8778500;87785006;42.44156;3.163515;FR;Europe/Paris;Q6667;INTERCITES de nuit|Train TER;;uic;10940370468;Q977356;;;87785006;Cerbère
 TN8793698;arret_car;Buswiller-Eglise;Buswiller-Eglise;Buswiller-Eglise;8793698;87936989;48.819704;7.559656;FR;Europe/Paris;Q21246;;Car TER;gtfs;;;;;87936989;Buswiller-Eglise
 TN8814001;gare;Bruxelles-Midi - Brussel-Zuid;Brussels-Midi;Bruxelles-Midi - Brussel-Zuid;8814001;88140010;50.835775;4.336054;BE;Europe/Brussels;Q239;TGV INOUI|Train;;uic;17401552;Q800587;;XBB;88140010;Bruxelles Midi
 TN8866258;arret_car;Neufchâteau;Neufchâteau;Neufchâteau;8866258;88662585;49.854159;5.452589;BE;Europe/Brussels;Q650135;;Car TER;uic;5884549412;Q3097183;;;88662585;NEUFCHATEAU
@@ -3417,7 +3412,7 @@ TN8871712;gare;Lobbes;Lobbes;Lobbes;8871712;88717124;50.346173;4.261618;BE;Europ
 TN8871811;gare;Thuin;Thuin;Thuin;8871811;88718114;50.342534;4.288462;BE;Europe/Brussels;Q669186;Train TER;;uic;4793334874;Q2599197;;;88718114;THUIN
 TN8871829;gare;Hourpes;Hourpes;Hourpes;8871829;88718296;50.364913;4.308539;BE;Europe/Brussels;Q669186;Train TER;;uic;6015919700;Q659258;;;88718296;HOURPES
 TN8871837;gare;Landelies;Landelies;Landelies;8871837;88718379;50.377352;4.350608;BE;Europe/Brussels;Q668437;Train TER;;uic;6013522669;Q2326429;;;88718379;LANDELIES
-TN8871852;gare;Marchienne-Zone;Marchienne-Zone;Marchienne-Zone;8871852;88718528;50.397816;4.390431;BE;Europe/Brussels;Q81046;Train TER;;uic;6013524527;Q594080;;;88718528;MARCHIENNE-ZONE
+TN8871852;gare;Marchienne-Zone;Marchienne-Zone;Marchienne-Zone;8871852;88718528;50.397816;4.390431;BE;Europe/Brussels;Q941041;Train TER;;uic;6013524527;Q594080;;;88718528;MARCHIENNE-ZONE
 TN8872009;gare;Charleroi-Central;Charleroi-Central;Charleroi-Central;8872009;88720090;50.404735;4.438781;BE;Europe/Brussels;Q81046;Train TER;Car TER;uic;6010646002;Q2043526;;;88720090;Charleroi-Central
 TN8881000;gare;Mons;Mons;Mons;8881000;88810000;50.454044;3.941965;BE;Europe/Brussels;Q83407;Train;;uic;6360374596;Q3097068;;;88810000;Mons
 TN8885001;gare;Tournai;Tournai;Tournai;8885001;88850010;50.612929;3.397119;BE;Europe/Brussels;Q173219;Train TER;;uic;7072155262;Q283437;;;88850010;Tournai

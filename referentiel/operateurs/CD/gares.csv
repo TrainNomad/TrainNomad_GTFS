@@ -97,7 +97,7 @@ TN5433374;gare;Frýdlant nad Ostravicí-Nová Dědina;Frýdlant nad Ostravicí-N
 TN5433384;gare;Frýdlant nad Ostravicí zastávka;Frýdlant nad Ostravicí zastávka;Frýdlant nad Ostravicí zastávka;5433384;;49.585091;18.360574;CZ;Europe/Prague;Q1010131;Os;;nom;3514159892;Q9264233;;;-SR70S-CZ-33384;Frýdlant nad Ostravicí zastávka
 TN5433385;gare;Brno-Černovice;Brno-Černovice;Brno-Černovice;5433385;;49.188983;16.631238;CZ;Europe/Prague;Q14960;Os|Sp;;nom;3323463634;;;;-SR70S-CZ-33385;Brno-Černovice
 TN5433394;gare;Pržno;Pržno;Pržno;5433394;;49.617043;18.361907;CZ;Europe/Prague;Q2282744;Os;;nom;3256441426;Q11830573;;;-SR70ST-CZ-33394;Pržno
-TN5433395;gare;Brno-Židenice;Brno-Židenice;Brno-Židenice;5433395;;49.204145;16.636105;CZ;Europe/Prague;Q14960;Os|R|RJ|Sp;;uic;3325196997;Q25416073;;;-SR70ST-CZ-33395;Brno-Židenice
+TN5433395;gare;Brno-Židenice;Brno-Židenice;Brno-Židenice;5433395;;49.204145;16.636105;CZ;Europe/Prague;Q14960;Os|RJ|Sp;;uic;3325196997;Q25416073;;;-SR70ST-CZ-33395;Brno-Židenice
 TN5433404;gare;Fulnek;Fulnek;Fulnek;5433404;;49.713521;17.912744;CZ;Europe/Prague;Q740915;Os;;nom;3286013251;Q9264320;;;-SR70ST-CZ-33404;Fulnek
 TN5433405;gare;Brumov;Brumov;Brumov;5433405;;49.094263;18.036587;CZ;Europe/Prague;Q992481;Os;;uic;5652315511;Q18180153;;;-SR70ST-CZ-33405;Brumov
 TN5433412;gare;Halenkov zastávka;Halenkov zastávka;Halenkov zastávka;5433412;;49.316046;18.142161;CZ;Europe/Prague;Q1022338;Os;;nom;304916555;Q66827642;;;-SR70S-CZ-33412;Halenkov zastávka
@@ -240,7 +240,7 @@ TN5433974;gare;Lískovec u Frýdku;Lískovec u Frýdku;Lískovec u Frýdku;54339
 TN5433975;gare;Žabčice;Žabčice;Žabčice;5433975;;49.011178;16.59486;CZ;Europe/Prague;Q393323;Os;;nom;5256555775;Q18590894;;;-SR70S-CZ-33975;Žabčice
 TN5433982;gare;Libina;Libina;Libina;5433982;;49.878626;17.062252;CZ;Europe/Prague;Q574819;Os|Sp;;nom;1839088672;Q66889068;;;-SR70ST-CZ-33982;Libina
 TN5433984;gare;Louky nad Olší;Louky nad Olší;Louky nad Olší;5433984;;49.794616;18.587309;CZ;Europe/Prague;Q191793;Os;;nom;3272604322;Q9395131;;;-SR70ST-CZ-33984;Louky nad Olší
-TN5433985;gare;Hulín;Hulín;Hulín;5433985;;49.316462;17.476718;CZ;Europe/Prague;Q541071;LE|Os|R|Sp;;uic;3307230743;Q18180256;;;-SR70ST-CZ-33985;Hulín
+TN5433985;gare;Hulín;Hulín;Hulín;5433985;;49.316462;17.476718;CZ;Europe/Prague;Q541071;Ex|LE|Os|R|Sp;;uic;3307230743;Q18180256;;;-SR70ST-CZ-33985;Hulín
 TN5433992;gare;Hrabišín;Hrabišín;Hrabišín;5433992;;49.90798;17.038519;CZ;Europe/Prague;Q374844;Os|Sp;;nom;1839088718;Q66889073;;;-SR70S-CZ-33992;Hrabišín
 TN5433995;gare;Břest;Břest;Břest;5433995;;49.349624;17.455212;CZ;Europe/Prague;Q727681;Os;;nom;2411039639;Q19400467;;;-SR70S-CZ-33995;Břest
 TN5434005;gare;Třebětice;Třebětice;Třebětice;5434005;;49.317573;17.519508;CZ;Europe/Prague;Q968759;Os;;nom;3313933870;Q19401533;;;-SR70ST-CZ-34005;Třebětice
@@ -269,16 +269,13 @@ TN5434094;gare;Štáblovice;Štáblovice;Štáblovice;5434094;;49.900743;17.8230
 TN5434102;gare;Cholina;Cholina;Cholina;5434102;;49.658075;17.061099;CZ;Europe/Prague;Q744601;Os;;nom;848395046;Q40732816;;;-SR70S-CZ-34102;Cholina
 TN5434104;gare;Mosty u Jablunkova;Mosty u Jablunkova (Mosty koło Jabłonkowa);Mosty u Jablunkova (Mosty koło Jabłonkowa);5434104;;49.524271;18.75125;CZ;Europe/Prague;Q1949570;Os|Sp;;nom;3284163699;Q11786027;;;-SR70ST-CZ-34104;Mosty u Jablunkova
 TN5434105;gare;Chropyně;Chropyně;Chropyně;5434105;;49.369372;17.360896;CZ;Europe/Prague;Q1017232;Os|Sp;;nom;3303843465;Q18180177;;;-SR70ST-CZ-34105;Chropyně
-TN5434112;gare;Chudobín;Chudobín;Chudobín;5434112;;49.694582;17.038986;CZ;Europe/Prague;Q771524;Os;;nom;303423796;Q30237312;;;-SR70ST-CZ-34112;Chudobín
 TN5434114;gare;Mosty u Jablunkova zastávka;Mosty u Jablunkova zastávka;Mosty u Jablunkova zastávka;5434114;;49.509649;18.751521;CZ;Europe/Prague;Q1949570;Os|Sp;;nom;3284163698;Q11786026;;;-SR70S-CZ-34114;Mosty u Jablunkova zastávka
 TN5434115;gare;Věžky;Věžky;Věžky;5434115;;49.408214;17.416021;CZ;Europe/Prague;Q956108;Os|Sp;;nom;3303843476;Q19401592;;;-SR70ST-CZ-34115;Věžky
 TN5434122;gare;Litovel město;Litovel město;Litovel město;5434122;;49.701991;17.070975;CZ;Europe/Prague;Q383850;Os;;nom;10575566756;Q18180379;;;-SR70S-CZ-34122;Litovel město
 TN5434124;gare;Bohumín;Bohumín;Bohumín;5434124;;49.900749;18.359597;CZ;Europe/Prague;Q890949;EC|EN|IC|LE|Os|R|RJ|SC|Sp|rj;;nom;3271358589;Q4189414;;XTBO;-SR70ST-CZ-34124;Bohumín
 TN5434125;gare;Ivančice;Ivančice;Ivančice;5434125;;49.098224;16.372607;CZ;Europe/Prague;Q1008686;Os;;uic;5299798386;Q18180264;;;-SR70ST-CZ-34125;Ivančice
-TN5434132;gare;Mladeč;Mladeč;Mladeč;5434132;;49.704214;17.003572;CZ;Europe/Prague;Q771524;Os;;nom;57240278;Q41711078;;;-SR70ST-CZ-34132;Mladeč
 TN5434134;gare;Dolní Lutyně;Dolní Lutyně;Dolní Lutyně;5434134;;49.912487;18.414389;CZ;Europe/Prague;Q367267;Os|Sp;;nom;3272604317;Q11764364;;;-SR70S-CZ-34134;Dolní Lutyně
 TN5434135;gare;Ivančice město;Ivančice město;Ivančice město;5434135;;49.099013;16.382631;CZ;Europe/Prague;Q1008686;Os;;nom;5299798387;Q18430588;;;-SR70S-CZ-34135;Ivančice město
-TN5434142;gare;Mladeč jeskyně;Mladeč jeskyně;Mladeč jeskyně;5434142;;49.702783;17.014483;CZ;Europe/Prague;Q771524;Os;;nom;27557979;Q41711073;;;-SR70S-CZ-34142;Mladeč jeskyně
 TN5434144;gare;Nový Jičín město;Nový Jičín město;Nový Jičín město;5434144;;49.598921;18.008753;CZ;Europe/Prague;Q3584;Os;;nom;3282497088;Q18180440;;;-SR70ST-CZ-34144;Nový Jičín město
 TN5434145;gare;Ivanovice na Hané;Ivanovice na Hané;Ivanovice na Hané;5434145;;49.306339;17.087196;CZ;Europe/Prague;Q163881;Os|R|Sp;;uic;3305512299;Q18180266;;;-SR70ST-CZ-34145;Ivanovice na Hané
 TN5434152;gare;Myslechovice;Myslechovice;Myslechovice;5434152;;49.676977;17.0488;CZ;Europe/Prague;Q383850;Os;;nom;256086426;Q30279323;;;-SR70S-CZ-34152;Myslechovice
@@ -292,7 +289,7 @@ TN5434170;gare;Odry-Loučky;Odry-Loučky;Odry-Loučky;5434170;;49.685096;17.8093
 TN5434174;gare;Heřmánky;Heřmánky;Heřmánky;5434174;;49.71345;17.758288;CZ;Europe/Prague;Q2474380;Os;;nom;311318622;Q18425212;;;-SR70ST-CZ-34174;Heřmánky
 TN5434175;gare;Šebkovice;Šebkovice;Šebkovice;5434175;;49.122204;15.83255;CZ;Europe/Prague;Q246263;Os;;nom;33960497;Q48000557;;;-SR70S-CZ-34175;Šebkovice
 TN5434184;gare;Jakubčovice nad Odrou;Jakubčovice nad Odrou;Jakubčovice nad Odrou;5434184;;49.696834;17.788658;CZ;Europe/Prague;Q2065918;Os;;nom;311318530;Q18425664;;;-SR70S-CZ-34184;Jakubčovice nad Odrou
-TN5434194;gare;Opava východ;Opava východ;Opava východ;5434194;;49.934468;17.90805;CZ;Europe/Prague;Q156080;Os|R|RJ|SC|Sp;;uic;5648147239;Q11292194;;;-SR70ST-CZ-34194;Opava východ
+TN5434194;gare;Opava východ;Opava východ;Opava východ;5434194;;49.934468;17.90805;CZ;Europe/Prague;Q156080;Ex|Os|R|RJ|SC|Sp;;uic;5648147239;Q11292194;;;-SR70ST-CZ-34194;Opava východ
 TN5434195;gare;Jihlava-Bosch Diesel;Jihlava-Bosch Diesel;Jihlava-Bosch Diesel;5434195;;49.443766;15.608453;CZ;Europe/Prague;Q183111;Os;;nom;357565733;Q18180287;;;-SR70S-CZ-34195;Jihlava-Bosch Diesel
 TN5434204;gare;Opava-Komárov;Opava-Komárov;Opava-Komárov;5434204;;49.917554;17.958242;CZ;Europe/Prague;Q156080;Os|Sp;;uic;410713338;Q11798470;;;-SR70ST-CZ-34204;Opava-Komárov
 TN5434205;gare;Jihlava-Staré Hory;Jihlava-Staré Hory;Jihlava-Staré Hory;5434205;;49.410285;15.568081;CZ;Europe/Prague;Q183111;Os|Sp;;nom;549235472;Q18180290;;;-SR70S-CZ-34205;Jihlava-Staré Hory
@@ -326,7 +323,7 @@ TN5434345;gare;Šlapanice zastávka;Šlapanice zastávka;Šlapanice zastávka;54
 TN5434352;gare;Nový Malín;Nový Malín;Nový Malín;5434352;;49.945886;17.034444;CZ;Europe/Prague;Q1852554;Os|Sp;;nom;1839088673;Q66889071;;;-SR70S-CZ-34352;Nový Malín
 TN5434353;gare;N. Malín dřevosklad;N. Malín dřevosklad;N. Malín dřevosklad;5434353;;49.948654;17.035449;CZ;Europe/Prague;Q1852554;Os;;gtfs;;;;;-SR70ST-CZ-34353;N. Malín dřevosklad
 TN5434354;gare;Slezské Rudoltice;Slezské Rudoltice;Slezské Rudoltice;5434354;;50.212146;17.683517;CZ;Europe/Prague;Q675529;Os;;nom;311849810;Q9338543;;;-SR70ST-CZ-34354;Slezské Rudoltice
-TN5434362;gare;Olomouc hlavní nádraží;Olomouc hlavní nádraží;Olomouc hlavní nádraží;5434362;;49.592844;17.278345;CZ;Europe/Prague;Q81137;EC|EN|IC|LE|Os|R|RJ|SC|Sp|rj;;uic;2506544888;Q11798083;;;-SR70ST-CZ-34362;Olomouc hl. n.
+TN5434362;gare;Olomouc hlavní nádraží;Olomouc hlavní nádraží;Olomouc hlavní nádraží;5434362;;49.592844;17.278345;CZ;Europe/Prague;Q81137;EC|EN|Ex|IC|LE|Os|R|RJ|SC|Sp|rj;;uic;2506544888;Q11798083;;;-SR70ST-CZ-34362;Olomouc hl. n.
 TN5434364;gare;Ostrava hl. n.;Ostrava hl. n.;Ostrava hl. n.;5434364;;49.85173;18.266873;CZ;Europe/Prague;Q8385;EC|EN|IC|LE|Os|R|RJ|SC|Sp|rj;;gtfs;;;;;-SR70ST-CZ-34364;Ostrava hl. n.
 TN5434372;gare;Olomouc město;Olomouc město;Olomouc město;5434372;;49.594071;17.241231;CZ;Europe/Prague;Q81137;Os;;nom;5652249075;Q18180445;;;-SR70S-CZ-34372;Olomouc město
 TN5434374;gare;Ostrava-Kunčičky;Ostrava-Kunčičky;Ostrava-Kunčičky;5434374;;49.80905;18.296768;CZ;Europe/Prague;Q8385;Os;;nom;3259758512;Q11800682;;;-SR70S-CZ-34374;Ostrava-Kunčičky
@@ -343,7 +340,7 @@ TN5434405;gare;Zdětín u Prostějova;Zdětín u Prostějova;Zdětín u Prostěj
 TN5434412;gare;Olomouc-Smetanovy sady;Olomouc-Smetanovy sady;Olomouc-Smetanovy sady;5434412;;49.585563;17.25486;CZ;Europe/Prague;Q81137;Os;;nom;60779314;Q18180448;;;-SR70S-CZ-34412;Olomouc-Smetanovy sady
 TN5434414;gare;Ostrava-Kunčice;Ostrava-Kunčice;Ostrava-Kunčice;5434414;;49.790682;18.291476;CZ;Europe/Prague;Q8385;Os|Sp;;nom;3259758511;Q11800681;;;-SR70ST-CZ-34414;Ostrava-Kunčice
 TN5434424;gare;Ostrava-Bartovice;Ostrava-Bartovice;Ostrava-Bartovice;5434424;;49.778962;18.340204;CZ;Europe/Prague;Q8385;Os|Sp;;nom;3261711044;Q11800679;;;-SR70ST-CZ-34424;Ostrava-Bartovice
-TN5434434;gare;Ostrava-Svinov;Ostrava-Svinov;Ostrava-Svinov;5434434;;49.821034;18.209889;CZ;Europe/Prague;Q8385;EC|EN|IC|LE|Os|R|RJ|SC|Sp|rj;;uic;3268545280;Q11800686;;;-SR70ST-CZ-34434;Ostrava-Svinov
+TN5434434;gare;Ostrava-Svinov;Ostrava-Svinov;Ostrava-Svinov;5434434;;49.821034;18.209889;CZ;Europe/Prague;Q8385;EC|EN|Ex|IC|LE|Os|R|RJ|SC|Sp|rj;;uic;3268545280;Q11800686;;;-SR70ST-CZ-34434;Ostrava-Svinov
 TN5434444;gare;Ostrava-Třebovice;Ostrava-Třebovice;Ostrava-Třebovice;5434444;;49.842224;18.195684;CZ;Europe/Prague;Q8385;Os|Sp;;nom;1085335219;Q11800688;;;-SR70ST-CZ-34444;Ostrava-Třebovice
 TN5434454;gare;Polanka nad Odrou;Polanka nad Odrou;Polanka nad Odrou;5434454;;49.778984;18.189991;CZ;Europe/Prague;Q8385;Os;;nom;3268545283;Q11821547;;;-SR70S-CZ-34454;Polanka nad Odrou
 TN5434455;gare;Krahulov;Krahulov;Krahulov;5434455;;49.215259;15.804252;CZ;Europe/Prague;Q218508;Os;;uic;32548994;Q19400839;;;-SR70ST-CZ-34455;Krahulov
@@ -394,7 +391,7 @@ TN5434642;gare;Osek nad Bečvou;Osek nad Bečvou;Osek nad Bečvou;5434642;;49.51
 TN5434646;gare;Podhradní Lhota;Podhradní Lhota;Podhradní Lhota;5434646;;49.431884;17.797403;CZ;Europe/Prague;Q585020;Os|Sp;;nom;13075122297;Q54199766;;;-SR70S-CZ-34646;Podhradní Lhota
 TN5434652;gare;Prosenice;Prosenice;Prosenice;5434652;;49.503091;17.484798;CZ;Europe/Prague;Q475649;Os;;uic;3300077236;Q11827831;;;-SR70ST-CZ-34652;Prosenice
 TN5434655;gare;Kuřim;Kuřim;Kuřim;5434655;;49.300993;16.534637;CZ;Europe/Prague;Q1000046;Os|R|Sp;;uic;4529158564;Q18180354;;;-SR70ST-CZ-34655;Kuřim
-TN5434662;gare;Přerov;Přerov;Přerov;5434662;;49.447051;17.444805;CZ;Europe/Prague;Q470380;EC|IC|LE|Os|R|Sp;;uic;3266780396;Q11829137;;;-SR70ST-CZ-34662;Přerov
+TN5434662;gare;Přerov;Přerov;Přerov;5434662;;49.447051;17.444805;CZ;Europe/Prague;Q470380;EC|Ex|IC|LE|Os|R|Sp;;uic;3266780396;Q11829137;;;-SR70ST-CZ-34662;Přerov
 TN5434664;gare;Skrochovice;Skrochovice;Skrochovice;5434664;;50.018392;17.777026;CZ;Europe/Prague;Q2354067;Os|Sp;;uic;690739704;Q9338180;;;-SR70ST-CZ-34664;Skrochovice
 TN5434665;gare;Česká;Česká;Česká;5434665;;49.284873;16.566414;CZ;Europe/Prague;Q340674;Os;;gtfs;;;;;-SR70S-CZ-34665;Česká
 TN5434672;gare;Horní Moštěnice;Horní Moštěnice;Horní Moštěnice;5434672;;49.414976;17.452459;CZ;Europe/Prague;Q1021147;Os;;nom;3309263056;Q19400696;;;-SR70S-CZ-34672;Horní Moštěnice
@@ -402,13 +399,13 @@ TN5434674;gare;Holasovice;Holasovice;Holasovice;5434674;;50.000461;17.803774;CZ;
 TN5434675;gare;Kyjov;Kyjov;Kyjov;5434675;;49.016361;17.122929;CZ;Europe/Prague;Q104587;Os|Sp;;uic;5284794291;Q18180359;;;-SR70ST-CZ-34675;Kyjov
 TN5434684;gare;Úvalno;Úvalno;Úvalno;5434684;;50.049371;17.755018;CZ;Europe/Prague;Q330634;Os|Sp;;nom;948837549;Q9393695;;;-SR70S-CZ-34684;Úvalno
 TN5434685;gare;Kyjov zastávka;Kyjov zastávka;Kyjov zastávka;5434685;;49.003127;17.124004;CZ;Europe/Prague;Q104587;Os|Sp;;nom;5284794290;Q19366344;;;-SR70S-CZ-34685;Kyjov zastávka
-TN5434694;gare;Studénka;Studénka;Studénka;5434694;;49.707563;18.066607;CZ;Europe/Prague;Q1019371;EC|LE|Os|R|Sp;;nom;3268545288;Q9347487;;;-SR70ST-CZ-34694;Studénka
+TN5434694;gare;Studénka;Studénka;Studénka;5434694;;49.707563;18.066607;CZ;Europe/Prague;Q1019371;LE|Os|R|Sp;;nom;3268545288;Q9347487;;;-SR70ST-CZ-34694;Studénka
 TN5434702;gare;Příkazy;Příkazy;Příkazy;5434702;;49.638124;17.145206;CZ;Europe/Prague;Q2520071;Os;;uic;5652249077;Q41711005;;;-SR70ST-CZ-34702;Příkazy
 TN5434712;gare;Skrbeň;Skrbeň;Skrbeň;5434712;;49.638902;17.173953;CZ;Europe/Prague;Q1968612;Os;;nom;29587486;Q41711000;;;-SR70S-CZ-34712;Skrbeň
 TN5434725;gare;Letovice;Letovice;Letovice;5434725;;49.556452;16.570765;CZ;Europe/Prague;Q652710;Os|R|RJ|Sp|rj;;uic;4782523800;Q18180369;;;-SR70ST-CZ-34725;Letovice
 TN5434735;gare;Letovice zastávka;Letovice zastávka;Letovice zastávka;5434735;;49.535737;16.576707;CZ;Europe/Prague;Q652710;Os;;nom;5296220938;Q18431461;;;-SR70S-CZ-34735;Letovice zastávka
 TN5434745;gare;Rozhraní;Rozhraní;Rozhraní;5434745;;49.601706;16.532471;CZ;Europe/Prague;Q2003123;Os|R|Sp;;nom;5296220937;Q25412042;;;-SR70S-CZ-34745;Rozhraní
-TN5434755;gare;Luhačovice;Luhačovice;Luhačovice;5434755;;49.098866;17.75197;CZ;Europe/Prague;Q933480;Os|R;;uic;5648132743;Q18180395;;;-SR70ST-CZ-34755;Luhačovice
+TN5434755;gare;Luhačovice;Luhačovice;Luhačovice;5434755;;49.098866;17.75197;CZ;Europe/Prague;Q933480;Ex|Os|R;;uic;5648132743;Q18180395;;;-SR70ST-CZ-34755;Luhačovice
 TN5434765;gare;Biskupice u Luhačovic;Biskupice u Luhačovic;Biskupice u Luhačovic;5434765;;49.077042;17.716597;CZ;Europe/Prague;Q206035;Os;;nom;309073193;Q20706693;;;-SR70S-CZ-34765;Biskupice u Luhačovic
 TN5434772;gare;Hanušovice Holba;Hanušovice Holba;Hanušovice Holba;5434772;;50.058278;16.92304;CZ;Europe/Prague;Q691467;Os|Sp;;uic;249487194;Q18170982;;;-SR70S-CZ-34772;Hanušovice Holba
 TN5434775;gare;Polichno;Polichno;Polichno;5434775;;49.068529;17.711216;CZ;Europe/Prague;Q933480;Os;;nom;441943522;Q19401268;;;-SR70S-CZ-34775;Polichno
@@ -416,7 +413,7 @@ TN5434782;gare;Rožnov p.R.;Rožnov p.R.;Rožnov p.R.;5434782;;49.460536;18.1345
 TN5434785;gare;Luka nad Jihlavou;Luka nad Jihlavou;Luka nad Jihlavou;5434785;;49.369513;15.710046;CZ;Europe/Prague;Q1302045;Os;;uic;615189933;Q18180397;;;-SR70ST-CZ-34785;Luka nad Jihlavou
 TN5434795;gare;Malý Beranov;Malý Beranov;Malý Beranov;5434795;;49.402325;15.631541;CZ;Europe/Prague;Q183111;Os;;nom;427601188;Q18180403;;;-SR70S-CZ-34795;Malý Beranov
 TN5434802;gare;Zubří;Zubří;Zubří;5434802;;49.461069;18.094016;CZ;Europe/Prague;Q227614;Os;;nom;3294554833;Q66889161;;;-SR70S-CZ-34802;Zubří
-TN5434804;gare;Suchdol nad Odrou;Suchdol nad Odrou;Suchdol nad Odrou;5434804;;49.642506;17.938869;CZ;Europe/Prague;Q1553447;EC|LE|Os|R;;nom;3268545289;;;;-SR70ST-CZ-34804;Suchdol nad Odrou
+TN5434804;gare;Suchdol nad Odrou;Suchdol nad Odrou;Suchdol nad Odrou;5434804;;49.642506;17.938869;CZ;Europe/Prague;Q1553447;LE|Os|R;;nom;3268545289;;;;-SR70ST-CZ-34804;Suchdol nad Odrou
 TN5434805;gare;Bítovčice;Bítovčice;Bítovčice;5434805;;49.362984;15.73476;CZ;Europe/Prague;Q2331165;Os;;nom;525532756;Q18180136;;;-SR70S-CZ-34805;Bítovčice
 TN5434812;gare;Ruda nad Moravou;Ruda nad Moravou;Ruda nad Moravou;5434812;;49.983529;16.888585;CZ;Europe/Prague;Q1369160;Os|Sp;;uic;249487229;Q66889043;;;-SR70ST-CZ-34812;Ruda nad Moravou
 TN5434814;gare;Hladké Životice místní nádraží;Hladké Životice místní nádraží;Hladké Životice místní nádraží;5434814;;49.679783;17.950972;CZ;Europe/Prague;Q972857;Os;;nom;3286013253;Q9293127;;;-SR70S-CZ-34814;Hladké Životice místní nádraží
@@ -557,7 +554,7 @@ TN5435542;gare;Zábřeh na Moravě zastávka;Zábřeh na Moravě zastávka;Záb�
 TN5435555;gare;Ostrožská Nová Ves;Ostrožská Nová Ves;Ostrožská Nová Ves;5435555;;49.009767;17.436555;CZ;Europe/Prague;Q385890;Os|Sp;;uic;254185940;Q64578616;;;-SR70ST-CZ-35555;Ostrožská Nová Ves
 TN5435565;gare;Ostrožská Nová Ves lázně;Ostrožská Nová Ves lázně;Ostrožská Nová Ves lázně;5435565;;49.01817;17.44622;CZ;Europe/Prague;Q385890;Os;;nom;278766842;Q64578647;;;-SR70S-CZ-35565;Ostrožská Nová Ves lázně
 TN5435572;gare;Žulová;Žulová;Žulová;5435572;;50.307425;17.102791;CZ;Europe/Prague;Q394278;Os;;nom;5654402318;Q9398020;;;-SR70ST-CZ-35572;Žulová
-TN5435575;gare;Otrokovice;Otrokovice;Otrokovice;5435575;;49.202509;17.531271;CZ;Europe/Prague;Q1009095;EC|IC|LE|Os|R|Sp;;uic;3309263057;Q17749933;;;-SR70ST-CZ-35575;Otrokovice
+TN5435575;gare;Otrokovice;Otrokovice;Otrokovice;5435575;;49.202509;17.531271;CZ;Europe/Prague;Q1009095;EC|Ex|IC|LE|Os|R|Sp;;uic;3309263057;Q17749933;;;-SR70ST-CZ-35575;Otrokovice
 TN5435582;gare;Tomíkovice;Tomíkovice;Tomíkovice;5435582;;50.32274;17.107734;CZ;Europe/Prague;Q394278;Os;;nom;278989050;Q9359954;;;-SR70S-CZ-35582;Tomíkovice
 TN5435585;gare;Zlín-Malenovice zastávka;Zlín-Malenovice zastávka;Zlín-Malenovice zastávka;5435585;;49.205531;17.573726;CZ;Europe/Prague;Q171018;Os;;nom;3311646189;Q18432047;;;-SR70S-CZ-35585;Zlín-Malenovice zastávka
 TN5435605;gare;Podivín;Podivín;Podivín;5435605;;48.837471;16.854064;CZ;Europe/Prague;Q1023848;Os|R|Sp;;uic;5278491684;Q18180465;;;-SR70ST-CZ-35605;Podivín
@@ -608,7 +605,7 @@ TN5436105;gare;Slavkov u Brna;Slavkov u Brna;Slavkov u Brna;5436105;;49.144978;1
 TN5436115;gare;Křižanovice;Křižanovice;Křižanovice;5436115;;49.145018;16.935158;CZ;Europe/Prague;Q1797674;Os;;nom;5284710209;Q19400853;;;-SR70S-CZ-36115;Křižanovice
 TN5436125;gare;Sokolnice-Telnice;Sokolnice-Telnice;Sokolnice-Telnice;5436125;;49.108026;16.733452;CZ;Europe/Prague;Q2116416;Os;;uic;3320811581;Q19401432;;;-SR70ST-CZ-36125;Sokolnice-Telnice
 TN5436135;gare;Újezd u Brna;Újezd u Brna;Újezd u Brna;5436135;;49.107294;16.745661;CZ;Europe/Prague;Q330055;Os|R;;nom;3320826909;Q18180574;;;-SR70S-CZ-36135;Újezd u Brna
-TN5436145;gare;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;5436145;;49.07623;17.422699;CZ;Europe/Prague;Q1009003;EC|IC|LE|Os|R|Sp;;uic;5648139217;Q22808398;;;-SR70ST-CZ-36145;St. Město u U.H.
+TN5436145;gare;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;Staré Město u Uherského Hradiště;5436145;;49.07623;17.422699;CZ;Europe/Prague;Q1009003;EC|Ex|IC|LE|Os|R|Sp;;uic;5648139217;Q22808398;;;-SR70ST-CZ-36145;St. Město u U.H.
 TN5436155;gare;Kostelany nad Moravou;Kostelany nad Moravou;Kostelany nad Moravou;5436155;;49.052662;17.396974;CZ;Europe/Prague;Q2311504;Os;;nom;5664641433;Q19632456;;;-SR70S-CZ-36155;Kostelany nad Moravou
 TN5436165;gare;Stařeč;Stařeč;Stařeč;5436165;;49.195124;15.804287;CZ;Europe/Prague;Q955899;Os;;nom;33960429;Q48000063;;;-SR70ST-CZ-36165;Stařeč
 TN5436175;gare;Bzenec přívoz;Bzenec přívoz;Bzenec přívoz;5436175;;48.936728;17.2892;CZ;Europe/Prague;Q1018795;Os;;uic;5287656263;Q19400476;;;-SR70ST-CZ-36175;Bzenec přívoz
@@ -644,10 +641,10 @@ TN5436535;gare;Vladislav zastávka;Vladislav zastávka;Vladislav zastávka;54365
 TN5436545;gare;Poteč;Poteč;Poteč;5436545;;49.154383;18.042683;CZ;Europe/Prague;Q776127;Os;;nom;5652315513;Q24891773;;;-SR70S-CZ-36545;Poteč
 TN5436555;gare;Třebíč;Třebíč;Třebíč;5436555;;49.211483;15.884431;CZ;Europe/Prague;Q270704;Os|R|Sp;;uic;32548140;Q12060305;;;-SR70ST-CZ-36555;Třebíč
 TN5436565;gare;Třebíč-Borovina;Třebíč-Borovina;Třebíč-Borovina;5436565;;49.208892;15.852848;CZ;Europe/Prague;Q270704;Os;;nom;24586609;Q12060304;;;-SR70S-CZ-36565;Třebíč - Borovina
-TN5436575;gare;Uherské Hradiště;Uherské Hradiště;Uherské Hradiště;5436575;;49.066817;17.457248;CZ;Europe/Prague;Q502993;Os|R|Sp;;nom;5648136423;Q18180569;;;-SR70ST-CZ-36575;Uherské Hradiště
-TN5436585;gare;Uherský Brod;Uherský Brod;Uherský Brod;5436585;;49.021797;17.643616;CZ;Europe/Prague;Q664895;Os|R|Sp;;uic;265872420;Q18180571;;;-SR70ST-CZ-36585;Uherský Brod
+TN5436575;gare;Uherské Hradiště;Uherské Hradiště;Uherské Hradiště;5436575;;49.066817;17.457248;CZ;Europe/Prague;Q502993;Ex|Os|R|Sp;;nom;5648136423;Q18180569;;;-SR70ST-CZ-36575;Uherské Hradiště
+TN5436585;gare;Uherský Brod;Uherský Brod;Uherský Brod;5436585;;49.021797;17.643616;CZ;Europe/Prague;Q664895;Ex|Os|R|Sp;;uic;265872420;Q18180571;;;-SR70ST-CZ-36585;Uherský Brod
 TN5436595;gare;Havřice;Havřice;Havřice;5436595;;49.032623;17.620044;CZ;Europe/Prague;Q664895;Os|Sp;;nom;265872405;Q12019312;;;-SR70S-CZ-36595;Havřice
-TN5436615;gare;Újezdec u Luhačovic;Újezdec u Luhačovic;Újezdec u Luhačovic;5436615;;49.032837;17.685187;CZ;Europe/Prague;Q664895;Os|R|Sp;;uic;282153806;Q11086341;;;-SR70ST-CZ-36615;Újezdec u Luhačovic
+TN5436615;gare;Újezdec u Luhačovic;Újezdec u Luhačovic;Újezdec u Luhačovic;5436615;;49.032837;17.685187;CZ;Europe/Prague;Q664895;Ex|Os|R|Sp;;uic;282153806;Q11086341;;;-SR70ST-CZ-36615;Újezdec u Luhačovic
 TN5436625;gare;Šumice;Šumice;Šumice;5436625;;49.030025;17.723791;CZ;Europe/Prague;Q392676;Os|Sp;;nom;282258525;Q19401494;;;-SR70S-CZ-36625;Šumice
 TN5436635;gare;Valašské Klobouky;Valašské Klobouky;Valašské Klobouky;5436635;;49.142233;18.022643;CZ;Europe/Prague;Q1476819;Os;;uic;5652315512;Q18180579;;;-SR70ST-CZ-36635;Valašské Klobouky
 TN5436645;gare;Valašské Příkazy;Valašské Příkazy;Valašské Příkazy;5436645;;49.165798;18.063163;CZ;Europe/Prague;Q1022355;Os;;uic;282581889;Q66889130;;;-SR70S-CZ-36645;Valašské Příkazy
@@ -701,8 +698,7 @@ TN5437185;gare;Vlárský průsmyk;Vlárský průsmyk;Vlárský průsmyk;5437185;
 TN5437205;gare;Veselí nad Moravou-Zarazice;Veselí nad Moravou-Zarazice;Veselí nad Moravou-Zarazice;5437205;;48.937246;17.361455;CZ;Europe/Prague;Q105198;Os;;nom;5287727667;Q18430793;;;-SR70S-CZ-37205;Veselí nad Moravou-Zarazice
 TN5437795;gare;Veselí nad Moravou-Milokošť;Veselí nad Moravou-Milokošť;Veselí nad Moravou-Milokošť;5437795;;48.967021;17.398869;CZ;Europe/Prague;Q105198;Os;;nom;7461699884;Q64577773;;;-SR70S-CZ-37795;Veselí nad Moravou-Milokošť
 TN5438006;gare;Třemešná ve Sl. ú.r.;Třemešná ve Sl. ú.r.;Třemešná ve Sl. ú.r.;5438006;;50.200092;17.574196;CZ;Europe/Prague;Q1894584;Os;;gtfs;;;;;-SR70ST-CZ-38006;Třemešná ve Sl. ú.r.
-TN5438015;gare;Brno dolní nádraží;Brno dolní nádraží;Brno dolní nádraží;5438015;;49.18238;16.61548;CZ;Europe/Prague;Q14960;R;;uic;2398303487;Q921742;;;-SR70ST-CZ-38015;Brno dolní nádraží
-TN5438034;gare;Ostrava hl.n.;Ostrava hl.n.;Ostrava hl.n.;5438034;;49.850368;18.266931;CZ;Europe/Prague;Q8385;Os|RJ|Sp;;gtfs;;;;;-SR70ST-CZ-38034;Ostrava hl.n.
+TN5438034;gare;Ostrava hl.n.;Ostrava hl.n.;Ostrava hl.n.;5438034;;49.850368;18.266931;CZ;Europe/Prague;Q8385;Os|RJ|SC|Sp;;gtfs;;;;;-SR70ST-CZ-38034;Ostrava hl.n.
 TN5438394;gare;Bohumín-Vrbice S618a;Bohumín-Vrbice S618a;Bohumín-Vrbice S618a;5438394;;49.894025;18.340055;CZ;Europe/Prague;Q890949;RJ;;gtfs;;;;;-SR70S-CZ-38394;Bohumín-Vrbice S618a
 TN5453006;gare;Praha-Běchovice střed;Praha-Běchovice střed;Praha-Běchovice střed;5453006;;50.083606;14.614961;CZ;Europe/Prague;Q1085;Os;;nom;1736682552;Q22826083;;;-SR70ST-CZ-53006;Praha-Běchovice střed
 TN5453011;gare;Dobšice nad Cidlinou;Dobšice nad Cidlinou;Dobšice nad Cidlinou;5453011;;50.140095;15.26367;CZ;Europe/Prague;Q1233689;Os|Sp;;nom;25284118;Q56325044;;;-SR70ST-CZ-53011;Dobšice nad Cidlinou
@@ -738,7 +734,7 @@ TN5453096;gare;Poříčany;Poříčany;Poříčany;5453096;;50.111137;14.922149;
 TN5453100;gare;Lhota pod Libčany;Lhota pod Libčany;Lhota pod Libčany;5453100;;50.166702;15.696177;CZ;Europe/Prague;Q928017;Os;;nom;563215720;Q18431479;;;-SR70S-CZ-53100;Lhota pod Libčany
 TN5453106;gare;Klučov;Klučov;Klučov;5453106;;50.094289;14.903757;CZ;Europe/Prague;Q665073;Os;;nom;9186927;Q18180327;;;-SR70S-CZ-53106;Klučov
 TN5453109;gare;Křešice u Litoměřic;Křešice u Litoměřic;Křešice u Litoměřic;5453109;;50.52621;14.215938;CZ;Europe/Prague;Q1797656;Os;;nom;249268214;Q19400850;;;-SR70S-CZ-53109;Křešice u Litoměřic
-TN5453110;gare;Praskačka;Praskačka;Praskačka;5453110;;50.175167;15.731742;CZ;Europe/Prague;Q1927771;Os;;nom;10111808667;Q18425284;;;-SR70ST-CZ-53110;Praskačka
+TN5453110;gare;Praskačka;Praskačka;Praskačka;5453110;;50.175167;15.731742;CZ;Europe/Prague;Q1927771;Os|R;;nom;10111808667;Q18425284;;;-SR70ST-CZ-53110;Praskačka
 TN5453114;gare;Lysá nad Labem;Lysá nad Labem;Lysá nad Labem;5453114;;50.195604;14.841873;CZ;Europe/Prague;Q1018859;Os|R|Sp;;nom;60942350;Q18180399;;;-SR70ST-CZ-53114;Lysá nad Labem
 TN5453116;gare;Pečky;Pečky;Pečky;5453116;;50.089752;15.027662;CZ;Europe/Prague;Q1813776;Os|Sp;;nom;1618873518;Q18180455;;;-SR70ST-CZ-53116;Pečky
 TN5453119;gare;Litoměřice Město;Litoměřice Město;Litoměřice Město;5453119;;50.532585;14.138969;CZ;Europe/Prague;Q384403;Os|R;;uic;2295037267;Q19400898;;;-SR70S-CZ-53119;Litoměřice město
@@ -762,7 +758,7 @@ TN5453160;gare;Třebechovice pod Orebem;Třebechovice pod Orebem;Třebechovice p
 TN5453166;gare;Cerhenice;Cerhenice;Cerhenice;5453166;;50.078229;15.078119;CZ;Europe/Prague;Q2412555;Os|Sp;;nom;5664606057;Q18423672;;;-SR70S-CZ-53166;Cerhenice
 TN5453170;gare;Blešno;Blešno;Blešno;5453170;;50.214695;15.936033;CZ;Europe/Prague;Q2224055;Os;;nom;958680514;Q18817257;;;-SR70S-CZ-53170;Blešno
 TN5453176;gare;Nová Ves u Kolína;Nová Ves u Kolína;Nová Ves u Kolína;5453176;;50.054985;15.150785;CZ;Europe/Prague;Q976597;Os|Sp;;nom;462082782;Q18432748;;;-SR70S-CZ-53176;Nová Ves u Kolína
-TN5453179;gare;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;5453179;;50.659434;14.044516;CZ;Europe/Prague;Q156974;EC|ES|Ex|NJ|Os|R|Sp|rj;;uic;4171354660;Q14806970;;;-SR70ST-CZ-53179;Ústí n. L. hl. n.
+TN5453179;gare;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;Ústí nad Labem hlavní nádraží;5453179;;50.659434;14.044516;CZ;Europe/Prague;Q156974;EC|ES|NJ|Os|R|Sp|rj;;uic;4171354660;Q14806970;;;-SR70ST-CZ-53179;Ústí n. L. hl. n.
 TN5453180;gare;Týniště nad Orlicí;Týniště nad Orlicí;Týniště nad Orlicí;5453180;;50.154805;16.074246;CZ;Europe/Prague;Q2002875;Os|Sp;;uic;269725500;Q18180568;;;-SR70ST-CZ-53180;Týniště nad Orlicí
 TN5453186;gare;Karlštejn;Karlštejn;Karlštejn;5453186;;49.932003;14.175138;CZ;Europe/Prague;Q1734032;Os;;nom;24684950;Q1894796;;;-SR70ST-CZ-53186;Karlštejn
 TN5453190;gare;Petrovice nad Orlicí;Petrovice nad Orlicí;Petrovice nad Orlicí;5453190;;50.173723;16.046107;CZ;Europe/Prague;Q2002875;Os;;nom;958685341;Q56325042;;;-SR70S-CZ-53190;Petrovice nad Orlicí
@@ -770,7 +766,7 @@ TN5453196;gare;Srbsko;Srbsko;Srbsko;5453196;;49.936954;14.131142;CZ;Europe/Pragu
 TN5453199;gare;Ústí nad Labem sever;Ústí nad Labem sever;Ústí nad Labem sever;5453199;;50.664237;14.081396;CZ;Europe/Prague;Q156974;Os;;uic;24585397;Q18180576;;;-SR70ST-CZ-53199;Ústí nad Labem sever
 TN5453200;gare;Častolovice;Častolovice;Častolovice;5453200;;50.128475;16.173594;CZ;Europe/Prague;Q337703;Os|Sp;;uic;305100358;Q66827537;;;-SR70ST-CZ-53200;Častolovice
 TN5453206;gare;Zadní Třebaň;Zadní Třebaň;Zadní Třebaň;5453206;;49.918739;14.202614;CZ;Europe/Prague;Q2049472;Os;;nom;3920472772;Q2703262;;;-SR70ST-CZ-53206;Zadní Třebaň
-TN5453209;gare;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;5453209;;50.649885;14.048541;CZ;Europe/Prague;Q156974;NJ|Os|R;;uic;13016177035;Q19297489;;;-SR70ST-CZ-53209;Ústí n.L.-Střekov
+TN5453209;gare;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;Ústí nad Labem-Střekov;5453209;;50.649885;14.048541;CZ;Europe/Prague;Q156974;Os|R;;uic;13016177035;Q19297489;;;-SR70ST-CZ-53209;Ústí n.L.-Střekov
 TN5453210;gare;Čestice;Čestice;Čestice;5453210;;50.130373;16.147351;CZ;Europe/Prague;Q2702203;Os|Sp;;nom;322117751;Q66888913;;;-SR70S-CZ-53210;Čestice
 TN5453214;gare;Nymburk hl. n.;Nymburk hl. n.;Nymburk hl. n.;5453214;;50.193374;15.045512;CZ;Europe/Prague;Q430864;Os|R|Sp;;gtfs;;;;;-SR70ST-CZ-53214;Nymburk hl. n.
 TN5453216;gare;Řevnice;Řevnice;Řevnice;5453216;;49.916515;14.238689;CZ;Europe/Prague;Q386858;Os;;nom;32807567;Q2235620;;;-SR70ST-CZ-53216;Řevnice
@@ -794,9 +790,8 @@ TN5453266;gare;Černošice;Černošice;Černošice;5453266;;49.959508;14.323424;
 TN5453270;gare;Záměl;Záměl;Záměl;5453270;;50.100126;16.296807;CZ;Europe/Prague;Q2288981;Os|Sp;;nom;305100780;Q66888879;;;-SR70S-CZ-53270;Záměl
 TN5453280;gare;Potštejn;Potštejn;Potštejn;5453280;;50.083803;16.315222;CZ;Europe/Prague;Q18126;Os|Sp;;uic;305100898;Q66888882;;;-SR70ST-CZ-53280;Potštejn
 TN5453287;gare;Trnovany;Trnovany;Trnovany;5453287;;50.319272;13.597229;CZ;Europe/Prague;Q393426;Os;;nom;12857227230;Q64682692;;;-SR70ST-CZ-53287;Trnovany
-TN5453289;gare;Teplice v Čechách;Teplice v Čechách;Teplice v Čechách;5453289;;50.646567;13.829267;CZ;Europe/Prague;Q146342;Ex|Os|R|Sp;;uic;5646270947;Q12058668;;;-SR70ST-CZ-53289;Teplice v Čechách
+TN5453289;gare;Teplice v Čechách;Teplice v Čechách;Teplice v Čechách;5453289;;50.646567;13.829267;CZ;Europe/Prague;Q146342;Os|R|Sp;;uic;5646270947;Q12058668;;;-SR70ST-CZ-53289;Teplice v Čechách
 TN5453290;gare;Sopotnice;Sopotnice;Sopotnice;5453290;;50.070509;16.340373;CZ;Europe/Prague;Q2520607;Sp;;nom;305572749;Q66888986;;;-SR70S-CZ-53290;Sopotnice
-TN5453297;gare;Dobříčany;Dobříčany;Dobříčany;5453297;;50.306131;13.592893;CZ;Europe/Prague;Q1297917;Os;;gtfs;;;;;-SR70S-CZ-53297;Dobříčany
 TN5453299;gare;Proboštov;Proboštov;Proboštov;5453299;;50.661325;13.838373;CZ;Europe/Prague;Q146342;Os|R|Sp;;nom;151205799;;;;-SR70S-CZ-53299;Proboštov
 TN5453300;gare;Litice nad Orlicí;Litice nad Orlicí;Litice nad Orlicí;5453300;;50.086985;16.357814;CZ;Europe/Prague;Q246665;Os|Sp;;uic;305573889;Q66888988;;;-SR70ST-CZ-53300;Litice nad Orlicí
 TN5453307;gare;Veletice;Veletice;Veletice;5453307;;50.296983;13.572565;CZ;Europe/Prague;Q1316838;Os;;nom;12857227229;Q64682698;;;-SR70S-CZ-53307;Veletice
@@ -822,12 +817,12 @@ TN5453376;gare;Krupá;Krupá;Krupá;5453376;;50.169732;13.722942;CZ;Europe/Pragu
 TN5453380;gare;Lanšperk;Lanšperk;Lanšperk;5453380;;49.992701;16.447299;CZ;Europe/Prague;Q12032742;Os;;uic;24681433;Q66888950;;;-SR70ST-CZ-53380;Lanšperk
 TN5453386;gare;Mutějovice zastávka;Mutějovice zastávka;Mutějovice zastávka;5453386;;50.187497;13.70253;CZ;Europe/Prague;Q2362621;Os;;nom;12857227218;;;;-SR70S-CZ-53386;Mutějovice zastávka
 TN5453390;gare;Dolní Libchavy;Dolní Libchavy;Dolní Libchavy;5453390;;49.989373;16.397388;CZ;Europe/Prague;Q1121374;Os|Sp;;nom;244982688;Q66888960;;;-SR70S-CZ-53390;Dolní Libchavy
-TN5453399;gare;Most;Most;Most;5453399;;50.511135;13.658705;CZ;Europe/Prague;Q146363;Ex|Os|R|Sp;;uic;5648124921;Q18180420;;;-SR70ST-CZ-53399;Most
+TN5453399;gare;Most;Most;Most;5453399;;50.511135;13.658705;CZ;Europe/Prague;Q146363;Os|R|Sp;;uic;5648124921;Q18180420;;;-SR70ST-CZ-53399;Most
 TN5453400;gare;Jablonné nad Orlicí;Jablonné nad Orlicí;Jablonné nad Orlicí;5453400;;50.02582;16.593919;CZ;Europe/Prague;Q1676870;EC|IC|Os|Sp;;uic;249419471;Q18180272;;;-SR70ST-CZ-53400;Jablonné nad Orlicí
 TN5453404;gare;Hluboký Důl;Hluboký Důl;Hluboký Důl;5453404;;50.0024;15.218744;CZ;Europe/Prague;Q2395695;Os;;nom;339827237;Q19400683;;;-SR70S-CZ-53404;Hluboký Důl
 TN5453409;gare;Třebušice;Třebušice;Třebušice;5453409;;50.523433;13.579671;CZ;Europe/Prague;Q146363;Os|R;;uic;5322391179;Q18180551;;;-SR70ST-CZ-53409;Třebušice
 TN5453410;gare;Jamné nad Orlicí;Jamné nad Orlicí;Jamné nad Orlicí;5453410;;50.039962;16.602611;CZ;Europe/Prague;Q951116;Os;;nom;960840906;Q18180274;;;-SR70S-CZ-53410;Jamné nad Orlicí
-TN5453414;gare;Kolín;Kolín;Kolín;5453414;;50.02533;15.2144;CZ;Europe/Prague;Q470369;EC|EN|IC|LE|NJ|Os|R|SC|Sp|rj;;uic;24684084;Q166594;;;-SR70ST-CZ-53414;Kolín
+TN5453414;gare;Kolín;Kolín;Kolín;5453414;;50.02533;15.2144;CZ;Europe/Prague;Q470369;EC|EN|Ex|IC|LE|Os|R|SC|Sp|rj;;uic;24684084;Q166594;;;-SR70ST-CZ-53414;Kolín
 TN5453420;gare;Těchonín;Těchonín;Těchonín;5453420;;50.068997;16.608209;CZ;Europe/Prague;Q1894637;Os|Sp;;uic;249425160;Q18180539;;;-SR70ST-CZ-53420;Těchonín
 TN5453424;gare;Kolín zastávka;Kolín zastávka;Kolín zastávka;5453424;;50.030799;15.194973;CZ;Europe/Prague;Q470369;Os|Sp;;nom;5667501823;Q18180330;;;-SR70S-CZ-53424;Kolín zastávka
 TN5453430;gare;Lichkov;Lichkov;Lichkov;5453430;;50.097306;16.658958;CZ;Europe/Prague;Q202024;EC|IC|Os|Sp;;uic;249426765;Q11755789;;;-SR70ST-CZ-53430;Lichkov
@@ -847,18 +842,17 @@ TN5453480;gare;Červený Potok;Červený Potok;Červený Potok;5453480;;50.10473
 TN5453483;gare;Řečany n.L.;Řečany n.L.;Řečany n.L.;5453483;;50.031741;15.478812;CZ;Europe/Prague;Q2464354;Os;;gtfs;;;;;-SR70ST-CZ-53483;Řečany n.L.
 TN5453484;gare;Kolín dílny;Kolín dílny;Kolín dílny;5453484;;50.011691;15.23385;CZ;Europe/Prague;Q470369;Os;;uic;5646204088;Q2661823;;;-SR70S-CZ-53484;Kolín dílny
 TN5453486;gare;Nové Strašecí;Nové Strašecí;Nové Strašecí;5453486;;50.152029;13.881836;CZ;Europe/Prague;Q1015273;Os|R|Sp;;nom;14059903737;Q18180437;;;-SR70ST-CZ-53486;Nové Strašecí
-TN5453489;gare;Chomutov;Chomutov;Chomutov;5453489;;50.456788;13.39938;CZ;Europe/Prague;Q146356;Ex|Os|R|Sp;;uic;266087689;Q1989836;;;-SR70ST-CZ-53489;Chomutov
+TN5453489;gare;Chomutov;Chomutov;Chomutov;5453489;;50.456788;13.39938;CZ;Europe/Prague;Q146356;Os|R|Sp;;uic;266087689;Q1989836;;;-SR70ST-CZ-53489;Chomutov
 TN5453490;gare;Králíky zastávka;Králíky zastávka;Králíky zastávka;5453490;;50.086731;16.748672;CZ;Europe/Prague;Q1321460;Os;;nom;276021543;Q18180342;;;-SR70S-CZ-53490;Králíky zastávka
 TN5453493;gare;Kojice;Kojice;Kojice;5453493;;50.040507;15.397968;CZ;Europe/Prague;Q2252010;Os;;nom;1893861582;Q2547814;;;-SR70S-CZ-53493;Kojice
 TN5453496;gare;Stochov;Stochov;Stochov;5453496;;50.141194;13.965479;CZ;Europe/Prague;Q158432;Os|R|Sp;;nom;13738632215;Q18180526;;;-SR70ST-CZ-53496;Stochov
-TN5453499;gare;Černovice u Chomutova;Černovice u Chomutova;Černovice u Chomutova;5453499;;50.454412;13.363392;CZ;Europe/Prague;Q339048;Os;;uic;12857426664;Q56324919;;;-SR70ST-CZ-53499;Černovice u Chomutova
 TN5453500;gare;Králíky;Králíky;Králíky;5453500;;50.080652;16.75614;CZ;Europe/Prague;Q1321460;Os;;uic;5646209727;Q17749992;;;-SR70ST-CZ-53500;Králíky
 TN5453503;gare;Chvaletice;Chvaletice;Chvaletice;5453503;;50.037502;15.418424;CZ;Europe/Prague;Q1028241;Os;;nom;1712593877;Q2752403;;;-SR70S-CZ-53503;Chvaletice
 TN5453506;gare;Rynholec;Rynholec;Rynholec;5453506;;50.138648;13.926048;CZ;Europe/Prague;Q2228345;Os;;nom;13168555923;Q19401362;;;-SR70S-CZ-53506;Rynholec
 TN5453510;gare;Dolní Orlice;Dolní Orlice;Dolní Orlice;5453510;;50.06573;16.747433;CZ;Europe/Prague;Q339857;Os;;nom;276040739;Q19400581;;;-SR70S-CZ-53510;Dolní Orlice
-TN5453513;gare;Přelouč;Přelouč;Přelouč;5453513;;50.039657;15.574504;CZ;Europe/Prague;Q1018341;EC|Os|R;;uic;5646282699;Q2356255;;;-SR70ST-CZ-53513;Přelouč
+TN5453513;gare;Přelouč;Přelouč;Přelouč;5453513;;50.039657;15.574504;CZ;Europe/Prague;Q1018341;EC|Ex|Os|R;;uic;5646282699;Q2356255;;;-SR70ST-CZ-53513;Přelouč
 TN5453516;gare;Kladno;Kladno;Kladno;5453516;;50.127761;14.113801;CZ;Europe/Prague;Q155993;Os|R|Sp;;nom;12186740716;Q18180318;;;-SR70ST-CZ-53516;Kladno
-TN5453519;gare;Klášterec nad Ohří;Klášterec nad Ohří;Klášterec nad Ohří;5453519;;50.385138;13.196339;CZ;Europe/Prague;Q158268;Ex|Os|R|Sp;;uic;12960695253;Q18180323;;;-SR70ST-CZ-53519;Klášterec nad Ohří
+TN5453519;gare;Klášterec nad Ohří;Klášterec nad Ohří;Klášterec nad Ohří;5453519;;50.385138;13.196339;CZ;Europe/Prague;Q158268;Os|R|Sp;;uic;12960695253;Q18180323;;;-SR70ST-CZ-53519;Klášterec nad Ohří
 TN5453520;gare;Červená Voda;Červená Voda;Červená Voda;5453520;;50.047096;16.74648;CZ;Europe/Prague;Q339857;Os;;uic;276040829;Q18180162;;;-SR70ST-CZ-53520;Červená Voda
 TN5453523;gare;Lhota pod Přeloučí;Lhota pod Přeloučí;Lhota pod Přeloučí;5453523;;50.036344;15.5257;CZ;Europe/Prague;Q1018341;Os;;nom;836522683;Q1872080;;;-SR70S-CZ-53523;Lhota pod Přeloučí
 TN5453525;gare;Červená Voda - Pod rozhlednou;Červená Voda - Pod rozhlednou;Červená Voda - Pod rozhlednou;5453525;;50.036683;16.746005;CZ;Europe/Prague;Q339857;Os;;nom;3874621283;Q66889025;;;-SR70S-CZ-53525;Červená Voda-Pod rozhlednou
@@ -868,47 +862,34 @@ TN5453530;gare;Moravský Karlov;Moravský Karlov;Moravský Karlov;5453530;;50.02
 TN5453533;gare;Valy u Přelouče;Valy u Přelouče;Valy u Přelouče;5453533;;50.032168;15.613547;CZ;Europe/Prague;Q963518;Os;;uic;9187086;Q2151227;;;-SR70S-CZ-53533;Valy u Přelouče
 TN5453536;gare;Kačice;Kačice;Kačice;5453536;;50.156371;13.995116;CZ;Europe/Prague;Q2527265;Os|R|Sp;;nom;24685657;Q18426169;;;-SR70S-CZ-53536;Kačice
 TN5453546;gare;Kladno-Rozdělov;Kladno-Rozdělov;Kladno-Rozdělov;5453546;;50.131811;14.067038;CZ;Europe/Prague;Q155993;Os|Sp;;nom;13168613323;Q18426207;;;-SR70S-CZ-53546;Kladno-Rozdělov
-TN5453549;gare;Kadaň-Prunéřov;Kadaň-Prunéřov;Kadaň-Prunéřov;5453549;;50.411681;13.258741;CZ;Europe/Prague;Q158274;Ex|Os|R|Sp;;uic;33614550;Q2085177;;;-SR70ST-CZ-53549;Kadaň-Prunéřov
+TN5453549;gare;Kadaň-Prunéřov;Kadaň-Prunéřov;Kadaň-Prunéřov;5453549;;50.411681;13.258741;CZ;Europe/Prague;Q158274;Os|R|Sp;;uic;33614550;Q2085177;;;-SR70ST-CZ-53549;Kadaň-Prunéřov
 TN5453556;gare;Kladno město;Kladno město;Kladno město;5453556;;50.141235;14.084655;CZ;Europe/Prague;Q155993;Os|Sp;;nom;60301337;Q18426211;;;-SR70ST-CZ-53556;Kladno město
-TN5453559;gare;Hradec u Kadaně;Hradec u Kadaně;Hradec u Kadaně;5453559;;50.359006;13.308134;CZ;Europe/Prague;Q1116594;Os;;nom;5932353461;Q64455191;;;-SR70S-CZ-53559;Hradec u Kadaně
 TN5453566;gare;Kladno-Dubí;Kladno-Dubí;Kladno-Dubí;5453566;;50.163398;14.129984;CZ;Europe/Prague;Q155993;Os|Sp;;nom;60301335;Q18180320;;;-SR70ST-CZ-53566;Kladno-Dubí
 TN5453569;gare;Kadaň předměstí;Kadaň předměstí;Kadaň předměstí;5453569;;50.376849;13.276711;CZ;Europe/Prague;Q158274;Os|Sp;;uic;2398739646;Q64451916;;;-SR70ST-CZ-53569;Kadaň předměstí
 TN5453576;gare;Kladno-Vrapice;Kladno-Vrapice;Kladno-Vrapice;5453576;;50.166267;14.15391;CZ;Europe/Prague;Q155993;Os;;nom;3904059274;Q18426208;;;-SR70S-CZ-53576;Kladno-Vrapice
-TN5453579;gare;Poláky;Poláky;Poláky;5453579;;50.336345;13.350409;CZ;Europe/Prague;Q1068637;Os;;nom;1009319479;Q64455370;;;-SR70ST-CZ-53579;Poláky
 TN5453580;gare;Podlesí;Podlesí;Podlesí;5453580;;50.090497;16.849288;CZ;Europe/Prague;Q1469422;Os|Sp;;nom;960865552;Q19401263;;;-SR70ST-CZ-53580;Podlesí
-TN5453589;gare;Želina;Želina;Želina;5453589;;50.363088;13.285661;CZ;Europe/Prague;Q1116594;Os;;nom;208486433;Q64454670;;;-SR70ST-CZ-53589;Želina
 TN5453590;gare;Vlaské;Vlaské;Vlaské;5453590;;50.087463;16.900174;CZ;Europe/Prague;Q1469422;Os|Sp;;nom;3465350715;Q19401600;;;-SR70S-CZ-53590;Vlaské
-TN5453599;gare;Vilémov u Kadaně;Vilémov u Kadaně;Vilémov u Kadaně;5453599;;50.308118;13.331706;CZ;Europe/Prague;Q2304910;Os;;nom;1009030776;Q64455850;;;-SR70ST-CZ-53599;Vilémov u Kadaně
 TN5453606;gare;Kladno-Švermov;Kladno-Švermov;Kladno-Švermov;5453606;;50.161559;14.114923;CZ;Europe/Prague;Q155993;Os|Sp;;nom;59662706;Q18180322;;;-SR70S-CZ-53606;Kladno-Švermov
-TN5453609;gare;Chotěbudice;Chotěbudice;Chotěbudice;5453609;;50.267784;13.351148;CZ;Europe/Prague;Q1790528;Os;;nom;208486792;Q64456054;;;-SR70S-CZ-53609;Chotěbudice
 TN5453610;gare;Broumov;Broumov;Broumov;5453610;;50.580696;16.339517;CZ;Europe/Prague;Q990988;Os|Sp;;uic;252666531;Q11346497;;;-SR70ST-CZ-53610;Broumov
-TN5453613;gare;Pardubice hl. n.;Pardubice hl. n.;Pardubice hl. n.;5453613;;50.03167;15.757556;CZ;Europe/Prague;Q36989;EC|EN|IC|LE|NJ|Os|R|RJ|SC|Sp|rj;;gtfs;;;;;-SR70ST-CZ-53613;Pardubice hl. n.
+TN5453613;gare;Pardubice hl. n.;Pardubice hl. n.;Pardubice hl. n.;5453613;;50.03167;15.757556;CZ;Europe/Prague;Q36989;EC|EN|Ex|IC|LE|NJ|Os|R|RJ|SC|Sp|rj;;gtfs;;;;;-SR70ST-CZ-53613;Pardubice hl. n.
 TN5453616;gare;Kladno-Ostrovec;Kladno-Ostrovec;Kladno-Ostrovec;5453616;;50.147372;14.086081;CZ;Europe/Prague;Q155993;Os|Sp;;nom;11613316290;Q18426205;;;-SR70ST-CZ-53616;Kladno-Ostrovec
-TN5453619;gare;Krásný Dvůr;Krásný Dvůr;Krásný Dvůr;5453619;;50.255714;13.368441;CZ;Europe/Prague;Q1790528;Os;;nom;1009319493;Q18180346;;;-SR70ST-CZ-53619;Krásný Dvůr
 TN5453623;gare;Pardubice-Opočínek;Pardubice-Opočínek;Pardubice-Opočínek;5453623;;50.03047;15.669365;CZ;Europe/Prague;Q36989;Os;;nom;1848593369;Q2442258;;;-SR70S-CZ-53623;Pardubice-Opočínek
 TN5453626;gare;Unhošť;Unhošť;Unhošť;5453626;;50.105185;14.136304;CZ;Europe/Prague;Q2537802;Os;;nom;24585533;Q18430695;;;-SR70ST-CZ-53626;Unhošť
-TN5453629;gare;Pětipsy;Pětipsy;Pětipsy;5453629;;50.319417;13.34522;CZ;Europe/Prague;Q912913;Os;;nom;5932353463;Q64455533;;;-SR70S-CZ-53629;Pětipsy
 TN5453633;gare;Pardubice-Svítkov;Pardubice-Svítkov;Pardubice-Svítkov;5453633;;50.031939;15.723832;CZ;Europe/Prague;Q36989;Os;;nom;1795611260;Q18170876;;;-SR70S-CZ-53633;Pardubice-Svítkov
 TN5453636;gare;Jeneč;Jeneč;Jeneč;5453636;;50.094265;14.211703;CZ;Europe/Prague;Q2374605;Os|Sp;;nom;1907572057;Q19400738;;;-SR70ST-CZ-53636;Jeneč
-TN5453639;gare;Vilémov u Kadaně město;Vilémov u Kadaně město;Vilémov u Kadaně město;5453639;;50.304069;13.31112;CZ;Europe/Prague;Q2304910;Os;;nom;5932353464;Q64459790;;;-SR70S-CZ-53639;Vilémov u Kadaně město
 TN5453643;gare;Pardubice-Pardubičky;Pardubice-Pardubičky;Pardubice-Pardubičky;5453643;;50.031224;15.788934;CZ;Europe/Prague;Q36989;Os|Sp;;nom;24952478;Q2964845;;;-SR70S-CZ-53643;Pardubice-Pardubičky
 TN5453644;gare;Pardubice centrum;Pardubice centrum;Pardubice centrum;5453644;;50.031591;15.772637;CZ;Europe/Prague;Q36989;Os|Sp;;nom;11688526513;Q119849846;;;-SR70ST-CZ-53644;Pardubice centrum
 TN5453646;gare;Pavlov;Pavlov;Pavlov;5453646;;50.095034;14.165645;CZ;Europe/Prague;Q2704913;Os;;nom;24598743;Q19401220;;;-SR70S-CZ-53646;Pavlov
-TN5453649;gare;Vitčice;Vitčice;Vitčice;5453649;;50.282618;13.338192;CZ;Europe/Prague;Q1648452;Os;;nom;1009319502;Q64455977;;;-SR70S-CZ-53649;Vitčice
 TN5453650;gare;Broumov-Olivětín;Broumov-Olivětín;Broumov-Olivětín;5453650;;50.608012;16.328007;CZ;Europe/Prague;Q990988;Os|Sp;;nom;280284729;Q56324869;;;-SR70S-CZ-53650;Broumov-Olivětín
 TN5453653;gare;Kostěnice;Kostěnice;Kostěnice;5453653;;50.012877;15.897554;CZ;Europe/Prague;Q2182873;Os;;uic;5185403217;Q2516076;;;-SR70ST-CZ-53653;Kostěnice
 TN5453656;gare;Hostivice;Hostivice;Hostivice;5453656;;50.084076;14.25836;CZ;Europe/Prague;Q1630623;Os|R|Sp;;nom;5648205333;Q18180241;;;-SR70ST-CZ-53656;Hostivice
-TN5453659;gare;Vysoké Třebušice;Vysoké Třebušice;Vysoké Třebušice;5453659;;50.260471;13.391744;CZ;Europe/Prague;Q1790528;Os;;nom;208486834;Q64456110;;;-SR70S-CZ-53659;Vysoké Třebušice
 TN5453663;gare;Pardubice-Černá za Bory;Pardubice-Černá za Bory;Pardubice-Černá za Bory;5453663;;50.027372;15.830831;CZ;Europe/Prague;Q36989;Os;;nom;24952479;Q2051975;;;-SR70S-CZ-53663;Pardubice-Černá za Bory
 TN5453666;gare;Hostivice-Litovice;Hostivice-Litovice;Hostivice-Litovice;5453666;;50.071745;14.224602;CZ;Europe/Prague;Q1630623;Os;;nom;24912610;Q18425274;;;-SR70S-CZ-53666;Hostivice-Litovice
-TN5453669;gare;Radonice u Kadaně;Radonice u Kadaně;Radonice u Kadaně;5453669;;50.298039;13.276874;CZ;Europe/Prague;Q1581153;Os;;nom;5932355311;Q64459906;;;-SR70S-CZ-53669;Radonice u Kadaně
 TN5453673;gare;Moravany;Moravany;Moravany;5453673;;50.002264;15.946244;CZ;Europe/Prague;Q2521236;Os;;uic;24952481;Q1813866;;;-SR70ST-CZ-53673;Moravany
 TN5453676;gare;Hostivice-Sadová;Hostivice-Sadová;Hostivice-Sadová;5453676;;50.075152;14.266653;CZ;Europe/Prague;Q1630623;Os;;nom;2476426359;Q22822507;;;-SR70S-CZ-53676;Hostivice-Sadová
 TN5453677;gare;Chlumčany u Loun;Chlumčany u Loun;Chlumčany u Loun;5453677;;50.344345;13.845559;CZ;Europe/Prague;Q887283;Os;;nom;225064053;Q64594567;;;-SR70ST-CZ-53677;Chlumčany u Loun
-TN5453679;gare;Kadaňský Rohozec;Kadaňský Rohozec;Kadaňský Rohozec;5453679;;50.283629;13.225575;CZ;Europe/Prague;Q1581153;Os;;nom;1009030850;Q64459919;;;-SR70ST-CZ-53679;Kadaňský Rohozec
 TN5453683;gare;Uhersko;Uhersko;Uhersko;5453683;;49.987372;16.014718;CZ;Europe/Prague;Q1894653;Os;;uic;1894363466;Q4565526;;;-SR70ST-CZ-53683;Uhersko
 TN5453686;gare;Hostivice-U hřbitova;Hostivice-U hřbitova;Hostivice-U hřbitova;5453686;;50.083652;14.230415;CZ;Europe/Prague;Q1630623;Os;;nom;3051024134;Q66888324;;;-SR70S-CZ-53686;Hostivice-U hřbitova
-TN5453689;gare;Ždov;Ždov;Ždov;5453689;;50.290146;13.239101;CZ;Europe/Prague;Q1581153;Os;;nom;5932355312;Q64459915;;;-SR70S-CZ-53689;Ždov
 TN5453693;gare;Zámrsk;Zámrsk;Zámrsk;5453693;;49.99493;16.108384;CZ;Europe/Prague;Q246911;Os;;uic;24952561;Q2155261;;;-SR70ST-CZ-53693;Zámrsk
 TN5453697;gare;Vrbno nad Lesy;Vrbno nad Lesy;Vrbno nad Lesy;5453697;;50.327262;13.905938;CZ;Europe/Prague;Q1974412;Os;;nom;225064226;Q66888643;;;-SR70ST-CZ-53697;Vrbno nad Lesy
 TN5453699;gare;Most-Kopisty;Most-Kopisty;Most-Kopisty;5453699;;50.54338;13.622089;CZ;Europe/Prague;Q146363;Os;;uic;12857242136;Q18180421;;;-SR70S-CZ-53699;Most-Kopisty
@@ -937,55 +918,40 @@ TN5453799;gare;Kadaň;Kadaň;Kadaň;5453799;;50.381733;13.276926;CZ;Europe/Pragu
 TN5453800;gare;Police nad Metují;Police nad Metují;Police nad Metují;5453800;;50.513343;16.211926;CZ;Europe/Prague;Q853474;Os|Sp;;nom;1834202341;Q18424745;;;-SR70ST-CZ-53800;Police nad Metují
 TN5453806;gare;Slaný;Slaný;Slaný;5453806;;50.228522;14.075838;CZ;Europe/Prague;Q1013909;Os|Sp;;nom;4045463905;Q17750112;;;-SR70ST-CZ-53806;Slaný
 TN5453810;gare;Žďár nad Metují;Žďár nad Metují;Žďár nad Metují;5453810;;50.537429;16.204102;CZ;Europe/Prague;Q394430;Os|Sp;;nom;1843662242;Q18432363;;;-SR70S-CZ-53810;Žďár nad Metují
-TN5453813;gare;Choceň;Choceň;Choceň;5453813;;49.99372;16.223163;CZ;Europe/Prague;Q1019936;EC|Os|R|Sp|rj;;uic;24952579;Q2621367;;;-SR70ST-CZ-53813;Choceň
+TN5453813;gare;Choceň;Choceň;Choceň;5453813;;49.99372;16.223163;CZ;Europe/Prague;Q1019936;EC|Ex|Os|R|Sp|rj;;uic;24952579;Q2621367;;;-SR70ST-CZ-53813;Choceň
 TN5453816;gare;Královice u Zlonic;Královice u Zlonic;Královice u Zlonic;5453816;;50.25974;14.067925;CZ;Europe/Prague;Q1512044;Os;;nom;289754162;Q66888206;;;-SR70S-CZ-53816;Královice u Zlonic
-TN5453819;gare;Křimov;Křimov;Křimov;5453819;;50.48977;13.275982;CZ;Europe/Prague;Q1535695;Os;;uic;12857426658;Q64426061;;;-SR70ST-CZ-53819;Křimov
 TN5453820;gare;Hronov;Hronov;Hronov;5453820;;50.472567;16.177108;CZ;Europe/Prague;Q1019365;Os|Sp;;nom;5668725020;Q18180250;;;-SR70ST-CZ-53820;Hronov
 TN5453823;gare;Sruby;Sruby;Sruby;5453823;;49.989866;16.170861;CZ;Europe/Prague;Q1962889;Os;;nom;24952574;Q3184403;;;-SR70S-CZ-53823;Sruby
 TN5453826;gare;Slaný předměstí;Slaný předměstí;Slaný předměstí;5453826;;50.226335;14.102685;CZ;Europe/Prague;Q1013909;Os|Sp;;uic;886671480;Q18434317;;;-SR70ST-CZ-53826;Slaný předměstí
-TN5453829;gare;Domina;Domina;Domina;5453829;;50.479455;13.351597;CZ;Europe/Prague;Q1535695;Os;;uic;12857426661;Q64425342;;;-SR70S-CZ-53829;Domina
 TN5453830;gare;Hronov zastávka;Hronov zastávka;Hronov zastávka;5453830;;50.49023;16.18624;CZ;Europe/Prague;Q1019365;Os|Sp;;nom;25284112;Q66888806;;;-SR70S-CZ-53830;Hronov zastávka
 TN5453833;gare;Dvořisko;Dvořisko;Dvořisko;5453833;;49.984204;16.191955;CZ;Europe/Prague;Q1962889;Os;;nom;308867712;Q19400602;;;-SR70S-CZ-53833;Dvořisko
 TN5453836;gare;Podlešín;Podlešín;Podlešín;5453836;;50.218186;14.155768;CZ;Europe/Prague;Q2683663;Os|Sp;;nom;3123662313;Q66888325;;;-SR70ST-CZ-53836;Podlešín
 TN5453840;gare;Náchod;Náchod;Náchod;5453840;;50.417433;16.171637;CZ;Europe/Prague;Q591823;Os|Sp;;nom;6681588937;Q7483832;;;-SR70ST-CZ-53840;Náchod
 TN5453843;gare;Brandýs nad Orlicí;Brandýs nad Orlicí;Brandýs nad Orlicí;5453843;;50.000187;16.284123;CZ;Europe/Prague;Q898464;Os|Sp;;nom;24952581;Q2687328;;;-SR70ST-CZ-53843;Brandýs nad Orlicí
 TN5453846;gare;Zvoleněves;Zvoleněves;Zvoleněves;5453846;;50.230611;14.183885;CZ;Europe/Prague;Q2241218;Os|Sp;;nom;264573384;Q66888174;;;-SR70ST-CZ-53846;Zvoleněves
-TN5453849;gare;Křimov-Suchdol;Křimov-Suchdol;Křimov-Suchdol;5453849;;50.490171;13.324965;CZ;Europe/Prague;Q1535695;Os;;uic;12857426660;Q64425532;;;-SR70S-CZ-53849;Křimov-Suchdol
 TN5453851;gare;Velké Poříčí;Velké Poříčí;Velké Poříčí;5453851;;50.463541;16.181946;CZ;Europe/Prague;Q2304956;Os|Sp;;nom;2163190014;Q66888933;;;-SR70S-CZ-53851;Velké Poříčí
 TN5453856;gare;Kamenný Most u Kralup nad Vltavou;Kamenný Most u Kralup nad Vltavou;Kamenný Most u Kralup nad Vltavou;5453856;;50.239312;14.206067;CZ;Europe/Prague;Q669829;Os|Sp;;nom;886671486;Q66888276;;;-SR70S-CZ-53856;Kamenný Most u Kralup nad Vltavou
-TN5453859;gare;Křimov zastávka;Křimov zastávka;Křimov zastávka;5453859;;50.487682;13.295271;CZ;Europe/Prague;Q1535695;Os;;uic;12857426659;Q64425644;;;-SR70S-CZ-53859;Křimov zastávka
 TN5453860;gare;Náchod-Běloves;Náchod-Běloves;Náchod-Běloves;5453860;;50.423362;16.187481;CZ;Europe/Prague;Q591823;Os|Sp;;nom;6690585529;Q66888947;;;-SR70ST-CZ-53860;Náchod-Běloves
-TN5453863;gare;Ústí nad Orlicí;Ústí nad Orlicí;Ústí nad Orlicí;5453863;;49.971365;16.377982;CZ;Europe/Prague;Q330409;EC|IC|LE|Os|R|Sp|rj;;uic;1315020489;Q2164159;;;-SR70ST-CZ-53863;Ústí nad Orlicí
-TN5453869;gare;Nová Ves u Křimova;Nová Ves u Křimova;Nová Ves u Křimova;5453869;;50.495584;13.264626;CZ;Europe/Prague;Q1627838;Os;;uic;12857426657;Q64426125;;;-SR70S-CZ-53869;Nová Ves u Křimova
+TN5453863;gare;Ústí nad Orlicí;Ústí nad Orlicí;Ústí nad Orlicí;5453863;;49.971365;16.377982;CZ;Europe/Prague;Q330409;EC|Ex|IC|LE|Os|R|Sp|rj;;uic;1315020489;Q2164159;;;-SR70ST-CZ-53863;Ústí nad Orlicí
 TN5453870;gare;Náchod zastávka;Náchod zastávka;Náchod zastávka;5453870;;50.408413;16.152019;CZ;Europe/Prague;Q591823;Os|Sp;;nom;25284078;Q66888804;;;-SR70S-CZ-53870;Náchod zastávka
 TN5453873;gare;Ústí nad Orlicí město;Ústí nad Orlicí město;Ústí nad Orlicí město;5453873;;49.96856;16.395415;CZ;Europe/Prague;Q330409;EC|IC|Os|Sp;;uic;4640755616;Q2540436;;;-SR70S-CZ-53873;Ústí nad Orlicí město
-TN5453879;gare;Výsluní;Výsluní;Výsluní;5453879;;50.481017;13.211152;CZ;Europe/Prague;Q1406706;Os;;uic;12857426651;Q64428826;;;-SR70S-CZ-53879;Výsluní
 TN5453880;gare;Václavice;Václavice;Václavice;5453880;;50.393099;16.123014;CZ;Europe/Prague;Q2700915;Os|Sp;;nom;5668716718;Q66888942;;;-SR70ST-CZ-53880;Václavice
-TN5453889;gare;Rusová;Rusová;Rusová;5453889;;50.450258;13.168725;CZ;Europe/Prague;Q1767383;Os;;uic;12857426650;Q64428921;;;-SR70ST-CZ-53889;Rusová
 TN5453890;gare;N. Město n. Met.;N. Město n. Met.;N. Město n. Met.;5453890;;50.354054;16.137509;CZ;Europe/Prague;Q1019675;Os|Sp;;gtfs;;;;;-SR70ST-CZ-53890;N. Město n. Met.
-TN5453899;gare;Kovářská;Kovářská;Kovářská;5453899;;50.430052;13.035081;CZ;Europe/Prague;Q1233346;Os;;uic;12857426640;Q26773148;;;-SR70ST-CZ-53899;Kovářská
-TN5453909;gare;České Hamry;České Hamry;České Hamry;5453909;;50.43855;13.020576;CZ;Europe/Prague;Q1751518;Os;;uic;12857426639;Q64432061;;;-SR70S-CZ-53909;České Hamry
 TN5453910;gare;Bohuslavice nad Metují;Bohuslavice nad Metují;Bohuslavice nad Metují;5453910;;50.328266;16.095773;CZ;Europe/Prague;Q339573;Os;;nom;5651479468;Q66828090;;;-SR70ST-CZ-53910;Bohuslavice nad Metují
-TN5453913;gare;Česká Třebová;Česká Třebová;Česká Třebová;5453913;;49.897076;16.446678;CZ;Europe/Prague;Q341056;EC|EN|IC|Os|R|RJ|Sp|rj;;uic;3129289404;Q2321172;;;-SR70ST-CZ-53913;Česká Třebová
-TN5453919;gare;Kovářská městys;Kovářská městys;Kovářská městys;5453919;;50.44014;13.069636;CZ;Europe/Prague;Q1233346;Os;;nom;12857426641;Q64431794;;;-SR70S-CZ-53919;Kovářská městys
+TN5453913;gare;Česká Třebová;Česká Třebová;Česká Třebová;5453913;;49.897076;16.446678;CZ;Europe/Prague;Q341056;EC|EN|Ex|IC|Os|R|RJ|Sp|rj;;uic;3129289404;Q2321172;;;-SR70ST-CZ-53913;Česká Třebová
 TN5453920;gare;Černčice;Černčice;Černčice;5453920;;50.334506;16.105601;CZ;Europe/Prague;Q339573;Os;;nom;280290653;Q66829127;;;-SR70S-CZ-53920;Černčice
 TN5453923;gare;Dlouhá Třebová;Dlouhá Třebová;Dlouhá Třebová;5453923;;49.935469;16.422702;CZ;Europe/Prague;Q2304202;Os;;nom;24692504;Q2468813;;;-SR70ST-CZ-53923;Dlouhá Třebová
 TN5453926;gare;Olovnice;Olovnice;Olovnice;5453926;;50.232616;14.244957;CZ;Europe/Prague;Q2317820;Os|Sp;;nom;886671451;Q66888355;;;-SR70ST-CZ-53926;Olovnice
-TN5453929;gare;Měděnec;Měděnec;Měděnec;5453929;;50.42854;13.129915;CZ;Europe/Prague;Q1959503;Os;;nom;12857426649;Q64429175;;;-SR70S-CZ-53929;Měděnec
 TN5453930;gare;Opočno pod Orlickými horami;Opočno pod Orlickými horami;Opočno pod Orlickými horami;5453930;;50.278529;16.085707;CZ;Europe/Prague;Q1019967;Os|Sp;;nom;4477004692;Q56324881;;;-SR70ST-CZ-53930;Opočno pod Orlickými horami
 TN5453933;gare;Třebovice v Čechách;Třebovice v Čechách;Třebovice v Čechách;5453933;;49.858167;16.497389;CZ;Europe/Prague;Q1789598;Os;;uic;5184585221;Q18590821;;;-SR70ST-CZ-53933;Třebovice v Čechách
 TN5453936;gare;Neuměřice;Neuměřice;Neuměřice;5453936;;50.240557;14.217932;CZ;Europe/Prague;Q2157405;Os|Sp;;nom;886671499;Q66888277;;;-SR70S-CZ-53936;Neuměřice
-TN5453939;gare;Měděnec zastávka;Měděnec zastávka;Měděnec zastávka;5453939;;50.42721;13.107482;CZ;Europe/Prague;Q1959503;Os;;nom;12857426648;Q64431684;;;-SR70S-CZ-53939;Měděnec zastávka
 TN5453940;gare;Bohuslavice nad Metují zastávka;Bohuslavice nad Metují zastávka;Bohuslavice nad Metují zastávka;5453940;;50.312219;16.07969;CZ;Europe/Prague;Q890981;Os;;nom;280292034;Q66828085;;;-SR70S-CZ-53940;Bohuslavice nad Metují zastávka
 TN5453943;gare;Rudoltice v Čechách;Rudoltice v Čechách;Rudoltice v Čechách;5453943;;49.892665;16.572062;CZ;Europe/Prague;Q1709318;Os;;uic;34000815;Q18590817;;;-SR70ST-CZ-53943;Rudoltice v Čechách
 TN5453946;gare;Kralupy nad Vltavou předměstí;Kralupy nad Vltavou předměstí;Kralupy nad Vltavou předměstí;5453946;;50.231852;14.283626;CZ;Europe/Prague;Q987496;Os|Sp;;nom;5677772211;Q66888353;;;-SR70ST-CZ-53946;Kralupy nad Vltavou předměstí
-TN5453949;gare;Vejprty;Vejprty;Vejprty;5453949;;50.500738;13.033721;CZ;Europe/Prague;Q1751518;Os;;uic;12857426636;Q18430773;;;-SR70ST-CZ-53949;Vejprty
 TN5453950;gare;Pohoří;Pohoří;Pohoří;5453950;;50.291575;16.078812;CZ;Europe/Prague;Q731086;Os;;nom;280292079;Q66888856;;;-SR70S-CZ-53950;Pohoří
 TN5453953;gare;Žichlínek;Žichlínek;Žichlínek;5453953;;49.860476;16.65491;CZ;Europe/Prague;Q393936;Os;;nom;959825050;Q19401723;;;-SR70S-CZ-53953;Žichlínek
 TN5453956;gare;Zeměchy;Zeměchy;Zeměchy;5453956;;50.233325;14.266932;CZ;Europe/Prague;Q987496;Os|Sp;;nom;264573294;Q66888172;;;-SR70S-CZ-53956;Zeměchy
-TN5453959;gare;Vejprty koupaliště;Vejprty koupaliště;Vejprty koupaliště;5453959;;50.483319;13.03382;CZ;Europe/Prague;Q1751518;Os;;uic;12857426637;Q64432226;;;-SR70S-CZ-53959;Vejprty koupaliště
 TN5453963;gare;Krasíkov;Krasíkov;Krasíkov;5453963;;49.849477;16.693415;CZ;Europe/Prague;Q2167239;Os;;nom;1741288981;Q19400843;;;-SR70S-CZ-53963;Krasíkov
-TN5453969;gare;Vejprty zastávka;Vejprty zastávka;Vejprty zastávka;5453969;;50.466458;13.022281;CZ;Europe/Prague;Q1751518;Os;;uic;12857426638;Q64432155;;;-SR70S-CZ-53969;Vejprty zastávka
 TN5453973;gare;Tatenice;Tatenice;Tatenice;5453973;;49.859447;16.710436;CZ;Europe/Prague;Q735673;Os;;nom;250468492;Q19401522;;;-SR70S-CZ-53973;Tatenice
 TN5453976;gare;Koleč;Koleč;Koleč;5453976;;50.196687;14.218092;CZ;Europe/Prague;Q670427;Os;;nom;264568492;Q66888170;;;-SR70S-CZ-53976;Koleč
 TN5453983;gare;Hoštejn;Hoštejn;Hoštejn;5453983;;49.872957;16.773994;CZ;Europe/Prague;Q247752;Os;;nom;34002256;Q9294306;;;-SR70S-CZ-53983;Hoštejn
@@ -998,7 +964,7 @@ TN5454009;gare;Jirkov;Jirkov;Jirkov;5454009;;50.492313;13.448758;CZ;Europe/Pragu
 TN5454010;gare;Dobruška;Dobruška;Dobruška;5454010;;50.289348;16.15217;CZ;Europe/Prague;Q1228928;Os;;nom;7408284054;Q18180189;;;-SR70ST-CZ-54010;Dobruška
 TN5454014;gare;Kutná Hora hlavní nádraží;Kutná Hora hlavní nádraží;Kutná Hora hlavní nádraží;5454014;;49.961943;15.300599;CZ;Europe/Prague;Q155975;Os|R|Sp;;uic;1722390216;Q18180355;;;-SR70ST-CZ-54014;Kutná Hora hl. n.
 TN5454016;gare;Kováry;Kováry;Kováry;5454016;;50.18196;14.247306;CZ;Europe/Prague;Q2263519;Os;;nom;31022973;Q66888123;;;-SR70S-CZ-54016;Kováry
-TN5454019;gare;Jirkov zastávka;Jirkov zastávka;Jirkov zastávka;5454019;;50.485599;13.447755;CZ;Europe/Prague;Q1467790;Ex|Os|R|Sp;;uic;266087688;Q18180298;;;-SR70S-CZ-54019;Jirkov zastávka
+TN5454019;gare;Jirkov zastávka;Jirkov zastávka;Jirkov zastávka;5454019;;50.485599;13.447755;CZ;Europe/Prague;Q1467790;Os|R|Sp;;uic;266087688;Q18180298;;;-SR70S-CZ-54019;Jirkov zastávka
 TN5454024;gare;Hlízov;Hlízov;Hlízov;5454024;;49.98177;15.293565;CZ;Europe/Prague;Q2669840;Os;;nom;14084256687;Q19400681;;;-SR70S-CZ-54024;Hlízov
 TN5454026;gare;Středokluky;Středokluky;Středokluky;5454026;;50.12455;14.254545;CZ;Europe/Prague;Q2659679;Os;;nom;369843612;Q66888247;;;-SR70ST-CZ-54026;Středokluky
 TN5454030;gare;Bolehošť;Bolehošť;Bolehošť;5454030;;50.214642;16.065085;CZ;Europe/Prague;Q2513831;Os|Sp;;nom;280322057;Q66828247;;;-SR70ST-CZ-54030;Bolehošť
@@ -1048,30 +1014,23 @@ TN5454147;gare;Kleneč;Kleneč;Kleneč;5454147;;50.394222;14.246823;CZ;Europe/Pr
 TN5454149;gare;Louka u Litvínova;Louka u Litvínova;Louka u Litvínova;5454149;;50.593026;13.631078;CZ;Europe/Prague;Q1872292;Os|Sp;;nom;12857242117;Q64513084;;;-SR70ST-CZ-54149;Louka u Litvínova
 TN5454150;gare;Pěčín;Pěčín;Pěčín;5454150;;50.160958;16.419444;CZ;Europe/Prague;Q2287514;Os;;uic;308723148;Q19401224;;;-SR70S-CZ-54150;Pěčín
 TN5454153;gare;Světlá nad Sázavou-Josefodol;Světlá nad Sázavou-Josefodol;Světlá nad Sázavou-Josefodol;5454153;;49.690443;15.424206;CZ;Europe/Prague;Q1001639;Os;;nom;5299058686;Q66888108;;;-SR70S-CZ-54153;Světlá nad Sázavou-Josefodol
-TN5454157;gare;Mšené Lázně;Mšené Lázně;Mšené Lázně;5454157;;50.361654;14.133015;CZ;Europe/Prague;Q1852598;Os;;nom;293576913;Q66888680;;;-SR70S-CZ-54157;Mšené Lázně
 TN5454159;gare;Lom u Mostu zastávka;Lom u Mostu zastávka;Lom u Mostu zastávka;5454159;;50.598286;13.651922;CZ;Europe/Prague;Q745031;Os|Sp;;nom;12857242115;Q64532877;;;-SR70S-CZ-54159;Lom u Mostu zastávka
 TN5454160;gare;Vamberk;Vamberk;Vamberk;5454160;;50.117749;16.282744;CZ;Europe/Prague;Q1019344;Os;;uic;308721563;Q18180582;;;-SR70ST-CZ-54160;Vamberk
 TN5454163;gare;Mrzkovice;Mrzkovice;Mrzkovice;5454163;;49.65705;15.373624;CZ;Europe/Prague;Q1001639;Os;;nom;834661264;Q66888095;;;-SR70S-CZ-54163;Mrzkovice
-TN5454167;gare;Charvatce;Charvatce;Charvatce;5454167;;50.359287;14.148977;CZ;Europe/Prague;Q2298538;Os;;nom;293765887;Q66888698;;;-SR70S-CZ-54167;Charvatce
 TN5454169;gare;Osek město;Osek město;Osek město;5454169;;50.625857;13.685061;CZ;Europe/Prague;Q546673;Os|Sp;;nom;12857242114;Q64532900;;;-SR70ST-CZ-54169;Osek město
 TN5454170;gare;Slatina nad Zdobnicí;Slatina nad Zdobnicí;Slatina nad Zdobnicí;5454170;;50.136853;16.377517;CZ;Europe/Prague;Q1902550;Os;;uic;308721670;Q66888907;;;-SR70ST-CZ-54170;Slatina nad Zdobnicí
 TN5454173;gare;Dolní Březinka;Dolní Březinka;Dolní Březinka;5454173;;49.661429;15.380493;CZ;Europe/Prague;Q1001639;Os;;nom;306619570;Q66888086;;;-SR70S-CZ-54173;Dolní Březinka
-TN5454177;gare;Martiněves u Libochovic;Martiněves u Libochovic;Martiněves u Libochovic;5454177;;50.379583;14.141486;CZ;Europe/Prague;Q2298538;Os;;gtfs;;;;;-SR70S-CZ-54177;Martiněves u Libochovic
 TN5454179;gare;Horní Háj;Horní Háj;Horní Háj;5454179;;50.63983;13.703734;CZ;Europe/Prague;Q1641786;Os;;uic;987506604;Q64565201;;;-SR70S-CZ-54179;Horní Háj
 TN5454180;gare;Rybná nad Zdobnicí;Rybná nad Zdobnicí;Rybná nad Zdobnicí;5454180;;50.127558;16.343137;CZ;Europe/Prague;Q1019344;Os;;nom;359094827;Q66888920;;;-SR70S-CZ-54180;Rybná nad Zdobnicí
 TN5454183;gare;Světlá nad Sázavou město;Světlá nad Sázavou město;Světlá nad Sázavou město;5454183;;49.669206;15.401524;CZ;Europe/Prague;Q1001639;Os;;nom;834661294;Q18180533;;;-SR70S-CZ-54183;Světlá nad Sázavou město
-TN5454187;gare;Vrbka;Vrbka;Vrbka;5454187;;50.389917;14.140472;CZ;Europe/Prague;Q1001647;Os;;nom;292742443;Q66888679;;;-SR70S-CZ-54187;Vrbka
 TN5454189;gare;Hrob;Hrob;Hrob;5454189;;50.660152;13.72206;CZ;Europe/Prague;Q1019471;Os|Sp;;uic;215461677;Q18180249;;;-SR70ST-CZ-54189;Hrob
 TN5454190;gare;Peklo nad Zdobnicí;Peklo nad Zdobnicí;Peklo nad Zdobnicí;5454190;;50.122078;16.305698;CZ;Europe/Prague;Q1019344;Os;;nom;308721581;Q66888906;;;-SR70S-CZ-54190;Peklo nad Zdobnicí
 TN5454193;gare;Okrouhlice;Okrouhlice;Okrouhlice;5454193;;49.630669;15.487715;CZ;Europe/Prague;Q164479;Os;;nom;5299058689;Q18432923;;;-SR70ST-CZ-54193;Okrouhlice
-TN5454197;gare;Budyně nad Ohří;Budyně nad Ohří;Budyně nad Ohří;5454197;;50.404824;14.134413;CZ;Europe/Prague;Q1001647;Os;;nom;292742439;Q18180156;;;-SR70ST-CZ-54197;Budyně nad Ohří
 TN5454199;gare;Střelná v Krušných horách;Střelná v Krušných horách;Střelná v Krušných horách;5454199;;50.670485;13.740592;CZ;Europe/Prague;Q1430746;Os;;uic;215461757;Q64565572;;;-SR70S-CZ-54199;Střelná v Krušných horách
 TN5454203;gare;Havlíčkův Brod-Perknov;Havlíčkův Brod-Perknov;Havlíčkův Brod-Perknov;5454203;;49.614508;15.539098;CZ;Europe/Prague;Q954596;Os;;nom;5299058690;Q18425174;;;-SR70S-CZ-54203;Havlíčkův Brod-Perknov
-TN5454207;gare;Břežany nad Ohří;Břežany nad Ohří;Břežany nad Ohří;5454207;;50.412766;14.114838;CZ;Europe/Prague;Q1001647;Os;;nom;293772005;Q66888700;;;-SR70S-CZ-54207;Břežany nad Ohří
 TN5454209;gare;Dubí;Dubí;Dubí;5454209;;50.697438;13.762296;CZ;Europe/Prague;Q601254;Os|Sp;;uic;215461960;Q64565839;;;-SR70ST-CZ-54209;Dubí
 TN5454212;gare;Liberec;Liberec;Liberec;5454212;;50.76131;15.045899;CZ;Europe/Prague;Q146351;Os|R|Sp|TL|TLX;;uic;5648138221;Q11755665;;;-SR70ST-CZ-54212;Liberec
 TN5454213;gare;Havlíčkův Brod;Havlíčkův Brod;Havlíčkův Brod;5454213;;49.599181;15.588112;CZ;Europe/Prague;Q954596;Os|R|Sp;;uic;5288134947;Q12019299;;;-SR70ST-CZ-54213;Havlíčkův Brod
-TN5454217;gare;Žabovřesky nad Ohří;Žabovřesky nad Ohří;Žabovřesky nad Ohří;5454217;;50.415468;14.085091;CZ;Europe/Prague;Q393320;Os;;nom;293772033;Q64617505;;;-SR70S-CZ-54217;Žabovřesky nad Ohří
 TN5454219;gare;Mikulov v Krušných horách;Mikulov v Krušných horách;Mikulov v Krušných horách;5454219;;50.693491;13.723765;CZ;Europe/Prague;Q1934144;Os|Sp;;uic;215462243;Q64566158;;;-SR70S-CZ-54219;Mikulov v Krušných horách
 TN5454222;gare;Liberec-Rochlice;Liberec-Rochlice;Liberec-Rochlice;5454222;;50.74726;15.061587;CZ;Europe/Prague;Q146351;Os;;nom;280987565;Q18170987;;;-SR70S-CZ-54222;Liberec-Rochlice
 TN5454223;gare;Petrkov;Petrkov;Petrkov;5454223;;49.576175;15.552752;CZ;Europe/Prague;Q164476;Os;;nom;272428111;Q66888066;;;-SR70S-CZ-54223;Petrkov
@@ -1100,46 +1059,33 @@ TN5454292;gare;Sedlejovice;Sedlejovice;Sedlejovice;5454292;;50.636669;15.099105;
 TN5454297;gare;Záluží;Záluží;Záluží;5454297;;50.456822;14.325532;CZ;Europe/Prague;Q246885;Os;;gtfs;;;;;-SR70S-CZ-54297;Záluží
 TN5454300;gare;Turnov;Turnov;Turnov;5454300;;50.587063;15.138844;CZ;Europe/Prague;Q851419;Os|R|Sp;;nom;7055035333;Q17750108;;;-SR70ST-CZ-54300;Turnov
 TN5454306;gare;Dolní Beřkovice;Dolní Beřkovice;Dolní Beřkovice;5454306;;50.389681;14.435803;CZ;Europe/Prague;Q1236056;Os;;nom;2206375116;Q19400578;;;-SR70ST-CZ-54306;Dolní Beřkovice
-TN5454309;gare;Jílové u Děčína;Jílové u Děčína;Jílové u Děčína;5454309;;50.759739;14.105425;CZ;Europe/Prague;Q1715023;Os;;uic;244130660;Q56324859;;;-SR70ST-CZ-54309;Jílové u Děčína
 TN5454312;gare;Doubí u Turnova;Doubí u Turnova;Doubí u Turnova;5454312;;50.607977;15.101924;CZ;Europe/Prague;Q341684;Os;;nom;958755226;Q25402458;;;-SR70S-CZ-54312;Doubí u Turnova
 TN5454313;gare;Opatov;Opatov;Opatov;5454313;;49.815068;16.486031;CZ;Europe/Prague;Q2024998;Os|Sp;;nom;5298253335;Q18432944;;;-SR70ST-CZ-54313;Opatov
 TN5454316;gare;Horní Počaply;Horní Počaply;Horní Počaply;5454316;;50.422798;14.386314;CZ;Europe/Prague;Q1481198;Os;;nom;5648194064;Q19400698;;;-SR70S-CZ-54316;Horní Počaply
 TN5454318;gare;Jeníkov-Oldřichov;Jeníkov-Oldřichov;Jeníkov-Oldřichov;5454318;;50.636193;13.755346;CZ;Europe/Prague;Q770634;Os|Sp;;uic;9798686828;Q106686799;;;-SR70ST-CZ-54318;Jeníkov-Oldřichov
-TN5454319;gare;Děčín-Bynov;Děčín-Bynov;Děčín-Bynov;5454319;;50.779921;14.15387;CZ;Europe/Prague;Q146307;Os;;uic;244130663;Q116151930;;;-SR70S-CZ-54319;Děčín-Bynov
 TN5454321;gare;Loukov u Mnichova Hradiště;Loukov u Mnichova Hradiště;Loukov u Mnichova Hradiště;5454321;;50.558711;15.056555;CZ;Europe/Prague;Q2408256;Os|Sp;;nom;3267208308;Q19366340;;;-SR70ST-CZ-54321;Loukov u Mnichova Hradiště
-TN5454323;gare;Semanín;Semanín;Semanín;5454323;;49.847626;16.474173;CZ;Europe/Prague;Q2024998;Os;;nom;5298253333;Q22807320;;;-SR70S-CZ-54323;Semanín
+TN5454323;gare;Semanín;Semanín;Semanín;5454323;;49.847626;16.474173;CZ;Europe/Prague;Q2024998;Os|Sp;;nom;5298253333;Q22807320;;;-SR70S-CZ-54323;Semanín
 TN5454326;gare;Vraňany;Vraňany;Vraňany;5454326;;50.33513;14.371495;CZ;Europe/Prague;Q2334169;Os;;nom;4684736200;Q19401607;;;-SR70ST-CZ-54326;Vraňany
-TN5454329;gare;Děčín-Oldřichov;Děčín-Oldřichov;Děčín-Oldřichov;5454329;;50.779071;14.171134;CZ;Europe/Prague;Q146307;Os;;uic;5903396744;Q116008668;;;-SR70S-CZ-54329;Děčín-Oldřichov
 TN5454332;gare;Příšovice;Příšovice;Příšovice;5454332;;50.579104;15.07866;CZ;Europe/Prague;Q2058582;Os|Sp;;nom;3267208312;Q19401299;;;-SR70ST-CZ-54332;Příšovice
 TN5454333;gare;Svitavy;Svitavy;Svitavy;5454333;;49.759449;16.479449;CZ;Europe/Prague;Q755698;Os|R|RJ|Sp|rj;;uic;5298253349;Q18180534;;;-SR70ST-CZ-54333;Svitavy
 TN5454336;gare;Cítov;Cítov;Cítov;5454336;;50.366575;14.419094;CZ;Europe/Prague;Q1236056;Os;;nom;5664606054;Q18590900;;;-SR70S-CZ-54336;Cítov
-TN5454339;gare;Martiněves u Děčína;Martiněves u Děčína;Martiněves u Děčína;5454339;;50.770427;14.123769;CZ;Europe/Prague;Q1715023;Os;;uic;5903396746;Q116151931;;;-SR70S-CZ-54339;Martiněves u Děčína
 TN5454341;gare;Březina nad Jizerou;Březina nad Jizerou;Březina nad Jizerou;5454341;;50.545598;15.036065;CZ;Europe/Prague;Q264663;Os|Sp;;nom;3267208307;Q19400468;;;-SR70S-CZ-54341;Březina nad Jizerou
-TN5454343;gare;Opatovec;Opatovec;Opatovec;5454343;;49.793646;16.4873;CZ;Europe/Prague;Q636807;Os;;nom;5298253336;Q18435015;;;-SR70S-CZ-54343;Opatovec
-TN5454349;gare;Libouchec;Libouchec;Libouchec;5454349;;50.75605;14.045818;CZ;Europe/Prague;Q1823117;Os;;uic;244130655;Q123109849;;;-SR70ST-CZ-54349;Libouchec
+TN5454343;gare;Opatovec;Opatovec;Opatovec;5454343;;49.793646;16.4873;CZ;Europe/Prague;Q636807;Os|Sp;;nom;5298253336;Q18435015;;;-SR70S-CZ-54343;Opatovec
 TN5454351;gare;Mnichovo Hradiště;Mnichovo Hradiště;Mnichovo Hradiště;5454351;;50.518376;14.978303;CZ;Europe/Prague;Q1017769;Os|R|Sp;;uic;5665625956;Q18180412;;;-SR70ST-CZ-54351;Mnichovo Hradiště
 TN5454353;gare;Svitavy zastávka;Svitavy zastávka;Svitavy zastávka;5454353;;49.763516;16.455369;CZ;Europe/Prague;Q755698;Os;;nom;344379414;Q56702201;;;-SR70S-CZ-54353;Svitavy zastávka
 TN5454356;gare;Mlčechvosty;Mlčechvosty;Mlčechvosty;5454356;;50.319417;14.3481;CZ;Europe/Prague;Q2334169;Os;;nom;2207129286;Q19400979;;;-SR70S-CZ-54356;Mlčechvosty
-TN5454359;gare;Kamenec;Kamenec;Kamenec;5454359;;50.755941;14.07025;CZ;Europe/Prague;Q1823117;Os;;uic;244130656;Q123109787;;;-SR70S-CZ-54359;Kamenec
 TN5454361;gare;Bakov nad Jizerou;Bakov nad Jizerou;Bakov nad Jizerou;5454361;;50.472161;14.922794;CZ;Europe/Prague;Q804489;Os|R|Sp|TL;;uic;3267208306;Q18180125;;;-SR70ST-CZ-54361;Bakov nad Jizerou
 TN5454366;gare;Nelahozeves;Nelahozeves;Nelahozeves;5454366;;50.283521;14.3088;CZ;Europe/Prague;Q1021621;Os;;nom;5502790719;Q19401016;;;-SR70ST-CZ-54366;Nelahozeves
-TN5454369;gare;Modrá u Děčína;Modrá u Děčína;Modrá u Děčína;5454369;;50.758059;14.081615;CZ;Europe/Prague;Q1715023;Os;;uic;244130659;Q116155594;;;-SR70S-CZ-54369;Modrá u Děčína
 TN5454371;gare;Bakov nad Jizerou město;Bakov nad Jizerou město;Bakov nad Jizerou město;5454371;;50.479001;14.939214;CZ;Europe/Prague;Q804489;Os|R|Sp;;uic;3267208305;Q19400421;;;-SR70S-CZ-54371;Bakov nad Jizerou město
 TN5454376;gare;Nové Ouholice;Nové Ouholice;Nové Ouholice;5454376;;50.302171;14.316873;CZ;Europe/Prague;Q614356;Os;;nom;4440720753;Q19401037;;;-SR70S-CZ-54376;Nové Ouholice
-TN5454379;gare;Malé Chvojno;Malé Chvojno;Malé Chvojno;5454379;;50.738999;14.023671;CZ;Europe/Prague;Q2003107;Os;;uic;244130652;Q123109885;;;-SR70ST-CZ-54379;Malé Chvojno
 TN5454386;gare;Nelahozeves zámek;Nelahozeves zámek;Nelahozeves zámek;5454386;;50.262906;14.302504;CZ;Europe/Prague;Q1021621;Os;;nom;4437906733;Q19401017;;;-SR70S-CZ-54386;Nelahozeves zámek
-TN5454389;gare;Telnice;Telnice;Telnice;5454389;;50.7269;13.9647;CZ;Europe/Prague;Q145812;Os;;uic;5903396752;Q123110168;;;-SR70ST-CZ-54389;Telnice
-TN5454396;gare;Kralupy nad Vltavou;Kralupy nad Vltavou;Kralupy nad Vltavou;5454396;;50.238541;14.313409;CZ;Europe/Prague;Q987496;EC|Os|R|Sp|rj;;uic;5262567728;Q18180343;;;-SR70ST-CZ-54396;Kralupy n.V.
-TN5454399;gare;Chlumec u Chabařovic;Chlumec u Chabařovic;Chlumec u Chabařovic;5454399;;50.703691;13.926474;CZ;Europe/Prague;Q387840;Os;;uic;214023328;Q122463262;;;-SR70ST-CZ-54399;Chlumec u Chabařovic
+TN5454396;gare;Kralupy nad Vltavou;Kralupy nad Vltavou;Kralupy nad Vltavou;5454396;;50.238541;14.313409;CZ;Europe/Prague;Q987496;Os|R|Sp|rj;;uic;5262567728;Q18180343;;;-SR70ST-CZ-54396;Kralupy n.V.
 TN5454406;gare;Chvatěruby;Chvatěruby;Chvatěruby;5454406;;50.239991;14.337629;CZ;Europe/Prague;Q987496;Os;;nom;5677772210;Q19400524;;;-SR70ST-CZ-54406;Chvatěruby
-TN5454409;gare;Unčín;Unčín;Unčín;5454409;;50.690904;13.897166;CZ;Europe/Prague;Q593629;Os;;uic;244130651;Q123110331;;;-SR70S-CZ-54409;Unčín
 TN5454414;gare;Milovice;Milovice;Milovice;5454414;;50.2291;14.881716;CZ;Europe/Prague;Q766465;Os;;nom;308840612;Q18180407;;;-SR70ST-CZ-54414;Milovice
 TN5454424;gare;Veleliby;Veleliby;Veleliby;5454424;;50.214597;15.023575;CZ;Europe/Prague;Q1268390;Os;;nom;254506909;Q19401575;;;-SR70ST-CZ-54424;Veleliby
 TN5454426;gare;Zlonín;Zlonín;Zlonín;5454426;;50.214862;14.507508;CZ;Europe/Prague;Q2646266;Os;;nom;24579463;Q18817283;;;-SR70S-CZ-54426;Zlonín
 TN5454427;gare;Krupka-Bohosudov z;Krupka-Bohosudov;Krupka-Bohosudov;5454427;;50.67239;13.8756;CZ;Europe/Prague;Q593629;Os|R|Sp;;uic;10991599380;Q19400455;;;-SR70S-CZ-54427;Krupka-Bohosudov z
-TN5454429;gare;Bohosudov zastávka;Bohosudov zastávka;Bohosudov zastávka;5454429;;50.686188;13.873752;CZ;Europe/Prague;Q593629;Os;;uic;244130649;Q123110332;;;-SR70S-CZ-54429;Bohosudov zastávka
 TN5454436;gare;Libčice nad Vltavou;Libčice nad Vltavou;Libčice nad Vltavou;5454436;;50.19978;14.364419;CZ;Europe/Prague;Q158456;Os|Sp;;nom;5262567553;Q18180370;;;-SR70ST-CZ-54436;Libčice nad Vltavou
-TN5454439;gare;Krupka město;Krupka město;Krupka město;5454439;;50.682409;13.860927;CZ;Europe/Prague;Q593629;Os;;uic;244130648;Q123110333;;;-SR70ST-CZ-54439;Krupka město
 TN5454441;gare;Mladá Boleslav-Debř;Mladá Boleslav-Debř;Mladá Boleslav-Debř;5454441;;50.448015;14.887315;CZ;Europe/Prague;Q191805;Os|Sp;;uic;3267208309;Q18924303;;;-SR70ST-CZ-54441;Mladá Boleslav-Debř
 TN5454446;gare;Dolany nad Vltavou;Dolany nad Vltavou;Dolany nad Vltavou;5454446;;50.224702;14.348475;CZ;Europe/Prague;Q2424826;Os;;nom;5678344752;;;;-SR70S-CZ-54446;Dolany nad Vltavou
 TN5454451;gare;Mladá Boleslav hlavní nádraží;Mladá Boleslav hlavní nádraží;Mladá Boleslav hlavní nádraží;5454451;;50.407316;14.887253;CZ;Europe/Prague;Q191805;Os|R|Sp|TL;;uic;3271081279;Q15735264;;;-SR70ST-CZ-54451;Mladá Boleslav hl. n.
@@ -1158,13 +1104,13 @@ TN5454516;gare;Otvovice;Otvovice;Otvovice;5454516;;50.210225;14.27018;CZ;Europe/
 TN5454521;gare;Zdětín u Chotětova;Zdětín u Chotětova;Zdětín u Chotětova;5454521;;50.315444;14.786103;CZ;Europe/Prague;Q2704203;Os|Sp;;nom;3275315963;Q56325035;;;-SR70S-CZ-54521;Zdětín u Chotětova
 TN5454526;gare;Kralupy nad Vltavou-Minice;Kralupy nad Vltavou-Minice;Kralupy nad Vltavou-Minice;5454526;;50.224481;14.297947;CZ;Europe/Prague;Q987496;Os;;nom;4069828084;Q66888337;;;-SR70S-CZ-54526;Kralupy nad Vltavou-Minice
 TN5454531;gare;Kropáčova Vrutice;Kropáčova Vrutice;Kropáčova Vrutice;5454531;;50.323543;14.701275;CZ;Europe/Prague;Q2538311;Os|Sp;;nom;33204354;Q19400856;;;-SR70ST-CZ-54531;Kropáčova Vrutice
-TN5454532;gare;Varnsdorf–pivovar Kocour;Varnsdorf–Brewery Kocour;Varnsdorf–pivovar Kocour;5454532;;50.918572;14.604265;CZ;Europe/Prague;Q158275;Os|Sp|TL;;uic;12844977333;Q66888727;;;-SR70S-CZ-54532;Varnsdorf - pivovar Kocour
+TN5454532;gare;Varnsdorf–pivovar Kocour;Varnsdorf–Brewery Kocour;Varnsdorf–pivovar Kocour;5454532;;50.918572;14.604265;CZ;Europe/Prague;Q158275;TL;;uic;12844977333;Q66888727;;;-SR70S-CZ-54532;Varnsdorf - pivovar Kocour
 TN5454536;gare;Zákolany;Zákolany;Zákolany;5454536;;50.199774;14.251688;CZ;Europe/Prague;Q2263519;Os;;nom;31023010;Q66888126;;;-SR70S-CZ-54536;Zákolany
 TN5454541;gare;Košátky;Košátky;Košátky;5454541;;50.316962;14.670197;CZ;Europe/Prague;Q2493270;Os|Sp;;nom;1674416761;Q19400810;;;-SR70S-CZ-54541;Košátky
 TN5454546;gare;Brandýsek;Brandýsek;Brandýsek;5454546;;50.184207;14.17304;CZ;Europe/Prague;Q2538228;Os;;nom;59662631;Q66828891;;;-SR70ST-CZ-54546;Brandýsek
 TN5454549;gare;Želenice nad Bílinou;Želenice nad Bílinou;Želenice nad Bílinou;5454549;;50.525183;13.72515;CZ;Europe/Prague;Q393500;Os;;uic;3801269094;Q18613955;;;-SR70S-CZ-54549;Želenice nad Bílinou
 TN5454551;gare;Byšice;Byšice;Byšice;5454551;;50.305723;14.60393;CZ;Europe/Prague;Q2330700;Os|R|Sp;;nom;30579108;Q18817192;;;-SR70ST-CZ-54551;Byšice
-TN5454554;gare;Nymburk město;Nymburk město;Nymburk město;5454554;;50.184594;15.033579;CZ;Europe/Prague;Q430864;Os|Sp;;nom;248611478;Q18432796;;;-SR70ST-CZ-54554;Nymburk město
+TN5454554;gare;Nymburk město;Nymburk město;Nymburk město;5454554;;50.184594;15.033579;CZ;Europe/Prague;Q430864;Os;;nom;248611478;Q18432796;;;-SR70ST-CZ-54554;Nymburk město
 TN5454556;gare;Dřetovice;Dřetovice;Dřetovice;5454556;;50.189193;14.201607;CZ;Europe/Prague;Q751525;Os;;nom;60301332;Q66888132;;;-SR70S-CZ-54556;Dřetovice
 TN5454559;gare;Bečov u Mostu;Bečov u Mostu;Bečov u Mostu;5454559;;50.456581;13.711797;CZ;Europe/Prague;Q854583;Os;;nom;12857367828;Q64617561;;;-SR70ST-CZ-54559;Bečov u Mostu
 TN5454561;gare;Kadaň-Bystřice;Kadaň-Bystřice;Kadaň-Bystřice;5454561;;50.396078;13.275757;CZ;Europe/Prague;Q158274;Os|Sp;;nom;9603781977;Q97487521;;;-SR70S-CZ-54561;Kadaň-Bystřice
@@ -1219,7 +1165,7 @@ TN5454713;gare;Horka u Chrudimi;Horka u Chrudimi;Horka u Chrudimi;5454713;;49.88
 TN5454716;gare;Kojetice u Prahy;Kojetice u Prahy;Kojetice u Prahy;5454716;;50.237318;14.499186;CZ;Europe/Prague;Q594937;Os;;nom;24684183;Q18817259;;;-SR70S-CZ-54716;Kojetice u Prahy
 TN5454719;gare;Brozánky;Brozánky;Brozánky;5454719;;50.608529;13.936157;CZ;Europe/Prague;Q386792;Os;;uic;5664606058;Q65243828;;;-SR70S-CZ-54719;Brozánky
 TN5454723;gare;Orel;Orel;Orel;5454723;;49.914524;15.842153;CZ;Europe/Prague;Q2521738;Os|Sp;;nom;11245507836;Q125123413;;;-SR70S-CZ-54723;Orel
-TN5454726;gare;Měšice u Prahy;Měšice u Prahy;Měšice u Prahy;5454726;;50.204651;14.513532;CZ;Europe/Prague;Q1688028;Os;;nom;7833572781;Q19400959;;;-SR70ST-CZ-54726;Měšice u Prahy
+TN5454726;gare;Měšice u Prahy;Měšice u Prahy;Měšice u Prahy;5454726;;50.204651;14.513532;CZ;Europe/Prague;Q1688028;Os|R;;nom;7833572781;Q19400959;;;-SR70ST-CZ-54726;Měšice u Prahy
 TN5454729;gare;Stadice;Stadice;Stadice;5454729;;50.616946;13.96965;CZ;Europe/Prague;Q386792;Os;;uic;5685828873;Q65243831;;;-SR70S-CZ-54729;Stadice
 TN5454736;gare;Hovorčovice;Hovorčovice;Hovorčovice;5454736;;50.180513;14.527661;CZ;Europe/Prague;Q1322371;Os;;nom;24688460;Q19400709;;;-SR70S-CZ-54736;Hovorčovice
 TN5454739;gare;Rtyně nad Bílinou;Rtyně nad Bílinou;Rtyně nad Bílinou;5454739;;50.601637;13.912446;CZ;Europe/Prague;Q2026383;Os;;uic;4006336531;Q65243825;;;-SR70S-CZ-54739;Rtyně nad Bílinou
@@ -1244,7 +1190,7 @@ TN5454810;gare;Opatovice nad Labem;Opatovice nad Labem;Opatovice nad Labem;54548
 TN5454812;gare;Raspenava;Raspenava;Raspenava;5454812;;50.89649;15.131624;CZ;Europe/Prague;Q1258284;Os;;uic;2042807009;Q12048902;;;-SR70ST-CZ-54812;Raspenava
 TN5454813;gare;Žďárec u Skutče;Žďárec u Skutče;Žďárec u Skutče;5454813;;49.826291;15.978057;CZ;Europe/Prague;Q1332942;Os|Sp;;uic;5652215050;Q19401718;;;-SR70ST-CZ-54813;Žďárec u Skutče
 TN5454816;gare;Zeleneč;Zeleneč;Zeleneč;5454816;;50.130286;14.665518;CZ;Europe/Prague;Q164457;Os;;nom;24580321;;;;-SR70S-CZ-54816;Zeleneč
-TN5454819;gare;Bílina;Bílina;Bílina;5454819;;50.554364;13.772238;CZ;Europe/Prague;Q518360;Ex|Os|R|Sp;;nom;78900877;Q18180134;;;-SR70ST-CZ-54819;Bílina
+TN5454819;gare;Bílina;Bílina;Bílina;5454819;;50.554364;13.772238;CZ;Europe/Prague;Q518360;Os|R|Sp;;nom;78900877;Q18180134;;;-SR70ST-CZ-54819;Bílina
 TN5454822;gare;Luh pod Smrkem;Luh pod Smrkem;Luh pod Smrkem;5454822;;50.89178;15.151894;CZ;Europe/Prague;Q1258284;Os;;uic;309538851;Q12034310;;;-SR70S-CZ-54822;Luh pod Smrkem
 TN5454823;gare;Vrbatův Kostelec;Vrbatův Kostelec;Vrbatův Kostelec;5454823;;49.854826;15.93739;CZ;Europe/Prague;Q2350662;Os;;nom;847351376;Q18924299;;;-SR70S-CZ-54823;Vrbatův Kostelec
 TN5454826;gare;P.-Hor. Počernice;P.-Hor. Počernice;P.-Hor. Počernice;5454826;;50.116505;14.612016;CZ;Europe/Prague;Q1085;Os;;gtfs;;;;;-SR70ST-CZ-54826;P.-Hor. Počernice
@@ -1293,24 +1239,24 @@ TN5454943;gare;Rozsochatec;Rozsochatec;Rozsochatec;5454943;;49.669928;15.632607;
 TN5454946;gare;Praha-Holyně;Praha-Holyně;Praha-Holyně;5454946;;50.032854;14.348574;CZ;Europe/Prague;Q1085;Os;;nom;357698251;Q11826598;;;-SR70S-CZ-54946;Praha-Holyně
 TN5454949;gare;Tvršice;Tvršice;Tvršice;5454949;;50.34065;13.597239;CZ;Europe/Prague;Q1524221;Os;;nom;282680650;Q64766366;;;-SR70S-CZ-54949;Tvršice
 TN5454952;gare;Tanvald;Tanvald;Tanvald;5454952;;50.743466;15.311032;CZ;Europe/Prague;Q149105;Os|R;;nom;5688646199;Q18180538;;;-SR70ST-CZ-54952;Tanvald
-TN5454956;gare;Praha-Uhříněves;Praha-Uhříněves;Praha-Uhříněves;5454956;;50.033682;14.591609;CZ;Europe/Prague;Q1085;Os|R;;nom;9968967787;Q16591125;;;-SR70ST-CZ-54956;Praha-Uhříněves
+TN5454956;gare;Praha-Uhříněves;Praha-Uhříněves;Praha-Uhříněves;5454956;;50.033682;14.591609;CZ;Europe/Prague;Q1085;Os;;nom;9968967787;Q16591125;;;-SR70ST-CZ-54956;Praha-Uhříněves
 TN5454959;gare;Březno u Postoloprt;Březno u Postoloprt;Březno u Postoloprt;5454959;;50.351719;13.722041;CZ;Europe/Prague;Q1019831;Os;;nom;225031145;Q64593728;;;-SR70ST-CZ-54959;Březno u Postoloprt
 TN5454962;gare;Dolní Polubný;Dolní Polubný;Dolní Polubný;5454962;;50.760541;15.323149;CZ;Europe/Prague;Q149592;Os;;nom;289746889;Q19359717;;;-SR70ST-CZ-54962;Dolní Polubný
 TN5454969;gare;Hřivice;Hřivice;Hřivice;5454969;;50.285423;13.725207;CZ;Europe/Prague;Q2702589;Os;;nom;12857367803;Q64636512;;;-SR70ST-CZ-54969;Hřivice
 TN5454972;gare;Desná;Desná;Desná;5454972;;50.753486;15.308896;CZ;Europe/Prague;Q149105;Os;;nom;289746912;Q18180185;;;-SR70ST-CZ-54972;Desná
 TN5454973;gare;Desná-Riedlova vila;Desná-Riedlova vila;Desná-Riedlova vila;5454973;;50.75928;15.313903;CZ;Europe/Prague;Q149592;Os;;uic;289746939;Q11774649;;;-SR70S-CZ-54973;Desná-Riedlova vila
 TN5454974;gare;Desná-Pustinská;Desná-Pustinská;Desná-Pustinská;5454974;;50.764226;15.335612;CZ;Europe/Prague;Q149592;Os;;uic;885461709;Q11774648;;;-SR70S-CZ-54974;Desná-Pustinská
-TN5454976;gare;Praha-Kolovraty;Praha-Kolovraty;Praha-Kolovraty;5454976;;50.013792;14.626071;CZ;Europe/Prague;Q1085;Os|Sp;;nom;24595788;Q16591115;;;-SR70S-CZ-54976;Praha-Kolovraty
+TN5454976;gare;Praha-Kolovraty;Praha-Kolovraty;Praha-Kolovraty;5454976;;50.013792;14.626071;CZ;Europe/Prague;Q1085;Os;;nom;24595788;Q16591115;;;-SR70S-CZ-54976;Praha-Kolovraty
 TN5454979;gare;Jimlín;Jimlín;Jimlín;5454979;;50.326484;13.751053;CZ;Europe/Prague;Q1689277;Os;;nom;12857367812;Q64623685;;;-SR70S-CZ-54979;Jimlín
 TN5454982;gare;Tanvald zastávka;Tanvald zastávka;Tanvald zastávka;5454982;;50.737015;15.305261;CZ;Europe/Prague;Q149105;Os;;nom;244842088;Q66888732;;;-SR70S-CZ-54982;Tanvald zastávka
-TN5454986;gare;Říčany;Říčany;Říčany;5454986;;49.997713;14.663523;CZ;Europe/Prague;Q386988;Os|R|Sp;;nom;24593605;Q15887208;;;-SR70ST-CZ-54986;Říčany
+TN5454986;gare;Říčany;Říčany;Říčany;5454986;;49.997713;14.663523;CZ;Europe/Prague;Q386988;Os|Sp;;nom;24593605;Q15887208;;;-SR70ST-CZ-54986;Říčany
 TN5454989;gare;Opočno u Loun;Opočno u Loun;Opočno u Loun;5454989;;50.312528;13.734026;CZ;Europe/Prague;Q2003070;Os;;nom;12857367805;Q64636274;;;-SR70S-CZ-54989;Opočno u Loun
 TN5454992;gare;Smržovka dolní nádraží;Smržovka dolní nádraží;Smržovka dolní nádraží;5454992;;50.734801;15.280413;CZ;Europe/Prague;Q1936067;Os;;nom;340281576;Q66888774;;;-SR70S-CZ-54992;Smržovka dolní nádraží
 TN5454996;gare;Světice;Světice;Světice;5454996;;49.970202;14.657975;CZ;Europe/Prague;Q2319384;Os;;nom;5677840925;Q16608105;;;-SR70S-CZ-54996;Světice
 TN5454999;gare;Solopysky;Solopysky;Solopysky;5454999;;50.251423;13.748133;CZ;Europe/Prague;Q2194137;Os;;nom;12857358800;Q64637097;;;-SR70S-CZ-54999;Solopysky
 TN5455002;gare;Jablonec nad Nisou centrum;Jablonec nad Nisou centrum;Jablonec nad Nisou centrum;5455002;;50.720868;15.173815;CZ;Europe/Prague;Q147607;Os;;nom;309382440;Q66888770;;XTJC;-SR70S-CZ-55002;Jablonec nad Nisou centrum
 TN5455003;gare;Borová u Poličky zastávka;Borová u Poličky zastávka;Borová u Poličky zastávka;5455003;;49.731921;16.174311;CZ;Europe/Prague;Q2069491;Os;;nom;344381145;Q56702484;;;-SR70S-CZ-55003;Borová u Poličky zastávka
-TN5455006;gare;Strančice;Strančice;Strančice;5455006;;49.949514;14.677998;CZ;Europe/Prague;Q2034257;Os|Sp;;nom;24589182;Q15887083;;;-SR70ST-CZ-55006;Strančice
+TN5455006;gare;Strančice;Strančice;Strančice;5455006;;49.949514;14.677998;CZ;Europe/Prague;Q2034257;Os;;nom;24589182;Q15887083;;;-SR70ST-CZ-55006;Strančice
 TN5455009;gare;Konětopy;Konětopy;Konětopy;5455009;;50.268341;13.726628;CZ;Europe/Prague;Q2150270;Os;;nom;12857367801;Q64636893;;;-SR70S-CZ-55009;Konětopy
 TN5455012;gare;Smržovka střed;Smržovka střed;Smržovka střed;5455012;;50.732023;15.254397;CZ;Europe/Prague;Q1936067;Os;;nom;340281572;Q66888773;;;-SR70S-CZ-55012;Smržovka střed
 TN5455013;gare;Skuteč;Skuteč;Skuteč;5455013;;49.837651;15.99519;CZ;Europe/Prague;Q1332942;Os;;uic;5316917077;Q18180508;;;-SR70ST-CZ-55013;Skuteč
@@ -1338,10 +1284,10 @@ TN5455066;gare;Mrač;Mrač;Mrač;5455066;;49.832509;14.697988;CZ;Europe/Prague;Q
 TN5455068;gare;Chrášťany;Chrášťany;Chrášťany;5455068;;50.141902;13.663364;CZ;Europe/Prague;Q2447020;Os;;nom;12857358794;Q18170875;;;-SR70ST-CZ-55068;Chrášťany
 TN5455072;gare;Lučany nad Nisou;Lučany nad Nisou;Lučany nad Nisou;5455072;;50.739509;15.225365;CZ;Europe/Prague;Q225572;Os;;nom;288195264;Q19400911;;;-SR70S-CZ-55072;Lučany nad Nisou
 TN5455073;gare;Borová u Poličky;Borová u Poličky;Borová u Poličky;5455073;;49.743068;16.161719;CZ;Europe/Prague;Q2069491;Os;;uic;5646247491;Q56702495;;;-SR70ST-CZ-55073;Borová u Poličky
-TN5455076;gare;Lštění;Lštění;Lštění;5455076;;49.863906;14.715766;CZ;Europe/Prague;Q1935080;Os|Sp;;nom;834661254;Q19400906;;;-SR70S-CZ-55076;Lštění
+TN5455076;gare;Lštění;Lštění;Lštění;5455076;;49.863906;14.715766;CZ;Europe/Prague;Q1935080;Os;;nom;834661254;Q19400906;;;-SR70S-CZ-55076;Lštění
 TN5455082;gare;Jablonecké Paseky;Jablonecké Paseky;Jablonecké Paseky;5455082;;50.731541;15.190405;CZ;Europe/Prague;Q147607;Os;;nom;309373662;Q66888767;;;-SR70S-CZ-55082;Jablonecké Paseky
 TN5455083;gare;Oldřiš;Oldřiš;Oldřiš;5455083;;49.728505;16.194016;CZ;Europe/Prague;Q2520302;Os;;nom;246557479;Q56702474;;;-SR70S-CZ-55083;Oldřiš
-TN5455086;gare;Zlenice;Zlenice;Zlenice;5455086;;49.879586;14.733433;CZ;Europe/Prague;Q1935080;Os|Sp;;nom;834661267;Q18614115;;;-SR70S-CZ-55086;Zlenice
+TN5455086;gare;Zlenice;Zlenice;Zlenice;5455086;;49.879586;14.733433;CZ;Europe/Prague;Q1935080;Os;;nom;834661267;Q18614115;;;-SR70S-CZ-55086;Zlenice
 TN5455092;gare;Jablonec nad Nisou;Jablonec nad Nisou;Jablonec nad Nisou;5455092;;50.72094;15.160789;CZ;Europe/Prague;Q147607;Os;;uic;5646229921;Q18180270;;;-SR70ST-CZ-55092;Jablonec nad Nisou
 TN5455093;gare;Sádek u Poličky;Sádek u Poličky;Sádek u Poličky;5455093;;49.717794;16.214865;CZ;Europe/Prague;Q41200;Os;;nom;246557514;Q56702465;;;-SR70S-CZ-55093;Sádek u Poličky
 TN5455096;gare;Poříčí nad Sázavou;Poříčí nad Sázavou;Poříčí nad Sázavou;5455096;;49.837407;14.676547;CZ;Europe/Prague;Q2581978;Os;;nom;24596821;Q18180468;;;-SR70S-CZ-55096;Poříčí nad Sázavou
@@ -1360,7 +1306,7 @@ TN5455129;gare;Prosetice;Prosetice;Prosetice;5455129;;50.631081;13.842121;CZ;Eur
 TN5455132;gare;Proseč nad Nisou;Proseč nad Nisou;Proseč nad Nisou;5455132;;50.728318;15.115739;CZ;Europe/Prague;Q146351;Os;;nom;280987574;Q66888754;;;-SR70S-CZ-55132;Proseč nad Nisou
 TN5455133;gare;Vendolí zastávka;Vendolí zastávka;Vendolí zastávka;5455133;;49.736552;16.395808;CZ;Europe/Prague;Q2520738;Os;;nom;344379413;Q55972914;;;-SR70S-CZ-55133;Vendolí zastávka
 TN5455136;gare;Olbramovice;Olbramovice;Olbramovice;5455136;;49.667097;14.624231;CZ;Europe/Prague;Q2397661;Os|R|Sp;;nom;24600267;Q15886961;;;-SR70ST-CZ-55136;Olbramovice
-TN5455139;gare;Úpořiny;Úpořiny;Úpořiny;5455139;;50.609252;13.878509;CZ;Europe/Prague;Q1018694;Ex|Os|R;;uic;213956618;Q65243821;;;-SR70ST-CZ-55139;Úpořiny
+TN5455139;gare;Úpořiny;Úpořiny;Úpořiny;5455139;;50.609252;13.878509;CZ;Europe/Prague;Q1018694;Os;;uic;213956618;Q65243821;;;-SR70ST-CZ-55139;Úpořiny
 TN5455142;gare;Vratislavice nad Nisou;Vratislavice nad Nisou;Vratislavice nad Nisou;5455142;;50.740133;15.093496;CZ;Europe/Prague;Q146351;Os;;nom;280987509;Q18180601;;;-SR70S-CZ-55142;Vratislavice nad Nisou
 TN5455146;gare;Vrchotovy Janovice;Vrchotovy Janovice;Vrchotovy Janovice;5455146;;49.658558;14.579352;CZ;Europe/Prague;Q1478830;Os;;nom;264548010;Q66888167;;;-SR70S-CZ-55146;Vrchotovy Janovice
 TN5455149;gare;Lbín;Lbín;Lbín;5455149;;50.605738;13.859391;CZ;Europe/Prague;Q578725;Os;;uic;5664641437;Q65243820;;;-SR70S-CZ-55149;Lbín
@@ -1389,14 +1335,12 @@ TN5455209;gare;Žim;Žim;Žim;5455209;;50.587054;13.965046;CZ;Europe/Prague;Q394
 TN5455212;gare;Zdislava;Zdislava;Zdislava;5455212;;50.770093;14.876705;CZ;Europe/Prague;Q169137;R|TL|TLX;;uic;280900343;Q66888745;;;-SR70S-CZ-55212;Zdislava
 TN5455213;gare;Litomyšl;Litomyšl;Litomyšl;5455213;;49.874782;16.304104;CZ;Europe/Prague;Q722732;Os;;uic;10968812293;Q18180378;;;-SR70ST-CZ-55213;Litomyšl
 TN5455216;gare;Heřmaničky;Heřmaničky;Heřmaničky;5455216;;49.601055;14.584409;CZ;Europe/Prague;Q2619854;Os|Sp;;nom;9632081828;Q111685693;;;-SR70S-CZ-55216;Heřmaničky
-TN5455219;gare;Chotiměř;Chotiměř;Chotiměř;5455219;;50.547138;13.989133;CZ;Europe/Prague;Q1076694;Os;;nom;12747494040;;;;-SR70ST-CZ-55219;Chotiměř
 TN5455222;gare;Rynoltice;Rynoltice;Rynoltice;5455222;;50.787001;14.826685;CZ;Europe/Prague;Q2007704;TL;;uic;280900379;Q66888747;;;-SR70ST-CZ-55222;Rynoltice
 TN5455223;gare;Litomyšl-Nedošín;Litomyšl-Nedošín;Litomyšl-Nedošín;5455223;;49.885827;16.279781;CZ;Europe/Prague;Q722732;Os;;nom;308868305;Q19400900;;;-SR70S-CZ-55223;Litomyšl-Nedošín
 TN5455226;gare;Střezimíř;Střezimíř;Střezimíř;5455226;;49.543626;14.62134;CZ;Europe/Prague;Q2180733;Os|Sp;;nom;9632057113;Q111685697;;;-SR70ST-CZ-55226;Střezimíř
 TN5455232;gare;Lvová;Lvová;Lvová;5455232;;50.781001;14.787847;CZ;Europe/Prague;Q158247;TL;;uic;5651023957;Q66888792;;;-SR70S-CZ-55232;Lvová
 TN5455233;gare;Tržek;Tržek;Tržek;5455233;;49.889841;16.260366;CZ;Europe/Prague;Q1865223;Os;;nom;308868281;Q18747883;;;-SR70S-CZ-55233;Tržek
 TN5455236;gare;Ješetice;Ješetice;Ješetice;5455236;;49.577666;14.596972;CZ;Europe/Prague;Q2696131;Os|Sp;;nom;9632081825;Q111685694;;;-SR70S-CZ-55236;Ješetice
-TN5455239;gare;Oparno;Oparno;Oparno;5455239;;50.542469;14.012877;CZ;Europe/Prague;Q1287241;Os;;nom;12747494043;;;;-SR70S-CZ-55239;Oparno
 TN5455242;gare;Velké Hamry;Velké Hamry;Velké Hamry;5455242;;50.711458;15.313784;CZ;Europe/Prague;Q1812126;Os;;nom;26024341;Q19401577;;;-SR70ST-CZ-55242;Velké Hamry
 TN5455243;gare;Řídký;Řídký;Řídký;5455243;;49.891975;16.246305;CZ;Europe/Prague;Q952373;Os;;nom;980515215;Q19401342;;;-SR70S-CZ-55243;Řídký
 TN5455246;gare;Červený Újezd u Votic zastávka;Červený Újezd u Votic zastávka;Červený Újezd u Votic zastávka;5455246;;49.560231;14.613748;CZ;Europe/Prague;Q2354186;Os|Sp;;nom;9632081819;Q111685695;;;-SR70S-CZ-55246;Červený Újezd u Votic zastávka
@@ -1517,10 +1461,9 @@ TN5455670;gare;Dlouhé Dvory;Dlouhé Dvory;Dlouhé Dvory;5455670;;50.261709;15.7
 TN5455676;gare;Mokrovraty;Mokrovraty;Mokrovraty;5455676;;49.796464;14.236505;CZ;Europe/Prague;Q1898706;Os;;nom;267473504;Q66888185;;;-SR70S-CZ-55676;Mokrovraty
 TN5455680;gare;Plotiště nad Labem;Plotiště nad Labem;Plotiště nad Labem;5455680;;50.235419;15.792016;CZ;Europe/Prague;Q180139;Os;;nom;272506981;Q18180461;;;-SR70S-CZ-55680;Plotiště nad Labem
 TN5455686;gare;Stará Huť;Stará Huť;Stará Huť;5455686;;49.785001;14.199554;CZ;Europe/Prague;Q2586741;Os;;nom;267836794;Q66888186;;;-SR70S-CZ-55686;Stará Huť
-TN5455689;gare;Děčín východ;Děčín východ;Děčín východ;5455689;;50.775131;14.223293;CZ;Europe/Prague;Q146307;Os|R|Sp|TL;;uic;5646260933;Q18424417;;XTDVH;-SR70ST-CZ-55689;Děčín východ
+TN5455689;gare;Děčín východ;Děčín východ;Děčín východ;5455689;;50.775131;14.223293;CZ;Europe/Prague;Q146307;Os|R|TL;;uic;5646260933;Q18424417;;XTDVH;-SR70ST-CZ-55689;Děčín východ
 TN5455696;gare;Davle;Davle;Davle;5455696;;49.887717;14.398893;CZ;Europe/Prague;Q1111391;Os;;nom;24693139;Q19400550;;;-SR70ST-CZ-55696;Davle
 TN5455703;gare;Jeníkovice;Jeníkovice;Jeníkovice;5455703;;49.980863;15.656344;CZ;Europe/Prague;Q2333705;Os;;nom;987655768;Q66889020;;;-SR70S-CZ-55703;Jeníkovice
-TN5455709;gare;Děčín zastávka;Děčín zastávka;Děčín zastávka;5455709;;50.772811;14.193236;CZ;Europe/Prague;Q146307;Os;;uic;244130664;Q123109632;;;-SR70S-CZ-55709;Děčín zastávka
 TN5455713;gare;Heřmanův Městec;Heřmanův Městec;Heřmanův Městec;5455713;;49.950963;15.658526;CZ;Europe/Prague;Q1617117;Os;;nom;5646186948;Q18180222;;;-SR70ST-CZ-55713;Heřmanův Městec
 TN5455716;gare;Petrov-Chlomek;Petrov-Chlomek;Petrov-Chlomek;5455716;;49.876289;14.41135;CZ;Europe/Prague;Q2171706;Os;;nom;24598388;Q19401237;;;-SR70S-CZ-55716;Petrov-Chlomek
 TN5455723;gare;Valy u Přelouče zastávka;Valy u Přelouče zastávka;Valy u Přelouče zastávka;5455723;;50.030685;15.61397;CZ;Europe/Prague;Q963518;Os;;nom;268273448;Q66888964;;;-SR70S-CZ-55723;Valy u Přelouče zastávka
@@ -1561,66 +1504,65 @@ TN5455860;gare;Mladějov v Čechách;Mladějov v Čechách;Mladějov v Čech�
 TN5455863;gare;Slavníč;Slavníč;Slavníč;5455863;;49.520746;15.456127;CZ;Europe/Prague;Q164486;Os;;nom;272425944;Q66888061;;;-SR70S-CZ-55863;Slavníč
 TN5455879;gare;Lovosice město;Lovosice město;Lovosice město;5455879;;50.521573;14.04533;CZ;Europe/Prague;Q1000069;Os|Sp;;nom;783499054;;;;-SR70S-CZ-55879;Lovosice město
 TN5455880;gare;Sobotka;Sobotka;Sobotka;5455880;;50.465603;15.167753;CZ;Europe/Prague;Q1756917;Os;;nom;295685065;Q18180517;;;-SR70ST-CZ-55880;Sobotka
-TN5455889;gare;Lovosice zastávka;Lovosice zastávka;Lovosice zastávka;5455889;;50.519421;14.042472;CZ;Europe/Prague;Q1000069;Os;;nom;12747494051;;;;-SR70S-CZ-55889;Lovosice zastávka
 TN5455890;gare;Malechovice;Malechovice;Malechovice;5455890;;50.49343;15.187401;CZ;Europe/Prague;Q2464264;Os;;nom;295687692;Q66888869;;;-SR70S-CZ-55890;Malechovice
 TN5455899;gare;Malé Žernoseky;Malé Žernoseky;Malé Žernoseky;5455899;;50.538467;14.056407;CZ;Europe/Prague;Q1470981;Os|Sp;;nom;24678240;Q19400941;;;-SR70S-CZ-55899;Malé Žernoseky
 TN5455900;gare;Libošovice;Libošovice;Libošovice;5455900;;50.486106;15.163526;CZ;Europe/Prague;Q2464264;Os;;nom;295685227;Q66888867;;;-SR70S-CZ-55900;Libošovice
-TN5455906;gare;Plužiny;Plužiny;Plužiny;5455906;;49.87866;14.875444;CZ;Europe/Prague;Q1000475;Os|Sp;;nom;274841257;Q19401256;;;-SR70S-CZ-55906;Plužiny
+TN5455906;gare;Plužiny;Plužiny;Plužiny;5455906;;49.87866;14.875444;CZ;Europe/Prague;Q1000475;Os;;nom;274841257;Q19401256;;;-SR70S-CZ-55906;Plužiny
 TN5455909;gare;Bohušovice nad Ohří;Bohušovice nad Ohří;Bohušovice nad Ohří;5455909;;50.491291;14.149433;CZ;Europe/Prague;Q891004;Os|R|Sp|rj;;nom;24700200;Q18180140;;;-SR70ST-CZ-55909;Bohušovice nad Ohří
 TN5455911;gare;Dolní Bousov;Dolní Bousov;Dolní Bousov;5455911;;50.441648;15.132093;CZ;Europe/Prague;Q936537;Os;;nom;12742094068;Q18170878;;;-SR70ST-CZ-55911;Dolní Bousov
-TN5455916;gare;Samechov;Samechov;Samechov;5455916;;49.886108;14.834957;CZ;Europe/Prague;Q2626494;Os|Sp;;uic;834661312;Q19401368;;;-SR70ST-CZ-55916;Samechov
+TN5455916;gare;Samechov;Samechov;Samechov;5455916;;49.886108;14.834957;CZ;Europe/Prague;Q2626494;Os;;uic;834661312;Q19401368;;;-SR70ST-CZ-55916;Samechov
 TN5455919;gare;Hrdly;Hrdly;Hrdly;5455919;;50.485205;14.174093;CZ;Europe/Prague;Q891004;Os|Sp;;nom;5678344749;Q19400718;;;-SR70S-CZ-55919;Hrdly
-TN5455926;gare;Hvězdonice;Hvězdonice;Hvězdonice;5455926;;49.87251;14.771789;CZ;Europe/Prague;Q2619817;Os|Sp;;uic;477076657;Q19400724;;;-SR70ST-CZ-55926;Hvězdonice
+TN5455926;gare;Hvězdonice;Hvězdonice;Hvězdonice;5455926;;49.87251;14.771789;CZ;Europe/Prague;Q2619817;Os;;uic;477076657;Q19400724;;;-SR70ST-CZ-55926;Hvězdonice
 TN5455929;gare;Lukavec;Lukavec;Lukavec;5455929;;50.50301;14.09224;CZ;Europe/Prague;Q979185;Os;;uic;4069900198;Q19400914;;;-SR70S-CZ-55929;Lukavec
-TN5455936;gare;Chocerady;Chocerady;Chocerady;5455936;;49.870012;14.806262;CZ;Europe/Prague;Q2626494;Os|Sp;;nom;34208544;Q19400512;;;-SR70S-CZ-55936;Chocerady
+TN5455936;gare;Chocerady;Chocerady;Chocerady;5455936;;49.870012;14.806262;CZ;Europe/Prague;Q2626494;Os;;nom;34208544;Q19400512;;;-SR70S-CZ-55936;Chocerady
 TN5455939;gare;Nové Kopisty;Nové Kopisty;Nové Kopisty;5455939;;50.497305;14.120191;CZ;Europe/Prague;Q891004;Os;;nom;24601134;Q19401035;;;-SR70S-CZ-55939;Nové Kopisty
 TN5455941;gare;Březno u Mladé Boleslavi;Březno u Mladé Boleslavi;Březno u Mladé Boleslavi;5455941;;50.413456;15.004887;CZ;Europe/Prague;Q1118170;Os;;nom;292724736;Q66828908;;;-SR70S-CZ-55941;Březno u Mladé Boleslavi
-TN5455946;gare;Vlkovec;Vlkovec;Vlkovec;5455946;;49.874905;14.814346;CZ;Europe/Prague;Q2626494;Os|Sp;;nom;52738317;Q19401601;;;-SR70S-CZ-55946;Vlkovec
+TN5455946;gare;Vlkovec;Vlkovec;Vlkovec;5455946;;49.874905;14.814346;CZ;Europe/Prague;Q2626494;Os;;nom;52738317;Q19401601;;;-SR70S-CZ-55946;Vlkovec
 TN5455949;gare;Hrobce;Hrobce;Hrobce;5455949;;50.458102;14.229757;CZ;Europe/Prague;Q1504332;Os|Sp;;nom;5678344751;;;;-SR70ST-CZ-55949;Hrobce
 TN5455951;gare;Bechov;Bechov;Bechov;5455951;;50.436127;15.085317;CZ;Europe/Prague;Q936537;Os;;nom;980578999;Q66827977;;;-SR70S-CZ-55951;Bechov
-TN5455956;gare;Stříbrná Skalice;Stříbrná Skalice;Stříbrná Skalice;5455956;;49.88348;14.857106;CZ;Europe/Prague;Q2626494;Os|Sp;;nom;33530472;Q19401479;;;-SR70S-CZ-55956;Stříbrná Skalice
+TN5455956;gare;Stříbrná Skalice;Stříbrná Skalice;Stříbrná Skalice;5455956;;49.88348;14.857106;CZ;Europe/Prague;Q2626494;Os;;nom;33530472;Q19401479;;;-SR70S-CZ-55956;Stříbrná Skalice
 TN5455959;gare;Oleško;Oleško;Oleško;5455959;;50.477761;14.194136;CZ;Europe/Prague;Q2019540;Os;;nom;5678344750;Q19401061;;;-SR70S-CZ-55959;Oleško
 TN5455961;gare;Dlouhá Lhota;Dlouhá Lhota;Dlouhá Lhota;5455961;;50.4212;15.039968;CZ;Europe/Prague;Q2125744;Os;;nom;980578922;Q66888299;;;-SR70S-CZ-55961;Dlouhá Lhota
-TN5455966;gare;Sázava;Sázava;Sázava;5455966;;49.875204;14.906181;CZ;Europe/Prague;Q1000475;Os|Sp;;uic;834661273;Q18180504;;;-SR70ST-CZ-55966;Sázava
+TN5455966;gare;Sázava;Sázava;Sázava;5455966;;49.875204;14.906181;CZ;Europe/Prague;Q1000475;Os;;uic;834661273;Q18180504;;;-SR70ST-CZ-55966;Sázava
 TN5455971;gare;Kolomuty;Kolomuty;Kolomuty;5455971;;50.406628;14.97794;CZ;Europe/Prague;Q393961;Os;;nom;980579010;Q66888303;;;-SR70S-CZ-55971;Kolomuty
-TN5455976;gare;Sázava zastávka;Sázava zastávka;Sázava zastávka;5455976;;49.869261;14.893868;CZ;Europe/Prague;Q1000475;Os|Sp;;uic;274841286;Q18180503;;;-SR70S-CZ-55976;Sázava zastávka
+TN5455976;gare;Sázava zastávka;Sázava zastávka;Sázava zastávka;5455976;;49.869261;14.893868;CZ;Europe/Prague;Q1000475;Os;;uic;274841286;Q18180503;;;-SR70S-CZ-55976;Sázava zastávka
 TN5455981;gare;Řepov;Řepov;Řepov;5455981;;50.406894;14.955557;CZ;Europe/Prague;Q2659902;Os;;nom;980578973;Q66888302;;;-SR70S-CZ-55981;Řepov
-TN5455986;gare;Samopše;Samopše;Samopše;5455986;;49.860925;14.91635;CZ;Europe/Prague;Q1000475;Os|Sp;;nom;2449927825;Q19401372;;;-SR70S-CZ-55986;Samopše
-TN5455991;gare;Mladá Boleslav město;Mladá Boleslav město;Mladá Boleslav město;5455991;;50.419229;14.916129;CZ;Europe/Prague;Q191805;Os|Sp|TL;;uic;3422292814;Q19400976;;;-SR70ST-CZ-55991;Mladá Boleslav město
-TN5456006;gare;Ledečko;Ledečko;Ledečko;5456006;;49.847331;14.93211;CZ;Europe/Prague;Q2370287;Os|Sp;;uic;277019708;Q18180366;;;-SR70ST-CZ-56006;Ledečko
+TN5455986;gare;Samopše;Samopše;Samopše;5455986;;49.860925;14.91635;CZ;Europe/Prague;Q1000475;Os;;nom;2449927825;Q19401372;;;-SR70S-CZ-55986;Samopše
+TN5455991;gare;Mladá Boleslav město;Mladá Boleslav město;Mladá Boleslav město;5455991;;50.419229;14.916129;CZ;Europe/Prague;Q191805;Os|R|Sp|TL;;uic;3422292814;Q19400976;;;-SR70ST-CZ-55991;Mladá Boleslav město
+TN5456006;gare;Ledečko;Ledečko;Ledečko;5456006;;49.847331;14.93211;CZ;Europe/Prague;Q2370287;Os;;uic;277019708;Q18180366;;;-SR70ST-CZ-56006;Ledečko
 TN5456009;gare;Boletice nad Labem;Boletice nad Labem;Boletice nad Labem;5456009;;50.733719;14.18791;CZ;Europe/Prague;Q146307;Os;;uic;5712034840;Q20640016;;;-SR70ST-CZ-56009;Boletice nad Labem
 TN5456011;gare;Skalsko;Skalsko;Skalsko;5456011;;50.432217;14.755307;CZ;Europe/Prague;Q428409;Os;;nom;291680949;Q66888225;;;-SR70ST-CZ-56011;Skalsko
-TN5456016;gare;Rataje nad Sázavou zastávka;Rataje nad Sázavou zastávka;Rataje nad Sázavou zastávka;5456016;;49.844324;14.948002;CZ;Europe/Prague;Q2132370;Os|Sp;;nom;277019714;Q18180486;;;-SR70S-CZ-56016;Rataje nad Sázavou zastávka
+TN5456016;gare;Rataje nad Sázavou zastávka;Rataje nad Sázavou zastávka;Rataje nad Sázavou zastávka;5456016;;49.844324;14.948002;CZ;Europe/Prague;Q2132370;Os;;nom;277019714;Q18180486;;;-SR70S-CZ-56016;Rataje nad Sázavou zastávka
 TN5456019;gare;Děčín-Staré Město;Děčín-Staré Město;Děčín-Staré Město;5456019;;50.766575;14.214788;CZ;Europe/Prague;Q146307;Os;;uic;5712034839;Q56325063;;;-SR70S-CZ-56019;Děčín-Staré Město
 TN5456021;gare;Rohatsko;Rohatsko;Rohatsko;5456021;;50.437131;15.107554;CZ;Europe/Prague;Q2383064;Os;;nom;980578916;Q66888298;;;-SR70S-CZ-56021;Rohatsko
-TN5456026;gare;Rataje nad Sázavou-Ivaň;Rataje nad Sázavou-Ivaň;Rataje nad Sázavou-Ivaň;5456026;;49.839946;14.941151;CZ;Europe/Prague;Q2132370;Os|Sp;;nom;834661304;Q18180487;;;-SR70S-CZ-56026;Rataje nad Sázavou-Ivaň
+TN5456026;gare;Rataje nad Sázavou-Ivaň;Rataje nad Sázavou-Ivaň;Rataje nad Sázavou-Ivaň;5456026;;49.839946;14.941151;CZ;Europe/Prague;Q2132370;Os;;nom;834661304;Q18180487;;;-SR70S-CZ-56026;Rataje nad Sázavou-Ivaň
 TN5456031;gare;Bukovno;Bukovno;Bukovno;5456031;;50.443309;14.833357;CZ;Europe/Prague;Q2110499;Os;;nom;6373086304;Q22811801;;;-SR70S-CZ-56031;Bukovno
-TN5456036;gare;Malovidy;Malovidy;Malovidy;5456036;;49.822199;14.931073;CZ;Europe/Prague;Q2132370;Os|Sp;;nom;306612294;Q19400943;;;-SR70S-CZ-56036;Malovidy
+TN5456036;gare;Malovidy;Malovidy;Malovidy;5456036;;49.822199;14.931073;CZ;Europe/Prague;Q2132370;Os;;nom;306612294;Q19400943;;;-SR70S-CZ-56036;Malovidy
 TN5456039;gare;Křešice u Děčína;Křešice u Děčína;Křešice u Děčína;5456039;;50.757064;14.204225;CZ;Europe/Prague;Q146307;Os;;uic;5664641436;Q56325061;;;-SR70S-CZ-56039;Křešice u Děčína
 TN5456041;gare;Líny;Líny;Líny;5456041;;50.44623;14.810768;CZ;Europe/Prague;Q2110499;Os;;nom;367582565;Q66888241;;;-SR70S-CZ-56041;Líny
-TN5456046;gare;Český Šternberk;Český Šternberk;Český Šternberk;5456046;;49.813904;14.936759;CZ;Europe/Prague;Q341345;Os|Sp;;uic;477229880;Q18180169;;;-SR70ST-CZ-56046;Český Šternberk
+TN5456046;gare;Český Šternberk;Český Šternberk;Český Šternberk;5456046;;49.813904;14.936759;CZ;Europe/Prague;Q341345;Os;;uic;477229880;Q18180169;;;-SR70ST-CZ-56046;Český Šternberk
 TN5456051;gare;Katusice;Katusice;Katusice;5456051;;50.443097;14.777512;CZ;Europe/Prague;Q770623;Os;;nom;367550044;Q66888240;;;-SR70ST-CZ-56051;Katusice
-TN5456056;gare;Český Šternberk zastávka;Český Šternberk zastávka;Český Šternberk zastávka;5456056;;49.808619;14.929714;CZ;Europe/Prague;Q341345;Os|Sp;;uic;306612364;Q18180170;;;-SR70S-CZ-56056;Český Šternberk zastávka
+TN5456056;gare;Český Šternberk zastávka;Český Šternberk zastávka;Český Šternberk zastávka;5456056;;49.808619;14.929714;CZ;Europe/Prague;Q341345;Os;;uic;306612364;Q18180170;;;-SR70S-CZ-56056;Český Šternberk zastávka
 TN5456059;gare;Velké Březno;Velké Březno;Velké Březno;5456059;;50.66423;14.146298;CZ;Europe/Prague;Q1476325;Os;;uic;250398227;Q18180585;;;-SR70ST-CZ-56059;Velké Březno
 TN5456061;gare;Sudoměř u Mladé Boleslavi;Sudoměř u Mladé Boleslavi;Sudoměř u Mladé Boleslavi;5456061;;50.438028;14.744723;CZ;Europe/Prague;Q2657407;Os;;nom;367583491;Q66888243;;;-SR70S-CZ-56061;Sudoměř u Mladé Boleslavi
-TN5456066;gare;Kácov;Kácov;Kácov;5456066;;49.786813;15.018632;CZ;Europe/Prague;Q1932183;Os|Sp;;uic;754176180;Q18180301;;;-SR70ST-CZ-56066;Kácov
+TN5456066;gare;Kácov;Kácov;Kácov;5456066;;49.786813;15.018632;CZ;Europe/Prague;Q1932183;Os;;uic;754176180;Q18180301;;;-SR70ST-CZ-56066;Kácov
 TN5456071;gare;Trnová;Trnová;Trnová;5456071;;50.444649;14.718719;CZ;Europe/Prague;Q2369572;Os;;nom;318450658;Q66888237;;;-SR70S-CZ-56071;Trnová
-TN5456076;gare;Soběšín;Soběšín;Soběšín;5456076;;49.789769;14.959853;CZ;Europe/Prague;Q1900844;Os|Sp;;nom;834661256;Q19401428;;;-SR70S-CZ-56076;Soběšín
+TN5456076;gare;Soběšín;Soběšín;Soběšín;5456076;;49.789769;14.959853;CZ;Europe/Prague;Q1900844;Os;;nom;834661256;Q19401428;;;-SR70S-CZ-56076;Soběšín
 TN5456081;gare;Vrátno;Vrátno;Vrátno;5456081;;50.443146;14.686908;CZ;Europe/Prague;Q1912798;Os;;nom;367583509;Q66888244;;;-SR70ST-CZ-56081;Vrátno
-TN5456086;gare;Vranice;Vranice;Vranice;5456086;;49.78987;14.986038;CZ;Europe/Prague;Q516382;Os|Sp;;nom;293817209;Q19401608;;;-SR70S-CZ-56086;Vranice
-TN5456091;gare;Mšeno;Mšeno;Mšeno;5456091;;50.435721;14.640816;CZ;Europe/Prague;Q1010667;Os|R;;nom;367583485;Q18180424;;;-SR70ST-CZ-56091;Mšeno
-TN5456096;gare;Kácov zastávka;Kácov zastávka;Kácov zastávka;5456096;;49.775812;15.031067;CZ;Europe/Prague;Q2696502;Os|Sp;;uic;293817155;Q19400756;;;-SR70S-CZ-56096;Kácov zastávka
+TN5456086;gare;Vranice;Vranice;Vranice;5456086;;49.78987;14.986038;CZ;Europe/Prague;Q516382;Os;;nom;293817209;Q19401608;;;-SR70S-CZ-56086;Vranice
+TN5456091;gare;Mšeno;Mšeno;Mšeno;5456091;;50.435721;14.640816;CZ;Europe/Prague;Q1010667;Os;;nom;367583485;Q18180424;;;-SR70ST-CZ-56091;Mšeno
+TN5456096;gare;Kácov zastávka;Kácov zastávka;Kácov zastávka;5456096;;49.775812;15.031067;CZ;Europe/Prague;Q2696502;Os;;uic;293817155;Q19400756;;;-SR70S-CZ-56096;Kácov zastávka
 TN5456101;gare;Skramouš;Skramouš;Skramouš;5456101;;50.443223;14.664501;CZ;Europe/Prague;Q1010667;Os;;nom;367583567;Q66888246;;;-SR70S-CZ-56101;Skramouš
-TN5456106;gare;Střechov nad Sázavou;Střechov nad Sázavou;Střechov nad Sázavou;5456106;;49.760298;15.02183;CZ;Europe/Prague;Q1932183;Os|Sp;;nom;834661222;Q19401478;;;-SR70S-CZ-56106;Střechov nad Sázavou
-TN5456111;gare;Kanina;Kanina;Kanina;5456111;;50.415726;14.614865;CZ;Europe/Prague;Q588438;Os|R;;nom;786620004;Q66888268;;;-SR70S-CZ-56111;Kanina
-TN5456116;gare;Čížov;Čížov;Čížov;5456116;;49.751955;15.048691;CZ;Europe/Prague;Q2502845;Os|Sp;;nom;834661247;Q18747879;;;-SR70S-CZ-56116;Čížov
+TN5456106;gare;Střechov nad Sázavou;Střechov nad Sázavou;Střechov nad Sázavou;5456106;;49.760298;15.02183;CZ;Europe/Prague;Q1932183;Os;;nom;834661222;Q19401478;;;-SR70S-CZ-56106;Střechov nad Sázavou
+TN5456111;gare;Kanina;Kanina;Kanina;5456111;;50.415726;14.614865;CZ;Europe/Prague;Q588438;Os;;nom;786620004;Q66888268;;;-SR70S-CZ-56111;Kanina
+TN5456116;gare;Čížov;Čížov;Čížov;5456116;;49.751955;15.048691;CZ;Europe/Prague;Q2502845;Os;;nom;834661247;Q18747879;;;-SR70S-CZ-56116;Čížov
 TN5456119;gare;Malé Březno nad Labem;Malé Březno nad Labem;Malé Březno nad Labem;5456119;;50.671785;14.168475;CZ;Europe/Prague;Q773008;Os;;uic;214133797;Q56325054;;;-SR70S-CZ-56119;Malé Březno nad Labem
 TN5456121;gare;Živonín;Živonín;Živonín;5456121;;50.39423;14.61312;CZ;Europe/Prague;Q2697159;Os;;nom;291680836;Q66888224;;;-SR70S-CZ-56121;Živonín
-TN5456126;gare;Chabeřice;Chabeřice;Chabeřice;5456126;;49.74956;15.062588;CZ;Europe/Prague;Q2502845;Os|Sp;;nom;834661287;Q18747820;;;-SR70S-CZ-56126;Chabeřice
+TN5456126;gare;Chabeřice;Chabeřice;Chabeřice;5456126;;49.74956;15.062588;CZ;Europe/Prague;Q2502845;Os;;nom;834661287;Q18747820;;;-SR70S-CZ-56126;Chabeřice
 TN5456131;gare;Nebužely;Nebužely;Nebužely;5456131;;50.386216;14.589731;CZ;Europe/Prague;Q2697159;Os;;nom;318458340;Q66888238;;;-SR70S-CZ-56131;Nebužely
-TN5456136;gare;Zruč nad Sázavou;Zruč nad Sázavou;Zruč nad Sázavou;5456136;;49.738626;15.103961;CZ;Europe/Prague;Q227189;Os|Sp;;uic;306612734;Q18180627;;;-SR70ST-CZ-56136;Zruč n.S.
-TN5456141;gare;Lhotka u Mělníka;Lhotka u Mělníka;Lhotka u Mělníka;5456141;;50.382069;14.541784;CZ;Europe/Prague;Q2209513;Os|R;;nom;291680405;Q66888222;;;-SR70ST-CZ-56141;Lhotka u Mělníka
-TN5456146;gare;Zruč nad Sázavou zastávka;Zruč nad Sázavou zastávka;Zruč nad Sázavou zastávka;5456146;;49.743166;15.085475;CZ;Europe/Prague;Q227189;Os|Sp;;uic;293817067;Q18180628;;;-SR70S-CZ-56146;Zruč nad Sázavou zastávka
+TN5456136;gare;Zruč nad Sázavou;Zruč nad Sázavou;Zruč nad Sázavou;5456136;;49.738626;15.103961;CZ;Europe/Prague;Q227189;Os;;uic;306612734;Q18180627;;;-SR70ST-CZ-56136;Zruč n.S.
+TN5456141;gare;Lhotka u Mělníka;Lhotka u Mělníka;Lhotka u Mělníka;5456141;;50.382069;14.541784;CZ;Europe/Prague;Q2209513;Os;;nom;291680405;Q66888222;;;-SR70ST-CZ-56141;Lhotka u Mělníka
+TN5456146;gare;Zruč nad Sázavou zastávka;Zruč nad Sázavou zastávka;Zruč nad Sázavou zastávka;5456146;;49.743166;15.085475;CZ;Europe/Prague;Q227189;Os;;uic;293817067;Q18180628;;;-SR70S-CZ-56146;Zruč nad Sázavou zastávka
 TN5456149;gare;Svádov;Svádov;Svádov;5456149;;50.663206;14.10351;CZ;Europe/Prague;Q156974;Os;;uic;12952726641;Q19401497;;;-SR70S-CZ-56149;Svádov
 TN5456151;gare;Lhotka u Mělníka zastávka;Lhotka u Mělníka zastávka;Lhotka u Mělníka zastávka;5456151;;50.373307;14.550997;CZ;Europe/Prague;Q2209513;Os;;nom;291680393;Q66888220;;;-SR70S-CZ-56151;Lhotka u Mělníka zastávka
 TN5456156;gare;Horka nad Sázavou;Horka nad Sázavou;Horka nad Sázavou;5456156;;49.738806;15.128865;CZ;Europe/Prague;Q1628194;Os;;nom;477318096;Q56325034;;;-SR70S-CZ-56156;Horka nad Sázavou
@@ -1637,7 +1579,7 @@ TN5456195;gare;Ledeč nad Sázavou;Ledeč nad Sázavou;Ledeč nad Sázavou;54561
 TN5456199;gare;Česká Lípa-Holý vrch;Česká Lípa-Holý vrch;Česká Lípa-Holý vrch;5456199;;50.682379;14.522808;CZ;Europe/Prague;Q740863;TL;;uic;264508907;Q12020046;;;-SR70S-CZ-56199;Česká Lípa-Holý vrch
 TN5456201;gare;Nepřevázka;Nepřevázka;Nepřevázka;5456201;;50.374208;14.91116;CZ;Europe/Prague;Q2098793;Os;;nom;775481365;Q19401019;;;-SR70S-CZ-56201;Nepřevázka
 TN5456205;gare;Chřenovice;Chřenovice;Chřenovice;5456205;;49.712374;15.194785;CZ;Europe/Prague;Q507480;Os;;nom;834661266;Q19400521;;;-SR70S-CZ-56205;Chřenovice
-TN5456209;gare;Benešov nad Ploučnicí;Benešov nad Ploučnicí;Benešov nad Ploučnicí;5456209;;50.738329;14.305399;CZ;Europe/Prague;Q817141;Os|R|Sp|TL;;uic;248088472;Q18170945;;;-SR70ST-CZ-56209;Benešov n.Pl.
+TN5456209;gare;Benešov nad Ploučnicí;Benešov nad Ploučnicí;Benešov nad Ploučnicí;5456209;;50.738329;14.305399;CZ;Europe/Prague;Q817141;Os|R|TL;;uic;248088472;Q18170945;;;-SR70ST-CZ-56209;Benešov n.Pl.
 TN5456211;gare;Voděrady;Voděrady;Voděrady;5456211;;50.336556;14.947143;CZ;Europe/Prague;Q2598260;Os;;nom;775459480;Q19401602;;;-SR70S-CZ-56211;Voděrady
 TN5456215;gare;Chřenovice-Podhradí;Chřenovice-Podhradí;Chřenovice-Podhradí;5456215;;49.707899;15.235642;CZ;Europe/Prague;Q507480;Os;;nom;834661228;Q18817284;;;-SR70S-CZ-56215;Chřenovice-Podhradí
 TN5456219;gare;Březiny u Děčína;Březiny u Děčína;Březiny u Děčína;5456219;;50.760986;14.243931;CZ;Europe/Prague;Q146307;Os|TL;;uic;248088381;Q65491221;;;-SR70S-CZ-56219;Březiny u Děčína
@@ -1660,24 +1602,23 @@ TN5456266;gare;Zbraslavice;Zbraslavice;Zbraslavice;5456266;;49.815702;15.189621;
 TN5456269;gare;Stružnice;Stružnice;Stružnice;5456269;;50.698272;14.449909;CZ;Europe/Prague;Q1503642;TL;;uic;264508968;Q66888739;;;-SR70ST-CZ-56269;Stružnice
 TN5456271;gare;Rožďalovice;Rožďalovice;Rožďalovice;5456271;;50.29919;15.180237;CZ;Europe/Prague;Q2003956;Os|Sp;;nom;273193299;Q19401353;;;-SR70ST-CZ-56271;Rožďalovice
 TN5456276;gare;Želivec;Želivec;Želivec;5456276;;49.755348;15.140857;CZ;Europe/Prague;Q227189;Os;;nom;293941042;Q66888229;;;-SR70S-CZ-56276;Želivec
-TN5456279;gare;Markvartice;Markvartice;Markvartice;5456279;;50.772229;14.346187;CZ;Europe/Prague;Q996984;Os|Sp;;uic;248088554;Q66888650;;;-SR70ST-CZ-56279;Markvartice
+TN5456279;gare;Markvartice;Markvartice;Markvartice;5456279;;50.772229;14.346187;CZ;Europe/Prague;Q996984;Os;;uic;248088554;Q66888650;;;-SR70ST-CZ-56279;Markvartice
 TN5456281;gare;Ledečky;Ledečky;Ledečky;5456281;;50.284193;15.185999;CZ;Europe/Prague;Q2003956;Os|Sp;;nom;273193323;Q19400879;;;-SR70S-CZ-56281;Ledečky
 TN5456286;gare;Hodkov;Hodkov;Hodkov;5456286;;49.785674;15.163939;CZ;Europe/Prague;Q1810377;Os;;nom;977900727;Q66888286;;;-SR70S-CZ-56286;Hodkov
 TN5456289;gare;Dolní Habartice;Dolní Habartice;Dolní Habartice;5456289;;50.75024;14.335893;CZ;Europe/Prague;Q538287;Os;;uic;2525183896;Q66888721;;;-SR70S-CZ-56289;Dolní Habartice
 TN5456290;gare;Mlýnec;Mlýnec;Mlýnec;5456290;;50.317686;15.220751;CZ;Europe/Prague;Q1784043;Os;;nom;273193300;Q19632457;;;-SR70S-CZ-56290;Mlýnec
 TN5456291;gare;Jíkev;Jíkev;Jíkev;5456291;;50.239207;15.051799;CZ;Europe/Prague;Q888786;Os;;nom;273318603;Q19366346;;;-SR70S-CZ-56291;Jíkev
 TN5456296;gare;Černíny;Černíny;Černíny;5456296;;49.840968;15.216217;CZ;Europe/Prague;Q2002340;Os;;nom;293940935;Q19722234;;;-SR70S-CZ-56296;Černíny
-TN5456299;gare;Česká Kamenice;Česká Kamenice;Česká Kamenice;5456299;;50.79584;14.413896;CZ;Europe/Prague;Q340680;Os|Sp;;uic;248088867;Q18180164;;;-SR70ST-CZ-56299;Česká Kamenice
+TN5456299;gare;Česká Kamenice;Česká Kamenice;Česká Kamenice;5456299;;50.79584;14.413896;CZ;Europe/Prague;Q340680;Os;;uic;248088867;Q18180164;;;-SR70ST-CZ-56299;Česká Kamenice
 TN5456300;gare;Kopidlno;Kopidlno;Kopidlno;5456300;;50.334003;15.260464;CZ;Europe/Prague;Q1784043;Os|Sp;;nom;10106102973;Q18180332;;;-SR70ST-CZ-56300;Kopidlno
 TN5456301;gare;Oskořínek;Oskořínek;Oskořínek;5456301;;50.241682;15.086103;CZ;Europe/Prague;Q290309;Os|Sp;;nom;273318515;Q19401071;;;-SR70S-CZ-56301;Oskořínek
 TN5456305;gare;Týniště;Týniště;Týniště;5456305;;49.886075;15.235374;CZ;Europe/Prague;Q1887287;Os;;nom;975415958;Q25411943;;;-SR70S-CZ-56305;Týniště
 TN5456306;gare;Malešov;Malešov;Malešov;5456306;;49.906745;15.230976;CZ;Europe/Prague;Q1887287;Os;;nom;975416050;Q18180400;;;-SR70ST-CZ-56306;Malešov
-TN5456309;gare;Horní Kamenice;Horní Kamenice;Horní Kamenice;5456309;;50.799425;14.436488;CZ;Europe/Prague;Q340680;Os|Sp;;uic;249608023;Q66888654;;;-SR70S-CZ-56309;Horní Kamenice
+TN5456309;gare;Horní Kamenice;Horní Kamenice;Horní Kamenice;5456309;;50.799425;14.436488;CZ;Europe/Prague;Q340680;Os;;uic;249608023;Q66888654;;;-SR70S-CZ-56309;Horní Kamenice
 TN5456310;gare;Pševes;Pševes;Pševes;5456310;;50.345248;15.295681;CZ;Europe/Prague;Q1784043;Os|Sp;;nom;273064934;Q25411953;;;-SR70S-CZ-56310;Pševes
 TN5456319;gare;Veselé pod Rabštejnem;Veselé pod Rabštejnem;Veselé pod Rabštejnem;5456319;;50.794422;14.362867;CZ;Europe/Prague;Q654791;Os;;uic;2525183898;Q66888723;;;-SR70S-CZ-56319;Veselé pod Rabštejnem
 TN5456320;gare;Žitětín;Žitětín;Žitětín;5456320;;50.361124;15.324588;CZ;Europe/Prague;Q1689740;Os|Sp;;nom;273060546;Q25411969;;;-SR70ST-CZ-56320;Žitětín
 TN5456326;gare;Bahno;Bahno;Bahno;5456326;;49.865488;15.220441;CZ;Europe/Prague;Q2002340;Os;;nom;975416013;Q20665597;;;-SR70S-CZ-56326;Bahno
-TN5456329;gare;Kamenický Šenov nz;Kamenický Šenov;Kamenický Šenov;5456329;;50.782814;14.464488;CZ;Europe/Prague;Q1722954;Os;;uic;248091408;Q66888735;;;-SR70ST-CZ-56329;Kamenický Šenov nz
 TN5456330;gare;Jičíněves;Jičíněves;Jičíněves;5456330;;50.373975;15.33671;CZ;Europe/Prague;Q1689740;Os|Sp;;nom;273055558;Q25411966;;;-SR70S-CZ-56330;Jičíněves
 TN5456336;gare;Bykáň;Bykáň;Bykáň;5456336;;49.891615;15.239911;CZ;Europe/Prague;Q2696862;Os;;nom;975416044;Q25411932;;;-SR70S-CZ-56336;Bykáň
 TN5456339;gare;Žandov;Žandov;Žandov;5456339;;50.712096;14.389693;CZ;Europe/Prague;Q393378;TL;;uic;264509235;Q19401706;;;-SR70S-CZ-56339;Žandov
@@ -1696,41 +1637,35 @@ TN5456401;gare;Běrunice;Běrunice;Běrunice;5456401;;50.185915;15.341307;CZ;Eur
 TN5456406;gare;Rataje nad Sázavou předměstí;Rataje nad Sázavou předměstí;Rataje nad Sázavou předměstí;5456406;;49.849702;14.978227;CZ;Europe/Prague;Q2132370;Os;;nom;277019484;Q18180485;;;-SR70S-CZ-56406;Rataje nad Sázavou předměstí
 TN5456410;gare;Slibovice;Slibovice;Slibovice;5456410;;50.175068;15.366747;CZ;Europe/Prague;Q1022070;Os;;nom;279190715;Q66888197;;;-SR70S-CZ-56410;Slibovice
 TN5456416;gare;Mirošovice u Rataj nad Sázavou;Mirošovice u Rataj nad Sázavou;Mirošovice u Rataj nad Sázavou;5456416;;49.860493;15.005081;CZ;Europe/Prague;Q2132370;Os;;nom;277019410;Q56325036;;;-SR70S-CZ-56416;Mirošovice u Rataj nad Sázavou
-TN5456419;gare;Mlýny;Mlýny;Mlýny;5456419;;50.811425;14.498236;CZ;Europe/Prague;Q1386551;Os|Sp;;uic;249610500;Q66888656;;;-SR70ST-CZ-56419;Mlýny
+TN5456419;gare;Mlýny;Mlýny;Mlýny;5456419;;50.811425;14.498236;CZ;Europe/Prague;Q1386551;Os;;uic;249610500;Q66888656;;;-SR70ST-CZ-56419;Mlýny
 TN5456420;gare;Lovčice obec;Lovčice obec;Lovčice obec;5456420;;50.170423;15.382437;CZ;Europe/Prague;Q1855151;Os;;nom;279190725;Q66888850;;;-SR70S-CZ-56420;Lovčice obec
 TN5456426;gare;Mitrov;Mitrov;Mitrov;5456426;;49.865802;15.047863;CZ;Europe/Prague;Q1782229;Os;;nom;277019307;Q18924301;;;-SR70S-CZ-56426;Mitrov
-TN5456429;gare;Kytlice;Kytlice;Kytlice;5456429;;50.814819;14.533634;CZ;Europe/Prague;Q1386551;Os|Sp;;uic;249610624;Q66888657;;;-SR70S-CZ-56429;Kytlice
+TN5456429;gare;Kytlice;Kytlice;Kytlice;5456429;;50.814819;14.533634;CZ;Europe/Prague;Q1386551;Os;;uic;249610624;Q66888657;;;-SR70S-CZ-56429;Kytlice
 TN5456430;gare;Nový Bydžov;Nový Bydžov;Nový Bydžov;5456430;;50.244889;15.48585;CZ;Europe/Prague;Q1018857;Os|Sp;;nom;306033908;Q18180439;;;-SR70ST-CZ-56430;Nový Bydžov
 TN5456436;gare;Chmeliště;Chmeliště;Chmeliště;5456436;;49.89569;15.056336;CZ;Europe/Prague;Q2704210;Os;;nom;277019267;Q18924229;;;-SR70S-CZ-56436;Chmeliště
 TN5456440;gare;Luková;Luková;Luková;5456440;;50.190038;15.48691;CZ;Europe/Prague;Q2700375;Os;;nom;1105631570;Q66888929;;;-SR70S-CZ-56440;Luková
 TN5456446;gare;Hatě;Hatě;Hatě;5456446;;49.913789;15.057969;CZ;Europe/Prague;Q2704210;Os;;nom;277019258;Q18924226;;;-SR70S-CZ-56446;Hatě
 TN5456450;gare;Skřivany;Skřivany;Skřivany;5456450;;50.271929;15.498794;CZ;Europe/Prague;Q542448;Os|Sp;;nom;306036486;Q66888888;;;-SR70S-CZ-56450;Skřivany
 TN5456456;gare;Bečváry;Bečváry;Bečváry;5456456;;49.95567;15.070936;CZ;Europe/Prague;Q2704485;Os;;nom;12474105963;Q18180128;;;-SR70ST-CZ-56456;Bečváry
-TN5456459;gare;Rumburk;Rumburk;Rumburk;5456459;;50.956928;14.550767;CZ;Europe/Prague;Q149103;Os|R|Sp|TL;;uic;2525380453;Q801383;;;-SR70ST-CZ-56459;Rumburk
+TN5456459;gare;Rumburk;Rumburk;Rumburk;5456459;;50.956928;14.550767;CZ;Europe/Prague;Q149103;Os|R|TL;;uic;2525380453;Q801383;;;-SR70ST-CZ-56459;Rumburk
 TN5456460;gare;Smidary;Smidary;Smidary;5456460;;50.295077;15.495411;CZ;Europe/Prague;Q1388600;Os|Sp;;nom;306036527;Q66888890;;;-SR70ST-CZ-56460;Smidary
 TN5456466;gare;Drahobudice;Drahobudice;Drahobudice;5456466;;49.936643;15.06261;CZ;Europe/Prague;Q2144556;Os;;nom;277019223;Q19400592;;;-SR70S-CZ-56466;Drahobudice
-TN5456469;gare;Brtníky;Brtníky;Brtníky;5456469;;50.951752;14.43883;CZ;Europe/Prague;Q285145;Os|R|TL;;uic;13016279966;Q27919740;;;-SR70S-CZ-56469;Brtníky
 TN5456470;gare;Ohnišťany;Ohnišťany;Ohnišťany;5456470;;50.333595;15.507012;CZ;Europe/Prague;Q2016681;Os|Sp;;nom;306038555;Q66888892;;;-SR70S-CZ-56470;Ohnišťany
 TN5456476;gare;Ratboř;Ratboř;Ratboř;5456476;;49.981569;15.160466;CZ;Europe/Prague;Q2696541;Os;;nom;11052489459;Q18180488;;;-SR70ST-CZ-56476;Ratboř
-TN5456479;gare;Dolní Křečany;Dolní Křečany;Dolní Křečany;5456479;;50.956378;14.517981;CZ;Europe/Prague;Q285145;Os|TL;;uic;13016279964;Q66888710;;;-SR70S-CZ-56479;Dolní Křečany
 TN5456480;gare;Lázně Bělohrad;Lázně Bělohrad;Lázně Bělohrad;5456480;;50.426259;15.577252;CZ;Europe/Prague;Q1017287;Os|Sp;;uic;306045571;Q18180364;;;-SR70ST-CZ-56480;Lázně Bělohrad
 TN5456486;gare;Pučery;Pučery;Pučery;5456486;;49.967427;15.106217;CZ;Europe/Prague;Q2235704;Os;;nom;598880737;Q19401314;;;-SR70S-CZ-56486;Pučery
-TN5456489;gare;Panský;Panský;Panský;5456489;;50.948363;14.463032;CZ;Europe/Prague;Q285145;Os|R|TL;;uic;3203687679;Q66888728;;;-SR70ST-CZ-56489;Panský
 TN5456490;gare;Šárovcova Lhota;Šárovcova Lhota;Šárovcova Lhota;5456490;;50.407851;15.5608;CZ;Europe/Prague;Q962599;Os;;nom;306045541;Q66888895;;;-SR70ST-CZ-56490;Šárovcova Lhota
 TN5456496;gare;Chotouchov;Chotouchov;Chotouchov;5456496;;49.970431;15.12117;CZ;Europe/Prague;Q2235704;Os;;nom;598895572;Q19400519;;;-SR70S-CZ-56496;Chotouchov
 TN5456500;gare;Horní Nová Ves;Horní Nová Ves;Horní Nová Ves;5456500;;50.450428;15.572226;CZ;Europe/Prague;Q1017287;Os;;nom;306045629;Q66888897;;;-SR70S-CZ-56500;Horní Nová Ves
 TN5456506;gare;Kořenice;Kořenice;Kořenice;5456506;;49.973169;15.138543;CZ;Europe/Prague;Q2235704;Os;;nom;598895576;Q19400808;;;-SR70S-CZ-56506;Kořenice
 TN5456516;gare;Červené Pečky;Červené Pečky;Červené Pečky;5456516;;49.987689;15.206053;CZ;Europe/Prague;Q679866;Os;;nom;592660659;;;;-SR70ST-CZ-56516;Červené Pečky
-TN5456519;gare;Staré Křečany;Staré Křečany;Staré Křečany;5456519;;50.947804;14.491731;CZ;Europe/Prague;Q285145;Os|TL;;uic;13016279965;Q66888708;;;-SR70S-CZ-56519;Staré Křečany
 TN5456529;gare;Dolní Poustevna;Dolní Poustevna;Dolní Poustevna;5456529;;50.983532;14.283325;CZ;Europe/Prague;Q1236197;Os;;uic;5680209207;Q5289442;;;-SR70ST-CZ-56529;Dolní Poustevna
 TN5456536;gare;Kouřim;Kouřim;Kouřim;5456536;;50.005622;14.987919;CZ;Europe/Prague;Q934703;Os;;nom;249337512;Q18180340;;;-SR70ST-CZ-56536;Kouřim
 TN5456539;gare;Horní Poustevna;Horní Poustevna;Horní Poustevna;5456539;;50.996943;14.300953;CZ;Europe/Prague;Q1236197;Os;;uic;13016249679;Q5904626;;;-SR70S-CZ-56539;Horní Poustevna
 TN5456546;gare;Bošice;Bošice;Bošice;5456546;;50.015509;15.015237;CZ;Europe/Prague;Q2267490;Os;;nom;249337446;Q19400463;;;-SR70ST-CZ-56546;Bošice
-TN5456549;gare;Mikulášovice dolní nádraží;Mikulášovice dolní nádraží;Mikulášovice dolní nádraží;5456549;;50.984628;14.336445;CZ;Europe/Prague;Q2305025;Os|R|TL;;uic;13016249681;Q19400968;;;-SR70ST-CZ-56549;Mikulášovice dol. n.
+TN5456549;gare;Mikulášovice dolní nádraží;Mikulášovice dolní nádraží;Mikulášovice dolní nádraží;5456549;;50.984628;14.336445;CZ;Europe/Prague;Q2305025;Os;;uic;13016249681;Q19400968;;;-SR70ST-CZ-56549;Mikulášovice dol. n.
 TN5456552;gare;Malá Skála;Malá Skála;Malá Skála;5456552;;50.634204;15.192198;CZ;Europe/Prague;Q1888048;Os|R|Sp;;nom;5688646198;Q19632460;;;-SR70ST-CZ-56552;Malá Skála
-TN5456559;gare;Mikulášovice horní nádraží;Mikulášovice horní nádraží;Mikulášovice horní nádraží;5456559;;50.956475;14.390402;CZ;Europe/Prague;Q1756925;Os|TL;;uic;13016279967;Q27899902;;;-SR70S-CZ-56559;Mikulášovice hor.n.
 TN5456562;gare;Dolánky;Dolánky;Dolánky;5456562;;50.603852;15.171203;CZ;Europe/Prague;Q851419;Os|Sp;;nom;2844396880;Q25411979;;;-SR70S-CZ-56562;Dolánky
-TN5456569;gare;Mikulášovice střed;Mikulášovice střed;Mikulášovice střed;5456569;;50.962283;14.357637;CZ;Europe/Prague;Q1756925;Os|R|TL;;uic;13016279968;Q19400969;;;-SR70S-CZ-56569;Mikulášovice střed
 TN5456572;gare;Líšný;Líšný;Líšný;5456572;;50.647211;15.212234;CZ;Europe/Prague;Q1879584;Os|Sp;;nom;11066894375;Q19400896;;;-SR70S-CZ-56572;Líšný
 TN5456576;gare;Zalešany;Zalešany;Zalešany;5456576;;50.034972;15.008365;CZ;Europe/Prague;Q2696889;Os;;nom;249337419;Q66888164;;;-SR70S-CZ-56576;Zalešany
 TN5456579;gare;Vilémov u Šluknova;Vilémov u Šluknova;Vilémov u Šluknova;5456579;;50.992356;14.32101;CZ;Europe/Prague;Q2305025;Os;;uic;13016249680;Q7931253;;;-SR70S-CZ-56579;Vilémov u Šluknova
@@ -1754,27 +1689,26 @@ TN5456639;gare;Šluknov zastávka;Šluknov zastávka;Šluknov zastávka;5456639;
 TN5456640;gare;Stará Paka;Stará Paka;Stará Paka;5456640;;50.516202;15.486668;CZ;Europe/Prague;Q2034240;Os|R|Sp;;uic;5665642399;Q19632454;;;-SR70ST-CZ-56640;Stará Paka
 TN5456649;gare;Valdek;Valdek;Valdek;5456649;;50.981234;14.507039;CZ;Europe/Prague;Q392166;Os;;uic;13016279962;Q19401570;;;-SR70S-CZ-56649;Valdek
 TN5456650;gare;Levínská Olešnice;Levínská Olešnice;Levínská Olešnice;5456650;;50.524337;15.530736;CZ;Europe/Prague;Q938256;Os|Sp;;nom;25986903;Q25411945;;;-SR70S-CZ-56650;Levínská Olešnice
-TN5456659;gare;Krásná Lípa;Krásná Lípa;Krásná Lípa;5456659;;50.919024;14.512158;CZ;Europe/Prague;Q1757191;Os|R|Sp|TL;;uic;13016266020;Q18180345;;;-SR70ST-CZ-56659;Krásná Lípa
+TN5456659;gare;Krásná Lípa;Krásná Lípa;Krásná Lípa;5456659;;50.919024;14.512158;CZ;Europe/Prague;Q1757191;Os|R|TL;;uic;13016266020;Q18180345;;;-SR70ST-CZ-56659;Krásná Lípa
 TN5456660;gare;Bělá u Staré Paky zastávka;Bělá u Staré Paky zastávka;Bělá u Staré Paky zastávka;5456660;;50.533709;15.445618;CZ;Europe/Prague;Q1022065;Os|Sp;;nom;306080432;Q66827988;;;-SR70S-CZ-56660;Bělá u Staré Paky zastávka
-TN5456669;gare;Krásná Lípa město;Krásná Lípa město;Krásná Lípa město;5456669;;50.907184;14.51205;CZ;Europe/Prague;Q1757191;Os|R|Sp|TL;;uic;13016266021;Q66888661;;;-SR70S-CZ-56669;Krásná Lípa město
+TN5456669;gare;Krásná Lípa město;Krásná Lípa město;Krásná Lípa město;5456669;;50.907184;14.51205;CZ;Europe/Prague;Q1757191;Os;;uic;13016266021;Q66888661;;;-SR70S-CZ-56669;Krásná Lípa město
 TN5456670;gare;Nová Paka;Nová Paka;Nová Paka;5456670;;50.486703;15.523057;CZ;Europe/Prague;Q1017251;Os|Sp;;nom;306045769;Q18171013;;;-SR70ST-CZ-56670;Nová Paka
-TN5456679;gare;Zahrady u Rumburka;Zahrady u Rumburka;Zahrady u Rumburka;5456679;;50.933963;14.482316;CZ;Europe/Prague;Q1757191;Os|TL;;uic;13016266019;Q66888671;;;-SR70S-CZ-56679;Zahrady u Rumburka
 TN5456680;gare;Nová Paka město;Nová Paka město;Nová Paka město;5456680;;50.494551;15.512625;CZ;Europe/Prague;Q1017251;Os|Sp;;nom;306047491;Q66888899;;;-SR70S-CZ-56680;Nová Paka město
-TN5456689;gare;Varnsdorf;Varnsdorf;Varnsdorf;5456689;;50.903185;14.6382;CZ;Europe/Prague;Q158275;Os|Sp|TL;;uic;7429697625;Q18180583;;;-SR70ST-CZ-56689;Varnsdorf
+TN5456689;gare;Varnsdorf;Varnsdorf;Varnsdorf;5456689;;50.903185;14.6382;CZ;Europe/Prague;Q158275;Os|TL;;uic;7429697625;Q18180583;;;-SR70ST-CZ-56689;Varnsdorf
 TN5456690;gare;Horka u Staré Paky;Horka u Staré Paky;Horka u Staré Paky;5456690;;50.526637;15.570641;CZ;Europe/Prague;Q1628198;Os|Sp;;nom;25986882;Q19400692;;;-SR70ST-CZ-56690;Horka u Staré Paky
-TN5456699;gare;Dolní Podluží;Dolní Podluží;Dolní Podluží;5456699;;50.886318;14.620578;CZ;Europe/Prague;Q971744;Os|Sp|TL;;uic;13016307213;Q66888725;;;-SR70ST-CZ-56699;Dolní Podluží
+TN5456699;gare;Dolní Podluží;Dolní Podluží;Dolní Podluží;5456699;;50.886318;14.620578;CZ;Europe/Prague;Q971744;Os;;uic;13016307213;Q66888725;;;-SR70ST-CZ-56699;Dolní Podluží
 TN5456700;gare;Borovnice;Borovnice;Borovnice;5456700;;50.50916;15.604938;CZ;Europe/Prague;Q894106;Os;;nom;958755214;Q19366262;;;-SR70S-CZ-56700;Borovnice
-TN5456709;gare;Varnsdorf staré nádraží;Varnsdorf staré nádraží;Varnsdorf staré nádraží;5456709;;50.909622;14.612595;CZ;Europe/Prague;Q158275;Os|Sp|TL;;uic;2610941049;Q66888633;;;-SR70S-CZ-56709;Varnsdorf staré nádraží
+TN5456709;gare;Varnsdorf staré nádraží;Varnsdorf staré nádraží;Varnsdorf staré nádraží;5456709;;50.909622;14.612595;CZ;Europe/Prague;Q158275;TL;;uic;2610941049;Q66888633;;;-SR70S-CZ-56709;Varnsdorf staré nádraží
 TN5456710;gare;Mostek;Mostek;Mostek;5456710;;50.490753;15.692505;CZ;Europe/Prague;Q1819226;Os|R;;nom;958755223;Q19400992;;;-SR70ST-CZ-56710;Mostek
-TN5456719;gare;Rybniště;Rybniště;Rybniště;5456719;;50.883051;14.509926;CZ;Europe/Prague;Q2178179;Os|R|Sp|TL;;uic;249625323;Q66827932;;;-SR70ST-CZ-56719;Rybniště
+TN5456719;gare;Rybniště;Rybniště;Rybniště;5456719;;50.883051;14.509926;CZ;Europe/Prague;Q2178179;Os|R|TL;;uic;249625323;Q66827932;;;-SR70ST-CZ-56719;Rybniště
 TN5456720;gare;Borovnička;Borovnička;Borovnička;5456720;;50.500051;15.658761;CZ;Europe/Prague;Q894108;Os;;nom;958755227;Q19366266;;;-SR70S-CZ-56720;Borovnička
-TN5456729;gare;Horní Podluží;Horní Podluží;Horní Podluží;5456729;;50.88292;14.556404;CZ;Europe/Prague;Q1511268;Os|Sp|TL;;uic;13016307211;Q66888663;;;-SR70S-CZ-56729;Horní Podluží
+TN5456729;gare;Horní Podluží;Horní Podluží;Horní Podluží;5456729;;50.88292;14.556404;CZ;Europe/Prague;Q1511268;Os;;uic;13016307211;Q66888663;;;-SR70S-CZ-56729;Horní Podluží
 TN5456730;gare;Bílá Třemešná;Bílá Třemešná;Bílá Třemešná;5456730;;50.45191;15.733078;CZ;Europe/Prague;Q1019542;Os|R;;nom;769030570;Q19400444;;;-SR70ST-CZ-56730;Bílá Třemešná
-TN5456739;gare;Jiřetín pod Jedlovou;Jiřetín pod Jedlovou;Jiřetín pod Jedlovou;5456739;;50.883091;14.580457;CZ;Europe/Prague;Q971744;Os|Sp|TL;;uic;13016307212;Q66888665;;;-SR70S-CZ-56739;Jiřetín pod Jedlovou
+TN5456739;gare;Jiřetín pod Jedlovou;Jiřetín pod Jedlovou;Jiřetín pod Jedlovou;5456739;;50.883091;14.580457;CZ;Europe/Prague;Q971744;Os;;uic;13016307212;Q66888665;;;-SR70S-CZ-56739;Jiřetín pod Jedlovou
 TN5456740;gare;Dvůr Králové nad Labem;Dvůr Králové nad Labem;Dvůr Králové nad Labem;5456740;;50.413616;15.798866;CZ;Europe/Prague;Q143664;Os|R;;nom;25986756;Q65960512;;;-SR70ST-CZ-56740;Dvůr Králové nad Labem
-TN5456749;gare;Chřibská;Chřibská;Chřibská;5456749;;50.867842;14.523484;CZ;Europe/Prague;Q2178179;Os|R|Sp;;uic;13016266022;Q66888659;;;-SR70ST-CZ-56749;Chřibská
+TN5456749;gare;Chřibská;Chřibská;Chřibská;5456749;;50.867842;14.523484;CZ;Europe/Prague;Q2178179;Os;;uic;13016266022;Q66888659;;;-SR70ST-CZ-56749;Chřibská
 TN5456750;gare;Žireč;Žireč;Žireč;5456750;;50.403306;15.84796;CZ;Europe/Prague;Q143664;Os;;nom;2736188097;Q19401727;;;-SR70S-CZ-56750;Žireč
-TN5456759;gare;Jedlová;Jedlová;Jedlová;5456759;;50.842768;14.57036;CZ;Europe/Prague;Q164471;Os|R|Sp|TL;;uic;8037145523;Q800967;;;-SR70ST-CZ-56759;Jedlová
+TN5456759;gare;Jedlová;Jedlová;Jedlová;5456759;;50.842768;14.57036;CZ;Europe/Prague;Q164471;Os|R|TL;;uic;8037145523;Q800967;;;-SR70ST-CZ-56759;Jedlová
 TN5456760;gare;Kuks;Kuks;Kuks;5456760;;50.395913;15.884647;CZ;Europe/Prague;Q186848;Os;;nom;958755221;Q19400858;;;-SR70S-CZ-56760;Kuks
 TN5456769;gare;Nová Huť v Lužických horách;Nová Huť v Lužických horách;Nová Huť v Lužických horách;5456769;;50.830769;14.585809;CZ;Europe/Prague;Q1264097;Os|TL;;uic;2423932907;Q66888787;;;-SR70S-CZ-56769;Nová Huť v Lužických horách
 TN5456770;gare;Jaroměř;Jaroměř;Jaroměř;5456770;;50.341765;15.910099;CZ;Europe/Prague;Q999961;Os|R|Sp;;uic;5648147221;Q2251469;;;-SR70ST-CZ-56770;Jaroměř
@@ -1787,15 +1721,15 @@ TN5456800;gare;Smiřice;Smiřice;Smiřice;5456800;;50.300408;15.858169;CZ;Europe
 TN5456809;gare;Česká Lípa hlavní nádraží;Česká Lípa hlavní nádraží;Česká Lípa hlavní nádraží;5456809;;50.676893;14.532535;CZ;Europe/Prague;Q740863;Os|R|TL|TLX;;uic;4957397747;Q15735588;;;-SR70ST-CZ-56809;Česká Lípa hl. n.
 TN5456810;gare;Černožice;Černožice;Černožice;5456810;;50.315553;15.869581;CZ;Europe/Prague;Q2700121;Os|Sp;;nom;25284142;Q2443591;;;-SR70S-CZ-56810;Černožice
 TN5456829;gare;Česká Lípa střelnice;Česká Lípa střelnice;Česká Lípa střelnice;5456829;;50.691741;14.53319;CZ;Europe/Prague;Q740863;Os|R|TL;;uic;417968089;Q22811757;;;-SR70ST-CZ-56829;Česká Lípa střelnice
-TN5456839;gare;Jestřebí;Jestřebí;Jestřebí;5456839;;50.614131;14.600396;CZ;Europe/Prague;Q1625054;Os|TL;;uic;264475576;Q66888738;;;-SR70ST-CZ-56839;Jestřebí
+TN5456839;gare;Jestřebí;Jestřebí;Jestřebí;5456839;;50.614131;14.600396;CZ;Europe/Prague;Q1625054;Os|R|TL;;uic;264475576;Q66888738;;;-SR70ST-CZ-56839;Jestřebí
 TN5456849;gare;Srní u České Lípy;Srní u České Lípy;Srní u České Lípy;5456849;;50.637038;14.584607;CZ;Europe/Prague;Q1625054;Os|TL;;uic;264479318;Q22811756;;;-SR70ST-CZ-56849;Srní u České Lípy
 TN5456859;gare;Doksy;Doksy;Doksy;5456859;;50.573449;14.647247;CZ;Europe/Prague;Q1021090;Os|R|TL;;uic;264474221;Q11814057;;;-SR70ST-CZ-56859;Doksy
 TN5456860;gare;Předměřice nad Labem;Předměřice nad Labem;Předměřice nad Labem;5456860;;50.252687;15.817762;CZ;Europe/Prague;Q1808499;Os|Sp;;nom;5673530275;Q2277484;;;-SR70ST-CZ-56860;Předměřice nad Labem
-TN5456869;gare;Staré Splavy;Staré Splavy;Staré Splavy;5456869;;50.587377;14.629371;CZ;Europe/Prague;Q948185;Os|R|TL;;uic;760660532;Q66888775;;;-SR70S-CZ-56869;Staré Splavy
+TN5456869;gare;Staré Splavy;Staré Splavy;Staré Splavy;5456869;;50.587377;14.629371;CZ;Europe/Prague;Q948185;Os|TL;;uic;760660532;Q66888775;;;-SR70S-CZ-56869;Staré Splavy
 TN5456870;gare;Lochenice;Lochenice;Lochenice;5456870;;50.272899;15.824538;CZ;Europe/Prague;Q1867366;Os|Sp;;nom;25962045;Q3219151;;;-SR70S-CZ-56870;Lochenice
 TN5456879;gare;Okna;Okna;Okna;5456879;;50.527273;14.674424;CZ;Europe/Prague;Q1940523;Os|TL;;uic;264468489;Q66888736;;;-SR70ST-CZ-56879;Okna
 TN5456880;gare;Opatovice nad Labem-Pohřebačka;Opatovice nad Labem-Pohřebačka;Opatovice nad Labem-Pohřebačka;5456880;;50.165284;15.788888;CZ;Europe/Prague;Q585138;Os;;nom;4066408600;Q66889026;;;-SR70ST-CZ-56880;Opatovice nad Labem-Pohřebačka
-TN5456889;gare;Bezděz;Bezděz;Bezděz;5456889;;50.516131;14.729408;CZ;Europe/Prague;Q1022183;Os|R|TL;;uic;255478877;Q66827998;;;-SR70ST-CZ-56889;Bezděz
+TN5456889;gare;Bezděz;Bezděz;Bezděz;5456889;;50.516131;14.729408;CZ;Europe/Prague;Q1022183;Os|TL;;uic;255478877;Q66827998;;;-SR70ST-CZ-56889;Bezděz
 TN5456890;gare;Stéblová;Stéblová;Stéblová;5456890;;50.104285;15.757624;CZ;Europe/Prague;Q784996;Os;;nom;2696570116;Q3205517;;;-SR70ST-CZ-56890;Stéblová
 TN5456893;gare;Stéblová obec;Stéblová obec;Stéblová obec;5456893;;50.093129;15.752537;CZ;Europe/Prague;Q784996;Os;;nom;10080615041;Q106885197;;;-SR70S-CZ-56893;Stéblová obec
 TN5456898;gare;Bělá pod Bezdězem;Bělá pod Bezdězem;Bělá pod Bezdězem;5456898;;50.488276;14.835784;CZ;Europe/Prague;Q1019942;Os|R|TL;;uic;255450296;Q18180130;;;-SR70ST-CZ-56898;Bělá pod Bezdězem
@@ -1836,7 +1770,7 @@ TN5457076;gare;Praha hlavní nádraží;Prague Main Station;Praha hlavní nádra
 TN5457086;gare;Praha-Hlubočepy;Praha-Hlubočepy;Praha-Hlubočepy;5457086;;50.04055;14.394093;CZ;Europe/Prague;Q1085;Os;;nom;3677946996;Q19401292;;;-SR70S-CZ-57086;Praha-Hlubočepy
 TN5457089;gare;Blíževedly;Blíževedly;Blíževedly;5457089;;50.613597;14.395341;CZ;Europe/Prague;Q887103;Os;;nom;537028502;Q66828032;;;-SR70ST-CZ-57089;Blíževedly
 TN5457090;gare;Libeč;Libeč;Libeč;5457090;;50.596074;15.946094;CZ;Europe/Prague;Q320950;Os;;nom;280127833;Q66888852;;;-SR70S-CZ-57090;Libeč
-TN5457096;gare;Praha-Hostivař;Praha-Hostivař;Praha-Hostivař;5457096;;50.055019;14.53884;CZ;Europe/Prague;Q1085;Os|Sp;;nom;3742358028;Q11826599;;;-SR70ST-CZ-57096;Praha-Hostivař
+TN5457096;gare;Praha-Hostivař;Praha-Hostivař;Praha-Hostivař;5457096;;50.055019;14.53884;CZ;Europe/Prague;Q1085;Os;;nom;3742358028;Q11826599;;;-SR70ST-CZ-57096;Praha-Hostivař
 TN5457099;gare;Kravaře v Čechách;Kravaře v Čechách;Kravaře v Čechách;5457099;;50.629009;14.404547;CZ;Europe/Prague;Q1786945;Os;;nom;280709674;Q66888743;;;-SR70S-CZ-57099;Kravaře v Čechách
 TN5457100;gare;Trutnov-Volanov;Trutnov-Volanov;Trutnov-Volanov;5457100;;50.560954;15.887581;CZ;Europe/Prague;Q320950;Os|Sp;;nom;1735754032;Q18430427;;;-SR70S-CZ-57100;Trutnov-Volanov
 TN5457107;gare;Praha-Jinonice;Praha-Jinonice;Praha-Jinonice;5457107;;50.055684;14.371739;CZ;Europe/Prague;Q1085;Os;;uic;25925986;Q66888362;;;-SR70S-CZ-57107;Praha-Jinonice
@@ -1855,7 +1789,7 @@ TN5457159;gare;Vlčí Důl-Dobranov;Vlčí Důl-Dobranov;Vlčí Důl-Dobranov;54
 TN5457160;gare;Jilemnice;Jilemnice;Jilemnice;5457160;;50.604386;15.513742;CZ;Europe/Prague;Q368796;Os;;nom;306488008;Q18180292;;;-SR70ST-CZ-57160;Jilemnice
 TN5457169;gare;Mimoň;Mimoň;Mimoň;5457169;;50.658003;14.714627;CZ;Europe/Prague;Q149229;R|TL|TLX;;uic;2068708518;Q18180408;;;-SR70ST-CZ-57169;Mimoň
 TN5457170;gare;Horní Sytová;Horní Sytová;Horní Sytová;5457170;;50.632278;15.461885;CZ;Europe/Prague;Q958081;Os;;nom;306494378;Q18817255;;;-SR70S-CZ-57170;Horní Sytová
-TN5457176;gare;Praha-Libeň;Praha-Libeň;Praha-Libeň;5457176;;50.100758;14.501812;CZ;Europe/Prague;Q1085;EC|IC|LE|Os|R|Sp|rj;;uic;9969044666;Q3503816;;;-SR70ST-CZ-57176;Praha-Libeň
+TN5457176;gare;Praha-Libeň;Praha-Libeň;Praha-Libeň;5457176;;50.100758;14.501812;CZ;Europe/Prague;Q1085;EC|Ex|IC|LE|Os|R|Sp|rj;;uic;9969044666;Q3503816;;;-SR70ST-CZ-57176;Praha-Libeň
 TN5457179;gare;Pertoltice pod Ralskem;Pertoltice pod Ralskem;Pertoltice pod Ralskem;5457179;;50.677516;14.718228;CZ;Europe/Prague;Q960710;R|TL;;uic;306513533;Q66888757;;;-SR70S-CZ-57179;Pertoltice pod Ralskem
 TN5457180;gare;Víchová nad Jizerou;Víchová nad Jizerou;Víchová nad Jizerou;5457180;;50.627152;15.484132;CZ;Europe/Prague;Q958081;Os;;nom;566197119;Q19401594;;;-SR70S-CZ-57180;Víchová nad Jizerou
 TN5457189;gare;Velký Grunov;Velký Grunov;Velký Grunov;5457189;;50.698447;14.728324;CZ;Europe/Prague;Q921749;TL;;uic;280900426;Q66888752;;;-SR70S-CZ-57189;Velký Grunov
@@ -1867,15 +1801,15 @@ TN5457209;gare;Jablonné v Podještědí;Jablonné v Podještědí;Jablonné v P
 TN5457210;gare;Podhůří;Podhůří;Podhůří;5457210;;50.600676;15.624741;CZ;Europe/Prague;Q1008595;Os;;nom;243779626;Q19401262;;;-SR70S-CZ-57210;Podhůří
 TN5457219;gare;Trnovany u Litoměřic;Trnovany u Litoměřic;Trnovany u Litoměřic;5457219;;50.543518;14.176555;CZ;Europe/Prague;Q1468414;Os;;nom;477231267;Q66888702;;;-SR70S-CZ-57219;Trnovany u Litoměřic
 TN5457220;gare;Svoboda nad Úpou;Svoboda nad Úpou;Svoboda nad Úpou;5457220;;50.622212;15.81994;CZ;Europe/Prague;Q677551;Os|Sp;;nom;5677756924;Q18180536;;;-SR70ST-CZ-57220;Svoboda nad Úpou
-TN5457226;gare;Praha-Smíchov;Praha-Smíchov;Praha-Smíchov;5457226;;50.060974;14.407993;CZ;Europe/Prague;Q1085;EC|IC|Os|R|Sp;;nom;248124630;Q801332;;;-SR70ST-CZ-57226;Praha-Smíchov
+TN5457226;gare;Praha-Smíchov;Praha-Smíchov;Praha-Smíchov;5457226;;50.060974;14.407993;CZ;Europe/Prague;Q1085;EC|IC|Os|R;;nom;248124630;Q801332;;;-SR70ST-CZ-57226;Praha-Smíchov
 TN5457229;gare;Velký Valtinov;Velký Valtinov;Velký Valtinov;5457229;;50.742555;14.733341;CZ;Europe/Prague;Q1795275;TL;;uic;280900409;Q66888748;;;-SR70S-CZ-57229;Velký Valtinov
 TN5457230;gare;Mladé Buky z;Mladé Buky z;Mladé Buky z;5457230;;50.607042;15.841129;CZ;Europe/Prague;Q1932693;Os|Sp;;gtfs;;;;;-SR70S-CZ-57230;Mladé Buky z
-TN5457236;gare;Praha Masarykovo nádraží;Prague Masaryk Station;Praha Masarykovo nádraží;5457236;;50.087684;14.434203;CZ;Europe/Prague;Q1085;Os|R|Sp;;uic;5594938667;Q1453777;;;-SR70ST-CZ-57236;Praha Masaryk. n.
+TN5457236;gare;Praha Masarykovo nádraží;Prague Masaryk Station;Praha Masarykovo nádraží;5457236;;50.087684;14.434203;CZ;Europe/Prague;Q1085;Os|Sp;;uic;5594938667;Q1453777;;;-SR70ST-CZ-57236;Praha Masaryk. n.
 TN5457250;gare;Trutnov-Staré m. z;Trutnov-Staré m. z;Trutnov-Staré m. z;5457250;;50.590958;15.881808;CZ;Europe/Prague;Q320950;Os|Sp;;gtfs;;;;;-SR70S-CZ-57250;Trutnov-Staré m. z
-TN5457256;gare;Praha-Holešovice;Praha-Holešovice;Praha-Holešovice;5457256;;50.110658;14.439751;CZ;Europe/Prague;Q1085;EC|Ex|NJ|Os|R|Sp|rj;;nom;3134733933;Q373868;;;-SR70ST-CZ-57256;Praha-Holešovice
-TN5457261;gare;Praha-Eden;Praha-Eden;Praha-Eden;5457261;;50.065541;14.472644;CZ;Europe/Prague;Q1085;IC|Os|R|SC|Sp;;nom;7075228775;Q78345255;;;-SR70ST-CZ-57261;Praha-Eden
+TN5457256;gare;Praha-Holešovice;Praha-Holešovice;Praha-Holešovice;5457256;;50.110658;14.439751;CZ;Europe/Prague;Q1085;EC|NJ|Os|R|Sp|rj;;nom;3134733933;Q373868;;;-SR70ST-CZ-57256;Praha-Holešovice
+TN5457261;gare;Praha-Eden;Praha-Eden;Praha-Eden;5457261;;50.065541;14.472644;CZ;Europe/Prague;Q1085;IC|Os|SC;;nom;7075228775;Q78345255;;;-SR70ST-CZ-57261;Praha-Eden
 TN5457266;gare;Praha-Veleslavín;Prague-Veleslavín;Praha-Veleslavín;5457266;;50.09492;14.346134;CZ;Europe/Prague;Q1085;Os|R|Sp;;nom;5316448454;Q7237704;;;-SR70ST-CZ-57266;Praha-Veleslavín
-TN5457276;gare;Praha-Vršovice;Praha-Vršovice;Praha-Vršovice;5457276;;50.064685;14.446897;CZ;Europe/Prague;Q1085;EC|IC|Os|R|SC|Sp|rj;;nom;9968967781;Q1570165;;;-SR70ST-CZ-57276;Praha-Vršovice
+TN5457276;gare;Praha-Vršovice;Praha-Vršovice;Praha-Vršovice;5457276;;50.064685;14.446897;CZ;Europe/Prague;Q1085;EC|Ex|IC|Os|R|SC|Sp|rj;;nom;9968967781;Q1570165;;;-SR70ST-CZ-57276;Praha-Vršovice
 TN5457279;gare;Praha-Zahradní Město;Praha-Zahradní Město;Praha-Zahradní Město;5457279;;50.062156;14.503569;CZ;Europe/Prague;Q1085;IC|Os|R|RJ|Sp;;uic;7117714960;Q70907000;;;-SR70ST-CZ-57279;Praha-Zahradní Město
 TN5457280;gare;Královec;Královec;Královec;5457280;;50.672962;15.970418;CZ;Europe/Prague;Q1790498;Os;;nom;280130657;Q11750075;;;-SR70ST-CZ-57280;Královec
 TN5457287;gare;Praha-Kačerov;Praha-Kačerov;Praha-Kačerov;5457287;;50.042004;14.462437;CZ;Europe/Prague;Q1085;Os;;nom;3226203150;Q12046776;;;-SR70ST-CZ-57287;Praha-Kačerov
@@ -1890,7 +1824,7 @@ TN5457336;gare;Praha-Čakovice;Praha-Čakovice;Praha-Čakovice;5457336;;50.14887
 TN5457340;gare;Janovice u Trutnova;Janovice u Trutnova;Janovice u Trutnova;5457340;;50.586981;16.084786;CZ;Europe/Prague;Q767447;Os;;nom;280169542;Q18590938;;;-SR70ST-CZ-57340;Janovice u Trutnova
 TN5457346;gare;Praha-Horní Měcholupy;Praha-Horní Měcholupy;Praha-Horní Měcholupy;5457346;;50.048087;14.565484;CZ;Europe/Prague;Q1085;Os;;nom;3935761947;Q12046775;;;-SR70S-CZ-57346;Praha-Horní Měcholupy
 TN5457350;gare;Adršpach;Adršpach;Adršpach;5457350;;50.615413;16.124987;CZ;Europe/Prague;Q378087;Os;;nom;280170110;Q18420893;;;-SR70ST-CZ-57350;Adršpach
-TN5457356;gare;Praha-Kbely;Praha-Kbely;Praha-Kbely;5457356;;50.134828;14.555822;CZ;Europe/Prague;Q1085;Os|R;;nom;7798314315;Q22826064;;;-SR70S-CZ-57356;Praha-Kbely
+TN5457356;gare;Praha-Kbely;Praha-Kbely;Praha-Kbely;5457356;;50.134828;14.555822;CZ;Europe/Prague;Q1085;Os;;nom;7798314315;Q22826064;;;-SR70S-CZ-57356;Praha-Kbely
 TN5457360;gare;Hodkovice u Trutnova;Hodkovice u Trutnova;Hodkovice u Trutnova;5457360;;50.604859;16.071886;CZ;Europe/Prague;Q767447;Os;;nom;280169585;Q18590933;;;-SR70S-CZ-57360;Hodkovice u Trutnova
 TN5457366;gare;Praha-Kyje;Praha-Kyje;Praha-Kyje;5457366;;50.09726;14.544309;CZ;Europe/Prague;Q1085;Os;;nom;9187098;Q15779799;;;-SR70S-CZ-57366;Praha-Kyje
 TN5457370;gare;Horní Adršpach;Horní Adršpach;Horní Adršpach;5457370;;50.623128;16.082959;CZ;Europe/Prague;Q378087;Os;;nom;280170031;Q19400693;;;-SR70S-CZ-57370;Horní Adršpach
@@ -1918,9 +1852,10 @@ TN5457592;gare;Machnín;Machnín;Machnín;5457592;;50.787402;14.984359;CZ;Europe
 TN5457600;gare;Pardubice-Semtín;Pardubice-Semtín;Pardubice-Semtín;5457600;;50.061987;15.748327;CZ;Europe/Prague;Q36989;Os;;nom;619337861;Q18423707;;;-SR70S-CZ-57600;Pardubice-Semtín
 TN5458000;gare;Čáslav;Čáslav;Čáslav;5458000;;49.915545;15.395982;CZ;Europe/Prague;Q341777;Os;;gtfs;;;;;-SR70ST-CZ-58000;Čáslav
 TN5458083;gare;Nymburk předjízd.n.;Nymburk předjízd.n.;Nymburk předjízd.n.;5458083;;50.189026;15.06337;CZ;Europe/Prague;Q430864;Os;;gtfs;;;;;-SR70ST-CZ-58083;Nymburk předjízd.n.
-TN5458219;gare;Chomutov město;Chomutov město;Chomutov město;5458219;;50.469949;13.413954;CZ;Europe/Prague;Q146356;Ex|Os|R|Sp;;nom;12857227258;Q18180174;;;-SR70S-CZ-58219;Chomutov město
+TN5458219;gare;Chomutov město;Chomutov město;Chomutov město;5458219;;50.469949;13.413954;CZ;Europe/Prague;Q146356;Os|R|Sp;;nom;12857227258;Q18180174;;;-SR70S-CZ-58219;Chomutov město
 TN5458316;gare;Skochovice;Skochovice;Skochovice;5458316;;49.924701;14.37618;CZ;Europe/Prague;Q164468;Os;;nom;9973546111;Q19401412;;;-SR70S-CZ-58316;Skochovice
 TN5458366;gare;Praha-Vyšehrad výhybna;Praha-Vyšehrad výhybna;Praha-Vyšehrad výhybna;5458366;;50.067528;14.419941;CZ;Europe/Prague;Q1085;Os;;gtfs;;;;;-SR70ST-CZ-58366;Praha-Vyšehrad výhybna
+TN5458376;gare;Praha Jih;Praha Jih;Praha Jih;5458376;;50.051407;14.467388;CZ;Europe/Prague;Q1085;Os;;gtfs;;;;;-SR70ST-CZ-58376;Praha Jih
 TN5458377;gare;Praha-Michle autovlak;Praha-Michle autovlak;Praha-Michle autovlak;5458377;;50.052943;14.469878;CZ;Europe/Prague;Q1085;EN;;uic;13094340825;;;;-SR70ST-CZ-58377;Praha-Michle autovlak
 TN5473005;gare;Aš;Aš;Aš;5473005;;50.209011;12.20007;CZ;Europe/Prague;Q583910;Os;;uic;2430931240;Q4493823;;;-SR70ST-CZ-73005;Aš
 TN5473014;gare;Dobrá Voda u Březnice;Dobrá Voda u Březnice;Dobrá Voda u Březnice;5473014;;49.556127;13.999414;CZ;Europe/Prague;Q1019970;Os;;nom;2039917777;Q19400565;;;-SR70S-CZ-73014;Dobrá Voda u Březnice
@@ -1943,16 +1878,16 @@ TN5473092;gare;Písek zastávka;Písek zastávka;Písek zastávka;5473092;;49.31
 TN5473094;gare;Králův Dvůr-Popovice;Králův Dvůr-Popovice;Králův Dvůr-Popovice;5473094;;49.92883;14.021022;CZ;Europe/Prague;Q1790512;Os;;uic;2418144940;Q2364893;;;-SR70S-CZ-73094;Králův Dvůr - Popovice
 TN5473095;gare;Vojtanov obec;Vojtanov obec;Vojtanov obec;5473095;;50.162496;12.313144;CZ;Europe/Prague;Q1194455;Os;;uic;33153063;Q2798846;;;-SR70S-CZ-73095;Vojtanov obec
 TN5473102;gare;Horní Nerestce;Horní Nerestce;Horní Nerestce;5473102;;49.497954;14.056571;CZ;Europe/Prague;Q2040379;Os;;nom;301481538;Q25412008;;;-SR70S-CZ-73102;Horní Nerestce
-TN5473104;gare;Zdice;Zdice;Zdice;5473104;;49.907766;13.97967;CZ;Europe/Prague;Q169133;Os|R|Sp;;uic;2993792465;Q2289939;;;-SR70ST-CZ-73104;Zdice
+TN5473104;gare;Zdice;Zdice;Zdice;5473104;;49.907766;13.97967;CZ;Europe/Prague;Q169133;Os|R;;uic;2993792465;Q2289939;;;-SR70ST-CZ-73104;Zdice
 TN5473114;gare;Stašov;Stašov;Stašov;5473114;;49.885944;13.959428;CZ;Europe/Prague;Q2234816;Os;;uic;24589627;Q2611568;;;-SR70S-CZ-73114;Stašov
 TN5473122;gare;Heřmaň;Heřmaň;Heřmaň;5473122;;49.244506;14.13948;CZ;Europe/Prague;Q1617127;Os;;nom;430487544;Q66888448;;;-SR70S-CZ-73122;Heřmaň
 TN5473124;gare;Praskolesy;Praskolesy;Praskolesy;5473124;;49.868785;13.929453;CZ;Europe/Prague;Q1950868;Os;;uic;24595348;Q2188706;;;-SR70S-CZ-73124;Praskolesy
 TN5473134;gare;Hořovice;Hořovice;Hořovice;5473134;;49.843033;13.89878;CZ;Europe/Prague;Q978707;IC|Os|R;;uic;24688669;Q1854987;;;-SR70ST-CZ-73134;Hořovice
-TN5473141;gare;Hudčice;Hudčice;Hudčice;5473141;;49.527666;13.928527;CZ;Europe/Prague;Q328428;Os|Sp;;nom;290329431;Q66888216;;;-SR70S-CZ-73141;Hudčice
+TN5473141;gare;Hudčice;Hudčice;Hudčice;5473141;;49.527666;13.928527;CZ;Europe/Prague;Q328428;Os;;nom;290329431;Q66888216;;;-SR70S-CZ-73141;Hudčice
 TN5473144;gare;Cerhovice;Cerhovice;Cerhovice;5473144;;49.836337;13.83709;CZ;Europe/Prague;Q2151516;Os;;uic;2459503585;Q2261791;;;-SR70S-CZ-73144;Cerhovice
 TN5473151;gare;Slavětín u Březnice;Slavětín u Březnice;Slavětín u Březnice;5473151;;49.523063;13.895106;CZ;Europe/Prague;Q328428;Os;;nom;283839694;Q66888199;;;-SR70S-CZ-73151;Slavětín u Březnice
 TN5473160;gare;Kařez;Kařez;Kařez;5473160;;49.822457;13.779013;CZ;Europe/Prague;Q2284434;Os|R;;uic;5804378271;Q66888566;;;-SR70S-CZ-73160;Kařez
-TN5473162;gare;Bělčice;Bělčice;Bělčice;5473162;;49.504492;13.886353;CZ;Europe/Prague;Q855757;Os|Sp;;nom;283818426;Q66827991;;;-SR70ST-CZ-73162;Bělčice
+TN5473162;gare;Bělčice;Bělčice;Bělčice;5473162;;49.504492;13.886353;CZ;Europe/Prague;Q855757;Os;;nom;283818426;Q66827991;;;-SR70ST-CZ-73162;Bělčice
 TN5473165;gare;Kařízek;Kařízek;Kařízek;5473165;;49.800823;13.767795;CZ;Europe/Prague;Q1475736;Os;;uic;24685076;Q2028648;;;-SR70ST-CZ-73165;Kařízek
 TN5473172;gare;Závišín;Závišín;Závišín;5473172;;49.48048;13.870229;CZ;Europe/Prague;Q855757;Os;;nom;12960834633;Q66888458;;;-SR70S-CZ-73172;Závišín
 TN5473175;gare;Mýto;Mýto;Mýto;5473175;;49.78327;13.739588;CZ;Europe/Prague;Q1475736;Os;;uic;24602600;Q3064695;;;-SR70S-CZ-73175;Mýto
@@ -1979,7 +1914,7 @@ TN5473275;gare;Plzeň hlavní nádraží;Plzeň hlavní nádraží;Plzeň hlavn�
 TN5473282;gare;České Budějovice;Budweis;České Budějovice;5473282;;48.974439;14.488606;CZ;Europe/Prague;Q16506;EC|IC|Os|R|SC|Sp;;uic;32522686;Q22712112;;;-SR70ST-CZ-73282;České Budějovice
 TN5473286;gare;Malměřice;Malměřice;Malměřice;5473286;;50.113653;13.381321;CZ;Europe/Prague;Q882132;Os|Sp;;nom;14105630924;Q66888712;;;-SR70S-CZ-73286;Malměřice
 TN5473296;gare;Ležky;Ležky;Ležky;5473296;;50.119166;13.354218;CZ;Europe/Prague;Q882132;Os|Sp;;nom;14105630925;Q66888635;;;-SR70S-CZ-73296;Ležky
-TN5473302;gare;Hluboká nad Vltavou;Hluboká nad Vltavou;Hluboká nad Vltavou;5473302;;49.03249;14.420202;CZ;Europe/Prague;Q1010144;Os|Sp;;nom;3366574342;Q15886808;;;-SR70ST-CZ-73302;Hluboká nad Vltavou
+TN5473302;gare;Hluboká nad Vltavou;Hluboká nad Vltavou;Hluboká nad Vltavou;5473302;;49.03249;14.420202;CZ;Europe/Prague;Q1010144;Os|R|Sp;;nom;3366574342;Q15886808;;;-SR70ST-CZ-73302;Hluboká nad Vltavou
 TN5473306;gare;Lubenec;Lubenec;Lubenec;5473306;;50.126301;13.327958;CZ;Europe/Prague;Q1828684;Os|Sp;;nom;12797896891;Q18431679;;;-SR70ST-CZ-73306;Lubenec
 TN5473312;gare;Zliv;Zliv;Zliv;5473312;;49.065583;14.36165;CZ;Europe/Prague;Q207251;Os|R|Sp;;nom;265980341;Q15887173;;;-SR70ST-CZ-73312;Zliv
 TN5473316;gare;Lubenec zastávka;Lubenec zastávka;Lubenec zastávka;5473316;;50.129472;13.307195;CZ;Europe/Prague;Q1828684;Os|Sp;;nom;14105630926;Q66888717;;;-SR70S-CZ-73316;Lubenec zastávka
@@ -2016,11 +1951,11 @@ TN5473465;gare;Sadov-Podlesí;Sadov-Podlesí;Sadov-Podlesí;5473465;;50.275587;1
 TN5473472;gare;Hosín;Hosín;Hosín;5473472;;49.034891;14.466501;CZ;Europe/Prague;Q952910;Os;;nom;32522764;Q16558520;;;-SR70S-CZ-73472;Hosín
 TN5473475;gare;Velký Rybník;Velký Rybník;Velký Rybník;5473475;;50.293102;12.877327;CZ;Europe/Prague;Q786762;Os;;uic;13021834179;Q66888586;;;-SR70S-CZ-73475;Velký Rybník
 TN5473482;gare;Hluboká nad Vltavou-Zámostí;Hluboká nad Vltavou-Zámostí;Hluboká nad Vltavou-Zámostí;5473482;;49.05069;14.464206;CZ;Europe/Prague;Q1010144;Os;;nom;32522799;Q16558231;;;-SR70ST-CZ-73482;Hluboká nad Vltavou-Zámostí
-TN5473485;gare;Hroznětín;Hroznětín;Hroznětín;5473485;;50.306928;12.868657;CZ;Europe/Prague;Q786762;Os;;uic;13021836448;Q18425286;;;-SR70ST-CZ-73485;Hroznětín
+TN5473485;gare;Hroznětín;Hroznětín;Hroznětín;5473485;;50.306928;12.868657;CZ;Europe/Prague;Q786762;Os|Sp;;uic;13021836448;Q18425286;;;-SR70ST-CZ-73485;Hroznětín
 TN5473492;gare;Chotýčany;Chotýčany;Chotýčany;5473492;;49.078628;14.529279;CZ;Europe/Prague;Q777306;Os;;nom;32522867;Q15886757;;;-SR70ST-CZ-73492;Chotýčany
 TN5473495;gare;Hroznětín zastávka;Hroznětín zastávka;Hroznětín zastávka;5473495;;50.313019;12.861412;CZ;Europe/Prague;Q786762;Os;;uic;13021827379;Q66888612;;;-SR70S-CZ-73495;Hroznětín zastávka
 TN5473502;gare;Ševětín;Ševětín;Ševětín;5473502;;49.097276;14.574268;CZ;Europe/Prague;Q391492;Os|Sp;;nom;32523016;Q15887218;;;-SR70ST-CZ-73502;Ševětín
-TN5473505;gare;Merklín;Merklín;Merklín;5473505;;50.327039;12.865114;CZ;Europe/Prague;Q1894595;Os;;uic;13021816412;Q64761772;;;-SR70ST-CZ-73505;Merklín
+TN5473505;gare;Merklín;Merklín;Merklín;5473505;;50.327039;12.865114;CZ;Europe/Prague;Q1894595;Os|Sp;;uic;13021816412;Q64761772;;;-SR70ST-CZ-73505;Merklín
 TN5473512;gare;Neplachov;Neplachov;Neplachov;5473512;;49.125731;14.605516;CZ;Europe/Prague;Q1811613;Os;;nom;5680160294;Q16581782;;;-SR70S-CZ-73512;Neplachov
 TN5473515;gare;Domažlice;Domažlice;Domažlice;5473515;;49.435135;12.942774;CZ;Europe/Prague;Q986068;EC|Os|Sp;;nom;248543836;Q18180196;;;-SR70ST-CZ-73515;Domažlice
 TN5473525;gare;Domažlice město;Domažlice město;Domažlice město;5473525;;49.435729;12.925021;CZ;Europe/Prague;Q986068;Os;;nom;257729597;Q18424233;;;-SR70S-CZ-73525;Domažlice město
@@ -2125,11 +2060,15 @@ TN5474010;gare;Františkovy Lázně-Aquaforum;Františkovy Lázně-Aquaforum;Fra
 TN5474015;gare;Žírovice-Seníky;Žírovice-Seníky;Žírovice-Seníky;5474015;;50.148126;12.335506;CZ;Europe/Prague;Q756581;Os;;uic;13016020276;Q3282632;;;-SR70S-CZ-74015;Žírovice-Seníky
 TN5474025;gare;Vojtanov;Vojtanov;Vojtanov;5474025;;50.167617;12.327674;CZ;Europe/Prague;Q1194455;Os;;uic;10570056289;Q2051503;;;-SR70ST-CZ-74025;Vojtanov
 TN5474035;gare;Plesná;Plesná;Plesná;5474035;;50.211158;12.344701;CZ;Europe/Prague;Q775651;Os;;uic;13016035246;Q4529062;;;-SR70S-CZ-74035;Plesná
-TN5474055;gare;Chodov;Chodov;Chodov;5474055;;50.231709;12.752377;CZ;Europe/Prague;Q999937;Ex|Os|R|Sp;;uic;263691654;Q18180173;;;-SR70ST-CZ-74055;Chodov
+TN5474055;gare;Chodov;Chodov;Chodov;5474055;;50.231709;12.752377;CZ;Europe/Prague;Q999937;Os|R|Sp;;uic;263691654;Q18180173;;;-SR70ST-CZ-74055;Chodov
 TN5474065;gare;Mírová;Mírová;Mírová;5474065;;50.23952;12.763865;CZ;Europe/Prague;Q1957786;Os;;uic;13018839356;Q66888569;;;-SR70S-CZ-74065;Mírová
+TN5474072;gare;Libějovice;Libějovice;Libějovice;5474072;;49.105271;14.232551;CZ;Europe/Prague;Q1887751;Os;;nom;274773696;Q66888419;;;-SR70S-CZ-74072;Libějovice
 TN5474075;gare;Božičany;Božičany;Božičany;5474075;;50.256148;12.775191;CZ;Europe/Prague;Q896409;Os;;uic;13018835014;Q66828416;;;-SR70S-CZ-74075;Božičany
+TN5474082;gare;Malovice u Netolic;Malovice u Netolic;Malovice u Netolic;5474082;;49.091907;14.21827;CZ;Europe/Prague;Q1887751;Os;;nom;274773729;Q66888422;;;-SR70S-CZ-74082;Malovice u Netolic
 TN5474085;gare;Nová Role;Nová Role;Nová Role;5474085;;50.273532;12.780048;CZ;Europe/Prague;Q1009009;Os;;uic;13018125283;Q18432745;;;-SR70ST-CZ-74085;Nová Role
+TN5474092;gare;Holečkov;Holečkov;Holečkov;5474092;;49.078777;14.210268;CZ;Europe/Prague;Q1887751;Os;;nom;274773741;;;;-SR70S-CZ-74092;Holečkov
 TN5474095;gare;Dolní Stupno;Dolní Stupno;Dolní Stupno;5474095;;49.816901;13.575507;CZ;Europe/Prague;Q2523741;Os;;uic;979842861;Q66888549;;;-SR70S-CZ-74095;Dolní Stupno
+TN5474102;gare;Netolice;Netolice;Netolice;5474102;;49.054083;14.190048;CZ;Europe/Prague;Q1531214;Os;;nom;274773844;Q18180435;;;-SR70ST-CZ-74102;Netolice
 TN5474105;gare;Chrást u Plzně zastávka;Chrást u Plzně zastávka;Chrást u Plzně zastávka;5474105;;49.800097;13.496968;CZ;Europe/Prague;Q1088954;Os;;uic;979842813;Q66888548;;;-SR70S-CZ-74105;Chrást u Plzně zastávka
 TN5474112;gare;Vyšné;Vyšné;Vyšné;5474112;;48.796421;14.865553;CZ;Europe/Prague;Q1019355;Os|Sp;;nom;877485001;Q19401613;;;-SR70S-CZ-74112;Vyšné
 TN5474115;gare;Sedlecko;Sedlecko;Sedlecko;5474115;;49.806285;13.527729;CZ;Europe/Prague;Q2524113;Os;;uic;477436442;Q66888523;;;-SR70S-CZ-74115;Sedlecko
@@ -2189,7 +2128,7 @@ TN5474425;gare;Vlkovice;Vlkovice;Vlkovice;5474425;;49.946687;12.742674;CZ;Europe
 TN5474435;gare;Milhostov u Mariánských Lázní;Milhostov u Mariánských Lázní;Milhostov u Mariánských Lázní;5474435;;49.960345;12.761616;CZ;Europe/Prague;Q246692;Os;;nom;312398766;Q66888597;;;-SR70S-CZ-74435;Milhostov u Mariánských Lázní
 TN5474445;gare;Ovesné Kladruby;Ovesné Kladruby;Ovesné Kladruby;5474445;;49.956634;12.784981;CZ;Europe/Prague;Q1394054;Os;;nom;34238406;Q66888573;;;-SR70ST-CZ-74445;Ovesné Kladruby
 TN5474455;gare;Mrázov;Mrázov;Mrázov;5474455;;49.963839;12.832573;CZ;Europe/Prague;Q1001600;Os;;nom;34238424;Q66888574;;;-SR70S-CZ-74455;Mrázov
-TN5474465;gare;Teplá;Teplá;Teplá;5474465;;49.975638;12.859958;CZ;Europe/Prague;Q1001600;Os;;nom;987438134;Q18180542;;;-SR70ST-CZ-74465;Teplá
+TN5474465;gare;Teplá;Teplá;Teplá;5474465;;49.975638;12.859958;CZ;Europe/Prague;Q1001600;Os|Sp;;nom;987438134;Q18180542;;;-SR70ST-CZ-74465;Teplá
 TN5474472;gare;Horní Skrýchov;Horní Skrýchov;Horní Skrýchov;5474472;;49.171872;15.033061;CZ;Europe/Prague;Q665637;Os;;nom;309438955;;;;-SR70ST-CZ-74472;Horní Skrýchov
 TN5474475;gare;Hoštěc;Hoštěc;Hoštěc;5474475;;49.993145;12.844706;CZ;Europe/Prague;Q1001600;Os;;nom;987438128;Q66888614;;;-SR70S-CZ-74475;Hoštěc
 TN5474485;gare;Poutnov;Poutnov;Poutnov;5474485;;50.01825;12.822006;CZ;Europe/Prague;Q1001600;Os;;nom;34239669;Q66888577;;;-SR70ST-CZ-74485;Poutnov
@@ -2204,13 +2143,14 @@ TN5474555;gare;Cihelny;Cihelny;Cihelny;5474555;;50.179208;12.841477;CZ;Europe/Pr
 TN5474565;gare;Karlovy Vary-Březová;Karlovy Vary-Březová;Karlovy Vary-Březová;5474565;;50.201976;12.837587;CZ;Europe/Prague;Q384544;Os;;uic;34108635;Q66888570;;;-SR70ST-CZ-74565;Karlovy Vary-Březová
 TN5474571;gare;Karlovy Vary-Aréna;Karlovy Vary-Aréna;Karlovy Vary-Aréna;5474571;;50.22236;12.845198;CZ;Europe/Prague;Q384544;Os;;uic;8209251235;Q104094364;;;-SR70S-CZ-74571;Karlovy Vary-Aréna
 TN5474575;gare;Doubí u Karlových Varů;Doubí u Karlových Varů;Doubí u Karlových Varů;5474575;;50.211644;12.831862;CZ;Europe/Prague;Q384544;Os;;uic;987438133;Q66888615;;;-SR70S-CZ-74575;Doubí u Karlových Varů
-TN5474585;gare;Karlovy Vary dolní nádraží;Karlovy Vary dolní nádraží;Karlovy Vary dolní nádraží;5474585;;50.230345;12.863864;CZ;Europe/Prague;Q384544;Os;;uic;13018184864;Q12028736;;;-SR70ST-CZ-74585;Karlovy Vary dolní n.
+TN5474585;gare;Karlovy Vary dolní nádraží;Karlovy Vary dolní nádraží;Karlovy Vary dolní nádraží;5474585;;50.230345;12.863864;CZ;Europe/Prague;Q384544;Os|Sp;;uic;13018184864;Q12028736;;;-SR70ST-CZ-74585;Karlovy Vary dolní n.
 TN5474595;gare;Nýřany;Nýřany;Nýřany;5474595;;49.714948;13.209487;CZ;Europe/Prague;Q1017227;Os|Sp;;nom;4610341048;Q18180442;;;-SR70ST-CZ-74595;Nýřany
 TN5474605;gare;Kamenný Újezd u Nýřan;Kamenný Újezd u Nýřan;Kamenný Újezd u Nýřan;5474605;;49.717124;13.191966;CZ;Europe/Prague;Q1017227;Os;;nom;14180598454;Q66888545;;;-SR70S-CZ-74605;Kamenný Újezd u Nýřan
 TN5474615;gare;Blatnice u Nýřan;Blatnice u Nýřan;Blatnice u Nýřan;5474615;;49.723083;13.159216;CZ;Europe/Prague;Q2704055;Os;;nom;14180598455;Q66828018;;;-SR70S-CZ-74615;Blatnice u Nýřan
 TN5474625;gare;Rochlov;Rochlov;Rochlov;5474625;;49.724134;13.141582;CZ;Europe/Prague;Q956801;Os;;nom;14180598456;Q66888505;;;-SR70S-CZ-74625;Rochlov
 TN5474632;gare;Obrataň;Obrataň;Obrataň;5474632;;49.428929;14.953462;CZ;Europe/Prague;Q1027326;Os;;nom;2768352800;Q15886959;;;-SR70ST-CZ-74632;Obrataň
 TN5474635;gare;Přehýšov;Přehýšov;Přehýšov;5474635;;49.723456;13.124789;CZ;Europe/Prague;Q2484392;Os;;nom;14180598457;Q66888502;;;-SR70S-CZ-74635;Přehýšov
+TN5474642;gare;Netolice zastávka;Netolice zastávka;Netolice zastávka;5474642;;49.065003;14.216094;CZ;Europe/Prague;Q1531214;Os;;nom;274773795;Q66888425;;;-SR70S-CZ-74642;Netolice zastávka
 TN5474643;gare;Třebčice;Třebčice;Třebčice;5474643;;49.481919;13.614413;CZ;Europe/Prague;Q2001462;Os;;nom;14178577404;Q66888529;;;-SR70S-CZ-74643;Třebčice
 TN5474645;gare;Heřmanova Huť;Heřmanova Huť;Heřmanova Huť;5474645;;49.710466;13.087402;CZ;Europe/Prague;Q2219830;Os;;nom;14180598458;Q66888501;;;-SR70ST-CZ-74645;Heřmanova Huť
 TN5474653;gare;Želvice;Želvice;Želvice;5474653;;49.469059;13.630479;CZ;Europe/Prague;Q1934722;Os;;nom;14178577405;Q66888531;;;-SR70S-CZ-74653;Želvice
@@ -2229,7 +2169,7 @@ TN5474702;gare;Lnáře;Lnáře;Lnáře;5474702;;49.443694;13.790192;CZ;Europe/Pr
 TN5474705;gare;Chotěšov u Stoda;Chotěšov u Stoda;Chotěšov u Stoda;5474705;;49.657059;13.198294;CZ;Europe/Prague;Q686448;Os|Sp;;nom;478738717;Q18613949;;;-SR70S-CZ-74705;Chotěšov u Stoda
 TN5474712;gare;Tchořovice;Tchořovice;Tchořovice;5474712;;49.438804;13.809853;CZ;Europe/Prague;Q662017;Os;;nom;14178577412;Q66888399;;;-SR70S-CZ-74712;Tchořovice
 TN5474715;gare;Stod;Stod;Stod;5474715;;49.639715;13.155212;CZ;Europe/Prague;Q1011066;Os|Sp;;nom;4817950733;Q18180527;;;-SR70ST-CZ-74715;Stod
-TN5474722;gare;Blatná;Blatná;Blatná;5474722;;49.430904;13.872579;CZ;Europe/Prague;Q804395;Os|Sp;;nom;5668567954;Q18180138;;;-SR70ST-CZ-74722;Blatná
+TN5474722;gare;Blatná;Blatná;Blatná;5474722;;49.430904;13.872579;CZ;Europe/Prague;Q804395;Os;;nom;5668567954;Q18180138;;;-SR70ST-CZ-74722;Blatná
 TN5474725;gare;Hradec u Stoda;Hradec u Stoda;Hradec u Stoda;5474725;;49.636119;13.122487;CZ;Europe/Prague;Q1632320;Os|Sp;;nom;213792824;Q66888498;;;-SR70S-CZ-74725;Hradec u Stoda
 TN5474735;gare;Holýšov;Holýšov;Holýšov;5474735;;49.597325;13.101413;CZ;Europe/Prague;Q1625820;EC|Os|Sp;;nom;913890153;Q66827560;;;-SR70ST-CZ-74735;Holýšov
 TN5474742;gare;Rožmberk nad Vltavou;Rožmberk nad Vltavou;Rožmberk nad Vltavou;5474742;;48.626386;14.362886;CZ;Europe/Prague;Q527002;Os;;uic;470820895;Q18180497;;;-SR70ST-CZ-74742;Rožmberk nad Vltavou
@@ -2276,7 +2216,7 @@ TN5474935;gare;Brod nad Tichou;Brod nad Tichou;Brod nad Tichou;5474935;;49.82864
 TN5474940;gare;Mysliboř;Mysliboř;Mysliboř;5474940;;49.207906;15.48637;CZ;Europe/Prague;Q2042452;Os|Sp;;nom;530739431;Q19401007;;;-SR70S-CZ-74940;Mysliboř
 TN5474945;gare;Planá u M.L.;Planá u M.L.;Planá u M.L.;5474945;;49.86173;12.730129;CZ;Europe/Prague;Q1756940;IC|Os|SC|Sp|rj;;gtfs;;;;;-SR70ST-CZ-74945;Planá u M.L.
 TN5474950;gare;Sedlejov;Sedlejov;Sedlejov;5474950;;49.224686;15.495896;CZ;Europe/Prague;Q151460;Os|Sp;;uic;530740282;Q18180505;;;-SR70ST-CZ-74950;Sedlejov
-TN5474953;gare;Příbram sídliště;Příbram sídliště;Příbram sídliště;5474953;;49.674063;14.001062;CZ;Europe/Prague;Q841296;Os|R|Sp;;nom;7474447682;Q106712975;;;-SR70S-CZ-74953;Příbram sídliště
+TN5474953;gare;Příbram sídliště;Příbram sídliště;Příbram sídliště;5474953;;49.674063;14.001062;CZ;Europe/Prague;Q841296;Os|R;;nom;7474447682;Q106712975;;;-SR70S-CZ-74953;Příbram sídliště
 TN5474955;gare;Chodová Planá;Chodová Planá;Chodová Planá;5474955;;49.902994;12.724501;CZ;Europe/Prague;Q1075695;Os|Sp;;nom;24694988;Q1879532;;;-SR70ST-CZ-74955;Chodová Planá
 TN5474960;gare;Hodice;Hodice;Hodice;5474960;;49.271731;15.484138;CZ;Europe/Prague;Q548717;Os|Sp;;nom;945961929;Q18170834;;;-SR70ST-CZ-74960;Hodice
 TN5474965;gare;Valy u Mariánských Lázní;Valy u Mariánských Lázní;Valy u Mariánských Lázní;5474965;;49.976848;12.665921;CZ;Europe/Prague;Q1194517;Os|Sp;;nom;24585047;Q2672232;;;-SR70ST-CZ-74965;Valy u Mariánských Lázní
@@ -2293,7 +2233,7 @@ TN5475015;gare;Stebnice;Stebnice;Stebnice;5475015;;50.049437;12.441684;CZ;Europe
 TN5475022;gare;Přední Zborovice;Přední Zborovice;Přední Zborovice;5475022;;49.218192;13.893996;CZ;Europe/Prague;Q1194417;Os;;nom;32536571;Q66888378;;;-SR70S-CZ-75022;Přední Zborovice
 TN5475025;gare;Cheb-Všeboř;Cheb-Všeboř;Cheb-Všeboř;5475025;;50.050557;12.410272;CZ;Europe/Prague;Q193719;Os;;uic;24582276;Q2378401;;;-SR70S-CZ-75025;Cheb-Všeboř
 TN5475033;gare;Strunkovice nad Volyňkou obec;Strunkovice nad Volyňkou obec;Strunkovice nad Volyňkou obec;5475033;;49.210115;13.887505;CZ;Europe/Prague;Q1194438;Os;;nom;1740497726;Q66888476;;;-SR70S-CZ-75033;Strunkovice nad Volyňkou obec
-TN5475035;gare;Cheb;Cheb;Cheb;5475035;;50.07353;12.38057;CZ;Europe/Prague;Q193719;Ex|IC|Os|R|SC|Sp|rj;;uic;8900892641;Q800619;;XTCH;-SR70ST-CZ-75035;Cheb
+TN5475035;gare;Cheb;Cheb;Cheb;5475035;;50.07353;12.38057;CZ;Europe/Prague;Q193719;IC|Os|R|SC|Sp|rj;;uic;8900892641;Q800619;;XTCH;-SR70ST-CZ-75035;Cheb
 TN5475036;gare;Cheb-Skalka;Cheb-Skalka;Cheb-Skalka;5475036;;50.074111;12.348126;CZ;Europe/Prague;Q193719;Os;;uic;13016076460;Q19400507;;;-SR70S-CZ-75036;Cheb-Skalka
 TN5475037;gare;Pomezí nad Ohří z;Pomezí nad Ohří;Pomezí nad Ohří;5475037;;50.086111;12.272115;CZ;Europe/Prague;Q1529182;Os;;uic;10562112430;Q19061182;;;-SR70S-CZ-75037;Pomezí nad Ohří z
 TN5475042;gare;Hoštice u Volyně;Hoštice u Volyně;Hoštice u Volyně;5475042;;49.187268;13.893118;CZ;Europe/Prague;Q655906;Os;;nom;32536638;Q12020513;;;-SR70S-CZ-75042;Hoštice u Volyně
@@ -2334,9 +2274,8 @@ TN5475216;gare;Kryry;Kryry;Kryry;5475216;;50.168828;13.422802;CZ;Europe/Prague;Q
 TN5475222;gare;Horní Dvořiště;Horní Dvořiště;Horní Dvořiště;5475222;;48.601833;14.421932;CZ;Europe/Prague;Q1628656;Os|Sp;;uic;444629957;Q18430535;;;-SR70ST-CZ-75222;Horní Dvořiště
 TN5475226;gare;Vroutek;Vroutek;Vroutek;5475226;;50.184098;13.373822;CZ;Europe/Prague;Q1431223;R;;nom;208518599;Q25411908;;;-SR70ST-CZ-75226;Vroutek
 TN5475232;gare;Rybník;Rybník;Rybník;5475232;;48.649566;14.431679;CZ;Europe/Prague;Q527002;EC|Os|Sp;;uic;4616899143;Q19401358;;;-SR70ST-CZ-75232;Rybník
-TN5475236;gare;Podbořany;Podbořany;Podbořany;5475236;;50.223522;13.40434;CZ;Europe/Prague;Q1017247;Os|R;;nom;5689670848;Q18180464;;;-SR70ST-CZ-75236;Podbořany
+TN5475236;gare;Podbořany;Podbořany;Podbořany;5475236;;50.223522;13.40434;CZ;Europe/Prague;Q1017247;R;;nom;5689670848;Q18180464;;;-SR70ST-CZ-75236;Podbořany
 TN5475242;gare;Pšenice;Pšenice;Pšenice;5475242;;48.681112;14.444204;CZ;Europe/Prague;Q1003179;Os;;uic;206123876;Q19401313;;;-SR70S-CZ-75242;Pšenice
-TN5475246;gare;Kaštice;Kaštice;Kaštice;5475246;;50.261693;13.417936;CZ;Europe/Prague;Q1017247;Os;;nom;207721161;Q25411917;;;-SR70ST-CZ-75246;Kaštice
 TN5475252;gare;Bujanov;Bujanov;Bujanov;5475252;;48.702094;14.432292;CZ;Europe/Prague;Q1003179;Os|Sp;;uic;836531857;Q18423596;;;-SR70S-CZ-75252;Bujanov
 TN5475262;gare;Omlenice;Omlenice;Omlenice;5475262;;48.725181;14.447539;CZ;Europe/Prague;Q2023412;Os|Sp;;uic;5653051224;Q18432942;;;-SR70ST-CZ-75262;Omlenice
 TN5475272;gare;Kaplice;Kaplice;Kaplice;5475272;;48.77514;14.468827;CZ;Europe/Prague;Q1852515;EC|Os|Sp;;uic;811289806;Q18430693;;;-SR70ST-CZ-75272;Kaplice
@@ -2436,12 +2375,12 @@ TN5475840;gare;Kostelec u Jihlavy;Kostelec u Jihlavy;Kostelec u Jihlavy;5475840;
 TN5475841;gare;Kostelec u Jihlavy masna;Kostelec u Jihlavy masna;Kostelec u Jihlavy masna;5475841;;49.355137;15.488948;CZ;Europe/Prague;Q1785192;Os|Sp;;nom;945913237;Q22712213;;;-SR70S-CZ-75841;Kostelec u Jihlavy masna
 TN5475845;gare;Vojkovice nad Ohří;Vojkovice nad Ohří;Vojkovice nad Ohří;5475845;;50.307392;13.016185;CZ;Europe/Prague;Q2035072;Os;;uic;33614442;Q18614113;;;-SR70ST-CZ-75845;Vojkovice nad Ohří
 TN5475850;gare;Dvorce;Dvorce;Dvorce;5475850;;49.384219;15.498515;CZ;Europe/Prague;Q521213;Os;;nom;658809673;Q22712217;;;-SR70S-CZ-75850;Dvorce
-TN5475855;gare;Ostrov nad Ohří;Ostrov nad Ohří;Ostrov nad Ohří;5475855;;50.301672;12.957729;CZ;Europe/Prague;Q987487;Ex|Os|R;;uic;33441264;Q31209121;;;-SR70ST-CZ-75855;Ostrov nad Ohří
+TN5475855;gare;Ostrov nad Ohří;Ostrov nad Ohří;Ostrov nad Ohří;5475855;;50.301672;12.957729;CZ;Europe/Prague;Q987487;Os|R;;uic;33441264;Q31209121;;;-SR70ST-CZ-75855;Ostrov nad Ohří
 TN5475860;gare;Rantířov;Rantířov;Rantířov;5475860;;49.406763;15.513247;CZ;Europe/Prague;Q128760;Os;;uic;258056426;Q15887030;;;-SR70ST-CZ-75860;Rantířov
 TN5475862;gare;Horní Planá zastávka;Horní Planá zastávka;Horní Planá zastávka;5475862;;48.752174;14.04419;CZ;Europe/Prague;Q1628741;Os;;nom;959813994;Q19061177;;;-SR70S-CZ-75862;Horní Planá zastávka
 TN5475865;gare;Hájek;Hájek;Hájek;5475865;;50.280227;12.93777;CZ;Europe/Prague;Q1641806;Os;;uic;33441217;Q19400670;;;-SR70ST-CZ-75865;Hájek
 TN5475872;gare;Pěkná;Pěkná;Pěkná;5475872;;48.848533;13.91074;CZ;Europe/Prague;Q605736;Os;;nom;32466124;Q19401225;;;-SR70S-CZ-75872;Pěkná
-TN5475875;gare;Karlovy Vary;Karlovy Vary;Karlovy Vary;5475875;;50.235459;12.866722;CZ;Europe/Prague;Q384544;Ex|IC|Os|R|SC|Sp;;uic;13018231557;Q12028735;;;-SR70ST-CZ-75875;Karlovy Vary
+TN5475875;gare;Karlovy Vary;Karlovy Vary;Karlovy Vary;5475875;;50.235459;12.866722;CZ;Europe/Prague;Q384544;IC|Os|R|SC|Sp;;uic;13018231557;Q12028735;;;-SR70ST-CZ-75875;Karlovy Vary
 TN5475882;gare;Ovesná;Ovesná;Ovesná;5475882;;48.80631;13.938784;CZ;Europe/Prague;Q605736;Os;;nom;32466279;Q19401079;;;-SR70S-CZ-75882;Ovesná
 TN5475885;gare;Karlovy Vary-Dvory;Karlovy Vary-Dvory;Karlovy Vary-Dvory;5475885;;50.228842;12.831703;CZ;Europe/Prague;Q384544;Os|Sp;;uic;13018850648;Q18426089;;;-SR70ST-CZ-75885;Karlovy Vary-Dvory
 TN5475892;gare;Nová Pec;Nová Pec;Nová Pec;5475892;;48.789939;13.953608;CZ;Europe/Prague;Q1818285;Os;;nom;32466321;Q15886947;;;-SR70ST-CZ-75892;Nová Pec
@@ -2453,7 +2392,7 @@ TN5475915;gare;Hlavno;Hlavno;Hlavno;5475915;;50.153645;12.607208;CZ;Europe/Pragu
 TN5475922;gare;Černá v Pošumaví;Černá v Pošumaví;Černá v Pošumaví;5475922;;48.742756;14.086986;CZ;Europe/Prague;Q1628741;Os;;nom;650356773;;;;-SR70ST-CZ-75922;Černá v Pošumaví
 TN5475925;gare;Dasnice;Dasnice;Dasnice;5475925;;50.139676;12.567345;CZ;Europe/Prague;Q367563;Os|Sp;;uic;256479502;Q25412038;;;-SR70ST-CZ-75925;Dasnice
 TN5475932;gare;Žlábek;Žlábek;Žlábek;5475932;;48.763837;14.100938;CZ;Europe/Prague;Q1628741;Os;;nom;959813966;Q19401729;;;-SR70S-CZ-75932;Žlábek
-TN5475935;gare;Kynšperk nad Ohří;Kynšperk nad Ohří;Kynšperk nad Ohří;5475935;;50.125871;12.519419;CZ;Europe/Prague;Q188062;Ex|Os|R|Sp;;uic;660557689;Q2369541;;;-SR70ST-CZ-75935;Kynšperk n.O.
+TN5475935;gare;Kynšperk nad Ohří;Kynšperk nad Ohří;Kynšperk nad Ohří;5475935;;50.125871;12.519419;CZ;Europe/Prague;Q188062;Os|R|Sp;;uic;660557689;Q2369541;;;-SR70ST-CZ-75935;Kynšperk n.O.
 TN5475942;gare;Hodňov;Hodňov;Hodňov;5475942;;48.778913;14.104327;CZ;Europe/Prague;Q339345;Os;;nom;959813962;Q19400686;;;-SR70S-CZ-75942;Hodňov
 TN5475945;gare;Nebanice;Nebanice;Nebanice;5475945;;50.11724;12.478071;CZ;Europe/Prague;Q1392819;Os|Sp;;uic;33257252;Q2108338;;;-SR70ST-CZ-75945;Nebanice
 TN5475952;gare;Polečnice;Polečnice;Polečnice;5475952;;48.79945;14.120324;CZ;Europe/Prague;Q12046228;Os;;nom;959813947;Q15886990;;;-SR70ST-CZ-75952;Polečnice
@@ -2467,7 +2406,7 @@ TN5475984;gare;Pustověty;Pustověty;Pustověty;5475984;;50.054992;13.816963;CZ;
 TN5475992;gare;Kájov;Kájov;Kájov;5475992;;48.813015;14.265406;CZ;Europe/Prague;Q1795250;Os;;nom;514661246;Q15886889;;;-SR70ST-CZ-75992;Kájov
 TN5475994;gare;Městečko u Křivoklátu;Městečko u Křivoklátu;Městečko u Křivoklátu;5475994;;50.050199;13.857186;CZ;Europe/Prague;Q594811;Os;;nom;225063695;Q66888142;;;-SR70S-CZ-75994;Městečko u Křivoklátu
 TN5476002;gare;Český Krumlov;Český Krumlov;Český Krumlov;5476002;;48.822389;14.317057;CZ;Europe/Prague;Q188082;IC|Os;;uic;4294224867;Q15887199;;;-SR70ST-CZ-76002;Český Krumlov
-TN5476004;gare;Křivoklát;Křivoklát;Křivoklát;5476004;;50.038252;13.868807;CZ;Europe/Prague;Q1597372;Os;;nom;243727503;Q18180349;;;-SR70S-CZ-76004;Křivoklát
+TN5476004;gare;Křivoklát;Křivoklát;Křivoklát;5476004;;50.038252;13.868807;CZ;Europe/Prague;Q1597372;Os|Sp;;nom;243727503;Q18180349;;;-SR70S-CZ-76004;Křivoklát
 TN5476012;gare;Přísečná;Přísečná;Přísečná;5476012;;48.829074;14.341281;CZ;Europe/Prague;Q201223;Os;;nom;227232102;Q66888407;;;-SR70S-CZ-76012;Přísečná
 TN5476014;gare;Roztoky u Křivoklátu;Roztoky u Křivoklátu;Roztoky u Křivoklátu;5476014;;50.023564;13.873926;CZ;Europe/Prague;Q1783510;Os;;nom;1925756751;Q66888322;;;-SR70ST-CZ-76014;Roztoky u Křivoklátu
 TN5476022;gare;Zlatá Koruna;Zlatá Koruna;Zlatá Koruna;5476022;;48.850463;14.351461;CZ;Europe/Prague;Q207212;Os;;nom;435767956;Q15887171;;;-SR70ST-CZ-76022;Zlatá Koruna
@@ -2524,7 +2463,7 @@ TN5476375;gare;Kornatice;Kornatice;Kornatice;5476375;;49.655371;13.588687;CZ;Eur
 TN5476385;gare;Kornatice rybník;Kornatice rybník;Kornatice rybník;5476385;;49.664143;13.568946;CZ;Europe/Prague;Q734064;Os;;uic;226286219;Q66888512;;;-SR70S-CZ-76385;Kornatice rybník
 TN5476395;gare;Šťáhlavice;Šťáhlavice;Šťáhlavice;5476395;;49.657593;13.537365;CZ;Europe/Prague;Q392861;Os;;uic;226286117;Q66888510;;;-SR70S-CZ-76395;Šťáhlavice
 TN5476405;gare;Nezvěstice;Nezvěstice;Nezvěstice;5476405;;49.642486;13.516787;CZ;Europe/Prague;Q943513;Os|Sp;;uic;5673497190;Q15886938;;;-SR70ST-CZ-76405;Nezvěstice
-TN5476455;gare;Sokolov;Sokolov;Sokolov;5476455;;50.186116;12.644557;CZ;Europe/Prague;Q727383;Ex|IC|Os|R|SC|Sp;;uic;263691653;Q17749946;;;-SR70ST-CZ-76455;Sokolov
+TN5476455;gare;Sokolov;Sokolov;Sokolov;5476455;;50.186116;12.644557;CZ;Europe/Prague;Q727383;IC|Os|R|SC|Sp;;uic;263691653;Q17749946;;;-SR70ST-CZ-76455;Sokolov
 TN5476465;gare;Svatava;Svatava;Svatava;5476465;;50.190204;12.624776;CZ;Europe/Prague;Q1234231;Os;;uic;10294164376;Q19366268;;;-SR70ST-CZ-76465;Svatava
 TN5476475;gare;Svatava zastávka z;Svatava zastávka;Svatava zastávka;5476475;;50.197436;12.607246;CZ;Europe/Prague;Q1234231;Os;;uic;10294164375;Q19401498;;;-SR70S-CZ-76475;Svatava zastávka z
 TN5476485;gare;Luh nad Svatavou z;Luh nad Svatavou;Luh nad Svatavou;5476485;;50.217853;12.58745;CZ;Europe/Prague;Q955972;Os;;uic;10294164373;Q25411946;;;-SR70S-CZ-76485;Luh nad Svatavou z
@@ -2562,16 +2501,16 @@ TN5476814;gare;Osov;Osov;Osov;5476814;;49.837358;14.084323;CZ;Europe/Prague;Q938
 TN5476824;gare;Hostomice pod Brdy;Hostomice pod Brdy;Hostomice pod Brdy;5476824;;49.831486;14.047835;CZ;Europe/Prague;Q1630641;Os;;nom;12313083105;Q56324870;;;-SR70ST-CZ-76824;Hostomice pod Brdy
 TN5476834;gare;Radouš;Radouš;Radouš;5476834;;49.838318;14.017471;CZ;Europe/Prague;Q1630641;Os;;nom;837171829;Q66888273;;;-SR70S-CZ-76834;Radouš
 TN5476844;gare;Neumětely;Neumětely;Neumětely;5476844;;49.850001;14.011866;CZ;Europe/Prague;Q1630641;Os;;nom;444685286;Q66888252;;;-SR70ST-CZ-76844;Neumětely
-TN5476854;gare;Lochovice;Lochovice;Lochovice;5476854;;49.846405;13.97435;CZ;Europe/Prague;Q1867461;Os|R|Sp;;nom;14101775110;Q19400904;;;-SR70ST-CZ-76854;Lochovice
+TN5476854;gare;Lochovice;Lochovice;Lochovice;5476854;;49.846405;13.97435;CZ;Europe/Prague;Q1867461;Os|R;;nom;14101775110;Q19400904;;;-SR70ST-CZ-76854;Lochovice
 TN5476864;gare;Libomyšl;Libomyšl;Libomyšl;5476864;;49.875572;13.991909;CZ;Europe/Prague;Q2234450;Os;;nom;987076476;Q18817280;;;-SR70S-CZ-76864;Libomyšl
 TN5476874;gare;Rejkovice;Rejkovice;Rejkovice;5476874;;49.809103;13.970595;CZ;Europe/Prague;Q978098;Os;;nom;766008486;Q19401331;;;-SR70S-CZ-76874;Rejkovice
-TN5476884;gare;Jince;Jince;Jince;5476884;;49.782185;13.987382;CZ;Europe/Prague;Q978098;Os|R|Sp;;nom;615818327;Q19400752;;;-SR70ST-CZ-76884;Jince
+TN5476884;gare;Jince;Jince;Jince;5476884;;49.782185;13.987382;CZ;Europe/Prague;Q978098;Os|R;;nom;615818327;Q19400752;;;-SR70ST-CZ-76884;Jince
 TN5476894;gare;Bratkovice;Bratkovice;Bratkovice;5476894;;49.738466;14.003104;CZ;Europe/Prague;Q2218211;Os;;nom;987076477;Q19400466;;;-SR70ST-CZ-76894;Bratkovice
-TN5476904;gare;Příbram;Příbram;Příbram;5476904;;49.688819;14.00336;CZ;Europe/Prague;Q841296;Os|R|Sp;;nom;12106265627;Q17750059;;;-SR70ST-CZ-76904;Příbram
+TN5476904;gare;Příbram;Příbram;Příbram;5476904;;49.688819;14.00336;CZ;Europe/Prague;Q841296;Os|R;;nom;12106265627;Q17750059;;;-SR70ST-CZ-76904;Příbram
 TN5476905;gare;Starec;Starec;Starec;5476905;;49.384208;13.010549;CZ;Europe/Prague;Q1737652;Os;;nom;264152123;Q19401464;;;-SR70S-CZ-76905;Starec
-TN5476914;gare;Milín;Milín;Milín;5476914;;49.632384;14.0218;CZ;Europe/Prague;Q2616687;Os|Sp;;nom;283793706;Q19400973;;;-SR70ST-CZ-76914;Milín
+TN5476914;gare;Milín;Milín;Milín;5476914;;49.632384;14.0218;CZ;Europe/Prague;Q2616687;Os;;nom;283793706;Q19400973;;;-SR70ST-CZ-76914;Milín
 TN5476924;gare;Tochovice;Tochovice;Tochovice;5476924;;49.588771;13.987919;CZ;Europe/Prague;Q2698079;Os;;nom;287608163;Q19401527;;;-SR70ST-CZ-76924;Tochovice
-TN5476934;gare;Březnice;Březnice;Březnice;5476934;;49.558325;13.963994;CZ;Europe/Prague;Q1019970;Os|R|Sp;;nom;301481660;Q18180149;;;-SR70ST-CZ-76934;Březnice
+TN5476934;gare;Březnice;Březnice;Březnice;5476934;;49.558325;13.963994;CZ;Europe/Prague;Q1019970;Os|R;;nom;301481660;Q18180149;;;-SR70ST-CZ-76934;Březnice
 TN5476935;gare;Dobřany zastávka;Dobřany zastávka;Dobřany zastávka;5476935;;49.681303;13.323796;CZ;Europe/Prague;Q1019360;Os;;uic;307395788;Q18180187;;;-SR70S-CZ-76935;Dobřany zastávka
 TN5476944;gare;Ostrov u Tochovic;Ostrov u Tochovic;Ostrov u Tochovic;5476944;;49.615313;14.008855;CZ;Europe/Prague;Q2704030;Os;;nom;290328578;Q19366338;;;-SR70S-CZ-76944;Ostrov u Tochovic
 TN5476945;gare;Petrovice nad Úhlavou;Petrovice nad Úhlavou;Petrovice nad Úhlavou;5476945;;49.32079;13.179392;CZ;Europe/Prague;Q1682956;Os;;nom;49910338;Q19401238;;;-SR70S-CZ-76945;Petrovice nad Úhlavou
@@ -2600,8 +2539,6 @@ TN8006059;gare;Ulbersdorf;Ulbersdorf;Ulbersdorf;8006059;;50.955603;14.220123;DE;
 TN8006060;gare;Amtshainersdorf;Amtshainersdorf;Amtshainersdorf;8006060;;50.966196;14.232242;DE;Europe/Berlin;Q6483;Os;;nom;6708185249;Q4748909;;DAMH;-SR70S-DE-10232;Amtshainersdorf
 TN8006062;gare;Sebnitz (Sachs);Sebnitz;Sebnitz;8006062;;50.975852;14.27214;DE;Europe/Berlin;Q6483;Os;;nom;253994943;Q7442789;;DSEB;-SR70ST-DE-19626;Sebnitz(Sachs)
 TN8006113;gare;Zittau;Zittau;Zittau;8006113;;50.904459;14.80574;DE;Europe/Berlin;Q157200;TL|TLX;;nom;6573592729;Q801664;;DZ;-SR70ST-DE-21503;Zittau
-TN8006433;gare;Cranzahl;Cranzahl;Cranzahl;8006433;;50.511343;12.993062;DE;Europe/Berlin;Q57832;Os;;nom;243768631;Q800634;;DCR;-SR70S-DE-12008;Cranzahl
-TN8006438;gare;Bärenstein (Kr Annaberg);Bärenstein (Annaberg);Bärenstein (Annaberg);8006438;;50.507806;13.029821;DE;Europe/Berlin;Q57714;Os;;nom;12857849444;Q108765725;;DBS;-SR70S-DE-10632;Bärenstein
 TN8006671;gare;Johanngeorgenstadt;Johanngeorgenstadt;Johanngeorgenstadt;8006671;;50.437589;12.7289;DE;Europe/Berlin;Q57903;Os;;nom;48927002;Q58653721;;DJ;-SR70ST-DE-15299;Johanngeorgenstadt
 TN8026041;gare;Selb-Plößberg;Selb-Plößberg;Selb-Plößberg;8026041;;50.18918;12.119817;DE;Europe/Berlin;Q49812;Os;;nom;982727150;Q85800271;;NSP;-SR70ST-DE-19685;Selb-Plößberg
 TN8026267;gare;Furth im Wald;Furth im Wald;Furth im Wald;8026267;;49.309959;12.839485;DE;Europe/Berlin;Q502370;EC|Os;;nom;2704171778;Q65965694;;NFW;-SR70ST-DE-13539;Furth im Wald

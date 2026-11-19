@@ -25,9 +25,9 @@ TN5100061;gare;Legnica;Legnica;Legnica;5100061;;51.214093;16.169655;PL;Europe/Wa
 TN5100062;gare;Leszno;Leszno;Leszno;5100062;;51.845967;16.565471;PL;Europe/Warsaw;Q52892;EC|EIC|IC|Os|OsP|R|RP;;nom;618850607;Q11755171;;XPLN;42606;Leszno
 TN5100065;gare;Lublin Główny;Lublin Główny;Lublin Główny;5100065;;51.231292;22.568964;PL;Europe/Warsaw;Q37333;IC|R|RP|TLK;;nom;3457415162;Q1862048;;XPLL;50500;Lublin Główny
 TN5100069;gare;Łódź Chojny;Łódź Chojny;Łódź Chojny;5100069;;51.726409;19.484195;PL;Europe/Warsaw;Q580;IC|IR|R|TLK|Ł|ŁP;;nom;1494055816;Q940290;;XPLC;46565;Łódź Chojny
-TN5100070;gare;Łódź Fabryczna;Łódź Fabryczna;Łódź Fabryczna;5100070;;51.769553;19.469611;PL;Europe/Warsaw;Q580;BUS|IC|IR|R|Ł|ŁP|ŁS;;nom;4304797718;Q801687;;;46458;Łódź Fabryczna
+TN5100070;gare;Łódź Fabryczna;Łódź Fabryczna;Łódź Fabryczna;5100070;;51.769553;19.469611;PL;Europe/Warsaw;Q580;IC|IR|R|Ł|ŁP|ŁS;;nom;4304797718;Q801687;;;46458;Łódź Fabryczna
 TN5100071;gare;Łódź Kaliska;Łódź Kaliska;Łódź Kaliska;5100071;;51.757822;19.430542;PL;Europe/Warsaw;Q580;IC|IR|OsP|R|TLK|Ł|ŁP|ŁS;;nom;1974456578;Q2025255;;XPLK;46706;Łódź Kaliska
-TN5100072;gare;Łódź Widzew;Łódź Widzew;Łódź Widzew;5100072;;51.763105;19.543805;PL;Europe/Warsaw;Q580;BUS|IC|IR|R|TLK|Ł|ŁP|ŁS;;nom;4176079485;Q1940317;;XPLW;46409;Łódź Widzew
+TN5100072;gare;Łódź Widzew;Łódź Widzew;Łódź Widzew;5100072;;51.763105;19.543805;PL;Europe/Warsaw;Q580;IC|IR|R|TLK|Ł|ŁP|ŁS;;nom;4176079485;Q1940317;;XPLW;46409;Łódź Widzew
 TN5100077;gare;Jaworzyna Śląska;Jaworzyna Śląska;Jaworzyna Śląska;5100077;;50.912493;16.428885;PL;Europe/Warsaw;Q990188;IC|Os|OsP|R|RP|TLK;;nom;3683522126;;;;54403;Jaworzyna Śląska
 TN5100079;gare;Nysa;Nysa;Nysa;5100079;;50.477649;17.341952;PL;Europe/Warsaw;Q815721;R|TLK;;nom;3679909514;Q2624642;;;56606;Nysa
 TN5100084;gare;Oława;Oława;Oława;5100084;;50.930583;17.29776;PL;Europe/Warsaw;Q924049;IC|Os|OsP|R|RP;;nom;242360270;Q2183707;;XPOWA;58271;Oława
@@ -47,7 +47,7 @@ TN5100120;gare;Kętrzyn;Kętrzyn;Kętrzyn;5100120;;54.072356;21.387517;PL;Europe
 TN5100126;gare;Tarnów;Tarnów;Tarnów;5100126;;50.005288;20.975117;PL;Europe/Warsaw;Q106281;EC|EIP|EN|IC|K3|K32|K3P|K7|K71P|K7P|R|SKA3|SKA3P|TLK;;nom;2007029030;Q2472727;;;80630;Tarnów
 TN5100127;gare;Tczew;Tczew;Tczew;5100127;;54.097248;18.789781;PL;Europe/Warsaw;Q474697;EC|EIC|EIP|IC|R|TLK;;nom;1354117153;Q2253001;;XPTC;7112;Tczew
 TN5100132;gare;Terespol;Terespol;Terespol;5100132;;52.074332;23.601254;PL;Europe/Warsaw;Q218897;IC|R|RP;;nom;3456263616;Q2342808;;;40998;Terespol
-TN5100136;gare;Warszawa Centralna;Warsaw Central;Warszawa Centralna;5100136;;52.228821;21.00316;PL;Europe/Warsaw;Q270;EC|EIC|EIP|EN|Ex|IC|ICN|IR|R1|R2|R3|R7|R9|RE1|RE2|RE3|RE31|RE8|RE9|RJ|RL|RP|TLK|ŁS;;nom;9814916146;Q693034;;XPWC;33605;Warszawa Centralna
+TN5100136;gare;Warszawa Centralna;Warsaw Central;Warszawa Centralna;5100136;;52.228821;21.00316;PL;Europe/Warsaw;Q270;EC|EIC|EIP|EN|Ex|IC|ICN|IR|R9|RE1|RE2|RE3|RE31|RE8|RE9|RJ|RL|RP|TLK|ŁS;;nom;9814916146;Q693034;;XPWC;33605;Warszawa Centralna
 TN5100137;gare;Warszawa Gdańska;Warszawa Gdańska;Warszawa Gdańska;5100137;;52.259095;20.992359;PL;Europe/Warsaw;Q270;IC|R80|R90|RE10|RE30|RE80|RE90;;nom;3416823373;Q1842252;;XPWG;36103;Warszawa Gdańska
 TN5100138;gare;Warszawa Wschodnia;Warsaw East;Warszawa Wschodnia;5100138;;52.251589;21.052368;PL;Europe/Warsaw;Q270;EC|EIC|EIP|EN|Ex|IC|ICN|IR|R1|R2|R3|R6|R61|R7|R9|RE1|RE10|RE2|RE21|RE3|RE30|RE31|RE6|RE61|RE7|RE8|RE80|RE9|RJ|RL|RP|TLK|ŁS;;nom;33210583;Q3270196;;XPWW;38653;Warszawa Wschodnia
 TN5100143;gare;Wrocław Główny;Wrocław Główny;Wrocław Główny;5100143;;51.097916;17.037951;PL;Europe/Warsaw;Q1799;EC|EIC|EIP|IC|Os|OsP|R|RP|TLK;;nom;155479759;Q428443;;XPWR;60103;Wrocław Główny
@@ -78,7 +78,7 @@ TN5100495;gare;Ustka;Ustka;Ustka;5100495;;54.578248;16.862149;PL;Europe/Warsaw;Q
 TN5100519;gare;Biskupice Oławskie;Biskupice Oławskie;Biskupice Oławskie;5100519;;50.993988;17.515539;PL;Europe/Warsaw;Q1919136;Os|R;;nom;1508746056;;;;58388;Biskupice Oławskie
 TN5100564;gare;Wałbrzych Centrum;Wałbrzych Centrum;Wałbrzych Centrum;5100564;;50.773373;16.269858;PL;Europe/Warsaw;Q110732;Os|OsP|R|RP;;nom;8227325732;Q30906076;;;262834;Wałbrzych Centrum
 TN5100565;gare;Bartnica;Bartnica;Bartnica;5100565;;50.641937;16.407952;PL;Europe/Warsaw;Q5318324;Os|OsP;;nom;2075289365;Q16485425;;;55194;Bartnica
-TN5100571;gare;Mikłasze;Mikłasze;Mikłasze;5100571;;52.726901;23.315881;PL;Europe/Warsaw;Q2103427;BUS|R;;nom;8287665856;Q60863068;;;264547;Mikłasze
+TN5100571;gare;Mikłasze;Mikłasze;Mikłasze;5100571;;52.726901;23.315881;PL;Europe/Warsaw;Q2103427;R;;nom;8287665856;Q60863068;;;264547;Mikłasze
 TN5100585;gare;Świnoujście;Świnoujście;Świnoujście;5100585;;53.904445;14.266023;PL;Europe/Warsaw;Q41599;IC|R;;nom;366700324;Q3284197;;;1008;Świnoujście
 TN5100594;gare;Sopot;Sopot;Sopot;5100594;;54.440057;18.562314;PL;Europe/Warsaw;Q92689;EC|EIC|EIP|IC|R|TLK;;nom;266781738;Q7563186;;XPSO;5942;Sopot
 TN5100599;gare;Borucice;Borucice;Borucice;5100599;;50.981935;17.55677;PL;Europe/Warsaw;Q2460629;R;;nom;967302195;;;;216137;Borucice
@@ -89,7 +89,7 @@ TN5100675;gare;Jurata;Jurata;Jurata;5100675;;54.684944;18.713414;PL;Europe/Warsa
 TN5100677;gare;Jastarnia;Jastarnia;Jastarnia;5100677;;54.701665;18.676649;PL;Europe/Warsaw;Q497154;R;;nom;564324653;Q1906643;;;6775;Jastarnia
 TN5100679;gare;Hel;Hel;Hel;5100679;;54.61104;18.800885;PL;Europe/Warsaw;Q848973;R;;nom;564634911;Q2874596;;;6791;Hel
 TN5100719;gare;Szymankowo;Szymankowo;Szymankowo;5100719;;54.072711;18.927511;PL;Europe/Warsaw;Q255995;R;;nom;2154391159;Q2618851;;;7195;Szymankowo
-TN5100724;gare;Chytra;Chytra;Chytra;5100724;;52.739043;23.515006;PL;Europe/Warsaw;Q5118624;BUS|R;;nom;3473162623;Q2130238;;;118281;Chytra
+TN5100724;gare;Chytra;Chytra;Chytra;5100724;;52.739043;23.515006;PL;Europe/Warsaw;Q5118624;R;;nom;3473162623;Q2130238;;;118281;Chytra
 TN5100750;gare;Gdańsk Główny;Gdańsk railway station;Gdańsk Główny;5100750;;54.356434;18.644195;PL;Europe/Warsaw;Q1792;EC|EIC|EIP|IC|R|TLK;;nom;3784638270;Q557448;;XPG;7500;Gdańsk Główny
 TN5100753;gare;Gdańsk Wrzeszcz;Gdańsk Wrzeszcz;Gdańsk Wrzeszcz;5100753;;54.38177;18.605511;PL;Europe/Warsaw;Q1792;EC|EIC|EIP|IC|R|TLK;;nom;3785967847;Q934967;;XPGWR;7534;Gdańsk Wrzeszcz
 TN5100758;gare;Gdańsk Oliwa;Gdańsk Oliwa;Gdańsk Oliwa;5100758;;54.409488;18.571977;PL;Europe/Warsaw;Q1792;EC|EIC|EIP|IC|R|TLK;;nom;3786011913;Q594376;;XPGOL;7583;Gdańsk Oliwa
@@ -98,7 +98,7 @@ TN5100805;gare;Chróścice;Chróścice;Chróścice;5100805;;50.792817;17.816705;
 TN5100849;gare;Chybie Mnich;Chybie Mnich;Chybie Mnich;5100849;;49.887462;18.820787;PL;Europe/Warsaw;Q11784242;Os|OsP;;nom;1869860437;;;;75820;Chybie Mnich
 TN5100920;gare;Olsztyn Główny;Olsztyn Główny;Olsztyn Główny;5100920;;53.785741;20.497666;PL;Europe/Warsaw;Q82765;IC|R;;nom;131851982;Q801295;;XPOL;9209;Olsztyn Główny
 TN5100923;gare;Olsztyn Zachodni;Olsztyn Zachodni;Olsztyn Zachodni;5100923;;53.778726;20.469101;PL;Europe/Warsaw;Q82765;IC|R;;nom;539772186;Q445351;;XPOLZ;9233;Olsztyn Zachodni
-TN5100942;gare;Czeremcha;Czeremcha;Czeremcha;5100942;;52.518751;23.353514;PL;Europe/Warsaw;Q4340978;BUS|IC|R|R21|RE2|RE21|TLK;;nom;2181037862;Q2677271;;XPCZ;25205;Czeremcha
+TN5100942;gare;Czeremcha;Czeremcha;Czeremcha;5100942;;52.518751;23.353514;PL;Europe/Warsaw;Q4340978;IC|R|R21|RE2|RE21|TLK;;nom;2181037862;Q2677271;;XPCZ;25205;Czeremcha
 TN5100973;gare;Dopiewo;Dopiewo;Dopiewo;5100973;;52.353746;16.677973;PL;Europe/Warsaw;Q985214;Os|R;;nom;3241498004;;;;27268;Dopiewo
 TN5100983;gare;Drzewce;Drzewce;Drzewce;5100983;;52.269439;15.161704;PL;Europe/Warsaw;Q2415005;R;;nom;3257022418;;;;28233;Drzewce
 TN5100996;gare;Bogaczewo;Bogaczewo;Bogaczewo;5100996;;54.100129;19.572938;PL;Europe/Warsaw;Q4937334;R;;nom;413830806;Q615839;;XPBOC;10942;Bogaczewo
@@ -125,7 +125,6 @@ TN5101556;gare;Piła Podlasie;Piła Podlasie;Piła Podlasie;5101556;;53.162888;1
 TN5101574;gare;Koszęcin;Koszęcin;Koszęcin;5101574;;50.622991;18.835858;PL;Europe/Warsaw;Q553622;Os;;nom;313085196;;;;72124;Koszęcin
 TN5101587;gare;Wierzchowo Człuchowskie;Wierzchowo Człuchowskie;Wierzchowo Człuchowskie;5101587;;53.617899;17.447297;PL;Europe/Warsaw;Q550796;R;;nom;2153521846;Q2472440;;;15875;Wierzchowo Człuchowskie
 TN5101605;gare;Kopalina;Kopalina;Kopalina;5101605;;51.021084;17.40412;PL;Europe/Warsaw;Q691100;Os;;nom;967301950;;;;58354;Kopalina
-TN5101639;gare;Kulin Kłodzki;Kulin Kłodzki;Kulin Kłodzki;5101639;;50.419372;16.325491;PL;Europe/Warsaw;Q1425231;Os;;nom;1280966256;;;;57539;Kulin Kłodzki
 TN5101654;gare;Karłowice;Karłowice;Karłowice;5101654;;50.88026;17.699054;PL;Europe/Warsaw;Q1734747;R;;nom;1472963338;;;;61135;Karłowice
 TN5101690;gare;Terespol Pomorski;Terespol Pomorski;Terespol Pomorski;5101690;;53.409506;18.351384;PL;Europe/Warsaw;Q1817381;Os|R;;nom;3655582089;Q2377260;;XPTP;16907;Terespol Pomorski
 TN5101786;gare;Kliniska;Kliniska;Kliniska;5101786;;53.460862;14.78402;PL;Europe/Warsaw;Q1914786;R;;nom;6348562381;;;;1198;Kliniska
@@ -142,11 +141,11 @@ TN5102155;gare;Ciechocinek;Ciechocinek;Ciechocinek;5102155;;52.881135;18.787601;
 TN5102160;gare;Włocławek;Włocławek;Włocławek;5102160;;52.653031;19.058895;PL;Europe/Warsaw;Q106681;IC|R;;nom;3459316528;Q2025596;;XPWLO;21600;Włocławek
 TN5102271;gare;Mąkoszyce;Mąkoszyce;Mąkoszyce;5102271;;50.939503;17.631158;PL;Europe/Warsaw;Q2460629;R;;nom;1508699649;;;;61150;Mąkoszyce
 TN5102301;gare;Minkowice Oławskie;Minkowice Oławskie;Minkowice Oławskie;5102301;;51.011826;17.457059;PL;Europe/Warsaw;Q6867855;Os;;nom;967301818;;;;58362;Minkowice Oławskie
-TN5102306;gare;Morze;Morze;Morze;5102306;;52.730332;23.411324;PL;Europe/Warsaw;Q5740201;BUS|R;;nom;246688024;Q946386;;;118265;Morze
+TN5102306;gare;Morze;Morze;Morze;5102306;;52.730332;23.411324;PL;Europe/Warsaw;Q5740201;R;;nom;246688024;Q946386;;;118265;Morze
 TN5102317;gare;Mostki;Mostki;Mostki;5102317;;52.268904;15.395756;PL;Europe/Warsaw;Q1687110;R;;nom;3256437765;;;;28167;Mostki
 TN5102325;gare;Myszków Mrzygłód;Myszków Mrzygłód;Myszków Mrzygłód;5102325;;50.543475;19.377314;PL;Europe/Warsaw;Q731079;Os;;nom;3455702508;;;;75457;Myszków Mrzygłód
 TN5102327;gare;Mroczkowice;Mroczkowice;Mroczkowice;5102327;;50.947522;15.361663;PL;Europe/Warsaw;Q3845836;Os;;nom;11374585699;Q11786360;;;52423;Mroczkowice
-TN5102400;gare;Białystok;Białystok;Białystok;5102400;;53.133621;23.135437;PL;Europe/Warsaw;Q761;BUS|IC|R|TLK;;nom;3298971170;Q2262365;;XPBA;24000;Białystok
+TN5102400;gare;Białystok;Białystok;Białystok;5102400;;53.133621;23.135437;PL;Europe/Warsaw;Q761;IC|R|TLK;;nom;3298971170;Q2262365;;XPBA;24000;Białystok
 TN5102476;gare;Nowa Ruda Przedmieście;Nowa Ruda Przedmieście;Nowa Ruda Przedmieście;5102476;;50.588421;16.516039;PL;Europe/Warsaw;Q246264;Os|OsP;;nom;12082777801;;;;57950;Nowa Ruda Przedmieście
 TN5102500;gare;Kuźnica Białostocka;Kuźnica Białostocka;Kuźnica Białostocka;5102500;;53.511937;23.642374;PL;Europe/Warsaw;Q926310;R;;nom;3312550572;Q2187669;;;25007;Kuźnica Białostocka
 TN5102580;gare;Rzepin;Rzepin;Rzepin;5102580;;52.349917;14.815287;PL;Europe/Warsaw;Q990823;EC|IC|R;;nom;3258261975;Q801385;;XPR;25809;Rzepin
@@ -182,7 +181,7 @@ TN5103137;gare;Rogalice;Rogalice;Rogalice;5103137;;50.963418;17.598006;PL;Europe
 TN5103166;gare;Rusinowice;Rusinowice;Rusinowice;5103166;;50.64901;18.763773;PL;Europe/Warsaw;Q553622;Os;;nom;1509286809;;;;72132;Rusinowice
 TN5103190;gare;Rurka;Rurka;Rurka;5103190;;53.49357;14.795872;PL;Europe/Warsaw;Q967330;R;;nom;287870592;;;;1412;Rurka
 TN5103264;gare;Sątopy;Sątopy;Sątopy;5103264;;52.303296;16.203519;PL;Europe/Warsaw;Q7667004;Os|R;;nom;3246961075;;;;26237;Sątopy
-TN5103276;gare;Stare Berezowo;Stare Berezowo;Stare Berezowo;5103276;;52.731891;23.453585;PL;Europe/Warsaw;Q5741150;BUS|R;;nom;1016639363;Q2740664;;;118273;Stare Berezowo
+TN5103276;gare;Stare Berezowo;Stare Berezowo;Stare Berezowo;5103276;;52.731891;23.453585;PL;Europe/Warsaw;Q5741150;R;;nom;1016639363;Q2740664;;;118273;Stare Berezowo
 TN5103284;gare;Świebodzin;Świebodzin;Świebodzin;5103284;;52.245251;15.539962;PL;Europe/Warsaw;Q387463;EC|R;;nom;3254868376;;;;28100;Świebodzin
 TN5103310;gare;Konin;Konin;Konin;5103310;;52.231098;18.2541;PL;Europe/Warsaw;Q52845;EC|EIC|IC|Os|OsP;;nom;29830753;Q1978193;;;33100;Konin
 TN5103315;gare;Skoczów;Skoczów;Skoczów;5103315;;49.792975;18.789509;PL;Europe/Warsaw;Q987786;IC|Os|OsP|R|RP;;nom;655388096;;;;75788;Skoczów
@@ -223,9 +222,9 @@ TN5103744;gare;Warszawa Wileńska;Warszawa Wileńska;Warszawa Wileńska;5103744;
 TN5103830;gare;Małkinia;Małkinia;Małkinia;5103830;;52.694601;22.034857;PL;Europe/Warsaw;Q993913;IC|R|R6|R60|RE6;;nom;3275141671;Q2575361;;;38307;Małkinia
 TN5103831;gare;Troszyn;Troszyn;Troszyn;5103831;;53.844162;14.717287;PL;Europe/Warsaw;Q557190;R;;nom;2152134613;;;;1586;Troszyn
 TN5103853;gare;Warszawa Gocławek;Warszawa Gocławek;Warszawa Gocławek;5103853;;52.238665;21.13264;PL;Europe/Warsaw;Q270;R1|R3|R7|RE1|RE7;;nom;1628755572;Q2135048;;;38539;Warszawa Gocławek
-TN5103866;gare;Warszawa Rembertów;Warszawa Rembertów;Warszawa Rembertów;5103866;;52.257108;21.158478;PL;Europe/Warsaw;Q270;R1|R2|R3|R6|R61|RE6;;nom;3401904483;Q2594587;;;38661;Warszawa Rembertów
+TN5103866;gare;Warszawa Rembertów;Warszawa Rembertów;Warszawa Rembertów;5103866;;52.257108;21.158478;PL;Europe/Warsaw;Q270;R1|R2|R3|R6|R61|R7|RE2|RE3|RE6|RE61|Z2;;nom;3401904483;Q2594587;;;38661;Warszawa Rembertów
 TN5103869;gare;Tychy Żwaków;Tychy Żwaków;Tychy Żwaków;5103869;;50.110023;18.953146;PL;Europe/Warsaw;Q11977;Os|OsP;;nom;3689421986;;;;75978;Tychy Żwaków
-TN5103872;gare;Sulejówek Miłosna;Sulejówek Miłosna;Sulejówek Miłosna;5103872;;52.240654;21.298654;PL;Europe/Warsaw;Q953198;R1|R2|R3;;nom;2181018756;Q2050075;;;38729;Sulejówek Miłosna
+TN5103872;gare;Sulejówek Miłosna;Sulejówek Miłosna;Sulejówek Miłosna;5103872;;52.240654;21.298654;PL;Europe/Warsaw;Q953198;IC|R1|R2|R3|RE2|RE21|RE8|Z2;;nom;2181018756;Q2050075;;;38729;Sulejówek Miłosna
 TN5103873;gare;Warszawa Wawer;Warszawa Wawer;Warszawa Wawer;5103873;;52.223354;21.14961;PL;Europe/Warsaw;Q270;R1|R3|R7|RE1|RE7|Z7;;nom;3457285925;Q2395768;;;38737;Warszawa Wawer
 TN5103874;gare;Warszawa Olszynka Grochowska;Warszawa Olszynka Grochowska;Warszawa Olszynka Grochowska;5103874;;52.24988;21.106493;PL;Europe/Warsaw;Q270;R1|R3|R7|RE1|RE7;;nom;3403990011;Q1860387;;;38745;Warszawa Olszynka Grochowska
 TN5103876;gare;Warszawa Anin;Warszawa Anin;Warszawa Anin;5103876;;52.212993;21.159941;PL;Europe/Warsaw;Q270;R1|R3|R7|RE1|RE7|Z7;;nom;3404075447;Q2267292;;;38760;Warszawa Anin
@@ -235,7 +234,7 @@ TN5103881;gare;Warszawa Miedzeszyn;Warszawa Miedzeszyn;Warszawa Miedzeszyn;51038
 TN5103883;gare;Warszawa Falenica;Warszawa Falenica;Warszawa Falenica;5103883;;52.15838;21.214293;PL;Europe/Warsaw;Q270;R1|R3|R7|RE1|RE7|Z7;;nom;2181100077;Q2769808;;;38836;Warszawa Falenica
 TN5103900;gare;Mińsk Mazowiecki;Mińsk Mazowiecki;Mińsk Mazowiecki;5103900;;52.175863;21.552219;PL;Europe/Warsaw;Q648071;IC|R1|R2|R3|RE1|RE2|RE21|RE8|TLK;;nom;3456120442;Q2584037;;XPMM;39008;Mińsk Mazowiecki
 TN5103926;gare;Wałbrzych Fabryczny;Wałbrzych Fabryczny;Wałbrzych Fabryczny;5103926;;50.761394;16.267048;PL;Europe/Warsaw;Q110732;Os;;nom;4011268703;Q9371694;;;55327;Wałbrzych Fabryczny
-TN5103940;gare;Siedlce;Siedlce;Siedlce;5103940;;52.161793;22.271916;PL;Europe/Warsaw;Q319813;BUS|IC|R|R2|R21|R3|RE1|RE2|RE21|RE8|TLK;;nom;359467337;Q2596503;;XPS;39404;Siedlce
+TN5103940;gare;Siedlce;Siedlce;Siedlce;5103940;;52.161793;22.271916;PL;Europe/Warsaw;Q319813;IC|R|R2|R21|R3|RE1|RE2|RE21|RE8|TLK;;nom;359467337;Q2596503;;XPS;39404;Siedlce
 TN5103945;gare;Brzezie;Brzezie;Brzezie;5103945;;52.69651;18.964402;PL;Europe/Warsaw;Q106681;R;;nom;527831563;Q2203978;;;178111;Brzezie
 TN5103980;gare;Mińsk Mazowiecki Anielina;Mińsk Mazowiecki Anielina;Mińsk Mazowiecki Anielina;5103980;;52.16779;21.585535;PL;Europe/Warsaw;Q648071;R1|R2|R3|RE2;;nom;2505032691;Q2040372;;;39800;Mińsk Mazowiecki Anielina
 TN5104037;gare;Wojnowice Wielkopolskie;Wojnowice Wielkopolskie;Wojnowice Wielkopolskie;5104037;;52.326895;16.466637;PL;Europe/Warsaw;Q7768794;Os|R;;nom;3241658803;;;;27243;Wojnowice Wielkopolskie
@@ -258,7 +257,7 @@ TN5104418;gare;Żywiec;Żywiec;Żywiec;5104418;;49.679121;19.18567;PL;Europe/War
 TN5104470;gare;Jarocin;Jarocin;Jarocin;5104470;;51.96831;17.494719;PL;Europe/Warsaw;Q52840;IC|IR|Os|OsP|R|TLK|ŁP;;nom;3203653735;Q11720724;;XPJA;44701;Jarocin
 TN5104524;gare;Kalisz;Kalisz;Kalisz;5104524;;51.742827;18.071365;PL;Europe/Warsaw;Q52842;IC|IR|Os|OsP|R|ŁP;;nom;3459064660;Q729516;;XPKL;45245;Kalisz
 TN5104540;gare;Kępno;Kępno;Kępno;5104540;;51.291954;18.001413;PL;Europe/Warsaw;Q640493;IC|Os|OsP|R|TLK;;nom;12529059962;Q2553279;;;45401;Kępno
-TN5104760;gare;Tomaszów Mazowiecki;Tomaszów Mazowiecki;Tomaszów Mazowiecki;5104760;;51.546937;20.033623;PL;Europe/Warsaw;Q157994;BUS|IC|R|Ł;;nom;92794059;Q9359866;;XPTM;47605;Tomaszów Mazowiecki
+TN5104760;gare;Tomaszów Mazowiecki;Tomaszów Mazowiecki;Tomaszów Mazowiecki;5104760;;51.546937;20.033623;PL;Europe/Warsaw;Q157994;IC|R|Ł;;nom;92794059;Q9359866;;XPTM;47605;Tomaszów Mazowiecki
 TN5104770;gare;Piotrków Trybunalski;Piotrków Trybunalski;Piotrków Trybunalski;5104770;;51.410465;19.684641;PL;Europe/Warsaw;Q158004;IC|R|TLK|Ł;;nom;1864585459;Q2479710;;XPPT;47704;Piotrków Trybunalski
 TN5104845;gare;Wolanów;Wolanów;Wolanów;5104845;;51.353295;21.000174;PL;Europe/Warsaw;Q7961961;R82|Ł;;nom;2179834592;Q2375308;;;48454;Wolanów
 TN5104846;gare;Radom Potkanów;Radom Potkanów;Radom Potkanów;5104846;;51.352967;21.102108;PL;Europe/Warsaw;Q104740;R82|Ł;;nom;550362357;Q2370474;;;48462;Radom Potkanów
@@ -267,7 +266,7 @@ TN5104880;gare;Przysucha;Przysucha;Przysucha;5104880;;51.377755;20.659722;PL;Eur
 TN5104883;gare;Smogorzów Przysuski;Smogorzów Przysuski;Smogorzów Przysuski;5104883;;51.394913;20.605165;PL;Europe/Warsaw;Q11748996;R82|Ł;;nom;2030626331;Q5516388;;;48835;Smogorzów Przysuski
 TN5104884;gare;Zygmuntów;Zygmuntów;Zygmuntów;5104884;;51.408743;20.571827;PL;Europe/Warsaw;Q6369095;R82|Ł;;nom;2030626334;Q2333927;;;48843;Zygmuntów
 TN5104885;gare;Bieliny Opoczyńskie;Bieliny Opoczyńskie;Bieliny Opoczyńskie;5104885;;51.424001;20.502071;PL;Europe/Warsaw;Q9171289;R82|Ł;;nom;2030626848;Q1970068;;;48850;Bieliny Opoczyńskie
-TN5104886;gare;Dęba Opoczyńska;Dęba Opoczyńska;Dęba Opoczyńska;5104886;;51.481921;20.258281;PL;Europe/Warsaw;Q5321037;BUS|R|Ł;;nom;2187734546;Q2113199;;XPDA;48868;Dęba Opoczyńska
+TN5104886;gare;Dęba Opoczyńska;Dęba Opoczyńska;Dęba Opoczyńska;5104886;;51.481921;20.258281;PL;Europe/Warsaw;Q5321037;R|Ł;;nom;2187734546;Q2113199;;XPDA;48868;Dęba Opoczyńska
 TN5104888;gare;Tomaszów Mazowiecki Białobrzegi;Tomaszów Mazowiecki Białobrzegi;Tomaszów Mazowiecki Białobrzegi;5104888;;51.524535;20.066018;PL;Europe/Warsaw;Q157994;R|Ł;;nom;2187738903;Q971688;;;48884;Tomaszów Mazowiecki Białobrzegi
 TN5104889;gare;Antoniów;Antoniów;Antoniów;5104889;;51.475797;20.198351;PL;Europe/Warsaw;Q4777144;R|Ł;;nom;2758085364;Q2584837;;;48892;Antoniów
 TN5104891;gare;Brzustów;Brzustów;Brzustów;5104891;;51.493498;20.146695;PL;Europe/Warsaw;Q9181078;R|Ł;;nom;2187736257;Q3042424;;;48918;Brzustów
@@ -342,7 +341,7 @@ TN5108010;gare;Skawina;Skawina;Skawina;5108010;;49.977288;19.822625;PL;Europe/Wa
 TN5108041;gare;Kraków Główny;Krakow Main Station;Kraków Główny;5108041;;50.068424;19.947886;PL;Europe/Warsaw;Q31487;EC|EIC|EIP|EN|Ex|IC|ICN|K2|K3|K32|K33|K33P|K3P|K5|K52|K52P|K5P|K63|K7|K71P|K7P|Os|OsP|RJ|SKA1|SKA2|SKA3|SKA3P|TLK;;nom;206270454;Q2154725;;;80416;Kraków Główny
 TN5108100;gare;Kraków Bronowice;Kraków Bronowice;Kraków Bronowice;5108100;;50.082988;19.892615;PL;Europe/Warsaw;Q31487;K3|K32|K33|K33P|K3P|K7P|Os|OsP|SKA1|SKA3;;nom;6519017988;Q30908500;;;260937;Kraków Bronowice
 TN5108120;gare;Dębica;Dębica;Dębica;5108120;;50.053931;21.404146;PL;Europe/Warsaw;Q947404;EC|EIP|EN|IC|R;;nom;3442849471;Q2190272;;;81208;Dębica
-TN5108190;gare;Nowy Sącz;Nowy Sącz;Nowy Sącz;5108190;;49.606532;20.702673;PL;Europe/Warsaw;Q802;IC|K3P|K45|K46|K7|K71|K7P|TLK;;nom;475592274;Q11793931;;;81901;Nowy Sącz
+TN5108190;gare;Nowy Sącz;Nowy Sącz;Nowy Sącz;5108190;;49.606532;20.702673;PL;Europe/Warsaw;Q802;IC|K3P|K45|K46|K46 BUS|K7|K71|K7P|TLK;;nom;475592274;Q11793931;;;81901;Nowy Sącz
 TN5108240;gare;Muszyna;Muszyna;Muszyna;5108240;;49.345646;20.893351;PL;Europe/Warsaw;Q1642884;IC|K3P|K7|TLK;;nom;1864491322;Q2222279;;;82404;Muszyna
 TN5108360;gare;Sanok;Sanok;Sanok;5108360;;49.552773;22.211487;PL;Europe/Warsaw;Q201729;IC;;nom;3170889521;Q599990;;;83600;Sanok
 TN5108443;gare;Przemyśl Zasanie;Przemyśl Zasanie;Przemyśl Zasanie;5108443;;49.793475;22.773728;PL;Europe/Warsaw;Q208473;EC|EN|IC|R|RP;;nom;2017171375;Q2060837;;;84434;Przemyśl Zasanie
@@ -553,7 +552,7 @@ TNOSM10814356670;gare;Rzepin Miasto;Rzepin Miasto;Rzepin Miasto;;;52.346626;14.8
 TNOSM10815939000;gare;Jedlicze koło Zgierza;Jedlicze koło Zgierza;Jedlicze koło Zgierza;;;51.869388;19.320737;PL;Europe/Warsaw;Q2314140;R|Ł;;nom;10815939000;;;;280343;Jedlicze koło Zgierza
 TNOSM1082638044;gare;Mosty;Mosty;Mosty;;;53.574423;14.940645;PL;Europe/Warsaw;Q6917018;R;;nom;1082638044;;;;1883;Mosty
 TNOSM1082638167;gare;Wyszomierz;Wyszomierz;Wyszomierz;;;53.625854;15.063491;PL;Europe/Warsaw;Q557617;R;;nom;1082638167;;;;1867;Wyszomierz
-TNOSM10842123367;gare;Białystok Zielone Wzgórza;Białystok Zielone Wzgórza;Białystok Zielone Wzgórza;;;53.1155;23.103009;PL;Europe/Warsaw;Q761;BUS|IC|R|TLK;;nom;10842123367;Q65170020;;;279919;Białystok Zielone Wzgórza
+TNOSM10842123367;gare;Białystok Zielone Wzgórza;Białystok Zielone Wzgórza;Białystok Zielone Wzgórza;;;53.1155;23.103009;PL;Europe/Warsaw;Q761;IC|R|TLK;;nom;10842123367;Q65170020;;;279919;Białystok Zielone Wzgórza
 TNOSM10864133221;gare;Legnica Strefa;Legnica Strefa;Legnica Strefa;;;51.165239;16.185314;PL;Europe/Warsaw;Q106274;Os;;nom;10864133221;;;;279503;Legnica Strefa
 TNOSM10867259923;gare;Kosów;Kosów;Kosów;;;51.346522;21.0637;PL;Europe/Warsaw;Q11744278;R82|Ł;;nom;10867259923;;;;279430;Kosów
 TNOSM1089058672;gare;Chojnów;Chojnów;Chojnów;;;51.277689;15.937662;PL;Europe/Warsaw;Q478869;EC|IC|Os|OsP;;nom;1089058672;Q2057058;;;54007;Chojnów
@@ -682,7 +681,7 @@ TNOSM12436825969;gare;Ważne Młyny;Ważne Młyny;Ważne Młyny;;;51.039277;19.1
 TNOSM12436825970;gare;Stary Broniszew;Stary Broniszew;Stary Broniszew;;;50.983642;19.160756;PL;Europe/Warsaw;Q554463;R|Ł;;nom;12436825970;Q7602682;;;280952;Stary Broniszew
 TNOSM12436825971;gare;Mykanów;Mykanów;Mykanów;;;50.925321;19.179306;PL;Europe/Warsaw;Q554463;R|Ł;;nom;12436825971;Q2450053;;;63131;Mykanów
 TNOSM12441194194;gare;Repczyce;Repczyce;Repczyce;;;52.546561;23.355709;PL;Europe/Warsaw;Q3692358;R;;nom;12441194194;Q136090755;;;281058;Repczyce
-TNOSM12454328296;gare;Piekoszów;Piekoszów;Piekoszów;;;50.875497;20.482277;PL;Europe/Warsaw;Q2439211;BUS|R;;nom;12454328296;Q136090756;;;280410;Piekoszów
+TNOSM12454328296;gare;Piekoszów;Piekoszów;Piekoszów;;;50.875497;20.482277;PL;Europe/Warsaw;Q2439211;R;;nom;12454328296;Q136090756;;;280410;Piekoszów
 TNOSM12457483992;gare;Podchojny;Podchojny;Podchojny;;;50.663915;20.320871;PL;Europe/Warsaw;Q7206674;K2|K22|R;;nom;12457483992;;;;280494;Podchojny
 TNOSM12469843187;gare;Radom Wschodni;Radom Wschodni;Radom Wschodni;;;51.399075;21.173716;PL;Europe/Warsaw;Q104740;R8|R80|R81|RE80|RE90;;nom;12469843187;;;;281226;Radom Wschodni
 TNOSM12480799248;gare;Wistka;Wistka;Wistka;;;51.145026;19.096714;PL;Europe/Warsaw;Q8027756;R|Ł;;nom;12480799248;Q2410985;;;63180;Wistka
@@ -745,14 +744,14 @@ TNOSM1304624490;gare;Stare Pole;Stare Pole;Stare Pole;;;54.05334;19.205686;PL;Eu
 TNOSM1306539549;gare;Worowo;Worowo;Worowo;;;53.688534;15.635487;PL;Europe/Warsaw;Q558632;R;;nom;1306539549;;;;3475;Worowo
 TNOSM1306539574;gare;Klępnica;Klępnica;Klępnica;;;53.717556;15.655002;PL;Europe/Warsaw;Q558632;R;;nom;1306539574;;;;3483;Klępnica
 TNOSM13112275275;gare;Trzeciewnica;Trzeciewnica;Trzeciewnica;;;53.153175;17.64121;PL;Europe/Warsaw;Q2264652;R;;nom;13112275275;;;;280447;Trzeciewnica
-TNOSM1313517188;gare;Justynów;Justynów;Justynów;;;51.730861;19.683521;PL;Europe/Warsaw;Q6318644;BUS|R|Ł|ŁP;;nom;1313517188;Q2602015;;;46524;Justynów
+TNOSM1313517188;gare;Justynów;Justynów;Justynów;;;51.730861;19.683521;PL;Europe/Warsaw;Q6318644;R|Ł|ŁP;;nom;1313517188;Q2602015;;;46524;Justynów
 TNOSM13143766944;gare;Kraków Kościelniki;Kraków Kościelniki;Kraków Kościelniki;;;50.087398;20.168929;PL;Europe/Warsaw;Q31487;K63|SKA3;;nom;13143766944;Q134455021;;;280605;Kraków Kościelniki
 TNOSM1315590518;gare;Rogów;Rogów;Rogów;;;51.818296;19.886522;PL;Europe/Warsaw;Q2010752;IR|Ł|ŁP|ŁS;;nom;1315590518;Q2724441;;;47316;Rogów
 TNOSM13157640884;gare;Radom Południowy;Radom Południowy;Radom Południowy;;;51.363491;21.136835;PL;Europe/Warsaw;Q104740;R|R8|R82|RE80|RE90|Ł;;nom;13157640884;;;;281370;Radom Południowy
 TNOSM1316021439;gare;Międzyzdroje;Międzyzdroje;Międzyzdroje;;;53.924126;14.454579;PL;Europe/Warsaw;Q148615;IC|R;;nom;1316021439;Q2750911;;;1024;Międzyzdroje
-TNOSM13165897774;gare;Nowy Sącz Chełmiec;Nowy Sącz Chełmiec;Nowy Sącz Chełmiec;;;49.630659;20.677066;PL;Europe/Warsaw;Q802;K45|K46;;nom;13165897774;;;;81943;Nowy Sącz Chełmiec
+TNOSM13165897774;gare;Nowy Sącz Chełmiec;Nowy Sącz Chełmiec;Nowy Sącz Chełmiec;;;49.630659;20.677066;PL;Europe/Warsaw;Q802;K45|K46|K46 BUS;;nom;13165897774;;;;81943;Nowy Sącz Chełmiec
 TNOSM1319296967;gare;Podłęże;Podłęże;Podłęże;;;50.018118;20.16906;PL;Europe/Warsaw;Q7207251;K3|K32|K3P|K63|K7|K71P|K7P|SKA3|SKA3P;;nom;1319296967;Q2495850;;;79525;Podłęże
-TNOSM13233523243;gare;Nowy Sącz Miasto;Nowy Sącz Miasto;Nowy Sącz Miasto;;;49.620143;20.691109;PL;Europe/Warsaw;Q802;K45|K46;;nom;13233523243;;;;81935;Nowy Sącz Miasto
+TNOSM13233523243;gare;Nowy Sącz Miasto;Nowy Sącz Miasto;Nowy Sącz Miasto;;;49.620143;20.691109;PL;Europe/Warsaw;Q802;K45|K46|K46 BUS;;nom;13233523243;;;;81935;Nowy Sącz Miasto
 TNOSM13249440584;gare;Grabik;Grabik;Grabik;;;51.653642;15.116329;PL;Europe/Warsaw;Q652274;R;;nom;13249440584;;;;280600;Grabik
 TNOSM13261841200;gare;Bielawa Centralna;Bielawa Centralna;Bielawa Centralna;;;50.692777;16.62078;PL;Europe/Warsaw;Q857331;Os|OsP;;nom;13261841200;Q86678102;;;178290;Bielawa Centralna
 TNOSM13274398906;gare;Owińska;Owińska;Owińska;;;52.511431;16.987544;PL;Europe/Warsaw;Q51012;Os|OsP;;nom;13274398906;Q1891704;;;29850;Owińska
@@ -901,7 +900,7 @@ TNOSM1642587818;gare;Okonek;Okonek;Okonek;;;53.520143;16.830589;PL;Europe/Warsaw
 TNOSM1643004251;gare;Żychlin;Żychlin;Żychlin;;;52.213101;19.618868;PL;Europe/Warsaw;Q610732;IC|Ł;;nom;1643004251;Q2425308;;;32433;Żychlin
 TNOSM1643044602;gare;Boksycka;Boksycka;Boksycka;;;50.950234;21.322066;PL;Europe/Warsaw;Q5103303;BUS|K2|R;;nom;1643044602;Q1861987;;;49262;Boksycka
 TNOSM1648519064;gare;Mikołów;Mikołów;Mikołów;;;50.172859;18.899295;PL;Europe/Warsaw;Q659905;Os|OsP;;nom;1648519064;;;;69062;Mikołów
-TNOSM1651732417;gare;Bedoń;Bedoń;Bedoń;;;51.731996;19.642349;PL;Europe/Warsaw;Q503371;BUS|R|Ł|ŁP|ŁS;;nom;1651732417;Q2184380;;;46466;Bedoń
+TNOSM1651732417;gare;Bedoń;Bedoń;Bedoń;;;51.731996;19.642349;PL;Europe/Warsaw;Q503371;R|Ł|ŁP|ŁS;;nom;1651732417;Q2184380;;;46466;Bedoń
 TNOSM1661085569;gare;Biała Szlachecka;Biała Szlachecka;Biała Szlachecka;;;51.175239;19.024957;PL;Europe/Warsaw;Q867891;R|Ł;;nom;1661085569;Q2932941;;;280951;Biała Szlachecka
 TNOSM1661872853;gare;Krzeszowice;Krzeszowice;Krzeszowice;;;50.130831;19.635089;PL;Europe/Warsaw;Q146509;EC|EN|IC|K3|K32|K33|K33P|K3P|K7P|Os|OsP|SKA3|TLK;;nom;1661872853;Q11748984;;XPKC;77701;Krzeszowice
 TNOSM1666653455;gare;Biadoliny;Biadoliny;Biadoliny;;;50.003767;20.73456;PL;Europe/Warsaw;Q4902414;K3|K32|K7|SKA3;;nom;1666653455;Q3383321;;;79848;Biadoliny
@@ -929,7 +928,7 @@ TNOSM1729229742;gare;Jaśkowice Legnickie;Jaśkowice Legnickie;Jaśkowice Legnic
 TNOSM1729229743;gare;Szczedrzykowice;Szczedrzykowice;Szczedrzykowice;;;51.215148;16.350693;PL;Europe/Warsaw;Q7664264;Os;;nom;1729229743;Q2748130;;XPSZK;53124;Szczedrzykowice
 TNOSM1733534762;gare;Środa Śląska;Środa Śląska;Środa Śląska;;;51.18943;16.606537;PL;Europe/Warsaw;Q387307;Os|OsP;;nom;1733534762;Q2066753;;XPSRS;59048;Środa Śląska
 TNOSM1739525948;gare;Waplewo;Waplewo;Waplewo;;;53.511283;20.355646;PL;Europe/Warsaw;Q6782200;R;;nom;1739525948;Q9370945;;;9464;Waplewo
-TNOSM1741884384;gare;Żukowo Zachodnie;Żukowo Zachodnie;Żukowo Zachodnie;;;54.332487;18.347747;PL;Europe/Warsaw;Q161893;BUS|R;;nom;1741884384;Q2624641;;;18051;Żukowo Zachodnie
+TNOSM1741884384;gare;Żukowo Zachodnie;Żukowo Zachodnie;Żukowo Zachodnie;;;54.332487;18.347747;PL;Europe/Warsaw;Q161893;R;;nom;1741884384;Q2624641;;;18051;Żukowo Zachodnie
 TNOSM1741884389;gare;Stara Piła;Stara Piła;Stara Piła;;;54.326479;18.41305;PL;Europe/Warsaw;Q4978464;R;;nom;1741884389;Q2361241;;;7427;Stara Piła
 TNOSM1743357623;gare;Dziemiany Kaszubskie;Dziemiany Kaszubskie;Dziemiany Kaszubskie;;;54.009964;17.773936;PL;Europe/Warsaw;Q2176891;R;;nom;1743357623;Q5319793;;;17632;Dziemiany Kaszubskie
 TNOSM1744502774;gare;Morąg;Morąg;Morąg;;;53.919019;19.922851;PL;Europe/Warsaw;Q139725;IC|R;;nom;1744502774;Q2629467;;XPMO;10900;Morąg
@@ -1038,10 +1037,10 @@ TNOSM1874629586;gare;Zwierzyn;Zwierzyn;Zwierzyn;;;52.836497;15.583775;PL;Europe/
 TNOSM1876249175;gare;Sławięcice;Sławięcice;Sławięcice;;;50.351378;18.313818;PL;Europe/Warsaw;Q605483;R;;nom;1876249175;Q9353051;;;67801;Sławięcice
 TNOSM1880603781;gare;Krzepice;Krzepice;Krzepice;;;50.969134;18.697116;PL;Europe/Warsaw;Q1005511;R|TLK;;nom;1880603781;Q1982469;;;71860;Krzepice
 TNOSM1881771835;gare;Olesno Śląskie;Olesno Śląskie;Olesno Śląskie;;;50.882072;18.424834;PL;Europe/Warsaw;Q717404;IC|R|TLK;;nom;1881771835;Q5025590;;;71555;Olesno Śląskie
-TNOSM1883105343;gare;Warszawa Wola Grzybowska;Warszawa Wola Grzybowska;Warszawa Wola Grzybowska;;;52.252823;21.250856;PL;Europe/Warsaw;Q270;R1|R2|R3;;nom;1883105343;Q1851369;;;38687;Warszawa Wola Grzybowska
+TNOSM1883105343;gare;Warszawa Wola Grzybowska;Warszawa Wola Grzybowska;Warszawa Wola Grzybowska;;;52.252823;21.250856;PL;Europe/Warsaw;Q270;R1|R2|R3|RE2|Z2;;nom;1883105343;Q1851369;;;38687;Warszawa Wola Grzybowska
 TNOSM1883540167;gare;Gdańsk Lipce;Gdańsk Lipce;Gdańsk Lipce;;;54.301469;18.63591;PL;Europe/Warsaw;Q1792;R;;nom;1883540167;Q2533354;;;7245;Gdańsk Lipce
 TNOSM1883540331;gare;Gdańsk Orunia;Gdańsk Orunia;Gdańsk Orunia;;;54.324252;18.634476;PL;Europe/Warsaw;Q1792;R;;nom;1883540331;Q2375480;;;7252;Gdańsk Orunia
-TNOSM1883748444;gare;Łódź Andrzejów;Łódź Andrzejów;Łódź Andrzejów;;;51.741035;19.617151;PL;Europe/Warsaw;Q580;BUS|IR|R|Ł|ŁP;;nom;1883748444;Q2180440;;;46490;Łódź Andrzejów
+TNOSM1883748444;gare;Łódź Andrzejów;Łódź Andrzejów;Łódź Andrzejów;;;51.741035;19.617151;PL;Europe/Warsaw;Q580;IR|R|Ł|ŁP;;nom;1883748444;Q2180440;;;46490;Łódź Andrzejów
 TNOSM1883818044;gare;Długopole-Zdrój;Długopole-Zdrój;Długopole-Zdrój;;;50.23847;16.637857;PL;Europe/Warsaw;Q493593;Os|OsP;;nom;1883818044;Q2068957;;;57422;Długopole Zdrój
 TNOSM1891089442;gare;Taciszów;Taciszów;Taciszów;;;50.357987;18.507848;PL;Europe/Warsaw;Q6420693;R;;nom;1891089442;;;;70169;Taciszów
 TNOSM1891355388;gare;Przybówka;Przybówka;Przybówka;;;49.798789;21.647449;PL;Europe/Warsaw;Q7253589;BUS;;nom;1891355388;;;;82867;Przybówka
@@ -1493,24 +1492,24 @@ TNOSM2181026435;gare;Sosnowe;Sosnowe;Sosnowe;;;52.175878;21.94056;PL;Europe/Wars
 TNOSM2181026578;gare;Koszewnica;Koszewnica;Koszewnica;;;52.169102;21.986882;PL;Europe/Warsaw;Q1939807;R2|R3|RE2;;nom;2181026578;Q2089265;;;39834;Koszewnica
 TNOSM2181026993;gare;Kotuń;Kotuń;Kotuń;;;52.176275;22.067833;PL;Europe/Warsaw;Q1939807;R2|R3|RE1|RE2|RE21|RE8;;nom;2181026993;Q2609407;;;264895;Kotuń
 TNOSM2181028139;gare;Siedlce Zachodnie;Siedlce Zachodnie;Siedlce Zachodnie;;;52.173518;22.235514;PL;Europe/Warsaw;Q319813;R2|R3|RE1|RE2|RE21|RE8;;nom;2181028139;Q3292860;;;233222;Siedlce Zachodnie
-TNOSM2181033302;gare;Krzymosze;Krzymosze;Krzymosze;;;52.177977;22.439176;PL;Europe/Warsaw;Q6538336;BUS|R|R21|RE2|RE21;;nom;2181033302;Q2213688;;;39453;Krzymosze
-TNOSM2181034298;gare;Mordy;Mordy;Mordy;;;52.195902;22.496908;PL;Europe/Warsaw;Q1906245;BUS|R|R21|RE2|RE21;;nom;2181034298;Q2681896;;;39693;Mordy
-TNOSM2181034299;gare;Mordy Miasto;Mordy Miasto;Mordy Miasto;;;52.203249;22.520999;PL;Europe/Warsaw;Q1906245;BUS|R|R21|RE2|RE21;;nom;2181034299;Q2498772;;;39719;Mordy Miasto
-TNOSM2181035993;gare;Patków;Patków;Patków;;;52.270897;22.74549;PL;Europe/Warsaw;Q2327638;BUS|R|R21|RE2|RE21;;nom;2181035993;Q1905289;;;39750;Patków
-TNOSM2181036368;gare;Siemiatycze;Siemiatycze;Siemiatycze;;;52.390759;22.944705;PL;Europe/Warsaw;Q5739577;BUS|IC|R|R21|RE2|RE21|TLK;;nom;2181036368;Q2799545;;;25387;Siemiatycze
-TNOSM2181036578;gare;Nurzec;Nurzec;Nurzec;;;52.460063;23.082982;PL;Europe/Warsaw;Q2976156;BUS|IC|R|R21|RE2|RE21|TLK;;nom;2181036578;Q2586794;;;25353;Nurzec
-TNOSM2181036787;gare;Nowy Nurzec;Nowy Nurzec;Nowy Nurzec;;;52.472587;23.176875;PL;Europe/Warsaw;Q5739342;BUS|R|R21|RE2|RE21;;nom;2181036787;Q2211901;;;25346;Nowy Nurzec
-TNOSM2181037098;gare;Borowiki;Borowiki;Borowiki;;;52.483531;23.222846;PL;Europe/Warsaw;Q936539;BUS|R|R21|RE2|RE21;;nom;2181037098;Q2691909;;;25320;Borowiki
-TNOSM2181039486;gare;Orzeszkowo;Orzeszkowo;Orzeszkowo;;;52.682323;23.534185;PL;Europe/Warsaw;Q5739395;BUS|R;;nom;2181039486;Q3013395;;;25437;Orzeszkowo
+TNOSM2181033302;gare;Krzymosze;Krzymosze;Krzymosze;;;52.177977;22.439176;PL;Europe/Warsaw;Q6538336;R|R21|RE2|RE21;;nom;2181033302;Q2213688;;;39453;Krzymosze
+TNOSM2181034298;gare;Mordy;Mordy;Mordy;;;52.195902;22.496908;PL;Europe/Warsaw;Q1906245;R|R21|RE2|RE21;;nom;2181034298;Q2681896;;;39693;Mordy
+TNOSM2181034299;gare;Mordy Miasto;Mordy Miasto;Mordy Miasto;;;52.203249;22.520999;PL;Europe/Warsaw;Q1906245;R|R21|RE2|RE21;;nom;2181034299;Q2498772;;;39719;Mordy Miasto
+TNOSM2181035993;gare;Patków;Patków;Patków;;;52.270897;22.74549;PL;Europe/Warsaw;Q2327638;R|R21|RE2|RE21;;nom;2181035993;Q1905289;;;39750;Patków
+TNOSM2181036368;gare;Siemiatycze;Siemiatycze;Siemiatycze;;;52.390759;22.944705;PL;Europe/Warsaw;Q5739577;IC|R|R21|RE2|RE21|TLK;;nom;2181036368;Q2799545;;;25387;Siemiatycze
+TNOSM2181036578;gare;Nurzec;Nurzec;Nurzec;;;52.460063;23.082982;PL;Europe/Warsaw;Q2976156;IC|R|R21|RE2|RE21|TLK;;nom;2181036578;Q2586794;;;25353;Nurzec
+TNOSM2181036787;gare;Nowy Nurzec;Nowy Nurzec;Nowy Nurzec;;;52.472587;23.176875;PL;Europe/Warsaw;Q5739342;R|R21|RE2|RE21;;nom;2181036787;Q2211901;;;25346;Nowy Nurzec
+TNOSM2181037098;gare;Borowiki;Borowiki;Borowiki;;;52.483531;23.222846;PL;Europe/Warsaw;Q936539;R|R21|RE2|RE21;;nom;2181037098;Q2691909;;;25320;Borowiki
+TNOSM2181039486;gare;Orzeszkowo;Orzeszkowo;Orzeszkowo;;;52.682323;23.534185;PL;Europe/Warsaw;Q5739395;R;;nom;2181039486;Q3013395;;;25437;Orzeszkowo
 TNOSM2181042366;gare;Suchowolce;Suchowolce;Suchowolce;;;52.617365;23.283647;PL;Europe/Warsaw;Q3692661;R;;nom;2181042366;Q5038207;;;25312;Suchowolce
 TNOSM2181042628;gare;Gregorowce;Gregorowce;Gregorowce;;;52.662492;23.241607;PL;Europe/Warsaw;Q9276193;R;;nom;2181042628;Q2017538;;;24513;Gregorowce
 TNOSM2181044588;gare;Podbiele;Podbiele;Podbiele;;;52.691795;23.210469;PL;Europe/Warsaw;Q5743972;R;;nom;2181044588;Q2017556;;;24521;Podbiele
-TNOSM2181046794;gare;Strabla;Strabla;Strabla;;;52.901717;23.113292;PL;Europe/Warsaw;Q5745394;BUS|R;;nom;2181046794;Q2526856;;;24414;Strabla
-TNOSM2181048070;gare;Zimnochy;Zimnochy;Zimnochy;;;52.954823;23.08537;PL;Europe/Warsaw;Q4858387;BUS|R;;nom;2181048070;Q2017529;;;24398;Zimnochy
-TNOSM2181048071;gare;Hołówki Duże;Hołówki Duże;Hołówki Duże;;;52.971444;23.095299;PL;Europe/Warsaw;Q5739276;BUS|R;;nom;2181048071;Q2017546;;;24380;Hołówki Duże
-TNOSM2181049410;gare;Lewickie;Lewickie;Lewickie;;;53.027882;23.124817;PL;Europe/Warsaw;Q615425;BUS|R;;nom;2181049410;Q675799;;;24364;Lewickie
-TNOSM2181050811;gare;Białystok Stadion;Białystok Stadion;Białystok Stadion;;;53.097804;23.129542;PL;Europe/Warsaw;Q761;BUS|R;;nom;2181050811;Q2547901;;;24372;Białystok Stadion
-TNOSM2181074450;gare;Warszawa Wesoła;Warszawa Wesoła;Warszawa Wesoła;;;52.254088;21.224085;PL;Europe/Warsaw;Q270;R1|R2|R3;;nom;2181074450;Q2011809;;;38679;Warszawa Wesoła
+TNOSM2181046794;gare;Strabla;Strabla;Strabla;;;52.901717;23.113292;PL;Europe/Warsaw;Q5745394;R;;nom;2181046794;Q2526856;;;24414;Strabla
+TNOSM2181048070;gare;Zimnochy;Zimnochy;Zimnochy;;;52.954823;23.08537;PL;Europe/Warsaw;Q4858387;R;;nom;2181048070;Q2017529;;;24398;Zimnochy
+TNOSM2181048071;gare;Hołówki Duże;Hołówki Duże;Hołówki Duże;;;52.971444;23.095299;PL;Europe/Warsaw;Q5739276;R;;nom;2181048071;Q2017546;;;24380;Hołówki Duże
+TNOSM2181049410;gare;Lewickie;Lewickie;Lewickie;;;53.027882;23.124817;PL;Europe/Warsaw;Q615425;R;;nom;2181049410;Q675799;;;24364;Lewickie
+TNOSM2181050811;gare;Białystok Stadion;Białystok Stadion;Białystok Stadion;;;53.097804;23.129542;PL;Europe/Warsaw;Q761;R;;nom;2181050811;Q2547901;;;24372;Białystok Stadion
+TNOSM2181074450;gare;Warszawa Wesoła;Warszawa Wesoła;Warszawa Wesoła;;;52.254088;21.224085;PL;Europe/Warsaw;Q270;R1|R2|R3|RE2|Z2;;nom;2181074450;Q2011809;;;38679;Warszawa Wesoła
 TNOSM2181332758;gare;Katowice Ligota;Katowice Ligota;Katowice Ligota;;;50.225953;18.978518;PL;Europe/Warsaw;Q588;Os|OsP;;nom;2181332758;Q2229374;;;72900;Katowice Ligota
 TNOSM2181690770;gare;Kołbiel;Kołbiel;Kołbiel;;;52.04025;21.434355;PL;Europe/Warsaw;Q3814896;R1|R3|R7|RE1|RE7;;nom;2181690770;Q2033096;;;38950;Kołbiel
 TNOSM2181705090;gare;Otwock Śródborów;Otwock Śródborów;Otwock Śródborów;;;52.101222;21.294376;PL;Europe/Warsaw;Q745059;R1|R3|R7|RE1|RE7;;nom;2181705090;Q2003260;;;38919;Otwock Śródborów
@@ -1699,7 +1698,7 @@ TNOSM2455879256;gare;Sowin;Sowin;Sowin;;;50.555507;17.609079;PL;Europe/Warsaw;Q7
 TNOSM2455982001;gare;Komprachcice;Komprachcice;Komprachcice;;;50.631458;17.820702;PL;Europe/Warsaw;Q1025156;R;;nom;2455982001;Q2314212;;;60723;Komprachcice
 TNOSM2462354653;gare;Kielce Piaski;Kielce Piaski;Kielce Piaski;;;50.889789;20.625327;PL;Europe/Warsaw;Q102317;BUS|K2|R|Ł;;nom;2462354653;Q509863;;;63529;Kielce Piaski
 TNOSM2466422457;gare;Ustroń;Ustroń;Ustroń;;;49.727982;18.801896;PL;Europe/Warsaw;Q1001297;Os|OsP|R|RP;;nom;2466422457;Q2490940;;;76950;Ustroń
-TNOSM246688087;gare;Hajnówka;Hajnówka;Hajnówka;;;52.73355;23.583071;PL;Europe/Warsaw;Q276859;BUS|IC|R|TLK;;nom;246688087;Q2066345;;;25403;Hajnówka
+TNOSM246688087;gare;Hajnówka;Hajnówka;Hajnówka;;;52.73355;23.583071;PL;Europe/Warsaw;Q276859;IC|R|TLK;;nom;246688087;Q2066345;;;25403;Hajnówka
 TNOSM2473137378;gare;Pszczyna;Pszczyna;Pszczyna;;;49.97498;18.953469;PL;Europe/Warsaw;Q948304;EC|EIC|EIP|IC|Os|OsP;;nom;2473137378;Q655923;;;75903;Pszczyna
 TNOSM2477301207;gare;Wandzin;Wandzin;Wandzin;;;51.398481;22.629897;PL;Europe/Warsaw;Q7967324;R;;nom;2477301207;Q9370875;;;50617;Wandzin
 TNOSM2477849748;gare;Gierałtów Wykroty;Gierałtów Wykroty;Gierałtów Wykroty;;;51.216813;15.284574;PL;Europe/Warsaw;Q843191;Os|OsP;;nom;2477849748;Q9267946;;;51920;Gierałtów Wykroty
@@ -1711,8 +1710,8 @@ TNOSM248216848;gare;Suszka;Suszka;Suszka;;;50.530844;16.824373;PL;Europe/Warsaw;
 TNOSM248216912;gare;Kłodzko Książek;Kłodzko Książek;Kłodzko Książek;;;50.4157;16.640919;PL;Europe/Warsaw;Q284604;Os|OsP;;nom;248216912;Q11752137;;;57455;Kłodzko Książek
 TNOSM248216924;gare;Stary Wielisław;Stary Wielisław;Stary Wielisław;;;50.405183;16.57627;PL;Europe/Warsaw;Q2333410;Os|OsP;;nom;248216924;Q9344372;;;57489;Stary Wielisław
 TNOSM2484526342;gare;Lubajny;Lubajny;Lubajny;;;53.70003;20.026839;PL;Europe/Warsaw;Q3264614;R;;nom;2484526342;Q2087435;;;22087;Lubajny
-TNOSM2489765976;gare;Wykno;Wykno;Wykno;;;51.660645;19.904637;PL;Europe/Warsaw;Q2458379;BUS|R|Ł;;nom;2489765976;Q2605838;;;47548;Wykno
-TNOSM2489774978;gare;Zaosie;Zaosie;Zaosie;;;51.633545;19.933571;PL;Europe/Warsaw;Q2458379;BUS|R|Ł;;nom;2489774978;Q2772199;;;47555;Zaosie
+TNOSM2489765976;gare;Wykno;Wykno;Wykno;;;51.660645;19.904637;PL;Europe/Warsaw;Q2458379;R|Ł;;nom;2489765976;Q2605838;;;47548;Wykno
+TNOSM2489774978;gare;Zaosie;Zaosie;Zaosie;;;51.633545;19.933571;PL;Europe/Warsaw;Q2458379;R|Ł;;nom;2489774978;Q2772199;;;47555;Zaosie
 TNOSM2490272832;gare;Widzino;Widzino;Widzino;;;54.428735;16.962618;PL;Europe/Warsaw;Q684623;R;;nom;2490272832;Q1931565;;;4721;Widzino
 TNOSM2495642454;gare;Milejów;Milejów;Milejów;;;51.35533;19.675712;PL;Europe/Warsaw;Q2459551;R|Ł;;nom;2495642454;Q1834035;;;47738;Milejów
 TNOSM2495645644;gare;Częstochowa Raków;Częstochowa Raków;Częstochowa Raków;;;50.787629;19.155433;PL;Europe/Warsaw;Q103217;Os|OsP|R;;nom;2495645644;Q2091735;;;62687;Częstochowa Raków
@@ -1720,7 +1719,7 @@ TNOSM2498471444;gare;Józefów;Józefów;Józefów;;;52.138674;21.234003;PL;Euro
 TNOSM2498471445;gare;Michalin;Michalin;Michalin;;;52.15123;21.221521;PL;Europe/Warsaw;Q985534;R1|R3|R7|Z7;;nom;2498471445;Q2156604;;;38844;Michalin
 TNOSM2498471446;gare;Otwock;Otwock;Otwock;;;52.109558;21.263095;PL;Europe/Warsaw;Q745059;R1|R3|R7|RE1|RE7|Z7;;nom;2498471446;Q612691;;;38885;Otwock
 TNOSM2498471617;gare;Otwock Świder;Otwock Świder;Otwock Świder;;;52.121004;21.251616;PL;Europe/Warsaw;Q745059;R1|R3|R7|Z7;;nom;2498471617;Q2530834;;;38869;Otwock Świder
-TNOSM2498976526;gare;Bielsk Podlaski;Bielsk Podlaski;Bielsk Podlaski;;;52.761376;23.188147;PL;Europe/Warsaw;Q850714;BUS|IC|R|TLK;;nom;2498976526;Q2106173;;;24430;Bielsk Podlaski
+TNOSM2498976526;gare;Bielsk Podlaski;Bielsk Podlaski;Bielsk Podlaski;;;52.761376;23.188147;PL;Europe/Warsaw;Q850714;IC|R|TLK;;nom;2498976526;Q2106173;;;24430;Bielsk Podlaski
 TNOSM2499395831;gare;Czachówek Górny;Czachówek Górny;Czachówek Górny;;;51.967711;21.077726;PL;Europe/Warsaw;Q3546536;R80|RE80;;nom;2499395831;Q2415209;;;40436;Czachówek Górny
 TNOSM2499395835;gare;Czachówek Południowy;Czachówek Południowy;Czachówek Południowy;;;51.958232;21.081573;PL;Europe/Warsaw;Q2038080;R80|RE80|RE90;;nom;2499395835;Q2047929;;;40444;Czachówek Południowy
 TNOSM2499395839;gare;Ustanówek;Ustanówek;Ustanówek;;;51.996781;21.060071;PL;Europe/Warsaw;Q2056720;R80|RE80|RE90;;nom;2499395839;Q2610175;;;33936;Ustanówek
@@ -1760,9 +1759,9 @@ TNOSM2517955024;gare;Glinnik Wieś;Glinnik Wieś;Glinnik Wieś;;;51.882542;19.48
 TNOSM2517955025;gare;Glinnik;Glinnik;Glinnik;;;51.886938;19.497199;PL;Europe/Warsaw;Q5201509;Ł;;nom;2517955025;;;;46938;Glinnik
 TNOSM252979508;gare;Montowo;Montowo;Montowo;;;53.415861;19.78047;PL;Europe/Warsaw;Q984107;R;;nom;252979508;Q2368992;;;21881;Montowo
 TNOSM253105832;gare;Ząbki;Ząbki;Ząbki;;;52.292474;21.113404;PL;Europe/Warsaw;Q248999;R60|R61;;nom;253105832;Q9393269;;;37457;Ząbki
-TNOSM253114188;gare;Stok Lacki;Stok Lacki;Stok Lacki;;;52.161589;22.386512;PL;Europe/Warsaw;Q2194215;BUS|R|R21|RE2|RE21;;nom;253114188;Q2210582;;;39438;Stok Lacki
-TNOSM253114192;gare;Cierpigórz;Cierpigórz;Cierpigórz;;;52.22606;22.594779;PL;Europe/Warsaw;Q2287424;BUS|R|R21|RE2|RE21;;nom;253114192;Q630194;;;39727;Cierpigórz
-TNOSM253114236;gare;Sycze;Sycze;Sycze;;;52.429217;22.998434;PL;Europe/Warsaw;Q5739309;BUS|R|R21|RE2|RE21;;nom;253114236;Q1822784;;;25361;Sycze
+TNOSM253114188;gare;Stok Lacki;Stok Lacki;Stok Lacki;;;52.161589;22.386512;PL;Europe/Warsaw;Q2194215;R|R21|RE2|RE21;;nom;253114188;Q2210582;;;39438;Stok Lacki
+TNOSM253114192;gare;Cierpigórz;Cierpigórz;Cierpigórz;;;52.22606;22.594779;PL;Europe/Warsaw;Q2287424;R|R21|RE2|RE21;;nom;253114192;Q630194;;;39727;Cierpigórz
+TNOSM253114236;gare;Sycze;Sycze;Sycze;;;52.429217;22.998434;PL;Europe/Warsaw;Q5739309;R|R21|RE2|RE21;;nom;253114236;Q1822784;;;25361;Sycze
 TNOSM253115858;gare;Szebnie;Szebnie;Szebnie;;;49.756109;21.615585;PL;Europe/Warsaw;Q3091644;BUS;;nom;253115858;;;;82883;Szebnie
 TNOSM253115912;gare;Dobrzechów;Dobrzechów;Dobrzechów;;;49.872858;21.743659;PL;Europe/Warsaw;Q5286910;BUS;;nom;253115912;;;;82826;Dobrzechów
 TNOSM253116097;gare;Babica;Babica;Babica;;;49.934434;21.899554;PL;Europe/Warsaw;Q4837848;BUS|R;;nom;253116097;Q4995681;;;82750;Babica
@@ -1793,7 +1792,7 @@ TNOSM255735947;gare;Wieliczka Bogucice;Wieliczka Bogucice;Wieliczka Bogucice;;;4
 TNOSM2562003930;gare;Wołów;Wołów;Wołów;;;51.333927;16.632884;PL;Europe/Warsaw;Q983726;IC|Os|OsP;;nom;2562003930;Q2429018;;;60335;Wołów
 TNOSM256690327;gare;Toszek;Toszek;Toszek;;;50.441738;18.513176;PL;Europe/Warsaw;Q1000938;R;;nom;256690327;Q1945060;;;70250;Toszek
 TNOSM256693983;gare;Błotnica Strzelecka;Błotnica Strzelecka;Błotnica Strzelecka;;;50.483816;18.404101;PL;Europe/Warsaw;Q1532948;R;;nom;256693983;Q2477509;;;61739;Błotnica Strzelecka
-TNOSM2586034874;gare;Gałkówek;Gałkówek;Gałkówek;;;51.729822;19.731818;PL;Europe/Warsaw;Q5529271;BUS|R|Ł|ŁP;;nom;2586034874;Q1824218;;;46516;Gałkówek
+TNOSM2586034874;gare;Gałkówek;Gałkówek;Gałkówek;;;51.729822;19.731818;PL;Europe/Warsaw;Q5529271;R|Ł|ŁP;;nom;2586034874;Q1824218;;;46516;Gałkówek
 TNOSM2592224758;gare;Spała;Spała;Spała;;;51.552056;20.135252;PL;Europe/Warsaw;Q2146739;Ł;;nom;2592224758;Q3918927;;;178685;Spała
 TNOSM2606904047;gare;Łódź Radogoszcz Zachód;Łódź Radogoszcz Zachód;Łódź Radogoszcz Zachód;;;51.821971;19.415752;PL;Europe/Warsaw;Q580;R|Ł|ŁP|ŁS;;nom;2606904047;Q16621472;;;251556;Łódź Radogoszcz Zachód
 TNOSM2617652516;gare;Budy Głogowskie;Budy Głogowskie;Budy Głogowskie;;;50.16821;21.91817;PL;Europe/Warsaw;Q4985251;R;;nom;2617652516;Q778900;;;82958;Budy Głogowskie
@@ -1808,7 +1807,7 @@ TNOSM263886434;gare;Swarożyn;Swarożyn;Swarożyn;;;54.038045;18.656177;PL;Europ
 TNOSM263903628;gare;Laski Tucholskie;Laski Tucholskie;Laski Tucholskie;;;53.666273;18.208046;PL;Europe/Warsaw;Q2458679;Os;;nom;263903628;Q11753029;;;17368;Laski Tucholskie
 TNOSM263907051;gare;Łysomice;Łysomice;Łysomice;;;53.084626;18.619913;PL;Europe/Warsaw;Q2086362;Os;;nom;263907051;Q9394963;;;20396;Łysomice
 TNOSM263908319;gare;Toruń Kluczyki;Toruń Kluczyki;Toruń Kluczyki;;;52.990006;18.578338;PL;Europe/Warsaw;Q47554;R;;nom;263908319;Q2225019;;;19786;Toruń Kluczyki
-TNOSM2639477159;gare;Żakowice Południowe;Żakowice Południowe;Żakowice Południowe;;;51.730134;19.786273;PL;Europe/Warsaw;Q7386650;BUS|R|Ł;;nom;2639477159;Q2212748;;;47282;Żakowice Południowe
+TNOSM2639477159;gare;Żakowice Południowe;Żakowice Południowe;Żakowice Południowe;;;51.730134;19.786273;PL;Europe/Warsaw;Q7386650;R|Ł;;nom;2639477159;Q2212748;;;47282;Żakowice Południowe
 TNOSM2642022984;gare;Cmolas;Cmolas;Cmolas;;;50.293884;21.752024;PL;Europe/Warsaw;Q5137322;R;;nom;2642022984;Q9195126;;;82990;Cmolas
 TNOSM2642022985;gare;Zarębki;Zarębki;Zarębki;;;50.272441;21.762042;PL;Europe/Warsaw;Q8067007;R;;nom;2642022985;Q9387167;;;82982;Zarębki
 TNOSM2646230537;gare;Przeciszów;Przeciszów;Przeciszów;;;50.01345;19.368891;PL;Europe/Warsaw;Q2162627;SKA2;;nom;2646230537;Q2860591;;;78121;Przeciszów
@@ -1984,7 +1983,7 @@ TNOSM311307354;gare;Pępowo Kartuskie;Pępowo Kartuskie;Pępowo Kartuskie;;;54.3
 TNOSM311307361;gare;Żukowo Wschodnie;Żukowo Wschodnie;Żukowo Wschodnie;;;54.350684;18.377052;PL;Europe/Warsaw;Q161893;BUS;;nom;311307361;Q1903725;;;17855;Żukowo Wschodnie
 TNOSM311307375;gare;Borkowo;Borkowo;Borkowo;;;54.333472;18.333437;PL;Europe/Warsaw;Q4945698;BUS;;nom;311307375;Q2129816;;;17848;Borkowo
 TNOSM311636846;gare;Poznań Dębina;Poznań Dębina;Poznań Dębina;;;52.373462;16.910614;PL;Europe/Warsaw;Q268;IR|Os|OsP|R|ŁP;;nom;311636846;Q53409;;;28555;Poznań Dębina
-TNOSM3138262522;gare;Opoczno Południe;Opoczno Południe;Opoczno Południe;;;51.359183;20.232438;PL;Europe/Warsaw;Q9396378;BUS|EC|EN|Ex|IC|R|TLK;;nom;3138262522;Q1905381;;;48959;Opoczno Południe
+TNOSM3138262522;gare;Opoczno Południe;Opoczno Południe;Opoczno Południe;;;51.359183;20.232438;PL;Europe/Warsaw;Q9396378;EC|EN|Ex|IC|R|TLK;;nom;3138262522;Q1905381;;;48959;Opoczno Południe
 TNOSM3146673979;gare;Turbia;Turbia;Turbia;;;50.617799;21.972637;PL;Europe/Warsaw;Q7853753;R;;nom;3146673979;Q2116453;;;65227;Turbia
 TNOSM31522434;gare;Wilkasy Niegocin;Wilkasy Niegocin;Wilkasy Niegocin;;;54.019573;21.737998;PL;Europe/Warsaw;Q555040;R;;nom;31522434;Q2675881;;;12658;Wilkasy Niegocin
 TNOSM31522924;gare;Lipińskie Małe;Lipińskie Małe;Lipińskie Małe;;;53.736343;22.397596;PL;Europe/Warsaw;Q554267;R;;nom;31522924;Q1854804;;;12245;Lipińskie Małe
@@ -2051,7 +2050,7 @@ TNOSM3250134366;gare;Zbąszyń;Zbąszyń;Zbąszyń;;;52.259412;15.894765;PL;Euro
 TNOSM3254277966;gare;Szczaniec;Szczaniec;Szczaniec;;;52.264376;15.693949;PL;Europe/Warsaw;Q2291623;R;;nom;3254277966;;;;28134;Szczaniec
 TNOSM3256953375;gare;Toporów;Toporów;Toporów;;;52.260127;15.260561;PL;Europe/Warsaw;Q7825089;R;;nom;3256953375;Q2648278;;;28183;Toporów
 TNOSM3257422863;gare;Torzym;Torzym;Torzym;;;52.312436;15.059508;PL;Europe/Warsaw;Q995903;R;;nom;3257422863;Q2021723;;;25981;Torzym
-TNOSM3266122070;gare;Zielonka;Zielonka;Zielonka;;;52.311815;21.157664;PL;Europe/Warsaw;Q199017;R1|R3|R6|R60|R61|RE3|RE6|RE61;;nom;3266122070;Q2269773;;;36228;Zielonka
+TNOSM3266122070;gare;Zielonka;Zielonka;Zielonka;;;52.311815;21.157664;PL;Europe/Warsaw;Q199017;R1|R2|R3|R6|R60|R61|R7|RE3|RE6|RE61;;nom;3266122070;Q2269773;;;36228;Zielonka
 TNOSM3268545289;gare;Suchdol nad Odrou;Suchdol nad Odrou;Suchdol nad Odrou;;;49.642506;17.938869;CZ;Europe/Prague;Q1553447;Ex;;nom;3268545289;;;;127507;Suchdol nad Odrou
 TNOSM3269635970;gare;Wołomin Słoneczna;Wołomin Słoneczna;Wołomin Słoneczna;;;52.354329;21.255722;PL;Europe/Warsaw;Q930149;R1|R3|R6|R60|R61;;nom;3269635970;Q643882;;;36350;Wołomin Słoneczna
 TNOSM327043306;gare;Chocznia Górna;Chocznia Górna;Chocznia Górna;;;49.86256;19.432047;PL;Europe/Warsaw;Q2379504;K52;;nom;327043306;;;;76281;Chocznia Górna
@@ -2117,7 +2116,7 @@ TNOSM3328426044;gare;Łódź Stoki;Łódź Stoki;Łódź Stoki;;;51.776563;19.51
 TNOSM3329212910;gare;Łódź Żabieniec;Łódź Żabieniec;Łódź Żabieniec;;;51.793551;19.407019;PL;Europe/Warsaw;Q580;IC|R|TLK|Ł|ŁP|ŁS;;nom;3329212910;Q3088550;;;46789;Łódź Żabieniec
 TNOSM3329977953;gare;Zelczyna;Zelczyna;Zelczyna;;;49.961039;19.745959;PL;Europe/Warsaw;Q8068699;SKA2;;nom;3329977953;Q9389999;;;80135;Zelczyna
 TNOSM3336751971;gare;Zator;Zator;Zator;;;50.002303;19.428586;PL;Europe/Warsaw;Q1281557;SKA2;;nom;3336751971;Q744964;;;78113;Zator
-TNOSM3341813396;gare;Szczukowskie Górki;Szczukowskie Górki;Szczukowskie Górki;;;50.883214;20.52582;PL;Europe/Warsaw;Q5626297;BUS|R;;nom;3341813396;Q966768;;;63628;Szczukowskie Górki
+TNOSM3341813396;gare;Szczukowskie Górki;Szczukowskie Górki;Szczukowskie Górki;;;50.883214;20.52582;PL;Europe/Warsaw;Q5626297;R;;nom;3341813396;Q966768;;;63628;Szczukowskie Górki
 TNOSM3342080313;gare;Leńcze;Leńcze;Leńcze;;;49.892046;19.729948;PL;Europe/Warsaw;Q6538269;K5|K52;;nom;3342080313;Q2264748;;;80176;Leńcze
 TNOSM334290597;gare;Dobino Wałeckie;Dobino Wałeckie;Dobino Wałeckie;;;53.226869;16.524907;PL;Europe/Warsaw;Q557078;R;;nom;334290597;;;;14779;Dobino Wałeckie
 TNOSM334307739;gare;Wałcz Raduń;Wałcz Raduń;Wałcz Raduń;;;53.276822;16.457356;PL;Europe/Warsaw;Q935744;R;;nom;334307739;;;;14738;Wałcz Raduń
@@ -2134,7 +2133,7 @@ TNOSM3393263052;gare;Rzeszów Staroniwa;Rzeszów Staroniwa;Rzeszów Staroniwa;;;
 TNOSM3393485020;gare;Sklęczki;Sklęczki;Sklęczki;;;52.225379;19.405438;PL;Europe/Warsaw;Q202160;Ł;;nom;3393485020;Q2655257;;;32441;Sklęczki
 TNOSM3393520439;gare;Kłodawa;Kłodawa;Kłodawa;;;52.227382;18.890527;PL;Europe/Warsaw;Q542775;Os;;nom;3393520439;Q11752117;;;32250;Kłodawa
 TNOSM33964454;gare;Trzciniec;Trzciniec;Trzciniec;;;53.085802;17.948042;PL;Europe/Warsaw;Q617798;R;;nom;33964454;Q3393109;;;18564;Trzciniec
-TNOSM3402180090;gare;Sulejówek;Sulejówek;Sulejówek;;;52.247785;21.276958;PL;Europe/Warsaw;Q953198;R1|R2|R3;;nom;3402180090;Q3914862;;;38711;Sulejówek
+TNOSM3402180090;gare;Sulejówek;Sulejówek;Sulejówek;;;52.247785;21.276958;PL;Europe/Warsaw;Q953198;R1|R2|R3|RE2|Z2;;nom;3402180090;Q3914862;;;38711;Sulejówek
 TNOSM3402236663;gare;Nowe Dębe Wielkie;Nowe Dębe Wielkie;Nowe Dębe Wielkie;;;52.193372;21.440202;PL;Europe/Warsaw;Q2492580;R1|R2|R3;;nom;3402236663;Q1879699;;;179081;Nowe Dębe Wielkie
 TNOSM3403446122;gare;Siedlce Wschodnie;Siedlce Wschodnie;Siedlce Wschodnie;;;52.144315;22.297863;PL;Europe/Warsaw;Q319813;R|R2|RE1|RE2|RE8;;nom;3403446122;Q2673512;;;177923;Siedlce Wschodnie
 TNOSM3405890977;gare;Puławy Chemia;Puławy Chemia;Puławy Chemia;;;51.446509;21.968265;PL;Europe/Warsaw;Q320007;R|RP;;nom;3405890977;Q2034456;;;50013;Puławy Chemia
@@ -2165,7 +2164,7 @@ TNOSM3433334414;gare;Kamień Łowicki;Kamień Łowicki;Kamień Łowicki;;;51.988
 TNOSM3434245192;gare;Zgierz Kontrewers;Zgierz Kontrewers;Zgierz Kontrewers;;;51.864804;19.340321;PL;Europe/Warsaw;Q104407;R|Ł;;nom;3434245192;Q653460;;;46821;Zgierz Kontrewers
 TNOSM3434307866;gare;Ozorków Nowe Miasto;Ozorków Nowe Miasto;Ozorków Nowe Miasto;;;51.958903;19.269602;PL;Europe/Warsaw;Q628460;R|Ł;;nom;3434307866;Q16585054;;;251557;Ozorków Nowe Miasto
 TNOSM3434316809;gare;Sierpów;Sierpów;Sierpów;;;52.018241;19.222743;PL;Europe/Warsaw;Q2460198;R|Ł;;nom;3434316809;Q1882162;;;32532;Sierpów
-TNOSM3440671925;gare;Skrzynki;Skrzynki;Skrzynki;;;51.602194;19.966966;PL;Europe/Warsaw;Q2458379;BUS|R|Ł;;nom;3440671925;Q2688020;;;47563;Skrzynki
+TNOSM3440671925;gare;Skrzynki;Skrzynki;Skrzynki;;;51.602194;19.966966;PL;Europe/Warsaw;Q2458379;R|Ł;;nom;3440671925;Q2688020;;;47563;Skrzynki
 TNOSM3440709011;gare;Jeleń;Jeleń;Jeleń;;;51.502046;20.07299;PL;Europe/Warsaw;Q7543790;R|Ł;;nom;3440709011;Q2619283;;;49759;Jeleń
 TNOSM3440713740;gare;Bratków;Bratków;Bratków;;;51.455365;20.114997;PL;Europe/Warsaw;Q4818454;R|Ł;;nom;3440713740;Q2145001;;;49742;Bratków
 TNOSM3440817438;gare;Końskie;Końskie;Końskie;;;51.190204;20.422849;PL;Europe/Warsaw;Q776499;R|Ł;;nom;3440817438;Q2924208;;;49502;Końskie
@@ -2203,7 +2202,7 @@ TNOSM3446605803;gare;Bezwola;Bezwola;Bezwola;;;51.771858;22.804228;PL;Europe/War
 TNOSM3446658592;gare;Milanów;Milanów;Milanów;;;51.702086;22.87516;PL;Europe/Warsaw;Q2367741;R;;nom;3446658592;Q11781170;;;40022;Milanów
 TNOSM3446672509;gare;Parczew;Parczew;Parczew;;;51.626205;22.871606;PL;Europe/Warsaw;Q2343396;IC|R;;nom;3446672509;Q2703658;;;40030;Parczew
 TNOSM3446721737;gare;Pałecznica;Pałecznica;Pałecznica;;;51.490411;22.659124;PL;Europe/Warsaw;Q11815109;R;;nom;3446721737;Q16587132;;;251842;Pałecznica
-TNOSM3448228944;gare;Fronołów;Fronołów;Fronołów;;;52.360824;22.929051;PL;Europe/Warsaw;Q2241231;BUS|R|R21|RE2|RE21;;nom;3448228944;Q1881721;;;39784;Fronołów
+TNOSM3448228944;gare;Fronołów;Fronołów;Fronołów;;;52.360824;22.929051;PL;Europe/Warsaw;Q2241231;R|R21|RE2|RE21;;nom;3448228944;Q1881721;;;39784;Fronołów
 TNOSM3455517789;gare;Pruszków;Pruszków;Pruszków;;;52.168223;20.798925;PL;Europe/Warsaw;Q721937;R1|R2|R6|R7|RE1|RE10|Z1;;nom;3455517789;Q2047364;;XPPR;34108;Pruszków
 TNOSM3455523757;gare;Grodzisk Mazowiecki;Grodzisk Mazowiecki;Grodzisk Mazowiecki;;;52.110395;20.623464;PL;Europe/Warsaw;Q924078;EC|IC|IR|R1|R2|R6|R7|RE1|RE10|RE2;;nom;3455523757;Q2673866;;XPGM;34165;Grodzisk Mazowiecki
 TNOSM3455528913;gare;Żyrardów;Żyrardów;Żyrardów;;;52.052463;20.44898;PL;Europe/Warsaw;Q393251;IC|IR|R1|R2|R7|RE1|RE2|TLK;;nom;3455528913;Q2043493;;XPZR;34207;Żyrardów
@@ -2257,17 +2256,17 @@ TNOSM3471946029;gare;Półwieś;Półwieś;Półwieś;;;49.976339;19.575819;PL;E
 TNOSM3473933809;gare;Wielkie Drogi;Wielkie Drogi;Wielkie Drogi;;;49.959541;19.711769;PL;Europe/Warsaw;Q595979;SKA2;;nom;3473933809;Q9373028;;;78022;Wielkie Drogi
 TNOSM3480800097;gare;Dwory;Dwory;Dwory;;;50.045501;19.285611;PL;Europe/Warsaw;Q7342;SKA2;;nom;3480800097;Q2615781;;;77461;Dwory
 TNOSM3482035601;gare;Werbkowice;Werbkowice;Werbkowice;;;50.745518;23.767725;PL;Europe/Warsaw;Q2458339;IC|R|RP;;nom;3482035601;Q9372028;;;66142;Werbkowice
-TNOSM3483644246;gare;Kielce Herbskie;Kielce Herbskie;Kielce Herbskie;;;50.885906;20.602416;PL;Europe/Warsaw;Q102317;BUS|R;;nom;3483644246;Q2480911;;;63503;Kielce Herbskie
-TNOSM3483680603;gare;Kielce Ślichowice;Kielce Ślichowice;Kielce Ślichowice;;;50.888809;20.583875;PL;Europe/Warsaw;Q102317;BUS|R;;nom;3483680603;Q2752755;;;63636;Kielce Ślichowice
-TNOSM3483769435;gare;Piekoszów Łaziska;Piekoszów Łaziska;Piekoszów Łaziska;;;50.870671;20.447278;PL;Europe/Warsaw;Q2439211;BUS|R;;nom;3483769435;Q1875622;;;64782;Piekoszów Łaziska
-TNOSM3483820507;gare;Rykoszyn;Rykoszyn;Rykoszyn;;;50.868181;20.378882;PL;Europe/Warsaw;Q6530375;BUS|R;;nom;3483820507;Q2585398;;;64766;Rykoszyn
-TNOSM3483853553;gare;Wierna Rzeka;Wierna Rzeka;Wierna Rzeka;;;50.865009;20.312626;PL;Europe/Warsaw;Q15697165;BUS|R;;nom;3483853553;Q2261605;;;64774;Wierna Rzeka
-TNOSM3484244101;gare;Małogoszcz;Małogoszcz;Małogoszcz;;;50.850213;20.272798;PL;Europe/Warsaw;Q8065149;BUS|R;;nom;3484244101;Q4637524;;;64709;Małogoszcz
-TNOSM3484492559;gare;Bukowa;Bukowa;Bukowa;;;50.859353;20.201009;PL;Europe/Warsaw;Q4987039;BUS|R;;nom;3484492559;Q1924243;;;64741;Bukowa
-TNOSM3484546880;gare;Ludynia;Ludynia;Ludynia;;;50.851871;20.162671;PL;Europe/Warsaw;Q5202165;BUS|R;;nom;3484546880;Q2415496;;;64725;Ludynia
-TNOSM3484562162;gare;Ludynia Dwór;Ludynia Dwór;Ludynia Dwór;;;50.847428;20.114141;PL;Europe/Warsaw;Q378284;BUS|R;;nom;3484562162;Q2415496;;;64758;Ludynia Dwór
-TNOSM3484686486;gare;Włoszczowa;Włoszczowa;Włoszczowa;;;50.83779;20.014548;PL;Europe/Warsaw;Q611784;BUS|IC|R;;nom;3484686486;Q5016727;;XPWLA;64808;Włoszczowa
-TNOSM3484762106;gare;Czarnca;Czarnca;Czarnca;;;50.823889;19.944698;PL;Europe/Warsaw;Q2322184;BUS|R;;nom;3484762106;Q729589;;;64949;Czarnca
+TNOSM3483644246;gare;Kielce Herbskie;Kielce Herbskie;Kielce Herbskie;;;50.885906;20.602416;PL;Europe/Warsaw;Q102317;R;;nom;3483644246;Q2480911;;;63503;Kielce Herbskie
+TNOSM3483680603;gare;Kielce Ślichowice;Kielce Ślichowice;Kielce Ślichowice;;;50.888809;20.583875;PL;Europe/Warsaw;Q102317;R;;nom;3483680603;Q2752755;;;63636;Kielce Ślichowice
+TNOSM3483769435;gare;Piekoszów Łaziska;Piekoszów Łaziska;Piekoszów Łaziska;;;50.870671;20.447278;PL;Europe/Warsaw;Q2439211;R;;nom;3483769435;Q1875622;;;64782;Piekoszów Łaziska
+TNOSM3483820507;gare;Rykoszyn;Rykoszyn;Rykoszyn;;;50.868181;20.378882;PL;Europe/Warsaw;Q6530375;R;;nom;3483820507;Q2585398;;;64766;Rykoszyn
+TNOSM3483853553;gare;Wierna Rzeka;Wierna Rzeka;Wierna Rzeka;;;50.865009;20.312626;PL;Europe/Warsaw;Q15697165;R;;nom;3483853553;Q2261605;;;64774;Wierna Rzeka
+TNOSM3484244101;gare;Małogoszcz;Małogoszcz;Małogoszcz;;;50.850213;20.272798;PL;Europe/Warsaw;Q8065149;R;;nom;3484244101;Q4637524;;;64709;Małogoszcz
+TNOSM3484492559;gare;Bukowa;Bukowa;Bukowa;;;50.859353;20.201009;PL;Europe/Warsaw;Q4987039;R;;nom;3484492559;Q1924243;;;64741;Bukowa
+TNOSM3484546880;gare;Ludynia;Ludynia;Ludynia;;;50.851871;20.162671;PL;Europe/Warsaw;Q5202165;R;;nom;3484546880;Q2415496;;;64725;Ludynia
+TNOSM3484562162;gare;Ludynia Dwór;Ludynia Dwór;Ludynia Dwór;;;50.847428;20.114141;PL;Europe/Warsaw;Q378284;R;;nom;3484562162;Q2415496;;;64758;Ludynia Dwór
+TNOSM3484686486;gare;Włoszczowa;Włoszczowa;Włoszczowa;;;50.83779;20.014548;PL;Europe/Warsaw;Q611784;IC|R;;nom;3484686486;Q5016727;;XPWLA;64808;Włoszczowa
+TNOSM3484762106;gare;Czarnca;Czarnca;Czarnca;;;50.823889;19.944698;PL;Europe/Warsaw;Q2322184;R;;nom;3484762106;Q729589;;;64949;Czarnca
 TNOSM3484796157;gare;Żelisławice;Żelisławice;Żelisławice;;;50.803813;19.858556;PL;Europe/Warsaw;Q8083242;R;;nom;3484796157;Q1819301;;;64824;Żelisławice
 TNOSM3486037112;gare;Kusięta Nowe;Kusięta Nowe;Kusięta Nowe;;;50.777881;19.261565;PL;Europe/Warsaw;Q553570;R;;nom;3486037112;Q2732279;;;62877;Kusięta Nowe
 TNOSM3488368946;gare;Gajówka;Gajówka;Gajówka;;;50.394593;19.878803;PL;Europe/Warsaw;Q5320731;K22;;nom;3488368946;Q2879860;;;64576;Gajówka
@@ -2297,9 +2296,9 @@ TNOSM3532691894;gare;Milówka;Milówka;Milówka;;;49.555015;19.093549;PL;Europe/
 TNOSM3533251506;gare;Wałki;Wałki;Wałki;;;50.050501;21.142557;PL;Europe/Warsaw;Q6208200;R;;nom;3533251506;Q3135408;;;80937;Wałki
 TNOSM3533328299;gare;Czarna Tarnowska;Czarna Tarnowska;Czarna Tarnowska;;;50.060401;21.248786;PL;Europe/Warsaw;Q3009567;R;;nom;3533328299;Q2134161;;;80945;Czarna Tarnowska
 TNOSM3533354031;gare;Grabiny;Grabiny;Grabiny;;;50.046028;21.332368;PL;Europe/Warsaw;Q2753833;R;;nom;3533354031;Q4328001;;;81463;Grabiny
-TNOSM353355687;gare;Sarnaki;Sarnaki;Sarnaki;;;52.325115;22.879499;PL;Europe/Warsaw;Q2241231;BUS|IC|R|R21|RE2|RE21|TLK;;nom;353355687;Q5455309;;;39776;Sarnaki
-TNOSM353355689;gare;Niemojki;Niemojki;Niemojki;;;52.258748;22.701502;PL;Europe/Warsaw;Q2327638;BUS|IC|R|R21|RE2|RE21|TLK;;nom;353355689;Q2323793;;;39743;Niemojki
-TNOSM353355690;gare;Platerów;Platerów;Platerów;;;52.30116;22.821106;PL;Europe/Warsaw;Q2287477;BUS|R|R21|RE2|RE21;;nom;353355690;Q2490450;;;39768;Platerów
+TNOSM353355687;gare;Sarnaki;Sarnaki;Sarnaki;;;52.325115;22.879499;PL;Europe/Warsaw;Q2241231;IC|R|R21|RE2|RE21|TLK;;nom;353355687;Q5455309;;;39776;Sarnaki
+TNOSM353355689;gare;Niemojki;Niemojki;Niemojki;;;52.258748;22.701502;PL;Europe/Warsaw;Q2327638;IC|R|R21|RE2|RE21|TLK;;nom;353355689;Q2323793;;;39743;Niemojki
+TNOSM353355690;gare;Platerów;Platerów;Platerów;;;52.30116;22.821106;PL;Europe/Warsaw;Q2287477;R|R21|RE2|RE21;;nom;353355690;Q2490450;;;39768;Platerów
 TNOSM3533607400;gare;Dębica Wschodnia;Dębica Wschodnia;Dębica Wschodnia;;;50.062454;21.448863;PL;Europe/Warsaw;Q7262040;R;;nom;3533607400;Q2536766;;;178079;Dębica Wschodnia
 TNOSM3533737256;gare;Ropczyce;Ropczyce;Ropczyce;;;50.078318;21.579148;PL;Europe/Warsaw;Q336375;EN|IC|R;;nom;3533737256;Q2513213;;;81232;Ropczyce
 TNOSM353432408;gare;Kórnik;Kórnik;Kórnik;;;52.282072;17.103194;PL;Europe/Warsaw;Q9351124;IR|Os|R;;nom;353432408;Q2791726;;;30247;Kórnik
@@ -2538,14 +2537,14 @@ TNOSM413568260;gare;Małdyty;Małdyty;Małdyty;;;53.921023;19.736045;PL;Europe/W
 TNOSM413830809;gare;Komorowo Żuławskie;Komorowo Żuławskie;Komorowo Żuławskie;;;54.104794;19.509989;PL;Europe/Warsaw;Q2179732;R;;nom;413830809;Q1985555;;;7955;Komorowo Żuławskie
 TNOSM413830811;gare;Nowa Wieś Cierpkie;Nowa Wieś Cierpkie;Nowa Wieś Cierpkie;;;54.024494;19.656446;PL;Europe/Warsaw;Q554531;R;;nom;413830811;Q11793493;;;10926;Nowa Wieś Cierpkie
 TNOSM413830813;gare;Zielonka Pasłęcka;Zielonka Pasłęcka;Zielonka Pasłęcka;;;53.980895;19.70096;PL;Europe/Warsaw;Q554531;R;;nom;413830813;Q9391019;;;10918;Zielonka Pasłęcka
-TNOSM4154073847;gare;Łódź Niciarniana;Łódź Niciarniana;Łódź Niciarniana;;;51.766816;19.507436;PL;Europe/Warsaw;Q580;BUS|IR|R|Ł|ŁP|ŁS;;nom;4154073847;Q2953918;;;46433;Łódź Niciarniana
+TNOSM4154073847;gare;Łódź Niciarniana;Łódź Niciarniana;Łódź Niciarniana;;;51.766816;19.507436;PL;Europe/Warsaw;Q580;IR|R|Ł|ŁP|ŁS;;nom;4154073847;Q2953918;;;46433;Łódź Niciarniana
 TNOSM4166428889;gare;Toruń Miasto;Toruń Miasto;Toruń Miasto;;;53.012314;18.619719;PL;Europe/Warsaw;Q47554;EC|IC|Os|R;;nom;4166428889;Q2798162;;;19794;Toruń Miasto
 TNOSM417385664;gare;Częstochowa Stradom;Częstochowa Stradom;Częstochowa Stradom;;;50.797321;19.107;PL;Europe/Warsaw;Q103217;EIC|EIP|IC|Os|R|RP|TLK;;nom;417385664;Q764387;;;62802;Częstochowa Stradom
 TNOSM417908787;gare;Lipowe Pole;Lipowe Pole;Lipowe Pole;;;51.155244;20.901088;PL;Europe/Warsaw;Q3415937;R|R8|RE80|RE90;;nom;417908787;Q2077766;;;48124;Lipowe Pole
 TNOSM417908789;gare;Berezów;Berezów;Berezów;;;51.023405;20.83576;PL;Europe/Warsaw;Q1946041;BUS|K2|R|Ł;;nom;417908789;Q2287978;;;48264;Berezów
 TNOSM417908879;gare;Radkowice;Radkowice;Radkowice;;;50.78022;20.528419;PL;Europe/Warsaw;Q4981351;K2|K22|R;;nom;417908879;Q1953216;;;63859;Radkowice
 TNOSM417909427;gare;Sitkówka Nowiny;Sitkówka Nowiny;Sitkówka Nowiny;;;50.818256;20.550413;PL;Europe/Warsaw;Q7531953;K2|K22|R;;nom;417909427;Q609349;;;63800;Sitkówka Nowiny
-TNOSM417910859;gare;Włoszczowa Północ;Włoszczowa Północ;Włoszczowa Północ;;;50.856395;19.946045;PL;Europe/Warsaw;Q611784;BUS|EC|EN|Ex|IC|R|TLK;;nom;417910859;Q2309003;;XPWLP;64899;Włoszczowa Północ
+TNOSM417910859;gare;Włoszczowa Północ;Włoszczowa Północ;Włoszczowa Północ;;;50.856395;19.946045;PL;Europe/Warsaw;Q611784;EC|EN|Ex|IC|R|TLK;;nom;417910859;Q2309003;;XPWLP;64899;Włoszczowa Północ
 TNOSM41943557;gare;Kraków Mydlniki;Kraków Mydlniki;Kraków Mydlniki;;;50.083587;19.859786;PL;Europe/Warsaw;Q31487;K3|K32|K7P|Os|SKA3;;nom;41943557;Q2328335;;;80333;Kraków Mydlniki
 TNOSM420072866;gare;Boguszów-Gorce;Boguszów-Gorce;Boguszów-Gorce;;;50.750379;16.201718;PL;Europe/Warsaw;Q890709;Os|OsP|R|RP;;nom;420072866;Q3198842;;;55228;Boguszów-Gorce
 TNOSM420072902;gare;Boguszów-Gorce Zachód;Boguszów-Gorce Zachód;Boguszów-Gorce Zachód;;;50.762376;16.167235;PL;Europe/Warsaw;Q890709;Os|R;;nom;420072902;Q4524291;;;55269;Boguszów-Gorce Zachód
@@ -2558,8 +2557,8 @@ TNOSM4266794635;gare;Kobyłka Ossów;Kobyłka Ossów;Kobyłka Ossów;;;52.327299
 TNOSM430419516;gare;Przedmoście Święte;Przedmoście Święte;Przedmoście Święte;;;51.190502;16.664645;PL;Europe/Warsaw;Q7253352;Os;;nom;430419516;Q3542186;;;59030;Przedmoście Święte
 TNOSM430979032;gare;Tworków;Tworków;Tworków;;;50.016537;18.249531;PL;Europe/Warsaw;Q672733;Os;;nom;430979032;Q2224370;;;68890;Tworków
 TNOSM4330592806;gare;Garki;Garki;Garki;;;51.539882;17.648675;PL;Europe/Warsaw;Q2523726;R;;nom;4330592806;Q15804568;;;46060;Garki
-TNOSM4337814886;gare;Warszawa Mokry Ług;Warszawa Mokry Ług;Warszawa Mokry Ług;;;52.277278;21.170461;PL;Europe/Warsaw;Q270;R1|R3|R6|R61|RE6;;nom;4337814886;Q30904945;;;258646;Warszawa Mokry Ług
-TNOSM4337814887;gare;Zielonka Bankowa;Zielonka Bankowa;Zielonka Bankowa;;;52.291452;21.154021;PL;Europe/Warsaw;Q199017;R1|R3|R6|R61|RE6;;nom;4337814887;Q9391018;;;36236;Zielonka Bankowa
+TNOSM4337814886;gare;Warszawa Mokry Ług;Warszawa Mokry Ług;Warszawa Mokry Ług;;;52.277278;21.170461;PL;Europe/Warsaw;Q270;R1|R2|R3|R6|R61|R7|RE6;;nom;4337814886;Q30904945;;;258646;Warszawa Mokry Ług
+TNOSM4337814887;gare;Zielonka Bankowa;Zielonka Bankowa;Zielonka Bankowa;;;52.291452;21.154021;PL;Europe/Warsaw;Q199017;R1|R2|R3|R6|R61|R7|RE6;;nom;4337814887;Q9391018;;;36236;Zielonka Bankowa
 TNOSM435218471;gare;Wilkowice;Wilkowice;Wilkowice;;;51.886742;16.541224;PL;Europe/Warsaw;Q555095;Os;;nom;435218471;Q2679263;;;42952;Wilkowice
 TNOSM435218502;gare;Krzycko Wielkie;Krzycko Wielkie;Krzycko Wielkie;;;51.904211;16.452551;PL;Europe/Warsaw;Q554014;Os;;nom;435218502;Q2181365;;;42960;Krzycko Wielkie
 TNOSM435218530;gare;Włoszakowice;Włoszakowice;Włoszakowice;;;51.932742;16.373679;PL;Europe/Warsaw;Q554014;Os;;nom;435218530;Q2476750;;;42978;Włoszakowice
@@ -2828,7 +2827,7 @@ TNOSM639320776;gare;Bobowa-Miasto;Bobowa-Miasto;Bobowa-Miasto;;;49.708191;20.939
 TNOSM639325420;gare;Pławna;Pławna;Pławna;;;49.755013;20.950955;PL;Europe/Warsaw;Q7265081;K7|K7P;;nom;639325420;Q3092656;;;81083;Pławna
 TNOSM639327527;gare;Gromnik;Gromnik;Gromnik;;;49.834393;20.961153;PL;Europe/Warsaw;Q5610185;K3P|K7|K71P|K7P;;nom;639327527;Q578331;;;81059;Gromnik
 TNOSM639332097;gare;Siedliska koło Tuchowa;Siedliska koło Tuchowa;Siedliska koło Tuchowa;;;49.860548;21.019336;PL;Europe/Warsaw;Q7509699;K7|K7P;;nom;639332097;Q9336397;;;81034;Siedliska koło Tuchowa
-TNOSM6405268487;gare;Białystok Nowe Miasto;Białystok Nowe Miasto;Białystok Nowe Miasto;;;53.106445;23.113708;PL;Europe/Warsaw;Q761;BUS|R;;nom;6405268487;Q86664372;;;264544;Białystok Nowe Miasto
+TNOSM6405268487;gare;Białystok Nowe Miasto;Białystok Nowe Miasto;Białystok Nowe Miasto;;;53.106445;23.113708;PL;Europe/Warsaw;Q761;R;;nom;6405268487;Q86664372;;;264544;Białystok Nowe Miasto
 TNOSM642653767;gare;Sędziszów;Sędziszów;Sędziszów;;;50.565882;20.0549;PL;Europe/Warsaw;Q999607;IC|K2|K22|R|SKA2|TLK;;nom;642653767;Q1995786;;;64303;Sędziszów
 TNOSM652833663;gare;Kalety;Kalety;Kalety;;;50.566349;18.888261;PL;Europe/Warsaw;Q1001239;Os|R;;nom;652833663;Q2201315;;;72108;Kalety
 TNOSM6534824787;gare;Rzeszotary;Rzeszotary;Rzeszotary;;;51.249618;16.16585;PL;Europe/Warsaw;Q7385762;Os|OsP;;nom;6534824787;Q2676787;;;53249;Rzeszotary
@@ -2867,9 +2866,9 @@ TNOSM6823214434;gare;Zaklików Miasto;Zaklików Miasto;Zaklików Miasto;;;50.754
 TNOSM683196836;gare;Opoczno;Opoczno;Opoczno;;;51.372863;20.271507;PL;Europe/Warsaw;Q994271;R|Ł;;nom;683196836;Q2090176;;;49700;Opoczno
 TNOSM685116004;gare;Bukowo;Bukowo;Bukowo;;;50.896351;18.106847;PL;Europe/Warsaw;Q1508751;R;;nom;685116004;Q2188144;;;61382;Bukowo
 TNOSM685117204;gare;Tuły;Tuły;Tuły;;;50.875047;18.100218;PL;Europe/Warsaw;Q433056;R;;nom;685117204;Q547501;;;61374;Tuły
-TNOSM6871115540;gare;Hryniewicze;Hryniewicze;Hryniewicze;;;53.07272;23.128079;PL;Europe/Warsaw;Q4447619;BUS|R;;nom;6871115540;Q86664380;;;264545;Hryniewicze
+TNOSM6871115540;gare;Hryniewicze;Hryniewicze;Hryniewicze;;;53.07272;23.128079;PL;Europe/Warsaw;Q4447619;R;;nom;6871115540;Q86664380;;;264545;Hryniewicze
 TNOSM687784817;gare;Kały;Kały;Kały;;;50.827719;18.08137;PL;Europe/Warsaw;Q587588;R;;nom;687784817;Q2328707;;;61440;Kały
-TNOSM688059410;gare;Marcinkowice;Marcinkowice;Marcinkowice;;;49.670965;20.658149;PL;Europe/Warsaw;Q546201;K45|K46;;nom;688059410;;;;81950;Marcinkowice
+TNOSM688059410;gare;Marcinkowice;Marcinkowice;Marcinkowice;;;49.670965;20.658149;PL;Europe/Warsaw;Q546201;K45|K46|K46 BUS;;nom;688059410;;;;81950;Marcinkowice
 TNOSM692631846;gare;Turowo Pomorskie;Turowo Pomorskie;Turowo Pomorskie;;;53.647177;16.72288;PL;Europe/Warsaw;Q557524;R;;nom;692631846;;;;3210;Turowo Pomorskie
 TNOSM6926473178;gare;Pobiedziska Letnisko;Pobiedziska Letnisko;Pobiedziska Letnisko;;;52.474293;17.239751;PL;Europe/Warsaw;Q50992;Os|R;;nom;6926473178;Q771594;;;30981;Pobiedziska Letnisko
 TNOSM6929754674;gare;Rakowice;Rakowice;Rakowice;;;53.478137;19.64153;PL;Europe/Warsaw;Q7286746;R;;nom;6929754674;Q3493351;;;21865;Rakowice
@@ -2976,7 +2975,7 @@ TNOSM8810194825;gare;Studzianki Nowe;Studzianki Nowe;Studzianki Nowe;;;52.537884
 TNOSM8833520936;gare;Olsztyn Jezioro Ukiel;Olsztyn Jezioro Ukiel;Olsztyn Jezioro Ukiel;;;53.783704;20.449672;PL;Europe/Warsaw;Q82765;R;;nom;8833520936;Q86677001;;;265130;Olsztyn Jezioro Ukiel
 TNOSM8838262355;gare;Olsztyn Likusy;Olsztyn Likusy;Olsztyn Likusy;;;53.789518;20.444947;PL;Europe/Warsaw;Q82765;R;;nom;8838262355;Q65192736;;;178137;Olsztyn Likusy
 TNOSM8838262356;gare;Olsztyn Redykajny;Olsztyn Redykajny;Olsztyn Redykajny;;;53.796524;20.435321;PL;Europe/Warsaw;Q82765;R;;nom;8838262356;Q65192737;;;265053;Olsztyn Redykajny
-TNOSM8845849295;gare;Orzechowicze;Orzechowicze;Orzechowicze;;;52.810811;23.158821;PL;Europe/Warsaw;Q3692630;BUS|R;;nom;8845849295;Q86664393;;;264546;Orzechowicze
+TNOSM8845849295;gare;Orzechowicze;Orzechowicze;Orzechowicze;;;52.810811;23.158821;PL;Europe/Warsaw;Q3692630;R;;nom;8845849295;Q86664393;;;264546;Orzechowicze
 TNOSM885339675;gare;Rabka-Zdrój;Rabka-Zdrój;Rabka-Zdrój;;;49.60935;19.951872;PL;Europe/Warsaw;Q1005356;K5;;nom;885339675;;;;78733;Rabka-Zdrój
 TNOSM885461709;gare;Desna-Pustinska;Desná-Pustinská;Desná-Pustinská;;;50.764226;15.335612;CZ;Europe/Prague;Q149592;Os;;nom;885461709;Q11774648;;;249946;Desná-Pustinská
 TNOSM8857465213;gare;Laski;Laski;Laski;;;51.607954;22.841208;PL;Europe/Warsaw;Q6428151;R;;nom;8857465213;;;;263502;Laski
@@ -2993,7 +2992,7 @@ TNOSM9103952876;gare;Wisła Jawornik;Wisła Jawornik;Wisła Jawornik;;;49.669672
 TNOSM913342524;gare;Witanów;Witanów;Witanów;;;52.185943;20.574108;PL;Europe/Warsaw;Q4904556;R2|R3|R61|R7|RE3|RE30|RE61;;nom;913342524;Q2864891;;;34371;Witanów
 TNOSM9177835387;gare;Chocianów;Chocianów;Chocianów;;;51.416417;15.912069;PL;Europe/Warsaw;Q1075607;Os;;nom;9177835387;Q1855251;;;54262;Chocianów
 TNOSM9196161022;gare;Kraków Złocień;Kraków Złocień;Kraków Złocień;;;50.018159;20.050741;PL;Europe/Warsaw;Q31487;K3|K32|K3P|K7|K71P|K7P|SKA3|SKA3P;;nom;9196161022;Q97171505;;;262870;Kraków Złocień
-TNOSM9202583923;gare;Rajsk;Rajsk;Rajsk;;;52.84352;23.141214;PL;Europe/Warsaw;Q5743822;BUS|R;;nom;9202583923;Q3407964;;;24422;Rajsk
+TNOSM9202583923;gare;Rajsk;Rajsk;Rajsk;;;52.84352;23.141214;PL;Europe/Warsaw;Q5743822;R;;nom;9202583923;Q3407964;;;24422;Rajsk
 TNOSM9204371370;gare;Gdańsk Rębiechowo;Gdańsk Rębiechowo;Gdańsk Rębiechowo;;;54.38743;18.446507;PL;Europe/Warsaw;Q1792;BUS|R;;nom;9204371370;Q16485216;;;257521;Gdańsk Rębiechowo
 TNOSM9218764911;gare;Legnica Piekary;Legnica Piekary;Legnica Piekary;;;51.20168;16.197975;PL;Europe/Warsaw;Q106274;Os|OsP;;nom;9218764911;Q2018237;;;53165;Legnica Piekary
 TNOSM9227935495;gare;Gdańsk Strzyża;Gdańsk Strzyża;Gdańsk Strzyża;;;54.391753;18.578834;PL;Europe/Warsaw;Q1792;R;;nom;9227935495;Q16549069;;;257535;Gdańsk Strzyża
@@ -3002,7 +3001,7 @@ TNOSM9253142720;gare;Wrocław Wojszyce;Wrocław Wojszyce;Wrocław Wojszyce;;;51.
 TNOSM9253142730;gare;Wrocław Partynice;Wrocław Partynice;Wrocław Partynice;;;51.06112;16.997667;PL;Europe/Warsaw;Q1799;Os|OsP;;nom;9253142730;Q1921474;;;60186;Wrocław Partynice
 TNOSM92794089;gare;Szadkowice;Szadkowice;Szadkowice;;;51.419646;20.16846;PL;Europe/Warsaw;Q7664063;R|Ł;;nom;92794089;Q2877129;;;49734;Szadkowice
 TNOSM9311389281;gare;Wrocław Strachocin;Wrocław Strachocin;Wrocław Strachocin;;;51.10981;17.145673;PL;Europe/Warsaw;Q1799;Os;;nom;9311389281;;;;263507;Wrocław Strachocin
-TNOSM9312647651;gare;Witowo;Witowo;Witowo;;;52.6392;23.484474;PL;Europe/Warsaw;Q16538241;BUS|R;;nom;9312647651;Q5761657;;;178019;Witowo
+TNOSM9312647651;gare;Witowo;Witowo;Witowo;;;52.6392;23.484474;PL;Europe/Warsaw;Q16538241;R;;nom;9312647651;Q5761657;;;178019;Witowo
 TNOSM9337233868;gare;Złojec;Złojec;Złojec;;;50.768536;23.10099;PL;Europe/Warsaw;Q8076164;RP;;nom;9337233868;Q16620837;;;65987;Złojec
 TNOSM9347667282;gare;Brzozowica;Brzozowica;Brzozowica;;;51.953709;22.607537;PL;Europe/Warsaw;Q2270995;R;;nom;9347667282;Q2229233;;;40865;Brzozowica
 TNOSM9434807202;gare;Miedwiecko;Miedwiecko;Miedwiecko;;;53.364683;14.924698;PL;Europe/Warsaw;Q557464;R;;nom;9434807202;Q2687980;;;2279;Miedwiecko
@@ -3018,7 +3017,7 @@ TNOSM967207656;gare;Dobrzykowice Wrocławskie;Dobrzykowice Wrocławskie;Dobrzyko
 TNOSM967207673;gare;Nadolice Wielkie;Nadolice Wielkie;Nadolice Wielkie;;;51.079863;17.250832;PL;Europe/Warsaw;Q825160;Os;;nom;967207673;;;;58214;Nadolice Wielkie
 TNOSM968778348;gare;Lipki;Lipki;Lipki;;;50.898249;17.372516;PL;Europe/Warsaw;Q1815225;Os|R;;nom;968778348;Q2674508;;;58289;Lipki
 TNOSM9694983209;gare;Kraków Lotnisko;Kraków Airport;Kraków Lotnisko;;;50.07094;19.80128;PL;Europe/Warsaw;Q138828;SKA1;;nom;9694983209;Q1942348;;;235879;Kraków Lotnisko
-TNOSM973681559;gare;Kochanowice;Kochanowice;Kochanowice;;;50.699541;18.748637;PL;Europe/Warsaw;Q3056098;Os|R;;nom;973681559;Q1920659;;;71571;Kochanowice
+TNOSM973681559;gare;Kochanowice;Kochanowice;Kochanowice;;;50.699541;18.748637;PL;Europe/Warsaw;Q3056098;IC|Os|R;;nom;973681559;Q1920659;;;71571;Kochanowice
 TNOSM9794646827;gare;Zgierz;Zgierz;Zgierz;;;51.849464;19.425793;PL;Europe/Warsaw;Q104407;IC|R|TLK|Ł|ŁP|ŁS;;nom;9794646827;Q2436634;;;46805;Zgierz
 TNOSM9814638561;gare;Bojanowo;Bojanowo;Bojanowo;;;51.700677;16.744;PL;Europe/Warsaw;Q987012;Os|OsP|R|RP;;nom;9814638561;Q1983093;;;44511;Bojanowo
 TNOSM9814784092;gare;Klewki;Klewki;Klewki;;;53.736249;20.568282;PL;Europe/Warsaw;Q554064;R;;nom;9814784092;Q2536243;;;9407;Klewki
@@ -3027,8 +3026,8 @@ TNOSM9815748247;gare;Szczawno-Ciemnice;Szczawno-Ciemnice;Szczawno-Ciemnice;;;52.
 TNOSM9815748248;gare;Laski Odrzańskie;Laski Odrzańskie;Laski Odrzańskie;;;52.036055;15.305784;PL;Europe/Warsaw;Q734367;R;;nom;9815748248;Q11753026;;;27623;Laski Odrzańskie
 TNOSM9815773829;gare;Nietków;Nietków;Nietków;;;52.025918;15.343408;PL;Europe/Warsaw;Q734367;R;;nom;9815773829;Q11791787;;;27631;Nietków
 TNOSM985343773;gare;Kołobrzeg Stadion;Kołobrzeg Stadion;Kołobrzeg Stadion;;;54.175029;15.559171;PL;Europe/Warsaw;Q110011;R;;nom;985343773;;;;251584;Kołobrzeg Stadion
-TNOSM9885355592;gare;Dobrowoda;Dobrowoda;Dobrowoda;;;52.561795;23.391586;PL;Europe/Warsaw;Q729237;BUS|R;;nom;9885355592;Q1841335;;;25254;Dobrowoda
-TNOSM9885364019;gare;Policzna;Policzna;Policzna;;;52.589052;23.423351;PL;Europe/Warsaw;Q3692255;BUS|R;;nom;9885364019;Q2401424;;;25262;Policzna
+TNOSM9885355592;gare;Dobrowoda;Dobrowoda;Dobrowoda;;;52.561795;23.391586;PL;Europe/Warsaw;Q729237;R;;nom;9885355592;Q1841335;;;25254;Dobrowoda
+TNOSM9885364019;gare;Policzna;Policzna;Policzna;;;52.589052;23.423351;PL;Europe/Warsaw;Q3692255;R;;nom;9885364019;Q2401424;;;25262;Policzna
 TNOSM9885605156;gare;Kleszczele;Kleszczele;Kleszczele;;;52.564318;23.318983;PL;Europe/Warsaw;Q578026;R;;nom;9885605156;Q2724219;;;25296;Kleszczele
 TNOSM9897719555;gare;Góra Kalwaria;Góra Kalwaria;Góra Kalwaria;;;51.989237;21.192947;PL;Europe/Warsaw;Q985642;R80|RE80|RE90;;nom;9897719555;Q2202213;;;40345;Góra Kalwaria
 TNOSM9914029469;gare;Ostaszewo Toruńskie;Ostaszewo Toruńskie;Ostaszewo Toruńskie;;;53.110357;18.627274;PL;Europe/Warsaw;Q2086362;Os;;nom;9914029469;Q11800580;;;20370;Ostaszewo Toruńskie
@@ -3046,11 +3045,13 @@ TNPKP-124974;gare;Volochysk;Volochysk;Volochysk;;;49.53235;26.208079;UA;Europe/K
 TNPKP-124979;gare;Khmelnytskyi;Khmelnytskyi;Khmelnytskyi;;;49.416149;27.009587;UA;Europe/Kyiv;Q156717;IC+|MP;;gtfs;;;;;124979;Khmelnytskyi
 TNPKP-125013;gare;Vinnytsia;Vinnytsia;Vinnytsia;;;49.23924;28.511061;UA;Europe/Kyiv;Q157144;IC+|MP;;gtfs;;;;;125013;Vinnytsia
 TNPKP-125070;gare;Berdychiv;Berdychiv;Berdychiv;;;49.88934;28.613516;UA;Europe/Kyiv;Q158799;MP;;gtfs;;;;;125070;Berdychiv
+TNPKP-125082;gare;Bila Tserkva;Bila Tserkva;Bila Tserkva;;;49.812169;30.110114;UA;Europe/Kyiv;Q33342;MP;;gtfs;;;;;125082;Bila Tserkva
 TNPKP-125159;gare;Kovel;Kovel;Kovel;;;51.221333;24.712383;UA;Europe/Kyiv;Q156704;IC|MP;;gtfs;;;;;125159;Kovel
 TNPKP-125182;gare;Rivne;Rivne;Rivne;;;50.627966;26.239321;UA;Europe/Kyiv;Q156739;MP;;gtfs;;;;;125182;Rivne
 TNPKP-125200;gare;Kivertsi;Kivertsi;Kivertsi;;;50.830403;25.462245;UA;Europe/Kyiv;Q148890;MP;;gtfs;;;;;125200;Kivertsi
 TNPKP-125205;gare;Ternopil;Ternopil;Ternopil;;;49.553893;25.60102;UA;Europe/Kyiv;Q156743;IC+|MP;;gtfs;;;;;125205;Ternopil
 TNPKP-125266;gare;Lviv-Holovnyi;Lviv-Holovnyi;Lviv-Holovnyi;;;49.840176;23.993765;UA;Europe/Kyiv;Q36036;IC+|MP;;gtfs;;;;;125266;Lviv-Holovnyi
+TNPKP-125508;gare;Oleksandriia;Oleksandriia;Oleksandriia;;;48.674052;33.133113;UA;Europe/Kyiv;Q156734;MP;;gtfs;;;;;125508;Oleksandriia
 TNPKP-125585;gare;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;imeni Tarasa Shevchenka;;;49.20231;31.897269;UA;Europe/Kyiv;Q219595;MP;;gtfs;;;;;125585;imeni Tarasa Shevchenka
 TNPKP-125634;gare;Kremenchuk;Kremenchuk;Kremenchuk;;;49.067547;33.427974;UA;Europe/Kyiv;Q156724;MP;;gtfs;;;;;125634;Kremenchuk
 TNPKP-125653;gare;Romodan;Romodan;Romodan;;;49.992919;33.322316;UA;Europe/Kyiv;Q997325;MP;;gtfs;;;;;125653;Romodan
