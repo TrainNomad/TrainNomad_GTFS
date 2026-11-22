@@ -13,6 +13,7 @@ OSM10579869142;Cronheim;;49.089336;10.661510;DE;Europe/Berlin;f;openstreetmap
 OSM10881907782;Zaprešić;;45.844403;15.813168;HR;Europe/Zagreb;f;openstreetmap
 OSM1104542361;Kojovice;;50.307155;14.656453;CZ;Europe/Prague;f;openstreetmap
 OSM1105631570;Luková;;50.190038;15.486910;CZ;Europe/Prague;f;openstreetmap
+OSM11061976096;Straubing Hafen;;48.891506;12.662168;DE;Europe/Berlin;f;openstreetmap
 OSM11066894375;Líšný;;50.647211;15.212234;CZ;Europe/Prague;f;openstreetmap
 OSM11265330138;Melsungen-Schwarzenberg;8003962;51.146395;9.561228;DE;Europe/Berlin;f;openstreetmap
 OSM1127084098;Bad Saarow-Pieskow;;52.270888;14.070950;DE;Europe/Berlin;f;openstreetmap
@@ -46,6 +47,7 @@ OSM12857426660;Křimov-Suchdol;5453849;50.490171;13.324965;CZ;Europe/Prague;f;op
 OSM12857426661;Domina;5453829;50.479455;13.351597;CZ;Europe/Prague;f;openstreetmap
 OSM12857426664;Černovice u Chomutova;5453499;50.454412;13.363392;CZ;Europe/Prague;f;openstreetmap
 OSM12915148728;Zizenhausen;;47.879403;8.998992;DE;Europe/Berlin;f;openstreetmap
+OSM13015712995;Gunzen;;50.351456;12.333211;DE;Europe/Berlin;f;openstreetmap
 OSM13015944666;Kraslice-Pod vlekem;5476534;50.340181;12.497081;CZ;Europe/Prague;f;openstreetmap
 OSM13016020276;Žírovice-Seníky;5474015;50.148126;12.335506;CZ;Europe/Prague;f;openstreetmap
 OSM13016020277;Františkovy Lázně-Aquaforum;5474010;50.117021;12.359017;CZ;Europe/Prague;f;openstreetmap
@@ -89,9 +91,13 @@ OSM13483546435;Althengstett;;48.726885;8.797432;DE;Europe/Berlin;f;openstreetmap
 OSM13483546436;Calw-Heumaden;;48.709248;8.762230;DE;Europe/Berlin;f;openstreetmap
 OSM13513468487;Magdeburgerforth;;52.233355;12.196595;DE;Europe/Berlin;f;openstreetmap
 OSM13523719977;Marktoberdorf Nord;8001622;47.789488;10.615531;DE;Europe/Berlin;f;openstreetmap
+OSM13931642035;Emlichheim;;52.609588;6.848007;NL;Europe/Amsterdam;f;openstreetmap
 OSM140498785;Frýdlant v Čechách;;50.919022;15.072830;PL;Europe/Warsaw;f;openstreetmap
 OSM140506947;Krásná Studánka;;50.801460;15.038392;CZ;Europe/Prague;f;openstreetmap
 OSM1406403530;Velké Hamry město;;50.719607;15.313490;CZ;Europe/Prague;f;openstreetmap
+OSM14075218893;Probsteierhagen;;54.362492;10.281221;DE;Europe/Berlin;f;openstreetmap
+OSM14361788239;Hoogstede;;52.575903;6.946407;DE;Europe/Berlin;f;openstreetmap
+OSM14367996911;Veldhausen;;52.517792;6.989224;DE;Europe/Berlin;f;openstreetmap
 OSM1454265856;Smržovka-Luční;;50.735025;15.249560;CZ;Europe/Prague;f;openstreetmap
 OSM1494078429;Berndorf Stadt;8100652;47.944825;16.108696;AT;Europe/Vienna;f;openstreetmap
 OSM1499849494;Sedlejovice;;50.636669;15.099105;CZ;Europe/Prague;f;openstreetmap
@@ -431,6 +437,7 @@ OSM639103739;Brunn an der Schneebergbahn;8100706;47.825601;16.157258;AT;Europe/V
 OSM6532116689;Kraslice;5476535;50.330631;12.502793;CZ;Europe/Prague;f;openstreetmap
 OSM660810005;Żmigród;5104359;51.475332;16.901875;PL;Europe/Warsaw;f;openstreetmap
 OSM660914393;Oldřichov v Hájích;;50.855431;15.091760;CZ;Europe/Prague;f;openstreetmap
+OSM6757759997;Laarwald;;52.624978;6.757970;NL;Europe/Amsterdam;f;openstreetmap
 OSM6814014754;Lublin Zachodni;;51.218934;22.508927;PL;Europe/Warsaw;f;openstreetmap
 OSM6844641416;Friedberg;8100185;47.434712;16.053922;AT;Europe/Vienna;f;openstreetmap
 OSM6844644612;Willendorf;;47.789247;16.060617;AT;Europe/Vienna;f;openstreetmap
@@ -442,6 +449,7 @@ OSM6928038102;Grainau;;47.471821;11.023778;DE;Europe/Berlin;f;openstreetmap
 OSM7164421348;Pabianice;5100188;51.660930;19.324976;PL;Europe/Warsaw;f;openstreetmap
 OSM7453270301;Neratovice sídliště;;50.257826;14.507560;CZ;Europe/Prague;f;openstreetmap
 OSM7484127154;Baia Mare;5341638;47.647061;23.552123;UA;Europe/Kiev;f;openstreetmap
+OSM7494496065;Knittelsbach;;49.043429;10.357997;DE;Europe/Berlin;f;openstreetmap
 OSM752552326;Sonnenstraße;;51.212288;6.791394;DE;Europe/Berlin;f;openstreetmap
 OSM7658075785;Hammersbach;;47.466040;11.046395;DE;Europe/Berlin;f;openstreetmap
 OSM7809398546;Eibsee;;47.456368;10.993871;DE;Europe/Berlin;f;openstreetmap
