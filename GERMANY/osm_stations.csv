@@ -99,7 +99,7 @@ Bad Neuenahr-Ahrweiler Ahrweiler Marktbahnhof;50.544;7.094;2026-11-08;;;;;;;
 Bad Neuenahr-Ahrweiler Lohrsdorf Bahnhof Heimersheim/Lohrsdorf;50.549;7.186;2026-11-08;;;;;;;
 Bad Neuenahr-Ahrweiler Walporzheim Bahnhof;50.532;7.079;2026-11-08;;;;;;;
 Bad Neustadt ZOB;50.320;10.216;2026-11-22;30899493;Bad Neustadt (Saale);8000730;50.328228;10.226102;station;1.175
-Bad Ried Bahnhst;48.212;13.478;2026-10-23;;;;;;;
+Bad Ried Bahnhst;48.212;13.478;2026-11-22;;;;;;;
 Bad Saarow, Pieskow Bahnhof;52.271;14.071;2026-10-06;1127084098;Bad Saarow-Pieskow;;52.270888;14.070950;halt;0.013
 Bad Vigaun;47.664;13.124;2026-10-06;2647539030;Bad Vigaun;8101718;47.664273;13.124151;halt;0.015
 Bad Vilbel-Dortelweil Bahnhof;50.207;8.751;2026-11-08;;;;;;;
@@ -275,7 +275,7 @@ Bílina-Chudeřice;50.572;13.787;2026-10-29;78901067;Bílina-Chudeřice;5454799;
 Bílovice nad Svitavou;49.243;16.673;2026-10-29;5644258111;Bílovice nad Svitavou;;49.242751;16.673700;halt;0.034
 Bítovčice;49.363;15.735;2026-10-29;525532756;Bítovčice;;49.362984;15.734760;halt;0.002
 Böckau;49.192;10.448;2026-11-22;;;;;;;
-Böhlerwerk an der Ybbs Bahnhof;47.983;14.754;2026-10-23;;;;;;;
+Böhlerwerk an der Ybbs Bahnhof;47.983;14.754;2026-11-22;;;;;;;
 Böhmhof, Hotel Böhmhof;49.053;13.110;2026-11-01;;;;;;;
 Böllingsdorf;49.372;10.789;2026-11-22;;;;;;;
 Büchelberg/Gun. Durchgangsstr.;49.155;10.753;2026-11-22;;;;;;;
@@ -534,7 +534,7 @@ Forchheim Nord;49.732;11.064;2026-10-06;10068399223;Forchheim Nord;;49.733485;11
 Forchheim Oberfeldstraße;48.970;8.308;2026-10-06;3111136801;Forchheim Oberfeldstraße;;48.970252;8.307849;tram_stop;0.000
 Forndorf;49.163;10.504;2026-11-22;;;;;;;
 Forst, Bahnhof;51.739;14.637;2026-10-06;5546585675;Forst (Lausitz) / Baršć (Łužyca);8004044;51.738935;14.637064;station;0.024
-Fortezza, Stazione di Fortezza;46.789;11.610;2026-10-23;;;;;;;
+Fortezza, Stazione di Fortezza;46.789;11.610;2026-11-22;;;;;;;
 Frankendorf (b. Weihenzell);49.344;10.664;2026-11-22;;;;;;;
 Frankeneck, Bahnhof;49.376;8.051;2026-10-06;11681855136;Frankeneck;;49.375021;8.049993;halt;0.096
 Frankenhofen;49.033;10.475;2026-11-22;;;;;;;
@@ -1066,7 +1066,7 @@ Králíky zastávka;50.087;16.749;2026-10-29;276021543;Králíky zastávka;;50.0
 Krásný Les bažantnice;50.931;15.109;2026-10-29;500637103;Krásný Les bažantnice;5454642;50.930811;15.108979;halt;0.004
 Kröttenbach;49.077;10.643;2026-11-22;;;;;;;
 Ktova;50.528;15.248;2026-10-06;1841489532;Ktová;;50.527946;15.247682;halt;0.001
-Kuchl S-Bahn;47.626;13.142;2026-10-23;;;;;;;
+Kuchl S-Bahn;47.626;13.142;2026-11-22;;;;;;;
 Kuks;50.396;15.885;2026-10-06;958755221;Kuks;;50.395913;15.884647;halt;0.007
 Kumpfmühl;48.270;13.620;2026-10-06;423384342;Kumpfmühl;;48.269687;13.620240;halt;0.003
 Kurzrickenbach Seepark;47.643;9.196;2026-10-06;2510438892;Kurzrickenbach Seepark;8506119;47.643091;9.196068;halt;0.022
@@ -1101,8 +1101,8 @@ Lahntal-Sterzhausen Bahnhof;50.862;8.709;2026-11-08;;;;;;;
 Laibstadt Nord;49.101;11.133;2026-11-22;;;;;;;
 Laim;48.144;11.503;2026-10-06;2468901141;Laim;8020345;48.144497;11.502966;station;0.069
 Lambach Markt;48.094;13.870;2026-10-06;2500106749;Lambach Markt;8101223;48.094345;13.870113;halt;0.018
-Lambach OÖ Bahnhof;48.094;13.889;2026-10-23;;;;;;;
-Lambach OÖ Markt Bahnhst;48.094;13.870;2026-10-23;;;;;;;
+Lambach OÖ Bahnhof;48.094;13.889;2026-11-22;;;;;;;
+Lambach OÖ Markt Bahnhst;48.094;13.870;2026-11-22;;;;;;;
 Lancken-Granitz Garftitz;54.378;13.638;2026-11-08;;;;;;;
 Lancken-Granitz Jagdschloß;54.376;13.620;2026-11-08;;;;;;;
 Lancut;50.081;22.228;2026-10-06;3535835440;Łańcut;5101932;50.081750;22.226396;station;0.087
@@ -1132,7 +1132,7 @@ Lentersdorf;49.394;10.733;2026-11-22;;;;;;;
 Lentersheim;49.079;10.580;2026-11-22;;;;;;;
 Leoben Lerchenfeld Bahnhof;47.385;15.114;2026-10-23;8435021931;Leoben Lerchenfeld;;47.385395;15.114165;halt;0.016
 Leonding;48.274;14.254;2026-10-06;3393246606;Leonding;8101075;48.274032;14.253854;halt;0.007
-Leonding Westbahn Bahnhof;48.274;14.254;2026-10-23;;;;;;;
+Leonding Westbahn Bahnhof;48.274;14.254;2026-11-22;;;;;;;
 Leop-Asemissen, Bhf Oerlingh.;51.978;8.667;2026-11-08;;;;;;;
 Leopoldshafen Viermorgen;49.090;8.401;2026-10-06;3112600889;Leopoldshafen Viermorgen;;49.090316;8.400872;halt;0.013
 Letovice zastávka;49.535;16.577;2026-10-29;5296220938;Letovice zastávka;;49.535737;16.576707;halt;0.074
@@ -1556,7 +1556,7 @@ Paulinzella (Bushaltestelle);50.702;11.102;2026-10-06;13533258763;Paulinzella;80
 Pavlov;50.095;14.166;2026-10-29;24598743;Pavlov;;50.095034;14.165645;halt;0.007
 Pe-Lahde, Bahnhof;52.368;9.010;2026-11-08;;;;;;;
 Peklo nad Zdobnicí;50.122;16.306;2026-10-29;308721581;Peklo nad Zdobnicí;;50.122078;16.305698;halt;0.008
-Pernitz Ortmann Bahnhof;47.893;15.980;2026-10-23;;;;;;;
+Pernitz Ortmann Bahnhof;47.893;15.980;2026-11-22;;;;;;;
 Pertoltice pod Ralskem;50.678;14.718;2026-10-06;306513533;Pertoltice pod Ralskem;5457179;50.677333;14.718275;halt;0.030
 Pesnica;46.609;15.680;2026-11-08;5682631227;Pesnica;;46.609439;15.680572;station;0.009
 Petersdorf;49.360;10.652;2026-11-22;;;;;;;
@@ -1631,7 +1631,7 @@ Prudká zastávka;49.419;16.367;2026-10-29;5301168138;Prudká zastávka;;49.4189
 Przemysl Zasanie;49.794;22.774;2026-10-06;2017171375;Przemyśl Zasanie;5102825;49.793475;22.773728;halt;0.033
 Przeworsk;50.067;22.503;2026-10-06;48311251;Przeworsk;5100195;50.066985;22.505444;station;0.151
 Puch S-Bahn;47.713;13.091;2026-10-23;;;;;;;
-Puch Urstein (FH);47.724;13.088;2026-10-23;;;;;;;
+Puch Urstein (FH);47.724;13.088;2026-11-22;;;;;;;
 Puch b.Hallein Urstein;47.724;13.088;2026-11-08;;;;;;;
 Puch bei Hallein;47.713;13.091;2026-10-06;2647508857;Puch bei Hallein;8101406;47.712976;13.090620;halt;0.014
 Pulawy Miasto;51.427;21.985;2026-10-06;3457368094;Puławy Miasto;;51.427785;21.984232;halt;0.115
@@ -1684,14 +1684,14 @@ Reichenau;49.192;10.507;2026-11-22;;;;;;;
 Reichenbach Kurpark;48.919;8.473;2026-10-06;3104169336;Reichenbach Kurpark;;48.918808;8.473066;halt;0.019
 Reisach (b. Höttingen);49.093;11.039;2026-11-22;;;;;;;
 Reiskirchen-Saasen Bahnhof;50.594;8.882;2026-11-08;;;;;;;
-Reith b. S. Bahnhof;47.301;11.201;2026-10-23;;;;;;;
+Reith b. S. Bahnhof;47.301;11.201;2026-11-22;;;;;;;
 Rejowiec;51.118;23.239;2026-10-06;2172404544;Rejowiec;;51.117695;23.238344;station;0.065
 Remagen Oberwinter Bahnhof;50.611;7.208;2026-11-08;;;;;;;
 Repov;50.407;14.956;2026-10-06;980578973;Řepov;;50.406894;14.955557;halt;0.005
 Reuth (b.Neuendettelsau) Mitte;49.285;10.817;2026-11-22;;;;;;;
 Reuth unter Neuhaus;49.087;11.095;2026-11-22;;;;;;;
 Rheinberg Millingen Bahnhof;51.560;6.556;2026-11-08;;;;;;;
-Ried im Traunkreis Wiesmühle Bahnhst;48.022;14.044;2026-10-23;;;;;;;
+Ried im Traunkreis Wiesmühle Bahnhst;48.022;14.044;2026-11-22;;;;;;;
 Riem;48.143;11.679;2026-10-06;2472241431;Riem;8004160;48.143969;11.677772;station;0.113
 Rietz Bahnhof;47.292;11.025;2026-10-23;2985980335;Rietz;8101457;47.291979;11.024073;halt;0.075
 Riffelriß;47.434;10.986;2026-10-06;1588966929;Riffelriss;;47.434108;10.986306;halt;0.000
@@ -1768,10 +1768,10 @@ Salz Mühlbacher Str.;50.311;10.214;2026-11-22;;;;;;;
 Salz Saaleblick;50.309;10.213;2026-11-22;;;;;;;
 Salz VR-Bank;50.310;10.210;2026-11-22;;;;;;;
 Salzburg Kasern;47.839;13.065;2026-10-06;6863284028;Salzburg Kasern;8101113;47.839015;13.065283;halt;0.016
-Salzburg Liefering S-Bahn;47.824;13.001;2026-10-23;;;;;;;
+Salzburg Liefering S-Bahn;47.824;13.001;2026-11-22;;;;;;;
 Salzburg Parsch;47.799;13.073;2026-10-06;2647493743;Salzburg Parsch;8101481;47.799194;13.073066;halt;0.001
 Sammenheim;49.054;10.751;2026-11-22;;;;;;;
-San Candido, Stazione di San Candido;46.733;12.272;2026-10-23;;;;;;;
+San Candido, Stazione di San Candido;46.733;12.272;2026-11-22;;;;;;;
 Sande(Kr Friesland);53.490;8.032;2026-11-08;;;;;;;
 Sandhagen (Kr LRO);54.053;11.740;2026-10-06;5260051854;Sandhagen (b Bad Doberan);8027120;54.052653;11.740363;halt;0.014
 Sankt Augustin Menden Bf;50.780;7.150;2026-11-15;;;;;;;
@@ -1821,7 +1821,7 @@ Sedlejovice;50.637;15.099;2026-10-06;1499849494;Sedlejovice;;50.636669;15.099105
 Sedlíšťka;49.990;16.065;2026-10-29;24952545;Sedlíšťka;;49.990070;16.064435;halt;0.057
 Sedziszow Malopolski;50.075;21.695;2026-10-06;571569632;Sędziszów Małopolski;;50.075441;21.692860;station;0.133
 Seehausen (UM), Bahnhof;53.221;13.885;2026-10-06;2967255952;Seehausen (Uckermark);8028330;53.221100;13.884448;halt;0.011
-Seekirchen Stadt S-Bahn;47.891;13.120;2026-10-23;;;;;;;
+Seekirchen Stadt S-Bahn;47.891;13.120;2026-11-22;;;;;;;
 Seekirchen/Wallersee Stadt;47.891;13.120;2026-10-06;12430132757;Seekirchen Stadt;;47.891194;13.120068;halt;0.069
 Seelbach (b. Hamm/Sieg) Marienthal Bahnhof Kloster Marienthal;50.739;7.669;2026-11-08;;;;;;;
 Sehlem, Bf;49.908;6.823;2026-10-06;2431400670;Sehlem (Kreis Wittlich);8005510;49.907415;6.823436;halt;0.021
@@ -1832,7 +1832,7 @@ Semanín;49.848;16.474;2026-10-29;5298253333;Semanín;;49.847626;16.474173;halt;
 Seminova Lhota;50.518;15.281;2026-10-06;1841489563;Semínova Lhota;;50.517972;15.280949;halt;0.005
 Senice na Hané zastávka;49.633;17.087;2026-10-29;239967382;Senice na Hané zastávka;;49.632526;17.086651;halt;0.002
 Sevnica;46.010;15.301;2026-10-06;5684864292;Sevnica;;46.009475;15.301171;station;0.023
-Siebenhirten (NÖ) Haltestelle;48.611;16.532;2026-10-23;;;;;;;
+Siebenhirten (NÖ) Haltestelle;48.611;16.532;2026-11-22;;;;;;;
 Siegershausen;47.611;9.168;2026-10-06;2507429705;Siegershausen;8506195;47.610963;9.168083;station;0.014
 Siersleben (Bergwerksbahn);51.608;11.541;2026-10-06;6103488011;Siersleben;;51.608156;11.540972;station;0.010
 Sigmaringen Hanfertal Bhf.;48.100;9.236;2026-10-06;8833454840;Sigmaringen Hanfertal;;48.099786;9.235612;station;0.004
@@ -1886,11 +1886,11 @@ St. Paul im Lavanttal;46.721;14.856;2026-10-06;1936849742;St. Paul im Lavanttal;
 St. Pölten Alpenbahnhof-Kaiserwald;48.198;15.613;2026-10-23;3370037643;St. Pölten Alpenbahnhof-Kaiserwald;8101374;48.198935;15.613881;station;0.104
 St. Pölten Bildungscampus Bahnhof;48.189;15.615;2026-10-23;8933659168;St. Pölten Bildungscampus;8101330;48.189707;15.615070;halt;0.036
 St. Veit an der Triesting Bhf.;47.933;16.149;2026-10-23;685063741;St. Veit an der Triesting;8101623;47.933258;16.149139;halt;0.007
-St.Andrä Bahnhof;46.763;14.841;2026-10-23;;;;;;;
+St.Andrä Bahnhof;46.763;14.841;2026-11-22;;;;;;;
 St.Martin-Sittich Bahnhst (Bundesstraße);46.732;14.153;2026-11-01;;;;;;;
-St.Michael Bahnhof;47.347;15.009;2026-10-23;;;;;;;
+St.Michael Bahnhof;47.347;15.009;2026-11-22;;;;;;;
 St.Paul im Lavanttal Bahnhof;46.721;14.856;2026-10-23;;;;;;;
-St.Stefan Bahnhof;46.807;14.846;2026-10-23;;;;;;;
+St.Stefan Bahnhof;46.807;14.846;2026-11-22;;;;;;;
 Stachovice;49.694;17.932;2026-10-29;3286013254;Stachovice;;49.694046;17.931973;halt;0.029
 Stadice;50.617;13.970;2026-10-29;5685828873;Stadice;5454729;50.616946;13.969650;halt;0.030
 Stara Role;50.246;12.836;2026-10-06;13018268460;Stará Role;5474165;50.245697;12.835800;station;0.011
@@ -2007,7 +2007,7 @@ Třebestovice;50.126;14.961;2026-10-29;795807323;Třebestovice;;50.125615;14.960
 Třebešice;49.932;15.341;2026-10-29;14084256688;Třebešice;;49.931491;15.341450;halt;0.028
 Třebíč - Borovina;49.209;15.853;2026-10-29;24586609;Třebíč-Borovina;;49.208892;15.852848;halt;0.003
 Třinec-Konská (Trzyniec-Końska);49.702;18.641;2026-10-29;3274267648;Třinec-Konská (Trzyniec-Końska);;49.702288;18.640933;halt;0.003
-Udine stazione;46.056;13.242;2026-10-23;;;;;;;
+Udine stazione;46.056;13.242;2026-11-22;;;;;;;
 Uhyst (Spree) Bahnhof;51.363;14.509;2026-10-06;269300990;Uhyst / Delni Wujězd;;51.362858;14.508910;halt;0.015
 Uničov zastávka;49.778;17.145;2026-10-29;252445963;Uničov zastávka;;49.777545;17.144830;halt;0.015
 Unterahorn;49.177;10.412;2026-11-22;;;;;;;
@@ -2190,7 +2190,7 @@ Wettelsheim Bahnhofstr.;48.985;10.886;2026-11-22;;;;;;;
 Wetter, Wetter Bf.;51.386;7.386;2026-10-06;1410447176;Wetter (Ruhr);8006386;51.386379;7.385931;halt;0.039
 Wicklesgreuth Ansbacher Str.;49.318;10.703;2026-11-22;;;;;;;
 Wien Handelskai;48.242;16.385;2026-10-23;3324474926;Wien Handelskai;8101934;48.241945;16.385231;halt;0.016
-Wiener Neustadt Anemonensee;47.812;16.210;2026-10-23;;;;;;;
+Wiener Neustadt Anemonensee;47.812;16.210;2026-11-22;;;;;;;
 Wiener Neustadt Nord;47.835;16.239;2026-10-23;2644603892;Wiener Neustadt Nord;8101791;47.834861;16.238779;halt;0.038
 Wiesa, Bahnhof;50.611;13.024;2026-10-06;359667071;Wiesa;;50.610549;13.023464;halt;0.019
 Wieselburg Bahnhof;48.132;15.142;2026-10-23;4116313089;Wieselburg;;48.132221;15.142512;station;0.034
@@ -2215,7 +2215,7 @@ Wittenbach Ort;49.010;10.388;2026-11-22;;;;;;;
 Witzmannsmühle Ortsrand;49.105;10.416;2026-11-22;;;;;;;
 Wolfegg Alttann, Bahnhof;47.841;9.793;2026-11-15;;;;;;;
 Wolfhagen-Altenhasungen Bahnhof;51.344;9.226;2026-10-06;3985235797;Altenhasungen;8000530;51.343604;9.225886;halt;0.010
-Wolfsberg Reding Bahnhst;46.825;14.846;2026-10-23;;;;;;;
+Wolfsberg Reding Bahnhst;46.825;14.846;2026-11-22;;;;;;;
 Wolfsburg, Fallersleben Bahnhof;52.424;10.717;2026-11-08;;;;;;;
 Wolfurt;47.457;9.741;2026-10-06;281519668;Wolfurt;8100389;47.457086;9.741120;station;0.016
 Wolow;51.333;16.634;2026-10-06;2562003930;Wołów;;51.333927;16.632884;station;0.118
@@ -2303,7 +2303,7 @@ Zöbing Bahnhof;48.491;15.694;2026-10-23;1964153534;Zöbing;8101826;48.490642;15
 Čunín;49.564;16.913;2026-10-29;303417107;Čunín;;49.564044;16.912957;halt;0.053
 Číchov;49.282;15.763;2026-10-29;531396326;Číchov;;49.281968;15.763253;halt;0.018
 Řež;50.179;14.355;2026-10-29;5644374937;Řež;;50.179116;14.355266;halt;0.008
-Šatov, železniční stanice;48.781;16.026;2026-10-23;;;;;;;
+Šatov, železniční stanice;48.781;16.026;2026-11-22;;;;;;;
 Šelešovice;49.250;17.364;2026-10-29;3307231421;Šelešovice;;49.249901;17.363846;halt;0.022
 Šenov;49.777;18.371;2026-10-29;3261712856;Šenov;;49.776531;18.370137;halt;0.052
 Šenov u Nového Jičína;49.611;17.993;2026-10-29;3282497141;Šenov u Nového Jičína;5434154;49.611360;17.993468;halt;0.006
