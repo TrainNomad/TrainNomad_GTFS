@@ -38,6 +38,9 @@ RELATIONS = [
     ("Ljubljana", "Maribor", "SZ"),
     ("Dublin", "Cork", "IRISH_RAIL"),
     ("Belfast", "Coleraine", "NI_RAILWAYS"),
+    ("Vilnius", "Kaunas", "LTG_LINK"),
+    ("Riga", "Daugavpils", "VIVI"),
+    ("Tallinn", "Tartu", "ELRON"),
 ]
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
 OPERATORS_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "operators.json")
@@ -78,12 +81,19 @@ def main() -> int:
     failures = []
     operators = {o["id"] if isinstance(o, dict) else o for o in health.get("operators") or []}
     disabled = disabled_operators()
+    build = health.get("build") or {}  # statistiques de l'assemblage : trips_<OP> pour chaque GTFS chargé
     for a, b, op in RELATIONS:
         if op in disabled:
             rows.append(f"| {a} → {b} | {op} désactivé dans operators.json, non testé |")
             continue
         if operators and op not in operators:
             rows.append(f"| {a} → {b} | {op} absent du réseau, non testé |")
+            continue
+        if build and f"trips_{op}" not in build:
+            # compagnie activée mais son GTFS n'est pas encore publié (workflow « GTFS · … » pas encore lancé,
+            # ex. Croatie activée en semaine, publiée le dimanche) : seuls ses trains transfrontaliers venus d'un
+            # autre flux sont dans le réseau, la relation intérieure ne peut pas répondre
+            rows.append(f"| {a} → {b} | GTFS {op} pas encore publié, non testé |")
             continue
         q = urllib.parse.urlencode({"from": a, "to": b, "date": day, "time": "08:00"})
         try:

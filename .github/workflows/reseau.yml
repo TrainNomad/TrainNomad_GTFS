@@ -10,7 +10,7 @@ name: Réseau Europe (assemblage)
 
 on:
   schedule:
-    - cron: '0 4 * * 0'   # dimanche 04:00 UTC, après les workflows « GTFS · … » (00:05 → 01:30)
+    - cron: '0 4 * * *'   # chaque jour 04:00 UTC : GTFS de la semaine (dimanche 00:05 → 03:05), DB et PKP du jour ; fenêtre décalée d'un jour
   workflow_dispatch:
     inputs:
       forcer:

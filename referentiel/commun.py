@@ -293,6 +293,34 @@ def plain_city_name(name: str) -> str:
     return DISTRICT_PREFIX.sub("", name or "") or name
 
 
+# Municipalités des pays baltes, aux libellés Wikidata incohérents : nom rendu d'après le libellé anglais, seul
+# régulier ("Jelgava Municipality", "Tartu City", "Tartu Rural Municipality").
+# - Lettonie : la municipalité « Jelgavas novads » (Dalbe, Cena, Ozolnieki) est « Jelgava » en français, comme la
+#   ville ; chercher « Jelgava » tombait sur la municipalité et s'arrêtait à Dalbe, à 20 km
+# - Estonie : la ville de Tartu est « municipalité urbaine de Tartu », Viljandi « Viljandi City », et la commune
+#   rurale voisine « Tartu vald » : chercher « Tartu » tombait sur la commune rurale (Kärkna, Tabivere)
+# type Wikidata (P31) -> (suffixe du libellé anglais, nom français, nom anglais)
+MUNICIPALITY_NAMES = {
+    "Q3345345": (" Municipality", "Municipalité de {}", "{} Municipality"),        # novads de Lettonie
+    "Q28122896": (" Rural Municipality", "Commune de {}", "{} Rural Municipality"),  # vald d'Estonie
+    "Q21583365": (" City", "{}", "{}"),                                              # linn d'Estonie : la ville
+}
+
+
+def municipality_names(e: dict, fr: str, en: str) -> tuple[str, str]:
+    """ "Jelgava" (Jelgavas novads) -> ("Municipalité de Jelgava", "Jelgava Municipality") ;
+    "municipalité urbaine de Tartu" -> ("Tartu", "Tartu") ; "Tartu vald" -> ("Commune de Tartu", ...) """
+    suffix, fmt_fr, fmt_en = next(MUNICIPALITY_NAMES[q] for q in e.get("p31", []) if q in MUNICIPALITY_NAMES)
+    label = e.get("en") or ""
+    if not label.endswith(suffix):
+        return fr, en  # libellé inattendu : laissé tel quel
+    base = label[: -len(suffix)].strip()
+    fr = fmt_fr.format(base)
+    if fold(base[:1]) in "aeiouy":
+        fr = fr.replace(f" de {base}", f" d'{base}")  # Municipalité d'Ogre, Commune d'Elva
+    return fr, fmt_en.format(base)
+
+
 def city_of(nominatim: Nominatim, wd: Wikidata, lat: float, lon: float,
             country_hint: str = "") -> tuple[str, dict]:
     """(QID, {fr, en, coord, p17, country}) de la ville dont la limite contient le point."""
@@ -314,6 +342,8 @@ def city_of(nominatim: Nominatim, wd: Wikidata, lat: float, lon: float,
             en = e.get("en") or e.get("fr") or c.get("name_en") or c.get("name")
             if c.get("country") in Nominatim.ZOOM_BY_COUNTRY:
                 fr, en = plain_city_name(fr), plain_city_name(en)
+            if set(e.get("p31", [])) & set(MUNICIPALITY_NAMES):
+                fr, en = municipality_names(e, fr, en)
             return qid, {"fr": fr, "en": en,
                          "coord": e.get("coord"), "p17": e.get("p17", []), "country": c.get("country", "")}
     if c.get("name"):

@@ -87,6 +87,16 @@ DEDUP_AGAINST_EARLIER = {"SNCB", "NS", "TRENORD", "OBB", "CD", "PKP", "ZSSK", "M
 DEDUP_BY_TIMES = {"DB", "DB_REGIO", "FLIXTRAIN"}
 TIME_TOLERANCE = 2
 
+# Horaires estimés : un flux qui s'arrête avant la fin de la fenêtre (PKP et DB ne publient que 30 jours,
+# ÖBB et ZSSK une année d'horaire qui finit au changement de décembre) est prolongé en répétant, pour chaque
+# jour de la semaine, le dernier jour ordinaire connu (au moins PROLONGER_RATIO fois le nombre médian de
+# trajets de ce jour de la semaine sur la période connue : ni jour férié ni fin de flux incomplète). Ces jours
+# sont marqués estimés (section trip.est) ; un vrai horaire publié par un autre flux les remplace.
+# Flux saisonniers exclus : ils s'arrêtent parce que le service s'arrête.
+PROLONGER_EXCLUS = {"TRAVELSKI", "BRITTANY_FERRIES", "IRISH_FERRIES", "TRANSMANCHE"}
+PROLONGER_RATIO = 0.85
+PROLONGER_MIN_DAYS = 14     # flux connu sur moins de jours : pas assez pour en déduire une semaine type
+
 SNCF_TYPES = {
     "Train TER": "SNCF TER",
     "Car TER": "SNCF Car TER",
@@ -528,6 +538,13 @@ def number_key(number: str) -> str:
     return digits or number
 
 
+def merge_days(t: dict, days: int, est: int):
+    """Ajoute à un trajet des jours de circulation, dont `est` estimés : un jour réel d'un côté reste réel."""
+    real = (t["days"] & ~t.get("est", 0)) | (days & ~est)
+    t["days"] |= days
+    t["est"] = t["days"] & ~real
+
+
 def covers(stops, arr, dep, sub_stops, sub_arr, sub_dep, tol=0, missing=0) -> bool:
     """Le trajet (stops, arr, dep) dessert les arrêts de sub_* aux mêmes horaires (à tol minutes près).
     missing : nombre d'arrêts intermédiaires de sub_* que l'autre flux peut ne pas publier
@@ -763,6 +780,10 @@ class StationRef:
             m = re.fullmatch(r"0*(\d{7})", stop_id or "")
             if m:
                 rid = self.by_uic.get(m.group(1))
+        elif op in ("LTG_LINK", "VIVI", "ELRON"):
+            # pays baltes : aucun UIC dans les flux (Lettonie : "atd-1018395", qui n'est pas un UIC) ; gares
+            # rapprochées seulement par codes.csv (referentiel/build_gares_ltg_link.py, _vivi.py, _elron.py)
+            rid = None
         elif op in ("HZPP", "SZ"):
             # Croatie (stop_id interne "i-o523") et Slovénie (stop_id national à 7 chiffres, "1122804" =
             # Ljubljana, qui n'est PAS un UIC) : gares rapprochées seulement par codes.csv
@@ -1150,6 +1171,49 @@ class NetworkBuilder:
                     bits[sid] &= ~(1 << i)
         return bits
 
+    def prolonger(self, op_id, bits, trips) -> int:
+        """Prolonge un flux qui s'arrête avant la fin de la fenêtre (voir PROLONGER_EXCLUS) : ajoute aux services
+        (bits, modifié sur place) les jours suivants, copiés du dernier jour ordinaire de même jour de la semaine.
+        Renvoie le masque des jours estimés (0 : rien de prolongé)."""
+        if op_id in PROLONGER_EXCLUS:
+            return 0
+        counts = [0] * NDAYS  # trajets par jour
+        for sid, n in trips["service_id"].value_counts().items():
+            b = bits.get(sid, 0)
+            while b:
+                low = b & -b
+                counts[low.bit_length() - 1] += n
+                b ^= low
+        last = max((i for i, c in enumerate(counts) if c), default=-1)
+        if last >= NDAYS - 1 or last < PROLONGER_MIN_DAYS:
+            return 0
+        ref = {}  # jour de la semaine -> jour de référence
+        for wd in range(7):
+            # médiane sur toute la période connue : la fin d'un flux vendu à l'avance (Italo) n'a qu'une partie
+            # des trains, elle ne doit pas servir de mesure
+            cand = [i for i in range(last + 1) if self.day_dates[i].weekday() == wd and counts[i]]
+            if cand:
+                med = sorted(counts[i] for i in cand)[len(cand) // 2]
+                ref[wd] = max(i for i in cand if counts[i] >= PROLONGER_RATIO * med)
+        targets, est = defaultdict(int), 0  # jour de référence -> jours qui le copient
+        for i in range(last + 1, NDAYS):
+            r = ref.get(self.day_dates[i].weekday())
+            if r is not None:
+                targets[r] |= 1 << i
+                est |= 1 << i
+        for sid, b in bits.items():
+            add = 0
+            for r, m in targets.items():
+                if b >> r & 1:
+                    add |= m
+            bits[sid] = b | add
+        if est:
+            self.stats[f"jours_estimes_{op_id}"] = bin(est).count("1")
+            logging.info(f"  [{op_id}] horaires connus jusqu'au {self.day_dates[last]} : estimés ensuite jusqu'au "
+                         f"{self.day_dates[-1]} (semaine type : "
+                         f"{', '.join(str(self.day_dates[r]) for r in sorted(ref.values()))})")
+        return est
+
     # -- horaires ------------------------------------------------------------
 
     def load_feed(self, op, path):
@@ -1218,6 +1282,7 @@ class NetworkBuilder:
             canon[sid] = self.stop_for(op_id, raw, agency_tz)
 
         trip_meta = {r["trip_id"]: r for r in trips.to_dict("records")}
+        feed_est = self.prolonger(op_id, bits, trips)
         bounds = np.flatnonzero(trip_ids[1:] != trip_ids[:-1]) + 1
         starts = np.concatenate([[0], bounds])
         ends = np.concatenate([bounds, [len(trip_ids)]])
@@ -1247,6 +1312,7 @@ class NetworkBuilder:
             if not days:
                 self.stats["trips_out_of_window"] += 1
                 continue
+            est = days & feed_est
 
             # suite d'arrêts canoniques (fusion des arrêts consécutifs identiques)
             seq_stops, seq_arr, seq_dep, seq_flags = [], [], [], []
@@ -1292,12 +1358,20 @@ class NetworkBuilder:
                 if not o["days"] & days:
                     continue
                 if covers(o["stops"], o["arr"], o["dep"], seq_stops, seq_arr, seq_dep, tol, miss):
+                    # jours estimés de l'autre flux, publiés ici : le vrai horaire l'emporte
+                    steal = days & ~est & o["est"]
+                    o["days"] &= ~steal
+                    o["est"] &= ~steal
                     days &= ~o["days"]  # déjà fourni par l'autre flux
                     number = number or o["number"]
                 elif covers(seq_stops, seq_arr, seq_dep, o["stops"], o["arr"], o["dep"], tol, miss):
-                    o["days"] &= ~days  # l'autre flux n'en publie qu'une partie : on garde le trajet complet
+                    # l'autre flux n'en publie qu'une partie : on garde le trajet complet (sauf jours estimés ici
+                    # que l'autre flux publie vraiment)
+                    o["days"] &= ~(days & ~(est & ~o["est"]))
+                    o["est"] &= o["days"]
                     number = number or o["number"]
                     self.stats[f"trips_{op_id}_replaced"] += 1
+            est &= days
             if not days:
                 self.stats[f"trips_{op_id}_duplicates"] += 1
                 continue
@@ -1319,10 +1393,10 @@ class NetworkBuilder:
                 self.trips[key] = {
                     "op": trip_op, "tz": tz_idx, "stops": seq_stops, "flags": seq_flags,
                     "arr": seq_arr, "dep": seq_dep, "number": number, "type": type_idx,
-                    "checkin": checkin, "days": days, "feed": op_idx, "numline": numline,
+                    "checkin": checkin, "days": days, "est": est, "feed": op_idx, "numline": numline,
                 }
             else:
-                t["days"] |= days
+                merge_days(t, days, est)
                 self.stats["trips_merged"] += 1
             kept += 1
             if trip_op != op_idx:
@@ -1499,6 +1573,11 @@ class NetworkBuilder:
             number = meta.get("trip_short_name", "")  # "1840" ; vide pour un bus de remplacement
             label = "Bus" if route.get("route_type") == "3" else "Vlak"
             ttype = f"{BALKAN_BRANDS[op_id]} {label}"
+        elif op_id in ("LTG_LINK", "VIVI", "ELRON"):
+            # BALTICS/ingest_baltics_gtfs.py : type dans route_desc ("LTG Link", "Vivi", "Elron"), numéro dans
+            # trip_short_name (Elron : la ligne, "R12")
+            number = meta.get("trip_short_name", "")
+            ttype = meta.get("route_desc", "") or route.get("route_desc", "") or op_id
         elif op_id == "DSB":
             # DENMARK/ingest_dk_gtfs.py : type dans route_desc ("DSB InterCity", "Öresundståg"), numéro sans zéros
             number = meta.get("trip_short_name", "")
@@ -1566,7 +1645,7 @@ class NetworkBuilder:
                         continue
                     shift = 1440 * k
                     new.append({
-                        **a, "days": common,
+                        **a, "days": common, "est": (a.get("est", 0) | (b.get("est", 0) >> k)) & common,
                         "stops": a["stops"] + b["stops"][1:],
                         # gare de jonction : montée et descente permises (terminus de A, origine de B)
                         "flags": a["flags"][:-1] + [0] + b["flags"][1:],
@@ -1575,6 +1654,8 @@ class NetworkBuilder:
                     })
                     a["days"] &= ~common
                     b["days"] &= ~(common << k)
+                    a["est"] = a.get("est", 0) & a["days"]
+                    b["est"] = b.get("est", 0) & b["days"]
                     joined += 1
             if not new:
                 break
@@ -1582,7 +1663,7 @@ class NetworkBuilder:
                 key = (t["op"], tuple(t["stops"]), tuple(t["flags"]), tuple(t["arr"]), tuple(t["dep"]), t["number"],
                        t["type"], t["checkin"])
                 if key in self.trips:
-                    self.trips[key]["days"] |= t["days"]
+                    merge_days(self.trips[key], t["days"], t["est"])
                 else:
                     self.trips[key] = t
             self.trips = {k: t for k, t in self.trips.items() if t["days"]}
@@ -1656,7 +1737,9 @@ class NetworkBuilder:
                         arr = a["arr"] + [x + shift for x in b["arr"][k:]]
                         dep = a["dep"][:i0] + [max(a["arr"][i0 + j], b["dep"][j] + shift) for j in range(k)] + \
                             [x + shift for x in b["dep"][k:]]
-                        new.append({**main, "days": common, "stops": a["stops"] + b["stops"][k:], "flags": flags,
+                        new.append({**main, "days": common,
+                                    "est": (a.get("est", 0) | (b.get("est", 0) >> d)) & common,
+                                    "stops": a["stops"] + b["stops"][k:], "flags": flags,
                                     "arr": arr, "dep": dep, "tz": a["tz"], "number": na or nb or main["number"],
                                     "numline": not (na or nb), "feed": a["feed"]})
                         consumed[id(a)] |= common
@@ -1678,13 +1761,14 @@ class NetworkBuilder:
                 key = (t["op"], tuple(t["stops"]), tuple(t["flags"]), tuple(t["arr"]), tuple(t["dep"]), t["number"],
                        t["type"], t["checkin"])
                 if key in self.trips:
-                    self.trips[key]["days"] |= t["days"]
+                    merge_days(self.trips[key], t["days"], t["est"])
                 else:
                     self.trips[key] = t
         # morceaux repris dans un trajet recollé : retirés ces jours-là (un morceau recollé lui-même recollé à
         # un passage suivant disparaît aussi, seul le trajet complet reste)
         for i, days in consumed.items():
             pieces[i]["days"] &= ~days
+            pieces[i]["est"] = pieces[i].get("est", 0) & pieces[i]["days"]
         self.trips = {k: t for k, t in self.trips.items() if t["days"]}
         self.stats["trips_joined_overlap"] = joined
         self.recollages = samples
@@ -1881,9 +1965,11 @@ class NetworkBuilder:
         words = (NDAYS + 63) // 64
         day_sets, day_set_index = [], {}
         for t in self.trips.values():
-            if t["days"] not in day_set_index:
-                day_set_index[t["days"]] = len(day_sets)
-                day_sets.append(t["days"])
+            t["est"] = t.get("est", 0) & t["days"]
+            for v in (t["days"], t["est"]):
+                if v not in day_set_index:
+                    day_set_index[v] = len(day_sets)
+                    day_sets.append(v)
         day_bits = np.zeros(len(day_sets) * words, np.uint64)
         for i, v in enumerate(day_sets):
             for w in range(words):
@@ -1894,7 +1980,7 @@ class NetworkBuilder:
         route_trip_off = [0]
         route_time_off = [0]
         route_stops, route_flags, route_tz, route_checkin = [], [], [], []
-        t_arr, t_dep, trip_days, trip_number, trip_type, trip_op = [], [], [], [], [], []
+        t_arr, t_dep, trip_days, trip_number, trip_type, trip_op, trip_est = [], [], [], [], [], [], []
         for r in routes:
             route_stops.extend(remap[s] for s in r["stops"])
             route_flags.extend(r["flags"])
@@ -1905,6 +1991,7 @@ class NetworkBuilder:
                 t_arr.extend(t["arr"])
                 t_dep.extend(t["dep"])
                 trip_days.append(day_set_index[t["days"]])
+                trip_est.append(day_set_index[t["est"]])
                 trip_number.append(t["number"])
                 trip_type.append(t["type"])
                 trip_op.append(t["op"])
@@ -1978,6 +2065,8 @@ class NetworkBuilder:
         w.add("trip.days", np.array(trip_days, np.uint32))
         w.add("trip.type", np.array(trip_type, np.uint16))
         w.add("trip.op", np.array(trip_op, np.uint8))
+        # jours estimés de chaque trajet (index dans days.bits, comme trip.days) : voir PROLONGER_EXCLUS
+        w.add("trip.est", np.array(trip_est, np.uint32))
         w.add_strings("trip.number", trip_number)
         w.add("days.bits", day_bits)
         return w

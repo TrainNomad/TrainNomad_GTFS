@@ -296,6 +296,40 @@
     "note": "GTFS national Rejseplanen (ouvert), trains seuls : DSB, DSB Vores Tog, chemins de fer locaux, Öresundståg (Copenhague - Malmö - Göteborg / Kalmar / Karlskrona, opérateur SKANETRAFIKEN) et Snälltåget de nuit (Stockholm - Hambourg / Berlin, opérateur SNALLTAGET). Sans S-tog de Copenhague (banlieue). Après CD (son Railjet Copenhague - Prague, complet ici, remplace le morceau tchèque), avant SNCB et DB : la DB écarte les trains déjà publiés (EuroCity-Express Hambourg - Copenhague)."
   },
   {
+    "id": "LTG_LINK",
+    "name": "LTG Link (Lituanie)",
+    "enabled": false,
+    "gtfs_path": "./BALTICS/lt_gtfs.zip",
+    "script_path": "./BALTICS/ingest_baltics_gtfs.py",
+    "transport_types": [
+      "LTG Link"
+    ],
+    "note": "Désactivé tant que le référentiel des gares n'est pas construit (python referentiel/build_tout.py ltg_link) ; trains intérieurs et Vilnius - Riga. GTFS national officiel de la LTSA (visimarsrutai.lt), trains LTG Link seuls ; numéro gardé seulement quand la ligne n'a qu'un train (le flux numérote des lignes, pas des trains)."
+  },
+  {
+    "id": "VIVI",
+    "name": "Vivi (Lettonie)",
+    "enabled": false,
+    "gtfs_path": "./BALTICS/lv_gtfs.zip",
+    "script_path": "./BALTICS/ingest_baltics_gtfs.py",
+    "transport_types": [
+      "Vivi",
+      "Bānītis"
+    ],
+    "note": "Désactivé tant que le référentiel des gares n'est pas construit (python referentiel/build_tout.py vivi) ; GTFS officiel de Vivi (vivi.lv, CC0, publié sur data.gov.lv par l'ATD) + le Gulbenes-Alūksnes bānītis du GTFS national de l'ATD."
+  },
+  {
+    "id": "ELRON",
+    "name": "Elron (Estonie)",
+    "enabled": false,
+    "gtfs_path": "./BALTICS/ee_gtfs.zip",
+    "script_path": "./BALTICS/ingest_baltics_gtfs.py",
+    "transport_types": [
+      "Elron"
+    ],
+    "note": "Désactivé tant que le référentiel des gares n'est pas construit (python referentiel/build_tout.py elron) ; tous les trains de voyageurs estoniens (eu-gtfs.remix.com/elron.zip) ; numéro = ligne (R12, RE34)."
+  },
+  {
     "id": "SNCB",
     "name": "SNCB/NMBS (Belgique)",
     "enabled": true,

@@ -86,8 +86,9 @@ def load_graph():
     return adj
 
 
-def route(adj, sources, targets):
-    """Chemin le plus rapide d'une des gares de départ à une des gares d'arrivée : liste de gares."""
+def route(adj, sources, targets, weight=None):
+    """Chemin le plus rapide d'une des gares de départ à une des gares d'arrivée : liste de gares.
+    weight(u, v, minutes) : autre coût d'un tronçon (distance, pour le repli de main())."""
     dist = {s: 0.0 for s in sources}
     prev = {}
     heap = [(0.0, s) for s in sources]
@@ -102,7 +103,7 @@ def route(adj, sources, targets):
                 out.append(prev[out[-1]])
             return out[::-1]
         for v, (minutes, _, _) in adj.get(u, {}).items():
-            nd = d + minutes
+            nd = d + (weight(u, v, minutes) if weight else minutes)
             if nd < dist.get(v, math.inf):
                 dist[v] = nd
                 prev[v] = u
@@ -163,13 +164,25 @@ def main():
         if not chain:
             print(f"   ⚪ {name} : pas de tracé complet")
             continue
-        pts = [pa]
-        for u, v in zip(chain, chain[1:]):
-            _, first, encoded = adj[u][v]
-            seg = decode_polyline(encoded)
-            pts += [coords[u]] + (seg if first == u else seg[::-1])
-        pts += [coords[chain[-1]], pb]
-        length = sum(km(p, q) for p, q in zip(pts, pts[1:]))
+
+        def trace(chain):
+            pts = [pa]
+            for u, v in zip(chain, chain[1:]):
+                _, first, encoded = adj[u][v]
+                seg = decode_polyline(encoded)
+                pts += [coords[u]] + (seg if first == u else seg[::-1])
+            pts += [coords[chain[-1]], pb]
+            return pts, sum(km(p, q) for p, q in zip(pts, pts[1:]))
+
+        pts, length = trace(chain)
+        if length > DETOUR_MAX * km(pa, pb):
+            # le plus rapide fait un grand détour (Cherbourg - Dublin par Paris, Londres et Holyhead, le ferry
+            # direct comptant 14 h à vitesse théorique) : le chemin le plus court en distance
+            short = route(adj, stations(ca), stations(cb), weight=lambda u, v, _m: km(coords[u], coords[v]))
+            if short and short != chain:
+                pts2, length2 = trace(short)
+                if length2 < length:
+                    chain, pts, length = short, pts2, length2
         if length > DETOUR_MAX * km(pa, pb):
             print(f"   ⚪ {name} : {length:.0f} km par les voies pour {km(pa, pb):.0f} km à vol d'oiseau, écarté")
             continue

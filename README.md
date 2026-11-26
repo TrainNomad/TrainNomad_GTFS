@@ -49,6 +49,7 @@ opérateur simplement téléchargé depuis son `gtfs_url`. `python pipeline/gtfs
 | GTFS · Croatie (HŽPP) | `croatia` | HZPP (désactivé : référentiel des gares à construire) |
 | GTFS · Slovénie (SŽ) | `slovenia` | SZ (GTFS national DUJPP, agence SŽ seule ; désactivé : référentiel des gares à construire) |
 | GTFS · Danemark (DSB, Öresundståg, Snälltåget) | `denmark` | DSB (GTFS national Rejseplanen, trains seuls ; Öresundståg et Snälltåget en opérateurs SKANETRAFIKEN et SNALLTAGET) |
+| GTFS · Pays baltes (LTG Link, Vivi, Elron) | `baltics` | LTG_LINK, VIVI, ELRON (Lituanie, Lettonie, Estonie ; désactivés : référentiel des gares à construire) |
 | GTFS · Irlande (Irish Rail, Enterprise) | `ireland` | IRISH_RAIL (désactivé : référentiel des gares à construire) |
 | GTFS · Irlande du Nord (NI Railways) | `northern_ireland` | NI_RAILWAYS (TransXChange converti ; désactivé : référentiel des gares à construire) |
 | GTFS · Ferries (Brittany Ferries, Transmanche) | `ferries` | BRITTANY_FERRIES, TRANSMANCHE (désactivés : référentiel des ports à construire) |

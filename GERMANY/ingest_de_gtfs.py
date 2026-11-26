@@ -82,6 +82,8 @@ AMBIGUOUS_GAP = 0.1    # écart de score sous lequel deux gares différentes son
 
 JUNCTION_MAX_GAP = 5  # minutes entre l'arrivée d'un morceau et le départ du suivant au point de jonction
 
+# code de contrat de 6 caractères (au moins un chiffre) devant le nom de la compagnie
+AGENCY_CODE = r"^(?=[0-9A-Z]{0,5}\d)[0-9A-Z]{6}\s+"
 FILES_KEPT = ["agency.txt", "feed_info.txt", "routes.txt", "stops.txt", "trips.txt",
               "calendar.txt", "calendar_dates.txt", "stop_times.txt"]
 
@@ -488,6 +490,10 @@ def build(src: str, dst: str, matcher: StationMatcher, report_csv: str = REPORT_
         cal, cd = read(z, "calendar.txt"), read(z, "calendar_dates.txt")
         st, stops = read(z, "stop_times.txt"), read(z, "stops.txt")
     stats["trips_total"] = len(trips)
+    # depuis novembre 2026, gtfs.de écrit le code du contrat devant le nom de la compagnie ("800759 DB Regio AG
+    # Bayern", "850065 THURBO", "NBRB63 NEB...") : retiré, pour que les marques et les rattachements par nom
+    # (THURBO -> SWISS) restent reconnus
+    agency["agency_name"] = agency["agency_name"].str.replace(AGENCY_CODE, "", regex=True)
 
     # 1. trains uniquement (route_type 2 = rail ; 100-117 = types étendus ferroviaires)
     rt = pd.to_numeric(routes["route_type"], errors="coerce").fillna(-1).astype(int)

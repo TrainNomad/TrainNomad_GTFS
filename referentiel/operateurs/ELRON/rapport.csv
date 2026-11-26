@@ -1,0 +1,121 @@
+id;cle;nom_gtfs;nom_fr;statut;km_osm;nom_osm;ville;ville_source;a_faire
+TNELRON-10738;10738;Kivimäe;Kivimäe;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34120;34120;Valga;Valga;gtfs;;;Commune de Valga;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34149;34149;Hagudi;Hagudi;gtfs;;;Commune de Rapla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34049;34049;Kiviõli;Kiviõli;gtfs;;;Commune de Lüganuse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34223;34223;Vägeva;Vägeva;gtfs;;;Commune de Jõgeva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12295;12295;Vasalemma;Vasalemma;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34163;34163;Palupera;Palupera;gtfs;;;Commune d'Elva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34251;34251;Tallinn-Väike;Tallinn-Väike;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34122;34122;Kirsi;Kirsi;gtfs;;;Tartu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34207;34207;Uhti;Uhti;gtfs;;;Commune de Kambja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34043;34043;Jõgeva;Jõgeva;gtfs;;;Commune de Jõgeva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34105;34105;Ülenurme;Ülenurme;gtfs;;;Commune de Kambja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34201;34201;Valgemetsa;Valgemetsa;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34143;34143;Türi;Türi;gtfs;;;Commune de Türi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34044;34044;Jõhvi;Jõhvi;gtfs;;;Commune de Jõhvi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34059;34059;Ruusa;Ruusa;gtfs;;;Commune de Räpina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10858;10858;Aruküla;Aruküla;gtfs;;;Commune de Raasiku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34152;34152;Vilivere;Vilivere;gtfs;;;Commune de Kohila;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34066;34066;Põlva;Põlva;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-103079;103079;Lohu;Lohu;gtfs;;;Commune de Kohila;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10777;10777;Klooga aedlinn;Klooga aedlinn;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34245;34245;Lehtse;Lehtse;gtfs;;;Commune de Tapa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10729;10729;Rahumäe;Rahumäe;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34104;34104;Vana-Kuuste;Vana-Kuuste;gtfs;;;Commune de Kambja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34151;34151;Kohila;Kohila;gtfs;;;Commune de Kohila;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34061;34061;Ilumetsa;Ilumetsa;gtfs;;;Commune de Räpina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10841;10841;Lahinguvälja;Lahinguvälja;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34239;34239;Sonda;Sonda;gtfs;;;Commune de Lüganuse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34252;34252;Liiva;Liiva;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34139;34139;Võhma;Võhma;gtfs;;;Commune de Põhja-Sakala;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10844;10844;Kehra;Kehra;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34146;34146;Lelle;Lelle;gtfs;;;Commune de Kehtna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34161;34161;Elva;Elva;gtfs;;;Commune d'Elva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12299;12299;Kibuna;Kibuna;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10756;10756;Keila;Keila;gtfs;;;Keila;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34010;34010;Vaivara;Vaivara;gtfs;;;Narva-Jõesuu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34142;34142;Taikse;Taikse;gtfs;;;Commune de Türi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10742;10742;Pääsküla;Pääsküla;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34200;34200;Kiidjärve;Kiidjärve;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34166;34166;Mägiste;Mägiste;gtfs;;;Commune d'Otepää;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34165;34165;Puka;Puka;gtfs;;;Commune d'Otepää;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10872;10872;Vesse;Vesse;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10137;10137;Tallinn;Tallinn;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12304;12304;Jaanika;Jaanika;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34158;34158;Tõravere;Tõravere;gtfs;;;Commune de Nõo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12668;12668;Kasemetsa;Kasemetsa;gtfs;;;Commune de Saku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34204;34204;Rebase;Rebase;gtfs;;;Commune de Kambja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-147373;147373;Turba;Turba;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34197;34197;Holvandi;Holvandi;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10735;10735;Hiiu;Hiiu;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34096;34096;Nõo;Nõo;gtfs;;;Commune de Nõo;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12941;12941;Roobuka;Roobuka;gtfs;;;Commune de Saku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10750;10750;Valingu;Valingu;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10416;10416;Järve;Järve;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34242;34242;Rakvere;Rakvere;gtfs;;;Rakvere;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34234;34234;Oru;Oru;gtfs;;;Kohtla-Järve;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34101;34101;Ropka;Ropka;gtfs;;;Commune de Kambja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34014;34014;Keava;Keava;gtfs;;;Commune de Kehtna;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34250;34250;Urda;Urda;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-123924;123924;Riia raudteejaam;Riia raudteejaam;gtfs;;;Riga;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34202;34202;Vastse-Kuuste;Vastse-Kuuste;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10745;10745;Laagri;Laagri;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-94014;94014;Kloogaranna;Kloogaranna;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34006;34006;Kadrina;Kadrina;gtfs;;;Commune de Kadrina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-93453;93453;Padula;Padula;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10764;10764;Niitvälja;Niitvälja;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10410;10410;Tondi;Tondi;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12301;12301;Laitse;Laitse;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34153;34153;Aardla;Aardla;gtfs;;;Tartu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34226;34226;Tamsalu;Tamsalu;gtfs;;;Commune de Tapa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34214;34214;Kärkna;Kärkna;gtfs;;;Commune de Tartu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34008;34008;Tabivere;Tabivere;gtfs;;;Commune de Tartu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10786;10786;Laoküla;Laoküla;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-139105;139105;Valdeku;Valdeku;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34193;34193;Orava;Orava;gtfs;;;Commune de Võru;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34228;34228;Tapa;Tapa;gtfs;;;Commune de Tapa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34113;34113;Püssi;Püssi;gtfs;;;Commune de Lüganuse;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10768;10768;Klooga;Klooga;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34009;34009;Jäneda;Jäneda;gtfs;;;Commune de Tapa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34015;34015;Käru;Käru;gtfs;;;Commune de Türi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34148;34148;Rapla;Rapla;gtfs;;;Commune de Rapla;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10865;10865;Lagedi;Lagedi;gtfs;;;Commune de Rae;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10835;10835;Mustjõe;Mustjõe;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34112;34112;Tartu;Tartu;gtfs;;;Tartu;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34199;34199;Taevaskoja;Taevaskoja;gtfs;;;Commune de Põlva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34137;34137;Sürgavere;Sürgavere;gtfs;;;Commune de Põhja-Sakala;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10832;10832;Aegviidu;Aegviidu;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34138;34138;Olustvere;Olustvere;gtfs;;;Commune de Põhja-Sakala;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10862;10862;Kulli;Kulli;gtfs;;;Commune de Raasiku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34170;34170;Sangaste;Sangaste;gtfs;;;Commune de Valga;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34103;34103;Reola;Reola;gtfs;;;Commune de Kastre;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10747;10747;Saue;Saue;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10781;10781;Põllküla;Põllküla;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10413;10413;Lilleküla;Lilleküla;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10790;10790;Paldiski;Paldiski;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-93449;93449;Kitseküla;Kitseküla;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34048;34048;Narva;Narva;gtfs;;;Narva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10732;10732;Nõmme;Nõmme;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34140;34140;Ollepa;Ollepa;gtfs;;;Commune de Türi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12307;12307;Kulna;Kulna;gtfs;;;Commune de Lääne-Harju;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12942;12942;Saku;Saku;gtfs;;;Commune de Saku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-12680;12680;Kiisa;Kiisa;gtfs;;;Commune de Saku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34224;34224;Rakke;Rakke;gtfs;;;Commune de Väike-Maarja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34136;34136;Viljandi;Viljandi;gtfs;;;Viljandi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-94017;94017;Riisipere;Riisipere;gtfs;;;Commune de Saue;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34117;34117;Koidula;Koidula;gtfs;;;Commune de Setomaa;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34000;34000;Männiku;Männiku;gtfs;;;Commune de Saku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34222;34222;Pedja;Pedja;gtfs;;;Commune de Jõgeva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10850;10850;Parila;Parila;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34005;34005;Kiltsi;Kiltsi;gtfs;;;Commune de Väike-Maarja;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34248;34248;Nelijärve;Nelijärve;gtfs;;;Commune d'Anija;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34168;34168;Keeni;Keeni;gtfs;;;Commune d'Otepää;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34022;34022;Kabala;Kabala;gtfs;;;Commune de Vinni;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10877;10877;Ülemiste;Ülemiste;gtfs;;;Tallinn;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34019;34019;Kaarepere;Kaarepere;gtfs;;;Commune de Jõgeva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-10853;10853;Raasiku;Raasiku;gtfs;;;Commune de Raasiku;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34236;34236;Kohtla-Nõmme;Kohtla-Nõmme;gtfs;;;Commune de Jõhvi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34052;34052;Veriora;Veriora;gtfs;;;Commune de Räpina;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34016;34016;Kärevere;Kärevere;gtfs;;;Commune de Türi;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
+TNELRON-34115;34115;Peedu;Peedu;gtfs;;;Commune d'Elva;wikidata;gare absente d'OpenRailwayMap : relancer avec --avec-overpass
