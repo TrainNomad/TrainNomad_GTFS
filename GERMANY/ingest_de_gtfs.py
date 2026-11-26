@@ -25,6 +25,7 @@ Usage :
     python GERMANY/ingest_de_gtfs.py
 """
 import difflib
+import gzip
 import io
 import logging
 import os
@@ -99,12 +100,37 @@ NOISE = {"bahnhof", "bf", "bhf", "hbf", "zob", "busbf", "bushaltestelle", "s", "
 DOWNLOAD_TRIES = 4
 
 
+def gunzip_zip(dest: str) -> bool:
+    """Fichier gzip qui contient un zip (Content-Encoding gzip non décodé) : décompressé sur place. True si c'est
+    maintenant un zip valide."""
+    with open(dest, "rb") as f:
+        if f.read(2) != b"\x1f\x8b":
+            return False
+    tmp = dest + ".gunzip"
+    try:
+        with gzip.open(dest, "rb") as src, open(tmp, "wb") as out:
+            shutil.copyfileobj(src, out, 1 << 20)
+    except (OSError, EOFError) as e:
+        logging.warning(f"   gzip illisible ({e})")
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        return False
+    if not zipfile.is_zipfile(tmp):
+        os.remove(tmp)
+        return False
+    os.replace(tmp, dest)
+    logging.info("   réponse compressée en gzip : décompressée")
+    return True
+
+
 def download(url: str, dest: str, extra_headers: dict | None = None) -> None:
     """Télécharge un zip. Une connexion coupée en route (ÖBB, 170 Mo) laisse un fichier tronqué, sans la table
     des matières du zip qui est à la fin : le téléchargement reprend là où il s'est arrêté (Range), sinon depuis
     le début, jusqu'à DOWNLOAD_TRIES fois. Une erreur HTTP (404...) n'est pas réessayée."""
     logging.info(f"📥 Téléchargement {url}")
-    headers = {"User-Agent": "Mozilla/5.0", **(extra_headers or {})}
+    # Accept-Encoding: identity : requests annonce gzip par défaut et r.raw ne décompresse pas ; ÖBB renvoie alors
+    # son zip recompressé en gzip (172 Mo au lieu de 173), illisible comme zip (novembre 2026)
+    headers = {"User-Agent": "Mozilla/5.0", "Accept-Encoding": "identity", **(extra_headers or {})}
     if os.path.exists(dest):
         os.remove(dest)
     expected = None
@@ -131,6 +157,8 @@ def download(url: str, dest: str, extra_headers: dict | None = None) -> None:
                             f"essai {attempt}/{DOWNLOAD_TRIES}")
             continue
         if zipfile.is_zipfile(dest):
+            break
+        if gunzip_zip(dest):  # serveur qui compresse quand même en gzip malgré identity
             break
         # réponse 200 qui n'est pas un zip (page d'erreur, anti-robot, maintenance) : on recommence de zéro
         with open(dest, "rb") as f:
